@@ -1,0 +1,695 @@
+[
+  {
+    "productId": "mennie-canada:fg-6l",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "mennie-canada",
+    "category": "entry-doors",
+    "modelNumber": "FG-6L",
+    "sourceUrl": "https://menniecanada.com/products/mahogany-doors/fg-6l/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "draft"
+  },
+  {
+    "productId": "mennie-canada:fir-grain-crf",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "mennie-canada",
+    "category": "entry-doors",
+    "modelNumber": "CRF",
+    "sourceUrl": "https://menniecanada.com/products/fir/fir-grain-crf/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "draft"
+  },
+  {
+    "productId": "mennie-canada:fir-grain-crf-cg",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "mennie-canada",
+    "category": "entry-doors",
+    "modelNumber": "CRF-CG",
+    "sourceUrl": "https://menniecanada.com/products/fir/fir-grain-crf-cg/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "draft"
+  },
+  {
+    "productId": "mennie-canada:fir-grain-crf-sg",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "mennie-canada",
+    "category": "entry-doors",
+    "modelNumber": "CRF-SG",
+    "sourceUrl": "https://menniecanada.com/products/fir/fir-grain-crf-sg/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "draft"
+  },
+  {
+    "productId": "mennie-canada:fir-grain-crfs",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "mennie-canada",
+    "category": "entry-doors",
+    "modelNumber": "CRFS",
+    "sourceUrl": "https://menniecanada.com/products/fir/fir-grain-crfs/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "draft"
+  },
+  {
+    "productId": "mennie-canada:fir-s1k",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "mennie-canada",
+    "category": "entry-doors",
+    "modelNumber": "FIR-S1K",
+    "sourceUrl": "https://menniecanada.com/products/fir/fir-s1k/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "draft"
+  },
+  {
+    "productId": "mennie-canada:fir-s2k",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "mennie-canada",
+    "category": "entry-doors",
+    "modelNumber": "FIR-S2K",
+    "sourceUrl": "https://menniecanada.com/products/fir/fir-s2k/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "draft"
+  },
+  {
+    "productId": "mennie-canada:mah-5l",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "mennie-canada",
+    "category": "entry-doors",
+    "modelNumber": "MAH-5L",
+    "sourceUrl": "https://menniecanada.com/products/mahogany-doors/mah-5l/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "draft"
+  },
+  {
+    "productId": "mennie-canada:mah-gp",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "mennie-canada",
+    "category": "entry-doors",
+    "modelNumber": "MAH-GP",
+    "sourceUrl": "https://menniecanada.com/products/mahogany-doors/mah-gp/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "draft"
+  },
+  {
+    "productId": "mennie-canada:sm-8-fl-1p-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "mennie-canada",
+    "category": "entry-doors",
+    "modelNumber": "SM-8-FL-1P",
+    "sourceUrl": "https://menniecanada.com/products/smooth-doors/sm-8-fl-1p-2/",
+    "possibleAliasesReviewed": [
+      {
+        "productId": "mennie-canada:sm8-f",
+        "nameSimilarity": 0.913,
+        "modelMatch": false
+      }
+    ],
+    "enriched": true,
+    "editorialStatus": "draft"
+  },
+  {
+    "productId": "mennie-canada:sm-fl-1p",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "mennie-canada",
+    "category": "entry-doors",
+    "modelNumber": "SM-FL-1P",
+    "sourceUrl": "https://menniecanada.com/products/smooth-doors/sm-fl-1p/",
+    "possibleAliasesReviewed": [
+      {
+        "productId": "mennie-canada:sm-f",
+        "nameSimilarity": 0.913,
+        "modelMatch": false
+      }
+    ],
+    "enriched": true,
+    "editorialStatus": "draft"
+  },
+  {
+    "productId": "mennie-canada:wg8-f-3mm",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "mennie-canada",
+    "category": "entry-doors",
+    "modelNumber": "WG8-F-3MM",
+    "sourceUrl": "https://menniecanada.com/products/oak-grain/wg8-f-3mm/",
+    "possibleAliasesReviewed": [],
+    "enriched": false,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "novatech:2-panel-blank-top",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "novatech",
+    "category": "entry-doors",
+    "modelNumber": null,
+    "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/2-panel-blank-top.html",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "novatech:2-panel-camber-top-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "novatech",
+    "category": "entry-doors",
+    "modelNumber": null,
+    "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/2-panel-camber-top-2.html",
+    "possibleAliasesReviewed": [],
+    "enriched": false,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "novatech:3-panel-scroll-top",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "novatech",
+    "category": "entry-doors",
+    "modelNumber": null,
+    "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/3-panel-scroll-top.html",
+    "possibleAliasesReviewed": [],
+    "enriched": false,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "novatech:4-panneaux-acier",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "novatech",
+    "category": "entry-doors",
+    "modelNumber": null,
+    "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/4-panneaux-acier.html",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "novatech:6-panneaux-acier-white",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "novatech",
+    "category": "entry-doors",
+    "modelNumber": null,
+    "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/6-panneaux-acier-white.html",
+    "possibleAliasesReviewed": [],
+    "enriched": false,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "novatech:era",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "novatech",
+    "category": "entry-doors",
+    "modelNumber": null,
+    "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/era.html",
+    "possibleAliasesReviewed": [],
+    "enriched": false,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "novatech:inox",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "novatech",
+    "category": "entry-doors",
+    "modelNumber": null,
+    "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/inox.html",
+    "possibleAliasesReviewed": [],
+    "enriched": false,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "novatech:london",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "novatech",
+    "category": "entry-doors",
+    "modelNumber": null,
+    "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/london.html",
+    "possibleAliasesReviewed": [],
+    "enriched": false,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "novatech:orleans",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "novatech",
+    "category": "entry-doors",
+    "modelNumber": null,
+    "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/orleans.html",
+    "possibleAliasesReviewed": [],
+    "enriched": false,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "novatech:oso-model",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "novatech",
+    "category": "entry-doors",
+    "modelNumber": null,
+    "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/oso-model.html",
+    "possibleAliasesReviewed": [],
+    "enriched": false,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "novatech:soho-entrydoor",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "novatech",
+    "category": "entry-doors",
+    "modelNumber": null,
+    "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/soho-entrydoor.html",
+    "possibleAliasesReviewed": [],
+    "enriched": false,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "novatech:sydney",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "novatech",
+    "category": "entry-doors",
+    "modelNumber": null,
+    "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/sydney.html",
+    "possibleAliasesReviewed": [],
+    "enriched": false,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "novatech:tao",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "novatech",
+    "category": "entry-doors",
+    "modelNumber": null,
+    "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/tao.html",
+    "possibleAliasesReviewed": [],
+    "enriched": false,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "novatech:uno",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "novatech",
+    "category": "entry-doors",
+    "modelNumber": null,
+    "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/uno.html",
+    "possibleAliasesReviewed": [],
+    "enriched": false,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "novatech:vertical-accent",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "novatech",
+    "category": "entry-doors",
+    "modelNumber": null,
+    "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/vertical-accent.html",
+    "possibleAliasesReviewed": [],
+    "enriched": false,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "novatech:vertical-accent-1",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "novatech",
+    "category": "entry-doors",
+    "modelNumber": null,
+    "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/vertical-accent-1.html",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "novatech:victoria",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "novatech",
+    "category": "entry-doors",
+    "modelNumber": null,
+    "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/victoria.html",
+    "possibleAliasesReviewed": [],
+    "enriched": false,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "novatech:vog",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "novatech",
+    "category": "entry-doors",
+    "modelNumber": null,
+    "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/vog.html",
+    "possibleAliasesReviewed": [],
+    "enriched": false,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "richersons:sg10",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "richersons",
+    "category": "entry-doors",
+    "modelNumber": "SG10",
+    "sourceUrl": "https://www.richersonsdoors.com/flush-glazed",
+    "possibleAliasesReviewed": [],
+    "enriched": false,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "richersons:sg12",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "richersons",
+    "category": "entry-doors",
+    "modelNumber": "SG12",
+    "sourceUrl": "https://www.richersonsdoors.com/flush-glazed",
+    "possibleAliasesReviewed": [
+      {
+        "productId": "richersons:sg3l",
+        "nameSimilarity": 0.941,
+        "modelMatch": false
+      }
+    ],
+    "enriched": false,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "richersons:sg4h",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "richersons",
+    "category": "entry-doors",
+    "modelNumber": "SG4H",
+    "sourceUrl": "https://www.richersonsdoors.com/craftsman",
+    "possibleAliasesReviewed": [],
+    "enriched": false,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "richersons:wg12",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "richersons",
+    "category": "entry-doors",
+    "modelNumber": "WG12",
+    "sourceUrl": "https://www.richersonsdoors.com/flush-glazed",
+    "possibleAliasesReviewed": [
+      {
+        "productId": "richersons:wg23",
+        "nameSimilarity": 0.958,
+        "modelMatch": false
+      },
+      {
+        "productId": "richersons:wg27",
+        "nameSimilarity": 0.958,
+        "modelMatch": false
+      }
+    ],
+    "enriched": false,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:dra1p",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRA1P",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/rustic-fiberglass-doors/dra1p-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:dra2a",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRA2A",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/rustic-fiberglass-doors/dra2a-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drg00",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRG00",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/wood-grain-fiberglass/drg00-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drg10b",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRG10B",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/wood-grain-fiberglass/drg10b-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drg12",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRG12",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/wood-grain-fiberglass/drg12-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drg49",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRG49",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/wood-grain-fiberglass/drg49-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drg63",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRG63",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/wood-grain-fiberglass/drg63-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drs10b",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRS10B",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs10b-mini-blinds-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drs12",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRS12",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs12-2/",
+    "possibleAliasesReviewed": [
+      {
+        "productId": "trimlite:drs1k",
+        "nameSimilarity": 0.973,
+        "modelMatch": false
+      },
+      {
+        "productId": "trimlite:drs2k",
+        "nameSimilarity": 0.973,
+        "modelMatch": false
+      }
+    ],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drs2b",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRS2B",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs2b-2-panels/",
+    "possibleAliasesReviewed": [
+      {
+        "productId": "trimlite:drs2k",
+        "nameSimilarity": 0.889,
+        "modelMatch": false
+      }
+    ],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drs3c",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRS3C",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs3c-2/",
+    "possibleAliasesReviewed": [
+      {
+        "productId": "trimlite:drs1k",
+        "nameSimilarity": 0.946,
+        "modelMatch": false
+      },
+      {
+        "productId": "trimlite:drs2k",
+        "nameSimilarity": 0.946,
+        "modelMatch": false
+      }
+    ],
+    "enriched": true,
+    "editorialStatus": "draft"
+  },
+  {
+    "productId": "trimlite:drs50",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRS50",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs50-5-panel-shaker-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "draft"
+  },
+  {
+    "productId": "trimlite:drs6c",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRS6C",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs6c-craftsman-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:flush-glazed-applied-mullion-smooth-skin-exterior-fiberglass-door",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/flush-glazed-applied-mullion/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:sla2b",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "SLA2B",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/rustic-fiberglass-doors/sla2b/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:sls10b",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "SLS10B",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/sls10b-mini-blinds-smooth-skin-exterior-fiberglass-door-sidelite/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:sls3c",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": "SLS3C",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/sls3c-2-panel-shaker-sidelite-with-2-lite-patina-decorative-glass/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "draft"
+  },
+  {
+    "productId": "trimlite:sls49",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "SLS49",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/sls49-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "vinyl-pro:4-9-16-casement",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "vinyl-pro",
+    "category": "windows",
+    "modelNumber": null,
+    "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-casement/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "draft"
+  }
+]

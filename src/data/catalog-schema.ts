@@ -3,6 +3,49 @@ export const catalogCategories = ['windows', 'entry-doors', 'patio-doors', 'door
 export type CatalogCategory = (typeof catalogCategories)[number];
 export type CatalogSpecificationValue = string | string[];
 
+export type SourceReferenceStatus = 'active' | 'redirected' | 'unavailable' | 'stale' | 'blocked';
+
+export type CatalogSourceReference = {
+  supplier: string;
+  sourceUrl: string;
+  extractedAt: string;
+  status: SourceReferenceStatus;
+  sourceDocument?: string;
+  localPath?: string;
+};
+
+export type CatalogFact = {
+  value: CatalogSpecificationValue;
+  sources: CatalogSourceReference[];
+};
+
+export type CatalogEditorial = {
+  status: 'draft' | 'incomplete';
+  summary: string | null;
+  bestFor: string | null;
+  keyFeatures: string[];
+  considerations: string[];
+  configurationNotes: string | null;
+  seoTitle: string | null;
+  metaDescription: string | null;
+  generatedAt: string;
+};
+
+export type CatalogEnrichment = {
+  productId: string;
+  sourceFacts: {
+    manufacturer: CatalogFact;
+    sourceUrl: CatalogFact;
+    sourceDescription: string | null;
+    modelNumber: CatalogFact | null;
+    collection: CatalogFact | null;
+    normalized: Record<string, CatalogFact>;
+    sourceDocuments: CatalogSourceReference[];
+    sourceMedia: CatalogSourceReference[];
+  };
+  editorial: CatalogEditorial;
+};
+
 export type CatalogProduct = {
   id: string;
   manufacturer: string;
@@ -20,6 +63,8 @@ export type CatalogProduct = {
   documents: string[];
   specifications: Record<string, CatalogSpecificationValue>;
   lastVerified: string;
+  sourceFacts?: CatalogEnrichment['sourceFacts'];
+  editorial?: CatalogEditorial;
 };
 
 const isRecord = (value: unknown): value is Record<string, unknown> =>
@@ -160,16 +205,43 @@ export function mergeCatalogProducts(curated: CatalogProduct[], discovered: Cata
   );
 }
 
+export function applyCatalogEnrichment(products: CatalogProduct[], enrichment: CatalogEnrichment[]): CatalogProduct[] {
+  const byId = new Map(enrichment.map(item => [item.productId, item]));
+  if (byId.size !== enrichment.length) throw new TypeError('catalog enrichment contains duplicate productId values');
+  return products.map(product => {
+    const item = byId.get(product.id);
+    if (!item) return product;
+    const normalizedSpecifications = Object.fromEntries(
+      Object.entries(item.sourceFacts.normalized).map(([key, fact]) => [key, fact.value])
+    );
+    return {
+      ...product,
+      summary: item.editorial.status === 'draft' ? item.editorial.summary : product.summary,
+      specifications: mergeSpecifications(product.specifications, normalizedSpecifications),
+      sourceFacts: item.sourceFacts,
+      editorial: item.editorial
+    };
+  });
+}
 const placeholderTitle = /^(home|item|product|products|catalog|collection|exterior|doorglass)$/i;
 
 export function isPublishableProduct(product: CatalogProduct, validManufacturers: ReadonlySet<string>): boolean {
   const meaningfulSpecifications = Object.values(product.specifications).some(value =>
     typeof value === 'string' ? value.trim() !== '' : value.some(item => item.trim() !== '')
   );
+  const sourceBackedFacts = product.sourceFacts
+    ? Object.keys(product.sourceFacts.normalized).length
+    : Object.keys(product.specifications).length;
+  const editorialSummary = product.editorial?.status === 'draft'
+    ? product.editorial.summary
+    : product.summary;
+  const substantiveFeatures = (product.editorial?.keyFeatures.length ?? 0) >= 3;
   return validManufacturers.has(product.manufacturer)
     && product.category !== 'unclassified'
     && meaningfulString(product.name)
     && !placeholderTitle.test(product.name.trim())
     && meaningfulString(product.sourceUrl)
-    && (meaningfulString(product.summary) || meaningfulSpecifications);
+    && sourceBackedFacts > 0
+    && meaningfulString(editorialSummary)
+    && (meaningfulSpecifications || substantiveFeatures);
 }

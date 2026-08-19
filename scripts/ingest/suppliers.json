@@ -73,7 +73,7 @@
       "asset_role_rules": [
         {"patterns": ["wp-post-image"], "role": "hero"}
       ],
-      "attach_page_roles": ["hero"],
+      "attach_page_roles": [],
     "category_rules": [
       {"patterns": ["doorlite", "door[- ]?glass", "decorative[- ]?glass"], "category": "door-glass"},
       {"patterns": ["exterior", "entry[- ]?door", "fiberglass", "steel"], "category": "entry-doors"}

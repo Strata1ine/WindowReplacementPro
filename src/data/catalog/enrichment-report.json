@@ -1,0 +1,96 @@
+{
+  "generatedAt": "2026-08-19T23:30:00Z",
+  "records": 323,
+  "normalizedRecords": 303,
+  "editorialDrafts": 204,
+  "editorialIncomplete": 119,
+  "newRecords": 53,
+  "newRetainedDistinct": 53,
+  "newEditorialDrafts": 15,
+  "staleOrBlockedLinks": {
+    "stale": 13,
+    "blocked": 1
+  },
+  "suppliers": {
+    "masonite": {
+      "records": 18,
+      "normalized": 18,
+      "editorialDrafts": 13,
+      "editorialIncomplete": 5,
+      "media": 18,
+      "documents": 0
+    },
+    "mennie-canada": {
+      "records": 104,
+      "normalized": 103,
+      "editorialDrafts": 103,
+      "editorialIncomplete": 1,
+      "media": 7,
+      "documents": 0
+    },
+    "novatech": {
+      "records": 89,
+      "normalized": 74,
+      "editorialDrafts": 14,
+      "editorialIncomplete": 75,
+      "media": 0,
+      "documents": 6
+    },
+    "oceanview": {
+      "records": 3,
+      "normalized": 3,
+      "editorialDrafts": 0,
+      "editorialIncomplete": 3,
+      "media": 3,
+      "documents": 0
+    },
+    "richersons": {
+      "records": 35,
+      "normalized": 31,
+      "editorialDrafts": 31,
+      "editorialIncomplete": 4,
+      "media": 12,
+      "documents": 0
+    },
+    "trimlite": {
+      "records": 25,
+      "normalized": 25,
+      "editorialDrafts": 10,
+      "editorialIncomplete": 15,
+      "media": 4,
+      "documents": 0
+    },
+    "verre-select": {
+      "records": 12,
+      "normalized": 12,
+      "editorialDrafts": 0,
+      "editorialIncomplete": 12,
+      "media": 9,
+      "documents": 0
+    },
+    "vinyl-pro": {
+      "records": 10,
+      "normalized": 10,
+      "editorialDrafts": 10,
+      "editorialIncomplete": 0,
+      "media": 0,
+      "documents": 0
+    },
+    "vista": {
+      "records": 4,
+      "normalized": 4,
+      "editorialDrafts": 0,
+      "editorialIncomplete": 4,
+      "media": 4,
+      "documents": 4
+    },
+    "window-city": {
+      "records": 23,
+      "normalized": 23,
+      "editorialDrafts": 23,
+      "editorialIncomplete": 0,
+      "media": 10,
+      "documents": 0
+    }
+  }
+}

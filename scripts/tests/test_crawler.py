@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
+import json
+import tempfile
 import unittest
+from pathlib import Path
+from unittest.mock import patch
+
+from scripts.ingest.cleanup import scan_staging_runs
 
 from scripts.ingest.crawl import (
     Asset,
@@ -7,11 +13,13 @@ from scripts.ingest.crawl import (
     decode_html,
     embedded_caption_products,
     embedded_json_products,
+    fair_asset_candidates,
     infer_category,
     is_product_candidate,
     jsonld_product_data,
     normalize,
     product_nodes,
+    promote_referenced_assets,
     query_requirements_met,
     validate_product_records,
 )
@@ -86,6 +94,45 @@ class CrawlerSafetyTests(unittest.TestCase):
         self.assertFalse(query_requirements_met('https://example.com/product.php?ProductID=1&UILanguage=FR', config))
         self.assertTrue(query_requirements_met('https://example.com/product.php?ProductID=1', {}))
 
+    def test_fair_asset_scheduling_reaches_late_products(self):
+        groups = {
+            'early': [
+                {'url': 'https://example.com/early-hero.jpg', 'role': 'hero', 'order': 0},
+                {'url': 'https://example.com/early-gallery.jpg', 'role': 'gallery', 'order': 1},
+            ],
+            'late': [{'url': 'https://example.com/late-hero.jpg', 'role': 'hero', 'order': 0}],
+        }
+        selected = fair_asset_candidates(groups, 2)
+        self.assertEqual([item['url'] for item in selected], ['https://example.com/early-hero.jpg', 'https://example.com/late-hero.jpg'])
+
+    def test_successful_promotion_excludes_unrelated_staging_assets(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            accepted_stage = root / 'source-media/staging/supplier/run/public/images/catalog/supplier/accepted.jpg'
+            unrelated_stage = root / 'source-media/staging/supplier/run/public/images/catalog/supplier/unrelated.jpg'
+            accepted_stage.parent.mkdir(parents=True); accepted_stage.write_bytes(b'accepted'); unrelated_stage.write_bytes(b'unrelated')
+            accepted = Asset('supplier', ['https://example.com/a'], 'https://example.com/accepted.jpg', 'https://example.com/accepted.jpg', '/images/catalog/supplier/accepted.jpg', 'image', 'hero', __import__('hashlib').sha256(b'accepted').hexdigest(), 8, 'now', str(accepted_stage.relative_to(root)))
+            unrelated = Asset('supplier', ['https://example.com/a'], 'https://example.com/unrelated.jpg', 'https://example.com/unrelated.jpg', '/images/catalog/supplier/unrelated.jpg', 'image', 'gallery', __import__('hashlib').sha256(b'unrelated').hexdigest(), 9, 'now', str(unrelated_stage.relative_to(root)))
+            products = [{'media': [accepted.local_path], 'documents': []}]
+            with patch('scripts.ingest.crawl.ROOT', root):
+                promoted = promote_referenced_assets({'accepted': accepted, 'unrelated': unrelated}, products, [])
+            self.assertEqual(list(promoted), ['accepted'])
+            self.assertTrue((root / 'public/images/catalog/supplier/accepted.jpg').exists())
+            self.assertTrue(unrelated_stage.exists())
+
+    def test_failed_staging_run_is_preserved_until_explicit_cleanup(self):
+        with tempfile.TemporaryDirectory() as temp:
+            staging = Path(temp) / 'staging'; run = staging / 'supplier' / 'run-1'; run.mkdir(parents=True)
+            (run / 'run.json').write_text(json.dumps({'supplier': 'supplier', 'runId': 'run-1', 'status': 'failed'}), encoding='utf-8')
+            quarantined = run / 'asset.jpg'; quarantined.write_bytes(b'failed-run-asset')
+            candidates, ambiguous = scan_staging_runs(staging, references='')
+            self.assertEqual((len(candidates), ambiguous), (1, []))
+            self.assertTrue(quarantined.exists())
+
+    def test_trimlite_does_not_attach_every_related_hero(self):
+        suppliers = json.loads((Path(__file__).parents[1] / 'ingest' / 'suppliers.json').read_text(encoding='utf-8'))
+        trimlite = next(item for item in suppliers if item['slug'] == 'trimlite')
+        self.assertEqual(trimlite.get('attach_page_roles'), [])
 
 if __name__ == '__main__':
     unittest.main()

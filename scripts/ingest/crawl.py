@@ -33,6 +33,7 @@ SOURCE_ROOT = ROOT / 'source-media'
 PUBLIC_IMG = ROOT / 'public' / 'images' / 'catalog'
 PUBLIC_DOC = ROOT / 'public' / 'documents' / 'catalog'
 MANIFEST_ROOT = SOURCE_ROOT / 'manifests'
+STAGING_ROOT = SOURCE_ROOT / 'staging'
 CATALOG_DIR = ROOT / 'src' / 'data' / 'catalog' / 'discovered'
 UA = 'WindowReplacementProAuthorizedMediaIngest/2.0 (+https://windowreplacement.pro/)'
 MEDIA_EXTS = {'.jpg', '.jpeg', '.png', '.webp', '.avif', '.gif', '.svg'}
@@ -333,6 +334,7 @@ class Asset:
     sha256: str
     bytes: int
     discovered_at: str
+    staging_path: str = ''
 
 
 @dataclass
@@ -347,6 +349,7 @@ class Page:
     assets: list[str]
     product_data: dict
     embedded_products: list[dict] = field(default_factory=list)
+    asset_candidates: list[dict] = field(default_factory=list)
 
 
 def atomic_write_json(path: Path, value) -> None:
@@ -381,16 +384,69 @@ def validate_product_records(records: list[dict], cfg: dict) -> None:
         ids.add(product['id']); routes.add(route)
 
 
-def save_asset_body(supplier: str, url: str, page_url: str, kind: str, role: str, response: FetchResponse) -> Asset:
+def save_asset_body(supplier: str, url: str, page_url: str, kind: str, role: str, response: FetchResponse, staging_root: Path) -> Asset:
     extension = Path(urlparse(url).path).suffix.lower()
     if kind == 'image' and extension not in MEDIA_EXTS: extension = mimetypes.guess_extension(response.content_type) or '.img'
     if kind == 'document': extension = '.pdf'
-    target_root = (PUBLIC_IMG if kind == 'image' else PUBLIC_DOC) / supplier
-    target_root.mkdir(parents=True, exist_ok=True)
-    path = target_root / safe_filename(url, kind, extension)
-    path.write_bytes(response.body)
+    permanent_root = (PUBLIC_IMG if kind == 'image' else PUBLIC_DOC) / supplier
+    permanent_path = permanent_root / safe_filename(url, kind, extension)
+    staged_path = staging_root / permanent_path.relative_to(ROOT)
+    staged_path.parent.mkdir(parents=True, exist_ok=True)
+    staged_path.write_bytes(response.body)
     final_url = normalize(response.final_url, url) or response.final_url
-    return Asset(supplier, [page_url], url, final_url, '/' + path.relative_to(ROOT / 'public').as_posix(), kind, role, hashlib.sha256(response.body).hexdigest(), len(response.body), time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()))
+    return Asset(supplier, [page_url], url, final_url, '/' + permanent_path.relative_to(ROOT / 'public').as_posix(), kind, role, hashlib.sha256(response.body).hexdigest(), len(response.body), time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()), str(staged_path.relative_to(ROOT)))
+
+
+def fair_asset_candidates(groups: dict[str, list[dict]], max_assets: int) -> list[dict]:
+    priority = {'embedded-product': 0, 'product-jsonld': 0, 'hero': 0, 'technical': 1, 'document': 2, 'gallery': 3}
+    queues = {key: sorted(items, key=lambda item: (priority.get(item['role'], 4), item['order'], item['url'])) for key, items in groups.items()}
+    selected: list[dict] = []
+    while len(selected) < max_assets and any(queues.values()):
+        for key in groups:
+            if len(selected) >= max_assets: break
+            if queues[key]: selected.append(queues[key].pop(0))
+    return selected
+
+
+def public_path(local_path: str) -> Path:
+    return ROOT / 'public' / local_path.lstrip('/').replace('/', os.sep)
+
+
+def promote_referenced_assets(assets: dict[str, Asset], products: list[dict], pages: list[Page]) -> dict[str, Asset]:
+    referenced = {path for product in products for path in [*product.get('media', []), *product.get('documents', [])]}
+    accepted = {url: asset for url, asset in assets.items() if asset.local_path in referenced}
+    replacements: dict[str, str] = {}
+    for asset in accepted.values():
+        old_local = asset.local_path
+        destination = public_path(old_local)
+        staged = ROOT / asset.staging_path if asset.staging_path else destination
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        if destination.exists():
+            existing_hash = hashlib.sha256(destination.read_bytes()).hexdigest()
+            if existing_hash == asset.sha256:
+                if staged != destination: staged.unlink(missing_ok=True)
+            else:
+                destination = destination.with_name(f'{destination.stem}-{asset.sha256[:8]}{destination.suffix}')
+                if not destination.exists(): os.replace(staged, destination)
+        elif staged.exists():
+            os.replace(staged, destination)
+        asset.local_path = '/' + destination.relative_to(ROOT / 'public').as_posix()
+        asset.staging_path = ''
+        replacements[old_local] = asset.local_path
+    for product in products:
+        product['media'] = [replacements.get(path, path) for path in product.get('media', [])]
+        product['documents'] = [replacements.get(path, path) for path in product.get('documents', [])]
+    for page in pages:
+        page.assets = sorted({replacements.get(path, path) for path in page.assets if path in referenced})
+    return accepted
+
+
+def manifest_asset(asset: Asset) -> dict:
+    return {key: value for key, value in asdict(asset).items() if key != 'staging_path'}
+
+
+def manifest_page(page: Page) -> dict:
+    return {key: value for key, value in asdict(page).items() if key != 'asset_candidates'}
 
 
 def product_asset_paths(page: Page, assets: dict[str, Asset], attach_page_roles: list[str] | None = None) -> tuple[list[str], list[str]]:
@@ -408,8 +464,8 @@ def product_asset_paths(page: Page, assets: dict[str, Asset], attach_page_roles:
     return sorted(set(images)), sorted(set(documents))
 
 
-def checkpoint(path: Path, queue, queued, seen_requests, seen_canonical, pages, assets, errors) -> None:
-    atomic_write_json(path, {'queue': list(queue), 'queued': sorted(queued), 'seenRequests': sorted(seen_requests), 'seenCanonical': sorted(seen_canonical), 'pages': [asdict(page) for page in pages], 'assets': [asdict(asset) for asset in assets.values()], 'errors': errors})
+def checkpoint(path: Path, queue, queued, seen_requests, seen_canonical, pages, assets, errors, run_id: str) -> None:
+    atomic_write_json(path, {'runId': run_id, 'queue': list(queue), 'queued': sorted(queued), 'seenRequests': sorted(seen_requests), 'seenCanonical': sorted(seen_canonical), 'pages': [asdict(page) for page in pages], 'assets': [asdict(asset) for asset in assets.values()], 'errors': errors})
 
 
 def crawl_supplier(cfg: dict, args) -> tuple[dict, bool]:
@@ -422,15 +478,20 @@ def crawl_supplier(cfg: dict, args) -> tuple[dict, bool]:
     pages: list[Page] = []
     assets: dict[str, Asset] = {}
     errors: list[dict] = []
+    run_id = time.strftime('%Y%m%dT%H%M%SZ', time.gmtime()) + f'-{os.getpid()}'
     if args.resume and checkpoint_path.exists():
         state = json.loads(checkpoint_path.read_text(encoding='utf-8'))
+        run_id = state.get('runId') or run_id
         queue = deque(state.get('queue', [])); queued = set(state.get('queued', [])); seen_requests = set(state.get('seenRequests', [])); seen_canonical = set(state.get('seenCanonical', []))
-        pages = [Page(**page) for page in state.get('pages', [])]
-        assets = {asset['original_asset_url']: Asset(**({'role': 'generic', 'final_asset_url': asset['original_asset_url']} | asset)) for asset in state.get('assets', [])}
+        pages = [Page(**({'embedded_products': [], 'asset_candidates': []} | page)) for page in state.get('pages', [])]
+        assets = {asset['original_asset_url']: Asset(**({'role': 'generic', 'final_asset_url': asset['original_asset_url'], 'staging_path': ''} | asset)) for asset in state.get('assets', [])}
         errors = state.get('errors', [])
     else:
         starts = [normalize(url, cfg['base_url']) for url in cfg['start_urls']]
         queue = deque(url for url in starts if url); queued = set(queue); seen_requests = set(); seen_canonical = set()
+    staging_root = STAGING_ROOT / slug / run_id
+    staging_root.mkdir(parents=True, exist_ok=True)
+    atomic_write_json(staging_root / 'run.json', {'supplier': slug, 'runId': run_id, 'status': 'running', 'startedAt': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())})
     print(f'\n== {cfg["name"]} ==')
     while queue and len(seen_requests) < args.max_pages:
         url = queue.popleft(); queued.discard(url)
@@ -442,20 +503,20 @@ def crawl_supplier(cfg: dict, args) -> tuple[dict, bool]:
             response = fetch(url, page_domains, args.timeout, args.max_response_mb * 1024 * 1024, 'page', args.retries)
         except Exception as error:
             errors.append({'url': url, 'error': str(error)}); print(f'! {url}: {error}', file=sys.stderr)
-            checkpoint(checkpoint_path, queue, queued, seen_requests, seen_canonical, pages, assets, errors)
+            checkpoint(checkpoint_path, queue, queued, seen_requests, seen_canonical, pages, assets, errors, run_id)
             continue
         final_url = normalize(response.final_url, url) or url
         if response.content_type == 'application/pdf' or extension == '.pdf':
             if not args.no_download and final_url not in assets and len(assets) < args.max_assets:
-                assets[final_url] = save_asset_body(slug, final_url, url, 'document', 'document', response)
-            checkpoint(checkpoint_path, queue, queued, seen_requests, seen_canonical, pages, assets, errors)
+                assets[final_url] = save_asset_body(slug, final_url, url, 'document', 'document', response, staging_root)
+            checkpoint(checkpoint_path, queue, queued, seen_requests, seen_canonical, pages, assets, errors, run_id)
             continue
         text = decode_html(response.body, response.charset)
         parser = PageParser(cfg.get('asset_role_rules')); parser.feed(text)
         canonical = normalize(parser.canonical, final_url) if parser.canonical else final_url
         if canonical and same_allowed(canonical, page_domains): final_url = canonical
         if final_url in seen_canonical:
-            checkpoint(checkpoint_path, queue, queued, seen_requests, seen_canonical, pages, assets, errors); continue
+            checkpoint(checkpoint_path, queue, queued, seen_requests, seen_canonical, pages, assets, errors, run_id); continue
         seen_canonical.add(final_url)
         nodes = product_nodes(parser.jsonld)
         product_data = jsonld_product_data(nodes[0]) if len(nodes) == 1 else {}
@@ -486,26 +547,40 @@ def crawl_supplier(cfg: dict, args) -> tuple[dict, bool]:
                 else:
                     queue.append(link_candidate)
                 queued.add(link_candidate)
+        asset_candidates: list[dict] = []
         if not args.no_download and (candidate or not cfg.get('assets_on_product_pages_only')):
-            for raw, kind, role in discovered_assets:
+            for order, (raw, kind, role) in enumerate(discovered_assets):
                 asset_url = normalize(raw, final_url)
                 if not asset_url or not relevant_asset(asset_url, role) or not same_allowed(asset_url, asset_domains): continue
                 if Path(urlparse(asset_url).path).suffix.lower() in cfg.get('skip_asset_extensions', []): continue
-                if asset_url in assets:
-                    asset = assets[asset_url]
-                    if final_url not in asset.source_page_urls: asset.source_page_urls.append(final_url); asset.source_page_urls.sort()
-                    page_assets.append(asset.local_path)
-                    continue
-                if len(assets) >= args.max_assets: break
-                try:
-                    asset_response = fetch(asset_url, asset_domains, args.timeout, args.max_asset_mb * 1024 * 1024, kind, args.retries)
-                    asset = save_asset_body(slug, asset_url, final_url, kind, role, asset_response); assets[asset_url] = asset; page_assets.append(asset.local_path)
-                except Exception as error:
-                    errors.append({'url': asset_url, 'page': final_url, 'error': str(error)})
-        pages.append(Page(final_url, parser.title, parser.h1, parser.description, str(snapshot.relative_to(ROOT)), candidate, category, sorted(set(page_assets)), product_data, embedded_products))
+                if asset_url not in {item['url'] for item in asset_candidates}: asset_candidates.append({'url': asset_url, 'kind': kind, 'role': role, 'order': order})
+        pages.append(Page(final_url, parser.title, parser.h1, parser.description, str(snapshot.relative_to(ROOT)), candidate, category, sorted(set(page_assets)), product_data, embedded_products, asset_candidates))
         print(f'{len(pages):4d} {final_url}{" [product]" if candidate else ""}')
-        checkpoint(checkpoint_path, queue, queued, seen_requests, seen_canonical, pages, assets, errors)
+        checkpoint(checkpoint_path, queue, queued, seen_requests, seen_canonical, pages, assets, errors, run_id)
         if args.delay: time.sleep(args.delay)
+
+    groups: dict[str, list[dict]] = {}
+    pages_by_url = {page.url: page for page in pages}
+    for page in pages:
+        if not page.is_product_candidate: continue
+        embedded_groups = {normalize(product.get('image'), page.url): f'{page.url}#{product["slug"]}' for product in page.embedded_products if product.get('image')}
+        for item in page.asset_candidates:
+            candidate_item = dict(item); candidate_item['page_url'] = page.url
+            group = embedded_groups.get(item['url'], page.url)
+            groups.setdefault(group, []).append(candidate_item)
+    for item in fair_asset_candidates(groups, max(0, args.max_assets - len(assets))):
+        page = pages_by_url[item['page_url']]
+        if item['url'] in assets:
+            asset = assets[item['url']]
+            if page.url not in asset.source_page_urls: asset.source_page_urls.append(page.url); asset.source_page_urls.sort()
+            page.assets.append(asset.local_path); continue
+        try:
+            asset_response = fetch(item['url'], asset_domains, args.timeout, args.max_asset_mb * 1024 * 1024, item['kind'], args.retries)
+            asset = save_asset_body(slug, item['url'], page.url, item['kind'], item['role'], asset_response, staging_root)
+            assets[item['url']] = asset; page.assets.append(asset.local_path)
+        except Exception as error:
+            errors.append({'url': item['url'], 'page': page.url, 'error': str(error)})
+        checkpoint(checkpoint_path, queue, queued, seen_requests, seen_canonical, pages, assets, errors, run_id)
 
     products = []
     ids: set[str] = set(); routes: set[tuple[str, str]] = set(); structural_errors = []
@@ -560,13 +635,23 @@ def crawl_supplier(cfg: dict, args) -> tuple[dict, bool]:
     if viable:
         try: validate_product_records(products, cfg)
         except ValueError as error: errors.append({'error': str(error)}); viable = False
-    result = {'supplier': {key: cfg[key] for key in ('slug', 'name', 'base_url', 'categories')}, 'crawledAt': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()), 'pages': [asdict(page) for page in pages], 'assets': [asdict(asset) for asset in assets.values()], 'products': products, 'errors': errors}
-    atomic_write_json(MANIFEST_ROOT / f'{slug}.json', result)
+    accepted_assets: dict[str, Asset] = {}
     if viable:
+        try: accepted_assets = promote_referenced_assets(assets, products, pages)
+        except Exception as error:
+            errors.append({'error': f'asset promotion failed: {error}'}); viable = False
+    crawled_at = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
+    result = {'supplier': {key: cfg[key] for key in ('slug', 'name', 'base_url', 'categories')}, 'crawledAt': crawled_at, 'pages': [manifest_page(page) for page in pages], 'assets': [manifest_asset(asset) for asset in accepted_assets.values()], 'products': products, 'errors': errors}
+    if viable:
+        atomic_write_json(MANIFEST_ROOT / f'{slug}.json', result)
         atomic_write_json(CATALOG_DIR / f'{slug}.json', products)
+        atomic_write_json(staging_root / 'run.json', {'supplier': slug, 'runId': run_id, 'status': 'accepted', 'finishedAt': crawled_at, 'downloadedAssets': len(assets), 'promotedAssets': len(accepted_assets), 'quarantinedAssets': len(assets) - len(accepted_assets)})
         checkpoint_path.unlink(missing_ok=True)
     else:
-        print(f'! Preserved last-known-good catalogue for {slug}: crawl produced no validated products', file=sys.stderr)
+        quarantined_result = result | {'assets': [asdict(asset) for asset in assets.values()]}
+        atomic_write_json(staging_root / 'run-manifest.json', quarantined_result)
+        atomic_write_json(staging_root / 'run.json', {'supplier': slug, 'runId': run_id, 'status': 'failed', 'finishedAt': crawled_at, 'downloadedAssets': len(assets), 'promotedAssets': 0, 'quarantinedAssets': len(assets)})
+        print(f'! Preserved last-known-good catalogue and manifest for {slug}: crawl produced no validated products', file=sys.stderr)
     return result, viable
 
 
