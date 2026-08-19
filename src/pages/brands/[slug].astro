@@ -6,7 +6,7 @@ import { getManufacturerProducts } from '../../data/catalog';
 export function getStaticPaths(){return manufacturers.map(manufacturer=>({params:{slug:manufacturer.slug},props:{manufacturer}}));}
 const { manufacturer }=Astro.props;
 const categories=products.filter(p=>p.manufacturers.includes(manufacturer.slug));
-const catalog=getManufacturerProducts(manufacturer.slug);
+const catalog=getManufacturerProducts(manufacturer.slug, true);
 const collections=[...new Set(catalog.map(p=>p.collection).filter(Boolean))];
 ---
 <BaseLayout title={`${manufacturer.name} Products | Window Replacement Pro`} description={`Explore ${manufacturer.name} window and door products available through Window Replacement Pro.`}>

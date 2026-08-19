@@ -10,14 +10,24 @@
     "preview": "astro preview",
     "check": "astro check",
     "ingest": "python scripts/ingest/crawl.py",
-    "ingest:audit": "python scripts/ingest/audit.py"
+    "ingest:audit": "npm run validate:catalog",
+    "validate:catalog": "python scripts/ingest/audit.py",
+    "test:catalog": "node --experimental-strip-types scripts/tests/catalog-merge.test.ts",
+    "test:crawler": "python -m unittest scripts.tests.test_crawler -v",
+    "test": "npm run test:catalog && npm run test:crawler",
+    "validate:build": "python scripts/verify-build.py",
+    "verify": "npm run check && npm run validate:catalog && npm run test && npm run build && npm run validate:build"
+  },
+  "engines": {
+    "node": ">=22.12.0",
+    "npm": ">=9.6.5"
   },
   "dependencies": {
-    "@astrojs/sitemap": "latest",
-    "astro": "latest"
+    "@astrojs/sitemap": "^3.7.3",
+    "astro": "^7.2.4"
   },
   "devDependencies": {
-    "@astrojs/check": "latest",
-    "typescript": "latest"
+    "@astrojs/check": "^0.9.10",
+    "typescript": "^6.0.3"
   }
 }

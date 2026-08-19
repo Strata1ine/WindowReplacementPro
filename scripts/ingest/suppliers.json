@@ -15,6 +15,11 @@
     "allowed_domains": ["windowcity.com", "www.windowcity.com"],
     "start_urls": ["https://windowcity.com/"],
     "product_hints": ["window", "door", "collection", "product"],
+    "category_rules": [
+      {"patterns": ["patio[- /]?door", "sliding[- /]?door"], "category": "patio-doors"},
+      {"patterns": ["entry[- /]?door", "front[- /]?door", "fiberglass", "steel[- /]?door"], "category": "entry-doors"},
+      {"patterns": ["window", "casement", "awning", "slider", "hung"], "category": "windows"}
+    ],
     "categories": ["windows", "entry-doors", "patio-doors"]
   },
   {
@@ -33,6 +38,10 @@
     "allowed_domains": ["trimlite.com", "www.trimlite.com"],
     "start_urls": ["https://trimlite.com/product-tag/exterior/", "https://trimlite.com/canadian-catalogs/"],
     "product_hints": ["/product/", "/exterior", "/doorlite"],
+    "category_rules": [
+      {"patterns": ["doorlite", "door[- ]?glass", "decorative[- ]?glass"], "category": "door-glass"},
+      {"patterns": ["exterior", "entry[- ]?door", "fiberglass", "steel"], "category": "entry-doors"}
+    ],
     "categories": ["entry-doors", "door-glass"]
   },
   {
@@ -42,6 +51,11 @@
     "allowed_domains": ["groupenovatech.com", "www.groupenovatech.com"],
     "start_urls": ["https://www.groupenovatech.com/en_canada_ontario/products/doorglass.html", "https://www.groupenovatech.com/en_canada_ontario/products/patio-doors.html", "https://www.groupenovatech.com/en_canada_ontario/brochures"],
     "product_hints": ["/products/doorglass/", "/products/patio-doors/", "/products/entry-doors/"],
+    "category_rules": [
+      {"patterns": ["doorglass", "door[- ]?glass", "decorative[- ]?glass"], "category": "door-glass"},
+      {"patterns": ["patio[- /]?doors", "sliding[- /]?doors"], "category": "patio-doors"},
+      {"patterns": ["entry[- /]?doors", "steel[- /]?doors", "fiberglass[- /]?doors"], "category": "entry-doors"}
+    ],
     "categories": ["entry-doors", "door-glass", "patio-doors"]
   },
   {
@@ -51,6 +65,10 @@
     "allowed_domains": ["verreselect.com", "www.verreselect.com"],
     "start_urls": ["https://verreselect.com/?UILanguage=EN"],
     "product_hints": ["Product", "product", "door", "Door"],
+    "category_rules": [
+      {"patterns": ["door[- ]?glass", "decorative[- ]?glass", "categories\\.php"], "category": "door-glass"},
+      {"patterns": ["entry[- ]?door", "fiberglass", "steel"], "category": "entry-doors"}
+    ],
     "categories": ["entry-doors", "door-glass"]
   },
   {

@@ -4,6 +4,7 @@ export type Location = {
   region: string;
   intro: string;
   neighbourhoods?: string[];
+  publishable?: boolean;
 };
 
 export const locations: Location[] = [
@@ -25,3 +26,8 @@ export const locations: Location[] = [
   { slug: 'whitby', name: 'Whitby', region: 'Durham Region', intro: 'Energy-efficient replacement windows, entry doors and patio doors for Whitby homes.' },
   { slug: 'oshawa', name: 'Oshawa', region: 'Durham Region', intro: 'Replacement windows and doors for Oshawa homes across established and newer neighbourhoods.' }
 ];
+
+export const isPublishableLocation = (location: Location): boolean =>
+  location.publishable === true
+  && location.intro.trim().length >= 160
+  && (location.neighbourhoods?.length ?? 0) >= 3;

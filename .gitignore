@@ -10,6 +10,7 @@ source-media/**
 !source-media/README.md
 !source-media/manifests/
 !source-media/manifests/*.json
+source-media/manifests/*.checkpoint.json
 
 __pycache__/
 *.pyc

@@ -1,5 +1,11 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-const guides=[['window-replacement-cost','Window Replacement Cost in Ontario','What actually changes the installed price of replacement windows.'],['full-frame-vs-retrofit','Full-Frame vs Retrofit Window Replacement','How the two installation approaches differ and when each makes sense.'],['double-vs-triple-pane','Double vs Triple Pane Windows','Performance, cost and comfort tradeoffs for Ontario homes.'],['window-condensation','Window Condensation Explained','Separate normal interior condensation from sealed-unit failure and installation problems.']];
+import { guides } from '../../data/guides';
+const publishedGuides = guides.filter(guide => guide.publishable);
 ---
-<BaseLayout title="Window Replacement Guides | Window Replacement Pro" description="Practical guides to window replacement cost, installation, glazing and common window problems."><section class="page-hero"><div class="wrap"><div class="eyebrow">Knowledge Centre</div><h1>Window replacement guides</h1></div></section><section class="section alt"><div class="wrap grid">{guides.map(g=><a class="card" href={`/guides/${g[0]}/`}><h3>{g[1]}</h3><p>{g[2]}</p></a>)}</div></section></BaseLayout>
+<BaseLayout title="Window Replacement Guides | Window Replacement Pro" description="Practical guides to window replacement cost, installation, glazing and common window problems." noindex>
+  <section class="page-hero"><div class="wrap"><div class="eyebrow">Knowledge Centre</div><h1>Window replacement guides</h1></div></section>
+  <section class="section alt"><div class="wrap grid">{publishedGuides.map(guide =>
+    <a class="card" href={'/guides/' + guide.slug + '/'}><h3>{guide.title}</h3><p>{guide.description}</p></a>
+  )}</div></section>
+</BaseLayout>

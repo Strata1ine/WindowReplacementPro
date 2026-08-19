@@ -1,105 +1,290 @@
 #!/usr/bin/env python3
-"""WindowReplacement.pro authorized supplier ingestion crawler.
+"""Authorized, resumable supplier ingestion for WindowReplacement.pro.
 
-Crawls supplier websites, saves HTML snapshots, downloads images/PDFs, extracts
-basic product metadata, and writes deterministic manifests consumed by Astro.
-Uses only the Python standard library so it can run without pip installs.
+Each supplier writes an independent discovered catalogue. Product output is
+validated and atomically replaces the last-known-good file only after a viable
+crawl. The crawler intentionally favors false negatives over generic pages.
 """
 from __future__ import annotations
 
-import argparse, hashlib, html, json, mimetypes, os, re, sys, time
+import argparse
+import hashlib
+import html
+import json
+import mimetypes
+import os
+import re
+import socket
+import sys
+import tempfile
+import time
 from collections import deque
-from dataclasses import dataclass, asdict
+from dataclasses import asdict, dataclass
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import Iterable
 from urllib.error import HTTPError, URLError
-from urllib.parse import urljoin, urlparse, urldefrag
-from urllib.request import Request, urlopen
+from urllib.parse import parse_qsl, urlencode, urldefrag, urljoin, urlparse, urlunparse
+from urllib.request import HTTPRedirectHandler, Request, build_opener
 
 ROOT = Path(__file__).resolve().parents[2]
-CONFIG = ROOT / "scripts" / "ingest" / "suppliers.json"
-SOURCE_ROOT = ROOT / "source-media"
-PUBLIC_IMG = ROOT / "public" / "images" / "catalog"
-PUBLIC_DOC = ROOT / "public" / "documents" / "catalog"
-MANIFEST_ROOT = SOURCE_ROOT / "manifests"
-CATALOG_OUT = ROOT / "src" / "data" / "catalog" / "discovered-products.json"
-UA = "WindowReplacementProAuthorizedMediaIngest/1.0 (+https://windowreplacement.pro/)"
-MEDIA_EXTS = {".jpg", ".jpeg", ".png", ".webp", ".avif", ".gif", ".svg"}
-DOC_EXTS = {".pdf"}
-SKIP_EXTS = {".zip", ".mp4", ".mov", ".mp3", ".woff", ".woff2", ".ttf", ".css", ".js"}
+CONFIG = ROOT / 'scripts' / 'ingest' / 'suppliers.json'
+SOURCE_ROOT = ROOT / 'source-media'
+PUBLIC_IMG = ROOT / 'public' / 'images' / 'catalog'
+PUBLIC_DOC = ROOT / 'public' / 'documents' / 'catalog'
+MANIFEST_ROOT = SOURCE_ROOT / 'manifests'
+CATALOG_DIR = ROOT / 'src' / 'data' / 'catalog' / 'discovered'
+UA = 'WindowReplacementProAuthorizedMediaIngest/2.0 (+https://windowreplacement.pro/)'
+MEDIA_EXTS = {'.jpg', '.jpeg', '.png', '.webp', '.avif', '.gif', '.svg'}
+SKIP_EXTS = {'.zip', '.mp4', '.mov', '.mp3', '.woff', '.woff2', '.ttf', '.css', '.js'}
+TRACKING_PARAMS = {'fbclid', 'gclid', 'mc_cid', 'mc_eid'}
+GENERIC_SEGMENTS = {'', 'home', 'products', 'product', 'catalog', 'catalogs', 'collections', 'collection', 'category', 'categories', 'exterior', 'doors', 'windows', 'resources', 'brochures'}
+DETAIL_TERMS = {'specification', 'dimensions', 'model', 'glass options', 'hardware', 'warranty', 'energy rating', 'sizes available'}
 
 
 def slugify(value: str) -> str:
     value = html.unescape(value).lower().strip()
-    value = re.sub(r"[^a-z0-9]+", "-", value)
-    return value.strip("-")[:100] or "item"
+    value = re.sub(r'[^a-z0-9]+', '-', value)
+    return value.strip('-')[:100] or 'item'
 
 
-def clean_text(value: str) -> str:
-    return re.sub(r"\s+", " ", html.unescape(value or "")).strip()
+def clean_text(value: str | None) -> str:
+    return re.sub(r'\s+', ' ', html.unescape(value or '')).strip()
+
+
+def normalize(url: str, base: str) -> str | None:
+    joined = urldefrag(urljoin(base, url))[0]
+    parsed = urlparse(joined)
+    if parsed.scheme.lower() not in {'http', 'https'} or not parsed.hostname:
+        return None
+    hostname = parsed.hostname.lower()
+    port = parsed.port
+    netloc = hostname if not port or (parsed.scheme == 'http' and port == 80) or (parsed.scheme == 'https' and port == 443) else f'{hostname}:{port}'
+    query = urlencode(sorted((key, value) for key, value in parse_qsl(parsed.query, keep_blank_values=True) if not key.lower().startswith('utm_') and key.lower() not in TRACKING_PARAMS))
+    path = re.sub(r'/{2,}', '/', parsed.path or '/')
+    return urlunparse((parsed.scheme.lower(), netloc, path, '', query, ''))
+
+
+def same_allowed(url: str, domains: set[str]) -> bool:
+    return (urlparse(url).hostname or '').lower() in domains
+
+
+class SafeRedirectHandler(HTTPRedirectHandler):
+    def __init__(self, allowed_domains: set[str]):
+        self.allowed_domains = allowed_domains
+
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        if not same_allowed(newurl, self.allowed_domains):
+            raise URLError(f'redirect outside allowed domains: {newurl}')
+        return super().redirect_request(req, fp, code, msg, headers, newurl)
+
+
+@dataclass
+class FetchResponse:
+    body: bytes
+    content_type: str
+    charset: str | None
+    final_url: str
+
+
+def content_type_allowed(content_type: str, kind: str) -> bool:
+    if kind == 'page': return content_type in {'text/html', 'application/xhtml+xml', 'application/pdf', ''}
+    if kind == 'image': return content_type.startswith('image/')
+    if kind == 'document': return content_type == 'application/pdf'
+    return False
+
+
+def fetch(url: str, allowed_domains: set[str], timeout: int, max_bytes: int, kind: str, retries: int) -> FetchResponse:
+    if not same_allowed(url, allowed_domains):
+        raise URLError(f'URL outside allowed domains: {url}')
+    opener = build_opener(SafeRedirectHandler(allowed_domains))
+    last_error: Exception | None = None
+    for attempt in range(retries + 1):
+        try:
+            request = Request(url, headers={'User-Agent': UA, 'Accept': 'text/html,application/xhtml+xml,application/pdf,image/avif,image/webp,image/*,*/*;q=0.5'})
+            with opener.open(request, timeout=timeout) as response:
+                final_url = response.geturl()
+                if not same_allowed(final_url, allowed_domains):
+                    raise URLError(f'final URL outside allowed domains: {final_url}')
+                content_type = response.headers.get_content_type().lower()
+                if not content_type_allowed(content_type, kind):
+                    raise ValueError(f'disallowed {kind} content type: {content_type or "missing"}')
+                declared_length = response.headers.get('Content-Length')
+                if declared_length and int(declared_length) > max_bytes:
+                    raise ValueError(f'response exceeds {max_bytes} bytes')
+                body = response.read(max_bytes + 1)
+                if len(body) > max_bytes:
+                    raise ValueError(f'response exceeds {max_bytes} bytes')
+                return FetchResponse(body, content_type, response.headers.get_content_charset(), final_url)
+        except (HTTPError, URLError, TimeoutError, socket.timeout, OSError, ValueError) as error:
+            last_error = error
+            retryable = not isinstance(error, HTTPError) or error.code == 429 or error.code >= 500
+            if attempt >= retries or not retryable: break
+            time.sleep(0.5 * (2 ** attempt))
+    raise last_error or RuntimeError(f'failed to fetch {url}')
+
+
+def decode_html(body: bytes, header_charset: str | None) -> str:
+    candidates: list[str] = []
+    if header_charset: candidates.append(header_charset)
+    head = body[:4096].decode('ascii', 'ignore')
+    match = re.search(r'<meta[^>]+charset=["\']?\s*([a-zA-Z0-9._-]+)', head, re.I)
+    if match: candidates.append(match.group(1))
+    match = re.search(r'<meta[^>]+content=["\'][^"\']*charset=([a-zA-Z0-9._-]+)', head, re.I)
+    if match: candidates.append(match.group(1))
+    candidates.extend(['utf-8', 'windows-1252'])
+    for encoding in dict.fromkeys(candidates):
+        try: return body.decode(encoding)
+        except (LookupError, UnicodeDecodeError): continue
+    return body.decode('utf-8', 'replace')
 
 
 class PageParser(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
         self.links: list[str] = []
-        self.media: list[tuple[str, str]] = []
-        self.title = ""
-        self.description = ""
-        self.h1 = ""
+        self.media: list[tuple[str, str, str]] = []
+        self.title = ''
+        self.description = ''
+        self.h1 = ''
+        self.canonical = ''
         self.jsonld: list[str] = []
+        self.visible_text: list[str] = []
         self._capture: str | None = None
-        self._buf: list[str] = []
+        self._buffer: list[str] = []
+        self._ignored_depth = 0
 
     def handle_starttag(self, tag, attrs):
-        a = dict(attrs)
-        if tag == "a" and a.get("href"):
-            self.links.append(a["href"])
-        if tag in {"img", "source"}:
-            for key in ("src", "data-src", "data-lazy-src"):
-                if a.get(key): self.media.append((a[key], "image"))
-            for key in ("srcset", "data-srcset"):
-                if a.get(key):
-                    for part in a[key].split(","):
-                        u = part.strip().split(" ")[0]
-                        if u: self.media.append((u, "image"))
-        if tag == "meta":
-            key = (a.get("property") or a.get("name") or "").lower()
-            if key in {"description", "og:description"} and not self.description:
-                self.description = a.get("content", "")
-            if key == "og:image" and a.get("content"):
-                self.media.append((a["content"], "image"))
-        if tag == "link" and a.get("href"):
-            rel = " ".join(a.get("rel", "").split()).lower()
-            typ = a.get("type", "").lower()
-            if "image" in typ or "icon" in rel:
-                self.media.append((a["href"], "image"))
-        if tag == "title": self._capture, self._buf = "title", []
-        elif tag == "h1" and not self.h1: self._capture, self._buf = "h1", []
-        elif tag == "script" and a.get("type", "").lower() == "application/ld+json":
-            self._capture, self._buf = "jsonld", []
+        attributes = dict(attrs)
+        if tag in {'script', 'style', 'noscript'}: self._ignored_depth += 1
+        if tag == 'a' and attributes.get('href'): self.links.append(attributes['href'])
+        if tag in {'img', 'source'}:
+            descriptor = ' '.join(str(attributes.get(key, '')) for key in ('class', 'id', 'alt')).lower()
+            role = 'technical' if any(word in descriptor for word in ('drawing', 'diagram', 'technical', 'dimension')) else 'hero' if any(word in descriptor for word in ('hero', 'main-image', 'featured', 'primary')) else 'gallery' if any(word in descriptor for word in ('gallery', 'product', 'slide')) else 'generic'
+            for key in ('src', 'data-src', 'data-lazy-src'):
+                if attributes.get(key): self.media.append((attributes[key], 'image', role))
+            for key in ('srcset', 'data-srcset'):
+                if attributes.get(key):
+                    for part in attributes[key].split(','):
+                        candidate = part.strip().split(' ')[0]
+                        if candidate: self.media.append((candidate, 'image', role))
+        if tag == 'meta':
+            key = (attributes.get('property') or attributes.get('name') or '').lower()
+            if key in {'description', 'og:description'} and not self.description: self.description = attributes.get('content', '')
+        if tag == 'link' and attributes.get('href'):
+            rel = str(attributes.get('rel', '')).lower()
+            if 'canonical' in rel: self.canonical = attributes['href']
+        if tag == 'title': self._capture, self._buffer = 'title', []
+        elif tag == 'h1' and not self.h1: self._capture, self._buffer = 'h1', []
+        elif tag == 'script' and str(attributes.get('type', '')).lower() == 'application/ld+json': self._capture, self._buffer = 'jsonld', []
 
     def handle_endtag(self, tag):
-        if self._capture == "title" and tag == "title":
-            self.title = clean_text("".join(self._buf)); self._capture = None
-        elif self._capture == "h1" and tag == "h1":
-            self.h1 = clean_text("".join(self._buf)); self._capture = None
-        elif self._capture == "jsonld" and tag == "script":
-            self.jsonld.append("".join(self._buf)); self._capture = None
+        if self._capture == 'title' and tag == 'title': self.title, self._capture = clean_text(''.join(self._buffer)), None
+        elif self._capture == 'h1' and tag == 'h1': self.h1, self._capture = clean_text(''.join(self._buffer)), None
+        elif self._capture == 'jsonld' and tag == 'script': self.jsonld.append(''.join(self._buffer)); self._capture = None
+        if tag in {'script', 'style', 'noscript'} and self._ignored_depth: self._ignored_depth -= 1
 
     def handle_data(self, data):
-        if self._capture: self._buf.append(data)
+        if self._capture: self._buffer.append(data)
+        elif not self._ignored_depth and data.strip(): self.visible_text.append(data)
+
+
+def product_nodes(jsonld_blocks: Iterable[str]) -> list[dict]:
+    nodes: list[dict] = []
+    def visit(value):
+        if isinstance(value, list):
+            for item in value: visit(item)
+        elif isinstance(value, dict):
+            node_type = value.get('@type')
+            types = node_type if isinstance(node_type, list) else [node_type]
+            if any(str(item).lower() == 'product' for item in types): nodes.append(value)
+            for key, item in value.items():
+                if key not in {'itemListElement', 'offers'}: visit(item)
+    for block in jsonld_blocks:
+        try: visit(json.loads(block))
+        except json.JSONDecodeError: continue
+    return nodes
+
+
+def jsonld_product_data(node: dict | None) -> dict:
+    if not node: return {}
+    images = node.get('image', [])
+    if isinstance(images, str): images = [images]
+    elif isinstance(images, dict): images = [images.get('url')]
+    properties = {}
+    additional = node.get('additionalProperty', [])
+    if isinstance(additional, dict): additional = [additional]
+    for item in additional if isinstance(additional, list) else []:
+        if isinstance(item, dict) and item.get('name') and item.get('value') is not None:
+            properties[clean_text(str(item['name']))] = clean_text(str(item['value']))
+    return {
+        'name': clean_text(str(node.get('name', ''))),
+        'description': clean_text(str(node.get('description', ''))),
+        'modelNumber': clean_text(str(node.get('model') or node.get('sku') or node.get('mpn') or '')) or None,
+        'images': [value for value in images if isinstance(value, str)],
+        'category': clean_text(str(node.get('category', ''))),
+        'specifications': properties,
+    }
+
+
+def is_generic_page(url: str) -> bool:
+    path = urlparse(url).path.strip('/').lower()
+    if not path: return True
+    segments = [segment for segment in path.split('/') if segment]
+    if not segments: return True
+    if any(segment in {'product-tag', 'category', 'categories', 'collections'} for segment in segments): return True
+    return segments[-1].split('.')[0] in GENERIC_SEGMENTS
+
+
+def is_product_candidate(url: str, parser: PageParser, hints: list[str], product_data: dict) -> bool:
+    has_single_product_schema = bool(product_data)
+    if is_generic_page(url) and not has_single_product_schema: return False
+    haystack = clean_text(f'{url} {parser.title} {parser.h1} {" ".join(parser.visible_text)}').lower()
+    detail_score = sum(term in haystack for term in DETAIL_TERMS)
+    model_signal = bool(product_data.get('modelNumber')) or bool(re.search(r'\b(?:model|series|sku|item)\s*[:#-]?\s*[a-z0-9][a-z0-9.-]{2,}\b', haystack, re.I))
+    path_signal = any(hint.lower() in url.lower() for hint in hints) and len([part for part in urlparse(url).path.split('/') if part]) >= 2
+    score = (3 if has_single_product_schema else 0) + (2 if model_signal else 0) + (1 if detail_score >= 2 else 0) + (1 if path_signal else 0)
+    return score >= 3
+
+
+def infer_category(url: str, parser: PageParser, cfg: dict, product_data: dict) -> str:
+    haystack = clean_text(f'{url} {parser.title} {parser.h1} {product_data.get("category", "")}').lower()
+    for rule in cfg.get('category_rules', []):
+        if any(re.search(pattern, haystack, re.I) for pattern in rule.get('patterns', [])): return rule['category']
+    semantic = [
+        ('door-glass', ('doorglass', 'door glass', 'doorlite', 'decorative glass')),
+        ('patio-doors', ('patio door', 'sliding door', 'stacking door')),
+        ('windows', ('casement', 'awning window', 'hung window', 'slider window', 'picture window', 'window series')),
+        ('entry-doors', ('entry door', 'exterior door', 'fiberglass door', 'steel door')),
+    ]
+    for category, terms in semantic:
+        if category in cfg['categories'] and any(term in haystack for term in terms): return category
+    return cfg['categories'][0] if len(cfg['categories']) == 1 else 'unclassified'
+
+
+def relevant_asset(url: str, role: str) -> bool:
+    descriptor = urlparse(url).path.lower()
+    if any(word in descriptor for word in ('favicon', 'logo', 'sprite', 'avatar', 'tracking', 'pixel')): return False
+    return role in {'hero', 'gallery', 'technical', 'document'}
+
+
+def safe_filename(url: str, fallback: str, extension: str) -> str:
+    stem = slugify(Path(urlparse(url).path).stem or fallback)
+    digest = hashlib.sha256(url.encode('utf-8')).hexdigest()[:12]
+    return f'{stem}-{digest}{extension}'
 
 
 @dataclass
 class Asset:
-    source_url: str
+    supplier: str
+    source_page_urls: list[str]
+    original_asset_url: str
     local_path: str
-    kind: str
+    asset_type: str
     sha256: str
     bytes: int
-    page_url: str
+    discovered_at: str
+
 
 @dataclass
 class Page:
@@ -109,163 +294,195 @@ class Page:
     description: str
     snapshot: str
     is_product_candidate: bool
+    category: str
     assets: list[str]
+    product_data: dict
 
 
-def fetch(url: str, timeout=30) -> tuple[bytes, str]:
-    req = Request(url, headers={"User-Agent": UA, "Accept": "text/html,application/xhtml+xml,application/pdf,image/avif,image/webp,image/*,*/*;q=0.8"})
-    with urlopen(req, timeout=timeout) as r:
-        return r.read(), r.headers.get("Content-Type", "").split(";")[0].lower()
-
-
-def normalize(url: str, base: str) -> str | None:
-    u = urldefrag(urljoin(base, url))[0]
-    p = urlparse(u)
-    if p.scheme not in {"http", "https"}: return None
-    return u
-
-
-def ext_for(url: str, ctype: str) -> str:
-    ext = Path(urlparse(url).path).suffix.lower()
-    if ext: return ext
-    return mimetypes.guess_extension(ctype) or ""
-
-
-def same_allowed(url: str, domains: set[str]) -> bool:
-    return (urlparse(url).hostname or "").lower() in domains
-
-
-def is_product_candidate(url: str, title: str, h1: str, hints: list[str]) -> bool:
-    hay = f"{url} {title} {h1}".lower()
-    return any(h.lower() in hay for h in hints) and bool(h1 or title)
-
-
-def safe_filename(url: str, fallback: str, ext: str) -> str:
-    stem = Path(urlparse(url).path).stem or fallback
-    stem = slugify(stem)
-    digest = hashlib.sha1(url.encode()).hexdigest()[:8]
-    return f"{stem}-{digest}{ext}"
-
-
-def save_asset(supplier: str, url: str, page_url: str, kind: str, timeout: int) -> Asset | None:
+def atomic_write_json(path: Path, value) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    handle, temp_name = tempfile.mkstemp(prefix=f'.{path.name}.', suffix='.tmp', dir=path.parent)
+    temp = Path(temp_name)
     try:
-        body, ctype = fetch(url, timeout)
-    except Exception as e:
-        print(f"  ! asset {url}: {e}", file=sys.stderr); return None
-    ext = ext_for(url, ctype)
-    if kind == "image" and ext not in MEDIA_EXTS:
-        if ctype.startswith("image/"): ext = mimetypes.guess_extension(ctype) or ".img"
-        else: return None
-    if kind == "document" and ext != ".pdf" and ctype != "application/pdf": return None
-    if kind == "document": ext = ".pdf"
-    target_root = PUBLIC_IMG / supplier if kind == "image" else PUBLIC_DOC / supplier
+        with os.fdopen(handle, 'w', encoding='utf-8', newline='\n') as stream: json.dump(value, stream, indent=2, ensure_ascii=False); stream.write('\n')
+        json.loads(temp.read_text(encoding='utf-8'))
+        os.replace(temp, path)
+    finally:
+        if temp.exists(): temp.unlink()
+
+
+def validate_product_records(records: list[dict], cfg: dict) -> None:
+    if not records: raise ValueError('validated product output is empty')
+    ids: set[str] = set(); routes: set[tuple[str, str]] = set()
+    allowed_categories = set(cfg['categories']) | {'unclassified'}
+    allowed_domains = {domain.lower() for domain in cfg['allowed_domains']}
+    required_strings = ('id', 'manufacturer', 'slug', 'name', 'category', 'sourceUrl', 'sourceType', 'lastVerified')
+    for index, product in enumerate(records):
+        for key in required_strings:
+            if not isinstance(product.get(key), str) or not product[key].strip(): raise ValueError(f'product[{index}].{key} must be a non-empty string')
+        if product['manufacturer'] != cfg['slug']: raise ValueError(f'product[{index}] belongs to the wrong supplier')
+        if product['category'] not in allowed_categories: raise ValueError(f'product[{index}] has invalid category {product["category"]}')
+        if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', product['slug']): raise ValueError(f'product[{index}] has invalid slug')
+        if (urlparse(product['sourceUrl']).hostname or '').lower() not in allowed_domains: raise ValueError(f'product[{index}] source URL is outside supplier domains')
+        if not isinstance(product.get('media'), list) or not isinstance(product.get('documents'), list) or not isinstance(product.get('specifications'), dict): raise ValueError(f'product[{index}] has invalid collections')
+        route = (product['manufacturer'], product['slug'])
+        if product['id'] in ids: raise ValueError(f'duplicate product id {product["id"]}')
+        if route in routes: raise ValueError(f'duplicate product route {route[0]}/{route[1]}')
+        ids.add(product['id']); routes.add(route)
+
+
+def save_asset_body(supplier: str, url: str, page_url: str, kind: str, response: FetchResponse) -> Asset:
+    extension = Path(urlparse(url).path).suffix.lower()
+    if kind == 'image' and extension not in MEDIA_EXTS: extension = mimetypes.guess_extension(response.content_type) or '.img'
+    if kind == 'document': extension = '.pdf'
+    target_root = (PUBLIC_IMG if kind == 'image' else PUBLIC_DOC) / supplier
     target_root.mkdir(parents=True, exist_ok=True)
-    name = safe_filename(url, kind, ext)
-    path = target_root / name
-    path.write_bytes(body)
-    rel = "/" + path.relative_to(ROOT / "public").as_posix()
-    return Asset(url, rel, kind, hashlib.sha256(body).hexdigest(), len(body), page_url)
+    path = target_root / safe_filename(url, kind, extension)
+    path.write_bytes(response.body)
+    return Asset(supplier, [page_url], url, '/' + path.relative_to(ROOT / 'public').as_posix(), kind, hashlib.sha256(response.body).hexdigest(), len(response.body), time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()))
 
 
-def crawl_supplier(cfg: dict, max_pages: int, delay: float, timeout: int, download: bool) -> dict:
-    slug = cfg["slug"]; domains = {d.lower() for d in cfg["allowed_domains"]}
-    snap_root = SOURCE_ROOT / slug / "html"; snap_root.mkdir(parents=True, exist_ok=True)
-    q = deque(cfg["start_urls"]); seen: set[str] = set(); pages: list[Page] = []; assets: dict[str, Asset] = {}
+def checkpoint(path: Path, queue, queued, seen_requests, seen_canonical, pages, assets, errors) -> None:
+    atomic_write_json(path, {'queue': list(queue), 'queued': sorted(queued), 'seenRequests': sorted(seen_requests), 'seenCanonical': sorted(seen_canonical), 'pages': [asdict(page) for page in pages], 'assets': [asdict(asset) for asset in assets.values()], 'errors': errors})
+
+
+def crawl_supplier(cfg: dict, args) -> tuple[dict, bool]:
+    slug = cfg['slug']
+    page_domains = {domain.lower() for domain in cfg['allowed_domains']}
+    asset_domains = {domain.lower() for domain in cfg.get('asset_domains', cfg['allowed_domains'])}
+    snapshot_root = SOURCE_ROOT / slug / 'html'
+    snapshot_root.mkdir(parents=True, exist_ok=True)
+    checkpoint_path = MANIFEST_ROOT / f'{slug}.checkpoint.json'
+    pages: list[Page] = []
+    assets: dict[str, Asset] = {}
     errors: list[dict] = []
-    print(f"\n== {cfg['name']} ==")
-    while q and len(seen) < max_pages:
-        url = q.popleft()
-        if url in seen or not same_allowed(url, domains): continue
-        ext = Path(urlparse(url).path).suffix.lower()
-        if ext in SKIP_EXTS: continue
-        seen.add(url)
+    if args.resume and checkpoint_path.exists():
+        state = json.loads(checkpoint_path.read_text(encoding='utf-8'))
+        queue = deque(state.get('queue', [])); queued = set(state.get('queued', [])); seen_requests = set(state.get('seenRequests', [])); seen_canonical = set(state.get('seenCanonical', []))
+        pages = [Page(**page) for page in state.get('pages', [])]
+        assets = {asset['original_asset_url']: Asset(**asset) for asset in state.get('assets', [])}
+        errors = state.get('errors', [])
+    else:
+        starts = [normalize(url, cfg['base_url']) for url in cfg['start_urls']]
+        queue = deque(url for url in starts if url); queued = set(queue); seen_requests = set(); seen_canonical = set()
+    print(f'\n== {cfg["name"]} ==')
+    while queue and len(seen_requests) < args.max_pages:
+        url = queue.popleft(); queued.discard(url)
+        if url in seen_requests or not same_allowed(url, page_domains): continue
+        extension = Path(urlparse(url).path).suffix.lower()
+        if extension in SKIP_EXTS: continue
+        seen_requests.add(url)
         try:
-            body, ctype = fetch(url, timeout)
-        except Exception as e:
-            errors.append({"url": url, "error": str(e)}); print(f"! {url}: {e}", file=sys.stderr); continue
-        if ctype == "application/pdf" or ext == ".pdf":
-            if download:
-                a = save_asset(slug, url, url, "document", timeout)
-                if a: assets[url] = a
+            response = fetch(url, page_domains, args.timeout, args.max_response_mb * 1024 * 1024, 'page', args.retries)
+        except Exception as error:
+            errors.append({'url': url, 'error': str(error)}); print(f'! {url}: {error}', file=sys.stderr)
+            checkpoint(checkpoint_path, queue, queued, seen_requests, seen_canonical, pages, assets, errors)
             continue
-        if "html" not in ctype and not body.lstrip().startswith(b"<"):
+        final_url = normalize(response.final_url, url) or url
+        if response.content_type == 'application/pdf' or extension == '.pdf':
+            if not args.no_download and final_url not in assets and len(assets) < args.max_assets:
+                assets[final_url] = save_asset_body(slug, final_url, url, 'document', response)
+            checkpoint(checkpoint_path, queue, queued, seen_requests, seen_canonical, pages, assets, errors)
             continue
-        text = body.decode("utf-8", "replace")
+        text = decode_html(response.body, response.charset)
         parser = PageParser(); parser.feed(text)
-        snap_name = f"{len(pages)+1:04d}-{slugify(parser.h1 or parser.title or url)}.html"
-        snap = snap_root / snap_name; snap.write_text(text, encoding="utf-8")
+        canonical = normalize(parser.canonical, final_url) if parser.canonical else final_url
+        if canonical and same_allowed(canonical, page_domains): final_url = canonical
+        if final_url in seen_canonical:
+            checkpoint(checkpoint_path, queue, queued, seen_requests, seen_canonical, pages, assets, errors); continue
+        seen_canonical.add(final_url)
+        nodes = product_nodes(parser.jsonld)
+        product_data = jsonld_product_data(nodes[0]) if len(nodes) == 1 else {}
+        for image in product_data.get('images', []): parser.media.append((image, 'image', 'hero'))
+        snapshot_name = f'{len(pages)+1:04d}-{slugify(parser.h1 or parser.title or final_url)}.html'
+        snapshot = snapshot_root / snapshot_name; snapshot.write_text(text, encoding='utf-8', newline='\n')
         page_assets: list[str] = []
-        discovered_media = list(parser.media)
-        # Anchor-linked PDFs are documents, other links remain crawl targets.
+        discovered_assets = list(parser.media)
         for href in parser.links:
-            nu = normalize(href, url)
-            if not nu: continue
-            ne = Path(urlparse(nu).path).suffix.lower()
-            if ne == ".pdf": discovered_media.append((nu, "document"))
-            elif same_allowed(nu, domains) and ne not in SKIP_EXTS and nu not in seen:
-                q.append(nu)
-        if download:
-            for raw, kind in discovered_media:
-                nu = normalize(raw, url)
-                if not nu or nu in assets: continue
-                if kind == "image" or Path(urlparse(nu).path).suffix.lower() == ".pdf":
-                    actual_kind = "document" if Path(urlparse(nu).path).suffix.lower() == ".pdf" else "image"
-                    a = save_asset(slug, nu, url, actual_kind, timeout)
-                    if a: assets[nu] = a; page_assets.append(a.local_path)
-        pages.append(Page(url, parser.title, parser.h1, parser.description, str(snap.relative_to(ROOT)), is_product_candidate(url, parser.title, parser.h1, cfg["product_hints"]), page_assets))
-        print(f"{len(pages):4d} {url}")
-        if delay: time.sleep(delay)
+            candidate = normalize(href, final_url)
+            if not candidate: continue
+            candidate_extension = Path(urlparse(candidate).path).suffix.lower()
+            if candidate_extension == '.pdf': discovered_assets.append((candidate, 'document', 'document'))
+            elif same_allowed(candidate, page_domains) and candidate_extension not in SKIP_EXTS and candidate not in seen_requests and candidate not in queued:
+                queue.append(candidate); queued.add(candidate)
+        if not args.no_download:
+            for raw, kind, role in discovered_assets:
+                asset_url = normalize(raw, final_url)
+                if not asset_url or not relevant_asset(asset_url, role) or not same_allowed(asset_url, asset_domains): continue
+                if asset_url in assets:
+                    asset = assets[asset_url]
+                    if final_url not in asset.source_page_urls: asset.source_page_urls.append(final_url); asset.source_page_urls.sort()
+                    page_assets.append(asset.local_path)
+                    continue
+                if len(assets) >= args.max_assets: break
+                try:
+                    asset_response = fetch(asset_url, asset_domains, args.timeout, args.max_asset_mb * 1024 * 1024, kind, args.retries)
+                    asset = save_asset_body(slug, asset_url, final_url, kind, asset_response); assets[asset_url] = asset; page_assets.append(asset.local_path)
+                except Exception as error:
+                    errors.append({'url': asset_url, 'page': final_url, 'error': str(error)})
+        category = infer_category(final_url, parser, cfg, product_data)
+        candidate = is_product_candidate(final_url, parser, cfg.get('product_hints', []), product_data)
+        pages.append(Page(final_url, parser.title, parser.h1, parser.description, str(snapshot.relative_to(ROOT)), candidate, category, sorted(set(page_assets)), product_data))
+        print(f'{len(pages):4d} {final_url}{" [product]" if candidate else ""}')
+        checkpoint(checkpoint_path, queue, queued, seen_requests, seen_canonical, pages, assets, errors)
+        if args.delay: time.sleep(args.delay)
 
-    product_records = []
-    for p in pages:
-        if not p.is_product_candidate: continue
-        name = clean_text(p.h1 or p.title.split("|")[0])
+    products = []
+    ids: set[str] = set(); routes: set[tuple[str, str]] = set(); structural_errors = []
+    for page in pages:
+        if not page.is_product_candidate: continue
+        name = clean_text(page.product_data.get('name') or page.h1 or page.title.split('|')[0])
         if not name: continue
-        product_records.append({
-            "id": f"{slug}:{slugify(name)}",
-            "manufacturer": slug,
-            "slug": slugify(name),
-            "name": name,
-            "category": cfg["categories"][0],
-            "collection": None,
-            "modelNumber": None,
-            "summary": p.description or None,
-            "sourceUrl": p.url,
-            "sourceType": "live-crawl",
-            "media": p.assets,
-            "documents": [x for x in p.assets if x.endswith(".pdf")],
-            "specifications": {},
-            "lastVerified": time.strftime("%Y-%m-%d")
-        })
-    return {
-        "supplier": {k: cfg[k] for k in ("slug", "name", "base_url", "categories")},
-        "crawledAt": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-        "pages": [asdict(p) for p in pages],
-        "assets": [asdict(a) for a in assets.values()],
-        "products": product_records,
-        "errors": errors,
-    }
+        product_slug = slugify(name); product_id = f'{slug}:{product_slug}'; route = (slug, product_slug)
+        if product_id in ids or route in routes:
+            structural_errors.append({'url': page.url, 'error': f'duplicate product identity {product_id}'}); continue
+        ids.add(product_id); routes.add(route)
+        products.append({'id': product_id, 'manufacturer': slug, 'slug': product_slug, 'name': name, 'category': page.category, 'collection': None, 'modelNumber': page.product_data.get('modelNumber'), 'type': None, 'summary': page.product_data.get('description') or page.description or None, 'sourceUrl': page.url, 'sourceType': 'live-crawl', 'media': [path for path in page.assets if not path.endswith('.pdf')], 'documents': [path for path in page.assets if path.endswith('.pdf')], 'specifications': page.product_data.get('specifications', {}), 'lastVerified': time.strftime('%Y-%m-%d')})
+    errors.extend(structural_errors)
+    viable = bool(pages) and bool(products) and not structural_errors
+    if viable:
+        try: validate_product_records(products, cfg)
+        except ValueError as error: errors.append({'error': str(error)}); viable = False
+    result = {'supplier': {key: cfg[key] for key in ('slug', 'name', 'base_url', 'categories')}, 'crawledAt': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()), 'pages': [asdict(page) for page in pages], 'assets': [asdict(asset) for asset in assets.values()], 'products': products, 'errors': errors}
+    atomic_write_json(MANIFEST_ROOT / f'{slug}.json', result)
+    if viable:
+        atomic_write_json(CATALOG_DIR / f'{slug}.json', products)
+        checkpoint_path.unlink(missing_ok=True)
+    else:
+        print(f'! Preserved last-known-good catalogue for {slug}: crawl produced no validated products', file=sys.stderr)
+    return result, viable
 
 
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--supplier", action="append", help="Supplier slug; repeatable. Defaults to all.")
-    ap.add_argument("--max-pages", type=int, default=250)
-    ap.add_argument("--delay", type=float, default=0.15)
-    ap.add_argument("--timeout", type=int, default=30)
-    ap.add_argument("--no-download", action="store_true", help="Discover only; do not save images/PDFs")
-    args = ap.parse_args()
-    configs = json.loads(CONFIG.read_text())
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--supplier', action='append', help='Supplier slug; repeatable. Defaults to all.')
+    parser.add_argument('--max-pages', type=int, default=250)
+    parser.add_argument('--max-assets', type=int, default=500)
+    parser.add_argument('--max-response-mb', type=int, default=12)
+    parser.add_argument('--max-asset-mb', type=int, default=50)
+    parser.add_argument('--delay', type=float, default=0.5)
+    parser.add_argument('--timeout', type=int, default=30)
+    parser.add_argument('--retries', type=int, default=2)
+    parser.add_argument('--resume', action='store_true')
+    parser.add_argument('--no-download', action='store_true', help='Save pages and product discoveries without downloading images/PDFs')
+    args = parser.parse_args()
+    configs = json.loads(CONFIG.read_text(encoding='utf-8'))
+    known = {config['slug'] for config in configs}
     if args.supplier:
-        wanted = set(args.supplier); configs = [c for c in configs if c["slug"] in wanted]
-    MANIFEST_ROOT.mkdir(parents=True, exist_ok=True)
-    all_products = []
-    for cfg in configs:
-        result = crawl_supplier(cfg, args.max_pages, args.delay, args.timeout, not args.no_download)
-        out = MANIFEST_ROOT / f"{cfg['slug']}.json"; out.write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8")
-        all_products.extend(result["products"])
-    CATALOG_OUT.parent.mkdir(parents=True, exist_ok=True)
-    CATALOG_OUT.write_text(json.dumps(all_products, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"\nWrote {len(all_products)} discovered product records to {CATALOG_OUT.relative_to(ROOT)}")
+        unknown = sorted(set(args.supplier) - known)
+        if unknown: parser.error(f'unknown supplier slug(s): {", ".join(unknown)}')
+        wanted = set(args.supplier); configs = [config for config in configs if config['slug'] in wanted]
+    MANIFEST_ROOT.mkdir(parents=True, exist_ok=True); CATALOG_DIR.mkdir(parents=True, exist_ok=True)
+    failed = []
+    for config in configs:
+        _, viable = crawl_supplier(config, args)
+        if not viable: failed.append(config['slug'])
+    if failed:
+        print(f'Ingestion failed validation for: {", ".join(failed)}', file=sys.stderr)
+        return 1
+    print(f'\nUpdated {len(configs)} independent supplier catalogue file(s).')
+    return 0
 
-if __name__ == "__main__": main()
+
+if __name__ == '__main__':
+    raise SystemExit(main())

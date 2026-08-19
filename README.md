@@ -13,9 +13,11 @@ Static-first Astro website for Window Replacement Pro with a structured, auditab
 ## Local development
 
 ```bash
-npm install
+npm ci
 npm run dev
 ```
+
+Requires Node.js 22.12.0 or newer and Python 3.10 or newer.
 
 ## Supplier ingestion
 
@@ -41,10 +43,10 @@ The ingestion pipeline:
 4. Downloads linked PDFs to `public/documents/catalog/<supplier>/`.
 5. Hashes downloaded files and records source-page provenance.
 6. Writes one audit manifest per supplier to `source-media/manifests/`.
-7. Generates `src/data/catalog/discovered-products.json`.
+7. Atomically updates that supplier's file under `src/data/catalog/discovered/` only after a viable, validated crawl.
 8. Merges live-discovered records with the curated catalog at Astro build time.
-9. Generates per-model routes at `/products/<manufacturer>/<model>/`.
-10. Adds each manufacturer's models to `/brands/<manufacturer>/`.
+9. Generates per-model routes at `/products/<manufacturer>/<model>/` only for records that meet the publication threshold.
+10. Adds publishable models to `/brands/<manufacturer>/` while retaining incomplete records for enrichment.
 
 See `scripts/ingest/README.md` for details.
 
@@ -53,8 +55,9 @@ See `scripts/ingest/README.md` for details.
 - `src/data/products.ts` — normalized customer-facing product categories
 - `src/data/manufacturers.ts` — supplier/manufacturer records
 - `src/data/catalog/curated-products.json` — verified product/model seed records
-- `src/data/catalog/discovered-products.json` — crawler output
-- `src/data/catalog.ts` — merge/deduplication layer
+- `src/data/catalog/discovered/*.json` — independent last-known-good crawler output per supplier
+- `src/data/catalog-schema.ts` — runtime normalization, deterministic merge and publication rules
+- `src/data/catalog.ts` — automatic catalogue loading and query layer
 - `src/data/locations.ts` — service-area records
 - `src/pages/products/[manufacturer]/[slug].astro` — generated supplier-model pages
 - `public/images/catalog/` — downloaded production media
@@ -64,13 +67,15 @@ See `scripts/ingest/README.md` for details.
 ## Production build
 
 ```bash
-npm run build
+npm run verify
 ```
+
+`verify` runs Astro diagnostics, catalogue validation, merge/crawler tests and the production build. Deployment must not proceed unless it passes.
 
 Cloudflare Pages settings:
 
 - Framework preset: Astro
-- Build command: `npm run build`
+- Build command: `npm run verify`
 - Build output directory: `dist`
 - Production branch: `main`
 
@@ -81,6 +86,8 @@ Supplier source snapshots are not intended for Git. Before the full media librar
 ## Important SEO rule
 
 Do not mass-publish thin location × product combinations. Add a generated route only when it has unique search value and enough local/product evidence to justify indexing. Supplier wording is reference material; WindowReplacement.pro page copy should remain original.
+
+Catalogue records remain available for enrichment even when they are not publishable. Product routes require a valid supplier/category/source, a non-placeholder title, and either a useful summary or meaningful specifications. Placeholder guides, projects and locations are withheld from indexed route generation.
 
 ## GitHub push
 
