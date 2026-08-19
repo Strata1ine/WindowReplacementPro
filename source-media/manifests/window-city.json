@@ -1,0 +1,1110 @@
+{
+  "supplier": {
+    "slug": "window-city",
+    "name": "Window City",
+    "base_url": "https://windowcity.com/",
+    "categories": [
+      "windows",
+      "entry-doors",
+      "patio-doors"
+    ]
+  },
+  "crawledAt": "2026-08-19T19:19:19Z",
+  "pages": [
+    {
+      "url": "https://windowcity.com/",
+      "title": "Canadian Manufacturer of Vinyl Window, Patio Door, Front Door",
+      "h1": "More Choices. One Source. Most trusted and reliable local manufacturer",
+      "description": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "snapshot": "source-media\\window-city\\html\\0001-more-choices-one-source-most-trusted-and-reliable-local-manufacturer.html",
+      "is_product_candidate": false,
+      "category": "patio-doors",
+      "assets": [
+        "/documents/catalog/window-city/accessibility-policy-sample-on00090e-1-6d8abc0feac3.pdf",
+        "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://windowcity.com/heritage-collection/",
+      "title": "Heritage Collection | Window City",
+      "h1": "Heritage Collection",
+      "description": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "snapshot": "source-media\\window-city\\html\\0002-heritage-collection.html",
+      "is_product_candidate": false,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/window-city/accessibility-policy-sample-on00090e-1-6d8abc0feac3.pdf",
+        "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://windowcity.com/windows/heritage-hc-101-casement/",
+      "title": "HC-101 Casement | Window City",
+      "h1": "HC-101 CASEMENT",
+      "description": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "snapshot": "source-media\\window-city\\html\\0003-hc-101-casement.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/window-city/accessibility-policy-sample-on00090e-1-6d8abc0feac3.pdf",
+        "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://windowcity.com/windows/heritage-hc-176-casement-fixed/",
+      "title": "HOUSE WINDOWS – HC176 CASEMENT FIXED WINDOW",
+      "h1": "HC-176 CASEMENT FIXED",
+      "description": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "snapshot": "source-media\\window-city\\html\\0004-hc-176-casement-fixed.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/window-city/accessibility-policy-sample-on00090e-1-6d8abc0feac3.pdf",
+        "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+        "/images/catalog/window-city/v2-heritage-collection-sideview-hc176-1-6b9d9fb55206.png"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://windowcity.com/windows/heritage-hc-126-awning/",
+      "title": "VINYL WINDOWS - AWNING WINDOW - HC126",
+      "h1": "HC-126 AWNING",
+      "description": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "snapshot": "source-media\\window-city\\html\\0005-hc-126-awning.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/window-city/accessibility-policy-sample-on00090e-1-6d8abc0feac3.pdf",
+        "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://windowcity.com/windows/heritage-hc-151-slim-fixed/",
+      "title": "HOUSE WINDOWS – HC151 Slim Fixed Window",
+      "h1": "HC-151 SLIM FIXED",
+      "description": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "snapshot": "source-media\\window-city\\html\\0006-hc-151-slim-fixed.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/window-city/accessibility-policy-sample-on00090e-1-6d8abc0feac3.pdf",
+        "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+        "/images/catalog/window-city/v2-heritage-collection-sideview-hc151-1-a2bb4facc908.png"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://windowcity.com/custom-windows-shapes/",
+      "title": "Custom Windows",
+      "h1": "Custom Windows & Shapes",
+      "description": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "snapshot": "source-media\\window-city\\html\\0007-custom-windows-shapes.html",
+      "is_product_candidate": false,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/window-city/accessibility-policy-sample-on00090e-1-6d8abc0feac3.pdf",
+        "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://windowcity.com/hardware/",
+      "title": "Windows Hardware | Window City",
+      "h1": "Windows Hardware",
+      "description": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "snapshot": "source-media\\window-city\\html\\0008-windows-hardware.html",
+      "is_product_candidate": false,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/window-city/accessibility-policy-sample-on00090e-1-6d8abc0feac3.pdf",
+        "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://windowcity.com/specifications-ratings/",
+      "title": "Specifications & Ratings | Window City",
+      "h1": "Specifications & ratings",
+      "description": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "snapshot": "source-media\\window-city\\html\\0009-specifications-ratings.html",
+      "is_product_candidate": false,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/window-city/accessibility-policy-sample-on00090e-1-6d8abc0feac3.pdf",
+        "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://windowcity.com/heritage-maximum-collection/",
+      "title": "Heritage Maximum Collection | Window City",
+      "h1": "Heritage Maximum Collection",
+      "description": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "snapshot": "source-media\\window-city\\html\\0010-heritage-maximum-collection.html",
+      "is_product_candidate": false,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/window-city/accessibility-policy-sample-on00090e-1-6d8abc0feac3.pdf",
+        "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://windowcity.com/windows/heritage-maximum-hc-401-casement/",
+      "title": "HOUSE WINDOWS – HC401 CASEMENT WINDOW",
+      "h1": "HC-401 CASEMENT",
+      "description": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "snapshot": "source-media\\window-city\\html\\0011-hc-401-casement.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/window-city/accessibility-policy-sample-on00090e-1-6d8abc0feac3.pdf",
+        "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://windowcity.com/windows/heritage-maximum-hc-476-casement-fixed/",
+      "title": "HOUSE WINDOWS – HC476 CASEMENT FIXED WINDOW",
+      "h1": "HC-476 CASEMENT FIXED",
+      "description": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "snapshot": "source-media\\window-city\\html\\0012-hc-476-casement-fixed.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/window-city/accessibility-policy-sample-on00090e-1-6d8abc0feac3.pdf",
+        "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+        "/images/catalog/window-city/v2-heritage-max-collection-sideview-hc476-1-96760426200c.png"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://windowcity.com/windows/heritage-maximum-hc-426-awning/",
+      "title": "HOUSE WINDOWS – HC426 Awning Window",
+      "h1": "HC-426 AWNING",
+      "description": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "snapshot": "source-media\\window-city\\html\\0013-hc-426-awning.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/window-city/accessibility-policy-sample-on00090e-1-6d8abc0feac3.pdf",
+        "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://windowcity.com/windows/heritage-maximum-hc-451-slim-fixed/",
+      "title": "HOUSE WINDOWS – HC451 SLIM FIXED WINDOW",
+      "h1": "HC-451 SLIM FIXED",
+      "description": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "snapshot": "source-media\\window-city\\html\\0014-hc-451-slim-fixed.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/window-city/accessibility-policy-sample-on00090e-1-6d8abc0feac3.pdf",
+        "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+        "/images/catalog/window-city/v2-heritage-max-collection-sideview-hc451-1-e4b5515b90d2.png"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://windowcity.com/classic-collection/",
+      "title": "Classic Collection | Window City",
+      "h1": "Classic COLLECTION",
+      "description": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "snapshot": "source-media\\window-city\\html\\0015-classic-collection.html",
+      "is_product_candidate": false,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/window-city/accessibility-policy-sample-on00090e-1-6d8abc0feac3.pdf",
+        "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://windowcity.com/windows/classic-wc-100-casement/",
+      "title": "HOUSE WINDOWS – WC100 CASEMENT WINDOW",
+      "h1": "WC-100 CASEMENT",
+      "description": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "snapshot": "source-media\\window-city\\html\\0016-wc-100-casement.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/window-city/accessibility-policy-sample-on00090e-1-6d8abc0feac3.pdf",
+        "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://windowcity.com/windows/classic-wc-400-casement/",
+      "title": "WC-400 Casement | Window City",
+      "h1": "WC-400 CASEMENT",
+      "description": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "snapshot": "source-media\\window-city\\html\\0017-wc-400-casement.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/window-city/accessibility-policy-sample-on00090e-1-6d8abc0feac3.pdf",
+        "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://windowcity.com/windows/classic-wc-175-casement-fixed/",
+      "title": "HOUSE WINDOWS – WC175 CASEMENT FIXED WINDOWS",
+      "h1": "WC-175 CASEMENT FIXED",
+      "description": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "snapshot": "source-media\\window-city\\html\\0018-wc-175-casement-fixed.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/window-city/accessibility-policy-sample-on00090e-1-6d8abc0feac3.pdf",
+        "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+        "/images/catalog/window-city/v2-classic-collection-sideview-wc175-2-f5335f821374.png"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://windowcity.com/windows/classic-wc-475-casement-fixed/",
+      "title": "HOUSE WINDOWS – WC475 CASEMENT FIXED WINDOW",
+      "h1": "WC-475 CASEMENT FIXED",
+      "description": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "snapshot": "source-media\\window-city\\html\\0019-wc-475-casement-fixed.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/window-city/accessibility-policy-sample-on00090e-1-6d8abc0feac3.pdf",
+        "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+        "/images/catalog/window-city/v2-classic-collection-sideview-wc475-e1bbd48723a4.png"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://windowcity.com/windows/classic-wc-125-awning/",
+      "title": "HOUSE WINDOWS – WC125 Awning Window",
+      "h1": "WC-125 AWNING",
+      "description": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "snapshot": "source-media\\window-city\\html\\0020-wc-125-awning.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/window-city/accessibility-policy-sample-on00090e-1-6d8abc0feac3.pdf",
+        "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://windowcity.com/windows/classic-wc-425-awning/",
+      "title": "HOUSE WINDOWS – WC425 Awning Window",
+      "h1": "WC-425 AWNING",
+      "description": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "snapshot": "source-media\\window-city\\html\\0021-wc-425-awning.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/window-city/accessibility-policy-sample-on00090e-1-6d8abc0feac3.pdf",
+        "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://windowcity.com/windows/classic-wc-150-slim-fixed/",
+      "title": "HOUSE WINDOWS – WC150 SLIM FIXED WINDOWS",
+      "h1": "WC-150 SLIM FIXED",
+      "description": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "snapshot": "source-media\\window-city\\html\\0022-wc-150-slim-fixed.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/window-city/accessibility-policy-sample-on00090e-1-6d8abc0feac3.pdf",
+        "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+        "/images/catalog/window-city/v2-classic-collection-sideview-wc150-1-5c7e9acb7084.png"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://windowcity.com/windows/classic-wc-450-slim-fixed/",
+      "title": "HOUSE WINDOWS – WC450 SLIM FIXED WINDOW",
+      "h1": "WC-450 SLIM FIXED",
+      "description": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "snapshot": "source-media\\window-city\\html\\0023-wc-450-slim-fixed.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/window-city/accessibility-policy-sample-on00090e-1-6d8abc0feac3.pdf",
+        "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+        "/images/catalog/window-city/v2-classic-collection-sideview-wc450-1-6aa07f77cf9a.png"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://windowcity.com/windows/classic-wc-200-single-slider/",
+      "title": "HOUSE WINDOWS – WC200 SINGLE TILT SLIDER WINDOW",
+      "h1": "WC-200 SINGLE SLIDER TILT",
+      "description": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "snapshot": "source-media\\window-city\\html\\0024-wc-200-single-slider-tilt.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/window-city/accessibility-policy-sample-on00090e-1-6d8abc0feac3.pdf",
+        "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://windowcity.com/windows/classic-wc-300-single-slider/",
+      "title": "HOUSE WINDOWS - WC300 SINGLE LIFT OUT SLIDER WINDOW",
+      "h1": "WC-300 SINGLE SLIDER LIFT OUT",
+      "description": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "snapshot": "source-media\\window-city\\html\\0025-wc-300-single-slider-lift-out.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/window-city/accessibility-policy-sample-on00090e-1-6d8abc0feac3.pdf",
+        "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://windowcity.com/windows/classic-wc-325-single-slider/",
+      "title": "HOUSE WINDOWS – WC325 SINGLE LIFT OUT SLIDER WINDOW",
+      "h1": "WC-325 SINGLE SLIDER LIFT OUT",
+      "description": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "snapshot": "source-media\\window-city\\html\\0026-wc-325-single-slider-lift-out.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/window-city/accessibility-policy-sample-on00090e-1-6d8abc0feac3.pdf",
+        "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://windowcity.com/windows/wc-250-double-slider/",
+      "title": "HOUSE WINDOWS – WC250 DOUBLE SLIDER WINDOW",
+      "h1": "WC-250 DOUBLE SLIDER Tilt",
+      "description": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "snapshot": "source-media\\window-city\\html\\0027-wc-250-double-slider-tilt.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/window-city/accessibility-policy-sample-on00090e-1-6d8abc0feac3.pdf",
+        "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+        "/images/catalog/window-city/wc250-s-2-abe9758d0b14.png"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://windowcity.com/windows/classic-wc-350-double-slider/",
+      "title": "HOUSE WINDOWS – WC350 DOUBLE LIFT OUT SLIDER WINDOW",
+      "h1": "WC-350 DOUBLE SLIDER LIFT",
+      "description": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "snapshot": "source-media\\window-city\\html\\0028-wc-350-double-slider-lift.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/window-city/accessibility-policy-sample-on00090e-1-6d8abc0feac3.pdf",
+        "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+        "/images/catalog/window-city/wc350-s-1-14f76d650ef6.png"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://windowcity.com/windows/classic-wc-201-hung/",
+      "title": "Hung Windows - WC 201 (House Single Hung Window)",
+      "h1": "WC-201 SINGLE HUNG TILT",
+      "description": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "snapshot": "source-media\\window-city\\html\\0029-wc-201-single-hung-tilt.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/window-city/accessibility-policy-sample-on00090e-1-6d8abc0feac3.pdf",
+        "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://windowcity.com/windows/classic-wc-251-hung/",
+      "title": "Hung Window - WC 251 (House Double Hung Window)",
+      "h1": "WC-251 DOUBLE HUNG TILT",
+      "description": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "snapshot": "source-media\\window-city\\html\\0030-wc-251-double-hung-tilt.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/window-city/accessibility-policy-sample-on00090e-1-6d8abc0feac3.pdf",
+        "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+      ],
+      "product_data": {}
+    }
+  ],
+  "assets": [
+    {
+      "supplier": "window-city",
+      "source_page_urls": [
+        "https://windowcity.com/",
+        "https://windowcity.com/classic-collection/",
+        "https://windowcity.com/custom-windows-shapes/",
+        "https://windowcity.com/hardware/",
+        "https://windowcity.com/heritage-collection/",
+        "https://windowcity.com/heritage-maximum-collection/",
+        "https://windowcity.com/specifications-ratings/",
+        "https://windowcity.com/windows/classic-wc-100-casement/",
+        "https://windowcity.com/windows/classic-wc-125-awning/",
+        "https://windowcity.com/windows/classic-wc-150-slim-fixed/",
+        "https://windowcity.com/windows/classic-wc-175-casement-fixed/",
+        "https://windowcity.com/windows/classic-wc-200-single-slider/",
+        "https://windowcity.com/windows/classic-wc-201-hung/",
+        "https://windowcity.com/windows/classic-wc-251-hung/",
+        "https://windowcity.com/windows/classic-wc-300-single-slider/",
+        "https://windowcity.com/windows/classic-wc-325-single-slider/",
+        "https://windowcity.com/windows/classic-wc-350-double-slider/",
+        "https://windowcity.com/windows/classic-wc-400-casement/",
+        "https://windowcity.com/windows/classic-wc-425-awning/",
+        "https://windowcity.com/windows/classic-wc-450-slim-fixed/",
+        "https://windowcity.com/windows/classic-wc-475-casement-fixed/",
+        "https://windowcity.com/windows/heritage-hc-101-casement/",
+        "https://windowcity.com/windows/heritage-hc-126-awning/",
+        "https://windowcity.com/windows/heritage-hc-151-slim-fixed/",
+        "https://windowcity.com/windows/heritage-hc-176-casement-fixed/",
+        "https://windowcity.com/windows/heritage-maximum-hc-401-casement/",
+        "https://windowcity.com/windows/heritage-maximum-hc-426-awning/",
+        "https://windowcity.com/windows/heritage-maximum-hc-451-slim-fixed/",
+        "https://windowcity.com/windows/heritage-maximum-hc-476-casement-fixed/",
+        "https://windowcity.com/windows/wc-250-double-slider/"
+      ],
+      "original_asset_url": "http://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+      "final_asset_url": "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+      "local_path": "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+      "asset_type": "document",
+      "role": "document",
+      "sha256": "5bb7bcdb993256fba767e27d434847792c78cca917bd996fe163fd2e5ae5b6f8",
+      "bytes": 34798778,
+      "discovered_at": "2026-08-19T19:18:15Z"
+    },
+    {
+      "supplier": "window-city",
+      "source_page_urls": [
+        "https://windowcity.com/",
+        "https://windowcity.com/classic-collection/",
+        "https://windowcity.com/custom-windows-shapes/",
+        "https://windowcity.com/hardware/",
+        "https://windowcity.com/heritage-collection/",
+        "https://windowcity.com/heritage-maximum-collection/",
+        "https://windowcity.com/specifications-ratings/",
+        "https://windowcity.com/windows/classic-wc-100-casement/",
+        "https://windowcity.com/windows/classic-wc-125-awning/",
+        "https://windowcity.com/windows/classic-wc-150-slim-fixed/",
+        "https://windowcity.com/windows/classic-wc-175-casement-fixed/",
+        "https://windowcity.com/windows/classic-wc-200-single-slider/",
+        "https://windowcity.com/windows/classic-wc-201-hung/",
+        "https://windowcity.com/windows/classic-wc-251-hung/",
+        "https://windowcity.com/windows/classic-wc-300-single-slider/",
+        "https://windowcity.com/windows/classic-wc-325-single-slider/",
+        "https://windowcity.com/windows/classic-wc-350-double-slider/",
+        "https://windowcity.com/windows/classic-wc-400-casement/",
+        "https://windowcity.com/windows/classic-wc-425-awning/",
+        "https://windowcity.com/windows/classic-wc-450-slim-fixed/",
+        "https://windowcity.com/windows/classic-wc-475-casement-fixed/",
+        "https://windowcity.com/windows/heritage-hc-101-casement/",
+        "https://windowcity.com/windows/heritage-hc-126-awning/",
+        "https://windowcity.com/windows/heritage-hc-151-slim-fixed/",
+        "https://windowcity.com/windows/heritage-hc-176-casement-fixed/",
+        "https://windowcity.com/windows/heritage-maximum-hc-401-casement/",
+        "https://windowcity.com/windows/heritage-maximum-hc-426-awning/",
+        "https://windowcity.com/windows/heritage-maximum-hc-451-slim-fixed/",
+        "https://windowcity.com/windows/heritage-maximum-hc-476-casement-fixed/",
+        "https://windowcity.com/windows/wc-250-double-slider/"
+      ],
+      "original_asset_url": "https://windowcity.com/wp-content/uploads/2024/05/Accessibility-Policy-Sample-on00090e-1.pdf",
+      "final_asset_url": "https://windowcity.com/wp-content/uploads/2024/05/Accessibility-Policy-Sample-on00090e-1.pdf",
+      "local_path": "/documents/catalog/window-city/accessibility-policy-sample-on00090e-1-6d8abc0feac3.pdf",
+      "asset_type": "document",
+      "role": "document",
+      "sha256": "ed68384e235ef69c41dea60771c17ea8a5d1afe5b62117d6c385960a392c5262",
+      "bytes": 203148,
+      "discovered_at": "2026-08-19T19:18:15Z"
+    },
+    {
+      "supplier": "window-city",
+      "source_page_urls": [
+        "https://windowcity.com/windows/heritage-hc-176-casement-fixed/"
+      ],
+      "original_asset_url": "https://windowcity.com/wp-content/uploads/2024/02/V2_Heritage-Collection-SideView-HC176-1.png",
+      "final_asset_url": "https://windowcity.com/wp-content/uploads/2024/02/V2_Heritage-Collection-SideView-HC176-1.png",
+      "local_path": "/images/catalog/window-city/v2-heritage-collection-sideview-hc176-1-6b9d9fb55206.png",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "174e45e1ddad263376b77dd1ff8a44aee4cacf239951f135e4662d94a8500746",
+      "bytes": 2353330,
+      "discovered_at": "2026-08-19T19:18:22Z"
+    },
+    {
+      "supplier": "window-city",
+      "source_page_urls": [
+        "https://windowcity.com/windows/heritage-hc-151-slim-fixed/"
+      ],
+      "original_asset_url": "https://windowcity.com/wp-content/uploads/2024/02/V2_Heritage-Collection-SideView-HC151-1.png",
+      "final_asset_url": "https://windowcity.com/wp-content/uploads/2024/02/V2_Heritage-Collection-SideView-HC151-1.png",
+      "local_path": "/images/catalog/window-city/v2-heritage-collection-sideview-hc151-1-a2bb4facc908.png",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "82964660e4ef3cdf29503423110bddda356c25345fa1886f1fcbd0e49d8fd661",
+      "bytes": 1905481,
+      "discovered_at": "2026-08-19T19:18:26Z"
+    },
+    {
+      "supplier": "window-city",
+      "source_page_urls": [
+        "https://windowcity.com/windows/heritage-maximum-hc-476-casement-fixed/"
+      ],
+      "original_asset_url": "https://windowcity.com/wp-content/uploads/2024/02/V2_Heritage-Max-Collection-SideView-HC476-1.png",
+      "final_asset_url": "https://windowcity.com/wp-content/uploads/2024/02/V2_Heritage-Max-Collection-SideView-HC476-1.png",
+      "local_path": "/images/catalog/window-city/v2-heritage-max-collection-sideview-hc476-1-96760426200c.png",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "a19af4a8fe5d19584b63d7b29113def9b2dd2442471120e9ad64019e8377b724",
+      "bytes": 2458253,
+      "discovered_at": "2026-08-19T19:18:39Z"
+    },
+    {
+      "supplier": "window-city",
+      "source_page_urls": [
+        "https://windowcity.com/windows/heritage-maximum-hc-451-slim-fixed/"
+      ],
+      "original_asset_url": "https://windowcity.com/wp-content/uploads/2024/02/V2_Heritage-Max-Collection-SideView-HC451-1.png",
+      "final_asset_url": "https://windowcity.com/wp-content/uploads/2024/02/V2_Heritage-Max-Collection-SideView-HC451-1.png",
+      "local_path": "/images/catalog/window-city/v2-heritage-max-collection-sideview-hc451-1-e4b5515b90d2.png",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "28f0cc29647866445a67b7fafe8621006fe2656237c6c0468969f8cb53b84601",
+      "bytes": 2195634,
+      "discovered_at": "2026-08-19T19:18:43Z"
+    },
+    {
+      "supplier": "window-city",
+      "source_page_urls": [
+        "https://windowcity.com/windows/classic-wc-175-casement-fixed/"
+      ],
+      "original_asset_url": "https://windowcity.com/wp-content/uploads/2024/02/V2_Classic-Collection-SideView-WC175-2.png",
+      "final_asset_url": "https://windowcity.com/wp-content/uploads/2024/02/V2_Classic-Collection-SideView-WC175-2.png",
+      "local_path": "/images/catalog/window-city/v2-classic-collection-sideview-wc175-2-f5335f821374.png",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "c86c01ea4eb72c46e79862879269072cc647f0857feb2b6c7c8af66b31ac40f3",
+      "bytes": 2474671,
+      "discovered_at": "2026-08-19T19:18:51Z"
+    },
+    {
+      "supplier": "window-city",
+      "source_page_urls": [
+        "https://windowcity.com/windows/classic-wc-475-casement-fixed/"
+      ],
+      "original_asset_url": "https://windowcity.com/wp-content/uploads/2024/02/V2_Classic-Collection-SideView-WC475.png",
+      "final_asset_url": "https://windowcity.com/wp-content/uploads/2024/02/V2_Classic-Collection-SideView-WC475.png",
+      "local_path": "/images/catalog/window-city/v2-classic-collection-sideview-wc475-e1bbd48723a4.png",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "3ed23a8f588610ebbcc8d40861ad24aab31f05b2323f0bbd4d16c28383308be2",
+      "bytes": 2727121,
+      "discovered_at": "2026-08-19T19:18:53Z"
+    },
+    {
+      "supplier": "window-city",
+      "source_page_urls": [
+        "https://windowcity.com/windows/classic-wc-150-slim-fixed/"
+      ],
+      "original_asset_url": "https://windowcity.com/wp-content/uploads/2024/02/V2_Classic-Collection-SideView-WC150-1.png",
+      "final_asset_url": "https://windowcity.com/wp-content/uploads/2024/02/V2_Classic-Collection-SideView-WC150-1.png",
+      "local_path": "/images/catalog/window-city/v2-classic-collection-sideview-wc150-1-5c7e9acb7084.png",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "a15c00164d80ac8cab9f3b9a2549fa55b802177e4ba103deff0fd3907e99542a",
+      "bytes": 2192232,
+      "discovered_at": "2026-08-19T19:19:00Z"
+    },
+    {
+      "supplier": "window-city",
+      "source_page_urls": [
+        "https://windowcity.com/windows/classic-wc-450-slim-fixed/"
+      ],
+      "original_asset_url": "https://windowcity.com/wp-content/uploads/2024/02/V2_Classic-Collection-SideView-WC450-1.png",
+      "final_asset_url": "https://windowcity.com/wp-content/uploads/2024/02/V2_Classic-Collection-SideView-WC450-1.png",
+      "local_path": "/images/catalog/window-city/v2-classic-collection-sideview-wc450-1-6aa07f77cf9a.png",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "e841f735199b0d42fca68b93cc033483221705171cdcbf2df5c37cd5992393a9",
+      "bytes": 2495623,
+      "discovered_at": "2026-08-19T19:19:02Z"
+    },
+    {
+      "supplier": "window-city",
+      "source_page_urls": [
+        "https://windowcity.com/windows/wc-250-double-slider/"
+      ],
+      "original_asset_url": "https://windowcity.com/wp-content/uploads/2024/03/WC250-S-2.png",
+      "final_asset_url": "https://windowcity.com/wp-content/uploads/2024/03/WC250-S-2.png",
+      "local_path": "/images/catalog/window-city/wc250-s-2-abe9758d0b14.png",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "fafea78ea1755efcac81449db1ce41dec55d768769d71764d80a26258af3bb64",
+      "bytes": 8495166,
+      "discovered_at": "2026-08-19T19:19:10Z"
+    },
+    {
+      "supplier": "window-city",
+      "source_page_urls": [
+        "https://windowcity.com/windows/classic-wc-350-double-slider/"
+      ],
+      "original_asset_url": "https://windowcity.com/wp-content/uploads/2024/02/WC350-S-1.png",
+      "final_asset_url": "https://windowcity.com/wp-content/uploads/2024/02/WC350-S-1.png",
+      "local_path": "/images/catalog/window-city/wc350-s-1-14f76d650ef6.png",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "c819dd791e26dc25974e6d66b8c75eb55fb3954cab4751e6d3c793f5fe0a799e",
+      "bytes": 11129164,
+      "discovered_at": "2026-08-19T19:19:14Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "window-city:hc-101",
+      "manufacturer": "window-city",
+      "slug": "hc-101",
+      "name": "HC-101 Casement",
+      "category": "windows",
+      "collection": "Heritage Collection",
+      "modelNumber": "HC-101",
+      "type": "Casement",
+      "summary": null,
+      "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "sourceUrl": "https://windowcity.com/windows/heritage-hc-101-casement/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "window-city:hc-176",
+      "manufacturer": "window-city",
+      "slug": "hc-176",
+      "name": "HC-176 Casement Fixed",
+      "category": "windows",
+      "collection": "Heritage Collection",
+      "modelNumber": "HC-176",
+      "type": "Casement Fixed",
+      "summary": null,
+      "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "sourceUrl": "https://windowcity.com/windows/heritage-hc-176-casement-fixed/",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/window-city/v2-heritage-collection-sideview-hc176-1-6b9d9fb55206.png"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "window-city:hc-126",
+      "manufacturer": "window-city",
+      "slug": "hc-126",
+      "name": "HC-126 Awning",
+      "category": "windows",
+      "collection": "Heritage Collection",
+      "modelNumber": "HC-126",
+      "type": "Awning",
+      "summary": null,
+      "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "sourceUrl": "https://windowcity.com/windows/heritage-hc-126-awning/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "window-city:hc-151",
+      "manufacturer": "window-city",
+      "slug": "hc-151",
+      "name": "HC-151 Slim Fixed",
+      "category": "windows",
+      "collection": "Heritage Collection",
+      "modelNumber": "HC-151",
+      "type": "Slim Fixed",
+      "summary": null,
+      "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "sourceUrl": "https://windowcity.com/windows/heritage-hc-151-slim-fixed/",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/window-city/v2-heritage-collection-sideview-hc151-1-a2bb4facc908.png"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "window-city:hc-401",
+      "manufacturer": "window-city",
+      "slug": "hc-401",
+      "name": "HC-401 Casement",
+      "category": "windows",
+      "collection": "Heritage Maximum Collection",
+      "modelNumber": "HC-401",
+      "type": "Casement",
+      "summary": null,
+      "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "sourceUrl": "https://windowcity.com/windows/heritage-maximum-hc-401-casement/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "window-city:hc-476",
+      "manufacturer": "window-city",
+      "slug": "hc-476",
+      "name": "HC-476 Casement Fixed",
+      "category": "windows",
+      "collection": "Heritage Maximum Collection",
+      "modelNumber": "HC-476",
+      "type": "Casement Fixed",
+      "summary": null,
+      "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "sourceUrl": "https://windowcity.com/windows/heritage-maximum-hc-476-casement-fixed/",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/window-city/v2-heritage-max-collection-sideview-hc476-1-96760426200c.png"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "window-city:hc-426",
+      "manufacturer": "window-city",
+      "slug": "hc-426",
+      "name": "HC-426 Awning",
+      "category": "windows",
+      "collection": "Heritage Maximum Collection",
+      "modelNumber": "HC-426",
+      "type": "Awning",
+      "summary": null,
+      "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "sourceUrl": "https://windowcity.com/windows/heritage-maximum-hc-426-awning/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "window-city:hc-451",
+      "manufacturer": "window-city",
+      "slug": "hc-451",
+      "name": "HC-451 Slim Fixed",
+      "category": "windows",
+      "collection": "Heritage Maximum Collection",
+      "modelNumber": "HC-451",
+      "type": "Slim Fixed",
+      "summary": null,
+      "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "sourceUrl": "https://windowcity.com/windows/heritage-maximum-hc-451-slim-fixed/",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/window-city/v2-heritage-max-collection-sideview-hc451-1-e4b5515b90d2.png"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "window-city:wc-100",
+      "manufacturer": "window-city",
+      "slug": "wc-100",
+      "name": "WC-100 Casement",
+      "category": "windows",
+      "collection": "Classic Collection",
+      "modelNumber": "WC-100",
+      "type": "Casement",
+      "summary": null,
+      "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "sourceUrl": "https://windowcity.com/windows/classic-wc-100-casement/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "window-city:wc-400",
+      "manufacturer": "window-city",
+      "slug": "wc-400",
+      "name": "WC-400 Casement",
+      "category": "windows",
+      "collection": "Classic Collection",
+      "modelNumber": "WC-400",
+      "type": "Casement",
+      "summary": null,
+      "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "sourceUrl": "https://windowcity.com/windows/classic-wc-400-casement/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "window-city:wc-175",
+      "manufacturer": "window-city",
+      "slug": "wc-175",
+      "name": "WC-175 Casement Fixed",
+      "category": "windows",
+      "collection": "Classic Collection",
+      "modelNumber": "WC-175",
+      "type": "Casement Fixed",
+      "summary": null,
+      "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "sourceUrl": "https://windowcity.com/windows/classic-wc-175-casement-fixed/",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/window-city/v2-classic-collection-sideview-wc175-2-f5335f821374.png"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "window-city:wc-475",
+      "manufacturer": "window-city",
+      "slug": "wc-475",
+      "name": "WC-475 Casement Fixed",
+      "category": "windows",
+      "collection": "Classic Collection",
+      "modelNumber": "WC-475",
+      "type": "Casement Fixed",
+      "summary": null,
+      "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "sourceUrl": "https://windowcity.com/windows/classic-wc-475-casement-fixed/",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/window-city/v2-classic-collection-sideview-wc475-e1bbd48723a4.png"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "window-city:wc-125",
+      "manufacturer": "window-city",
+      "slug": "wc-125",
+      "name": "WC-125 Awning",
+      "category": "windows",
+      "collection": "Classic Collection",
+      "modelNumber": "WC-125",
+      "type": "Awning",
+      "summary": null,
+      "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "sourceUrl": "https://windowcity.com/windows/classic-wc-125-awning/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "window-city:wc-425",
+      "manufacturer": "window-city",
+      "slug": "wc-425",
+      "name": "WC-425 Awning",
+      "category": "windows",
+      "collection": "Classic Collection",
+      "modelNumber": "WC-425",
+      "type": "Awning",
+      "summary": null,
+      "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "sourceUrl": "https://windowcity.com/windows/classic-wc-425-awning/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "window-city:wc-150",
+      "manufacturer": "window-city",
+      "slug": "wc-150",
+      "name": "WC-150 Slim Fixed",
+      "category": "windows",
+      "collection": "Classic Collection",
+      "modelNumber": "WC-150",
+      "type": "Slim Fixed",
+      "summary": null,
+      "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "sourceUrl": "https://windowcity.com/windows/classic-wc-150-slim-fixed/",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/window-city/v2-classic-collection-sideview-wc150-1-5c7e9acb7084.png"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "window-city:wc-450",
+      "manufacturer": "window-city",
+      "slug": "wc-450",
+      "name": "WC-450 Slim Fixed",
+      "category": "windows",
+      "collection": "Classic Collection",
+      "modelNumber": "WC-450",
+      "type": "Slim Fixed",
+      "summary": null,
+      "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "sourceUrl": "https://windowcity.com/windows/classic-wc-450-slim-fixed/",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/window-city/v2-classic-collection-sideview-wc450-1-6aa07f77cf9a.png"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "window-city:wc-200",
+      "manufacturer": "window-city",
+      "slug": "wc-200",
+      "name": "WC-200 Single Slider",
+      "category": "windows",
+      "collection": "Classic Collection",
+      "modelNumber": "WC-200",
+      "type": "Single Slider",
+      "summary": null,
+      "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "sourceUrl": "https://windowcity.com/windows/classic-wc-200-single-slider/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "window-city:wc-300",
+      "manufacturer": "window-city",
+      "slug": "wc-300",
+      "name": "WC-300 Single Slider",
+      "category": "windows",
+      "collection": "Classic Collection",
+      "modelNumber": "WC-300",
+      "type": "Single Slider",
+      "summary": null,
+      "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "sourceUrl": "https://windowcity.com/windows/classic-wc-300-single-slider/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "window-city:wc-325",
+      "manufacturer": "window-city",
+      "slug": "wc-325",
+      "name": "WC-325 Single Slider",
+      "category": "windows",
+      "collection": "Classic Collection",
+      "modelNumber": "WC-325",
+      "type": "Single Slider",
+      "summary": null,
+      "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "sourceUrl": "https://windowcity.com/windows/classic-wc-325-single-slider/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "window-city:wc-250",
+      "manufacturer": "window-city",
+      "slug": "wc-250",
+      "name": "WC-250 Double Slider",
+      "category": "windows",
+      "collection": null,
+      "modelNumber": "WC-250",
+      "type": "Double Slider",
+      "summary": null,
+      "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "sourceUrl": "https://windowcity.com/windows/wc-250-double-slider/",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/window-city/wc250-s-2-abe9758d0b14.png"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "window-city:wc-350",
+      "manufacturer": "window-city",
+      "slug": "wc-350",
+      "name": "WC-350 Double Slider",
+      "category": "windows",
+      "collection": "Classic Collection",
+      "modelNumber": "WC-350",
+      "type": "Double Slider",
+      "summary": null,
+      "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "sourceUrl": "https://windowcity.com/windows/classic-wc-350-double-slider/",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/window-city/wc350-s-1-14f76d650ef6.png"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "window-city:wc-201",
+      "manufacturer": "window-city",
+      "slug": "wc-201",
+      "name": "WC-201 Hung",
+      "category": "windows",
+      "collection": "Classic Collection",
+      "modelNumber": "WC-201",
+      "type": "Hung",
+      "summary": null,
+      "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "sourceUrl": "https://windowcity.com/windows/classic-wc-201-hung/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "window-city:wc-251",
+      "manufacturer": "window-city",
+      "slug": "wc-251",
+      "name": "WC-251 Hung",
+      "category": "windows",
+      "collection": "Classic Collection",
+      "modelNumber": "WC-251",
+      "type": "Hung",
+      "summary": null,
+      "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+      "sourceUrl": "https://windowcity.com/windows/classic-wc-251-hung/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    }
+  ],
+  "errors": []
+}

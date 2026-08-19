@@ -20,6 +20,13 @@
     "allowed_domains": ["windowcity.com", "www.windowcity.com"],
     "start_urls": ["https://windowcity.com/"],
     "product_hints": ["window", "door", "collection", "product"],
+    "product_path_rules": ["^/windows/(?:(?:heritage(?:-maximum)?|classic)-)?(?:hc|wc)-[0-9]+-[a-z0-9-]+/?$"],
+    "model_path_identity": true,
+    "asset_role_rules": [
+      {"role": "hero", "patterns": ["custom_rndrng_fxd_hght"]}
+    ],
+    "attach_page_roles": ["hero"],
+    "skip_asset_extensions": [".gif"],
     "category_rules": [
       {"patterns": ["patio[- /]?door", "sliding[- /]?door"], "category": "patio-doors"},
       {"patterns": ["entry[- /]?door", "front[- /]?door", "fiberglass", "steel[- /]?door"], "category": "entry-doors"},
@@ -30,10 +37,19 @@
   {
     "slug": "masonite",
     "name": "Masonite",
-    "base_url": "https://www.masonite.com/",
-    "allowed_domains": ["masonite.com", "www.masonite.com"],
+      "base_url": "https://www.masonite.com/",
+      "allowed_domains": ["masonite.com", "www.masonite.com"],
+      "asset_domains": ["masonite.com", "www.masonite.com", "embed.widencdn.net"],
     "start_urls": ["https://www.masonite.com/doors/exterior/", "https://www.masonite.com/catalogs/", "https://www.masonite.com/for-pros/resources/"],
-    "product_hints": ["/doors/exterior", "/door/", "/product"],
+      "product_hints": ["/doors/exterior", "/door/", "/product"],
+      "embedded_json_product_paths": ["/doors/exterior"],
+      "embedded_json_queryless_only": true,
+      "embedded_slug_aliases": {
+        "4-panel-lite": "4-panel-1-4-lite",
+        "2-panel-lite": "2-panel-1-2-lite"
+      },
+      "assets_on_product_pages_only": true,
+      "attach_page_roles": ["embedded-product"],
     "categories": ["entry-doors"]
   },
   {
@@ -41,8 +57,23 @@
     "name": "Trimlite",
     "base_url": "https://trimlite.com/",
     "allowed_domains": ["trimlite.com", "www.trimlite.com"],
-    "start_urls": ["https://trimlite.com/product-tag/exterior/", "https://trimlite.com/canadian-catalogs/"],
-    "product_hints": ["/product/", "/exterior", "/doorlite"],
+      "start_urls": ["https://trimlite.com/product-tag/exterior/", "https://trimlite.com/canadian-catalogs/"],
+      "product_hints": ["/product/", "/exterior", "/doorlite"],
+      "product_path_rules": [
+        "^/products/exterior-doors/exterior-wood/[^/]+/?$",
+        "^/products/exterior-doors/plastpro-fiberglass-doors/[^/]+/[^/]+/?$"
+      ],
+      "prioritize_link_patterns": [
+        "^/products/exterior-doors/exterior-wood/[^/]+/?$",
+        "^/products/exterior-doors/plastpro-fiberglass-doors/[^/]+/[^/]+/?$"
+      ],
+      "model_number_from_name_pattern": "^([A-Z]{2,4}[0-9]+[A-Z]?)\\b",
+      "slug_from_inferred_model": true,
+      "assets_on_product_pages_only": true,
+      "asset_role_rules": [
+        {"patterns": ["wp-post-image"], "role": "hero"}
+      ],
+      "attach_page_roles": ["hero"],
     "category_rules": [
       {"patterns": ["doorlite", "door[- ]?glass", "decorative[- ]?glass"], "category": "door-glass"},
       {"patterns": ["exterior", "entry[- ]?door", "fiberglass", "steel"], "category": "entry-doors"}
@@ -56,6 +87,31 @@
     "allowed_domains": ["groupenovatech.com", "www.groupenovatech.com"],
     "start_urls": ["https://www.groupenovatech.com/en_canada_ontario/products/doorglass.html", "https://www.groupenovatech.com/en_canada_ontario/products/patio-doors.html", "https://www.groupenovatech.com/en_canada_ontario/brochures"],
     "product_hints": ["/products/doorglass/", "/products/patio-doors/", "/products/entry-doors/"],
+    "product_path_rules": ["^/en_canada_ontario/products/(?:doorglass|patio-doors|entry-doors)/[^/]+\\.html$", "^/en_canada_ontario/catalog/product/view/id/2175/s/satine-depoli/category/22/$"],
+    "prioritize_link_patterns": ["/products/entry-doors/[^/]+\\.html$"],
+    "slug_from_path": true,
+    "assets_on_product_pages_only": true,
+    "slug_aliases": {
+      "infinite-1": "infinite-black",
+      "celeste": "c-leste",
+      "rythme": "rhythm",
+      "chanelle1": "chanelle",
+      "verre-masterline": "masterline-glass",
+      "verre-screen": "screen-glass",
+      "discretion": "discr-tion",
+      "pinhead": "pinhead-glass",
+      "allure1": "allure",
+      "alys-doorglass": "alys",
+      "chinchilla": "chinchilla-glass",
+      "urbania-aluminum": "urbania",
+      "element-bois-pvc-aluminium": "element",
+      "studio-aluminum": "studio",
+      "victorian-pvc": "victorian",
+      "loft-aluminum": "loft"
+    },
+    "product_identity_rules": [
+      {"path_pattern": "^/en_canada_ontario/catalog/product/view/id/2175/s/satine-depoli/category/22/$", "slug": "satin", "name": "Satin", "category": "door-glass"}
+    ],
     "category_rules": [
       {"patterns": ["doorglass", "door[- ]?glass", "decorative[- ]?glass"], "category": "door-glass"},
       {"patterns": ["patio[- /]?doors", "sliding[- /]?doors"], "category": "patio-doors"},
@@ -68,8 +124,20 @@
     "name": "Verre Select",
     "base_url": "https://verreselect.com/?UILanguage=EN",
     "allowed_domains": ["verreselect.com", "www.verreselect.com"],
-    "start_urls": ["https://verreselect.com/?UILanguage=EN"],
-    "product_hints": ["Product", "product", "door", "Door"],
+      "start_urls": ["https://verreselect.com/?UILanguage=EN"],
+      "product_hints": ["Product", "product", "door", "Door"],
+      "product_path_rules": ["^/product\\.php$"],
+      "prioritize_link_patterns": ["^/product\\.php$"],
+      "required_product_query": {"UILanguage": "EN"},
+      "skip_nonmatching_product_queries": true,
+      "product_link_parent_rules": ["/categories\\.php\\?CategoryID=1(?:&|$)"],
+      "fixed_product_category": "door-glass",
+      "assets_on_product_pages_only": true,
+      "asset_role_rules": [
+        {"patterns": ["product-thumb"], "role": "generic"},
+        {"patterns": ["\\bproduct-image product-image-[0-9]+\\b"], "role": "hero"}
+      ],
+      "attach_page_roles": ["hero"],
     "category_rules": [
       {"patterns": ["door[- ]?glass", "decorative[- ]?glass", "categories\\.php"], "category": "door-glass"},
       {"patterns": ["entry[- ]?door", "fiberglass", "steel"], "category": "entry-doors"}
@@ -82,7 +150,71 @@
     "base_url": "https://menniecanada.com/",
     "allowed_domains": ["menniecanada.com", "www.menniecanada.com"],
     "start_urls": ["https://menniecanada.com/products/", "https://menniecanada.com/catalog/"],
-    "product_hints": ["/products/mahogany-doors/", "/products/oak-grain/", "/products/smooth-doors/"],
+    "product_hints": ["/products/mahogany-doors/", "/products/oak-grain/", "/products/smooth-doors/", "/products/fir/"],
+    "product_path_rules": ["^/products/(?:mahogany-doors|oak-grain|smooth-doors|fir)/[^/]+/?$"],
+    "reject_product_paths": ["^/products/mahogany-doors/8-mahogany-grain-mah8-5p/?$"],
+    "prioritize_link_patterns": ["/products/(?:mahogany-doors|oak-grain|smooth-doors|fir)/[^/]+/?$"],
+    "slug_from_path": true,
+    "slug_aliases": {
+      "ss1": "mah-ss1",
+      "ss2": "mah-ss2",
+      "ss3": "mah-ss3",
+      "ss4": "mah-ss4",
+      "ss5": "mah-ss5",
+      "ss6": "mah-ss6",
+      "ss7": "mah-ss7",
+      "ss8": "mah-ss8",
+      "ss9": "mah-ss9",
+      "ss10": "mah-ss10",
+      "gr-1": "mah-gr1",
+      "gr-2": "mah-gr2",
+      "gr-3": "mah-gr3",
+      "gr-4": "mah-gr4",
+      "gr-5": "mah-gr5",
+      "gr-6": "mah-gr6",
+      "gr-7": "mah-gr7",
+      "gr-8": "mah-gr8",
+      "gr-9": "mah-gr9",
+      "gr-10": "mah-gr10",
+      "gr-11": "mah-gr11",
+      "gr-12": "mah-gr12",
+      "gr-13": "mah-gr13",
+      "gr-14": "mah-gr14",
+      "gr-15": "mah-gr15",
+      "mah-flush": "mah-f",
+      "mah-2-d": "mah-2d",
+      "mah-2em": "mah-2em",
+      "mah-8-rp": "mah8-rp",
+      "mah-8rpct": "mah8-rpct",
+      "mah-8nrp": "mah8-nrp",
+      "mah-8nrpct": "mah8-nrpct",
+      "mah-8f-3q": "mah8-3q",
+      "mah-f-8": "mah8-f",
+      "8-mahogany-grain-mah-8gp": "mah-8-gp",
+      "8-mahogany-grain-mah8-5l": "mah8-5l",
+      "wg-4ptb": "wg-4pbt",
+      "68-smooth-sm-crf": "sm-crf",
+      "8-smooth-sm8-gp": "sm8-gp"
+    },
+    "model_number_from_aliased_slug": true,
+    "model_number_overrides": {
+      "8-mahogany-grain-mah-8gp": "MAH-8'GP",
+      "sm-8-fl-1p-2": "SM-8-FL-1P",
+      "fir-grain-crf-sg": "CRF-SG",
+      "fir-grain-crf-cg": "CRF-CG",
+      "fir-grain-crf": "CRF",
+      "fir-grain-crfs": "CRFS"
+    },
+    "asset_role_rules": [
+      {"patterns": ["wp-image-[0-9]+"], "role": "gallery"}
+    ],
+    "assets_on_product_pages_only": true,
+    "collection_from_parent_path": {
+      "mahogany-doors": "Mahogany Grain",
+      "oak-grain": "Oak Grain",
+      "smooth-doors": "Smooth",
+      "fir": "Fir Grain"
+    },
     "categories": ["entry-doors"]
   },
   {
@@ -90,8 +222,22 @@
     "name": "Richersons Doors",
     "base_url": "https://www.richersonsdoors.com/",
     "allowed_domains": ["richersonsdoors.com", "www.richersonsdoors.com"],
+    "asset_domains": ["richersonsdoors.com", "www.richersonsdoors.com", "images.squarespace-cdn.com"],
     "start_urls": ["https://www.richersonsdoors.com/"],
     "product_hints": ["teak", "mahogany", "flush", "oak", "smooth", "craftsman"],
+    "embedded_product_collections": {
+      "/modern-teak": "Modern Teak",
+      "/mahogany-woodgrain": "Mahogany Woodgrain",
+      "/flush-glazed": "Flush Glazed",
+      "/oak-woodgrain": "Oak Woodgrain",
+      "/smooth-white": "Smooth White",
+      "/craftsman": "Craftsman"
+    },
+    "embedded_product_model_pattern": "\\b(?:WG|SG|BK)[A-Z0-9]{2,3}\\b",
+    "asset_role_rules": [
+      {"patterns": ["(?:^|[^A-Z0-9])(?:WG|SG|BK)[A-Z0-9]{2,3}(?:[^A-Z0-9]|$)"], "role": "gallery"}
+    ],
+    "assets_on_product_pages_only": true,
     "categories": ["entry-doors"]
   },
   {

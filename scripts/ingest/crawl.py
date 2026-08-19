@@ -19,7 +19,7 @@ import sys
 import tempfile
 import time
 from collections import deque
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, field
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import Iterable
@@ -151,19 +151,23 @@ class PageParser(HTMLParser):
         self.canonical = ''
         self.jsonld: list[str] = []
         self.visible_text: list[str] = []
+        self.embedded_descriptions: list[str] = []
+        self.embedded_json_attributes: list[str] = []
         self._capture: str | None = None
         self._buffer: list[str] = []
         self._ignored_depth = 0
 
     def handle_starttag(self, tag, attrs):
         attributes = dict(attrs)
+        if attributes.get('data-description'): self.embedded_descriptions.append(attributes['data-description'])
+        if attributes.get('data-json'): self.embedded_json_attributes.append(attributes['data-json'])
         if tag in {'script', 'style', 'noscript'}: self._ignored_depth += 1
         if tag == 'a' and attributes.get('href'): self.links.append(attributes['href'])
         if tag in {'img', 'source'}:
             descriptor = ' '.join(str(attributes.get(key, '')) for key in ('class', 'id', 'alt')).lower()
-            configured_role = next((rule.get('role') for rule in self.asset_role_rules if any(re.search(pattern, descriptor, re.I) for pattern in rule.get('patterns', []))), None)
-            role = configured_role or ('technical' if any(word in descriptor for word in ('drawing', 'diagram', 'technical', 'dimension')) else 'hero' if any(word in descriptor for word in ('hero', 'main-image', 'featured', 'primary')) else 'gallery' if any(word in descriptor for word in ('gallery', 'product', 'slide')) else 'generic')
             direct = next((attributes[key] for key in ('src', 'data-src', 'data-lazy-src') if attributes.get(key)), None)
+            configured_role = next((rule.get('role') for rule in self.asset_role_rules if any(re.search(pattern, f'{descriptor} {direct or ""}', re.I) for pattern in rule.get('patterns', []))), None)
+            role = configured_role or ('technical' if any(word in descriptor for word in ('drawing', 'diagram', 'technical', 'dimension')) else 'hero' if any(word in descriptor for word in ('hero', 'main-image', 'featured', 'primary')) else 'gallery' if any(word in descriptor for word in ('gallery', 'product', 'slide')) else 'generic')
             if direct:
                 self.media.append((direct, 'image', role))
             else:
@@ -240,15 +244,20 @@ def is_generic_page(url: str) -> bool:
 
 def is_product_candidate(url: str, parser: PageParser, hints: list[str], product_data: dict, path_rules: list[str] | None = None) -> bool:
     has_single_product_schema = bool(product_data)
+    if path_rules is not None:
+        return any(re.fullmatch(rule, urlparse(url).path, re.I) for rule in path_rules) and bool(parser.h1 or parser.title)
     if is_generic_page(url) and not has_single_product_schema: return False
-    if any(re.fullmatch(rule, urlparse(url).path, re.I) for rule in path_rules or []):
-        return bool(parser.h1 or parser.title)
     haystack = clean_text(f'{url} {parser.title} {parser.h1} {" ".join(parser.visible_text)}').lower()
     detail_score = sum(term in haystack for term in DETAIL_TERMS)
     model_signal = bool(product_data.get('modelNumber')) or bool(re.search(r'\b(?:model|series|sku|item)\s*[:#-]?\s*[a-z0-9][a-z0-9.-]{2,}\b', haystack, re.I))
     path_signal = any(hint.lower() in url.lower() for hint in hints) and len([part for part in urlparse(url).path.split('/') if part]) >= 2
     score = (3 if has_single_product_schema else 0) + (2 if model_signal else 0) + (1 if detail_score >= 2 else 0) + (1 if path_signal else 0)
     return score >= 3
+
+
+def query_requirements_met(url: str, cfg: dict) -> bool:
+    query = {key.lower(): value.lower() for key, value in parse_qsl(urlparse(url).query, keep_blank_values=True)}
+    return all(query.get(key.lower()) == str(value).lower() for key, value in cfg.get('required_product_query', {}).items())
 
 
 def infer_category(url: str, parser: PageParser, cfg: dict, product_data: dict) -> str:
@@ -269,7 +278,41 @@ def infer_category(url: str, parser: PageParser, cfg: dict, product_data: dict) 
 def relevant_asset(url: str, role: str) -> bool:
     descriptor = urlparse(url).path.lower()
     if any(word in descriptor for word in ('favicon', 'logo', 'sprite', 'avatar', 'tracking', 'pixel')): return False
-    return role in {'hero', 'gallery', 'technical', 'document'}
+    return role in {'hero', 'gallery', 'technical', 'document', 'embedded-product'}
+
+
+def embedded_caption_products(parser: PageParser, page_path: str, cfg: dict) -> list[dict]:
+    collection = cfg.get('embedded_product_collections', {}).get(page_path.rstrip('/'))
+    pattern = cfg.get('embedded_product_model_pattern')
+    if not collection or not pattern: return []
+    products: list[dict] = []
+    seen: set[str] = set()
+    for raw in parser.embedded_descriptions:
+        description = clean_text(re.sub(r'<[^>]+>', ' ', html.unescape(raw)))
+        matches = re.findall(pattern, description, re.I)
+        if not matches: continue
+        model = matches[-1] if isinstance(matches[-1], str) else matches[-1][0]
+        model = model.upper()
+        if model in seen: continue
+        seen.add(model)
+        products.append({'slug': slugify(model), 'name': f'{model} {description.replace(model, "").strip()}'.strip(), 'modelNumber': model, 'collection': collection})
+    return products
+
+
+def embedded_json_products(parser: PageParser, page_url: str, cfg: dict) -> list[dict]:
+    parsed_page = urlparse(page_url)
+    if parsed_page.path.rstrip('/') not in cfg.get('embedded_json_product_paths', []): return []
+    if cfg.get('embedded_json_queryless_only') and parsed_page.query: return []
+    products: list[dict] = []
+    for raw in parser.embedded_json_attributes:
+        try: payload = json.loads(raw)
+        except (TypeError, json.JSONDecodeError): continue
+        records = payload.get('productResults', {}).get('products', []) if isinstance(payload, dict) else []
+        for record in records:
+            if not isinstance(record, dict) or not clean_text(record.get('name')): continue
+            name = clean_text(record['name']); generated_slug = slugify(name)
+            products.append({'slug': cfg.get('embedded_slug_aliases', {}).get(generated_slug, generated_slug), 'name': name, 'modelNumber': clean_text(record.get('sku')) or None, 'collection': None, 'image': record.get('image', {}).get('defaultSrc') if isinstance(record.get('image'), dict) else None})
+    return products
 
 
 def safe_filename(url: str, fallback: str, extension: str) -> str:
@@ -283,6 +326,7 @@ class Asset:
     supplier: str
     source_page_urls: list[str]
     original_asset_url: str
+    final_asset_url: str
     local_path: str
     asset_type: str
     role: str
@@ -302,6 +346,7 @@ class Page:
     category: str
     assets: list[str]
     product_data: dict
+    embedded_products: list[dict] = field(default_factory=list)
 
 
 def atomic_write_json(path: Path, value) -> None:
@@ -344,11 +389,12 @@ def save_asset_body(supplier: str, url: str, page_url: str, kind: str, role: str
     target_root.mkdir(parents=True, exist_ok=True)
     path = target_root / safe_filename(url, kind, extension)
     path.write_bytes(response.body)
-    return Asset(supplier, [page_url], url, '/' + path.relative_to(ROOT / 'public').as_posix(), kind, role, hashlib.sha256(response.body).hexdigest(), len(response.body), time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()))
+    final_url = normalize(response.final_url, url) or response.final_url
+    return Asset(supplier, [page_url], url, final_url, '/' + path.relative_to(ROOT / 'public').as_posix(), kind, role, hashlib.sha256(response.body).hexdigest(), len(response.body), time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()))
 
 
 def product_asset_paths(page: Page, assets: dict[str, Asset], attach_page_roles: list[str] | None = None) -> tuple[list[str], list[str]]:
-    page_key = slugify(Path(urlparse(page.url).path.rstrip('/')).name)
+    page_key = slugify(Path(urlparse(page.url).path.rstrip('/')).stem)
     model_key = slugify(str(page.product_data.get('modelNumber') or ''))
     images: list[str] = []; documents: list[str] = []
     by_local_path = {asset.local_path: asset for asset in assets.values()}
@@ -380,7 +426,7 @@ def crawl_supplier(cfg: dict, args) -> tuple[dict, bool]:
         state = json.loads(checkpoint_path.read_text(encoding='utf-8'))
         queue = deque(state.get('queue', [])); queued = set(state.get('queued', [])); seen_requests = set(state.get('seenRequests', [])); seen_canonical = set(state.get('seenCanonical', []))
         pages = [Page(**page) for page in state.get('pages', [])]
-        assets = {asset['original_asset_url']: Asset(**({'role': 'generic'} | asset)) for asset in state.get('assets', [])}
+        assets = {asset['original_asset_url']: Asset(**({'role': 'generic', 'final_asset_url': asset['original_asset_url']} | asset)) for asset in state.get('assets', [])}
         errors = state.get('errors', [])
     else:
         starts = [normalize(url, cfg['base_url']) for url in cfg['start_urls']]
@@ -413,22 +459,38 @@ def crawl_supplier(cfg: dict, args) -> tuple[dict, bool]:
         seen_canonical.add(final_url)
         nodes = product_nodes(parser.jsonld)
         product_data = jsonld_product_data(nodes[0]) if len(nodes) == 1 else {}
+        embedded_products = embedded_caption_products(parser, urlparse(final_url).path, cfg) + embedded_json_products(parser, final_url, cfg)
+        for embedded in embedded_products:
+            if embedded.get('image'): parser.media.append((embedded['image'], 'image', 'embedded-product'))
         for image in product_data.get('images', []): parser.media.append((image, 'image', 'product-jsonld'))
+        category = infer_category(final_url, parser, cfg, product_data)
+        candidate = (bool(embedded_products) or is_product_candidate(final_url, parser, cfg.get('product_hints', []), product_data, cfg.get('product_path_rules'))) and query_requirements_met(final_url, cfg)
+        if candidate and cfg.get('fixed_product_category'): category = cfg['fixed_product_category']
+        if candidate and any(re.fullmatch(rule, urlparse(final_url).path, re.I) for rule in cfg.get('reject_product_paths', [])):
+            candidate = False
         snapshot_name = f'{len(pages)+1:04d}-{slugify(parser.h1 or parser.title or final_url)}.html'
         snapshot = snapshot_root / snapshot_name; snapshot.write_text(text, encoding='utf-8', newline='\n')
         page_assets: list[str] = []
         discovered_assets = list(parser.media)
         for href in parser.links:
-            candidate = normalize(href, final_url)
-            if not candidate: continue
-            candidate_extension = Path(urlparse(candidate).path).suffix.lower()
-            if candidate_extension == '.pdf': discovered_assets.append((candidate, 'document', 'document'))
-            elif '/cdn-cgi/' not in urlparse(candidate).path and same_allowed(candidate, page_domains) and candidate_extension not in SKIP_EXTS and candidate not in seen_requests and candidate not in queued:
-                queue.append(candidate); queued.add(candidate)
-        if not args.no_download:
+            link_candidate = normalize(href, final_url)
+            if not link_candidate: continue
+            is_configured_product_link = any(re.fullmatch(rule, urlparse(link_candidate).path, re.I) for rule in cfg.get('product_path_rules', []))
+            if is_configured_product_link and cfg.get('product_link_parent_rules') and not any(re.search(rule, final_url, re.I) for rule in cfg['product_link_parent_rules']): continue
+            if cfg.get('skip_nonmatching_product_queries') and is_configured_product_link and not query_requirements_met(link_candidate, cfg): continue
+            candidate_extension = Path(urlparse(link_candidate).path).suffix.lower()
+            if candidate_extension == '.pdf': discovered_assets.append((link_candidate, 'document', 'document'))
+            elif '/cdn-cgi/' not in urlparse(link_candidate).path and same_allowed(link_candidate, page_domains) and candidate_extension not in (SKIP_EXTS | MEDIA_EXTS) and link_candidate not in seen_requests and link_candidate not in queued:
+                if any(re.search(pattern, urlparse(link_candidate).path, re.I) for pattern in cfg.get('prioritize_link_patterns', [])):
+                    queue.appendleft(link_candidate)
+                else:
+                    queue.append(link_candidate)
+                queued.add(link_candidate)
+        if not args.no_download and (candidate or not cfg.get('assets_on_product_pages_only')):
             for raw, kind, role in discovered_assets:
                 asset_url = normalize(raw, final_url)
                 if not asset_url or not relevant_asset(asset_url, role) or not same_allowed(asset_url, asset_domains): continue
+                if Path(urlparse(asset_url).path).suffix.lower() in cfg.get('skip_asset_extensions', []): continue
                 if asset_url in assets:
                     asset = assets[asset_url]
                     if final_url not in asset.source_page_urls: asset.source_page_urls.append(final_url); asset.source_page_urls.sort()
@@ -440,9 +502,7 @@ def crawl_supplier(cfg: dict, args) -> tuple[dict, bool]:
                     asset = save_asset_body(slug, asset_url, final_url, kind, role, asset_response); assets[asset_url] = asset; page_assets.append(asset.local_path)
                 except Exception as error:
                     errors.append({'url': asset_url, 'page': final_url, 'error': str(error)})
-        category = infer_category(final_url, parser, cfg, product_data)
-        candidate = is_product_candidate(final_url, parser, cfg.get('product_hints', []), product_data, cfg.get('product_path_rules'))
-        pages.append(Page(final_url, parser.title, parser.h1, parser.description, str(snapshot.relative_to(ROOT)), candidate, category, sorted(set(page_assets)), product_data))
+        pages.append(Page(final_url, parser.title, parser.h1, parser.description, str(snapshot.relative_to(ROOT)), candidate, category, sorted(set(page_assets)), product_data, embedded_products))
         print(f'{len(pages):4d} {final_url}{" [product]" if candidate else ""}')
         checkpoint(checkpoint_path, queue, queued, seen_requests, seen_canonical, pages, assets, errors)
         if args.delay: time.sleep(args.delay)
@@ -451,17 +511,50 @@ def crawl_supplier(cfg: dict, args) -> tuple[dict, bool]:
     ids: set[str] = set(); routes: set[tuple[str, str]] = set(); structural_errors = []
     for page in pages:
         if not page.is_product_candidate: continue
+        if page.embedded_products:
+            for embedded in page.embedded_products:
+                product_slug = embedded['slug']; product_id = f'{slug}:{product_slug}'; route = (slug, product_slug)
+                if product_id in ids or route in routes:
+                    structural_errors.append({'url': page.url, 'error': f'duplicate product identity {product_id}'}); continue
+                ids.add(product_id); routes.add(route)
+                embedded_url = normalize(embedded.get('image'), page.url) if embedded.get('image') else None
+                embedded_assets = [asset.local_path for asset in assets.values() if embedded_url and asset.original_asset_url == embedded_url]
+                synthetic = Page(page.url, page.title, page.h1, page.description, page.snapshot, True, page.category, embedded_assets, {'modelNumber': embedded['modelNumber']})
+                media, documents = product_asset_paths(synthetic, assets, cfg.get('attach_page_roles'))
+                products.append({'id': product_id, 'manufacturer': slug, 'slug': product_slug, 'name': embedded['name'], 'category': page.category, 'collection': embedded['collection'], 'modelNumber': embedded['modelNumber'], 'type': None, 'summary': None, 'sourceDescription': None, 'sourceUrl': page.url, 'sourceType': 'live-crawl', 'media': media, 'documents': documents, 'specifications': {}, 'lastVerified': time.strftime('%Y-%m-%d')})
+            continue
         page_path = urlparse(page.url).path
         identity = next((rule for rule in cfg.get('product_identity_rules', []) if re.fullmatch(rule['path_pattern'], page_path, re.I)), {})
+        if not identity and cfg.get('model_path_identity'):
+            match = re.fullmatch(r'/windows/(?:(heritage-maximum|heritage|classic)-)?((?:hc|wc)-\d+)-([^/]+)/?', page_path, re.I)
+            if match:
+                collection_key, model, style = match.groups()
+                collections = {'heritage': 'Heritage Collection', 'heritage-maximum': 'Heritage Maximum Collection', 'classic': 'Classic Collection'}
+                model = model.upper(); style = style.replace('-', ' ').title()
+                identity = {'slug': model.lower(), 'name': f'{model} {style}', 'modelNumber': model, 'collection': collections.get((collection_key or '').lower()), 'type': style}
+        if not identity and cfg.get('collection_from_parent_path'):
+            segments = [part for part in page_path.strip('/').split('/') if part]
+            if len(segments) >= 2:
+                model_slug = segments[-1]
+                collection = cfg['collection_from_parent_path'].get(segments[-2])
+                if collection:
+                    identity = {'slug': model_slug, 'modelNumber': model_slug.upper(), 'collection': collection}
         path_name = Path(urlparse(page.url).path.rstrip('/')).name.replace('-', ' ').title() if cfg.get('name_from_path') else ''
         name = clean_text(identity.get('name') or path_name or page.product_data.get('name') or page.h1 or page.title.split('|')[0])
         if not name: continue
-        product_slug = identity.get('slug') or slugify(name); product_id = f'{slug}:{product_slug}'; route = (slug, product_slug)
+        path_slug = Path(page_path.rstrip('/')).stem if cfg.get('slug_from_path') else ''
+        model_match = re.match(cfg.get('model_number_from_name_pattern', r'(?!x)x'), name, re.I)
+        inferred_model = model_match.group(1).upper() if model_match and model_match.groups() else None
+        product_slug = cfg.get('slug_aliases', {}).get(path_slug) or identity.get('slug') or (slugify(inferred_model) if inferred_model and cfg.get('slug_from_inferred_model') else slugify(path_slug or name)); product_id = f'{slug}:{product_slug}'; route = (slug, product_slug)
+        model_number = cfg.get('model_number_overrides', {}).get(path_slug)
+        if not model_number and cfg.get('model_number_from_aliased_slug') and path_slug in cfg.get('slug_aliases', {}):
+            model_number = product_slug.upper()
+        model_number = model_number or identity.get('modelNumber') or page.product_data.get('modelNumber') or inferred_model
         if product_id in ids or route in routes:
             structural_errors.append({'url': page.url, 'error': f'duplicate product identity {product_id}'}); continue
         ids.add(product_id); routes.add(route)
         media, documents = product_asset_paths(page, assets, cfg.get('attach_page_roles'))
-        products.append({'id': product_id, 'manufacturer': slug, 'slug': product_slug, 'name': name, 'category': page.category, 'collection': identity.get('collection'), 'modelNumber': identity.get('modelNumber') or page.product_data.get('modelNumber'), 'type': identity.get('type'), 'summary': None, 'sourceDescription': page.product_data.get('description') or page.description or None, 'sourceUrl': page.url, 'sourceType': 'live-crawl', 'media': media, 'documents': documents, 'specifications': page.product_data.get('specifications', {}), 'lastVerified': time.strftime('%Y-%m-%d')})
+        products.append({'id': product_id, 'manufacturer': slug, 'slug': product_slug, 'name': name, 'category': identity.get('category') or page.category, 'collection': identity.get('collection'), 'modelNumber': model_number, 'type': identity.get('type'), 'summary': None, 'sourceDescription': page.product_data.get('description') or page.description or None, 'sourceUrl': page.url, 'sourceType': 'live-crawl', 'media': media, 'documents': documents, 'specifications': page.product_data.get('specifications', {}), 'lastVerified': time.strftime('%Y-%m-%d')})
     errors.extend(structural_errors)
     viable = bool(pages) and bool(products) and not structural_errors
     if viable:

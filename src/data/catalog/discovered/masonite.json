@@ -1,1 +1,362 @@
-[]
+[
+  {
+    "id": "masonite:vistagrande-flush-glazed-full-lite",
+    "manufacturer": "masonite",
+    "slug": "vistagrande-flush-glazed-full-lite",
+    "name": "VistaGrande Flush-Glazed Full Lite",
+    "category": "entry-doors",
+    "collection": null,
+    "modelNumber": "DR-FFG-926-FL-1-80",
+    "type": null,
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://www.masonite.com/doors/exterior/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/masonite/dr-vsg-926-140-1-fl-x-36-80-closed-frontal-a36864968b9b.webp"
+    ],
+    "documents": [],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": "masonite:vistagrande-flush-glazed-3-4-lite",
+    "manufacturer": "masonite",
+    "slug": "vistagrande-flush-glazed-3-4-lite",
+    "name": "VistaGrande Flush-Glazed 3/4 Lite",
+    "category": "entry-doors",
+    "collection": null,
+    "modelNumber": "DR-FFG-426-1P-1-80",
+    "type": null,
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://www.masonite.com/doors/exterior/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/masonite/dr-vsg-426-140-1-1p-x-36-80-closed-frontal-fcd956ab17a9.webp"
+    ],
+    "documents": [],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": "masonite:vistagrande-flush-glazed-1-2-lite",
+    "manufacturer": "masonite",
+    "slug": "vistagrande-flush-glazed-1-2-lite",
+    "name": "VistaGrande Flush-Glazed 1/2 Lite",
+    "category": "entry-doors",
+    "collection": null,
+    "modelNumber": "DR-FFG-126-1P-1-80",
+    "type": null,
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://www.masonite.com/doors/exterior/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/masonite/dr-vsg-126-140-1-1p-x-36-80-closed-frontal-e6a832a5543a.webp"
+    ],
+    "documents": [],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": "masonite:winslow-flush-glazed-3-panel",
+    "manufacturer": "masonite",
+    "slug": "winslow-flush-glazed-3-panel",
+    "name": "Winslow Flush-Glazed 3 Panel",
+    "category": "entry-doors",
+    "collection": null,
+    "modelNumber": "DR-FFG-267-WIND-1-80",
+    "type": null,
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://www.masonite.com/doors/exterior/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/masonite/dr-ffg-267-wind-1-80-closed-frontal-637bd96b5158.webp"
+    ],
+    "documents": [],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": "masonite:lincoln-park-1-panel",
+    "manufacturer": "masonite",
+    "slug": "lincoln-park-1-panel",
+    "name": "Lincoln Park 1 Panel",
+    "category": "entry-doors",
+    "collection": null,
+    "modelNumber": "DR-FG-X-LNP-X-80",
+    "type": null,
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://www.masonite.com/doors/exterior/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/masonite/dr-hgs-x-x-x-lnp-x-36-80-closed-frontal-6aea65efe873.webp"
+    ],
+    "documents": [],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": "masonite:logan-2-panel",
+    "manufacturer": "masonite",
+    "slug": "logan-2-panel",
+    "name": "Logan 2 Panel",
+    "category": "entry-doors",
+    "collection": null,
+    "modelNumber": "DR-FG-X-LOG-X-80",
+    "type": null,
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://www.masonite.com/doors/exterior/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/masonite/dr-hgs-x-x-x-log-x-36-80-closed-frontal-c11d909217fe.webp"
+    ],
+    "documents": [],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": "masonite:winslow-3-panel",
+    "manufacturer": "masonite",
+    "slug": "winslow-3-panel",
+    "name": "Winslow 3 Panel",
+    "category": "entry-doors",
+    "collection": null,
+    "modelNumber": "DR-FG-X-WIND-X-80",
+    "type": null,
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://www.masonite.com/doors/exterior/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/masonite/dr-hgs-x-x-x-wind-x-36-80-closed-frontal-a1b97dd6ee05.webp"
+    ],
+    "documents": [],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": "masonite:2-panel-hollister",
+    "manufacturer": "masonite",
+    "slug": "2-panel-hollister",
+    "name": "2 Panel Hollister",
+    "category": "entry-doors",
+    "collection": null,
+    "modelNumber": "DR-FG-404-1PH-1-80",
+    "type": null,
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://www.masonite.com/doors/exterior/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/masonite/dr-fg-404-1ph-1-80-closed-frontal-5df7f32f3e98.webp"
+    ],
+    "documents": [],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": "masonite:square-2-panel",
+    "manufacturer": "masonite",
+    "slug": "square-2-panel",
+    "name": "Square 2 Panel",
+    "category": "entry-doors",
+    "collection": null,
+    "modelNumber": "DR-FG-106-2P-1-80",
+    "type": null,
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://www.masonite.com/doors/exterior/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/masonite/dr-fg-106-2p-1-80-closed-frontal-op-5922458a3107.webp"
+    ],
+    "documents": [],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": "masonite:full-lite",
+    "manufacturer": "masonite",
+    "slug": "full-lite",
+    "name": "Full Lite",
+    "category": "entry-doors",
+    "collection": null,
+    "modelNumber": "DR-FG-122-FL-1-80",
+    "type": null,
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://www.masonite.com/doors/exterior/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/masonite/dr-bls-122-140-1-fl-x-36-80-closed-frontal-fe962b52d428.webp"
+    ],
+    "documents": [],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": "masonite:sierra",
+    "manufacturer": "masonite",
+    "slug": "sierra",
+    "name": "Sierra",
+    "category": "entry-doors",
+    "collection": null,
+    "modelNumber": "DR-FG-X-SIE-X-80",
+    "type": null,
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://www.masonite.com/doors/exterior/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/masonite/dr-bsp-x-x-x-2p-x-36-80-20mah-closed-frontal-3f147d6deac5.webp"
+    ],
+    "documents": [],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": "masonite:cheyenne",
+    "manufacturer": "masonite",
+    "slug": "cheyenne",
+    "name": "Cheyenne",
+    "category": "entry-doors",
+    "collection": null,
+    "modelNumber": "DR-FG-X-CHEY-X-80",
+    "type": null,
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://www.masonite.com/doors/exterior/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/masonite/dr-bls-x-x-x-2p-x-36-80-closed-frontal-89e6bfed43ee.webp"
+    ],
+    "documents": [],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": "masonite:6-panel",
+    "manufacturer": "masonite",
+    "slug": "6-panel",
+    "name": "6 Panel",
+    "category": "entry-doors",
+    "collection": null,
+    "modelNumber": "DR-FG-X-6P-X-80",
+    "type": null,
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://www.masonite.com/doors/exterior/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/masonite/dr-bls-x-x-x-6p-x-36-80-closed-frontal-13e91d96de34.webp"
+    ],
+    "documents": [],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": "masonite:flush-5-square-lite",
+    "manufacturer": "masonite",
+    "slug": "flush-5-square-lite",
+    "name": "Flush 5 Square Lite",
+    "category": "entry-doors",
+    "collection": null,
+    "modelNumber": "DR-FG-682-C5S-5S-96",
+    "type": null,
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://www.masonite.com/doors/exterior/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/masonite/dr-fg-682-c5s-5s-36-80-closed-frontal-d29729c2a6ad.webp"
+    ],
+    "documents": [],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": "masonite:4-lite-equal",
+    "manufacturer": "masonite",
+    "slug": "4-lite-equal",
+    "name": "4 Lite Equal",
+    "category": "entry-doors",
+    "collection": null,
+    "modelNumber": "DR-FG-228-4E-4S-80",
+    "type": null,
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://www.masonite.com/doors/exterior/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/masonite/dr-fg-228-4e-4s-80-closed-frontal-e0c1197675bd.webp"
+    ],
+    "documents": [],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": "masonite:flush-1-lite",
+    "manufacturer": "masonite",
+    "slug": "flush-1-lite",
+    "name": "Flush 1 Lite",
+    "category": "entry-doors",
+    "collection": null,
+    "modelNumber": "DR-FG-151-FCL-1-80",
+    "type": null,
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://www.masonite.com/doors/exterior/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/masonite/dr-fg-151-fcl-1-80-closed-frontal-6f5e3574c465.webp"
+    ],
+    "documents": [],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": "masonite:4-panel-1-4-lite",
+    "manufacturer": "masonite",
+    "slug": "4-panel-1-4-lite",
+    "name": "4 Panel ¼ Lite",
+    "category": "entry-doors",
+    "collection": null,
+    "modelNumber": "DR-FG-228-4P-1-80",
+    "type": null,
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://www.masonite.com/doors/exterior/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/masonite/dr-bls-228-140-1-4p-x-36-80-closed-frontal-178973e2274e.webp"
+    ],
+    "documents": [],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": "masonite:2-panel-1-2-lite",
+    "manufacturer": "masonite",
+    "slug": "2-panel-1-2-lite",
+    "name": "2 Panel ½ Lite",
+    "category": "entry-doors",
+    "collection": null,
+    "modelNumber": "DR-FG-106-2PHL-1-80",
+    "type": null,
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://www.masonite.com/doors/exterior/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/masonite/dr-fg-106-2phl-1-80-closed-frontal-20-281-29-ae3715090f71.webp"
+    ],
+    "documents": [],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  }
+]

@@ -1,0 +1,977 @@
+{
+  "supplier": {
+    "slug": "trimlite",
+    "name": "Trimlite",
+    "base_url": "https://trimlite.com/",
+    "categories": [
+      "entry-doors",
+      "door-glass"
+    ]
+  },
+  "crawledAt": "2026-08-19T19:57:56Z",
+  "pages": [
+    {
+      "url": "https://trimlite.com/product-tag/exterior/",
+      "title": "Exterior Archives - Trimlite",
+      "h1": "Exterior",
+      "description": "Browse Trimlite's Exterior Archives today! This exterior archive offers a wide variety of styles, so you're sure to find the perfect one for your home.",
+      "snapshot": "source-media\\trimlite\\html\\0001-exterior.html",
+      "is_product_candidate": false,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs2k/",
+      "title": "Smooth Fiberglass Exterior Doors - Fiberglass Door Skins - Trimlite",
+      "h1": "DRS2K Smooth Skin Exterior Fiberglass Door",
+      "description": "The simplicity of our 2-Panel Plastpro smooth fiberglass exterior doors highlights the elegance of a simple design. Shop this beautiful fiberglass door skins today at Trimlite!",
+      "snapshot": "source-media\\trimlite\\html\\0002-drs2k-smooth-skin-exterior-fiberglass-door.html",
+      "is_product_candidate": true,
+      "category": "entry-doors",
+      "assets": [
+        "/images/catalog/trimlite/8402-white-shaker-1-e50d8e32223d.jpg",
+        "/images/catalog/trimlite/drf2k2023-6783209c52af.jpg",
+        "/images/catalog/trimlite/drs1k2023-0128177ed68e.jpg",
+        "/images/catalog/trimlite/drs1sl-3-0-6-8-onyx700-be70c91b0aeb.jpg",
+        "/images/catalog/trimlite/drs2g-cottage-42bccc2f4958.jpg",
+        "/images/catalog/trimlite/drs2k2023-1a3431229175.jpg",
+        "/images/catalog/trimlite/drs3c-1-540111c3f742.jpg",
+        "/images/catalog/trimlite/drs3f2023-065eaa6f41ce.jpg",
+        "/images/catalog/trimlite/fir-84021-1-f49d837d42a5.jpg"
+      ],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs3c-2/",
+      "title": "3 Panel Front Door With Glass - 3 Panel Shaker Front Door - DRS3C Trimlite",
+      "h1": "DRS3C Smooth Skin Exterior Fiberglass Door",
+      "description": "The DRS3C 3-panel front door with glass at Trimlite will bring you a sense of security and a simple feel to your home entryway. Click now to view this 3-panel shaker front door!",
+      "snapshot": "source-media\\trimlite\\html\\0003-drs3c-smooth-skin-exterior-fiberglass-door.html",
+      "is_product_candidate": true,
+      "category": "entry-doors",
+      "assets": [
+        "/images/catalog/trimlite/8403-white-shaker-1-518e7400f987.jpg",
+        "/images/catalog/trimlite/drs3c-1-540111c3f742.jpg",
+        "/images/catalog/trimlite/drs3c-b03p-sdl-3-1-10e0ccd8f7ca.jpg",
+        "/images/catalog/trimlite/drs3c-b03p-sdl-6-4d4bdabe526d.jpg",
+        "/images/catalog/trimlite/drs3f2023-065eaa6f41ce.jpg",
+        "/images/catalog/trimlite/drs6c-craftsman-1-edec7bc66b56.jpg",
+        "/images/catalog/trimlite/sls00-flush-1-e8275f180635.png",
+        "/images/catalog/trimlite/sls60-1-a2368949be55.png"
+      ],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs6c-craftsman-2/",
+      "title": "DRS6C Craftsman Smooth Skin Exterior Fiberglass Door - Smooth Skin Series - Trimlite",
+      "h1": "DRS6C Craftsman Smooth Skin Exterior Fiberglass Door",
+      "description": "Like the name suggests this doors is for the craftsman in all of us. Visit Trimlite today to shop our online selection of doors and sidelites from our Smooth Skin Series!",
+      "snapshot": "source-media\\trimlite\\html\\0004-drs6c-craftsman-smooth-skin-exterior-fiberglass-door.html",
+      "is_product_candidate": true,
+      "category": "entry-doors",
+      "assets": [
+        "/images/catalog/trimlite/8403-white-shaker-1-518e7400f987.jpg",
+        "/images/catalog/trimlite/drg6c-1-217f23975feb.jpg",
+        "/images/catalog/trimlite/drs00-flush-1-c6f1fd219b9b.jpg",
+        "/images/catalog/trimlite/drs2b-2panel-1-4c2051a741b6.jpg",
+        "/images/catalog/trimlite/drs3c-b03p-sdl-6-4d4bdabe526d.jpg",
+        "/images/catalog/trimlite/drs40-4pblanktop-1-67980e3796b8.jpg",
+        "/images/catalog/trimlite/drs60-true6panel-1-89460c8e55e7.jpg",
+        "/images/catalog/trimlite/drs6c-craftsman-1-edec7bc66b56.jpg",
+        "/images/catalog/trimlite/sls00-flush-1-e8275f180635.png"
+      ],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs2b-2-panels/",
+      "title": "Front Door w/ 2 Glass Panels | DRS2B Smooth Fiberglass Door",
+      "h1": "DRS2B 2 Panels Smooth Skin Exterior Fiberglass Door",
+      "description": "Enhance your home with a front door featuring 2 glass panels. The DRS2B Smooth Fiberglass Door combines modern design with durability for a stylish entryway.",
+      "snapshot": "source-media\\trimlite\\html\\0005-drs2b-2-panels-smooth-skin-exterior-fiberglass-door.html",
+      "is_product_candidate": true,
+      "category": "entry-doors",
+      "assets": [
+        "/images/catalog/trimlite/drs2b-2panel-1-4c2051a741b6.jpg"
+      ],
+      "product_data": {
+        "name": "DRS2B 2 Panels Smooth Skin Exterior Fiberglass Door",
+        "description": "The DRS2B 2 Panels Smooth Skin Exterior Fiberglass Door from Trimlite offers a sleek, modern look with its smooth surface and durable fiberglass construction. Designed for both style and performance, this two-panel door resists warping, rotting, and denting, making it a long-lasting choice for any home. Its versatile design allows for easy customization with paint, ensuring a perfect match for your exterior. Upgrade your entryway with the durability and elegance of the DRS2B Smooth Skin Fiberglass Door.",
+        "modelNumber": null,
+        "images": [
+          "https://trimlite.com/wp-content/uploads/2018/05/DRS2B-Narrows-1-100x100.jpg"
+        ],
+        "category": "",
+        "specifications": {}
+      },
+      "embedded_products": []
+    },
+    {
+      "url": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs50-5-panel-shaker-2/",
+      "title": "5 Panel Fiberglass Exterior Door - Panel Fiberglass - Trimlite",
+      "h1": "DRS50 5-Panel Smooth Skin Exterior Fiberglass Door",
+      "description": "This door's sturdy 5 panel fiberglass exterior door structure ensures it will withstand the elements. Shop this lovely panel fiberglass door today at Trimlite!",
+      "snapshot": "source-media\\trimlite\\html\\0006-drs50-5-panel-smooth-skin-exterior-fiberglass-door.html",
+      "is_product_candidate": true,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/flush-glazed-applied-mullion/",
+      "title": "Full Glazed Fiberglass Door - Glazed External Doors - Trimlite",
+      "h1": "Flush Glazed Applied Mullion Smooth Skin Exterior Fiberglass Door",
+      "description": "Plastpro's full glazed fiberglass door is an excellent addition to any modernized home. Shop this lovely glazed external door today at Trimlite!",
+      "snapshot": "source-media\\trimlite\\html\\0007-flush-glazed-applied-mullion-smooth-skin-exterior-fiberglass-door.html",
+      "is_product_candidate": true,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs10b-mini-blinds-2/",
+      "title": "Fiberglass Exterior Door with Blinds - Entry Door With Mini Blinds",
+      "h1": "DRS10B Mini Blinds Smooth Skin Exterior Fiberglass Door",
+      "description": "This fiberglass exterior door with blinds lasts longer than similar wooden models. Shop this beautiful mini blind for door today at Trimlite!",
+      "snapshot": "source-media\\trimlite\\html\\0008-drs10b-mini-blinds-smooth-skin-exterior-fiberglass-door.html",
+      "is_product_candidate": true,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/sls10b-mini-blinds-smooth-skin-exterior-fiberglass-door-sidelite/",
+      "title": "Fiberglass Door with Blinds - Mini Blind Exterior Door - Trimlite",
+      "h1": "SLS10B Mini Blinds Smooth Skin Exterior Fiberglass Door Sidelite",
+      "description": "This strong fiberglass door with blinds is perfect for your contemporary home. Trimlite has this lovely mini blinds exterior door available right now!",
+      "snapshot": "source-media\\trimlite\\html\\0009-sls10b-mini-blinds-smooth-skin-exterior-fiberglass-door-sidelite.html",
+      "is_product_candidate": true,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/sls3c-2-panel-shaker-sidelite-with-2-lite-patina-decorative-glass/",
+      "title": "SLS3C 2-Panel Shaker Sidelite with 2-Lite Patina Decorative Glass - Smooth Skin Series - Trimlite",
+      "h1": "SLS3C 2-Panel Shaker Sidelite with 2-Lite Patina Decorative Glass",
+      "description": "The SLS3C sidelite is the perfect addition to any home. Visit Trimlite today to shop our selection of fiberglass doora and sidelites from out Smooth Skin Series!",
+      "snapshot": "source-media\\trimlite\\html\\0010-sls3c-2-panel-shaker-sidelite-with-2-lite-patina-decorative-glass.html",
+      "is_product_candidate": true,
+      "category": "door-glass",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/sls49-2/",
+      "title": "SLS49 Smooth Skin Exterior Fiberglass Door Sidelite - Smooth Skin Series - Trimlite",
+      "h1": "SLS49 Smooth Skin Exterior Fiberglass Door Sidelite",
+      "description": "Find the perfect sidelite for your home! Trimlite has a board selection of doors and sidelites to match your home. Visit us today to find more!",
+      "snapshot": "source-media\\trimlite\\html\\0011-sls49-smooth-skin-exterior-fiberglass-door-sidelite.html",
+      "is_product_candidate": true,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/wood-grain-fiberglass/drg49-2/",
+      "title": "Trimlite Fiberglass Doors - DRG49 Wood Grain Wood Grain Door - Trimlite",
+      "h1": "DRG49 Wood Grain Exterior Fiberglass Door",
+      "description": "Trimlite's DRG49 classic wooden pattern adds flair to your home. Check out more of our Trimlite fiberglass doors today to add more to your home.",
+      "snapshot": "source-media\\trimlite\\html\\0012-drg49-wood-grain-exterior-fiberglass-door.html",
+      "is_product_candidate": true,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/wood-grain-fiberglass/drg63-2/",
+      "title": "Exterior Fiberglass Doors - DRG63 Wood Grain Exterior Door - Trimlite",
+      "h1": "DRG63 Wood Grain Exterior Fiberglass Door",
+      "description": "Add a touch of elegance to your front door with Trimlites DRG63 exterior fiberglass door. Our wood grain exterior door are made from the highest quality materials for a long-lasting finish.",
+      "snapshot": "source-media\\trimlite\\html\\0013-drg63-wood-grain-exterior-fiberglass-door.html",
+      "is_product_candidate": true,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/wood-grain-fiberglass/drg00-2/",
+      "title": "Fiberglass Wood Grain Door | Wood Grain Fiberglass Entry Door | Oak Front Door DRG00",
+      "h1": "DRG00 Fiberglass Wood Grain Door",
+      "description": "Shop fiberglass wood grain doors, including wood grain fiberglass entry doors and oak front door styles. Explore the DRG00 today and upgrade your home with Trimlite.",
+      "snapshot": "source-media\\trimlite\\html\\0014-drg00-fiberglass-wood-grain-door.html",
+      "is_product_candidate": true,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {
+        "name": "DRG00 Wood Grain Exterior Fiberglass Door",
+        "description": "Purchase your oak grain finish fiberglass exterior door from Trimlite today. Crafted with robust fiberglass, this door features a wood grain appearance, seamlessly blending with both traditional and contemporary designs.",
+        "modelNumber": null,
+        "images": [
+          "https://trimlite.com/wp-content/uploads/2018/05/DRG00-1.jpg"
+        ],
+        "category": "",
+        "specifications": {}
+      },
+      "embedded_products": []
+    },
+    {
+      "url": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/rustic-fiberglass-doors/dra2a-2/",
+      "title": "Rustic Fiberglass Exterior Doors - Rustic Fiberglass Doors - Trimlite DRA2A",
+      "h1": "DRA2A Rustic Exterior Fiberglass Door",
+      "description": "Looking for new rustic fiberglass exterior doors? Trimlite DRA2A is perfect for any home looking for an attractive new front entrance! Order it here!",
+      "snapshot": "source-media\\trimlite\\html\\0015-dra2a-rustic-exterior-fiberglass-door.html",
+      "is_product_candidate": true,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/rustic-fiberglass-doors/sla2b/",
+      "title": "Fiberglass Exterior Doors with Sidelites - Trimlite SLA2B",
+      "h1": "SLA2B Rustic Exterior Fiberglass Door Sidelite",
+      "description": "Trimlite’s SLA2B is a great addition to any home. These fiberglass exterior doors with sidelites will not be plagued by the problems common in wooden doors. Call us today!",
+      "snapshot": "source-media\\trimlite\\html\\0016-sla2b-rustic-exterior-fiberglass-door-sidelite.html",
+      "is_product_candidate": true,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/rustic-fiberglass-doors/dra1p-2/",
+      "title": "Rustic Fiberglass Entry Doors | Durable Exterior Doors | Plastpro Rustic Series DRA1P",
+      "h1": "DRA1P Rustic Fiberglass Entry Doors",
+      "description": "Shop rustic fiberglass entry doors from the Plastpro Rustic Series DRA1P. Discover durable exterior doors built to last with timeless styles and choose Trimlite today.",
+      "snapshot": "source-media\\trimlite\\html\\0017-dra1p-rustic-fiberglass-entry-doors.html",
+      "is_product_candidate": true,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {
+        "name": "DRA1P Rustic Exterior Fiberglass Door",
+        "description": "The DRA1P-2 Rustic Fiberglass Entry Door from Trimlite combines classic charm with modern durability. Crafted by Plastpro, this door features a rich woodgrain texture and a sturdy fiberglass construction that resists warping, cracking, and rotting. Designed to enhance any rustic or traditional home, it offers both beauty and performance with minimal maintenance. Upgrade your entryway with timeless elegance—explore the DRA1P-2 today!",
+        "modelNumber": null,
+        "images": [
+          "https://trimlite.com/wp-content/uploads/2018/05/DRA1P-1.png"
+        ],
+        "category": "",
+        "specifications": {}
+      },
+      "embedded_products": []
+    },
+    {
+      "url": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/wood-grain-fiberglass/drg10b-2/",
+      "title": "Exterior Door With Built-in Blinds - Wood Look Front Door - DRG10B Trimlite",
+      "h1": "DRG10B Wood Grain Exterior Fiberglass Door",
+      "description": "This exterior door with built-in blinds is the perfect way to add natural light to your home. This amazing door comes in a variety of finishes to match your style.",
+      "snapshot": "source-media\\trimlite\\html\\0018-drg10b-wood-grain-exterior-fiberglass-door.html",
+      "is_product_candidate": true,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/wood-grain-fiberglass/drg12-2/",
+      "title": "Woodgrain Fiberglass Door - Wood Grain Entry Door - DRG12 Trimlite",
+      "h1": "DRG12 Wood Grain Exterior Fiberglass Door",
+      "description": "Trimlite offers a wide selection of fiberglass exterior doors with many styles and finishes to choose from. The DRG12 woodgrain fiberglass door is a great option for your home remodel.",
+      "snapshot": "source-media\\trimlite\\html\\0019-drg12-wood-grain-exterior-fiberglass-door.html",
+      "is_product_candidate": true,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs12-2/",
+      "title": "Plastpro Fiberglass Exterior Door - Plastpro Rustic Series - Trimlite",
+      "h1": "DRS12 Smooth Skin Exterior Fiberglass Door",
+      "description": "This plastpro fiberfglass exterior door lasts longer than similar wooden models. Shop this beautiful plastpro rustic series today at Trimlite!",
+      "snapshot": "source-media\\trimlite\\html\\0020-drs12-smooth-skin-exterior-fiberglass-door.html",
+      "is_product_candidate": true,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    }
+  ],
+  "assets": [
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs2k/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2023/05/DRS2K2023.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2023/05/DRS2K2023.jpg",
+      "local_path": "/images/catalog/trimlite/drs2k2023-1a3431229175.jpg",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "9787668f9738f9ad34ca67470546f9ffd7ef43b3aed426e97c1d2fb38aef3cd0",
+      "bytes": 23722,
+      "discovered_at": "2026-08-19T19:57:43Z"
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs2k/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2023/05/DRF2K2023.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2023/05/DRF2K2023.jpg",
+      "local_path": "/images/catalog/trimlite/drf2k2023-6783209c52af.jpg",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "2fcc9ca60f9d5c475bf061f6cc2eba441d7e2190c27926c9b39bc4019ca6fa37",
+      "bytes": 35660,
+      "discovered_at": "2026-08-19T19:57:43Z"
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs2k/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/8402-WHITE-SHAKER-1.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/8402-WHITE-SHAKER-1.jpg",
+      "local_path": "/images/catalog/trimlite/8402-white-shaker-1-e50d8e32223d.jpg",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "3e1ac036bf26ebe1e9b8a4ed0a834e1c3e90c1f4809ace173586efb8a0d060ee",
+      "bytes": 3604,
+      "discovered_at": "2026-08-19T19:57:43Z"
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs2k/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/FIR_84021-1.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/FIR_84021-1.jpg",
+      "local_path": "/images/catalog/trimlite/fir-84021-1-f49d837d42a5.jpg",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "da9e7a69f9c6ca59df621f369bcab0424397380f694a816e787a4a923d346114",
+      "bytes": 25355,
+      "discovered_at": "2026-08-19T19:57:43Z"
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs2k/",
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs3c-2/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2023/05/DRS3F2023.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2023/05/DRS3F2023.jpg",
+      "local_path": "/images/catalog/trimlite/drs3f2023-065eaa6f41ce.jpg",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "d92cc9fb0942641204a346b5dd1f7cd84572696e7bc3758ed5e5884c7c7e8906",
+      "bytes": 25651,
+      "discovered_at": "2026-08-19T19:57:43Z"
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs2k/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2023/05/DRS1K2023.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2023/05/DRS1K2023.jpg",
+      "local_path": "/images/catalog/trimlite/drs1k2023-0128177ed68e.jpg",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "0687592db6f422ccd8a1cb8ce556b44d309a39cfa8ef00b3f77b1b4f8d22b4c6",
+      "bytes": 22978,
+      "discovered_at": "2026-08-19T19:57:44Z"
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs2k/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/DRS2G_COTTAGE.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/DRS2G_COTTAGE.jpg",
+      "local_path": "/images/catalog/trimlite/drs2g-cottage-42bccc2f4958.jpg",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "2c1f7cd9364d620dc8ae31218b402ec8379a1a5a1223e6904f777a1f9ca9398b",
+      "bytes": 120084,
+      "discovered_at": "2026-08-19T19:57:44Z"
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs2k/",
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs3c-2/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/DRS3C-1.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/DRS3C-1.jpg",
+      "local_path": "/images/catalog/trimlite/drs3c-1-540111c3f742.jpg",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "61d0b14d8eec72407119705a4da21a9cac3304896bf26a6fec6e5e03918f7ba6",
+      "bytes": 19444,
+      "discovered_at": "2026-08-19T19:57:44Z"
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs2k/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2023/08/DRS1SL_3-0_6-8_ONYX700.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2023/08/DRS1SL_3-0_6-8_ONYX700.jpg",
+      "local_path": "/images/catalog/trimlite/drs1sl-3-0-6-8-onyx700-be70c91b0aeb.jpg",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "c4ed002044ba1293efcb3d33fbb5966dad347e96a891db691bd3205c7ecf20f6",
+      "bytes": 42215,
+      "discovered_at": "2026-08-19T19:57:44Z"
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs3c-2/",
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs6c-craftsman-2/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/8403-WHITE-SHAKER-1.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/8403-WHITE-SHAKER-1.jpg",
+      "local_path": "/images/catalog/trimlite/8403-white-shaker-1-518e7400f987.jpg",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "456261ee633e6a0e889b7290cb668177936d571581d37f5cdc9572b5c79192da",
+      "bytes": 3506,
+      "discovered_at": "2026-08-19T19:57:44Z"
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs3c-2/",
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs6c-craftsman-2/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2020/06/DRS3C-B03P_SDL-6.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2020/06/DRS3C-B03P_SDL-6.jpg",
+      "local_path": "/images/catalog/trimlite/drs3c-b03p-sdl-6-4d4bdabe526d.jpg",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "390906f1956f0321e3776d0731a4985b338c80134a9d8d2d6f156af2ce235578",
+      "bytes": 20324,
+      "discovered_at": "2026-08-19T19:57:45Z"
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs3c-2/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2020/06/DRS3C-B03P_SDL-3-1.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2020/06/DRS3C-B03P_SDL-3-1.jpg",
+      "local_path": "/images/catalog/trimlite/drs3c-b03p-sdl-3-1-10e0ccd8f7ca.jpg",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "9ea90a4d0c3461c494cae1b24fd7d62cb8ed1711aefde45bb497151e5a2936e1",
+      "bytes": 20120,
+      "discovered_at": "2026-08-19T19:57:45Z"
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs3c-2/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/SLS60-1.png",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/SLS60-1.png",
+      "local_path": "/images/catalog/trimlite/sls60-1-a2368949be55.png",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "4612cc5af60e155d3e086279a11b038a5d73f6be7f0dcaa16e1721f64e282dc7",
+      "bytes": 33738,
+      "discovered_at": "2026-08-19T19:57:45Z"
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs3c-2/",
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs6c-craftsman-2/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/SLS00_FLUSH-1.png",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/SLS00_FLUSH-1.png",
+      "local_path": "/images/catalog/trimlite/sls00-flush-1-e8275f180635.png",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "15793b1ffdaa0299953c608712e7c013d7a0c730e1cf59454ca902f64ecf693c",
+      "bytes": 33558,
+      "discovered_at": "2026-08-19T19:57:45Z"
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs3c-2/",
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs6c-craftsman-2/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/DRS6C_CRAFTSMAN-1.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/DRS6C_CRAFTSMAN-1.jpg",
+      "local_path": "/images/catalog/trimlite/drs6c-craftsman-1-edec7bc66b56.jpg",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "72c510f20240fdc4a36af6db58f03becc44895f7800e4394ba82a9d5c8ff3c27",
+      "bytes": 27168,
+      "discovered_at": "2026-08-19T19:57:45Z"
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs6c-craftsman-2/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/DRS40_4PBLANKTOP-1.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/DRS40_4PBLANKTOP-1.jpg",
+      "local_path": "/images/catalog/trimlite/drs40-4pblanktop-1-67980e3796b8.jpg",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "07eec5c38ed8c31acbd208796de622861c4b7ab709b572fd513266b4b6ed52a9",
+      "bytes": 19406,
+      "discovered_at": "2026-08-19T19:57:46Z"
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs6c-craftsman-2/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/DRS60_TRUE6PANEL-1.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/DRS60_TRUE6PANEL-1.jpg",
+      "local_path": "/images/catalog/trimlite/drs60-true6panel-1-89460c8e55e7.jpg",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "bc87e88c6f97cf9995e8b287cfd45b8e02ae8ab82237f6548e67763c9108f21a",
+      "bytes": 18785,
+      "discovered_at": "2026-08-19T19:57:46Z"
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs6c-craftsman-2/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/DRG6C-1.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/DRG6C-1.jpg",
+      "local_path": "/images/catalog/trimlite/drg6c-1-217f23975feb.jpg",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "a6fa61816e10ca5c487c7b7c37a16e3122ed5f232a35fe9a81c460303d304db4",
+      "bytes": 48249,
+      "discovered_at": "2026-08-19T19:57:46Z"
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs6c-craftsman-2/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/DRS00_FLUSH-1.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/DRS00_FLUSH-1.jpg",
+      "local_path": "/images/catalog/trimlite/drs00-flush-1-c6f1fd219b9b.jpg",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "0df11d7fbc1da572ee5e28cbbb270f4ee2850f886efc25d8c6f624d8b12db255",
+      "bytes": 11140,
+      "discovered_at": "2026-08-19T19:57:46Z"
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs2b-2-panels/",
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs6c-craftsman-2/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/DRS2B_2PANEL-1.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/DRS2B_2PANEL-1.jpg",
+      "local_path": "/images/catalog/trimlite/drs2b-2panel-1-4c2051a741b6.jpg",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "ff392bb375b9d75aef9e3e486e5bde4ade8e716133ebc147d39924a18e02bff1",
+      "bytes": 17023,
+      "discovered_at": "2026-08-19T19:57:46Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "trimlite:drs2k",
+      "manufacturer": "trimlite",
+      "slug": "drs2k",
+      "name": "DRS2K Smooth Skin Exterior Fiberglass Door",
+      "category": "entry-doors",
+      "collection": null,
+      "modelNumber": "DRS2K",
+      "type": null,
+      "summary": null,
+      "sourceDescription": "The simplicity of our 2-Panel Plastpro smooth fiberglass exterior doors highlights the elegance of a simple design. Shop this beautiful fiberglass door skins today at Trimlite!",
+      "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs2k/",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/trimlite/8402-white-shaker-1-e50d8e32223d.jpg",
+        "/images/catalog/trimlite/drf2k2023-6783209c52af.jpg",
+        "/images/catalog/trimlite/drs1k2023-0128177ed68e.jpg",
+        "/images/catalog/trimlite/drs1sl-3-0-6-8-onyx700-be70c91b0aeb.jpg",
+        "/images/catalog/trimlite/drs2g-cottage-42bccc2f4958.jpg",
+        "/images/catalog/trimlite/drs2k2023-1a3431229175.jpg",
+        "/images/catalog/trimlite/drs3c-1-540111c3f742.jpg",
+        "/images/catalog/trimlite/drs3f2023-065eaa6f41ce.jpg",
+        "/images/catalog/trimlite/fir-84021-1-f49d837d42a5.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "trimlite:drs3c",
+      "manufacturer": "trimlite",
+      "slug": "drs3c",
+      "name": "DRS3C Smooth Skin Exterior Fiberglass Door",
+      "category": "entry-doors",
+      "collection": null,
+      "modelNumber": "DRS3C",
+      "type": null,
+      "summary": null,
+      "sourceDescription": "The DRS3C 3-panel front door with glass at Trimlite will bring you a sense of security and a simple feel to your home entryway. Click now to view this 3-panel shaker front door!",
+      "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs3c-2/",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/trimlite/8403-white-shaker-1-518e7400f987.jpg",
+        "/images/catalog/trimlite/drs3c-1-540111c3f742.jpg",
+        "/images/catalog/trimlite/drs3c-b03p-sdl-3-1-10e0ccd8f7ca.jpg",
+        "/images/catalog/trimlite/drs3c-b03p-sdl-6-4d4bdabe526d.jpg",
+        "/images/catalog/trimlite/drs3f2023-065eaa6f41ce.jpg",
+        "/images/catalog/trimlite/drs6c-craftsman-1-edec7bc66b56.jpg",
+        "/images/catalog/trimlite/sls00-flush-1-e8275f180635.png",
+        "/images/catalog/trimlite/sls60-1-a2368949be55.png"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "trimlite:drs6c",
+      "manufacturer": "trimlite",
+      "slug": "drs6c",
+      "name": "DRS6C Craftsman Smooth Skin Exterior Fiberglass Door",
+      "category": "entry-doors",
+      "collection": null,
+      "modelNumber": "DRS6C",
+      "type": null,
+      "summary": null,
+      "sourceDescription": "Like the name suggests this doors is for the craftsman in all of us. Visit Trimlite today to shop our online selection of doors and sidelites from our Smooth Skin Series!",
+      "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs6c-craftsman-2/",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/trimlite/8403-white-shaker-1-518e7400f987.jpg",
+        "/images/catalog/trimlite/drg6c-1-217f23975feb.jpg",
+        "/images/catalog/trimlite/drs00-flush-1-c6f1fd219b9b.jpg",
+        "/images/catalog/trimlite/drs2b-2panel-1-4c2051a741b6.jpg",
+        "/images/catalog/trimlite/drs3c-b03p-sdl-6-4d4bdabe526d.jpg",
+        "/images/catalog/trimlite/drs40-4pblanktop-1-67980e3796b8.jpg",
+        "/images/catalog/trimlite/drs60-true6panel-1-89460c8e55e7.jpg",
+        "/images/catalog/trimlite/drs6c-craftsman-1-edec7bc66b56.jpg",
+        "/images/catalog/trimlite/sls00-flush-1-e8275f180635.png"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "trimlite:drs2b",
+      "manufacturer": "trimlite",
+      "slug": "drs2b",
+      "name": "DRS2B 2 Panels Smooth Skin Exterior Fiberglass Door",
+      "category": "entry-doors",
+      "collection": null,
+      "modelNumber": "DRS2B",
+      "type": null,
+      "summary": null,
+      "sourceDescription": "The DRS2B 2 Panels Smooth Skin Exterior Fiberglass Door from Trimlite offers a sleek, modern look with its smooth surface and durable fiberglass construction. Designed for both style and performance, this two-panel door resists warping, rotting, and denting, making it a long-lasting choice for any home. Its versatile design allows for easy customization with paint, ensuring a perfect match for your exterior. Upgrade your entryway with the durability and elegance of the DRS2B Smooth Skin Fiberglass Door.",
+      "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs2b-2-panels/",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/trimlite/drs2b-2panel-1-4c2051a741b6.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "trimlite:drs50",
+      "manufacturer": "trimlite",
+      "slug": "drs50",
+      "name": "DRS50 5-Panel Smooth Skin Exterior Fiberglass Door",
+      "category": "entry-doors",
+      "collection": null,
+      "modelNumber": "DRS50",
+      "type": null,
+      "summary": null,
+      "sourceDescription": "This door's sturdy 5 panel fiberglass exterior door structure ensures it will withstand the elements. Shop this lovely panel fiberglass door today at Trimlite!",
+      "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs50-5-panel-shaker-2/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "trimlite:flush-glazed-applied-mullion-smooth-skin-exterior-fiberglass-door",
+      "manufacturer": "trimlite",
+      "slug": "flush-glazed-applied-mullion-smooth-skin-exterior-fiberglass-door",
+      "name": "Flush Glazed Applied Mullion Smooth Skin Exterior Fiberglass Door",
+      "category": "entry-doors",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "Plastpro's full glazed fiberglass door is an excellent addition to any modernized home. Shop this lovely glazed external door today at Trimlite!",
+      "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/flush-glazed-applied-mullion/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "trimlite:drs10b",
+      "manufacturer": "trimlite",
+      "slug": "drs10b",
+      "name": "DRS10B Mini Blinds Smooth Skin Exterior Fiberglass Door",
+      "category": "entry-doors",
+      "collection": null,
+      "modelNumber": "DRS10B",
+      "type": null,
+      "summary": null,
+      "sourceDescription": "This fiberglass exterior door with blinds lasts longer than similar wooden models. Shop this beautiful mini blind for door today at Trimlite!",
+      "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs10b-mini-blinds-2/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "trimlite:sls10b",
+      "manufacturer": "trimlite",
+      "slug": "sls10b",
+      "name": "SLS10B Mini Blinds Smooth Skin Exterior Fiberglass Door Sidelite",
+      "category": "entry-doors",
+      "collection": null,
+      "modelNumber": "SLS10B",
+      "type": null,
+      "summary": null,
+      "sourceDescription": "This strong fiberglass door with blinds is perfect for your contemporary home. Trimlite has this lovely mini blinds exterior door available right now!",
+      "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/sls10b-mini-blinds-smooth-skin-exterior-fiberglass-door-sidelite/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "trimlite:sls3c",
+      "manufacturer": "trimlite",
+      "slug": "sls3c",
+      "name": "SLS3C 2-Panel Shaker Sidelite with 2-Lite Patina Decorative Glass",
+      "category": "door-glass",
+      "collection": null,
+      "modelNumber": "SLS3C",
+      "type": null,
+      "summary": null,
+      "sourceDescription": "The SLS3C sidelite is the perfect addition to any home. Visit Trimlite today to shop our selection of fiberglass doora and sidelites from out Smooth Skin Series!",
+      "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/sls3c-2-panel-shaker-sidelite-with-2-lite-patina-decorative-glass/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "trimlite:sls49",
+      "manufacturer": "trimlite",
+      "slug": "sls49",
+      "name": "SLS49 Smooth Skin Exterior Fiberglass Door Sidelite",
+      "category": "entry-doors",
+      "collection": null,
+      "modelNumber": "SLS49",
+      "type": null,
+      "summary": null,
+      "sourceDescription": "Find the perfect sidelite for your home! Trimlite has a board selection of doors and sidelites to match your home. Visit us today to find more!",
+      "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/sls49-2/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "trimlite:drg49",
+      "manufacturer": "trimlite",
+      "slug": "drg49",
+      "name": "DRG49 Wood Grain Exterior Fiberglass Door",
+      "category": "entry-doors",
+      "collection": null,
+      "modelNumber": "DRG49",
+      "type": null,
+      "summary": null,
+      "sourceDescription": "Trimlite's DRG49 classic wooden pattern adds flair to your home. Check out more of our Trimlite fiberglass doors today to add more to your home.",
+      "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/wood-grain-fiberglass/drg49-2/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "trimlite:drg63",
+      "manufacturer": "trimlite",
+      "slug": "drg63",
+      "name": "DRG63 Wood Grain Exterior Fiberglass Door",
+      "category": "entry-doors",
+      "collection": null,
+      "modelNumber": "DRG63",
+      "type": null,
+      "summary": null,
+      "sourceDescription": "Add a touch of elegance to your front door with Trimlites DRG63 exterior fiberglass door. Our wood grain exterior door are made from the highest quality materials for a long-lasting finish.",
+      "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/wood-grain-fiberglass/drg63-2/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "trimlite:drg00",
+      "manufacturer": "trimlite",
+      "slug": "drg00",
+      "name": "DRG00 Wood Grain Exterior Fiberglass Door",
+      "category": "entry-doors",
+      "collection": null,
+      "modelNumber": "DRG00",
+      "type": null,
+      "summary": null,
+      "sourceDescription": "Purchase your oak grain finish fiberglass exterior door from Trimlite today. Crafted with robust fiberglass, this door features a wood grain appearance, seamlessly blending with both traditional and contemporary designs.",
+      "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/wood-grain-fiberglass/drg00-2/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "trimlite:dra2a",
+      "manufacturer": "trimlite",
+      "slug": "dra2a",
+      "name": "DRA2A Rustic Exterior Fiberglass Door",
+      "category": "entry-doors",
+      "collection": null,
+      "modelNumber": "DRA2A",
+      "type": null,
+      "summary": null,
+      "sourceDescription": "Looking for new rustic fiberglass exterior doors? Trimlite DRA2A is perfect for any home looking for an attractive new front entrance! Order it here!",
+      "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/rustic-fiberglass-doors/dra2a-2/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "trimlite:sla2b",
+      "manufacturer": "trimlite",
+      "slug": "sla2b",
+      "name": "SLA2B Rustic Exterior Fiberglass Door Sidelite",
+      "category": "entry-doors",
+      "collection": null,
+      "modelNumber": "SLA2B",
+      "type": null,
+      "summary": null,
+      "sourceDescription": "Trimlite’s SLA2B is a great addition to any home. These fiberglass exterior doors with sidelites will not be plagued by the problems common in wooden doors. Call us today!",
+      "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/rustic-fiberglass-doors/sla2b/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "trimlite:dra1p",
+      "manufacturer": "trimlite",
+      "slug": "dra1p",
+      "name": "DRA1P Rustic Exterior Fiberglass Door",
+      "category": "entry-doors",
+      "collection": null,
+      "modelNumber": "DRA1P",
+      "type": null,
+      "summary": null,
+      "sourceDescription": "The DRA1P-2 Rustic Fiberglass Entry Door from Trimlite combines classic charm with modern durability. Crafted by Plastpro, this door features a rich woodgrain texture and a sturdy fiberglass construction that resists warping, cracking, and rotting. Designed to enhance any rustic or traditional home, it offers both beauty and performance with minimal maintenance. Upgrade your entryway with timeless elegance—explore the DRA1P-2 today!",
+      "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/rustic-fiberglass-doors/dra1p-2/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "trimlite:drg10b",
+      "manufacturer": "trimlite",
+      "slug": "drg10b",
+      "name": "DRG10B Wood Grain Exterior Fiberglass Door",
+      "category": "entry-doors",
+      "collection": null,
+      "modelNumber": "DRG10B",
+      "type": null,
+      "summary": null,
+      "sourceDescription": "This exterior door with built-in blinds is the perfect way to add natural light to your home. This amazing door comes in a variety of finishes to match your style.",
+      "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/wood-grain-fiberglass/drg10b-2/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "trimlite:drg12",
+      "manufacturer": "trimlite",
+      "slug": "drg12",
+      "name": "DRG12 Wood Grain Exterior Fiberglass Door",
+      "category": "entry-doors",
+      "collection": null,
+      "modelNumber": "DRG12",
+      "type": null,
+      "summary": null,
+      "sourceDescription": "Trimlite offers a wide selection of fiberglass exterior doors with many styles and finishes to choose from. The DRG12 woodgrain fiberglass door is a great option for your home remodel.",
+      "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/wood-grain-fiberglass/drg12-2/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "trimlite:drs12",
+      "manufacturer": "trimlite",
+      "slug": "drs12",
+      "name": "DRS12 Smooth Skin Exterior Fiberglass Door",
+      "category": "entry-doors",
+      "collection": null,
+      "modelNumber": "DRS12",
+      "type": null,
+      "summary": null,
+      "sourceDescription": "This plastpro fiberfglass exterior door lasts longer than similar wooden models. Shop this beautiful plastpro rustic series today at Trimlite!",
+      "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs12-2/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    }
+  ],
+  "errors": []
+}

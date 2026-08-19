@@ -1,0 +1,583 @@
+{
+  "supplier": {
+    "slug": "verre-select",
+    "name": "Verre Select",
+    "base_url": "https://verreselect.com/?UILanguage=EN",
+    "categories": [
+      "entry-doors",
+      "door-glass"
+    ]
+  },
+  "crawledAt": "2026-08-19T20:02:57Z",
+  "pages": [
+    {
+      "url": "https://verreselect.com/?UILanguage=EN",
+      "title": "Verre Select Inc.: Home",
+      "h1": "",
+      "description": "Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0001-verre-select-inc-home.html",
+      "is_product_candidate": false,
+      "category": "unclassified",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/page.php?PageID=25&UILanguage=EN",
+      "title": "Verre Select Inc.: Privacy Policy",
+      "h1": "Privacy Policy",
+      "description": "Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0002-privacy-policy.html",
+      "is_product_candidate": false,
+      "category": "unclassified",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/",
+      "title": "Verre Sélect Inc.: Home",
+      "h1": "",
+      "description": "Verre Sélect se distingue de ses concurrents par l’originalité de ses designs et la diversité de ses produits : vitraux décoratifs soudés et non soudés, sérigraphies, rainurés, verres thermoformés, panneaux Exécutifs et moulures Dynastie. Nous vous offrons aussi une gamme très intéressante de produits pour porte d’intérieur. ",
+      "snapshot": "source-media\\verre-select\\html\\0003-verre-s-lect-inc-home.html",
+      "is_product_candidate": false,
+      "category": "unclassified",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/page.php?PageID=3&UILanguage=en",
+      "title": "VERRE SELECT The company",
+      "h1": "The company",
+      "description": "Our company specializes in decorative windows of higher quality and we offer you exceptional fiberglass doors. Verre Select: partner for your ideas and your projects.\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0004-the-company.html",
+      "is_product_candidate": false,
+      "category": "unclassified",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/module.php?ModuleName=com.summercart.news&UILanguage=en&list=",
+      "title": "News",
+      "h1": "News",
+      "description": "Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0005-news.html",
+      "is_product_candidate": false,
+      "category": "unclassified",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/form.php?FormID=1&UILanguage=en",
+      "title": "Verre Select: Contact us",
+      "h1": "Contact us",
+      "description": "Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0006-contact-us.html",
+      "is_product_candidate": false,
+      "category": "unclassified",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/categories.php?CategoryID=1&UILanguage=en",
+      "title": "Door Windows - VERRE SELECT Collection",
+      "h1": "Door Windows",
+      "description": "Verre Select's new collection of decorative glass will please you and certainly enhance your home. Sophisticated, various opaque patterns that ensures the desired privacy and comfort. Our new contemporay frame fits particularly well with these new models. Verre Select, creativity at your service. Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0007-door-windows.html",
+      "is_product_candidate": false,
+      "category": "door-glass",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/product.php?ProductID=171&UILanguage=EN",
+      "title": "Vitraux Whistler",
+      "h1": "Whistler",
+      "description": "The WHISTLER model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0008-whistler.html",
+      "is_product_candidate": true,
+      "category": "door-glass",
+      "assets": [
+        "/images/catalog/verre-select/variant-171-1009-a6453d2fafac.jpg"
+      ],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/product.php?ProductID=174&UILanguage=EN",
+      "title": "Vitraux Quattro",
+      "h1": "Quattro",
+      "description": "The QUATTRO model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0009-quattro.html",
+      "is_product_candidate": true,
+      "category": "door-glass",
+      "assets": [
+        "/images/catalog/verre-select/variant-174-1029-836e07ac6917.jpg"
+      ],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/product.php?ProductID=230&UILanguage=EN",
+      "title": "Fragrance",
+      "h1": "Fragrance",
+      "description": "The Fragrance model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service! Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0010-fragrance.html",
+      "is_product_candidate": true,
+      "category": "door-glass",
+      "assets": [
+        "/images/catalog/verre-select/variant-230-1113-a7d4719b2fe8.jpg"
+      ],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/product.php?ProductID=232&UILanguage=EN",
+      "title": "Vitraux Gabriella",
+      "h1": "Gabriella",
+      "description": "The GABRIELLA model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0011-gabriella.html",
+      "is_product_candidate": true,
+      "category": "door-glass",
+      "assets": [
+        "/images/catalog/verre-select/variant-232-1123-737fbaa6115f.jpg"
+      ],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/product.php?ProductVariantID=1132&UILanguage=EN",
+      "title": "Vitraux CBG",
+      "h1": "CBG",
+      "description": "The CBG model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0012-cbg.html",
+      "is_product_candidate": true,
+      "category": "door-glass",
+      "assets": [
+        "/images/catalog/verre-select/variant-234-1132-0fd149a52264.jpg"
+      ],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/product.php?ProductVariantID=1143&UILanguage=EN",
+      "title": "Vitraux Cadence",
+      "h1": "Cadence",
+      "description": "The CADENCE model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0013-cadence.html",
+      "is_product_candidate": true,
+      "category": "door-glass",
+      "assets": [
+        "/images/catalog/verre-select/variant-235-1143-9cfcd897278c.jpg"
+      ],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/product.php?ProductID=240&UILanguage=EN",
+      "title": "Vitraux Naomie",
+      "h1": "Naomie",
+      "description": "The Naomie model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0014-naomie.html",
+      "is_product_candidate": true,
+      "category": "door-glass",
+      "assets": [
+        "/images/catalog/verre-select/variant-240-1215-d7c06c9aafe6.jpg"
+      ],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/product.php?ProductID=241&UILanguage=EN",
+      "title": "Vitraux Java",
+      "h1": "Java",
+      "description": "The Java model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0015-java.html",
+      "is_product_candidate": true,
+      "category": "door-glass",
+      "assets": [
+        "/images/catalog/verre-select/variant-241-1219-cad98d6f5444.jpg"
+      ],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/product.php?ProductID=243&UILanguage=EN",
+      "title": "Vitraux Cyndi",
+      "h1": "Cyndi",
+      "description": "The Cyndi model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0016-cyndi.html",
+      "is_product_candidate": true,
+      "category": "door-glass",
+      "assets": [
+        "/images/catalog/verre-select/variant-243-1232-efbb5800c377.jpg"
+      ],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/categories.php?CategoryID=3&UILanguage=en",
+      "title": "Fiberglass Doors by ODL · Verre Sélect",
+      "h1": "Fiberglass Doors",
+      "description": "Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0017-fiberglass-doors.html",
+      "is_product_candidate": false,
+      "category": "door-glass",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/categories.php?CategoryID=53&UILanguage=en",
+      "title": "Verre Select Inc.: Steel Doors",
+      "h1": "Steel Doors",
+      "description": "Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0018-steel-doors.html",
+      "is_product_candidate": false,
+      "category": "door-glass",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/categories.php?CategoryID=55&UILanguage=en",
+      "title": "Verre Select Inc.: Glass Staircases",
+      "h1": "Glass Staircases",
+      "description": "Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0019-glass-staircases.html",
+      "is_product_candidate": false,
+      "category": "door-glass",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/categories.php?CategoryID=56&UILanguage=en",
+      "title": "Verre Select Inc.: Showers",
+      "h1": "Showers",
+      "description": "Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0020-showers.html",
+      "is_product_candidate": false,
+      "category": "door-glass",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    }
+  ],
+  "assets": [
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=171&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/productimages/variant_171_1009.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/productimages/variant_171_1009.jpg",
+      "local_path": "/images/catalog/verre-select/variant-171-1009-a6453d2fafac.jpg",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "1643268fd318b7a73442f38f475efdb32f3ab094ba73b12d53ca4d42a670a778",
+      "bytes": 12677,
+      "discovered_at": "2026-08-19T20:02:47Z"
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=174&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/productimages/variant_174_1029.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/productimages/variant_174_1029.jpg",
+      "local_path": "/images/catalog/verre-select/variant-174-1029-836e07ac6917.jpg",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "7d7be21e9914a62e3f1d3aad0243700714150ac46fcf28c66c6054015fc6b4b7",
+      "bytes": 88109,
+      "discovered_at": "2026-08-19T20:02:48Z"
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=230&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/productimages/variant_230_1113.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/productimages/variant_230_1113.jpg",
+      "local_path": "/images/catalog/verre-select/variant-230-1113-a7d4719b2fe8.jpg",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "cdd413c341c91d023fb50cb563bb14cd435680c68f3bb2b9138917021f6705ef",
+      "bytes": 11723,
+      "discovered_at": "2026-08-19T20:02:49Z"
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=232&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/productimages/variant_232_1123.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/productimages/variant_232_1123.jpg",
+      "local_path": "/images/catalog/verre-select/variant-232-1123-737fbaa6115f.jpg",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "f205f97d4c1cb85db14c3ee61359a0febf3ba6946d721814dbe7866c3e447660",
+      "bytes": 11444,
+      "discovered_at": "2026-08-19T20:02:50Z"
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductVariantID=1132&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/productimages/variant_234_1132.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/productimages/variant_234_1132.jpg",
+      "local_path": "/images/catalog/verre-select/variant-234-1132-0fd149a52264.jpg",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "cb2d8d4392e437dfa6f882d49fe264470dbece867612013a0240e7f684c30f5d",
+      "bytes": 23652,
+      "discovered_at": "2026-08-19T20:02:51Z"
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductVariantID=1143&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/productimages/variant_235_1143.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/productimages/variant_235_1143.jpg",
+      "local_path": "/images/catalog/verre-select/variant-235-1143-9cfcd897278c.jpg",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "33a94e0fdf0be13c1f94c55a62e04875a191480bd9dfd0d96000506102f4b1f0",
+      "bytes": 38349,
+      "discovered_at": "2026-08-19T20:02:51Z"
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=240&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/productimages/variant_240_1215.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/productimages/variant_240_1215.jpg",
+      "local_path": "/images/catalog/verre-select/variant-240-1215-d7c06c9aafe6.jpg",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "b782bdad0fb01a1039ec3d0b8a85e25b8b001e62d42fb1ef2d9b2dad8bbe9440",
+      "bytes": 10447,
+      "discovered_at": "2026-08-19T20:02:52Z"
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=241&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/productimages/variant_241_1219.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/productimages/variant_241_1219.jpg",
+      "local_path": "/images/catalog/verre-select/variant-241-1219-cad98d6f5444.jpg",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "b5dda6a974ff6ff62def0e3a6e5d756907f87191424cbe07a3d211ca58ea81c5",
+      "bytes": 9820,
+      "discovered_at": "2026-08-19T20:02:53Z"
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=243&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/productimages/variant_243_1232.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/productimages/variant_243_1232.jpg",
+      "local_path": "/images/catalog/verre-select/variant-243-1232-efbb5800c377.jpg",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "f1697a6969fbfa140451afe376343b9461254edaa3772607d1df14b627558b98",
+      "bytes": 12803,
+      "discovered_at": "2026-08-19T20:02:54Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "verre-select:whistler",
+      "manufacturer": "verre-select",
+      "slug": "whistler",
+      "name": "Whistler",
+      "category": "door-glass",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "The WHISTLER model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "sourceUrl": "https://verreselect.com/product.php?ProductID=171&UILanguage=EN",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/verre-select/variant-171-1009-a6453d2fafac.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "verre-select:quattro",
+      "manufacturer": "verre-select",
+      "slug": "quattro",
+      "name": "Quattro",
+      "category": "door-glass",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "The QUATTRO model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "sourceUrl": "https://verreselect.com/product.php?ProductID=174&UILanguage=EN",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/verre-select/variant-174-1029-836e07ac6917.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "verre-select:fragrance",
+      "manufacturer": "verre-select",
+      "slug": "fragrance",
+      "name": "Fragrance",
+      "category": "door-glass",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "The Fragrance model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service! Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "sourceUrl": "https://verreselect.com/product.php?ProductID=230&UILanguage=EN",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/verre-select/variant-230-1113-a7d4719b2fe8.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "verre-select:gabriella",
+      "manufacturer": "verre-select",
+      "slug": "gabriella",
+      "name": "Gabriella",
+      "category": "door-glass",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "The GABRIELLA model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "sourceUrl": "https://verreselect.com/product.php?ProductID=232&UILanguage=EN",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/verre-select/variant-232-1123-737fbaa6115f.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "verre-select:cbg",
+      "manufacturer": "verre-select",
+      "slug": "cbg",
+      "name": "CBG",
+      "category": "door-glass",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "The CBG model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "sourceUrl": "https://verreselect.com/product.php?ProductVariantID=1132&UILanguage=EN",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/verre-select/variant-234-1132-0fd149a52264.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "verre-select:cadence",
+      "manufacturer": "verre-select",
+      "slug": "cadence",
+      "name": "Cadence",
+      "category": "door-glass",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "The CADENCE model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "sourceUrl": "https://verreselect.com/product.php?ProductVariantID=1143&UILanguage=EN",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/verre-select/variant-235-1143-9cfcd897278c.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "verre-select:naomie",
+      "manufacturer": "verre-select",
+      "slug": "naomie",
+      "name": "Naomie",
+      "category": "door-glass",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "The Naomie model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "sourceUrl": "https://verreselect.com/product.php?ProductID=240&UILanguage=EN",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/verre-select/variant-240-1215-d7c06c9aafe6.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "verre-select:java",
+      "manufacturer": "verre-select",
+      "slug": "java",
+      "name": "Java",
+      "category": "door-glass",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "The Java model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "sourceUrl": "https://verreselect.com/product.php?ProductID=241&UILanguage=EN",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/verre-select/variant-241-1219-cad98d6f5444.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "verre-select:cyndi",
+      "manufacturer": "verre-select",
+      "slug": "cyndi",
+      "name": "Cyndi",
+      "category": "door-glass",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "The Cyndi model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "sourceUrl": "https://verreselect.com/product.php?ProductID=243&UILanguage=EN",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/verre-select/variant-243-1232-efbb5800c377.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    }
+  ],
+  "errors": []
+}

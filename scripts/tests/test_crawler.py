@@ -2,13 +2,17 @@
 import unittest
 
 from scripts.ingest.crawl import (
+    Asset,
     PageParser,
     decode_html,
+    embedded_caption_products,
+    embedded_json_products,
     infer_category,
     is_product_candidate,
     jsonld_product_data,
     normalize,
     product_nodes,
+    query_requirements_met,
     validate_product_records,
 )
 
@@ -21,6 +25,7 @@ class CrawlerSafetyTests(unittest.TestCase):
     def test_exact_supplier_path_rule_can_accept_a_detail_page(self):
         parser = PageParser(); parser.feed('<title>Casement Windows</title><h1>Casement</h1>')
         self.assertTrue(is_product_candidate('https://example.com/windows/casement/', parser, [], {}, [r'^/windows/casement/?$']))
+        self.assertFalse(is_product_candidate('https://example.com/windows/', parser, [], {}, [r'^/windows/casement/?$']))
 
     def test_supplier_asset_role_rule_is_scoped_to_parser_instance(self):
         parser = PageParser([{'role': 'hero', 'patterns': [r'\bcapri\b']}])
@@ -31,7 +36,26 @@ class CrawlerSafetyTests(unittest.TestCase):
         parser = PageParser()
         parser.feed('<img class="hero" src="original.jpg" srcset="small.jpg 500w, large.jpg 1000w">')
         self.assertEqual([('original.jpg', 'image', 'hero')], parser.media)
-        self.assertFalse(is_product_candidate('https://example.com/windows/', parser, [], {}, [r'^/windows/casement/?$']))
+
+    def test_supplier_scoped_embedded_caption_products(self):
+        parser = PageParser([{'role': 'gallery', 'patterns': [r'/WG[A-Z0-9]{2,3}(?:[-_.]|$)']}])
+        parser.feed('<div data-description="&lt;strong&gt;2 Panel&lt;/strong&gt;&lt;br&gt;WG25"><img src="https://cdn.example/WG25-door.jpg"></div>')
+        config = {'embedded_product_collections': {'/oak': 'Oak'}, 'embedded_product_model_pattern': r'\bWG[A-Z0-9]{2,3}\b'}
+        self.assertEqual(embedded_caption_products(parser, '/other', config), [])
+        self.assertEqual(embedded_caption_products(parser, '/oak', config)[0]['modelNumber'], 'WG25')
+        self.assertEqual(parser.media[0][2], 'gallery')
+
+    def test_supplier_scoped_embedded_json_products(self):
+        parser = PageParser(); parser.feed('<div data-json="{&quot;productResults&quot;:{&quot;products&quot;:[{&quot;sku&quot;:&quot;DR-1&quot;,&quot;name&quot;:&quot;4 Panel ¼ Lite&quot;,&quot;image&quot;:{&quot;defaultSrc&quot;:&quot;https://cdn.example/door.webp&quot;}}]}}"></div>')
+        config = {'embedded_json_product_paths': ['/doors/exterior'], 'embedded_slug_aliases': {'4-panel-lite': '4-panel-1-4-lite'}}
+        self.assertEqual(embedded_json_products(parser, '/doors/interior', config), [])
+        product = embedded_json_products(parser, '/doors/exterior/', config)[0]
+        self.assertEqual((product['slug'], product['modelNumber']), ('4-panel-1-4-lite', 'DR-1'))
+
+    def test_asset_provenance_schema_includes_final_url(self):
+        fields = Asset.__dataclass_fields__
+        self.assertIn('original_asset_url', fields)
+        self.assertIn('final_asset_url', fields)
 
     def test_jsonld_product_is_classified_and_extracted(self):
         parser = PageParser()
@@ -55,6 +79,12 @@ class CrawlerSafetyTests(unittest.TestCase):
         product = {'id': 'other:model', 'manufacturer': 'other', 'slug': 'model', 'name': 'Model', 'category': 'windows', 'sourceUrl': 'https://example.com/model', 'sourceType': 'live-crawl', 'lastVerified': '2026-08-19', 'media': [], 'documents': [], 'specifications': {}}
         with self.assertRaisesRegex(ValueError, 'wrong supplier'):
             validate_product_records([product], config)
+
+    def test_required_product_query_is_supplier_scoped(self):
+        config = {'required_product_query': {'UILanguage': 'EN'}}
+        self.assertTrue(query_requirements_met('https://example.com/product.php?ProductID=1&UILanguage=EN', config))
+        self.assertFalse(query_requirements_met('https://example.com/product.php?ProductID=1&UILanguage=FR', config))
+        self.assertTrue(query_requirements_met('https://example.com/product.php?ProductID=1', {}))
 
 
 if __name__ == '__main__':

@@ -1,0 +1,1308 @@
+{
+  "supplier": {
+    "slug": "richersons",
+    "name": "Richersons Doors",
+    "base_url": "https://www.richersonsdoors.com/",
+    "categories": [
+      "entry-doors"
+    ]
+  },
+  "crawledAt": "2026-08-19T19:54:33Z",
+  "pages": [
+    {
+      "url": "https://www.richersonsdoors.com/",
+      "title": "Richersons Doors",
+      "h1": "",
+      "description": "",
+      "snapshot": "source-media\\richersons\\html\\0001-richersons-doors.html",
+      "is_product_candidate": false,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://www.richersonsdoors.com/whats-new",
+      "title": "WHAT'S NEW — Richersons Doors",
+      "h1": "WHAT’S NEW",
+      "description": "        ",
+      "snapshot": "source-media\\richersons\\html\\0002-what-s-new.html",
+      "is_product_candidate": false,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://www.richersonsdoors.com/modern-teak",
+      "title": "Teak — Richersons Doors",
+      "h1": "TEAK TEXTURED FIBERGLASS",
+      "description": "&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;",
+      "snapshot": "source-media\\richersons\\html\\0003-teak-textured-fiberglass.html",
+      "is_product_candidate": false,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://www.richersonsdoors.com/mahogany-woodgrain",
+      "title": "Mahogany Woodgrain — Richersons Doors",
+      "h1": "RUSTIC MAHOGANY WOODGRAIN TEXTURED FIBERGLASS",
+      "description": "&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;",
+      "snapshot": "source-media\\richersons\\html\\0004-rustic-mahogany-woodgrain-textured-fiberglass.html",
+      "is_product_candidate": false,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://www.richersonsdoors.com/flush-glazed",
+      "title": "Flush Glazed — Richersons Doors",
+      "h1": "FLUSH GLAZED",
+      "description": "&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;",
+      "snapshot": "source-media\\richersons\\html\\0005-flush-glazed.html",
+      "is_product_candidate": true,
+      "category": "entry-doors",
+      "assets": [
+        "/images/catalog/richersons/fc-sg14-4lite-spotlite-408b0a9810fd.jpg",
+        "/images/catalog/richersons/flushglaze-neulite-sg10-brushed-new-d8923295862e.jpg",
+        "/images/catalog/richersons/flushglaze-neulite-sg10-new-01977ec9add9.jpg",
+        "/images/catalog/richersons/flushglaze-smoothwhite-narrowlite-sg11-new-74629a45537d.jpg",
+        "/images/catalog/richersons/flushglaze-smoothwhite-sg12-1200pxh-tm-cbe724e727f3.jpg",
+        "/images/catalog/richersons/flushglaze-smoothwhite-sg23-1-2lite-tm-32de6a393341.jpg",
+        "/images/catalog/richersons/flushglaze-smoothwhite-sg24-3-4lite-tm-121c910cd8a0.jpg",
+        "/images/catalog/richersons/flushglaze-woodgrain-wg12-fulllite-9920be8cf70c.png",
+        "/images/catalog/richersons/flushglaze-woodgrain-wg23-1-2lite-e2ad4964d139.png",
+        "/images/catalog/richersons/flushglaze-woodgrain-wg24-3-4lite-5d78b0fad5c9.png",
+        "/images/catalog/richersons/sdl1-25-neulite-sg10-795118f99f8f.jpg",
+        "/images/catalog/richersons/sdl3-5-neulite-sg10-253f3f364557.jpg"
+      ],
+      "product_data": {},
+      "embedded_products": [
+        {
+          "slug": "sg12",
+          "name": "SG12 Smooth White  (British Columbia only)",
+          "modelNumber": "SG12",
+          "collection": "Flush Glazed"
+        },
+        {
+          "slug": "wg12",
+          "name": "WG12 Oak Woodgrain Textured",
+          "modelNumber": "WG12",
+          "collection": "Flush Glazed"
+        },
+        {
+          "slug": "sg10",
+          "name": "SG10 Neulite Smooth",
+          "modelNumber": "SG10",
+          "collection": "Flush Glazed"
+        },
+        {
+          "slug": "sg27",
+          "name": "SG27 Smooth White",
+          "modelNumber": "SG27",
+          "collection": "Flush Glazed"
+        },
+        {
+          "slug": "wg27",
+          "name": "WG27 Oak Woodgrain Textured",
+          "modelNumber": "WG27",
+          "collection": "Flush Glazed"
+        },
+        {
+          "slug": "sg23",
+          "name": "SG23 Smooth White",
+          "modelNumber": "SG23",
+          "collection": "Flush Glazed"
+        },
+        {
+          "slug": "wg23",
+          "name": "WG23 Oak Woodgrain Textured",
+          "modelNumber": "WG23",
+          "collection": "Flush Glazed"
+        },
+        {
+          "slug": "sgnl",
+          "name": "SGNL Smooth White",
+          "modelNumber": "SGNL",
+          "collection": "Flush Glazed"
+        },
+        {
+          "slug": "wgnl",
+          "name": "WGNL Oak Textured Woodgrain",
+          "modelNumber": "WGNL",
+          "collection": "Flush Glazed"
+        },
+        {
+          "slug": "sg3l",
+          "name": "SG3L Smooth White  (British Columbia only)",
+          "modelNumber": "SG3L",
+          "collection": "Flush Glazed"
+        },
+        {
+          "slug": "sg4l",
+          "name": "SG4L Smooth White",
+          "modelNumber": "SG4L",
+          "collection": "Flush Glazed"
+        }
+      ]
+    },
+    {
+      "url": "https://www.richersonsdoors.com/oak-woodgrain",
+      "title": "Oak Woodgrain — Richersons Doors",
+      "h1": "TEXTURED OAK WOODGRAIN",
+      "description": "&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;",
+      "snapshot": "source-media\\richersons\\html\\0006-textured-oak-woodgrain.html",
+      "is_product_candidate": true,
+      "category": "entry-doors",
+      "assets": [
+        "/images/catalog/richersons/wg00-5eddf91c6174.jpg",
+        "/images/catalog/richersons/wg25-3-4-lite-782cc729ddcf.jpg",
+        "/images/catalog/richersons/wg34-e5c4d979f366.jpg",
+        "/images/catalog/richersons/wg49-84f83afe6b84.jpg",
+        "/images/catalog/richersons/wg66-0ee39f73e5b4.jpg",
+        "/images/catalog/richersons/wg68-db4b46e77075.jpg",
+        "/images/catalog/richersons/wg91-8e51af1401a9.jpg",
+        "/images/catalog/richersons/wgf6-442ebdd47450.jpg"
+      ],
+      "product_data": {},
+      "embedded_products": [
+        {
+          "slug": "wg25",
+          "name": "WG25 2 Panel - 3/4 Lite",
+          "modelNumber": "WG25",
+          "collection": "Oak Woodgrain"
+        },
+        {
+          "slug": "wg66",
+          "name": "WG66 6 Panel - 1/4 Lite",
+          "modelNumber": "WG66",
+          "collection": "Oak Woodgrain"
+        },
+        {
+          "slug": "wg91",
+          "name": "WG91 9 Panel",
+          "modelNumber": "WG91",
+          "collection": "Oak Woodgrain"
+        },
+        {
+          "slug": "wg49",
+          "name": "WG49 4 Panel - 3/4 Lite",
+          "modelNumber": "WG49",
+          "collection": "Oak Woodgrain"
+        },
+        {
+          "slug": "wg00",
+          "name": "WG00 Flush",
+          "modelNumber": "WG00",
+          "collection": "Oak Woodgrain"
+        },
+        {
+          "slug": "wg34",
+          "name": "WG34 3/4 Oval",
+          "modelNumber": "WG34",
+          "collection": "Oak Woodgrain"
+        },
+        {
+          "slug": "wg46",
+          "name": "WG46 4 Panel - Flush Top",
+          "modelNumber": "WG46",
+          "collection": "Oak Woodgrain"
+        },
+        {
+          "slug": "wg68",
+          "name": "WG68 6 Panel",
+          "modelNumber": "WG68",
+          "collection": "Oak Woodgrain"
+        },
+        {
+          "slug": "wg3b",
+          "name": "WG3B 3 Panel Curve Top  (British Columbia only)",
+          "modelNumber": "WG3B",
+          "collection": "Oak Woodgrain"
+        },
+        {
+          "slug": "wg48",
+          "name": "WG48 New England  (British Columbia only)",
+          "modelNumber": "WG48",
+          "collection": "Oak Woodgrain"
+        },
+        {
+          "slug": "wg20",
+          "name": "WG20 2 Panel  (British Columbia only)",
+          "modelNumber": "WG20",
+          "collection": "Oak Woodgrain"
+        },
+        {
+          "slug": "wgf0",
+          "name": "WGF0 Full Planks",
+          "modelNumber": "WGF0",
+          "collection": "Oak Woodgrain"
+        }
+      ]
+    },
+    {
+      "url": "https://www.richersonsdoors.com/smooth-white",
+      "title": "Smooth White — Richersons Doors",
+      "h1": "SMOOTH WHITE",
+      "description": "      ",
+      "snapshot": "source-media\\richersons\\html\\0007-smooth-white.html",
+      "is_product_candidate": true,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": [
+        {
+          "slug": "sg68",
+          "name": "SG68 6 Panel",
+          "modelNumber": "SG68",
+          "collection": "Smooth White"
+        },
+        {
+          "slug": "sg00",
+          "name": "SG00 Flush",
+          "modelNumber": "SG00",
+          "collection": "Smooth White"
+        },
+        {
+          "slug": "sg46",
+          "name": "SG46 4 Panel - Flush Top",
+          "modelNumber": "SG46",
+          "collection": "Smooth White"
+        },
+        {
+          "slug": "sg49",
+          "name": "SG49 4 Panel - 3/4 Lite",
+          "modelNumber": "SG49",
+          "collection": "Smooth White"
+        },
+        {
+          "slug": "sg25",
+          "name": "SG25 2 Panel - 3/4 Lite",
+          "modelNumber": "SG25",
+          "collection": "Smooth White"
+        },
+        {
+          "slug": "sg66",
+          "name": "SG66 6 Panel - 1/4 Lite",
+          "modelNumber": "SG66",
+          "collection": "Smooth White"
+        },
+        {
+          "slug": "sg3b",
+          "name": "SG3B 3 Panel Curve Top  (British Columbia only)",
+          "modelNumber": "SG3B",
+          "collection": "Smooth White"
+        },
+        {
+          "slug": "sg20",
+          "name": "SG20 2 Panel - 1/2 Lite",
+          "modelNumber": "SG20",
+          "collection": "Smooth White"
+        },
+        {
+          "slug": "sg48",
+          "name": "SG48 New England  (British Columbia only)",
+          "modelNumber": "SG48",
+          "collection": "Smooth White"
+        }
+      ]
+    },
+    {
+      "url": "https://www.richersonsdoors.com/craftsman",
+      "title": "Craftsman — Richersons Doors",
+      "h1": "CRAFTSMAN COLLECTION",
+      "description": "      ",
+      "snapshot": "source-media\\richersons\\html\\0008-craftsman-collection.html",
+      "is_product_candidate": true,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": [
+        {
+          "slug": "sg4h",
+          "name": "SG4H",
+          "modelNumber": "SG4H",
+          "collection": "Craftsman"
+        }
+      ]
+    },
+    {
+      "url": "https://www.richersonsdoors.com/jambs-accessories",
+      "title": "Jambs & Accessories — Richersons Doors",
+      "h1": "COMPOSITE JAMBS & ACCESSORIES",
+      "description": "            ",
+      "snapshot": "source-media\\richersons\\html\\0009-composite-jambs-accessories.html",
+      "is_product_candidate": false,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://www.richersonsdoors.com/brochures",
+      "title": "RESOURCES — Richersons Doors",
+      "h1": "RESOURCES",
+      "description": "&nbsp;&nbsp;&nbsp;  &nbsp;",
+      "snapshot": "source-media\\richersons\\html\\0010-resources.html",
+      "is_product_candidate": false,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://www.richersonsdoors.com/why-fiberglass",
+      "title": "WHY FIBERGLASS? — Richersons Doors",
+      "h1": "WHY FIBERGLASS",
+      "description": "&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;",
+      "snapshot": "source-media\\richersons\\html\\0011-why-fiberglass.html",
+      "is_product_candidate": false,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://www.richersonsdoors.com/inquiries",
+      "title": "INQUIRIES — Richersons Doors",
+      "h1": "INQUIRIES",
+      "description": "        ",
+      "snapshot": "source-media\\richersons\\html\\0012-inquiries.html",
+      "is_product_candidate": false,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://www.richersonsdoors.com/company",
+      "title": "COMPANY — Richersons Doors",
+      "h1": "ABOUT US",
+      "description": "&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;",
+      "snapshot": "source-media\\richersons\\html\\0013-about-us.html",
+      "is_product_candidate": false,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    }
+  ],
+  "assets": [
+    {
+      "supplier": "richersons",
+      "source_page_urls": [
+        "https://www.richersonsdoors.com/flush-glazed"
+      ],
+      "original_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1568137616464-5GUKOCVUXA3H6RC21NHE/FlushGlaze_SmoothWhite_SG12_1200pxH_TM.jpg",
+      "final_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1568137616464-5GUKOCVUXA3H6RC21NHE/FlushGlaze_SmoothWhite_SG12_1200pxH_TM.jpg",
+      "local_path": "/images/catalog/richersons/flushglaze-smoothwhite-sg12-1200pxh-tm-cbe724e727f3.jpg",
+      "asset_type": "image",
+      "role": "gallery",
+      "sha256": "b0760447d31a1ac30eabc998e4cb2e7c68d117180b99bdce9c7e9ac076c9bd97",
+      "bytes": 9918,
+      "discovered_at": "2026-08-19T19:54:17Z"
+    },
+    {
+      "supplier": "richersons",
+      "source_page_urls": [
+        "https://www.richersonsdoors.com/flush-glazed"
+      ],
+      "original_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1568137702735-Y3QTZXUPAVGLP6YMQIUM/FlushGlaze_Woodgrain_WG12_FullLite.png",
+      "final_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1568137702735-Y3QTZXUPAVGLP6YMQIUM/FlushGlaze_Woodgrain_WG12_FullLite.png",
+      "local_path": "/images/catalog/richersons/flushglaze-woodgrain-wg12-fulllite-9920be8cf70c.png",
+      "asset_type": "image",
+      "role": "gallery",
+      "sha256": "636ade2124657218d814f10ad1c2a4f144af4912ccc65721cef5aef359a1e121",
+      "bytes": 490448,
+      "discovered_at": "2026-08-19T19:54:18Z"
+    },
+    {
+      "supplier": "richersons",
+      "source_page_urls": [
+        "https://www.richersonsdoors.com/flush-glazed"
+      ],
+      "original_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1572381749506-0NHPOOH0LHBZN89AKP2D/FlushGlaze_NEULITE_SG10-NEW.jpg",
+      "final_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1572381749506-0NHPOOH0LHBZN89AKP2D/FlushGlaze_NEULITE_SG10-NEW.jpg",
+      "local_path": "/images/catalog/richersons/flushglaze-neulite-sg10-new-01977ec9add9.jpg",
+      "asset_type": "image",
+      "role": "gallery",
+      "sha256": "ce8e333de00c6e8a6c8efc3264d5cb8d16cf43bcf8e564967c741941c6da20d2",
+      "bytes": 9476,
+      "discovered_at": "2026-08-19T19:54:19Z"
+    },
+    {
+      "supplier": "richersons",
+      "source_page_urls": [
+        "https://www.richersonsdoors.com/flush-glazed"
+      ],
+      "original_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1572382068661-YW8281K3D1OTI8W63309/FlushGlaze_NEULITE_SG10_Brushed-NEW.jpg",
+      "final_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1572382068661-YW8281K3D1OTI8W63309/FlushGlaze_NEULITE_SG10_Brushed-NEW.jpg",
+      "local_path": "/images/catalog/richersons/flushglaze-neulite-sg10-brushed-new-d8923295862e.jpg",
+      "asset_type": "image",
+      "role": "gallery",
+      "sha256": "43de386c75db8bf7a30b267a9fa5cb305031403d213596c26ebae78a6702f060",
+      "bytes": 17230,
+      "discovered_at": "2026-08-19T19:54:19Z"
+    },
+    {
+      "supplier": "richersons",
+      "source_page_urls": [
+        "https://www.richersonsdoors.com/flush-glazed"
+      ],
+      "original_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1569251643383-CR693Z5GH9LTP69ZYV7G/SDL1-25_Neulite_SG10.jpg",
+      "final_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1569251643383-CR693Z5GH9LTP69ZYV7G/SDL1-25_Neulite_SG10.jpg",
+      "local_path": "/images/catalog/richersons/sdl1-25-neulite-sg10-795118f99f8f.jpg",
+      "asset_type": "image",
+      "role": "gallery",
+      "sha256": "13446abd810f9b67f38e8d546fdfa6c2866cd94bebeb5ffd2597b1530a9c8c69",
+      "bytes": 10262,
+      "discovered_at": "2026-08-19T19:54:19Z"
+    },
+    {
+      "supplier": "richersons",
+      "source_page_urls": [
+        "https://www.richersonsdoors.com/flush-glazed"
+      ],
+      "original_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1569251972777-WYWSZ1EKPY8KE7U55409/SDL3-5_Neulite_SG10.jpg",
+      "final_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1569251972777-WYWSZ1EKPY8KE7U55409/SDL3-5_Neulite_SG10.jpg",
+      "local_path": "/images/catalog/richersons/sdl3-5-neulite-sg10-253f3f364557.jpg",
+      "asset_type": "image",
+      "role": "gallery",
+      "sha256": "f30bd61489d64657576f178672420442e22283f983a57d86e8100cf0af9554ea",
+      "bytes": 9226,
+      "discovered_at": "2026-08-19T19:54:20Z"
+    },
+    {
+      "supplier": "richersons",
+      "source_page_urls": [
+        "https://www.richersonsdoors.com/flush-glazed"
+      ],
+      "original_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1568138323965-X93HIR5VLPAYC2YIH2G9/FlushGlaze_Smoothwhite_SG24_3-4Lite_TM.jpg",
+      "final_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1568138323965-X93HIR5VLPAYC2YIH2G9/FlushGlaze_Smoothwhite_SG24_3-4Lite_TM.jpg",
+      "local_path": "/images/catalog/richersons/flushglaze-smoothwhite-sg24-3-4lite-tm-121c910cd8a0.jpg",
+      "asset_type": "image",
+      "role": "gallery",
+      "sha256": "e6bf145017d718332c755d86448ba1fb22e617c5ef4cb6bb0c117c632cd310b8",
+      "bytes": 13808,
+      "discovered_at": "2026-08-19T19:54:20Z"
+    },
+    {
+      "supplier": "richersons",
+      "source_page_urls": [
+        "https://www.richersonsdoors.com/flush-glazed"
+      ],
+      "original_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1568138353953-0S99FXA13EL6IJWUGO32/FlushGlaze_Woodgrain_WG24_3-4Lite.png",
+      "final_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1568138353953-0S99FXA13EL6IJWUGO32/FlushGlaze_Woodgrain_WG24_3-4Lite.png",
+      "local_path": "/images/catalog/richersons/flushglaze-woodgrain-wg24-3-4lite-5d78b0fad5c9.png",
+      "asset_type": "image",
+      "role": "gallery",
+      "sha256": "cdf725a59d3143b97d4fdf2f039177cfdcc348509355ad80998775b341047c04",
+      "bytes": 594358,
+      "discovered_at": "2026-08-19T19:54:21Z"
+    },
+    {
+      "supplier": "richersons",
+      "source_page_urls": [
+        "https://www.richersonsdoors.com/flush-glazed"
+      ],
+      "original_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1568138262462-S9VLYUQQ5TU032UQGHDH/FlushGlaze_Smoothwhite_SG23_1-2Lite_TM.jpg",
+      "final_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1568138262462-S9VLYUQQ5TU032UQGHDH/FlushGlaze_Smoothwhite_SG23_1-2Lite_TM.jpg",
+      "local_path": "/images/catalog/richersons/flushglaze-smoothwhite-sg23-1-2lite-tm-32de6a393341.jpg",
+      "asset_type": "image",
+      "role": "gallery",
+      "sha256": "8a1ac4c3951a399d9b082fa28d0dadac06bf2f974e15f936a46cb77b19fd8fc1",
+      "bytes": 14030,
+      "discovered_at": "2026-08-19T19:54:22Z"
+    },
+    {
+      "supplier": "richersons",
+      "source_page_urls": [
+        "https://www.richersonsdoors.com/flush-glazed"
+      ],
+      "original_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1568138759660-EYTYZXOAGL9MMQSXR1Z7/FlushGlaze_Woodgrain_WG23_1-2Lite.png",
+      "final_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1568138759660-EYTYZXOAGL9MMQSXR1Z7/FlushGlaze_Woodgrain_WG23_1-2Lite.png",
+      "local_path": "/images/catalog/richersons/flushglaze-woodgrain-wg23-1-2lite-e2ad4964d139.png",
+      "asset_type": "image",
+      "role": "gallery",
+      "sha256": "7b8d703b02fc19b2e98b13bf6285f556550fc05771c13d8f11b4095bcba98cf9",
+      "bytes": 602302,
+      "discovered_at": "2026-08-19T19:54:23Z"
+    },
+    {
+      "supplier": "richersons",
+      "source_page_urls": [
+        "https://www.richersonsdoors.com/flush-glazed"
+      ],
+      "original_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1571939985252-CBUH2QD1T32YXATBN02B/FlushGlaze_SmoothWhite_NarrowLite_SG11_NEW.jpg",
+      "final_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1571939985252-CBUH2QD1T32YXATBN02B/FlushGlaze_SmoothWhite_NarrowLite_SG11_NEW.jpg",
+      "local_path": "/images/catalog/richersons/flushglaze-smoothwhite-narrowlite-sg11-new-74629a45537d.jpg",
+      "asset_type": "image",
+      "role": "gallery",
+      "sha256": "afcd65d56369a7270ad974552b0cd2a3c3da931d2a4ed4d800d4e4f18b7a3d4d",
+      "bytes": 13788,
+      "discovered_at": "2026-08-19T19:54:23Z"
+    },
+    {
+      "supplier": "richersons",
+      "source_page_urls": [
+        "https://www.richersonsdoors.com/flush-glazed"
+      ],
+      "original_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1568146186292-IXITOZ6USKY9HQ8NG28A/FC-SG14_4Lite-Spotlite.jpg",
+      "final_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1568146186292-IXITOZ6USKY9HQ8NG28A/FC-SG14_4Lite-Spotlite.jpg",
+      "local_path": "/images/catalog/richersons/fc-sg14-4lite-spotlite-408b0a9810fd.jpg",
+      "asset_type": "image",
+      "role": "gallery",
+      "sha256": "bcecc75d4c228f5cbccea9833b1fa7ca6facf62d8ef8e4a06e63b0bb5561e7d9",
+      "bytes": 6952,
+      "discovered_at": "2026-08-19T19:54:23Z"
+    },
+    {
+      "supplier": "richersons",
+      "source_page_urls": [
+        "https://www.richersonsdoors.com/oak-woodgrain"
+      ],
+      "original_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1568148399329-BHFIXOFNAF38C13D4FC9/WG25-3_4-lite.jpg",
+      "final_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1568148399329-BHFIXOFNAF38C13D4FC9/WG25-3_4-lite.jpg",
+      "local_path": "/images/catalog/richersons/wg25-3-4-lite-782cc729ddcf.jpg",
+      "asset_type": "image",
+      "role": "gallery",
+      "sha256": "6bad8d2b52f12b4f719a0678d148e2886cffb8dc9e56dda7f8b4fb2488661bc3",
+      "bytes": 27084,
+      "discovered_at": "2026-08-19T19:54:24Z"
+    },
+    {
+      "supplier": "richersons",
+      "source_page_urls": [
+        "https://www.richersonsdoors.com/oak-woodgrain"
+      ],
+      "original_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1568148450428-5R7GBUXCDU5SQCGH64J6/WG66.jpg",
+      "final_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1568148450428-5R7GBUXCDU5SQCGH64J6/WG66.jpg",
+      "local_path": "/images/catalog/richersons/wg66-0ee39f73e5b4.jpg",
+      "asset_type": "image",
+      "role": "gallery",
+      "sha256": "add255b131f476e31be8363f558d38a9d911f58fa04aae96786601d8bf5ed849",
+      "bytes": 38312,
+      "discovered_at": "2026-08-19T19:54:24Z"
+    },
+    {
+      "supplier": "richersons",
+      "source_page_urls": [
+        "https://www.richersonsdoors.com/oak-woodgrain"
+      ],
+      "original_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1568148534462-JFL4HNU1PUJXAIM4HCF7/WG91.jpg",
+      "final_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1568148534462-JFL4HNU1PUJXAIM4HCF7/WG91.jpg",
+      "local_path": "/images/catalog/richersons/wg91-8e51af1401a9.jpg",
+      "asset_type": "image",
+      "role": "gallery",
+      "sha256": "cd5ee6e6cd3d7b89e52f59d08079cd16b715105d16e1a75fe4a53dc5b19234f6",
+      "bytes": 37402,
+      "discovered_at": "2026-08-19T19:54:25Z"
+    },
+    {
+      "supplier": "richersons",
+      "source_page_urls": [
+        "https://www.richersonsdoors.com/oak-woodgrain"
+      ],
+      "original_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1568148569019-RLGNSVF6PO0ODSBIW7CJ/WG49.jpg",
+      "final_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1568148569019-RLGNSVF6PO0ODSBIW7CJ/WG49.jpg",
+      "local_path": "/images/catalog/richersons/wg49-84f83afe6b84.jpg",
+      "asset_type": "image",
+      "role": "gallery",
+      "sha256": "c9af95f22197ebe3ad1da2ce052488e5d60e15960395fac9d9cfdcc336331db7",
+      "bytes": 37804,
+      "discovered_at": "2026-08-19T19:54:25Z"
+    },
+    {
+      "supplier": "richersons",
+      "source_page_urls": [
+        "https://www.richersonsdoors.com/oak-woodgrain"
+      ],
+      "original_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1568317611386-6P8IVRCOURUGCQR63I69/WG00.jpg",
+      "final_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1568317611386-6P8IVRCOURUGCQR63I69/WG00.jpg",
+      "local_path": "/images/catalog/richersons/wg00-5eddf91c6174.jpg",
+      "asset_type": "image",
+      "role": "gallery",
+      "sha256": "356377b0547b6c1ad0631fda690d1b52829e485e3578895f22bce314a63f88d9",
+      "bytes": 21728,
+      "discovered_at": "2026-08-19T19:54:25Z"
+    },
+    {
+      "supplier": "richersons",
+      "source_page_urls": [
+        "https://www.richersonsdoors.com/oak-woodgrain"
+      ],
+      "original_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1568149563644-TCQ3U56UHN7B4F3SX2Q4/WG34.jpg",
+      "final_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1568149563644-TCQ3U56UHN7B4F3SX2Q4/WG34.jpg",
+      "local_path": "/images/catalog/richersons/wg34-e5c4d979f366.jpg",
+      "asset_type": "image",
+      "role": "gallery",
+      "sha256": "9b224f26cd38ccb244a4e97a191f4e8d3e9b293dc8d770bcbd4d4b9216211065",
+      "bytes": 53690,
+      "discovered_at": "2026-08-19T19:54:25Z"
+    },
+    {
+      "supplier": "richersons",
+      "source_page_urls": [
+        "https://www.richersonsdoors.com/oak-woodgrain"
+      ],
+      "original_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1568149640621-VWQCD3JO7BULUQJWKI64/WGF6.jpg",
+      "final_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1568149640621-VWQCD3JO7BULUQJWKI64/WGF6.jpg",
+      "local_path": "/images/catalog/richersons/wgf6-442ebdd47450.jpg",
+      "asset_type": "image",
+      "role": "gallery",
+      "sha256": "1885d9f78b0e638ddd25209c3b4b34f88c11152920a1c54e4f521b6f72b43ce1",
+      "bytes": 42980,
+      "discovered_at": "2026-08-19T19:54:25Z"
+    },
+    {
+      "supplier": "richersons",
+      "source_page_urls": [
+        "https://www.richersonsdoors.com/oak-woodgrain"
+      ],
+      "original_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1568149672291-KXHRD0OR865N07OPZQGU/WG68.jpg",
+      "final_asset_url": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1568149672291-KXHRD0OR865N07OPZQGU/WG68.jpg",
+      "local_path": "/images/catalog/richersons/wg68-db4b46e77075.jpg",
+      "asset_type": "image",
+      "role": "gallery",
+      "sha256": "64fe5025a2d2a75814f4e61ac364e8183e70639b0729765dd915146ebc2aa784",
+      "bytes": 26254,
+      "discovered_at": "2026-08-19T19:54:25Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "richersons:sg12",
+      "manufacturer": "richersons",
+      "slug": "sg12",
+      "name": "SG12 Smooth White  (British Columbia only)",
+      "category": "entry-doors",
+      "collection": "Flush Glazed",
+      "modelNumber": "SG12",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/flush-glazed",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/richersons/flushglaze-smoothwhite-sg12-1200pxh-tm-cbe724e727f3.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "richersons:wg12",
+      "manufacturer": "richersons",
+      "slug": "wg12",
+      "name": "WG12 Oak Woodgrain Textured",
+      "category": "entry-doors",
+      "collection": "Flush Glazed",
+      "modelNumber": "WG12",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/flush-glazed",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/richersons/flushglaze-woodgrain-wg12-fulllite-9920be8cf70c.png"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "richersons:sg10",
+      "manufacturer": "richersons",
+      "slug": "sg10",
+      "name": "SG10 Neulite Smooth",
+      "category": "entry-doors",
+      "collection": "Flush Glazed",
+      "modelNumber": "SG10",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/flush-glazed",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/richersons/flushglaze-neulite-sg10-brushed-new-d8923295862e.jpg",
+        "/images/catalog/richersons/flushglaze-neulite-sg10-new-01977ec9add9.jpg",
+        "/images/catalog/richersons/sdl1-25-neulite-sg10-795118f99f8f.jpg",
+        "/images/catalog/richersons/sdl3-5-neulite-sg10-253f3f364557.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "richersons:sg27",
+      "manufacturer": "richersons",
+      "slug": "sg27",
+      "name": "SG27 Smooth White",
+      "category": "entry-doors",
+      "collection": "Flush Glazed",
+      "modelNumber": "SG27",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/flush-glazed",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "richersons:wg27",
+      "manufacturer": "richersons",
+      "slug": "wg27",
+      "name": "WG27 Oak Woodgrain Textured",
+      "category": "entry-doors",
+      "collection": "Flush Glazed",
+      "modelNumber": "WG27",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/flush-glazed",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "richersons:sg23",
+      "manufacturer": "richersons",
+      "slug": "sg23",
+      "name": "SG23 Smooth White",
+      "category": "entry-doors",
+      "collection": "Flush Glazed",
+      "modelNumber": "SG23",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/flush-glazed",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/richersons/flushglaze-smoothwhite-sg23-1-2lite-tm-32de6a393341.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "richersons:wg23",
+      "manufacturer": "richersons",
+      "slug": "wg23",
+      "name": "WG23 Oak Woodgrain Textured",
+      "category": "entry-doors",
+      "collection": "Flush Glazed",
+      "modelNumber": "WG23",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/flush-glazed",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/richersons/flushglaze-woodgrain-wg23-1-2lite-e2ad4964d139.png"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "richersons:sgnl",
+      "manufacturer": "richersons",
+      "slug": "sgnl",
+      "name": "SGNL Smooth White",
+      "category": "entry-doors",
+      "collection": "Flush Glazed",
+      "modelNumber": "SGNL",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/flush-glazed",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "richersons:wgnl",
+      "manufacturer": "richersons",
+      "slug": "wgnl",
+      "name": "WGNL Oak Textured Woodgrain",
+      "category": "entry-doors",
+      "collection": "Flush Glazed",
+      "modelNumber": "WGNL",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/flush-glazed",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "richersons:sg3l",
+      "manufacturer": "richersons",
+      "slug": "sg3l",
+      "name": "SG3L Smooth White  (British Columbia only)",
+      "category": "entry-doors",
+      "collection": "Flush Glazed",
+      "modelNumber": "SG3L",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/flush-glazed",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "richersons:sg4l",
+      "manufacturer": "richersons",
+      "slug": "sg4l",
+      "name": "SG4L Smooth White",
+      "category": "entry-doors",
+      "collection": "Flush Glazed",
+      "modelNumber": "SG4L",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/flush-glazed",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "richersons:wg25",
+      "manufacturer": "richersons",
+      "slug": "wg25",
+      "name": "WG25 2 Panel - 3/4 Lite",
+      "category": "entry-doors",
+      "collection": "Oak Woodgrain",
+      "modelNumber": "WG25",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/oak-woodgrain",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/richersons/wg25-3-4-lite-782cc729ddcf.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "richersons:wg66",
+      "manufacturer": "richersons",
+      "slug": "wg66",
+      "name": "WG66 6 Panel - 1/4 Lite",
+      "category": "entry-doors",
+      "collection": "Oak Woodgrain",
+      "modelNumber": "WG66",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/oak-woodgrain",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/richersons/wg66-0ee39f73e5b4.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "richersons:wg91",
+      "manufacturer": "richersons",
+      "slug": "wg91",
+      "name": "WG91 9 Panel",
+      "category": "entry-doors",
+      "collection": "Oak Woodgrain",
+      "modelNumber": "WG91",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/oak-woodgrain",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/richersons/wg91-8e51af1401a9.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "richersons:wg49",
+      "manufacturer": "richersons",
+      "slug": "wg49",
+      "name": "WG49 4 Panel - 3/4 Lite",
+      "category": "entry-doors",
+      "collection": "Oak Woodgrain",
+      "modelNumber": "WG49",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/oak-woodgrain",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/richersons/wg49-84f83afe6b84.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "richersons:wg00",
+      "manufacturer": "richersons",
+      "slug": "wg00",
+      "name": "WG00 Flush",
+      "category": "entry-doors",
+      "collection": "Oak Woodgrain",
+      "modelNumber": "WG00",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/oak-woodgrain",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/richersons/wg00-5eddf91c6174.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "richersons:wg34",
+      "manufacturer": "richersons",
+      "slug": "wg34",
+      "name": "WG34 3/4 Oval",
+      "category": "entry-doors",
+      "collection": "Oak Woodgrain",
+      "modelNumber": "WG34",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/oak-woodgrain",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/richersons/wg34-e5c4d979f366.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "richersons:wg46",
+      "manufacturer": "richersons",
+      "slug": "wg46",
+      "name": "WG46 4 Panel - Flush Top",
+      "category": "entry-doors",
+      "collection": "Oak Woodgrain",
+      "modelNumber": "WG46",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/oak-woodgrain",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "richersons:wg68",
+      "manufacturer": "richersons",
+      "slug": "wg68",
+      "name": "WG68 6 Panel",
+      "category": "entry-doors",
+      "collection": "Oak Woodgrain",
+      "modelNumber": "WG68",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/oak-woodgrain",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/richersons/wg68-db4b46e77075.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "richersons:wg3b",
+      "manufacturer": "richersons",
+      "slug": "wg3b",
+      "name": "WG3B 3 Panel Curve Top  (British Columbia only)",
+      "category": "entry-doors",
+      "collection": "Oak Woodgrain",
+      "modelNumber": "WG3B",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/oak-woodgrain",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "richersons:wg48",
+      "manufacturer": "richersons",
+      "slug": "wg48",
+      "name": "WG48 New England  (British Columbia only)",
+      "category": "entry-doors",
+      "collection": "Oak Woodgrain",
+      "modelNumber": "WG48",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/oak-woodgrain",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "richersons:wg20",
+      "manufacturer": "richersons",
+      "slug": "wg20",
+      "name": "WG20 2 Panel  (British Columbia only)",
+      "category": "entry-doors",
+      "collection": "Oak Woodgrain",
+      "modelNumber": "WG20",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/oak-woodgrain",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "richersons:wgf0",
+      "manufacturer": "richersons",
+      "slug": "wgf0",
+      "name": "WGF0 Full Planks",
+      "category": "entry-doors",
+      "collection": "Oak Woodgrain",
+      "modelNumber": "WGF0",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/oak-woodgrain",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "richersons:sg68",
+      "manufacturer": "richersons",
+      "slug": "sg68",
+      "name": "SG68 6 Panel",
+      "category": "entry-doors",
+      "collection": "Smooth White",
+      "modelNumber": "SG68",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/smooth-white",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "richersons:sg00",
+      "manufacturer": "richersons",
+      "slug": "sg00",
+      "name": "SG00 Flush",
+      "category": "entry-doors",
+      "collection": "Smooth White",
+      "modelNumber": "SG00",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/smooth-white",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "richersons:sg46",
+      "manufacturer": "richersons",
+      "slug": "sg46",
+      "name": "SG46 4 Panel - Flush Top",
+      "category": "entry-doors",
+      "collection": "Smooth White",
+      "modelNumber": "SG46",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/smooth-white",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "richersons:sg49",
+      "manufacturer": "richersons",
+      "slug": "sg49",
+      "name": "SG49 4 Panel - 3/4 Lite",
+      "category": "entry-doors",
+      "collection": "Smooth White",
+      "modelNumber": "SG49",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/smooth-white",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "richersons:sg25",
+      "manufacturer": "richersons",
+      "slug": "sg25",
+      "name": "SG25 2 Panel - 3/4 Lite",
+      "category": "entry-doors",
+      "collection": "Smooth White",
+      "modelNumber": "SG25",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/smooth-white",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "richersons:sg66",
+      "manufacturer": "richersons",
+      "slug": "sg66",
+      "name": "SG66 6 Panel - 1/4 Lite",
+      "category": "entry-doors",
+      "collection": "Smooth White",
+      "modelNumber": "SG66",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/smooth-white",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "richersons:sg3b",
+      "manufacturer": "richersons",
+      "slug": "sg3b",
+      "name": "SG3B 3 Panel Curve Top  (British Columbia only)",
+      "category": "entry-doors",
+      "collection": "Smooth White",
+      "modelNumber": "SG3B",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/smooth-white",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "richersons:sg20",
+      "manufacturer": "richersons",
+      "slug": "sg20",
+      "name": "SG20 2 Panel - 1/2 Lite",
+      "category": "entry-doors",
+      "collection": "Smooth White",
+      "modelNumber": "SG20",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/smooth-white",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "richersons:sg48",
+      "manufacturer": "richersons",
+      "slug": "sg48",
+      "name": "SG48 New England  (British Columbia only)",
+      "category": "entry-doors",
+      "collection": "Smooth White",
+      "modelNumber": "SG48",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/smooth-white",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "richersons:sg4h",
+      "manufacturer": "richersons",
+      "slug": "sg4h",
+      "name": "SG4H",
+      "category": "entry-doors",
+      "collection": "Craftsman",
+      "modelNumber": "SG4H",
+      "type": null,
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://www.richersonsdoors.com/craftsman",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    }
+  ],
+  "errors": [
+    {
+      "url": "https://www.richersonsdoors.com/manufacturer",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "url": "https://www.richersonsdoors.com/where-to-buy",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ]
+}
