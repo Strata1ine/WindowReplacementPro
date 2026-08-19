@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "id": "oceanview:essential",
+    "manufacturer": "oceanview",
+    "slug": "essential",
+    "name": "Essential",
+    "category": "patio-doors",
+    "collection": "Patio Doors",
+    "modelNumber": null,
+    "type": "Sliding Patio Door",
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://oceanviewdoors.ca/patio-doors/essential/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/oceanview/essential-ce57b6b9beb9.jpg"
+    ],
+    "documents": [],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": "oceanview:premium",
+    "manufacturer": "oceanview",
+    "slug": "premium",
+    "name": "Premium",
+    "category": "patio-doors",
+    "collection": "Patio Doors",
+    "modelNumber": null,
+    "type": "Sliding Patio Door",
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://oceanviewdoors.ca/patio-doors/premium/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/oceanview/premium-d75598bb9b06.jpg"
+    ],
+    "documents": [],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": "oceanview:premium-plus",
+    "manufacturer": "oceanview",
+    "slug": "premium-plus",
+    "name": "Premium Plus",
+    "category": "patio-doors",
+    "collection": "Patio Doors",
+    "modelNumber": null,
+    "type": "Sliding Patio Door",
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://oceanviewdoors.ca/patio-doors/premium-plus/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/oceanview/premiumplus-interior-01-2-17bd4a5fef59.jpg"
+    ],
+    "documents": [],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  }
+]

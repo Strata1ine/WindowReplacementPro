@@ -1,0 +1,616 @@
+{
+  "supplier": {
+    "slug": "vinyl-pro",
+    "name": "Vinyl-Pro",
+    "base_url": "https://www.vinyl-pro.ca/",
+    "categories": [
+      "windows"
+    ]
+  },
+  "crawledAt": "2026-08-19T19:00:21Z",
+  "pages": [
+    {
+      "url": "https://www.vinyl-pro.ca/",
+      "title": "Vinyl Pro Window Systems: Custom Energy-Efficient Vinyl Windows",
+      "h1": "The vision of the way windows should be.",
+      "description": "Explore Vinyl Pro's custom vinyl windows, blending tradition with technology. Quality craftsmanship since 2002. Visit our showroom!",
+      "snapshot": "source-media\\vinyl-pro\\html\\0001-the-vision-of-the-way-windows-should-be.html",
+      "is_product_candidate": false,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+        "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://www.vinyl-pro.ca/about/",
+      "title": "About Vinyl Pro Window Systems: Expert Vinyl Window Makers",
+      "h1": "Window manufacturer",
+      "description": "Learn how Vinyl Pro combines craftsmanship and innovation to create premium, energy-efficient vinyl windows. Discover our commitment to quality and sustainability.",
+      "snapshot": "source-media\\vinyl-pro\\html\\0002-window-manufacturer.html",
+      "is_product_candidate": false,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+        "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+        "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://www.vinyl-pro.ca/facility/",
+      "title": "Vinyl Pro Facility: Manufacturing Plant and Showroom in Toronto",
+      "h1": "Our facility",
+      "description": "Visit Vinyl Pro's state-of-the-art facility in Toronto. Explore our showroom, see our vinyl window lineup, and learn about our eco-friendly manufacturing process.",
+      "snapshot": "source-media\\vinyl-pro\\html\\0003-our-facility.html",
+      "is_product_candidate": false,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+        "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://www.vinyl-pro.ca/windows/",
+      "title": "Custom Vinyl Windows: Explore Styles & Energy-Efficient Options",
+      "h1": "Window styles",
+      "description": "Discover Vinyl Pro’s diverse range of custom vinyl windows, including casement, slider, and specialty shapes. Enhance your home with energy-efficient, stylish windows.",
+      "snapshot": "source-media\\vinyl-pro\\html\\0004-window-styles.html",
+      "is_product_candidate": false,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+        "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf",
+        "/images/catalog/vinyl-pro/double-slider-1-3bddd99a8943.png",
+        "/images/catalog/vinyl-pro/double-slider-2-b134a9fe8f71.png",
+        "/images/catalog/vinyl-pro/end-vent-slider-1-9e36f02c24fc.png",
+        "/images/catalog/vinyl-pro/end-vent-slider-2-ecc3be90c77e.png",
+        "/images/catalog/vinyl-pro/single-slider-1-69bc8a2b0458.png",
+        "/images/catalog/vinyl-pro/single-slider-2-e832fb7d3bea.png"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://www.vinyl-pro.ca/windows/casement/",
+      "title": "3 1/4 Casement Vinyl Windows by Vinyl Pro: Custom, Energy-Efficient, and Stylish",
+      "h1": "3 1/4 Casement",
+      "description": "Discover 3 1/4 Casement vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 Casement windows today!",
+      "snapshot": "source-media\\vinyl-pro\\html\\0005-3-1-4-casement.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+        "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+        "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf",
+        "/images/catalog/vinyl-pro/double-slider-1-3bddd99a8943.png",
+        "/images/catalog/vinyl-pro/double-slider-2-b134a9fe8f71.png",
+        "/images/catalog/vinyl-pro/single-slider-1-69bc8a2b0458.png",
+        "/images/catalog/vinyl-pro/single-slider-2-e832fb7d3bea.png"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://www.vinyl-pro.ca/windows/awning/",
+      "title": "3 1/4 Awning Vinyl Windows by Vinyl Pro: Custom, Energy-Efficient, and Stylish",
+      "h1": "3 1/4 Awning",
+      "description": "Discover 3 1/4 Awning vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 Awning windows today!",
+      "snapshot": "source-media\\vinyl-pro\\html\\0006-3-1-4-awning.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+        "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+        "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf",
+        "/images/catalog/vinyl-pro/double-slider-1-3bddd99a8943.png",
+        "/images/catalog/vinyl-pro/double-slider-2-b134a9fe8f71.png"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://www.vinyl-pro.ca/windows/fixed-casement/",
+      "title": "3 1/4 Fixed casement Vinyl Windows by Vinyl Pro: Custom, Energy-Efficient, and Stylish",
+      "h1": "3 1/4 Fixed casement",
+      "description": "Discover 3 1/4 Fixed casement vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 Fixed casement windows today!",
+      "snapshot": "source-media\\vinyl-pro\\html\\0007-3-1-4-fixed-casement.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+        "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+        "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf",
+        "/images/catalog/vinyl-pro/end-vent-slider-1-9e36f02c24fc.png",
+        "/images/catalog/vinyl-pro/end-vent-slider-2-ecc3be90c77e.png",
+        "/images/catalog/vinyl-pro/single-slider-1-69bc8a2b0458.png",
+        "/images/catalog/vinyl-pro/single-slider-2-e832fb7d3bea.png"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://www.vinyl-pro.ca/windows/picture-window/",
+      "title": "3 1/4 Picture window Vinyl Windows by Vinyl Pro: Custom, Energy-Efficient, and Stylish",
+      "h1": "3 1/4 Picture window",
+      "description": "Discover 3 1/4 Picture window vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 Picture window windows today!",
+      "snapshot": "source-media\\vinyl-pro\\html\\0008-3-1-4-picture-window.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+        "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+        "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf",
+        "/images/catalog/vinyl-pro/double-slider-1-3bddd99a8943.png",
+        "/images/catalog/vinyl-pro/double-slider-2-b134a9fe8f71.png",
+        "/images/catalog/vinyl-pro/single-slider-1-69bc8a2b0458.png",
+        "/images/catalog/vinyl-pro/single-slider-2-e832fb7d3bea.png"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://www.vinyl-pro.ca/windows/single-hung/",
+      "title": "3 1/4 Single hung Vinyl Windows by Vinyl Pro: Custom, Energy-Efficient, and Stylish",
+      "h1": "3 1/4 Single hung",
+      "description": "Discover 3 1/4 Single hung vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 Single hung windows today!",
+      "snapshot": "source-media\\vinyl-pro\\html\\0009-3-1-4-single-hung.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+        "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+        "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf",
+        "/images/catalog/vinyl-pro/end-vent-slider-1-9e36f02c24fc.png",
+        "/images/catalog/vinyl-pro/end-vent-slider-2-ecc3be90c77e.png"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://www.vinyl-pro.ca/windows/single-slider/",
+      "title": "3 1/4 Single slider Vinyl Windows by Vinyl Pro: Custom, Energy-Efficient, and Stylish",
+      "h1": "3 1/4 Single slider",
+      "description": "Discover 3 1/4 Single slider vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 Single slider windows today!",
+      "snapshot": "source-media\\vinyl-pro\\html\\0010-3-1-4-single-slider.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+        "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+        "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://www.vinyl-pro.ca/windows/end-vent-slider/",
+      "title": "3 1/4 End vent slider Vinyl Windows by Vinyl Pro: Custom, Energy-Efficient, and Stylish",
+      "h1": "3 1/4 End vent slider",
+      "description": "Discover 3 1/4 End vent slider vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 End vent slider windows today!",
+      "snapshot": "source-media\\vinyl-pro\\html\\0011-3-1-4-end-vent-slider.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+        "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+        "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf",
+        "/images/catalog/vinyl-pro/double-slider-1-3bddd99a8943.png",
+        "/images/catalog/vinyl-pro/double-slider-2-b134a9fe8f71.png",
+        "/images/catalog/vinyl-pro/single-slider-1-69bc8a2b0458.png",
+        "/images/catalog/vinyl-pro/single-slider-2-e832fb7d3bea.png"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://www.vinyl-pro.ca/windows/double-hung/",
+      "title": "3 1/4 Double hung Vinyl Windows by Vinyl Pro: Custom, Energy-Efficient, and Stylish",
+      "h1": "3 1/4 Double hung",
+      "description": "Discover 3 1/4 Double hung vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 Double hung windows today!",
+      "snapshot": "source-media\\vinyl-pro\\html\\0012-3-1-4-double-hung.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+        "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+        "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://www.vinyl-pro.ca/windows/double-slider/",
+      "title": "3 1/4 Double slider Vinyl Windows by Vinyl Pro: Custom, Energy-Efficient, and Stylish",
+      "h1": "3 1/4 Double slider",
+      "description": "Discover 3 1/4 Double slider vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 Double slider windows today!",
+      "snapshot": "source-media\\vinyl-pro\\html\\0013-3-1-4-double-slider.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+        "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+        "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf",
+        "/images/catalog/vinyl-pro/single-slider-1-69bc8a2b0458.png",
+        "/images/catalog/vinyl-pro/single-slider-2-e832fb7d3bea.png"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://www.vinyl-pro.ca/windows/4-9-16-casement/",
+      "title": "4 9/16 Casement Vinyl Windows by Vinyl Pro: Custom, Energy-Efficient, and Stylish",
+      "h1": "4 9/16 Casement",
+      "description": "Discover 4 9/16 Casement vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 4 9/16 Casement windows today!",
+      "snapshot": "source-media\\vinyl-pro\\html\\0014-4-9-16-casement.html",
+      "is_product_candidate": true,
+      "category": "windows",
+      "assets": [
+        "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+        "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+        "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf",
+        "/images/catalog/vinyl-pro/end-vent-slider-1-9e36f02c24fc.png",
+        "/images/catalog/vinyl-pro/end-vent-slider-2-ecc3be90c77e.png",
+        "/images/catalog/vinyl-pro/single-slider-1-69bc8a2b0458.png",
+        "/images/catalog/vinyl-pro/single-slider-2-e832fb7d3bea.png"
+      ],
+      "product_data": {}
+    }
+  ],
+  "assets": [
+    {
+      "supplier": "vinyl-pro",
+      "source_page_urls": [
+        "https://www.vinyl-pro.ca/",
+        "https://www.vinyl-pro.ca/about/",
+        "https://www.vinyl-pro.ca/facility/",
+        "https://www.vinyl-pro.ca/windows/",
+        "https://www.vinyl-pro.ca/windows/4-9-16-casement/",
+        "https://www.vinyl-pro.ca/windows/awning/",
+        "https://www.vinyl-pro.ca/windows/casement/",
+        "https://www.vinyl-pro.ca/windows/double-hung/",
+        "https://www.vinyl-pro.ca/windows/double-slider/",
+        "https://www.vinyl-pro.ca/windows/end-vent-slider/",
+        "https://www.vinyl-pro.ca/windows/fixed-casement/",
+        "https://www.vinyl-pro.ca/windows/picture-window/",
+        "https://www.vinyl-pro.ca/windows/single-hung/",
+        "https://www.vinyl-pro.ca/windows/single-slider/"
+      ],
+      "original_asset_url": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+      "local_path": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+      "asset_type": "document",
+      "role": "document",
+      "sha256": "cb7b860c61526b6df837aaa9a6bcc14ee120b5ac1384f8660a582b40797d5248",
+      "bytes": 5081321,
+      "discovered_at": "2026-08-19T19:00:08Z"
+    },
+    {
+      "supplier": "vinyl-pro",
+      "source_page_urls": [
+        "https://www.vinyl-pro.ca/",
+        "https://www.vinyl-pro.ca/about/",
+        "https://www.vinyl-pro.ca/facility/",
+        "https://www.vinyl-pro.ca/windows/",
+        "https://www.vinyl-pro.ca/windows/4-9-16-casement/",
+        "https://www.vinyl-pro.ca/windows/awning/",
+        "https://www.vinyl-pro.ca/windows/casement/",
+        "https://www.vinyl-pro.ca/windows/double-hung/",
+        "https://www.vinyl-pro.ca/windows/double-slider/",
+        "https://www.vinyl-pro.ca/windows/end-vent-slider/",
+        "https://www.vinyl-pro.ca/windows/fixed-casement/",
+        "https://www.vinyl-pro.ca/windows/picture-window/",
+        "https://www.vinyl-pro.ca/windows/single-hung/",
+        "https://www.vinyl-pro.ca/windows/single-slider/"
+      ],
+      "original_asset_url": "https://www.vinyl-pro.ca/storage/2024/08/Vinyl-Pro-silver-brochure-2021-web.pdf",
+      "local_path": "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf",
+      "asset_type": "document",
+      "role": "document",
+      "sha256": "350fbb919f349e38511a33c25251dfbc34e015f302e4c87df0a14bf946f8719c",
+      "bytes": 14791879,
+      "discovered_at": "2026-08-19T19:00:08Z"
+    },
+    {
+      "supplier": "vinyl-pro",
+      "source_page_urls": [
+        "https://www.vinyl-pro.ca/about/",
+        "https://www.vinyl-pro.ca/windows/4-9-16-casement/",
+        "https://www.vinyl-pro.ca/windows/awning/",
+        "https://www.vinyl-pro.ca/windows/casement/",
+        "https://www.vinyl-pro.ca/windows/double-hung/",
+        "https://www.vinyl-pro.ca/windows/double-slider/",
+        "https://www.vinyl-pro.ca/windows/end-vent-slider/",
+        "https://www.vinyl-pro.ca/windows/fixed-casement/",
+        "https://www.vinyl-pro.ca/windows/picture-window/",
+        "https://www.vinyl-pro.ca/windows/single-hung/",
+        "https://www.vinyl-pro.ca/windows/single-slider/"
+      ],
+      "original_asset_url": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+      "local_path": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+      "asset_type": "document",
+      "role": "document",
+      "sha256": "c0df592b193b3ad8e6c07ff5ad92fd767ae9a7188809a6ba94ba97c85ab42a4e",
+      "bytes": 646670,
+      "discovered_at": "2026-08-19T19:00:09Z"
+    },
+    {
+      "supplier": "vinyl-pro",
+      "source_page_urls": [
+        "https://www.vinyl-pro.ca/windows/",
+        "https://www.vinyl-pro.ca/windows/4-9-16-casement/",
+        "https://www.vinyl-pro.ca/windows/casement/",
+        "https://www.vinyl-pro.ca/windows/double-slider/",
+        "https://www.vinyl-pro.ca/windows/end-vent-slider/",
+        "https://www.vinyl-pro.ca/windows/fixed-casement/",
+        "https://www.vinyl-pro.ca/windows/picture-window/"
+      ],
+      "original_asset_url": "https://www.vinyl-pro.ca/storage/2024/08/single_slider-1.png",
+      "local_path": "/images/catalog/vinyl-pro/single-slider-1-69bc8a2b0458.png",
+      "asset_type": "image",
+      "role": "gallery",
+      "sha256": "2ef812e60b654a4bfc77de1b49ee43167c16c97ecc215b674fefdcf940b97e85",
+      "bytes": 37309,
+      "discovered_at": "2026-08-19T19:00:11Z"
+    },
+    {
+      "supplier": "vinyl-pro",
+      "source_page_urls": [
+        "https://www.vinyl-pro.ca/windows/",
+        "https://www.vinyl-pro.ca/windows/4-9-16-casement/",
+        "https://www.vinyl-pro.ca/windows/casement/",
+        "https://www.vinyl-pro.ca/windows/double-slider/",
+        "https://www.vinyl-pro.ca/windows/end-vent-slider/",
+        "https://www.vinyl-pro.ca/windows/fixed-casement/",
+        "https://www.vinyl-pro.ca/windows/picture-window/"
+      ],
+      "original_asset_url": "https://www.vinyl-pro.ca/storage/2024/08/single_slider-2.png",
+      "local_path": "/images/catalog/vinyl-pro/single-slider-2-e832fb7d3bea.png",
+      "asset_type": "image",
+      "role": "gallery",
+      "sha256": "d6cd2bc4c6c5b5bbb73eb361a018f1db2b00d846edbae370ba400e9676a64b65",
+      "bytes": 48432,
+      "discovered_at": "2026-08-19T19:00:11Z"
+    },
+    {
+      "supplier": "vinyl-pro",
+      "source_page_urls": [
+        "https://www.vinyl-pro.ca/windows/",
+        "https://www.vinyl-pro.ca/windows/4-9-16-casement/",
+        "https://www.vinyl-pro.ca/windows/fixed-casement/",
+        "https://www.vinyl-pro.ca/windows/single-hung/"
+      ],
+      "original_asset_url": "https://www.vinyl-pro.ca/storage/2024/08/end_vent_slider-1.png",
+      "local_path": "/images/catalog/vinyl-pro/end-vent-slider-1-9e36f02c24fc.png",
+      "asset_type": "image",
+      "role": "gallery",
+      "sha256": "f6b15701da45b5d17160c680f3cb1776832d82a489e02a01f7bcae74f1bd1ad4",
+      "bytes": 35546,
+      "discovered_at": "2026-08-19T19:00:11Z"
+    },
+    {
+      "supplier": "vinyl-pro",
+      "source_page_urls": [
+        "https://www.vinyl-pro.ca/windows/",
+        "https://www.vinyl-pro.ca/windows/4-9-16-casement/",
+        "https://www.vinyl-pro.ca/windows/fixed-casement/",
+        "https://www.vinyl-pro.ca/windows/single-hung/"
+      ],
+      "original_asset_url": "https://www.vinyl-pro.ca/storage/2024/08/end_vent_slider-2.png",
+      "local_path": "/images/catalog/vinyl-pro/end-vent-slider-2-ecc3be90c77e.png",
+      "asset_type": "image",
+      "role": "gallery",
+      "sha256": "660f99fe6c9da26e4188f704b20d6edd5cd2f3341b9558da3f2050a8b6f1b931",
+      "bytes": 47345,
+      "discovered_at": "2026-08-19T19:00:11Z"
+    },
+    {
+      "supplier": "vinyl-pro",
+      "source_page_urls": [
+        "https://www.vinyl-pro.ca/windows/",
+        "https://www.vinyl-pro.ca/windows/awning/",
+        "https://www.vinyl-pro.ca/windows/casement/",
+        "https://www.vinyl-pro.ca/windows/end-vent-slider/",
+        "https://www.vinyl-pro.ca/windows/picture-window/"
+      ],
+      "original_asset_url": "https://www.vinyl-pro.ca/storage/2024/08/double_slider-1.png",
+      "local_path": "/images/catalog/vinyl-pro/double-slider-1-3bddd99a8943.png",
+      "asset_type": "image",
+      "role": "gallery",
+      "sha256": "d3478adb5599c3b5c2edc86051c19aa5b401ec0ac3234e0e56f20e8b1565c1b5",
+      "bytes": 40761,
+      "discovered_at": "2026-08-19T19:00:11Z"
+    },
+    {
+      "supplier": "vinyl-pro",
+      "source_page_urls": [
+        "https://www.vinyl-pro.ca/windows/",
+        "https://www.vinyl-pro.ca/windows/awning/",
+        "https://www.vinyl-pro.ca/windows/casement/",
+        "https://www.vinyl-pro.ca/windows/end-vent-slider/",
+        "https://www.vinyl-pro.ca/windows/picture-window/"
+      ],
+      "original_asset_url": "https://www.vinyl-pro.ca/storage/2024/08/double_slider-2.png",
+      "local_path": "/images/catalog/vinyl-pro/double-slider-2-b134a9fe8f71.png",
+      "asset_type": "image",
+      "role": "gallery",
+      "sha256": "e7e94fc66c97da452a6eb105a6f071d84c02e5c4c5eba7970554acc0f9959587",
+      "bytes": 65059,
+      "discovered_at": "2026-08-19T19:00:11Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "vinyl-pro:casement",
+      "manufacturer": "vinyl-pro",
+      "slug": "casement",
+      "name": "Casement",
+      "category": "windows",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "Discover 3 1/4 Casement vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 Casement windows today!",
+      "sourceUrl": "https://www.vinyl-pro.ca/windows/casement/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "vinyl-pro:awning",
+      "manufacturer": "vinyl-pro",
+      "slug": "awning",
+      "name": "Awning",
+      "category": "windows",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "Discover 3 1/4 Awning vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 Awning windows today!",
+      "sourceUrl": "https://www.vinyl-pro.ca/windows/awning/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "vinyl-pro:fixed-casement",
+      "manufacturer": "vinyl-pro",
+      "slug": "fixed-casement",
+      "name": "Fixed Casement",
+      "category": "windows",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "Discover 3 1/4 Fixed casement vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 Fixed casement windows today!",
+      "sourceUrl": "https://www.vinyl-pro.ca/windows/fixed-casement/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "vinyl-pro:picture-window",
+      "manufacturer": "vinyl-pro",
+      "slug": "picture-window",
+      "name": "Picture Window",
+      "category": "windows",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "Discover 3 1/4 Picture window vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 Picture window windows today!",
+      "sourceUrl": "https://www.vinyl-pro.ca/windows/picture-window/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "vinyl-pro:single-hung",
+      "manufacturer": "vinyl-pro",
+      "slug": "single-hung",
+      "name": "Single Hung",
+      "category": "windows",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "Discover 3 1/4 Single hung vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 Single hung windows today!",
+      "sourceUrl": "https://www.vinyl-pro.ca/windows/single-hung/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "vinyl-pro:single-slider",
+      "manufacturer": "vinyl-pro",
+      "slug": "single-slider",
+      "name": "Single Slider",
+      "category": "windows",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "Discover 3 1/4 Single slider vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 Single slider windows today!",
+      "sourceUrl": "https://www.vinyl-pro.ca/windows/single-slider/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "vinyl-pro:end-vent-slider",
+      "manufacturer": "vinyl-pro",
+      "slug": "end-vent-slider",
+      "name": "End Vent Slider",
+      "category": "windows",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "Discover 3 1/4 End vent slider vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 End vent slider windows today!",
+      "sourceUrl": "https://www.vinyl-pro.ca/windows/end-vent-slider/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "vinyl-pro:double-hung",
+      "manufacturer": "vinyl-pro",
+      "slug": "double-hung",
+      "name": "Double Hung",
+      "category": "windows",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "Discover 3 1/4 Double hung vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 Double hung windows today!",
+      "sourceUrl": "https://www.vinyl-pro.ca/windows/double-hung/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "vinyl-pro:double-slider",
+      "manufacturer": "vinyl-pro",
+      "slug": "double-slider",
+      "name": "Double Slider",
+      "category": "windows",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "Discover 3 1/4 Double slider vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 Double slider windows today!",
+      "sourceUrl": "https://www.vinyl-pro.ca/windows/double-slider/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "vinyl-pro:4-9-16-casement",
+      "manufacturer": "vinyl-pro",
+      "slug": "4-9-16-casement",
+      "name": "4 9/16 Casement",
+      "category": "windows",
+      "collection": null,
+      "modelNumber": null,
+      "type": "Casement",
+      "summary": null,
+      "sourceDescription": "Discover 4 9/16 Casement vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 4 9/16 Casement windows today!",
+      "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-casement/",
+      "sourceType": "live-crawl",
+      "media": [],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    }
+  ],
+  "errors": []
+}

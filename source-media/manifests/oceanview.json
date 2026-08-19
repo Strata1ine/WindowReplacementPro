@@ -1,0 +1,365 @@
+{
+  "supplier": {
+    "slug": "oceanview",
+    "name": "Oceanview Patio Doors",
+    "base_url": "https://oceanviewdoors.ca/",
+    "categories": [
+      "patio-doors"
+    ]
+  },
+  "crawledAt": "2026-08-19T18:57:28Z",
+  "pages": [
+    {
+      "url": "https://oceanviewdoors.ca/",
+      "title": "Home - Ocean View Patio Doors",
+      "h1": "Where Indoor Comfort Meets Outdoor Beauty",
+      "description": "",
+      "snapshot": "source-media\\oceanview\\html\\0001-where-indoor-comfort-meets-outdoor-beauty.html",
+      "is_product_candidate": false,
+      "category": "patio-doors",
+      "assets": [
+        "/images/catalog/oceanview/premiumplus-interior-01-2-17bd4a5fef59.jpg"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://oceanviewdoors.ca/patio-doors/",
+      "title": "Patio Doors - Ocean View Patio Doors",
+      "h1": "Patio Doors",
+      "description": "",
+      "snapshot": "source-media\\oceanview\\html\\0002-patio-doors.html",
+      "is_product_candidate": false,
+      "category": "patio-doors",
+      "assets": [],
+      "product_data": {}
+    },
+    {
+      "url": "https://oceanviewdoors.ca/patio-doors/essential/",
+      "title": "Essential - Ocean View Patio Doors",
+      "h1": "Pacific Series Essential",
+      "description": "",
+      "snapshot": "source-media\\oceanview\\html\\0003-pacific-series-essential.html",
+      "is_product_candidate": true,
+      "category": "patio-doors",
+      "assets": [
+        "/images/catalog/oceanview/essential-ce57b6b9beb9.jpg"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://oceanviewdoors.ca/patio-doors/premium/",
+      "title": "Premium - Ocean View Patio Doors",
+      "h1": "Pacific Series Premium",
+      "description": "",
+      "snapshot": "source-media\\oceanview\\html\\0004-pacific-series-premium.html",
+      "is_product_candidate": true,
+      "category": "patio-doors",
+      "assets": [
+        "/images/catalog/oceanview/premium-d75598bb9b06.jpg"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "https://oceanviewdoors.ca/patio-doors/premium-plus/",
+      "title": "Premium Plus - Ocean View Patio Doors",
+      "h1": "Pacific Series Premium Plus",
+      "description": "",
+      "snapshot": "source-media\\oceanview\\html\\0005-pacific-series-premium-plus.html",
+      "is_product_candidate": true,
+      "category": "patio-doors",
+      "assets": [
+        "/images/catalog/oceanview/premiumplus-interior-01-2-17bd4a5fef59.jpg"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "http://oceanviewdoors.ca/accessories/",
+      "title": "Accessories - Ocean View Patio Doors",
+      "h1": "Accessories",
+      "description": "",
+      "snapshot": "source-media\\oceanview\\html\\0006-accessories.html",
+      "is_product_candidate": false,
+      "category": "patio-doors",
+      "assets": [
+        "/images/catalog/oceanview/hardware-hero-scaled-698ef2137922.jpg"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "http://oceanviewdoors.ca/accessories/colours/",
+      "title": "Colours - Ocean View Patio Doors",
+      "h1": "Colours",
+      "description": "",
+      "snapshot": "source-media\\oceanview\\html\\0007-colours.html",
+      "is_product_candidate": false,
+      "category": "patio-doors",
+      "assets": [
+        "/documents/catalog/oceanview/oceanview-colours-patio-door-converted-45697d72a43f.pdf"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "http://oceanviewdoors.ca/resources/",
+      "title": "Resources - Ocean View Patio Doors",
+      "h1": "Resources",
+      "description": "",
+      "snapshot": "source-media\\oceanview\\html\\0008-resources.html",
+      "is_product_candidate": false,
+      "category": "patio-doors",
+      "assets": [],
+      "product_data": {}
+    },
+    {
+      "url": "http://oceanviewdoors.ca/resources/brochures/",
+      "title": "Brochures - Ocean View Patio Doors",
+      "h1": "Brochures",
+      "description": "",
+      "snapshot": "source-media\\oceanview\\html\\0009-brochures.html",
+      "is_product_candidate": false,
+      "category": "patio-doors",
+      "assets": [
+        "/documents/catalog/oceanview/oceanview-slider-june-2026low-0b284e29c269.pdf",
+        "/images/catalog/oceanview/featured-image-6fa666d322b8.jpg"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "http://oceanviewdoors.ca/resources/warranty/",
+      "title": "Warranty - Ocean View Patio Doors",
+      "h1": "Warranty",
+      "description": "Limited Non-prorated Warranty OceanView will offer to the original purchaser of door components, door kits or complete door units (hereinafter referred to as “Products”) a limited non-transferable warranty subject to the terms and conditions herein contained. 10 Years Limited, Non-prorated Warranty on PVC Components That Have Been Coated Through Oceanview OceanView warrants for a period... View Article",
+      "snapshot": "source-media\\oceanview\\html\\0010-warranty.html",
+      "is_product_candidate": false,
+      "category": "patio-doors",
+      "assets": [
+        "/documents/catalog/oceanview/warranty-oceanview-5bde550c9444.pdf"
+      ],
+      "product_data": {}
+    },
+    {
+      "url": "http://oceanviewdoors.ca/resources/performance-ratings/",
+      "title": "Performance Ratings - Ocean View Patio Doors",
+      "h1": "Performance Ratings",
+      "description": "By request only, our patio doors can meet and exceed ENERGY STAR performance requirements.For more information about what makes a door Energy Star qualified, click here. All tests performed in accordance with AAMA/WDMA/CSA101/1.S.2/A440-08 A-Air Tightness Rate of Air Leakage Through Sliding Glass Patio Doors. The higher the number, the more airtight the product. B-Water Tightness Water... View Article",
+      "snapshot": "source-media\\oceanview\\html\\0011-performance-ratings.html",
+      "is_product_candidate": false,
+      "category": "patio-doors",
+      "assets": [],
+      "product_data": {}
+    },
+    {
+      "url": "https://oceanviewdoors.ca/company/",
+      "title": "Company - Ocean View Patio Doors",
+      "h1": "Company",
+      "description": "",
+      "snapshot": "source-media\\oceanview\\html\\0012-company.html",
+      "is_product_candidate": false,
+      "category": "patio-doors",
+      "assets": [],
+      "product_data": {}
+    },
+    {
+      "url": "https://oceanviewdoors.ca/company/about/",
+      "title": "About - Ocean View Patio Doors",
+      "h1": "About Us",
+      "description": "",
+      "snapshot": "source-media\\oceanview\\html\\0013-about-us.html",
+      "is_product_candidate": false,
+      "category": "patio-doors",
+      "assets": [],
+      "product_data": {}
+    },
+    {
+      "url": "http://oceanviewdoors.ca/company/media/",
+      "title": "Media - Ocean View Patio Doors",
+      "h1": "Media",
+      "description": "",
+      "snapshot": "source-media\\oceanview\\html\\0014-media.html",
+      "is_product_candidate": false,
+      "category": "patio-doors",
+      "assets": [],
+      "product_data": {}
+    },
+    {
+      "url": "http://oceanviewdoors.ca/company/find-a-dealer/",
+      "title": "Find A Dealer - Ocean View Patio Doors",
+      "h1": "Find a Dealer",
+      "description": "",
+      "snapshot": "source-media\\oceanview\\html\\0015-find-a-dealer.html",
+      "is_product_candidate": false,
+      "category": "patio-doors",
+      "assets": [],
+      "product_data": {}
+    }
+  ],
+  "assets": [
+    {
+      "supplier": "oceanview",
+      "source_page_urls": [
+        "https://oceanviewdoors.ca/",
+        "https://oceanviewdoors.ca/patio-doors/premium-plus/"
+      ],
+      "original_asset_url": "https://oceanviewdoors.ca/wp-content/uploads/2026/02/PREMIUMPLUS_Interior_01-2.jpg",
+      "local_path": "/images/catalog/oceanview/premiumplus-interior-01-2-17bd4a5fef59.jpg",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "a0a003e3ee5c8598af236aa27697f931a16755e281659b0d70cb9604d2cc6411",
+      "bytes": 577240,
+      "discovered_at": "2026-08-19T18:57:17Z"
+    },
+    {
+      "supplier": "oceanview",
+      "source_page_urls": [
+        "https://oceanviewdoors.ca/patio-doors/essential/"
+      ],
+      "original_asset_url": "https://oceanviewdoors.ca/wp-content/uploads/2026/06/essential.jpg",
+      "local_path": "/images/catalog/oceanview/essential-ce57b6b9beb9.jpg",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "c1699586e0baaac51307f9699ca1638bb6c3e86537a4be17cc20bc6395eefb66",
+      "bytes": 309944,
+      "discovered_at": "2026-08-19T18:57:18Z"
+    },
+    {
+      "supplier": "oceanview",
+      "source_page_urls": [
+        "https://oceanviewdoors.ca/patio-doors/premium/"
+      ],
+      "original_asset_url": "https://oceanviewdoors.ca/wp-content/uploads/2026/06/premium.jpg",
+      "local_path": "/images/catalog/oceanview/premium-d75598bb9b06.jpg",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "82eaa197aafa0590b71e8fdec7e034cceb424816c860705e6ce615dc778f368e",
+      "bytes": 300397,
+      "discovered_at": "2026-08-19T18:57:19Z"
+    },
+    {
+      "supplier": "oceanview",
+      "source_page_urls": [
+        "http://oceanviewdoors.ca/accessories/"
+      ],
+      "original_asset_url": "https://oceanviewdoors.ca/wp-content/uploads/2026/02/Hardware_Hero-scaled.jpg",
+      "local_path": "/images/catalog/oceanview/hardware-hero-scaled-698ef2137922.jpg",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "e0137f55941d3ee913886cb064f0ba2c8a2a5fc2c4d52b5b2e2d7bd2eb48ba5d",
+      "bytes": 179597,
+      "discovered_at": "2026-08-19T18:57:20Z"
+    },
+    {
+      "supplier": "oceanview",
+      "source_page_urls": [
+        "http://oceanviewdoors.ca/accessories/colours/"
+      ],
+      "original_asset_url": "http://oceanviewdoors.ca/wp-content/uploads/2026/03/OCEANVIEW-COLOURS-PATIO-DOOR_converted.pdf",
+      "local_path": "/documents/catalog/oceanview/oceanview-colours-patio-door-converted-45697d72a43f.pdf",
+      "asset_type": "document",
+      "role": "document",
+      "sha256": "38c0ec1f9c5014fb96a23366c1fc4eb585a3c909810059741812c811ce94a97f",
+      "bytes": 315653,
+      "discovered_at": "2026-08-19T18:57:21Z"
+    },
+    {
+      "supplier": "oceanview",
+      "source_page_urls": [
+        "http://oceanviewdoors.ca/resources/brochures/"
+      ],
+      "original_asset_url": "https://oceanviewdoors.ca/wp-content/uploads/2026/02/Featured_Image.jpg",
+      "local_path": "/images/catalog/oceanview/featured-image-6fa666d322b8.jpg",
+      "asset_type": "image",
+      "role": "hero",
+      "sha256": "0ba0978a3de096ccb5010f47b20b3a44a2d0c01268bd3a16808064217d55b288",
+      "bytes": 346652,
+      "discovered_at": "2026-08-19T18:57:23Z"
+    },
+    {
+      "supplier": "oceanview",
+      "source_page_urls": [
+        "http://oceanviewdoors.ca/resources/brochures/"
+      ],
+      "original_asset_url": "http://oceanviewdoors.ca/wp-content/uploads/2026/07/OCEANVIEW_SLIDER_JUNE_2026LOW.pdf",
+      "local_path": "/documents/catalog/oceanview/oceanview-slider-june-2026low-0b284e29c269.pdf",
+      "asset_type": "document",
+      "role": "document",
+      "sha256": "bf4df93662e1fbd782414babefc5997d92df6c3456a72343932fb101358a54fa",
+      "bytes": 9410490,
+      "discovered_at": "2026-08-19T18:57:23Z"
+    },
+    {
+      "supplier": "oceanview",
+      "source_page_urls": [
+        "http://oceanviewdoors.ca/resources/warranty/"
+      ],
+      "original_asset_url": "http://oceanviewdoors.ca/wp-content/uploads/2026/04/WARRANTY_OCEANVIEW.pdf",
+      "local_path": "/documents/catalog/oceanview/warranty-oceanview-5bde550c9444.pdf",
+      "asset_type": "document",
+      "role": "document",
+      "sha256": "b9f62446b6df314d840ba405732faf0010fe6b06db0d681c7a7d5decf7e87842",
+      "bytes": 400321,
+      "discovered_at": "2026-08-19T18:57:24Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "oceanview:essential",
+      "manufacturer": "oceanview",
+      "slug": "essential",
+      "name": "Essential",
+      "category": "patio-doors",
+      "collection": "Patio Doors",
+      "modelNumber": null,
+      "type": "Sliding Patio Door",
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://oceanviewdoors.ca/patio-doors/essential/",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/oceanview/essential-ce57b6b9beb9.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "oceanview:premium",
+      "manufacturer": "oceanview",
+      "slug": "premium",
+      "name": "Premium",
+      "category": "patio-doors",
+      "collection": "Patio Doors",
+      "modelNumber": null,
+      "type": "Sliding Patio Door",
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://oceanviewdoors.ca/patio-doors/premium/",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/oceanview/premium-d75598bb9b06.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "oceanview:premium-plus",
+      "manufacturer": "oceanview",
+      "slug": "premium-plus",
+      "name": "Premium Plus",
+      "category": "patio-doors",
+      "collection": "Patio Doors",
+      "modelNumber": null,
+      "type": "Sliding Patio Door",
+      "summary": null,
+      "sourceDescription": null,
+      "sourceUrl": "https://oceanviewdoors.ca/patio-doors/premium-plus/",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/oceanview/premiumplus-interior-01-2-17bd4a5fef59.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    }
+  ],
+  "errors": []
+}

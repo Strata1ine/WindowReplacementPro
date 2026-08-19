@@ -1,1 +1,91 @@
-[]
+[
+  {
+    "id": "vista:capri-3-0",
+    "manufacturer": "vista",
+    "slug": "capri-3-0",
+    "name": "Capri 3.0",
+    "category": "patio-doors",
+    "collection": "Patio Doors",
+    "modelNumber": null,
+    "type": "Sliding Patio Door",
+    "summary": null,
+    "sourceDescription": "Built with your satisfaction in mind. Every CAPRI 3.0 is made to order to your exact specifications and expectations. Hundreds of standard colors give you endless design possibilities.",
+    "sourceUrl": "https://www.vistapatiodoors.com/patio-doors",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/vista/648333cc7cc61c603f6eb502-capri-2-98b98360aad4.png",
+      "/images/catalog/vista/648333ccfdc5dc4cf2a1ba8c-capri-1-c077ba41d23a.png"
+    ],
+    "documents": [
+      "/documents/catalog/vista/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": "vista:amalfi-1-0",
+    "manufacturer": "vista",
+    "slug": "amalfi-1-0",
+    "name": "Amalfi 1.0",
+    "category": "patio-doors",
+    "collection": "Patio Doors",
+    "modelNumber": null,
+    "type": "Sliding Patio Door",
+    "summary": null,
+    "sourceDescription": "Superior performance, maximum endurance and resilience. Superior drainage, due to Amalfi’s superior water clearing system. Ultra-durable nylon tandem or quad rollers (for oversized doors) allow smooth operation – no marks on the gliding rail",
+    "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-amalfi",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/vista/6635386dcbde5a8d27893008-unknown-1-eb691f921743.jpeg"
+    ],
+    "documents": [
+      "/documents/catalog/vista/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": "vista:aria-1-0",
+    "manufacturer": "vista",
+    "slug": "aria-1-0",
+    "name": "Aria 1.0",
+    "category": "patio-doors",
+    "collection": "Patio Doors",
+    "modelNumber": null,
+    "type": "Stacking Patio Door",
+    "summary": null,
+    "sourceDescription": "Superior performance, maximum endurance and resilience. Ultra-durable nylon tandem or quad rollers (for oversized doors) allow smooth operation – no marks on the gliding rail",
+    "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-aria",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/vista/6635384decfed09d0795fdec-unknown-613719a0af53.jpeg"
+    ],
+    "documents": [
+      "/documents/catalog/vista/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": "vista:rimini-2-0",
+    "manufacturer": "vista",
+    "slug": "rimini-2-0",
+    "name": "Rimini 2.0",
+    "category": "patio-doors",
+    "collection": "Patio Doors",
+    "modelNumber": null,
+    "type": "Stacking Patio Door",
+    "summary": null,
+    "sourceDescription": "Quality doors designed to last a lifetime.",
+    "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-rimini",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/vista/64833486f8f86e07bd54565c-rimi-min-ba0bc800e546.png"
+    ],
+    "documents": [
+      "/documents/catalog/vista/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  }
+]

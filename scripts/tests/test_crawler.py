@@ -18,6 +18,21 @@ class CrawlerSafetyTests(unittest.TestCase):
         parser = PageParser(); parser.feed('<html><title>Windows and Doors</title><h1>Our Products</h1></html>')
         self.assertFalse(is_product_candidate('https://example.com/', parser, ['product', 'window'], {}))
 
+    def test_exact_supplier_path_rule_can_accept_a_detail_page(self):
+        parser = PageParser(); parser.feed('<title>Casement Windows</title><h1>Casement</h1>')
+        self.assertTrue(is_product_candidate('https://example.com/windows/casement/', parser, [], {}, [r'^/windows/casement/?$']))
+
+    def test_supplier_asset_role_rule_is_scoped_to_parser_instance(self):
+        parser = PageParser([{'role': 'hero', 'patterns': [r'\bcapri\b']}])
+        parser.feed('<img class="capri" src="product.jpg"><img class="brand" src="logo.png">')
+        self.assertEqual([('product.jpg', 'image', 'hero'), ('logo.png', 'image', 'generic')], parser.media)
+
+    def test_img_src_does_not_duplicate_responsive_renditions(self):
+        parser = PageParser()
+        parser.feed('<img class="hero" src="original.jpg" srcset="small.jpg 500w, large.jpg 1000w">')
+        self.assertEqual([('original.jpg', 'image', 'hero')], parser.media)
+        self.assertFalse(is_product_candidate('https://example.com/windows/', parser, [], {}, [r'^/windows/casement/?$']))
+
     def test_jsonld_product_is_classified_and_extracted(self):
         parser = PageParser()
         parser.feed('<html><title>Model 100</title><h1>Model 100 Casement</h1><script type="application/ld+json">{"@type":"Product","name":"Model 100","model":"M-100","description":"High performance window","additionalProperty":{"name":"Glazing","value":"Triple pane"}}</script></html>')

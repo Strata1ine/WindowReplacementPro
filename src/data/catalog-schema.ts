@@ -13,6 +13,7 @@ export type CatalogProduct = {
   modelNumber: string | null;
   type: string | null;
   summary: string | null;
+  sourceDescription?: string | null;
   sourceUrl: string;
   sourceType: string;
   media: string[];
@@ -75,6 +76,7 @@ export function normalizeCatalogProducts(input: unknown, sourceLabel: string): C
       modelNumber: nullableString(value, 'modelNumber', label),
       type: nullableString(value, 'type', label),
       summary: nullableString(value, 'summary', label),
+      sourceDescription: nullableString(value, 'sourceDescription', label),
       sourceUrl: requiredString(value, 'sourceUrl', label),
       sourceType: requiredString(value, 'sourceType', label),
       media: stringArray(value, 'media', label),
@@ -142,6 +144,7 @@ export function mergeCatalogProducts(curated: CatalogProduct[], discovered: Cata
       modelNumber: incomingOrExisting(incoming.modelNumber, existing.modelNumber),
       type: incomingOrExisting(incoming.type, existing.type),
       summary: incomingOrExisting(incoming.summary, existing.summary),
+      sourceDescription: incomingOrExisting(incoming.sourceDescription ?? null, existing.sourceDescription ?? null),
       sourceUrl: incomingOrExisting(incoming.sourceUrl, existing.sourceUrl) ?? existing.sourceUrl,
       sourceType: incomingOrExisting(incoming.sourceType, existing.sourceType) ?? existing.sourceType,
       media: mergeStrings(existing.media, incoming.media),

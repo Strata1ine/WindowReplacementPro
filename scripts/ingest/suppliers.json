@@ -6,6 +6,11 @@
     "allowed_domains": ["vinyl-pro.ca", "www.vinyl-pro.ca"],
     "start_urls": ["https://www.vinyl-pro.ca/"],
     "product_hints": ["/awning", "/casement", "/slider", "/hung", "/picture", "/fixed"],
+    "product_path_rules": ["^/windows/(?:awning|casement|fixed-casement|picture-window|single-hung|single-slider|end-vent-slider|double-hung|double-slider|4-9-16-casement)/?$"],
+    "name_from_path": true,
+    "product_identity_rules": [
+      {"path_pattern": "^/windows/4-9-16-casement/?$", "slug": "4-9-16-casement", "name": "4 9/16 Casement", "type": "Casement"}
+    ],
     "categories": ["windows"]
   },
   {
@@ -94,8 +99,18 @@
     "name": "Oceanview Patio Doors",
     "base_url": "https://oceanviewdoors.ca/",
     "allowed_domains": ["oceanviewdoors.ca", "www.oceanviewdoors.ca"],
-    "start_urls": ["https://oceanviewdoors.ca/", "https://www.oceanviewdoors.ca/sizes.html"],
+    "start_urls": ["https://oceanviewdoors.ca/"],
     "product_hints": ["essential", "premium", "door", "sizes"],
+    "product_path_rules": ["^/patio-doors/(?:essential|premium|premium-plus)/?$"],
+    "asset_role_rules": [
+      {"role": "hero", "patterns": ["\\bessential\\b", "\\bpremium\\b", "premium\\+plus_interior"]}
+    ],
+    "attach_page_roles": ["hero"],
+    "product_identity_rules": [
+      {"path_pattern": "^/patio-doors/essential/?$", "slug": "essential", "name": "Essential", "collection": "Patio Doors", "type": "Sliding Patio Door"},
+      {"path_pattern": "^/patio-doors/premium/?$", "slug": "premium", "name": "Premium", "collection": "Patio Doors", "type": "Sliding Patio Door"},
+      {"path_pattern": "^/patio-doors/premium-plus/?$", "slug": "premium-plus", "name": "Premium Plus", "collection": "Patio Doors", "type": "Sliding Patio Door"}
+    ],
     "categories": ["patio-doors"]
   },
   {
@@ -103,8 +118,20 @@
     "name": "Vista Patio Doors",
     "base_url": "https://www.vistapatiodoors.com/",
     "allowed_domains": ["vistapatiodoors.com", "www.vistapatiodoors.com"],
+    "asset_domains": ["vistapatiodoors.com", "www.vistapatiodoors.com", "cdn.prod.website-files.com"],
     "start_urls": ["https://www.vistapatiodoors.com/"],
     "product_hints": ["capri", "amalfi", "rimini", "aria", "product"],
+    "product_path_rules": ["^/patio-doors(?:-amalfi|-aria|-rimini)?/?$"],
+    "asset_role_rules": [
+      {"role": "hero", "patterns": ["\\bcapri\\b"]}
+    ],
+    "attach_page_roles": ["hero", "document"],
+    "product_identity_rules": [
+      {"path_pattern": "^/patio-doors$", "slug": "capri-3-0", "name": "Capri 3.0", "collection": "Patio Doors", "type": "Sliding Patio Door"},
+      {"path_pattern": "^/patio-doors-amalfi$", "slug": "amalfi-1-0", "name": "Amalfi 1.0", "collection": "Patio Doors", "type": "Sliding Patio Door"},
+      {"path_pattern": "^/patio-doors-aria$", "slug": "aria-1-0", "name": "Aria 1.0", "collection": "Patio Doors", "type": "Stacking Patio Door"},
+      {"path_pattern": "^/patio-doors-rimini$", "slug": "rimini-2-0", "name": "Rimini 2.0", "collection": "Patio Doors", "type": "Stacking Patio Door"}
+    ],
     "categories": ["patio-doors"]
   }
 ]

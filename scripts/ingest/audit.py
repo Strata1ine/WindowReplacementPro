@@ -16,7 +16,7 @@ SUPPLIERS = ROOT / 'scripts' / 'ingest' / 'suppliers.json'
 MANUFACTURERS = ROOT / 'src' / 'data' / 'manufacturers.ts'
 ALLOWED_CATEGORIES = {'windows', 'entry-doors', 'patio-doors', 'door-glass', 'unclassified'}
 REQUIRED_STRINGS = {'id', 'manufacturer', 'slug', 'name', 'category', 'sourceUrl', 'sourceType', 'lastVerified'}
-NULLABLE_STRINGS = {'collection', 'modelNumber', 'type', 'summary'}
+NULLABLE_STRINGS = {'collection', 'modelNumber', 'type', 'summary', 'sourceDescription'}
 SLUG_RE = re.compile(r'^[a-z0-9]+(?:-[a-z0-9]+)*$')
 DATE_RE = re.compile(r'^\d{4}-\d{2}-\d{2}$')
 
