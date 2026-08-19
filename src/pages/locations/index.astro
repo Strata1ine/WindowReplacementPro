@@ -1,0 +1,4 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro'; import { locations } from '../../data/locations';
+---
+<BaseLayout title="Window Replacement Service Areas Ontario | Window Replacement Pro" description="Local window and door replacement service areas across the GTA and Southern Ontario."><section class="page-hero"><div class="wrap"><div class="eyebrow">Service Areas</div><h1>Window replacement across the GTA and Southern Ontario</h1><p class="lead">Launch locations are structured for genuinely local content, project evidence and neighbourhood-specific internal linking.</p></div></section><section class="section alt"><div class="wrap grid">{locations.map(l=><a class="card" href={`/locations/${l.slug}/`}><span class="tag">{l.region}</span><h3>{l.name}</h3><p>{l.intro}</p></a>)}</div></section></BaseLayout>

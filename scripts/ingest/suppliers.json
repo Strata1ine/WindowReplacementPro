@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "vinyl-pro",
+    "name": "Vinyl-Pro",
+    "base_url": "https://www.vinyl-pro.ca/",
+    "allowed_domains": ["vinyl-pro.ca", "www.vinyl-pro.ca"],
+    "start_urls": ["https://www.vinyl-pro.ca/"],
+    "product_hints": ["/awning", "/casement", "/slider", "/hung", "/picture", "/fixed"],
+    "categories": ["windows"]
+  },
+  {
+    "slug": "window-city",
+    "name": "Window City",
+    "base_url": "https://windowcity.com/",
+    "allowed_domains": ["windowcity.com", "www.windowcity.com"],
+    "start_urls": ["https://windowcity.com/"],
+    "product_hints": ["window", "door", "collection", "product"],
+    "categories": ["windows", "entry-doors", "patio-doors"]
+  },
+  {
+    "slug": "masonite",
+    "name": "Masonite",
+    "base_url": "https://www.masonite.com/",
+    "allowed_domains": ["masonite.com", "www.masonite.com"],
+    "start_urls": ["https://www.masonite.com/doors/exterior/", "https://www.masonite.com/catalogs/", "https://www.masonite.com/for-pros/resources/"],
+    "product_hints": ["/doors/exterior", "/door/", "/product"],
+    "categories": ["entry-doors"]
+  },
+  {
+    "slug": "trimlite",
+    "name": "Trimlite",
+    "base_url": "https://trimlite.com/",
+    "allowed_domains": ["trimlite.com", "www.trimlite.com"],
+    "start_urls": ["https://trimlite.com/product-tag/exterior/", "https://trimlite.com/canadian-catalogs/"],
+    "product_hints": ["/product/", "/exterior", "/doorlite"],
+    "categories": ["entry-doors", "door-glass"]
+  },
+  {
+    "slug": "novatech",
+    "name": "Novatech Group",
+    "base_url": "https://www.groupenovatech.com/en_canada_ontario/",
+    "allowed_domains": ["groupenovatech.com", "www.groupenovatech.com"],
+    "start_urls": ["https://www.groupenovatech.com/en_canada_ontario/products/doorglass.html", "https://www.groupenovatech.com/en_canada_ontario/products/patio-doors.html", "https://www.groupenovatech.com/en_canada_ontario/brochures"],
+    "product_hints": ["/products/doorglass/", "/products/patio-doors/", "/products/entry-doors/"],
+    "categories": ["entry-doors", "door-glass", "patio-doors"]
+  },
+  {
+    "slug": "verre-select",
+    "name": "Verre Select",
+    "base_url": "https://verreselect.com/?UILanguage=EN",
+    "allowed_domains": ["verreselect.com", "www.verreselect.com"],
+    "start_urls": ["https://verreselect.com/?UILanguage=EN"],
+    "product_hints": ["Product", "product", "door", "Door"],
+    "categories": ["entry-doors", "door-glass"]
+  },
+  {
+    "slug": "mennie-canada",
+    "name": "Mennie Canada",
+    "base_url": "https://menniecanada.com/",
+    "allowed_domains": ["menniecanada.com", "www.menniecanada.com"],
+    "start_urls": ["https://menniecanada.com/products/", "https://menniecanada.com/catalog/"],
+    "product_hints": ["/products/mahogany-doors/", "/products/oak-grain/", "/products/smooth-doors/"],
+    "categories": ["entry-doors"]
+  },
+  {
+    "slug": "richersons",
+    "name": "Richersons Doors",
+    "base_url": "https://www.richersonsdoors.com/",
+    "allowed_domains": ["richersonsdoors.com", "www.richersonsdoors.com"],
+    "start_urls": ["https://www.richersonsdoors.com/"],
+    "product_hints": ["teak", "mahogany", "flush", "oak", "smooth", "craftsman"],
+    "categories": ["entry-doors"]
+  },
+  {
+    "slug": "oceanview",
+    "name": "Oceanview Patio Doors",
+    "base_url": "https://oceanviewdoors.ca/",
+    "allowed_domains": ["oceanviewdoors.ca", "www.oceanviewdoors.ca"],
+    "start_urls": ["https://oceanviewdoors.ca/", "https://www.oceanviewdoors.ca/sizes.html"],
+    "product_hints": ["essential", "premium", "door", "sizes"],
+    "categories": ["patio-doors"]
+  },
+  {
+    "slug": "vista",
+    "name": "Vista Patio Doors",
+    "base_url": "https://www.vistapatiodoors.com/",
+    "allowed_domains": ["vistapatiodoors.com", "www.vistapatiodoors.com"],
+    "start_urls": ["https://www.vistapatiodoors.com/"],
+    "product_hints": ["capri", "amalfi", "rimini", "aria", "product"],
+    "categories": ["patio-doors"]
+  }
+]

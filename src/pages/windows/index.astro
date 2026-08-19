@@ -1,0 +1,6 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { products } from '../../data/products';
+const items = products.filter(p => p.category === 'windows');
+---
+<BaseLayout title="Replacement Windows Ontario | Window Replacement Pro" description="Compare replacement window styles, performance and installation options for Ontario homes."><section class="page-hero"><div class="wrap"><div class="eyebrow">Windows</div><h1>Replacement windows</h1><p class="lead">Compare operating styles, fixed windows and architectural configurations before selecting a manufacturer or glass package.</p></div></section><section class="section alt"><div class="wrap grid">{items.map(p=><a class="card" href={`/windows/${p.slug}/`}><span class="tag">{p.type}</span><h3>{p.name}</h3><p>{p.summary}</p></a>)}</div></section></BaseLayout>

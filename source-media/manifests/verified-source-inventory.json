@@ -1,0 +1,17 @@
+{
+  "verifiedAt": "2026-08-19",
+  "method": "Current official supplier pages indexed via web research; curated records are seeds for the live ingestion crawler.",
+  "curatedRecordCount": 270,
+  "suppliers": {
+    "vinyl-pro": {"records": 9, "coverage": "current window-type list"},
+    "window-city": {"records": 23, "coverage": "current specification/model list"},
+    "masonite": {"records": 18, "coverage": "currently surfaced exterior-door results; live crawler expands catalog"},
+    "trimlite": {"records": 7, "coverage": "currently surfaced exterior products; live crawler expands 73-product exterior catalog"},
+    "novatech": {"records": 71, "coverage": "60 doorglass designs + 11 Ontario patio-door models"},
+    "verre-select": {"records": 12, "coverage": "surfaced door-window designs; live crawler expands paginated catalog"},
+    "mennie-canada": {"records": 92, "coverage": "Mahogany, Oak Grain and Smooth model records"},
+    "richersons": {"records": 31, "coverage": "Oak Woodgrain, Smooth White and Flush Glazed surfaced models"},
+    "oceanview": {"records": 3, "coverage": "Essential, Premium, Premium Plus"},
+    "vista": {"records": 4, "coverage": "Capri 3.0, Amalfi 1.0, Rimini 2.0, Aria 1.0"}
+  }
+}

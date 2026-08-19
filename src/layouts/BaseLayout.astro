@@ -1,0 +1,28 @@
+---
+import '../styles/global.css';
+import Seo from '../components/Seo.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+interface Props { title: string; description: string; }
+const { title, description } = Astro.props;
+const organization = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Window Replacement Pro',
+  url: 'https://windowreplacement.pro/'
+};
+---
+<!doctype html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <Seo title={title} description={description} />
+  <script type="application/ld+json" set:html={JSON.stringify(organization)} />
+</head>
+<body>
+  <Header />
+  <main><slot /></main>
+  <Footer />
+</body>
+</html>

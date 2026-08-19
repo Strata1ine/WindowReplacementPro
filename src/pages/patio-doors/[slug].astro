@@ -1,0 +1,6 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro'; import { products } from '../../data/products'; import { manufacturers } from '../../data/manufacturers';
+export function getStaticPaths(){return products.filter(p=>p.category==='patio-doors').map(product=>({params:{slug:product.slug},props:{product}}));}
+const { product }=Astro.props; const brands=manufacturers.filter(m=>product.manufacturers.includes(m.slug));
+---
+<BaseLayout title={product.seoTitle} description={product.seoDescription}><div class="wrap breadcrumbs"><a href="/patio-doors/">Patio Doors</a> / {product.name}</div><section class="page-hero"><div class="wrap prose"><div class="eyebrow">{product.type}</div><h1>{product.name}</h1><p class="lead">{product.summary}</p></div></section><section class="section alt"><div class="wrap"><h2>Available manufacturers</h2><div class="grid">{brands.map(b=><a class="card" href={`/brands/${b.slug}/`}><h3>{b.name}</h3><p>{b.summary}</p></a>)}</div></div></section></BaseLayout>

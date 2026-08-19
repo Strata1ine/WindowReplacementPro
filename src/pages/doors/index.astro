@@ -1,0 +1,6 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { products } from '../../data/products';
+const items = products.filter(p => p.category === 'entry-doors');
+---
+<BaseLayout title="Entry Doors Ontario | Window Replacement Pro" description="Compare fiberglass and steel entry doors, decorative glass and replacement configurations."><section class="page-hero"><div class="wrap"><div class="eyebrow">Entry Doors</div><h1>Front doors and entry systems</h1><p class="lead">Fiberglass, steel, decorative glass, sidelites and complete replacement entry systems.</p></div></section><section class="section alt"><div class="wrap grid">{items.map(p=><a class="card" href={`/doors/${p.slug}/`}><span class="tag">{p.type}</span><h3>{p.name}</h3><p>{p.summary}</p></a>)}</div></section></BaseLayout>

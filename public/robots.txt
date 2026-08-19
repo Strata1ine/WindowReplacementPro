@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://windowreplacement.pro/sitemap-index.xml
