@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T08:06:20.055644+00:00",
+  "generatedAt": "2026-08-20T08:50:02.686809+00:00",
   "suppliers": [
     {
       "supplier": "masonite",
@@ -29,6 +29,16 @@
       "tables": 155,
       "images": 239,
       "ocrRequired": 0,
+      "errors": 0
+    },
+    {
+      "supplier": "oceanview",
+      "documents": 7,
+      "pages": 18,
+      "characters": 48538,
+      "tables": 35,
+      "images": 28,
+      "ocrRequired": 4,
       "errors": 0
     },
     {

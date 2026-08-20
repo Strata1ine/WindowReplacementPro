@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T08:06:56.920248+00:00",
+  "generatedAt": "2026-08-20T08:51:13.634171+00:00",
   "automaticFactConflicts": [
     {
       "supplier": "masonite",
@@ -65,6 +65,34 @@
     {
       "supplier": "mennie-canada",
       "localPath": "/documents/catalog/mennie-canada/mennie-canada-catalogue-f-flush-panel-82e7a72f7403.pdf",
+      "reasons": [
+        "ocr-required"
+      ]
+    },
+    {
+      "supplier": "oceanview",
+      "localPath": "/documents/catalog/oceanview/armour-series-977911730ad5.pdf",
+      "reasons": [
+        "ocr-required"
+      ]
+    },
+    {
+      "supplier": "oceanview",
+      "localPath": "/documents/catalog/oceanview/oceanview-colours-patio-door-converted-45697d72a43f.pdf",
+      "reasons": [
+        "ocr-required"
+      ]
+    },
+    {
+      "supplier": "oceanview",
+      "localPath": "/documents/catalog/oceanview/oceanview-paint-colour-guide-6274ce496867.pdf",
+      "reasons": [
+        "ocr-required"
+      ]
+    },
+    {
+      "supplier": "oceanview",
+      "localPath": "/documents/catalog/oceanview/ultraglide-series-f7bec292bca6.pdf",
       "reasons": [
         "ocr-required"
       ]

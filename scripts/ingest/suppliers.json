@@ -991,17 +991,91 @@
     "name": "Oceanview Patio Doors",
     "base_url": "https://oceanviewdoors.ca/",
     "allowed_domains": ["oceanviewdoors.ca", "www.oceanviewdoors.ca"],
-    "start_urls": ["https://oceanviewdoors.ca/"],
-    "product_hints": ["essential", "premium", "door", "sizes"],
-    "product_path_rules": ["^/patio-doors/(?:essential|premium|premium-plus)/?$"],
-    "asset_role_rules": [
-      {"role": "hero", "patterns": ["\\bessential\\b", "\\bpremium\\b", "premium\\+plus_interior"]}
+    "start_urls": [
+      "https://oceanviewdoors.ca/patio-doors/essential/",
+      "https://oceanviewdoors.ca/patio-doors/premium/",
+      "https://oceanviewdoors.ca/patio-doors/premium-plus/",
+      "https://oceanviewdoors.ca/patio-doors/armour/",
+      "https://oceanviewdoors.ca/patio-doors/ultra-glide/",
+      "https://oceanviewdoors.ca/accessories/",
+      "https://oceanviewdoors.ca/accessories/colours/",
+      "https://oceanviewdoors.ca/resources/brochures/",
+      "https://oceanviewdoors.ca/resources/warranty/",
+      "https://oceanviewdoors.ca/resources/performance-ratings/"
+
     ],
-    "attach_page_roles": ["hero"],
+    "crawl_delay": 10,
+    "resume_add_unseen_start_urls": true,
+    "allowed_path_patterns": ["^/(?:patio-doors(?:/(?:essential|premium|premium-plus|armour|ultra-glide))?|accessories(?:/colours)?|resources/(?:brochures|warranty|performance-ratings))/?$"],
+    "product_hints": ["essential", "premium", "armour", "ultra-glide", "door", "sizes"],
+    "product_path_rules": ["^/patio-doors/(?:essential|premium|premium-plus|armour|ultra-glide)/?$"],
+    "document_role_rules": [
+      {"role": "catalogue", "patterns": ["OCEANVIEW_SLIDER_JUNE_2026"]},
+      {"role": "brochure", "patterns": ["(?:pacific|armour|ultraglide)-series"]},
+      {"role": "colour-chart", "patterns": ["COLOURS-PATIO-DOOR", "Paint_Colour_Guide"]},
+      {"role": "warranty", "patterns": ["WARRANTY_OCEANVIEW"]}
+    ],
+    "document_product_rules": [
+      {"patterns": ["OCEANVIEW_SLIDER_JUNE_2026"], "product_ids": ["oceanview:essential", "oceanview:premium", "oceanview:premium-plus"]},
+      {"patterns": ["COLOURS-PATIO-DOOR", "Paint_Colour_Guide", "WARRANTY_OCEANVIEW"], "product_ids": ["oceanview:essential", "oceanview:premium", "oceanview:premium-plus", "oceanview:armour", "oceanview:ultra-glide"]},
+      {"patterns": ["/pacific-series\\.pdf$"], "product_ids": ["oceanview:essential", "oceanview:premium", "oceanview:premium-plus"]},
+      {"patterns": ["/armour-series\\.pdf$"], "product_ids": ["oceanview:armour"]},
+      {"patterns": ["/ultraglide-series\\.pdf$"], "product_ids": ["oceanview:ultra-glide"]}
+    ],
+    "pdf_evidence_rules": [
+      {"patterns": ["armour-series-.*\\.pdf$"], "document_metadata": {"title": "Oceanview Armour Series", "documentDate": "2026-03-10", "freshnessStatus": "current-source-indirect", "freshnessBasis": "Public supplier media attachment associated with the current Armour product and reviewed live 2026-08-20."}, "page_product_ids": {"1": ["oceanview:armour"]}},
+      {"patterns": ["oceanview-colours-patio-door-converted-.*\\.pdf$"], "document_metadata": {"title": "Oceanview Patio Door Colour Guide", "documentDate": "2026-03-12", "freshnessStatus": "current-source-linked", "freshnessBasis": "Linked from the current Oceanview colours page and reviewed live 2026-08-20."}, "page_product_ids": {"1": ["oceanview:essential", "oceanview:premium", "oceanview:premium-plus", "oceanview:armour", "oceanview:ultra-glide"]}},
+      {"patterns": ["oceanview-paint-colour-guide-.*\\.pdf$"], "document_metadata": {"title": "Oceanview Paint Colour Guide", "documentDate": "2026-03-16", "freshnessStatus": "current-source-indirect", "freshnessBasis": "Public supplier media attachment reviewed against the current colours offering 2026-08-20."}, "page_product_ids": {"1": ["oceanview:essential", "oceanview:premium", "oceanview:premium-plus", "oceanview:armour", "oceanview:ultra-glide"]}},
+      {"patterns": ["oceanview-slider-june-2026low-.*\\.pdf$"], "document_metadata": {"title": "Oceanview Pacific Series Patio Doors Catalogue", "documentDate": "2026-06-16", "freshnessStatus": "current-source-linked", "freshnessBasis": "Current June 2026 catalogue linked from the live Oceanview brochures page and reviewed 2026-08-20."}, "page_product_ids": {"1": ["oceanview:essential", "oceanview:premium", "oceanview:premium-plus"], "2": ["oceanview:essential", "oceanview:premium", "oceanview:premium-plus"], "3": ["oceanview:essential", "oceanview:premium", "oceanview:premium-plus"], "4": ["oceanview:essential", "oceanview:premium", "oceanview:premium-plus"], "5": ["oceanview:essential", "oceanview:premium", "oceanview:premium-plus"], "6": ["oceanview:essential", "oceanview:premium", "oceanview:premium-plus"]}},
+      {"patterns": ["pacific-series-.*\\.pdf$"], "document_metadata": {"title": "Oceanview Pacific Series Patio Doors Brochure", "documentDate": "2025-10-07", "freshnessStatus": "current-source-indirect", "freshnessBasis": "Supplier brochure media attachment covering the three current Pacific packages and reviewed 2026-08-20."}, "page_product_ids": {"1": ["oceanview:essential", "oceanview:premium", "oceanview:premium-plus"], "2": ["oceanview:essential", "oceanview:premium", "oceanview:premium-plus"], "3": ["oceanview:essential", "oceanview:premium", "oceanview:premium-plus"], "4": ["oceanview:essential", "oceanview:premium", "oceanview:premium-plus"], "5": ["oceanview:essential", "oceanview:premium", "oceanview:premium-plus"], "6": ["oceanview:essential", "oceanview:premium", "oceanview:premium-plus"]}},
+      {"patterns": ["ultraglide-series-.*\\.pdf$"], "document_metadata": {"title": "Oceanview Ultraglide Sliding System", "documentDate": "2026-03-10", "freshnessStatus": "current-source-indirect", "freshnessBasis": "Public supplier media attachment associated with the current Ultra Glide product and reviewed live 2026-08-20."}, "page_product_ids": {"1": ["oceanview:ultra-glide"]}},
+      {"patterns": ["warranty-oceanview-.*\\.pdf$"], "document_metadata": {"title": "Oceanview Limited Non-Prorated Warranty", "documentDate": "2026-04-29", "freshnessStatus": "current-source-linked", "freshnessBasis": "Linked from the current Oceanview warranty page and reviewed live 2026-08-20."}, "page_product_ids": {"1": ["oceanview:essential", "oceanview:premium", "oceanview:premium-plus", "oceanview:armour", "oceanview:ultra-glide"], "2": ["oceanview:essential", "oceanview:premium", "oceanview:premium-plus", "oceanview:armour", "oceanview:ultra-glide"]}}
+    ],
+    "source_assets": [
+      {"url": "https://oceanviewdoors.ca/wp-content/uploads/2026/04/SMOOTH_EASY_ROLLING_IMAGE.png", "page_url": "https://oceanviewdoors.ca/patio-doors/essential/", "kind": "image", "role": "lifestyle-product", "evidence_url": "https://oceanviewdoors.ca/patio-doors/essential/"},
+      {"url": "https://oceanviewdoors.ca/wp-content/uploads/2026/04/SMOOTH_EASY_ROLLING_IMAGE.png", "page_url": "https://oceanviewdoors.ca/patio-doors/premium/", "kind": "image", "role": "lifestyle-product", "evidence_url": "https://oceanviewdoors.ca/patio-doors/premium/"},
+      {"url": "https://oceanviewdoors.ca/wp-content/uploads/2026/04/SMOOTH_EASY_ROLLING_IMAGE.png", "page_url": "https://oceanviewdoors.ca/patio-doors/premium-plus/", "kind": "image", "role": "lifestyle-product", "evidence_url": "https://oceanviewdoors.ca/patio-doors/premium-plus/"},
+      {"url": "https://oceanviewdoors.ca/wp-content/uploads/2026/02/PD_Armour.png", "page_url": "https://oceanviewdoors.ca/patio-doors/armour/", "kind": "image", "role": "product-hero", "evidence_url": "https://oceanviewdoors.ca/home/pd_armour/"},
+      {"url": "https://oceanviewdoors.ca/wp-content/uploads/2026/02/PD_Ultra_Glide.png", "page_url": "https://oceanviewdoors.ca/patio-doors/ultra-glide/", "kind": "image", "role": "product-hero", "evidence_url": "https://oceanviewdoors.ca/home/pd_ultra_glide/"},
+      {"url": "https://oceanviewdoors.ca/wp-content/uploads/2026/03/J1-spin.png", "page_url": "https://oceanviewdoors.ca/patio-doors/essential/", "kind": "image", "role": "product-gallery", "evidence_url": "https://oceanviewdoors.ca/patio-doors/essential/j1-spin/"},
+      {"url": "https://oceanviewdoors.ca/wp-content/uploads/2026/03/J1-750.png", "page_url": "https://oceanviewdoors.ca/patio-doors/essential/", "kind": "image", "role": "product-gallery", "evidence_url": "https://oceanviewdoors.ca/patio-doors/essential/j1-750-2/"},
+      {"url": "https://oceanviewdoors.ca/wp-content/uploads/2026/03/J2-spin.png", "page_url": "https://oceanviewdoors.ca/patio-doors/premium/", "kind": "image", "role": "product-gallery", "evidence_url": "https://oceanviewdoors.ca/patio-doors/premium/j2-spin/"},
+      {"url": "https://oceanviewdoors.ca/wp-content/uploads/2026/03/J2-750.png", "page_url": "https://oceanviewdoors.ca/patio-doors/premium/", "kind": "image", "role": "product-gallery", "evidence_url": "https://oceanviewdoors.ca/patio-doors/premium/j2-750-2/"},
+      {"url": "https://oceanviewdoors.ca/wp-content/uploads/2026/03/J3-Spin.png", "page_url": "https://oceanviewdoors.ca/patio-doors/premium-plus/", "kind": "image", "role": "product-gallery", "evidence_url": "https://oceanviewdoors.ca/patio-doors/premium-plus/j3-spin/"},
+      {"url": "https://oceanviewdoors.ca/wp-content/uploads/2026/03/J3-750.png", "page_url": "https://oceanviewdoors.ca/patio-doors/premium-plus/", "kind": "image", "role": "product-gallery", "evidence_url": "https://oceanviewdoors.ca/patio-doors/premium-plus/j3-750-2/"},
+      {"url": "http://oceanviewdoors.ca/wp-content/uploads/2026/07/OCEANVIEW_SLIDER_JUNE_2026LOW.pdf", "page_url": "http://oceanviewdoors.ca/resources/brochures/", "kind": "document", "role": "catalogue"},
+      {"url": "http://oceanviewdoors.ca/wp-content/uploads/2026/03/OCEANVIEW-COLOURS-PATIO-DOOR_converted.pdf", "page_url": "http://oceanviewdoors.ca/accessories/colours/", "kind": "document", "role": "colour-chart"},
+      {"url": "http://oceanviewdoors.ca/wp-content/uploads/2026/04/WARRANTY_OCEANVIEW.pdf", "page_url": "http://oceanviewdoors.ca/resources/warranty/", "kind": "document", "role": "warranty"},
+      {"url": "https://oceanviewdoors.ca/wp-content/uploads/2026/03/Oceanview_Paint_Colour_Guide.pdf", "page_url": "http://oceanviewdoors.ca/accessories/colours/", "kind": "document", "role": "colour-chart", "evidence_url": "https://oceanviewdoors.ca/oceanview_paint_colour_guide/"},
+      {"url": "https://oceanviewdoors.ca/wp-content/uploads/2026/03/pacific-series.pdf", "page_url": "http://oceanviewdoors.ca/resources/brochures/", "kind": "document", "role": "brochure", "evidence_url": "https://oceanviewdoors.ca/pacific-series/"},
+      {"url": "https://oceanviewdoors.ca/wp-content/uploads/2026/03/armour-series.pdf", "page_url": "https://oceanviewdoors.ca/patio-doors/armour/", "kind": "document", "role": "brochure", "evidence_url": "https://oceanviewdoors.ca/armour-series/"},
+      {"url": "https://oceanviewdoors.ca/wp-content/uploads/2026/03/ultraglide-series.pdf", "page_url": "https://oceanviewdoors.ca/patio-doors/ultra-glide/", "kind": "document", "role": "brochure", "evidence_url": "https://oceanviewdoors.ca/ultraglide-series/"}
+    ],
+    "asset_role_rules": [
+      {"role": "hero", "patterns": ["\\bessential\\b", "\\bpremium\\b", "premium\\+plus_interior", "PD_Armour", "PD_Ultra_Glide"]},
+      {"role": "product-gallery", "patterns": ["J[123]-(?:spin|750)\\.(?:jpe?g|png|webp|gif)"]},
+      {"role": "configuration-diagram", "patterns": ["graph(?:-1)?\\.(?:jpe?g|png|webp)"]},
+      {"role": "profile-section", "patterns": ["REDUCE_AIR_INFILITRATION", "reduced-air-infiltration", "WARM_EDGE", "SOLAR_1"]},
+      {"role": "lifestyle-product", "patterns": ["SMOOTH_EASY_ROLLING"]},
+      {"role": "hardware", "patterns": ["kick-lock", "roller", "hardware"]},
+      {"role": "finish-swatch", "patterns": ["colour", "color", "paint"]}
+    ],
+    "attach_page_roles": ["lifestyle-product", "profile-section", "hardware", "configuration-diagram"],
+    "archive_shared_roles": ["finish-swatch"],
+    "assets_on_product_pages_only": true,
+    "asset_product_rules": [
+      {"patterns": ["PD_Armour\\.png$"], "product_ids": ["oceanview:armour"]},
+      {"patterns": ["PD_Ultra_Glide\\.png$"], "product_ids": ["oceanview:ultra-glide"]},
+      {"patterns": ["J1-(?:spin|750)\\.(?:png|gif)$"], "product_ids": ["oceanview:essential"]},
+      {"patterns": ["J2-(?:spin|750)\\.png$"], "product_ids": ["oceanview:premium"]},
+      {"patterns": ["J3-(?:Spin|750)\\.png$"], "product_ids": ["oceanview:premium-plus"]}
+    ],
     "product_identity_rules": [
       {"path_pattern": "^/patio-doors/essential/?$", "slug": "essential", "name": "Essential", "collection": "Patio Doors", "type": "Sliding Patio Door"},
       {"path_pattern": "^/patio-doors/premium/?$", "slug": "premium", "name": "Premium", "collection": "Patio Doors", "type": "Sliding Patio Door"},
-      {"path_pattern": "^/patio-doors/premium-plus/?$", "slug": "premium-plus", "name": "Premium Plus", "collection": "Patio Doors", "type": "Sliding Patio Door"}
+      {"path_pattern": "^/patio-doors/premium-plus/?$", "slug": "premium-plus", "name": "Premium Plus", "collection": "Patio Doors", "type": "Sliding Patio Door"},
+      {"path_pattern": "^/patio-doors/armour/?$", "slug": "armour", "name": "Armour", "collection": "Patio Doors", "type": "Sliding Patio Door"},
+      {"path_pattern": "^/patio-doors/ultra-glide/?$", "slug": "ultra-glide", "name": "Ultra Glide", "collection": "Patio Doors", "type": "Sliding Patio Door"}
     ],
     "categories": ["patio-doors"]
   },

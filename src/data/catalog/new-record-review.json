@@ -687,6 +687,30 @@
     "editorialStatus": "incomplete"
   },
   {
+    "productId": "oceanview:armour",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "oceanview",
+    "category": "patio-doors",
+    "modelNumber": null,
+    "sourceUrl": "https://oceanviewdoors.ca/patio-doors/armour/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "oceanview:ultra-glide",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "oceanview",
+    "category": "patio-doors",
+    "modelNumber": null,
+    "sourceUrl": "https://oceanviewdoors.ca/patio-doors/ultra-glide/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
     "productId": "richersons:bk10",
     "decision": "retained-distinct",
     "reason": "No curated record has the same normalized manufacturer model or product name.",

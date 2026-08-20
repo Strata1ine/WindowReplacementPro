@@ -1,11 +1,11 @@
 {
   "generatedAt": "2026-08-19T23:30:00Z",
-  "records": 540,
-  "normalizedRecords": 524,
-  "editorialDrafts": 200,
-  "editorialIncomplete": 340,
-  "newRecords": 270,
-  "newRetainedDistinct": 270,
+  "records": 542,
+  "normalizedRecords": 526,
+  "editorialDrafts": 203,
+  "editorialIncomplete": 339,
+  "newRecords": 272,
+  "newRetainedDistinct": 272,
   "newEditorialDrafts": 14,
   "staleOrBlockedLinks": {
     "stale": 5,
@@ -37,12 +37,12 @@
       "documents": 32
     },
     "oceanview": {
-      "records": 3,
-      "normalized": 3,
-      "editorialDrafts": 0,
-      "editorialIncomplete": 3,
-      "media": 3,
-      "documents": 0
+      "records": 5,
+      "normalized": 5,
+      "editorialDrafts": 3,
+      "editorialIncomplete": 2,
+      "media": 5,
+      "documents": 5
     },
     "richersons": {
       "records": 54,

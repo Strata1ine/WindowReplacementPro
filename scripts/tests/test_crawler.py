@@ -23,12 +23,15 @@ from scripts.ingest.crawl import (
     Page,
     PageParser,
     api_json_products,
+    apply_configured_asset_roles,
     apply_asset_relationship_rules,
     apply_document_relationship_rules,
     associate_assets,
     attach_available_asset_occurrences,
+    attach_configured_source_asset_candidates,
     build_asset_tasks,
     clear_resolved_asset_errors,
+    configured_source_asset_candidates,
     configured_unseen_start_urls,
     configured_source_products,
     decode_html,
@@ -38,6 +41,7 @@ from scripts.ingest.crawl import (
     enforce_wordpress_master_precedence,
     fair_asset_candidates,
     identity_keys,
+    image_dimensions,
     infer_category,
     is_product_candidate,
     jsonld_product_data,
@@ -53,6 +57,8 @@ from scripts.ingest.crawl import (
     query_requirements_met,
     raw_link_allowed,
     reconcile_asset_tasks,
+    request_accept_header,
+    response_image_extension,
     refresh_page_asset_candidates,
     restore_retryable_task_states,
     rewrite_asset_url,
@@ -666,6 +672,22 @@ class CrawlerSafetyTests(unittest.TestCase):
             self.assertTrue(derivative_path.exists())
             self.assertIn('superseded-by-wordpress-original', derivative.relationship_evidence)
 
+    def test_validated_wordpress_original_supersedes_scaled_derivative(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp); derivative_body = b'scaled'; master_body = b'original'
+            derivative_path = root / 'public/images/product-scaled.png'; derivative_path.parent.mkdir(parents=True); derivative_path.write_bytes(derivative_body)
+            master_path = root / 'public/images/product.png'; master_path.write_bytes(master_body)
+            derivative_url = 'https://example.com/wp-content/uploads/product-scaled.png'; master_url = 'https://example.com/wp-content/uploads/product.png'
+            derivative = Asset('supplier', [], derivative_url, derivative_url, '/images/product-scaled.png', 'image', 'lifestyle-product', hashlib.sha256(derivative_body).hexdigest(), len(derivative_body), 'now', source_asset_urls=[derivative_url])
+            master = Asset('supplier', [], master_url, master_url, '/images/product.png', 'image', 'lifestyle-product', hashlib.sha256(master_body).hexdigest(), len(master_body), 'now', source_asset_urls=[master_url])
+            derivative.selected_asset_url = derivative_url; master.selected_asset_url = master_url
+            product = {'id': 'supplier:product', 'media': [derivative.local_path, master.local_path], 'documents': []}
+            with patch('scripts.ingest.crawl.ROOT', root):
+                enforce_wordpress_master_precedence({'derivative': derivative, 'master': master}, [product])
+            self.assertEqual(product['media'], [master.local_path])
+            self.assertTrue(derivative_path.exists())
+            self.assertIn('superseded-by-wordpress-original', derivative.relationship_evidence)
+
     def test_wordpress_master_selection_avoids_responsive_derivatives(self):
         attrs = {
             'src': 'https://trimlite.com/wp-content/uploads/2019/07/DRF36-300x300.jpg',
@@ -837,6 +859,62 @@ class CrawlerSafetyTests(unittest.TestCase):
         unseen = configured_unseen_start_urls(config, {'https://example.com/known'}, {'https://example.com/canonical'})
         self.assertEqual(unseen, ['https://example.com/new'])
 
+    def test_native_image_request_does_not_prefer_responsive_transcode(self):
+        header = request_accept_header('https://example.com/product-master.png', 'image')
+        self.assertTrue(header.startswith('image/png,'))
+        self.assertNotIn('image/webp', header)
+        self.assertEqual(response_image_extension('https://example.com/product-master.png', 'image/png'), '.png')
+        self.assertEqual(response_image_extension('https://example.com/product-master.png', 'image/webp'), '.webp')
+
+    def test_offline_reassociation_replays_supplier_asset_role_rules(self):
+        asset = Asset(
+            'supplier', [], 'https://example.com/uploads/smooth-easy-rolling.png',
+            'https://example.com/uploads/smooth-easy-rolling.png', '/images/rolling.png',
+            'image', 'technical-drawing', 'hash', 1, 'now',
+            source_asset_urls=['https://example.com/uploads/smooth-easy-rolling.png'],
+        )
+        apply_configured_asset_roles(
+            {'asset': asset},
+            [{'patterns': [r'smooth-easy-rolling'], 'role': 'lifestyle-product'}],
+        )
+        self.assertEqual(asset.role, 'lifestyle-product')
+        self.assertIn('supplier-scoped-asset-role', asset.relationship_evidence)
+
+    def test_webp_dimensions_fallback_handles_non_vp8x_masters(self):
+        buffer = __import__('io').BytesIO()
+        Image.new('RGB', (13, 17), '#123456').save(buffer, format='WEBP', lossless=True)
+        self.assertEqual(image_dimensions(buffer.getvalue(), 'image/webp'), (13, 17))
+    def test_reviewed_direct_source_asset_is_planned_without_page_crawl(self):
+        page = Page('https://example.com/product', '', '', '', '', True, 'patio-doors', [], {})
+        config = {
+            'base_url': 'https://example.com/',
+            'source_assets': [{
+                'url': '/uploads/product-master.png',
+                'page_url': '/product',
+                'kind': 'image',
+                'role': 'product-hero',
+                'relationship_signals': ['supplier-reviewed-source-asset'],
+            }],
+        }
+        candidates = configured_source_asset_candidates(config, {page.url: page}, {'example.com'})
+        self.assertEqual(len(candidates), 1)
+        self.assertEqual(candidates[0]['url'], 'https://example.com/uploads/product-master.png')
+        self.assertEqual(candidates[0]['page_url'], page.url)
+        self.assertEqual(candidates[0]['relationship_signals'], ['supplier-reviewed-source-asset'])
+        attach_configured_source_asset_candidates(candidates, {page.url: page})
+        self.assertEqual(page.asset_candidates, [{
+            'url': candidates[0]['url'],
+            'source_url': candidates[0]['source_url'],
+            'kind': 'image',
+            'role': 'product-hero',
+            'order': -1000,
+        }])
+
+    def test_reviewed_direct_source_asset_cannot_bypass_domain_controls(self):
+        page = Page('https://example.com/product', '', '', '', '', True, 'patio-doors', [], {})
+        config = {'base_url': 'https://example.com/', 'source_assets': [{'url': 'https://cdn.invalid/master.png', 'page_url': '/product', 'role': 'product-hero'}]}
+        with self.assertRaisesRegex(ValueError, 'outside allowed domains'):
+            configured_source_asset_candidates(config, {page.url: page}, {'example.com'})
     def test_successful_asset_retry_clears_only_matching_checkpoint_error(self):
         errors = [
             {'url': 'https://example.com/retry.pdf', 'phase': 'asset-download', 'error': 'temporary'},

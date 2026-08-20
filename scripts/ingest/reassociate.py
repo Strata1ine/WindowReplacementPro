@@ -13,9 +13,9 @@ from urllib.parse import urlparse
 
 from scripts.ingest.crawl import (
     Asset, CATALOG_DIR, CONFIG, DOCUMENT_ROLES, IMAGE_ROLES, MANIFEST_ROOT, Page, ROOT, WP_SIZE_SUFFIX,
-    apply_asset_relationship_rules, apply_document_relationship_rules, associate_assets, atomic_write_json, attach_available_asset_occurrences, enforce_filename_owner_precedence, enforce_wordpress_master_precedence, explicit_role,
+    apply_asset_relationship_rules, apply_configured_asset_roles, apply_document_relationship_rules, associate_assets, atomic_write_json, attach_available_asset_occurrences, attach_configured_source_asset_candidates, enforce_filename_owner_precedence, enforce_wordpress_master_precedence, explicit_role,
     identity_keys, image_dimensions, manifest_asset, manifest_page, normalize, product_asset_paths, promote_referenced_assets,
-    configured_source_products, promote_identity_matched_gallery_heroes, refresh_page_asset_candidates, urls_identity_match, validate_asset_binary, validate_product_records, write_supplier_archive,
+    configured_source_asset_candidates, configured_source_products, promote_identity_matched_gallery_heroes, refresh_page_asset_candidates, urls_identity_match, validate_asset_binary, validate_product_records, write_supplier_archive,
 )
 
 
@@ -132,9 +132,12 @@ def reassociate_supplier(slug: str, staging_run: Path | None = None) -> dict:
     asset_domains = {domain.lower() for domain in cfg.get('asset_domains', cfg['allowed_domains'])}
     for page in pages:
         refresh_page_asset_candidates(page, cfg, asset_domains); page.assets = []
+    pages_by_url = {page.url: page for page in pages}
+    configured_candidates = configured_source_asset_candidates(cfg, pages_by_url, asset_domains)
+    attach_configured_source_asset_candidates(configured_candidates, pages_by_url)
     if staging_run and (staging_run / 'master-upgrade-plan.json').is_file():
         upgrade_plan = json.loads((staging_run / 'master-upgrade-plan.json').read_text(encoding='utf-8'))
-        pages_by_upgrade_url = {page.url: page for page in pages}
+        pages_by_upgrade_url = pages_by_url
         for task in upgrade_plan.get('tasks', []):
             page = pages_by_upgrade_url.get(task.get('page_url'))
             if page and task.get('url') not in {item['url'] for item in page.asset_candidates}:
@@ -144,7 +147,6 @@ def reassociate_supplier(slug: str, staging_run: Path | None = None) -> dict:
     invalid = [asset.original_asset_url for asset in assets.values() if not validate_asset_binary(asset)]
     if invalid: raise ValueError(f'{len(invalid)} recovered/promoted assets failed local checksum validation')
     attach_available_asset_occurrences(pages, aliases)
-    pages_by_url = {page.url: page for page in pages}
     products = manifest.get('products', [])
     known_ids = {product['id'] for product in products}
     products.extend(product for product in configured_source_products(cfg) if product['id'] not in known_ids)
@@ -152,6 +154,7 @@ def reassociate_supplier(slug: str, staging_run: Path | None = None) -> dict:
     for asset in assets.values():
         asset.product_ids = []; asset.collections = []; asset.relationship_evidence = []
         asset.scope = 'unassociated'; asset.relationship_state = 'uncertain/review'
+    apply_configured_asset_roles(assets, cfg.get('asset_role_rules'))
     for product in products:
         page = pages_by_url.get(product['sourceUrl'])
         if not page: product['media'] = []; product['documents'] = []; continue

@@ -193,6 +193,14 @@
       "reason": "Live identity and media are verified, but product-specific specifications and editorial review are incomplete; do not publish."
     },
     {
+      "productId": "oceanview:armour",
+      "reason": "Current Oceanview supplier identity, facts, and media are verified, but this newly discovered record has not received independent editorial approval; do not publish."
+    },
+    {
+      "productId": "oceanview:ultra-glide",
+      "reason": "Current Oceanview supplier identity, facts, and media are verified, but this newly discovered record has not received independent editorial approval; do not publish."
+    },
+    {
       "productId": "richersons:bk10",
       "reason": "Current Richersons supplier identity, facts, and media are verified, but this newly discovered record has not received independent editorial approval; do not publish."
     },

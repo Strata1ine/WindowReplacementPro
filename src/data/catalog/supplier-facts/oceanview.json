@@ -1,0 +1,143 @@
+{
+  "supplier": "oceanview",
+  "reviewedAt": "2026-08-20",
+  "factSets": [
+    {
+      "productIds": [
+        "oceanview:essential",
+        "oceanview:premium",
+        "oceanview:premium-plus",
+        "oceanview:armour",
+        "oceanview:ultra-glide"
+      ],
+      "sources": [
+        {
+          "supplier": "oceanview",
+          "sourceUrlTemplate": "https://oceanviewdoors.ca/patio-doors/{slug}/",
+          "status": "active",
+          "evidenceType": "current-supplier-webpage",
+          "extractionMethod": "saved-html",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "productType": "Sliding patio door",
+        "operatingStyle": "Horizontal sliding"
+      }
+    },
+    {
+      "productIds": [
+        "oceanview:essential",
+        "oceanview:premium",
+        "oceanview:premium-plus"
+      ],
+      "sources": [
+        {
+          "supplier": "oceanview",
+          "sourceUrl": "https://oceanviewdoors.ca/patio-doors/essential/",
+          "snapshotPath": "source-media/oceanview/html/0001-pacific-series-essential.html",
+          "status": "active",
+          "evidenceType": "current-supplier-webpage",
+          "extractionMethod": "saved-html",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "supplier": "oceanview",
+          "sourceUrl": "https://oceanviewdoors.ca/patio-doors/premium/",
+          "snapshotPath": "source-media/oceanview/html/0002-pacific-series-premium.html",
+          "status": "active",
+          "evidenceType": "current-supplier-webpage",
+          "extractionMethod": "saved-html",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "supplier": "oceanview",
+          "sourceUrl": "https://oceanviewdoors.ca/patio-doors/premium-plus/",
+          "snapshotPath": "source-media/oceanview/html/0003-pacific-series-premium-plus.html",
+          "status": "active",
+          "evidenceType": "current-supplier-webpage",
+          "extractionMethod": "saved-html",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "supplier": "oceanview",
+          "sourceUrl": "http://oceanviewdoors.ca/wp-content/uploads/2026/07/OCEANVIEW_SLIDER_JUNE_2026LOW.pdf",
+          "publicationTitle": "Oceanview Pacific Series Patio Doors Catalogue",
+          "textPath": "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/pages/",
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text-and-tables",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "glazing": "Double- or triple-pane LoE glazing options; the supplier pages specify a one-inch Cardinal Endur IG insulating-glass unit",
+        "configuration": "Standard two-, three-, and four-panel configurations",
+        "availableSizes": [
+          "79 1/2 in standard height",
+          "81 1/2 in standard height",
+          "95 1/2 in standard height",
+          "Custom sizing available"
+        ],
+        "performance": "Multi-finned weatherstripping with a bulb seal is specified to reduce air infiltration",
+        "operation": "Zinc-plated double-tandem wheels with sealed bearings"
+      }
+    },
+    {
+      "productIds": ["oceanview:essential"],
+      "sources": [
+        {
+          "supplier": "oceanview",
+          "sourceUrl": "https://oceanviewdoors.ca/patio-doors/essential/",
+          "snapshotPath": "source-media/oceanview/html/0001-pacific-series-essential.html",
+          "status": "active",
+          "evidenceType": "current-supplier-webpage",
+          "extractionMethod": "saved-html",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "hardware": "Elite handle; choice of single-point or twin-point lock"
+      }
+    },
+    {
+      "productIds": ["oceanview:premium"],
+      "sources": [
+        {
+          "supplier": "oceanview",
+          "sourceUrl": "https://oceanviewdoors.ca/patio-doors/premium/",
+          "snapshotPath": "source-media/oceanview/html/0002-pacific-series-premium.html",
+          "status": "active",
+          "evidenceType": "current-supplier-webpage",
+          "extractionMethod": "saved-html",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "hardware": "Luxe handle with twin-point locking system",
+        "sill": "Aluminum sill plate",
+        "drainCovers": "Bug-resistant drain covers"
+      }
+    },
+    {
+      "productIds": ["oceanview:premium-plus"],
+      "sources": [
+        {
+          "supplier": "oceanview",
+          "sourceUrl": "https://oceanviewdoors.ca/patio-doors/premium-plus/",
+          "snapshotPath": "source-media/oceanview/html/0003-pacific-series-premium-plus.html",
+          "status": "active",
+          "evidenceType": "current-supplier-webpage",
+          "extractionMethod": "saved-html",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "hardware": "Allure handle with twin-point locking system",
+        "sill": "Aluminum sill plate",
+        "screen": "Upgraded Platinum 3-inch screen with square-cut corner and patented roller system",
+        "drainCovers": "Bug-resistant drain covers"
+      }
+    }
+  ]
+}

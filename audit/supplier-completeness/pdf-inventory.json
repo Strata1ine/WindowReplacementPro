@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T08:06:20.055644+00:00",
+  "generatedAt": "2026-08-20T08:50:02.686809+00:00",
   "documents": [
     {
       "documentId": "masonite:3-1hdsteel80-2235286a8473",
@@ -42525,6 +42525,2807 @@
       "factCandidates": [],
       "extractionErrors": [],
       "extractedAt": "2026-08-20T08:06:20.044639+00:00"
+    },
+    {
+      "documentId": "oceanview:armour-series-977911730ad5",
+      "title": "Oceanview Armour Series",
+      "supplier": "oceanview",
+      "localPath": "/documents/catalog/oceanview/armour-series-977911730ad5.pdf",
+      "sha256": "79f48c535f51ee5f7d6155162d95ef031ee13a6ebe030820eb5ef3f31641097e",
+      "bytes": 3073544,
+      "pageCount": 1,
+      "textCharacters": 0,
+      "tableCount": 0,
+      "extractedImageCount": 1,
+      "ocrRequired": true,
+      "ocrApplied": false,
+      "ocrReused": false,
+      "ocrEngine": null,
+      "ocrPages": 0,
+      "metadata": {
+        "/CreationDate": "D:20260310150441Z00'00'",
+        "/Producer": "macOS Version 26.3.1 (Build 25D2128) Quartz PDFContext",
+        "/ModDate": "D:20260310150441Z00'00'"
+      },
+      "documentDate": "2026-03-10",
+      "freshness": {
+        "status": "current-source-indirect",
+        "basis": "Public supplier media attachment associated with the current Armour product and reviewed live 2026-08-20."
+      },
+      "provenance": {
+        "supplier": "oceanview",
+        "sourcePageUrls": [
+          "https://oceanviewdoors.ca/patio-doors/armour/"
+        ],
+        "productIds": [
+          "oceanview:armour"
+        ],
+        "collections": [
+          "Patio Doors"
+        ],
+        "scope": "product",
+        "role": "brochure",
+        "originalUrl": "https://oceanviewdoors.ca/wp-content/uploads/2026/03/armour-series.pdf",
+        "sourceUrls": [
+          "https://oceanviewdoors.ca/wp-content/uploads/2026/03/armour-series.pdf"
+        ],
+        "finalUrl": "https://oceanviewdoors.ca/wp-content/uploads/2026/03/armour-series.pdf",
+        "localPath": "/documents/catalog/oceanview/armour-series-977911730ad5.pdf",
+        "sha256": "79f48c535f51ee5f7d6155162d95ef031ee13a6ebe030820eb5ef3f31641097e",
+        "bytes": 3073544,
+        "discoveredAt": "2026-08-20T08:24:08Z",
+        "assetType": "document",
+        "relationshipState": "product-specific",
+        "relationshipEvidence": [
+          "supplier-scoped-document-map"
+        ],
+        "masterUrl": "https://oceanviewdoors.ca/wp-content/uploads/2026/03/armour-series.pdf",
+        "selectedUrl": "https://oceanviewdoors.ca/wp-content/uploads/2026/03/armour-series.pdf",
+        "mimeType": "application/pdf",
+        "width": null,
+        "height": null
+      },
+      "pages": [
+        {
+          "page": 1,
+          "textPath": "source-media/suppliers/oceanview/pdf-extracted/armour-series-977911730ad5/pages/page-0001.txt",
+          "characters": 0,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/oceanview/pdf-extracted/armour-series-977911730ad5/images/page-0001-image-01.jpg",
+              "page": 1,
+              "width": 2279,
+              "height": 2933,
+              "sha256": "7ff0a352993092bb015cf3d9701420a750d32bb6722c2dae8e3d26d1970fa29c",
+              "productIds": [
+                "oceanview:armour"
+              ]
+            }
+          ],
+          "evidenceProductIds": [
+            "oceanview:armour"
+          ],
+          "textSource": "embedded"
+        }
+      ],
+      "factCandidates": [],
+      "extractionErrors": [],
+      "extractedAt": "2026-08-20T08:49:38.823555+00:00"
+    },
+    {
+      "documentId": "oceanview:oceanview-colours-patio-door-converted-45697d72a43f",
+      "title": "Oceanview Patio Door Colour Guide",
+      "supplier": "oceanview",
+      "localPath": "/documents/catalog/oceanview/oceanview-colours-patio-door-converted-45697d72a43f.pdf",
+      "sha256": "38c0ec1f9c5014fb96a23366c1fc4eb585a3c909810059741812c811ce94a97f",
+      "bytes": 315653,
+      "pageCount": 1,
+      "textCharacters": 434,
+      "tableCount": 0,
+      "extractedImageCount": 2,
+      "ocrRequired": true,
+      "ocrApplied": false,
+      "ocrReused": false,
+      "ocrEngine": null,
+      "ocrPages": 0,
+      "metadata": {
+        "/CreationDate": "D:20260312161142-04'00'",
+        "/Creator": "Adobe InDesign 20.5 (Macintosh)",
+        "/ModDate": "D:20260312161142-04'00'",
+        "/Producer": "Adobe PDF Library 17.0",
+        "/Trapped": "/False"
+      },
+      "documentDate": "2026-03-12",
+      "freshness": {
+        "status": "current-source-linked",
+        "basis": "Linked from the current Oceanview colours page and reviewed live 2026-08-20."
+      },
+      "provenance": {
+        "supplier": "oceanview",
+        "sourcePageUrls": [
+          "http://oceanviewdoors.ca/accessories/colours/"
+        ],
+        "productIds": [
+          "oceanview:armour",
+          "oceanview:essential",
+          "oceanview:premium",
+          "oceanview:premium-plus",
+          "oceanview:ultra-glide"
+        ],
+        "collections": [
+          "Patio Doors"
+        ],
+        "scope": "product",
+        "role": "colour-chart",
+        "originalUrl": "http://oceanviewdoors.ca/wp-content/uploads/2026/03/OCEANVIEW-COLOURS-PATIO-DOOR_converted.pdf",
+        "sourceUrls": [
+          "http://oceanviewdoors.ca/wp-content/uploads/2026/03/OCEANVIEW-COLOURS-PATIO-DOOR_converted.pdf"
+        ],
+        "finalUrl": "http://oceanviewdoors.ca/wp-content/uploads/2026/03/OCEANVIEW-COLOURS-PATIO-DOOR_converted.pdf",
+        "localPath": "/documents/catalog/oceanview/oceanview-colours-patio-door-converted-45697d72a43f.pdf",
+        "sha256": "38c0ec1f9c5014fb96a23366c1fc4eb585a3c909810059741812c811ce94a97f",
+        "bytes": 315653,
+        "discoveredAt": "2026-08-19T18:57:21Z",
+        "assetType": "document",
+        "relationshipState": "collection-shared",
+        "relationshipEvidence": [
+          "supplier-scoped-document-map"
+        ],
+        "masterUrl": "http://oceanviewdoors.ca/wp-content/uploads/2026/03/OCEANVIEW-COLOURS-PATIO-DOOR_converted.pdf",
+        "selectedUrl": "http://oceanviewdoors.ca/wp-content/uploads/2026/03/OCEANVIEW-COLOURS-PATIO-DOOR_converted.pdf",
+        "mimeType": "application/pdf",
+        "width": null,
+        "height": null
+      },
+      "pages": [
+        {
+          "page": 1,
+          "textPath": "source-media/suppliers/oceanview/pdf-extracted/oceanview-colours-patio-door-converted-45697d72a43f/pages/page-0001.txt",
+          "characters": 434,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/oceanview/pdf-extracted/oceanview-colours-patio-door-converted-45697d72a43f/images/page-0001-image-01.png",
+              "page": 1,
+              "width": 1016,
+              "height": 923,
+              "sha256": "0fae2ab12a328c2d438ee69ab039ca5b29f073e38adc062d4001d1691982c222",
+              "productIds": [
+                "oceanview:armour",
+                "oceanview:essential",
+                "oceanview:premium",
+                "oceanview:premium-plus",
+                "oceanview:ultra-glide"
+              ]
+            },
+            {
+              "path": "source-media/suppliers/oceanview/pdf-extracted/oceanview-colours-patio-door-converted-45697d72a43f/images/page-0001-image-02.png",
+              "page": 1,
+              "width": 663,
+              "height": 373,
+              "sha256": "605c98757bea12054252664f5a3ace0696c2eca0b0f032b2a3d8a9b0a9b495dc",
+              "productIds": [
+                "oceanview:armour",
+                "oceanview:essential",
+                "oceanview:premium",
+                "oceanview:premium-plus",
+                "oceanview:ultra-glide"
+              ]
+            }
+          ],
+          "evidenceProductIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ],
+          "textSource": "embedded"
+        }
+      ],
+      "factCandidates": [
+        {
+          "page": 1,
+          "line": 1,
+          "text": "Patio Door Colour Guide",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        }
+      ],
+      "extractionErrors": [],
+      "extractedAt": "2026-08-20T08:49:38.914963+00:00"
+    },
+    {
+      "documentId": "oceanview:oceanview-paint-colour-guide-6274ce496867",
+      "title": "Oceanview Paint Colour Guide",
+      "supplier": "oceanview",
+      "localPath": "/documents/catalog/oceanview/oceanview-paint-colour-guide-6274ce496867.pdf",
+      "sha256": "5315c40df47b580e11f76d8229dc604bfaf9e4698e0a770ac1af3a2d3f8903b3",
+      "bytes": 499678,
+      "pageCount": 1,
+      "textCharacters": 0,
+      "tableCount": 0,
+      "extractedImageCount": 1,
+      "ocrRequired": true,
+      "ocrApplied": false,
+      "ocrReused": false,
+      "ocrEngine": null,
+      "ocrPages": 0,
+      "metadata": {
+        "/CreationDate": "D:20260316155214-04'00'",
+        "/Creator": "Adobe Illustrator 30.0 (Macintosh)",
+        "/ModDate": "D:20260316155250-04'00'",
+        "/Producer": "Adobe PDF library 17.00",
+        "/Title": "Oceanview_Paint_Colour_Guide"
+      },
+      "documentDate": "2026-03-16",
+      "freshness": {
+        "status": "current-source-indirect",
+        "basis": "Public supplier media attachment reviewed against the current colours offering 2026-08-20."
+      },
+      "provenance": {
+        "supplier": "oceanview",
+        "sourcePageUrls": [
+          "http://oceanviewdoors.ca/accessories/colours/"
+        ],
+        "productIds": [
+          "oceanview:armour",
+          "oceanview:essential",
+          "oceanview:premium",
+          "oceanview:premium-plus",
+          "oceanview:ultra-glide"
+        ],
+        "collections": [
+          "Patio Doors"
+        ],
+        "scope": "product",
+        "role": "colour-chart",
+        "originalUrl": "https://oceanviewdoors.ca/wp-content/uploads/2026/03/Oceanview_Paint_Colour_Guide.pdf",
+        "sourceUrls": [
+          "https://oceanviewdoors.ca/wp-content/uploads/2026/03/Oceanview_Paint_Colour_Guide.pdf"
+        ],
+        "finalUrl": "https://oceanviewdoors.ca/wp-content/uploads/2026/03/Oceanview_Paint_Colour_Guide.pdf",
+        "localPath": "/documents/catalog/oceanview/oceanview-paint-colour-guide-6274ce496867.pdf",
+        "sha256": "5315c40df47b580e11f76d8229dc604bfaf9e4698e0a770ac1af3a2d3f8903b3",
+        "bytes": 499678,
+        "discoveredAt": "2026-08-20T08:24:31Z",
+        "assetType": "document",
+        "relationshipState": "collection-shared",
+        "relationshipEvidence": [
+          "supplier-scoped-document-map"
+        ],
+        "masterUrl": "https://oceanviewdoors.ca/wp-content/uploads/2026/03/Oceanview_Paint_Colour_Guide.pdf",
+        "selectedUrl": "https://oceanviewdoors.ca/wp-content/uploads/2026/03/Oceanview_Paint_Colour_Guide.pdf",
+        "mimeType": "application/pdf",
+        "width": null,
+        "height": null
+      },
+      "pages": [
+        {
+          "page": 1,
+          "textPath": "source-media/suppliers/oceanview/pdf-extracted/oceanview-paint-colour-guide-6274ce496867/pages/page-0001.txt",
+          "characters": 0,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/oceanview/pdf-extracted/oceanview-paint-colour-guide-6274ce496867/images/page-0001-image-01.png",
+              "page": 1,
+              "width": 1266,
+              "height": 981,
+              "sha256": "5c7a66a4746a0c0eb048a7f1f490c0ad16ff2bca1f280ca816429ab8315a52f8",
+              "productIds": [
+                "oceanview:armour",
+                "oceanview:essential",
+                "oceanview:premium",
+                "oceanview:premium-plus",
+                "oceanview:ultra-glide"
+              ]
+            }
+          ],
+          "evidenceProductIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ],
+          "textSource": "embedded"
+        }
+      ],
+      "factCandidates": [],
+      "extractionErrors": [],
+      "extractedAt": "2026-08-20T08:49:39.014236+00:00"
+    },
+    {
+      "documentId": "oceanview:oceanview-slider-june-2026low-0b284e29c269",
+      "title": "Oceanview Pacific Series Patio Doors Catalogue",
+      "supplier": "oceanview",
+      "localPath": "/documents/catalog/oceanview/oceanview-slider-june-2026low-0b284e29c269.pdf",
+      "sha256": "bf4df93662e1fbd782414babefc5997d92df6c3456a72343932fb101358a54fa",
+      "bytes": 9410490,
+      "pageCount": 6,
+      "textCharacters": 19924,
+      "tableCount": 25,
+      "extractedImageCount": 4,
+      "ocrRequired": false,
+      "ocrApplied": false,
+      "ocrReused": false,
+      "ocrEngine": null,
+      "ocrPages": 0,
+      "metadata": {
+        "/CreationDate": "D:20260616133306-04'00'",
+        "/Creator": "Adobe InDesign 20.5 (Macintosh)",
+        "/ModDate": "D:20260722143828-04'00'",
+        "/Producer": "Adobe PDF Library 17.0",
+        "/Trapped": "/False"
+      },
+      "documentDate": "2026-06-16",
+      "freshness": {
+        "status": "current-source-linked",
+        "basis": "Current June 2026 catalogue linked from the live Oceanview brochures page and reviewed 2026-08-20."
+      },
+      "provenance": {
+        "supplier": "oceanview",
+        "sourcePageUrls": [
+          "http://oceanviewdoors.ca/resources/brochures/"
+        ],
+        "productIds": [
+          "oceanview:essential",
+          "oceanview:premium",
+          "oceanview:premium-plus"
+        ],
+        "collections": [
+          "Patio Doors"
+        ],
+        "scope": "product",
+        "role": "catalogue",
+        "originalUrl": "http://oceanviewdoors.ca/wp-content/uploads/2026/07/OCEANVIEW_SLIDER_JUNE_2026LOW.pdf",
+        "sourceUrls": [
+          "http://oceanviewdoors.ca/wp-content/uploads/2026/07/OCEANVIEW_SLIDER_JUNE_2026LOW.pdf"
+        ],
+        "finalUrl": "http://oceanviewdoors.ca/wp-content/uploads/2026/07/OCEANVIEW_SLIDER_JUNE_2026LOW.pdf",
+        "localPath": "/documents/catalog/oceanview/oceanview-slider-june-2026low-0b284e29c269.pdf",
+        "sha256": "bf4df93662e1fbd782414babefc5997d92df6c3456a72343932fb101358a54fa",
+        "bytes": 9410490,
+        "discoveredAt": "2026-08-19T18:57:23Z",
+        "assetType": "document",
+        "relationshipState": "collection-shared",
+        "relationshipEvidence": [
+          "supplier-scoped-document-map"
+        ],
+        "masterUrl": "http://oceanviewdoors.ca/wp-content/uploads/2026/07/OCEANVIEW_SLIDER_JUNE_2026LOW.pdf",
+        "selectedUrl": "http://oceanviewdoors.ca/wp-content/uploads/2026/07/OCEANVIEW_SLIDER_JUNE_2026LOW.pdf",
+        "mimeType": "application/pdf",
+        "width": null,
+        "height": null
+      },
+      "pages": [
+        {
+          "page": 1,
+          "textPath": "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/pages/page-0001.txt",
+          "characters": 3077,
+          "tables": [
+            "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/tables/page-0001-table-01.json",
+            "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/tables/page-0001-table-02.json",
+            "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/tables/page-0001-table-03.json"
+          ],
+          "images": [],
+          "evidenceProductIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 2,
+          "textPath": "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/pages/page-0002.txt",
+          "characters": 3077,
+          "tables": [
+            "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/tables/page-0002-table-01.json",
+            "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/tables/page-0002-table-02.json",
+            "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/tables/page-0002-table-03.json"
+          ],
+          "images": [],
+          "evidenceProductIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 3,
+          "textPath": "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/pages/page-0003.txt",
+          "characters": 3592,
+          "tables": [
+            "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/tables/page-0003-table-01.json",
+            "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/tables/page-0003-table-02.json",
+            "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/tables/page-0003-table-03.json",
+            "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/tables/page-0003-table-04.json",
+            "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/tables/page-0003-table-05.json",
+            "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/tables/page-0003-table-06.json"
+          ],
+          "images": [
+            {
+              "path": "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/images/page-0003-image-02.jpg",
+              "page": 3,
+              "width": 1926,
+              "height": 1091,
+              "sha256": "6fbce5dfa23b86a7d55bb03c26485d0927e6c9e07b18edfa95addc1430bd2c28",
+              "productIds": [
+                "oceanview:essential",
+                "oceanview:premium",
+                "oceanview:premium-plus"
+              ]
+            },
+            {
+              "path": "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/images/page-0003-image-24.jpg",
+              "page": 3,
+              "width": 1933,
+              "height": 1092,
+              "sha256": "ca634cb43381d6bfc2f72b87ad158bdc215a59781e8f45c38137cfd1d8bc6289",
+              "productIds": [
+                "oceanview:essential",
+                "oceanview:premium",
+                "oceanview:premium-plus"
+              ]
+            }
+          ],
+          "evidenceProductIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 4,
+          "textPath": "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/pages/page-0004.txt",
+          "characters": 3592,
+          "tables": [
+            "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/tables/page-0004-table-01.json",
+            "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/tables/page-0004-table-02.json",
+            "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/tables/page-0004-table-03.json",
+            "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/tables/page-0004-table-04.json",
+            "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/tables/page-0004-table-05.json",
+            "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/tables/page-0004-table-06.json"
+          ],
+          "images": [],
+          "evidenceProductIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 5,
+          "textPath": "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/pages/page-0005.txt",
+          "characters": 3509,
+          "tables": [
+            "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/tables/page-0005-table-01.json",
+            "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/tables/page-0005-table-02.json",
+            "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/tables/page-0005-table-03.json",
+            "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/tables/page-0005-table-04.json"
+          ],
+          "images": [
+            {
+              "path": "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/images/page-0005-image-02.jpg",
+              "page": 5,
+              "width": 1907,
+              "height": 1073,
+              "sha256": "63aa0773b97a223bec136eb77acdd680185f3059a992e3ba0d8c30fd81fdf0d8",
+              "productIds": [
+                "oceanview:essential",
+                "oceanview:premium",
+                "oceanview:premium-plus"
+              ]
+            },
+            {
+              "path": "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/images/page-0005-image-24.jpg",
+              "page": 5,
+              "width": 1914,
+              "height": 1075,
+              "sha256": "100ac5f93b748c5ef88595c25da8794227b62d479d3f76a13e0aeaff065f4fa6",
+              "productIds": [
+                "oceanview:essential",
+                "oceanview:premium",
+                "oceanview:premium-plus"
+              ]
+            }
+          ],
+          "evidenceProductIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 6,
+          "textPath": "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/pages/page-0006.txt",
+          "characters": 3077,
+          "tables": [
+            "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/tables/page-0006-table-01.json",
+            "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/tables/page-0006-table-02.json",
+            "source-media/suppliers/oceanview/pdf-extracted/oceanview-slider-june-2026low-0b284e29c269/tables/page-0006-table-03.json"
+          ],
+          "images": [],
+          "evidenceProductIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ],
+          "textSource": "embedded"
+        }
+      ],
+      "factCandidates": [
+        {
+          "page": 1,
+          "line": 5,
+          "text": "If you are looking for energy savings – our superior insulation eliminates water and air infiltration between frame and panels.",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 6,
+          "text": "A one inch insulated unit with Cardinal Endur® IG Insulating Glass allows for outstanding thermal performance and solar",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 9,
+          "text": "OPTIMAL THERMAL PERFORMANCE.",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 110,
+          "text": "frame for improved X O O",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 111,
+          "text": "performance, with 10 degree",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 114,
+          "text": "• LoE 180 & Argon tempered",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 115,
+          "text": "glass with Endur® warm edge",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 127,
+          "text": "air infiltration. SCAN AND VISIT OUR",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 142,
+          "text": "installers nationwide, Oceanview is known for consistent performance and long-term value.",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 2,
+          "line": 5,
+          "text": "If you are looking for energy savings – our superior insulation eliminates water and air infiltration between frame and panels.",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 2,
+          "line": 6,
+          "text": "A one inch insulated unit with Cardinal Endur® IG Insulating Glass allows for outstanding thermal performance and solar",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 2,
+          "line": 9,
+          "text": "OPTIMAL THERMAL PERFORMANCE.",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 2,
+          "line": 110,
+          "text": "frame for improved X O O",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 2,
+          "line": 111,
+          "text": "performance, with 10 degree",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 2,
+          "line": 114,
+          "text": "• LoE 180 & Argon tempered",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 2,
+          "line": 115,
+          "text": "glass with Endur® warm edge",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 2,
+          "line": 127,
+          "text": "air infiltration. SCAN AND VISIT OUR",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 2,
+          "line": 142,
+          "text": "installers nationwide, Oceanview is known for consistent performance and long-term value.",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 3,
+          "line": 2,
+          "text": "INTERIOR MINI BLINDS SIDELITES & TRANSOMS GLASS OPTIONS POPULAR COLOURS ROLLER OPTIONS HARDWARE",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 3,
+          "line": 9,
+          "text": "performance. Featuring our upgraded sleek",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 3,
+          "line": 11,
+          "text": "efficient glass and a durable weather resistant",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 3,
+          "line": 12,
+          "text": "frame. It’s designed to bring in natural light PREMIUM",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 3,
+          "line": 14,
+          "text": "perfect for homes seeking style, comfort and A perfect blend of performance, durability,",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 3,
+          "line": 24,
+          "text": "reliable performance and style",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 3,
+          "line": 33,
+          "text": "• Energy-efficient glass for Package includes:",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 3,
+          "line": 47,
+          "text": "Sleek mini blinds for privacy and light control. Cordless, child-safe, Enhances the aesthetic appeal of your sliding door Create modern spacious views that bring beautiful LoE glass options boost energy efficiency, reduce UV Custom colours available—just ask us for details High-performance screen system designed for Choose metal or vinyl rollers based on your door’s weight, Roto’s German-engineered handles are durable, ergonomic, and visually appealing—offered in a full range of",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 3,
+          "line": 48,
+          "text": "dust-resistant, and low-maintenance. Available in various sizes design options for any home damage, and keep your home comfortable year-round durability and elevated aesthetic type, and durability needs—for smooth, reliable performance styles from classic to modern for top-quality performance and design",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 3,
+          "line": 55,
+          "text": "Choose advanced glazing solutions for superior thermal exits, while the kick lock adds discreet security. Both use a",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 3,
+          "line": 56,
+          "text": "performance and acoustic control two-point system to keep the door partially open for airflow",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 4,
+          "line": 2,
+          "text": "INTERIOR MINI BLINDS SIDELITES & TRANSOMS GLASS OPTIONS POPULAR COLOURS ROLLER OPTIONS HARDWARE",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 4,
+          "line": 9,
+          "text": "performance. Featuring our upgraded sleek",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 4,
+          "line": 11,
+          "text": "efficient glass and a durable weather resistant",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 4,
+          "line": 12,
+          "text": "frame. It’s designed to bring in natural light PREMIUM",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 4,
+          "line": 14,
+          "text": "perfect for homes seeking style, comfort and A perfect blend of performance, durability,",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 4,
+          "line": 24,
+          "text": "reliable performance and style",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 4,
+          "line": 33,
+          "text": "• Energy-efficient glass for Package includes:",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 4,
+          "line": 47,
+          "text": "Sleek mini blinds for privacy and light control. Cordless, child-safe, Enhances the aesthetic appeal of your sliding door Create modern spacious views that bring beautiful LoE glass options boost energy efficiency, reduce UV Custom colours available—just ask us for details High-performance screen system designed for Choose metal or vinyl rollers based on your door’s weight, Roto’s German-engineered handles are durable, ergonomic, and visually appealing—offered in a full range of",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 4,
+          "line": 48,
+          "text": "dust-resistant, and low-maintenance. Available in various sizes design options for any home damage, and keep your home comfortable year-round durability and elevated aesthetic type, and durability needs—for smooth, reliable performance styles from classic to modern for top-quality performance and design",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 4,
+          "line": 55,
+          "text": "Choose advanced glazing solutions for superior thermal exits, while the kick lock adds discreet security. Both use a",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 4,
+          "line": 56,
+          "text": "performance and acoustic control two-point system to keep the door partially open for airflow",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 5,
+          "line": 2,
+          "text": "INTERIOR MINI BLINDS SIDELITES & TRANSOMS GLASS OPTIONS POPULAR COLOURS ROLLER OPTIONS HARDWARE",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 5,
+          "line": 9,
+          "text": "performance. Featuring our upgraded sleek",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 5,
+          "line": 11,
+          "text": "efficient glass and a durable weather resistant",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 5,
+          "line": 12,
+          "text": "frame. It’s designed to bring in natural light PREMIUM",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 5,
+          "line": 14,
+          "text": "perfect for homes seeking style, comfort and A perfect blend of performance, durability,",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 5,
+          "line": 24,
+          "text": "reliable performance and style",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 5,
+          "line": 33,
+          "text": "• Energy-efficient glass for Package includes:",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 5,
+          "line": 47,
+          "text": "Sleek mini blinds for privacy and light control. Cordless, child-safe, Enhances the aesthetic appeal of your sliding door Create modern spacious views that bring beautiful LoE glass options boost energy efficiency, reduce UV Custom colours available—just ask us for details High-performance screen system designed for Choose metal or pom rollers based on your door’s weight, Roto’s German-engineered handles are durable, ergonomic, and visually appealing—offered in a full range of",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 5,
+          "line": 48,
+          "text": "dust-resistant, and low-maintenance. Available in various sizes design options for any home damage, and keep your home comfortable year-round durability and elevated aesthetic type, and durability needs—for smooth, reliable performance styles from classic to modern for top-quality performance and design",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 5,
+          "line": 54,
+          "text": "Choose advanced glazing solutions for superior thermal",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 5,
+          "line": 55,
+          "text": "performance and acoustic control Dual protection: The child-safe guardian lock prevents accidental exits, while",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 6,
+          "line": 5,
+          "text": "If you are looking for energy savings – our superior insulation eliminates water and air infiltration between frame and panels.",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 6,
+          "line": 6,
+          "text": "A one inch insulated unit with Cardinal Endur® IG Insulating Glass allows for outstanding thermal performance and solar",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 6,
+          "line": 9,
+          "text": "OPTIMAL THERMAL PERFORMANCE.",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 6,
+          "line": 110,
+          "text": "frame for improved X O O",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 6,
+          "line": 111,
+          "text": "performance, with 10 degree",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 6,
+          "line": 114,
+          "text": "• LoE 180 & Argon tempered",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 6,
+          "line": 115,
+          "text": "glass with Endur® warm edge",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 6,
+          "line": 127,
+          "text": "air infiltration. SCAN AND VISIT OUR",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 6,
+          "line": 142,
+          "text": "installers nationwide, Oceanview is known for consistent performance and long-term value.",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        }
+      ],
+      "extractionErrors": [],
+      "extractedAt": "2026-08-20T08:49:48.207647+00:00"
+    },
+    {
+      "documentId": "oceanview:pacific-series-21accf1b405b",
+      "title": "Oceanview Pacific Series Patio Doors Brochure",
+      "supplier": "oceanview",
+      "localPath": "/documents/catalog/oceanview/pacific-series-21accf1b405b.pdf",
+      "sha256": "d0b510acebca25ea266c974f5c1a3c39932bee90bfba1207575621ff4a727a4b",
+      "bytes": 8372498,
+      "pageCount": 6,
+      "textCharacters": 19401,
+      "tableCount": 10,
+      "extractedImageCount": 18,
+      "ocrRequired": false,
+      "ocrApplied": false,
+      "ocrReused": false,
+      "ocrEngine": null,
+      "ocrPages": 0,
+      "metadata": {
+        "/CreationDate": "D:20251007145616-04'00'",
+        "/Creator": "Adobe InDesign 20.5 (Macintosh)",
+        "/ModDate": "D:20251008091629-04'00'",
+        "/Producer": "Adobe PDF Library 17.0",
+        "/Trapped": "/False"
+      },
+      "documentDate": "2025-10-07",
+      "freshness": {
+        "status": "current-source-indirect",
+        "basis": "Supplier brochure media attachment covering the three current Pacific packages and reviewed 2026-08-20."
+      },
+      "provenance": {
+        "supplier": "oceanview",
+        "sourcePageUrls": [
+          "http://oceanviewdoors.ca/resources/brochures/"
+        ],
+        "productIds": [
+          "oceanview:essential",
+          "oceanview:premium",
+          "oceanview:premium-plus"
+        ],
+        "collections": [
+          "Patio Doors"
+        ],
+        "scope": "product",
+        "role": "brochure",
+        "originalUrl": "https://oceanviewdoors.ca/wp-content/uploads/2026/03/pacific-series.pdf",
+        "sourceUrls": [
+          "https://oceanviewdoors.ca/wp-content/uploads/2026/03/pacific-series.pdf"
+        ],
+        "finalUrl": "https://oceanviewdoors.ca/wp-content/uploads/2026/03/pacific-series.pdf",
+        "localPath": "/documents/catalog/oceanview/pacific-series-21accf1b405b.pdf",
+        "sha256": "d0b510acebca25ea266c974f5c1a3c39932bee90bfba1207575621ff4a727a4b",
+        "bytes": 8372498,
+        "discoveredAt": "2026-08-20T08:24:41Z",
+        "assetType": "document",
+        "relationshipState": "collection-shared",
+        "relationshipEvidence": [
+          "supplier-scoped-document-map"
+        ],
+        "masterUrl": "https://oceanviewdoors.ca/wp-content/uploads/2026/03/pacific-series.pdf",
+        "selectedUrl": "https://oceanviewdoors.ca/wp-content/uploads/2026/03/pacific-series.pdf",
+        "mimeType": "application/pdf",
+        "width": null,
+        "height": null
+      },
+      "pages": [
+        {
+          "page": 1,
+          "textPath": "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/pages/page-0001.txt",
+          "characters": 2973,
+          "tables": [
+            "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/tables/page-0001-table-01.json",
+            "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/tables/page-0001-table-02.json",
+            "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/tables/page-0001-table-03.json"
+          ],
+          "images": [
+            {
+              "path": "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/images/page-0001-image-01.jpg",
+              "page": 1,
+              "width": 1280,
+              "height": 726,
+              "sha256": "3396b2b2a64e1e66c430585b8bfbfea2264761353e1b0fda9ae2c925490d7731",
+              "productIds": [
+                "oceanview:essential",
+                "oceanview:premium",
+                "oceanview:premium-plus"
+              ]
+            }
+          ],
+          "evidenceProductIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 2,
+          "textPath": "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/pages/page-0002.txt",
+          "characters": 2973,
+          "tables": [
+            "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/tables/page-0002-table-01.json",
+            "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/tables/page-0002-table-02.json",
+            "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/tables/page-0002-table-03.json"
+          ],
+          "images": [
+            {
+              "path": "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/images/page-0002-image-01.png",
+              "page": 2,
+              "width": 1276,
+              "height": 1087,
+              "sha256": "46d30b53aebc624518d185525978e5598f9c90d30b83bf64d22b5dae7b644a1f",
+              "productIds": [
+                "oceanview:essential",
+                "oceanview:premium",
+                "oceanview:premium-plus"
+              ]
+            }
+          ],
+          "evidenceProductIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 3,
+          "textPath": "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/pages/page-0003.txt",
+          "characters": 3494,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/images/page-0003-image-01.jpg",
+              "page": 3,
+              "width": 1907,
+              "height": 1073,
+              "sha256": "63aa0773b97a223bec136eb77acdd680185f3059a992e3ba0d8c30fd81fdf0d8",
+              "productIds": [
+                "oceanview:essential",
+                "oceanview:premium",
+                "oceanview:premium-plus"
+              ]
+            },
+            {
+              "path": "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/images/page-0003-image-02.jpg",
+              "page": 3,
+              "width": 468,
+              "height": 378,
+              "sha256": "a0a1d5b802541ca568585f110ff9fb29412ca31a0e182c97a4ae7e335655812e",
+              "productIds": [
+                "oceanview:essential",
+                "oceanview:premium",
+                "oceanview:premium-plus"
+              ]
+            },
+            {
+              "path": "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/images/page-0003-image-13.jpg",
+              "page": 3,
+              "width": 328,
+              "height": 457,
+              "sha256": "a02aab903b4b00c852d0db8f34fbb055865b537efc9de720f23ba60ae23f2371",
+              "productIds": [
+                "oceanview:essential",
+                "oceanview:premium",
+                "oceanview:premium-plus"
+              ]
+            }
+          ],
+          "evidenceProductIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 4,
+          "textPath": "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/pages/page-0004.txt",
+          "characters": 3494,
+          "tables": [
+            "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/tables/page-0004-table-01.json"
+          ],
+          "images": [
+            {
+              "path": "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/images/page-0004-image-01.jpg",
+              "page": 4,
+              "width": 629,
+              "height": 1066,
+              "sha256": "0e08e1855d684ed523f540b7e7e5e1a243959c0ca6d458234fa8a9feaa6a7789",
+              "productIds": [
+                "oceanview:essential",
+                "oceanview:premium",
+                "oceanview:premium-plus"
+              ]
+            },
+            {
+              "path": "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/images/page-0004-image-02.jpg",
+              "page": 4,
+              "width": 420,
+              "height": 312,
+              "sha256": "b87e9e527b79d3c926a209c513b5c4a441c74cfde02162bf32941c7099a57433",
+              "productIds": [
+                "oceanview:essential",
+                "oceanview:premium",
+                "oceanview:premium-plus"
+              ]
+            },
+            {
+              "path": "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/images/page-0004-image-13.jpg",
+              "page": 4,
+              "width": 634,
+              "height": 1068,
+              "sha256": "0c94358f56da967baf189e90ef53c5837cd96c51f663c2302d085db0766739ad",
+              "productIds": [
+                "oceanview:essential",
+                "oceanview:premium",
+                "oceanview:premium-plus"
+              ]
+            },
+            {
+              "path": "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/images/page-0004-image-58.jpg",
+              "page": 4,
+              "width": 446,
+              "height": 428,
+              "sha256": "e9402cb2fac064f46c850fb0221cb00922d964d944da5fa1de4bcebff758cc0f",
+              "productIds": [
+                "oceanview:essential",
+                "oceanview:premium",
+                "oceanview:premium-plus"
+              ]
+            },
+            {
+              "path": "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/images/page-0004-image-60.jpg",
+              "page": 4,
+              "width": 446,
+              "height": 428,
+              "sha256": "8db0163ff5d774f358293882d28fd5f2ff6b5ce604351f0a60508e1679021d27",
+              "productIds": [
+                "oceanview:essential",
+                "oceanview:premium",
+                "oceanview:premium-plus"
+              ]
+            },
+            {
+              "path": "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/images/page-0004-image-61.jpg",
+              "page": 4,
+              "width": 446,
+              "height": 215,
+              "sha256": "074a8a0470c815a8d3c9d15bdb34d90f5ecb5217f8b4c6d57f54e17e4ce8d12a",
+              "productIds": [
+                "oceanview:essential",
+                "oceanview:premium",
+                "oceanview:premium-plus"
+              ]
+            },
+            {
+              "path": "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/images/page-0004-image-62.jpg",
+              "page": 4,
+              "width": 447,
+              "height": 428,
+              "sha256": "6cc34695c6a29ba87593a35ac7934c02478b9048a0a8ff364c70593712658af3",
+              "productIds": [
+                "oceanview:essential",
+                "oceanview:premium",
+                "oceanview:premium-plus"
+              ]
+            },
+            {
+              "path": "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/images/page-0004-image-64.jpg",
+              "page": 4,
+              "width": 447,
+              "height": 428,
+              "sha256": "61c97b8fc463b545e742a4baa0dbc6be2b15899635b61b5dfc44358c5fca3f14",
+              "productIds": [
+                "oceanview:essential",
+                "oceanview:premium",
+                "oceanview:premium-plus"
+              ]
+            },
+            {
+              "path": "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/images/page-0004-image-65.jpg",
+              "page": 4,
+              "width": 447,
+              "height": 143,
+              "sha256": "f2ef440b306ebf2c7bb4dd9707618d4e13076ac1c014600cdd8c81580fa7e715",
+              "productIds": [
+                "oceanview:essential",
+                "oceanview:premium",
+                "oceanview:premium-plus"
+              ]
+            }
+          ],
+          "evidenceProductIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 5,
+          "textPath": "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/pages/page-0005.txt",
+          "characters": 3494,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/images/page-0005-image-02.jpg",
+              "page": 5,
+              "width": 1914,
+              "height": 1075,
+              "sha256": "100ac5f93b748c5ef88595c25da8794227b62d479d3f76a13e0aeaff065f4fa6",
+              "productIds": [
+                "oceanview:essential",
+                "oceanview:premium",
+                "oceanview:premium-plus"
+              ]
+            }
+          ],
+          "evidenceProductIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 6,
+          "textPath": "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/pages/page-0006.txt",
+          "characters": 2973,
+          "tables": [
+            "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/tables/page-0006-table-01.json",
+            "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/tables/page-0006-table-02.json",
+            "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/tables/page-0006-table-03.json"
+          ],
+          "images": [
+            {
+              "path": "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/images/page-0006-image-91.jpg",
+              "page": 6,
+              "width": 226,
+              "height": 254,
+              "sha256": "f25be7a8dd59d3270dc821045a35a3b39465f94fe42f05b5765967ba2356339f",
+              "productIds": [
+                "oceanview:essential",
+                "oceanview:premium",
+                "oceanview:premium-plus"
+              ]
+            },
+            {
+              "path": "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/images/page-0006-image-93.jpg",
+              "page": 6,
+              "width": 226,
+              "height": 254,
+              "sha256": "17c07b3f53695e96642d5be3afdce409220e6d8602098ebd0b00a421d17bbc5b",
+              "productIds": [
+                "oceanview:essential",
+                "oceanview:premium",
+                "oceanview:premium-plus"
+              ]
+            },
+            {
+              "path": "source-media/suppliers/oceanview/pdf-extracted/pacific-series-21accf1b405b/images/page-0006-image-94.jpg",
+              "page": 6,
+              "width": 226,
+              "height": 254,
+              "sha256": "6cfd988e7b08757477c5c640898822bd3810a948c43b65891aa01201959f099b",
+              "productIds": [
+                "oceanview:essential",
+                "oceanview:premium",
+                "oceanview:premium-plus"
+              ]
+            }
+          ],
+          "evidenceProductIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ],
+          "textSource": "embedded"
+        }
+      ],
+      "factCandidates": [
+        {
+          "page": 1,
+          "line": 5,
+          "text": "If you are looking for energy savings – our superior insulation eliminates water and air infiltration between frame and panels.",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 6,
+          "text": "A one inch insulated unit with Cardinal Endur® IG Insulating Glass allows for outstanding thermal performance and solar",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 9,
+          "text": "OPTIMAL THERMAL PERFORMANCE.",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 124,
+          "text": "frame for improved X O O",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 125,
+          "text": "performance, with 10 degree",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 128,
+          "text": "• LoE 180 & Argon tempered",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 129,
+          "text": "glass with Endur® warm edge",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 141,
+          "text": "air infiltration. SCAN AND VISIT OUR",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 156,
+          "text": "installers nationwide, Oceanview is known for consistent performance and long-term value.",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 2,
+          "line": 5,
+          "text": "If you are looking for energy savings – our superior insulation eliminates water and air infiltration between frame and panels.",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 2,
+          "line": 6,
+          "text": "A one inch insulated unit with Cardinal Endur® IG Insulating Glass allows for outstanding thermal performance and solar",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 2,
+          "line": 9,
+          "text": "OPTIMAL THERMAL PERFORMANCE.",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 2,
+          "line": 124,
+          "text": "frame for improved X O O",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 2,
+          "line": 125,
+          "text": "performance, with 10 degree",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 2,
+          "line": 128,
+          "text": "• LoE 180 & Argon tempered",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 2,
+          "line": 129,
+          "text": "glass with Endur® warm edge",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 2,
+          "line": 141,
+          "text": "air infiltration. SCAN AND VISIT OUR",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 2,
+          "line": 156,
+          "text": "installers nationwide, Oceanview is known for consistent performance and long-term value.",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 3,
+          "line": 2,
+          "text": "INTERIOR MINI BLINDS SIDELITES & TRANSOMS GLASS OPTIONS POPULAR COLOURS ROLLER OPTIONS HARDWARE",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 3,
+          "line": 9,
+          "text": "performance. Featuring our upgraded sleek",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 3,
+          "line": 11,
+          "text": "efficient glass and a durable weather resistant",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 3,
+          "line": 12,
+          "text": "frame. It’s designed to bring in natural light PREMIUM",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 3,
+          "line": 14,
+          "text": "perfect for homes seeking style, comfort and A perfect blend of performance, durability,",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 3,
+          "line": 24,
+          "text": "reliable performance and style",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 3,
+          "line": 33,
+          "text": "• Energy-efficient glass for Package includes:",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 3,
+          "line": 47,
+          "text": "Sleek mini blinds for privacy and light control. Cordless, child-safe, Enhances the aesthetic appeal of your sliding door Create modern spacious views that bring beautiful LoE glass options boost energy efficiency, reduce UV Custom colours available—just ask us for details High-performance screen system designed for Choose metal or vinyl rollers based on your door’s weight, Roto’s German-engineered handles are durable, ergonomic, and visually appealing—offered in a full range of",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 3,
+          "line": 48,
+          "text": "dust-resistant, and low-maintenance. Available in various sizes design options for any home damage, and keep your home comfortable year-round durability and elevated aesthetic type, and durability needs—for smooth, reliable performance styles from classic to modern for top-quality performance and design",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 3,
+          "line": 55,
+          "text": "Choose advanced glazing solutions for superior thermal exits, while the kick lock adds discreet security. Both use a",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 3,
+          "line": 56,
+          "text": "performance and acoustic control two-point system to keep the door partially open for airflow",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 4,
+          "line": 2,
+          "text": "INTERIOR MINI BLINDS SIDELITES & TRANSOMS GLASS OPTIONS POPULAR COLOURS ROLLER OPTIONS HARDWARE",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 4,
+          "line": 9,
+          "text": "performance. Featuring our upgraded sleek",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 4,
+          "line": 11,
+          "text": "efficient glass and a durable weather resistant",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 4,
+          "line": 12,
+          "text": "frame. It’s designed to bring in natural light PREMIUM",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 4,
+          "line": 14,
+          "text": "perfect for homes seeking style, comfort and A perfect blend of performance, durability,",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 4,
+          "line": 24,
+          "text": "reliable performance and style",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 4,
+          "line": 33,
+          "text": "• Energy-efficient glass for Package includes:",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 4,
+          "line": 47,
+          "text": "Sleek mini blinds for privacy and light control. Cordless, child-safe, Enhances the aesthetic appeal of your sliding door Create modern spacious views that bring beautiful LoE glass options boost energy efficiency, reduce UV Custom colours available—just ask us for details High-performance screen system designed for Choose metal or vinyl rollers based on your door’s weight, Roto’s German-engineered handles are durable, ergonomic, and visually appealing—offered in a full range of",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 4,
+          "line": 48,
+          "text": "dust-resistant, and low-maintenance. Available in various sizes design options for any home damage, and keep your home comfortable year-round durability and elevated aesthetic type, and durability needs—for smooth, reliable performance styles from classic to modern for top-quality performance and design",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 4,
+          "line": 55,
+          "text": "Choose advanced glazing solutions for superior thermal exits, while the kick lock adds discreet security. Both use a",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 4,
+          "line": 56,
+          "text": "performance and acoustic control two-point system to keep the door partially open for airflow",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 5,
+          "line": 2,
+          "text": "INTERIOR MINI BLINDS SIDELITES & TRANSOMS GLASS OPTIONS POPULAR COLOURS ROLLER OPTIONS HARDWARE",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 5,
+          "line": 9,
+          "text": "performance. Featuring our upgraded sleek",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 5,
+          "line": 11,
+          "text": "efficient glass and a durable weather resistant",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 5,
+          "line": 12,
+          "text": "frame. It’s designed to bring in natural light PREMIUM",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 5,
+          "line": 14,
+          "text": "perfect for homes seeking style, comfort and A perfect blend of performance, durability,",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 5,
+          "line": 24,
+          "text": "reliable performance and style",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 5,
+          "line": 33,
+          "text": "• Energy-efficient glass for Package includes:",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 5,
+          "line": 47,
+          "text": "Sleek mini blinds for privacy and light control. Cordless, child-safe, Enhances the aesthetic appeal of your sliding door Create modern spacious views that bring beautiful LoE glass options boost energy efficiency, reduce UV Custom colours available—just ask us for details High-performance screen system designed for Choose metal or vinyl rollers based on your door’s weight, Roto’s German-engineered handles are durable, ergonomic, and visually appealing—offered in a full range of",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 5,
+          "line": 48,
+          "text": "dust-resistant, and low-maintenance. Available in various sizes design options for any home damage, and keep your home comfortable year-round durability and elevated aesthetic type, and durability needs—for smooth, reliable performance styles from classic to modern for top-quality performance and design",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 5,
+          "line": 55,
+          "text": "Choose advanced glazing solutions for superior thermal exits, while the kick lock adds discreet security. Both use a",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 5,
+          "line": 56,
+          "text": "performance and acoustic control two-point system to keep the door partially open for airflow",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 6,
+          "line": 5,
+          "text": "If you are looking for energy savings – our superior insulation eliminates water and air infiltration between frame and panels.",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 6,
+          "line": 6,
+          "text": "A one inch insulated unit with Cardinal Endur® IG Insulating Glass allows for outstanding thermal performance and solar",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 6,
+          "line": 9,
+          "text": "OPTIMAL THERMAL PERFORMANCE.",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 6,
+          "line": 124,
+          "text": "frame for improved X O O",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 6,
+          "line": 125,
+          "text": "performance, with 10 degree",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 6,
+          "line": 128,
+          "text": "• LoE 180 & Argon tempered",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 6,
+          "line": 129,
+          "text": "glass with Endur® warm edge",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 6,
+          "line": 141,
+          "text": "air infiltration. SCAN AND VISIT OUR",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        },
+        {
+          "page": 6,
+          "line": 156,
+          "text": "installers nationwide, Oceanview is known for consistent performance and long-term value.",
+          "productIds": [
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus"
+          ]
+        }
+      ],
+      "extractionErrors": [],
+      "extractedAt": "2026-08-20T08:50:01.457333+00:00"
+    },
+    {
+      "documentId": "oceanview:ultraglide-series-f7bec292bca6",
+      "title": "Oceanview Ultraglide Sliding System",
+      "supplier": "oceanview",
+      "localPath": "/documents/catalog/oceanview/ultraglide-series-f7bec292bca6.pdf",
+      "sha256": "2d104c26397882b66d7f2ead95427f2bbe7ce0c1e34da625dabf52b8f938addd",
+      "bytes": 308233,
+      "pageCount": 1,
+      "textCharacters": 0,
+      "tableCount": 0,
+      "extractedImageCount": 1,
+      "ocrRequired": true,
+      "ocrApplied": false,
+      "ocrReused": false,
+      "ocrEngine": null,
+      "ocrPages": 0,
+      "metadata": {
+        "/CreationDate": "D:20260310145312Z00'00'",
+        "/Producer": "macOS Version 26.3.1 (Build 25D2128) Quartz PDFContext",
+        "/ModDate": "D:20260310145312Z00'00'"
+      },
+      "documentDate": "2026-03-10",
+      "freshness": {
+        "status": "current-source-indirect",
+        "basis": "Public supplier media attachment associated with the current Ultra Glide product and reviewed live 2026-08-20."
+      },
+      "provenance": {
+        "supplier": "oceanview",
+        "sourcePageUrls": [
+          "https://oceanviewdoors.ca/patio-doors/ultra-glide/"
+        ],
+        "productIds": [
+          "oceanview:ultra-glide"
+        ],
+        "collections": [
+          "Patio Doors"
+        ],
+        "scope": "product",
+        "role": "brochure",
+        "originalUrl": "https://oceanviewdoors.ca/wp-content/uploads/2026/03/ultraglide-series.pdf",
+        "sourceUrls": [
+          "https://oceanviewdoors.ca/wp-content/uploads/2026/03/ultraglide-series.pdf"
+        ],
+        "finalUrl": "https://oceanviewdoors.ca/wp-content/uploads/2026/03/ultraglide-series.pdf",
+        "localPath": "/documents/catalog/oceanview/ultraglide-series-f7bec292bca6.pdf",
+        "sha256": "2d104c26397882b66d7f2ead95427f2bbe7ce0c1e34da625dabf52b8f938addd",
+        "bytes": 308233,
+        "discoveredAt": "2026-08-20T08:24:19Z",
+        "assetType": "document",
+        "relationshipState": "product-specific",
+        "relationshipEvidence": [
+          "supplier-scoped-document-map"
+        ],
+        "masterUrl": "https://oceanviewdoors.ca/wp-content/uploads/2026/03/ultraglide-series.pdf",
+        "selectedUrl": "https://oceanviewdoors.ca/wp-content/uploads/2026/03/ultraglide-series.pdf",
+        "mimeType": "application/pdf",
+        "width": null,
+        "height": null
+      },
+      "pages": [
+        {
+          "page": 1,
+          "textPath": "source-media/suppliers/oceanview/pdf-extracted/ultraglide-series-f7bec292bca6/pages/page-0001.txt",
+          "characters": 0,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/oceanview/pdf-extracted/ultraglide-series-f7bec292bca6/images/page-0001-image-01.jpg",
+              "page": 1,
+              "width": 1094,
+              "height": 1408,
+              "sha256": "99721fb1465d1baef19765bdbaf20ec1e3e3848845c9c1c6d34f9ab1e353aa8c",
+              "productIds": [
+                "oceanview:ultra-glide"
+              ]
+            }
+          ],
+          "evidenceProductIds": [
+            "oceanview:ultra-glide"
+          ],
+          "textSource": "embedded"
+        }
+      ],
+      "factCandidates": [],
+      "extractionErrors": [],
+      "extractedAt": "2026-08-20T08:50:01.494779+00:00"
+    },
+    {
+      "documentId": "oceanview:warranty-oceanview-5bde550c9444",
+      "title": "Oceanview Limited Non-Prorated Warranty",
+      "supplier": "oceanview",
+      "localPath": "/documents/catalog/oceanview/warranty-oceanview-5bde550c9444.pdf",
+      "sha256": "b9f62446b6df314d840ba405732faf0010fe6b06db0d681c7a7d5decf7e87842",
+      "bytes": 400321,
+      "pageCount": 2,
+      "textCharacters": 8779,
+      "tableCount": 0,
+      "extractedImageCount": 1,
+      "ocrRequired": false,
+      "ocrApplied": false,
+      "ocrReused": false,
+      "ocrEngine": null,
+      "ocrPages": 0,
+      "metadata": {
+        "/CreationDate": "D:20260429155152-04'00'",
+        "/Creator": "Adobe Illustrator 29.8 (Macintosh)",
+        "/ModDate": "D:20260430080516-04'00'",
+        "/Producer": "Adobe PDF library 17.00",
+        "/Title": "WARRANTY_OCEANVIEW"
+      },
+      "documentDate": "2026-04-29",
+      "freshness": {
+        "status": "current-source-linked",
+        "basis": "Linked from the current Oceanview warranty page and reviewed live 2026-08-20."
+      },
+      "provenance": {
+        "supplier": "oceanview",
+        "sourcePageUrls": [
+          "http://oceanviewdoors.ca/resources/warranty/"
+        ],
+        "productIds": [
+          "oceanview:armour",
+          "oceanview:essential",
+          "oceanview:premium",
+          "oceanview:premium-plus",
+          "oceanview:ultra-glide"
+        ],
+        "collections": [
+          "Patio Doors"
+        ],
+        "scope": "product",
+        "role": "warranty",
+        "originalUrl": "http://oceanviewdoors.ca/wp-content/uploads/2026/04/WARRANTY_OCEANVIEW.pdf",
+        "sourceUrls": [
+          "http://oceanviewdoors.ca/wp-content/uploads/2026/04/WARRANTY_OCEANVIEW.pdf"
+        ],
+        "finalUrl": "http://oceanviewdoors.ca/wp-content/uploads/2026/04/WARRANTY_OCEANVIEW.pdf",
+        "localPath": "/documents/catalog/oceanview/warranty-oceanview-5bde550c9444.pdf",
+        "sha256": "b9f62446b6df314d840ba405732faf0010fe6b06db0d681c7a7d5decf7e87842",
+        "bytes": 400321,
+        "discoveredAt": "2026-08-19T18:57:24Z",
+        "assetType": "document",
+        "relationshipState": "collection-shared",
+        "relationshipEvidence": [
+          "supplier-scoped-document-map"
+        ],
+        "masterUrl": "http://oceanviewdoors.ca/wp-content/uploads/2026/04/WARRANTY_OCEANVIEW.pdf",
+        "selectedUrl": "http://oceanviewdoors.ca/wp-content/uploads/2026/04/WARRANTY_OCEANVIEW.pdf",
+        "mimeType": "application/pdf",
+        "width": null,
+        "height": null
+      },
+      "pages": [
+        {
+          "page": 1,
+          "textPath": "source-media/suppliers/oceanview/pdf-extracted/warranty-oceanview-5bde550c9444/pages/page-0001.txt",
+          "characters": 4856,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/oceanview/pdf-extracted/warranty-oceanview-5bde550c9444/images/page-0001-image-01.png",
+              "page": 1,
+              "width": 1274,
+              "height": 638,
+              "sha256": "2cbf423629d6111b91f8d06874033e98e3f8b1c9451ecf65af228803b803e370",
+              "productIds": [
+                "oceanview:armour",
+                "oceanview:essential",
+                "oceanview:premium",
+                "oceanview:premium-plus",
+                "oceanview:ultra-glide"
+              ]
+            }
+          ],
+          "evidenceProductIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 2,
+          "textPath": "source-media/suppliers/oceanview/pdf-extracted/warranty-oceanview-5bde550c9444/pages/page-0002.txt",
+          "characters": 3923,
+          "tables": [],
+          "images": [],
+          "evidenceProductIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ],
+          "textSource": "embedded"
+        }
+      ],
+      "factCandidates": [
+        {
+          "page": 1,
+          "line": 1,
+          "text": "LIMITED NON-PRORATED WARRANTY",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 3,
+          "text": "(hereinafter referred to as “Products”) a limited non-transferable warranty subject to the terms and conditions herein contained.",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 5,
+          "text": "NON-PRORATED WARRANTY WARRANTY ON failure to provide reasonable and necessary location of your home, and other local",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 6,
+          "text": "ON VINYL COMPONENTS HARDWARE COMPONENTS maintenance to prevent an accumulation conditions over which OceanView has no",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 7,
+          "text": "OceanView warrants that the main OceanView warrants that the hardware of surface dirt, staining or mildew, defects, control. OceanView, at its own discretion,",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 8,
+          "text": "sashes and frame vinyl components of (rollers and sash locks) will remain in exposure to harmful chemicals, failure of shall determine whether the Products are",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 12,
+          "text": "in colour, will be free from manufacturing settlement, distortion or warping due to",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 16,
+          "text": "chipping, splitting, blistering or corrosion NON-PRORATED WARRANTY grills and reflection from windows or",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 17,
+          "text": "THIS WARRANTY IS GIVEN IN LIEU",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 24,
+          "text": "NON-PRORATED WARRANTY of any manufacturing defects for a damage, vandalism, and all other causes IMPLIED, EXCEPT THAT THE DURA-",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 26,
+          "text": "HAVE BEEN COATED purchase and that the insulated glass warranty does not apply to Products which OF MERCHANTABILITY AND FITNESS",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 29,
+          "text": "(10) years non-prorated door components, the date of purchase. Both warranties are if coated through OceanView. Products OF THIS WARRANTY. OCEANVIEW",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 30,
+          "text": "door kits or complete door units against independent of each other. which experience colour changes due to SHALL IN NO EVENT BE LIABLE FOR",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 32,
+          "text": "ing or corrosion if they were supplied by All failures to Products covered by this this warranty. Non-uniform color change",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 34,
+          "text": "and coated through OceanView. warranty will be repaired or replaced by as a result of equal exposure to sunlight",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 36,
+          "text": "OceanView in accordance with the terms is covered under this warranty; however,",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 38,
+          "text": "20 YEARS LIMITED, and conditions of this warranty. non-uniform colour changes resulting",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 40,
+          "text": "NON-PRORATED WARRANTY from unequal exposure to sunlight are",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 42,
+          "text": "ON INSULATING GLASS EXCLUSIONS FROM LIMITED not covered under this warranty. “Normal",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 43,
+          "text": "OF THIS WARRANTY UPON THE",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 44,
+          "text": "OceanView warrants that the insulated WARRANTY COVERAGE weathering” is defined as exposure to",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 45,
+          "text": "glass units will not suffer formation OceanView shall not be liable for and this ultraviolet (sun) light, and extremes of TERMS AND CONDITIONS HEREIN",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 46,
+          "text": "of condensation or dust on the inner warranty does not apply or extend to glass weather and atmosphere which will CONTAINED. NO REPRESENTATIVE",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 49,
+          "text": "of purchase. This warranty applies to all or connected with, without limitation, accumulation of dirt or stains, oxidate or TO MAKE ANY CHANGE OR MODIFI-",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 50,
+          "text": "OceanView patio doors. misuse, neglect, physical abuse, faulty or corrode. The severity of these conditions CATION TO THIS WARRANTY.",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 2,
+          "line": 1,
+          "text": "LIMITED NON-PRORATED WARRANTY",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 2,
+          "line": 3,
+          "text": "(hereinafter referred to as “Products”) a limited non-transferable warranty subject to the terms and conditions herein contained.",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 2,
+          "line": 4,
+          "text": "PROCEDURES AND CONDITIONS and tempered glass defects and failure FIELD SERVICE PROCEDURES",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 2,
+          "line": 5,
+          "text": "FOR WARRANTY CLAIMS must include all of the relevant information In the event of a product or component",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 2,
+          "line": 6,
+          "text": "Some jurisdictions do not allow limitation on printed on the insulated glass spacer and failure, it is the responsibility of the final",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 2,
+          "line": 7,
+          "text": "how long an implied warranty lasts, so the sandblasted in the corner of each piece of selling agent/installer to conduct the on-sight",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 2,
+          "line": 8,
+          "text": "limitation contained herein above may not tempered glass. assessment of the failure and to institute the",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 2,
+          "line": 10,
+          "text": "the exclusion or limitation on consequential The warranty period for any repaired or",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 2,
+          "line": 12,
+          "text": "above limitations or exclusions may not unexpired portion of the original warranty the fabricator and selling dealer/installer",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 2,
+          "line": 13,
+          "text": "apply to you. This warranty gives you specific period of the Products. cannot institute an effective repair and it is",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 2,
+          "line": 19,
+          "text": "defect covered by this warranty, promptly of such discontinuance or change, selling price to the original customer.",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 2,
+          "line": 22,
+          "text": "defects, date of purchase, original invoice, covered by this warranty be unavailable, identify the problem and to determine",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 2,
+          "line": 28,
+          "text": "date must be submitted with all warranty extend or modify the original warranty",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        },
+        {
+          "page": 2,
+          "line": 29,
+          "text": "claims. Warranty claims for insulating glass duration.",
+          "productIds": [
+            "oceanview:armour",
+            "oceanview:essential",
+            "oceanview:premium",
+            "oceanview:premium-plus",
+            "oceanview:ultra-glide"
+          ]
+        }
+      ],
+      "extractionErrors": [],
+      "extractedAt": "2026-08-20T08:50:02.673181+00:00"
     }
   ]
 }

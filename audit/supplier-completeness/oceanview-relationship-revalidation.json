@@ -1,0 +1,24 @@
+{
+  "supplier": "oceanview",
+  "products": 5,
+  "productsWithMediaBefore": 5,
+  "productsWithMediaAfter": 5,
+  "productsStillMissingMedia": [],
+  "acceptedAssetsBefore": 24,
+  "downloadedCandidatesRecovered": 1,
+  "acceptedAssetsAfter": 25,
+  "rejectedAssociations": [],
+  "relationshipStates": {
+    "product-specific": 13,
+    "collection-shared": 10,
+    "supplier-shared": 2,
+    "uncertain/review": 0
+  },
+  "sharedProductBinaries": 10,
+  "changedProducts": [
+    "oceanview:essential",
+    "oceanview:premium",
+    "oceanview:premium-plus"
+  ],
+  "unresolvedErrors": []
+}

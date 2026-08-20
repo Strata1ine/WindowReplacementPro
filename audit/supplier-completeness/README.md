@@ -1,6 +1,6 @@
 # Supplier completeness audit
 
-Generated: 2026-08-20T08:06:56.953189+00:00
+Generated: 2026-08-20T08:51:13.666127+00:00
 
 ## Supplier summary
 
@@ -14,7 +14,7 @@ Generated: 2026-08-20T08:06:56.953189+00:00
 | verre-select | 26 | 25 | 93 | 0 | 0 | 0 | VERIFIED | VERIFIED | NONE-CURRENTLY-AVAILABLE-FLIPHTML5-VERIFIED |
 | mennie-canada | 99 | 79 | 184 | 6 | 168 | 1 | VERIFIED | VERIFIED-WITH-20-EXPLICIT-MISSING-MEDIA-RECORDS | VERIFIED |
 | richersons | 54 | 54 | 91 | 2 | 0 | 0 | VERIFIED | VERIFIED | VERIFIED |
-| oceanview | 3 | 3 | 5 | 3 | 0 | 0 | VERIFICATION-PENDING | VERIFICATION-PENDING | VERIFICATION-PENDING |
+| oceanview | 5 | 5 | 18 | 7 | 0 | 2 | VERIFIED | VERIFIED | VERIFIED |
 | vista | 4 | 4 | 5 | 17 | 0 | 0 | VERIFICATION-PENDING | VERIFICATION-PENDING | VERIFICATION-PENDING |
 
 ## Supplier findings
@@ -69,9 +69,9 @@ Completeness states: source-complete=54.
 
 ### Oceanview Patio Doors
 
-Website: **VERIFICATION-PENDING**. Media: **VERIFICATION-PENDING**. PDF: **VERIFICATION-PENDING**. Canonical supplier products: **3**. Merged catalogue records: **3**. Accepted assets: **5 images / 3 PDFs**. Review binaries preserved: **0**. Product associations: **3 image / 0 document**.
+Website: **VERIFIED**. Media: **VERIFIED**. PDF: **VERIFIED**. Canonical supplier products: **5**. Merged catalogue records: **5**. Accepted assets: **18 images / 7 PDFs**. Review binaries preserved: **0**. Product associations: **5 image / 5 document**.
 
-Completeness states: verification-pending=3.
+Completeness states: source-complete=5.
 
 ### Vista Patio Doors
 

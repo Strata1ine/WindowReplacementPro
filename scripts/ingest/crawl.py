@@ -135,6 +135,24 @@ def content_type_allowed(content_type: str, kind: str) -> bool:
     return False
 
 
+def request_accept_header(url: str, kind: str) -> str:
+    if kind == 'image':
+        declared = mimetypes.guess_type(urlparse(url).path)[0]
+        if declared and declared.startswith('image/'):
+            return f'{declared},image/*;q=0.8,*/*;q=0.5'
+        return 'image/*,*/*;q=0.5'
+    return 'text/html,application/xhtml+xml,application/pdf,image/avif,image/webp,image/*,*/*;q=0.5'
+
+
+def response_image_extension(url: str, content_type: str | None) -> str:
+    source_extension = Path(urlparse(url).path).suffix.lower()
+    source_mime = mimetypes.guess_type(urlparse(url).path)[0]
+    if source_extension in MEDIA_EXTS and (not content_type or source_mime == content_type):
+        return source_extension
+    response_extension = mimetypes.guess_extension(content_type or '') or ''
+    return response_extension if response_extension in MEDIA_EXTS else (source_extension if source_extension in MEDIA_EXTS else '.img')
+
+
 def fetch(url: str, allowed_domains: set[str], timeout: int, max_bytes: int, kind: str, retries: int) -> FetchResponse:
     if not same_allowed(url, allowed_domains):
         raise URLError(f'URL outside allowed domains: {url}')
@@ -142,7 +160,7 @@ def fetch(url: str, allowed_domains: set[str], timeout: int, max_bytes: int, kin
     last_error: Exception | None = None
     for attempt in range(retries + 1):
         try:
-            request = Request(url, headers={'User-Agent': UA, 'Accept': 'text/html,application/xhtml+xml,application/pdf,image/avif,image/webp,image/*,*/*;q=0.5'})
+            request = Request(url, headers={'User-Agent': UA, 'Accept': request_accept_header(url, kind)})
             with opener.open(request, timeout=timeout) as response:
                 final_url = response.geturl()
                 if not same_allowed(final_url, allowed_domains):
@@ -180,7 +198,7 @@ def decode_html(body: bytes, header_charset: str | None) -> str:
     return body.decode('utf-8', 'replace')
 
 
-WP_SIZE_SUFFIX = re.compile(r'-\d{2,5}x\d{2,5}(?=\.[a-z0-9]{2,5}$)', re.I)
+WP_SIZE_SUFFIX = re.compile(r'(?:-\d{2,5}x\d{2,5}|-scaled)(?=\.[a-z0-9]{2,5}$)', re.I)
 ASSET_PLANNER_VERSION = 10
 
 
@@ -640,6 +658,50 @@ def refresh_page_asset_candidates(page: Page, cfg: dict, asset_domains: set[str]
             refreshed.append({'url': asset_url, 'source_url': source_asset_url, 'kind': kind, 'role': role, 'order': order})
     page.asset_candidates = refreshed
 
+
+def configured_source_asset_candidates(cfg: dict, pages_by_url: dict[str, Page], asset_domains: set[str]) -> list[dict]:
+    """Plan supplier-reviewed direct assets without pretending their attachment URLs are HTML pages."""
+    candidates: list[dict] = []
+    for order, item in enumerate(cfg.get('source_assets', [])):
+        source_url = normalize(item.get('url', ''), cfg['base_url'])
+        page_url = normalize(item.get('page_url', ''), cfg['base_url'])
+        kind = item.get('kind') or ('document' if source_url and Path(urlparse(source_url).path).suffix.lower() == '.pdf' else 'image')
+        role = explicit_role(item.get('role'))
+        if not source_url or not page_url:
+            raise ValueError(f'invalid configured source asset at index {order}')
+        if page_url not in pages_by_url:
+            raise ValueError(f'configured source asset page was not discovered: {page_url}')
+        if not same_allowed(source_url, asset_domains):
+            raise ValueError(f'configured source asset is outside allowed domains: {source_url}')
+        selected_url = rewrite_asset_url(source_url, cfg)
+        if not same_allowed(selected_url, asset_domains) or not relevant_asset(selected_url, role):
+            raise ValueError(f'invalid configured source asset URL or role: {selected_url}')
+        candidates.append({
+            'url': selected_url,
+            'source_url': source_url,
+            'page_url': page_url,
+            'kind': kind,
+            'role': role,
+            'order': -1000 + order,
+            'group': item.get('group') or page_url,
+            'association_rank': int(item.get('association_rank', 0)),
+            'relationship_signals': sorted(set(item.get('relationship_signals', ['supplier-reviewed-source-asset']))),
+        })
+    return candidates
+
+
+def attach_configured_source_asset_candidates(candidates: list[dict], pages_by_url: dict[str, Page]) -> None:
+    """Persist reviewed direct-source occurrences on their evidence pages for offline replay."""
+    for candidate in candidates:
+        page = pages_by_url[candidate['page_url']]
+        if candidate['url'] in {item['url'] for item in page.asset_candidates}:
+            continue
+        page.asset_candidates.append({
+            key: candidate[key]
+            for key in ('url', 'source_url', 'kind', 'role', 'order')
+        })
+
+
 def atomic_write_json(path: Path, value) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     handle, temp_name = tempfile.mkstemp(prefix=f'.{path.name}.', suffix='.tmp', dir=path.parent)
@@ -717,7 +779,13 @@ def image_dimensions(body: bytes, content_type: str | None = None) -> tuple[int 
             index += max(length, 2)
     if body.startswith(b'RIFF') and body[8:12] == b'WEBP' and len(body) >= 30 and body[12:16] == b'VP8X':
         return int.from_bytes(body[24:27], 'little') + 1, int.from_bytes(body[27:30], 'little') + 1
-    return None, None
+    try:
+        from io import BytesIO
+        from PIL import Image
+        with Image.open(BytesIO(body)) as image:
+            return image.size
+    except Exception:
+        return None, None
 
 
 def hydrate_asset_metadata(asset: Asset) -> None:
@@ -731,8 +799,7 @@ def hydrate_asset_metadata(asset: Asset) -> None:
         asset.width, asset.height = image_dimensions(body, asset.mime_type)
 
 def save_asset_body(supplier: str, url: str, page_url: str, kind: str, role: str, response: FetchResponse, staging_root: Path) -> Asset:
-    extension = Path(urlparse(url).path).suffix.lower()
-    if kind == 'image' and extension not in MEDIA_EXTS: extension = mimetypes.guess_extension(response.content_type) or '.img'
+    extension = response_image_extension(url, response.content_type) if kind == 'image' else Path(urlparse(url).path).suffix.lower()
     if kind == 'document': extension = '.pdf'
     permanent_root = (PUBLIC_IMG if kind == 'image' else PUBLIC_DOC) / supplier
     permanent_path = permanent_root / safe_filename(url, kind, extension)
@@ -941,6 +1008,25 @@ def enforce_filename_owner_precedence(assets: dict[str, Asset], products: list[d
             if product['id'] not in owners:
                 product['media'] = [path for path in product.get('media', []) if path != local_path]
                 product['documents'] = [path for path in product.get('documents', []) if path != local_path]
+
+
+def apply_configured_asset_roles(assets: dict[str, Asset], rules: list[dict] | None = None) -> None:
+    """Replay reviewed supplier role rules against already-downloaded image assets."""
+    if not rules:
+        return
+    for asset in assets.values():
+        if asset.asset_type != 'image':
+            continue
+        urls = {asset.original_asset_url, asset.final_asset_url, *(asset.source_asset_urls or [])}
+        configured_role = next((
+            explicit_role(rule.get('role'))
+            for rule in rules
+            if any(re.search(pattern, url, re.I) for pattern in rule.get('patterns', []) for url in urls)
+        ), None)
+        if not configured_role:
+            continue
+        asset.role = configured_role
+        asset.relationship_evidence = sorted(set(asset.relationship_evidence + ['supplier-scoped-asset-role']))
 
 
 def apply_asset_relationship_rules(assets: dict[str, Asset], products: list[dict], rules: list[dict] | None = None) -> None:
@@ -1330,6 +1416,14 @@ def crawl_supplier(cfg: dict, args) -> tuple[dict, bool]:
             candidate_item['relationship_signals'] = signals
             candidate_item['association_rank'] = 0 if any(signal in signals for signal in ('filename-model-match', 'structured-product-image')) else (1 if any(signal in signals for signal in ('primary-product-hero', 'primary-product-gallery')) else (3 if item['role'] in DOCUMENT_ROLES else 9))
             groups.setdefault(group, []).append(candidate_item)
+    try:
+        configured_candidates = configured_source_asset_candidates(cfg, pages_by_url, asset_domains)
+        attach_configured_source_asset_candidates(configured_candidates, pages_by_url)
+        for candidate_item in configured_candidates:
+            occurrences_by_url.setdefault(candidate_item['url'], set()).add(candidate_item['page_url'])
+            groups.setdefault(candidate_item['group'], []).append(candidate_item)
+    except ValueError as error:
+        errors.append({'phase': 'asset-planning', 'error': str(error)})
     asset_plan_error: str | None = None
     try:
         asset_tasks, asset_plan = build_asset_tasks(groups, args.max_assets, saved_asset_tasks if saved_asset_plan.get('plannerVersion') == ASSET_PLANNER_VERSION else None, expand_saved=not saved_asset_plan.get('noPageDiscovery', False))

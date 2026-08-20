@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T08:06:56.610491+00:00",
+  "generatedAt": "2026-08-20T08:51:13.353264+00:00",
   "suppliers": [
     {
       "supplier": "vinyl-pro",
@@ -13020,14 +13020,14 @@
     },
     {
       "supplier": "oceanview",
-      "status": "VERIFICATION-PENDING",
-      "websiteStatus": "VERIFICATION-PENDING",
-      "mediaStatus": "VERIFICATION-PENDING",
-      "pdfStatus": "VERIFICATION-PENDING",
-      "basis": "Live website, media, and PDF completeness audit is not yet approved.",
-      "expectedRelevantProducts": null,
-      "manifestCrawledAt": "2026-08-19T18:57:28Z",
-      "pagesCrawled": 15,
+      "status": "VERIFIED",
+      "websiteStatus": "VERIFIED",
+      "mediaStatus": "VERIFIED",
+      "pdfStatus": "VERIFIED",
+      "basis": "Live supplier website, five current product identities, original/native product media, seven supplier documents, 18 PDF pages, page-level PDF evidence, normalized facts, and representative visual review directly verified 2026-08-20; 25 accepted assets and zero uncertain associations.",
+      "expectedRelevantProducts": 5,
+      "manifestCrawledAt": "2026-08-20T08:49:11Z",
+      "pagesCrawled": 11,
       "errors": [],
       "products": [
         {
@@ -13038,22 +13038,22 @@
           "category": "patio-doors",
           "canonicalUrl": "https://oceanviewdoors.ca/patio-doors/essential/",
           "mediaAvailable": {
-            "hero": false,
-            "gallery": false,
-            "technicalDrawings": false,
-            "colourFinish": false,
+            "hero": true,
+            "gallery": true,
+            "technicalDrawings": true,
+            "colourFinish": true,
             "glass": false,
-            "hardware": false
+            "hardware": true
           },
           "documentsAvailable": {
-            "brochure": false,
+            "brochure": true,
             "specificationSheet": false,
             "installationGuide": false,
-            "warranty": false,
+            "warranty": true,
             "performanceDocument": false,
-            "catalogue": false
+            "catalogue": true
           },
-          "verifiedAt": "2026-08-19T18:57:28Z"
+          "verifiedAt": "2026-08-20T08:49:11Z"
         },
         {
           "productId": "oceanview:premium",
@@ -13063,22 +13063,22 @@
           "category": "patio-doors",
           "canonicalUrl": "https://oceanviewdoors.ca/patio-doors/premium/",
           "mediaAvailable": {
-            "hero": false,
-            "gallery": false,
-            "technicalDrawings": false,
-            "colourFinish": false,
+            "hero": true,
+            "gallery": true,
+            "technicalDrawings": true,
+            "colourFinish": true,
             "glass": false,
-            "hardware": false
+            "hardware": true
           },
           "documentsAvailable": {
-            "brochure": false,
+            "brochure": true,
             "specificationSheet": false,
             "installationGuide": false,
-            "warranty": false,
+            "warranty": true,
             "performanceDocument": false,
-            "catalogue": false
+            "catalogue": true
           },
-          "verifiedAt": "2026-08-19T18:57:28Z"
+          "verifiedAt": "2026-08-20T08:49:11Z"
         },
         {
           "productId": "oceanview:premium-plus",
@@ -13088,22 +13088,72 @@
           "category": "patio-doors",
           "canonicalUrl": "https://oceanviewdoors.ca/patio-doors/premium-plus/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
+            "gallery": true,
+            "technicalDrawings": true,
+            "colourFinish": true,
+            "glass": false,
+            "hardware": true
+          },
+          "documentsAvailable": {
+            "brochure": true,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": true,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T08:49:11Z"
+        },
+        {
+          "productId": "oceanview:armour",
+          "name": "Armour",
+          "modelNumber": null,
+          "collection": "Patio Doors",
+          "category": "patio-doors",
+          "canonicalUrl": "https://oceanviewdoors.ca/patio-doors/armour/",
+          "mediaAvailable": {
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
-            "colourFinish": false,
+            "colourFinish": true,
             "glass": false,
             "hardware": false
           },
           "documentsAvailable": {
-            "brochure": false,
+            "brochure": true,
             "specificationSheet": false,
             "installationGuide": false,
-            "warranty": false,
+            "warranty": true,
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T18:57:28Z"
+          "verifiedAt": "2026-08-20T08:49:11Z"
+        },
+        {
+          "productId": "oceanview:ultra-glide",
+          "name": "Ultra Glide",
+          "modelNumber": null,
+          "collection": "Patio Doors",
+          "category": "patio-doors",
+          "canonicalUrl": "https://oceanviewdoors.ca/patio-doors/ultra-glide/",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": true,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": true,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": true,
+            "performanceDocument": false,
+            "catalogue": false
+          },
+          "verifiedAt": "2026-08-20T08:49:11Z"
         }
       ]
     },

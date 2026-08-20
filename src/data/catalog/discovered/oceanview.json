@@ -13,11 +13,24 @@
     "sourceUrl": "https://oceanviewdoors.ca/patio-doors/essential/",
     "sourceType": "live-crawl",
     "media": [
-      "/images/catalog/oceanview/essential-ce57b6b9beb9.jpg"
+      "/images/catalog/oceanview/essential-ce57b6b9beb9.jpg",
+      "/images/catalog/oceanview/graph-1-2530ed7f25fd.jpg",
+      "/images/catalog/oceanview/j1-750-2f5596297132-fab22613.png",
+      "/images/catalog/oceanview/j1-spin-5c8e7aefc00d-ff9dfd53.png",
+      "/images/catalog/oceanview/lock-2-078e5a6700ed.jpg",
+      "/images/catalog/oceanview/reduced-air-infiltration-b569c9744c04.jpg",
+      "/images/catalog/oceanview/smooth-easy-rolling-image-578168ccb706.png",
+      "/images/catalog/oceanview/solar-1-609dbd547fae-76140e20.png"
     ],
-    "documents": [],
+    "documents": [
+      "/documents/catalog/oceanview/oceanview-colours-patio-door-converted-45697d72a43f.pdf",
+      "/documents/catalog/oceanview/oceanview-paint-colour-guide-6274ce496867.pdf",
+      "/documents/catalog/oceanview/oceanview-slider-june-2026low-0b284e29c269.pdf",
+      "/documents/catalog/oceanview/pacific-series-21accf1b405b.pdf",
+      "/documents/catalog/oceanview/warranty-oceanview-5bde550c9444.pdf"
+    ],
     "specifications": {},
-    "lastVerified": "2026-08-19"
+    "lastVerified": "2026-08-20"
   },
   {
     "id": "oceanview:premium",
@@ -33,11 +46,24 @@
     "sourceUrl": "https://oceanviewdoors.ca/patio-doors/premium/",
     "sourceType": "live-crawl",
     "media": [
-      "/images/catalog/oceanview/premium-d75598bb9b06.jpg"
+      "/images/catalog/oceanview/graph-1-2530ed7f25fd.jpg",
+      "/images/catalog/oceanview/j2-750-258121fc7c92-38f6d35b.png",
+      "/images/catalog/oceanview/j2-spin-04ea5a24c10f-4e8a82fa.png",
+      "/images/catalog/oceanview/lock-2-078e5a6700ed.jpg",
+      "/images/catalog/oceanview/premium-d75598bb9b06.jpg",
+      "/images/catalog/oceanview/reduced-air-infiltration-b569c9744c04.jpg",
+      "/images/catalog/oceanview/smooth-easy-rolling-image-578168ccb706.png",
+      "/images/catalog/oceanview/solar-1-609dbd547fae-76140e20.png"
     ],
-    "documents": [],
+    "documents": [
+      "/documents/catalog/oceanview/oceanview-colours-patio-door-converted-45697d72a43f.pdf",
+      "/documents/catalog/oceanview/oceanview-paint-colour-guide-6274ce496867.pdf",
+      "/documents/catalog/oceanview/oceanview-slider-june-2026low-0b284e29c269.pdf",
+      "/documents/catalog/oceanview/pacific-series-21accf1b405b.pdf",
+      "/documents/catalog/oceanview/warranty-oceanview-5bde550c9444.pdf"
+    ],
     "specifications": {},
-    "lastVerified": "2026-08-19"
+    "lastVerified": "2026-08-20"
   },
   {
     "id": "oceanview:premium-plus",
@@ -53,10 +79,73 @@
     "sourceUrl": "https://oceanviewdoors.ca/patio-doors/premium-plus/",
     "sourceType": "live-crawl",
     "media": [
-      "/images/catalog/oceanview/premiumplus-interior-01-2-17bd4a5fef59.jpg"
+      "/images/catalog/oceanview/graph-1-2530ed7f25fd.jpg",
+      "/images/catalog/oceanview/j3-750-809e4887430b-5af0314d.png",
+      "/images/catalog/oceanview/j3-spin-4199db41de56-11aff9df.png",
+      "/images/catalog/oceanview/lock-2-078e5a6700ed.jpg",
+      "/images/catalog/oceanview/premiumplus-interior-01-2-17bd4a5fef59.jpg",
+      "/images/catalog/oceanview/reduced-air-infiltration-b569c9744c04.jpg",
+      "/images/catalog/oceanview/smooth-easy-rolling-image-578168ccb706.png",
+      "/images/catalog/oceanview/solar-1-609dbd547fae-76140e20.png"
     ],
-    "documents": [],
+    "documents": [
+      "/documents/catalog/oceanview/oceanview-colours-patio-door-converted-45697d72a43f.pdf",
+      "/documents/catalog/oceanview/oceanview-paint-colour-guide-6274ce496867.pdf",
+      "/documents/catalog/oceanview/oceanview-slider-june-2026low-0b284e29c269.pdf",
+      "/documents/catalog/oceanview/pacific-series-21accf1b405b.pdf",
+      "/documents/catalog/oceanview/warranty-oceanview-5bde550c9444.pdf"
+    ],
     "specifications": {},
-    "lastVerified": "2026-08-19"
+    "lastVerified": "2026-08-20"
+  },
+  {
+    "id": "oceanview:armour",
+    "manufacturer": "oceanview",
+    "slug": "armour",
+    "name": "Armour",
+    "category": "patio-doors",
+    "collection": "Patio Doors",
+    "modelNumber": null,
+    "type": "Sliding Patio Door",
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://oceanviewdoors.ca/patio-doors/armour/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/oceanview/pd-armour-2203ef333929-da9c993c.png"
+    ],
+    "documents": [
+      "/documents/catalog/oceanview/armour-series-977911730ad5.pdf",
+      "/documents/catalog/oceanview/oceanview-colours-patio-door-converted-45697d72a43f.pdf",
+      "/documents/catalog/oceanview/oceanview-paint-colour-guide-6274ce496867.pdf",
+      "/documents/catalog/oceanview/warranty-oceanview-5bde550c9444.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-20"
+  },
+  {
+    "id": "oceanview:ultra-glide",
+    "manufacturer": "oceanview",
+    "slug": "ultra-glide",
+    "name": "Ultra Glide",
+    "category": "patio-doors",
+    "collection": "Patio Doors",
+    "modelNumber": null,
+    "type": "Sliding Patio Door",
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://oceanviewdoors.ca/patio-doors/ultra-glide/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/oceanview/pd-ultra-glide-77689e9d8790-1f07630f.png"
+    ],
+    "documents": [
+      "/documents/catalog/oceanview/oceanview-colours-patio-door-converted-45697d72a43f.pdf",
+      "/documents/catalog/oceanview/oceanview-paint-colour-guide-6274ce496867.pdf",
+      "/documents/catalog/oceanview/ultraglide-series-f7bec292bca6.pdf",
+      "/documents/catalog/oceanview/warranty-oceanview-5bde550c9444.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-20"
   }
 ]

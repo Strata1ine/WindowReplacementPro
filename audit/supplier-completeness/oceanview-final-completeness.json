@@ -1,0 +1,213 @@
+{
+  "supplier": "oceanview",
+  "supplierName": "Oceanview Patio Doors",
+  "completedAt": "2026-08-20",
+  "status": "WEBSITE + MEDIA + PDF VERIFIED",
+  "catalogue": {
+    "canonicalProducts": 5,
+    "collections": [
+      "Patio Doors"
+    ],
+    "newCanonicalProducts": 2,
+    "newCanonicalProductIds": [
+      "oceanview:armour",
+      "oceanview:ultra-glide"
+    ],
+    "mergedOceanviewRecords": 5,
+    "productsWithNormalizedFacts": 5,
+    "productsWithEditorialDrafts": 3,
+    "newRecordsHeldForIndependentEditorialReview": 2,
+    "newlyPublishableProducts": 0,
+    "totalPublishableProducts": 3
+  },
+  "liveCrawl": {
+    "pagesCrawled": 11,
+    "acceptedRunId": "20260820T081251Z-9436",
+    "nativeImageCorrectionRunId": "20260820T083000Z-native-images",
+    "originalMediaCorrectionRunId": "20260820T090000Z-original-media",
+    "finalAssetPlanTasks": 26,
+    "validatedBinariesReusedInFinalCorrection": 24,
+    "newNetworkAssetRequestsInFinalCorrection": 2,
+    "normalSupplierDelaySeconds": 10,
+    "pageDiscoveryRepeatedForCorrections": false,
+    "pendingAssetTasks": 0,
+    "retryableAssetTasks": 0,
+    "manifestErrors": 0,
+    "offDomainRedirectsAccepted": 0,
+    "offDomainAssetsAccepted": 0
+  },
+  "liveMedia": {
+    "productsWithCorrectHero": 5,
+    "productsWithAnyMedia": 5,
+    "productsWithDocuments": 5,
+    "missingProductSpecificMedia": 0,
+    "acceptedImageAssets": 18,
+    "acceptedPdfAssets": 7,
+    "assetRoles": {
+      "product-hero": 5,
+      "product-gallery": 6,
+      "lifestyle-product": 1,
+      "profile-section": 2,
+      "configuration-diagram": 1,
+      "hardware": 1,
+      "finish-swatch": 2,
+      "colour-chart": 2,
+      "brochure": 3,
+      "catalogue": 1,
+      "warranty": 1
+    },
+    "relationshipStates": {
+      "product-specific": 13,
+      "collection-shared": 10,
+      "supplier-shared": 2,
+      "uncertain/review": 0
+    },
+    "uncertainPublicAssociations": 0,
+    "sharedProductBinaries": 10,
+    "duplicateAcceptedSha256Groups": 0,
+    "genericLogoIconNavigationAssetsAttached": 0,
+    "acceptedMimeTypes": {
+      "image/jpeg": 8,
+      "image/png": 10,
+      "application/pdf": 7
+    }
+  },
+  "originalMedia": {
+    "acceptedHighestPracticalImageSources": 18,
+    "explicitlyVerifiedNativeOrOriginalImages": 10,
+    "verifiedUnsuffixedWordPressOriginal": "https://oceanviewdoors.ca/wp-content/uploads/2026/04/SMOOTH_EASY_ROLLING_IMAGE.png",
+    "verifiedOriginalDimensions": "2752x1536",
+    "supersededScaledDimensions": "2560x1429",
+    "responsiveOrScaledDerivativesAccepted": 0,
+    "responseTranscodesQuarantinedRecoverably": 10,
+    "nativeSourceExtensionMatchesMime": true,
+    "originalMediaSourceAliasesPreserved": true
+  },
+  "documents": {
+    "totalPdfDocuments": 7,
+    "documents": [
+      {
+        "title": "Oceanview Armour Series",
+        "documentDate": "2026-03-10",
+        "pages": 1,
+        "freshnessStatus": "current-source-indirect",
+        "productIds": [
+          "oceanview:armour"
+        ],
+        "ocrRequired": true
+      },
+      {
+        "title": "Oceanview Patio Door Colour Guide",
+        "documentDate": "2026-03-12",
+        "pages": 1,
+        "freshnessStatus": "current-source-linked",
+        "productIds": [
+          "oceanview:essential",
+          "oceanview:premium",
+          "oceanview:premium-plus",
+          "oceanview:armour",
+          "oceanview:ultra-glide"
+        ],
+        "ocrRequired": true
+      },
+      {
+        "title": "Oceanview Paint Colour Guide",
+        "documentDate": "2026-03-16",
+        "pages": 1,
+        "freshnessStatus": "current-source-indirect",
+        "productIds": [
+          "oceanview:essential",
+          "oceanview:premium",
+          "oceanview:premium-plus",
+          "oceanview:armour",
+          "oceanview:ultra-glide"
+        ],
+        "ocrRequired": true
+      },
+      {
+        "title": "Oceanview Pacific Series Patio Doors Catalogue",
+        "documentDate": "2026-06-16",
+        "pages": 6,
+        "freshnessStatus": "current-source-linked",
+        "productIds": [
+          "oceanview:essential",
+          "oceanview:premium",
+          "oceanview:premium-plus"
+        ],
+        "ocrRequired": false
+      },
+      {
+        "title": "Oceanview Pacific Series Patio Doors Brochure",
+        "documentDate": "2025-10-07",
+        "pages": 6,
+        "freshnessStatus": "current-source-indirect",
+        "productIds": [
+          "oceanview:essential",
+          "oceanview:premium",
+          "oceanview:premium-plus"
+        ],
+        "ocrRequired": false
+      },
+      {
+        "title": "Oceanview Ultraglide Sliding System",
+        "documentDate": "2026-03-10",
+        "pages": 1,
+        "freshnessStatus": "current-source-indirect",
+        "productIds": [
+          "oceanview:ultra-glide"
+        ],
+        "ocrRequired": true
+      },
+      {
+        "title": "Oceanview Limited Non-Prorated Warranty",
+        "documentDate": "2026-04-29",
+        "pages": 2,
+        "freshnessStatus": "current-source-linked",
+        "productIds": [
+          "oceanview:essential",
+          "oceanview:premium",
+          "oceanview:premium-plus",
+          "oceanview:armour",
+          "oceanview:ultra-glide"
+        ],
+        "ocrRequired": false
+      }
+    ],
+    "allPdfPagesProcessed": 18,
+    "allExtractedTextCharacters": 48538,
+    "allTablesExtracted": 35,
+    "allEmbeddedImagesExtracted": 28,
+    "ocrRequiredPages": 4,
+    "extractionErrors": 0
+  },
+  "visualReview": {
+    "status": "passed",
+    "directory": "audit/supplier-completeness/visual-review/oceanview",
+    "reviewed": [
+      "All 18 PDF pages across seven supplier documents",
+      "All 18 accepted image assets in a contact sheet",
+      "Current Pacific catalogue configurations, size tables, glazing, colours, hardware, and warranty evidence",
+      "Armour and Ultraglide supplier sheets"
+    ],
+    "browserChromeScreenshotsUsed": 0
+  },
+  "validation": {
+    "associationRevalidation": "passed offline; 25 accepted assets, no missing media, no uncertain relationships",
+    "crawlerTests": "87/87 passed",
+    "catalogueValidation": "passed",
+    "fullVerify": "passed: Astro check 0 diagnostics; catalogue/enrichment integrity OK; 87 crawler tests and catalogue fixtures passed; 236-page build and sitemap validation passed",
+    "pdfExtractionErrors": 0,
+    "relationshipUncertain": 0,
+    "remainingEncodingIssues": 0
+  },
+  "missingProducts": [],
+  "remainingWeaknesses": [
+    "The live Armour and Ultra Glide pages contain placeholder Lorem Ipsum and a shared Pacific template specification block. Only conservative identity/type facts are normalized, and both new records remain on publication hold pending independent editorial review.",
+    "Four one-page supplier PDFs are image-dominant and remain flagged OCR-required. Their rendered pages were visually reviewed; no OCR-derived technical facts were published.",
+    "The Pacific PDFs emit soft-mask size-mismatch warnings while extracting embedded images. Page rendering, text, tables, checksums, and extracted-image output remain valid, with zero recorded extraction errors.",
+    "Two legacy generic public images remain unreferenced and unattached: featured-image-6fa666d322b8.jpg and hardware-hero-scaled-698ef2137922.jpg. They were retained because this phase did not authorize destructive cleanup.",
+    "Oceanview WordPress attachment evidence sometimes redirects directly to media rather than an HTML attachment page. Reviewed direct-source assets are now first-class plan inputs and regression-tested.",
+    "The live product pages expose no Product JSON-LD; canonical identities therefore rely on supplier-scoped path mappings and saved page evidence."
+  ],
+  "nextSupplierAllowed": true
+}
