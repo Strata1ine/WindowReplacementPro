@@ -212,7 +212,7 @@ def build_reports() -> tuple[list[dict], list[dict]]:
                 "mediaLocal": {
                     "hero": hero_local,
                     "gallery": local_roles["product-gallery"] > 0,
-                    "technicalDrawings": local_roles["technical-drawing"] > 0,
+                    "technicalDrawings": sum(local_roles[role] for role in {"technical-drawing", "profile-section", "configuration-diagram"}) > 0,
                     "configuration": local_roles["configuration-diagram"] > 0,
                     "colourFinish": local_roles["colour-chart"] + local_roles["finish-swatch"] > 0,
                     "glass": local_roles["glass-design"] > 0,
@@ -248,7 +248,7 @@ def build_reports() -> tuple[list[dict], list[dict]]:
             "productsWithNormalizedSpecifications": normalized,
             "productsWithProductImage": sum(bool(item.get("media")) for item in records),
             "productsWithGallery": sum(any(roles_by_path.get(path) == "product-gallery" for path in item.get("media", [])) for item in records),
-            "productsWithTechnicalDrawings": sum(any(roles_by_path.get(path) == "technical-drawing" for path in item.get("media", [])) for item in records),
+            "productsWithTechnicalDrawings": sum(any(roles_by_path.get(path) in {"technical-drawing", "profile-section", "configuration-diagram"} for path in item.get("media", [])) for item in records),
             "productsWithDocuments": sum(bool(item.get("documents")) for item in records),
             "permanentImageFiles": len(image_files),
             "permanentPdfFiles": len(document_files),
