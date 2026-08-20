@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T06:24:58.504669+00:00",
+  "generatedAt": "2026-08-20T07:18:35.089927+00:00",
   "products": [
     {
       "supplier": "trimlite",
@@ -843,1050 +843,6 @@
     },
     {
       "supplier": "mennie-canada",
-      "liveProductName": "8' Mahogany Grain (MAH8-5L)",
-      "liveModelNumber": "MAH8-5L",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/8-mahogany-grain-mah8-5l/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah8-5l",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "8' Mahogany Grain (MAH-8'GP)",
-      "liveModelNumber": "MAH-8'GP",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/8-mahogany-grain-mah-8gp/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah-8-gp",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "8' Mahogany Grain Flush Planked (MAH8-F)",
-      "liveModelNumber": "MAH8-F",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/mah-f-8/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah8-f",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "8' Mahogany Grain 2 Panel 3 Quarter Lite (MAH8-3Q)",
-      "liveModelNumber": "MAH8-3Q",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/mah-8f-3q/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah8-3q",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "8' Mahogany Grain Non Planked Rustic Panel (MAH8-NRP)",
-      "liveModelNumber": "MAH8-NRP",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/mah-8nrp/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah8-nrp",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "8' Mahogany Grain Rustic Panel Camber Top (MAH8-RPCT)",
-      "liveModelNumber": "MAH8-RPCT",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/mah-8rpct/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah8-rpct",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "8' Mahogany Grain Rustic Panel (MAH8-RP)",
-      "liveModelNumber": "MAH8-RP",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/mah-8-rp/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah8-rp",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Mahogany Grain (SS-9)",
-      "liveModelNumber": "MAH-SS9",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/ss9/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah-ss9",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Mahogany Grain (SS-7)",
-      "liveModelNumber": "MAH-SS7",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/ss7/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah-ss7",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Mahogany Grain (SS-5)",
-      "liveModelNumber": "MAH-SS5",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/ss5/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah-ss5",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Mahogany Grain (SS-3)",
-      "liveModelNumber": "MAH-SS3",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/ss3/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah-ss3",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Mahogany Grain (SS-1)",
-      "liveModelNumber": "MAH-SS1",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/ss1/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah-ss1",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Mahogany Grain (GR-15)",
-      "liveModelNumber": "MAH-GR15",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/gr-15/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah-gr15",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Mahogany Grain (GR-14)",
-      "liveModelNumber": "MAH-GR14",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/gr-14/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah-gr14",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Mahogany Grain (GR-13)",
-      "liveModelNumber": "MAH-GR13",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/gr-13/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah-gr13",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Mahogany Grain (GR-12)",
-      "liveModelNumber": "MAH-GR12",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/gr-12/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah-gr12",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Mahogany Grain (GR-11)",
-      "liveModelNumber": "MAH-GR11",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/gr-11/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah-gr11",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Mahogany Grain (GR-10)",
-      "liveModelNumber": "MAH-GR10",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/gr-10/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah-gr10",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
       "liveProductName": "6'8\" Mahogany Grain (GR-9)",
       "liveModelNumber": "MAH-GR9",
       "collection": "Mahogany Grain",
@@ -1930,7 +886,17 @@
         "captured": false,
         "paths": []
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 10,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0010.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ],
       "completeness": {
         "identityComplete": true,
         "factsComplete": true,
@@ -1939,473 +905,9 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Mahogany Grain (GR-8)",
-      "liveModelNumber": "MAH-GR8",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/gr-8/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah-gr8",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Mahogany Grain (GR-7)",
-      "liveModelNumber": "MAH-GR7",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/gr-7/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah-gr7",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Mahogany Grain (GR-6)",
-      "liveModelNumber": "MAH-GR6",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/gr-6/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah-gr6",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Mahogany Grain (GR-5)",
-      "liveModelNumber": "MAH-GR5",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/gr-5/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah-gr5",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Mahogany Grain (GR-4)",
-      "liveModelNumber": "MAH-GR4",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/gr-4/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah-gr4",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Mahogany Grain (GR-3)",
-      "liveModelNumber": "MAH-GR3",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/gr-3/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah-gr3",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Mahogany Grain (GR-2)",
-      "liveModelNumber": "MAH-GR2",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/gr-2/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah-gr2",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Mahogany Grain (GR-1)",
-      "liveModelNumber": "MAH-GR1",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/gr-1/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah-gr1",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image"
     },
     {
       "supplier": "mennie-canada",
@@ -2452,7 +954,31 @@
         "captured": false,
         "paths": []
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 2,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0002.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0002-table-01.json"
+          ],
+          "images": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/images/page-0002-image-02.jpg",
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/images/page-0002-image-03.jpg"
+          ],
+          "factCandidates": []
+        },
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 6,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0006.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ],
       "completeness": {
         "identityComplete": true,
         "factsComplete": true,
@@ -2461,473 +987,9 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Mahogany Grain 5 Lites (MAH-5L)",
-      "liveModelNumber": "MAH-5L",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/mah-5l/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah-5l",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Mahogany Grain Flush Panel (MAH-F)",
-      "liveModelNumber": "MAH-F",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/mah-flush/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah-f",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Mahogany Grain 3 Panel Arched (MAH-3PA)",
-      "liveModelNumber": "MAH-3PA",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/mah-3pa/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah-3pa",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Mahogany Grain (MAH2-D) 2 Panel",
-      "liveModelNumber": "MAH-2D",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/mah-2-d/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah-2d",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Mahogany Grain 2 Panel Embossed (MAH-EM)",
-      "liveModelNumber": "MAH-2EM",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/mah-2em/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah-2em",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Mahogany Grain Craftsman Panel (MAH-CRF)",
-      "liveModelNumber": "MAH-CRF",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/mah-crf/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah-crf",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Mahogany Grain Rustic Panel (MAH-RP)",
-      "liveModelNumber": "MAH-RP",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/mah-rp/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:mah-rp",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "8' Oak Grain Mexico (WG8-MXP)",
-      "liveModelNumber": "WG8-MXP",
-      "collection": "Oak Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/oak-grain/wg8-mxp/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:wg8-mxp",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image"
     },
     {
       "supplier": "mennie-canada",
@@ -2942,7 +1004,7 @@
         "correctIdentity": true,
         "correctCategory": true,
         "correctModel": true,
-        "specificationsCaptured": false
+        "specificationsCaptured": true
       },
       "mediaAvailableLive": {
         "hero": false,
@@ -2974,18 +1036,28 @@
         "captured": false,
         "paths": []
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 5,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0005.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ],
       "completeness": {
         "identityComplete": true,
-        "factsComplete": false,
+        "factsComplete": true,
         "heroMediaAvailable": true,
         "galleryAvailable": true,
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "requires-review"
+        "state": "source-complete"
       },
-      "reason": "no accepted product media relationship"
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image"
     },
     {
       "supplier": "mennie-canada",
@@ -3032,7 +1104,17 @@
         "captured": false,
         "paths": []
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 5,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0005.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ],
       "completeness": {
         "identityComplete": true,
         "factsComplete": true,
@@ -3041,9 +1123,9 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       },
-      "reason": "no accepted product media relationship"
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image"
     },
     {
       "supplier": "mennie-canada",
@@ -3090,7 +1172,17 @@
         "captured": false,
         "paths": []
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 5,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0005.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ],
       "completeness": {
         "identityComplete": true,
         "factsComplete": true,
@@ -3099,9 +1191,9 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       },
-      "reason": "no accepted product media relationship"
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image"
     },
     {
       "supplier": "mennie-canada",
@@ -3148,7 +1240,17 @@
         "captured": false,
         "paths": []
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 5,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0005.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ],
       "completeness": {
         "identityComplete": true,
         "factsComplete": true,
@@ -3157,9 +1259,9 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       },
-      "reason": "no accepted product media relationship"
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image"
     },
     {
       "supplier": "mennie-canada",
@@ -3206,7 +1308,17 @@
         "captured": false,
         "paths": []
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 5,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0005.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ],
       "completeness": {
         "identityComplete": true,
         "factsComplete": true,
@@ -3215,125 +1327,9 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Oak Grain 4 Panel Blank Top (WG-4PBT)",
-      "liveModelNumber": "WG-4PBT",
-      "collection": "Oak Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/oak-grain/wg-4ptb/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:wg-4pbt",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "WG-1P",
-      "liveModelNumber": "WG-1P",
-      "collection": "Oak Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/oak-grain/wg-1p/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:wg-1p",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image"
     },
     {
       "supplier": "mennie-canada",
@@ -3380,7 +1376,17 @@
         "captured": false,
         "paths": []
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 5,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0005.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ],
       "completeness": {
         "identityComplete": true,
         "factsComplete": true,
@@ -3389,67 +1395,9 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Oak Grain Contemporary (WG-CTP)",
-      "liveModelNumber": "WG-CTP",
-      "collection": "Oak Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/oak-grain/wg-ctp/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:wg-ctp",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image"
     },
     {
       "supplier": "mennie-canada",
@@ -3496,7 +1444,17 @@
         "captured": false,
         "paths": []
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 5,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0005.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ],
       "completeness": {
         "identityComplete": true,
         "factsComplete": true,
@@ -3505,415 +1463,9 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Oak Grain 2 Panel Embossed (WG-2EM)",
-      "liveModelNumber": "WG-2EM",
-      "collection": "Oak Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/oak-grain/wg-2em/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:wg-2em",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Oak Grain 3 Panel Arched (WG-3PA)",
-      "liveModelNumber": "WG-3PA",
-      "collection": "Oak Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/oak-grain/wg-3pa/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:wg-3pa",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Oak Grain Flush Panel (WG-F)",
-      "liveModelNumber": "WG-F",
-      "collection": "Oak Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/oak-grain/wg-f/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:wg-f",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Oak Grain Reeded Glass Panel (WG-RGP)",
-      "liveModelNumber": "WG-RGP",
-      "collection": "Oak Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/oak-grain/wg-rgp/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:wg-rgp",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "8' Smooth Craftsman 3 Panel (SM-8-CRF)",
-      "liveModelNumber": "SM-8-CRF",
-      "collection": "Smooth",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/smooth-doors/sm-8-crf/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:sm-8-crf",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "8' Smooth 2 Panel Shaker (SM-8-S2K)",
-      "liveModelNumber": "SM-8-S2K",
-      "collection": "Smooth",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/smooth-doors/sm-8-s2k/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:sm-8-s2k",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "8' Smooth 1 Panel Shaker (SM-8-S1K)",
-      "liveModelNumber": "SM-8-S1K",
-      "collection": "Smooth",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/smooth-doors/sm-8-s1k/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:sm-8-s1k",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image"
     },
     {
       "supplier": "mennie-canada",
@@ -3969,9 +1521,9 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       },
-      "reason": "no accepted product media relationship"
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image"
     },
     {
       "supplier": "mennie-canada",
@@ -4018,7 +1570,19 @@
         "captured": false,
         "paths": []
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 9,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0009.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0009-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": []
+        }
+      ],
       "completeness": {
         "identityComplete": true,
         "factsComplete": true,
@@ -4027,125 +1591,9 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "8' Smooth (SM8-GP)",
-      "liveModelNumber": "SM8-GP",
-      "collection": "Smooth",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/smooth-doors/8-smooth-sm8-gp/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:sm8-gp",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "8' Smooth 2 Panel (SM8-2H)",
-      "liveModelNumber": "SM8-2H",
-      "collection": "Smooth",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/smooth-doors/sm8-2h/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:sm8-2h",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image"
     },
     {
       "supplier": "mennie-canada",
@@ -4192,7 +1640,19 @@
         "captured": false,
         "paths": []
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 9,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0009.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0009-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": []
+        }
+      ],
       "completeness": {
         "identityComplete": true,
         "factsComplete": true,
@@ -4201,183 +1661,9 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "8' Smooth Flush Panel (SM8-F)",
-      "liveModelNumber": "SM8-F",
-      "collection": "Smooth",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/smooth-doors/sm8-f/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:sm8-f",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Smooth 2 Panel Shaker (SM-S2K)",
-      "liveModelNumber": "SM-S2K",
-      "collection": "Smooth",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/smooth-doors/sm-s2k/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:sm-s2k",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Smooth 1 Panel Shaker (SM-S1K)",
-      "liveModelNumber": "SM-S1K",
-      "collection": "Smooth",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/smooth-doors/sm-s1k/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:sm-s1k",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image"
     },
     {
       "supplier": "mennie-canada",
@@ -4433,125 +1719,9 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Smooth (2P)",
-      "liveModelNumber": "SM-2P",
-      "collection": "Smooth",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/smooth-doors/sm-2p/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:sm-2p",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Panel (SM-CRF)",
-      "liveModelNumber": "SM-CRF",
-      "collection": "Smooth",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/smooth-doors/68-smooth-sm-crf/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:sm-crf",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image"
     },
     {
       "supplier": "mennie-canada",
@@ -4598,7 +1768,22 @@
         "captured": false,
         "paths": []
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 8,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0008.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0008-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS) (No Matching Sidelite)",
+            "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS)"
+          ]
+        }
+      ],
       "completeness": {
         "identityComplete": true,
         "factsComplete": true,
@@ -4607,531 +1792,9 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Smooth Panel (SM-5L)",
-      "liveModelNumber": "SM-5L",
-      "collection": "Smooth",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/smooth-doors/sm-5l/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:sm-5l",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Smooth 6 Panel (SM-6P)",
-      "liveModelNumber": "SM-6P",
-      "collection": "Smooth",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/smooth-doors/sm-6p/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:sm-6p",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Smooth 4 Panel Blank Top (SM-4PBT)",
-      "liveModelNumber": "SM-4PBT",
-      "collection": "Smooth",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/smooth-doors/sm-4pbt/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:sm-4pbt",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Smooth (SM-3PA) 3 Panel Arched (SM-3PA)",
-      "liveModelNumber": "SM-3PA",
-      "collection": "Smooth",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/smooth-doors/sm-3pa/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:sm-3pa",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Smooth 2 Panel Embossed (SM-2EM)",
-      "liveModelNumber": "SM-2EM",
-      "collection": "Smooth",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/smooth-doors/sm-2em/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:sm-2em",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Smooth Flush Panel (SM-F)",
-      "liveModelNumber": "SM-F",
-      "collection": "Smooth",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/smooth-doors/sm-f/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:sm-f",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "8' Mahogany Grain (FG-6L) Fixed Glass panel with 6 lites",
-      "liveModelNumber": "FG-6L",
-      "collection": "Mahogany Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/mahogany-doors/fg-6l/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:fg-6l",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Fir Grain 2 Panel Shaker (FIR-S2K)",
-      "liveModelNumber": "FIR-S2K",
-      "collection": "Fir Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/fir/fir-s2k/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:fir-s2k",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
-    },
-    {
-      "supplier": "mennie-canada",
-      "liveProductName": "6'8\" Fir Grain 1 Panel Shaker (FIR-S1K)",
-      "liveModelNumber": "FIR-S1K",
-      "collection": "Fir Grain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://menniecanada.com/products/fir/fir-s1k/",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "mennie-canada:fir-s1k",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      },
-      "reason": "no accepted product media relationship"
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image"
     },
     {
       "supplier": "mennie-canada",
@@ -5178,7 +1841,22 @@
         "captured": false,
         "paths": []
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 8,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0008.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0008-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS) (No Matching Sidelite)",
+            "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS)"
+          ]
+        }
+      ],
       "completeness": {
         "identityComplete": true,
         "factsComplete": true,
@@ -5187,9 +1865,9 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       },
-      "reason": "no accepted product media relationship"
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image"
     },
     {
       "supplier": "mennie-canada",
@@ -5236,7 +1914,22 @@
         "captured": false,
         "paths": []
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 8,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0008.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0008-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS) (No Matching Sidelite)",
+            "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS)"
+          ]
+        }
+      ],
       "completeness": {
         "identityComplete": true,
         "factsComplete": true,
@@ -5245,9 +1938,9 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       },
-      "reason": "no accepted product media relationship"
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image"
     },
     {
       "supplier": "mennie-canada",
@@ -5294,7 +1987,22 @@
         "captured": false,
         "paths": []
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 8,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0008.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0008-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS) (No Matching Sidelite)",
+            "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS)"
+          ]
+        }
+      ],
       "completeness": {
         "identityComplete": true,
         "factsComplete": true,
@@ -5303,9 +2011,9 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       },
-      "reason": "no accepted product media relationship"
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image"
     },
     {
       "supplier": "mennie-canada",
@@ -5352,6 +2060,79 @@
         "captured": false,
         "paths": []
       },
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 8,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0008.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0008-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS) (No Matching Sidelite)",
+            "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS)"
+          ]
+        }
+      ],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      },
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image"
+    },
+    {
+      "supplier": "mennie-canada",
+      "liveProductName": "6'8\" Smooth Panel (SM-BG-2243)",
+      "liveModelNumber": "SM-BG-2243",
+      "collection": "Smooth",
+      "category": "entry-doors",
+      "canonicalSupplierUrl": "https://menniecanada.com/products/smooth-doors/sm-bg-2243/",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "mennie-canada:sm-bg-2243",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": false,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": false,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": []
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": false
+      },
+      "documentsLocal": {
+        "captured": false,
+        "paths": []
+      },
       "pdfEvidence": [],
       "completeness": {
         "identityComplete": true,
@@ -5361,9 +2142,67 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       },
-      "reason": "no accepted product media relationship"
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image"
+    },
+    {
+      "supplier": "mennie-canada",
+      "liveProductName": "6'8\" Smooth Panel (SM-BG-2264)",
+      "liveModelNumber": "SM-BG-2264",
+      "collection": "Smooth",
+      "category": "entry-doors",
+      "canonicalSupplierUrl": "https://menniecanada.com/products/smooth-doors/sm-bg-2264/",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "mennie-canada:sm-bg-2264",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": false,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": false,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": []
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": false
+      },
+      "documentsLocal": {
+        "captured": false,
+        "paths": []
+      },
+      "pdfEvidence": [],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      },
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image"
     },
     {
       "supplier": "richersons",

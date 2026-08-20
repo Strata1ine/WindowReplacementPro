@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T04:47:52.095901+00:00",
+  "generatedAt": "2026-08-20T07:03:50.595181+00:00",
   "products": [
     {
       "productId": "masonite:cheyenne",
@@ -224,6 +224,1478 @@
             "852 SERIES {8\" X 80\" GLASS INSERT SIZE) 6 OF 6",
             "1. Overall Length and Width Dimensions are +/- 1/16 inch"
           ]
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:fg-6l",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mah8-fg-6l-a20319578054",
+          "localPath": "/documents/catalog/mennie-canada/mah8-fg-6l-a20319578054.pdf",
+          "page": 1,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mah8-fg-6l-a20319578054/pages/page-0001.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mah8-fg-6l-a20319578054/tables/page-0001-table-01.json"
+          ],
+          "images": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mah8-fg-6l-a20319578054/images/page-0001-image-01.png"
+          ],
+          "factCandidates": [
+            "Fiber Glass Entry Doors",
+            "8’ FG-6L Glazed 6 Lite Glass Insert"
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:fir-grain-crf",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 8,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0008.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0008-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS) (No Matching Sidelite)",
+            "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS)"
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:fir-grain-crf-cg",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 8,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0008.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0008-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS) (No Matching Sidelite)",
+            "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS)"
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:fir-grain-crf-sg",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 8,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0008.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0008-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS) (No Matching Sidelite)",
+            "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS)"
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:fir-grain-crfs",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 8,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0008.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0008-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS) (No Matching Sidelite)",
+            "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS)"
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:fir-s1k",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 3,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0003.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0003-table-01.json",
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0003-table-02.json",
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0003-table-03.json"
+          ],
+          "images": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/images/page-0003-image-01.jpg",
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/images/page-0003-image-04.jpg",
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/images/page-0003-image-05.jpg"
+          ],
+          "factCandidates": []
+        },
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 8,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0008.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0008-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS) (No Matching Sidelite)",
+            "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS)"
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:fir-s2k",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 3,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0003.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0003-table-01.json",
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0003-table-02.json",
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0003-table-03.json"
+          ],
+          "images": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/images/page-0003-image-01.jpg",
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/images/page-0003-image-04.jpg",
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/images/page-0003-image-05.jpg"
+          ],
+          "factCandidates": []
+        },
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 8,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0008.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0008-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS) (No Matching Sidelite)",
+            "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS)"
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-2d",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 6,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0006.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-2em",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 6,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0006.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        },
+        {
+          "documentId": "mennie-canada:mennie-canada-catalogue-2em-2-panel-2b8e84cca21d",
+          "localPath": "/documents/catalog/mennie-canada/mennie-canada-catalogue-2em-2-panel-2b8e84cca21d.pdf",
+          "page": 1,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-2em-2-panel-2b8e84cca21d/pages/page-0001.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-2em-2-panel-2b8e84cca21d/tables/page-0001-table-01.json"
+          ],
+          "images": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-2em-2-panel-2b8e84cca21d/images/page-0001-image-01.png",
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-2em-2-panel-2b8e84cca21d/images/page-0001-image-02.png",
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-2em-2-panel-2b8e84cca21d/images/page-0001-image-04.png"
+          ],
+          "factCandidates": [
+            "6’8” 2EM - 2 Panel Embossed",
+            "Glass: 22x48 Glass: 8”x48”"
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-3pa",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 6,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0006.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-5l",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 6,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0006.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-8-gp",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 7,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0007.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-crf",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 6,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0006.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-f",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 6,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0006.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        },
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 10,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0010.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-gp",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 2,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0002.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0002-table-01.json"
+          ],
+          "images": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/images/page-0002-image-02.jpg",
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/images/page-0002-image-03.jpg"
+          ],
+          "factCandidates": []
+        },
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 6,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0006.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-gr1",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 10,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0010.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-gr10",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 10,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0010.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-gr11",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 10,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0010.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-gr12",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 10,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0010.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-gr13",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 10,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0010.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-gr14",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 10,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0010.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-gr15",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 10,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0010.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-gr2",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 10,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0010.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-gr3",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 10,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0010.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-gr4",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 10,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0010.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-gr5",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 10,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0010.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-gr6",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 10,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0010.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-gr7",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 10,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0010.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-gr8",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 10,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0010.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-gr9",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 10,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0010.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-rp",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 6,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0006.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-ss1",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 6,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0006.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-ss10",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 6,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0006.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-ss2",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 6,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0006.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-ss3",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 6,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0006.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-ss4",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 6,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0006.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-ss5",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 6,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0006.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-ss6",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 6,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0006.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-ss7",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 6,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0006.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-ss8",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 6,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0006.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah-ss9",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 6,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0006.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah8-3q",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 7,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0007.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah8-5l",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 7,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0007.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah8-f",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 7,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0007.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah8-nrp",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 7,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0007.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah8-nrpct",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 7,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0007.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah8-rp",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 7,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0007.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah8-rpct",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 7,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0007.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:mah8-st-42",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 7,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0007.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:sm-2em",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 8,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0008.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0008-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS) (No Matching Sidelite)",
+            "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS)"
+          ]
+        },
+        {
+          "documentId": "mennie-canada:mennie-canada-catalogue-2em-2-panel-2b8e84cca21d",
+          "localPath": "/documents/catalog/mennie-canada/mennie-canada-catalogue-2em-2-panel-2b8e84cca21d.pdf",
+          "page": 1,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-2em-2-panel-2b8e84cca21d/pages/page-0001.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-2em-2-panel-2b8e84cca21d/tables/page-0001-table-01.json"
+          ],
+          "images": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-2em-2-panel-2b8e84cca21d/images/page-0001-image-01.png",
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-2em-2-panel-2b8e84cca21d/images/page-0001-image-02.png",
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-2em-2-panel-2b8e84cca21d/images/page-0001-image-04.png"
+          ],
+          "factCandidates": [
+            "6’8” 2EM - 2 Panel Embossed",
+            "Glass: 22x48 Glass: 8”x48”"
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:sm-2p",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 8,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0008.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0008-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS) (No Matching Sidelite)",
+            "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS)"
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:sm-3pa",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 8,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0008.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0008-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS) (No Matching Sidelite)",
+            "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS)"
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:sm-4pbt",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 9,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0009.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0009-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:sm-5l",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 9,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0009.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0009-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:sm-6p",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 9,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0009.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0009-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:sm-8-crf",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 9,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0009.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0009-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:sm-8-s1k",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 9,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0009.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0009-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:sm-8-s2k",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 9,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0009.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0009-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:sm-cr",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-canada-catalogue-cr-6-panel-craftsman-a707b5b44927",
+          "localPath": "/documents/catalog/mennie-canada/mennie-canada-catalogue-cr-6-panel-craftsman-a707b5b44927.pdf",
+          "page": 1,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-cr-6-panel-craftsman-a707b5b44927/pages/page-0001.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-cr-6-panel-craftsman-a707b5b44927/tables/page-0001-table-01.json"
+          ],
+          "images": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-cr-6-panel-craftsman-a707b5b44927/images/page-0001-image-01.png",
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-cr-6-panel-craftsman-a707b5b44927/images/page-0001-image-02.png"
+          ],
+          "factCandidates": [
+            "6’8” CR - 6 Panel Craftsman",
+            "Glass: 25”x15”"
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:sm-crf",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 9,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0009.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0009-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:sm-f",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 8,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0008.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0008-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS) (No Matching Sidelite)",
+            "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS)"
+          ]
+        },
+        {
+          "documentId": "mennie-canada:mennie-canada-catalogue-f-flush-panel-82e7a72f7403",
+          "localPath": "/documents/catalog/mennie-canada/mennie-canada-catalogue-f-flush-panel-82e7a72f7403.pdf",
+          "page": 1,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-f-flush-panel-82e7a72f7403/pages/page-0001.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-f-flush-panel-82e7a72f7403/tables/page-0001-table-01.json"
+          ],
+          "images": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-f-flush-panel-82e7a72f7403/images/page-0001-image-01.png",
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-f-flush-panel-82e7a72f7403/images/page-0001-image-05.png"
+          ],
+          "factCandidates": [
+            "6’8” F - Flush Panel",
+            "Glass: 20”x64”",
+            "Glass: 22”x64” Glass: 8”x64”"
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:sm-rp",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 8,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0008.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0008-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS) (No Matching Sidelite)",
+            "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS)"
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:sm-s1k",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 3,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0003.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0003-table-01.json",
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0003-table-02.json",
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0003-table-03.json"
+          ],
+          "images": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/images/page-0003-image-01.jpg",
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/images/page-0003-image-04.jpg",
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/images/page-0003-image-05.jpg"
+          ],
+          "factCandidates": []
+        },
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 9,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0009.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0009-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:sm-s2k",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 3,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0003.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0003-table-01.json",
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0003-table-02.json",
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0003-table-03.json"
+          ],
+          "images": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/images/page-0003-image-01.jpg",
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/images/page-0003-image-04.jpg",
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/images/page-0003-image-05.jpg"
+          ],
+          "factCandidates": []
+        },
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 9,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0009.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0009-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:sm8-2h",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 9,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0009.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0009-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:sm8-5l",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 9,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0009.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0009-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:sm8-6p",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 9,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0009.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0009-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:sm8-f",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 9,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0009.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0009-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:sm8-gp",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 9,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0009.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0009-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:st-42",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:binder-tab-1-mennie-canada-drawing-2019-40-8-st-1cdd108819ef",
+          "localPath": "/documents/catalog/mennie-canada/binder-tab-1-mennie-canada-drawing-2019-40-8-st-1cdd108819ef.pdf",
+          "page": 1,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/binder-tab-1-mennie-canada-drawing-2019-40-8-st-1cdd108819ef/pages/page-0001.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/binder-tab-1-mennie-canada-drawing-2019-40-8-st-1cdd108819ef/tables/page-0001-table-01.json"
+          ],
+          "images": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/binder-tab-1-mennie-canada-drawing-2019-40-8-st-1cdd108819ef/images/page-0001-image-01.png"
+          ],
+          "factCandidates": [
+            "Fiber Glass Entry Doors",
+            "8’ ST– Squared Panel"
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:wg-1p",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 5,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0005.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:wg-2em",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 5,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0005.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        },
+        {
+          "documentId": "mennie-canada:mennie-canada-catalogue-2em-2-panel-2b8e84cca21d",
+          "localPath": "/documents/catalog/mennie-canada/mennie-canada-catalogue-2em-2-panel-2b8e84cca21d.pdf",
+          "page": 1,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-2em-2-panel-2b8e84cca21d/pages/page-0001.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-2em-2-panel-2b8e84cca21d/tables/page-0001-table-01.json"
+          ],
+          "images": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-2em-2-panel-2b8e84cca21d/images/page-0001-image-01.png",
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-2em-2-panel-2b8e84cca21d/images/page-0001-image-02.png",
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-2em-2-panel-2b8e84cca21d/images/page-0001-image-04.png"
+          ],
+          "factCandidates": [
+            "6’8” 2EM - 2 Panel Embossed",
+            "Glass: 22x48 Glass: 8”x48”"
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:wg-3pa",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 5,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0005.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:wg-4pbt",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 5,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0005.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:wg-6p",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 5,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0005.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:wg-ctp",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 5,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0005.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:wg-f",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 5,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0005.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:wg-rgp",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 2,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0002.txt",
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0002-table-01.json"
+          ],
+          "images": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/images/page-0002-image-02.jpg",
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/images/page-0002-image-03.jpg"
+          ],
+          "factCandidates": []
+        },
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 5,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0005.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:wg-syd",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 5,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0005.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:wg8-2h",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 5,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0005.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:wg8-3q",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 5,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0005.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:wg8-6p",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 5,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0005.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:wg8-f",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 5,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0005.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:wg8-f-3mm",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 5,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0005.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "mennie-canada:wg8-mxp",
+      "pdfEvidence": [
+        {
+          "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+          "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+          "page": 5,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0005.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
         }
       ]
     },

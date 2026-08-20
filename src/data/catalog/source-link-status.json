@@ -1,29 +1,5 @@
 [
   {
-    "supplier": "mennie-canada",
-    "url": "http://menniecanada.com/order/",
-    "sourcePageUrl": null,
-    "status": "stale",
-    "checkedAt": "2026-08-19T19:50:24Z",
-    "detail": "HTTP Error 404: Not Found"
-  },
-  {
-    "supplier": "mennie-canada",
-    "url": "http://menniecanada.com/products/cherry/fir-grain-crf/",
-    "sourcePageUrl": null,
-    "status": "stale",
-    "checkedAt": "2026-08-19T19:50:24Z",
-    "detail": "HTTP Error 404: Not Found"
-  },
-  {
-    "supplier": "mennie-canada",
-    "url": "http://menniecanada.com/products/mahogany-doors/st-42/",
-    "sourcePageUrl": null,
-    "status": "stale",
-    "checkedAt": "2026-08-19T19:50:24Z",
-    "detail": "HTTP Error 404: Not Found"
-  },
-  {
     "supplier": "novatech",
     "url": "https://www.groupenovatech.com/_media/wysiwyg/novatech/Decorative_shelf_and_Prestige_mouldings_warranty.pdf",
     "sourcePageUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/sydney.html",

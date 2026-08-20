@@ -1,0 +1,349 @@
+{
+  "supplier": "mennie-canada",
+  "supplierName": "Mennie Canada",
+  "completedAt": "2026-08-20",
+  "status": "WEBSITE + MEDIA + PDF VERIFIED",
+  "catalogue": {
+    "canonicalProducts": 99,
+    "currentSitemapProductUrls": 100,
+    "rejectedDuplicateProductUrls": [
+      {
+        "sourceUrl": "https://menniecanada.com/products/mahogany-doors/8-mahogany-grain-mah8-5p/",
+        "reason": "Live page duplicates the MAH8-5L title, model, and product imagery; not a separate canonical product."
+      }
+    ],
+    "newCanonicalProducts": 19,
+    "newCanonicalProductIds": [
+      "mennie-canada:fg-6l",
+      "mennie-canada:fir-grain-crf",
+      "mennie-canada:fir-grain-crf-cg",
+      "mennie-canada:fir-grain-crf-sg",
+      "mennie-canada:fir-grain-crfs",
+      "mennie-canada:fir-s1k",
+      "mennie-canada:fir-s2k",
+      "mennie-canada:mah-5l",
+      "mennie-canada:mah-gp",
+      "mennie-canada:sm-8-fl-1p-2",
+      "mennie-canada:sm-cr",
+      "mennie-canada:sm-fl-1p",
+      "mennie-canada:sm-ss1",
+      "mennie-canada:sm-ss3",
+      "mennie-canada:sm-ss5",
+      "mennie-canada:sm-ss7",
+      "mennie-canada:sm-ss9",
+      "mennie-canada:st-42",
+      "mennie-canada:wg8-f-3mm"
+    ],
+    "curatedOnlyRecords": [
+      {
+        "id": "mennie-canada:mah-fsl",
+        "reason": "No current canonical live product-detail record; explicitly held from publication."
+      },
+      {
+        "id": "mennie-canada:mah-rpsl",
+        "reason": "No current canonical live product-detail record; explicitly held from publication."
+      },
+      {
+        "id": "mennie-canada:mah8-fsl",
+        "reason": "No current canonical live product-detail record; explicitly held from publication."
+      },
+      {
+        "id": "mennie-canada:mah8-nrpsl",
+        "reason": "No current canonical live product-detail record; explicitly held from publication."
+      },
+      {
+        "id": "mennie-canada:sm-2psl",
+        "reason": "No current canonical live product-detail record; explicitly held from publication."
+      },
+      {
+        "id": "mennie-canada:sm-fsl",
+        "reason": "No current canonical live product-detail record; explicitly held from publication."
+      },
+      {
+        "id": "mennie-canada:sm8-fsl",
+        "reason": "No current canonical live product-detail record; explicitly held from publication."
+      },
+      {
+        "id": "mennie-canada:wg-2p-180-sl",
+        "reason": "No current canonical live product-detail record; explicitly held from publication."
+      },
+      {
+        "id": "mennie-canada:wg-2psl",
+        "reason": "No current canonical live product-detail record; explicitly held from publication."
+      },
+      {
+        "id": "mennie-canada:wg-fsl",
+        "reason": "No current canonical live product-detail record; explicitly held from publication."
+      },
+      {
+        "id": "mennie-canada:wg8-2psl",
+        "reason": "No current canonical live product-detail record; explicitly held from publication."
+      },
+      {
+        "id": "mennie-canada:wg8-fsl",
+        "reason": "No current canonical live product-detail record; explicitly held from publication."
+      }
+    ],
+    "mergedMennieRecords": 111,
+    "explicitPublicationHolds": 31
+  },
+  "liveCrawl": {
+    "pagesCrawled": 113,
+    "canonicalProductPages": 99,
+    "acceptedRunId": "20260820T063558Z-53456",
+    "plannedAssetTasks": 383,
+    "uniqueBinariesDownloaded": 358,
+    "finalAcceptedAssets": 190,
+    "finalRejectedOrReferenceOnlyBinaries": 168,
+    "taskStatesAtPromotion": {
+      "downloaded": 0,
+      "pending": 0,
+      "promoted": 194,
+      "rejected": 189,
+      "retryable": 0,
+      "validated": 0
+    },
+    "pendingAssetTasks": 0,
+    "retryableAssetTasks": 0,
+    "staleDiscoveryErrors": [
+      {
+        "url": "http://menniecanada.com/products/mahogany-doors/st-42/",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "http://menniecanada.com/order/",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "http://menniecanada.com/products/cherry/fir-grain-crf/",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "offDomainRedirectsAccepted": 0,
+    "offDomainAssetsAccepted": 0,
+    "correctiveRun": {
+      "runId": "20260820T071500Z-mennie-missing-masters",
+      "requestedAssets": 2,
+      "networkRequests": 2,
+      "pageDiscoveryRepeated": false,
+      "validBinariesRedownloaded": 0,
+      "result": "Both exact missing WordPress master images were retrieved and associated; historical run metadata exposed an incomplete-plan acceptance bug that is now regression-tested and fixed."
+    }
+  },
+  "liveMedia": {
+    "productsWithCorrectHero": 66,
+    "productsWithAnyMedia": 79,
+    "productsWithDocuments": 7,
+    "missingProductSpecificMedia": 20,
+    "acceptedImageAssets": 184,
+    "assetRoles": {
+      "profile-section": 33,
+      "catalogue": 1,
+      "product-hero": 127,
+      "product-gallery": 16,
+      "finish-swatch": 4,
+      "specification-sheet": 5,
+      "technical-drawing": 4
+    },
+    "relationshipStates": {
+      "supplier-shared": 39,
+      "product-specific": 145,
+      "collection-shared": 6
+    },
+    "uncertainPublicAssociations": 0,
+    "sharedProductBinaries": 7,
+    "responsiveSizeDerivativesAccepted": 0,
+    "wordpressScaledMastersAccepted": 18,
+    "wordpressScaledMasterNote": "Eighteen 959-1150 x 2560 WordPress -scaled files are the highest-resolution sources exposed in saved HTML; smaller srcset renditions were not scheduled.",
+    "genericLogoIconNavigationAssetsAttached": 0,
+    "sourceUrlAliasesPreserved": 15
+  },
+  "documents": {
+    "totalPdfDocuments": 6,
+    "currentCatalogue": {
+      "count": 1,
+      "title": "Mennie Canada Premium Fiberglass Entry Doors 2025-2026 Catalogue",
+      "edition": "2025-2026",
+      "documentDate": "2026-01-29",
+      "sourceUrl": "https://menniecanada.com/wp-content/uploads/2026/01/mennie_brochure_2025-2026_12p_anniversary_web.pdf",
+      "pages": 12,
+      "textCharacters": 5701,
+      "tables": 8,
+      "usefulEmbeddedImages": 9,
+      "pageProductEvidenceCounts": {
+        "1": 0,
+        "2": 2,
+        "3": 4,
+        "4": 0,
+        "5": 15,
+        "6": 18,
+        "7": 9,
+        "8": 11,
+        "9": 14,
+        "10": 16,
+        "11": 0,
+        "12": 0
+      }
+    },
+    "productTechnicalPdfs": {
+      "count": 5,
+      "pages": 5,
+      "visuallyReviewed": 5,
+      "ocrRecommendedLowText": 5,
+      "ocrApplied": 0,
+      "extractionErrors": 0
+    },
+    "allPdfPagesProcessed": 17,
+    "allExtractedTextCharacters": 7271,
+    "allTablesExtracted": 13,
+    "allUsefulImagesExtracted": 18
+  },
+  "sourceFacts": {
+    "canonicalProductsNormalizedFromReviewedSupplierFacts": 99,
+    "uniformWidthFactProducts": 31,
+    "evidenceSources": [
+      "Saved live Features & Benefits HTML",
+      "Current 2025-2026 supplier catalogue text layer",
+      "Human visual review of catalogue and five technical sheets"
+    ],
+    "genericMarketingCopyCreated": false
+  },
+  "validation": {
+    "associationRevalidation": "passed offline after exact corrective retrieval; no valid binary redownload",
+    "visualReview": "current catalogue cover, representative product page, back cover, and all five technical sheets reviewed",
+    "encodingIssuesCorrected": "UTF-8/Windows-1252 mojibake in extracted catalogue measurements",
+    "remainingEncodingIssues": 0,
+    "pdfExtractionErrors": 0,
+    "relationshipUncertain": 0
+  },
+  "missingProducts": [
+    {
+      "id": "mennie-canada:mah-gr9",
+      "sourceUrl": "https://menniecanada.com/products/mahogany-doors/gr-9/",
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image",
+      "qualifyingCandidates": []
+    },
+    {
+      "id": "mennie-canada:mah-gp",
+      "sourceUrl": "https://menniecanada.com/products/mahogany-doors/mah-gp/",
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image",
+      "qualifyingCandidates": []
+    },
+    {
+      "id": "mennie-canada:wg8-f-3mm",
+      "sourceUrl": "https://menniecanada.com/products/oak-grain/wg8-f-3mm/",
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image",
+      "qualifyingCandidates": []
+    },
+    {
+      "id": "mennie-canada:wg8-2h",
+      "sourceUrl": "https://menniecanada.com/products/oak-grain/wg8-2h/",
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image",
+      "qualifyingCandidates": []
+    },
+    {
+      "id": "mennie-canada:wg8-3q",
+      "sourceUrl": "https://menniecanada.com/products/oak-grain/wg8-3q/",
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image",
+      "qualifyingCandidates": []
+    },
+    {
+      "id": "mennie-canada:wg8-6p",
+      "sourceUrl": "https://menniecanada.com/products/oak-grain/wg8-6p/",
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image",
+      "qualifyingCandidates": []
+    },
+    {
+      "id": "mennie-canada:wg8-f",
+      "sourceUrl": "https://menniecanada.com/products/oak-grain/wg8-f/",
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image",
+      "qualifyingCandidates": []
+    },
+    {
+      "id": "mennie-canada:wg-syd",
+      "sourceUrl": "https://menniecanada.com/products/oak-grain/wg-syd/",
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image",
+      "qualifyingCandidates": []
+    },
+    {
+      "id": "mennie-canada:wg-6p",
+      "sourceUrl": "https://menniecanada.com/products/oak-grain/wg-6p/",
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image",
+      "qualifyingCandidates": []
+    },
+    {
+      "id": "mennie-canada:sm-8-fl-1p-2",
+      "sourceUrl": "https://menniecanada.com/products/smooth-doors/sm-8-fl-1p-2/",
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image",
+      "qualifyingCandidates": []
+    },
+    {
+      "id": "mennie-canada:sm8-5l",
+      "sourceUrl": "https://menniecanada.com/products/smooth-doors/sm8-5l/",
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image",
+      "qualifyingCandidates": []
+    },
+    {
+      "id": "mennie-canada:sm8-6p",
+      "sourceUrl": "https://menniecanada.com/products/smooth-doors/sm8-6p/",
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image",
+      "qualifyingCandidates": []
+    },
+    {
+      "id": "mennie-canada:sm-fl-1p",
+      "sourceUrl": "https://menniecanada.com/products/smooth-doors/sm-fl-1p/",
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image",
+      "qualifyingCandidates": []
+    },
+    {
+      "id": "mennie-canada:sm-rp",
+      "sourceUrl": "https://menniecanada.com/products/smooth-doors/sm-rp/",
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image",
+      "qualifyingCandidates": []
+    },
+    {
+      "id": "mennie-canada:fir-grain-crf-sg",
+      "sourceUrl": "https://menniecanada.com/products/fir/fir-grain-crf-sg/",
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image",
+      "qualifyingCandidates": []
+    },
+    {
+      "id": "mennie-canada:fir-grain-crf-cg",
+      "sourceUrl": "https://menniecanada.com/products/fir/fir-grain-crf-cg/",
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image",
+      "qualifyingCandidates": []
+    },
+    {
+      "id": "mennie-canada:fir-grain-crf",
+      "sourceUrl": "https://menniecanada.com/products/fir/fir-grain-crf/",
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image",
+      "qualifyingCandidates": []
+    },
+    {
+      "id": "mennie-canada:fir-grain-crfs",
+      "sourceUrl": "https://menniecanada.com/products/fir/fir-grain-crfs/",
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image",
+      "qualifyingCandidates": []
+    },
+    {
+      "id": "mennie-canada:sm-bg-2243",
+      "sourceUrl": "https://menniecanada.com/products/smooth-doors/sm-bg-2243/",
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image",
+      "qualifyingCandidates": []
+    },
+    {
+      "id": "mennie-canada:sm-bg-2264",
+      "sourceUrl": "https://menniecanada.com/products/smooth-doors/sm-bg-2264/",
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image",
+      "qualifyingCandidates": []
+    }
+  ],
+  "remainingWeaknesses": [
+    "Twenty live product pages expose no image with a strong current-product identity; exact reasons are retained rather than accepting related-card or shared imagery.",
+    "Five one-page technical PDFs have sparse embedded text and are marked OCR-recommended; rendered visual review confirmed their model drawings and size tables, but no OCR-derived technical values were promoted.",
+    "Eighteen current 2026 WordPress product masters are exposed only as 959-1150 x 2560 -scaled files; these are the highest practical page sources, and no smaller responsive renditions were retained.",
+    "Three legacy HTTP links return 404 and remain disclosed as stale; the current ST-42 and catalogue sources are valid HTTPS records.",
+    "The supplier reuses byte-identical product imagery under several exact model filenames; one binary is retained with all aliases, and relationships are limited to exact filename/model owners."
+  ],
+  "nextSupplierAllowed": true
+}

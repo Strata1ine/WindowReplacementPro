@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T06:24:58.504669+00:00",
+  "generatedAt": "2026-08-20T07:18:35.089927+00:00",
   "automaticFactConflicts": [
     {
       "supplier": "masonite",
@@ -33,7 +33,43 @@
     }
   ],
   "automaticFactConflictNote": "No normalized website/PDF fact pair was safe to compare automatically; candidate facts retain page provenance for manual review.",
-  "pdfReviewItems": [],
+  "pdfReviewItems": [
+    {
+      "supplier": "mennie-canada",
+      "localPath": "/documents/catalog/mennie-canada/binder-tab-1-mennie-canada-drawing-2019-40-8-st-1cdd108819ef.pdf",
+      "reasons": [
+        "ocr-required"
+      ]
+    },
+    {
+      "supplier": "mennie-canada",
+      "localPath": "/documents/catalog/mennie-canada/mah8-fg-6l-a20319578054.pdf",
+      "reasons": [
+        "ocr-required"
+      ]
+    },
+    {
+      "supplier": "mennie-canada",
+      "localPath": "/documents/catalog/mennie-canada/mennie-canada-catalogue-2em-2-panel-2b8e84cca21d.pdf",
+      "reasons": [
+        "ocr-required"
+      ]
+    },
+    {
+      "supplier": "mennie-canada",
+      "localPath": "/documents/catalog/mennie-canada/mennie-canada-catalogue-cr-6-panel-craftsman-a707b5b44927.pdf",
+      "reasons": [
+        "ocr-required"
+      ]
+    },
+    {
+      "supplier": "mennie-canada",
+      "localPath": "/documents/catalog/mennie-canada/mennie-canada-catalogue-f-flush-panel-82e7a72f7403.pdf",
+      "reasons": [
+        "ocr-required"
+      ]
+    }
+  ],
   "websitePdfCoverageGaps": [
     {
       "supplier": "novatech",

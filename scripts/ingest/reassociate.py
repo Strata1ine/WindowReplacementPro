@@ -13,9 +13,9 @@ from urllib.parse import urlparse
 
 from scripts.ingest.crawl import (
     Asset, CATALOG_DIR, CONFIG, DOCUMENT_ROLES, IMAGE_ROLES, MANIFEST_ROOT, Page, ROOT, WP_SIZE_SUFFIX,
-    apply_document_relationship_rules, associate_assets, atomic_write_json, attach_available_asset_occurrences, enforce_filename_owner_precedence, enforce_wordpress_master_precedence, explicit_role,
+    apply_asset_relationship_rules, apply_document_relationship_rules, associate_assets, atomic_write_json, attach_available_asset_occurrences, enforce_filename_owner_precedence, enforce_wordpress_master_precedence, explicit_role,
     identity_keys, image_dimensions, manifest_asset, manifest_page, normalize, product_asset_paths, promote_referenced_assets,
-    configured_source_products, refresh_page_asset_candidates, urls_identity_match, validate_asset_binary, validate_product_records, write_supplier_archive,
+    configured_source_products, promote_identity_matched_gallery_heroes, refresh_page_asset_candidates, urls_identity_match, validate_asset_binary, validate_product_records, write_supplier_archive,
 )
 
 
@@ -80,7 +80,7 @@ def missing_media_diagnostic(product: dict, page: Page, assets: dict[str, Asset]
         filename_match = urls_identity_match(urls, product_keys)
         structured_match = bool(set(urls) & structured_urls)
         primary_hero = role == 'product-hero' and item.get('order', 0) == first_hero_order
-        primary_gallery = role == 'product-gallery'
+        primary_gallery = role == 'product-gallery' and (not cfg.get('require_gallery_identity_match', False) or filename_match)
         shared_role = role in {'technical-drawing', 'profile-section', 'configuration-diagram', 'colour-chart', 'finish-swatch', 'glass-design', 'hardware'}
         structured_conflict = bool(structured_urls and (primary_hero or primary_gallery) and not structured_match and not filename_match and not shared_role)
         qualifies = (filename_match or structured_match or primary_hero or primary_gallery) and not structured_conflict
@@ -138,16 +138,15 @@ def reassociate_supplier(slug: str, staging_run: Path | None = None) -> dict:
     for product in products:
         page = pages_by_url.get(product['sourceUrl'])
         if not page: product['media'] = []; product['documents'] = []; continue
-        media, documents = product_asset_paths(page, assets, cfg.get('attach_page_roles'), [product.get('slug'), product.get('modelNumber'), product.get('name')], cfg.get('trust_structured_product_images', True), cfg.get('trust_product_open_graph_images', False))
+        media, documents = product_asset_paths(page, assets, cfg.get('attach_page_roles'), [product.get('slug'), product.get('modelNumber'), product.get('name')], cfg.get('trust_structured_product_images', True), cfg.get('trust_product_open_graph_images', False), cfg.get('require_gallery_identity_match', False))
         product['media'] = media; product['documents'] = documents
-    enforce_filename_owner_precedence(assets, products); enforce_wordpress_master_precedence(assets, products); apply_document_relationship_rules(assets, products, cfg.get('document_product_rules')); associate_assets(assets, products); validate_product_records(products, cfg)
+    promote_identity_matched_gallery_heroes(assets, products, cfg.get('promote_identity_matched_gallery_to_hero', False)); enforce_filename_owner_precedence(assets, products); enforce_wordpress_master_precedence(assets, products); apply_document_relationship_rules(assets, products, cfg.get('document_product_rules')); apply_asset_relationship_rules(assets, products, cfg.get('asset_product_rules')); associate_assets(assets, products); validate_product_records(products, cfg)
     accepted = promote_referenced_assets(assets, products, pages)
     associate_assets(accepted, products)
     accepted_ids = {id(asset) for asset in accepted.values()}
     rejected = [asdict(asset) for asset in assets.values() if id(asset) not in accepted_ids]
-    resolved_errors = [dict(error, resolved=True, resolvedAt=time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()), resolution='subsequent checkpointed request validated') for error in manifest.get('errors', [])]
     manifest['pages'] = [manifest_page(page) for page in pages]; manifest['assets'] = [manifest_asset(asset) for asset in accepted.values()]; manifest['products'] = products
-    manifest['resolvedErrors'] = [*manifest.get('resolvedErrors', []), *resolved_errors]; manifest['errors'] = []
+    manifest['errors'] = manifest.get('errors', [])
     manifest['relationshipsRevalidatedAt'] = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
     atomic_write_json(manifest_path, manifest); atomic_write_json(CATALOG_DIR / f'{slug}.json', products); write_supplier_archive(slug, accepted)
     report = {
@@ -155,7 +154,7 @@ def reassociate_supplier(slug: str, staging_run: Path | None = None) -> dict:
         'productsStillMissingMedia': [missing_media_diagnostic(product, pages_by_url[product['sourceUrl']], assets, cfg) for product in products if not product.get('media') and product['sourceUrl'] in pages_by_url],
         'acceptedAssetsBefore': accepted_before, 'downloadedCandidatesRecovered': recovered, 'acceptedAssetsAfter': len(accepted), 'rejectedAssociations': rejected,
         'relationshipStates': {state: sum(asset.relationship_state == state for asset in accepted.values()) for state in ('product-specific', 'collection-shared', 'supplier-shared', 'uncertain/review')},
-        'sharedProductBinaries': sum(len(asset.product_ids) > 1 for asset in accepted.values()), 'changedProducts': [product['id'] for product in products if before_media.get(product['id'], []) != product.get('media', [])], 'resolvedErrors': resolved_errors,
+        'sharedProductBinaries': sum(len(asset.product_ids) > 1 for asset in accepted.values()), 'changedProducts': [product['id'] for product in products if before_media.get(product['id'], []) != product.get('media', [])], 'unresolvedErrors': manifest.get('errors', []),
     }
     atomic_write_json(ROOT / 'audit' / 'supplier-completeness' / f'{slug}-relationship-revalidation.json', report)
     return report

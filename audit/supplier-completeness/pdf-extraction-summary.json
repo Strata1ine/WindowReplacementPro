@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T04:47:52.095901+00:00",
+  "generatedAt": "2026-08-20T07:03:50.595181+00:00",
   "suppliers": [
     {
       "supplier": "masonite",
@@ -9,6 +9,16 @@
       "tables": 43,
       "images": 269,
       "ocrRequired": 0,
+      "errors": 0
+    },
+    {
+      "supplier": "mennie-canada",
+      "documents": 6,
+      "pages": 17,
+      "characters": 7271,
+      "tables": 13,
+      "images": 18,
+      "ocrRequired": 5,
       "errors": 0
     },
     {

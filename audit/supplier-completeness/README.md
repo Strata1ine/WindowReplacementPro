@@ -1,6 +1,6 @@
 # Supplier completeness audit
 
-Generated: 2026-08-20T06:24:58.533099+00:00
+Generated: 2026-08-20T07:18:35.119625+00:00
 
 ## Supplier summary
 
@@ -12,7 +12,7 @@ Generated: 2026-08-20T06:24:58.533099+00:00
 | trimlite | 175 | 163 | 211 | 3 | 37 | 0 | VERIFIED | VERIFIED | VERIFIED |
 | novatech | 91 | 91 | 865 | 30 | 0 | 0 | VERIFIED | VERIFIED | VERIFIED-WITH-16-PAGE-EVIDENCE-GAPS |
 | verre-select | 26 | 25 | 93 | 0 | 0 | 0 | VERIFIED | VERIFIED | NONE-CURRENTLY-AVAILABLE-FLIPHTML5-VERIFIED |
-| mennie-canada | 85 | 7 | 30 | 0 | 0 | 0 | VERIFICATION-PENDING | VERIFICATION-PENDING | VERIFICATION-PENDING |
+| mennie-canada | 99 | 79 | 184 | 6 | 168 | 1 | VERIFIED | VERIFIED-WITH-20-EXPLICIT-MISSING-MEDIA-RECORDS | VERIFIED |
 | richersons | 33 | 12 | 20 | 0 | 0 | 0 | VERIFICATION-PENDING | VERIFICATION-PENDING | VERIFICATION-PENDING |
 | oceanview | 3 | 3 | 5 | 3 | 0 | 0 | VERIFICATION-PENDING | VERIFICATION-PENDING | VERIFICATION-PENDING |
 | vista | 4 | 4 | 5 | 17 | 0 | 0 | VERIFICATION-PENDING | VERIFICATION-PENDING | VERIFICATION-PENDING |
@@ -57,9 +57,9 @@ Completeness states: source-complete=26.
 
 ### Mennie Canada
 
-Website: **VERIFICATION-PENDING**. Media: **VERIFICATION-PENDING**. PDF: **VERIFICATION-PENDING**. Canonical supplier products: **85**. Merged catalogue records: **104**. Accepted assets: **30 images / 0 PDFs**. Review binaries preserved: **0**. Product associations: **7 image / 0 document**.
+Website: **VERIFIED**. Media: **VERIFIED-WITH-20-EXPLICIT-MISSING-MEDIA-RECORDS**. PDF: **VERIFIED**. Canonical supplier products: **99**. Merged catalogue records: **111**. Accepted assets: **184 images / 6 PDFs**. Review binaries preserved: **168**. Product associations: **79 image / 7 document**.
 
-Completeness states: requires-review=1, verification-pending=84.
+Completeness states: source-complete=99.
 
 ### Richersons Doors
 

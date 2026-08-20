@@ -12,10 +12,6 @@ from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
-import pdfplumber
-from PIL import Image, ImageStat
-from pypdf import PdfReader
-
 try:
     from scripts.ingest.pdf_evidence import configured_document_metadata, configured_page_products
     from scripts.ingest.pdf_ocr import ocr_pdf_pages
@@ -103,6 +99,8 @@ def document_date(path: Path, metadata: dict, provenance: dict) -> str | None:
 
 
 def useful_image(image: Image.Image, byte_count: int) -> bool:
+    from PIL import ImageStat
+
     width, height = image.size
     if width < 160 or height < 120 or width * height < 50000 or byte_count < 3000:
         return False
@@ -114,7 +112,22 @@ def useful_image(image: Image.Image, byte_count: int) -> bool:
     return sum(stat.var) > 30
 
 
+def repair_extracted_text(value):
+    """Repair common UTF-8-as-Windows-1252 mojibake without touching clean text."""
+    if isinstance(value, list):
+        return [repair_extracted_text(item) for item in value]
+    if not isinstance(value, str) or not any(marker in value for marker in ('â€', 'Ã', 'Â')):
+        return value
+    try:
+        return value.encode('cp1252').decode('utf-8')
+    except (UnicodeEncodeError, UnicodeDecodeError):
+        return value
+
 def extract_pdf(pdf_path: Path, slug: str, provenance: dict, patterns: list[tuple[str, re.Pattern]], extract_images: bool, use_ocr: bool, evidence_rules: list[dict] | None = None) -> dict:
+    import pdfplumber
+    from PIL import Image
+    from pypdf import PdfReader
+
     local_path = "/" + pdf_path.relative_to(ROOT / "public").as_posix()
     doc_hash = sha256(pdf_path)
     doc_id = f"{slug}:{pdf_path.stem}"
@@ -167,11 +180,11 @@ def extract_pdf(pdf_path: Path, slug: str, provenance: dict, patterns: list[tupl
         if plumber is not None and page_number <= len(plumber.pages):
             page = plumber.pages[page_number - 1]
             try:
-                text = page.extract_text(x_tolerance=2, y_tolerance=3) or ""
+                text = repair_extracted_text(page.extract_text(x_tolerance=2, y_tolerance=3) or "")
             except Exception as error:
                 extraction_errors.append({"page": page_number, "stage": "text", "error": str(error)})
             try:
-                tables = page.extract_tables() or []
+                tables = repair_extracted_text(page.extract_tables() or [])
             except Exception as error:
                 extraction_errors.append({"page": page_number, "stage": "tables", "error": str(error)})
         ocr_text = ocr_text_by_page.get(page_number, '')

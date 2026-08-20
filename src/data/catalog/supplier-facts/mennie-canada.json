@@ -1,0 +1,246 @@
+{
+  "supplier": "mennie-canada",
+  "reviewedAt": "2026-08-20",
+  "factSets": [
+    {
+      "productIds": [
+        "mennie-canada:fg-6l",
+        "mennie-canada:fir-grain-crf",
+        "mennie-canada:fir-grain-crf-cg",
+        "mennie-canada:fir-grain-crf-sg",
+        "mennie-canada:fir-grain-crfs",
+        "mennie-canada:fir-s1k",
+        "mennie-canada:fir-s2k",
+        "mennie-canada:mah-2d",
+        "mennie-canada:mah-2em",
+        "mennie-canada:mah-3pa",
+        "mennie-canada:mah-5l",
+        "mennie-canada:mah-8-gp",
+        "mennie-canada:mah-c3p",
+        "mennie-canada:mah-crf",
+        "mennie-canada:mah-f",
+        "mennie-canada:mah-gp",
+        "mennie-canada:mah-gr1",
+        "mennie-canada:mah-gr10",
+        "mennie-canada:mah-gr11",
+        "mennie-canada:mah-gr12",
+        "mennie-canada:mah-gr13",
+        "mennie-canada:mah-gr14",
+        "mennie-canada:mah-gr15",
+        "mennie-canada:mah-gr2",
+        "mennie-canada:mah-gr3",
+        "mennie-canada:mah-gr4",
+        "mennie-canada:mah-gr5",
+        "mennie-canada:mah-gr6",
+        "mennie-canada:mah-gr7",
+        "mennie-canada:mah-gr8",
+        "mennie-canada:mah-gr9",
+        "mennie-canada:mah-rp",
+        "mennie-canada:mah-ss1",
+        "mennie-canada:mah-ss10",
+        "mennie-canada:mah-ss2",
+        "mennie-canada:mah-ss3",
+        "mennie-canada:mah-ss4",
+        "mennie-canada:mah-ss5",
+        "mennie-canada:mah-ss6",
+        "mennie-canada:mah-ss7",
+        "mennie-canada:mah-ss8",
+        "mennie-canada:mah-ss9",
+        "mennie-canada:mah8-3q",
+        "mennie-canada:mah8-5l",
+        "mennie-canada:mah8-f",
+        "mennie-canada:mah8-nrp",
+        "mennie-canada:mah8-nrpct",
+        "mennie-canada:mah8-rp",
+        "mennie-canada:mah8-rpct",
+        "mennie-canada:mah8-st-42",
+        "mennie-canada:sm-2em",
+        "mennie-canada:sm-2p",
+        "mennie-canada:sm-3pa",
+        "mennie-canada:sm-4pbt",
+        "mennie-canada:sm-5l",
+        "mennie-canada:sm-6p",
+        "mennie-canada:sm-8-crf",
+        "mennie-canada:sm-8-fl-1p-2",
+        "mennie-canada:sm-8-s1k",
+        "mennie-canada:sm-8-s2k",
+        "mennie-canada:sm-bg-1843",
+        "mennie-canada:sm-bg-1864",
+        "mennie-canada:sm-bg-2236-1p",
+        "mennie-canada:sm-bg-2243",
+        "mennie-canada:sm-bg-2248-1p",
+        "mennie-canada:sm-bg-2264",
+        "mennie-canada:sm-cr",
+        "mennie-canada:sm-crf",
+        "mennie-canada:sm-f",
+        "mennie-canada:sm-fl-1p",
+        "mennie-canada:sm-rp",
+        "mennie-canada:sm-s1k",
+        "mennie-canada:sm-s2k",
+        "mennie-canada:sm-ss1",
+        "mennie-canada:sm-ss3",
+        "mennie-canada:sm-ss5",
+        "mennie-canada:sm-ss7",
+        "mennie-canada:sm-ss9",
+        "mennie-canada:sm8-2h",
+        "mennie-canada:sm8-5l",
+        "mennie-canada:sm8-6p",
+        "mennie-canada:sm8-f",
+        "mennie-canada:sm8-gp",
+        "mennie-canada:st-42",
+        "mennie-canada:wg-1p",
+        "mennie-canada:wg-2em",
+        "mennie-canada:wg-3pa",
+        "mennie-canada:wg-4pbt",
+        "mennie-canada:wg-6p",
+        "mennie-canada:wg-ctp",
+        "mennie-canada:wg-f",
+        "mennie-canada:wg-rgp",
+        "mennie-canada:wg-syd",
+        "mennie-canada:wg8-2h",
+        "mennie-canada:wg8-3q",
+        "mennie-canada:wg8-6p",
+        "mennie-canada:wg8-f",
+        "mennie-canada:wg8-f-3mm",
+        "mennie-canada:wg8-mxp"
+      ],
+      "sources": [
+        {
+          "supplier": "mennie-canada",
+          "sourceUrl": "https://menniecanada.com/features-benefits/",
+          "snapshotPath": "source-media/mennie-canada/html/0004-features-benefits.html",
+          "status": "active",
+          "evidenceType": "current-supplier-webpage",
+          "extractionMethod": "saved-html",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "supplier": "mennie-canada",
+          "sourceUrl": "https://menniecanada.com/wp-content/uploads/2026/01/mennie_brochure_2025-2026_12p_anniversary_web.pdf",
+          "publicationTitle": "Mennie Canada Premium Fiberglass Entry Doors 2025-2026 Catalogue",
+          "page": 1,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0001.txt",
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "material": "Fiberglass",
+        "productType": "Fiberglass entry door",
+        "surfaceTexture": "Oak, mahogany, or smooth skin with high-definition panel embossment",
+        "edgeConstruction": "Rot-resistant composite rails on all edges",
+        "core": "High-density CFC-free polyurethane core",
+        "insulationClaim": "Supplier states six times the insulation of traditional wood doors"
+      }
+    },
+    {
+      "productIds": [
+        "mennie-canada:mah-ss1",
+        "mennie-canada:mah-ss2",
+        "mennie-canada:mah-ss3",
+        "mennie-canada:mah-ss4",
+        "mennie-canada:mah-ss5",
+        "mennie-canada:mah-ss6",
+        "mennie-canada:mah-ss7",
+        "mennie-canada:mah-ss8",
+        "mennie-canada:mah-ss9",
+        "mennie-canada:mah-ss10"
+      ],
+      "sources": [
+        {
+          "supplier": "mennie-canada",
+          "sourceUrl": "https://menniecanada.com/wp-content/uploads/2026/01/mennie_brochure_2025-2026_12p_anniversary_web.pdf",
+          "publicationTitle": "Mennie Canada Premium Fiberglass Entry Doors 2025-2026 Catalogue",
+          "page": 6,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0006.txt",
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "availableWidthsInches": [
+          "32",
+          "34",
+          "36",
+          "40",
+          "42"
+        ]
+      }
+    },
+    {
+      "productIds": [
+        "mennie-canada:mah-gr1",
+        "mennie-canada:mah-gr2",
+        "mennie-canada:mah-gr3",
+        "mennie-canada:mah-gr4",
+        "mennie-canada:mah-gr5",
+        "mennie-canada:mah-gr6",
+        "mennie-canada:mah-gr7",
+        "mennie-canada:mah-gr8",
+        "mennie-canada:mah-gr9",
+        "mennie-canada:mah-gr10",
+        "mennie-canada:mah-gr11",
+        "mennie-canada:mah-gr12",
+        "mennie-canada:mah-gr13",
+        "mennie-canada:mah-gr14",
+        "mennie-canada:mah-gr15"
+      ],
+      "sources": [
+        {
+          "supplier": "mennie-canada",
+          "sourceUrl": "https://menniecanada.com/wp-content/uploads/2026/01/mennie_brochure_2025-2026_12p_anniversary_web.pdf",
+          "publicationTitle": "Mennie Canada Premium Fiberglass Entry Doors 2025-2026 Catalogue",
+          "page": 10,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0010.txt",
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "availableWidthsInches": [
+          "32",
+          "34",
+          "36",
+          "40",
+          "42"
+        ]
+      }
+    },
+    {
+      "productIds": [
+        "mennie-canada:fir-grain-crf",
+        "mennie-canada:fir-grain-crf-cg",
+        "mennie-canada:fir-grain-crf-sg",
+        "mennie-canada:fir-grain-crfs",
+        "mennie-canada:fir-s1k",
+        "mennie-canada:fir-s2k"
+      ],
+      "sources": [
+        {
+          "supplier": "mennie-canada",
+          "sourceUrl": "https://menniecanada.com/wp-content/uploads/2026/01/mennie_brochure_2025-2026_12p_anniversary_web.pdf",
+          "publicationTitle": "Mennie Canada Premium Fiberglass Entry Doors 2025-2026 Catalogue",
+          "page": 8,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0008.txt",
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "availableWidthsInches": [
+          "32",
+          "34",
+          "36"
+        ]
+      }
+    }
+  ]
+}

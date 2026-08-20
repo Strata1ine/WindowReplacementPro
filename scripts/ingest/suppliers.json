@@ -759,7 +759,27 @@
     "name": "Mennie Canada",
     "base_url": "https://menniecanada.com/",
     "allowed_domains": ["menniecanada.com", "www.menniecanada.com"],
-    "start_urls": ["https://menniecanada.com/products/", "https://menniecanada.com/catalog/"],
+    "start_urls": [
+      "https://menniecanada.com/products/",
+      "https://menniecanada.com/catalog/",
+      "https://menniecanada.com/composite-door-jambs/",
+      "https://menniecanada.com/features-benefits/",
+      "https://menniecanada.com/products/fir/st-42/",
+      "https://menniecanada.com/products/mahogany-doors/mah-c3p/",
+      "https://menniecanada.com/products/smooth-doors/sm-bg-1843/",
+      "https://menniecanada.com/products/smooth-doors/sm-bg-1864/",
+      "https://menniecanada.com/products/smooth-doors/sm-bg-2236-1p-2/",
+      "https://menniecanada.com/products/smooth-doors/sm-bg-2243/",
+      "https://menniecanada.com/products/smooth-doors/sm-bg-2248-1p/",
+      "https://menniecanada.com/products/smooth-doors/sm-bg-2264/",
+      "https://menniecanada.com/products/smooth-doors/sm-cr/",
+      "https://menniecanada.com/products/smooth-doors/sm-ss1/",
+      "https://menniecanada.com/products/smooth-doors/sm-ss3/",
+      "https://menniecanada.com/products/smooth-doors/sm-ss5/",
+      "https://menniecanada.com/products/smooth-doors/sm-ss7/",
+      "https://menniecanada.com/products/smooth-doors/sm-ss9/"
+    ],
+    "resume_add_unseen_start_urls": true,
     "product_hints": ["/products/mahogany-doors/", "/products/oak-grain/", "/products/smooth-doors/", "/products/fir/"],
     "product_path_rules": ["^/products/(?:mahogany-doors|oak-grain|smooth-doors|fir)/[^/]+/?$"],
     "reject_product_paths": ["^/products/mahogany-doors/8-mahogany-grain-mah8-5p/?$"],
@@ -804,7 +824,8 @@
       "8-mahogany-grain-mah8-5l": "mah8-5l",
       "wg-4ptb": "wg-4pbt",
       "68-smooth-sm-crf": "sm-crf",
-      "8-smooth-sm8-gp": "sm8-gp"
+      "8-smooth-sm8-gp": "sm8-gp",
+      "sm-bg-2236-1p-2": "sm-bg-2236-1p"
     },
     "model_number_from_aliased_slug": true,
     "model_number_overrides": {
@@ -815,10 +836,61 @@
       "fir-grain-crf": "CRF",
       "fir-grain-crfs": "CRFS"
     },
-    "asset_role_rules": [
-      {"patterns": ["wp-image-[0-9]+"], "role": "gallery"}
+    "product_identity_rules": [
+      {"path_pattern": "^/products/fir/st-42/?$", "slug": "st-42", "name": "8 ft Cherry Grain 2 Panel Quarter Lite (ST-42)", "modelNumber": "ST-42", "collection": "Cherry Grain", "type": "2 Panel Quarter Lite"}
     ],
+    "document_role_rules": [
+      {"patterns": ["mennie_brochure_2025-2026_12p_anniversary_web\\.pdf"], "role": "catalogue"},
+      {"patterns": ["(?:mennie-canada-catalogue-|binder|drawing|mah8-fg-6l).*\\.pdf"], "role": "specification-sheet"}
+    ],
+    "document_product_rules": [
+      {"patterns": ["binder-tab-1-mennie-canada-drawing-2019-40-8-st"], "product_ids": ["mennie-canada:st-42"]},
+      {"patterns": ["mah8-fg-6l"], "product_ids": ["mennie-canada:fg-6l"]},
+      {"patterns": ["mennie-canada-catalogue-2em-2-panel"], "product_ids": ["mennie-canada:mah-2em", "mennie-canada:sm-2em", "mennie-canada:wg-2em"]},
+      {"patterns": ["mennie-canada-catalogue-cr-6-panel-craftsman"], "product_ids": ["mennie-canada:sm-cr"]},
+      {"patterns": ["mennie-canada-catalogue-f-flush-panel"], "product_ids": ["mennie-canada:sm-f"]}
+    ],
+    "asset_product_rules": [
+      {"patterns": ["/drawing-10\\.(?:jpe?g|png|webp)$"], "product_ids": ["mennie-canada:sm-f"]}
+    ],
+    "pdf_evidence_rules": [
+      {
+        "patterns": ["mennie-brochure-2025-2026-12p-anniversary-web-.*\\.pdf$"],
+        "exclude_pages": [1, 4, 11, 12],
+        "document_metadata": {
+          "title": "Mennie Canada Premium Fiberglass Entry Doors 2025-2026 Catalogue",
+          "documentDate": "2026-01-29",
+          "freshnessStatus": "current-source-linked",
+          "freshnessBasis": "Current 2025-2026 supplier catalogue linked from the live catalogue page."
+        },
+        "page_product_ids": {
+          "2": ["mennie-canada:mah-gp", "mennie-canada:wg-rgp"],
+          "3": ["mennie-canada:fir-s1k", "mennie-canada:fir-s2k", "mennie-canada:sm-s1k", "mennie-canada:sm-s2k"],
+          "5": ["mennie-canada:wg-f", "mennie-canada:wg-3pa", "mennie-canada:wg-2em", "mennie-canada:wg-4pbt", "mennie-canada:wg-6p", "mennie-canada:wg-rgp", "mennie-canada:wg-syd", "mennie-canada:wg-1p", "mennie-canada:wg-ctp", "mennie-canada:wg8-f", "mennie-canada:wg8-f-3mm", "mennie-canada:wg8-6p", "mennie-canada:wg8-2h", "mennie-canada:wg8-3q", "mennie-canada:wg8-mxp"],
+          "6": ["mennie-canada:mah-f", "mennie-canada:mah-gp", "mennie-canada:mah-2d", "mennie-canada:mah-rp", "mennie-canada:mah-2em", "mennie-canada:mah-3pa", "mennie-canada:mah-crf", "mennie-canada:mah-5l", "mennie-canada:mah-ss1", "mennie-canada:mah-ss2", "mennie-canada:mah-ss3", "mennie-canada:mah-ss4", "mennie-canada:mah-ss5", "mennie-canada:mah-ss6", "mennie-canada:mah-ss7", "mennie-canada:mah-ss8", "mennie-canada:mah-ss9", "mennie-canada:mah-ss10"],
+          "7": ["mennie-canada:mah-8-gp", "mennie-canada:mah8-5l", "mennie-canada:mah8-rp", "mennie-canada:mah8-rpct", "mennie-canada:mah8-3q", "mennie-canada:mah8-st-42", "mennie-canada:mah8-nrp", "mennie-canada:mah8-nrpct", "mennie-canada:mah8-f"],
+          "8": ["mennie-canada:sm-f", "mennie-canada:sm-2em", "mennie-canada:sm-2p", "mennie-canada:sm-3pa", "mennie-canada:sm-rp", "mennie-canada:fir-grain-crf", "mennie-canada:fir-grain-crf-cg", "mennie-canada:fir-grain-crf-sg", "mennie-canada:fir-grain-crfs", "mennie-canada:fir-s1k", "mennie-canada:fir-s2k"],
+          "9": ["mennie-canada:sm-5l", "mennie-canada:sm8-f", "mennie-canada:sm8-gp", "mennie-canada:sm8-6p", "mennie-canada:sm8-2h", "mennie-canada:sm8-5l", "mennie-canada:sm-s1k", "mennie-canada:sm-s2k", "mennie-canada:sm-crf", "mennie-canada:sm-4pbt", "mennie-canada:sm-6p", "mennie-canada:sm-8-crf", "mennie-canada:sm-8-s1k", "mennie-canada:sm-8-s2k"],
+          "10": ["mennie-canada:mah-f", "mennie-canada:mah-gr1", "mennie-canada:mah-gr2", "mennie-canada:mah-gr3", "mennie-canada:mah-gr4", "mennie-canada:mah-gr5", "mennie-canada:mah-gr6", "mennie-canada:mah-gr7", "mennie-canada:mah-gr8", "mennie-canada:mah-gr9", "mennie-canada:mah-gr10", "mennie-canada:mah-gr11", "mennie-canada:mah-gr12", "mennie-canada:mah-gr13", "mennie-canada:mah-gr14", "mennie-canada:mah-gr15"]
+        }
+      },
+      {"patterns": ["binder-tab-1-mennie-canada-drawing-2019-40-8-st-.*\\.pdf$"], "default_product_ids": ["mennie-canada:st-42"], "document_metadata": {"title": "Mennie Canada ST-42 Squared Panel Technical Drawing", "documentDate": "2019-01-01", "freshnessStatus": "current-source-linked"}},
+      {"patterns": ["mah8-fg-6l-.*\\.pdf$"], "default_product_ids": ["mennie-canada:fg-6l"], "document_metadata": {"title": "Mennie Canada MAH8-FG-6L Technical Drawing", "documentDate": "2019-01-01", "freshnessStatus": "current-source-linked"}},
+      {"patterns": ["mennie-canada-catalogue-2em-2-panel-.*\\.pdf$"], "default_product_ids": ["mennie-canada:mah-2em", "mennie-canada:sm-2em", "mennie-canada:wg-2em"], "document_metadata": {"title": "Mennie Canada 2EM 2 Panel Technical Drawing", "documentDate": "2016-01-01", "freshnessStatus": "current-source-linked"}},
+      {"patterns": ["mennie-canada-catalogue-cr-6-panel-craftsman-.*\\.pdf$"], "default_product_ids": ["mennie-canada:sm-cr"], "document_metadata": {"title": "Mennie Canada CR 6 Panel Craftsman Technical Drawing", "documentDate": "2016-01-01", "freshnessStatus": "current-source-linked"}},
+      {"patterns": ["mennie-canada-catalogue-f-flush-panel-.*\\.pdf$"], "default_product_ids": ["mennie-canada:sm-f"], "document_metadata": {"title": "Mennie Canada F Flush Panel Technical Drawing", "documentDate": "2016-01-01", "freshnessStatus": "current-source-linked"}}
+    ],
+    "asset_role_rules": [
+      {"patterns": ["(?:drawing|binder|/wd-[^/]+)"], "role": "technical-drawing"},
+      {"patterns": ["(?:jamb|brickmould|astragal|glass-bead|glazing-sidelite|wsdl|burlap)"], "role": "profile-section"},
+      {"patterns": ["/(?:mahogany|smooth)\\.(?:jpe?g|png|webp)"], "role": "finish-swatch"},
+      {"patterns": ["wp-image-[0-9]+"], "role": "product-gallery"}
+    ],
+    "attach_page_roles": ["technical-drawing"],
+    "archive_shared_roles": ["profile-section", "finish-swatch"],
     "assets_on_product_pages_only": true,
+    "require_gallery_identity_match": true,
+    "promote_identity_matched_gallery_to_hero": true,
     "collection_from_parent_path": {
       "mahogany-doors": "Mahogany Grain",
       "oak-grain": "Oak Grain",

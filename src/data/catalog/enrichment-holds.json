@@ -783,6 +783,130 @@
     {
       "productId": "verre-select:satine",
       "reason": "Current Verre Select publication identity and source facts are supplier-verified, but no working live detail page exists and editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:fg-6l",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:fir-grain-crf",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:fir-grain-crf-cg",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:fir-grain-crf-sg",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:fir-grain-crfs",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:fir-s1k",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:fir-s2k",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:mah-5l",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:mah-gp",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:sm-8-fl-1p-2",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:sm-cr",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:sm-fl-1p",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:sm-ss1",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:sm-ss3",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:sm-ss5",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:sm-ss7",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:sm-ss9",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:st-42",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:wg8-f-3mm",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:mah-fsl",
+      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
+    },
+    {
+      "productId": "mennie-canada:mah-rpsl",
+      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
+    },
+    {
+      "productId": "mennie-canada:mah8-fsl",
+      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
+    },
+    {
+      "productId": "mennie-canada:mah8-nrpsl",
+      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
+    },
+    {
+      "productId": "mennie-canada:sm-2psl",
+      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
+    },
+    {
+      "productId": "mennie-canada:sm-fsl",
+      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
+    },
+    {
+      "productId": "mennie-canada:sm8-fsl",
+      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
+    },
+    {
+      "productId": "mennie-canada:wg-2p-180-sl",
+      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
+    },
+    {
+      "productId": "mennie-canada:wg-2psl",
+      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
+    },
+    {
+      "productId": "mennie-canada:wg-fsl",
+      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
+    },
+    {
+      "productId": "mennie-canada:wg8-2psl",
+      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
+    },
+    {
+      "productId": "mennie-canada:wg8-fsl",
+      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
     }
   ]
 }

@@ -78,6 +78,12 @@ def normalize(url: str, base: str) -> str | None:
     return urlunparse((parsed.scheme.lower(), netloc, path, '', query, ''))
 
 
+def configured_unseen_start_urls(cfg: dict, seen_requests: set[str], seen_canonical: set[str]) -> list[str]:
+    """Return newly configured seeds without reopening completed discovery pages."""
+    starts = [normalize(url, cfg['base_url']) for url in cfg.get('start_urls', [])]
+    return [url for url in starts if url and url not in seen_requests and url not in seen_canonical]
+
+
 def same_allowed(url: str, domains: set[str]) -> bool:
     return (urlparse(url).hostname or '').lower() in domains
 
@@ -175,7 +181,7 @@ def decode_html(body: bytes, header_charset: str | None) -> str:
 
 
 WP_SIZE_SUFFIX = re.compile(r'-\d{2,5}x\d{2,5}(?=\.[a-z0-9]{2,5}$)', re.I)
-ASSET_PLANNER_VERSION = 4
+ASSET_PLANNER_VERSION = 6
 
 
 def wordpress_master_candidate(attributes: dict, linked_url: str | None = None) -> str | None:
@@ -246,6 +252,11 @@ class PageParser(HTMLParser):
             if attributes.get('href'):
                 self.links.append(attributes['href'])
                 self.link_titles[attributes['href']] = clean_text(attributes.get('title') or attributes.get('aria-label') or '')
+        if tag in {'iframe', 'embed', 'object'}:
+            embedded = attributes.get('src') or attributes.get('data') or ''
+            parameters = dict(parse_qsl(urlparse(html.unescape(embedded)).query, keep_blank_values=True)) if embedded else {}
+            document = parameters.get('file') if str(parameters.get('file', '')).lower().endswith('.pdf') else embedded
+            if document: self.links.append(document)
         if tag in {'img', 'source'} and not excluded_region:
             descriptor = ' '.join(str(attributes.get(key, '')) for key in ('class', 'id', 'alt')).lower()
             selected = wordpress_master_candidate(attributes, self._link_stack[-1] if self._link_stack else None)
@@ -355,6 +366,8 @@ def magento_gallery_assets(blocks: Iterable[str]) -> list[tuple[str, str, str]]:
 
 def document_role(url: str, descriptor: str = '', cfg: dict | None = None) -> str:
     value = clean_text(f'{url} {descriptor}').lower()
+    configured = next((rule['role'] for rule in (cfg or {}).get('document_role_rules', []) if any(re.search(pattern, value, re.I) for pattern in rule['patterns'])), None)
+    if configured: return configured
     rules = (
         ('warranty', ('warranty', 'garantie')),
         ('installation-guide', ('install', 'assembly', 'instructions', 'guide de pose')),
@@ -366,7 +379,7 @@ def document_role(url: str, descriptor: str = '', cfg: dict | None = None) -> st
     )
     role = next((role for role, terms in rules if any(term in value for term in terms)), 'reference-only')
     if role != 'reference-only': return role
-    return next((rule['role'] for rule in (cfg or {}).get('document_role_rules', []) if any(re.search(pattern, value, re.I) for pattern in rule['patterns'])), 'reference-only')
+    return 'reference-only'
 
 
 def is_generic_page(url: str) -> bool:
@@ -702,13 +715,27 @@ def validate_asset_binary(asset: Asset) -> bool:
     return hashlib.sha256(path.read_bytes()).hexdigest() == asset.sha256
 
 
-def build_asset_tasks(groups: dict[str, list[dict]], max_assets: int, saved: list[dict] | None = None) -> tuple[list[AssetTask], dict]:
+def build_asset_tasks(groups: dict[str, list[dict]], max_assets: int, saved: list[dict] | None = None, *, expand_saved: bool = True) -> tuple[list[AssetTask], dict]:
     if saved:
         tasks = [AssetTask(**task) for task in saved]
         invalid = [task.status for task in tasks if task.status not in ASSET_TASK_STATES]
         if invalid:
             raise ValueError(f'invalid asset task state(s): {sorted(set(invalid))}')
-        return tasks, {'plannerVersion': ASSET_PLANNER_VERSION, 'groups': len(groups), 'selected': len(tasks), 'available': len({item['url'] for items in groups.values() for item in items}), 'complete': len(tasks) >= len({item['url'] for items in groups.values() for item in items})}
+        if not expand_saved:
+            return tasks, {'plannerVersion': ASSET_PLANNER_VERSION, 'groups': len({task.group for task in tasks}), 'selected': len(tasks), 'available': len(tasks), 'complete': True}
+        planned_urls = {task.url for task in tasks}
+        # A supplier may add narrowly scoped start URLs after page discovery. Keep
+        # every persisted task/state and append only newly discovered candidates.
+        # The original plan remains a floor even if a resume command supplies a
+        # smaller budget than the plan that created the checkpoint.
+        selected = fair_asset_candidates(groups, max(max_assets, len(tasks)))
+        tasks.extend(
+            AssetTask(group=item['group'], association_rank=item.get('association_rank', 9), relationship_signals=item.get('relationship_signals', []), **{key: item[key] for key in ('url', 'source_url', 'page_url', 'kind', 'role', 'order')})
+            for item in selected
+            if item['url'] not in planned_urls
+        )
+        available = len({item['url'] for items in groups.values() for item in items})
+        return tasks, {'plannerVersion': ASSET_PLANNER_VERSION, 'groups': len(groups), 'selected': len(tasks), 'available': available, 'complete': len({task.url for task in tasks}) >= available}
     required_groups = sum(1 for items in groups.values() if items)
     if required_groups > max_assets:
         raise ValueError(f'asset budget {max_assets} cannot attempt one asset for each of {required_groups} product/source groups; rerun with --max-assets at least {required_groups}')
@@ -973,7 +1000,7 @@ def attach_available_asset_occurrences(pages: list[Page], asset_aliases: dict[st
 
 IDENTITY_STOPWORDS = {
     'black', 'clear', 'decorative', 'design', 'door', 'doorlite', 'doors', 'exterior', 'fiberglass',
-    'finish', 'glass', 'grain', 'impact', 'insert', 'interior', 'lite', 'panel', 'panels', 'product',
+    'finish', 'flush', 'glass', 'grain', 'impact', 'insert', 'interior', 'lite', 'panel', 'panels', 'product',
     'series', 'sidelite', 'skin', 'smooth', 'straight', 'traditional', 'trimlite', 'white', 'window', 'windows', 'wood',
 }
 
@@ -988,13 +1015,15 @@ def identity_keys(values: Iterable[str | None]) -> set[str]:
         pieces = [raw, *re.findall(r'[a-z]+\d+[a-z]*', lower), *re.findall(r'[a-z]{4,}', lower), *re.findall(r'\d{3,}', lower)]
         for piece in pieces:
             key = re.sub(r'[^a-z0-9]', '', piece.lower())
-            if len(key) >= 4 and key not in IDENTITY_STOPWORDS: keys.add(key)
+            short_hyphenated_model = len(key) >= 3 and bool(re.fullmatch(r'[a-z]{1,3}-[a-z0-9]{1,3}', raw.lower()))
+            if (len(key) >= 4 or short_hyphenated_model) and key not in IDENTITY_STOPWORDS: keys.add(key)
     return keys
 
 
 def urls_identity_match(urls: Iterable[str], product_keys: set[str]) -> bool:
     for url in urls:
         stem = Path(WP_SIZE_SUFFIX.sub('', Path(urlparse(url).path).name)).stem
+        stem = re.sub(r'-scaled$', '', stem, flags=re.I)
         stem = re.sub(r'-e\d+$', '', stem, flags=re.I)
         stem = re.sub(r'[-_]1$', '', stem)
         stem = re.sub(r'(?<=[A-Za-z])(?:19|20)\d{2}$', '', stem)
@@ -1008,7 +1037,7 @@ def asset_identity_match(asset: Asset, product_keys: set[str]) -> bool:
     return urls_identity_match(set([asset.original_asset_url, asset.final_asset_url, *(asset.source_asset_urls or [])]), product_keys)
 
 
-def product_asset_paths(page: Page, assets: dict[str, Asset], attach_page_roles: list[str] | None = None, product_identity: Iterable[str | None] | None = None, trust_structured_images: bool = True, trust_product_open_graph: bool = False) -> tuple[list[str], list[str]]:
+def product_asset_paths(page: Page, assets: dict[str, Asset], attach_page_roles: list[str] | None = None, product_identity: Iterable[str | None] | None = None, trust_structured_images: bool = True, trust_product_open_graph: bool = False, require_gallery_identity_match: bool = False) -> tuple[list[str], list[str]]:
     page_slug = Path(urlparse(page.url).path.rstrip('/')).stem
     product_keys = identity_keys([page_slug, page.product_data.get('modelNumber'), *(product_identity or [])])
     images: list[str] = []; documents: list[str] = []
@@ -1026,7 +1055,7 @@ def product_asset_paths(page: Page, assets: dict[str, Asset], attach_page_roles:
         asset_urls = set([asset.original_asset_url, asset.final_asset_url, *(asset.source_asset_urls or [])])
         filename_match = asset_identity_match(asset, product_keys)
         primary_hero = bool(asset_urls & primary_hero_urls)
-        primary_gallery = bool(asset_urls & primary_gallery_urls)
+        primary_gallery = bool(asset_urls & primary_gallery_urls) and (not require_gallery_identity_match or filename_match)
         product_open_graph = bool(asset_urls & product_open_graph_urls)
         structured_match = bool(asset_urls & structured_urls)
         shared_role = asset.role in DOCUMENT_ROLES | {'technical-drawing', 'profile-section', 'configuration-diagram', 'colour-chart', 'interior-option', 'finish-swatch', 'glass-design', 'hardware'}
@@ -1042,6 +1071,19 @@ def product_asset_paths(page: Page, assets: dict[str, Asset], attach_page_roles:
         asset.relationship_evidence = sorted(set(asset.relationship_evidence))
         (documents if asset.asset_type == 'document' else images).append(local_path)
     return sorted(set(images)), sorted(set(documents))
+
+
+def promote_identity_matched_gallery_heroes(assets: dict[str, Asset], products: list[dict], enabled: bool = False) -> None:
+    if not enabled: return
+    for asset in assets.values():
+        if explicit_role(asset.role) != 'product-gallery': continue
+        owners = [
+            product for product in products
+            if asset_identity_match(asset, identity_keys([product.get('slug'), product.get('modelNumber'), product.get('name')]))
+        ]
+        if len(owners) == 1:
+            asset.role = 'product-hero'
+            asset.relationship_evidence = sorted(set(asset.relationship_evidence + ['filename-model-match', 'supplier-scoped-hero-promotion']))
 
 
 def checkpoint(path: Path, queue, queued, seen_requests, seen_canonical, pages, assets, errors, run_id: str, *, phase: str = 'page-discovery', asset_tasks: list[AssetTask] | None = None, asset_plan: dict | None = None) -> None:
@@ -1089,7 +1131,11 @@ def crawl_supplier(cfg: dict, args) -> tuple[dict, bool]:
         saved_asset_plan = state.get('assetPlan', {})
         resume_phase = state.get('phase') or ('asset-download' if assets else 'page-discovery')
         if resume_phase != 'page-discovery':
-            queue.clear(); queued.clear()
+            unseen_starts = configured_unseen_start_urls(cfg, seen_requests, seen_canonical) if cfg.get('resume_add_unseen_start_urls') else []
+            if unseen_starts:
+                queue = deque(unseen_starts); queued = set(unseen_starts); resume_phase = 'page-discovery'
+            else:
+                queue.clear(); queued.clear()
     else:
         starts = [normalize(url, cfg['base_url']) for url in cfg['start_urls']]
         queue = deque(url for url in starts if url); queued = set(queue); seen_requests = set(); seen_canonical = set()
@@ -1228,14 +1274,14 @@ def crawl_supplier(cfg: dict, args) -> tuple[dict, bool]:
             groups.setdefault(group, []).append(candidate_item)
     asset_plan_error: str | None = None
     try:
-        asset_tasks, asset_plan = build_asset_tasks(groups, args.max_assets, saved_asset_tasks if saved_asset_plan.get('plannerVersion') == ASSET_PLANNER_VERSION else None)
+        asset_tasks, asset_plan = build_asset_tasks(groups, args.max_assets, saved_asset_tasks if saved_asset_plan.get('plannerVersion') == ASSET_PLANNER_VERSION else None, expand_saved=not saved_asset_plan.get('noPageDiscovery', False))
     except ValueError as error:
         asset_tasks = []
         asset_plan = saved_asset_plan or {'groups': len(groups), 'selected': 0, 'available': sum(len(items) for items in groups.values()), 'complete': False}
         asset_plan_error = str(error)
         errors.append({'phase': 'asset-planning', 'error': asset_plan_error})
     if saved_asset_plan:
-        asset_plan = asset_plan | saved_asset_plan
+        asset_plan = saved_asset_plan | asset_plan
     asset_aliases, invalid_asset_urls = reconcile_asset_tasks(asset_tasks, assets)
     restore_retryable_task_states(asset_tasks, state.get('assetTasks', []))
     for asset in assets.values():
@@ -1311,7 +1357,7 @@ def crawl_supplier(cfg: dict, args) -> tuple[dict, bool]:
                 embedded_url = normalize(embedded.get('image'), page.url) if embedded.get('image') else None
                 embedded_assets = [asset.local_path for asset in assets.values() if embedded_url and embedded_url in (asset.source_asset_urls or [asset.original_asset_url])]
                 synthetic = Page(page.url, page.title, page.h1, page.description, page.snapshot, True, page.category, embedded_assets, {'modelNumber': embedded['modelNumber']})
-                media, documents = product_asset_paths(synthetic, assets, cfg.get('attach_page_roles'))
+                media, documents = product_asset_paths(synthetic, assets, cfg.get('attach_page_roles'), require_gallery_identity_match=cfg.get('require_gallery_identity_match', False))
                 products.append({'id': product_id, 'manufacturer': slug, 'slug': product_slug, 'name': embedded['name'], 'category': page.category, 'collection': embedded['collection'], 'modelNumber': embedded['modelNumber'], 'type': None, 'summary': None, 'sourceDescription': embedded.get('description'), 'sourceUrl': embedded.get('sourceUrl') or page.url, '_associationPageUrl': page.url, 'sourceType': 'live-crawl', 'media': media, 'documents': documents, 'specifications': {}, 'lastVerified': time.strftime('%Y-%m-%d')})
             continue
         identity = next((rule for rule in cfg.get('product_identity_rules', []) if re.fullmatch(rule['path_pattern'], page_path, re.I)), {})
@@ -1344,7 +1390,7 @@ def crawl_supplier(cfg: dict, args) -> tuple[dict, bool]:
         if product_id in ids or route in routes:
             structural_errors.append({'url': page.url, 'error': f'duplicate product identity {product_id}'}); continue
         ids.add(product_id); routes.add(route)
-        media, documents = product_asset_paths(page, assets, cfg.get('attach_page_roles'), [product_slug, model_number, name], cfg.get('trust_structured_product_images', True), cfg.get('trust_product_open_graph_images', False))
+        media, documents = product_asset_paths(page, assets, cfg.get('attach_page_roles'), [product_slug, model_number, name], cfg.get('trust_structured_product_images', True), cfg.get('trust_product_open_graph_images', False), cfg.get('require_gallery_identity_match', False))
         products.append({'id': product_id, 'manufacturer': slug, 'slug': product_slug, 'name': name, 'category': identity.get('category') or page.category, 'collection': identity.get('collection'), 'modelNumber': model_number, 'type': identity.get('type'), 'summary': None, 'sourceDescription': page.product_data.get('description') or (None if cfg.get('ignore_page_description') else page.description) or None, 'sourceUrl': page.url, 'sourceType': 'live-crawl', 'media': media, 'documents': documents, 'specifications': page.product_data.get('specifications', {}), 'lastVerified': time.strftime('%Y-%m-%d')})
     for source_product in configured_source_products(cfg):
         route = (source_product['manufacturer'], source_product['slug'])
@@ -1353,6 +1399,7 @@ def crawl_supplier(cfg: dict, args) -> tuple[dict, bool]:
             continue
         ids.add(source_product['id']); routes.add(route); products.append(source_product)
     errors.extend(structural_errors)
+    promote_identity_matched_gallery_heroes(assets, products, cfg.get('promote_identity_matched_gallery_to_hero', False))
     enforce_filename_owner_precedence(assets, products)
     enforce_wordpress_master_precedence(assets, products)
     apply_document_relationship_rules(assets, products, cfg.get('document_product_rules'))
@@ -1366,7 +1413,10 @@ def crawl_supplier(cfg: dict, args) -> tuple[dict, bool]:
         checkpoint(checkpoint_path, queue, queued, seen_requests, seen_canonical, pages, assets, errors, run_id, phase='asset-planned', asset_tasks=asset_tasks, asset_plan=asset_plan)
         print(f'Planned {len(asset_tasks)} unique asset requests; {sum(task.status == "validated" for task in asset_tasks)} validated binaries reused; no network asset requests made.')
         return preview, True
-    viable = bool(pages) and bool(products) and not structural_errors and not asset_plan_error and not incomplete_asset_tasks
+    asset_plan_complete = bool(asset_plan.get('complete'))
+    if not asset_plan_complete:
+        errors.append({'phase': 'asset-planning', 'error': 'asset plan is incomplete; preserving last-known-good supplier data'})
+    viable = bool(pages) and bool(products) and not structural_errors and not asset_plan_error and asset_plan_complete and not incomplete_asset_tasks
     if viable:
         try: validate_product_records(products, cfg)
         except ValueError as error: errors.append({'error': str(error)}); viable = False

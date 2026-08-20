@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T04:47:52.095901+00:00",
+  "generatedAt": "2026-08-20T07:03:50.595181+00:00",
   "documents": [
     {
       "documentId": "masonite:3-1hdsteel80-2235286a8473",
@@ -39474,6 +39474,1037 @@
       ],
       "extractionErrors": [],
       "extractedAt": "2026-08-20T04:47:52.074642+00:00"
+    },
+    {
+      "documentId": "mennie-canada:binder-tab-1-mennie-canada-drawing-2019-40-8-st-1cdd108819ef",
+      "title": "Mennie Canada ST-42 Squared Panel Technical Drawing",
+      "supplier": "mennie-canada",
+      "localPath": "/documents/catalog/mennie-canada/binder-tab-1-mennie-canada-drawing-2019-40-8-st-1cdd108819ef.pdf",
+      "sha256": "b14ac644344f16fa521470a7f123dba3917be0c1adfce604c24f1eff4383d9dc",
+      "bytes": 81336,
+      "pageCount": 1,
+      "textCharacters": 229,
+      "tableCount": 1,
+      "extractedImageCount": 1,
+      "ocrRequired": true,
+      "ocrApplied": false,
+      "ocrReused": false,
+      "ocrEngine": null,
+      "ocrPages": 0,
+      "metadata": {
+        "/Producer": "GPL Ghostscript 9.50",
+        "/CreationDate": "D:20230321061935Z00'00'",
+        "/ModDate": "D:20230321061935Z00'00'",
+        "/Author": "jing yu",
+        "/Creator": "Microsoft® Word for Office 365"
+      },
+      "documentDate": "2019-01-01",
+      "freshness": {
+        "status": "current-source-linked",
+        "basis": "present in current supplier asset index"
+      },
+      "provenance": {
+        "supplier": "mennie-canada",
+        "sourcePageUrls": [
+          "https://menniecanada.com/products/fir/st-42/"
+        ],
+        "productIds": [
+          "mennie-canada:st-42"
+        ],
+        "collections": [
+          "Cherry Grain"
+        ],
+        "scope": "product",
+        "role": "specification-sheet",
+        "originalUrl": "http://menniecanada.com/wp-content/uploads/2019/06/Binder-Tab-1-Mennie-Canada-drawing-2019-40-8-ST.pdf",
+        "sourceUrls": [
+          "http://menniecanada.com/wp-content/uploads/2019/06/Binder-Tab-1-Mennie-Canada-drawing-2019-40-8-ST.pdf"
+        ],
+        "finalUrl": "https://menniecanada.com/wp-content/uploads/2019/06/Binder-Tab-1-Mennie-Canada-drawing-2019-40-8-ST.pdf",
+        "localPath": "/documents/catalog/mennie-canada/binder-tab-1-mennie-canada-drawing-2019-40-8-st-1cdd108819ef.pdf",
+        "sha256": "b14ac644344f16fa521470a7f123dba3917be0c1adfce604c24f1eff4383d9dc",
+        "bytes": 81336,
+        "discoveredAt": "2026-08-20T06:52:34Z",
+        "assetType": "document",
+        "relationshipState": "product-specific",
+        "relationshipEvidence": [
+          "supplier-scoped-document-map"
+        ],
+        "masterUrl": "http://menniecanada.com/wp-content/uploads/2019/06/Binder-Tab-1-Mennie-Canada-drawing-2019-40-8-ST.pdf",
+        "selectedUrl": "https://menniecanada.com/wp-content/uploads/2019/06/Binder-Tab-1-Mennie-Canada-drawing-2019-40-8-ST.pdf",
+        "mimeType": "application/pdf",
+        "width": null,
+        "height": null
+      },
+      "pages": [
+        {
+          "page": 1,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/binder-tab-1-mennie-canada-drawing-2019-40-8-st-1cdd108819ef/pages/page-0001.txt",
+          "characters": 229,
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/binder-tab-1-mennie-canada-drawing-2019-40-8-st-1cdd108819ef/tables/page-0001-table-01.json"
+          ],
+          "images": [
+            {
+              "path": "source-media/suppliers/mennie-canada/pdf-extracted/binder-tab-1-mennie-canada-drawing-2019-40-8-st-1cdd108819ef/images/page-0001-image-01.png",
+              "page": 1,
+              "width": 366,
+              "height": 601,
+              "sha256": "87d9b8907b740c917bed7537467a0937a04bc69a5b39d5b4b1f11580d625826a",
+              "productIds": [
+                "mennie-canada:st-42"
+              ]
+            }
+          ],
+          "evidenceProductIds": [
+            "mennie-canada:st-42"
+          ],
+          "textSource": "embedded"
+        }
+      ],
+      "factCandidates": [
+        {
+          "page": 1,
+          "line": 1,
+          "text": "Fiber Glass Entry Doors",
+          "productIds": [
+            "mennie-canada:st-42"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 2,
+          "text": "8’ ST– Squared Panel",
+          "productIds": [
+            "mennie-canada:st-42"
+          ]
+        }
+      ],
+      "extractionErrors": [],
+      "extractedAt": "2026-08-20T07:03:47.592369+00:00"
+    },
+    {
+      "documentId": "mennie-canada:mah8-fg-6l-a20319578054",
+      "title": "Mennie Canada MAH8-FG-6L Technical Drawing",
+      "supplier": "mennie-canada",
+      "localPath": "/documents/catalog/mennie-canada/mah8-fg-6l-a20319578054.pdf",
+      "sha256": "3812ae0068c9fe91d7070166adbcea431b2e4ae3ad579e05e0cf9609d970e5ac",
+      "bytes": 89856,
+      "pageCount": 1,
+      "textCharacters": 210,
+      "tableCount": 1,
+      "extractedImageCount": 1,
+      "ocrRequired": true,
+      "ocrApplied": false,
+      "ocrReused": false,
+      "ocrEngine": null,
+      "ocrPages": 0,
+      "metadata": {
+        "/Producer": "GPL Ghostscript 9.50",
+        "/CreationDate": "D:20230321062059Z00'00'",
+        "/ModDate": "D:20230321062059Z00'00'",
+        "/Author": "jing yu",
+        "/Creator": "Microsoft® Word for Office 365"
+      },
+      "documentDate": "2019-01-01",
+      "freshness": {
+        "status": "current-source-linked",
+        "basis": "present in current supplier asset index"
+      },
+      "provenance": {
+        "supplier": "mennie-canada",
+        "sourcePageUrls": [
+          "https://menniecanada.com/products/mahogany-doors/fg-6l/"
+        ],
+        "productIds": [
+          "mennie-canada:fg-6l"
+        ],
+        "collections": [
+          "Mahogany Grain"
+        ],
+        "scope": "product",
+        "role": "specification-sheet",
+        "originalUrl": "http://menniecanada.com/wp-content/uploads/2019/05/MAH8-FG-6L.pdf",
+        "sourceUrls": [
+          "http://menniecanada.com/wp-content/uploads/2019/05/MAH8-FG-6L.pdf"
+        ],
+        "finalUrl": "https://menniecanada.com/wp-content/uploads/2019/05/MAH8-FG-6L.pdf",
+        "localPath": "/documents/catalog/mennie-canada/mah8-fg-6l-a20319578054.pdf",
+        "sha256": "3812ae0068c9fe91d7070166adbcea431b2e4ae3ad579e05e0cf9609d970e5ac",
+        "bytes": 89856,
+        "discoveredAt": "2026-08-20T06:52:33Z",
+        "assetType": "document",
+        "relationshipState": "product-specific",
+        "relationshipEvidence": [
+          "supplier-scoped-document-map"
+        ],
+        "masterUrl": "http://menniecanada.com/wp-content/uploads/2019/05/MAH8-FG-6L.pdf",
+        "selectedUrl": "https://menniecanada.com/wp-content/uploads/2019/05/MAH8-FG-6L.pdf",
+        "mimeType": "application/pdf",
+        "width": null,
+        "height": null
+      },
+      "pages": [
+        {
+          "page": 1,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mah8-fg-6l-a20319578054/pages/page-0001.txt",
+          "characters": 210,
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mah8-fg-6l-a20319578054/tables/page-0001-table-01.json"
+          ],
+          "images": [
+            {
+              "path": "source-media/suppliers/mennie-canada/pdf-extracted/mah8-fg-6l-a20319578054/images/page-0001-image-01.png",
+              "page": 1,
+              "width": 446,
+              "height": 770,
+              "sha256": "da06fe440ec29d01da9574cf1640093cf77aa3245670ae3b4208b385d64133e0",
+              "productIds": [
+                "mennie-canada:fg-6l"
+              ]
+            }
+          ],
+          "evidenceProductIds": [
+            "mennie-canada:fg-6l"
+          ],
+          "textSource": "embedded"
+        }
+      ],
+      "factCandidates": [
+        {
+          "page": 1,
+          "line": 1,
+          "text": "Fiber Glass Entry Doors",
+          "productIds": [
+            "mennie-canada:fg-6l"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 2,
+          "text": "8’ FG-6L Glazed 6 Lite Glass Insert",
+          "productIds": [
+            "mennie-canada:fg-6l"
+          ]
+        }
+      ],
+      "extractionErrors": [],
+      "extractedAt": "2026-08-20T07:03:47.685001+00:00"
+    },
+    {
+      "documentId": "mennie-canada:mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a",
+      "title": "Mennie Canada Premium Fiberglass Entry Doors 2025-2026 Catalogue",
+      "supplier": "mennie-canada",
+      "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+      "sha256": "e36683c9e521ee77431943f5b40832cb83b3aa7147daffb9fabd6c5b81401028",
+      "bytes": 1084387,
+      "pageCount": 12,
+      "textCharacters": 5701,
+      "tableCount": 8,
+      "extractedImageCount": 9,
+      "ocrRequired": false,
+      "ocrApplied": false,
+      "ocrReused": false,
+      "ocrEngine": null,
+      "ocrPages": 0,
+      "metadata": {
+        "/Producer": "GPL Ghostscript 9.55.0",
+        "/CreationDate": "D:20260129164649Z00'00'",
+        "/ModDate": "D:20260129164649Z00'00'"
+      },
+      "documentDate": "2026-01-29",
+      "freshness": {
+        "status": "current-source-linked",
+        "basis": "Current 2025-2026 supplier catalogue linked from the live catalogue page."
+      },
+      "provenance": {
+        "supplier": "mennie-canada",
+        "sourcePageUrls": [
+          "https://menniecanada.com/catalog/"
+        ],
+        "productIds": [],
+        "collections": [],
+        "scope": "supplier",
+        "role": "catalogue",
+        "originalUrl": "https://menniecanada.com/wp-content/uploads/2026/01/mennie_brochure_2025-2026_12p_anniversary_web.pdf",
+        "sourceUrls": [
+          "https://menniecanada.com/wp-content/uploads/2026/01/mennie_brochure_2025-2026_12p_anniversary_web.pdf"
+        ],
+        "finalUrl": "https://menniecanada.com/wp-content/uploads/2026/01/mennie_brochure_2025-2026_12p_anniversary_web.pdf",
+        "localPath": "/documents/catalog/mennie-canada/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a.pdf",
+        "sha256": "e36683c9e521ee77431943f5b40832cb83b3aa7147daffb9fabd6c5b81401028",
+        "bytes": 1084387,
+        "discoveredAt": "2026-08-20T06:46:34Z",
+        "assetType": "document",
+        "relationshipState": "supplier-shared",
+        "relationshipEvidence": [],
+        "masterUrl": "https://menniecanada.com/wp-content/uploads/2026/01/mennie_brochure_2025-2026_12p_anniversary_web.pdf",
+        "selectedUrl": "https://menniecanada.com/wp-content/uploads/2026/01/mennie_brochure_2025-2026_12p_anniversary_web.pdf",
+        "mimeType": "application/pdf",
+        "width": null,
+        "height": null
+      },
+      "pages": [
+        {
+          "page": 1,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0001.txt",
+          "characters": 0,
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0001-table-01.json",
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0001-table-02.json"
+          ],
+          "images": [
+            {
+              "path": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/images/page-0001-image-01.jpg",
+              "page": 1,
+              "width": 631,
+              "height": 801,
+              "sha256": "54d61dec0038d70983b5abad6cd5832be0345d07a3dd44b371aeac9d39108043",
+              "productIds": []
+            }
+          ],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 2,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0002.txt",
+          "characters": 21,
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0002-table-01.json"
+          ],
+          "images": [
+            {
+              "path": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/images/page-0002-image-02.jpg",
+              "page": 2,
+              "width": 577,
+              "height": 423,
+              "sha256": "22d0c3cf70c75a3e60b843385b9a368cd1047016c5550a939d8e7c5a94c16484",
+              "productIds": [
+                "mennie-canada:mah-gp",
+                "mennie-canada:wg-rgp"
+              ]
+            },
+            {
+              "path": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/images/page-0002-image-03.jpg",
+              "page": 2,
+              "width": 576,
+              "height": 416,
+              "sha256": "5a99b3971e144a7ed5c62d3f8c5c7ef3897f867f45fbbba2d7c042e81f53c8ff",
+              "productIds": [
+                "mennie-canada:mah-gp",
+                "mennie-canada:wg-rgp"
+              ]
+            }
+          ],
+          "evidenceProductIds": [
+            "mennie-canada:mah-gp",
+            "mennie-canada:wg-rgp"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 3,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0003.txt",
+          "characters": 79,
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0003-table-01.json",
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0003-table-02.json",
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0003-table-03.json"
+          ],
+          "images": [
+            {
+              "path": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/images/page-0003-image-01.jpg",
+              "page": 3,
+              "width": 571,
+              "height": 422,
+              "sha256": "c709ba5a5dc5e1525f06385a8194cfe0b94670f028c278b278ff5f766d5ba170",
+              "productIds": [
+                "mennie-canada:fir-s1k",
+                "mennie-canada:fir-s2k",
+                "mennie-canada:sm-s1k",
+                "mennie-canada:sm-s2k"
+              ]
+            },
+            {
+              "path": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/images/page-0003-image-04.jpg",
+              "page": 3,
+              "width": 577,
+              "height": 425,
+              "sha256": "f597c8b76b6a600e1b5ae329b74da4e877c8cd0494706de5649000225b119c57",
+              "productIds": [
+                "mennie-canada:fir-s1k",
+                "mennie-canada:fir-s2k",
+                "mennie-canada:sm-s1k",
+                "mennie-canada:sm-s2k"
+              ]
+            },
+            {
+              "path": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/images/page-0003-image-05.jpg",
+              "page": 3,
+              "width": 577,
+              "height": 422,
+              "sha256": "0f0914d1da818d260ab3c5dfee6f42521b3e8e8d916f8f2b63de2ce7f345d7bd",
+              "productIds": [
+                "mennie-canada:fir-s1k",
+                "mennie-canada:fir-s2k",
+                "mennie-canada:sm-s1k",
+                "mennie-canada:sm-s2k"
+              ]
+            }
+          ],
+          "evidenceProductIds": [
+            "mennie-canada:fir-s1k",
+            "mennie-canada:fir-s2k",
+            "mennie-canada:sm-s1k",
+            "mennie-canada:sm-s2k"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 4,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0004.txt",
+          "characters": 92,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/images/page-0004-image-03.jpg",
+              "page": 4,
+              "width": 305,
+              "height": 305,
+              "sha256": "8be21fae7a051ac205466f8df2f4249801d1ff15cfbd43d2b6cf606d5189ebbb",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/images/page-0004-image-04.jpg",
+              "page": 4,
+              "width": 245,
+              "height": 244,
+              "sha256": "d6e21d449197d3ed0a0f0ff75cd741ab1fc26fe07841f28e7eae457f2f4ef078",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/images/page-0004-image-05.jpg",
+              "page": 4,
+              "width": 257,
+              "height": 257,
+              "sha256": "e479557ac0194863d3f964c63f1ab5e3e0c79160607cd508acf7c7f382623942",
+              "productIds": []
+            }
+          ],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 5,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0005.txt",
+          "characters": 765,
+          "tables": [],
+          "images": [],
+          "evidenceProductIds": [
+            "mennie-canada:wg-1p",
+            "mennie-canada:wg-2em",
+            "mennie-canada:wg-3pa",
+            "mennie-canada:wg-4pbt",
+            "mennie-canada:wg-6p",
+            "mennie-canada:wg-ctp",
+            "mennie-canada:wg-f",
+            "mennie-canada:wg-rgp",
+            "mennie-canada:wg-syd",
+            "mennie-canada:wg8-2h",
+            "mennie-canada:wg8-3q",
+            "mennie-canada:wg8-6p",
+            "mennie-canada:wg8-f",
+            "mennie-canada:wg8-f-3mm",
+            "mennie-canada:wg8-mxp"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 6,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0006.txt",
+          "characters": 924,
+          "tables": [],
+          "images": [],
+          "evidenceProductIds": [
+            "mennie-canada:mah-2d",
+            "mennie-canada:mah-2em",
+            "mennie-canada:mah-3pa",
+            "mennie-canada:mah-5l",
+            "mennie-canada:mah-crf",
+            "mennie-canada:mah-f",
+            "mennie-canada:mah-gp",
+            "mennie-canada:mah-rp",
+            "mennie-canada:mah-ss1",
+            "mennie-canada:mah-ss10",
+            "mennie-canada:mah-ss2",
+            "mennie-canada:mah-ss3",
+            "mennie-canada:mah-ss4",
+            "mennie-canada:mah-ss5",
+            "mennie-canada:mah-ss6",
+            "mennie-canada:mah-ss7",
+            "mennie-canada:mah-ss8",
+            "mennie-canada:mah-ss9"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 7,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0007.txt",
+          "characters": 599,
+          "tables": [],
+          "images": [],
+          "evidenceProductIds": [
+            "mennie-canada:mah-8-gp",
+            "mennie-canada:mah8-3q",
+            "mennie-canada:mah8-5l",
+            "mennie-canada:mah8-f",
+            "mennie-canada:mah8-nrp",
+            "mennie-canada:mah8-nrpct",
+            "mennie-canada:mah8-rp",
+            "mennie-canada:mah8-rpct",
+            "mennie-canada:mah8-st-42"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 8,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0008.txt",
+          "characters": 837,
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0008-table-01.json"
+          ],
+          "images": [],
+          "evidenceProductIds": [
+            "mennie-canada:fir-grain-crf",
+            "mennie-canada:fir-grain-crf-cg",
+            "mennie-canada:fir-grain-crf-sg",
+            "mennie-canada:fir-grain-crfs",
+            "mennie-canada:fir-s1k",
+            "mennie-canada:fir-s2k",
+            "mennie-canada:sm-2em",
+            "mennie-canada:sm-2p",
+            "mennie-canada:sm-3pa",
+            "mennie-canada:sm-f",
+            "mennie-canada:sm-rp"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 9,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0009.txt",
+          "characters": 752,
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/tables/page-0009-table-01.json"
+          ],
+          "images": [],
+          "evidenceProductIds": [
+            "mennie-canada:sm-4pbt",
+            "mennie-canada:sm-5l",
+            "mennie-canada:sm-6p",
+            "mennie-canada:sm-8-crf",
+            "mennie-canada:sm-8-s1k",
+            "mennie-canada:sm-8-s2k",
+            "mennie-canada:sm-crf",
+            "mennie-canada:sm-s1k",
+            "mennie-canada:sm-s2k",
+            "mennie-canada:sm8-2h",
+            "mennie-canada:sm8-5l",
+            "mennie-canada:sm8-6p",
+            "mennie-canada:sm8-f",
+            "mennie-canada:sm8-gp"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 10,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0010.txt",
+          "characters": 953,
+          "tables": [],
+          "images": [],
+          "evidenceProductIds": [
+            "mennie-canada:mah-f",
+            "mennie-canada:mah-gr1",
+            "mennie-canada:mah-gr10",
+            "mennie-canada:mah-gr11",
+            "mennie-canada:mah-gr12",
+            "mennie-canada:mah-gr13",
+            "mennie-canada:mah-gr14",
+            "mennie-canada:mah-gr15",
+            "mennie-canada:mah-gr2",
+            "mennie-canada:mah-gr3",
+            "mennie-canada:mah-gr4",
+            "mennie-canada:mah-gr5",
+            "mennie-canada:mah-gr6",
+            "mennie-canada:mah-gr7",
+            "mennie-canada:mah-gr8",
+            "mennie-canada:mah-gr9"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 11,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0011.txt",
+          "characters": 457,
+          "tables": [],
+          "images": [],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 12,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-brochure-2025-2026-12p-anniversary-web-75b82050ce9a/pages/page-0012.txt",
+          "characters": 222,
+          "tables": [],
+          "images": [],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        }
+      ],
+      "factCandidates": [
+        {
+          "page": 8,
+          "line": 13,
+          "text": "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS) (No Matching Sidelite)",
+          "productIds": [
+            "mennie-canada:fir-grain-crf",
+            "mennie-canada:fir-grain-crf-cg",
+            "mennie-canada:fir-grain-crf-sg",
+            "mennie-canada:fir-grain-crfs",
+            "mennie-canada:fir-s1k",
+            "mennie-canada:fir-s2k",
+            "mennie-canada:sm-2em",
+            "mennie-canada:sm-2p",
+            "mennie-canada:sm-3pa",
+            "mennie-canada:sm-f",
+            "mennie-canada:sm-rp"
+          ]
+        },
+        {
+          "page": 8,
+          "line": 21,
+          "text": "(NO GLASS) (CLEAR GLASS) (SANDBLASTED GLASS)",
+          "productIds": [
+            "mennie-canada:fir-grain-crf",
+            "mennie-canada:fir-grain-crf-cg",
+            "mennie-canada:fir-grain-crf-sg",
+            "mennie-canada:fir-grain-crfs",
+            "mennie-canada:fir-s1k",
+            "mennie-canada:fir-s2k",
+            "mennie-canada:sm-2em",
+            "mennie-canada:sm-2p",
+            "mennie-canada:sm-3pa",
+            "mennie-canada:sm-f",
+            "mennie-canada:sm-rp"
+          ]
+        },
+        {
+          "page": 11,
+          "line": 13,
+          "text": "1” WSDL w/o & with tape Glass bead stop Glazing sidelite bead",
+          "productIds": []
+        },
+        {
+          "page": 12,
+          "line": 6,
+          "text": "Special thanks to Fusion Glass, Verre Select and Uni-Tech Window and Doors",
+          "productIds": []
+        }
+      ],
+      "extractionErrors": [],
+      "extractedAt": "2026-08-20T07:03:48.531735+00:00"
+    },
+    {
+      "documentId": "mennie-canada:mennie-canada-catalogue-2em-2-panel-2b8e84cca21d",
+      "title": "Mennie Canada 2EM 2 Panel Technical Drawing",
+      "supplier": "mennie-canada",
+      "localPath": "/documents/catalog/mennie-canada/mennie-canada-catalogue-2em-2-panel-2b8e84cca21d.pdf",
+      "sha256": "bec0280fee359d9c3066b4c19c0e08af910324c24b4674292f083462716ba0df",
+      "bytes": 1319624,
+      "pageCount": 1,
+      "textCharacters": 411,
+      "tableCount": 1,
+      "extractedImageCount": 3,
+      "ocrRequired": true,
+      "ocrApplied": false,
+      "ocrReused": false,
+      "ocrEngine": null,
+      "ocrPages": 0,
+      "metadata": {
+        "/CreationDate": "D:20170915082211-04'00'",
+        "/Creator": "Adobe InDesign CC 2017 (Windows)",
+        "/ModDate": "D:20170915082211-04'00'",
+        "/Producer": "Adobe PDF Library 15.0"
+      },
+      "documentDate": "2016-01-01",
+      "freshness": {
+        "status": "current-source-linked",
+        "basis": "present in current supplier asset index"
+      },
+      "provenance": {
+        "supplier": "mennie-canada",
+        "sourcePageUrls": [
+          "https://menniecanada.com/products/fir/st-42/"
+        ],
+        "productIds": [
+          "mennie-canada:mah-2em",
+          "mennie-canada:sm-2em",
+          "mennie-canada:wg-2em"
+        ],
+        "collections": [
+          "Mahogany Grain",
+          "Oak Grain",
+          "Smooth"
+        ],
+        "scope": "product",
+        "role": "specification-sheet",
+        "originalUrl": "http://menniecanada.com/wp-content/uploads/2016/11/Mennie-Canada-Catalogue-2EM-2-Panel.pdf",
+        "sourceUrls": [
+          "http://menniecanada.com/wp-content/uploads/2016/11/Mennie-Canada-Catalogue-2EM-2-Panel.pdf"
+        ],
+        "finalUrl": "https://menniecanada.com/wp-content/uploads/2016/11/Mennie-Canada-Catalogue-2EM-2-Panel.pdf",
+        "localPath": "/documents/catalog/mennie-canada/mennie-canada-catalogue-2em-2-panel-2b8e84cca21d.pdf",
+        "sha256": "bec0280fee359d9c3066b4c19c0e08af910324c24b4674292f083462716ba0df",
+        "bytes": 1319624,
+        "discoveredAt": "2026-08-20T06:52:46Z",
+        "assetType": "document",
+        "relationshipState": "supplier-shared",
+        "relationshipEvidence": [
+          "supplier-scoped-document-map"
+        ],
+        "masterUrl": "http://menniecanada.com/wp-content/uploads/2016/11/Mennie-Canada-Catalogue-2EM-2-Panel.pdf",
+        "selectedUrl": "https://menniecanada.com/wp-content/uploads/2016/11/Mennie-Canada-Catalogue-2EM-2-Panel.pdf",
+        "mimeType": "application/pdf",
+        "width": null,
+        "height": null
+      },
+      "pages": [
+        {
+          "page": 1,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-2em-2-panel-2b8e84cca21d/pages/page-0001.txt",
+          "characters": 411,
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-2em-2-panel-2b8e84cca21d/tables/page-0001-table-01.json"
+          ],
+          "images": [
+            {
+              "path": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-2em-2-panel-2b8e84cca21d/images/page-0001-image-01.png",
+              "page": 1,
+              "width": 510,
+              "height": 182,
+              "sha256": "a49ebbb9351aa389da1c071b56785e59fede6c8459ac77c4cb9c43b514ed6516",
+              "productIds": [
+                "mennie-canada:mah-2em",
+                "mennie-canada:sm-2em",
+                "mennie-canada:wg-2em"
+              ]
+            },
+            {
+              "path": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-2em-2-panel-2b8e84cca21d/images/page-0001-image-02.png",
+              "page": 1,
+              "width": 2550,
+              "height": 3300,
+              "sha256": "79f99d3759d4f9e09d1e89c70454290cf1fbac5c380fad681be0155d1d774640",
+              "productIds": [
+                "mennie-canada:mah-2em",
+                "mennie-canada:sm-2em",
+                "mennie-canada:wg-2em"
+              ]
+            },
+            {
+              "path": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-2em-2-panel-2b8e84cca21d/images/page-0001-image-04.png",
+              "page": 1,
+              "width": 2550,
+              "height": 3300,
+              "sha256": "13f176d1360b97da5f0c4d041f7d9aab84ba72a3f4a4d0bbbb2514eb43528636",
+              "productIds": [
+                "mennie-canada:mah-2em",
+                "mennie-canada:sm-2em",
+                "mennie-canada:wg-2em"
+              ]
+            }
+          ],
+          "evidenceProductIds": [
+            "mennie-canada:mah-2em",
+            "mennie-canada:sm-2em",
+            "mennie-canada:wg-2em"
+          ],
+          "textSource": "embedded"
+        }
+      ],
+      "factCandidates": [
+        {
+          "page": 1,
+          "line": 2,
+          "text": "6’8” 2EM - 2 Panel Embossed",
+          "productIds": [
+            "mennie-canada:mah-2em",
+            "mennie-canada:sm-2em",
+            "mennie-canada:wg-2em"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 4,
+          "text": "Glass: 22x48 Glass: 8”x48”",
+          "productIds": [
+            "mennie-canada:mah-2em",
+            "mennie-canada:sm-2em",
+            "mennie-canada:wg-2em"
+          ]
+        }
+      ],
+      "extractionErrors": [],
+      "extractedAt": "2026-08-20T07:03:49.310020+00:00"
+    },
+    {
+      "documentId": "mennie-canada:mennie-canada-catalogue-cr-6-panel-craftsman-a707b5b44927",
+      "title": "Mennie Canada CR 6 Panel Craftsman Technical Drawing",
+      "supplier": "mennie-canada",
+      "localPath": "/documents/catalog/mennie-canada/mennie-canada-catalogue-cr-6-panel-craftsman-a707b5b44927.pdf",
+      "sha256": "563f5fb9b02b5b9ff19c51743778556e98594454d4570dddbe20225d975be73a",
+      "bytes": 775367,
+      "pageCount": 1,
+      "textCharacters": 270,
+      "tableCount": 1,
+      "extractedImageCount": 2,
+      "ocrRequired": true,
+      "ocrApplied": false,
+      "ocrReused": false,
+      "ocrEngine": null,
+      "ocrPages": 0,
+      "metadata": {
+        "/CreationDate": "D:20170915082212-04'00'",
+        "/Creator": "Adobe InDesign CC 2017 (Windows)",
+        "/ModDate": "D:20170915082212-04'00'",
+        "/Producer": "Adobe PDF Library 15.0"
+      },
+      "documentDate": "2016-01-01",
+      "freshness": {
+        "status": "current-source-linked",
+        "basis": "present in current supplier asset index"
+      },
+      "provenance": {
+        "supplier": "mennie-canada",
+        "sourcePageUrls": [
+          "https://menniecanada.com/products/smooth-doors/sm-cr/"
+        ],
+        "productIds": [
+          "mennie-canada:sm-cr"
+        ],
+        "collections": [
+          "Smooth"
+        ],
+        "scope": "product",
+        "role": "specification-sheet",
+        "originalUrl": "http://menniecanada.com/wp-content/uploads/2016/11/Mennie-Canada-Catalogue-CR-6-Panel-Craftsman.pdf",
+        "sourceUrls": [
+          "http://menniecanada.com/wp-content/uploads/2016/11/Mennie-Canada-Catalogue-CR-6-Panel-Craftsman.pdf"
+        ],
+        "finalUrl": "https://menniecanada.com/wp-content/uploads/2016/11/Mennie-Canada-Catalogue-CR-6-Panel-Craftsman.pdf",
+        "localPath": "/documents/catalog/mennie-canada/mennie-canada-catalogue-cr-6-panel-craftsman-a707b5b44927.pdf",
+        "sha256": "563f5fb9b02b5b9ff19c51743778556e98594454d4570dddbe20225d975be73a",
+        "bytes": 775367,
+        "discoveredAt": "2026-08-20T06:48:15Z",
+        "assetType": "document",
+        "relationshipState": "product-specific",
+        "relationshipEvidence": [
+          "filename-model-match",
+          "supplier-scoped-document-map"
+        ],
+        "masterUrl": "http://menniecanada.com/wp-content/uploads/2016/11/Mennie-Canada-Catalogue-CR-6-Panel-Craftsman.pdf",
+        "selectedUrl": "https://menniecanada.com/wp-content/uploads/2016/11/Mennie-Canada-Catalogue-CR-6-Panel-Craftsman.pdf",
+        "mimeType": "application/pdf",
+        "width": null,
+        "height": null
+      },
+      "pages": [
+        {
+          "page": 1,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-cr-6-panel-craftsman-a707b5b44927/pages/page-0001.txt",
+          "characters": 270,
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-cr-6-panel-craftsman-a707b5b44927/tables/page-0001-table-01.json"
+          ],
+          "images": [
+            {
+              "path": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-cr-6-panel-craftsman-a707b5b44927/images/page-0001-image-01.png",
+              "page": 1,
+              "width": 510,
+              "height": 182,
+              "sha256": "a49ebbb9351aa389da1c071b56785e59fede6c8459ac77c4cb9c43b514ed6516",
+              "productIds": [
+                "mennie-canada:sm-cr"
+              ]
+            },
+            {
+              "path": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-cr-6-panel-craftsman-a707b5b44927/images/page-0001-image-02.png",
+              "page": 1,
+              "width": 2550,
+              "height": 3300,
+              "sha256": "d6070fe47aecbe4e2af08105e1424a03e44d55dd171450a0be940e26df00b0b6",
+              "productIds": [
+                "mennie-canada:sm-cr"
+              ]
+            }
+          ],
+          "evidenceProductIds": [
+            "mennie-canada:sm-cr"
+          ],
+          "textSource": "embedded"
+        }
+      ],
+      "factCandidates": [
+        {
+          "page": 1,
+          "line": 2,
+          "text": "6’8” CR - 6 Panel Craftsman",
+          "productIds": [
+            "mennie-canada:sm-cr"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 4,
+          "text": "Glass: 25”x15”",
+          "productIds": [
+            "mennie-canada:sm-cr"
+          ]
+        }
+      ],
+      "extractionErrors": [],
+      "extractedAt": "2026-08-20T07:03:49.801885+00:00"
+    },
+    {
+      "documentId": "mennie-canada:mennie-canada-catalogue-f-flush-panel-82e7a72f7403",
+      "title": "Mennie Canada F Flush Panel Technical Drawing",
+      "supplier": "mennie-canada",
+      "localPath": "/documents/catalog/mennie-canada/mennie-canada-catalogue-f-flush-panel-82e7a72f7403.pdf",
+      "sha256": "419ed696f4496ea647c3f6359fdaf7b652b4bb596c0618746f1ba920caff0239",
+      "bytes": 1045781,
+      "pageCount": 1,
+      "textCharacters": 450,
+      "tableCount": 1,
+      "extractedImageCount": 2,
+      "ocrRequired": true,
+      "ocrApplied": false,
+      "ocrReused": false,
+      "ocrEngine": null,
+      "ocrPages": 0,
+      "metadata": {
+        "/CreationDate": "D:20170915082211-04'00'",
+        "/Creator": "Adobe InDesign CC 2017 (Windows)",
+        "/ModDate": "D:20170915082211-04'00'",
+        "/Producer": "Adobe PDF Library 15.0"
+      },
+      "documentDate": "2016-01-01",
+      "freshness": {
+        "status": "current-source-linked",
+        "basis": "present in current supplier asset index"
+      },
+      "provenance": {
+        "supplier": "mennie-canada",
+        "sourcePageUrls": [
+          "https://menniecanada.com/products/smooth-doors/sm-bg-2236-1p-2/",
+          "https://menniecanada.com/products/smooth-doors/sm-bg-2248-1p/",
+          "https://menniecanada.com/products/smooth-doors/sm-ss1/",
+          "https://menniecanada.com/products/smooth-doors/sm-ss3/",
+          "https://menniecanada.com/products/smooth-doors/sm-ss5/",
+          "https://menniecanada.com/products/smooth-doors/sm-ss7/",
+          "https://menniecanada.com/products/smooth-doors/sm-ss9/"
+        ],
+        "productIds": [
+          "mennie-canada:sm-f"
+        ],
+        "collections": [
+          "Smooth"
+        ],
+        "scope": "product",
+        "role": "specification-sheet",
+        "originalUrl": "http://menniecanada.com/wp-content/uploads/2016/11/Mennie-Canada-Catalogue-F-Flush-Panel.pdf",
+        "sourceUrls": [
+          "http://menniecanada.com/wp-content/uploads/2016/11/Mennie-Canada-Catalogue-F-Flush-Panel.pdf"
+        ],
+        "finalUrl": "https://menniecanada.com/wp-content/uploads/2016/11/Mennie-Canada-Catalogue-F-Flush-Panel.pdf",
+        "localPath": "/documents/catalog/mennie-canada/mennie-canada-catalogue-f-flush-panel-82e7a72f7403.pdf",
+        "sha256": "419ed696f4496ea647c3f6359fdaf7b652b4bb596c0618746f1ba920caff0239",
+        "bytes": 1045781,
+        "discoveredAt": "2026-08-20T06:49:37Z",
+        "assetType": "document",
+        "relationshipState": "product-specific",
+        "relationshipEvidence": [
+          "supplier-scoped-document-map"
+        ],
+        "masterUrl": "http://menniecanada.com/wp-content/uploads/2016/11/Mennie-Canada-Catalogue-F-Flush-Panel.pdf",
+        "selectedUrl": "https://menniecanada.com/wp-content/uploads/2016/11/Mennie-Canada-Catalogue-F-Flush-Panel.pdf",
+        "mimeType": "application/pdf",
+        "width": null,
+        "height": null
+      },
+      "pages": [
+        {
+          "page": 1,
+          "textPath": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-f-flush-panel-82e7a72f7403/pages/page-0001.txt",
+          "characters": 450,
+          "tables": [
+            "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-f-flush-panel-82e7a72f7403/tables/page-0001-table-01.json"
+          ],
+          "images": [
+            {
+              "path": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-f-flush-panel-82e7a72f7403/images/page-0001-image-01.png",
+              "page": 1,
+              "width": 510,
+              "height": 182,
+              "sha256": "a49ebbb9351aa389da1c071b56785e59fede6c8459ac77c4cb9c43b514ed6516",
+              "productIds": [
+                "mennie-canada:sm-f"
+              ]
+            },
+            {
+              "path": "source-media/suppliers/mennie-canada/pdf-extracted/mennie-canada-catalogue-f-flush-panel-82e7a72f7403/images/page-0001-image-05.png",
+              "page": 1,
+              "width": 2550,
+              "height": 3300,
+              "sha256": "6ad89aec26d59d577a47d12d2c079e8aaa1a39a3ee50dc7bc94bc0d26a443d5b",
+              "productIds": [
+                "mennie-canada:sm-f"
+              ]
+            }
+          ],
+          "evidenceProductIds": [
+            "mennie-canada:sm-f"
+          ],
+          "textSource": "embedded"
+        }
+      ],
+      "factCandidates": [
+        {
+          "page": 1,
+          "line": 2,
+          "text": "6’8” F - Flush Panel",
+          "productIds": [
+            "mennie-canada:sm-f"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 4,
+          "text": "Glass: 20”x64”",
+          "productIds": [
+            "mennie-canada:sm-f"
+          ]
+        },
+        {
+          "page": 1,
+          "line": 5,
+          "text": "Glass: 22”x64” Glass: 8”x64”",
+          "productIds": [
+            "mennie-canada:sm-f"
+          ]
+        }
+      ],
+      "extractionErrors": [],
+      "extractedAt": "2026-08-20T07:03:50.575283+00:00"
     }
   ]
 }

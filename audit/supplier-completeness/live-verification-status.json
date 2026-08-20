@@ -56,12 +56,12 @@
     },
     {
       "supplier": "mennie-canada",
-      "status": "VERIFICATION-PENDING",
-      "websiteStatus": "VERIFICATION-PENDING",
-      "mediaStatus": "VERIFICATION-PENDING",
-      "pdfStatus": "VERIFICATION-PENDING",
-      "basis": "Live website, media, and PDF completeness audit is not yet approved.",
-      "expectedRelevantProducts": null
+      "status": "VERIFIED",
+      "websiteStatus": "VERIFIED",
+      "mediaStatus": "VERIFIED-WITH-20-EXPLICIT-MISSING-MEDIA-RECORDS",
+      "pdfStatus": "VERIFIED",
+      "basis": "Live website, 99 canonical product-detail records, 190 accepted assets, corrected model/media relationships, one current 12-page 2025-2026 catalogue, five product technical PDFs, page-level PDF extraction, normalized facts, and representative visual review directly verified 2026-08-20; 20 products have explicit no-product-specific-media reasons and zero uncertain public associations.",
+      "expectedRelevantProducts": 99
     },
     {
       "supplier": "richersons",

@@ -1,14 +1,14 @@
 {
   "generatedAt": "2026-08-19T23:30:00Z",
-  "records": 514,
-  "normalizedRecords": 493,
-  "editorialDrafts": 223,
-  "editorialIncomplete": 291,
-  "newRecords": 244,
-  "newRetainedDistinct": 244,
-  "newEditorialDrafts": 25,
+  "records": 521,
+  "normalizedRecords": 501,
+  "editorialDrafts": 200,
+  "editorialIncomplete": 321,
+  "newRecords": 251,
+  "newRetainedDistinct": 251,
+  "newEditorialDrafts": 14,
   "staleOrBlockedLinks": {
-    "stale": 8,
+    "stale": 5,
     "blocked": 1
   },
   "suppliers": {
@@ -21,12 +21,12 @@
       "documents": 0
     },
     "mennie-canada": {
-      "records": 104,
-      "normalized": 103,
-      "editorialDrafts": 103,
-      "editorialIncomplete": 1,
-      "media": 7,
-      "documents": 0
+      "records": 111,
+      "normalized": 111,
+      "editorialDrafts": 80,
+      "editorialIncomplete": 31,
+      "media": 79,
+      "documents": 7
     },
     "novatech": {
       "records": 91,

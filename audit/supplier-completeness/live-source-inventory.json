@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T06:24:58.236430+00:00",
+  "generatedAt": "2026-08-20T07:18:34.833474+00:00",
   "suppliers": [
     {
       "supplier": "vinyl-pro",
@@ -9158,28 +9158,15 @@
     },
     {
       "supplier": "mennie-canada",
-      "status": "VERIFICATION-PENDING",
-      "websiteStatus": "VERIFICATION-PENDING",
-      "mediaStatus": "VERIFICATION-PENDING",
-      "pdfStatus": "VERIFICATION-PENDING",
-      "basis": "Live website, media, and PDF completeness audit is not yet approved.",
-      "expectedRelevantProducts": null,
-      "manifestCrawledAt": "2026-08-19T19:50:24Z",
-      "pagesCrawled": 99,
-      "errors": [
-        {
-          "url": "http://menniecanada.com/products/mahogany-doors/st-42/",
-          "error": "HTTP Error 404: Not Found"
-        },
-        {
-          "url": "http://menniecanada.com/order/",
-          "error": "HTTP Error 404: Not Found"
-        },
-        {
-          "url": "http://menniecanada.com/products/cherry/fir-grain-crf/",
-          "error": "HTTP Error 404: Not Found"
-        }
-      ],
+      "status": "VERIFIED",
+      "websiteStatus": "VERIFIED",
+      "mediaStatus": "VERIFIED-WITH-20-EXPLICIT-MISSING-MEDIA-RECORDS",
+      "pdfStatus": "VERIFIED",
+      "basis": "Live website, 99 canonical product-detail records, 190 accepted assets, corrected model/media relationships, one current 12-page 2025-2026 catalogue, five product technical PDFs, page-level PDF extraction, normalized facts, and representative visual review directly verified 2026-08-20; 20 products have explicit no-product-specific-media reasons and zero uncertain public associations.",
+      "expectedRelevantProducts": 99,
+      "manifestCrawledAt": "2026-08-20T07:12:20Z",
+      "pagesCrawled": 113,
+      "errors": [],
       "products": [
         {
           "productId": "mennie-canada:mah-ss10",
@@ -9189,7 +9176,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/ss10/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -9204,7 +9191,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-ss8",
@@ -9214,7 +9201,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/ss8/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -9229,7 +9216,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-ss6",
@@ -9239,7 +9226,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/ss6/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -9254,7 +9241,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-ss4",
@@ -9264,7 +9251,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/ss4/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -9279,7 +9266,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-ss2",
@@ -9289,7 +9276,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/ss2/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -9304,7 +9291,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah8-st-42",
@@ -9315,7 +9302,7 @@
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/mah8-st-42/",
           "mediaAvailable": {
             "hero": false,
-            "gallery": false,
+            "gallery": true,
             "technicalDrawings": false,
             "colourFinish": false,
             "glass": false,
@@ -9329,7 +9316,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah8-5l",
@@ -9340,7 +9327,7 @@
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/8-mahogany-grain-mah8-5l/",
           "mediaAvailable": {
             "hero": false,
-            "gallery": false,
+            "gallery": true,
             "technicalDrawings": false,
             "colourFinish": false,
             "glass": false,
@@ -9354,7 +9341,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-8-gp",
@@ -9365,7 +9352,7 @@
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/8-mahogany-grain-mah-8gp/",
           "mediaAvailable": {
             "hero": false,
-            "gallery": false,
+            "gallery": true,
             "technicalDrawings": false,
             "colourFinish": false,
             "glass": false,
@@ -9379,7 +9366,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah8-f",
@@ -9389,7 +9376,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/mah-f-8/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -9404,7 +9391,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah8-3q",
@@ -9414,7 +9401,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/mah-8f-3q/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -9429,7 +9416,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah8-nrpct",
@@ -9439,7 +9426,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/mah-8nrpct/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -9454,7 +9441,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah8-nrp",
@@ -9464,7 +9451,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/mah-8nrp/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -9479,7 +9466,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah8-rpct",
@@ -9489,7 +9476,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/mah-8rpct/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -9504,7 +9491,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah8-rp",
@@ -9514,7 +9501,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/mah-8-rp/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -9529,7 +9516,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-ss9",
@@ -9539,7 +9526,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/ss9/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -9554,7 +9541,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-ss7",
@@ -9564,7 +9551,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/ss7/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -9579,7 +9566,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-ss5",
@@ -9589,7 +9576,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/ss5/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -9604,7 +9591,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-ss3",
@@ -9614,7 +9601,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/ss3/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -9629,7 +9616,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-ss1",
@@ -9639,7 +9626,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/ss1/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -9654,7 +9641,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-gr15",
@@ -9664,7 +9651,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/gr-15/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -9679,7 +9666,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-gr14",
@@ -9689,7 +9676,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/gr-14/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -9704,7 +9691,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-gr13",
@@ -9714,7 +9701,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/gr-13/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -9729,7 +9716,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-gr12",
@@ -9739,7 +9726,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/gr-12/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -9754,7 +9741,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-gr11",
@@ -9764,7 +9751,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/gr-11/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -9779,7 +9766,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-gr10",
@@ -9789,7 +9776,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/gr-10/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -9804,7 +9791,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-gr9",
@@ -9829,7 +9816,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-gr8",
@@ -9839,7 +9826,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/gr-8/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -9854,7 +9841,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-gr7",
@@ -9864,7 +9851,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/gr-7/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -9879,7 +9866,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-gr6",
@@ -9889,7 +9876,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/gr-6/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -9904,7 +9891,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-gr5",
@@ -9914,7 +9901,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/gr-5/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -9929,7 +9916,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-gr4",
@@ -9939,7 +9926,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/gr-4/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -9954,7 +9941,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-gr3",
@@ -9964,7 +9951,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/gr-3/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -9979,7 +9966,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-gr2",
@@ -9989,7 +9976,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/gr-2/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -10004,7 +9991,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-gr1",
@@ -10014,7 +10001,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/gr-1/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -10029,7 +10016,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-gp",
@@ -10054,7 +10041,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-5l",
@@ -10064,7 +10051,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/mah-5l/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -10079,7 +10066,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-f",
@@ -10089,7 +10076,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/mah-flush/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -10104,7 +10091,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-3pa",
@@ -10114,8 +10101,8 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/mah-3pa/",
           "mediaAvailable": {
-            "hero": false,
-            "gallery": false,
+            "hero": true,
+            "gallery": true,
             "technicalDrawings": false,
             "colourFinish": false,
             "glass": false,
@@ -10129,7 +10116,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-2d",
@@ -10139,7 +10126,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/mah-2-d/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -10154,7 +10141,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-2em",
@@ -10164,7 +10151,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/mah-2em/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -10173,13 +10160,13 @@
           },
           "documentsAvailable": {
             "brochure": false,
-            "specificationSheet": false,
+            "specificationSheet": true,
             "installationGuide": false,
             "warranty": false,
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-crf",
@@ -10189,8 +10176,8 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/mah-crf/",
           "mediaAvailable": {
-            "hero": false,
-            "gallery": false,
+            "hero": true,
+            "gallery": true,
             "technicalDrawings": false,
             "colourFinish": false,
             "glass": false,
@@ -10204,7 +10191,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:mah-rp",
@@ -10214,8 +10201,8 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/mah-rp/",
           "mediaAvailable": {
-            "hero": false,
-            "gallery": false,
+            "hero": true,
+            "gallery": true,
             "technicalDrawings": false,
             "colourFinish": false,
             "glass": false,
@@ -10229,7 +10216,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:wg8-mxp",
@@ -10240,7 +10227,7 @@
           "canonicalUrl": "https://menniecanada.com/products/oak-grain/wg8-mxp/",
           "mediaAvailable": {
             "hero": false,
-            "gallery": false,
+            "gallery": true,
             "technicalDrawings": false,
             "colourFinish": false,
             "glass": false,
@@ -10254,7 +10241,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:wg8-f-3mm",
@@ -10279,7 +10266,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:wg8-2h",
@@ -10304,7 +10291,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:wg8-3q",
@@ -10329,7 +10316,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:wg8-6p",
@@ -10354,7 +10341,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:wg8-f",
@@ -10379,7 +10366,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:wg-4pbt",
@@ -10389,7 +10376,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/oak-grain/wg-4ptb/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -10404,7 +10391,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:wg-1p",
@@ -10414,7 +10401,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/oak-grain/wg-1p/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -10429,7 +10416,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:wg-syd",
@@ -10454,7 +10441,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:wg-ctp",
@@ -10465,7 +10452,7 @@
           "canonicalUrl": "https://menniecanada.com/products/oak-grain/wg-ctp/",
           "mediaAvailable": {
             "hero": false,
-            "gallery": false,
+            "gallery": true,
             "technicalDrawings": false,
             "colourFinish": false,
             "glass": false,
@@ -10479,7 +10466,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:wg-6p",
@@ -10504,7 +10491,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:wg-2em",
@@ -10515,7 +10502,7 @@
           "canonicalUrl": "https://menniecanada.com/products/oak-grain/wg-2em/",
           "mediaAvailable": {
             "hero": false,
-            "gallery": false,
+            "gallery": true,
             "technicalDrawings": false,
             "colourFinish": false,
             "glass": false,
@@ -10523,13 +10510,13 @@
           },
           "documentsAvailable": {
             "brochure": false,
-            "specificationSheet": false,
+            "specificationSheet": true,
             "installationGuide": false,
             "warranty": false,
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:wg-3pa",
@@ -10540,7 +10527,7 @@
           "canonicalUrl": "https://menniecanada.com/products/oak-grain/wg-3pa/",
           "mediaAvailable": {
             "hero": false,
-            "gallery": false,
+            "gallery": true,
             "technicalDrawings": false,
             "colourFinish": false,
             "glass": false,
@@ -10554,7 +10541,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:wg-f",
@@ -10565,7 +10552,7 @@
           "canonicalUrl": "https://menniecanada.com/products/oak-grain/wg-f/",
           "mediaAvailable": {
             "hero": false,
-            "gallery": false,
+            "gallery": true,
             "technicalDrawings": false,
             "colourFinish": false,
             "glass": false,
@@ -10579,7 +10566,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:wg-rgp",
@@ -10589,7 +10576,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/oak-grain/wg-rgp/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -10604,7 +10591,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:sm-8-crf",
@@ -10614,7 +10601,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/smooth-doors/sm-8-crf/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -10629,7 +10616,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:sm-8-s2k",
@@ -10639,7 +10626,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/smooth-doors/sm-8-s2k/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -10654,7 +10641,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:sm-8-s1k",
@@ -10664,7 +10651,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/smooth-doors/sm-8-s1k/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -10679,7 +10666,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:sm-8-fl-1p-2",
@@ -10704,7 +10691,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:sm8-5l",
@@ -10729,7 +10716,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:sm8-gp",
@@ -10739,7 +10726,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/smooth-doors/8-smooth-sm8-gp/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -10754,7 +10741,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:sm8-2h",
@@ -10764,7 +10751,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/smooth-doors/sm8-2h/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -10779,7 +10766,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:sm8-6p",
@@ -10804,7 +10791,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:sm8-f",
@@ -10814,7 +10801,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/smooth-doors/sm8-f/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -10829,7 +10816,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:sm-s2k",
@@ -10839,7 +10826,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/smooth-doors/sm-s2k/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -10854,7 +10841,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:sm-s1k",
@@ -10864,7 +10851,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/smooth-doors/sm-s1k/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -10879,7 +10866,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:sm-fl-1p",
@@ -10904,7 +10891,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:sm-2p",
@@ -10914,7 +10901,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/smooth-doors/sm-2p/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -10929,7 +10916,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:sm-crf",
@@ -10939,7 +10926,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/smooth-doors/68-smooth-sm-crf/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -10954,7 +10941,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:sm-rp",
@@ -10979,7 +10966,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:sm-5l",
@@ -10989,7 +10976,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/smooth-doors/sm-5l/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -11004,7 +10991,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:sm-6p",
@@ -11014,7 +11001,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/smooth-doors/sm-6p/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -11029,7 +11016,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:sm-4pbt",
@@ -11039,7 +11026,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/smooth-doors/sm-4pbt/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -11054,7 +11041,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:sm-3pa",
@@ -11064,7 +11051,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/smooth-doors/sm-3pa/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -11079,7 +11066,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:sm-2em",
@@ -11089,7 +11076,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/smooth-doors/sm-2em/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -11098,13 +11085,13 @@
           },
           "documentsAvailable": {
             "brochure": false,
-            "specificationSheet": false,
+            "specificationSheet": true,
             "installationGuide": false,
             "warranty": false,
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:sm-f",
@@ -11114,22 +11101,22 @@
           "category": "entry-doors",
           "canonicalUrl": "https://menniecanada.com/products/smooth-doors/sm-f/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
-            "technicalDrawings": false,
+            "technicalDrawings": true,
             "colourFinish": false,
             "glass": false,
             "hardware": false
           },
           "documentsAvailable": {
             "brochure": false,
-            "specificationSheet": false,
+            "specificationSheet": true,
             "installationGuide": false,
             "warranty": false,
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:fg-6l",
@@ -11141,20 +11128,20 @@
           "mediaAvailable": {
             "hero": false,
             "gallery": false,
-            "technicalDrawings": false,
+            "technicalDrawings": true,
             "colourFinish": false,
             "glass": false,
             "hardware": false
           },
           "documentsAvailable": {
             "brochure": false,
-            "specificationSheet": false,
+            "specificationSheet": true,
             "installationGuide": false,
             "warranty": false,
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:fir-s2k",
@@ -11165,7 +11152,7 @@
           "canonicalUrl": "https://menniecanada.com/products/fir/fir-s2k/",
           "mediaAvailable": {
             "hero": false,
-            "gallery": false,
+            "gallery": true,
             "technicalDrawings": false,
             "colourFinish": false,
             "glass": false,
@@ -11179,7 +11166,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:fir-s1k",
@@ -11190,7 +11177,7 @@
           "canonicalUrl": "https://menniecanada.com/products/fir/fir-s1k/",
           "mediaAvailable": {
             "hero": false,
-            "gallery": false,
+            "gallery": true,
             "technicalDrawings": false,
             "colourFinish": false,
             "glass": false,
@@ -11204,7 +11191,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:fir-grain-crf-sg",
@@ -11229,7 +11216,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:fir-grain-crf-cg",
@@ -11254,7 +11241,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:fir-grain-crf",
@@ -11279,7 +11266,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
         },
         {
           "productId": "mennie-canada:fir-grain-crfs",
@@ -11304,7 +11291,357 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:50:24Z"
+          "verifiedAt": "2026-08-20T07:12:20Z"
+        },
+        {
+          "productId": "mennie-canada:st-42",
+          "name": "8 ft Cherry Grain 2 Panel Quarter Lite (ST-42)",
+          "modelNumber": "ST-42",
+          "collection": "Cherry Grain",
+          "category": "entry-doors",
+          "canonicalUrl": "https://menniecanada.com/products/fir/st-42/",
+          "mediaAvailable": {
+            "hero": false,
+            "gallery": false,
+            "technicalDrawings": true,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": true,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": false
+          },
+          "verifiedAt": "2026-08-20T07:12:20Z"
+        },
+        {
+          "productId": "mennie-canada:mah-c3p",
+          "name": "6'8\" Mahogany Grain Curved 3 Panel (MAH-C3P)",
+          "modelNumber": "MAH-C3P",
+          "collection": "Mahogany Grain",
+          "category": "entry-doors",
+          "canonicalUrl": "https://menniecanada.com/products/mahogany-doors/mah-c3p/",
+          "mediaAvailable": {
+            "hero": false,
+            "gallery": true,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": false
+          },
+          "verifiedAt": "2026-08-20T07:12:20Z"
+        },
+        {
+          "productId": "mennie-canada:sm-bg-1843",
+          "name": "6'8\" Smooth Panel (SM-BG-1843)",
+          "modelNumber": "SM-BG-1843",
+          "collection": "Smooth",
+          "category": "entry-doors",
+          "canonicalUrl": "https://menniecanada.com/products/smooth-doors/sm-bg-1843/",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": false
+          },
+          "verifiedAt": "2026-08-20T07:12:20Z"
+        },
+        {
+          "productId": "mennie-canada:sm-bg-1864",
+          "name": "6'8\" Smooth Panel (SM-BG-1864)",
+          "modelNumber": "SM-BG-1864",
+          "collection": "Smooth",
+          "category": "entry-doors",
+          "canonicalUrl": "https://menniecanada.com/products/smooth-doors/sm-bg-1864/",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": false
+          },
+          "verifiedAt": "2026-08-20T07:12:20Z"
+        },
+        {
+          "productId": "mennie-canada:sm-bg-2236-1p",
+          "name": "6'8\" Smooth Panel (SM-BG-2236-1P)",
+          "modelNumber": "SM-BG-2236-1P",
+          "collection": "Smooth",
+          "category": "entry-doors",
+          "canonicalUrl": "https://menniecanada.com/products/smooth-doors/sm-bg-2236-1p-2/",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": false
+          },
+          "verifiedAt": "2026-08-20T07:12:20Z"
+        },
+        {
+          "productId": "mennie-canada:sm-bg-2243",
+          "name": "6'8\" Smooth Panel (SM-BG-2243)",
+          "modelNumber": "SM-BG-2243",
+          "collection": "Smooth",
+          "category": "entry-doors",
+          "canonicalUrl": "https://menniecanada.com/products/smooth-doors/sm-bg-2243/",
+          "mediaAvailable": {
+            "hero": false,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": false
+          },
+          "verifiedAt": "2026-08-20T07:12:20Z"
+        },
+        {
+          "productId": "mennie-canada:sm-bg-2248-1p",
+          "name": "6'8\" Smooth Panel (SM-BG-2248-1P)",
+          "modelNumber": "SM-BG-2248-1P",
+          "collection": "Smooth",
+          "category": "entry-doors",
+          "canonicalUrl": "https://menniecanada.com/products/smooth-doors/sm-bg-2248-1p/",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": false
+          },
+          "verifiedAt": "2026-08-20T07:12:20Z"
+        },
+        {
+          "productId": "mennie-canada:sm-bg-2264",
+          "name": "6'8\" Smooth Panel (SM-BG-2264)",
+          "modelNumber": "SM-BG-2264",
+          "collection": "Smooth",
+          "category": "entry-doors",
+          "canonicalUrl": "https://menniecanada.com/products/smooth-doors/sm-bg-2264/",
+          "mediaAvailable": {
+            "hero": false,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": false
+          },
+          "verifiedAt": "2026-08-20T07:12:20Z"
+        },
+        {
+          "productId": "mennie-canada:sm-cr",
+          "name": "6' Smooth 6 Panel Craftsman (SM-CR)",
+          "modelNumber": "SM-CR",
+          "collection": "Smooth",
+          "category": "entry-doors",
+          "canonicalUrl": "https://menniecanada.com/products/smooth-doors/sm-cr/",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": true,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": true,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": false
+          },
+          "verifiedAt": "2026-08-20T07:12:20Z"
+        },
+        {
+          "productId": "mennie-canada:sm-ss1",
+          "name": "8' Smooth Panel (SM-SS1)",
+          "modelNumber": "SM-SS1",
+          "collection": "Smooth",
+          "category": "entry-doors",
+          "canonicalUrl": "https://menniecanada.com/products/smooth-doors/sm-ss1/",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": false
+          },
+          "verifiedAt": "2026-08-20T07:12:20Z"
+        },
+        {
+          "productId": "mennie-canada:sm-ss3",
+          "name": "8' Smooth Panel (SM-SS3)",
+          "modelNumber": "SM-SS3",
+          "collection": "Smooth",
+          "category": "entry-doors",
+          "canonicalUrl": "https://menniecanada.com/products/smooth-doors/sm-ss3/",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": false
+          },
+          "verifiedAt": "2026-08-20T07:12:20Z"
+        },
+        {
+          "productId": "mennie-canada:sm-ss5",
+          "name": "8' Smooth Panel (SM-SS5)",
+          "modelNumber": "SM-SS5",
+          "collection": "Smooth",
+          "category": "entry-doors",
+          "canonicalUrl": "https://menniecanada.com/products/smooth-doors/sm-ss5/",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": false
+          },
+          "verifiedAt": "2026-08-20T07:12:20Z"
+        },
+        {
+          "productId": "mennie-canada:sm-ss7",
+          "name": "8' Smooth Panel (SM-SS7)",
+          "modelNumber": "SM-SS7",
+          "collection": "Smooth",
+          "category": "entry-doors",
+          "canonicalUrl": "https://menniecanada.com/products/smooth-doors/sm-ss7/",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": false
+          },
+          "verifiedAt": "2026-08-20T07:12:20Z"
+        },
+        {
+          "productId": "mennie-canada:sm-ss9",
+          "name": "8' Smooth Panel (SM-SS9)",
+          "modelNumber": "SM-SS9",
+          "collection": "Smooth",
+          "category": "entry-doors",
+          "canonicalUrl": "https://menniecanada.com/products/smooth-doors/sm-ss9/",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": false
+          },
+          "verifiedAt": "2026-08-20T07:12:20Z"
         }
       ]
     },

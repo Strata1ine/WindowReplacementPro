@@ -9,6 +9,7 @@ from unittest.mock import patch
 from scripts.ingest.cleanup import scan_staging_runs
 from scripts.ingest.pdf_evidence import configured_document_metadata, configured_page_products
 from scripts.ingest.pdf_ocr import ocr_pdf_pages
+from scripts.ingest.pdf_extract import repair_extracted_text
 from scripts.ingest.reassociate import recover_downloaded_candidates
 
 from scripts.ingest.crawl import (
@@ -23,6 +24,7 @@ from scripts.ingest.crawl import (
     associate_assets,
     attach_available_asset_occurrences,
     build_asset_tasks,
+    configured_unseen_start_urls,
     configured_source_products,
     decode_html,
     embedded_caption_products,
@@ -40,6 +42,7 @@ from scripts.ingest.crawl import (
     normalize,
     page_allowed,
     product_asset_paths,
+    promote_identity_matched_gallery_heroes,
     product_nodes,
     promote_referenced_assets,
     query_requirements_met,
@@ -56,6 +59,49 @@ from scripts.ingest.crawl import (
 
 
 class CrawlerSafetyTests(unittest.TestCase):
+    def test_pdf_text_repairs_common_utf8_cp1252_mojibake(self):
+        mojibake = '6\u00e2\u20ac\u21228\u00e2\u20ac\u00b3'
+        self.assertEqual(repair_extracted_text(mojibake), '6\u20198\u2033')
+        self.assertEqual(repair_extracted_text('Already clean'), 'Already clean')
+    def test_pdf_viewer_iframe_exposes_underlying_document_without_crawling_viewer(self):
+        parser = PageParser()
+        parser.feed('<iframe src="https://example.com/viewer.html?file=https%3A%2F%2Fexample.com%2Fcurrent.pdf"></iframe>')
+        self.assertEqual(parser.links, ['https://example.com/current.pdf'])
+    def test_supplier_document_role_override_precedes_generic_catalogue_name(self):
+        config = {'document_role_rules': [{'patterns': [r'catalogue-model-drawing'], 'role': 'specification-sheet'}]}
+        self.assertEqual(document_role('https://example.com/Catalogue-Model-Drawing.pdf', cfg=config), 'specification-sheet')
+
+    def test_mennie_drawing_pdf_is_not_misclassified_as_catalogue(self):
+        suppliers = json.loads((Path(__file__).parents[1] / 'ingest' / 'suppliers.json').read_text(encoding='utf-8'))
+        config = next(item for item in suppliers if item['slug'] == 'mennie-canada')
+        url = 'https://menniecanada.com/uploads/Mennie-Canada-Catalogue-CR-6-Panel-Craftsman.pdf'
+        self.assertEqual(document_role(url, cfg=config), 'specification-sheet')
+
+    def test_mennie_numeric_model_filename_remains_product_gallery(self):
+        suppliers = json.loads((Path(__file__).parents[1] / 'ingest' / 'suppliers.json').read_text(encoding='utf-8'))
+        config = next(item for item in suppliers if item['slug'] == 'mennie-canada')
+        parser = PageParser(config['asset_role_rules'])
+        parser.feed('<img class="wp-image-123" src="https://menniecanada.com/uploads/sm-bg-1843.jpg">')
+        self.assertEqual(parser.media[0][2], 'product-gallery')
+
+    def test_generic_flush_term_does_not_create_mennie_product_identity(self):
+        product_keys = identity_keys(['wg-f', 'WG-F', '6 ft 8 in Oak Grain Flush Panel (WG-F)'])
+        self.assertFalse(urls_identity_match(['https://menniecanada.com/uploads/68-flush.jpg'], product_keys))
+        self.assertTrue(urls_identity_match(['https://menniecanada.com/uploads/WG-F.jpg'], product_keys))
+
+    def test_wordpress_scaled_master_preserves_model_identity(self):
+        product_keys = identity_keys(['mah-ss8', 'MAH-SS8'])
+        self.assertTrue(urls_identity_match(['https://example.com/wp-content/uploads/MAH-SS8-scaled.webp'], product_keys))
+
+    def test_identity_matched_gallery_promotes_only_one_product_hero(self):
+        asset = Asset('supplier', [], 'https://example.com/SM-CR.jpg', 'https://example.com/SM-CR.jpg', '/images/sm-cr.jpg', 'image', 'product-gallery', 'hash', 1, 'now', source_asset_urls=['https://example.com/SM-CR.jpg'])
+        products = [
+            {'slug': 'sm-cr', 'modelNumber': 'SM-CR', 'name': 'Smooth SM-CR'},
+            {'slug': 'sm-rp', 'modelNumber': 'SM-RP', 'name': 'Smooth SM-RP'},
+        ]
+        promote_identity_matched_gallery_heroes({'asset': asset}, products, True)
+        self.assertEqual(asset.role, 'product-hero')
+        self.assertIn('supplier-scoped-hero-promotion', asset.relationship_evidence)
     def test_verre_fliphtml5_product_crops_have_unique_reviewed_page_relationships(self):
         config_path = Path(__file__).resolve().parents[2] / 'scripts' / 'ingest' / 'publications' / 'verre-select-2026.json'
         config = json.loads(config_path.read_text(encoding='utf-8'))
@@ -644,6 +690,33 @@ class CrawlerSafetyTests(unittest.TestCase):
         self.assertEqual([task.url for task in resumed], ['https://example.com/a.jpg', 'https://example.com/b.jpg'])
         self.assertEqual(resumed[0].status, 'validated')
         self.assertEqual(plan['selected'], 2)
+
+    def test_resume_plan_appends_newly_discovered_assets_without_losing_saved_state(self):
+        groups = {
+            'known': [{'url': 'https://example.com/a.jpg', 'source_url': 'https://example.com/a.jpg', 'page_url': 'https://example.com/a', 'kind': 'image', 'role': 'product-hero', 'order': 0, 'group': 'known'}],
+            'new': [{'url': 'https://example.com/b.jpg', 'source_url': 'https://example.com/b.jpg', 'page_url': 'https://example.com/b', 'kind': 'image', 'role': 'product-hero', 'order': 0, 'group': 'new'}],
+        }
+        saved = AssetTask('https://example.com/a.jpg', 'https://example.com/a.jpg', 'https://example.com/a', 'image', 'product-hero', 0, 'known', status='validated')
+        resumed, plan = build_asset_tasks(groups, 10, [asdict(saved)])
+        self.assertEqual([task.url for task in resumed], ['https://example.com/a.jpg', 'https://example.com/b.jpg'])
+        self.assertEqual(resumed[0].status, 'validated')
+        self.assertEqual(resumed[1].status, 'pending')
+        self.assertTrue(plan['complete'])
+
+    def test_corrective_no_discovery_plan_executes_only_persisted_tasks(self):
+        groups = {
+            'target': [{'url': 'https://example.com/target.jpg', 'source_url': 'https://example.com/target.jpg', 'page_url': 'https://example.com/target', 'kind': 'image', 'role': 'product-hero', 'order': 0, 'group': 'target'}],
+            'unrelated': [{'url': 'https://example.com/unrelated.jpg', 'source_url': 'https://example.com/unrelated.jpg', 'page_url': 'https://example.com/unrelated', 'kind': 'image', 'role': 'product-hero', 'order': 0, 'group': 'unrelated'}],
+        }
+        saved = AssetTask('https://example.com/target.jpg', 'https://example.com/target.jpg', 'https://example.com/target', 'image', 'product-hero', 0, 'target')
+        resumed, plan = build_asset_tasks(groups, 10, [asdict(saved)], expand_saved=False)
+        self.assertEqual([task.url for task in resumed], ['https://example.com/target.jpg'])
+        self.assertEqual((plan['groups'], plan['selected'], plan['available'], plan['complete']), (1, 1, 1, True))
+
+    def test_resume_only_enqueues_newly_configured_start_urls(self):
+        config = {'base_url': 'https://example.com/', 'start_urls': ['https://example.com/known', '/new', '/canonical']}
+        unseen = configured_unseen_start_urls(config, {'https://example.com/known'}, {'https://example.com/canonical'})
+        self.assertEqual(unseen, ['https://example.com/new'])
 
     def test_replan_preserves_retryable_task_state(self):
         task = AssetTask('https://example.com/a.jpg', 'https://example.com/a.jpg', 'https://example.com/p', 'image', 'product-hero', 0, 'group')

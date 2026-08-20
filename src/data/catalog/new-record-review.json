@@ -205,7 +205,7 @@
     "sourceUrl": "https://menniecanada.com/products/mahogany-doors/fg-6l/",
     "possibleAliasesReviewed": [],
     "enriched": true,
-    "editorialStatus": "draft"
+    "editorialStatus": "incomplete"
   },
   {
     "productId": "mennie-canada:fir-grain-crf",
@@ -217,7 +217,7 @@
     "sourceUrl": "https://menniecanada.com/products/fir/fir-grain-crf/",
     "possibleAliasesReviewed": [],
     "enriched": true,
-    "editorialStatus": "draft"
+    "editorialStatus": "incomplete"
   },
   {
     "productId": "mennie-canada:fir-grain-crf-cg",
@@ -229,7 +229,7 @@
     "sourceUrl": "https://menniecanada.com/products/fir/fir-grain-crf-cg/",
     "possibleAliasesReviewed": [],
     "enriched": true,
-    "editorialStatus": "draft"
+    "editorialStatus": "incomplete"
   },
   {
     "productId": "mennie-canada:fir-grain-crf-sg",
@@ -241,7 +241,7 @@
     "sourceUrl": "https://menniecanada.com/products/fir/fir-grain-crf-sg/",
     "possibleAliasesReviewed": [],
     "enriched": true,
-    "editorialStatus": "draft"
+    "editorialStatus": "incomplete"
   },
   {
     "productId": "mennie-canada:fir-grain-crfs",
@@ -253,7 +253,7 @@
     "sourceUrl": "https://menniecanada.com/products/fir/fir-grain-crfs/",
     "possibleAliasesReviewed": [],
     "enriched": true,
-    "editorialStatus": "draft"
+    "editorialStatus": "incomplete"
   },
   {
     "productId": "mennie-canada:fir-s1k",
@@ -265,7 +265,7 @@
     "sourceUrl": "https://menniecanada.com/products/fir/fir-s1k/",
     "possibleAliasesReviewed": [],
     "enriched": true,
-    "editorialStatus": "draft"
+    "editorialStatus": "incomplete"
   },
   {
     "productId": "mennie-canada:fir-s2k",
@@ -277,7 +277,7 @@
     "sourceUrl": "https://menniecanada.com/products/fir/fir-s2k/",
     "possibleAliasesReviewed": [],
     "enriched": true,
-    "editorialStatus": "draft"
+    "editorialStatus": "incomplete"
   },
   {
     "productId": "mennie-canada:mah-5l",
@@ -289,7 +289,7 @@
     "sourceUrl": "https://menniecanada.com/products/mahogany-doors/mah-5l/",
     "possibleAliasesReviewed": [],
     "enriched": true,
-    "editorialStatus": "draft"
+    "editorialStatus": "incomplete"
   },
   {
     "productId": "mennie-canada:mah-gp",
@@ -301,7 +301,7 @@
     "sourceUrl": "https://menniecanada.com/products/mahogany-doors/mah-gp/",
     "possibleAliasesReviewed": [],
     "enriched": true,
-    "editorialStatus": "draft"
+    "editorialStatus": "incomplete"
   },
   {
     "productId": "mennie-canada:sm-8-fl-1p-2",
@@ -319,7 +319,19 @@
       }
     ],
     "enriched": true,
-    "editorialStatus": "draft"
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "mennie-canada:sm-cr",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "mennie-canada",
+    "category": "entry-doors",
+    "modelNumber": "SM-CR",
+    "sourceUrl": "https://menniecanada.com/products/smooth-doors/sm-cr/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
   },
   {
     "productId": "mennie-canada:sm-fl-1p",
@@ -337,7 +349,90 @@
       }
     ],
     "enriched": true,
-    "editorialStatus": "draft"
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "mennie-canada:sm-ss1",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "mennie-canada",
+    "category": "entry-doors",
+    "modelNumber": "SM-SS1",
+    "sourceUrl": "https://menniecanada.com/products/smooth-doors/sm-ss1/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "mennie-canada:sm-ss3",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "mennie-canada",
+    "category": "entry-doors",
+    "modelNumber": "SM-SS3",
+    "sourceUrl": "https://menniecanada.com/products/smooth-doors/sm-ss3/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "mennie-canada:sm-ss5",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "mennie-canada",
+    "category": "entry-doors",
+    "modelNumber": "SM-SS5",
+    "sourceUrl": "https://menniecanada.com/products/smooth-doors/sm-ss5/",
+    "possibleAliasesReviewed": [
+      {
+        "productId": "mennie-canada:sm-5l",
+        "nameSimilarity": 0.882,
+        "modelMatch": false
+      },
+      {
+        "productId": "mennie-canada:sm8-5l",
+        "nameSimilarity": 0.882,
+        "modelMatch": false
+      }
+    ],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "mennie-canada:sm-ss7",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "mennie-canada",
+    "category": "entry-doors",
+    "modelNumber": "SM-SS7",
+    "sourceUrl": "https://menniecanada.com/products/smooth-doors/sm-ss7/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "mennie-canada:sm-ss9",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "mennie-canada",
+    "category": "entry-doors",
+    "modelNumber": "SM-SS9",
+    "sourceUrl": "https://menniecanada.com/products/smooth-doors/sm-ss9/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "mennie-canada:st-42",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "mennie-canada",
+    "category": "entry-doors",
+    "modelNumber": "ST-42",
+    "sourceUrl": "https://menniecanada.com/products/fir/st-42/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
   },
   {
     "productId": "mennie-canada:wg8-f-3mm",
@@ -348,7 +443,7 @@
     "modelNumber": "WG8-F-3MM",
     "sourceUrl": "https://menniecanada.com/products/oak-grain/wg8-f-3mm/",
     "possibleAliasesReviewed": [],
-    "enriched": false,
+    "enriched": true,
     "editorialStatus": "incomplete"
   },
   {
