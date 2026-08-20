@@ -1,13 +1,230 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { products } from '../data/products';
-import { isPublishableLocation, locations } from '../data/locations';
-const publishedLocations = locations.filter(isPublishableLocation);
+import CategoryCard from '../components/CategoryCard.astro';
+import MediaFrame from '../components/MediaFrame.astro';
+import ProcessSteps from '../components/ProcessSteps.astro';
+import ProductCard from '../components/ProductCard.astro';
+import QuoteCta from '../components/QuoteCta.astro';
+import SectionHeader from '../components/SectionHeader.astro';
+import {
+  homepageCategoryPaths,
+  homepageFeaturedProducts,
+  homepageManufacturers,
+  homepageProcessSteps,
+  homepagePublishedProductCount,
+  homepageSpecificationTopics,
+  homepageTaxonomyGroups,
+  homepageWindowStyles
+} from '../data/homepage';
+
+const heroWindow = homepageCategoryPaths.find(category => category.rootCategory === 'replacement-windows');
+const heroDoor = homepageCategoryPaths.find(category => category.rootCategory === 'entry-doors');
+const heroPatio = homepageCategoryPaths.find(category => category.rootCategory === 'patio-doors');
+
+if (!heroWindow || !heroDoor || !heroPatio) {
+  throw new TypeError('Homepage hero requires published window, entry-door, and patio-door media');
+}
 ---
-<BaseLayout title="Window Replacement Pro | Windows & Doors Ontario" description="Replacement windows, entry doors and patio doors with clear product guidance, installation expertise and service across Ontario.">
-  <section class="hero"><div class="wrap"><div class="eyebrow">Ontario Windows & Doors</div><h1>Window replacement, explained properly.</h1><p class="lead">Compare window styles, entry doors, patio systems and installation methods before you buy. Product information, practical guidance and local replacement service without the usual guesswork.</p><div class="actions"><a class="button" href="#quote">Get an Estimate</a><a class="button secondary" href="/windows/">Explore Windows</a></div></div></section>
-  <section class="section"><div class="wrap"><div class="section-head"><div class="eyebrow">Products</div><h2>Start with what you're replacing.</h2><p>Product-first navigation keeps manufacturer collections underneath clear homeowner categories.</p></div><div class="grid">{products.slice(0,6).map((p)=><a class="card" href={`/${p.category === 'entry-doors' ? 'doors' : p.category}/${p.slug}/`}><span class="tag">{p.type}</span><h3>{p.name}</h3><p>{p.summary}</p></a>)}</div></div></section>
-  <section class="section alt"><div class="wrap split"><div><div class="eyebrow">Why this site is different</div><h2>Useful before you ever request a quote.</h2><p class="lead">The site is being built around real product data, installation methods, pricing factors, manufacturer documentation and local project evidence—not hundreds of city-name swaps.</p></div><div class="metric-grid"><div class="metric"><strong>10</strong><span>supplier libraries</span></div><div class="metric"><strong>{products.length}</strong><span>starter product categories</span></div><div class="metric"><strong>{publishedLocations.length}</strong><span>published locations</span></div><div class="metric"><strong>100%</strong><span>static-first pages</span></div></div></div></section>
-  {publishedLocations.length > 0 && <section class="section"><div class="wrap"><div class="section-head"><div class="eyebrow">Service Areas</div><h2>Built for local search without thin local pages.</h2></div><div class="grid">{publishedLocations.slice(0,9).map((l)=><a class="card" href={`/locations/${l.slug}/`}><span class="tag">{l.region}</span><h3>{l.name}</h3><p>{l.intro}</p></a>)}</div></div></section>}
-  <section id="quote" class="section alt"><div class="wrap split"><div><div class="eyebrow">Estimate</div><h2>Tell us what you're replacing.</h2><p>Starter form markup is included now. The production endpoint can later route submissions to email, CRM or a Cloudflare Worker.</p></div><form class="quote-box" method="post" action="#"><div class="input-row"><div class="field"><label for="project">Project</label><select id="project" name="project"><option>Windows</option><option>Entry door</option><option>Patio door</option><option>Multiple products</option></select></div><div class="field"><label for="count">Approx. quantity</label><input class="input" id="count" name="count" inputmode="numeric" /></div></div><div class="input-row"><div class="field"><label for="city">City</label><input class="input" id="city" name="city" /></div><div class="field"><label for="postal">Postal code</label><input class="input" id="postal" name="postal" /></div></div><div class="field"><label for="details">Project details</label><textarea id="details" name="details" rows="4"></textarea></div><button class="button" type="button">Estimate Form — Endpoint Pending</button></form></div></section>
+<BaseLayout
+  title="Window Replacement Pro | Windows & Doors in Ontario"
+  description="Compare published replacement windows, entry doors, door glass and patio-door products for homes across the GTA and Southern Ontario."
+>
+  <section class="home-hero" aria-labelledby="home-hero-title">
+    <div class="wrap home-hero__grid">
+      <div class="home-hero__content">
+        <p class="eyebrow">Windows and doors, clearly compared</p>
+        <h1 id="home-hero-title">A better replacement starts with the right product.</h1>
+        <p class="home-hero__lead">Compare real replacement-window and door options, understand the specifications that matter, and prepare for a more complete project conversation.</p>
+        <div class="actions">
+          <a class="button" href="#quote">Plan your replacement</a>
+          <a class="button button--secondary" href="#product-paths">Explore product paths</a>
+        </div>
+        <dl class="home-hero__facts" aria-label="Published catalogue summary">
+          <div><dt>{homepagePublishedProductCount}</dt><dd>published products</dd></div>
+          <div><dt>{homepageCategoryPaths.length}</dt><dd>clear product paths</dd></div>
+          <div><dt>{homepageManufacturers.length}</dt><dd>represented manufacturers</dd></div>
+        </dl>
+      </div>
+
+      <div class="home-hero__visual" aria-label="Representative published product imagery">
+        <MediaFrame
+          media={heroWindow.media}
+          alt={heroWindow.imageAlt}
+          class="home-hero__window"
+          sizes="(max-width: 760px) 92vw, (max-width: 1120px) 58vw, 42vw"
+          loading="eager"
+          fetchpriority="high"
+        />
+        <MediaFrame
+          media={heroDoor.media}
+          alt={heroDoor.imageAlt}
+          class="home-hero__door"
+          sizes="(max-width: 760px) 34vw, 18vw"
+          loading="eager"
+          fit="contain"
+        />
+        <MediaFrame
+          media={heroPatio.media}
+          alt={heroPatio.imageAlt}
+          class="home-hero__patio"
+          sizes="(max-width: 760px) 48vw, 22vw"
+          loading="eager"
+        />
+        <p class="home-hero__caption">Representative imagery from verified manufacturer product libraries.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="product-paths" class="section section--cream" aria-labelledby="product-paths-title">
+    <div class="wrap">
+      <SectionHeader
+        eyebrow="Product paths"
+        title="Start with what you are replacing."
+        body="Each path is built from published catalogue records, so unsupported or unfinished categories stay out of view."
+        headingId="product-paths-title"
+      />
+      <div class="category-grid">
+        {homepageCategoryPaths.map(category => <CategoryCard {...category} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section window-styles" aria-labelledby="window-styles-title">
+    <div class="wrap">
+      <div class="section-split-heading">
+        <SectionHeader
+          eyebrow="Window styles"
+          title="Choose how the window needs to work."
+          body="Operating style affects ventilation, cleaning, hardware and the way a replacement fits the opening."
+          headingId="window-styles-title"
+        />
+        <a class="text-link text-link--top" href="/windows/">View all replacement windows <span aria-hidden="true">&rarr;</span></a>
+      </div>
+      <div class="window-style-grid">
+        {homepageWindowStyles.map((style, index) => (
+          <a class="window-style-card" href={style.href}>
+            <span class="window-style-card__index">{String(index + 1).padStart(2, '0')}</span>
+            <h3>{style.title}</h3>
+            <p>{style.description}</p>
+            <span>{style.count} published {style.count === 1 ? 'product' : 'products'}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--forest taxonomy-section" aria-labelledby="taxonomy-title">
+    <div class="wrap">
+      <SectionHeader
+        eyebrow="Doors and patio systems"
+        title="Narrow the catalogue without losing the details."
+        body="Only groupings with published product records are shown here."
+        headingId="taxonomy-title"
+      />
+      <div class="taxonomy-grid">
+        {homepageTaxonomyGroups.map(group => (
+          <article class="taxonomy-panel">
+            <header>
+              <div>
+                <h3>{group.title}</h3>
+                <p>{group.description}</p>
+              </div>
+              <a href={group.href} aria-label={`Explore all ${group.title.toLowerCase()}`}>&rarr;</a>
+            </header>
+            <ul>
+              {group.options.map(item => (
+                <li>
+                  <a href={item.href}>
+                    <span>{item.title}</span>
+                    <span>{item.count}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section specification-section" aria-labelledby="specification-title">
+    <div class="wrap specification-layout">
+      <div class="specification-copy">
+        <p class="eyebrow">Compare the complete specification</p>
+        <h2 id="specification-title">The product name is only the beginning.</h2>
+        <p class="lead">A useful comparison connects the product, glass, frame, hardware, opening and installation scope. Those details shape performance and determine whether two quotes are actually comparable.</p>
+        <a class="button button--secondary" href="#featured-products">See published product details</a>
+      </div>
+      <ol class="specification-list">
+        {homepageSpecificationTopics.map((topic, index) => (
+          <li>
+            <span>{String(index + 1).padStart(2, '0')}</span>
+            <strong>{topic}</strong>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <section id="featured-products" class="section section--mist" aria-labelledby="featured-products-title">
+    <div class="wrap">
+      <div class="section-split-heading">
+        <SectionHeader
+          eyebrow="Published products"
+          title="A closer look at four product paths."
+          body="Every card below points to a published canonical record with approved product-specific media."
+          headingId="featured-products-title"
+        />
+        <a class="text-link text-link--top" href="/brands/">Browse manufacturers <span aria-hidden="true">&rarr;</span></a>
+      </div>
+      <div class="featured-product-grid">
+        {homepageFeaturedProducts.map(product => <ProductCard {...product} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section process-section" aria-labelledby="process-title">
+    <div class="wrap">
+      <SectionHeader
+        eyebrow="From research to installation"
+        title="A clear path through the replacement process."
+        body="Product research comes first; site conditions and final scope still need to be confirmed before ordering."
+        headingId="process-title"
+      />
+      <ProcessSteps steps={homepageProcessSteps} />
+    </div>
+  </section>
+
+  <section class="section section--cream manufacturer-section" aria-labelledby="manufacturers-title">
+    <div class="wrap manufacturer-layout">
+      <div>
+        <p class="eyebrow">Manufacturer libraries</p>
+        <h2 id="manufacturers-title">Published options from established product sources.</h2>
+        <p class="lead">Browse by product type first, then use manufacturer pages when you need model-level detail and supplier documentation.</p>
+      </div>
+      <div class="manufacturer-list">
+        {homepageManufacturers.map(manufacturer => (
+          <a href={manufacturer.href}>
+            <span>
+              <strong>{manufacturer.name}</strong>
+              <small>{manufacturer.categories.join(' / ')}</small>
+            </span>
+            <span>{manufacturer.productCount}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section final-section" aria-labelledby="service-title">
+    <div class="wrap">
+      <div class="service-note">
+        <p class="eyebrow">Service area</p>
+        <h2 id="service-title">Planning replacement projects across the GTA and Southern Ontario.</h2>
+        <p>Product availability and project fit vary by location, opening and installation conditions. Service-area pages are published only when substantive local information is ready.</p>
+        <a class="text-link" href="/locations/">Review service coverage <span aria-hidden="true">&rarr;</span></a>
+      </div>
+      <QuoteCta />
+    </div>
+  </section>
 </BaseLayout>

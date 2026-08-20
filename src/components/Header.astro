@@ -1,15 +1,104 @@
-<header class="site-header">
+---
+const currentPath = Astro.url.pathname;
+const currentFor = (prefix: string) => currentPath === prefix || (prefix !== '/' && currentPath.startsWith(prefix));
+---
+<header class="site-header" data-site-header>
   <div class="wrap header-inner">
     <a class="brand" href="/" aria-label="Window Replacement Pro home">
       <span class="brand-main">Window Replacement</span><span class="brand-pro">.pro</span>
     </a>
-    <nav aria-label="Primary navigation">
-      <a href="/windows/">Windows</a>
-      <a href="/doors/">Entry Doors</a>
-      <a href="/patio-doors/">Patio Doors</a>
-      <a href="/locations/">Locations</a>
-      <a href="/guides/">Guides</a>
+
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <details class="nav-dropdown" data-nav-dropdown>
+        <summary class:list={[currentFor('/products/') && 'is-current']}>Products</summary>
+        <div class="nav-dropdown__panel">
+          <a href="/windows/">Replacement windows</a>
+          <a href="/doors/">Entry doors</a>
+          <a href="/doors/decorative-door-glass/">Door glass</a>
+          <a href="/patio-doors/">Patio doors</a>
+        </div>
+      </details>
+      <a class:list={[currentFor('/windows/') && 'is-current']} aria-current={currentFor('/windows/') ? 'page' : undefined} href="/windows/">Windows</a>
+      <a class:list={[currentFor('/doors/') && 'is-current']} aria-current={currentFor('/doors/') ? 'page' : undefined} href="/doors/">Entry doors</a>
+      <a class:list={[currentFor('/patio-doors/') && 'is-current']} aria-current={currentFor('/patio-doors/') ? 'page' : undefined} href="/patio-doors/">Patio doors</a>
+      <a class:list={[currentFor('/brands/') && 'is-current']} aria-current={currentFor('/brands/') ? 'page' : undefined} href="/brands/">Brands</a>
+      <a class:list={[currentFor('/guides/') && 'is-current']} aria-current={currentFor('/guides/') ? 'page' : undefined} href="/guides/">Guides</a>
+      <a class:list={[currentFor('/locations/') && 'is-current']} aria-current={currentFor('/locations/') ? 'page' : undefined} href="/locations/">Service areas</a>
     </nav>
-    <a class="button small" href="/#quote">Get Estimate</a>
+
+    <a class="button button--header" href="/#quote">Plan a project</a>
+    <button
+      class="menu-toggle"
+      type="button"
+      aria-expanded="false"
+      aria-controls="mobile-navigation"
+      aria-label="Open navigation menu"
+      data-menu-toggle
+    >
+      <span></span><span></span><span></span>
+    </button>
   </div>
+
+  <nav id="mobile-navigation" class="mobile-nav" aria-label="Mobile navigation" data-mobile-nav hidden>
+    <div class="wrap mobile-nav__inner">
+      <p class="mobile-nav__label">Products</p>
+      <a href="/windows/">Replacement windows</a>
+      <a href="/doors/">Entry doors</a>
+      <a href="/doors/decorative-door-glass/">Door glass</a>
+      <a href="/patio-doors/">Patio doors</a>
+      <div class="mobile-nav__divider"></div>
+      <a href="/brands/">Manufacturers</a>
+      <a href="/guides/">Guides</a>
+      <a href="/locations/">Service areas</a>
+      <a class="button" href="/#quote">Plan a project</a>
+    </div>
+  </nav>
 </header>
+
+<script>
+  const header = document.querySelector<HTMLElement>('[data-site-header]');
+  const toggle = header?.querySelector<HTMLButtonElement>('[data-menu-toggle]');
+  const mobileNav = header?.querySelector<HTMLElement>('[data-mobile-nav]');
+  const dropdowns = header?.querySelectorAll<HTMLDetailsElement>('[data-nav-dropdown]') ?? [];
+
+  const closeMenu = (returnFocus = false) => {
+    if (!toggle || !mobileNav) return;
+    toggle.setAttribute('aria-expanded', 'false');
+    toggle.setAttribute('aria-label', 'Open navigation menu');
+    mobileNav.hidden = true;
+    document.body.classList.remove('menu-open');
+    if (returnFocus) toggle.focus();
+  };
+
+  const openMenu = () => {
+    if (!toggle || !mobileNav) return;
+    toggle.setAttribute('aria-expanded', 'true');
+    toggle.setAttribute('aria-label', 'Close navigation menu');
+    mobileNav.hidden = false;
+    document.body.classList.add('menu-open');
+    mobileNav.querySelector<HTMLElement>('a')?.focus();
+  };
+
+  toggle?.addEventListener('click', () => {
+    const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+    isOpen ? closeMenu() : openMenu();
+  });
+
+  mobileNav?.querySelectorAll('a').forEach(link => link.addEventListener('click', () => closeMenu()));
+
+  document.addEventListener('keydown', event => {
+    if (event.key !== 'Escape') return;
+    dropdowns.forEach(dropdown => dropdown.open = false);
+    if (toggle?.getAttribute('aria-expanded') === 'true') closeMenu(true);
+  });
+
+  document.addEventListener('click', event => {
+    dropdowns.forEach(dropdown => {
+      if (!dropdown.contains(event.target as Node)) dropdown.open = false;
+    });
+  });
+
+  window.matchMedia('(min-width: 1120px)').addEventListener('change', event => {
+    if (event.matches) closeMenu();
+  });
+</script>

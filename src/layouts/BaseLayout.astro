@@ -3,7 +3,13 @@ import '../styles/global.css';
 import Seo from '../components/Seo.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-interface Props { title: string; description: string; noindex?: boolean; }
+
+interface Props {
+  title: string;
+  description: string;
+  noindex?: boolean;
+}
+
 const { title, description, noindex = false } = Astro.props;
 const organization = {
   '@context': 'https://schema.org',
@@ -14,15 +20,17 @@ const organization = {
 ---
 <!doctype html>
 <html lang="en-CA">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width" />
-  <Seo title={title} description={description} noindex={noindex} />
-  <script is:inline type="application/ld+json" set:html={JSON.stringify(organization)} />
-</head>
-<body>
-  <Header />
-  <main><slot /></main>
-  <Footer />
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="theme-color" content="#133a32" />
+    <Seo title={title} description={description} noindex={noindex} />
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(organization)} />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <Header />
+    <main id="main-content"><slot /></main>
+    <Footer />
+  </body>
 </html>

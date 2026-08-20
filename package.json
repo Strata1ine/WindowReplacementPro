@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
+    "prebuild": "npm run build:homepage-media",
     "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
@@ -13,6 +14,8 @@
     "ingest:cleanup": "python scripts/ingest/cleanup.py",
     "enrich:catalog": "python scripts/enrich-catalog.py",
     "build:taxonomy": "python scripts/build-taxonomy.py",
+    "build:homepage-media": "node scripts/build-homepage-media.mjs",
+    "qa:homepage": "node scripts/homepage-browser-qa.mjs",
     "ingest:audit": "npm run validate:catalog",
     "validate:catalog": "python scripts/ingest/audit.py && python scripts/enrichment-audit.py",
     "test:catalog": "node --experimental-strip-types scripts/tests/catalog-merge.test.ts",
@@ -34,6 +37,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.10",
+    "sharp": "^0.35.3",
     "typescript": "^6.0.3"
   }
 }

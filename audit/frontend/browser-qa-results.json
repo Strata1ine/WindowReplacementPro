@@ -1,0 +1,105 @@
+{
+  "baseUrl": "http://127.0.0.1:4321/",
+  "generatedAt": "2026-08-20T13:29:15.092Z",
+  "viewportResults": [
+    {
+      "viewport": {
+        "name": "mobile-375",
+        "width": 375,
+        "height": 812,
+        "mobile": false,
+        "deviceScaleFactor": 1
+      },
+      "dimensions": {
+        "viewportWidth": 375,
+        "documentWidth": 375,
+        "documentHeight": 16145,
+        "horizontalOverflow": false
+      },
+      "brokenImages": [],
+      "incompleteImages": []
+    },
+    {
+      "viewport": {
+        "name": "tablet-768",
+        "width": 768,
+        "height": 1024,
+        "mobile": false,
+        "deviceScaleFactor": 1
+      },
+      "dimensions": {
+        "viewportWidth": 768,
+        "documentWidth": 768,
+        "documentHeight": 12296,
+        "horizontalOverflow": false
+      },
+      "brokenImages": [],
+      "incompleteImages": []
+    },
+    {
+      "viewport": {
+        "name": "desktop-1280",
+        "width": 1280,
+        "height": 900,
+        "mobile": false,
+        "deviceScaleFactor": 1
+      },
+      "dimensions": {
+        "viewportWidth": 1280,
+        "documentWidth": 1280,
+        "documentHeight": 8548,
+        "horizontalOverflow": false
+      },
+      "brokenImages": [],
+      "incompleteImages": []
+    },
+    {
+      "viewport": {
+        "name": "wide-1600",
+        "width": 1600,
+        "height": 1000,
+        "mobile": false,
+        "deviceScaleFactor": 1
+      },
+      "dimensions": {
+        "viewportWidth": 1600,
+        "documentWidth": 1600,
+        "documentHeight": 8886,
+        "horizontalOverflow": false
+      },
+      "brokenImages": [],
+      "incompleteImages": []
+    }
+  ],
+  "interactions": {
+    "mobileBefore": {
+      "hidden": true,
+      "expanded": "false"
+    },
+    "mobileOpen": {
+      "hidden": false,
+      "expanded": "true",
+      "bodyLocked": true,
+      "navigationWidth": 375
+    },
+    "mobileAfterEscape": {
+      "hidden": true,
+      "expanded": "false",
+      "focused": true
+    }
+  },
+  "pageAudit": {
+    "title": "Window Replacement Pro | Windows & Doors in Ontario",
+    "h1Count": 1,
+    "publishedCountVisible": true,
+    "forbiddenTermsVisible": [],
+    "brokenLinks": [],
+    "internalLinkCount": 26,
+    "imageCount": 11,
+    "productCardCount": 4,
+    "categoryCardCount": 4
+  },
+  "runtimeErrors": [],
+  "networkFailures": [],
+  "screenshotDirectory": "audit/frontend/screenshots"
+}

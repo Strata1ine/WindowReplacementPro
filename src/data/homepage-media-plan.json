@@ -1,0 +1,34 @@
+[
+  {
+    "key": "window-city-hc-101",
+    "productId": "window-city:hc-101",
+    "selection": "heroMedia",
+    "intrinsicWidth": 2560,
+    "intrinsicHeight": 1707,
+    "widths": [480, 768, 1200]
+  },
+  {
+    "key": "masonite-hollister",
+    "productId": "masonite:2-panel-hollister",
+    "selection": "heroMedia",
+    "intrinsicWidth": 2048,
+    "intrinsicHeight": 2048,
+    "widths": [360, 540, 720]
+  },
+  {
+    "key": "novatech-infinite-black",
+    "productId": "novatech:infinite-black",
+    "selection": "heroMedia",
+    "intrinsicWidth": 1552,
+    "intrinsicHeight": 1890,
+    "widths": [360, 540, 720]
+  },
+  {
+    "key": "oceanview-premium-plus",
+    "productId": "oceanview:premium-plus",
+    "selection": "heroMedia",
+    "intrinsicWidth": 810,
+    "intrinsicHeight": 660,
+    "widths": [480, 720, 810]
+  }
+]

@@ -1,0 +1,44 @@
+---
+import type { HomepageMedia } from '../data/homepage';
+
+interface Props {
+  media: HomepageMedia;
+  alt: string;
+  class?: string;
+  sizes?: string;
+  loading?: 'eager' | 'lazy';
+  fetchpriority?: 'high' | 'low' | 'auto';
+  fit?: 'cover' | 'contain';
+  caption?: string;
+}
+
+const {
+  media,
+  alt,
+  class: className,
+  sizes = '(max-width: 760px) 100vw, 50vw',
+  loading = 'lazy',
+  fetchpriority = 'auto',
+  fit = 'cover',
+  caption
+} = Astro.props;
+---
+<figure
+  class:list={['media-frame', `media-frame--${fit}`, className]}
+  data-media-product={media.provenance.productId}
+  data-media-role={media.provenance.role}
+  data-media-relationship={media.provenance.relationshipState}
+>
+  <img
+    src={media.src}
+    srcset={media.srcset}
+    sizes={sizes}
+    width={media.width}
+    height={media.height}
+    alt={alt}
+    loading={loading}
+    fetchpriority={fetchpriority}
+    decoding="async"
+  />
+  {caption && <figcaption>{caption}</figcaption>}
+</figure>
