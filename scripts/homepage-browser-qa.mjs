@@ -29,7 +29,6 @@ const browserProcess = spawn(chromePath, [
   '--disable-component-update',
   '--disable-default-apps',
   '--disable-extensions',
-  '--disable-gpu',
   '--disable-sync',
   '--hide-scrollbars',
   '--no-first-run',
@@ -112,10 +111,10 @@ const setViewport = viewport => client.send('Emulation.setDeviceMetricsOverride'
   screenWidth: viewport.width,
   screenHeight: viewport.height
 });
-const loadHomepage = async viewport => {
+const loadPage = async (viewport, url = baseUrl) => {
   await setViewport(viewport);
   const loaded = client.once('Page.loadEventFired');
-  await client.send('Page.navigate', { url: baseUrl });
+  await client.send('Page.navigate', { url });
   await loaded;
   await evaluate('document.fonts.ready.then(() => new Promise(resolve => setTimeout(resolve, 250)))');
   await evaluate(`(async () => {
@@ -123,9 +122,11 @@ const loadHomepage = async viewport => {
     const images = Array.from(document.images);
     images.forEach(image => image.loading = 'eager');
     await Promise.all(images.map(image => image.decode().catch(() => undefined)));
-    await new Promise(resolve => setTimeout(resolve, 120));
+    await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    await new Promise(resolve => setTimeout(resolve, 500));
   })()`);
 };
+const loadHomepage = viewport => loadPage(viewport, baseUrl);
 const screenshot = async (filename, clip) => {
   const result = await client.send('Page.captureScreenshot', {
     format: 'png',
@@ -160,6 +161,12 @@ const viewports = [
   { name: 'wide-1600', width: 1600, height: 1000, mobile: false, deviceScaleFactor: 1 }
 ];
 const viewportResults = [];
+const representativeRoutes = [
+  { kind: 'window', path: '/products/windows/slim-frame-casement-window/' },
+  { kind: 'entry-door', path: '/products/entry-doors/two-panel-fiberglass-entry-door/' },
+  { kind: 'door-glass', path: '/products/door-glass/black-linear-privacy-door-glass/' },
+  { kind: 'patio-door', path: '/products/patio-doors/multi-panel-sliding-patio-door/' }
+];
 
 try {
   await waitForJson(`http://127.0.0.1:${port}/json/version`);
@@ -257,7 +264,11 @@ try {
   })`);
 
   const pageAudit = await evaluate(`(async () => {
-    const forbidden = ['source-only', 'facts-ready', 'uncertain/review', 'stale'];
+    const forbidden = [
+      'vinyl-pro', 'vinyl pro', 'window city', 'masonite', 'trimlite', 'novatech',
+      'verre select', 'mennie', 'richersons', 'oceanview', 'vista patio doors',
+      'source-only', 'facts-ready', 'uncertain/review', 'stale'
+    ];
     const text = document.body.innerText.toLowerCase();
     const hrefs = Array.from(document.querySelectorAll('a[href]'), link => link.href)
       .filter(href => href.startsWith(location.origin))
@@ -276,10 +287,14 @@ try {
     return {
       title: document.title,
       h1Count: document.querySelectorAll('h1').length,
-      publishedCountVisible: Array.from(document.querySelectorAll('.home-hero__facts div')).some(item =>
-        item.querySelector('dt')?.textContent?.trim() === '203'
-        && item.querySelector('dd')?.textContent?.trim() === 'published products'),
+      neutralReferencesVisible: ['wrp-w001', 'wrp-d001', 'wrp-g001', 'wrp-p001'].every(reference => text.includes(reference)),
       forbiddenTermsVisible: forbidden.filter(term => text.includes(term)),
+      publicPathLeaks: uniqueLinks.filter(href => {
+        const pathname = new URL(href).pathname.toLowerCase();
+        const supplierSegments = ['vinyl-pro', 'window-city', 'masonite', 'trimlite', 'novatech', 'verre-select', 'mennie-canada', 'richersons', 'oceanview', 'vista'];
+        return pathname.startsWith('/brands/') || supplierSegments.some(segment => pathname.startsWith('/products/' + segment + '/'));
+      }),
+      publicMediaPathLeaks: Array.from(document.images, image => new URL(image.currentSrc || image.src).pathname).filter(pathname => !pathname.startsWith('/media/products/wrp-')),
       brokenLinks: linkResults.filter(result => !result.ok),
       internalLinkCount: uniqueLinks.length,
       imageCount: document.images.length,
@@ -288,18 +303,106 @@ try {
     };
   })()`);
 
+  const representativePageAudits = [];
+  for (const route of representativeRoutes) {
+    const routeUrl = new URL(route.path, baseUrl).href;
+    await loadPage(viewports[2], routeUrl);
+    const audit = await evaluate(`(() => {
+      const forbidden = [
+        'vinyl-pro', 'vinyl pro', 'window city', 'masonite', 'trimlite', 'novatech',
+        'verre select', 'mennie', 'richersons', 'oceanview', 'vista patio doors',
+        'manufacturer:', 'supplier:', 'source url', 'provenance'
+      ];
+      const text = document.body.innerText.toLowerCase();
+      const paths = Array.from(document.querySelectorAll('a[href], img[src]'), element => {
+        const value = element.href || element.currentSrc || element.src;
+        return value ? new URL(value, location.href).pathname.toLowerCase() : '';
+      });
+      const images = Array.from(document.images);
+      const productImage = images[0];
+      const imageStyle = productImage ? getComputedStyle(productImage) : null;
+      const imageRect = productImage?.getBoundingClientRect();
+      let decodedDarkPixelRatio = null;
+      if (productImage) {
+        const canvas = document.createElement('canvas');
+        canvas.width = productImage.naturalWidth;
+        canvas.height = productImage.naturalHeight;
+        const context = canvas.getContext('2d', { willReadFrequently: true });
+        context.drawImage(productImage, 0, 0);
+        const pixels = context.getImageData(0, 0, canvas.width, canvas.height).data;
+        let darkPixels = 0;
+        for (let index = 0; index < pixels.length; index += 4) if (pixels[index] + pixels[index + 1] + pixels[index + 2] < 600) darkPixels += 1;
+        decodedDarkPixelRatio = darkPixels / (pixels.length / 4);
+      }
+      return {
+        title: document.title,
+        h1: document.querySelector('h1')?.textContent?.trim() ?? '',
+        h1Count: document.querySelectorAll('h1').length,
+        reference: document.querySelector('.product-card__meta')?.textContent?.trim() ?? '',
+        disclaimerCount: Array.from(document.querySelectorAll('.source-note')).filter(note => note.textContent?.includes('identified in your written quotation')).length,
+        forbiddenTermsVisible: forbidden.filter(term => text.includes(term)),
+        pathLeaks: paths.filter(pathname => pathname.startsWith('/brands/') || pathname.startsWith('/public/') || pathname.startsWith('/documents/') || pathname.includes('/suppliers/')),
+        imageCount: images.length,
+        brokenImages: images.filter(image => !image.complete || image.naturalWidth === 0).map(image => image.currentSrc || image.src),
+        mediaPaths: images.map(image => new URL(image.currentSrc || image.src).pathname),
+        imageMetrics: productImage ? {
+          width: imageRect.width,
+          height: imageRect.height,
+          display: imageStyle.display,
+          visibility: imageStyle.visibility,
+          opacity: imageStyle.opacity,
+          objectFit: imageStyle.objectFit,
+          position: imageStyle.position,
+          decodedDarkPixelRatio,
+        } : null,
+      };
+    })()`);
+    representativePageAudits.push({ ...route, url: routeUrl, ...audit });
+    await fullPageScreenshot(`product-${route.kind}.png`);
+  }
+
+  const failures = [];
+  for (const result of viewportResults) {
+    if (result.dimensions.horizontalOverflow) failures.push('horizontal overflow at ' + result.viewport.width + 'px');
+    if (result.brokenImages.length) failures.push('broken images at ' + result.viewport.width + 'px');
+    if (result.incompleteImages.length) failures.push('incomplete images at ' + result.viewport.width + 'px');
+  }
+  if (mobileBefore.hidden !== true || mobileBefore.expanded !== 'false') failures.push('mobile menu initial state');
+  if (mobileOpen.hidden !== false || mobileOpen.expanded !== 'true' || !mobileOpen.bodyLocked) failures.push('mobile menu open state');
+  if (mobileAfterEscape.hidden !== true || mobileAfterEscape.expanded !== 'false' || !mobileAfterEscape.focused) failures.push('mobile menu Escape state');
+  if (!pageAudit.neutralReferencesVisible) failures.push('neutral public references are missing');
+  if (pageAudit.forbiddenTermsVisible.length) failures.push('supplier or workflow disclosure visible');
+  if (pageAudit.publicPathLeaks.length) failures.push('supplier-identifying link path visible');
+  if (pageAudit.publicMediaPathLeaks.length) failures.push('non-neutral public media path visible');
+  if (pageAudit.brokenLinks.length) failures.push('broken internal links');
+  for (const audit of representativePageAudits) {
+    if (audit.h1Count !== 1) failures.push(audit.kind + ' page does not have exactly one H1');
+    if (!audit.reference.includes('WRP-')) failures.push(audit.kind + ' page is missing its neutral reference');
+    if (audit.disclaimerCount !== 1) failures.push(audit.kind + ' page disclosure count is not exactly one');
+    if (audit.forbiddenTermsVisible.length) failures.push(audit.kind + ' page exposes supplier terminology');
+    if (audit.pathLeaks.length) failures.push(audit.kind + ' page exposes an internal path');
+    if (audit.brokenImages.length) failures.push(audit.kind + ' page has broken images');
+    if ((audit.imageMetrics?.decodedDarkPixelRatio ?? 0) < 0.01) failures.push(audit.kind + ' page media has no usable decoded visual content');
+    if (audit.mediaPaths.some(pathname => !pathname.startsWith('/media/products/wrp-'))) failures.push(audit.kind + ' page uses a non-neutral media path');
+  }
+  if (runtimeErrors.length) failures.push('browser runtime errors');
+  if (networkFailures.length) failures.push('browser network failures');
+
   const results = {
     baseUrl,
     generatedAt: new Date().toISOString(),
     viewportResults,
     interactions: { mobileBefore, mobileOpen, mobileAfterEscape },
     pageAudit,
+    representativePageAudits,
     runtimeErrors,
     networkFailures,
+    failures,
     screenshotDirectory: path.relative(process.cwd(), outputDirectory).replaceAll('\\', '/')
   };
   await writeFile(resultPath, JSON.stringify(results, null, 2) + '\n');
   console.log(JSON.stringify(results, null, 2));
+  if (failures.length) throw new Error('Homepage browser QA failed: ' + failures.join('; '));
 } finally {
   client?.close();
   browserProcess.kill();

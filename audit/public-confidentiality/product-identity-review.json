@@ -1,0 +1,3294 @@
+{
+  "generatedAt": "2026-08-20T14:46:07.192Z",
+  "policy": "Supplier-backed records require an explicitly reviewed neutral identity. No automatic public naming is permitted.",
+  "summary": {
+    "internallyPublishedProductsReviewed": 203,
+    "supplierNeutralAndSafe": 4,
+    "requiresPublicRename": 199,
+    "requiresPublicSlugChange": 199,
+    "requiresMediaSanitization": 180,
+    "requiresDocumentRemoval": 70,
+    "categoryOnlyUntilReviewed": 199
+  },
+  "records": [
+    {
+      "internalCanonicalId": "masonite:2-panel-hollister",
+      "internalManufacturer": "masonite",
+      "internalTitle": "2 Panel Hollister",
+      "baselinePublicRoute": "/products/masonite/2-panel-hollister/",
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Two-Panel Fiberglass Entry Door",
+      "publicReference": "WRP-D001",
+      "publicRoute": "/products/entry-doors/two-panel-fiberglass-entry-door/"
+    },
+    {
+      "internalCanonicalId": "masonite:2-panel-1-2-lite",
+      "internalManufacturer": "masonite",
+      "internalTitle": "2 Panel ½ Lite",
+      "baselinePublicRoute": "/products/masonite/2-panel-1-2-lite/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "masonite:4-panel-1-4-lite",
+      "internalManufacturer": "masonite",
+      "internalTitle": "4 Panel ¼ Lite",
+      "baselinePublicRoute": "/products/masonite/4-panel-1-4-lite/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "masonite:6-panel",
+      "internalManufacturer": "masonite",
+      "internalTitle": "6 Panel",
+      "baselinePublicRoute": "/products/masonite/6-panel/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "masonite:full-lite",
+      "internalManufacturer": "masonite",
+      "internalTitle": "Full Lite",
+      "baselinePublicRoute": "/products/masonite/full-lite/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "masonite:lincoln-park-1-panel",
+      "internalManufacturer": "masonite",
+      "internalTitle": "Lincoln Park 1 Panel",
+      "baselinePublicRoute": "/products/masonite/lincoln-park-1-panel/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "masonite:logan-2-panel",
+      "internalManufacturer": "masonite",
+      "internalTitle": "Logan 2 Panel",
+      "baselinePublicRoute": "/products/masonite/logan-2-panel/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "masonite:square-2-panel",
+      "internalManufacturer": "masonite",
+      "internalTitle": "Square 2 Panel",
+      "baselinePublicRoute": "/products/masonite/square-2-panel/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "masonite:vistagrande-flush-glazed-1-2-lite",
+      "internalManufacturer": "masonite",
+      "internalTitle": "VistaGrande Flush-Glazed 1/2 Lite",
+      "baselinePublicRoute": "/products/masonite/vistagrande-flush-glazed-1-2-lite/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "masonite:vistagrande-flush-glazed-3-4-lite",
+      "internalManufacturer": "masonite",
+      "internalTitle": "VistaGrande Flush-Glazed 3/4 Lite",
+      "baselinePublicRoute": "/products/masonite/vistagrande-flush-glazed-3-4-lite/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "masonite:vistagrande-flush-glazed-full-lite",
+      "internalManufacturer": "masonite",
+      "internalTitle": "VistaGrande Flush-Glazed Full Lite",
+      "baselinePublicRoute": "/products/masonite/vistagrande-flush-glazed-full-lite/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "masonite:winslow-3-panel",
+      "internalManufacturer": "masonite",
+      "internalTitle": "Winslow 3 Panel",
+      "baselinePublicRoute": "/products/masonite/winslow-3-panel/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "masonite:winslow-flush-glazed-3-panel",
+      "internalManufacturer": "masonite",
+      "internalTitle": "Winslow Flush-Glazed 3 Panel",
+      "baselinePublicRoute": "/products/masonite/winslow-flush-glazed-3-panel/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-gr1",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Mahogany Grain (GR-1)",
+      "baselinePublicRoute": "/products/mennie-canada/mah-gr1/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-gr10",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Mahogany Grain (GR-10)",
+      "baselinePublicRoute": "/products/mennie-canada/mah-gr10/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-gr11",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Mahogany Grain (GR-11)",
+      "baselinePublicRoute": "/products/mennie-canada/mah-gr11/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-gr12",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Mahogany Grain (GR-12)",
+      "baselinePublicRoute": "/products/mennie-canada/mah-gr12/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-gr13",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Mahogany Grain (GR-13)",
+      "baselinePublicRoute": "/products/mennie-canada/mah-gr13/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-gr14",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Mahogany Grain (GR-14)",
+      "baselinePublicRoute": "/products/mennie-canada/mah-gr14/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-gr15",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Mahogany Grain (GR-15)",
+      "baselinePublicRoute": "/products/mennie-canada/mah-gr15/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-gr2",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Mahogany Grain (GR-2)",
+      "baselinePublicRoute": "/products/mennie-canada/mah-gr2/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-gr3",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Mahogany Grain (GR-3)",
+      "baselinePublicRoute": "/products/mennie-canada/mah-gr3/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-gr4",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Mahogany Grain (GR-4)",
+      "baselinePublicRoute": "/products/mennie-canada/mah-gr4/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-gr5",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Mahogany Grain (GR-5)",
+      "baselinePublicRoute": "/products/mennie-canada/mah-gr5/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-gr6",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Mahogany Grain (GR-6)",
+      "baselinePublicRoute": "/products/mennie-canada/mah-gr6/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-gr7",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Mahogany Grain (GR-7)",
+      "baselinePublicRoute": "/products/mennie-canada/mah-gr7/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-gr8",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Mahogany Grain (GR-8)",
+      "baselinePublicRoute": "/products/mennie-canada/mah-gr8/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-gr9",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Mahogany Grain (GR-9)",
+      "baselinePublicRoute": "/products/mennie-canada/mah-gr9/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-2d",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Mahogany Grain (MAH2-D) 2 Panel",
+      "baselinePublicRoute": "/products/mennie-canada/mah-2d/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-ss1",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Mahogany Grain (SS-1)",
+      "baselinePublicRoute": "/products/mennie-canada/mah-ss1/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-ss10",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Mahogany Grain (SS-10)",
+      "baselinePublicRoute": "/products/mennie-canada/mah-ss10/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-ss2",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Mahogany Grain (SS-2)",
+      "baselinePublicRoute": "/products/mennie-canada/mah-ss2/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-ss3",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Mahogany Grain (SS-3)",
+      "baselinePublicRoute": "/products/mennie-canada/mah-ss3/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-ss4",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Mahogany Grain (SS-4)",
+      "baselinePublicRoute": "/products/mennie-canada/mah-ss4/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-ss5",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Mahogany Grain (SS-5)",
+      "baselinePublicRoute": "/products/mennie-canada/mah-ss5/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-ss6",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Mahogany Grain (SS-6)",
+      "baselinePublicRoute": "/products/mennie-canada/mah-ss6/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-ss7",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Mahogany Grain (SS-7)",
+      "baselinePublicRoute": "/products/mennie-canada/mah-ss7/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-ss8",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Mahogany Grain (SS-8)",
+      "baselinePublicRoute": "/products/mennie-canada/mah-ss8/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-ss9",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Mahogany Grain (SS-9)",
+      "baselinePublicRoute": "/products/mennie-canada/mah-ss9/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-2em",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Mahogany Grain 2 Panel Embossed (MAH-EM)",
+      "baselinePublicRoute": "/products/mennie-canada/mah-2em/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-3pa",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Mahogany Grain 3 Panel Arched (MAH-3PA)",
+      "baselinePublicRoute": "/products/mennie-canada/mah-3pa/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-crf",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Mahogany Grain Craftsman Panel (MAH-CRF)",
+      "baselinePublicRoute": "/products/mennie-canada/mah-crf/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-c3p",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Mahogany Grain Curved 3 Panel (MAH-C3P)",
+      "baselinePublicRoute": "/products/mennie-canada/mah-c3p/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-f",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Mahogany Grain Flush Panel (MAH-F)",
+      "baselinePublicRoute": "/products/mennie-canada/mah-f/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-rp",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Mahogany Grain Rustic Panel (MAH-RP)",
+      "baselinePublicRoute": "/products/mennie-canada/mah-rp/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:wg-2em",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Oak Grain 2 Panel Embossed (WG-2EM)",
+      "baselinePublicRoute": "/products/mennie-canada/wg-2em/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:wg-3pa",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Oak Grain 3 Panel Arched (WG-3PA)",
+      "baselinePublicRoute": "/products/mennie-canada/wg-3pa/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:wg-4pbt",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Oak Grain 4 Panel Blank Top (WG-4PBT)",
+      "baselinePublicRoute": "/products/mennie-canada/wg-4pbt/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:wg-6p",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Oak Grain 6 Panel (WG-6P)",
+      "baselinePublicRoute": "/products/mennie-canada/wg-6p/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:wg-ctp",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Oak Grain Contemporary (WG-CTP)",
+      "baselinePublicRoute": "/products/mennie-canada/wg-ctp/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:wg-f",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Oak Grain Flush Panel (WG-F)",
+      "baselinePublicRoute": "/products/mennie-canada/wg-f/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:wg-rgp",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Oak Grain Reeded Glass Panel (WG-RGP)",
+      "baselinePublicRoute": "/products/mennie-canada/wg-rgp/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:wg-syd",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Oak Grain Sydney (WG-SYD)",
+      "baselinePublicRoute": "/products/mennie-canada/wg-syd/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:sm-crf",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Panel (SM-CRF)",
+      "baselinePublicRoute": "/products/mennie-canada/sm-crf/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:sm-2p",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Smooth (2P)",
+      "baselinePublicRoute": "/products/mennie-canada/sm-2p/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:sm-3pa",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Smooth (SM-3PA) 3 Panel Arched (SM-3PA)",
+      "baselinePublicRoute": "/products/mennie-canada/sm-3pa/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:sm-s1k",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Smooth 1 Panel Shaker (SM-S1K)",
+      "baselinePublicRoute": "/products/mennie-canada/sm-s1k/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:sm-2em",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Smooth 2 Panel Embossed (SM-2EM)",
+      "baselinePublicRoute": "/products/mennie-canada/sm-2em/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:sm-s2k",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Smooth 2 Panel Shaker (SM-S2K)",
+      "baselinePublicRoute": "/products/mennie-canada/sm-s2k/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:sm-4pbt",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Smooth 4 Panel Blank Top (SM-4PBT)",
+      "baselinePublicRoute": "/products/mennie-canada/sm-4pbt/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:sm-6p",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Smooth 6 Panel (SM-6P)",
+      "baselinePublicRoute": "/products/mennie-canada/sm-6p/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:sm-f",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Smooth Flush Panel (SM-F)",
+      "baselinePublicRoute": "/products/mennie-canada/sm-f/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:sm-5l",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Smooth Panel (SM-5L)",
+      "baselinePublicRoute": "/products/mennie-canada/sm-5l/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:sm-bg-1843",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Smooth Panel (SM-BG-1843)",
+      "baselinePublicRoute": "/products/mennie-canada/sm-bg-1843/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:sm-bg-1864",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Smooth Panel (SM-BG-1864)",
+      "baselinePublicRoute": "/products/mennie-canada/sm-bg-1864/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:sm-bg-2236-1p",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Smooth Panel (SM-BG-2236-1P)",
+      "baselinePublicRoute": "/products/mennie-canada/sm-bg-2236-1p/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:sm-bg-2243",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Smooth Panel (SM-BG-2243)",
+      "baselinePublicRoute": "/products/mennie-canada/sm-bg-2243/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:sm-bg-2248-1p",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Smooth Panel (SM-BG-2248-1P)",
+      "baselinePublicRoute": "/products/mennie-canada/sm-bg-2248-1p/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:sm-bg-2264",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Smooth Panel (SM-BG-2264)",
+      "baselinePublicRoute": "/products/mennie-canada/sm-bg-2264/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:sm-rp",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "6'8\" Smooth Rustic Panel (SM-RP)",
+      "baselinePublicRoute": "/products/mennie-canada/sm-rp/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah-8-gp",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "8' Mahogany Grain (MAH-8'GP)",
+      "baselinePublicRoute": "/products/mennie-canada/mah-8-gp/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah8-5l",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "8' Mahogany Grain (MAH8-5L)",
+      "baselinePublicRoute": "/products/mennie-canada/mah8-5l/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah8-st-42",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "8' Mahogany Grain (MAH8-ST-42)",
+      "baselinePublicRoute": "/products/mennie-canada/mah8-st-42/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah8-3q",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "8' Mahogany Grain 2 Panel 3 Quarter Lite (MAH8-3Q)",
+      "baselinePublicRoute": "/products/mennie-canada/mah8-3q/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah8-f",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "8' Mahogany Grain Flush Planked (MAH8-F)",
+      "baselinePublicRoute": "/products/mennie-canada/mah8-f/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah8-nrp",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "8' Mahogany Grain Non Planked Rustic Panel (MAH8-NRP)",
+      "baselinePublicRoute": "/products/mennie-canada/mah8-nrp/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah8-nrpct",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "8' Mahogany Grain Non Planked Rustic Panel Camber Top (MAH8-NRPCT)",
+      "baselinePublicRoute": "/products/mennie-canada/mah8-nrpct/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah8-rp",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "8' Mahogany Grain Rustic Panel (MAH8-RP)",
+      "baselinePublicRoute": "/products/mennie-canada/mah8-rp/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:mah8-rpct",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "8' Mahogany Grain Rustic Panel Camber Top (MAH8-RPCT)",
+      "baselinePublicRoute": "/products/mennie-canada/mah8-rpct/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:wg8-3q",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "8' Oak Grain 2 Panel 3 Quarter Light (WG8-3Q)",
+      "baselinePublicRoute": "/products/mennie-canada/wg8-3q/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:wg8-2h",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "8' Oak Grain 2 Panel Half Light (WG8-2H)",
+      "baselinePublicRoute": "/products/mennie-canada/wg8-2h/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:wg8-6p",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "8' Oak Grain 6 Panel (WH8-6P)",
+      "baselinePublicRoute": "/products/mennie-canada/wg8-6p/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:wg8-f",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "8' Oak Grain Flush Panel (WG8-F)",
+      "baselinePublicRoute": "/products/mennie-canada/wg8-f/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:wg8-mxp",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "8' Oak Grain Mexico (WG8-MXP)",
+      "baselinePublicRoute": "/products/mennie-canada/wg8-mxp/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:sm8-gp",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "8' Smooth (SM8-GP)",
+      "baselinePublicRoute": "/products/mennie-canada/sm8-gp/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:sm-8-s1k",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "8' Smooth 1 Panel Shaker (SM-8-S1K)",
+      "baselinePublicRoute": "/products/mennie-canada/sm-8-s1k/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:sm8-2h",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "8' Smooth 2 Panel (SM8-2H)",
+      "baselinePublicRoute": "/products/mennie-canada/sm8-2h/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:sm-8-s2k",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "8' Smooth 2 Panel Shaker (SM-8-S2K)",
+      "baselinePublicRoute": "/products/mennie-canada/sm-8-s2k/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:sm8-6p",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "8' Smooth 6 Panel (SM8-6P)",
+      "baselinePublicRoute": "/products/mennie-canada/sm8-6p/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:sm-8-crf",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "8' Smooth Craftsman 3 Panel (SM-8-CRF)",
+      "baselinePublicRoute": "/products/mennie-canada/sm-8-crf/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:sm8-f",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "8' Smooth Flush Panel (SM8-F)",
+      "baselinePublicRoute": "/products/mennie-canada/sm8-f/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:sm8-5l",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "8' Smooth Panel (SM8-5L)",
+      "baselinePublicRoute": "/products/mennie-canada/sm8-5l/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "mennie-canada:wg-1p",
+      "internalManufacturer": "mennie-canada",
+      "internalTitle": "WG-1P",
+      "baselinePublicRoute": "/products/mennie-canada/wg-1p/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "novatech:2900",
+      "internalManufacturer": "novatech",
+      "internalTitle": "2900 (ALUMINIUM)",
+      "baselinePublicRoute": "/products/novatech/2900/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "novatech:540",
+      "internalManufacturer": "novatech",
+      "internalTitle": "540",
+      "baselinePublicRoute": "/products/novatech/540/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "novatech:550",
+      "internalManufacturer": "novatech",
+      "internalTitle": "550 (Wood/PVC)",
+      "baselinePublicRoute": "/products/novatech/550/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "novatech:650",
+      "internalManufacturer": "novatech",
+      "internalTitle": "650",
+      "baselinePublicRoute": "/products/novatech/650/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "novatech:buckingham",
+      "internalManufacturer": "novatech",
+      "internalTitle": "Features",
+      "baselinePublicRoute": "/products/novatech/buckingham/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "novatech:victorian",
+      "internalManufacturer": "novatech",
+      "internalTitle": "Features",
+      "baselinePublicRoute": "/products/novatech/victorian/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "novatech:infinite-black",
+      "internalManufacturer": "novatech",
+      "internalTitle": "Infinite Black",
+      "baselinePublicRoute": "/products/novatech/infinite-black/",
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Black Linear Privacy Door Glass",
+      "publicReference": "WRP-G001",
+      "publicRoute": "/products/door-glass/black-linear-privacy-door-glass/"
+    },
+    {
+      "internalCanonicalId": "novatech:loft",
+      "internalManufacturer": "novatech",
+      "internalTitle": "Loft (Aluminum)",
+      "baselinePublicRoute": "/products/novatech/loft/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "novatech:630",
+      "internalManufacturer": "novatech",
+      "internalTitle": "Porte patio 630 (PVC)",
+      "baselinePublicRoute": "/products/novatech/630/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "novatech:rubik",
+      "internalManufacturer": "novatech",
+      "internalTitle": "Rubik",
+      "baselinePublicRoute": "/products/novatech/rubik/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "novatech:studio",
+      "internalManufacturer": "novatech",
+      "internalTitle": "Studio (ALUMINUM)",
+      "baselinePublicRoute": "/products/novatech/studio/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "novatech:urbania",
+      "internalManufacturer": "novatech",
+      "internalTitle": "Urbania (Aluminum)",
+      "baselinePublicRoute": "/products/novatech/urbania/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "novatech:element",
+      "internalManufacturer": "novatech",
+      "internalTitle": "Élément (Bois/PVC/Aluminium)",
+      "baselinePublicRoute": "/products/novatech/element/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "novatech:equation",
+      "internalManufacturer": "novatech",
+      "internalTitle": "Équation",
+      "baselinePublicRoute": "/products/novatech/equation/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "oceanview:essential",
+      "internalManufacturer": "oceanview",
+      "internalTitle": "Essential",
+      "baselinePublicRoute": "/products/oceanview/essential/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "oceanview:premium",
+      "internalManufacturer": "oceanview",
+      "internalTitle": "Premium",
+      "baselinePublicRoute": "/products/oceanview/premium/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "oceanview:premium-plus",
+      "internalManufacturer": "oceanview",
+      "internalTitle": "Premium Plus",
+      "baselinePublicRoute": "/products/oceanview/premium-plus/",
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Multi-Panel Sliding Patio Door",
+      "publicReference": "WRP-P001",
+      "publicRoute": "/products/patio-doors/multi-panel-sliding-patio-door/"
+    },
+    {
+      "internalCanonicalId": "richersons:bk27",
+      "internalManufacturer": "richersons",
+      "internalTitle": "BK27 Brush Black (79”) / BK28 (95”)",
+      "baselinePublicRoute": "/products/richersons/bk27/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "richersons:bk28",
+      "internalManufacturer": "richersons",
+      "internalTitle": "BK28 Brush Black BK27 (79”) / (95”)",
+      "baselinePublicRoute": "/products/richersons/bk28/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "richersons:sg00",
+      "internalManufacturer": "richersons",
+      "internalTitle": "SG00 Flush",
+      "baselinePublicRoute": "/products/richersons/sg00/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "richersons:sg20",
+      "internalManufacturer": "richersons",
+      "internalTitle": "SG20 2 Panel - 1/2 Lite",
+      "baselinePublicRoute": "/products/richersons/sg20/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "richersons:sg23",
+      "internalManufacturer": "richersons",
+      "internalTitle": "SG23 Smooth White",
+      "baselinePublicRoute": "/products/richersons/sg23/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "richersons:sg25",
+      "internalManufacturer": "richersons",
+      "internalTitle": "SG25 2 Panel - 3/4 Lite",
+      "baselinePublicRoute": "/products/richersons/sg25/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "richersons:sg27",
+      "internalManufacturer": "richersons",
+      "internalTitle": "SG27 Smooth White",
+      "baselinePublicRoute": "/products/richersons/sg27/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "richersons:sg3b",
+      "internalManufacturer": "richersons",
+      "internalTitle": "SG3B 3 Panel Curve Top (British Columbia only)",
+      "baselinePublicRoute": "/products/richersons/sg3b/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "richersons:sg3l",
+      "internalManufacturer": "richersons",
+      "internalTitle": "SG3L Smooth White (British Columbia only)",
+      "baselinePublicRoute": "/products/richersons/sg3l/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "richersons:sg46",
+      "internalManufacturer": "richersons",
+      "internalTitle": "SG46 4 Panel - Flush Top",
+      "baselinePublicRoute": "/products/richersons/sg46/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "richersons:sg48",
+      "internalManufacturer": "richersons",
+      "internalTitle": "SG48 New England (British Columbia only)",
+      "baselinePublicRoute": "/products/richersons/sg48/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "richersons:sg49",
+      "internalManufacturer": "richersons",
+      "internalTitle": "SG49 4 Panel - 3/4 Lite",
+      "baselinePublicRoute": "/products/richersons/sg49/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "richersons:sg4l",
+      "internalManufacturer": "richersons",
+      "internalTitle": "SG4L Smooth White",
+      "baselinePublicRoute": "/products/richersons/sg4l/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "richersons:sg66",
+      "internalManufacturer": "richersons",
+      "internalTitle": "SG66 6 Panel - 1/4 Lite",
+      "baselinePublicRoute": "/products/richersons/sg66/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "richersons:sg68",
+      "internalManufacturer": "richersons",
+      "internalTitle": "SG68 6 Panel",
+      "baselinePublicRoute": "/products/richersons/sg68/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "richersons:sgnl",
+      "internalManufacturer": "richersons",
+      "internalTitle": "SGNL Smooth White",
+      "baselinePublicRoute": "/products/richersons/sgnl/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "richersons:wg00",
+      "internalManufacturer": "richersons",
+      "internalTitle": "WG00 Flush",
+      "baselinePublicRoute": "/products/richersons/wg00/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "richersons:wg20",
+      "internalManufacturer": "richersons",
+      "internalTitle": "WG20 2 Panel (British Columbia only)",
+      "baselinePublicRoute": "/products/richersons/wg20/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "richersons:wg23",
+      "internalManufacturer": "richersons",
+      "internalTitle": "WG23 Oak Woodgrain Textured",
+      "baselinePublicRoute": "/products/richersons/wg23/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "richersons:wg25",
+      "internalManufacturer": "richersons",
+      "internalTitle": "WG25 2 Panel - 3/4 Lite",
+      "baselinePublicRoute": "/products/richersons/wg25/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "richersons:wg27",
+      "internalManufacturer": "richersons",
+      "internalTitle": "WG27 Oak Woodgrain Textured",
+      "baselinePublicRoute": "/products/richersons/wg27/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "richersons:wg34",
+      "internalManufacturer": "richersons",
+      "internalTitle": "WG34 3/4 Oval",
+      "baselinePublicRoute": "/products/richersons/wg34/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "richersons:wg3b",
+      "internalManufacturer": "richersons",
+      "internalTitle": "WG3B 3 Panel Curve Top (British Columbia only)",
+      "baselinePublicRoute": "/products/richersons/wg3b/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "richersons:wg46",
+      "internalManufacturer": "richersons",
+      "internalTitle": "WG46 4 Panel - Flush Top",
+      "baselinePublicRoute": "/products/richersons/wg46/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "richersons:wg48",
+      "internalManufacturer": "richersons",
+      "internalTitle": "WG48 New England (British Columbia only)",
+      "baselinePublicRoute": "/products/richersons/wg48/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "richersons:wg49",
+      "internalManufacturer": "richersons",
+      "internalTitle": "WG49 4 Panel - 3/4 Lite",
+      "baselinePublicRoute": "/products/richersons/wg49/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "richersons:wg66",
+      "internalManufacturer": "richersons",
+      "internalTitle": "WG66 6 Panel - 1/4 Lite",
+      "baselinePublicRoute": "/products/richersons/wg66/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "richersons:wg68",
+      "internalManufacturer": "richersons",
+      "internalTitle": "WG68 6 Panel",
+      "baselinePublicRoute": "/products/richersons/wg68/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "richersons:wg91",
+      "internalManufacturer": "richersons",
+      "internalTitle": "WG91 9 Panel",
+      "baselinePublicRoute": "/products/richersons/wg91/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "richersons:wgf0",
+      "internalManufacturer": "richersons",
+      "internalTitle": "WGF0 Full Planks",
+      "baselinePublicRoute": "/products/richersons/wgf0/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "richersons:wgnl",
+      "internalManufacturer": "richersons",
+      "internalTitle": "WGNL Oak Textured Woodgrain",
+      "baselinePublicRoute": "/products/richersons/wgnl/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "trimlite:df22",
+      "internalManufacturer": "trimlite",
+      "internalTitle": "DF22 1-Lite Douglas Fir Full Lite Exterior Wood Door",
+      "baselinePublicRoute": "/products/trimlite/df22/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "trimlite:drb10",
+      "internalManufacturer": "trimlite",
+      "internalTitle": "DRB10 Pre-Pigmented Black Smooth Fiberglass Exterior Door",
+      "baselinePublicRoute": "/products/trimlite/drb10/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "trimlite:drf1k",
+      "internalManufacturer": "trimlite",
+      "internalTitle": "DRF1K Fir Grain Exterior Fiberglass Door",
+      "baselinePublicRoute": "/products/trimlite/drf1k/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "trimlite:drf2k",
+      "internalManufacturer": "trimlite",
+      "internalTitle": "DRF2K Fir Grain Exterior Fiberglass Door",
+      "baselinePublicRoute": "/products/trimlite/drf2k/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "trimlite:drs1el",
+      "internalManufacturer": "trimlite",
+      "internalTitle": "DRS1EL Brushed Smooth Skin Exterior Fiberglass Door",
+      "baselinePublicRoute": "/products/trimlite/drs1el/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "trimlite:drs1k",
+      "internalManufacturer": "trimlite",
+      "internalTitle": "DRS1K Smooth Skin Exterior Fiberglass Door",
+      "baselinePublicRoute": "/products/trimlite/drs1k/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "trimlite:drs2k",
+      "internalManufacturer": "trimlite",
+      "internalTitle": "DRS2K Smooth Skin Exterior Fiberglass Door",
+      "baselinePublicRoute": "/products/trimlite/drs2k/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "verre-select:amadeus",
+      "internalManufacturer": "verre-select",
+      "internalTitle": "Amadeus",
+      "baselinePublicRoute": "/products/verre-select/amadeus/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "verre-select:cbg",
+      "internalManufacturer": "verre-select",
+      "internalTitle": "CBG",
+      "baselinePublicRoute": "/products/verre-select/cbg/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "verre-select:cadence",
+      "internalManufacturer": "verre-select",
+      "internalTitle": "Cadence",
+      "baselinePublicRoute": "/products/verre-select/cadence/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "verre-select:crosswalk",
+      "internalManufacturer": "verre-select",
+      "internalTitle": "Crosswalk",
+      "baselinePublicRoute": "/products/verre-select/crosswalk/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "verre-select:cyndi",
+      "internalManufacturer": "verre-select",
+      "internalTitle": "Cyndi",
+      "baselinePublicRoute": "/products/verre-select/cyndi/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "verre-select:dorian",
+      "internalManufacturer": "verre-select",
+      "internalTitle": "Dorian",
+      "baselinePublicRoute": "/products/verre-select/dorian/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "verre-select:endrick",
+      "internalManufacturer": "verre-select",
+      "internalTitle": "Endrick",
+      "baselinePublicRoute": "/products/verre-select/endrick/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "verre-select:epic",
+      "internalManufacturer": "verre-select",
+      "internalTitle": "Epic",
+      "baselinePublicRoute": "/products/verre-select/epic/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "verre-select:fragrance",
+      "internalManufacturer": "verre-select",
+      "internalTitle": "Fragrance",
+      "baselinePublicRoute": "/products/verre-select/fragrance/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "verre-select:gabriella",
+      "internalManufacturer": "verre-select",
+      "internalTitle": "Gabriella",
+      "baselinePublicRoute": "/products/verre-select/gabriella/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "verre-select:java",
+      "internalManufacturer": "verre-select",
+      "internalTitle": "Java",
+      "baselinePublicRoute": "/products/verre-select/java/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "verre-select:naomie",
+      "internalManufacturer": "verre-select",
+      "internalTitle": "Naomie",
+      "baselinePublicRoute": "/products/verre-select/naomie/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "verre-select:paris",
+      "internalManufacturer": "verre-select",
+      "internalTitle": "Paris",
+      "baselinePublicRoute": "/products/verre-select/paris/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "verre-select:pixel",
+      "internalManufacturer": "verre-select",
+      "internalTitle": "Pixel",
+      "baselinePublicRoute": "/products/verre-select/pixel/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "verre-select:quattro",
+      "internalManufacturer": "verre-select",
+      "internalTitle": "Quattro",
+      "baselinePublicRoute": "/products/verre-select/quattro/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "verre-select:renoir",
+      "internalManufacturer": "verre-select",
+      "internalTitle": "Renoir",
+      "baselinePublicRoute": "/products/verre-select/renoir/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "verre-select:rill",
+      "internalManufacturer": "verre-select",
+      "internalTitle": "Rill",
+      "baselinePublicRoute": "/products/verre-select/rill/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "verre-select:rodin",
+      "internalManufacturer": "verre-select",
+      "internalTitle": "Rodin",
+      "baselinePublicRoute": "/products/verre-select/rodin/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "verre-select:venus",
+      "internalManufacturer": "verre-select",
+      "internalTitle": "Venus",
+      "baselinePublicRoute": "/products/verre-select/venus/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "verre-select:waterside",
+      "internalManufacturer": "verre-select",
+      "internalTitle": "Waterside",
+      "baselinePublicRoute": "/products/verre-select/waterside/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "verre-select:whistler",
+      "internalManufacturer": "verre-select",
+      "internalTitle": "Whistler",
+      "baselinePublicRoute": "/products/verre-select/whistler/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "verre-select:wide-reed",
+      "internalManufacturer": "verre-select",
+      "internalTitle": "Wide Reed",
+      "baselinePublicRoute": "/products/verre-select/wide-reed/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "vinyl-pro:awning",
+      "internalManufacturer": "vinyl-pro",
+      "internalTitle": "3 1/4 Awning",
+      "baselinePublicRoute": "/products/vinyl-pro/awning/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "vinyl-pro:casement",
+      "internalManufacturer": "vinyl-pro",
+      "internalTitle": "3 1/4 Casement",
+      "baselinePublicRoute": "/products/vinyl-pro/casement/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "vinyl-pro:double-hung",
+      "internalManufacturer": "vinyl-pro",
+      "internalTitle": "3 1/4 Double Hung",
+      "baselinePublicRoute": "/products/vinyl-pro/double-hung/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "vinyl-pro:double-slider",
+      "internalManufacturer": "vinyl-pro",
+      "internalTitle": "3 1/4 Double Slider",
+      "baselinePublicRoute": "/products/vinyl-pro/double-slider/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "vinyl-pro:end-vent-slider",
+      "internalManufacturer": "vinyl-pro",
+      "internalTitle": "3 1/4 End Vent Slider",
+      "baselinePublicRoute": "/products/vinyl-pro/end-vent-slider/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "vinyl-pro:fixed-casement",
+      "internalManufacturer": "vinyl-pro",
+      "internalTitle": "3 1/4 Fixed Casement",
+      "baselinePublicRoute": "/products/vinyl-pro/fixed-casement/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "vinyl-pro:picture-window",
+      "internalManufacturer": "vinyl-pro",
+      "internalTitle": "3 1/4 Picture Window",
+      "baselinePublicRoute": "/products/vinyl-pro/picture-window/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "vinyl-pro:single-hung",
+      "internalManufacturer": "vinyl-pro",
+      "internalTitle": "3 1/4 Single Hung",
+      "baselinePublicRoute": "/products/vinyl-pro/single-hung/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "vinyl-pro:single-slider",
+      "internalManufacturer": "vinyl-pro",
+      "internalTitle": "3 1/4 Single Slider",
+      "baselinePublicRoute": "/products/vinyl-pro/single-slider/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "vinyl-pro:4-9-16-casement",
+      "internalManufacturer": "vinyl-pro",
+      "internalTitle": "4 9/16 Casement",
+      "baselinePublicRoute": "/products/vinyl-pro/4-9-16-casement/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "window-city:hc-101",
+      "internalManufacturer": "window-city",
+      "internalTitle": "HC-101 Casement",
+      "baselinePublicRoute": "/products/window-city/hc-101/",
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Slim-Frame Casement Window",
+      "publicReference": "WRP-W001",
+      "publicRoute": "/products/windows/slim-frame-casement-window/"
+    },
+    {
+      "internalCanonicalId": "window-city:hc-126",
+      "internalManufacturer": "window-city",
+      "internalTitle": "HC-126 Awning",
+      "baselinePublicRoute": "/products/window-city/hc-126/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "window-city:hc-151",
+      "internalManufacturer": "window-city",
+      "internalTitle": "HC-151 Slim Fixed",
+      "baselinePublicRoute": "/products/window-city/hc-151/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "window-city:hc-176",
+      "internalManufacturer": "window-city",
+      "internalTitle": "HC-176 Casement Fixed",
+      "baselinePublicRoute": "/products/window-city/hc-176/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "window-city:hc-401",
+      "internalManufacturer": "window-city",
+      "internalTitle": "HC-401 Casement",
+      "baselinePublicRoute": "/products/window-city/hc-401/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "window-city:hc-426",
+      "internalManufacturer": "window-city",
+      "internalTitle": "HC-426 Awning",
+      "baselinePublicRoute": "/products/window-city/hc-426/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "window-city:hc-451",
+      "internalManufacturer": "window-city",
+      "internalTitle": "HC-451 Slim Fixed",
+      "baselinePublicRoute": "/products/window-city/hc-451/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "window-city:hc-476",
+      "internalManufacturer": "window-city",
+      "internalTitle": "HC-476 Casement Fixed",
+      "baselinePublicRoute": "/products/window-city/hc-476/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "window-city:wc-100",
+      "internalManufacturer": "window-city",
+      "internalTitle": "WC-100 Casement",
+      "baselinePublicRoute": "/products/window-city/wc-100/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "window-city:wc-125",
+      "internalManufacturer": "window-city",
+      "internalTitle": "WC-125 Awning",
+      "baselinePublicRoute": "/products/window-city/wc-125/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "window-city:wc-150",
+      "internalManufacturer": "window-city",
+      "internalTitle": "WC-150 Slim Fixed",
+      "baselinePublicRoute": "/products/window-city/wc-150/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "window-city:wc-175",
+      "internalManufacturer": "window-city",
+      "internalTitle": "WC-175 Casement Fixed",
+      "baselinePublicRoute": "/products/window-city/wc-175/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "window-city:wc-200",
+      "internalManufacturer": "window-city",
+      "internalTitle": "WC-200 Single Slider",
+      "baselinePublicRoute": "/products/window-city/wc-200/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "window-city:wc-201",
+      "internalManufacturer": "window-city",
+      "internalTitle": "WC-201 Hung",
+      "baselinePublicRoute": "/products/window-city/wc-201/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "window-city:wc-250",
+      "internalManufacturer": "window-city",
+      "internalTitle": "WC-250 Double Slider",
+      "baselinePublicRoute": "/products/window-city/wc-250/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "window-city:wc-251",
+      "internalManufacturer": "window-city",
+      "internalTitle": "WC-251 Hung",
+      "baselinePublicRoute": "/products/window-city/wc-251/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "window-city:wc-300",
+      "internalManufacturer": "window-city",
+      "internalTitle": "WC-300 Single Slider",
+      "baselinePublicRoute": "/products/window-city/wc-300/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "window-city:wc-325",
+      "internalManufacturer": "window-city",
+      "internalTitle": "WC-325 Single Slider",
+      "baselinePublicRoute": "/products/window-city/wc-325/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "window-city:wc-350",
+      "internalManufacturer": "window-city",
+      "internalTitle": "WC-350 Double Slider",
+      "baselinePublicRoute": "/products/window-city/wc-350/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "window-city:wc-400",
+      "internalManufacturer": "window-city",
+      "internalTitle": "WC-400 Casement",
+      "baselinePublicRoute": "/products/window-city/wc-400/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "window-city:wc-425",
+      "internalManufacturer": "window-city",
+      "internalTitle": "WC-425 Awning",
+      "baselinePublicRoute": "/products/window-city/wc-425/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "window-city:wc-450",
+      "internalManufacturer": "window-city",
+      "internalTitle": "WC-450 Slim Fixed",
+      "baselinePublicRoute": "/products/window-city/wc-450/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "window-city:wc-475",
+      "internalManufacturer": "window-city",
+      "internalTitle": "WC-475 Casement Fixed",
+      "baselinePublicRoute": "/products/window-city/wc-475/",
+      "classification": "category-only until reviewed",
+      "requirements": [
+        "requires public rename",
+        "requires public slug change",
+        "requires media sanitization",
+        "requires document removal",
+        "category-only until reviewed"
+      ],
+      "publicDisplayName": null,
+      "publicReference": null,
+      "publicRoute": null
+    }
+  ]
+}

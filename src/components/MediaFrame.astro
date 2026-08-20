@@ -1,8 +1,8 @@
 ---
-import type { HomepageMedia } from '../data/homepage';
+import type { PublicMedia } from '../data/public-catalog';
 
 interface Props {
-  media: HomepageMedia;
+  media: PublicMedia;
   alt: string;
   class?: string;
   sizes?: string;
@@ -23,15 +23,10 @@ const {
   caption
 } = Astro.props;
 ---
-<figure
-  class:list={['media-frame', `media-frame--${fit}`, className]}
-  data-media-product={media.provenance.productId}
-  data-media-role={media.provenance.role}
-  data-media-relationship={media.provenance.relationshipState}
->
+<figure class:list={['media-frame', 'media-frame--' + fit, className]} style={fit === 'contain' ? `background-image:url("${media.src}")` : undefined}>
   <img
     src={media.src}
-    srcset={media.srcset}
+    srcset={fit === 'cover' ? media.srcset : undefined}
     sizes={sizes}
     width={media.width}
     height={media.height}

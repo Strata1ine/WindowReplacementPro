@@ -1,4 +1,0 @@
----
-import BaseLayout from '../../layouts/BaseLayout.astro'; import { manufacturers } from '../../data/manufacturers';
----
-<BaseLayout title="Window & Door Manufacturers | Window Replacement Pro" description="Explore window, entry-door, decorative-glass and patio-door manufacturers available through Window Replacement Pro."><section class="page-hero"><div class="wrap"><div class="eyebrow">Manufacturers</div><h1>Product brands</h1><p class="lead">Manufacturer information supports the product catalogue without forcing homeowners to shop by brand first.</p></div></section><section class="section alt"><div class="wrap grid">{manufacturers.map(m=><a class="card" href={`/brands/${m.slug}/`}><span class="tag">{m.categories.join(' · ')}</span><h3>{m.name}</h3><p>{m.summary}</p></a>)}</div></section></BaseLayout>

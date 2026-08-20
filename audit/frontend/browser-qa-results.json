@@ -1,6 +1,6 @@
 {
   "baseUrl": "http://127.0.0.1:4321/",
-  "generatedAt": "2026-08-20T13:29:15.092Z",
+  "generatedAt": "2026-08-20T15:20:58.314Z",
   "viewportResults": [
     {
       "viewport": {
@@ -13,7 +13,7 @@
       "dimensions": {
         "viewportWidth": 375,
         "documentWidth": 375,
-        "documentHeight": 16145,
+        "documentHeight": 16867,
         "horizontalOverflow": false
       },
       "brokenImages": [],
@@ -30,7 +30,7 @@
       "dimensions": {
         "viewportWidth": 768,
         "documentWidth": 768,
-        "documentHeight": 12296,
+        "documentHeight": 12242,
         "horizontalOverflow": false
       },
       "brokenImages": [],
@@ -47,7 +47,7 @@
       "dimensions": {
         "viewportWidth": 1280,
         "documentWidth": 1280,
-        "documentHeight": 8548,
+        "documentHeight": 8536,
         "horizontalOverflow": false
       },
       "brokenImages": [],
@@ -64,7 +64,7 @@
       "dimensions": {
         "viewportWidth": 1600,
         "documentWidth": 1600,
-        "documentHeight": 8886,
+        "documentHeight": 8915,
         "horizontalOverflow": false
       },
       "brokenImages": [],
@@ -91,15 +91,128 @@
   "pageAudit": {
     "title": "Window Replacement Pro | Windows & Doors in Ontario",
     "h1Count": 1,
-    "publishedCountVisible": true,
+    "neutralReferencesVisible": true,
     "forbiddenTermsVisible": [],
+    "publicPathLeaks": [],
+    "publicMediaPathLeaks": [],
     "brokenLinks": [],
-    "internalLinkCount": 26,
+    "internalLinkCount": 15,
     "imageCount": 11,
     "productCardCount": 4,
     "categoryCardCount": 4
   },
+  "representativePageAudits": [
+    {
+      "kind": "window",
+      "path": "/products/windows/slim-frame-casement-window/",
+      "url": "http://127.0.0.1:4321/products/windows/slim-frame-casement-window/",
+      "title": "Slim-Frame Casement Window | Window Replacement Pro",
+      "h1": "Slim-Frame Casement Window",
+      "h1Count": 1,
+      "reference": "Replacement window / WRP-W001",
+      "disclaimerCount": 1,
+      "forbiddenTermsVisible": [],
+      "pathLeaks": [],
+      "imageCount": 1,
+      "brokenImages": [],
+      "mediaPaths": [
+        "/media/products/wrp-w001-1200.webp"
+      ],
+      "imageMetrics": {
+        "width": 527.265625,
+        "height": 500,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "0",
+        "objectFit": "contain",
+        "position": "static",
+        "decodedDarkPixelRatio": 0.8865
+      }
+    },
+    {
+      "kind": "entry-door",
+      "path": "/products/entry-doors/two-panel-fiberglass-entry-door/",
+      "url": "http://127.0.0.1:4321/products/entry-doors/two-panel-fiberglass-entry-door/",
+      "title": "Two-Panel Fiberglass Entry Door | Window Replacement Pro",
+      "h1": "Two-Panel Fiberglass Entry Door",
+      "h1Count": 1,
+      "reference": "Entry door / WRP-D001",
+      "disclaimerCount": 1,
+      "forbiddenTermsVisible": [],
+      "pathLeaks": [],
+      "imageCount": 1,
+      "brokenImages": [],
+      "mediaPaths": [
+        "/media/products/wrp-d001-720.jpg"
+      ],
+      "imageMetrics": {
+        "width": 527.265625,
+        "height": 500,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "0",
+        "objectFit": "contain",
+        "position": "static",
+        "decodedDarkPixelRatio": 0.1209837962962963
+      }
+    },
+    {
+      "kind": "door-glass",
+      "path": "/products/door-glass/black-linear-privacy-door-glass/",
+      "url": "http://127.0.0.1:4321/products/door-glass/black-linear-privacy-door-glass/",
+      "title": "Black Linear Privacy Door Glass | Window Replacement Pro",
+      "h1": "Black Linear Privacy Door Glass",
+      "h1Count": 1,
+      "reference": "Door glass / WRP-G001",
+      "disclaimerCount": 1,
+      "forbiddenTermsVisible": [],
+      "pathLeaks": [],
+      "imageCount": 1,
+      "brokenImages": [],
+      "mediaPaths": [
+        "/media/products/wrp-g001-720.webp"
+      ],
+      "imageMetrics": {
+        "width": 527.265625,
+        "height": 500,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "0",
+        "objectFit": "contain",
+        "position": "static",
+        "decodedDarkPixelRatio": 0.45555238819206895
+      }
+    },
+    {
+      "kind": "patio-door",
+      "path": "/products/patio-doors/multi-panel-sliding-patio-door/",
+      "url": "http://127.0.0.1:4321/products/patio-doors/multi-panel-sliding-patio-door/",
+      "title": "Multi-Panel Sliding Patio Door | Window Replacement Pro",
+      "h1": "Multi-Panel Sliding Patio Door",
+      "h1Count": 1,
+      "reference": "Patio door / WRP-P001",
+      "disclaimerCount": 1,
+      "forbiddenTermsVisible": [],
+      "pathLeaks": [],
+      "imageCount": 1,
+      "brokenImages": [],
+      "mediaPaths": [
+        "/media/products/wrp-p001-810.webp"
+      ],
+      "imageMetrics": {
+        "width": 527.265625,
+        "height": 500,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "0",
+        "objectFit": "contain",
+        "position": "static",
+        "decodedDarkPixelRatio": 0.8467957351290685
+      }
+    }
+  ],
   "runtimeErrors": [],
   "networkFailures": [],
+  "failures": [],
   "screenshotDirectory": "audit/frontend/screenshots"
 }

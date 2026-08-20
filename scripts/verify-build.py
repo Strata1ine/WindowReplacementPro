@@ -80,9 +80,17 @@ def main() -> int:
     for path in sitemap_paths:
         if not file_for_route(path).is_file(): errors.append(f'sitemap URL has no generated file: {path}')
     product_routes = [route for route in parsed_pages if route.startswith('/products/')]
+    brand_routes = [route for route in parsed_pages if route.startswith('/brands')]
+    allowed_product_categories = {'windows', 'entry-doors', 'door-glass', 'patio-doors'}
+    if brand_routes: errors.append(f'public brand routes remain: {len(brand_routes)}')
+    if len(product_routes) != 4: errors.append(f'expected 4 identity-approved product routes, found {len(product_routes)}')
+    for route in product_routes:
+        parts = route.strip('/').split('/')
+        if len(parts) != 3 or parts[1] not in allowed_product_categories:
+            errors.append(f'invalid supplier-neutral product route: {route}')
     print(f'Generated HTML routes: {len(html_files)}')
     print(f'Sitemap URLs: {len(sitemap_paths)}')
-    print(f'Publishable catalogue routes: {len(product_routes)}')
+    print(f'Public identity-approved product routes: {len(product_routes)}')
     if errors:
         print(f'Build validation: FAILED ({len(errors)} error(s))', file=sys.stderr)
         for error in errors: print(f'ERROR: {error}', file=sys.stderr)

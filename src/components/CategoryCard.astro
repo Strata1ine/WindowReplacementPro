@@ -1,18 +1,17 @@
 ---
 import MediaFrame from './MediaFrame.astro';
-import type { HomepageMedia } from '../data/homepage';
+import type { PublicMedia } from '../data/public-catalog';
 
 interface Props {
   title: string;
   description: string;
   href: string;
-  count: number;
-  countLabel: string;
-  media: HomepageMedia;
+  detail: string;
+  media: PublicMedia;
   imageAlt: string;
 }
 
-const { title, description, href, count, countLabel, media, imageAlt } = Astro.props;
+const { title, description, href, detail, media, imageAlt } = Astro.props;
 ---
 <a class="category-card" href={href}>
   <MediaFrame
@@ -22,7 +21,7 @@ const { title, description, href, count, countLabel, media, imageAlt } = Astro.p
     sizes="(max-width: 760px) 100vw, (max-width: 1100px) 50vw, 36vw"
   />
   <div class="category-card__content">
-    <p class="category-card__count">{count} {countLabel}</p>
+    <p class="category-card__count">{detail}</p>
     <h3>{title}</h3>
     <p>{description}</p>
     <span class="text-link">Explore {title.toLowerCase()} <span aria-hidden="true">&rarr;</span></span>

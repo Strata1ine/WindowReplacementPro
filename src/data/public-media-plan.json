@@ -1,0 +1,35 @@
+[
+  {
+    "key": "wrp-w001",
+    "productId": "window-city:hc-101",
+    "selection": "heroMedia",
+    "intrinsicWidth": 2560,
+    "intrinsicHeight": 1707,
+    "widths": [480, 768, 1200]
+  },
+  {
+    "key": "wrp-d001",
+    "productId": "masonite:2-panel-hollister",
+    "selection": "heroMedia",
+    "intrinsicWidth": 2048,
+    "intrinsicHeight": 2048,
+    "format": "jpg",
+    "widths": [360, 540, 720]
+  },
+  {
+    "key": "wrp-g001",
+    "productId": "novatech:infinite-black",
+    "selection": "heroMedia",
+    "intrinsicWidth": 1552,
+    "intrinsicHeight": 1890,
+    "widths": [360, 540, 720]
+  },
+  {
+    "key": "wrp-p001",
+    "productId": "oceanview:premium-plus",
+    "selection": "heroMedia",
+    "intrinsicWidth": 810,
+    "intrinsicHeight": 660,
+    "widths": [480, 720, 810]
+  }
+]

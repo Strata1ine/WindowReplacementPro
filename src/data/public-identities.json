@@ -1,0 +1,72 @@
+[
+  {
+    "internalCanonicalId": "window-city:hc-101",
+    "publicDisplayName": "Slim-Frame Casement Window",
+    "publicSlug": "slim-frame-casement-window",
+    "publicReference": "WRP-W001",
+    "publicCategory": "windows",
+    "publicCategoryLabel": "Replacement window",
+    "publicSummary": "A vinyl casement configuration with compression-seal operation, insulated glass choices and a compact residential frame.",
+    "publicImageAlt": "White slim-frame casement replacement window",
+    "publicMediaKey": "wrp-w001",
+    "publicSpecifications": [
+      { "label": "Operation", "value": "Casement" },
+      { "label": "Frame material", "value": "Vinyl / uPVC" },
+      { "label": "Frame depth", "value": "3 1/4 in" },
+      { "label": "Glazing", "value": "Double- or triple-pane insulated glass options" }
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "masonite:2-panel-hollister",
+    "publicDisplayName": "Two-Panel Fiberglass Entry Door",
+    "publicSlug": "two-panel-fiberglass-entry-door",
+    "publicReference": "WRP-D001",
+    "publicCategory": "entry-doors",
+    "publicCategoryLabel": "Entry door",
+    "publicSummary": "A clean two-panel fiberglass entry-door configuration suited to traditional and transitional exterior designs.",
+    "publicImageAlt": "White two-panel fiberglass entry door",
+    "publicMediaKey": "wrp-d001",
+    "publicSpecifications": [
+      { "label": "Product type", "value": "Exterior entry door" },
+      { "label": "Material", "value": "Fiberglass" },
+      { "label": "Panel design", "value": "Two-panel" }
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "novatech:infinite-black",
+    "publicDisplayName": "Black Linear Privacy Door Glass",
+    "publicSlug": "black-linear-privacy-door-glass",
+    "publicReference": "WRP-G001",
+    "publicCategory": "door-glass",
+    "publicCategoryLabel": "Door glass",
+    "publicSummary": "A contemporary black-accent door-glass design with a linear composition, insulated glazing and partial privacy.",
+    "publicImageAlt": "Black linear privacy glass insert for an entry door",
+    "publicMediaKey": "wrp-g001",
+    "publicSpecifications": [
+      { "label": "Product type", "value": "Door glass" },
+      { "label": "Glazing", "value": "Triple glazing with a black-tinted V-groove centre pane" },
+      { "label": "Privacy", "value": "2 / 5" }
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "oceanview:premium-plus",
+    "publicDisplayName": "Multi-Panel Sliding Patio Door",
+    "publicSlug": "multi-panel-sliding-patio-door",
+    "publicReference": "WRP-P001",
+    "publicCategory": "patio-doors",
+    "publicCategoryLabel": "Patio door",
+    "publicSummary": "A horizontal sliding patio-door configuration available with multiple panel layouts and insulated glazing choices.",
+    "publicImageAlt": "White multi-panel sliding patio door",
+    "publicMediaKey": "wrp-p001",
+    "publicSpecifications": [
+      { "label": "Operation", "value": "Horizontal sliding" },
+      { "label": "Glazing", "value": "Double- or triple-pane Low-E options" },
+      { "label": "Configurations", "value": "Two-, three- and four-panel layouts" },
+      { "label": "Standard heights", "value": "79 1/2 in, 81 1/2 in and 95 1/2 in" }
+    ],
+    "publicPublicationStatus": "approved"
+  }
+]

@@ -1,15 +1,13 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { guides } from '../../data/guides';
-
 export function getStaticPaths() {
   return guides.filter(guide => guide.publishable).map(guide => ({ params: { slug: guide.slug }, props: { guide } }));
 }
-
 const { guide } = Astro.props;
 ---
 <BaseLayout title={guide.title + ' | Window Replacement Pro'} description={guide.description}>
   <div class="wrap breadcrumbs"><a href="/guides/">Guides</a> / {guide.title}</div>
   <section class="page-hero"><div class="wrap prose"><div class="eyebrow">Guide</div><h1>{guide.title}</h1><p class="lead">{guide.description}</p></div></section>
-  <section class="section alt"><div class="wrap prose"><h2>Editorial placeholder</h2><p>This route and SEO structure are ready. The production article should be written from verified manufacturer data, installation practice and Ontario-specific evidence rather than generic generated copy.</p></div></section>
+  <section class="section alt"><div class="wrap prose"><h2>Editorial placeholder</h2><p>This route and SEO structure are ready. The production article should be written from verified technical evidence, installation practice and Ontario-specific requirements rather than generic generated copy.</p></div></section>
 </BaseLayout>

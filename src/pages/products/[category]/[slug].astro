@@ -1,0 +1,37 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import MediaFrame from '../../../components/MediaFrame.astro';
+import QuoteCta from '../../../components/QuoteCta.astro';
+import { publicProducts } from '../../../data/public-catalog';
+export function getStaticPaths() {
+  return publicProducts.map(product => ({ params: { category: product.category, slug: product.slug }, props: { product } }));
+}
+const { product } = Astro.props;
+const categoryLanding: Record<string, { href: string; label: string }> = {
+  windows: { href: '/windows/', label: 'Windows' },
+  'entry-doors': { href: '/doors/', label: 'Entry doors' },
+  'door-glass': { href: '/doors/decorative-door-glass/', label: 'Door glass' },
+  'patio-doors': { href: '/patio-doors/', label: 'Patio doors' }
+};
+const landing = categoryLanding[product.category];
+---
+<BaseLayout title={product.displayName + ' | Window Replacement Pro'} description={product.summary}>
+  <div class="wrap breadcrumbs"><a href={landing.href}>{landing.label}</a> / {product.displayName}</div>
+  <section class="section public-product">
+    <div class="wrap public-product__layout">
+      <div class="public-product__media"><MediaFrame media={product.media} alt={product.imageAlt} sizes="(max-width: 800px) 100vw, 48vw" loading="eager" fetchpriority="high" fit="contain" /></div>
+      <div class="public-product__content">
+        <p class="product-card__meta">{product.categoryLabel} <span aria-hidden="true">/</span> {product.reference}</p>
+        <h1>{product.displayName}</h1>
+        <p class="lead">{product.summary}</p>
+        <p class="availability-note">Available through Window Replacement Pro.</p>
+        <section class="card detail-card" aria-labelledby="product-specifications">
+          <h2 id="product-specifications">Reviewed specifications</h2>
+          <dl class="spec-list">{product.specifications.map(item => <><dt>{item.label}</dt><dd>{item.value}</dd></>)}</dl>
+        </section>
+        <aside class="source-note">Product systems are selected from established manufacturers. The exact manufacturer, model, performance documentation and warranty are identified in your written quotation.</aside>
+      </div>
+    </div>
+  </section>
+  <section class="section section--cream"><div class="wrap"><QuoteCta /></div></section>
+</BaseLayout>

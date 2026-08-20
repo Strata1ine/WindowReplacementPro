@@ -1,6 +1,14 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro'; import { products } from '../../data/products'; import { manufacturers } from '../../data/manufacturers';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { products } from '../../data/products';
 export function getStaticPaths(){return products.filter(p=>p.category==='patio-doors').map(product=>({params:{slug:product.slug},props:{product}}));}
-const { product }=Astro.props; const brands=manufacturers.filter(m=>product.manufacturers.includes(m.slug));
+const { product }=Astro.props;
 ---
-<BaseLayout title={product.seoTitle} description={product.seoDescription}><div class="wrap breadcrumbs"><a href="/patio-doors/">Patio Doors</a> / {product.name}</div><section class="page-hero"><div class="wrap prose"><div class="eyebrow">{product.type}</div><h1>{product.name}</h1><p class="lead">{product.summary}</p></div></section><section class="section alt"><div class="wrap"><h2>Available manufacturers</h2><div class="grid">{brands.map(b=><a class="card" href={`/brands/${b.slug}/`}><h3>{b.name}</h3><p>{b.summary}</p></a>)}</div></div></section></BaseLayout>
+<BaseLayout title={product.seoTitle} description={product.seoDescription}>
+  <div class="wrap breadcrumbs"><a href="/patio-doors/">Patio Doors</a> / {product.name}</div>
+  <section class="page-hero"><div class="wrap prose"><div class="eyebrow">{product.type}</div><h1>{product.name}</h1><p class="lead">{product.summary}</p></div></section>
+  <section class="section alt"><div class="wrap split">
+    <div><h2>Configuration choices</h2><p>Compare panel count, opening direction, frame material, glass package, screen and hardware around the available wall opening.</p></div>
+    <div><h2>Installation details</h2><p>Opening preparation, sill support, water management, interior finishing and exterior sealing belong in the final written scope.</p></div>
+  </div></section>
+</BaseLayout>

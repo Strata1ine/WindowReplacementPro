@@ -9,9 +9,9 @@ import SectionHeader from '../components/SectionHeader.astro';
 import {
   homepageCategoryPaths,
   homepageFeaturedProducts,
-  homepageManufacturers,
+  homepageHeroFacts,
   homepageProcessSteps,
-  homepagePublishedProductCount,
+  homepageProductOptions,
   homepageSpecificationTopics,
   homepageTaxonomyGroups,
   homepageWindowStyles
@@ -20,84 +20,46 @@ import {
 const heroWindow = homepageCategoryPaths.find(category => category.rootCategory === 'replacement-windows');
 const heroDoor = homepageCategoryPaths.find(category => category.rootCategory === 'entry-doors');
 const heroPatio = homepageCategoryPaths.find(category => category.rootCategory === 'patio-doors');
-
-if (!heroWindow || !heroDoor || !heroPatio) {
-  throw new TypeError('Homepage hero requires published window, entry-door, and patio-door media');
-}
+if (!heroWindow || !heroDoor || !heroPatio) throw new TypeError('Homepage hero requires approved product media');
 ---
 <BaseLayout
   title="Window Replacement Pro | Windows & Doors in Ontario"
-  description="Compare published replacement windows, entry doors, door glass and patio-door products for homes across the GTA and Southern Ontario."
+  description="Compare replacement windows, entry doors, door glass and patio-door options for homes across the GTA and Southern Ontario."
 >
   <section class="home-hero" aria-labelledby="home-hero-title">
     <div class="wrap home-hero__grid">
       <div class="home-hero__content">
         <p class="eyebrow">Windows and doors, clearly compared</p>
         <h1 id="home-hero-title">A better replacement starts with the right product.</h1>
-        <p class="home-hero__lead">Compare real replacement-window and door options, understand the specifications that matter, and prepare for a more complete project conversation.</p>
+        <p class="home-hero__lead">Compare window and door configurations, understand the specifications that matter, and prepare for a more complete project conversation.</p>
         <div class="actions">
           <a class="button" href="#quote">Plan your replacement</a>
           <a class="button button--secondary" href="#product-paths">Explore product paths</a>
         </div>
-        <dl class="home-hero__facts" aria-label="Published catalogue summary">
-          <div><dt>{homepagePublishedProductCount}</dt><dd>published products</dd></div>
-          <div><dt>{homepageCategoryPaths.length}</dt><dd>clear product paths</dd></div>
-          <div><dt>{homepageManufacturers.length}</dt><dd>represented manufacturers</dd></div>
+        <dl class="home-hero__facts" aria-label="Product planning summary">
+          {homepageHeroFacts.map(fact => <div><dt>{fact.value}</dt><dd>{fact.label}</dd></div>)}
         </dl>
       </div>
-
-      <div class="home-hero__visual" aria-label="Representative published product imagery">
-        <MediaFrame
-          media={heroWindow.media}
-          alt={heroWindow.imageAlt}
-          class="home-hero__window"
-          sizes="(max-width: 760px) 92vw, (max-width: 1120px) 58vw, 42vw"
-          loading="eager"
-          fetchpriority="high"
-        />
-        <MediaFrame
-          media={heroDoor.media}
-          alt={heroDoor.imageAlt}
-          class="home-hero__door"
-          sizes="(max-width: 760px) 34vw, 18vw"
-          loading="eager"
-          fit="contain"
-        />
-        <MediaFrame
-          media={heroPatio.media}
-          alt={heroPatio.imageAlt}
-          class="home-hero__patio"
-          sizes="(max-width: 760px) 48vw, 22vw"
-          loading="eager"
-        />
-        <p class="home-hero__caption">Representative imagery from verified manufacturer product libraries.</p>
+      <div class="home-hero__visual" aria-label="Representative product configurations">
+        <MediaFrame media={heroWindow.media} alt={heroWindow.imageAlt} class="home-hero__window" sizes="(max-width: 760px) 92vw, (max-width: 1120px) 58vw, 42vw" loading="eager" fetchpriority="high" />
+        <MediaFrame media={heroDoor.media} alt={heroDoor.imageAlt} class="home-hero__door" sizes="(max-width: 760px) 34vw, 18vw" loading="eager" fit="contain" />
+        <MediaFrame media={heroPatio.media} alt={heroPatio.imageAlt} class="home-hero__patio" sizes="(max-width: 760px) 48vw, 22vw" loading="eager" />
+        <p class="home-hero__caption">Representative approved product configurations.</p>
       </div>
     </div>
   </section>
 
   <section id="product-paths" class="section section--cream" aria-labelledby="product-paths-title">
     <div class="wrap">
-      <SectionHeader
-        eyebrow="Product paths"
-        title="Start with what you are replacing."
-        body="Each path is built from published catalogue records, so unsupported or unfinished categories stay out of view."
-        headingId="product-paths-title"
-      />
-      <div class="category-grid">
-        {homepageCategoryPaths.map(category => <CategoryCard {...category} />)}
-      </div>
+      <SectionHeader eyebrow="Product paths" title="Start with what you are replacing." body="Explore the operating styles, materials and configurations that shape the finished project." headingId="product-paths-title" />
+      <div class="category-grid">{homepageCategoryPaths.map(category => <CategoryCard {...category} />)}</div>
     </div>
   </section>
 
   <section class="section window-styles" aria-labelledby="window-styles-title">
     <div class="wrap">
       <div class="section-split-heading">
-        <SectionHeader
-          eyebrow="Window styles"
-          title="Choose how the window needs to work."
-          body="Operating style affects ventilation, cleaning, hardware and the way a replacement fits the opening."
-          headingId="window-styles-title"
-        />
+        <SectionHeader eyebrow="Window styles" title="Choose how the window needs to work." body="Operating style affects ventilation, cleaning, hardware and the way a replacement fits the opening." headingId="window-styles-title" />
         <a class="text-link text-link--top" href="/windows/">View all replacement windows <span aria-hidden="true">&rarr;</span></a>
       </div>
       <div class="window-style-grid">
@@ -106,7 +68,7 @@ if (!heroWindow || !heroDoor || !heroPatio) {
             <span class="window-style-card__index">{String(index + 1).padStart(2, '0')}</span>
             <h3>{style.title}</h3>
             <p>{style.description}</p>
-            <span>{style.count} published {style.count === 1 ? 'product' : 'products'}</span>
+            <span>{style.count} reviewed {style.count === 1 ? 'configuration' : 'configurations'}</span>
           </a>
         ))}
       </div>
@@ -115,32 +77,12 @@ if (!heroWindow || !heroDoor || !heroPatio) {
 
   <section class="section section--forest taxonomy-section" aria-labelledby="taxonomy-title">
     <div class="wrap">
-      <SectionHeader
-        eyebrow="Doors and patio systems"
-        title="Narrow the catalogue without losing the details."
-        body="Only groupings with published product records are shown here."
-        headingId="taxonomy-title"
-      />
+      <SectionHeader eyebrow="Doors and patio systems" title="Narrow the choices without losing the details." body="Compare supported materials, styles and configurations before selecting the final scope." headingId="taxonomy-title" />
       <div class="taxonomy-grid">
         {homepageTaxonomyGroups.map(group => (
           <article class="taxonomy-panel">
-            <header>
-              <div>
-                <h3>{group.title}</h3>
-                <p>{group.description}</p>
-              </div>
-              <a href={group.href} aria-label={`Explore all ${group.title.toLowerCase()}`}>&rarr;</a>
-            </header>
-            <ul>
-              {group.options.map(item => (
-                <li>
-                  <a href={item.href}>
-                    <span>{item.title}</span>
-                    <span>{item.count}</span>
-                  </a>
-                </li>
-              ))}
-            </ul>
+            <header><div><h3>{group.title}</h3><p>{group.description}</p></div><a href={group.href} aria-label={'Explore all ' + group.title.toLowerCase()}>&rarr;</a></header>
+            <ul>{group.options.map(item => <li><a href={item.href}><span>{item.title}</span><span>{item.count}</span></a></li>)}</ul>
           </article>
         ))}
       </div>
@@ -153,66 +95,36 @@ if (!heroWindow || !heroDoor || !heroPatio) {
         <p class="eyebrow">Compare the complete specification</p>
         <h2 id="specification-title">The product name is only the beginning.</h2>
         <p class="lead">A useful comparison connects the product, glass, frame, hardware, opening and installation scope. Those details shape performance and determine whether two quotes are actually comparable.</p>
-        <a class="button button--secondary" href="#featured-products">See published product details</a>
+        <a class="button button--secondary" href="#featured-products">See product examples</a>
       </div>
-      <ol class="specification-list">
-        {homepageSpecificationTopics.map((topic, index) => (
-          <li>
-            <span>{String(index + 1).padStart(2, '0')}</span>
-            <strong>{topic}</strong>
-          </li>
-        ))}
-      </ol>
+      <ol class="specification-list">{homepageSpecificationTopics.map((topic, index) => <li><span>{String(index + 1).padStart(2, '0')}</span><strong>{topic}</strong></li>)}</ol>
     </div>
   </section>
 
   <section id="featured-products" class="section section--mist" aria-labelledby="featured-products-title">
     <div class="wrap">
       <div class="section-split-heading">
-        <SectionHeader
-          eyebrow="Published products"
-          title="A closer look at four product paths."
-          body="Every card below points to a published canonical record with approved product-specific media."
-          headingId="featured-products-title"
-        />
-        <a class="text-link text-link--top" href="/brands/">Browse manufacturers <span aria-hidden="true">&rarr;</span></a>
+        <SectionHeader eyebrow="Product examples" title="Four configurations to start the comparison." body="Each example uses a reviewed customer-facing identity, approved specifications and clean product media." headingId="featured-products-title" />
+        <a class="text-link text-link--top" href="#options">Compare more options <span aria-hidden="true">&rarr;</span></a>
       </div>
-      <div class="featured-product-grid">
-        {homepageFeaturedProducts.map(product => <ProductCard {...product} />)}
-      </div>
+      <div class="featured-product-grid">{homepageFeaturedProducts.map(product => <ProductCard {...product} />)}</div>
     </div>
   </section>
 
-  <section class="section process-section" aria-labelledby="process-title">
+  <section id="process" class="section process-section" aria-labelledby="process-title">
     <div class="wrap">
-      <SectionHeader
-        eyebrow="From research to installation"
-        title="A clear path through the replacement process."
-        body="Product research comes first; site conditions and final scope still need to be confirmed before ordering."
-        headingId="process-title"
-      />
+      <SectionHeader eyebrow="From research to installation" title="A clear path through the replacement process." body="Product research comes first; site conditions and final scope still need to be confirmed before ordering." headingId="process-title" />
       <ProcessSteps steps={homepageProcessSteps} />
     </div>
   </section>
 
-  <section class="section section--cream manufacturer-section" aria-labelledby="manufacturers-title">
-    <div class="wrap manufacturer-layout">
-      <div>
-        <p class="eyebrow">Manufacturer libraries</p>
-        <h2 id="manufacturers-title">Published options from established product sources.</h2>
-        <p class="lead">Browse by product type first, then use manufacturer pages when you need model-level detail and supplier documentation.</p>
+  <section id="options" class="section section--cream option-section" aria-labelledby="options-title">
+    <div class="wrap">
+      <SectionHeader eyebrow="Product options for Ontario homes" title="Build the right configuration around the opening." body="Selection breadth comes from combining operating style, material, glazing, hardware, finish and installation requirements." headingId="options-title" />
+      <div class="product-option-grid">
+        {homepageProductOptions.map((option, index) => <article><span>{String(index + 1).padStart(2, '0')}</span><h3>{option.title}</h3><p>{option.text}</p></article>)}
       </div>
-      <div class="manufacturer-list">
-        {homepageManufacturers.map(manufacturer => (
-          <a href={manufacturer.href}>
-            <span>
-              <strong>{manufacturer.name}</strong>
-              <small>{manufacturer.categories.join(' / ')}</small>
-            </span>
-            <span>{manufacturer.productCount}</span>
-          </a>
-        ))}
-      </div>
+      <p class="option-disclosure">Choose from a carefully selected range of window and door systems. We confirm the exact product, performance ratings, warranty and installation scope in your written quotation.</p>
     </div>
   </section>
 
