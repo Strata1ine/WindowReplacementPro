@@ -1,0 +1,752 @@
+{
+  "holds": [
+    {
+      "productId": "masonite:2-panel-1-2-lite-steel",
+      "reason": "Live identity and media are verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "masonite:2-panel-hollister-steel",
+      "reason": "Live identity and media are verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "masonite:3-panel-equal-steel",
+      "reason": "Live identity and media are verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "masonite:4-panel-1-4-lite-steel",
+      "reason": "Live identity and media are verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "masonite:6-panel-steel",
+      "reason": "Live identity and media are verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "masonite:cheyenne-steel",
+      "reason": "Live identity and media are verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "masonite:flush-1-lite-steel",
+      "reason": "Live identity and media are verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "masonite:flush-4-lite-equal-steel",
+      "reason": "Live identity and media are verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "masonite:flush-5-square-lite-steel",
+      "reason": "Live identity and media are verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "masonite:full-lite-steel",
+      "reason": "Live identity and media are verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "masonite:square-2-panel-steel",
+      "reason": "Live identity and media are verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "novatech:2-panel-planked-camber-top",
+      "reason": "Live identity and media are verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "novatech:linea",
+      "reason": "Live identity and media are verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "masonite:4-lite-equal",
+      "reason": "New evidence is limited to an image alt description and conflicts with the DR-FG material prefix; retain as incomplete pending product-specific review."
+    },
+    {
+      "productId": "masonite:flush-1-lite",
+      "reason": "New evidence is limited to an image alt description and conflicts with the DR-FG material prefix; retain as incomplete pending product-specific review."
+    },
+    {
+      "productId": "masonite:cheyenne",
+      "reason": "New evidence is limited to a product image alt description; retain prior incomplete status pending product-specific specifications and editorial review."
+    },
+    {
+      "productId": "masonite:sierra",
+      "reason": "New evidence is limited to a product image alt description; retain prior incomplete status pending product-specific specifications and editorial review."
+    },
+    {
+      "productId": "trimlite:2064-ez-lift-clear-internal-venting-doorlite",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:2080-clear-one-lite-doorlite",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:2236-clear-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:2236-internal-grid-12l",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:2236-internal-grid-9-lite",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:2236-rain-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:2248-clear-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:2248-ez-lift-clear-internal-venting-doorlite",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:2248-internal-grid-12-lite",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:2264-clear-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:2264-ez-lift-clear-internal-venting-doorlite",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:2264-internal-grid-15-lite",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:2280-internal-grid-18-lite",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:764-internal-grid-5-lite",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:adelaide",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:artisan-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:canterbury",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:chords",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:chords-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:clear-2208-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:clear-2210sb-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:clear-2215",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:clear-2236-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:clear-2264-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:clear-2280-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:clear-2515-one-lite-doorlite",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:clear-718-one-lite-doorlite",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:clear-764-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:clear-764-one-lite-doorlite",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:clear-836-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:clear-848-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:clear-880-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:clear-880-one-lite-doorlite",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:clear-glass",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:clear-glass-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:df22-1-lite-douglas-fir-full-lite-exterior-wood-door",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:diffused-white-laminate-white-lami",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:diffused-white-laminate-white-lami-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:dra1a80-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:dra1p-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:dra2a-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:dra2b-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:dra2d-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:dra2p80-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drb10-pre-pigmented-black-smooth-fiberglass-exterior-door",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drf1d",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drf33-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drf36-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drf3c-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drf3f-3-panel-shaker-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drf50-5-panel-shaker-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drg00-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drg10-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drg10b-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drg12-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drg12b-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drg20-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drg29-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drg40-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drg41-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drg49-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drg60-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drg63-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drg6c-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drm41-36-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drs00-flush-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drs10-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drs10b-mini-blinds-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drs12-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drs12b-mini-blinds-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drs1d",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drs1el-brushed-smooth-skin-exterior-fiberglass-door",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drs20-smooth-skin-exterior-fiberglass-door",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drs29-3-4-2-panels",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drs2b-2-panels",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drs2d-2-panel-arch-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drs3c-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drs3c-3-panel-shaker-door-with-3-lite-patina-decorative-glass",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drs3c-3-panel-shaker-door-with-6-lite-patina-decorative-glass",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drs3f-3-panel-shaker-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drs40-4-panel-blank-top-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drs41-4-panels-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drs49-3-4-4-panels",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drs50-5-panel-shaker-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drs60-6-panels-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drs63-6-panel",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:drs6c-craftsman-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:eastmont-decorative-doorlite",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:everton",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:flush-glazed-applied-mullion",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:granville",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:hamilton-decorative-doorlite",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:harlow-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:hollister",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:internal-blinds-between-glass-2080",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:internal-blinds-between-glass-2236",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:internal-blinds-between-glass-2248",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:internal-blinds-between-glass-2264",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:internal-blinds-between-glass-2280",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:internal-blinds-between-glass-764",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:internal-blinds-between-glass-836",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:internal-blinds-between-glass-848",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:lexington",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:manhattan-decorative-doorlite",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:miniblind-2064",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:miniblind-2236-internal-blinds-doorlite",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:miniblind-764-internal-blinds-doorlite",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:miniblind-880-internal-blinds-doorlite",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:mistlite",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:mistlite-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:modena",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:narrow-reed",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:narrow-reed-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:niagara",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:pemberton-decorative-doorlite",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:perimeter",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:princeton-decorative-doorlite",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:riverton",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:rooftop",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:rooftop-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:royston",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:sable",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:sable-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:sandblast",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:sandblast-satin-etch",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:screen-dot-solution-series-doorlite",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:slf3c-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:slg00-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:slg10-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:slg3e-wood-grain-exterior-fiberglass-door-side-panel",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:slg49-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:slg60-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:slm3d-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:sls00-flush-sidelite",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:sls10-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:sls10b-mini-blinds-smooth-skin-exterior-fiberglass-door-sidelite",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:sls12b-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:sls3c-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:sls3c-2-panel-shaker-sidelite-with-2-lite-patina-decorative-glass",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:sls49-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:sls60-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:storm-series-impact-880-internal-grid-6-lite",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:storm-series-impact-artisan",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:storm-series-impact-clear-2208",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:storm-series-impact-clear-2215",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:storm-series-impact-clear-2236",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:storm-series-impact-clear-2248",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:storm-series-impact-diffused-white-laminate-dwl",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:storm-series-impact-double-water",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:storm-series-impact-internal-blinds-between-glass-880",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:storm-series-impact-modena",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:storm-series-impact-perimeter",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:storm-series-impact-rain",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:storm-series-impact-royston",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:storm-series-impact-satin-etch-sandblast",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:sullivan",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:traditional-2210sb-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:traditional-2215-3l-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:traditional-2215-6l-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:traditional-2236-internal-grid-doorlite",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:traditional-2248",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:traditional-2515-3l-internal-grid-doorlite",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:traditional-2515-6l-internal-grid-doorlite",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:traditional-764-internal-grid-doorlite",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:traditional-836-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:traditional-848-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:tradtional-2064-2",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:verona",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:waterton",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "trimlite:winslow-decorative-doorlite",
+      "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    }
+  ]
+}

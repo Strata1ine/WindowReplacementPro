@@ -7,14 +7,14 @@
       "entry-doors"
     ]
   },
-  "crawledAt": "2026-08-19T20:06:50Z",
+  "crawledAt": "2026-08-19T22:24:38Z",
   "pages": [
     {
-      "url": "https://www.masonite.com/doors/exterior/",
-      "title": "Masonite Residential | Exterior Doors | Masonite",
-      "h1": "Exterior Doors",
-      "description": "Get started choosing your exterior doors! Choose from a wide selection of materials, styles, and hardware to craft the perfect door for your space.",
-      "snapshot": "source-media\\masonite\\html\\0001-exterior-doors.html",
+      "url": "https://www.masonite.com/api/plp/search/528?pageNumber=1",
+      "title": "",
+      "h1": "",
+      "description": "",
+      "snapshot": "source-media\\masonite\\html\\0001-https-www-masonite-com-api-plp-search-528-pagenumber-1.json",
       "is_product_candidate": true,
       "category": "entry-doors",
       "assets": [
@@ -44,135 +44,307 @@
           "name": "VistaGrande Flush-Glazed Full Lite",
           "modelNumber": "DR-FFG-926-FL-1-80",
           "collection": null,
-          "image": "https://embed.widencdn.net/img/masonite/cfpyufd0cd/exact/DR-VSG-926-140-1-FL-X-36-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp"
+          "image": "https://embed.widencdn.net/img/masonite/cfpyufd0cd/exact/DR-VSG-926-140-1-FL-X-36-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp",
+          "sourceUrl": "https://www.masonite.com/doors/exterior/dr-ffg-926-fl-1-80/",
+          "description": "straight on image of a full lite vista grande on a white background"
         },
         {
           "slug": "vistagrande-flush-glazed-3-4-lite",
           "name": "VistaGrande Flush-Glazed 3/4 Lite",
           "modelNumber": "DR-FFG-426-1P-1-80",
           "collection": null,
-          "image": "https://embed.widencdn.net/img/masonite/ffs5dhelza/exact/DR-VSG-426-140-1-1P-X-36-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp"
+          "image": "https://embed.widencdn.net/img/masonite/ffs5dhelza/exact/DR-VSG-426-140-1-1P-X-36-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp",
+          "sourceUrl": "https://www.masonite.com/doors/exterior/dr-ffg-426-1p-1-80/",
+          "description": "Front view of a closed grey fiberglass exterior door, one panel, flush-glazed 3/4 lite with pearl glass, and a door handle"
         },
         {
           "slug": "vistagrande-flush-glazed-1-2-lite",
           "name": "VistaGrande Flush-Glazed 1/2 Lite",
           "modelNumber": "DR-FFG-126-1P-1-80",
           "collection": null,
-          "image": "https://embed.widencdn.net/img/masonite/yqpferdqok/exact/DR-VSG-126-140-1-1P-X-36-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp"
+          "image": "https://embed.widencdn.net/img/masonite/yqpferdqok/exact/DR-VSG-126-140-1-1P-X-36-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp",
+          "sourceUrl": "https://www.masonite.com/doors/exterior/dr-ffg-126-1p-1-80/",
+          "description": "Front view of a closed grey fiberglass exterior door, one panel, flush-glazed half lite with pearl glass, and a door handle"
         },
         {
           "slug": "winslow-flush-glazed-3-panel",
           "name": "Winslow Flush-Glazed 3 Panel",
           "modelNumber": "DR-FFG-267-WIND-1-80",
           "collection": null,
-          "image": "https://embed.widencdn.net/img/masonite/vwlkv66xgj/exact/DR-FFG-267-WIND-1-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp"
+          "image": "https://embed.widencdn.net/img/masonite/vwlkv66xgj/exact/DR-FFG-267-WIND-1-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp",
+          "sourceUrl": "https://www.masonite.com/doors/exterior/dr-ffg-267-wind-1-80/",
+          "description": "Winslow flush-glazed Fiberglass craftsman door"
         },
         {
           "slug": "lincoln-park-1-panel",
           "name": "Lincoln Park 1 Panel",
           "modelNumber": "DR-FG-X-LNP-X-80",
           "collection": null,
-          "image": "https://embed.widencdn.net/img/masonite/urabyckt0d/exact/DR-HGS-X-X-X-LNP-X-36-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp"
+          "image": "https://embed.widencdn.net/img/masonite/urabyckt0d/exact/DR-HGS-X-X-X-LNP-X-36-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp",
+          "sourceUrl": "https://www.masonite.com/doors/exterior/dr-fg-x-lnp-x-80/",
+          "description": "straight on image of a Lincoln park door"
         },
         {
           "slug": "logan-2-panel",
           "name": "Logan 2 Panel",
           "modelNumber": "DR-FG-X-LOG-X-80",
           "collection": null,
-          "image": "https://embed.widencdn.net/img/masonite/k5d654czde/exact/DR-HGS-X-X-X-LOG-X-36-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp"
+          "image": "https://embed.widencdn.net/img/masonite/k5d654czde/exact/DR-HGS-X-X-X-LOG-X-36-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp",
+          "sourceUrl": "https://www.masonite.com/doors/exterior/dr-fg-x-log-x-80/",
+          "description": "straight on image of a logan"
         },
         {
           "slug": "winslow-3-panel",
           "name": "Winslow 3 Panel",
           "modelNumber": "DR-FG-X-WIND-X-80",
           "collection": null,
-          "image": "https://embed.widencdn.net/img/masonite/oa05sxvrog/exact/DR-HGS-X-X-X-WIND-X-36-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp"
+          "image": "https://embed.widencdn.net/img/masonite/oa05sxvrog/exact/DR-HGS-X-X-X-WIND-X-36-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp",
+          "sourceUrl": "https://www.masonite.com/doors/exterior/dr-fg-x-wind-x-80/",
+          "description": "Front view of a closed grey fiberglass exterior door, three panels, a dentil shelf, and a door handle"
         },
         {
           "slug": "2-panel-hollister",
           "name": "2 Panel Hollister",
           "modelNumber": "DR-FG-404-1PH-1-80",
           "collection": null,
-          "image": "https://embed.widencdn.net/img/masonite/jqelphaj7m/exact/DR-FG-404-1PH-1-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp"
+          "image": "https://embed.widencdn.net/img/masonite/jqelphaj7m/exact/DR-FG-404-1PH-1-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp",
+          "sourceUrl": "https://www.masonite.com/doors/exterior/dr-fg-404-1ph-1-80/",
+          "description": "Hollister Fiberglass Door"
         },
         {
           "slug": "square-2-panel",
           "name": "Square 2 Panel",
           "modelNumber": "DR-FG-106-2P-1-80",
           "collection": null,
-          "image": "https://embed.widencdn.net/img/masonite/komhnzpztm/exact/DR-FG-106-2P-1-80_closed_frontal_op.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp"
+          "image": "https://embed.widencdn.net/img/masonite/komhnzpztm/exact/DR-FG-106-2P-1-80_closed_frontal_op.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp",
+          "sourceUrl": "https://www.masonite.com/doors/exterior/dr-fg-106-2p-1-80/",
+          "description": "Square 2 Panel Fiberglass Door"
         },
         {
           "slug": "full-lite",
           "name": "Full Lite",
           "modelNumber": "DR-FG-122-FL-1-80",
           "collection": null,
-          "image": "https://embed.widencdn.net/img/masonite/fxpidbfcni/exact/DR-BLS-122-140-1-FL-X-36-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp"
+          "image": "https://embed.widencdn.net/img/masonite/fxpidbfcni/exact/DR-BLS-122-140-1-FL-X-36-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp",
+          "sourceUrl": "https://www.masonite.com/doors/exterior/dr-fg-122-fl-1-80/",
+          "description": "Close-up corner view of a closed grey fiberglass exterior door, with pearl glass"
         },
         {
           "slug": "sierra",
           "name": "Sierra",
           "modelNumber": "DR-FG-X-SIE-X-80",
           "collection": null,
-          "image": "https://embed.widencdn.net/img/masonite/2dx9upio81/exact/DR-BSP-X-X-X-2P-X-36-80%20MAH_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp"
+          "image": "https://embed.widencdn.net/img/masonite/2dx9upio81/exact/DR-BSP-X-X-X-2P-X-36-80%20MAH_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp",
+          "sourceUrl": "https://www.masonite.com/doors/exterior/dr-fg-x-sie-x-80/",
+          "description": "Sierra Fiberglass door"
         },
         {
           "slug": "cheyenne",
           "name": "Cheyenne",
           "modelNumber": "DR-FG-X-CHEY-X-80",
           "collection": null,
-          "image": "https://embed.widencdn.net/img/masonite/4ekvw2v29h/exact/DR-BLS-X-X-X-2P-X-36-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp"
+          "image": "https://embed.widencdn.net/img/masonite/4ekvw2v29h/exact/DR-BLS-X-X-X-2P-X-36-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp",
+          "sourceUrl": "https://www.masonite.com/doors/exterior/dr-fg-x-chey-x-80/",
+          "description": "Front view of a closed grey fiberglass exterior door, opaque two panels with planks, top panel curved, and a door handle"
         },
         {
           "slug": "6-panel",
           "name": "6 Panel",
           "modelNumber": "DR-FG-X-6P-X-80",
           "collection": null,
-          "image": "https://embed.widencdn.net/img/masonite/tmqflzgpmp/exact/DR-BLS-X-X-X-6P-X-36-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp"
+          "image": "https://embed.widencdn.net/img/masonite/tmqflzgpmp/exact/DR-BLS-X-X-X-6P-X-36-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp",
+          "sourceUrl": "https://www.masonite.com/doors/exterior/dr-fg-x-6p-x-80/",
+          "description": "Front view of a closed grey fiberglass exterior door, opaque 6 panel, with a door handle"
         },
         {
           "slug": "flush-5-square-lite",
           "name": "Flush 5 Square Lite",
           "modelNumber": "DR-FG-682-C5S-5S-96",
           "collection": null,
-          "image": "https://embed.widencdn.net/img/masonite/dhgdykfjyk/exact/DR-FG-682-C5S-5S-36-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp"
+          "image": "https://embed.widencdn.net/img/masonite/dhgdykfjyk/exact/DR-FG-682-C5S-5S-36-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp",
+          "sourceUrl": "https://www.masonite.com/doors/exterior/dr-fg-682-c5s-5s-96/",
+          "description": "5 square lite door"
         },
         {
           "slug": "4-lite-equal",
           "name": "4 Lite Equal",
           "modelNumber": "DR-FG-228-4E-4S-80",
           "collection": null,
-          "image": "https://embed.widencdn.net/img/masonite/olcjhmwume/exact/DR-FG-228-4E-4S-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp"
+          "image": "https://embed.widencdn.net/img/masonite/olcjhmwume/exact/DR-FG-228-4E-4S-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp",
+          "sourceUrl": "https://www.masonite.com/doors/exterior/dr-fg-228-4e-4s-80/",
+          "description": "A front view of a closed grey steel four panel equal exterior door with raised edges, textured glass and a silver door handle where the four panels of glass are the same rectangular shape and size and are stacked vertically on the door"
         },
         {
           "slug": "flush-1-lite",
           "name": "Flush 1 Lite",
           "modelNumber": "DR-FG-151-FCL-1-80",
           "collection": null,
-          "image": "https://embed.widencdn.net/img/masonite/mp7jcgyw5x/exact/DR-FG-151-FCL-1-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp"
+          "image": "https://embed.widencdn.net/img/masonite/mp7jcgyw5x/exact/DR-FG-151-FCL-1-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp",
+          "sourceUrl": "https://www.masonite.com/doors/exterior/dr-fg-151-fcl-1-80/",
+          "description": "A front view of a closed grey steel one lite exterior door with raised edges, textured glass and a silver door handle where the tall, thin rectangular glass panel runs down the center of the door"
         },
         {
           "slug": "4-panel-1-4-lite",
           "name": "4 Panel ¼ Lite",
           "modelNumber": "DR-FG-228-4P-1-80",
           "collection": null,
-          "image": "https://embed.widencdn.net/img/masonite/k55qmskuqm/exact/DR-BLS-228-140-1-4P-X-36-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp"
+          "image": "https://embed.widencdn.net/img/masonite/k55qmskuqm/exact/DR-BLS-228-140-1-4P-X-36-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp",
+          "sourceUrl": "https://www.masonite.com/doors/exterior/dr-fg-228-4p-1-80/",
+          "description": "Close-up corner view of a closed grey fiberglass exterior door, with pearl glass"
         },
         {
           "slug": "2-panel-1-2-lite",
           "name": "2 Panel ½ Lite",
           "modelNumber": "DR-FG-106-2PHL-1-80",
           "collection": null,
-          "image": "https://embed.widencdn.net/img/masonite/f7gz5onans/exact/DR-FG-106-2PHL-1-80_closed_frontal%20%281%29.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp"
+          "image": "https://embed.widencdn.net/img/masonite/f7gz5onans/exact/DR-FG-106-2PHL-1-80_closed_frontal%20%281%29.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp",
+          "sourceUrl": "https://www.masonite.com/doors/exterior/dr-fg-106-2phl-1-80/",
+          "description": "2 Panel 1/2 Lite Door"
         }
       ]
+    },
+    {
+      "url": "https://www.masonite.com/api/plp/search/528?pageNumber=2",
+      "title": "",
+      "h1": "",
+      "description": "",
+      "snapshot": "source-media\\masonite\\html\\0002-https-www-masonite-com-api-plp-search-528-pagenumber-2.json",
+      "is_product_candidate": true,
+      "category": "entry-doors",
+      "assets": [
+        "/images/catalog/masonite/dr-fg-682-c5s-5s-36-80-closed-frontal-d29729c2a6ad.webp",
+        "/images/catalog/masonite/dr-mhd-106-140-1-2p-x-36-80-closed-frontal-4784db0cf2a2.webp",
+        "/images/catalog/masonite/dr-mhd-122-140-1-fl-x-36-80-closed-frontal-f965e13ef4d4.webp",
+        "/images/catalog/masonite/dr-mhd-151-140-1-fcl-x-36-80-closed-frontal-74499059ca46.webp",
+        "/images/catalog/masonite/dr-mhd-228-140-1-4p-x-36-80-closed-frontal-cf3d94dd1c5d.webp",
+        "/images/catalog/masonite/dr-mhd-228-140-4-4e-x-36-80-closed-frontal-416222f12d06.webp",
+        "/images/catalog/masonite/dr-mhd-404-140-1-1p-x-36-80-closed-frontal-fd4930212796.webp",
+        "/images/catalog/masonite/dr-mhd-x-x-x-2p-x-36-80-closed-frontal-33a2eea14a60.webp",
+        "/images/catalog/masonite/dr-mhd-x-x-x-6p-x-36-80-closed-frontal-549670dd561d.webp",
+        "/images/catalog/masonite/dr-st-217-3e-3-80-closed-20frontal-32108df6833a.webp",
+        "/images/catalog/masonite/dr-st-x-chey-x-80-closed-frontal-30c2d6ba05d5.webp"
+      ],
+      "product_data": {},
+      "embedded_products": [
+        {
+          "slug": "2-panel-hollister-steel",
+          "name": "2 Panel Hollister",
+          "modelNumber": "DR-ST-404-1P-1-80",
+          "collection": null,
+          "image": "https://embed.widencdn.net/img/masonite/a6pyazdjxy/exact/DR-MHD-404-140-1-1P-X-36-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp",
+          "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-404-1p-1-80/",
+          "description": "Front view of a closed grey steel exterior door, one panel, 3/4 lite with pearl glass, and a door handle"
+        },
+        {
+          "slug": "square-2-panel-steel",
+          "name": "Square 2 Panel",
+          "modelNumber": "DR-ST-X-2P-X-80",
+          "collection": null,
+          "image": "https://embed.widencdn.net/img/masonite/mdqebedryu/exact/DR-MHD-X-X-X-2P-X-36-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp",
+          "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-x-2p-x-80/",
+          "description": "A front view of a closed grey steel two panel opaque exterior door with raised edges and a silver door handle where the top rectangular panel is larger than the bottom square panel"
+        },
+        {
+          "slug": "3-panel-equal-steel",
+          "name": "3 Panel Equal",
+          "modelNumber": "DR-ST-217-3E-3-80",
+          "collection": null,
+          "image": "https://embed.widencdn.net/img/masonite/cd1yrefhkt/exact/dr-st-217-3e-3-80_closed%20frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp",
+          "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-217-3e-3-80/",
+          "description": "3 Lite Equal Steel Door"
+        },
+        {
+          "slug": "full-lite-steel",
+          "name": "Full Lite",
+          "modelNumber": "DR-ST-122-FL-1-80",
+          "collection": null,
+          "image": "https://embed.widencdn.net/img/masonite/7r7hmkw6eh/exact/DR-MHD-122-140-1-FL-X-36-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp",
+          "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-122-fl-1-80/",
+          "description": "Front view of a closed grey steel exterior door, full lite with pearl glass, and a door handle"
+        },
+        {
+          "slug": "flush-4-lite-equal-steel",
+          "name": "Flush 4 Lite Equal",
+          "modelNumber": "DR-ST-228-4E-4-80",
+          "collection": null,
+          "image": "https://embed.widencdn.net/img/masonite/zxpwx0tusw/exact/DR-MHD-228-140-4-4E-X-36-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp",
+          "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-228-4e-4-80/",
+          "description": "Front view of a closed grey steel exterior door, 4 lites that are equal with pearl glass, and a door handle"
+        },
+        {
+          "slug": "flush-1-lite-steel",
+          "name": "Flush 1 Lite",
+          "modelNumber": "DR-ST-151-FCL-1-80",
+          "collection": null,
+          "image": "https://embed.widencdn.net/img/masonite/wji15ors2z/exact/DR-MHD-151-140-1-FCL-X-36-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp",
+          "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-151-fcl-1-80/",
+          "description": "Front view of a closed grey steel exterior door, one horizontal slim lite in the center of the door with pearl glass, and a door handle"
+        },
+        {
+          "slug": "cheyenne-steel",
+          "name": "Cheyenne",
+          "modelNumber": "DR-ST-X-CHEY-X-80",
+          "collection": null,
+          "image": "https://embed.widencdn.net/img/masonite/prny3m76zk/exact/DR-ST-X-CHEY-X-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp",
+          "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-x-chey-x-80/",
+          "description": "Steel Cheyenne Door"
+        },
+        {
+          "slug": "6-panel-steel",
+          "name": "6 Panel",
+          "modelNumber": "DR-ST-X-6P-X-80",
+          "collection": null,
+          "image": "https://embed.widencdn.net/img/masonite/bu3xlk4dsj/exact/DR-MHD-X-X-X-6P-X-36-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp",
+          "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-x-6p-x-80/",
+          "description": "A front view of a closed gray steel six panel opaque exterior door with raised edges and a silver door handle where the top two side-by-side rectangular panels are the smallest, the middle side-by-side rectangular panels are the largest, and the bottom side-by-side rectangular panels are midsize"
+        },
+        {
+          "slug": "flush-5-square-lite-steel",
+          "name": "Flush 5 Square Lite",
+          "modelNumber": "DR-ST-682-C5S-5-80",
+          "collection": null,
+          "image": "https://embed.widencdn.net/img/masonite/3skvmudbmt/exact/DR-SHD-682-140-5-C5S-X-36-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp",
+          "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-682-c5s-5-80/",
+          "description": "A front view of a closed grey steel five square lite exterior door with raised edges, textured glass and a silver door handle where the five square glass panels are the same size and are stacked vertically down the center of the door"
+        },
+        {
+          "slug": "2-panel-1-2-lite-steel",
+          "name": "2 Panel ½ Lite",
+          "modelNumber": "DR-ST-106-2P-1-80",
+          "collection": null,
+          "image": "https://embed.widencdn.net/img/masonite/4i15mj2zea/exact/DR-MHD-106-140-1-2P-X-36-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp",
+          "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-106-2p-1-80/",
+          "description": "Front view of a closed grey steel exterior door, two panels, half lite with pearl glass, and a door handle"
+        },
+        {
+          "slug": "4-panel-1-4-lite-steel",
+          "name": "4 Panel ¼ Lite",
+          "modelNumber": "DR-ST-228-4P-1-80",
+          "collection": null,
+          "image": "https://embed.widencdn.net/img/masonite/ew7dazv3ak/exact/DR-MHD-228-140-1-4P-X-36-80_closed_frontal.webp?position=c&crop=no&color=ffffff00&quality=80&u=a98wgp",
+          "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-228-4p-1-80/",
+          "description": "Front view of a closed grey steel exterior door, 4 panels, rectangle 1/4 lite with pearl glass, and a door handle"
+        }
+      ]
+    },
+    {
+      "url": "https://www.masonite.com/api/plp/search/528?pageNumber=3",
+      "title": "",
+      "h1": "",
+      "description": "",
+      "snapshot": "source-media\\masonite\\html\\0003-https-www-masonite-com-api-plp-search-528-pagenumber-3.json",
+      "is_product_candidate": false,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
     },
     {
       "url": "https://www.masonite.com/catalogs/",
       "title": "Masonite Residential | Product Catalogs | Masonite",
       "h1": "Exterior, Interior, and Wood Door Catalogs | Masonite",
       "description": "Explore our product catalogs featuring our latest selection of exterior doors, interior doors, solid wood doors, and more.",
-      "snapshot": "source-media\\masonite\\html\\0002-exterior-interior-and-wood-door-catalogs-masonite.html",
+      "snapshot": "source-media\\masonite\\html\\0004-exterior-interior-and-wood-door-catalogs-masonite.html",
       "is_product_candidate": false,
       "category": "entry-doors",
       "assets": [],
@@ -184,10 +356,30 @@
       "title": "Masonite Residential | Professional Resources & Guides | Masonite",
       "h1": "Professional Resources",
       "description": "Explore professional product resources for all Masonite doors including installation guides, technical manuals, warranty information, and more.",
-      "snapshot": "source-media\\masonite\\html\\0003-professional-resources.html",
+      "snapshot": "source-media\\masonite\\html\\0005-professional-resources.html",
       "is_product_candidate": false,
       "category": "entry-doors",
-      "assets": [],
+      "assets": [
+        "/documents/catalog/masonite/3-1hdsteel80-2235286a8473.pdf",
+        "/documents/catalog/masonite/5-block-option-230b17a24aa0.pdf",
+        "/documents/catalog/masonite/belleville-smooth-68-4f70e14fd25e.pdf",
+        "/documents/catalog/masonite/belleville-smooth-80-87df2c4d0968.pdf",
+        "/documents/catalog/masonite/belleville-textured-68-2-cbab3ac987ce.pdf",
+        "/documents/catalog/masonite/masonite-specialty-glass-68-5fc44edd44a4.pdf",
+        "/documents/catalog/masonite/masonite-specialty-glass-80-b699f1a17811.pdf",
+        "/documents/catalog/masonite/patio-spec-a887f909e438.pdf",
+        "/documents/catalog/masonite/prem-door-spec-3-c4bb3309880d.pdf",
+        "/documents/catalog/masonite/premdoor-spec-steel-a4aedd720146.pdf",
+        "/documents/catalog/masonite/sdl-templatesd1599e80531168168625ff0000ddc435-cf16d7ddafe1.pdf",
+        "/documents/catalog/masonite/smooth-20ada-20spec-20-286-e2-80-998-e2-80-99-3b-20and-208-e2-80-990-e2-80-9d-29-e2-80-9d-485b303600f3.pdf",
+        "/documents/catalog/masonite/smooth-68-22f30c9b80531168168625ff0200ddc435-8569c13c8d81.pdf",
+        "/documents/catalog/masonite/standard-block-option-5b2f4aad640a.pdf",
+        "/documents/catalog/masonite/steel-01838f5ec37b.pdf",
+        "/documents/catalog/masonite/steel3-2-68-d9f212475a18.pdf",
+        "/documents/catalog/masonite/vistagrande-flush-glazed-premium-spec-tech-sheet-c959a11d48e6.pdf",
+        "/documents/catalog/masonite/wood-edge-hardware-locations-8dd677cf7502.pdf",
+        "/documents/catalog/masonite/woodgrain-textured-80-22-8e11ab3e854e.pdf"
+      ],
       "product_data": {},
       "embedded_products": []
     },
@@ -196,7 +388,7 @@
       "title": "Masonite Residential | Interior & Exterior Doors",
       "h1": "Doors That Do More",
       "description": "Explore the best selection of interior and exterior doors for your home. Masonite doors are crafted from the highest quality materials for every home style",
-      "snapshot": "source-media\\masonite\\html\\0004-doors-that-do-more.html",
+      "snapshot": "source-media\\masonite\\html\\0006-doors-that-do-more.html",
       "is_product_candidate": false,
       "category": "entry-doors",
       "assets": [],
@@ -208,7 +400,7 @@
       "title": "Masonite Residential | High Performance Doors | Masonite",
       "h1": "Masonite Exterior Fiberglass Doors",
       "description": "High performance door systems keep the weather out, and keep the inside safe. Explore all products related to high performance interior and exterior doors.",
-      "snapshot": "source-media\\masonite\\html\\0005-masonite-exterior-fiberglass-doors.html",
+      "snapshot": "source-media\\masonite\\html\\0007-masonite-exterior-fiberglass-doors.html",
       "is_product_candidate": false,
       "category": "entry-doors",
       "assets": [],
@@ -220,7 +412,7 @@
       "title": "Masonite Residential | Solid Core Doors | Masonite",
       "h1": "Masonite Solid Core Interior Doors",
       "description": "Solid core doors allow you to create quiet, comforting spaces while elevating your interior style. Explore solid core door styles and options.",
-      "snapshot": "source-media\\masonite\\html\\0006-masonite-solid-core-interior-doors.html",
+      "snapshot": "source-media\\masonite\\html\\0008-masonite-solid-core-interior-doors.html",
       "is_product_candidate": false,
       "category": "entry-doors",
       "assets": [],
@@ -232,7 +424,19 @@
       "title": "Masonite Residential | Long Lasting Durastyle Wood Doors | Masonite",
       "h1": "Masonite Exterior Wood Doors",
       "description": "Year after year, Durastyle doors will keep lasting and maintaining their natural beauty against even the harshest elements. Explore long lasting Durastyle door styles and options for any décor.",
-      "snapshot": "source-media\\masonite\\html\\0007-masonite-exterior-wood-doors.html",
+      "snapshot": "source-media\\masonite\\html\\0009-masonite-exterior-wood-doors.html",
+      "is_product_candidate": false,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://www.masonite.com/doors/exterior/",
+      "title": "Masonite Residential | Exterior Doors | Masonite",
+      "h1": "Exterior Doors",
+      "description": "Get started choosing your exterior doors! Choose from a wide selection of materials, styles, and hardware to craft the perfect door for your space.",
+      "snapshot": "source-media\\masonite\\html\\0010-exterior-doors.html",
       "is_product_candidate": false,
       "category": "entry-doors",
       "assets": [],
@@ -244,7 +448,7 @@
       "title": "Masonite Residential | Exterior Doors | Masonite",
       "h1": "Exterior Doors",
       "description": "Get started choosing your exterior doors! Choose from a wide selection of materials, styles, and hardware to craft the perfect door for your space.",
-      "snapshot": "source-media\\masonite\\html\\0008-exterior-doors.html",
+      "snapshot": "source-media\\masonite\\html\\0011-exterior-doors.html",
       "is_product_candidate": false,
       "category": "entry-doors",
       "assets": [],
@@ -256,7 +460,7 @@
       "title": "Masonite Residential | Interior Doors | Masonite",
       "h1": "Interior Doors",
       "description": "Get started choosing your interior doors! Choose from a wide selection of materials, styles, and hardware to craft the perfect door for your space.",
-      "snapshot": "source-media\\masonite\\html\\0009-interior-doors.html",
+      "snapshot": "source-media\\masonite\\html\\0012-interior-doors.html",
       "is_product_candidate": false,
       "category": "entry-doors",
       "assets": [],
@@ -268,7 +472,7 @@
       "title": "Masonite Residential | Interior Doors | Masonite",
       "h1": "Interior Doors",
       "description": "Get started choosing your interior doors! Choose from a wide selection of materials, styles, and hardware to craft the perfect door for your space.",
-      "snapshot": "source-media\\masonite\\html\\0010-interior-doors.html",
+      "snapshot": "source-media\\masonite\\html\\0013-interior-doors.html",
       "is_product_candidate": false,
       "category": "entry-doors",
       "assets": [],
@@ -280,7 +484,7 @@
       "title": "Masonite Residential | Interior Doors | Masonite",
       "h1": "Interior Doors",
       "description": "Get started choosing your interior doors! Choose from a wide selection of materials, styles, and hardware to craft the perfect door for your space.",
-      "snapshot": "source-media\\masonite\\html\\0011-interior-doors.html",
+      "snapshot": "source-media\\masonite\\html\\0014-interior-doors.html",
       "is_product_candidate": false,
       "category": "entry-doors",
       "assets": [],
@@ -292,7 +496,7 @@
       "title": "Masonite Residential | Interior Doors | Masonite",
       "h1": "Interior Doors",
       "description": "Get started choosing your interior doors! Choose from a wide selection of materials, styles, and hardware to craft the perfect door for your space.",
-      "snapshot": "source-media\\masonite\\html\\0012-interior-doors.html",
+      "snapshot": "source-media\\masonite\\html\\0015-interior-doors.html",
       "is_product_candidate": false,
       "category": "entry-doors",
       "assets": [],
@@ -304,7 +508,7 @@
       "title": "Masonite Residential | Interior Doors | Masonite",
       "h1": "Interior Doors",
       "description": "Get started choosing your interior doors! Choose from a wide selection of materials, styles, and hardware to craft the perfect door for your space.",
-      "snapshot": "source-media\\masonite\\html\\0013-interior-doors.html",
+      "snapshot": "source-media\\masonite\\html\\0016-interior-doors.html",
       "is_product_candidate": false,
       "category": "entry-doors",
       "assets": [],
@@ -316,7 +520,67 @@
       "title": "Masonite Residential | Discover & Learn Articles | Masonite",
       "h1": "",
       "description": "Explore everything about doors including how-to guides, useful tips, and inspiring content to help you find the perfect door for your needs.",
-      "snapshot": "source-media\\masonite\\html\\0014-masonite-residential-discover-learn-articles-masonite.html",
+      "snapshot": "source-media\\masonite\\html\\0017-masonite-residential-discover-learn-articles-masonite.html",
+      "is_product_candidate": false,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://www.masonite.com/design-your-door/",
+      "title": "Masonite Residential | Design Your Door | Masonite",
+      "h1": "Design Your Door",
+      "description": "Choose all the design options for your door! Personalize your selection with all options from placement, color, material, and hardware.",
+      "snapshot": "source-media\\masonite\\html\\0018-design-your-door.html",
+      "is_product_candidate": false,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://www.masonite.com/for-pros/dealer-distributor/",
+      "title": "Masonite Residential | Dealers & Distributors | Mconnect Portal | Masonite",
+      "h1": "For Door Dealers and Distributors",
+      "description": "Access promotional materials, product & technical resources, training modules and more through the Masonite Mconnect Portal for dealers & distributors.",
+      "snapshot": "source-media\\masonite\\html\\0019-for-door-dealers-and-distributors.html",
+      "is_product_candidate": false,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://www.masonite.com/for-pros/builder-architect/",
+      "title": "Masonite Residential | For Professional Builders, Remodelers & Designers | Masonite",
+      "h1": "Doors That Do More™ for you and your customers",
+      "description": "We make the professional buying experience a smooth process so your customers can have the door of their dreams. Explore our resources for Professionals.",
+      "snapshot": "source-media\\masonite\\html\\0020-doors-that-do-more-for-you-and-your-customers.html",
+      "is_product_candidate": false,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://www.masonite.com/where-to-buy/",
+      "title": "Masonite Residential | Where to Buy | Masonite",
+      "h1": "Where to buy",
+      "description": "Discover where to buy Masonite products near you today.",
+      "snapshot": "source-media\\masonite\\html\\0021-where-to-buy.html",
+      "is_product_candidate": false,
+      "category": "entry-doors",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://www.masonite.com/doors/",
+      "title": "Masonite Residential | Explore Front Doors & Interior Doors | Masonite",
+      "h1": "Doors for the whole home and everyone in it",
+      "description": "Elegant and high-quality doors to enhance your home's interior and exterior. Explore our collection of premium doors in a variety of styles and finishes.",
+      "snapshot": "source-media\\masonite\\html\\0022-doors-for-the-whole-home-and-everyone-in-it.html",
       "is_product_candidate": false,
       "category": "entry-doors",
       "assets": [],
@@ -328,254 +592,1020 @@
     {
       "supplier": "masonite",
       "source_page_urls": [
-        "https://www.masonite.com/doors/exterior/"
+        "https://www.masonite.com/api/plp/search/528?pageNumber=1"
       ],
       "original_asset_url": "https://embed.widencdn.net/img/masonite/cfpyufd0cd/exact/DR-VSG-926-140-1-FL-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "final_asset_url": "https://embed.widencdn.net/img/masonite/cfpyufd0cd/exact/DR-VSG-926-140-1-FL-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "local_path": "/images/catalog/masonite/dr-vsg-926-140-1-fl-x-36-80-closed-frontal-a36864968b9b.webp",
       "asset_type": "image",
-      "role": "embedded-product",
+      "role": "product-hero",
       "sha256": "1476505c51007b9e31fbdfc41cb34adb5360d92e6805b28106797af11d221de4",
       "bytes": 14106,
-      "discovered_at": "2026-08-19T20:06:32Z"
+      "discovered_at": "2026-08-19T22:24:32Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/img/masonite/cfpyufd0cd/exact/DR-VSG-926-140-1-FL-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp"
+      ],
+      "product_ids": [
+        "masonite:vistagrande-flush-glazed-full-lite"
+      ],
+      "collections": [],
+      "scope": "product"
     },
     {
       "supplier": "masonite",
       "source_page_urls": [
-        "https://www.masonite.com/doors/exterior/"
+        "https://www.masonite.com/api/plp/search/528?pageNumber=1"
       ],
       "original_asset_url": "https://embed.widencdn.net/img/masonite/ffs5dhelza/exact/DR-VSG-426-140-1-1P-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "final_asset_url": "https://embed.widencdn.net/img/masonite/ffs5dhelza/exact/DR-VSG-426-140-1-1P-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "local_path": "/images/catalog/masonite/dr-vsg-426-140-1-1p-x-36-80-closed-frontal-fcd956ab17a9.webp",
       "asset_type": "image",
-      "role": "embedded-product",
+      "role": "product-hero",
       "sha256": "32bc1d224b5411b88d340ba3e97186b1af1d7e71dfd74cd02e94e46c8f55bef8",
       "bytes": 137186,
-      "discovered_at": "2026-08-19T20:06:32Z"
+      "discovered_at": "2026-08-19T22:24:32Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/img/masonite/ffs5dhelza/exact/DR-VSG-426-140-1-1P-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp"
+      ],
+      "product_ids": [
+        "masonite:vistagrande-flush-glazed-3-4-lite"
+      ],
+      "collections": [],
+      "scope": "product"
     },
     {
       "supplier": "masonite",
       "source_page_urls": [
-        "https://www.masonite.com/doors/exterior/"
+        "https://www.masonite.com/api/plp/search/528?pageNumber=1"
       ],
       "original_asset_url": "https://embed.widencdn.net/img/masonite/yqpferdqok/exact/DR-VSG-126-140-1-1P-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "final_asset_url": "https://embed.widencdn.net/img/masonite/yqpferdqok/exact/DR-VSG-126-140-1-1P-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "local_path": "/images/catalog/masonite/dr-vsg-126-140-1-1p-x-36-80-closed-frontal-e6a832a5543a.webp",
       "asset_type": "image",
-      "role": "embedded-product",
+      "role": "product-hero",
       "sha256": "21731ba8e51de3f9c739e007a87924b4465c27f123277a66cd437c4ad70be97b",
       "bytes": 125970,
-      "discovered_at": "2026-08-19T20:06:33Z"
+      "discovered_at": "2026-08-19T22:24:32Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/img/masonite/yqpferdqok/exact/DR-VSG-126-140-1-1P-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp"
+      ],
+      "product_ids": [
+        "masonite:vistagrande-flush-glazed-1-2-lite"
+      ],
+      "collections": [],
+      "scope": "product"
     },
     {
       "supplier": "masonite",
       "source_page_urls": [
-        "https://www.masonite.com/doors/exterior/"
+        "https://www.masonite.com/api/plp/search/528?pageNumber=1"
       ],
       "original_asset_url": "https://embed.widencdn.net/img/masonite/vwlkv66xgj/exact/DR-FFG-267-WIND-1-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "final_asset_url": "https://embed.widencdn.net/img/masonite/vwlkv66xgj/exact/DR-FFG-267-WIND-1-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "local_path": "/images/catalog/masonite/dr-ffg-267-wind-1-80-closed-frontal-637bd96b5158.webp",
       "asset_type": "image",
-      "role": "embedded-product",
+      "role": "product-hero",
       "sha256": "c713dfefb85e26542710ccccecfbf7784a0433534bb10e3a6ea65feffda00f5b",
       "bytes": 14976,
-      "discovered_at": "2026-08-19T20:06:33Z"
+      "discovered_at": "2026-08-19T22:24:32Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/img/masonite/vwlkv66xgj/exact/DR-FFG-267-WIND-1-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp"
+      ],
+      "product_ids": [
+        "masonite:winslow-flush-glazed-3-panel"
+      ],
+      "collections": [],
+      "scope": "product"
     },
     {
       "supplier": "masonite",
       "source_page_urls": [
-        "https://www.masonite.com/doors/exterior/"
+        "https://www.masonite.com/api/plp/search/528?pageNumber=1"
       ],
       "original_asset_url": "https://embed.widencdn.net/img/masonite/urabyckt0d/exact/DR-HGS-X-X-X-LNP-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "final_asset_url": "https://embed.widencdn.net/img/masonite/urabyckt0d/exact/DR-HGS-X-X-X-LNP-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "local_path": "/images/catalog/masonite/dr-hgs-x-x-x-lnp-x-36-80-closed-frontal-6aea65efe873.webp",
       "asset_type": "image",
-      "role": "embedded-product",
+      "role": "product-hero",
       "sha256": "74e4a788cf676351d94299aeb683e0eb01980aae7bcfa3dcea256ee8e270d0fc",
       "bytes": 139356,
-      "discovered_at": "2026-08-19T20:06:33Z"
+      "discovered_at": "2026-08-19T22:24:32Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/img/masonite/urabyckt0d/exact/DR-HGS-X-X-X-LNP-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp"
+      ],
+      "product_ids": [
+        "masonite:lincoln-park-1-panel"
+      ],
+      "collections": [],
+      "scope": "product"
     },
     {
       "supplier": "masonite",
       "source_page_urls": [
-        "https://www.masonite.com/doors/exterior/"
+        "https://www.masonite.com/api/plp/search/528?pageNumber=1"
       ],
       "original_asset_url": "https://embed.widencdn.net/img/masonite/k5d654czde/exact/DR-HGS-X-X-X-LOG-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "final_asset_url": "https://embed.widencdn.net/img/masonite/k5d654czde/exact/DR-HGS-X-X-X-LOG-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "local_path": "/images/catalog/masonite/dr-hgs-x-x-x-log-x-36-80-closed-frontal-c11d909217fe.webp",
       "asset_type": "image",
-      "role": "embedded-product",
+      "role": "product-hero",
       "sha256": "6e0ca673424681b714ab0e35af4b3d1197e81d1401c1005606be669f5ebda269",
       "bytes": 13464,
-      "discovered_at": "2026-08-19T20:06:33Z"
+      "discovered_at": "2026-08-19T22:24:32Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/img/masonite/k5d654czde/exact/DR-HGS-X-X-X-LOG-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp"
+      ],
+      "product_ids": [
+        "masonite:logan-2-panel"
+      ],
+      "collections": [],
+      "scope": "product"
     },
     {
       "supplier": "masonite",
       "source_page_urls": [
-        "https://www.masonite.com/doors/exterior/"
+        "https://www.masonite.com/api/plp/search/528?pageNumber=1"
       ],
       "original_asset_url": "https://embed.widencdn.net/img/masonite/oa05sxvrog/exact/DR-HGS-X-X-X-WIND-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "final_asset_url": "https://embed.widencdn.net/img/masonite/oa05sxvrog/exact/DR-HGS-X-X-X-WIND-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "local_path": "/images/catalog/masonite/dr-hgs-x-x-x-wind-x-36-80-closed-frontal-a1b97dd6ee05.webp",
       "asset_type": "image",
-      "role": "embedded-product",
+      "role": "product-hero",
       "sha256": "3110d54d987d5a4a14d42798d0bbae7537b0cb40197ef5ff37f0459ea4694ab8",
       "bytes": 132920,
-      "discovered_at": "2026-08-19T20:06:33Z"
+      "discovered_at": "2026-08-19T22:24:32Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/img/masonite/oa05sxvrog/exact/DR-HGS-X-X-X-WIND-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp"
+      ],
+      "product_ids": [
+        "masonite:winslow-3-panel"
+      ],
+      "collections": [],
+      "scope": "product"
     },
     {
       "supplier": "masonite",
       "source_page_urls": [
-        "https://www.masonite.com/doors/exterior/"
+        "https://www.masonite.com/api/plp/search/528?pageNumber=1"
       ],
       "original_asset_url": "https://embed.widencdn.net/img/masonite/jqelphaj7m/exact/DR-FG-404-1PH-1-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "final_asset_url": "https://embed.widencdn.net/img/masonite/jqelphaj7m/exact/DR-FG-404-1PH-1-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "local_path": "/images/catalog/masonite/dr-fg-404-1ph-1-80-closed-frontal-5df7f32f3e98.webp",
       "asset_type": "image",
-      "role": "embedded-product",
+      "role": "product-hero",
       "sha256": "fcf42827426e3403817c062c062d393568b76ff49fe4702309cdd5def0af4a77",
       "bytes": 16334,
-      "discovered_at": "2026-08-19T20:06:33Z"
+      "discovered_at": "2026-08-19T22:24:32Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/img/masonite/jqelphaj7m/exact/DR-FG-404-1PH-1-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp"
+      ],
+      "product_ids": [
+        "masonite:2-panel-hollister"
+      ],
+      "collections": [],
+      "scope": "product"
     },
     {
       "supplier": "masonite",
       "source_page_urls": [
-        "https://www.masonite.com/doors/exterior/"
+        "https://www.masonite.com/api/plp/search/528?pageNumber=1"
       ],
       "original_asset_url": "https://embed.widencdn.net/img/masonite/komhnzpztm/exact/DR-FG-106-2P-1-80_closed_frontal_op.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "final_asset_url": "https://embed.widencdn.net/img/masonite/komhnzpztm/exact/DR-FG-106-2P-1-80_closed_frontal_op.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "local_path": "/images/catalog/masonite/dr-fg-106-2p-1-80-closed-frontal-op-5922458a3107.webp",
       "asset_type": "image",
-      "role": "embedded-product",
+      "role": "product-hero",
       "sha256": "ad981b2171cf6bc305cd642cdc96cdd71de732393f15a640f0314022efc8569b",
       "bytes": 105584,
-      "discovered_at": "2026-08-19T20:06:34Z"
+      "discovered_at": "2026-08-19T22:24:32Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/img/masonite/komhnzpztm/exact/DR-FG-106-2P-1-80_closed_frontal_op.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp"
+      ],
+      "product_ids": [
+        "masonite:square-2-panel"
+      ],
+      "collections": [],
+      "scope": "product"
     },
     {
       "supplier": "masonite",
       "source_page_urls": [
-        "https://www.masonite.com/doors/exterior/"
+        "https://www.masonite.com/api/plp/search/528?pageNumber=1"
       ],
       "original_asset_url": "https://embed.widencdn.net/img/masonite/fxpidbfcni/exact/DR-BLS-122-140-1-FL-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "final_asset_url": "https://embed.widencdn.net/img/masonite/fxpidbfcni/exact/DR-BLS-122-140-1-FL-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "local_path": "/images/catalog/masonite/dr-bls-122-140-1-fl-x-36-80-closed-frontal-fe962b52d428.webp",
       "asset_type": "image",
-      "role": "embedded-product",
+      "role": "product-hero",
       "sha256": "46b24942310e9ec453d6a15bdc5233c226f70acc9b2808f5dc8c54324f2f2b17",
       "bytes": 142978,
-      "discovered_at": "2026-08-19T20:06:34Z"
+      "discovered_at": "2026-08-19T22:24:32Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/img/masonite/fxpidbfcni/exact/DR-BLS-122-140-1-FL-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp"
+      ],
+      "product_ids": [
+        "masonite:full-lite"
+      ],
+      "collections": [],
+      "scope": "product"
     },
     {
       "supplier": "masonite",
       "source_page_urls": [
-        "https://www.masonite.com/doors/exterior/"
+        "https://www.masonite.com/api/plp/search/528?pageNumber=1"
       ],
       "original_asset_url": "https://embed.widencdn.net/img/masonite/2dx9upio81/exact/DR-BSP-X-X-X-2P-X-36-80%20MAH_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "final_asset_url": "https://embed.widencdn.net/img/masonite/2dx9upio81/exact/DR-BSP-X-X-X-2P-X-36-80%20MAH_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "local_path": "/images/catalog/masonite/dr-bsp-x-x-x-2p-x-36-80-20mah-closed-frontal-3f147d6deac5.webp",
       "asset_type": "image",
-      "role": "embedded-product",
+      "role": "product-hero",
       "sha256": "ebd0d399c56ce98d0e71a960d9a154cdd946c3c90e3a7911ae36a874c6482359",
       "bytes": 51356,
-      "discovered_at": "2026-08-19T20:06:34Z"
+      "discovered_at": "2026-08-19T22:24:32Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/img/masonite/2dx9upio81/exact/DR-BSP-X-X-X-2P-X-36-80%20MAH_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp"
+      ],
+      "product_ids": [
+        "masonite:sierra"
+      ],
+      "collections": [],
+      "scope": "product"
     },
     {
       "supplier": "masonite",
       "source_page_urls": [
-        "https://www.masonite.com/doors/exterior/"
+        "https://www.masonite.com/api/plp/search/528?pageNumber=1"
       ],
       "original_asset_url": "https://embed.widencdn.net/img/masonite/4ekvw2v29h/exact/DR-BLS-X-X-X-2P-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "final_asset_url": "https://embed.widencdn.net/img/masonite/4ekvw2v29h/exact/DR-BLS-X-X-X-2P-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "local_path": "/images/catalog/masonite/dr-bls-x-x-x-2p-x-36-80-closed-frontal-89e6bfed43ee.webp",
       "asset_type": "image",
-      "role": "embedded-product",
+      "role": "product-hero",
       "sha256": "03645e51f651e191d28f311a132e6c470b2d697edcb929cda59bc265e9b5869b",
       "bytes": 136610,
-      "discovered_at": "2026-08-19T20:06:34Z"
+      "discovered_at": "2026-08-19T22:24:32Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/img/masonite/4ekvw2v29h/exact/DR-BLS-X-X-X-2P-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp"
+      ],
+      "product_ids": [
+        "masonite:cheyenne"
+      ],
+      "collections": [],
+      "scope": "product"
     },
     {
       "supplier": "masonite",
       "source_page_urls": [
-        "https://www.masonite.com/doors/exterior/"
+        "https://www.masonite.com/api/plp/search/528?pageNumber=1"
       ],
       "original_asset_url": "https://embed.widencdn.net/img/masonite/tmqflzgpmp/exact/DR-BLS-X-X-X-6P-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "final_asset_url": "https://embed.widencdn.net/img/masonite/tmqflzgpmp/exact/DR-BLS-X-X-X-6P-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "local_path": "/images/catalog/masonite/dr-bls-x-x-x-6p-x-36-80-closed-frontal-13e91d96de34.webp",
       "asset_type": "image",
-      "role": "embedded-product",
+      "role": "product-hero",
       "sha256": "e2544e088f992d66d0f7ce73c75b50db5a3869839477c6dcd87679d1a658da24",
       "bytes": 138194,
-      "discovered_at": "2026-08-19T20:06:34Z"
+      "discovered_at": "2026-08-19T22:24:32Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/img/masonite/tmqflzgpmp/exact/DR-BLS-X-X-X-6P-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp"
+      ],
+      "product_ids": [
+        "masonite:6-panel"
+      ],
+      "collections": [],
+      "scope": "product"
     },
     {
       "supplier": "masonite",
       "source_page_urls": [
-        "https://www.masonite.com/doors/exterior/"
+        "https://www.masonite.com/api/plp/search/528?pageNumber=1",
+        "https://www.masonite.com/api/plp/search/528?pageNumber=2"
       ],
       "original_asset_url": "https://embed.widencdn.net/img/masonite/dhgdykfjyk/exact/DR-FG-682-C5S-5S-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "final_asset_url": "https://embed.widencdn.net/img/masonite/dhgdykfjyk/exact/DR-FG-682-C5S-5S-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "local_path": "/images/catalog/masonite/dr-fg-682-c5s-5s-36-80-closed-frontal-d29729c2a6ad.webp",
       "asset_type": "image",
-      "role": "embedded-product",
+      "role": "product-hero",
       "sha256": "97134f8c36d9b15de350f5102de563cc4ce04b72de4f241f9c316a0e12e4c1a9",
       "bytes": 135086,
-      "discovered_at": "2026-08-19T20:06:35Z"
+      "discovered_at": "2026-08-19T22:24:32Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/img/masonite/3skvmudbmt/exact/DR-SHD-682-140-5-C5S-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
+        "https://embed.widencdn.net/img/masonite/dhgdykfjyk/exact/DR-FG-682-C5S-5S-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp"
+      ],
+      "product_ids": [
+        "masonite:flush-5-square-lite",
+        "masonite:flush-5-square-lite-steel"
+      ],
+      "collections": [],
+      "scope": "product"
     },
     {
       "supplier": "masonite",
       "source_page_urls": [
-        "https://www.masonite.com/doors/exterior/"
+        "https://www.masonite.com/api/plp/search/528?pageNumber=1"
       ],
       "original_asset_url": "https://embed.widencdn.net/img/masonite/olcjhmwume/exact/DR-FG-228-4E-4S-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "final_asset_url": "https://embed.widencdn.net/img/masonite/olcjhmwume/exact/DR-FG-228-4E-4S-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "local_path": "/images/catalog/masonite/dr-fg-228-4e-4s-80-closed-frontal-e0c1197675bd.webp",
       "asset_type": "image",
-      "role": "embedded-product",
+      "role": "product-hero",
       "sha256": "e72df08b2840b008334d02c7eafcfa2e164e09703f1c55dbd4e59e8851e15662",
       "bytes": 108664,
-      "discovered_at": "2026-08-19T20:06:35Z"
+      "discovered_at": "2026-08-19T22:24:33Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/img/masonite/olcjhmwume/exact/DR-FG-228-4E-4S-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp"
+      ],
+      "product_ids": [
+        "masonite:4-lite-equal"
+      ],
+      "collections": [],
+      "scope": "product"
     },
     {
       "supplier": "masonite",
       "source_page_urls": [
-        "https://www.masonite.com/doors/exterior/"
+        "https://www.masonite.com/api/plp/search/528?pageNumber=1"
       ],
       "original_asset_url": "https://embed.widencdn.net/img/masonite/mp7jcgyw5x/exact/DR-FG-151-FCL-1-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "final_asset_url": "https://embed.widencdn.net/img/masonite/mp7jcgyw5x/exact/DR-FG-151-FCL-1-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "local_path": "/images/catalog/masonite/dr-fg-151-fcl-1-80-closed-frontal-6f5e3574c465.webp",
       "asset_type": "image",
-      "role": "embedded-product",
+      "role": "product-hero",
       "sha256": "859ef3cb29bea7cc8ac70e8e010cbc54628639f8b7800fa9bdf0d19e06c9ce33",
       "bytes": 102384,
-      "discovered_at": "2026-08-19T20:06:35Z"
+      "discovered_at": "2026-08-19T22:24:33Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/img/masonite/mp7jcgyw5x/exact/DR-FG-151-FCL-1-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp"
+      ],
+      "product_ids": [
+        "masonite:flush-1-lite"
+      ],
+      "collections": [],
+      "scope": "product"
     },
     {
       "supplier": "masonite",
       "source_page_urls": [
-        "https://www.masonite.com/doors/exterior/"
+        "https://www.masonite.com/api/plp/search/528?pageNumber=1"
       ],
       "original_asset_url": "https://embed.widencdn.net/img/masonite/k55qmskuqm/exact/DR-BLS-228-140-1-4P-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "final_asset_url": "https://embed.widencdn.net/img/masonite/k55qmskuqm/exact/DR-BLS-228-140-1-4P-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "local_path": "/images/catalog/masonite/dr-bls-228-140-1-4p-x-36-80-closed-frontal-178973e2274e.webp",
       "asset_type": "image",
-      "role": "embedded-product",
+      "role": "product-hero",
       "sha256": "051b3cc71a888f44885d7e456facbd6a5089db39661ab3babe6b3809cbf71f22",
       "bytes": 137972,
-      "discovered_at": "2026-08-19T20:06:35Z"
+      "discovered_at": "2026-08-19T22:24:33Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/img/masonite/k55qmskuqm/exact/DR-BLS-228-140-1-4P-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp"
+      ],
+      "product_ids": [
+        "masonite:4-panel-1-4-lite"
+      ],
+      "collections": [],
+      "scope": "product"
     },
     {
       "supplier": "masonite",
       "source_page_urls": [
-        "https://www.masonite.com/doors/exterior/"
+        "https://www.masonite.com/api/plp/search/528?pageNumber=1"
       ],
       "original_asset_url": "https://embed.widencdn.net/img/masonite/f7gz5onans/exact/DR-FG-106-2PHL-1-80_closed_frontal%20%281%29.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "final_asset_url": "https://embed.widencdn.net/img/masonite/f7gz5onans/exact/DR-FG-106-2PHL-1-80_closed_frontal%20%281%29.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
       "local_path": "/images/catalog/masonite/dr-fg-106-2phl-1-80-closed-frontal-20-281-29-ae3715090f71.webp",
       "asset_type": "image",
-      "role": "embedded-product",
+      "role": "product-hero",
       "sha256": "3ccdd92babc74a4ab10d4de70cb9c26a5921c329165510c2a2fdcb59adce242c",
       "bytes": 105736,
-      "discovered_at": "2026-08-19T20:06:35Z"
+      "discovered_at": "2026-08-19T22:24:33Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/img/masonite/f7gz5onans/exact/DR-FG-106-2PHL-1-80_closed_frontal%20%281%29.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp"
+      ],
+      "product_ids": [
+        "masonite:2-panel-1-2-lite"
+      ],
+      "collections": [],
+      "scope": "product"
+    },
+    {
+      "supplier": "masonite",
+      "source_page_urls": [
+        "https://www.masonite.com/api/plp/search/528?pageNumber=2"
+      ],
+      "original_asset_url": "https://embed.widencdn.net/img/masonite/a6pyazdjxy/exact/DR-MHD-404-140-1-1P-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
+      "final_asset_url": "https://embed.widencdn.net/img/masonite/a6pyazdjxy/exact/DR-MHD-404-140-1-1P-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
+      "local_path": "/images/catalog/masonite/dr-mhd-404-140-1-1p-x-36-80-closed-frontal-fd4930212796.webp",
+      "asset_type": "image",
+      "role": "product-hero",
+      "sha256": "fad60aeb11d510bf31357c241c07ae2de75e5de581f26573763422404b6edc73",
+      "bytes": 139464,
+      "discovered_at": "2026-08-19T22:24:33Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/img/masonite/a6pyazdjxy/exact/DR-MHD-404-140-1-1P-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp"
+      ],
+      "product_ids": [
+        "masonite:2-panel-hollister-steel"
+      ],
+      "collections": [],
+      "scope": "product"
+    },
+    {
+      "supplier": "masonite",
+      "source_page_urls": [
+        "https://www.masonite.com/api/plp/search/528?pageNumber=2"
+      ],
+      "original_asset_url": "https://embed.widencdn.net/img/masonite/mdqebedryu/exact/DR-MHD-X-X-X-2P-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
+      "final_asset_url": "https://embed.widencdn.net/img/masonite/mdqebedryu/exact/DR-MHD-X-X-X-2P-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
+      "local_path": "/images/catalog/masonite/dr-mhd-x-x-x-2p-x-36-80-closed-frontal-33a2eea14a60.webp",
+      "asset_type": "image",
+      "role": "product-hero",
+      "sha256": "76b65aa828dc4302b4a31c5fbcaa9c9401ccec4a7ad6af24692d243166629590",
+      "bytes": 107778,
+      "discovered_at": "2026-08-19T22:24:33Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/img/masonite/mdqebedryu/exact/DR-MHD-X-X-X-2P-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp"
+      ],
+      "product_ids": [
+        "masonite:square-2-panel-steel"
+      ],
+      "collections": [],
+      "scope": "product"
+    },
+    {
+      "supplier": "masonite",
+      "source_page_urls": [
+        "https://www.masonite.com/api/plp/search/528?pageNumber=2"
+      ],
+      "original_asset_url": "https://embed.widencdn.net/img/masonite/cd1yrefhkt/exact/dr-st-217-3e-3-80_closed%20frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
+      "final_asset_url": "https://embed.widencdn.net/img/masonite/cd1yrefhkt/exact/dr-st-217-3e-3-80_closed%20frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
+      "local_path": "/images/catalog/masonite/dr-st-217-3e-3-80-closed-20frontal-32108df6833a.webp",
+      "asset_type": "image",
+      "role": "product-hero",
+      "sha256": "750360f6264951d65d5136e98fda80d1d33a0a38cc1d8daa02e9fe1631b50309",
+      "bytes": 15548,
+      "discovered_at": "2026-08-19T22:24:33Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/img/masonite/cd1yrefhkt/exact/dr-st-217-3e-3-80_closed%20frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp"
+      ],
+      "product_ids": [
+        "masonite:3-panel-equal-steel"
+      ],
+      "collections": [],
+      "scope": "product"
+    },
+    {
+      "supplier": "masonite",
+      "source_page_urls": [
+        "https://www.masonite.com/api/plp/search/528?pageNumber=2"
+      ],
+      "original_asset_url": "https://embed.widencdn.net/img/masonite/7r7hmkw6eh/exact/DR-MHD-122-140-1-FL-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
+      "final_asset_url": "https://embed.widencdn.net/img/masonite/7r7hmkw6eh/exact/DR-MHD-122-140-1-FL-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
+      "local_path": "/images/catalog/masonite/dr-mhd-122-140-1-fl-x-36-80-closed-frontal-f965e13ef4d4.webp",
+      "asset_type": "image",
+      "role": "product-hero",
+      "sha256": "aad31f72005b97aa6330cc8b6bd5753bdd74767d78d43e4e51a038128fb75df3",
+      "bytes": 138862,
+      "discovered_at": "2026-08-19T22:24:33Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/img/masonite/7r7hmkw6eh/exact/DR-MHD-122-140-1-FL-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp"
+      ],
+      "product_ids": [
+        "masonite:full-lite-steel"
+      ],
+      "collections": [],
+      "scope": "product"
+    },
+    {
+      "supplier": "masonite",
+      "source_page_urls": [
+        "https://www.masonite.com/api/plp/search/528?pageNumber=2"
+      ],
+      "original_asset_url": "https://embed.widencdn.net/img/masonite/zxpwx0tusw/exact/DR-MHD-228-140-4-4E-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
+      "final_asset_url": "https://embed.widencdn.net/img/masonite/zxpwx0tusw/exact/DR-MHD-228-140-4-4E-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
+      "local_path": "/images/catalog/masonite/dr-mhd-228-140-4-4e-x-36-80-closed-frontal-416222f12d06.webp",
+      "asset_type": "image",
+      "role": "product-hero",
+      "sha256": "7c590565a1b16fd006d32e1c495941a456fde2ab505dc371d11f3e75fc2ca580",
+      "bytes": 147300,
+      "discovered_at": "2026-08-19T22:24:33Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/img/masonite/zxpwx0tusw/exact/DR-MHD-228-140-4-4E-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp"
+      ],
+      "product_ids": [
+        "masonite:flush-4-lite-equal-steel"
+      ],
+      "collections": [],
+      "scope": "product"
+    },
+    {
+      "supplier": "masonite",
+      "source_page_urls": [
+        "https://www.masonite.com/api/plp/search/528?pageNumber=2"
+      ],
+      "original_asset_url": "https://embed.widencdn.net/img/masonite/wji15ors2z/exact/DR-MHD-151-140-1-FCL-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
+      "final_asset_url": "https://embed.widencdn.net/img/masonite/wji15ors2z/exact/DR-MHD-151-140-1-FCL-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
+      "local_path": "/images/catalog/masonite/dr-mhd-151-140-1-fcl-x-36-80-closed-frontal-74499059ca46.webp",
+      "asset_type": "image",
+      "role": "product-hero",
+      "sha256": "e733d4c1d4c0baa1f9fd3371b55094f622cf5eacfa7503e333371bcb6659249c",
+      "bytes": 107484,
+      "discovered_at": "2026-08-19T22:24:33Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/img/masonite/wji15ors2z/exact/DR-MHD-151-140-1-FCL-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp"
+      ],
+      "product_ids": [
+        "masonite:flush-1-lite-steel"
+      ],
+      "collections": [],
+      "scope": "product"
+    },
+    {
+      "supplier": "masonite",
+      "source_page_urls": [
+        "https://www.masonite.com/api/plp/search/528?pageNumber=2"
+      ],
+      "original_asset_url": "https://embed.widencdn.net/img/masonite/prny3m76zk/exact/DR-ST-X-CHEY-X-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
+      "final_asset_url": "https://embed.widencdn.net/img/masonite/prny3m76zk/exact/DR-ST-X-CHEY-X-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
+      "local_path": "/images/catalog/masonite/dr-st-x-chey-x-80-closed-frontal-30c2d6ba05d5.webp",
+      "asset_type": "image",
+      "role": "product-hero",
+      "sha256": "4eb9ec879c3654eba0034ea22dd0bd39b550fdf921be608f23ec0d591be4172a",
+      "bytes": 105066,
+      "discovered_at": "2026-08-19T22:24:33Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/img/masonite/prny3m76zk/exact/DR-ST-X-CHEY-X-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp"
+      ],
+      "product_ids": [
+        "masonite:cheyenne-steel"
+      ],
+      "collections": [],
+      "scope": "product"
+    },
+    {
+      "supplier": "masonite",
+      "source_page_urls": [
+        "https://www.masonite.com/api/plp/search/528?pageNumber=2"
+      ],
+      "original_asset_url": "https://embed.widencdn.net/img/masonite/bu3xlk4dsj/exact/DR-MHD-X-X-X-6P-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
+      "final_asset_url": "https://embed.widencdn.net/img/masonite/bu3xlk4dsj/exact/DR-MHD-X-X-X-6P-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
+      "local_path": "/images/catalog/masonite/dr-mhd-x-x-x-6p-x-36-80-closed-frontal-549670dd561d.webp",
+      "asset_type": "image",
+      "role": "product-hero",
+      "sha256": "11a1cb796294b09e965cdbf0048aa4339f3e51d4bb29b822838bc421de455ff7",
+      "bytes": 108466,
+      "discovered_at": "2026-08-19T22:24:33Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/img/masonite/bu3xlk4dsj/exact/DR-MHD-X-X-X-6P-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp"
+      ],
+      "product_ids": [
+        "masonite:6-panel-steel"
+      ],
+      "collections": [],
+      "scope": "product"
+    },
+    {
+      "supplier": "masonite",
+      "source_page_urls": [
+        "https://www.masonite.com/api/plp/search/528?pageNumber=2"
+      ],
+      "original_asset_url": "https://embed.widencdn.net/img/masonite/4i15mj2zea/exact/DR-MHD-106-140-1-2P-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
+      "final_asset_url": "https://embed.widencdn.net/img/masonite/4i15mj2zea/exact/DR-MHD-106-140-1-2P-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
+      "local_path": "/images/catalog/masonite/dr-mhd-106-140-1-2p-x-36-80-closed-frontal-4784db0cf2a2.webp",
+      "asset_type": "image",
+      "role": "product-hero",
+      "sha256": "643fb6568eda996ae4db2d8bc95ce11a05567e21912cf692ee089624a9cf0679",
+      "bytes": 137472,
+      "discovered_at": "2026-08-19T22:24:34Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/img/masonite/4i15mj2zea/exact/DR-MHD-106-140-1-2P-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp"
+      ],
+      "product_ids": [
+        "masonite:2-panel-1-2-lite-steel"
+      ],
+      "collections": [],
+      "scope": "product"
+    },
+    {
+      "supplier": "masonite",
+      "source_page_urls": [
+        "https://www.masonite.com/api/plp/search/528?pageNumber=2"
+      ],
+      "original_asset_url": "https://embed.widencdn.net/img/masonite/ew7dazv3ak/exact/DR-MHD-228-140-1-4P-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
+      "final_asset_url": "https://embed.widencdn.net/img/masonite/ew7dazv3ak/exact/DR-MHD-228-140-1-4P-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp",
+      "local_path": "/images/catalog/masonite/dr-mhd-228-140-1-4p-x-36-80-closed-frontal-cf3d94dd1c5d.webp",
+      "asset_type": "image",
+      "role": "product-hero",
+      "sha256": "8d9218ef30912703e3ef7b26ab4053549d3d5935024acedceeef808b5ddf028f",
+      "bytes": 108320,
+      "discovered_at": "2026-08-19T22:24:34Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/img/masonite/ew7dazv3ak/exact/DR-MHD-228-140-1-4P-X-36-80_closed_frontal.webp?color=ffffff00&crop=no&position=c&quality=80&u=a98wgp"
+      ],
+      "product_ids": [
+        "masonite:4-panel-1-4-lite-steel"
+      ],
+      "collections": [],
+      "scope": "product"
+    },
+    {
+      "supplier": "masonite",
+      "source_page_urls": [
+        "https://www.masonite.com/for-pros/resources/"
+      ],
+      "original_asset_url": "https://embed.widencdn.net/pdf/plus/masonite/tasnzm0e6g/smooth-68-22f30c9b80531168168625ff0200ddc435.pdf",
+      "final_asset_url": "https://cf-store.widencdn.net/masonite/0/d/5/0d5ab583-ccb5-4a95-bacf-489a771836c9.pdf?Expires=1787188853&Key-Pair-Id=APKAJD5XONOBVWWOA65A&Signature=f00A24dxT6cujUiYQe6qqepqgm9rl5p0tl8MFoQPluMghzB0rw-g2g3qYfTpJiwJ8AXrvPcUx2xS50qa-jMvC6lC3ZUT9gD5R65A9ldu4KcoAd9QWxwvmjHdH3ZShncoGbL5cr0uMQDBVjL4bZ4u8QNf8NlABKQAS4gJOHy0aJSgGlX-GRSca9L5MqbKxTGAQ7fX4gnK3XOcO4t6A4RLi7TyPHvabQ6RZQUmx5A98hoasSio~GnX4JgaCZaif2OTk6fovQG2IoVJSdVa7JAl3msIGGBY5IVCYbjIOBlbUUGB6EC6gDP5iJTq-xjiRGpS-AGWeJvWsEZUmskJRR-RpA__&response-content-disposition=attachment%3B+filename%3D%22tech-manuals-sta-tru-hd-steel-68and70.pdf%22",
+      "local_path": "/documents/catalog/masonite/smooth-68-22f30c9b80531168168625ff0200ddc435-8569c13c8d81.pdf",
+      "asset_type": "document",
+      "role": "specification-sheet",
+      "sha256": "681c4ee35c603132e3180b2aac09efe7c6269ad5c2ae7905e5b5e6fd8452e9cd",
+      "bytes": 2884801,
+      "discovered_at": "2026-08-19T22:24:34Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/pdf/plus/masonite/tasnzm0e6g/smooth-68-22f30c9b80531168168625ff0200ddc435.pdf",
+        "https://embed.widencdn.net/download/masonite/tasnzm0e6g/smooth-68-22f30c9b80531168168625ff0200ddc435.pdf"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier"
+    },
+    {
+      "supplier": "masonite",
+      "source_page_urls": [
+        "https://www.masonite.com/for-pros/resources/"
+      ],
+      "original_asset_url": "https://embed.widencdn.net/pdf/plus/masonite/j6hciv1akc/3-1hdsteel80.pdf",
+      "final_asset_url": "https://cf-store.widencdn.net/masonite/6/e/7/6e7b5cc4-d56e-41c5-97ce-0153f4f9dd95.pdf?Expires=1787188855&Key-Pair-Id=APKAJD5XONOBVWWOA65A&Signature=MjPABrHXkzIQ60wxr6-D~p5WaPEzEFWQypmSgFz1DraerVB4DS7QXgt2GqQ3wPuo0vXS2DEXvgBC3zYOUbtnaW7yinMuC8iKNWMj5MyVLT3ifzaeUYhfJ6ao759dxX8aK~MXKZAUT0xUGeopxJIzYDID447-cbOz-qve~fyyX-iBl82BY7EPkB3SfW6-fmH4407P9swvEiZ~J0d6U30l1Wr0K0r3mVATxK~vID4umxgwXf3ZBftb-KKEOt25fQGzbuSOWHhBCCerNFOA9eVtotxCE20IpD8lNI1Ikbyre~jRFdfHKtuHO6nVG3uGBS3OonoUDz4kKZrobxC7iHRXSg__&response-content-disposition=attachment%3B+filename%3D%22tech-manuals-sta-tru-hd-steel-80.pdf%22",
+      "local_path": "/documents/catalog/masonite/3-1hdsteel80-2235286a8473.pdf",
+      "asset_type": "document",
+      "role": "specification-sheet",
+      "sha256": "8136a30065fc9d63118d681834d1da1fea79bb8e8dd196d82b9362eea7f94d67",
+      "bytes": 1333182,
+      "discovered_at": "2026-08-19T22:24:34Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/pdf/plus/masonite/j6hciv1akc/3-1hdsteel80.pdf",
+        "https://embed.widencdn.net/download/masonite/j6hciv1akc/3-1hdsteel80.pdf"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier"
+    },
+    {
+      "supplier": "masonite",
+      "source_page_urls": [
+        "https://www.masonite.com/for-pros/resources/"
+      ],
+      "original_asset_url": "https://embed.widencdn.net/pdf/plus/masonite/xwi5b0xgia/wood-edge-hardware-locations.pdf",
+      "final_asset_url": "https://cf-store.widencdn.net/masonite/f/2/d/f2d88f38-48f4-41a9-ac28-6929115a48ed.pdf?Expires=1787188857&Key-Pair-Id=APKAJD5XONOBVWWOA65A&Signature=DJfPS4ZrlOPgopIHoWD9o8cfQ4vdfnDXHB9NSvSnXrxft1ttzQ8cPt4KDhoAtoHJc~2OCNbPQfRFHgKD-JA~VZZXfr90LpH9vn72EvuNM0qLcrNjx3B8J9Au5YpXgGdYpC1IHPcFMd~tZf6wFJNAHD96rUXXC0jMoYJvkdeUmzgmCZOxgSCO7Yl226c4zhSYjnWMvhJ~3VgsWk7Qiqdjgtudgqj9UvVXfPFm14HzvZB98FqeEpbZ-gdjCcFwWMVVhv9zROZJxG2Y7EhafK7k7WScSO63NoM37etiQXm~K8wbST1jiNuAqNsUJzBcJYulOBH6yEzh-~74~nnwmMfKxQ__&response-content-disposition=attachment%3B+filename%3D%22wood-edge-and-steel-edge-hardware-locations.pdf%22",
+      "local_path": "/documents/catalog/masonite/wood-edge-hardware-locations-8dd677cf7502.pdf",
+      "asset_type": "document",
+      "role": "specification-sheet",
+      "sha256": "d6d05f4b37edd8f47813a463726e1496cc8d7554c0ec150e7d4f6d04768ea25f",
+      "bytes": 1255454,
+      "discovered_at": "2026-08-19T22:24:34Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/pdf/plus/masonite/xwi5b0xgia/wood-edge-hardware-locations.pdf",
+        "https://embed.widencdn.net/download/masonite/xwi5b0xgia/wood-edge-hardware-locations.pdf"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier"
+    },
+    {
+      "supplier": "masonite",
+      "source_page_urls": [
+        "https://www.masonite.com/for-pros/resources/"
+      ],
+      "original_asset_url": "https://embed.widencdn.net/pdf/plus/masonite/03tddnkeoi/premdoor-spec-steel.pdf",
+      "final_asset_url": "https://cf-store.widencdn.net/masonite/c/6/6/c66a880f-74df-4465-abe8-748cd6c47311.pdf?Expires=1787188859&Key-Pair-Id=APKAJD5XONOBVWWOA65A&Signature=fJF0teiM4QB6TmWFNeVFwidOkHk88r7vjQIhoZHtowbfH3kZb8-sQYixUu2c~Tv9WOjVX6kvEZcF7Fh2sZR3SfTFn0f8At4TM8ujUkuj2WLZ7CYwrEV-aXuYkRhzYNDuWl3aAO7Lk5U7XwITiz2dPOOMpzrjSrKRjL-K08ihkq6515wpdaz67ZSRJr4fYJXZN4mcRAyf-l-J-CmBV8fm7RrOqIDzS2WANhLl95~wVREmKk2GnNbw25ET5Y83YfjK6ME-pG-EusW4sCWrSEfg75L5APvHsj0ggnEC0KPzW7OuREhxqHoDjM-1dFpyx8--gKN0sr74iR5ZC-SO-XsxKA__&response-content-disposition=attachment%3B+filename%3D%22tech-manuals-premdoor-spec-steel-doors.pdf%22",
+      "local_path": "/documents/catalog/masonite/premdoor-spec-steel-a4aedd720146.pdf",
+      "asset_type": "document",
+      "role": "specification-sheet",
+      "sha256": "dfd34edeb665787d77c771e27197419d13caeb556e0700d5eced0ef2204213f4",
+      "bytes": 140939,
+      "discovered_at": "2026-08-19T22:24:35Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/pdf/plus/masonite/03tddnkeoi/premdoor-spec-steel.pdf",
+        "https://embed.widencdn.net/download/masonite/03tddnkeoi/premdoor-spec-steel.pdf"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier"
+    },
+    {
+      "supplier": "masonite",
+      "source_page_urls": [
+        "https://www.masonite.com/for-pros/resources/"
+      ],
+      "original_asset_url": "https://embed.widencdn.net/pdf/plus/masonite/byy882pzyp/5-block-option.pdf",
+      "final_asset_url": "https://cf-store.widencdn.net/masonite/0/9/3/093ef312-e309-4299-a0e8-865e6775d871.pdf?Expires=1787188862&Key-Pair-Id=APKAJD5XONOBVWWOA65A&Signature=mDXor-POgBkJGMimyV5WdADWnd6NODQxrD8al6xWNGFVCMVMZ6RmWaCzL87guE~3KWa-MjKaq9ApE3aVBdSqUFWSxTrXbN49VivvIIhv5o3TuPmrF~ePirpqYbmGm8H49Co7YbzA3L8CX26bU9JgdmZeUxMmc3LiFMGFITPhnz6-LG0h3tTJya~TLSThB-9QVUJeuCViCoxNsSrGa8ZVT2HIPNXWaS4s9bcRUaCRcb~fO6r1HHMzNuytxWlL1GY5ozPu6JVLy6FLLwC0zpTaejIZLzKWHvUDMWs0lP6Vn8k4ziRvvXty-nkHiQgFvkAzzYDCmvRoUWzo2WwskBvvKw__&response-content-disposition=attachment%3B+filename%3D%22tech-manuals-5-block-option.pdf%22",
+      "local_path": "/documents/catalog/masonite/5-block-option-230b17a24aa0.pdf",
+      "asset_type": "document",
+      "role": "specification-sheet",
+      "sha256": "a2214ee96a517c603cb8bfee6733743a8a5420d3f07adc8dfe143c7237f61e5b",
+      "bytes": 252073,
+      "discovered_at": "2026-08-19T22:24:35Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/pdf/plus/masonite/byy882pzyp/5-block-option.pdf",
+        "https://embed.widencdn.net/download/masonite/byy882pzyp/5-block-option.pdf"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier"
+    },
+    {
+      "supplier": "masonite",
+      "source_page_urls": [
+        "https://www.masonite.com/for-pros/resources/"
+      ],
+      "original_asset_url": "https://embed.widencdn.net/pdf/plus/masonite/5lhllkouvi/standard-block-option.pdf",
+      "final_asset_url": "https://cf-store.widencdn.net/masonite/e/1/1/e114cbfe-e2c1-4198-80a4-703f8f4761e5.pdf?Expires=1787188864&Key-Pair-Id=APKAJD5XONOBVWWOA65A&Signature=GXhFV6ISIURJ2IeB7JXInvR6hV1PAYkZFsGXhTyXM7txrG6c89JNuLhZ~MF-zv2YB8Mso-jjv9hNCI6GfVWR4miRElGl~wOqXV8JDhBYOuCukmBNuedGThGGbdxw97Aqo6sppxqLlvvKUJ0CWUs6QXHly9wJW37HPZXZmYgUQnQ0eie1pCRGaAK6kiys8TmnY6ZlnnuBlYjRCyxq0eCKmAXP2IHVYqm-1XHpscMpngyY~nCGTKoeBY2-WaaE2ZcArr6V9F6ow-Ukw1eJVEqc-Zo11ze15JytI07nWEKM8SS5YQT7l-ijpid9XK-2pfl2LLZpZlo2W7GKturq-5UuPQ__&response-content-disposition=attachment%3B+filename%3D%22tech-manuals-standard-lock-block-option.pdf%22",
+      "local_path": "/documents/catalog/masonite/standard-block-option-5b2f4aad640a.pdf",
+      "asset_type": "document",
+      "role": "specification-sheet",
+      "sha256": "25dade0445b22d72448b659bacc85826ee2d43366bbca7a82ca8eb4615eee2f6",
+      "bytes": 17090,
+      "discovered_at": "2026-08-19T22:24:35Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/pdf/plus/masonite/5lhllkouvi/standard-block-option.pdf",
+        "https://embed.widencdn.net/download/masonite/5lhllkouvi/standard-block-option.pdf"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier"
+    },
+    {
+      "supplier": "masonite",
+      "source_page_urls": [
+        "https://www.masonite.com/for-pros/resources/"
+      ],
+      "original_asset_url": "https://embed.widencdn.net/pdf/plus/masonite/zrx25lbu3t/steel3-2_68.pdf",
+      "final_asset_url": "https://cf-store.widencdn.net/masonite/1/e/c/1ec677e8-72d0-4480-bd0c-705b1bffcea0.pdf?Expires=1787188866&Key-Pair-Id=APKAJD5XONOBVWWOA65A&Signature=J3Do-Qk-7~TO5EWTYLYHo9KGfc0TfM2gvOSMgJDdqVNOLExALhNZorPOFC62YvixGAUlTfCBDlZX~25YZoVVmd3gjmvHiPJnTWYGQJCU63BxgXH5XwyYvC6osPzsmL3BfjK6rcTOvXgee1vVXAgwJCLemKy2ChsFOTc3YPfdHKPyLluYMvN0GKfIamdwiGQdowONelmSW4Ubs7~~SFnzDP0lwfb0pZYi44lvgSXd~hzrfEwTzz0RYgG3dFTKgH1eXENtlkWJmC~1zsJiH8bGxxBkG-h02zKEVYF6ur8SJQGblpX68X2gcS-4RLYE6hYb-75vdal4Xqwd5ukUtVHMwQ__&response-content-disposition=attachment%3B+filename%3D%22tech-manuals-hd-steel-68and70.pdf%22",
+      "local_path": "/documents/catalog/masonite/steel3-2-68-d9f212475a18.pdf",
+      "asset_type": "document",
+      "role": "specification-sheet",
+      "sha256": "ac135bf65e1ee3f5ed26d31980e5d75537bfb4e26adc0ed6f29f4d185bba0871",
+      "bytes": 2204464,
+      "discovered_at": "2026-08-19T22:24:35Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/pdf/plus/masonite/zrx25lbu3t/steel3-2_68.pdf",
+        "https://embed.widencdn.net/download/masonite/zrx25lbu3t/steel3-2_68.pdf"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier"
+    },
+    {
+      "supplier": "masonite",
+      "source_page_urls": [
+        "https://www.masonite.com/for-pros/resources/"
+      ],
+      "original_asset_url": "https://embed.widencdn.net/pdf/plus/masonite/viidqfnuky/Masonite-Specialty-Glass-80.pdf",
+      "final_asset_url": "https://cf-store.widencdn.net/masonite/2/1/b/21b2821a-52e3-4ab1-bfe7-5108a88162df.pdf?Expires=1787188867&Key-Pair-Id=APKAJD5XONOBVWWOA65A&Signature=N5kdBr3h5K421Y7DCoR7EWOlrDdbHntV2xz58F0w9xyHpMapiNjttKVBUjbwN8U6Sw32HQeRbV7vK3ZWWHNoLXTRqXAG2j4QWRNqNUErgNGkSKzZdPWyq7of2FqXrt~T1PmhCRmPIBq~Vkj7Btn7PUNusOLfR-kbdTMTrXXXvnq5FYFmH8lnyv-C9nKa1QpZA4idz8hz7FCpGja-2b-X5gpQAXJdzXvlzNeTZdc60X0ar5ny5ftPJOo4giaUcSq2GeEcZeV7ziPOV4sGrrGKm7F7MgsGHt4dP0oTG6y~NqSJFCHNF7pfXEftCI8GhrNira0Z7cMc~Io75FrdbWWnIQ__&response-content-disposition=attachment%3B+filename%3D%22tech-manuals-masonite-specialty-glass-80.pdf%22",
+      "local_path": "/documents/catalog/masonite/masonite-specialty-glass-80-b699f1a17811.pdf",
+      "asset_type": "document",
+      "role": "specification-sheet",
+      "sha256": "efbf522831010ca3c9fab4191ba1560411ea04e8a592268ce91e4e8697279d52",
+      "bytes": 3331394,
+      "discovered_at": "2026-08-19T22:24:35Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/pdf/plus/masonite/viidqfnuky/Masonite-Specialty-Glass-80.pdf",
+        "https://embed.widencdn.net/download/masonite/viidqfnuky/Masonite-Specialty-Glass-80.pdf"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier"
+    },
+    {
+      "supplier": "masonite",
+      "source_page_urls": [
+        "https://www.masonite.com/for-pros/resources/"
+      ],
+      "original_asset_url": "https://embed.widencdn.net/pdf/plus/masonite/wedzcn4uks/Masonite-Specialty-Glass-68.pdf",
+      "final_asset_url": "https://cf-store.widencdn.net/masonite/6/5/b/65b25fe3-1cdb-4246-b8f7-3fba4bd40e6c.pdf?Expires=1787188869&Key-Pair-Id=APKAJD5XONOBVWWOA65A&Signature=buXrAhkLGIPUBXL2KfqemctdS58fR0iKBeJi20VGdbXVyqQtJwiybTAway0GSGTaULPKjnV8HKMAGkTy9Hqx3rSMG~mxy5~aFxEG-d7UgFsoROdQfLJJBMv0ukN1jsrOHlxcsFWiBsGzE-xLDbajyE2o0w002Bee9IByuSlIMJsPh0D4xmP7EzNIpQodhaM9lXd~xzSh2JVcZ45gP67Q6MveUioJJ6c~huJbA-MN5o1DxDHm9smc7gJ4h6xMBkkynrT7Tj2g5sv9RrjvP6Uz0BgJC4s5s9B-AakIMGrNigacGdzDyM7sWHJYzE0aPaMMCJP9fD4T5Cl~V5~3UIjjew__&response-content-disposition=attachment%3B+filename%3D%22tech-manuals-masonite-specialty-glass-68.pdf%22",
+      "local_path": "/documents/catalog/masonite/masonite-specialty-glass-68-5fc44edd44a4.pdf",
+      "asset_type": "document",
+      "role": "specification-sheet",
+      "sha256": "588c8dbc5b59b8c4e0a36cf1814e3200c38893f4505027dab20250fe7d5a3382",
+      "bytes": 6716721,
+      "discovered_at": "2026-08-19T22:24:35Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/pdf/plus/masonite/wedzcn4uks/Masonite-Specialty-Glass-68.pdf",
+        "https://embed.widencdn.net/download/masonite/wedzcn4uks/Masonite-Specialty-Glass-68.pdf"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier"
+    },
+    {
+      "supplier": "masonite",
+      "source_page_urls": [
+        "https://www.masonite.com/for-pros/resources/"
+      ],
+      "original_asset_url": "https://embed.widencdn.net/pdf/plus/masonite/wswzyzi7xo/steel.pdf",
+      "final_asset_url": "https://cf-store.widencdn.net/masonite/3/e/9/3e91b37f-abce-4998-af87-7486521eb981.pdf?Expires=1787188871&Key-Pair-Id=APKAJD5XONOBVWWOA65A&Signature=RpId8W4wE3-HJs7pImXpHHG3U-Vabodaax1FFVGpZxpKBq4RB7pMHvxHz4JLTxf53k-QU0FqUz9Pf3-bEhjBo59ccEQ3emdQbonQ0IK1MXAQTRgC6N2li9dnfVetUvwxXBzvHrLmYWQCKbU2YVr4aGcYlPvvZjAAJEm0k559bhSEHxdUQfjgeM-qoDbj15038qSzSK1oyXadDtmgOMZp44aAURrktp2vLBwNz~GtGcYy~-aHQK6LSw-hMPvMZG5bzoLCmOrdX269RdNJqkqH76nwDhZSywb8JmDDjT0eVhvGLLOX3EsJMe8g-aAyQdQf1aNet9wwZ7xzm7YCKNdglA__&response-content-disposition=attachment%3B+filename%3D%22tech-manuals-utility-steel.pdf%22",
+      "local_path": "/documents/catalog/masonite/steel-01838f5ec37b.pdf",
+      "asset_type": "document",
+      "role": "specification-sheet",
+      "sha256": "250e6d8c3e34a03828ca6937ba8cdae33f943fb8c37e2bb5244b41e3bf994113",
+      "bytes": 303842,
+      "discovered_at": "2026-08-19T22:24:36Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/pdf/plus/masonite/wswzyzi7xo/steel.pdf",
+        "https://embed.widencdn.net/download/masonite/wswzyzi7xo/steel.pdf"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier"
+    },
+    {
+      "supplier": "masonite",
+      "source_page_urls": [
+        "https://www.masonite.com/for-pros/resources/"
+      ],
+      "original_asset_url": "https://embed.widencdn.net/pdf/plus/masonite/w1bi7sg4yk/vistagrande-flush-glazed-premium-spec-tech-sheet.pdf",
+      "final_asset_url": "https://cf-store.widencdn.net/masonite/6/8/3/683e41a0-675e-423d-af48-9702e2a5350a.pdf?Expires=1787188873&Key-Pair-Id=APKAJD5XONOBVWWOA65A&Signature=MInUli-QMwe6Z1mDbADBgMVQkuotfPFjcbNLgQpW-NeGBX9FCwZcsZFSkz0sUYQ6jh-IIOALv5JAs10oMS5sXffzz9GzKWp4lsR6SwWG4oZZVXkU~AOrosszwFLWZ0lLJY7~6wFVAF3VWzxlm35PqkInk5t9Fad0mmCFstTgz-sAvp3YD6gPFnUIGN5ZfTlreSAasX9G9Lr-u1Zr0G3D14RjKUYhX2OQoGDtM235rPCLO79Xdo8jFbokzqvKQAQ61qoqO~igExKMaDOx3uDHGi5v8bF-UrACrp4fNulCe1qJcA5iZKwM3e3rr75ogKlgTpX0vJRGHFS3g~0LA~fz6g__&response-content-disposition=attachment%3B+filename%3D%22tech-manuals-vistagrande-flush-glazed-entry.pdf%22",
+      "local_path": "/documents/catalog/masonite/vistagrande-flush-glazed-premium-spec-tech-sheet-c959a11d48e6.pdf",
+      "asset_type": "document",
+      "role": "specification-sheet",
+      "sha256": "76dcbb412df18709e6499b3eaeff7e1c339fbd8a326cf3dda8ee9b8e5c1caeea",
+      "bytes": 3752367,
+      "discovered_at": "2026-08-19T22:24:36Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/pdf/plus/masonite/w1bi7sg4yk/vistagrande-flush-glazed-premium-spec-tech-sheet.pdf",
+        "https://embed.widencdn.net/download/masonite/w1bi7sg4yk/vistagrande-flush-glazed-premium-spec-tech-sheet.pdf"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier"
+    },
+    {
+      "supplier": "masonite",
+      "source_page_urls": [
+        "https://www.masonite.com/for-pros/resources/"
+      ],
+      "original_asset_url": "https://embed.widencdn.net/pdf/plus/masonite/j7geotjfrl/patio-spec.pdf",
+      "final_asset_url": "https://cf-store.widencdn.net/masonite/2/8/e/28e5a85d-579a-411c-890d-b3eb549af25f.pdf?Expires=1787188876&Key-Pair-Id=APKAJD5XONOBVWWOA65A&Signature=F2ILg7gjy41V0vkwjQwT-xxYiRzitoH97vWu1q0TIbbacsENctPlnmlM16e~i1qGKdREgTo8nUay4izY2HZr-ytp1viBLXtZ98zpevLBJuR8QFIWTv4gNc3RgFCSlpjyGlH1-dBA0cSDczUIXEz55sGB8Uxctq96Gwc3GsIDfZ4iwQ1HXmucMZJCYE1Z4cMIJtSM16xlhioy9-PGoVg6OvecgbZ4gmLJiAjYWRbZ2WFzmy-M6aH9qboQz~J-PPc95KpjhlE~o7J4exM3sFgUX8BOcTPkBUcUKFlex8UlJwF-7xXJJ1TWMnvBgpPMSmtrXa9JkkCzpMuHKp2ponMTLA__&response-content-disposition=attachment%3B+filename%3D%22VistaGrande-PatioSpec-TechManuals.pdf%22",
+      "local_path": "/documents/catalog/masonite/patio-spec-a887f909e438.pdf",
+      "asset_type": "document",
+      "role": "specification-sheet",
+      "sha256": "739f2a751894d959cf5c010ec6b4ddb36d2a182501ba64ee67129c51a114d718",
+      "bytes": 667914,
+      "discovered_at": "2026-08-19T22:24:36Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/pdf/plus/masonite/j7geotjfrl/patio-spec.pdf",
+        "https://embed.widencdn.net/download/masonite/j7geotjfrl/patio-spec.pdf"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier"
+    },
+    {
+      "supplier": "masonite",
+      "source_page_urls": [
+        "https://www.masonite.com/for-pros/resources/"
+      ],
+      "original_asset_url": "https://embed.widencdn.net/pdf/plus/masonite/z9jgcwmrmd/sdl-templatesd1599e80531168168625ff0000ddc435.pdf",
+      "final_asset_url": "https://cf-store.widencdn.net/masonite/5/8/b/58beef4a-bcad-468f-ba3f-705837bddca0.pdf?Expires=1787188878&Key-Pair-Id=APKAJD5XONOBVWWOA65A&Signature=TdAVGHhW0Bvbr1qUfWzmYLxaNVRWBfKNRqlpxkUa9hIxfz7-D75bWLFnOXSnDy1BR9tTAd7PFCtNZlrhNdXQZVjWZXceJZqcixGgfP4JMLlOVH60uuvFPIcUdrzV2JJRd3I1OViA0rGsp3cgBSo9auwEu5p3PK3nC09TvJHW3Eub6mvu90q1gHbhS8ZEfbBP34MQCfEqEGqPz2BHrMNWK2Ulc34JfD7fz040llKrRkGzGLfPb1eJPYvLRGGSo9nOZUIQlQkpjRAgb5K2E1aU7toygatRCm~geysYi~FTngp3eIw~01Edf01bxWmuuIviCRNa8Much4rXJBZZqYrpfQ__&response-content-disposition=attachment%3B+filename%3D%22tech-manuals-vistagrande-SDL-templates.pdf%22",
+      "local_path": "/documents/catalog/masonite/sdl-templatesd1599e80531168168625ff0000ddc435-cf16d7ddafe1.pdf",
+      "asset_type": "document",
+      "role": "specification-sheet",
+      "sha256": "e1d98adb55de27a42280759945c4d27ee5fb563f2bdc427d6a2ed4d37e435165",
+      "bytes": 2773403,
+      "discovered_at": "2026-08-19T22:24:36Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/pdf/plus/masonite/z9jgcwmrmd/sdl-templatesd1599e80531168168625ff0000ddc435.pdf",
+        "https://embed.widencdn.net/download/masonite/z9jgcwmrmd/sdl-templatesd1599e80531168168625ff0000ddc435.pdf"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier"
+    },
+    {
+      "supplier": "masonite",
+      "source_page_urls": [
+        "https://www.masonite.com/for-pros/resources/"
+      ],
+      "original_asset_url": "https://embed.widencdn.net/pdf/plus/masonite/jpons7gikt/prem-door-spec-3.pdf",
+      "final_asset_url": "https://cf-store.widencdn.net/masonite/0/a/5/0a522524-2e3a-4c1d-a1de-38083e2e8083.pdf?Expires=1787188879&Key-Pair-Id=APKAJD5XONOBVWWOA65A&Signature=JYx4lGYOx9KG6hzcPSWH6PmUmyZsWOP9-S6sbA~gLDWXUKBXUnkIqEQxTySYP9MO2cp7kzTuGUV4OxjLTG2rrbbHC9o5X3HMttB1CiOp7OjkCD2aOQ10TqpSGdQGja2CaUOtJG9Unb16njmXyFz~8Yu9U-e4O2kXNAhKbKsMF~ebDk-pZxYU9hxPRgTaLYtXVjBODxywTPc7xO00C07DVENImJXdE9ZQnQlb~IXZAJsIteabnSUYdgb3B~vGDaTek8qlyMRruNWd0JuhOAqaOfz9zgr-pdhgMrHxNzT4Uffe2Te0IlFU~EY70XUfCs~nmEKKovF~jVE2cTvHarCaqg__&response-content-disposition=attachment%3B+filename%3D%22tech-manuals-premdoor-spec-fiberglass-doors.pdf%22",
+      "local_path": "/documents/catalog/masonite/prem-door-spec-3-c4bb3309880d.pdf",
+      "asset_type": "document",
+      "role": "specification-sheet",
+      "sha256": "09c1db6116fa0a46673a8044176ea18ade80baaee5103c0311f226e49fe50509",
+      "bytes": 150755,
+      "discovered_at": "2026-08-19T22:24:36Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/pdf/plus/masonite/jpons7gikt/prem-door-spec-3.pdf",
+        "https://embed.widencdn.net/download/masonite/jpons7gikt/prem-door-spec-3.pdf"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier"
+    },
+    {
+      "supplier": "masonite",
+      "source_page_urls": [
+        "https://www.masonite.com/for-pros/resources/"
+      ],
+      "original_asset_url": "https://embed.widencdn.net/pdf/plus/masonite/ijzjawu6de/Belleville-Textured-68-2.pdf",
+      "final_asset_url": "https://cf-store.widencdn.net/masonite/4/8/1/481d4d12-ee88-4d0f-ae80-91c8a300669a.pdf?Expires=1787188881&Key-Pair-Id=APKAJD5XONOBVWWOA65A&Signature=Xno35jo-e0-3x0Gbrd6mQ6Ib8uh8sgUWksC~BClCzfXx1i9f5neL55CkfJ5uJi24neIpfsYz0VyjHj1W1M1C4DEFDznc2PwP6rexXa2~tbno8I~yhrzmclOaj8dsGKBDkGd5F-C~i4eKIqMJqXgS1iCSha15yKWzeByZJKmGG5o7SLk179uE770GfbJcIFWyJuPSb261xMYQkDg8xcwo4-wWHJ468Clzo5G-mGUcf6CxtyqzWPvBI5DOYCpA8frEMDDK3OC8Q6npDDCQ6vQA1zx1~qsn6yHF6G5VHeHwupzvTupvRs32DE~YuC8lhSTnJCdqizdnIJLRldvtIFUNCg__&response-content-disposition=attachment%3B+filename%3D%22Belleville-Textured-68-2.pdf%22",
+      "local_path": "/documents/catalog/masonite/belleville-textured-68-2-cbab3ac987ce.pdf",
+      "asset_type": "document",
+      "role": "specification-sheet",
+      "sha256": "bc7ccc01c59488c78a493b3f2fd9b19c6fdb56b89683bc5bc2abba005cabe17e",
+      "bytes": 2501291,
+      "discovered_at": "2026-08-19T22:24:36Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/pdf/plus/masonite/ijzjawu6de/Belleville-Textured-68-2.pdf",
+        "https://embed.widencdn.net/download/masonite/ijzjawu6de/Belleville-Textured-68-2.pdf"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier"
+    },
+    {
+      "supplier": "masonite",
+      "source_page_urls": [
+        "https://www.masonite.com/for-pros/resources/"
+      ],
+      "original_asset_url": "https://embed.widencdn.net/pdf/plus/masonite/3iu0ewmrxw/Belleville-Smooth-68.pdf",
+      "final_asset_url": "https://cf-store.widencdn.net/masonite/8/b/2/8b2e7d56-627b-4352-8f65-26c543ab8be3.pdf?Expires=1787188883&Key-Pair-Id=APKAJD5XONOBVWWOA65A&Signature=j7yCwBco2N9tE3v8u42p1F8JDEGvTS~hBrmH1oX34sGbTCFX8ztqt-eYEQmuj-ngFV0Mf8xNLqblpb9HDCVvicTtmnDSHFE4v3Mz39NTcUYnUzeKhzLHn0kUZWw3uB6Htw4T9Oze5K~Iic1pWQPfuGwB0J3rzMiypbbG8FSvpb0-HxkckKpUes3AVT2ZfL5EEQ0BqED5YgobcOTOuiQEFReTOHNM6kPHTLw-cF0J06nXb54guAQDV1FFF5a7N3Zb9AqRS8kQQRiUJhUW8qEacwcx821G48IYIs33Nt4WAYWxPgswbgbvNI6TxDWVi2b7ffNv~hlVrSeZ6x9XeJiHlQ__&response-content-disposition=attachment%3B+filename%3D%22tech-manuals-belleville-smooth-68and70.pdf%22",
+      "local_path": "/documents/catalog/masonite/belleville-smooth-68-4f70e14fd25e.pdf",
+      "asset_type": "document",
+      "role": "specification-sheet",
+      "sha256": "a5e2c37b961d5359c22993aea6a534ae556a19c39410009966dbdfeb644979c5",
+      "bytes": 2891023,
+      "discovered_at": "2026-08-19T22:24:38Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/pdf/plus/masonite/3iu0ewmrxw/Belleville-Smooth-68.pdf",
+        "https://embed.widencdn.net/download/masonite/3iu0ewmrxw/Belleville-Smooth-68.pdf"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier"
+    },
+    {
+      "supplier": "masonite",
+      "source_page_urls": [
+        "https://www.masonite.com/for-pros/resources/"
+      ],
+      "original_asset_url": "https://embed.widencdn.net/pdf/plus/masonite/lryytl8yeu/Belleville-Smooth-80.pdf",
+      "final_asset_url": "https://cf-store.widencdn.net/masonite/d/2/e/d2edaaea-5955-4c82-827a-89e40db4339e.pdf?Expires=1787188885&Key-Pair-Id=APKAJD5XONOBVWWOA65A&Signature=kzv9APcA1PkkowQnHcyFRVANiMhDDm9bZnKh4xt5cskV8zK-b7SB72oJw2sBGZ7cC3OoWfdnWRlimmUwM7gxVy1n5nVOFIR876N-PK8XLCunuhVUI~XYFhJMAY33kkqDhiUoiozY-SPMVQ55ewqt-11hTOfRpws5FXPm6ZQtC3kyAsdC3GaPXioOFDqh2JhKsnzIKX9-pRAzbH6jxwMl5yPdSveH1yYKgb0wmlKUROkMATOu1UfPiWWkXbOg54U-pmrAjsNbXExEIgH3QT9XcMlnhEXl53pCL~-gDp2XDYl1v1bpCxmgegV2WMINXTQW0NLV2F9eD87t5~SWBwFlWg__&response-content-disposition=attachment%3B+filename%3D%22tech-manuals-belleville-smooth-80.pdf%22",
+      "local_path": "/documents/catalog/masonite/belleville-smooth-80-87df2c4d0968.pdf",
+      "asset_type": "document",
+      "role": "specification-sheet",
+      "sha256": "ae02315ebf61aaeb490738bb637d5c3c20bd793fd2420e8e99561aae0ff012a9",
+      "bytes": 1772273,
+      "discovered_at": "2026-08-19T22:24:38Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/pdf/plus/masonite/lryytl8yeu/Belleville-Smooth-80.pdf",
+        "https://embed.widencdn.net/download/masonite/lryytl8yeu/Belleville-Smooth-80.pdf"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier"
+    },
+    {
+      "supplier": "masonite",
+      "source_page_urls": [
+        "https://www.masonite.com/for-pros/resources/"
+      ],
+      "original_asset_url": "https://embed.widencdn.net/pdf/plus/masonite/fvdrfcfyay/woodgrain-textured-80-22.pdf",
+      "final_asset_url": "https://cf-store.widencdn.net/masonite/f/9/d/f9dceee3-15ab-4c5f-8b6d-e4b9b29bfe5f.pdf?Expires=1787188887&Key-Pair-Id=APKAJD5XONOBVWWOA65A&Signature=fnRDV-u6eNBTo8yojj0vrhqCtWROd4iuNbOGIBbHN55FLboAOKQmx4wlQm83uxdvQ7yFUEB64p1DHKKLPh5kiURP5zD8PS0MDamU2mTSRnw4tQ7ZuqDsXIzdrH0Ql4IDwpyb4cbHK-g8o3ZVVo1q9TscOkrW55wi9EknK5EWX-DpdsZeodePYdeiXcwLOkFUXBDfF2f8GaLP3AkUJzBHab~7KmHwxxr2sBiftcW2yeeyvFYpyrDMsuk4R0cFzfq3DO5f1i09N1A9zHdNIt0xfmYFHZ6nsHiqBOgbP9AWiv6ouMukPn~ZW7SxZdPNOQgKtn5oH41TNgnsxaROlIXpUQ__&response-content-disposition=attachment%3B+filename%3D%22tech-manuals-belleville-textured-80.pdf%22",
+      "local_path": "/documents/catalog/masonite/woodgrain-textured-80-22-8e11ab3e854e.pdf",
+      "asset_type": "document",
+      "role": "specification-sheet",
+      "sha256": "5d7f4bac3b120f6832fc6e80a769281322346c2a8f53d576788453b0d58eae3e",
+      "bytes": 420678,
+      "discovered_at": "2026-08-19T22:24:38Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/pdf/plus/masonite/fvdrfcfyay/woodgrain-textured-80-22.pdf",
+        "https://embed.widencdn.net/download/masonite/fvdrfcfyay/woodgrain-textured-80-22.pdf"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier"
+    },
+    {
+      "supplier": "masonite",
+      "source_page_urls": [
+        "https://www.masonite.com/for-pros/resources/"
+      ],
+      "original_asset_url": "https://embed.widencdn.net/pdf/plus/masonite/jyodu4vu0h/Smooth%20ADA%20spec%20%286%E2%80%998%E2%80%99%3B%20and%208%E2%80%990%E2%80%9D%29%E2%80%9D.pdf",
+      "final_asset_url": "https://cf-store.widencdn.net/masonite/9/4/7/947fad37-09e8-48be-ba34-eccd03a40ee3.pdf?Expires=1787188888&Key-Pair-Id=APKAJD5XONOBVWWOA65A&Signature=QYnrvw8A9t6yeJiVFt3ymEexO-vknLBvtzg8gFh9OP-nm-7jgk6t~CT72x0G9IzBbROALLdYNHIcOn2Tglni6y~EJvd2Tk-bBx9kGN5IiXsSXwcqHnmrKLPObeVCLGJJcuPiFE8sr0m7U-9VT1XcQ0wK4yzCp6q320hnAaXM7BbAXDMA6krSVMYxNOIaJ3Eg1aBPoDJVdtQAHas9z8TKgN36eY6aC5qw6x1d6hroOp~kYjL-rokjDj6Nl9Wdx1uyWr5xcCv3Lm474UuXsxg43dWOKnqZfiOUQ6o36xQmkk1Eiwwi7WCfmGe9BdarXH0TLnSw1nWxJysUBWnbG7D70A__&response-content-disposition=attachment%3B+filename%3D%22tech-manuals-ADA-belleville-smooth.pdf%22",
+      "local_path": "/documents/catalog/masonite/smooth-20ada-20spec-20-286-e2-80-998-e2-80-99-3b-20and-208-e2-80-990-e2-80-9d-29-e2-80-9d-485b303600f3.pdf",
+      "asset_type": "document",
+      "role": "specification-sheet",
+      "sha256": "82e5ec12d2fb754ba38335aba89840ac81d76961914c026e5f58416d6f1c1b12",
+      "bytes": 339939,
+      "discovered_at": "2026-08-19T22:24:38Z",
+      "source_asset_urls": [
+        "https://embed.widencdn.net/pdf/plus/masonite/jyodu4vu0h/Smooth%20ADA%20spec%20%286%E2%80%998%E2%80%99%3B%20and%208%E2%80%990%E2%80%9D%29%E2%80%9D.pdf",
+        "https://embed.widencdn.net/download/masonite/jyodu4vu0h/Smooth%20ADA%20spec%20%286%E2%80%998%E2%80%99%3B%20and%208%E2%80%990%E2%80%9D%29%E2%80%9D.pdf"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier"
     }
   ],
   "products": [
@@ -589,8 +1619,8 @@
       "modelNumber": "DR-FFG-926-FL-1-80",
       "type": null,
       "summary": null,
-      "sourceDescription": null,
-      "sourceUrl": "https://www.masonite.com/doors/exterior/",
+      "sourceDescription": "straight on image of a full lite vista grande on a white background",
+      "sourceUrl": "https://www.masonite.com/doors/exterior/dr-ffg-926-fl-1-80/",
       "sourceType": "live-crawl",
       "media": [
         "/images/catalog/masonite/dr-vsg-926-140-1-fl-x-36-80-closed-frontal-a36864968b9b.webp"
@@ -609,8 +1639,8 @@
       "modelNumber": "DR-FFG-426-1P-1-80",
       "type": null,
       "summary": null,
-      "sourceDescription": null,
-      "sourceUrl": "https://www.masonite.com/doors/exterior/",
+      "sourceDescription": "Front view of a closed grey fiberglass exterior door, one panel, flush-glazed 3/4 lite with pearl glass, and a door handle",
+      "sourceUrl": "https://www.masonite.com/doors/exterior/dr-ffg-426-1p-1-80/",
       "sourceType": "live-crawl",
       "media": [
         "/images/catalog/masonite/dr-vsg-426-140-1-1p-x-36-80-closed-frontal-fcd956ab17a9.webp"
@@ -629,8 +1659,8 @@
       "modelNumber": "DR-FFG-126-1P-1-80",
       "type": null,
       "summary": null,
-      "sourceDescription": null,
-      "sourceUrl": "https://www.masonite.com/doors/exterior/",
+      "sourceDescription": "Front view of a closed grey fiberglass exterior door, one panel, flush-glazed half lite with pearl glass, and a door handle",
+      "sourceUrl": "https://www.masonite.com/doors/exterior/dr-ffg-126-1p-1-80/",
       "sourceType": "live-crawl",
       "media": [
         "/images/catalog/masonite/dr-vsg-126-140-1-1p-x-36-80-closed-frontal-e6a832a5543a.webp"
@@ -649,8 +1679,8 @@
       "modelNumber": "DR-FFG-267-WIND-1-80",
       "type": null,
       "summary": null,
-      "sourceDescription": null,
-      "sourceUrl": "https://www.masonite.com/doors/exterior/",
+      "sourceDescription": "Winslow flush-glazed Fiberglass craftsman door",
+      "sourceUrl": "https://www.masonite.com/doors/exterior/dr-ffg-267-wind-1-80/",
       "sourceType": "live-crawl",
       "media": [
         "/images/catalog/masonite/dr-ffg-267-wind-1-80-closed-frontal-637bd96b5158.webp"
@@ -669,8 +1699,8 @@
       "modelNumber": "DR-FG-X-LNP-X-80",
       "type": null,
       "summary": null,
-      "sourceDescription": null,
-      "sourceUrl": "https://www.masonite.com/doors/exterior/",
+      "sourceDescription": "straight on image of a Lincoln park door",
+      "sourceUrl": "https://www.masonite.com/doors/exterior/dr-fg-x-lnp-x-80/",
       "sourceType": "live-crawl",
       "media": [
         "/images/catalog/masonite/dr-hgs-x-x-x-lnp-x-36-80-closed-frontal-6aea65efe873.webp"
@@ -689,8 +1719,8 @@
       "modelNumber": "DR-FG-X-LOG-X-80",
       "type": null,
       "summary": null,
-      "sourceDescription": null,
-      "sourceUrl": "https://www.masonite.com/doors/exterior/",
+      "sourceDescription": "straight on image of a logan",
+      "sourceUrl": "https://www.masonite.com/doors/exterior/dr-fg-x-log-x-80/",
       "sourceType": "live-crawl",
       "media": [
         "/images/catalog/masonite/dr-hgs-x-x-x-log-x-36-80-closed-frontal-c11d909217fe.webp"
@@ -709,8 +1739,8 @@
       "modelNumber": "DR-FG-X-WIND-X-80",
       "type": null,
       "summary": null,
-      "sourceDescription": null,
-      "sourceUrl": "https://www.masonite.com/doors/exterior/",
+      "sourceDescription": "Front view of a closed grey fiberglass exterior door, three panels, a dentil shelf, and a door handle",
+      "sourceUrl": "https://www.masonite.com/doors/exterior/dr-fg-x-wind-x-80/",
       "sourceType": "live-crawl",
       "media": [
         "/images/catalog/masonite/dr-hgs-x-x-x-wind-x-36-80-closed-frontal-a1b97dd6ee05.webp"
@@ -729,8 +1759,8 @@
       "modelNumber": "DR-FG-404-1PH-1-80",
       "type": null,
       "summary": null,
-      "sourceDescription": null,
-      "sourceUrl": "https://www.masonite.com/doors/exterior/",
+      "sourceDescription": "Hollister Fiberglass Door",
+      "sourceUrl": "https://www.masonite.com/doors/exterior/dr-fg-404-1ph-1-80/",
       "sourceType": "live-crawl",
       "media": [
         "/images/catalog/masonite/dr-fg-404-1ph-1-80-closed-frontal-5df7f32f3e98.webp"
@@ -749,8 +1779,8 @@
       "modelNumber": "DR-FG-106-2P-1-80",
       "type": null,
       "summary": null,
-      "sourceDescription": null,
-      "sourceUrl": "https://www.masonite.com/doors/exterior/",
+      "sourceDescription": "Square 2 Panel Fiberglass Door",
+      "sourceUrl": "https://www.masonite.com/doors/exterior/dr-fg-106-2p-1-80/",
       "sourceType": "live-crawl",
       "media": [
         "/images/catalog/masonite/dr-fg-106-2p-1-80-closed-frontal-op-5922458a3107.webp"
@@ -769,8 +1799,8 @@
       "modelNumber": "DR-FG-122-FL-1-80",
       "type": null,
       "summary": null,
-      "sourceDescription": null,
-      "sourceUrl": "https://www.masonite.com/doors/exterior/",
+      "sourceDescription": "Close-up corner view of a closed grey fiberglass exterior door, with pearl glass",
+      "sourceUrl": "https://www.masonite.com/doors/exterior/dr-fg-122-fl-1-80/",
       "sourceType": "live-crawl",
       "media": [
         "/images/catalog/masonite/dr-bls-122-140-1-fl-x-36-80-closed-frontal-fe962b52d428.webp"
@@ -789,8 +1819,8 @@
       "modelNumber": "DR-FG-X-SIE-X-80",
       "type": null,
       "summary": null,
-      "sourceDescription": null,
-      "sourceUrl": "https://www.masonite.com/doors/exterior/",
+      "sourceDescription": "Sierra Fiberglass door",
+      "sourceUrl": "https://www.masonite.com/doors/exterior/dr-fg-x-sie-x-80/",
       "sourceType": "live-crawl",
       "media": [
         "/images/catalog/masonite/dr-bsp-x-x-x-2p-x-36-80-20mah-closed-frontal-3f147d6deac5.webp"
@@ -809,8 +1839,8 @@
       "modelNumber": "DR-FG-X-CHEY-X-80",
       "type": null,
       "summary": null,
-      "sourceDescription": null,
-      "sourceUrl": "https://www.masonite.com/doors/exterior/",
+      "sourceDescription": "Front view of a closed grey fiberglass exterior door, opaque two panels with planks, top panel curved, and a door handle",
+      "sourceUrl": "https://www.masonite.com/doors/exterior/dr-fg-x-chey-x-80/",
       "sourceType": "live-crawl",
       "media": [
         "/images/catalog/masonite/dr-bls-x-x-x-2p-x-36-80-closed-frontal-89e6bfed43ee.webp"
@@ -829,8 +1859,8 @@
       "modelNumber": "DR-FG-X-6P-X-80",
       "type": null,
       "summary": null,
-      "sourceDescription": null,
-      "sourceUrl": "https://www.masonite.com/doors/exterior/",
+      "sourceDescription": "Front view of a closed grey fiberglass exterior door, opaque 6 panel, with a door handle",
+      "sourceUrl": "https://www.masonite.com/doors/exterior/dr-fg-x-6p-x-80/",
       "sourceType": "live-crawl",
       "media": [
         "/images/catalog/masonite/dr-bls-x-x-x-6p-x-36-80-closed-frontal-13e91d96de34.webp"
@@ -849,8 +1879,8 @@
       "modelNumber": "DR-FG-682-C5S-5S-96",
       "type": null,
       "summary": null,
-      "sourceDescription": null,
-      "sourceUrl": "https://www.masonite.com/doors/exterior/",
+      "sourceDescription": "5 square lite door",
+      "sourceUrl": "https://www.masonite.com/doors/exterior/dr-fg-682-c5s-5s-96/",
       "sourceType": "live-crawl",
       "media": [
         "/images/catalog/masonite/dr-fg-682-c5s-5s-36-80-closed-frontal-d29729c2a6ad.webp"
@@ -869,8 +1899,8 @@
       "modelNumber": "DR-FG-228-4E-4S-80",
       "type": null,
       "summary": null,
-      "sourceDescription": null,
-      "sourceUrl": "https://www.masonite.com/doors/exterior/",
+      "sourceDescription": "A front view of a closed grey steel four panel equal exterior door with raised edges, textured glass and a silver door handle where the four panels of glass are the same rectangular shape and size and are stacked vertically on the door",
+      "sourceUrl": "https://www.masonite.com/doors/exterior/dr-fg-228-4e-4s-80/",
       "sourceType": "live-crawl",
       "media": [
         "/images/catalog/masonite/dr-fg-228-4e-4s-80-closed-frontal-e0c1197675bd.webp"
@@ -889,8 +1919,8 @@
       "modelNumber": "DR-FG-151-FCL-1-80",
       "type": null,
       "summary": null,
-      "sourceDescription": null,
-      "sourceUrl": "https://www.masonite.com/doors/exterior/",
+      "sourceDescription": "A front view of a closed grey steel one lite exterior door with raised edges, textured glass and a silver door handle where the tall, thin rectangular glass panel runs down the center of the door",
+      "sourceUrl": "https://www.masonite.com/doors/exterior/dr-fg-151-fcl-1-80/",
       "sourceType": "live-crawl",
       "media": [
         "/images/catalog/masonite/dr-fg-151-fcl-1-80-closed-frontal-6f5e3574c465.webp"
@@ -909,8 +1939,8 @@
       "modelNumber": "DR-FG-228-4P-1-80",
       "type": null,
       "summary": null,
-      "sourceDescription": null,
-      "sourceUrl": "https://www.masonite.com/doors/exterior/",
+      "sourceDescription": "Close-up corner view of a closed grey fiberglass exterior door, with pearl glass",
+      "sourceUrl": "https://www.masonite.com/doors/exterior/dr-fg-228-4p-1-80/",
       "sourceType": "live-crawl",
       "media": [
         "/images/catalog/masonite/dr-bls-228-140-1-4p-x-36-80-closed-frontal-178973e2274e.webp"
@@ -929,11 +1959,231 @@
       "modelNumber": "DR-FG-106-2PHL-1-80",
       "type": null,
       "summary": null,
-      "sourceDescription": null,
-      "sourceUrl": "https://www.masonite.com/doors/exterior/",
+      "sourceDescription": "2 Panel 1/2 Lite Door",
+      "sourceUrl": "https://www.masonite.com/doors/exterior/dr-fg-106-2phl-1-80/",
       "sourceType": "live-crawl",
       "media": [
         "/images/catalog/masonite/dr-fg-106-2phl-1-80-closed-frontal-20-281-29-ae3715090f71.webp"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "masonite:2-panel-hollister-steel",
+      "manufacturer": "masonite",
+      "slug": "2-panel-hollister-steel",
+      "name": "2 Panel Hollister",
+      "category": "entry-doors",
+      "collection": null,
+      "modelNumber": "DR-ST-404-1P-1-80",
+      "type": null,
+      "summary": null,
+      "sourceDescription": "Front view of a closed grey steel exterior door, one panel, 3/4 lite with pearl glass, and a door handle",
+      "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-404-1p-1-80/",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/masonite/dr-mhd-404-140-1-1p-x-36-80-closed-frontal-fd4930212796.webp"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "masonite:square-2-panel-steel",
+      "manufacturer": "masonite",
+      "slug": "square-2-panel-steel",
+      "name": "Square 2 Panel",
+      "category": "entry-doors",
+      "collection": null,
+      "modelNumber": "DR-ST-X-2P-X-80",
+      "type": null,
+      "summary": null,
+      "sourceDescription": "A front view of a closed grey steel two panel opaque exterior door with raised edges and a silver door handle where the top rectangular panel is larger than the bottom square panel",
+      "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-x-2p-x-80/",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/masonite/dr-mhd-x-x-x-2p-x-36-80-closed-frontal-33a2eea14a60.webp"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "masonite:3-panel-equal-steel",
+      "manufacturer": "masonite",
+      "slug": "3-panel-equal-steel",
+      "name": "3 Panel Equal",
+      "category": "entry-doors",
+      "collection": null,
+      "modelNumber": "DR-ST-217-3E-3-80",
+      "type": null,
+      "summary": null,
+      "sourceDescription": "3 Lite Equal Steel Door",
+      "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-217-3e-3-80/",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/masonite/dr-st-217-3e-3-80-closed-20frontal-32108df6833a.webp"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "masonite:full-lite-steel",
+      "manufacturer": "masonite",
+      "slug": "full-lite-steel",
+      "name": "Full Lite",
+      "category": "entry-doors",
+      "collection": null,
+      "modelNumber": "DR-ST-122-FL-1-80",
+      "type": null,
+      "summary": null,
+      "sourceDescription": "Front view of a closed grey steel exterior door, full lite with pearl glass, and a door handle",
+      "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-122-fl-1-80/",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/masonite/dr-mhd-122-140-1-fl-x-36-80-closed-frontal-f965e13ef4d4.webp"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "masonite:flush-4-lite-equal-steel",
+      "manufacturer": "masonite",
+      "slug": "flush-4-lite-equal-steel",
+      "name": "Flush 4 Lite Equal",
+      "category": "entry-doors",
+      "collection": null,
+      "modelNumber": "DR-ST-228-4E-4-80",
+      "type": null,
+      "summary": null,
+      "sourceDescription": "Front view of a closed grey steel exterior door, 4 lites that are equal with pearl glass, and a door handle",
+      "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-228-4e-4-80/",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/masonite/dr-mhd-228-140-4-4e-x-36-80-closed-frontal-416222f12d06.webp"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "masonite:flush-1-lite-steel",
+      "manufacturer": "masonite",
+      "slug": "flush-1-lite-steel",
+      "name": "Flush 1 Lite",
+      "category": "entry-doors",
+      "collection": null,
+      "modelNumber": "DR-ST-151-FCL-1-80",
+      "type": null,
+      "summary": null,
+      "sourceDescription": "Front view of a closed grey steel exterior door, one horizontal slim lite in the center of the door with pearl glass, and a door handle",
+      "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-151-fcl-1-80/",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/masonite/dr-mhd-151-140-1-fcl-x-36-80-closed-frontal-74499059ca46.webp"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "masonite:cheyenne-steel",
+      "manufacturer": "masonite",
+      "slug": "cheyenne-steel",
+      "name": "Cheyenne",
+      "category": "entry-doors",
+      "collection": null,
+      "modelNumber": "DR-ST-X-CHEY-X-80",
+      "type": null,
+      "summary": null,
+      "sourceDescription": "Steel Cheyenne Door",
+      "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-x-chey-x-80/",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/masonite/dr-st-x-chey-x-80-closed-frontal-30c2d6ba05d5.webp"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "masonite:6-panel-steel",
+      "manufacturer": "masonite",
+      "slug": "6-panel-steel",
+      "name": "6 Panel",
+      "category": "entry-doors",
+      "collection": null,
+      "modelNumber": "DR-ST-X-6P-X-80",
+      "type": null,
+      "summary": null,
+      "sourceDescription": "A front view of a closed gray steel six panel opaque exterior door with raised edges and a silver door handle where the top two side-by-side rectangular panels are the smallest, the middle side-by-side rectangular panels are the largest, and the bottom side-by-side rectangular panels are midsize",
+      "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-x-6p-x-80/",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/masonite/dr-mhd-x-x-x-6p-x-36-80-closed-frontal-549670dd561d.webp"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "masonite:flush-5-square-lite-steel",
+      "manufacturer": "masonite",
+      "slug": "flush-5-square-lite-steel",
+      "name": "Flush 5 Square Lite",
+      "category": "entry-doors",
+      "collection": null,
+      "modelNumber": "DR-ST-682-C5S-5-80",
+      "type": null,
+      "summary": null,
+      "sourceDescription": "A front view of a closed grey steel five square lite exterior door with raised edges, textured glass and a silver door handle where the five square glass panels are the same size and are stacked vertically down the center of the door",
+      "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-682-c5s-5-80/",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/masonite/dr-fg-682-c5s-5s-36-80-closed-frontal-d29729c2a6ad.webp"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "masonite:2-panel-1-2-lite-steel",
+      "manufacturer": "masonite",
+      "slug": "2-panel-1-2-lite-steel",
+      "name": "2 Panel ½ Lite",
+      "category": "entry-doors",
+      "collection": null,
+      "modelNumber": "DR-ST-106-2P-1-80",
+      "type": null,
+      "summary": null,
+      "sourceDescription": "Front view of a closed grey steel exterior door, two panels, half lite with pearl glass, and a door handle",
+      "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-106-2p-1-80/",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/masonite/dr-mhd-106-140-1-2p-x-36-80-closed-frontal-4784db0cf2a2.webp"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "masonite:4-panel-1-4-lite-steel",
+      "manufacturer": "masonite",
+      "slug": "4-panel-1-4-lite-steel",
+      "name": "4 Panel ¼ Lite",
+      "category": "entry-doors",
+      "collection": null,
+      "modelNumber": "DR-ST-228-4P-1-80",
+      "type": null,
+      "summary": null,
+      "sourceDescription": "Front view of a closed grey steel exterior door, 4 panels, rectangle 1/4 lite with pearl glass, and a door handle",
+      "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-228-4p-1-80/",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/masonite/dr-mhd-228-140-1-4p-x-36-80-closed-frontal-cf3d94dd1c5d.webp"
       ],
       "documents": [],
       "specifications": {},

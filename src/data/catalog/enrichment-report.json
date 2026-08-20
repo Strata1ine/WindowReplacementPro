@@ -1,23 +1,23 @@
 {
   "generatedAt": "2026-08-19T23:30:00Z",
-  "records": 323,
-  "normalizedRecords": 303,
-  "editorialDrafts": 204,
-  "editorialIncomplete": 119,
-  "newRecords": 53,
-  "newRetainedDistinct": 53,
-  "newEditorialDrafts": 15,
+  "records": 489,
+  "normalizedRecords": 468,
+  "editorialDrafts": 201,
+  "editorialIncomplete": 288,
+  "newRecords": 219,
+  "newRetainedDistinct": 219,
+  "newEditorialDrafts": 12,
   "staleOrBlockedLinks": {
-    "stale": 13,
+    "stale": 8,
     "blocked": 1
   },
   "suppliers": {
     "masonite": {
-      "records": 18,
-      "normalized": 18,
+      "records": 29,
+      "normalized": 29,
       "editorialDrafts": 13,
-      "editorialIncomplete": 5,
-      "media": 18,
+      "editorialIncomplete": 16,
+      "media": 29,
       "documents": 0
     },
     "mennie-canada": {
@@ -29,12 +29,12 @@
       "documents": 0
     },
     "novatech": {
-      "records": 89,
-      "normalized": 74,
+      "records": 91,
+      "normalized": 75,
       "editorialDrafts": 14,
-      "editorialIncomplete": 75,
-      "media": 0,
-      "documents": 6
+      "editorialIncomplete": 77,
+      "media": 91,
+      "documents": 32
     },
     "oceanview": {
       "records": 3,
@@ -53,11 +53,11 @@
       "documents": 0
     },
     "trimlite": {
-      "records": 25,
-      "normalized": 25,
-      "editorialDrafts": 10,
-      "editorialIncomplete": 15,
-      "media": 4,
+      "records": 178,
+      "normalized": 178,
+      "editorialDrafts": 7,
+      "editorialIncomplete": 171,
+      "media": 163,
       "documents": 0
     },
     "verre-select": {

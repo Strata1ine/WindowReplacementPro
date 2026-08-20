@@ -1,5 +1,201 @@
 [
   {
+    "productId": "masonite:2-panel-1-2-lite-steel",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "masonite",
+    "category": "entry-doors",
+    "modelNumber": "DR-ST-106-2P-1-80",
+    "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-106-2p-1-80/",
+    "possibleAliasesReviewed": [
+      {
+        "productId": "masonite:2-panel-1-2-lite",
+        "nameSimilarity": 1.0,
+        "modelMatch": false
+      },
+      {
+        "productId": "masonite:4-panel-1-4-lite",
+        "nameSimilarity": 0.9,
+        "modelMatch": false
+      }
+    ],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "masonite:2-panel-hollister-steel",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "masonite",
+    "category": "entry-doors",
+    "modelNumber": "DR-ST-404-1P-1-80",
+    "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-404-1p-1-80/",
+    "possibleAliasesReviewed": [
+      {
+        "productId": "masonite:2-panel-hollister",
+        "nameSimilarity": 1.0,
+        "modelMatch": false
+      }
+    ],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "masonite:3-panel-equal-steel",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "masonite",
+    "category": "entry-doors",
+    "modelNumber": "DR-ST-217-3E-3-80",
+    "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-217-3e-3-80/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "masonite:4-panel-1-4-lite-steel",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "masonite",
+    "category": "entry-doors",
+    "modelNumber": "DR-ST-228-4P-1-80",
+    "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-228-4p-1-80/",
+    "possibleAliasesReviewed": [
+      {
+        "productId": "masonite:2-panel-1-2-lite",
+        "nameSimilarity": 0.9,
+        "modelMatch": false
+      },
+      {
+        "productId": "masonite:4-panel-1-4-lite",
+        "nameSimilarity": 1.0,
+        "modelMatch": false
+      }
+    ],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "masonite:6-panel-steel",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "masonite",
+    "category": "entry-doors",
+    "modelNumber": "DR-ST-X-6P-X-80",
+    "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-x-6p-x-80/",
+    "possibleAliasesReviewed": [
+      {
+        "productId": "masonite:6-panel",
+        "nameSimilarity": 1.0,
+        "modelMatch": false
+      }
+    ],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "masonite:cheyenne-steel",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "masonite",
+    "category": "entry-doors",
+    "modelNumber": "DR-ST-X-CHEY-X-80",
+    "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-x-chey-x-80/",
+    "possibleAliasesReviewed": [
+      {
+        "productId": "masonite:cheyenne",
+        "nameSimilarity": 1.0,
+        "modelMatch": false
+      }
+    ],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "masonite:flush-1-lite-steel",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "masonite",
+    "category": "entry-doors",
+    "modelNumber": "DR-ST-151-FCL-1-80",
+    "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-151-fcl-1-80/",
+    "possibleAliasesReviewed": [
+      {
+        "productId": "masonite:flush-1-lite",
+        "nameSimilarity": 1.0,
+        "modelMatch": false
+      }
+    ],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "masonite:flush-4-lite-equal-steel",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "masonite",
+    "category": "entry-doors",
+    "modelNumber": "DR-ST-228-4E-4-80",
+    "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-228-4e-4-80/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "masonite:flush-5-square-lite-steel",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "masonite",
+    "category": "entry-doors",
+    "modelNumber": "DR-ST-682-C5S-5-80",
+    "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-682-c5s-5-80/",
+    "possibleAliasesReviewed": [
+      {
+        "productId": "masonite:flush-5-square-lite",
+        "nameSimilarity": 1.0,
+        "modelMatch": false
+      }
+    ],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "masonite:full-lite-steel",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "masonite",
+    "category": "entry-doors",
+    "modelNumber": "DR-ST-122-FL-1-80",
+    "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-122-fl-1-80/",
+    "possibleAliasesReviewed": [
+      {
+        "productId": "masonite:full-lite",
+        "nameSimilarity": 1.0,
+        "modelMatch": false
+      }
+    ],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "masonite:square-2-panel-steel",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "masonite",
+    "category": "entry-doors",
+    "modelNumber": "DR-ST-X-2P-X-80",
+    "sourceUrl": "https://www.masonite.com/doors/exterior/dr-st-x-2p-x-80/",
+    "possibleAliasesReviewed": [
+      {
+        "productId": "masonite:square-2-panel",
+        "nameSimilarity": 1.0,
+        "modelMatch": false
+      }
+    ],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
     "productId": "mennie-canada:fg-6l",
     "decision": "retained-distinct",
     "reason": "No curated record has the same normalized manufacturer model or product name.",
@@ -180,6 +376,18 @@
     "editorialStatus": "incomplete"
   },
   {
+    "productId": "novatech:2-panel-planked-camber-top",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "novatech",
+    "category": "entry-doors",
+    "modelNumber": null,
+    "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/catalog/product/view/id/2069/s/2-panel-planked-camber-top-1/category/21/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
     "productId": "novatech:3-panel-scroll-top",
     "decision": "retained-distinct",
     "reason": "No curated record has the same normalized manufacturer model or product name.",
@@ -235,6 +443,18 @@
     "category": "entry-doors",
     "modelNumber": null,
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/inox.html",
+    "possibleAliasesReviewed": [],
+    "enriched": false,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "novatech:linea",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "novatech",
+    "category": "entry-doors",
+    "modelNumber": null,
+    "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/catalog/product/view/id/2104/s/linea/category/21/",
     "possibleAliasesReviewed": [],
     "enriched": false,
     "editorialStatus": "incomplete"
@@ -437,7 +657,481 @@
     "editorialStatus": "incomplete"
   },
   {
-    "productId": "trimlite:dra1p",
+    "productId": "trimlite:2064-ez-lift-clear-internal-venting-doorlite",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/internal-venting-doorlites/2064-ez-lift-clear-internal-venting-doorlite/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:2080-clear-one-lite-doorlite",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/one-lites-doorlites/2080-clear-one-lite-doorlite/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:2236-clear-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/internal-venting-doorlites/2236-clear-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:2236-internal-grid-12l",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/internal-venting-doorlites/2236-internal-grid-12l/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:2236-internal-grid-9-lite",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/2236-internal-grid-9-lite/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:2236-rain-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/internal-venting-doorlites/2236-rain-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:2248-clear-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/one-lites-doorlites/2248-clear-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:2248-ez-lift-clear-internal-venting-doorlite",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/internal-venting-doorlites/2248-ez-lift-clear-internal-venting-doorlite/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:2248-internal-grid-12-lite",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/2248-internal-grid-12-lite/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:2264-clear-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/one-lites-doorlites/2264-clear-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:2264-ez-lift-clear-internal-venting-doorlite",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/internal-venting-doorlites/2264-ez-lift-clear-internal-venting-doorlite/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:2264-internal-grid-15-lite",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/2264-internal-grid-15-lite/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:2280-internal-grid-18-lite",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/2280-internal-grid-18-lite/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:764-internal-grid-5-lite",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/764-internal-grid-5-lite/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:adelaide",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/decorative-doorlites/adelaide/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:artisan-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/decorative-doorlites/artisan-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:canterbury",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/decorative-doorlites/canterbury/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:chords",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/solution-series/chords/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:chords-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/retro-series/chords-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:clear-2208-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/one-lites-doorlites/clear-2208-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:clear-2210sb-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/one-lites-doorlites/clear-2210sb-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:clear-2215",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/one-lites-doorlites/clear-2215/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:clear-2236-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/one-lites-doorlites/clear-2236-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:clear-2264-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/clear-2264-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:clear-2280-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/clear-2280-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:clear-2515-one-lite-doorlite",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/one-lites-doorlites/clear-2515-one-lite-doorlite/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:clear-718-one-lite-doorlite",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/one-lites-doorlites/clear-718-one-lite-doorlite/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:clear-764-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/clear-764-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:clear-764-one-lite-doorlite",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/one-lites-doorlites/clear-764-one-lite-doorlite/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:clear-836-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/one-lites-doorlites/clear-836-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:clear-848-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/one-lites-doorlites/clear-848-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:clear-880-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/clear-880-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:clear-880-one-lite-doorlite",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/one-lites-doorlites/clear-880-one-lite-doorlite/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:clear-glass",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/solution-series/clear-glass/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:clear-glass-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/retro-series/clear-glass-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:df22-1-lite-douglas-fir-full-lite-exterior-wood-door",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DF22",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/exterior-wood/df22-1-lite-douglas-fir-full-lite-exterior-wood-door/",
+    "possibleAliasesReviewed": [
+      {
+        "productId": "trimlite:df22",
+        "nameSimilarity": 1.0,
+        "modelMatch": true
+      }
+    ],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:diffused-white-laminate-white-lami",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/solution-series/diffused-white-laminate-white-lami/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:diffused-white-laminate-white-lami-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/retro-series/diffused-white-laminate-white-lami-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:dra1a80-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRA1A",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/rustic-fiberglass-doors/dra1a80-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:dra1p-2",
     "decision": "retained-distinct",
     "reason": "No curated record has the same normalized manufacturer model or product name.",
     "manufacturer": "trimlite",
@@ -449,7 +1143,7 @@
     "editorialStatus": "incomplete"
   },
   {
-    "productId": "trimlite:dra2a",
+    "productId": "trimlite:dra2a-2",
     "decision": "retained-distinct",
     "reason": "No curated record has the same normalized manufacturer model or product name.",
     "manufacturer": "trimlite",
@@ -461,7 +1155,177 @@
     "editorialStatus": "incomplete"
   },
   {
-    "productId": "trimlite:drg00",
+    "productId": "trimlite:dra2b-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRA2B",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/rustic-fiberglass-doors/dra2b-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:dra2d-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRA2D",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/rustic-fiberglass-doors/dra2d-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:dra2p80-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRA2P",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/rustic-fiberglass-doors/dra2p80-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drb10-pre-pigmented-black-smooth-fiberglass-exterior-door",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRB10",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drb10-pre-pigmented-black-smooth-fiberglass-exterior-door/",
+    "possibleAliasesReviewed": [
+      {
+        "productId": "trimlite:drb10",
+        "nameSimilarity": 1.0,
+        "modelMatch": true
+      }
+    ],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drf1d",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRF1D",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/fir-grain-fiberglass/drf1d/",
+    "possibleAliasesReviewed": [
+      {
+        "productId": "trimlite:drf1k",
+        "nameSimilarity": 0.971,
+        "modelMatch": false
+      },
+      {
+        "productId": "trimlite:drf2k",
+        "nameSimilarity": 0.943,
+        "modelMatch": false
+      }
+    ],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drf33-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRF33",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/fir-grain-fiberglass/drf33-2/",
+    "possibleAliasesReviewed": [
+      {
+        "productId": "trimlite:drf1k",
+        "nameSimilarity": 0.943,
+        "modelMatch": false
+      },
+      {
+        "productId": "trimlite:drf2k",
+        "nameSimilarity": 0.943,
+        "modelMatch": false
+      }
+    ],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drf36-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRF36",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/fir-grain-fiberglass/drf36-2/",
+    "possibleAliasesReviewed": [
+      {
+        "productId": "trimlite:drf1k",
+        "nameSimilarity": 0.943,
+        "modelMatch": false
+      },
+      {
+        "productId": "trimlite:drf2k",
+        "nameSimilarity": 0.943,
+        "modelMatch": false
+      }
+    ],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drf3c-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRF3C",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/fir-grain-fiberglass/drf3c-2/",
+    "possibleAliasesReviewed": [
+      {
+        "productId": "trimlite:drf1k",
+        "nameSimilarity": 0.943,
+        "modelMatch": false
+      },
+      {
+        "productId": "trimlite:drf2k",
+        "nameSimilarity": 0.943,
+        "modelMatch": false
+      }
+    ],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drf3f-3-panel-shaker-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRF3F",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/fir-grain-fiberglass/drf3f-3-panel-shaker-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drf50-5-panel-shaker-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRF50",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/fir-grain-fiberglass/drf50-5-panel-shaker-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drg00-2",
     "decision": "retained-distinct",
     "reason": "No curated record has the same normalized manufacturer model or product name.",
     "manufacturer": "trimlite",
@@ -473,7 +1337,19 @@
     "editorialStatus": "incomplete"
   },
   {
-    "productId": "trimlite:drg10b",
+    "productId": "trimlite:drg10-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRG10",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/wood-grain-fiberglass/drg10-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drg10b-2",
     "decision": "retained-distinct",
     "reason": "No curated record has the same normalized manufacturer model or product name.",
     "manufacturer": "trimlite",
@@ -485,7 +1361,7 @@
     "editorialStatus": "incomplete"
   },
   {
-    "productId": "trimlite:drg12",
+    "productId": "trimlite:drg12-2",
     "decision": "retained-distinct",
     "reason": "No curated record has the same normalized manufacturer model or product name.",
     "manufacturer": "trimlite",
@@ -497,7 +1373,67 @@
     "editorialStatus": "incomplete"
   },
   {
-    "productId": "trimlite:drg49",
+    "productId": "trimlite:drg12b-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRG12B",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/wood-grain-fiberglass/drg12b-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drg20-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRG20",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/wood-grain-fiberglass/drg20-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drg29-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRG29",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/wood-grain-fiberglass/drg29-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drg40-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRG40",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/wood-grain-fiberglass/drg40-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drg41-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRG41",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/wood-grain-fiberglass/drg41-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drg49-2",
     "decision": "retained-distinct",
     "reason": "No curated record has the same normalized manufacturer model or product name.",
     "manufacturer": "trimlite",
@@ -509,7 +1445,19 @@
     "editorialStatus": "incomplete"
   },
   {
-    "productId": "trimlite:drg63",
+    "productId": "trimlite:drg60-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRG60",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/wood-grain-fiberglass/drg60-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drg63-2",
     "decision": "retained-distinct",
     "reason": "No curated record has the same normalized manufacturer model or product name.",
     "manufacturer": "trimlite",
@@ -521,7 +1469,82 @@
     "editorialStatus": "incomplete"
   },
   {
-    "productId": "trimlite:drs10b",
+    "productId": "trimlite:drg6c-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRG6C",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/wood-grain-fiberglass/drg6c-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drm41-36-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRM41",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/mahogany-fiberglass/drm41-36-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drs00-flush-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRS00",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs00-flush-2/",
+    "possibleAliasesReviewed": [
+      {
+        "productId": "trimlite:drs1el",
+        "nameSimilarity": 0.897,
+        "modelMatch": false
+      },
+      {
+        "productId": "trimlite:drs1k",
+        "nameSimilarity": 0.886,
+        "modelMatch": false
+      },
+      {
+        "productId": "trimlite:drs2k",
+        "nameSimilarity": 0.886,
+        "modelMatch": false
+      }
+    ],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drs10-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRS10",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs10-2/",
+    "possibleAliasesReviewed": [
+      {
+        "productId": "trimlite:drs1k",
+        "nameSimilarity": 0.973,
+        "modelMatch": false
+      },
+      {
+        "productId": "trimlite:drs2k",
+        "nameSimilarity": 0.946,
+        "modelMatch": false
+      }
+    ],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drs10b-mini-blinds-2",
     "decision": "retained-distinct",
     "reason": "No curated record has the same normalized manufacturer model or product name.",
     "manufacturer": "trimlite",
@@ -533,7 +1556,7 @@
     "editorialStatus": "incomplete"
   },
   {
-    "productId": "trimlite:drs12",
+    "productId": "trimlite:drs12-2",
     "decision": "retained-distinct",
     "reason": "No curated record has the same normalized manufacturer model or product name.",
     "manufacturer": "trimlite",
@@ -556,7 +1579,100 @@
     "editorialStatus": "incomplete"
   },
   {
-    "productId": "trimlite:drs2b",
+    "productId": "trimlite:drs12b-mini-blinds-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRS12B",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs12b-mini-blinds-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drs1d",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRS1D",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs1d/",
+    "possibleAliasesReviewed": [
+      {
+        "productId": "trimlite:drs1el",
+        "nameSimilarity": 0.902,
+        "modelMatch": false
+      },
+      {
+        "productId": "trimlite:drs1k",
+        "nameSimilarity": 0.973,
+        "modelMatch": false
+      },
+      {
+        "productId": "trimlite:drs2k",
+        "nameSimilarity": 0.946,
+        "modelMatch": false
+      }
+    ],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drs1el-brushed-smooth-skin-exterior-fiberglass-door",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs1el-brushed-smooth-skin-exterior-fiberglass-door/",
+    "possibleAliasesReviewed": [
+      {
+        "productId": "trimlite:drs1el",
+        "nameSimilarity": 1.0,
+        "modelMatch": false
+      }
+    ],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drs20-smooth-skin-exterior-fiberglass-door",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRS20",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs20-smooth-skin-exterior-fiberglass-door/",
+    "possibleAliasesReviewed": [
+      {
+        "productId": "trimlite:drs1k",
+        "nameSimilarity": 0.946,
+        "modelMatch": false
+      },
+      {
+        "productId": "trimlite:drs2k",
+        "nameSimilarity": 0.973,
+        "modelMatch": false
+      }
+    ],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drs29-3-4-2-panels",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRS29",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs29-3-4-2-panels/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drs2b-2-panels",
     "decision": "retained-distinct",
     "reason": "No curated record has the same normalized manufacturer model or product name.",
     "manufacturer": "trimlite",
@@ -574,7 +1690,19 @@
     "editorialStatus": "incomplete"
   },
   {
-    "productId": "trimlite:drs3c",
+    "productId": "trimlite:drs2d-2-panel-arch-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRS2D",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs2d-2-panel-arch-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drs3c-2",
     "decision": "retained-distinct",
     "reason": "No curated record has the same normalized manufacturer model or product name.",
     "manufacturer": "trimlite",
@@ -594,10 +1722,88 @@
       }
     ],
     "enriched": true,
-    "editorialStatus": "draft"
+    "editorialStatus": "incomplete"
   },
   {
-    "productId": "trimlite:drs50",
+    "productId": "trimlite:drs3c-3-panel-shaker-door-with-3-lite-patina-decorative-glass",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRS3C",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs3c-3-panel-shaker-door-with-3-lite-patina-decorative-glass/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drs3c-3-panel-shaker-door-with-6-lite-patina-decorative-glass",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRS3C",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs3c-3-panel-shaker-door-with-6-lite-patina-decorative-glass/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drs3f-3-panel-shaker-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRS3F",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs3f-3-panel-shaker-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drs40-4-panel-blank-top-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRS40",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs40-4-panel-blank-top-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drs41-4-panels-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRS41",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs41-4-panels-2/",
+    "possibleAliasesReviewed": [
+      {
+        "productId": "trimlite:drs1k",
+        "nameSimilarity": 0.889,
+        "modelMatch": false
+      }
+    ],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drs49-3-4-4-panels",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRS49",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs49-3-4-4-panels/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drs50-5-panel-shaker-2",
     "decision": "retained-distinct",
     "reason": "No curated record has the same normalized manufacturer model or product name.",
     "manufacturer": "trimlite",
@@ -606,10 +1812,34 @@
     "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs50-5-panel-shaker-2/",
     "possibleAliasesReviewed": [],
     "enriched": true,
-    "editorialStatus": "draft"
+    "editorialStatus": "incomplete"
   },
   {
-    "productId": "trimlite:drs6c",
+    "productId": "trimlite:drs60-6-panels-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRS60",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs60-6-panels-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drs63-6-panel",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "DRS63",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs63-6-panel/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:drs6c-craftsman-2",
     "decision": "retained-distinct",
     "reason": "No curated record has the same normalized manufacturer model or product name.",
     "manufacturer": "trimlite",
@@ -621,13 +1851,469 @@
     "editorialStatus": "incomplete"
   },
   {
-    "productId": "trimlite:flush-glazed-applied-mullion-smooth-skin-exterior-fiberglass-door",
+    "productId": "trimlite:eastmont-decorative-doorlite",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/decorative-doorlites/eastmont-decorative-doorlite/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:everton",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/decorative-doorlites/everton/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:flush-glazed-applied-mullion",
     "decision": "retained-distinct",
     "reason": "No curated record has the same normalized manufacturer model or product name.",
     "manufacturer": "trimlite",
     "category": "entry-doors",
     "modelNumber": null,
     "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/flush-glazed-applied-mullion/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:granville",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/decorative-doorlites/granville/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:hamilton-decorative-doorlite",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/decorative-doorlites/hamilton-decorative-doorlite/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:harlow-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/decorative-doorlites/harlow-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:hollister",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/decorative-doorlites/hollister/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:internal-blinds-between-glass-2080",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/internal-blinds-doorlites/internal-blinds-between-glass-2080/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:internal-blinds-between-glass-2236",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/internal-blinds-between-glass-2236/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:internal-blinds-between-glass-2248",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/internal-blinds-doorlites/internal-blinds-between-glass-2248/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:internal-blinds-between-glass-2264",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/internal-blinds-between-glass-2264/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:internal-blinds-between-glass-2280",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/internal-blinds-between-glass-2280/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:internal-blinds-between-glass-764",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/internal-blinds-between-glass-764/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:internal-blinds-between-glass-836",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/internal-blinds-doorlites/internal-blinds-between-glass-836/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:internal-blinds-between-glass-848",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/internal-blinds-doorlites/internal-blinds-between-glass-848/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:lexington",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/decorative-doorlites/lexington/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:manhattan-decorative-doorlite",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/decorative-doorlites/manhattan-decorative-doorlite/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:miniblind-2064",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/internal-blinds-doorlites/miniblind-2064/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:miniblind-2236-internal-blinds-doorlite",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/internal-blinds-doorlites/miniblind-2236-internal-blinds-doorlite/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:miniblind-764-internal-blinds-doorlite",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/internal-blinds-doorlites/miniblind-764-internal-blinds-doorlite/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:miniblind-880-internal-blinds-doorlite",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/internal-blinds-doorlites/miniblind-880-internal-blinds-doorlite/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:mistlite",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/solution-series/mistlite/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:mistlite-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/retro-series/mistlite-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:modena",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/decorative-doorlites/modena/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:narrow-reed",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/solution-series/narrow-reed/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:narrow-reed-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/retro-series/narrow-reed-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:niagara",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/decorative-doorlites/niagara/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:pemberton-decorative-doorlite",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/decorative-doorlites/pemberton-decorative-doorlite/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:perimeter",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/decorative-doorlites/perimeter/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:princeton-decorative-doorlite",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/decorative-doorlites/princeton-decorative-doorlite/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:riverton",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/decorative-doorlites/riverton/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:rooftop",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/solution-series/rooftop/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:rooftop-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/retro-series/rooftop-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:royston",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/decorative-doorlites/royston/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:sable",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/solution-series/sable/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:sable-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/retro-series/sable-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:sandblast",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/retro-series/sandblast/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:sandblast-satin-etch",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/solution-series/sandblast-satin-etch/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:screen-dot-solution-series-doorlite",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/solution-series/screen-dot-solution-series-doorlite/",
     "possibleAliasesReviewed": [],
     "enriched": true,
     "editorialStatus": "incomplete"
@@ -645,7 +2331,115 @@
     "editorialStatus": "incomplete"
   },
   {
-    "productId": "trimlite:sls10b",
+    "productId": "trimlite:slf3c-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "SLF3C",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/fir-grain-fiberglass/slf3c-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:slg00-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "SLG00",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/wood-grain-fiberglass/slg00-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:slg10-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "SLG10",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/wood-grain-fiberglass/slg10-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:slg3e-wood-grain-exterior-fiberglass-door-side-panel",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "SLG3E",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/wood-grain-fiberglass/slg3e-wood-grain-exterior-fiberglass-door-side-panel/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:slg49-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "SLG49",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/wood-grain-fiberglass/slg49-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:slg60-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "SLG60",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/wood-grain-fiberglass/slg60-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:slm3d-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "SLM60",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/rustic-fiberglass-doors/slm3d-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:sls00-flush-sidelite",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "SLS00",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/sls00-flush-sidelite/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:sls10-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "SLS10",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/sls10-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:sls10b-mini-blinds-smooth-skin-exterior-fiberglass-door-sidelite",
     "decision": "retained-distinct",
     "reason": "No curated record has the same normalized manufacturer model or product name.",
     "manufacturer": "trimlite",
@@ -657,25 +2451,409 @@
     "editorialStatus": "incomplete"
   },
   {
-    "productId": "trimlite:sls3c",
+    "productId": "trimlite:sls12b-2",
     "decision": "retained-distinct",
     "reason": "No curated record has the same normalized manufacturer model or product name.",
     "manufacturer": "trimlite",
-    "category": "door-glass",
+    "category": "entry-doors",
+    "modelNumber": "SLS12B",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/sls12b-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:sls3c-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "SLS3C",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/sls3c-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:sls3c-2-panel-shaker-sidelite-with-2-lite-patina-decorative-glass",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
     "modelNumber": "SLS3C",
     "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/sls3c-2-panel-shaker-sidelite-with-2-lite-patina-decorative-glass/",
     "possibleAliasesReviewed": [],
     "enriched": true,
-    "editorialStatus": "draft"
+    "editorialStatus": "incomplete"
   },
   {
-    "productId": "trimlite:sls49",
+    "productId": "trimlite:sls49-2",
     "decision": "retained-distinct",
     "reason": "No curated record has the same normalized manufacturer model or product name.",
     "manufacturer": "trimlite",
     "category": "entry-doors",
     "modelNumber": "SLS49",
     "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/sls49-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:sls60-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "entry-doors",
+    "modelNumber": "SLS60",
+    "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/sls60-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:storm-series-impact-880-internal-grid-6-lite",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/storm-series-impact-880-internal-grid-6-lite/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:storm-series-impact-artisan",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/storm-series-impact-artisan/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:storm-series-impact-clear-2208",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/storm-series-impact-clear-2208/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:storm-series-impact-clear-2215",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/storm-series-impact-clear-2215/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:storm-series-impact-clear-2236",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/storm-series-impact-clear-2236/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:storm-series-impact-clear-2248",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/storm-series-impact-clear-2248/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:storm-series-impact-diffused-white-laminate-dwl",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/storm-series-impact-diffused-white-laminate-dwl/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:storm-series-impact-double-water",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/storm-series-impact-double-water/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:storm-series-impact-internal-blinds-between-glass-880",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/storm-series-impact-internal-blinds-between-glass-880/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:storm-series-impact-modena",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/storm-series-impact-modena/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:storm-series-impact-perimeter",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/storm-series-impact-perimeter/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:storm-series-impact-rain",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/storm-series-impact-rain/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:storm-series-impact-royston",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/storm-series-impact-royston/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:storm-series-impact-satin-etch-sandblast",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/storm-series-impact-satin-etch-sandblast/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:sullivan",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/decorative-doorlites/sullivan/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:traditional-2210sb-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/internal-grids-doorlites/traditional-2210sb-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:traditional-2215-3l-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/internal-grids-doorlites/traditional-2215-3l-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:traditional-2215-6l-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/internal-grids-doorlites/traditional-2215-6l-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:traditional-2236-internal-grid-doorlite",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/internal-grids-doorlites/traditional-2236-internal-grid-doorlite/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:traditional-2248",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/internal-grids-doorlites/traditional-2248/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:traditional-2515-3l-internal-grid-doorlite",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/internal-grids-doorlites/traditional-2515-3l-internal-grid-doorlite/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:traditional-2515-6l-internal-grid-doorlite",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/internal-grids-doorlites/traditional-2515-6l-internal-grid-doorlite/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:traditional-764-internal-grid-doorlite",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/internal-grids-doorlites/traditional-764-internal-grid-doorlite/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:traditional-836-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/internal-grids-doorlites/traditional-836-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:traditional-848-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/internal-grids-doorlites/traditional-848-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:tradtional-2064-2",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/internal-grids-doorlites/tradtional-2064-2/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:verona",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/decorative-doorlites/verona/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:waterton",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/decorative-doorlites/waterton/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "trimlite:winslow-decorative-doorlite",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "trimlite",
+    "category": "door-glass",
+    "modelNumber": null,
+    "sourceUrl": "https://trimlite.com/products/doorlites/decorative-doorlites/winslow-decorative-doorlite/",
     "possibleAliasesReviewed": [],
     "enriched": true,
     "editorialStatus": "incomplete"

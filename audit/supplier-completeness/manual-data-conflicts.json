@@ -1,0 +1,34 @@
+{
+  "conflicts": [
+    {
+      "supplier": "masonite",
+      "productId": "masonite:4-lite-equal",
+      "field": "material",
+      "websiteEvidence": {
+        "modelNumber": "DR-FG-228-4E-4S-80",
+        "interpretation": "Fiberglass SKU family",
+        "sourceUrl": "https://www.masonite.com/doors/exterior/dr-fg-228-4e-4s-80/"
+      },
+      "conflictingEvidence": {
+        "value": "Steel",
+        "source": "supplier API image alt text"
+      },
+      "status": "manual-review-required"
+    },
+    {
+      "supplier": "masonite",
+      "productId": "masonite:flush-1-lite",
+      "field": "material",
+      "websiteEvidence": {
+        "modelNumber": "DR-FG-151-FCL-1-80",
+        "interpretation": "Fiberglass SKU family",
+        "sourceUrl": "https://www.masonite.com/doors/exterior/dr-fg-151-fcl-1-80/"
+      },
+      "conflictingEvidence": {
+        "value": "Steel",
+        "source": "supplier API image alt text"
+      },
+      "status": "manual-review-required"
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+    "supplier":  "trimlite",
+    "generatedAt":  "2026-08-20T02:40:12Z",
+    "pageDiscoveryRepeated":  false,
+    "existingValidatedAssetsRedownloaded":  false,
+    "supplierDelaySeconds":  10,
+    "correctiveOriginalTasks":  21,
+    "masterUpgradeTasks":  3,
+    "newNetworkAssetRequests":  24,
+    "acceptedTasks":  24,
+    "failedTasks":  0,
+    "note":  "Saved plan status fields remain immutable historical inputs; final task state is reconciled from accepted manifest URLs and validated local binaries.",
+    "tasks":  [
+                  {
+                      "url":  "https://trimlite.com/wp-content/uploads/2018/05/2203-6-Lite-Solution-Series-Frame.jpg",
+                      "plan":  "missing-asset-resume-plan.json",
+                      "finalState":  "accepted",
+                      "localPaths":  [
+                                         "/images/catalog/trimlite/2203-6-lite-solution-series-frame-ee76efd5e666.jpg"
+                                     ],
+                      "sha256":  [
+                                     "7a7beb91d2e4cc70433c9a9a41cede52dc4a72fe9db2d6af9bc36780ecec13c8"
+                                 ]
+                  },
+                  {
+                      "url":  "https://trimlite.com/wp-content/uploads/2021/10/Pg-14-Double-Water_2780.jpg",
+                      "plan":  "missing-asset-resume-plan.json",
+                      "finalState":  "accepted",
+                      "localPaths":  [
+                                         "/images/catalog/trimlite/pg-14-double-water-2780-a235f4d15c60.jpg"
+                                     ],
+                      "sha256":  [
+                                     "73f63779c5e35e33751707fe7da5691129d7c16d085dbd8856d9924ffbb443ed"
+                                 ]
+                  },
+                  {
+                      "url":  "https://trimlite.com/wp-content/uploads/2020/03/2215_RAIN_OBSCURITY.jpg",
+                      "plan":  "missing-asset-resume-plan.json",
+                      "finalState":  "accepted",
+                      "localPaths":  [
+                                         "/images/catalog/trimlite/2215-rain-obscurity-f466f594d74a.jpg"
+                                     ],
+                      "sha256":  [
+                                     "1dc782b200e6a4dcc46955fc8fa6c8b251398db88de5606e6379f7957a317937"
+                                 ]
+                  },
+                  {
+                      "url":  "https://trimlite.com/wp-content/uploads/2018/05/DRS50-Beautyshot_Flowers-Web-Image.jpg",
+                      "plan":  "missing-asset-resume-plan.json",
+                      "finalState":  "accepted",
+                      "localPaths":  [
+                                         "/images/catalog/trimlite/drs50-beautyshot-flowers-web-image-839ee1a7df89.jpg"
+                                     ],
+                      "sha256":  [
+                                     "faf2046e74a777770872bf90b3b8621c6253dca4e2fd2935cd88a97303773bef"
+                                 ]
+                  },
+                  {
+                      "url":  "https://trimlite.com/wp-content/uploads/2018/05/Applied-Mullion-Beauty-Shot-4-Lite.jpg",
+                      "plan":  "missing-asset-resume-plan.json",
+                      "finalState":  "accepted",
+                      "localPaths":  [
+                                         "/images/catalog/trimlite/applied-mullion-beauty-shot-4-lite-08b5815f62a7.jpg"
+                                     ],
+                      "sha256":  [
+                                     "873fe2f66b6876abe832c05912a060951e8d46824b3be0a442fbea2a2916134d"
+                                 ]
+                  },
+                  {
+                      "url":  "https://trimlite.com/wp-content/uploads/2026/04/HamiltonBeautyShot.jpg",
+                      "plan":  "missing-asset-resume-plan.json",
+                      "finalState":  "accepted",
+                      "localPaths":  [
+                                         "/images/catalog/trimlite/hamiltonbeautyshot-a38a9d5f0009.jpg"
+                                     ],
+                      "sha256":  [
+                                     "56afdd960cc8e58f7ab8f25e60a0fa404dace40ea598d8a92768805f9351d6ab"
+                                 ]
+                  },
+                  {
+                      "url":  "https://trimlite.com/wp-content/uploads/2024/03/Pembertonbeauty.jpg",
+                      "plan":  "missing-asset-resume-plan.json",
+                      "finalState":  "accepted",
+                      "localPaths":  [
+                                         "/images/catalog/trimlite/pembertonbeauty-d9db56167742.jpg"
+                                     ],
+                      "sha256":  [
+                                     "373e503fa26c469b06cb979641f9b0f30032ee6a40c20082b0538374d4d3fa38"
+                                 ]
+                  },
+                  {
+                      "url":  "https://trimlite.com/wp-content/uploads/2024/03/PembertonDetail.jpg",
+                      "plan":  "missing-asset-resume-plan.json",
+                      "finalState":  "accepted",
+                      "localPaths":  [
+                                         "/images/catalog/trimlite/pembertondetail-27d99cfe22f4.jpg"
+                                     ],
+                      "sha256":  [
+                                     "b4a387f6d8e3d2daf14742b9738301e180d549c902aff9cac01afd52cd3643dc"
+                                 ]
+                  },
+                  {
+                      "url":  "https://trimlite.com/wp-content/uploads/2018/05/764-1-Lite-Web-e1593202542652.jpg",
+                      "plan":  "missing-asset-resume-plan.json",
+                      "finalState":  "accepted",
+                      "localPaths":  [
+                                         "/images/catalog/trimlite/764-1-lite-web-e1593202542652-17ddca577d59.jpg"
+                                     ],
+                      "sha256":  [
+                                     "a6c89e15dc76ea2684bfe44361efb5a54c7d6438bc7724a0892416fb5f7ac7a8"
+                                 ]
+                  },
+                  {
+                      "url":  "https://trimlite.com/wp-content/uploads/2018/05/0806-5-Lite-Web-e1593202726756.jpg",
+                      "plan":  "missing-asset-resume-plan.json",
+                      "finalState":  "accepted",
+                      "localPaths":  [
+                                         "/images/catalog/trimlite/0806-5-lite-web-e1593202726756-0bb50c73b50f.jpg"
+                                     ],
+                      "sha256":  [
+                                     "dc9ce328d41d5f2a1159da1ea518719ef777d9f6e6d4622b1c6062da930d34d3"
+                                 ]
+                  },
+                  {
+                      "url":  "https://trimlite.com/wp-content/uploads/2018/05/0808-4-Lite-Diamond-Image.jpg",
+                      "plan":  "missing-asset-resume-plan.json",
+                      "finalState":  "accepted",
+                      "localPaths":  [
+                                         "/images/catalog/trimlite/0808-4-lite-diamond-image-60ce3c1f8427.jpg"
+                                     ],
+                      "sha256":  [
+                                     "f80010d3f4849b09235a15c0dc94ea66f1ae3a36deb6fe2ae4353c1bc80bfc4a"
+                                 ]
+                  },
+                  {
+                      "url":  "https://trimlite.com/wp-content/uploads/2023/08/DRS1S80L_Beautyshot700.jpg",
+                      "plan":  "missing-asset-resume-plan.json",
+                      "finalState":  "accepted",
+                      "localPaths":  [
+                                         "/images/catalog/trimlite/drs1s80l-beautyshot700-3d48435192ea.jpg"
+                                     ],
+                      "sha256":  [
+                                     "2d1cd8c376d9524d905ed5efcd7e3e7cfba9ba603caee77b015ff15711619d22"
+                                 ]
+                  },
+                  {
+                      "url":  "https://trimlite.com/wp-content/uploads/2019/01/DRS1DL-Beauty-Shot.jpg",
+                      "plan":  "missing-asset-resume-plan.json",
+                      "finalState":  "accepted",
+                      "localPaths":  [
+                                         "/images/catalog/trimlite/drs1dl-beauty-shot-1430d6925c27.jpg"
+                                     ],
+                      "sha256":  [
+                                     "8ad18dcaf30663a2f49dcbf982bec7391233aff8b1e1aaa7b7521937ecee7231"
+                                 ]
+                  },
+                  {
+                      "url":  "https://trimlite.com/wp-content/uploads/2019/05/Nova-Corner-Sample.jpg",
+                      "plan":  "missing-asset-resume-plan.json",
+                      "finalState":  "accepted",
+                      "localPaths":  [
+                                         "/images/catalog/trimlite/nova-corner-sample-ee4e731d8940.jpg"
+                                     ],
+                      "sha256":  [
+                                     "dd380357e17eafb7905735c2ea572cab273a512d5067007ec3cf1b7a6a64a92b"
+                                 ]
+                  },
+                  {
+                      "url":  "https://trimlite.com/wp-content/uploads/2018/05/SDL_ALUMINUMBAR_DETAIL_2-Web-Image.jpg",
+                      "plan":  "missing-asset-resume-plan.json",
+                      "finalState":  "accepted",
+                      "localPaths":  [
+                                         "/images/catalog/trimlite/sdl-aluminumbar-detail-2-web-image-25c7b5b5f380.jpg"
+                                     ],
+                      "sha256":  [
+                                     "c3d3b9a0131e0e807399ca3a32fecaaea9dd62bd30cd64515c17d6c0f3725dd0"
+                                 ]
+                  },
+                  {
+                      "url":  "https://trimlite.com/wp-content/uploads/2018/05/SDL_ALUMINUMBAR_2LITE_Website-Image.jpg",
+                      "plan":  "missing-asset-resume-plan.json",
+                      "finalState":  "accepted",
+                      "localPaths":  [
+                                         "/images/catalog/trimlite/sdl-aluminumbar-2lite-website-image-b4157b0c2543.jpg"
+                                     ],
+                      "sha256":  [
+                                     "bc8372adb80fd9d61e735253b9f7bf82f82824d1b57a0bad41512b09c5ee2210"
+                                 ]
+                  },
+                  {
+                      "url":  "https://trimlite.com/wp-content/uploads/2018/05/SDL_ALUMINUMBAR_3LITE_Website-Image.jpg",
+                      "plan":  "missing-asset-resume-plan.json",
+                      "finalState":  "accepted",
+                      "localPaths":  [
+                                         "/images/catalog/trimlite/sdl-aluminumbar-3lite-website-image-5cac8511dc42.jpg"
+                                     ],
+                      "sha256":  [
+                                     "a5cda9ffdcb17ddc31c075c14b170c41d8598e44bfbb025bab1be533ab2ddf41"
+                                 ]
+                  },
+                  {
+                      "url":  "https://trimlite.com/wp-content/uploads/2018/05/SDL_ALUMINUMBAR_4LITE_Web.jpg",
+                      "plan":  "missing-asset-resume-plan.json",
+                      "finalState":  "accepted",
+                      "localPaths":  [
+                                         "/images/catalog/trimlite/sdl-aluminumbar-4lite-web-41d06528d9bd.jpg"
+                                     ],
+                      "sha256":  [
+                                     "ba460b2e9d518be9ac670a1c251d591411bedd25d191e1c725949a498dddb0d6"
+                                 ]
+                  },
+                  {
+                      "url":  "https://trimlite.com/wp-content/uploads/2018/05/SDL_ALUMINUMBAR_5LITE_Website-Image.jpg",
+                      "plan":  "missing-asset-resume-plan.json",
+                      "finalState":  "accepted",
+                      "localPaths":  [
+                                         "/images/catalog/trimlite/sdl-aluminumbar-5lite-website-image-75636325f759.jpg"
+                                     ],
+                      "sha256":  [
+                                     "81f19a6e4a028b5aa1fac58f1cbf05378cc98e08c18f2a90cab5bd33047518fe"
+                                 ]
+                  },
+                  {
+                      "url":  "https://trimlite.com/wp-content/uploads/2018/05/SDL_ALUMINUMBAR_5LITE_1-Prairie-Web-Image.jpg",
+                      "plan":  "missing-asset-resume-plan.json",
+                      "finalState":  "accepted",
+                      "localPaths":  [
+                                         "/images/catalog/trimlite/sdl-aluminumbar-5lite-1-prairie-web-image-c07e938fa601.jpg"
+                                     ],
+                      "sha256":  [
+                                     "3ecea535d2abbd609807a715a91118d57f86db9d4f3b6ef2a6274f64480fe039"
+                                 ]
+                  },
+                  {
+                      "url":  "https://trimlite.com/wp-content/uploads/2018/05/SDL_ALUMINUMBAR_7LITE_Web-Image-1.jpg",
+                      "plan":  "missing-asset-resume-plan.json",
+                      "finalState":  "accepted",
+                      "localPaths":  [
+                                         "/images/catalog/trimlite/sdl-aluminumbar-7lite-web-image-1-05a94ef6d5d2.jpg"
+                                     ],
+                      "sha256":  [
+                                     "b02cdf96f8f933c4f4f8f7b6e917ab20750ff8f0d69b831189a8e100ce3981d8"
+                                 ]
+                  },
+                  {
+                      "url":  "https://trimlite.com/wp-content/uploads/2018/05/narrow_reed_detail.jpg",
+                      "plan":  "master-upgrade-plan.json",
+                      "finalState":  "accepted",
+                      "localPaths":  [
+                                         "/images/catalog/trimlite/narrow-reed-detail-267933db8ae6.jpg"
+                                     ],
+                      "sha256":  [
+                                     "fb69ae2b5da98c031d5aa5e2ada395a3fa2d0fd24afc0f8c0ebc1af8371a5d76"
+                                 ]
+                  },
+                  {
+                      "url":  "https://trimlite.com/wp-content/uploads/2018/05/DRS2B-Narrows-1.jpg",
+                      "plan":  "master-upgrade-plan.json",
+                      "finalState":  "accepted",
+                      "localPaths":  [
+                                         "/images/catalog/trimlite/drs2b-narrows-1-497af65da9d6.jpg"
+                                     ],
+                      "sha256":  [
+                                     "4d58b33802e8b0973349447f1e1726a746fa21af451c66003d61f8163988a76e"
+                                 ]
+                  },
+                  {
+                      "url":  "https://trimlite.com/wp-content/uploads/2022/12/Manhattan2248Glass.jpg",
+                      "plan":  "master-upgrade-plan.json",
+                      "finalState":  "accepted",
+                      "localPaths":  [
+                                         "/images/catalog/trimlite/manhattan2248glass-c7fa64518b46.jpg"
+                                     ],
+                      "sha256":  [
+                                     "4acc50f2ef9918dc272d0b3d41c1a007a972d325a8cc419a9680ea5edcf5f0f4"
+                                 ]
+                  }
+              ]
+}

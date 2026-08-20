@@ -1,0 +1,1231 @@
+{
+  "supplier": "trimlite",
+  "products": 175,
+  "productsWithMediaBefore": 163,
+  "productsWithMediaAfter": 163,
+  "productsStillMissingMedia": [
+    {
+      "id": "trimlite:slm3d-2",
+      "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/rustic-fiberglass-doors/slm3d-2/",
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image",
+      "qualifyingCandidates": []
+    },
+    {
+      "id": "trimlite:sls10b-mini-blinds-smooth-skin-exterior-fiberglass-door-sidelite",
+      "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/sls10b-mini-blinds-smooth-skin-exterior-fiberglass-door-sidelite/",
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image",
+      "qualifyingCandidates": []
+    },
+    {
+      "id": "trimlite:slg10-2",
+      "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/wood-grain-fiberglass/slg10-2/",
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image",
+      "qualifyingCandidates": []
+    },
+    {
+      "id": "trimlite:drg40-2",
+      "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/wood-grain-fiberglass/drg40-2/",
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image",
+      "qualifyingCandidates": []
+    },
+    {
+      "id": "trimlite:drs63-6-panel",
+      "sourceUrl": "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs63-6-panel/",
+      "reason": "saved supplier page exposes only shared swatches, conflicting identities, generic assets, or no product-specific image",
+      "qualifyingCandidates": []
+    },
+    {
+      "id": "trimlite:2064-ez-lift-clear-internal-venting-doorlite",
+      "sourceUrl": "https://trimlite.com/products/doorlites/internal-venting-doorlites/2064-ez-lift-clear-internal-venting-doorlite/",
+      "reason": "supplier page points to a downloaded image whose exact filename/model belongs to another canonical product; cross-association rejected",
+      "qualifyingCandidates": [
+        {
+          "url": "https://trimlite.com/wp-content/uploads/2020/03/ezvent_2264.jpg",
+          "sourceUrl": "https://trimlite.com/wp-content/uploads/2020/03/ezvent_2264.jpg",
+          "role": "product-hero",
+          "filenameIdentityMatch": false,
+          "structuredProductMatch": true,
+          "primaryHero": true,
+          "primaryGallery": false,
+          "downloadedLocally": true
+        }
+      ]
+    },
+    {
+      "id": "trimlite:internal-blinds-between-glass-2280",
+      "sourceUrl": "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/internal-blinds-between-glass-2280/",
+      "reason": "supplier page points to a downloaded image whose exact filename/model belongs to another canonical product; cross-association rejected",
+      "qualifyingCandidates": [
+        {
+          "url": "https://trimlite.com/wp-content/uploads/2018/05/blind-2080-e1585162256187.jpg",
+          "sourceUrl": "https://trimlite.com/wp-content/uploads/2018/05/blind-2080-e1585162256187.jpg",
+          "role": "product-hero",
+          "filenameIdentityMatch": false,
+          "structuredProductMatch": true,
+          "primaryHero": true,
+          "primaryGallery": false,
+          "downloadedLocally": true
+        }
+      ]
+    },
+    {
+      "id": "trimlite:internal-blinds-between-glass-2264",
+      "sourceUrl": "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/internal-blinds-between-glass-2264/",
+      "reason": "supplier page points to a downloaded image whose exact filename/model belongs to another canonical product; cross-association rejected",
+      "qualifyingCandidates": [
+        {
+          "url": "https://trimlite.com/wp-content/uploads/2018/05/blind-2064-e1585163996307.jpg",
+          "sourceUrl": "https://trimlite.com/wp-content/uploads/2018/05/blind-2064-e1585163996307.jpg",
+          "role": "product-hero",
+          "filenameIdentityMatch": false,
+          "structuredProductMatch": true,
+          "primaryHero": true,
+          "primaryGallery": false,
+          "downloadedLocally": true
+        }
+      ]
+    },
+    {
+      "id": "trimlite:clear-glass",
+      "sourceUrl": "https://trimlite.com/products/doorlites/solution-series/clear-glass/",
+      "reason": "supplier page points to a downloaded image whose exact filename/model belongs to another canonical product; cross-association rejected",
+      "qualifyingCandidates": [
+        {
+          "url": "https://trimlite.com/wp-content/uploads/2018/05/2208_5LITE_STRAIGHT_WHITE_SANDBLAST-e1509515298611.jpg",
+          "sourceUrl": "https://trimlite.com/wp-content/uploads/2018/05/2208_5LITE_STRAIGHT_WHITE_SANDBLAST-e1509515298611.jpg",
+          "role": "product-hero",
+          "filenameIdentityMatch": false,
+          "structuredProductMatch": true,
+          "primaryHero": true,
+          "primaryGallery": false,
+          "downloadedLocally": true
+        }
+      ]
+    },
+    {
+      "id": "trimlite:princeton-decorative-doorlite",
+      "sourceUrl": "https://trimlite.com/products/doorlites/decorative-doorlites/princeton-decorative-doorlite/",
+      "reason": "supplier page points to a downloaded image whose exact filename/model belongs to another canonical product; cross-association rejected",
+      "qualifyingCandidates": [
+        {
+          "url": "https://trimlite.com/wp-content/uploads/2014/10/artisan_5818-e1586456982267-1.jpg",
+          "sourceUrl": "https://trimlite.com/wp-content/uploads/2014/10/artisan_5818-e1586456982267-1.jpg",
+          "role": "product-hero",
+          "filenameIdentityMatch": false,
+          "structuredProductMatch": true,
+          "primaryHero": true,
+          "primaryGallery": false,
+          "downloadedLocally": true
+        }
+      ]
+    },
+    {
+      "id": "trimlite:eastmont-decorative-doorlite",
+      "sourceUrl": "https://trimlite.com/products/doorlites/decorative-doorlites/eastmont-decorative-doorlite/",
+      "reason": "supplier page points to a downloaded image whose exact filename/model belongs to another canonical product; cross-association rejected",
+      "qualifyingCandidates": [
+        {
+          "url": "https://trimlite.com/wp-content/uploads/2014/10/adelaide_glass_detail.jpg",
+          "sourceUrl": "https://trimlite.com/wp-content/uploads/2014/10/adelaide_glass_detail.jpg",
+          "role": "product-hero",
+          "filenameIdentityMatch": false,
+          "structuredProductMatch": true,
+          "primaryHero": true,
+          "primaryGallery": false,
+          "downloadedLocally": true
+        }
+      ]
+    },
+    {
+      "id": "trimlite:storm-series-impact-diffused-white-laminate-dwl",
+      "sourceUrl": "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/storm-series-impact-diffused-white-laminate-dwl/",
+      "reason": "supplier page points to a downloaded image whose exact filename/model belongs to another canonical product; cross-association rejected",
+      "qualifyingCandidates": [
+        {
+          "url": "https://trimlite.com/wp-content/uploads/2014/10/modena.jpg",
+          "sourceUrl": "https://trimlite.com/wp-content/uploads/2014/10/modena.jpg",
+          "role": "product-hero",
+          "filenameIdentityMatch": false,
+          "structuredProductMatch": true,
+          "primaryHero": true,
+          "primaryGallery": false,
+          "downloadedLocally": true
+        }
+      ]
+    }
+  ],
+  "acceptedAssetsBefore": 212,
+  "downloadedCandidatesRecovered": 39,
+  "acceptedAssetsAfter": 214,
+  "rejectedAssociations": [
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/doorlites/decorative-doorlites/manhattan-decorative-doorlite/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2022/12/Manhattan2248Glass-300x655.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2022/12/Manhattan2248Glass-300x655.jpg",
+      "local_path": "/images/catalog/trimlite/manhattan2248glass-300x655-b48b0613d870.jpg",
+      "asset_type": "image",
+      "role": "product-hero",
+      "sha256": "1bd4cbace8fde12eec42cb060f20971120df21a3b4ceab2f59a1f71694938f9a",
+      "bytes": 34503,
+      "discovered_at": "2026-08-20T01:09:52Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2022/12/Manhattan2248Glass-300x655.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [
+        "filename-model-match",
+        "primary-product-hero",
+        "structured-product-image",
+        "superseded-by-wordpress-original"
+      ],
+      "master_asset_url": null,
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2022/12/Manhattan2248Glass-300x655.jpg",
+      "mime_type": "image/jpeg",
+      "width": 300,
+      "height": 655
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs50-5-panel-shaker-2/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2023/05/DRS502023.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2023/05/DRS502023.jpg",
+      "local_path": "/images/catalog/trimlite/drs502023-6f77a852885c.jpg",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "ebf8c6c47de9f4c5adad1e71a227be69432b95f6cff67872847990be174f29e3",
+      "bytes": 24646,
+      "discovered_at": "2026-08-20T00:08:21Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2023/05/DRS502023.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2023/05/DRS502023.jpg",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2023/05/DRS502023.jpg",
+      "mime_type": "image/jpeg",
+      "width": 312,
+      "height": 700
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/flush-glazed-applied-mullion/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/SDL_ALUMINUMBAR_5LITE_Website-Image-1.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/SDL_ALUMINUMBAR_5LITE_Website-Image-1.jpg",
+      "local_path": "/images/catalog/trimlite/sdl-aluminumbar-5lite-website-image-1-436e88a833f3.jpg",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "f4dd85ddc75c609c258df53496be7d8dfcc0f44cc7b60f82b3c442ed7683b429",
+      "bytes": 12299,
+      "discovered_at": "2026-08-20T00:08:31Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2018/05/SDL_ALUMINUMBAR_5LITE_Website-Image-1.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/SDL_ALUMINUMBAR_5LITE_Website-Image-1.jpg",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/SDL_ALUMINUMBAR_5LITE_Website-Image-1.jpg",
+      "mime_type": "image/jpeg",
+      "width": 292,
+      "height": 780
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/rustic-fiberglass-doors/slm3d-2/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/SLM6080-1.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/SLM6080-1.jpg",
+      "local_path": "/images/catalog/trimlite/slm6080-1-1041e23edd77.jpg",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "dc04eb96534ddbfdd9a9c81fd16f88d267ba3539fa41c4fb13926c221f9e1bef",
+      "bytes": 15189,
+      "discovered_at": "2026-08-20T00:10:18Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2018/05/SLM6080-1.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/SLM6080-1.jpg",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/SLM6080-1.jpg",
+      "mime_type": "image/jpeg",
+      "width": 292,
+      "height": 780
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/sls10b-mini-blinds-smooth-skin-exterior-fiberglass-door-sidelite/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2020/06/SLS10.png",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2020/06/SLS10.png",
+      "local_path": "/images/catalog/trimlite/sls10-bbb869042376.png",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "4f864c0269b7c1f5ab741e7e2d930f4bd2aa21335286316042869720a8eb7257",
+      "bytes": 36374,
+      "discovered_at": "2026-08-20T00:11:33Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2020/06/SLS10.png"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2020/06/SLS10.png",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2020/06/SLS10.png",
+      "mime_type": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/wood-grain-fiberglass/drg40-2/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/DRG401-1.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/DRG401-1.jpg",
+      "local_path": "/images/catalog/trimlite/drg401-1-5bcf5a4fc63f.jpg",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "049c283ab92a336f7f4fc728fa43cae83d132e20e53206b7830b0aa700291b72",
+      "bytes": 41113,
+      "discovered_at": "2026-08-20T00:13:40Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2018/05/DRG401-1.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/DRG401-1.jpg",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/DRG401-1.jpg",
+      "mime_type": "image/jpeg",
+      "width": 292,
+      "height": 780
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs63-6-panel/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/DRS60_TRUE6PANEL-1.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/DRS60_TRUE6PANEL-1.jpg",
+      "local_path": "/images/catalog/trimlite/drs60-true6panel-1-89460c8e55e7.jpg",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "bc87e88c6f97cf9995e8b287cfd45b8e02ae8ab82237f6548e67763c9108f21a",
+      "bytes": 18785,
+      "discovered_at": "2026-08-19T19:57:46Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2018/05/DRS60_TRUE6PANEL-1.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/DRS60_TRUE6PANEL-1.jpg",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/DRS60_TRUE6PANEL-1.jpg",
+      "mime_type": "image/jpeg",
+      "width": 292,
+      "height": 780
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drb10-pre-pigmented-black-smooth-fiberglass-exterior-door/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2023/08/DRS1SL_3-0_6-8_ONYX700.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2023/08/DRS1SL_3-0_6-8_ONYX700.jpg",
+      "local_path": "/images/catalog/trimlite/drs1sl-3-0-6-8-onyx700-be70c91b0aeb.jpg",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "c4ed002044ba1293efcb3d33fbb5966dad347e96a891db691bd3205c7ecf20f6",
+      "bytes": 42215,
+      "discovered_at": "2026-08-19T19:57:44Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2023/08/DRS1SL_3-0_6-8_ONYX700.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2023/08/DRS1SL_3-0_6-8_ONYX700.jpg",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2023/08/DRS1SL_3-0_6-8_ONYX700.jpg",
+      "mime_type": "image/jpeg",
+      "width": 316,
+      "height": 700
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/doorlites/solution-series/diffused-white-laminate-white-lami/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2020/06/2203_6LITE_STRAIGHT_WHITE_WHITELAMI-e1509513570474.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2020/06/2203_6LITE_STRAIGHT_WHITE_WHITELAMI-e1509513570474.jpg",
+      "local_path": "/images/catalog/trimlite/2203-6lite-straight-white-whitelami-e1509513570474-95aa2c686623.jpg",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "aae59b1023934e27b7a2a8a0113409998aa278d91c256e937f506a52712022de",
+      "bytes": 10253,
+      "discovered_at": "2026-08-20T00:18:38Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2020/06/2203_6LITE_STRAIGHT_WHITE_WHITELAMI-e1509513570474.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2020/06/2203_6LITE_STRAIGHT_WHITE_WHITELAMI-e1509513570474.jpg",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2020/06/2203_6LITE_STRAIGHT_WHITE_WHITELAMI-e1509513570474.jpg",
+      "mime_type": "image/jpeg",
+      "width": 292,
+      "height": 780
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/doorlites/solution-series/screen-dot-solution-series-doorlite/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2020/06/764_1LITE_STRAIGHT_WHITE_SCREENDOT-1.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2020/06/764_1LITE_STRAIGHT_WHITE_SCREENDOT-1.jpg",
+      "local_path": "/images/catalog/trimlite/764-1lite-straight-white-screendot-1-e9b9cef6dff8.jpg",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "172f5d57bd04940565a3c22aa26de8d97e58cd09672ed6f614efa73e55cbe17c",
+      "bytes": 11547,
+      "discovered_at": "2026-08-20T00:19:20Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2020/06/764_1LITE_STRAIGHT_WHITE_SCREENDOT-1.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2020/06/764_1LITE_STRAIGHT_WHITE_SCREENDOT-1.jpg",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2020/06/764_1LITE_STRAIGHT_WHITE_SCREENDOT-1.jpg",
+      "mime_type": "image/jpeg",
+      "width": 292,
+      "height": 780
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/storm-series-impact-rain/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2021/10/RAINStormSeriesImpact.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2021/10/RAINStormSeriesImpact.jpg",
+      "local_path": "/images/catalog/trimlite/rainstormseriesimpact-fc53498a736a.jpg",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "d31657901bba1b277d751d5f16e5b5cae94be051bfeeed99ea85c660031f28c7",
+      "bytes": 90810,
+      "discovered_at": "2026-08-20T00:19:51Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2021/10/RAINStormSeriesImpact.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2021/10/RAINStormSeriesImpact.jpg",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2021/10/RAINStormSeriesImpact.jpg",
+      "mime_type": "image/jpeg",
+      "width": 365,
+      "height": 780
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/doorlites/internal-blinds-doorlites/miniblind-880-internal-blinds-doorlite/",
+        "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/storm-series-impact-internal-blinds-between-glass-880/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/miniblinds0880_new-1.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/miniblinds0880_new-1.jpg",
+      "local_path": "/images/catalog/trimlite/miniblinds0880-new-1-c098ac73fc8f.jpg",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "bf53727a33192dfcf8763b3f0128ca6b5ee16d888a79327174e51399e6c75fb0",
+      "bytes": 10897,
+      "discovered_at": "2026-08-20T00:20:23Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2020/03/miniblinds0880_new-1.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/miniblinds0880_new-1.jpg",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/miniblinds0880_new-1.jpg",
+      "mime_type": "image/jpeg",
+      "width": 292,
+      "height": 780
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/doorlites/one-lites-doorlites/clear-880-one-lite-doorlite/",
+        "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/clear-880-2/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/0880onelite-1.gif",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/0880onelite-1.gif",
+      "local_path": "/images/catalog/trimlite/0880onelite-1-b2bbd064176e.gif",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "60991de6b7a1b07cb43f9a020a04b1c1fcf053151c2a19b0ebde648e70a5db6d",
+      "bytes": 36016,
+      "discovered_at": "2026-08-20T00:20:44Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2020/03/0880onelite-1.gif"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/0880onelite-1.gif",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/0880onelite-1.gif",
+      "mime_type": "image/gif",
+      "width": null,
+      "height": null
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/doorlites/internal-blinds-doorlites/miniblind-764-internal-blinds-doorlite/",
+        "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/internal-blinds-between-glass-764/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/miniblinds0764_new-1.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/miniblinds0764_new-1.jpg",
+      "local_path": "/images/catalog/trimlite/miniblinds0764-new-1-c0b4174b0f8e.jpg",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "31cc04a6c3a0d7a73cd21d5caf4fc466bb2dc15bf43015563ee1496518f46376",
+      "bytes": 13312,
+      "discovered_at": "2026-08-20T00:20:55Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2020/03/miniblinds0764_new-1.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/miniblinds0764_new-1.jpg",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/miniblinds0764_new-1.jpg",
+      "mime_type": "image/jpeg",
+      "width": 292,
+      "height": 780
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/doorlites/one-lites-doorlites/clear-2215/",
+        "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/storm-series-impact-clear-2215/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2019/04/drs3f1.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2019/04/drs3f1.jpg",
+      "local_path": "/images/catalog/trimlite/drs3f1-b1e4e898070e.jpg",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "87b96384332b418a48d9e5103e6ccff1c3ee3f50b4b78dcd5abd6b6275244b0e",
+      "bytes": 7352,
+      "discovered_at": "2026-08-20T00:28:03Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2019/04/drs3f1.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2019/04/drs3f1.jpg",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2019/04/drs3f1.jpg",
+      "mime_type": "image/jpeg",
+      "width": null,
+      "height": null
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/doorlites/internal-grids-doorlites/traditional-764-internal-grid-doorlite/",
+        "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/764-internal-grid-5-lite/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/764trad-1.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/764trad-1.jpg",
+      "local_path": "/images/catalog/trimlite/764trad-1-d05c5e88986f.jpg",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "a8245cfdbe99cdb0ba2003b9aa346469514ed575a3b27a7b70cc5c0dc25ea458",
+      "bytes": 15705,
+      "discovered_at": "2026-08-20T00:28:34Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2020/03/764trad-1.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/764trad-1.jpg",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/764trad-1.jpg",
+      "mime_type": "image/jpeg",
+      "width": 292,
+      "height": 780
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/doorlites/internal-blinds-doorlites/internal-blinds-between-glass-848/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/miniblinds0848.png",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/miniblinds0848.png",
+      "local_path": "/images/catalog/trimlite/miniblinds0848-8350c92dcdac.png",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "9dd3fc2ce363845a8093908c87522975b4b1677a9ab15a32baac816924cfcd37",
+      "bytes": 95630,
+      "discovered_at": "2026-08-20T00:35:02Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2020/03/miniblinds0848.png"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/miniblinds0848.png",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/miniblinds0848.png",
+      "mime_type": "image/png",
+      "width": 292,
+      "height": 780
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/doorlites/internal-blinds-doorlites/internal-blinds-between-glass-836/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/miniblinds0836.png",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/miniblinds0836.png",
+      "local_path": "/images/catalog/trimlite/miniblinds0836-a4d50a499b30.png",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "594f5460a49b57b41246f44aa980b13e41610471791ca79e8e35aeabb9982cfe",
+      "bytes": 68332,
+      "discovered_at": "2026-08-20T00:35:13Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2020/03/miniblinds0836.png"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/miniblinds0836.png",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/miniblinds0836.png",
+      "mime_type": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/doorlites/internal-grids-doorlites/traditional-836-2/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/836_trad.png",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/836_trad.png",
+      "local_path": "/images/catalog/trimlite/836-trad-3e74b6f4b4bf.png",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "e9196bc451b101e77e5a459d7706e2b47b905cef380dc2df2312710c0aa4018f",
+      "bytes": 89464,
+      "discovered_at": "2026-08-20T00:36:07Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2020/03/836_trad.png"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/836_trad.png",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/836_trad.png",
+      "mime_type": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/doorlites/internal-grids-doorlites/traditional-848-2/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/848trad.png",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/848trad.png",
+      "local_path": "/images/catalog/trimlite/848trad-764897e92bfe.png",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "32357045d9cd0a3b484d834f61f4597449fa687a031d8bca1eeb3c9f9116e05a",
+      "bytes": 69082,
+      "discovered_at": "2026-08-20T00:36:17Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2020/03/848trad.png"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/848trad.png",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/848trad.png",
+      "mime_type": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/doorlites/internal-grids-doorlites/traditional-2215-3l-2/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/dsf3p_3lite320700.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/dsf3p_3lite320700.jpg",
+      "local_path": "/images/catalog/trimlite/dsf3p-3lite320700-532a774ab6ab.jpg",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "55c06331b38690ec05e87a4a37b8aaf55c30a8699a9a52239ffce2ae7158eece",
+      "bytes": 35513,
+      "discovered_at": "2026-08-20T00:37:00Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2018/05/dsf3p_3lite320700.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/dsf3p_3lite320700.jpg",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/dsf3p_3lite320700.jpg",
+      "mime_type": "image/jpeg",
+      "width": 320,
+      "height": 700
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/doorlites/internal-grids-doorlites/traditional-2215-6l-2/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/dsf3p_6lite320700.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/dsf3p_6lite320700.jpg",
+      "local_path": "/images/catalog/trimlite/dsf3p-6lite320700-8d6d286818b0.jpg",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "f58c5b52119ee1f65b13edb828d75f0b149702b005d9af15d4e49c47ed9e4429",
+      "bytes": 35611,
+      "discovered_at": "2026-08-20T00:37:11Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2018/05/dsf3p_6lite320700.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/dsf3p_6lite320700.jpg",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/dsf3p_6lite320700.jpg",
+      "mime_type": "image/jpeg",
+      "width": 320,
+      "height": 700
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/storm-series-impact-double-water/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2021/10/DoubleWaterStormSeriesImpact.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2021/10/DoubleWaterStormSeriesImpact.jpg",
+      "local_path": "/images/catalog/trimlite/doublewaterstormseriesimpact-0d0368c6dddb.jpg",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "55388347dae2258f210827fee13867618ac1da9a0a346d62a70a4c65f90d2009",
+      "bytes": 78728,
+      "discovered_at": "2026-08-20T00:37:53Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2021/10/DoubleWaterStormSeriesImpact.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2021/10/DoubleWaterStormSeriesImpact.jpg",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2021/10/DoubleWaterStormSeriesImpact.jpg",
+      "mime_type": "image/jpeg",
+      "width": 364,
+      "height": 780
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/doorlites/one-lites-doorlites/clear-764-one-lite-doorlite/",
+        "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/clear-764-2/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/764oneliteCLEAR-1.gif",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/764oneliteCLEAR-1.gif",
+      "local_path": "/images/catalog/trimlite/764oneliteclear-1-46b1bed3b53b.gif",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "c0f6a144d1654815822d7dc32f45d33dfff74f3a9520f83d9a13fc19855e1990",
+      "bytes": 34740,
+      "discovered_at": "2026-08-20T00:38:24Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2020/03/764oneliteCLEAR-1.gif"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/764oneliteCLEAR-1.gif",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/764oneliteCLEAR-1.gif",
+      "mime_type": "image/gif",
+      "width": null,
+      "height": null
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/storm-series-impact-880-internal-grid-6-lite/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/0880-6L-1.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/0880-6L-1.jpg",
+      "local_path": "/images/catalog/trimlite/0880-6l-1-37b027c0c0cb.jpg",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "12e1624352e76c9afd3dfc5f17ff985426c4bb3631c0155b8e2bea23ce2f6e8c",
+      "bytes": 12761,
+      "discovered_at": "2026-08-20T00:38:35Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2020/03/0880-6L-1.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/0880-6L-1.jpg",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/0880-6L-1.jpg",
+      "mime_type": "image/jpeg",
+      "width": 292,
+      "height": 780
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/doorlites/one-lites-doorlites/clear-836-2/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/836_onelite.png",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/836_onelite.png",
+      "local_path": "/images/catalog/trimlite/836-onelite-1c080f036af9.png",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "360e230c06c506f272688715838eb4bca738e7214dfa361277089123d451b5ea",
+      "bytes": 88032,
+      "discovered_at": "2026-08-20T00:38:56Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2020/03/836_onelite.png"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/836_onelite.png",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/836_onelite.png",
+      "mime_type": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/doorlites/one-lites-doorlites/clear-848-2/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/848onelite.png",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/848onelite.png",
+      "local_path": "/images/catalog/trimlite/848onelite-8f4189539473.png",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "fc51b6b2d4cc4def4c2d470bc7c27f6091b594a247ad8cc61412d86030831b54",
+      "bytes": 67368,
+      "discovered_at": "2026-08-20T00:39:18Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2020/03/848onelite.png"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/848onelite.png",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/848onelite.png",
+      "mime_type": "image/png",
+      "width": null,
+      "height": null
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/doorlites/solution-series/narrow-reed/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/narrow_reed_detail-300x250.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/narrow_reed_detail-300x250.jpg",
+      "local_path": "/images/catalog/trimlite/narrow-reed-detail-300x250-2dc68e4ea057.jpg",
+      "asset_type": "image",
+      "role": "product-hero",
+      "sha256": "f52e07728fdb5198b6edbc77109eaf1cc10c3d94b97e1b580cd522975910fd46",
+      "bytes": 12748,
+      "discovered_at": "2026-08-20T01:08:04Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2018/05/narrow_reed_detail-300x250.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [
+        "filename-model-match",
+        "structured-product-image",
+        "superseded-by-wordpress-original"
+      ],
+      "master_asset_url": null,
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/narrow_reed_detail-300x250.jpg",
+      "mime_type": "image/jpeg",
+      "width": 300,
+      "height": 250
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs2b-2-panels/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/DRS2B-Narrows-1-100x100.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/DRS2B-Narrows-1-100x100.jpg",
+      "local_path": "/images/catalog/trimlite/drs2b-narrows-1-100x100-fc661a9ef6db.jpg",
+      "asset_type": "image",
+      "role": "product-hero",
+      "sha256": "e61adbedb98a7cf9b175eb63e9c24e8813a3ec7cd6937767eae081f0db069d05",
+      "bytes": 5102,
+      "discovered_at": "2026-08-20T01:08:37Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2018/05/DRS2B-Narrows-1-100x100.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [
+        "filename-model-match",
+        "primary-product-hero",
+        "structured-product-image",
+        "superseded-by-wordpress-original"
+      ],
+      "master_asset_url": null,
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2018/05/DRS2B-Narrows-1-100x100.jpg",
+      "mime_type": "image/jpeg",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/doorlites/solution-series/clear-glass/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2020/06/2208_5LITE_STRAIGHT_WHITE_SANDBLAST-e1509515298611.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2020/06/2208_5LITE_STRAIGHT_WHITE_SANDBLAST-e1509515298611.jpg",
+      "local_path": "/images/catalog/trimlite/2208-5lite-straight-white-sandblast-e1509515298611-c8bf3556cbfe.jpg",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "c03e2e197f8e3edcaf43dc959b555a5a6f7aef8a6857abbaec2f0207280d09fa",
+      "bytes": 10175,
+      "discovered_at": "2026-08-20T00:42:01Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2020/06/2208_5LITE_STRAIGHT_WHITE_SANDBLAST-e1509515298611.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2020/06/2208_5LITE_STRAIGHT_WHITE_SANDBLAST-e1509515298611.jpg",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2020/06/2208_5LITE_STRAIGHT_WHITE_SANDBLAST-e1509515298611.jpg",
+      "mime_type": "image/jpeg",
+      "width": 292,
+      "height": 780
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/smooth-skin-fiberglass/drs1d/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2019/04/DRS1DL_3-0_6-8_1.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2019/04/DRS1DL_3-0_6-8_1.jpg",
+      "local_path": "/images/catalog/trimlite/drs1dl-3-0-6-8-1-bd2e2d055126.jpg",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "33966fea7505dad4834ae029865048a3593ecb0e1fa4e709459ddef89271b508",
+      "bytes": 33154,
+      "discovered_at": "2026-08-20T00:42:33Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2019/04/DRS1DL_3-0_6-8_1.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2019/04/DRS1DL_3-0_6-8_1.jpg",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2019/04/DRS1DL_3-0_6-8_1.jpg",
+      "mime_type": "image/jpeg",
+      "width": null,
+      "height": null
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/exterior-doors/plastpro-fiberglass-doors/fir-grain-fiberglass/drf1d/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2019/07/DRF1DL.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2019/07/DRF1DL.jpg",
+      "local_path": "/images/catalog/trimlite/drf1dl-30c0b7bdb621.jpg",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "fd8ba9fb3b277a2b370dfc36e162de80fe74bafa0b9faf57e63eae2d9d05561e",
+      "bytes": 31129,
+      "discovered_at": "2026-08-20T00:42:44Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2019/07/DRF1DL.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2019/07/DRF1DL.jpg",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2019/07/DRF1DL.jpg",
+      "mime_type": "image/jpeg",
+      "width": 292,
+      "height": 780
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/doorlites/decorative-doorlites/princeton-decorative-doorlite/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2026/04/PRINCETONLeadGlassImagewebsite.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2026/04/PRINCETONLeadGlassImagewebsite.jpg",
+      "local_path": "/images/catalog/trimlite/princetonleadglassimagewebsite-899367efec18.jpg",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "861346e0d531af31182b111aa079bd43163c1c96e0d6350a64e2508f92dd84c1",
+      "bytes": 85846,
+      "discovered_at": "2026-08-20T01:18:29Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2026/04/PRINCETONLeadGlassImagewebsite.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2026/04/PRINCETONLeadGlassImagewebsite.jpg",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2026/04/PRINCETONLeadGlassImagewebsite.jpg",
+      "mime_type": "image/jpeg",
+      "width": 241,
+      "height": 700
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/doorlites/decorative-doorlites/hamilton-decorative-doorlite/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2026/04/2264web.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2026/04/2264web.jpg",
+      "local_path": "/images/catalog/trimlite/2264web-b9e7bdff9ce5.jpg",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "7960f6e3378bfc060fef47474d3b483cf578e20ebf6693bc75d37c08ac843a4e",
+      "bytes": 98343,
+      "discovered_at": "2026-08-20T01:10:36Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2026/04/2264web.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2026/04/2264web.jpg",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2026/04/2264web.jpg",
+      "mime_type": "image/jpeg",
+      "width": 268,
+      "height": 780
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/doorlites/decorative-doorlites/eastmont-decorative-doorlite/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2022/12/2248EastmontGlass.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2022/12/2248EastmontGlass.jpg",
+      "local_path": "/images/catalog/trimlite/2248eastmontglass-963ed766ce8e.jpg",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "dae62e22a7e14ad29fdf705e8323eae7a36fb3e55da15fabb676b156516e4e1a",
+      "bytes": 38908,
+      "discovered_at": "2026-08-20T01:10:57Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2022/12/2248EastmontGlass.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2022/12/2248EastmontGlass.jpg",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2022/12/2248EastmontGlass.jpg",
+      "mime_type": "image/jpeg",
+      "width": 238,
+      "height": 516
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/doorlites/one-lites-doorlites/clear-718-one-lite-doorlite/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/DRS90onelite-1.gif",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/DRS90onelite-1.gif",
+      "local_path": "/images/catalog/trimlite/drs90onelite-1-373e83d3102e.gif",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "300476aa4267d2bdd76698af7de8996a72c0cb2d1718b78888c5d63d71b978a0",
+      "bytes": 71868,
+      "discovered_at": "2026-08-20T01:19:45Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2020/03/DRS90onelite-1.gif"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/DRS90onelite-1.gif",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2020/03/DRS90onelite-1.gif",
+      "mime_type": "image/gif",
+      "width": null,
+      "height": null
+    },
+    {
+      "supplier": "trimlite",
+      "source_page_urls": [
+        "https://trimlite.com/products/doorlites/storm-series-impact-doorlites/storm-series-impact-diffused-white-laminate-dwl/"
+      ],
+      "original_asset_url": "https://trimlite.com/wp-content/uploads/2021/10/DWLStormSeriesImpact.jpg",
+      "final_asset_url": "https://trimlite.com/wp-content/uploads/2021/10/DWLStormSeriesImpact.jpg",
+      "local_path": "/images/catalog/trimlite/dwlstormseriesimpact-c11fdf1337f1.jpg",
+      "asset_type": "image",
+      "role": "open-graph-image",
+      "sha256": "3b592b5f49a00da4f1dbcf9e81e0ecb1dd14eb6ddfa6760f218b040a91614ee9",
+      "bytes": 15444,
+      "discovered_at": "2026-08-20T01:11:41Z",
+      "staging_path": "",
+      "source_asset_urls": [
+        "https://trimlite.com/wp-content/uploads/2021/10/DWLStormSeriesImpact.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "unassociated",
+      "relationship_state": "uncertain/review",
+      "relationship_evidence": [],
+      "master_asset_url": "https://trimlite.com/wp-content/uploads/2021/10/DWLStormSeriesImpact.jpg",
+      "selected_asset_url": "https://trimlite.com/wp-content/uploads/2021/10/DWLStormSeriesImpact.jpg",
+      "mime_type": "image/jpeg",
+      "width": 360,
+      "height": 780
+    }
+  ],
+  "relationshipStates": {
+    "product-specific": 184,
+    "collection-shared": 0,
+    "supplier-shared": 30,
+    "uncertain/review": 0
+  },
+  "sharedProductBinaries": 19,
+  "changedProducts": [
+    "trimlite:internal-blinds-between-glass-2248",
+    "trimlite:pemberton-decorative-doorlite",
+    "trimlite:manhattan-decorative-doorlite"
+  ],
+  "resolvedErrors": []
+}

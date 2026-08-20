@@ -1,0 +1,135 @@
+{
+  "generatedAt": "2026-08-20T03:15:37.030674+00:00",
+  "automaticFactConflicts": [
+    {
+      "supplier": "masonite",
+      "productId": "masonite:4-lite-equal",
+      "field": "material",
+      "websiteEvidence": {
+        "modelNumber": "DR-FG-228-4E-4S-80",
+        "interpretation": "Fiberglass SKU family",
+        "sourceUrl": "https://www.masonite.com/doors/exterior/dr-fg-228-4e-4s-80/"
+      },
+      "conflictingEvidence": {
+        "value": "Steel",
+        "source": "supplier API image alt text"
+      },
+      "status": "manual-review-required"
+    },
+    {
+      "supplier": "masonite",
+      "productId": "masonite:flush-1-lite",
+      "field": "material",
+      "websiteEvidence": {
+        "modelNumber": "DR-FG-151-FCL-1-80",
+        "interpretation": "Fiberglass SKU family",
+        "sourceUrl": "https://www.masonite.com/doors/exterior/dr-fg-151-fcl-1-80/"
+      },
+      "conflictingEvidence": {
+        "value": "Steel",
+        "source": "supplier API image alt text"
+      },
+      "status": "manual-review-required"
+    }
+  ],
+  "automaticFactConflictNote": "No normalized website/PDF fact pair was safe to compare automatically; candidate facts retain page provenance for manual review.",
+  "pdfReviewItems": [],
+  "websitePdfCoverageGaps": [
+    {
+      "supplier": "novatech",
+      "productId": "novatech:victoria",
+      "supplierUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/victoria.html",
+      "reason": "live documents reported but no page-level PDF evidence matched"
+    },
+    {
+      "supplier": "novatech",
+      "productId": "novatech:4-panneaux-acier",
+      "supplierUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/4-panneaux-acier.html",
+      "reason": "live documents reported but no page-level PDF evidence matched"
+    },
+    {
+      "supplier": "novatech",
+      "productId": "novatech:uno",
+      "supplierUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/uno.html",
+      "reason": "live documents reported but no page-level PDF evidence matched"
+    },
+    {
+      "supplier": "novatech",
+      "productId": "novatech:london",
+      "supplierUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/london.html",
+      "reason": "live documents reported but no page-level PDF evidence matched"
+    },
+    {
+      "supplier": "novatech",
+      "productId": "novatech:vog",
+      "supplierUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/vog.html",
+      "reason": "live documents reported but no page-level PDF evidence matched"
+    },
+    {
+      "supplier": "novatech",
+      "productId": "novatech:tao",
+      "supplierUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/tao.html",
+      "reason": "live documents reported but no page-level PDF evidence matched"
+    },
+    {
+      "supplier": "novatech",
+      "productId": "novatech:era",
+      "supplierUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/era.html",
+      "reason": "live documents reported but no page-level PDF evidence matched"
+    },
+    {
+      "supplier": "novatech",
+      "productId": "novatech:inox",
+      "supplierUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/inox.html",
+      "reason": "live documents reported but no page-level PDF evidence matched"
+    },
+    {
+      "supplier": "novatech",
+      "productId": "novatech:zen",
+      "supplierUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/zen.html",
+      "reason": "live documents reported but no page-level PDF evidence matched"
+    },
+    {
+      "supplier": "novatech",
+      "productId": "novatech:infinite-black",
+      "supplierUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/infinite-1.html",
+      "reason": "live documents reported but no page-level PDF evidence matched"
+    },
+    {
+      "supplier": "novatech",
+      "productId": "novatech:550",
+      "supplierUrl": "https://www.groupenovatech.com/en_canada_ontario/products/patio-doors/550.html",
+      "reason": "live documents reported but no page-level PDF evidence matched"
+    },
+    {
+      "supplier": "novatech",
+      "productId": "novatech:630",
+      "supplierUrl": "https://www.groupenovatech.com/en_canada_ontario/products/patio-doors/630.html",
+      "reason": "live documents reported but no page-level PDF evidence matched"
+    },
+    {
+      "supplier": "novatech",
+      "productId": "novatech:650",
+      "supplierUrl": "https://www.groupenovatech.com/en_canada_ontario/products/patio-doors/650.html",
+      "reason": "live documents reported but no page-level PDF evidence matched"
+    },
+    {
+      "supplier": "novatech",
+      "productId": "novatech:2900",
+      "supplierUrl": "https://www.groupenovatech.com/en_canada_ontario/products/patio-doors/2900.html",
+      "reason": "live documents reported but no page-level PDF evidence matched"
+    },
+    {
+      "supplier": "novatech",
+      "productId": "novatech:540",
+      "supplierUrl": "https://www.groupenovatech.com/en_canada_ontario/products/patio-doors/540.html",
+      "reason": "live documents reported but no page-level PDF evidence matched"
+    },
+    {
+      "supplier": "novatech",
+      "productId": "novatech:loft",
+      "supplierUrl": "https://www.groupenovatech.com/en_canada_ontario/products/patio-doors/loft-aluminum.html",
+      "reason": "live documents reported but no page-level PDF evidence matched"
+    }
+  ]
+}

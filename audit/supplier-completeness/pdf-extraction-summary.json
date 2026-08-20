@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-08-20T03:12:51.965017+00:00",
+  "suppliers": [
+    {
+      "supplier": "masonite",
+      "documents": 19,
+      "pages": 260,
+      "characters": 53097,
+      "tables": 43,
+      "images": 269,
+      "ocrRequired": 0,
+      "errors": 0
+    },
+    {
+      "supplier": "novatech",
+      "documents": 30,
+      "pages": 102,
+      "characters": 129111,
+      "tables": 155,
+      "images": 239,
+      "ocrRequired": 0,
+      "errors": 0
+    },
+    {
+      "supplier": "trimlite",
+      "documents": 3,
+      "pages": 176,
+      "characters": 102548,
+      "tables": 505,
+      "images": 177,
+      "ocrRequired": 0,
+      "errors": 0
+    }
+  ]
+}

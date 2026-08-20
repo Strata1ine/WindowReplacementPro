@@ -1,5 +1,26 @@
 [
   {
+    "id": "novatech:satin",
+    "manufacturer": "novatech",
+    "slug": "satin",
+    "name": "Satin",
+    "category": "door-glass",
+    "collection": null,
+    "modelNumber": null,
+    "type": null,
+    "summary": null,
+    "sourceDescription": "Satiné (Dépoli) ",
+    "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/catalog/product/view/id/2175/s/satine-depoli/category/22/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/novatech/depoli-ad72f0bbdd87.jpg",
+      "/images/catalog/novatech/satine-9af0f5130a7d.jpg"
+    ],
+    "documents": [],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  },
+  {
     "id": "novatech:vertical-accent-1",
     "manufacturer": "novatech",
     "slug": "vertical-accent-1",
@@ -12,7 +33,14 @@
     "sourceDescription": "The Novatech Group manufactures entrance doors, doorglass, patio doors, retractable screens and custom sealed glass.",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/vertical-accent-1.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/novatech-reeded-wood-accent-bdd6a9c79b6e.jpg",
+      "/images/catalog/novatech/novatech-reeded-wood-accent-closeup-6151bfe273f7.jpg",
+      "/images/catalog/novatech/novatech-reeded-wood-accent-uno-black-525-7c5404204172.jpg",
+      "/images/catalog/novatech/novatech-reeded-wood-accent-uno-river-rock-xl-555-f15c7065382a.jpg",
+      "/images/catalog/novatech/novatech-reeded-wood-accent-uno-saddle-brown-569-ff8c8a6fbadf.jpg",
+      "/images/catalog/novatech/novatech-reeded-wood-accent-uno-storm-570-ecf36f1e87b8.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -30,8 +58,18 @@
     "sourceDescription": "Victoria",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/victoria.html",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/novatech/victoria-2-1dbfe4853629.jpg",
+      "/images/catalog/novatech/victoria-22x14-2-51d37ba57fa2.jpg",
+      "/images/catalog/novatech/victoria-22x14-25e0762c2497.jpg",
+      "/images/catalog/novatech/victoria-865369b40c44.jpg",
+      "/images/catalog/novatech/victoria-black-4af16e249bc0.jpg",
+      "/images/catalog/novatech/victoria-portrait-22x14-18774e9f5e5a.jpg",
+      "/images/catalog/novatech/victoria-shelf-cceeed876a19.jpg"
+    ],
+    "documents": [
+      "/documents/catalog/novatech/fiche-porte-coupe-feu-en-2917e9fa169a.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -48,7 +86,14 @@
     "sourceDescription": "Accent vertical ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/vertical-accent.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/accent-alunox-offset-danube-blue-4fd3075a26f2.jpg",
+      "/images/catalog/novatech/accent-alunox-offset-gris-857534f175b0.jpg",
+      "/images/catalog/novatech/accent-noir-center-a1aa15205406.jpg",
+      "/images/catalog/novatech/accent-noir-offset-era-69facda8eb2a.jpg",
+      "/images/catalog/novatech/accent-noir-offset-graphite-142c3b8ba7b5.jpg",
+      "/images/catalog/novatech/accent-vertical-swatch-541c227d253b.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -66,7 +111,10 @@
     "sourceDescription": "The 2 Panel Blank Top owes its versatility to the free space above the panels that can accommodate a large doorglass in a variety of styles.",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/2-panel-blank-top.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/2p-haut-uni-22x48-35389bea825a.png",
+      "/images/catalog/novatech/2p-haut-uni-acier-produit-7241074ea3f2.png"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -84,7 +132,9 @@
     "sourceDescription": "This classic model's main panel is perfect for a knocker or an oval doorglass.",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/3-panel-scroll-top.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/3p-tete-gendarme-acier-produit-4282eca58370.png"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -102,7 +152,29 @@
     "sourceDescription": "An elegant country-style door that can be left solid or given a camber or straight top cutout.",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/2-panel-camber-top-2.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/2p-cambre-acier-produit-2-c00c904acc40.png"
+    ],
+    "documents": [],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": "novatech:2-panel-planked-camber-top",
+    "manufacturer": "novatech",
+    "slug": "2-panel-planked-camber-top",
+    "name": "2 Panel Planked Camber Top",
+    "category": "entry-doors",
+    "collection": null,
+    "modelNumber": null,
+    "type": null,
+    "summary": null,
+    "sourceDescription": "Featuring rustic-looking planks, this country-style door can be left solid or given a camber or straight top cutout.t. ",
+    "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/catalog/product/view/id/2069/s/2-panel-planked-camber-top-1/category/21/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/novatech/2p-cambre-lambris-acier-produit-2-772aedc257d9.png"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -120,8 +192,12 @@
     "sourceDescription": "The 4-panel door is well suited to windowed uses and it can accommodates five sizes of doorglass: 22x9, 22x9 planked, 22x36, 8x36 and half-moon.",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/4-panneaux-acier.html",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/novatech/4p-acier-produit-8786e33ef257.png"
+    ],
+    "documents": [
+      "/documents/catalog/novatech/fiche-porte-coupe-feu-en-2917e9fa169a.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -138,7 +214,12 @@
     "sourceDescription": "This popular door is our undisputed best-seller. Its success is in part due to a panel configuration that allows for a range of window cutouts: 7x64, 22X36, 12X12, 12x9.",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/6-panneaux-acier-white.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/6p-2-f416cffe4c54.png",
+      "/images/catalog/novatech/6p-22x36-3-90eaf5add27e.png",
+      "/images/catalog/novatech/6p-atmo-produit-1-1-f179bcc9b90f.jpg",
+      "/images/catalog/novatech/6p-fibre-produit-1-2-17b418b86aef.png"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -156,8 +237,21 @@
     "sourceDescription": "Uno ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/uno.html",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/novatech/ezgif-3-6f85ccc45d-c862dfe3d1e7.jpg",
+      "/images/catalog/novatech/ezgif-3-7b877edc7b-fef95808d463.jpg",
+      "/images/catalog/novatech/ezgif-3-8ecab0c4a5-8bd315d402fc.jpg",
+      "/images/catalog/novatech/pbra0436-a9ba600b4d76.jpg",
+      "/images/catalog/novatech/uno-3-438d67191228.png",
+      "/images/catalog/novatech/uno-produit-2-cc1359593ecf.jpg",
+      "/images/catalog/novatech/uno1-7x64-produit-4280e763b185.png",
+      "/images/catalog/novatech/uno4-acier-produit-73e852059f51.png",
+      "/images/catalog/novatech/uno4-atmo-produit-007ba9d86331.jpg",
+      "/images/catalog/novatech/uno4-produit-copy-f30d344c9a61.png"
+    ],
+    "documents": [
+      "/documents/catalog/novatech/fiche-porte-coupe-feu-en-2917e9fa169a.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -174,8 +268,15 @@
     "sourceDescription": "London ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/london.html",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/novatech/ezgif-3-5df3c88858-b2be2f0c2ef4.jpg",
+      "/images/catalog/novatech/london-22x36-1-e55b9cc4d976.png",
+      "/images/catalog/novatech/london-acier-produit-1-8ce511f55d22.png",
+      "/images/catalog/novatech/london-bleu-100eff84568a.jpg"
+    ],
+    "documents": [
+      "/documents/catalog/novatech/fiche-porte-coupe-feu-en-2917e9fa169a.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -192,7 +293,13 @@
     "sourceDescription": "Oso ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/oso-model.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/oso-7x64-749a6dafdd8c.png",
+      "/images/catalog/novatech/oso-atmo-produit-4043bf0365b5.jpg",
+      "/images/catalog/novatech/oso-cec79cfad67a.png",
+      "/images/catalog/novatech/oso-closeup-a09fa245f18e.png",
+      "/images/catalog/novatech/oso-produit-82a1025ed4bf.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -210,7 +317,40 @@
     "sourceDescription": "Sydney ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/sydney.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/pbra0441-98ea3bb58c07.jpg",
+      "/images/catalog/novatech/sydney-22x17-d75005e04218.png",
+      "/images/catalog/novatech/sydney-atmo-produit-b846fcd51242.jpg",
+      "/images/catalog/novatech/sydney-f27f1c0b1620.png",
+      "/images/catalog/novatech/sydney-fibre-3fe2f0f0f858.png",
+      "/images/catalog/novatech/sydney-moulures-prestige-22x17-a0a1b46c0ab0.png",
+      "/images/catalog/novatech/sydney-moulures-prestige-b0766287cbf5.png"
+    ],
+    "documents": [],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": "novatech:linea",
+    "manufacturer": "novatech",
+    "slug": "linea",
+    "name": "Linea",
+    "category": "entry-doors",
+    "collection": null,
+    "modelNumber": null,
+    "type": null,
+    "summary": null,
+    "sourceDescription": "Linéa ",
+    "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/catalog/product/view/id/2104/s/linea/category/21/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/novatech/line-a-3dcc39a1ac47.png",
+      "/images/catalog/novatech/line-a-7x64-b989d7d039e0.png",
+      "/images/catalog/novatech/line-a-7x64-verte-b42e4df32da1.png",
+      "/images/catalog/novatech/linea-atmo-produit-d822ec4e114e.jpg",
+      "/images/catalog/novatech/linea-closeup-1393c36951cc.png",
+      "/images/catalog/novatech/linea-produit-4dfb8ec6cf21.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -228,8 +368,18 @@
     "sourceDescription": "Orléans ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/orleans.html",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/novatech/7ovhx-orleans-atmo-440703400505.jpg",
+      "/images/catalog/novatech/orleans-22x48-0245f6ef3969.jpg",
+      "/images/catalog/novatech/orleans-22x48-2-3a6a39d1ea2e.png",
+      "/images/catalog/novatech/orleans-acier-1-6cb5b2286642.png",
+      "/images/catalog/novatech/orleans-atmo-produit-1-f22e1f5ec74a.jpg",
+      "/images/catalog/novatech/orleans-moulures-prestige-1-e2576ad31d18.png",
+      "/images/catalog/novatech/prestigeargile-e730b0be7f2c.jpg"
+    ],
+    "documents": [
+      "/documents/catalog/novatech/fiche-porte-coupe-feu-en-2917e9fa169a.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -246,7 +396,17 @@
     "sourceDescription": "Soho ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/soho-entrydoor.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/shakerxl1-2-13ea33c3bd65.jpg",
+      "/images/catalog/novatech/soho-1a395f722ff1.png",
+      "/images/catalog/novatech/soho-22x12-0c4e973d3e2d.jpg",
+      "/images/catalog/novatech/soho-22x12-95p-f15746a77f0f.jpg",
+      "/images/catalog/novatech/soho-22x48-c1dc1b7801b6.jpg",
+      "/images/catalog/novatech/soho-22x64-e19713dd8d2d.jpg",
+      "/images/catalog/novatech/soho-95-bd1b73b6b769.jpg",
+      "/images/catalog/novatech/soho-acier-produit-3edde295f196.png",
+      "/images/catalog/novatech/soho-atmos-b5d61ca89a7b.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -264,8 +424,19 @@
     "sourceDescription": "Vog ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/vog.html",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/novatech/2024-vog-8ft-fba7ba813386.jpg",
+      "/images/catalog/novatech/atm-vog-garaga-10e041b32797.jpg",
+      "/images/catalog/novatech/ezgif-4-16a6d89688-3f19bc46482f.jpg",
+      "/images/catalog/novatech/ezgif-4-89d17672f8-ec89678da07d.jpg",
+      "/images/catalog/novatech/ezgif-4-c0c5f75b4f-60b201c6dc58.jpg",
+      "/images/catalog/novatech/vog-acier-produit-1-4f5ca6926369.png",
+      "/images/catalog/novatech/vog-appliqu-s-en-acier-inoxydable-noir-ad02de173da5.jpg",
+      "/images/catalog/novatech/vog8-blanche-poign-e-ba6411dd2e83.jpg"
+    ],
+    "documents": [
+      "/documents/catalog/novatech/fiche-porte-coupe-feu-en-2917e9fa169a.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -282,8 +453,18 @@
     "sourceDescription": "Tao ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/tao.html",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/novatech/atm-tao-2-d7a35f190d77.jpg",
+      "/images/catalog/novatech/atm-tao-5c39a6f9cd34.jpg",
+      "/images/catalog/novatech/atm-tao-600-800-7e8a2dd6e0e4.jpg",
+      "/images/catalog/novatech/tao-600-800-1-884ec5a36b1b.jpg",
+      "/images/catalog/novatech/tao-95-600-800-1-761c72bf8a59.jpg",
+      "/images/catalog/novatech/tao-bleue-2440d1c38b0f.jpg",
+      "/images/catalog/novatech/tao-embosse-7d613e48a0c0.jpg"
+    ],
+    "documents": [
+      "/documents/catalog/novatech/fiche-porte-coupe-feu-en-2917e9fa169a.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -300,8 +481,19 @@
     "sourceDescription": "Era ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/era.html",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/novatech/atm-era-2-2646f815435f.jpg",
+      "/images/catalog/novatech/atm-era-800-600-52b5564fe9fa.jpg",
+      "/images/catalog/novatech/atm-era-f238a102767a.jpg",
+      "/images/catalog/novatech/era-3214403ab3d8.jpg",
+      "/images/catalog/novatech/era-7x64-a600fd1613ab.jpg",
+      "/images/catalog/novatech/era-7x64-vert-1c3b12bf2078.jpg",
+      "/images/catalog/novatech/era-embosse-800-600-36605e734d62.jpg",
+      "/images/catalog/novatech/era-pull-bar-b261ab4afaeb.jpg"
+    ],
+    "documents": [
+      "/documents/catalog/novatech/fiche-porte-coupe-feu-en-2917e9fa169a.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -318,8 +510,36 @@
     "sourceDescription": "Appliqués en acier inoxydable ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/entry-doors/inox.html",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/novatech/accent-decoratif-swatch-f5e7a6ff19c1.jpg",
+      "/images/catalog/novatech/accents-gold-6dee5f61f44e.jpg",
+      "/images/catalog/novatech/accents-gold-thumb-dfc0f3bc4706.jpg",
+      "/images/catalog/novatech/alunox-swatch-12-5f0d884b2e15.jpg",
+      "/images/catalog/novatech/atm-appliqu-s-en-acier-inoxydable-cb7bbe4bb644.jpg",
+      "/images/catalog/novatech/black-swatch-6-0351eebb537f.jpg",
+      "/images/catalog/novatech/era-1-b3983b040d95.jpg",
+      "/images/catalog/novatech/era-closeup-2b1f7c253c0d.jpg",
+      "/images/catalog/novatech/matte-gold-swatch-6-7d19b9bc85cb.jpg",
+      "/images/catalog/novatech/not2022-09-accent-uno3-final-v1-01-rev-f35d32375eec.jpg",
+      "/images/catalog/novatech/oso-closeup-d8635e26a878.jpg",
+      "/images/catalog/novatech/oso-closeup2-9b6725231051.jpg",
+      "/images/catalog/novatech/oso1-7709eca8faf2.jpg",
+      "/images/catalog/novatech/oso1b-e480ca4ee6a9.jpg",
+      "/images/catalog/novatech/oso2-b5c1b9739df8.jpg",
+      "/images/catalog/novatech/uno1-a3c27ba87f81.jpg",
+      "/images/catalog/novatech/uno1-closeup-029743c39d3c.jpg",
+      "/images/catalog/novatech/uno1b-056c230aa57b.jpg",
+      "/images/catalog/novatech/uno2-0b659d52c8e9.jpg",
+      "/images/catalog/novatech/uno2-closeup-2b262cfd96ad.jpg",
+      "/images/catalog/novatech/vog-accents-matte-gold-closeup-9-a0a9034e6d47.jpg",
+      "/images/catalog/novatech/vog-closeup-fbf1c8fd07aa.jpg",
+      "/images/catalog/novatech/vog1-d3726ce04422.jpg",
+      "/images/catalog/novatech/vog2-1dadefa27d81.jpg",
+      "/images/catalog/novatech/vog2-closeup-b4952e4507f4.jpg"
+    ],
+    "documents": [
+      "/documents/catalog/novatech/novatech-steel-doors-warranty-january-2024-02757cfa9a54.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -336,7 +556,14 @@
     "sourceDescription": "Peak 470 ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/peak-470.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/novatech-peak470-can-en-eccd2eb1de03.jpg",
+      "/images/catalog/novatech/peak470-closeup-1-24b10af0b0e2.jpg",
+      "/images/catalog/novatech/peak470-closeup-inside-1-ebda4f3ddb57.jpg",
+      "/images/catalog/novatech/peak470-closeup-outside-1-740a18549f28.jpg",
+      "/images/catalog/novatech/peak470-outside-open-1-541859195a73.jpg",
+      "/images/catalog/novatech/peak470-swatch-1-7bb884cd66a9.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -354,7 +581,20 @@
     "sourceDescription": "Crystal ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/crystal.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/crystal-22x14-01246b8bcb2f.jpg",
+      "/images/catalog/novatech/crystal-22x36-9b74943effed.jpg",
+      "/images/catalog/novatech/crystal-22x48-bf209adafdb4.jpg",
+      "/images/catalog/novatech/crystal-22x64-254466310d35.jpg",
+      "/images/catalog/novatech/crystal-22x64-thumb-1736f894ecdd.jpg",
+      "/images/catalog/novatech/crystal-2x-b47f6028d53d.jpg",
+      "/images/catalog/novatech/crystal-7x64-8eb75474f944.jpg",
+      "/images/catalog/novatech/crystal-8x36-f11d499906ca.jpg",
+      "/images/catalog/novatech/crystal-8x48-a63e7a000c64.jpg",
+      "/images/catalog/novatech/crystal-97e1a50c9296.jpg",
+      "/images/catalog/novatech/crystal-closeup-bcf671808ec0.jpg",
+      "/images/catalog/novatech/crystal-fab-qc-72b5a42d4418.jpg"
+    ],
     "documents": [
       "/documents/catalog/novatech/crystal-data-sheet-en-ba65fb3f7533.pdf"
     ],
@@ -374,7 +614,19 @@
     "sourceDescription": "Balance ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/balance.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/balance-22x14-891ac734f13f.jpg",
+      "/images/catalog/novatech/balance-22x36-172d340d29fa.jpg",
+      "/images/catalog/novatech/balance-22x48-f3cc11088d7a.jpg",
+      "/images/catalog/novatech/balance-22x64-66108bb48dbf.jpg",
+      "/images/catalog/novatech/balance-22x64-thumb-d3205be30e18.jpg",
+      "/images/catalog/novatech/balance-2x-dd106dee9f81.jpg",
+      "/images/catalog/novatech/balance-7x64-7746a976523a.jpg",
+      "/images/catalog/novatech/balance-8x36-e10c4805afda.jpg",
+      "/images/catalog/novatech/balance-8x48-460a6d5f1e62.jpg",
+      "/images/catalog/novatech/balance-closeup-b6b330586c28.jpg",
+      "/images/catalog/novatech/novatech-balance-can-en-6be23e8a6634.jpg"
+    ],
     "documents": [
       "/documents/catalog/novatech/balance-data-sheet-en-60e1f2f11555.pdf"
     ],
@@ -394,7 +646,19 @@
     "sourceDescription": "Prism",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/prism.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/novatech-prism-1600-76bdec71fd4c.jpg",
+      "/images/catalog/novatech/novatech-prism-18cef30a2f62.jpg",
+      "/images/catalog/novatech/novatech-prism-22x17-cfda677cf377.jpg",
+      "/images/catalog/novatech/novatech-prism-22x36-cda626cddcd5.jpg",
+      "/images/catalog/novatech/novatech-prism-22x48-933ee342da42.jpg",
+      "/images/catalog/novatech/novatech-prism-8x36-c15c9d9c907f.jpg",
+      "/images/catalog/novatech/novatech-prism-8x48-c13e829f10b5.jpg",
+      "/images/catalog/novatech/novatech-prism-closeup-2x-e302ff4a7bfe.jpg",
+      "/images/catalog/novatech/novatech-prism-sl-uno-7x64-2c920be8403b.jpg",
+      "/images/catalog/novatech/novatech-prism-uno-22x64-e4b47f20e203.jpg",
+      "/images/catalog/novatech/prism-thumb-2x-5fc69e04cd4f.jpg"
+    ],
     "documents": [
       "/documents/catalog/novatech/prism-sheet-en-2024-12-12-6e262664e28e.pdf"
     ],
@@ -414,7 +678,17 @@
     "sourceDescription": "Echo",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/echo.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/echo-22x17-2x-d48ae2604c25.jpg",
+      "/images/catalog/novatech/echo-22x36-02f2d2bbd120.jpg",
+      "/images/catalog/novatech/echo-22x48-5ccab44f1653.jpg",
+      "/images/catalog/novatech/echo-7x64-f040239fe706.jpg",
+      "/images/catalog/novatech/echo-8x36-d1648ecbbf1e.jpg",
+      "/images/catalog/novatech/echo-8x48-00d6494c4a08.jpg",
+      "/images/catalog/novatech/echo-closeup-b69c6de93c4b.jpg",
+      "/images/catalog/novatech/echo2x-afb59df32740.jpg",
+      "/images/catalog/novatech/novatech-echo-can-en-090434706b54.jpg"
+    ],
     "documents": [
       "/documents/catalog/novatech/echo-sheet-en-40546a13d3b4.pdf"
     ],
@@ -434,7 +708,31 @@
     "sourceDescription": "Solstice",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/solstice.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/novatech-solstice-7x64-sidelite-89fc5100c07d.jpg",
+      "/images/catalog/novatech/novatech-solstice-london-22x36-black-door-4453c8ae09d8.jpg",
+      "/images/catalog/novatech/novatech-solstice-sl-london-8x36-black-door-86fe24e17a30.jpg",
+      "/images/catalog/novatech/novatech-solstice-sl-orleans-8x48-black-door-a28f3d21ec6e.jpg",
+      "/images/catalog/novatech/novatech-solstice-soho-22x48-black-door-74fceb4f0603.jpg",
+      "/images/catalog/novatech/novatech-solstice-uno-20x64-black-door-f1e0e01194c7.jpg",
+      "/images/catalog/novatech/novatech-solstice-uno-22x17-3x-black-door-ff916a29cea7.jpg",
+      "/images/catalog/novatech/novatech-solstice-uno-22x64-black-door-92691be79e49.jpg",
+      "/images/catalog/novatech/novatech-solstice-uno-34x95-22x80-black-door-b275e3552a6f.jpg",
+      "/images/catalog/novatech/novatech-solstice-uno-95in-sidelite-8x80-black-door-6248e89c8cd9.jpg",
+      "/images/catalog/novatech/novatech-solstice-victoria-22x15-25-black-door-821eae0f0e7a.jpg",
+      "/images/catalog/novatech/solstice-22x64-2x-43e1cef4518d.jpg",
+      "/images/catalog/novatech/solstice-2x-68972d7aadc4.jpg",
+      "/images/catalog/novatech/solstice-6p-22x9-black-door-0c55bed55ffa.jpg",
+      "/images/catalog/novatech/solstice-7x64-2x-2348b08f4258.jpg",
+      "/images/catalog/novatech/solstice-7x64-uno-door-2x-97c13562e5a3.jpg",
+      "/images/catalog/novatech/solstice-can-en-1-8ffb377056f9.jpg",
+      "/images/catalog/novatech/solstice-closeup-2x-af2f63546b1a.jpg",
+      "/images/catalog/novatech/solstice-sl-uno-7x64-black-door-63dd167f8a9a.jpg",
+      "/images/catalog/novatech/solstice-thumb-2x-5b0b2e3eb504.jpg",
+      "/images/catalog/novatech/solstice-uno-22x12-4x-black-door-a57d9858dd57.jpg",
+      "/images/catalog/novatech/soltice-sl-6415f3df333f.jpg",
+      "/images/catalog/novatech/soltice-sl-xl-3a0dc0564838.jpg"
+    ],
     "documents": [
       "/documents/catalog/novatech/solstice-sheet-en-2025-11-19-9f8b7149ea3d.pdf"
     ],
@@ -454,7 +752,21 @@
     "sourceDescription": "Zen",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/zen.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/novatech-zen-can-en-176de20659b7.jpg",
+      "/images/catalog/novatech/zen-1600-2x-0e47630d48e5.jpg",
+      "/images/catalog/novatech/zen-22x48-aspen-clear-2x-2b0af0312813.jpg",
+      "/images/catalog/novatech/zen-22x48-aspen-sand-2x-7e05d324169d.jpg",
+      "/images/catalog/novatech/zen-22x48-walnut-clear-2x-de593588e344.jpg",
+      "/images/catalog/novatech/zen-22x48-walnut-sand-2x-1f0dfbc0abf4.jpg",
+      "/images/catalog/novatech/zen-22x64-aspen-clear-2x-ecb2147ad43e.jpg",
+      "/images/catalog/novatech/zen-22x64-aspen-sand-2x-692cbb1742bd.jpg",
+      "/images/catalog/novatech/zen-22x64-walnut-clear-2x-07e83324068e.jpg",
+      "/images/catalog/novatech/zen-22x64-walnut-sand-2x-37d34dbe906d.jpg",
+      "/images/catalog/novatech/zen-aspen-clear-closeup-2x-98544c3fc522.jpg",
+      "/images/catalog/novatech/zen-garaga-1600-2x-46c8402f3e8a.jpg",
+      "/images/catalog/novatech/zen-walnut-sand-closeup-2x-c5e7f53faca8.jpg"
+    ],
     "documents": [
       "/documents/catalog/novatech/zen-sheet-en-5e371a65c079.pdf"
     ],
@@ -474,8 +786,23 @@
     "sourceDescription": "Distance",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/distance.html",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/novatech/distance-1600-2x-121221f33789.jpg",
+      "/images/catalog/novatech/distance-22x36-left-2x-1-c07c48a15d5a.jpg",
+      "/images/catalog/novatech/distance-22x36-right-2x-d6af1a9ec5db.jpg",
+      "/images/catalog/novatech/distance-22x48-left-2x-1-f2ed4bde0450.jpg",
+      "/images/catalog/novatech/distance-22x48-right-2x-5253af2b5324.jpg",
+      "/images/catalog/novatech/distance-22x64-right-2x-e2dade00d3cf.jpg",
+      "/images/catalog/novatech/distance-2x-d683559bc4ca.jpg",
+      "/images/catalog/novatech/distance-7x64-2x-ebca074f0d78.jpg",
+      "/images/catalog/novatech/distance-8x36-2x-034b17fdf66e.jpg",
+      "/images/catalog/novatech/distance-8x48-2x-8789c32caae1.jpg",
+      "/images/catalog/novatech/distance-closeup-2x-9fd55e56956f.jpg",
+      "/images/catalog/novatech/novatech-distance-can-en-4b84568ca395.jpg"
+    ],
+    "documents": [
+      "/documents/catalog/novatech/distance-sheet-en-36971c6c814d.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -492,8 +819,20 @@
     "sourceDescription": "Luxe",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/luxe.html",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/novatech/luxe-1600-2x-360c9ae692bd.jpg",
+      "/images/catalog/novatech/luxe-22x17-2x-25cac39bd38c.jpg",
+      "/images/catalog/novatech/luxe-22x36-2x-545226df24ed.jpg",
+      "/images/catalog/novatech/luxe-22x48-2x-a3326b1a799e.jpg",
+      "/images/catalog/novatech/luxe-7x64-2x-bbeee1f0466c.jpg",
+      "/images/catalog/novatech/luxe-8x36-2x-d0c3c250227d.jpg",
+      "/images/catalog/novatech/luxe-8x48-2x-b1eaa68876cb.jpg",
+      "/images/catalog/novatech/luxe-closeup-2x-4a149cdf277b.jpg",
+      "/images/catalog/novatech/luxe-thumb-2x-5ad37e74760b.jpg"
+    ],
+    "documents": [
+      "/documents/catalog/novatech/luxe-sheet-en-d6b3141f90d8.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -510,8 +849,22 @@
     "sourceDescription": "Rubik",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/rubik.html",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/novatech/novatech-rubik-22x14-2x-45a721c83d58.jpg",
+      "/images/catalog/novatech/novatech-rubik-22x17-2x-e00b951e3d2b.jpg",
+      "/images/catalog/novatech/novatech-rubik-22x36-2x-0670387afb6d.jpg",
+      "/images/catalog/novatech/novatech-rubik-22x48-2x-e72cbb718c03.jpg",
+      "/images/catalog/novatech/novatech-rubik-22x64-2x-eb514dec136e.jpg",
+      "/images/catalog/novatech/novatech-rubik-2x-07b133fe70bd.jpg",
+      "/images/catalog/novatech/novatech-rubik-7x64-2x-ae3a9fb0b89f.jpg",
+      "/images/catalog/novatech/novatech-rubik-8x36-2x-dda270759f87.jpg",
+      "/images/catalog/novatech/novatech-rubik-8x48-2x-d528112eeceb.jpg",
+      "/images/catalog/novatech/novatech-rubik-closeup-2x-3431d883b9fd.jpg",
+      "/images/catalog/novatech/rubik-thumb-2x-9e9762d73cc9.jpg"
+    ],
+    "documents": [
+      "/documents/catalog/novatech/rubik-sheet-en-edd797fde8b0.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -528,7 +881,19 @@
     "sourceDescription": "Evangeline II",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/evangeline-ii.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/ev2-29-1-ea6ed14af064.jpg",
+      "/images/catalog/novatech/evangeline-13x79-1-78a9fd55df09.jpg",
+      "/images/catalog/novatech/evangeline-22x36z-1-fb9914457fa3.jpg",
+      "/images/catalog/novatech/evangeline-22x48z-1-cf1544a45e3b.jpg",
+      "/images/catalog/novatech/evangeline-22x64z-1-3fcff674afd2.jpg",
+      "/images/catalog/novatech/evangeline-7x64z-1-29a7655e1f84.jpg",
+      "/images/catalog/novatech/evangeline-8x36z-1-516402671799.jpg",
+      "/images/catalog/novatech/evangeline-closeup-1-86a90cc30cb6.jpg",
+      "/images/catalog/novatech/evangeline-ii-produit-1-1-1-09a46a62e3ea.jpg",
+      "/images/catalog/novatech/evangeline-oval-1-43263a8ec2e4.jpg",
+      "/images/catalog/novatech/evangeline2-atmo-produit-1-1-7eb2ef194825.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -546,8 +911,20 @@
     "sourceDescription": "ClariT",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/clarit.html",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/novatech/novatech-clarit-closeup-59daec4c654d.jpg",
+      "/images/catalog/novatech/novatech-clarit-de8d99470837.jpg",
+      "/images/catalog/novatech/novatech-clarit-london-22x36-24e128c9565a.jpg",
+      "/images/catalog/novatech/novatech-clarit-orleans-22x48-494d06eed7a3.jpg",
+      "/images/catalog/novatech/novatech-clarit-sl-uno-7x64-e8e7268668f3.jpg",
+      "/images/catalog/novatech/novatech-clarit-uno-20x64-1c06afde2119.jpg",
+      "/images/catalog/novatech/novatech-clarit-uno-22x64-5222c778dcf5.jpg",
+      "/images/catalog/novatech/novatech-clarit-uno-34x95-22x80-e0705687c81a.jpg",
+      "/images/catalog/novatech/novatech-clarit-uno-7x64-offset-bb1636ac4c57.jpg"
+    ],
+    "documents": [
+      "/documents/catalog/novatech/clarit-sheet-en-2025-11-10-f21177cc47fc.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -564,8 +941,19 @@
     "sourceDescription": "Infinite",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/infinite.html",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/novatech/novatech-infinite-397d2b6b1288.jpg",
+      "/images/catalog/novatech/novatech-infinite-closeup-74888a78ef82.jpg",
+      "/images/catalog/novatech/novatech-infinite-london-22x36-efd2523128e9.jpg",
+      "/images/catalog/novatech/novatech-infinite-orleans-22x48-f77b166b4930.jpg",
+      "/images/catalog/novatech/novatech-infinite-sl-uno-7x64-00b3f0b9dbdb.jpg",
+      "/images/catalog/novatech/novatech-infinite-uno-22x64-385ab7b6bf6c.jpg",
+      "/images/catalog/novatech/novatech-infinite-uno-34x95-22x80-979feb20651e.jpg",
+      "/images/catalog/novatech/novatech-infinite-uno-7x64-offset-75d8f4575902.jpg"
+    ],
+    "documents": [
+      "/documents/catalog/novatech/infinite-sheet-en-us-2026-01-16-dbd3d51a4f1c.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -582,8 +970,18 @@
     "sourceDescription": "The Novatech Group manufactures entrance doors, doorglass, patio doors, retractable screens and custom sealed glass.",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/infinite-1.html",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/novatech/infinite-black-london-22x36-noir-f6a53387e49b.jpg",
+      "/images/catalog/novatech/infinite-black-sl-uno-7x64-noir-929be867b56b.jpg",
+      "/images/catalog/novatech/infinite-black-soho-22x48-noir-cc52092f95c3.jpg",
+      "/images/catalog/novatech/infinite-black-uno-22x64-noir-c89f537217d6.jpg",
+      "/images/catalog/novatech/infinite-black-uno-34x95-22x80-noir-62968cf40292.jpg",
+      "/images/catalog/novatech/novatech-infinite-black-canada-1-19e6a3e3aefd.jpg",
+      "/images/catalog/novatech/novatech-infinite-black-closeup-1-47a301852290.jpg"
+    ],
+    "documents": [
+      "/documents/catalog/novatech/infinite-black-sheet-en-us-2026-01-16-43da01e898b3.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -600,7 +998,23 @@
     "sourceDescription": "Équation ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/equation.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/atm-equation-2-1ab1ffa41277.jpg",
+      "/images/catalog/novatech/atm-equation-349e3d9d45c0.jpg",
+      "/images/catalog/novatech/equation-1-adadc698965f.jpg",
+      "/images/catalog/novatech/equation-22x36-droite-cab93dda89c8.jpg",
+      "/images/catalog/novatech/equation-22x36-gauche-2564a46b578f.jpg",
+      "/images/catalog/novatech/equation-22x48-droite-9b074a8632ae.jpg",
+      "/images/catalog/novatech/equation-22x48-gauche-5205800060c5.jpg",
+      "/images/catalog/novatech/equation-22x64-droite-f4bd5e6b8e4f.jpg",
+      "/images/catalog/novatech/equation-22x64-gauche-04fc82badee8.jpg",
+      "/images/catalog/novatech/equation-22x64-thumb-1-1-03cfb8b98568.jpg",
+      "/images/catalog/novatech/equation-7x64-1-5bc893246900.jpg",
+      "/images/catalog/novatech/equation-8x36-1-23262d0fd7e2.jpg",
+      "/images/catalog/novatech/equation-8x48-1-6ec7b58112bc.jpg",
+      "/images/catalog/novatech/equation-closeup-3a220b0af7b8.jpg",
+      "/images/catalog/novatech/equation-fab-qc-1c5fc388a6ab.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -618,7 +1032,19 @@
     "sourceDescription": "Nobel ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/nobel.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/atm-nobel-2-277a78a54d5c.jpg",
+      "/images/catalog/novatech/atm-nobel-933442203d7a.jpg",
+      "/images/catalog/novatech/nobel-1-a71de194125f.jpg",
+      "/images/catalog/novatech/nobel-22x36-8d3d3e8ca0a6.jpg",
+      "/images/catalog/novatech/nobel-22x48-34db55ef108a.jpg",
+      "/images/catalog/novatech/nobel-22x64-34fcc5877041.jpg",
+      "/images/catalog/novatech/nobel-22x64-thumb-1-1-0effc8037f28.jpg",
+      "/images/catalog/novatech/nobel-7x64-4d005f0fd975.jpg",
+      "/images/catalog/novatech/nobel-8x36-0a17112d2d0f.jpg",
+      "/images/catalog/novatech/nobel-8x48-ea53c4162d61.jpg",
+      "/images/catalog/novatech/nobel-closeup-86eaed9631b7.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -636,7 +1062,15 @@
     "sourceDescription": "A dance of retro and modern textures assembled in dynamic geometric shapes. With its daring composition that will not go unnoticed, Bolero sets the tone for your \"mid-century modern\" or contemporary style home and pairs perfectly with your Scandinavian-in",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/bolero.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/atm-bolero-2-b5d95dbef11a.jpg",
+      "/images/catalog/novatech/atm-bolero-c12e07a0fe05.jpg",
+      "/images/catalog/novatech/bolero-1-3cb84938ea87.jpg",
+      "/images/catalog/novatech/bolero-22x48-c8872d9ffa2d.jpg",
+      "/images/catalog/novatech/bolero-22x64-a3a528c28ae2.jpg",
+      "/images/catalog/novatech/bolero-22x64-thumb-1-1-9bdeb48ab4d3.jpg",
+      "/images/catalog/novatech/bolero-closeup-2a9e4023b73b.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -654,7 +1088,17 @@
     "sourceDescription": "Nuando ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/nuando.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/atm-nuando-49682a248dbd.jpg",
+      "/images/catalog/novatech/nuando-1-c8268d0255c9.jpg",
+      "/images/catalog/novatech/nuando-22x48-droite-347f711d5abc.jpg",
+      "/images/catalog/novatech/nuando-22x48-gauche-04a53d1e7062.jpg",
+      "/images/catalog/novatech/nuando-22x64-droite-4ff6bee6ceef.jpg",
+      "/images/catalog/novatech/nuando-22x64-gauche-3ae6411cd144.jpg",
+      "/images/catalog/novatech/nuando-22x64-thumb-1-1-13ce62dcb1c5.jpg",
+      "/images/catalog/novatech/nuando-closeup-c79556b98ea1.jpg",
+      "/images/catalog/novatech/nuando-fab-qc-3aff89b13ed2.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -672,7 +1116,19 @@
     "sourceDescription": "Mist ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/mist.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/atm-mist-b11afbc9bb33.jpg",
+      "/images/catalog/novatech/mist-1-aa888b91034c.jpg",
+      "/images/catalog/novatech/mist-22x36-06c97d2624fd.jpg",
+      "/images/catalog/novatech/mist-22x48-9dd5511dd998.jpg",
+      "/images/catalog/novatech/mist-22x64-a97e742d5bd6.jpg",
+      "/images/catalog/novatech/mist-22x64-thumb-1-1-c43463a9bfb3.jpg",
+      "/images/catalog/novatech/mist-7x64-9b74a6d29154.jpg",
+      "/images/catalog/novatech/mist-8x36-698bfc40feb4.jpg",
+      "/images/catalog/novatech/mist-8x48-d8a03a491930.jpg",
+      "/images/catalog/novatech/mist-closeup-3b277fbb6be8.jpg",
+      "/images/catalog/novatech/novatech-mist-can-en-e03199d7adb1.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -690,7 +1146,20 @@
     "sourceDescription": "Portrait ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/portrait.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/atm-portrait-2-0ef8c43fc7a1.jpg",
+      "/images/catalog/novatech/atm-portrait-280a6fa6bc15.jpg",
+      "/images/catalog/novatech/portrait-1-d5a07dca1bcc.jpg",
+      "/images/catalog/novatech/portrait-22x14-e11324f6a3b3.jpg",
+      "/images/catalog/novatech/portrait-22x36-4f4f98f51a91.jpg",
+      "/images/catalog/novatech/portrait-22x48-a25dccc0efb2.jpg",
+      "/images/catalog/novatech/portrait-22x64-3a30a28580df.jpg",
+      "/images/catalog/novatech/portrait-22x64-thumb-1-a77fc282d658.jpg",
+      "/images/catalog/novatech/portrait-7x64-0093e07da202.jpg",
+      "/images/catalog/novatech/portrait-8x36-c6301be18524.jpg",
+      "/images/catalog/novatech/portrait-8x48-b81c9a12220c.jpg",
+      "/images/catalog/novatech/portrait-closeup-479ea6970b95.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -708,7 +1177,17 @@
     "sourceDescription": "Belmont is a Stained Glass model with an urban look designed for today’s architectural styles. Its minimalist, asymmetrical composition of flat black patina caming and satin finish glass fits perfectly with the volumes and materials found in the architect",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/belmont.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/atm-belmont600-800-2-b6aa499cc77d.jpg",
+      "/images/catalog/novatech/belmont-79638113f562.jpg",
+      "/images/catalog/novatech/belmont-closeup-82aedec1433d.jpg",
+      "/images/catalog/novatech/porte-belmont-22x48-10-387-057-002-2-c7873d0e7607.jpg",
+      "/images/catalog/novatech/porte-belmont-22x48-10-387-057-002-noir-2-31609313061a.jpg",
+      "/images/catalog/novatech/porte-belmont-22x64-10-387-060-002-2-0876a28824fa.jpg",
+      "/images/catalog/novatech/porte-belmont-22x64-10-387-060-002-noir-2-bccc3d3d2ca2.jpg",
+      "/images/catalog/novatech/porte-belmont-7x64-10-387-005-002-2-f28997ae9f11.jpg",
+      "/images/catalog/novatech/porte-belmont-8x48-10-387-017-001-2-2fd050c63e60.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -726,7 +1205,21 @@
     "sourceDescription": "Kira delicately filters light and fills your entrance with a sense of calm. Two layers of fine, sandblasted finish lines overlap to create a natural looking pattern that provides a good degree of privacy.",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/kira.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/atm-kira-600-800-6f3fab64b29e.jpg",
+      "/images/catalog/novatech/atm-kira-bc4713f4dbfe.jpg",
+      "/images/catalog/novatech/kira-7d30f99b0750.png",
+      "/images/catalog/novatech/kira-closeup-41755a37f6a7.jpg",
+      "/images/catalog/novatech/novatech-kira-can-en-1-b246f9c86c0c.jpg",
+      "/images/catalog/novatech/porte-kira-13x79-9cee3316ee11.jpg",
+      "/images/catalog/novatech/porte-kira-22x12-07-381-053-002-1-f0d1bebc852f.jpg",
+      "/images/catalog/novatech/porte-kira-22x17-07-381-259-001-1-e443bf255348.jpg",
+      "/images/catalog/novatech/porte-kira-22x17-3x-07-381-259-002-1-b34cc28452b6.jpg",
+      "/images/catalog/novatech/porte-kira-22x36-07-381-050-001-1-33aeaebbba88.jpg",
+      "/images/catalog/novatech/porte-kira-22x48-07-381-057-002-1-cca1cfa2f389.jpg",
+      "/images/catalog/novatech/porte-kira-22x64-07-381-060-002-1-5f5c776b2686.jpg",
+      "/images/catalog/novatech/porte-kira-7x64-07-381-005-002-1-6f3738bff8e7.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -744,7 +1237,22 @@
     "sourceDescription": "Arima is the perfect choice for both 1960s bungalows as well as for classic style homes. This model fits particularly well in entrances with symmetrical composition - a look that can be easily achieved with carefully placed exterior light fixtures or with",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/arima.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/arima-3-39adfffb7910.jpg",
+      "/images/catalog/novatech/arima-closeup-b0bd5add3962.jpg",
+      "/images/catalog/novatech/atm-arima-600-800-1-2195273d41d5.jpg",
+      "/images/catalog/novatech/atm-arima-6fe3ee91ab79.jpg",
+      "/images/catalog/novatech/novatech-arima-22x80-dc1a16b2ca79.jpg",
+      "/images/catalog/novatech/novatech-arima-8x80-906ec49bac0b.jpg",
+      "/images/catalog/novatech/porte-arima-22x17-10-386-259-001-1-625a22ac2888.jpg",
+      "/images/catalog/novatech/porte-arima-22x36-10-386-050-001-1-418d10212c06.jpg",
+      "/images/catalog/novatech/porte-arima-22x48-10-386-057-001-1-698e508534b9.jpg",
+      "/images/catalog/novatech/porte-arima-22x48-10-386-057-002-1-30dcb050b86c.jpg",
+      "/images/catalog/novatech/porte-arima-22x64-10-386-060-002-1-17fc7b6ed2a9.jpg",
+      "/images/catalog/novatech/porte-arima-7x64-10-386-005-002-1-e16a1dc5bd4d.jpg",
+      "/images/catalog/novatech/porte-arima-8x36-10-386-010-001-1-75b74cadfea6.jpg",
+      "/images/catalog/novatech/porte-arima-8x48-10-386-017-001-1-762bf4b028c0.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -762,7 +1270,19 @@
     "sourceDescription": "Classic style doorglass in its simplest form. Sleek and balanced, Winchester offers a rich, contrasting mix of clear and satin finish glass with black patina caming. With its elegant beveled clear glass border, Winchester provides both privacy and visibil",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/winchester.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/atm-winchester-600-800-3ca9bb694e17.jpg",
+      "/images/catalog/novatech/porte-winchester-22x14-10-385-260-002-1-bf1ae4975ab0.jpg",
+      "/images/catalog/novatech/porte-winchester-22x17-10-385-259-001-1-40b4741ee750.jpg",
+      "/images/catalog/novatech/porte-winchester-22x36-10-385-050-001-1-c63341200de3.jpg",
+      "/images/catalog/novatech/porte-winchester-22x48-10-385-057-001-1-63ced3c0f9cd.jpg",
+      "/images/catalog/novatech/porte-winchester-22x64-10-385-060-002-1-a500c4ea8bbf.jpg",
+      "/images/catalog/novatech/porte-winchester-7x64-10-385-005-002-1-46bf8e0560aa.jpg",
+      "/images/catalog/novatech/porte-winchester-8x36-10-385-010-001-1-465b044ec320.jpg",
+      "/images/catalog/novatech/porte-winchester-8x48-10-385-017-001-1-b419694aca61.jpg",
+      "/images/catalog/novatech/winchester-2-147a1a45641c.jpg",
+      "/images/catalog/novatech/winchester-closeup-49e410614791.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -780,7 +1300,23 @@
     "sourceDescription": "Emori is a subtle and elegant design inspired by nature. With overlapping polished V-Groove lines, Emori provides both a high degree of privacy and visibility to the outside. This model is a great match with country-style or classic style homes.",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/emori.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/atm-emori-2-1-2674300a2fb9.jpg",
+      "/images/catalog/novatech/atm-emori-4e0d3d0d8395.jpg",
+      "/images/catalog/novatech/atm-emori-600-800-96576953ed4b.jpg",
+      "/images/catalog/novatech/emori-1043-1378-713214996b92.jpg",
+      "/images/catalog/novatech/emori-closeup-a640f461f2a1.jpg",
+      "/images/catalog/novatech/novatech-emori-can-en-08bf51cf309f.jpg",
+      "/images/catalog/novatech/porte-emori-22x14-06-384-260-002-1-0ee31abeb02b.jpg",
+      "/images/catalog/novatech/porte-emori-22x17-06-384-259-001-1-8da4278bf931.jpg",
+      "/images/catalog/novatech/porte-emori-22x36-06-384-050-001-1-e6a17d3acd8a.jpg",
+      "/images/catalog/novatech/porte-emori-22x48-06-384-057-001-1-80bd4d5ecc18.jpg",
+      "/images/catalog/novatech/porte-emori-22x64-06-384-060-002-1-89e02529f3e2.jpg",
+      "/images/catalog/novatech/porte-emori-22x80-06-384-064-002-1-f08a3c4e13ce.jpg",
+      "/images/catalog/novatech/porte-emori-7x64-06-384-005-002-1-ef5ae692f046.jpg",
+      "/images/catalog/novatech/porte-emori-8x36-06-384-010-001-1-d1c007ed2323.jpg",
+      "/images/catalog/novatech/porte-emori-8x48-06-384-017-001-1-9897cc274a86.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -798,7 +1334,18 @@
     "sourceDescription": "Celeste juxtaposes different types of glass within its  patina caming, creating a delicate geometric pattern with a reﬁned and balanced light effect.",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/celeste.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/atm-celeste-600-800-d8c0d9d5018d.jpg",
+      "/images/catalog/novatech/celeste-closeup-5be418a58e32.jpg",
+      "/images/catalog/novatech/orleans-celeste-299781ec0760.jpg",
+      "/images/catalog/novatech/porte-celeste-22x17-10-367-259-001-e2e5274f46ab.jpg",
+      "/images/catalog/novatech/porte-celeste-22x36-10-367-050-001-a18aec6683a3.jpg",
+      "/images/catalog/novatech/porte-celeste-22x48-10-367-057-001-9f739914579c.jpg",
+      "/images/catalog/novatech/porte-celeste-22x64-10-367-060-001-6b3b9eab52c0.jpg",
+      "/images/catalog/novatech/porte-celeste-7x64-10-367-005-001-36dbc5ce8ef8.jpg",
+      "/images/catalog/novatech/porte-celeste-8x36-10-367-010-001-b0c74873bbec.jpg",
+      "/images/catalog/novatech/porte-celeste-8x48-10-367-017-001-37f00ac2a732.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -816,7 +1363,17 @@
     "sourceDescription": "Opal ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/opal.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/atm-opal-22x48-1-0de860d0f2e0.jpg",
+      "/images/catalog/novatech/opal-22x36-1-284ec6b40bd8.jpg",
+      "/images/catalog/novatech/opal-22x48-1-24a370f2a8d8.jpg",
+      "/images/catalog/novatech/opal-22x64-af80b8fb634d.jpg",
+      "/images/catalog/novatech/opal-7x64-f05133ac952e.jpg",
+      "/images/catalog/novatech/opal-8x36-1-44c2cd753695.jpg",
+      "/images/catalog/novatech/opal-8x48-1-440b8d619728.jpg",
+      "/images/catalog/novatech/opal-closeup-df03a53d1b2a.jpg",
+      "/images/catalog/novatech/orleans-opal-752d82d3ed8a.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -834,25 +1391,19 @@
     "sourceDescription": "With its simple and elegant intersecting lines, Verso is a timeless homage to the art of glass cutting.",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/verso.html",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
-    "specifications": {},
-    "lastVerified": "2026-08-19"
-  },
-  {
-    "id": "novatech:satin",
-    "manufacturer": "novatech",
-    "slug": "satin",
-    "name": "Satin",
-    "category": "door-glass",
-    "collection": null,
-    "modelNumber": null,
-    "type": null,
-    "summary": null,
-    "sourceDescription": "Satiné (Dépoli) ",
-    "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/catalog/product/view/id/2175/s/satine-depoli/category/22/",
-    "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/atm-verso-543eba9422da.jpg",
+      "/images/catalog/novatech/atm-verso-600-800-5fdeba25bb32.jpg",
+      "/images/catalog/novatech/novatech-verso-can-en-1d3c531b71a3.jpg",
+      "/images/catalog/novatech/porte-verso-22x36-06-369-050-001-0b33ec89e56b.jpg",
+      "/images/catalog/novatech/porte-verso-22x48-06-369-057-001-9392f8399d2a.jpg",
+      "/images/catalog/novatech/porte-verso-22x64-06-369-060-003-4ad4398db14f.jpg",
+      "/images/catalog/novatech/porte-verso-7x64-06-369-005-001-a5bb664a1932.jpg",
+      "/images/catalog/novatech/porte-verso-8x36-06-369-010-001-279fdd3b068f.jpg",
+      "/images/catalog/novatech/porte-verso-8x48-06-369-017-001-d47fed64365f.jpg",
+      "/images/catalog/novatech/verso-22x48-3ac14f9c4cb0.jpg",
+      "/images/catalog/novatech/verso-closeup-8aab1dbad6a2.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -870,7 +1421,20 @@
     "sourceDescription": "Rythme Comme son nom l’indique, Rythme présente une organisation délibérée de lignes taillées dans le verre. Ce motif assumé fera honneur aux architectures pourvues de matériaux bruts.",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/rythme.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/atm-rythme-600-800-bacdd8fef600.jpg",
+      "/images/catalog/novatech/porte-rythme-22x14-06-368-260-003-a77ff1b4360a.jpg",
+      "/images/catalog/novatech/porte-rythme-22x17-06-368-259-001-72e14b1ea3b5.jpg",
+      "/images/catalog/novatech/porte-rythme-22x36-06-368-050-003-a855f2cf24a1.jpg",
+      "/images/catalog/novatech/porte-rythme-22x48-06-368-057-003-d8c118b20ea8.jpg",
+      "/images/catalog/novatech/porte-rythme-22x64-06-368-060-003-bfb1773ae31b.jpg",
+      "/images/catalog/novatech/porte-rythme-7x64-06-368-005-003-0a7721853d64.jpg",
+      "/images/catalog/novatech/porte-rythme-8x36-06-368-010-001-3adcfffb0171.jpg",
+      "/images/catalog/novatech/porte-rythme-8x48-06-368-017-001-ecdccfac8056.jpg",
+      "/images/catalog/novatech/rythme-22x64-12696120c435.jpg",
+      "/images/catalog/novatech/rythme-closeup-7994c902f5c6.jpg",
+      "/images/catalog/novatech/uno-rythme-2ddb68f1ab1d.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -888,7 +1452,28 @@
     "sourceDescription": "Ce verre texturé au relief exceptionnel attire autant les regards que le touché. Sa texture et souple est le résultat d'un véritable exploit technologique. Soft séduira et apportera assurément un caractère unique et lumineux à votre entrée.",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/soft.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/atm-soft-600-800-b532e0196bf8.jpg",
+      "/images/catalog/novatech/atm-soft-garaga-9b63530fc7ab.jpg",
+      "/images/catalog/novatech/porte-soft-12x12-08-079-216-063-6b5d6cde1c54.jpg",
+      "/images/catalog/novatech/porte-soft-13x79-08-079-211-041-1ea7070a41c7.jpg",
+      "/images/catalog/novatech/porte-soft-22x12-08-079-053-046-ed4df3344f13.jpg",
+      "/images/catalog/novatech/porte-soft-22x14-08-079-260-063-cd5c30346219.jpg",
+      "/images/catalog/novatech/porte-soft-22x17-08-079-259-116-dc5cd09df8b1.jpg",
+      "/images/catalog/novatech/porte-soft-22x36-08-079-050-281-0b2c8822e73b.jpg",
+      "/images/catalog/novatech/porte-soft-22x36-08-079-050-283-c7b05177ec6c.jpg",
+      "/images/catalog/novatech/porte-soft-22x48-08-079-057-168-23e122d46e84.jpg",
+      "/images/catalog/novatech/porte-soft-22x48-08-079-057-170-c0acd994e2ad.jpg",
+      "/images/catalog/novatech/porte-soft-22x64-08-079-060-217-2843375a091e.jpg",
+      "/images/catalog/novatech/porte-soft-22x80-08-079-064-044-64057b6cd908.jpg",
+      "/images/catalog/novatech/porte-soft-22x9-08-079-210-064-55b1e7adcb78.jpg",
+      "/images/catalog/novatech/porte-soft-7x64-08-079-005-211-a700bf6d829b.jpg",
+      "/images/catalog/novatech/porte-soft-8x36-08-079-010-196-b4e6c4c67f40.jpg",
+      "/images/catalog/novatech/porte-soft-8x36-08-079-010-198-da80af0cd7f0.jpg",
+      "/images/catalog/novatech/porte-soft-8x48-08-079-017-112-09db834b06b1.jpg",
+      "/images/catalog/novatech/porte-soft-8x80-08-079-020-029-9ea990291111.jpg",
+      "/images/catalog/novatech/soft-22x64-ae7a2992a134.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -906,7 +1491,21 @@
     "sourceDescription": "Fluid se démarque par l’élégance de ses lignes organiques qui constituent un rappel de la nature. Ce verre remarquable et novateur laisse une impression de calme et de fraîcheur. Son motif simple, mais assumé, est parfait pour les entrées de style contemp",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/fluid.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/atm-fluid-600-800-a74704088524.jpg",
+      "/images/catalog/novatech/fluid-22x64-5887ca6a129c.jpg",
+      "/images/catalog/novatech/porte-fluid-12x12-08-079-216-063-423f0f44fd27.jpg",
+      "/images/catalog/novatech/porte-fluid-13x79-08-079-211-042-87fdfb74ddd3.jpg",
+      "/images/catalog/novatech/porte-fluid-22x12-08-079-216-066-d1d5357ebd49.jpg",
+      "/images/catalog/novatech/porte-fluid-22x14-08-079-260-066-e541057bfb11.jpg",
+      "/images/catalog/novatech/porte-fluid-22x17-08-079-259-119-b24f5c2c2514.jpg",
+      "/images/catalog/novatech/porte-fluid-22x36-08-079-050-285-56f086a5148c.jpg",
+      "/images/catalog/novatech/porte-fluid-22x48-08-079-057-174-1de6ff0517e2.jpg",
+      "/images/catalog/novatech/porte-fluid-22x64-08-079-060-221-d138943c5b3f.jpg",
+      "/images/catalog/novatech/porte-fluid-7x64-08-079-005-225-4a850a3bd6a0.jpg",
+      "/images/catalog/novatech/porte-fluid-8x36-08-079-010-200-93602b299c45.jpg",
+      "/images/catalog/novatech/porte-fluid-8x48-08-079-017-113-8740a2b06621.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -924,7 +1523,19 @@
     "sourceDescription": "Liano This stylish stained glass is a new a take on a classic look. Its camber top and crown of bevelled diamonds give it a majestic look with a subtle charm that echoes the warmth and sophisticated architectural styles of bygone days. Designed by Brigitt",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/avenue.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/atm-avenue-2-4d2a37e84aad.jpg",
+      "/images/catalog/novatech/atm-avenue-600-800-f9e9bfe016ec.jpg",
+      "/images/catalog/novatech/avenue-closeup-33fc4049a739.jpg",
+      "/images/catalog/novatech/porte-avenue-22x36-10-366-050-001-6d4a2fc51c8d.jpg",
+      "/images/catalog/novatech/porte-avenue-22x36-10-366-050-001-noir-3d82ca3d66fc.jpg",
+      "/images/catalog/novatech/porte-avenue-22x48-10-366-057-003-1a2743c9053e.jpg",
+      "/images/catalog/novatech/porte-avenue-22x48-10-366-057-003-noir-604bdcd699f9.jpg",
+      "/images/catalog/novatech/porte-avenue-8x36-10-366-010-001-ff26568e7706.jpg",
+      "/images/catalog/novatech/porte-avenue-8x36-10-366-010-001-noir-773827e954dc.jpg",
+      "/images/catalog/novatech/porte-avenue-8x48-10-366-017-001-1b825087fdac.jpg",
+      "/images/catalog/novatech/porte-avenue-8x48-10-366-017-001-noir-9db36a86c342.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -942,7 +1553,23 @@
     "sourceDescription": "Edge ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/edge.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/atm-edge-3f25c3b37308.jpg",
+      "/images/catalog/novatech/atm-edge-600-800-36f99642d83e.jpg",
+      "/images/catalog/novatech/edge-13x79-0fb3286bee75.jpg",
+      "/images/catalog/novatech/edge-22x14-972a686675de.jpg",
+      "/images/catalog/novatech/edge-22x36-11f57bd039b0.jpg",
+      "/images/catalog/novatech/edge-22x48-202b1ab1604e.jpg",
+      "/images/catalog/novatech/edge-22x64-636ec29a14b0.jpg",
+      "/images/catalog/novatech/edge-22x80-ce99fa97e619.jpg",
+      "/images/catalog/novatech/edge-7x64-8c90e89a98e4.jpg",
+      "/images/catalog/novatech/edge-8x36-ce7fcdd47278.jpg",
+      "/images/catalog/novatech/edge-8x48-9a27a22621e1.jpg",
+      "/images/catalog/novatech/edge-8x80-da4fc9c74bc8.jpg",
+      "/images/catalog/novatech/edge-closeup-9742ec380e0b.jpg",
+      "/images/catalog/novatech/edge-fb45e61cf30e.jpg",
+      "/images/catalog/novatech/novatech-edge-can-en-1-c1c729f8de11.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -960,7 +1587,15 @@
     "sourceDescription": "Liano This stylish stained glass is a new a take on a classic look. Its camber top and crown of bevelled diamonds give it a majestic look with a subtle charm that echoes the warmth and sophisticated architectural styles of bygone days. Designed by Brigitt",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/liano.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/10-324-017-001-liano-8x48-0143c85c3ef0.jpg",
+      "/images/catalog/novatech/10-324-050-002-liano-22x36-640306b6c833.jpg",
+      "/images/catalog/novatech/10-324-057-005-liano-22x48-83c693158ccb.jpg",
+      "/images/catalog/novatech/10-324-260-002-liano-22x14-e6d48cfd5349.jpg",
+      "/images/catalog/novatech/liano-atmo-produit-8623e06914fc.jpg",
+      "/images/catalog/novatech/liano-closeup-c749560259fc.jpg",
+      "/images/catalog/novatech/orleans-liano-5be46c8e58ea.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -978,7 +1613,17 @@
     "sourceDescription": "Chanelle ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/chanelle1.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/chanelle-22x36-cf2487bbb1ad.jpg",
+      "/images/catalog/novatech/chanelle-22x48-7ae6c623e71a.jpg",
+      "/images/catalog/novatech/chanelle-22x64-3e0769004bb8.jpg",
+      "/images/catalog/novatech/chanelle-8x36-4e0c10768b4b.jpg",
+      "/images/catalog/novatech/chanelle-8x48-bed7ccb53546.jpg",
+      "/images/catalog/novatech/chanelle-atmo-produit-126096fba35c.jpg",
+      "/images/catalog/novatech/chanelle-closeup-24c600403e0d.jpg",
+      "/images/catalog/novatech/chanelle-niagara-e71b837a5db8.jpg",
+      "/images/catalog/novatech/chanelle-victoria-9774d0182dd6.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -996,7 +1641,24 @@
     "sourceDescription": "Azur ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/azur.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/azur-0282e605b9e2.jpg",
+      "/images/catalog/novatech/azur-10x76-e8f5f1255fbf.jpg",
+      "/images/catalog/novatech/azur-13x79-9165bda78e6f.jpg",
+      "/images/catalog/novatech/azur-2014-69f3a8c3675b.jpg",
+      "/images/catalog/novatech/azur-2017-433c7dd3ae1c.jpg",
+      "/images/catalog/novatech/azur-22x12-f61e10dc2aff.jpg",
+      "/images/catalog/novatech/azur-22x17-1-8e65bd3a5148.jpg",
+      "/images/catalog/novatech/azur-22x36-918f0d1ac82a.jpg",
+      "/images/catalog/novatech/azur-22x48-fb511f145521.jpg",
+      "/images/catalog/novatech/azur-22x64-11f5b6225487.jpg",
+      "/images/catalog/novatech/azur-7x64-a3c9f7ceaa6c.jpg",
+      "/images/catalog/novatech/azur-8x36-76fe9a119386.jpg",
+      "/images/catalog/novatech/azur-8x48-889fd430a05b.jpg",
+      "/images/catalog/novatech/azur-atmo-produit-3a6489514617.jpg",
+      "/images/catalog/novatech/azur-closeup-3c95d1adcd55.jpg",
+      "/images/catalog/novatech/modernomulti-713ad0aa919a.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -1014,7 +1676,22 @@
     "sourceDescription": "Zénith ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/zenith.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/z-nith-2017-1-d4b2bf3580b2.jpg",
+      "/images/catalog/novatech/zen-48c84f07ae5c.jpg",
+      "/images/catalog/novatech/zeni-9d6dd38f43df.jpg",
+      "/images/catalog/novatech/zenith-22x36-ac091f6a69c1.jpg",
+      "/images/catalog/novatech/zenith-22x48-67ea6eccd80d.jpg",
+      "/images/catalog/novatech/zenith-22x64-0145ac2e25c6.jpg",
+      "/images/catalog/novatech/zenith-22x80-e25aeb284eb5.jpg",
+      "/images/catalog/novatech/zenith-7x64-c5448083865c.jpg",
+      "/images/catalog/novatech/zenith-8x36-4ebd1a46934b.jpg",
+      "/images/catalog/novatech/zenith-8x48-1daae5093081.jpg",
+      "/images/catalog/novatech/zenith-8x80-0be44c416642.jpg",
+      "/images/catalog/novatech/zenith-closeup-cd9e91f29144.jpg",
+      "/images/catalog/novatech/zenith-fab-qc-2009d139dfa2.jpg",
+      "/images/catalog/novatech/zenith-fec08a58e01c.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -1032,7 +1709,18 @@
     "sourceDescription": "Verre Masterline ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/verre-masterline.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/masterline-12x12-4carr-s-38453c14b4f5.jpg",
+      "/images/catalog/novatech/masterline-22x17-7x64-03859211c258.jpg",
+      "/images/catalog/novatech/masterline-22x17-f630f52582db.jpg",
+      "/images/catalog/novatech/masterline-22x64-7x64-frame-contemporain-232529a6d385.jpg",
+      "/images/catalog/novatech/masterline-3-22x17-7x64-1-996e1018391c.jpg",
+      "/images/catalog/novatech/masterline-produit-c1b8211a75ec.jpg",
+      "/images/catalog/novatech/masterline-vog-13x79-ce828d7189b3.jpg",
+      "/images/catalog/novatech/uni-charbon-2c21c869137d.jpg",
+      "/images/catalog/novatech/uno-3-masterline-0c6de5fab6a2.png",
+      "/images/catalog/novatech/uno3-atmo-produit-1-f3073dcd1740.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -1050,7 +1738,21 @@
     "sourceDescription": "Kallima ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/kallima.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/atm-kallima-600-800-187774c6b86a.jpg",
+      "/images/catalog/novatech/atm-kallima-8c325ce7388b.jpg",
+      "/images/catalog/novatech/kallima-closeup-9e9f6e28447a.jpg",
+      "/images/catalog/novatech/kallima-ea686eddd54b.jpg",
+      "/images/catalog/novatech/porte-kallima-13x79-10-229-211-001-94ba3290a0c4.jpg",
+      "/images/catalog/novatech/porte-kallima-22x14-10-229-260-001-a2204c3b358f.jpg",
+      "/images/catalog/novatech/porte-kallima-22x36-10-229-050-001-9db503c5d8a6.jpg",
+      "/images/catalog/novatech/porte-kallima-22x48-10-229-057-001-1-d122870f3997.jpg",
+      "/images/catalog/novatech/porte-kallima-22x64-10-229-060-001-d5670f01dad6.jpg",
+      "/images/catalog/novatech/porte-kallima-7x64-10-229-005-001-964d93c05196.jpg",
+      "/images/catalog/novatech/porte-kallima-8x36-10-229-010-001-18cf70a70f10.jpg",
+      "/images/catalog/novatech/porte-kallima-8x48-10-229-017-001-e15e46cfba90.jpg",
+      "/images/catalog/novatech/porte-kallima-oval-10-229-027-005-c0784cd47edb.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -1068,7 +1770,21 @@
     "sourceDescription": "Pure ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/pure.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/novatech-pure-1-a10e369cd2f7.jpg",
+      "/images/catalog/novatech/novatech-pure-london-22x36-c8ae0792e8d4.jpg",
+      "/images/catalog/novatech/novatech-pure-sl-orleans-8x48-064fddbc893f.jpg",
+      "/images/catalog/novatech/novatech-pure-sl-uno-7x64-88a3a09065ac.jpg",
+      "/images/catalog/novatech/novatech-pure-soho-22x48-c3a14e07e45e.jpg",
+      "/images/catalog/novatech/novatech-pure-uno-22x64-3ebcd09fbfa7.jpg",
+      "/images/catalog/novatech/novatech-pure-uno-34x95-22x80-ebf8b5db6a36.jpg",
+      "/images/catalog/novatech/novatech-pure-uno-95in-sidelite-8x80-379a697c9968.jpg",
+      "/images/catalog/novatech/pure-54cc06d33a4d.jpg",
+      "/images/catalog/novatech/pure-7x64-1-a5d20085b42e.jpg",
+      "/images/catalog/novatech/pure-8x48-2942c9d810c5.jpg",
+      "/images/catalog/novatech/pure-atmo-produit-ac4ac5a73b3b.jpg",
+      "/images/catalog/novatech/pure-closeup-f66da9d56b54.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -1086,7 +1802,24 @@
     "sourceDescription": "Cachet ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/cachet.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/cachet-13x79-5821b905d3ce.jpg",
+      "/images/catalog/novatech/cachet-21x10-3a9bd01507b6.jpg",
+      "/images/catalog/novatech/cachet-21x10c-9d3b9818f301.jpg",
+      "/images/catalog/novatech/cachet-22x14victoria-af1ca32085b8.jpg",
+      "/images/catalog/novatech/cachet-22x17-56fcd02ed2bb.jpg",
+      "/images/catalog/novatech/cachet-22x36-2f7bb054b571.jpg",
+      "/images/catalog/novatech/cachet-22x48-a18abebf0905.jpg",
+      "/images/catalog/novatech/cachet-22x64-7743bbf394b6.jpg",
+      "/images/catalog/novatech/cachet-76c8334089e7.jpg",
+      "/images/catalog/novatech/cachet-7x64-0a1873a952c6.jpg",
+      "/images/catalog/novatech/cachet-8x36-60071026d461.jpg",
+      "/images/catalog/novatech/cachet-8x48-947446788197.jpg",
+      "/images/catalog/novatech/cachet-atmo-produit-51faf182e11e.jpg",
+      "/images/catalog/novatech/cachet-closeup-e1c6998efbde.jpg",
+      "/images/catalog/novatech/cachet-produit-c2ab8ea87336.jpg",
+      "/images/catalog/novatech/prestigemoka-989c6c4794b1.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -1104,7 +1837,13 @@
     "sourceDescription": "Verre Screen ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/verre-screen.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/screen-12x12-4carr-s-160cb1b54e82.jpg",
+      "/images/catalog/novatech/screen-22x17-7e33a6cc9fa8.jpg",
+      "/images/catalog/novatech/screen-22x64-7x64-frame-contemporain-9f40d6f0cf6b.jpg",
+      "/images/catalog/novatech/screen-965442939921.jpg",
+      "/images/catalog/novatech/screen-produit-0e686dc90f18.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -1122,7 +1861,17 @@
     "sourceDescription": "Discrétion ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/discretion.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/bouton-closeup-f297815eeceb.jpg",
+      "/images/catalog/novatech/discretion-20x64-2030b669b0ca.jpg",
+      "/images/catalog/novatech/discretion-22x36-59078eefb7ca.jpg",
+      "/images/catalog/novatech/discretion-22x48-cb8e89047033.jpg",
+      "/images/catalog/novatech/discretion-22x64-4b3cda4bb57e.jpg",
+      "/images/catalog/novatech/discretion-22x64-jaune-4fb91dc3e781.jpg",
+      "/images/catalog/novatech/discretion-blanc-closeup-5fb2aaa90fdf.jpg",
+      "/images/catalog/novatech/discretion-gris-closeup-8f6e751936db.jpg",
+      "/images/catalog/novatech/discretion2-b2ea8325a62c.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -1140,7 +1889,21 @@
     "sourceDescription": "Elevation ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/elevation.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/24-079-050-001-e-le-vation-22x36-1-d47b00a59d1b.png",
+      "/images/catalog/novatech/24-079-060-002-e-le-vation-22x48-7436ff9e228e.png",
+      "/images/catalog/novatech/24-079-060-002-e-le-vation-22x64-5f5222091010.png",
+      "/images/catalog/novatech/elev-2e1bcd743df2.jpg",
+      "/images/catalog/novatech/elevation-3carreaux-22x48-1-a5cd31e5eec1.jpg",
+      "/images/catalog/novatech/elevation-3carreaux-22x64-1-4ab14a04f9f0.jpg",
+      "/images/catalog/novatech/elevation-atmo-produit-7eae4d3d185e.jpg",
+      "/images/catalog/novatech/elevation-contour-22x48-1-0801609a0bf0.jpg",
+      "/images/catalog/novatech/elevation-murano-22x48-1-831685d07d53.jpg",
+      "/images/catalog/novatech/elevation-murano-22x64-1-7affd1cf79ea.jpg",
+      "/images/catalog/novatech/l-vation-90036c0ca889.jpg",
+      "/images/catalog/novatech/l-vation-optika-52257f13caa6.jpg",
+      "/images/catalog/novatech/novatech-elevation-can-en-8b1a9e62931e.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -1158,7 +1921,14 @@
     "sourceDescription": "Carrelage Classique ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/classic-grille.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/01-017-057-xxx-carrcaal-classique-22x48-1-195a6ebf768b.png",
+      "/images/catalog/novatech/carr-classique-atmo-produit-1-56fedfab5273.jpg",
+      "/images/catalog/novatech/carrelage-classic-22x14-1-1-c33f47dc0eac.jpg",
+      "/images/catalog/novatech/carrelage-classic-22x17-1-1-b8cf8f115024.jpg",
+      "/images/catalog/novatech/carrelage-classic-22x36-8x36-1-1-923654a6e864.jpg",
+      "/images/catalog/novatech/carrelage-classic-22x64-7x64-frame-contemporain-1-1-54e029d13c1a.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -1176,7 +1946,19 @@
     "sourceDescription": "Mystique ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/mystique.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/mystique-22x36z-2f0d694fc94b.jpg",
+      "/images/catalog/novatech/mystique-22x48z-8daebf707c98.jpg",
+      "/images/catalog/novatech/mystique-22x64z-b7d74405d3ed.jpg",
+      "/images/catalog/novatech/mystique-7x64z-53a3e66b6397.jpg",
+      "/images/catalog/novatech/mystique-8x36z-f2200e56aefd.jpg",
+      "/images/catalog/novatech/mystique-8x48z-0c0c72182494.jpg",
+      "/images/catalog/novatech/mystique-atmo-produit-c8843431f906.jpg",
+      "/images/catalog/novatech/mystique-closeup-b89889f9455c.jpg",
+      "/images/catalog/novatech/mystique-closeup-l-5dfae3794cdc.jpg",
+      "/images/catalog/novatech/mystique-demi-lune-1-28e9e2ad1703.jpg",
+      "/images/catalog/novatech/mystique-oval-z-2de80717faf5.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -1194,7 +1976,15 @@
     "sourceDescription": "Verre Sablé ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/sandblasted-glass.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/garaga-sable-b58626f1fc5b.jpg",
+      "/images/catalog/novatech/lin-a-7x64-sabl-1-ad70fc889795.png",
+      "/images/catalog/novatech/sable-12x12-4carr-s-1-d0f1d2141708.jpg",
+      "/images/catalog/novatech/sable-22x48-8x48-1-71abe04710d6.jpg",
+      "/images/catalog/novatech/sable-22x64-7x64-frame-contemporain-1-e5eb39fd3354.jpg",
+      "/images/catalog/novatech/sable-22x9-1-2e14b4158b39.jpg",
+      "/images/catalog/novatech/sable-atmo-produit-1-f8273d2219a2.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -1212,7 +2002,10 @@
     "sourceDescription": "Verre Pinhead ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/pinhead.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/pinhead-3571e25c1206.jpg",
+      "/images/catalog/novatech/pinhead-produit-1d6ac1e3ab3c.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -1230,7 +2023,17 @@
     "sourceDescription": "Allure ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/allure1.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/allure-22x36z-b24400eb97b0.jpg",
+      "/images/catalog/novatech/allure-22x48z-0935857d6067.jpg",
+      "/images/catalog/novatech/allure-7x64z-95188e1de82f.jpg",
+      "/images/catalog/novatech/allure-8x36z-0dab2348a652.jpg",
+      "/images/catalog/novatech/allure-8x48z-ba497dd6548e.jpg",
+      "/images/catalog/novatech/allure-atmo-produit-d540c35b0579.jpg",
+      "/images/catalog/novatech/allure-closeup-e7c3f07453e2.jpg",
+      "/images/catalog/novatech/allure-oval-z-d85fed8ce9e1.jpg",
+      "/images/catalog/novatech/allure-produit-1-0043f290dcf6.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -1248,7 +2051,24 @@
     "sourceDescription": "Natural yet abstract, evoking the movement of the wind, the composition of this cut glass design is sure to create an inspiring entrance.",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/alys-doorglass.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/alys-10x76-839d6bfafb09.jpg",
+      "/images/catalog/novatech/alys-13x79-6e2ca798ab43.jpg",
+      "/images/catalog/novatech/alys-21x14-shaker-a3f0616da99f.jpg",
+      "/images/catalog/novatech/alys-22x17-466df52ddafb.jpg",
+      "/images/catalog/novatech/alys-22x36-1a218241183d.jpg",
+      "/images/catalog/novatech/alys-22x48-e3afc4298e5d.jpg",
+      "/images/catalog/novatech/alys-22x64-1b46ea5008ab.jpg",
+      "/images/catalog/novatech/alys-22x9-5384dc86f85e.jpg",
+      "/images/catalog/novatech/alys-22x9-cambre-9326a4a9818a.jpg",
+      "/images/catalog/novatech/alys-7x64-2-6311083733da.jpg",
+      "/images/catalog/novatech/alys-8x36-cb9890dbebe8.jpg",
+      "/images/catalog/novatech/alys-8x48-82ba6a273385.jpg",
+      "/images/catalog/novatech/alys-closeup-1-0e8bd310f4b5.jpg",
+      "/images/catalog/novatech/alys-produit-f80671d86c7e.jpg",
+      "/images/catalog/novatech/atm-alys-22x64-600-800-32f3bf3cd4ed.jpg",
+      "/images/catalog/novatech/atm-alys-22x64-fa0c8dc31f17.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -1266,7 +2086,17 @@
     "sourceDescription": "Louisbourg ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/louisbourg.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/louisbourg-22x36-0cec7ca18406.jpg",
+      "/images/catalog/novatech/louisbourg-22x48-c17a4f8e8784.jpg",
+      "/images/catalog/novatech/louisbourg-22x64-1-fc93e57a3671.jpg",
+      "/images/catalog/novatech/louisbourg-7x64-b678c114764d.jpg",
+      "/images/catalog/novatech/louisbourg-8x36-0831384dc809.jpg",
+      "/images/catalog/novatech/louisbourg-8x48-6a4194e922e6.jpg",
+      "/images/catalog/novatech/louisbourg-atmo-produit-610834453f8c.jpg",
+      "/images/catalog/novatech/louisbourg-closeup-a7d508751e8e.jpg",
+      "/images/catalog/novatech/louisbourg-produit-1-a047572a241f.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -1284,7 +2114,22 @@
     "sourceDescription": "Transit ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/transit.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/07-263-057-001-transit-22x48-61fd8ae7a81e.png",
+      "/images/catalog/novatech/novatech-transit-can-en-ed70b76e4834.jpg",
+      "/images/catalog/novatech/transit-22x14victoria-1cc73981278e.jpg",
+      "/images/catalog/novatech/transit-22x17-f42453542126.jpg",
+      "/images/catalog/novatech/transit-22x36-fc0d5d559c7e.jpg",
+      "/images/catalog/novatech/transit-22x48-4f049e1f8e73.jpg",
+      "/images/catalog/novatech/transit-22x64-6002d9d86c78.jpg",
+      "/images/catalog/novatech/transit-22x9-d256291bbda8.jpg",
+      "/images/catalog/novatech/transit-7x64-7c365472ca37.jpg",
+      "/images/catalog/novatech/transit-8x36-3a6f0d0c0516.jpg",
+      "/images/catalog/novatech/transit-8x48-eee9ea941a6f.jpg",
+      "/images/catalog/novatech/transit-atmo-produit-b6e1389c3c58.jpg",
+      "/images/catalog/novatech/transit-closeup-7a81fb893d2c.jpg",
+      "/images/catalog/novatech/transit-ff28a211266e.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -1302,7 +2147,13 @@
     "sourceDescription": "Verre Chinchilla ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/chinchilla.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/chinchilla-22x36-8x36-7631b313f914.jpg",
+      "/images/catalog/novatech/chinchilla-22x48-8x48-1cc78e9bfb01.jpg",
+      "/images/catalog/novatech/chinchilla-22x64-7x64-frame-contemporain-fa1eb32066f2.jpg",
+      "/images/catalog/novatech/chinchilla-99f11274f375.jpg",
+      "/images/catalog/novatech/chinchilla-produit-1-8daed045d88d.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -1320,7 +2171,20 @@
     "sourceDescription": "Mistral ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/mistral.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/mistral-13x79-338b3b06a551.jpg",
+      "/images/catalog/novatech/mistral-22x14s-acfdccbaba98.jpg",
+      "/images/catalog/novatech/mistral-22x17-1-8dfce8210abc.jpg",
+      "/images/catalog/novatech/mistral-22x36-a393a4005672.jpg",
+      "/images/catalog/novatech/mistral-22x48-8468947e7ef1.jpg",
+      "/images/catalog/novatech/mistral-22x64-1-1718728d740f.jpg",
+      "/images/catalog/novatech/mistral-7x64-7fdf58b0711b.jpg",
+      "/images/catalog/novatech/mistral-8x36-15fc3c77ef28.jpg",
+      "/images/catalog/novatech/mistral-8x48-3570f69b5e53.jpg",
+      "/images/catalog/novatech/mistral-atmo-produit-b9976d338353.jpg",
+      "/images/catalog/novatech/mistral-closeup-7d8e6df6e4e1.jpg",
+      "/images/catalog/novatech/mistral-produit-1ab359b3fde2.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -1338,7 +2202,19 @@
     "sourceDescription": "Bistro ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/bistro.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/bistro-21x9-5e5a797aa7d0.jpg",
+      "/images/catalog/novatech/bistro-22x14s-88997ba23ad4.jpg",
+      "/images/catalog/novatech/bistro-22x17-dbddd83073d2.jpg",
+      "/images/catalog/novatech/bistro-22x36-bde2d61f8ccb.jpg",
+      "/images/catalog/novatech/bistro-22x48-1-122b0e61071f.jpg",
+      "/images/catalog/novatech/bistro-22x64-b5d23dbff9a4.jpg",
+      "/images/catalog/novatech/bistro-7x64-9a6714f163a3.jpg",
+      "/images/catalog/novatech/bistro-8x36-2a61c34049ae.jpg",
+      "/images/catalog/novatech/bistro-8x48-f9fefbf582ec.jpg",
+      "/images/catalog/novatech/bistro-closeup-750faa7cdde0.jpg",
+      "/images/catalog/novatech/ezgif-4-e4358afe77-e16f61d12c69.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -1356,7 +2232,20 @@
     "sourceDescription": "Attraction ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/attraction.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/attraction-22x14s-e2defcfec904.jpg",
+      "/images/catalog/novatech/attraction-22x17-b99afb5c4e91.jpg",
+      "/images/catalog/novatech/attraction-22x36-2ea30d4f18da.jpg",
+      "/images/catalog/novatech/attraction-22x48-a6c77833458d.jpg",
+      "/images/catalog/novatech/attraction-22x64-2-dc998964a5bd.jpg",
+      "/images/catalog/novatech/attraction-7x64-9c2a7a4376b8.jpg",
+      "/images/catalog/novatech/attraction-8x36-b37edeaf78aa.jpg",
+      "/images/catalog/novatech/attraction-8x48-f676e2de54de.jpg",
+      "/images/catalog/novatech/attraction-atmo-produit-bc95d03e6229.jpg",
+      "/images/catalog/novatech/attraction-closeup-736da77df9b0.jpg",
+      "/images/catalog/novatech/attraction-produit-2-6d24e2573b90.jpg",
+      "/images/catalog/novatech/p6zll-attraction-atmo-034a92b1cb3f.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -1374,7 +2263,19 @@
     "sourceDescription": "Cathédrale ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/cathedrale.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/cathedrale-22x36p-e264497fb852.jpg",
+      "/images/catalog/novatech/cathedrale-22x48p-437a4103a971.jpg",
+      "/images/catalog/novatech/cathedrale-22x64p-0e21c1f3c73f.jpg",
+      "/images/catalog/novatech/cathedrale-7x64-bffa58141173.jpg",
+      "/images/catalog/novatech/cathedrale-8x36-70db9ed72d64.jpg",
+      "/images/catalog/novatech/cathedrale-8x48p-b79c1c39141a.jpg",
+      "/images/catalog/novatech/cathedrale-atmo-1-29-9e24cd3fda35.jpg",
+      "/images/catalog/novatech/cathedrale-atmo-produit-e154f195d3d8.jpg",
+      "/images/catalog/novatech/cathedrale-closeup-p-34c19e861f61.jpg",
+      "/images/catalog/novatech/cathedrale-closeup-z-87881e61d57a.jpg",
+      "/images/catalog/novatech/cathedrale-produit-1-6881ea825c1d.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -1392,7 +2293,16 @@
     "sourceDescription": "Q550 ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/q550.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/novatech-q550-can-en-e6d2a7de844e.jpg",
+      "/images/catalog/novatech/q550-1-69ac4d3c66ba.jpg",
+      "/images/catalog/novatech/q550-22x36-1c7ff7989c11.jpg",
+      "/images/catalog/novatech/q550-22x48-c79817494225.jpg",
+      "/images/catalog/novatech/q550-22x48-carrinter-f5b389a9eba4.jpg",
+      "/images/catalog/novatech/q550-22x64-245333ca3512.jpg",
+      "/images/catalog/novatech/q550-22x64-carrinter-27c20a909b00.jpg",
+      "/images/catalog/novatech/q550-closeup-10804dea2829.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -1410,7 +2320,10 @@
     "sourceDescription": "Carrelage Distinction ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/doorglass/distinction-grille.html",
     "sourceType": "live-crawl",
-    "media": [],
+    "media": [
+      "/images/catalog/novatech/carr-distinction-atmo-produit-7cc7df69980d.jpg",
+      "/images/catalog/novatech/carrelage-distinction-produit-1d7c1246544e.jpg"
+    ],
     "documents": [],
     "specifications": {},
     "lastVerified": "2026-08-19"
@@ -1428,8 +2341,21 @@
     "sourceDescription": "550 (Wood/PVC) Strike the right balance between an authentic look and outstanding efficiency with a 550 patio door. Available in a double or triple sealed unit, it offers superior energy efficiency and an unparalleled degree of comfort. Its outstanding fi",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/patio-doors/550.html",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/novatech/550-corner-1-1-4238c29e67ea.jpg",
+      "/images/catalog/novatech/550-sideview-inside-1-5c539e9111cf.jpg",
+      "/images/catalog/novatech/550-sideview-outside-1-2-0a879f45fd8b.jpg",
+      "/images/catalog/novatech/atm-550-ext-rieur-poign-e-look-863522aa9273.jpg",
+      "/images/catalog/novatech/atm-550-ext-rieur-poign-e-look600x800-1-df1f74033d11.jpg",
+      "/images/catalog/novatech/color-oil-rubbed-bronze-00fe4b1823eb.jpg",
+      "/images/catalog/novatech/color-satin-nickel-3b5aac3b8060.jpg",
+      "/images/catalog/novatech/color-white-d9e82c74053d.jpg",
+      "/images/catalog/novatech/image20221205135249-9535b47e7a8b.jpg"
+    ],
+    "documents": [
+      "/documents/catalog/novatech/550-sheet-en-2025-01-31-bdeb0686832c.pdf",
+      "/documents/catalog/novatech/novatech-patio-door-warranty-canada-en-2025-10-15-12e4a2701f80.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -1446,8 +2372,20 @@
     "sourceDescription": "Urbania (Aluminum) ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/patio-doors/urbania-aluminum.html",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/novatech/urbania-asymmetrique-1f3dccd05b8e.jpg",
+      "/images/catalog/novatech/urbania-atm-1-7795735186a5.jpg",
+      "/images/catalog/novatech/urbania-black-sill-2x-f65091f19ac4.jpg",
+      "/images/catalog/novatech/urbania-closeup-1-2-noir-300ab373cbb9.jpg",
+      "/images/catalog/novatech/urbania-closeup-1-noir-794658ef6370.jpg",
+      "/images/catalog/novatech/urbania-fbd912c07ec9.jpg",
+      "/images/catalog/novatech/urbania-noire-1-6d639f5a0e3a.jpg",
+      "/images/catalog/novatech/urbania-poign-e-studio-4fc98e38d9ed.jpg"
+    ],
+    "documents": [
+      "/documents/catalog/novatech/970-0399-novatech-urbania-loft-patio-doors-2025-03-12-ae975059db61.pdf",
+      "/documents/catalog/novatech/urbania-sheet-en-2025-01-31-66e4c0898664.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -1464,8 +2402,30 @@
     "sourceDescription": "Élément (Bois/PVC/Aluminium) ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/patio-doors/element-bois-pvc-aluminium.html",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/novatech/element-2-corner-65cde1ad5c6b.jpg",
+      "/images/catalog/novatech/element-black-10122d83f561.jpg",
+      "/images/catalog/novatech/element-brown-ed0ac8d0e3ce.jpg",
+      "/images/catalog/novatech/element-charcoal-4c43ec851094.jpg",
+      "/images/catalog/novatech/element-clear-anodized-6d073af7ee7f.jpg",
+      "/images/catalog/novatech/element-f54448e60df1.png",
+      "/images/catalog/novatech/element-swatch-5a61b9179648.jpg",
+      "/images/catalog/novatech/element-white-306964616482.jpg",
+      "/images/catalog/novatech/handle-swatch-black-white-538df2d1a4a9.jpg",
+      "/images/catalog/novatech/handle-swatch-bronze-3bee73430a59.jpg",
+      "/images/catalog/novatech/handle-swatch-nickel-d8208292d9f8.jpg",
+      "/images/catalog/novatech/handle-swatch-white-31c1f4e7e1cc.jpg",
+      "/images/catalog/novatech/swatch-black-2x-8cb1a2089cdf.jpg",
+      "/images/catalog/novatech/swatch-blanc-bleu-2x-ab4341361449.jpg",
+      "/images/catalog/novatech/swatch-charcoal-2x-768952223290.jpg",
+      "/images/catalog/novatech/swatch-clear-anodized-2x-c6eba5d41996.jpg",
+      "/images/catalog/novatech/swatch-comm-brown-2x-ed9cf0e1ac68.jpg",
+      "/images/catalog/novatech/swatch-custom-2x-b92840e36c39.jpg"
+    ],
+    "documents": [
+      "/documents/catalog/novatech/element-sheet-en-2025-01-31-d62495dda347.pdf",
+      "/documents/catalog/novatech/novatech-500-series-patio-doors-en-2024-12-06-931299a9c9f3.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -1482,8 +2442,20 @@
     "sourceDescription": "630 (PVC) ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/patio-doors/630.html",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/novatech/630-coin-exterieur-fond-gris-1-4cde13a166b3.jpg",
+      "/images/catalog/novatech/630-coin-interieur-1-1812bd351b06.jpg",
+      "/images/catalog/novatech/630-condo-interior-b6927ca96b80.jpg",
+      "/images/catalog/novatech/630-corner-1-7010ecea8a48.jpg",
+      "/images/catalog/novatech/630-moulure-brique-contemporaine-1-e0a35df851f3.jpg",
+      "/images/catalog/novatech/630-sideview-inside-04d7504b3f8e.jpg",
+      "/images/catalog/novatech/630-sideview-outside-f83ff83f8641.jpg",
+      "/images/catalog/novatech/color-white-d9e82c74053d.jpg"
+    ],
+    "documents": [
+      "/documents/catalog/novatech/630-sheet-en-2025-01-31-f4bcfab31ab8.pdf",
+      "/documents/catalog/novatech/970-0532-novatech-600-series-patio-doors-2025-02-17-5d529e3caa73.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -1500,8 +2472,29 @@
     "sourceDescription": "650 ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/patio-doors/650.html",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/novatech/650-9c7275e05d9e.jpeg",
+      "/images/catalog/novatech/650-back-e64ac6013ec2.jpg",
+      "/images/catalog/novatech/650-corner-827767f00860.jpg",
+      "/images/catalog/novatech/650-frontview-inside-04780a695c0e.jpg",
+      "/images/catalog/novatech/650-frontview-outside-558b50705064.jpg",
+      "/images/catalog/novatech/650-sideview-inside-8b1ce133bd3b.jpg",
+      "/images/catalog/novatech/650-sideview-outside-697058e285de.jpg",
+      "/images/catalog/novatech/atm-550-interieur-45163c6be535.jpg",
+      "/images/catalog/novatech/atm-kd-650-2-33cc590638ee.jpg",
+      "/images/catalog/novatech/capture-d-cran-2025-04-08-101402-1d45ba0ac41a.png",
+      "/images/catalog/novatech/color-oil-rubbed-bronze-00fe4b1823eb.jpg",
+      "/images/catalog/novatech/color-satin-nickel-3b5aac3b8060.jpg",
+      "/images/catalog/novatech/color-white-d9e82c74053d.jpg",
+      "/images/catalog/novatech/handle-swatch-black-white-538df2d1a4a9.jpg",
+      "/images/catalog/novatech/swatch-custom-2x-b92840e36c39.jpg"
+    ],
+    "documents": [
+      "/documents/catalog/novatech/650-sheet-en-ca-2025-08-29-6faea9997134.pdf",
+      "/documents/catalog/novatech/installation-guide-650-2-lites-e0cdc7d8bbdd.pdf",
+      "/documents/catalog/novatech/installation-guide-kd-650-3lites-e60189c348e6.pdf",
+      "/documents/catalog/novatech/installation-guide-kd-650-4lites-d74a61da4da8.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -1518,8 +2511,23 @@
     "sourceDescription": "Buckingham ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/patio-doors/buckingham.html",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/novatech/sv-1200-colour-options-f0359e854817.jpg",
+      "/images/catalog/novatech/sv-buckingham-cut-aways-47a771940f0b.jpg",
+      "/images/catalog/novatech/sv-buckingham-dimensions-chart-43ad9b790998.png",
+      "/images/catalog/novatech/sv-buckingham-dimensions-chart-e242e82fdf76.png",
+      "/images/catalog/novatech/sv-buckingham-handle-colours-def3ffee404c.jpg",
+      "/images/catalog/novatech/sv-buckingham-miniblinds-4fe0074f23ff.jpg",
+      "/images/catalog/novatech/sv-buckingham-product-frame-250dee76ec63.jpg",
+      "/images/catalog/novatech/sv-buckingham-product-in-context-cf1fdcc14a4d.jpg",
+      "/images/catalog/novatech/sv-buckingham-room-shot-6beacaadfd01.jpg",
+      "/images/catalog/novatech/sv-buckingham-twin-lock-3e11c98d230a.jpg",
+      "/images/catalog/novatech/sv-configurations-d4de2ebb54ad.jpg",
+      "/images/catalog/novatech/sv-kick-lock-security-option-1-1-2df9a8c45e56.jpg"
+    ],
+    "documents": [
+      "/documents/catalog/novatech/victorian-buckingham-sheet-en-2025-01-31-377705ccd58c.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -1536,8 +2544,25 @@
     "sourceDescription": "Studio (ALUMINUM) patio door novatech",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/patio-doors/studio-aluminum.html",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/novatech/color-oil-rubbed-bronze-00fe4b1823eb.jpg",
+      "/images/catalog/novatech/color-satin-nickel-3b5aac3b8060.jpg",
+      "/images/catalog/novatech/color-white-d9e82c74053d.jpg",
+      "/images/catalog/novatech/elite-handle-double-d-e9a946c79b47.jpg",
+      "/images/catalog/novatech/handle-swatch-black-white-538df2d1a4a9.jpg",
+      "/images/catalog/novatech/handle-view-2x-c7cd8a85253f.jpg",
+      "/images/catalog/novatech/image20221125140532-5dc491b95564.jpg",
+      "/images/catalog/novatech/image20221125140625-c91087d9a4db.png",
+      "/images/catalog/novatech/not2022-10-porte-coupe-final-v1-01-fc6dd3b7cd1d.jpg",
+      "/images/catalog/novatech/recessed-handle-windsor-closeup-1024-a779ece779de.jpg",
+      "/images/catalog/novatech/studio-10x8-clear-anodized-22077cf0166f.jpg",
+      "/images/catalog/novatech/sv-1200-frame-48a60c8be6be.jpg",
+      "/images/catalog/novatech/web-handle1-d35ab357004a.jpg",
+      "/images/catalog/novatech/web-kick-lock-14a1d7422cbd.jpg"
+    ],
+    "documents": [
+      "/documents/catalog/novatech/studio-vertika-sheet-en-f01c482c3553.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -1554,8 +2579,16 @@
     "sourceDescription": "2900 (ALUMINIUM) ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/patio-doors/2900.html",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/novatech/sv-1200-colour-options-f0359e854817.jpg",
+      "/images/catalog/novatech/sv-2900-product-frame-7cad6220faac.jpg",
+      "/images/catalog/novatech/sv-2900-product-in-context-53bff669a764.jpg",
+      "/images/catalog/novatech/sv-2900-room-shot-1-b2b83c06fbd8.jpg",
+      "/images/catalog/novatech/sv-kick-lock-security-option-1-cf5c721ca594.jpg"
+    ],
+    "documents": [
+      "/documents/catalog/novatech/2900-sheet-en-b1ffa963ec70.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -1572,8 +2605,16 @@
     "sourceDescription": "Victorian (PVC) ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/patio-doors/victorian-pvc.html",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/novatech/sv-1200-colour-options-f0359e854817.jpg",
+      "/images/catalog/novatech/sv-victorian-cut-aways-c13bf16bd1c4.jpg",
+      "/images/catalog/novatech/sv-victorian-product-frame-6adce53f01c0.jpg",
+      "/images/catalog/novatech/sv-victorian-product-in-context-1cdb8cec6899.jpg",
+      "/images/catalog/novatech/sv-victorian-room-shot-ddeb35738ce9.jpg"
+    ],
+    "documents": [
+      "/documents/catalog/novatech/victorian-buckingham-sheet-en-2025-01-31-377705ccd58c.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -1590,8 +2631,15 @@
     "sourceDescription": "540 ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/patio-doors/540.html",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/novatech/540-corner-f05d5bc0fd0a.jpg",
+      "/images/catalog/novatech/540-sideview-inside-e7ceffc7ac4c.jpg",
+      "/images/catalog/novatech/540-swatch-0d3ae3b812b4.jpg",
+      "/images/catalog/novatech/9600-r-fb27c84f0fcf.jpg"
+    ],
+    "documents": [
+      "/documents/catalog/novatech/novatech-patio-door-warranty-canada-en-2025-10-15-12e4a2701f80.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -1608,8 +2656,25 @@
     "sourceDescription": "Loft (Aluminum) ",
     "sourceUrl": "https://www.groupenovatech.com/en_canada_ontario/products/patio-doors/loft-aluminum.html",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/novatech/atm-loft-2-web-1-be4ab967ceb2.jpg",
+      "/images/catalog/novatech/atm-loft-web-038ff4d0eca8.jpg",
+      "/images/catalog/novatech/lift-slide-2x-new-f9dd8b9cbdb2.jpg",
+      "/images/catalog/novatech/loft-black-2x-14c007f2e35d.jpg",
+      "/images/catalog/novatech/loft-black-front-view-16fe679ecb49.jpg",
+      "/images/catalog/novatech/loft-ext-11f07069d5bd.jpg",
+      "/images/catalog/novatech/loft-handle-closeup-black-bg-3caaa0b02aa7.jpg",
+      "/images/catalog/novatech/loft-handle-closeup-white-bg-431561cbd80c.jpg",
+      "/images/catalog/novatech/loft-swatch-2x-c3bc941a43f4.jpg",
+      "/images/catalog/novatech/loft-white-2x-f07b684fff68.jpg",
+      "/images/catalog/novatech/not2025-07-loft-xl-ambiance-appro2-v1-02-2-a0b2cf55f7b7.jpg",
+      "/images/catalog/novatech/platine-ext-2x-a5fbfc77fd87.jpg",
+      "/images/catalog/novatech/urbania-black-sill-2x-f65091f19ac4.jpg"
+    ],
+    "documents": [
+      "/documents/catalog/novatech/loft-sheet-en-2026-02-06-0f92495936a7.pdf",
+      "/documents/catalog/novatech/novatech-patio-door-warranty-canada-en-2025-10-15-12e4a2701f80.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   }

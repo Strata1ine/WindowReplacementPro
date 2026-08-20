@@ -1,0 +1,1296 @@
+{
+    "generatedAt":  "2026-08-20T03:09:31.1294419Z",
+    "mode":  "dry-run",
+    "scope":  "public media/documents for Novatech, Masonite, and Trimlite plus temporary analysis helpers",
+    "stagingAndCheckpoints":  "excluded and preserved",
+    "referenceSources":  [
+                             "accepted manifests",
+                             "manifest product relationships",
+                             "discovered and curated catalogue relationships",
+                             "supplier provenance indexes",
+                             "PDF inventory",
+                             "PDF page evidence",
+                             "supplier relationship revalidation evidence"
+                         ],
+    "summary":  {
+                    "physicalFiles":  1240,
+                    "referencedOrPreservedFiles":  1219,
+                    "safeUntrackedOrphans":  21,
+                    "trackedUnreferenced":  26,
+                    "rejectedAssociationBinariesPreserved":  37,
+                    "temporaryHelpers":  7
+                },
+    "bySupplier":  [
+                       {
+                           "supplier":  "novatech",
+                           "physical":  922,
+                           "safeOrphans":  5,
+                           "preserved":  917
+                       },
+                       {
+                           "supplier":  "masonite",
+                           "physical":  47,
+                           "safeOrphans":  0,
+                           "preserved":  47
+                       },
+                       {
+                           "supplier":  "trimlite",
+                           "physical":  271,
+                           "safeOrphans":  16,
+                           "preserved":  255
+                       }
+                   ],
+    "candidates":  [
+                       {
+                           "supplier":  "novatech",
+                           "path":  "public/images/catalog/novatech/balance-hr-1-66ea9aea88fc.jpg",
+                           "publicPath":  "/images/catalog/novatech/balance-hr-1-66ea9aea88fc.jpg",
+                           "bytes":  315249,
+                           "sha256":  "18dbd06dbee70b16421826035b177a1a7eff76d6f3aac0a57df3f13161ffdc81",
+                           "tracked":  false,
+                           "references":  {
+
+                                          },
+                           "acceptedHashAlias":  "/images/catalog/novatech/balance-2x-dd106dee9f81.jpg",
+                           "wordpressResponsiveDerivative":  false,
+                           "safeToDelete":  true
+                       },
+                       {
+                           "supplier":  "novatech",
+                           "path":  "public/images/catalog/novatech/ezgif-3-5df3c88858-1-7496205f5d02.jpg",
+                           "publicPath":  "/images/catalog/novatech/ezgif-3-5df3c88858-1-7496205f5d02.jpg",
+                           "bytes":  308964,
+                           "sha256":  "837a2cea546a88933b9a56557bfff2f5fd5f6d9630d604ccae4c3fda137194f0",
+                           "tracked":  false,
+                           "references":  {
+
+                                          },
+                           "acceptedHashAlias":  "/images/catalog/novatech/ezgif-3-5df3c88858-b2be2f0c2ef4.jpg",
+                           "wordpressResponsiveDerivative":  false,
+                           "safeToDelete":  true
+                       },
+                       {
+                           "supplier":  "novatech",
+                           "path":  "public/images/catalog/novatech/novatech-pure-uno-22x64-1-893b2075abf7.jpg",
+                           "publicPath":  "/images/catalog/novatech/novatech-pure-uno-22x64-1-893b2075abf7.jpg",
+                           "bytes":  52313,
+                           "sha256":  "8dfd7e28eabdc9d996c0c2dfba9282b591a5d47f728624429dc64b2d5955dd60",
+                           "tracked":  false,
+                           "references":  {
+
+                                          },
+                           "acceptedHashAlias":  "/images/catalog/novatech/novatech-pure-uno-22x64-3ebcd09fbfa7.jpg",
+                           "wordpressResponsiveDerivative":  false,
+                           "safeToDelete":  true
+                       },
+                       {
+                           "supplier":  "novatech",
+                           "path":  "public/images/catalog/novatech/urbania-black-sill-2x-1-c0fb742262ef.jpg",
+                           "publicPath":  "/images/catalog/novatech/urbania-black-sill-2x-1-c0fb742262ef.jpg",
+                           "bytes":  128682,
+                           "sha256":  "7b35e6093b91af1c4d457753c1e2cd63ea1dc4d127405eebf5242653414d8aed",
+                           "tracked":  false,
+                           "references":  {
+
+                                          },
+                           "acceptedHashAlias":  "/images/catalog/novatech/urbania-black-sill-2x-f65091f19ac4.jpg",
+                           "wordpressResponsiveDerivative":  false,
+                           "safeToDelete":  true
+                       },
+                       {
+                           "supplier":  "novatech",
+                           "path":  "public/documents/catalog/novatech/studio-vertika-sheet-fr-ee10ad23d9d0.pdf",
+                           "publicPath":  "/documents/catalog/novatech/studio-vertika-sheet-fr-ee10ad23d9d0.pdf",
+                           "bytes":  1062623,
+                           "sha256":  "43c71f4efd6cc4927917b7859caa7013b295ed678228681e9aa46c534e24bb9a",
+                           "tracked":  false,
+                           "references":  {
+
+                                          },
+                           "acceptedHashAlias":  null,
+                           "wordpressResponsiveDerivative":  false,
+                           "safeToDelete":  true
+                       },
+                       {
+                           "supplier":  "trimlite",
+                           "path":  "public/images/catalog/trimlite/2668-138-prmd-1315-woodbar-15-l-clear-1-0e836bb24893.jpg",
+                           "publicPath":  "/images/catalog/trimlite/2668-138-prmd-1315-woodbar-15-l-clear-1-0e836bb24893.jpg",
+                           "bytes":  12634,
+                           "sha256":  "642391818ffe7085b9f87f369f15cab6156589a56bb349122671e73fa77aac66",
+                           "tracked":  false,
+                           "references":  {
+
+                                          },
+                           "acceptedHashAlias":  null,
+                           "wordpressResponsiveDerivative":  false,
+                           "safeToDelete":  true
+                       },
+                       {
+                           "supplier":  "trimlite",
+                           "path":  "public/images/catalog/trimlite/8401-clear-shaker-1-1-7c77e52969e2.jpg",
+                           "publicPath":  "/images/catalog/trimlite/8401-clear-shaker-1-1-7c77e52969e2.jpg",
+                           "bytes":  7314,
+                           "sha256":  "bef3b5a9341d1bb54de7a4f49ff08e161ea87ac9cdb224ca29af96352fcca975",
+                           "tracked":  false,
+                           "references":  {
+
+                                          },
+                           "acceptedHashAlias":  null,
+                           "wordpressResponsiveDerivative":  false,
+                           "safeToDelete":  true
+                       },
+                       {
+                           "supplier":  "trimlite",
+                           "path":  "public/images/catalog/trimlite/8401-white-shaker-1-f05cbb0678a4.jpg",
+                           "publicPath":  "/images/catalog/trimlite/8401-white-shaker-1-f05cbb0678a4.jpg",
+                           "bytes":  1630,
+                           "sha256":  "66b8dfb98d9b6734169932a7708875c456d13589a5546a50714274bab02009cd",
+                           "tracked":  false,
+                           "references":  {
+
+                                          },
+                           "acceptedHashAlias":  null,
+                           "wordpressResponsiveDerivative":  false,
+                           "safeToDelete":  true
+                       },
+                       {
+                           "supplier":  "trimlite",
+                           "path":  "public/images/catalog/trimlite/8405-white-lami-shaker-1-25ca9b315c78.jpg",
+                           "publicPath":  "/images/catalog/trimlite/8405-white-lami-shaker-1-25ca9b315c78.jpg",
+                           "bytes":  14050,
+                           "sha256":  "cea0cdeba449c16610a16e365ce5855fe46d9fe496c59566cf70a40b06251113",
+                           "tracked":  false,
+                           "references":  {
+
+                                          },
+                           "acceptedHashAlias":  null,
+                           "wordpressResponsiveDerivative":  false,
+                           "safeToDelete":  true
+                       },
+                       {
+                           "supplier":  "trimlite",
+                           "path":  "public/images/catalog/trimlite/8405-white-shaker-1-21fcd98a3ec9.jpg",
+                           "publicPath":  "/images/catalog/trimlite/8405-white-shaker-1-21fcd98a3ec9.jpg",
+                           "bytes":  4684,
+                           "sha256":  "1fe3b067712932ae34037dc8368b3a1015f516a6cb824c44e15fa8c732e38339",
+                           "tracked":  false,
+                           "references":  {
+
+                                          },
+                           "acceptedHashAlias":  null,
+                           "wordpressResponsiveDerivative":  false,
+                           "safeToDelete":  true
+                       },
+                       {
+                           "supplier":  "trimlite",
+                           "path":  "public/images/catalog/trimlite/adelaide-french-1-beebb5318efd.jpg",
+                           "publicPath":  "/images/catalog/trimlite/adelaide-french-1-beebb5318efd.jpg",
+                           "bytes":  34410,
+                           "sha256":  "50e837f792fef9816527f97d9c2f3d623a78387af99766d0a1c02e77f636dfc1",
+                           "tracked":  false,
+                           "references":  {
+
+                                          },
+                           "acceptedHashAlias":  null,
+                           "wordpressResponsiveDerivative":  false,
+                           "safeToDelete":  true
+                       },
+                       {
+                           "supplier":  "trimlite",
+                           "path":  "public/images/catalog/trimlite/artisan-french-1-01241dd46f8a.jpg",
+                           "publicPath":  "/images/catalog/trimlite/artisan-french-1-01241dd46f8a.jpg",
+                           "bytes":  43839,
+                           "sha256":  "7b33b25ae6014ffdeda2127d73e95f3be7f221fd3c2fb635b4fafc6c520e6f2d",
+                           "tracked":  false,
+                           "references":  {
+
+                                          },
+                           "acceptedHashAlias":  null,
+                           "wordpressResponsiveDerivative":  false,
+                           "safeToDelete":  true
+                       },
+                       {
+                           "supplier":  "trimlite",
+                           "path":  "public/images/catalog/trimlite/diffused-white-laminate-french-a07b2e631eea.jpg",
+                           "publicPath":  "/images/catalog/trimlite/diffused-white-laminate-french-a07b2e631eea.jpg",
+                           "bytes":  11968,
+                           "sha256":  "1e3c9d71239ea33f40a27ed36864382bce5343f0a3b61093515885406c2e9f81",
+                           "tracked":  false,
+                           "references":  {
+
+                                          },
+                           "acceptedHashAlias":  null,
+                           "wordpressResponsiveDerivative":  false,
+                           "safeToDelete":  true
+                       },
+                       {
+                           "supplier":  "trimlite",
+                           "path":  "public/images/catalog/trimlite/fir-8401-1-b22e61a15b06.jpg",
+                           "publicPath":  "/images/catalog/trimlite/fir-8401-1-b22e61a15b06.jpg",
+                           "bytes":  24157,
+                           "sha256":  "b9b8e6bea9f06b1b521b23e42d5c13464f00e9bbd1a70559f5b05c0ae31ef2db",
+                           "tracked":  false,
+                           "references":  {
+
+                                          },
+                           "acceptedHashAlias":  null,
+                           "wordpressResponsiveDerivative":  false,
+                           "safeToDelete":  true
+                       },
+                       {
+                           "supplier":  "trimlite",
+                           "path":  "public/images/catalog/trimlite/fir-8403-1-957c2140bd7a.jpg",
+                           "publicPath":  "/images/catalog/trimlite/fir-8403-1-957c2140bd7a.jpg",
+                           "bytes":  26788,
+                           "sha256":  "fa5a9997fc01958db862b2d8da408fb637e333e446c7b93babb88fabc54889b7",
+                           "tracked":  false,
+                           "references":  {
+
+                                          },
+                           "acceptedHashAlias":  null,
+                           "wordpressResponsiveDerivative":  false,
+                           "safeToDelete":  true
+                       },
+                       {
+                           "supplier":  "trimlite",
+                           "path":  "public/images/catalog/trimlite/harlow-1501-68-1-1-b09845147c29.jpg",
+                           "publicPath":  "/images/catalog/trimlite/harlow-1501-68-1-1-b09845147c29.jpg",
+                           "bytes":  77462,
+                           "sha256":  "f82292afc35c257769fa296740be26dcd50961bc88cda377c0a9f62cf2ab693d",
+                           "tracked":  false,
+                           "references":  {
+
+                                          },
+                           "acceptedHashAlias":  null,
+                           "wordpressResponsiveDerivative":  false,
+                           "safeToDelete":  true
+                       },
+                       {
+                           "supplier":  "trimlite",
+                           "path":  "public/images/catalog/trimlite/hinge-strap-1-3cf716cccdf2.jpg",
+                           "publicPath":  "/images/catalog/trimlite/hinge-strap-1-3cf716cccdf2.jpg",
+                           "bytes":  13915,
+                           "sha256":  "61c6d69e65b9ff6a28a8156eabba7ca2d97a600b6bcc911ddceb1c6c0044ff12",
+                           "tracked":  false,
+                           "references":  {
+
+                                          },
+                           "acceptedHashAlias":  null,
+                           "wordpressResponsiveDerivative":  false,
+                           "safeToDelete":  true
+                       },
+                       {
+                           "supplier":  "trimlite",
+                           "path":  "public/images/catalog/trimlite/modenawhitedoor6-80455-02aa563f0f0b.jpg",
+                           "publicPath":  "/images/catalog/trimlite/modenawhitedoor6-80455-02aa563f0f0b.jpg",
+                           "bytes":  30953,
+                           "sha256":  "f7cfa9d291865b25cabdc44265192d38ae0c11ffe20f9b0c20758554eae69235",
+                           "tracked":  false,
+                           "references":  {
+
+                                          },
+                           "acceptedHashAlias":  null,
+                           "wordpressResponsiveDerivative":  false,
+                           "safeToDelete":  true
+                       },
+                       {
+                           "supplier":  "trimlite",
+                           "path":  "public/images/catalog/trimlite/rivertonobscure-3652a421e9cb.jpg",
+                           "publicPath":  "/images/catalog/trimlite/rivertonobscure-3652a421e9cb.jpg",
+                           "bytes":  19768,
+                           "sha256":  "eef4e4e39871f78c6be48d578da704c6eb3dfd059a3579ef25c08bc3ecfc3633",
+                           "tracked":  false,
+                           "references":  {
+
+                                          },
+                           "acceptedHashAlias":  null,
+                           "wordpressResponsiveDerivative":  false,
+                           "safeToDelete":  true
+                       },
+                       {
+                           "supplier":  "trimlite",
+                           "path":  "public/images/catalog/trimlite/sable-vertical-1-7427946b9981.jpg",
+                           "publicPath":  "/images/catalog/trimlite/sable-vertical-1-7427946b9981.jpg",
+                           "bytes":  32391,
+                           "sha256":  "18b3c0477b6ef5cb5c9beea067952715868046c8fefb7e494d56cc9e14217dc3",
+                           "tracked":  false,
+                           "references":  {
+
+                                          },
+                           "acceptedHashAlias":  null,
+                           "wordpressResponsiveDerivative":  false,
+                           "safeToDelete":  true
+                       },
+                       {
+                           "supplier":  "trimlite",
+                           "path":  "public/images/catalog/trimlite/sl-sls3e-panel-1-2a263636d49d.jpg",
+                           "publicPath":  "/images/catalog/trimlite/sl-sls3e-panel-1-2a263636d49d.jpg",
+                           "bytes":  14424,
+                           "sha256":  "32a5339af047a0af011a95f831c78c8ccd47cc8c41d0346101d183b724b0ebbd",
+                           "tracked":  false,
+                           "references":  {
+
+                                          },
+                           "acceptedHashAlias":  null,
+                           "wordpressResponsiveDerivative":  false,
+                           "safeToDelete":  true
+                       }
+                   ],
+    "preservedRelationshipEvidence":  [
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/0880-6l-1-37b027c0c0cb.jpg",
+                                              "publicPath":  "/images/catalog/trimlite/0880-6l-1-37b027c0c0cb.jpg",
+                                              "bytes":  12761,
+                                              "sha256":  "12e1624352e76c9afd3dfc5f17ff985426c4bb3631c0155b8e2bea23ce2f6e8c",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/0880onelite-1-b2bbd064176e.gif",
+                                              "publicPath":  "/images/catalog/trimlite/0880onelite-1-b2bbd064176e.gif",
+                                              "bytes":  36016,
+                                              "sha256":  "60991de6b7a1b07cb43f9a020a04b1c1fcf053151c2a19b0ebde648e70a5db6d",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/2203-6lite-straight-white-whitelami-e1509513570474-95aa2c686623.jpg",
+                                              "publicPath":  "/images/catalog/trimlite/2203-6lite-straight-white-whitelami-e1509513570474-95aa2c686623.jpg",
+                                              "bytes":  10253,
+                                              "sha256":  "aae59b1023934e27b7a2a8a0113409998aa278d91c256e937f506a52712022de",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/2208-5lite-straight-white-sandblast-e1509515298611-c8bf3556cbfe.jpg",
+                                              "publicPath":  "/images/catalog/trimlite/2208-5lite-straight-white-sandblast-e1509515298611-c8bf3556cbfe.jpg",
+                                              "bytes":  10175,
+                                              "sha256":  "c03e2e197f8e3edcaf43dc959b555a5a6f7aef8a6857abbaec2f0207280d09fa",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/2248eastmontglass-963ed766ce8e.jpg",
+                                              "publicPath":  "/images/catalog/trimlite/2248eastmontglass-963ed766ce8e.jpg",
+                                              "bytes":  38908,
+                                              "sha256":  "dae62e22a7e14ad29fdf705e8323eae7a36fb3e55da15fabb676b156516e4e1a",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/2264web-b9e7bdff9ce5.jpg",
+                                              "publicPath":  "/images/catalog/trimlite/2264web-b9e7bdff9ce5.jpg",
+                                              "bytes":  98343,
+                                              "sha256":  "7960f6e3378bfc060fef47474d3b483cf578e20ebf6693bc75d37c08ac843a4e",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/764-1lite-straight-white-screendot-1-e9b9cef6dff8.jpg",
+                                              "publicPath":  "/images/catalog/trimlite/764-1lite-straight-white-screendot-1-e9b9cef6dff8.jpg",
+                                              "bytes":  11547,
+                                              "sha256":  "172f5d57bd04940565a3c22aa26de8d97e58cd09672ed6f614efa73e55cbe17c",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/764oneliteclear-1-46b1bed3b53b.gif",
+                                              "publicPath":  "/images/catalog/trimlite/764oneliteclear-1-46b1bed3b53b.gif",
+                                              "bytes":  34740,
+                                              "sha256":  "c0f6a144d1654815822d7dc32f45d33dfff74f3a9520f83d9a13fc19855e1990",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/764trad-1-d05c5e88986f.jpg",
+                                              "publicPath":  "/images/catalog/trimlite/764trad-1-d05c5e88986f.jpg",
+                                              "bytes":  15705,
+                                              "sha256":  "a8245cfdbe99cdb0ba2003b9aa346469514ed575a3b27a7b70cc5c0dc25ea458",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/836-onelite-1c080f036af9.png",
+                                              "publicPath":  "/images/catalog/trimlite/836-onelite-1c080f036af9.png",
+                                              "bytes":  88032,
+                                              "sha256":  "360e230c06c506f272688715838eb4bca738e7214dfa361277089123d451b5ea",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/836-trad-3e74b6f4b4bf.png",
+                                              "publicPath":  "/images/catalog/trimlite/836-trad-3e74b6f4b4bf.png",
+                                              "bytes":  89464,
+                                              "sha256":  "e9196bc451b101e77e5a459d7706e2b47b905cef380dc2df2312710c0aa4018f",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/848onelite-8f4189539473.png",
+                                              "publicPath":  "/images/catalog/trimlite/848onelite-8f4189539473.png",
+                                              "bytes":  67368,
+                                              "sha256":  "fc51b6b2d4cc4def4c2d470bc7c27f6091b594a247ad8cc61412d86030831b54",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/848trad-764897e92bfe.png",
+                                              "publicPath":  "/images/catalog/trimlite/848trad-764897e92bfe.png",
+                                              "bytes":  69082,
+                                              "sha256":  "32357045d9cd0a3b484d834f61f4597449fa687a031d8bca1eeb3c9f9116e05a",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/doublewaterstormseriesimpact-0d0368c6dddb.jpg",
+                                              "publicPath":  "/images/catalog/trimlite/doublewaterstormseriesimpact-0d0368c6dddb.jpg",
+                                              "bytes":  78728,
+                                              "sha256":  "55388347dae2258f210827fee13867618ac1da9a0a346d62a70a4c65f90d2009",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/drf1dl-30c0b7bdb621.jpg",
+                                              "publicPath":  "/images/catalog/trimlite/drf1dl-30c0b7bdb621.jpg",
+                                              "bytes":  31129,
+                                              "sha256":  "fd8ba9fb3b277a2b370dfc36e162de80fe74bafa0b9faf57e63eae2d9d05561e",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/drg401-1-5bcf5a4fc63f.jpg",
+                                              "publicPath":  "/images/catalog/trimlite/drg401-1-5bcf5a4fc63f.jpg",
+                                              "bytes":  41113,
+                                              "sha256":  "049c283ab92a336f7f4fc728fa43cae83d132e20e53206b7830b0aa700291b72",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/drs1dl-3-0-6-8-1-bd2e2d055126.jpg",
+                                              "publicPath":  "/images/catalog/trimlite/drs1dl-3-0-6-8-1-bd2e2d055126.jpg",
+                                              "bytes":  33154,
+                                              "sha256":  "33966fea7505dad4834ae029865048a3593ecb0e1fa4e709459ddef89271b508",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/drs1sl-3-0-6-8-onyx700-be70c91b0aeb.jpg",
+                                              "publicPath":  "/images/catalog/trimlite/drs1sl-3-0-6-8-onyx700-be70c91b0aeb.jpg",
+                                              "bytes":  42215,
+                                              "sha256":  "c4ed002044ba1293efcb3d33fbb5966dad347e96a891db691bd3205c7ecf20f6",
+                                              "tracked":  true,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/drs2b-narrows-1-100x100-fc661a9ef6db.jpg",
+                                              "publicPath":  "/images/catalog/trimlite/drs2b-narrows-1-100x100-fc661a9ef6db.jpg",
+                                              "bytes":  5102,
+                                              "sha256":  "e61adbedb98a7cf9b175eb63e9c24e8813a3ec7cd6937767eae081f0db069d05",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  true,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/drs3f1-b1e4e898070e.jpg",
+                                              "publicPath":  "/images/catalog/trimlite/drs3f1-b1e4e898070e.jpg",
+                                              "bytes":  7352,
+                                              "sha256":  "87b96384332b418a48d9e5103e6ccff1c3ee3f50b4b78dcd5abd6b6275244b0e",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/drs502023-6f77a852885c.jpg",
+                                              "publicPath":  "/images/catalog/trimlite/drs502023-6f77a852885c.jpg",
+                                              "bytes":  24646,
+                                              "sha256":  "ebf8c6c47de9f4c5adad1e71a227be69432b95f6cff67872847990be174f29e3",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/drs60-true6panel-1-89460c8e55e7.jpg",
+                                              "publicPath":  "/images/catalog/trimlite/drs60-true6panel-1-89460c8e55e7.jpg",
+                                              "bytes":  18785,
+                                              "sha256":  "bc87e88c6f97cf9995e8b287cfd45b8e02ae8ab82237f6548e67763c9108f21a",
+                                              "tracked":  true,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/drs90onelite-1-373e83d3102e.gif",
+                                              "publicPath":  "/images/catalog/trimlite/drs90onelite-1-373e83d3102e.gif",
+                                              "bytes":  71868,
+                                              "sha256":  "300476aa4267d2bdd76698af7de8996a72c0cb2d1718b78888c5d63d71b978a0",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/dsf3p-3lite320700-532a774ab6ab.jpg",
+                                              "publicPath":  "/images/catalog/trimlite/dsf3p-3lite320700-532a774ab6ab.jpg",
+                                              "bytes":  35513,
+                                              "sha256":  "55c06331b38690ec05e87a4a37b8aaf55c30a8699a9a52239ffce2ae7158eece",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/dsf3p-6lite320700-8d6d286818b0.jpg",
+                                              "publicPath":  "/images/catalog/trimlite/dsf3p-6lite320700-8d6d286818b0.jpg",
+                                              "bytes":  35611,
+                                              "sha256":  "f58c5b52119ee1f65b13edb828d75f0b149702b005d9af15d4e49c47ed9e4429",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/dwlstormseriesimpact-c11fdf1337f1.jpg",
+                                              "publicPath":  "/images/catalog/trimlite/dwlstormseriesimpact-c11fdf1337f1.jpg",
+                                              "bytes":  15444,
+                                              "sha256":  "3b592b5f49a00da4f1dbcf9e81e0ecb1dd14eb6ddfa6760f218b040a91614ee9",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/manhattan2248glass-300x655-b48b0613d870.jpg",
+                                              "publicPath":  "/images/catalog/trimlite/manhattan2248glass-300x655-b48b0613d870.jpg",
+                                              "bytes":  34503,
+                                              "sha256":  "1bd4cbace8fde12eec42cb060f20971120df21a3b4ceab2f59a1f71694938f9a",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  true,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/miniblinds0764-new-1-c0b4174b0f8e.jpg",
+                                              "publicPath":  "/images/catalog/trimlite/miniblinds0764-new-1-c0b4174b0f8e.jpg",
+                                              "bytes":  13312,
+                                              "sha256":  "31cc04a6c3a0d7a73cd21d5caf4fc466bb2dc15bf43015563ee1496518f46376",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/miniblinds0836-a4d50a499b30.png",
+                                              "publicPath":  "/images/catalog/trimlite/miniblinds0836-a4d50a499b30.png",
+                                              "bytes":  68332,
+                                              "sha256":  "594f5460a49b57b41246f44aa980b13e41610471791ca79e8e35aeabb9982cfe",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/miniblinds0848-8350c92dcdac.png",
+                                              "publicPath":  "/images/catalog/trimlite/miniblinds0848-8350c92dcdac.png",
+                                              "bytes":  95630,
+                                              "sha256":  "9dd3fc2ce363845a8093908c87522975b4b1677a9ab15a32baac816924cfcd37",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/miniblinds0880-new-1-c098ac73fc8f.jpg",
+                                              "publicPath":  "/images/catalog/trimlite/miniblinds0880-new-1-c098ac73fc8f.jpg",
+                                              "bytes":  10897,
+                                              "sha256":  "bf53727a33192dfcf8763b3f0128ca6b5ee16d888a79327174e51399e6c75fb0",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/narrow-reed-detail-300x250-2dc68e4ea057.jpg",
+                                              "publicPath":  "/images/catalog/trimlite/narrow-reed-detail-300x250-2dc68e4ea057.jpg",
+                                              "bytes":  12748,
+                                              "sha256":  "f52e07728fdb5198b6edbc77109eaf1cc10c3d94b97e1b580cd522975910fd46",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  true,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/princetonleadglassimagewebsite-899367efec18.jpg",
+                                              "publicPath":  "/images/catalog/trimlite/princetonleadglassimagewebsite-899367efec18.jpg",
+                                              "bytes":  85846,
+                                              "sha256":  "861346e0d531af31182b111aa079bd43163c1c96e0d6350a64e2508f92dd84c1",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/rainstormseriesimpact-fc53498a736a.jpg",
+                                              "publicPath":  "/images/catalog/trimlite/rainstormseriesimpact-fc53498a736a.jpg",
+                                              "bytes":  90810,
+                                              "sha256":  "d31657901bba1b277d751d5f16e5b5cae94be051bfeeed99ea85c660031f28c7",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/sdl-aluminumbar-5lite-website-image-1-436e88a833f3.jpg",
+                                              "publicPath":  "/images/catalog/trimlite/sdl-aluminumbar-5lite-website-image-1-436e88a833f3.jpg",
+                                              "bytes":  12299,
+                                              "sha256":  "f4dd85ddc75c609c258df53496be7d8dfcc0f44cc7b60f82b3c442ed7683b429",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/slm6080-1-1041e23edd77.jpg",
+                                              "publicPath":  "/images/catalog/trimlite/slm6080-1-1041e23edd77.jpg",
+                                              "bytes":  15189,
+                                              "sha256":  "dc04eb96534ddbfdd9a9c81fd16f88d267ba3539fa41c4fb13926c221f9e1bef",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          },
+                                          {
+                                              "supplier":  "trimlite",
+                                              "path":  "public/images/catalog/trimlite/sls10-bbb869042376.png",
+                                              "publicPath":  "/images/catalog/trimlite/sls10-bbb869042376.png",
+                                              "bytes":  36374,
+                                              "sha256":  "4f864c0269b7c1f5ab741e7e2d930f4bd2aa21335286316042869720a8eb7257",
+                                              "tracked":  false,
+                                              "references":  "relationship-revalidation:trimlite:rejected",
+                                              "acceptedHashAlias":  null,
+                                              "wordpressResponsiveDerivative":  false,
+                                              "safeToDelete":  false
+                                          }
+                                      ],
+    "preservedTrackedUnreferenced":  [
+                                         {
+                                             "supplier":  "novatech",
+                                             "path":  "public/images/catalog/novatech/2p-cambre-acier-produit-2-938d0c6a0770.png",
+                                             "publicPath":  "/images/catalog/novatech/2p-cambre-acier-produit-2-938d0c6a0770.png",
+                                             "bytes":  19428,
+                                             "sha256":  "3aef968d88a4fde0dbb79a6112560faa70c627cfec27107f41fb6fa55872bc5c",
+                                             "tracked":  true,
+                                             "references":  {
+
+                                                            },
+                                             "acceptedHashAlias":  null,
+                                             "wordpressResponsiveDerivative":  false,
+                                             "safeToDelete":  false
+                                         },
+                                         {
+                                             "supplier":  "novatech",
+                                             "path":  "public/images/catalog/novatech/2p-cambre-lambris-acier-produit-2-eb438b583115.png",
+                                             "publicPath":  "/images/catalog/novatech/2p-cambre-lambris-acier-produit-2-eb438b583115.png",
+                                             "bytes":  20217,
+                                             "sha256":  "77420a82ee96effcff4eba4d44cfa00a76f1311b40ae4da5d7e815193684c1d8",
+                                             "tracked":  true,
+                                             "references":  {
+
+                                                            },
+                                             "acceptedHashAlias":  null,
+                                             "wordpressResponsiveDerivative":  false,
+                                             "safeToDelete":  false
+                                         },
+                                         {
+                                             "supplier":  "novatech",
+                                             "path":  "public/images/catalog/novatech/2p-haut-uni-acier-produit-c32d45666993.png",
+                                             "publicPath":  "/images/catalog/novatech/2p-haut-uni-acier-produit-c32d45666993.png",
+                                             "bytes":  6183,
+                                             "sha256":  "99802dba18242407097011b31896179490f87a3cd6c87b8ff744d148f9553f3f",
+                                             "tracked":  true,
+                                             "references":  {
+
+                                                            },
+                                             "acceptedHashAlias":  null,
+                                             "wordpressResponsiveDerivative":  false,
+                                             "safeToDelete":  false
+                                         },
+                                         {
+                                             "supplier":  "novatech",
+                                             "path":  "public/images/catalog/novatech/3p-tete-gendarme-acier-produit-c4abcacedcdb.png",
+                                             "publicPath":  "/images/catalog/novatech/3p-tete-gendarme-acier-produit-c4abcacedcdb.png",
+                                             "bytes":  8238,
+                                             "sha256":  "a804ea14b679651a4fdf126fd17dd9a6f931fb54602a3e0c0e5225ff93d81f0b",
+                                             "tracked":  true,
+                                             "references":  {
+
+                                                            },
+                                             "acceptedHashAlias":  null,
+                                             "wordpressResponsiveDerivative":  false,
+                                             "safeToDelete":  false
+                                         },
+                                         {
+                                             "supplier":  "novatech",
+                                             "path":  "public/images/catalog/novatech/4p-acier-produit-903b2b81104a.png",
+                                             "publicPath":  "/images/catalog/novatech/4p-acier-produit-903b2b81104a.png",
+                                             "bytes":  19701,
+                                             "sha256":  "a33d324103d1e97fab606e205e0444a90ba902c8a9e4be2095e17b32e5a8739a",
+                                             "tracked":  true,
+                                             "references":  {
+
+                                                            },
+                                             "acceptedHashAlias":  null,
+                                             "wordpressResponsiveDerivative":  false,
+                                             "safeToDelete":  false
+                                         },
+                                         {
+                                             "supplier":  "novatech",
+                                             "path":  "public/images/catalog/novatech/6p-fibre-produit-1-2-5f199ee78d82.png",
+                                             "publicPath":  "/images/catalog/novatech/6p-fibre-produit-1-2-5f199ee78d82.png",
+                                             "bytes":  10519,
+                                             "sha256":  "26016e5db57f5fc8629a5cf8eb6ab08f0d90193701be4bdd91c9551004b724d0",
+                                             "tracked":  true,
+                                             "references":  {
+
+                                                            },
+                                             "acceptedHashAlias":  null,
+                                             "wordpressResponsiveDerivative":  false,
+                                             "safeToDelete":  false
+                                         },
+                                         {
+                                             "supplier":  "novatech",
+                                             "path":  "public/images/catalog/novatech/accents-gold-thumb-27bfc82f162c.jpg",
+                                             "publicPath":  "/images/catalog/novatech/accents-gold-thumb-27bfc82f162c.jpg",
+                                             "bytes":  3153,
+                                             "sha256":  "1328ff9caf460a6b0b6b2817a8a30a2fb2f62b53f8ff719e27b6e4bc1eea8dc6",
+                                             "tracked":  true,
+                                             "references":  {
+
+                                                            },
+                                             "acceptedHashAlias":  null,
+                                             "wordpressResponsiveDerivative":  false,
+                                             "safeToDelete":  false
+                                         },
+                                         {
+                                             "supplier":  "novatech",
+                                             "path":  "public/images/catalog/novatech/arima-3-d4010ad1c13e.jpg",
+                                             "publicPath":  "/images/catalog/novatech/arima-3-d4010ad1c13e.jpg",
+                                             "bytes":  5085,
+                                             "sha256":  "50560968b712b7e06619080e2832e65a1fd1d9a5a6af5dbc902de98c1b659347",
+                                             "tracked":  true,
+                                             "references":  {
+
+                                                            },
+                                             "acceptedHashAlias":  null,
+                                             "wordpressResponsiveDerivative":  false,
+                                             "safeToDelete":  false
+                                         },
+                                         {
+                                             "supplier":  "novatech",
+                                             "path":  "public/images/catalog/novatech/belmont-572f6abd19d8.jpg",
+                                             "publicPath":  "/images/catalog/novatech/belmont-572f6abd19d8.jpg",
+                                             "bytes":  4872,
+                                             "sha256":  "6e1ea1e6ce16c05acd1219a33014df65f9a651389fbf69642d3e82c995d1392d",
+                                             "tracked":  true,
+                                             "references":  {
+
+                                                            },
+                                             "acceptedHashAlias":  null,
+                                             "wordpressResponsiveDerivative":  false,
+                                             "safeToDelete":  false
+                                         },
+                                         {
+                                             "supplier":  "novatech",
+                                             "path":  "public/images/catalog/novatech/line-a-7x64-verte-29054d470e68.png",
+                                             "publicPath":  "/images/catalog/novatech/line-a-7x64-verte-29054d470e68.png",
+                                             "bytes":  20095,
+                                             "sha256":  "ce856cf6fae3f9269e7af27eec0f950cf97a748672e01f9f3723e1c80556c2be",
+                                             "tracked":  true,
+                                             "references":  {
+
+                                                            },
+                                             "acceptedHashAlias":  null,
+                                             "wordpressResponsiveDerivative":  false,
+                                             "safeToDelete":  false
+                                         },
+                                         {
+                                             "supplier":  "novatech",
+                                             "path":  "public/images/catalog/novatech/london-bleu-8a8d886341ca.jpg",
+                                             "publicPath":  "/images/catalog/novatech/london-bleu-8a8d886341ca.jpg",
+                                             "bytes":  4786,
+                                             "sha256":  "ccc77ef3c2bd4fcc17eb43102aaed8976d61cd808c5d90cb3847450fc8480e45",
+                                             "tracked":  true,
+                                             "references":  {
+
+                                                            },
+                                             "acceptedHashAlias":  null,
+                                             "wordpressResponsiveDerivative":  false,
+                                             "safeToDelete":  false
+                                         },
+                                         {
+                                             "supplier":  "novatech",
+                                             "path":  "public/images/catalog/novatech/nobel-22x64-thumb-1-1-ab37e88e3462.jpg",
+                                             "publicPath":  "/images/catalog/novatech/nobel-22x64-thumb-1-1-ab37e88e3462.jpg",
+                                             "bytes":  5407,
+                                             "sha256":  "0640e00d8ea85786d2f76be5cca12427f8de7abfeb72ddbc631789fcd3e5541b",
+                                             "tracked":  true,
+                                             "references":  {
+
+                                                            },
+                                             "acceptedHashAlias":  null,
+                                             "wordpressResponsiveDerivative":  false,
+                                             "safeToDelete":  false
+                                         },
+                                         {
+                                             "supplier":  "novatech",
+                                             "path":  "public/images/catalog/novatech/novatech-distance-can-en-fecbc28f51ae.jpg",
+                                             "publicPath":  "/images/catalog/novatech/novatech-distance-can-en-fecbc28f51ae.jpg",
+                                             "bytes":  6205,
+                                             "sha256":  "23737bbb3368d4b8a9cd61e253adc2c21e247f6845b59670631a3d3ac6b77951",
+                                             "tracked":  true,
+                                             "references":  {
+
+                                                            },
+                                             "acceptedHashAlias":  null,
+                                             "wordpressResponsiveDerivative":  false,
+                                             "safeToDelete":  false
+                                         },
+                                         {
+                                             "supplier":  "novatech",
+                                             "path":  "public/images/catalog/novatech/novatech-echo-can-en-86bcbac1a376.jpg",
+                                             "publicPath":  "/images/catalog/novatech/novatech-echo-can-en-86bcbac1a376.jpg",
+                                             "bytes":  6389,
+                                             "sha256":  "ea03090eb5f3cf92d60ee2a4df805b542df6d59e7a38b1d17a179809281c2398",
+                                             "tracked":  true,
+                                             "references":  {
+
+                                                            },
+                                             "acceptedHashAlias":  null,
+                                             "wordpressResponsiveDerivative":  false,
+                                             "safeToDelete":  false
+                                         },
+                                         {
+                                             "supplier":  "novatech",
+                                             "path":  "public/images/catalog/novatech/orleans-acier-1-f1de3a074e01.png",
+                                             "publicPath":  "/images/catalog/novatech/orleans-acier-1-f1de3a074e01.png",
+                                             "bytes":  12942,
+                                             "sha256":  "12131fc5d20f1b4de0c02bcf4a9df4edd32d9a2cb5dfd9a0fb8599809e4ced41",
+                                             "tracked":  true,
+                                             "references":  {
+
+                                                            },
+                                             "acceptedHashAlias":  null,
+                                             "wordpressResponsiveDerivative":  false,
+                                             "safeToDelete":  false
+                                         },
+                                         {
+                                             "supplier":  "novatech",
+                                             "path":  "public/images/catalog/novatech/oso-produit-06c16ea61af5.jpg",
+                                             "publicPath":  "/images/catalog/novatech/oso-produit-06c16ea61af5.jpg",
+                                             "bytes":  3373,
+                                             "sha256":  "2438aeb5e1980590970b0fffe92123f1fb18948f3777a884454dfdfcdb692d56",
+                                             "tracked":  true,
+                                             "references":  {
+
+                                                            },
+                                             "acceptedHashAlias":  null,
+                                             "wordpressResponsiveDerivative":  false,
+                                             "safeToDelete":  false
+                                         },
+                                         {
+                                             "supplier":  "novatech",
+                                             "path":  "public/images/catalog/novatech/rubik-thumb-2x-d78c7e73a38a.jpg",
+                                             "publicPath":  "/images/catalog/novatech/rubik-thumb-2x-d78c7e73a38a.jpg",
+                                             "bytes":  5828,
+                                             "sha256":  "cd76597d411d8c88769af9ea91bea0d63ea01d52f97c22b7b32b868864226e5e",
+                                             "tracked":  true,
+                                             "references":  {
+
+                                                            },
+                                             "acceptedHashAlias":  null,
+                                             "wordpressResponsiveDerivative":  false,
+                                             "safeToDelete":  false
+                                         },
+                                         {
+                                             "supplier":  "novatech",
+                                             "path":  "public/images/catalog/novatech/sydney-fibre-1a13a2f5f5c0.png",
+                                             "publicPath":  "/images/catalog/novatech/sydney-fibre-1a13a2f5f5c0.png",
+                                             "bytes":  18553,
+                                             "sha256":  "c91e1cb5bf09cc9dba38e9cbb36c7cb240110721d9bc352139c55445fe87fe5d",
+                                             "tracked":  true,
+                                             "references":  {
+
+                                                            },
+                                             "acceptedHashAlias":  null,
+                                             "wordpressResponsiveDerivative":  false,
+                                             "safeToDelete":  false
+                                         },
+                                         {
+                                             "supplier":  "novatech",
+                                             "path":  "public/images/catalog/novatech/tao-bleue-2384be0ec8f2.jpg",
+                                             "publicPath":  "/images/catalog/novatech/tao-bleue-2384be0ec8f2.jpg",
+                                             "bytes":  3712,
+                                             "sha256":  "8f37e1fcf905adc6c6d6f5975eb78a60c4584c330217febef426fea5762b5a2b",
+                                             "tracked":  true,
+                                             "references":  {
+
+                                                            },
+                                             "acceptedHashAlias":  null,
+                                             "wordpressResponsiveDerivative":  false,
+                                             "safeToDelete":  false
+                                         },
+                                         {
+                                             "supplier":  "novatech",
+                                             "path":  "public/images/catalog/novatech/vog-acier-produit-1-91cb6c5721c2.png",
+                                             "publicPath":  "/images/catalog/novatech/vog-acier-produit-1-91cb6c5721c2.png",
+                                             "bytes":  13971,
+                                             "sha256":  "e35936e0ee455f83fe1dd241a85519bb675e368bee9c9e23bfbeebc148408453",
+                                             "tracked":  true,
+                                             "references":  {
+
+                                                            },
+                                             "acceptedHashAlias":  null,
+                                             "wordpressResponsiveDerivative":  false,
+                                             "safeToDelete":  false
+                                         },
+                                         {
+                                             "supplier":  "novatech",
+                                             "path":  "public/documents/catalog/novatech/accent-vertical-sheet-en-2a8d8fcf0824.pdf",
+                                             "publicPath":  "/documents/catalog/novatech/accent-vertical-sheet-en-2a8d8fcf0824.pdf",
+                                             "bytes":  472975,
+                                             "sha256":  "eec9ab25db85b077e3adc77487bf2d66ab550c82550410242c7ddb49d603afed",
+                                             "tracked":  true,
+                                             "references":  {
+
+                                                            },
+                                             "acceptedHashAlias":  null,
+                                             "wordpressResponsiveDerivative":  false,
+                                             "safeToDelete":  false
+                                         },
+                                         {
+                                             "supplier":  "novatech",
+                                             "path":  "public/documents/catalog/novatech/novatech-rapport-2025-en-3687461d0b88.pdf",
+                                             "publicPath":  "/documents/catalog/novatech/novatech-rapport-2025-en-3687461d0b88.pdf",
+                                             "bytes":  216404,
+                                             "sha256":  "d9e8ee6e6d672f2206459a6225c097e5bbbca4bef4bcede2c3b1044a7839110d",
+                                             "tracked":  true,
+                                             "references":  {
+
+                                                            },
+                                             "acceptedHashAlias":  null,
+                                             "wordpressResponsiveDerivative":  false,
+                                             "safeToDelete":  false
+                                         },
+                                         {
+                                             "supplier":  "trimlite",
+                                             "path":  "public/images/catalog/trimlite/8402-white-shaker-1-e50d8e32223d.jpg",
+                                             "publicPath":  "/images/catalog/trimlite/8402-white-shaker-1-e50d8e32223d.jpg",
+                                             "bytes":  3604,
+                                             "sha256":  "3e1ac036bf26ebe1e9b8a4ed0a834e1c3e90c1f4809ace173586efb8a0d060ee",
+                                             "tracked":  true,
+                                             "references":  {
+
+                                                            },
+                                             "acceptedHashAlias":  null,
+                                             "wordpressResponsiveDerivative":  false,
+                                             "safeToDelete":  false
+                                         },
+                                         {
+                                             "supplier":  "trimlite",
+                                             "path":  "public/images/catalog/trimlite/8403-white-shaker-1-518e7400f987.jpg",
+                                             "publicPath":  "/images/catalog/trimlite/8403-white-shaker-1-518e7400f987.jpg",
+                                             "bytes":  3506,
+                                             "sha256":  "456261ee633e6a0e889b7290cb668177936d571581d37f5cdc9572b5c79192da",
+                                             "tracked":  true,
+                                             "references":  {
+
+                                                            },
+                                             "acceptedHashAlias":  null,
+                                             "wordpressResponsiveDerivative":  false,
+                                             "safeToDelete":  false
+                                         },
+                                         {
+                                             "supplier":  "trimlite",
+                                             "path":  "public/images/catalog/trimlite/drs2g-cottage-42bccc2f4958.jpg",
+                                             "publicPath":  "/images/catalog/trimlite/drs2g-cottage-42bccc2f4958.jpg",
+                                             "bytes":  120084,
+                                             "sha256":  "2c1f7cd9364d620dc8ae31218b402ec8379a1a5a1223e6904f777a1f9ca9398b",
+                                             "tracked":  true,
+                                             "references":  {
+
+                                                            },
+                                             "acceptedHashAlias":  null,
+                                             "wordpressResponsiveDerivative":  false,
+                                             "safeToDelete":  false
+                                         },
+                                         {
+                                             "supplier":  "trimlite",
+                                             "path":  "public/images/catalog/trimlite/fir-84021-1-f49d837d42a5.jpg",
+                                             "publicPath":  "/images/catalog/trimlite/fir-84021-1-f49d837d42a5.jpg",
+                                             "bytes":  25355,
+                                             "sha256":  "da9e7a69f9c6ca59df621f369bcab0424397380f694a816e787a4a923d346114",
+                                             "tracked":  true,
+                                             "references":  {
+
+                                                            },
+                                             "acceptedHashAlias":  null,
+                                             "wordpressResponsiveDerivative":  false,
+                                             "safeToDelete":  false
+                                         }
+                                     ],
+    "temporaryHelpers":  [
+                             {
+                                 "path":  "tmp/audit-trimlite-final.py",
+                                 "bytes":  3524,
+                                 "tracked":  false,
+                                 "classification":  "Trimlite exploratory/audit helper",
+                                 "safeToDelete":  true
+                             },
+                             {
+                                 "path":  "tmp/audit-trimlite-first77.py",
+                                 "bytes":  2618,
+                                 "tracked":  false,
+                                 "classification":  "Trimlite exploratory/audit helper",
+                                 "safeToDelete":  true
+                             },
+                             {
+                                 "path":  "tmp/debug-manhattan.py",
+                                 "bytes":  2181,
+                                 "tracked":  false,
+                                 "classification":  "Trimlite exploratory/audit helper",
+                                 "safeToDelete":  true
+                             },
+                             {
+                                 "path":  "tmp/inspect-trimlite-checkpoint.py",
+                                 "bytes":  2911,
+                                 "tracked":  false,
+                                 "classification":  "Trimlite exploratory/audit helper",
+                                 "safeToDelete":  true
+                             },
+                             {
+                                 "path":  "tmp/make-trimlite-contact-sheets.py",
+                                 "bytes":  1646,
+                                 "tracked":  false,
+                                 "classification":  "Trimlite exploratory/audit helper",
+                                 "safeToDelete":  true
+                             },
+                             {
+                                 "path":  "tmp/make-trimlite-pdf-contact-sheets.py",
+                                 "bytes":  1110,
+                                 "tracked":  false,
+                                 "classification":  "Trimlite exploratory/audit helper",
+                                 "safeToDelete":  true
+                             },
+                             {
+                                 "path":  "tmp/promote-trimlite-narrow-reed.py",
+                                 "bytes":  1411,
+                                 "tracked":  false,
+                                 "classification":  "Trimlite exploratory/audit helper",
+                                 "safeToDelete":  true
+                             }
+                         ],
+    "cleanupOutcome":  {
+                           "deletedAt":  "2026-08-20T03:09:52.7618189Z",
+                           "deletedFiles":  [
+                                                "public/images/catalog/novatech/balance-hr-1-66ea9aea88fc.jpg",
+                                                "public/images/catalog/novatech/ezgif-3-5df3c88858-1-7496205f5d02.jpg",
+                                                "public/images/catalog/novatech/novatech-pure-uno-22x64-1-893b2075abf7.jpg",
+                                                "public/images/catalog/novatech/urbania-black-sill-2x-1-c0fb742262ef.jpg",
+                                                "public/documents/catalog/novatech/studio-vertika-sheet-fr-ee10ad23d9d0.pdf",
+                                                "public/images/catalog/trimlite/2668-138-prmd-1315-woodbar-15-l-clear-1-0e836bb24893.jpg",
+                                                "public/images/catalog/trimlite/8401-clear-shaker-1-1-7c77e52969e2.jpg",
+                                                "public/images/catalog/trimlite/8401-white-shaker-1-f05cbb0678a4.jpg",
+                                                "public/images/catalog/trimlite/8405-white-lami-shaker-1-25ca9b315c78.jpg",
+                                                "public/images/catalog/trimlite/8405-white-shaker-1-21fcd98a3ec9.jpg",
+                                                "public/images/catalog/trimlite/adelaide-french-1-beebb5318efd.jpg",
+                                                "public/images/catalog/trimlite/artisan-french-1-01241dd46f8a.jpg",
+                                                "public/images/catalog/trimlite/diffused-white-laminate-french-a07b2e631eea.jpg",
+                                                "public/images/catalog/trimlite/fir-8401-1-b22e61a15b06.jpg",
+                                                "public/images/catalog/trimlite/fir-8403-1-957c2140bd7a.jpg",
+                                                "public/images/catalog/trimlite/harlow-1501-68-1-1-b09845147c29.jpg",
+                                                "public/images/catalog/trimlite/hinge-strap-1-3cf716cccdf2.jpg",
+                                                "public/images/catalog/trimlite/modenawhitedoor6-80455-02aa563f0f0b.jpg",
+                                                "public/images/catalog/trimlite/rivertonobscure-3652a421e9cb.jpg",
+                                                "public/images/catalog/trimlite/sable-vertical-1-7427946b9981.jpg",
+                                                "public/images/catalog/trimlite/sl-sls3e-panel-1-2a263636d49d.jpg",
+                                                "tmp/audit-trimlite-final.py",
+                                                "tmp/audit-trimlite-first77.py",
+                                                "tmp/debug-manhattan.py",
+                                                "tmp/inspect-trimlite-checkpoint.py",
+                                                "tmp/make-trimlite-contact-sheets.py",
+                                                "tmp/make-trimlite-pdf-contact-sheets.py",
+                                                "tmp/promote-trimlite-narrow-reed.py",
+                                                "public/images/catalog/novatech/2p-cambre-acier-produit-2-938d0c6a0770.png",
+                                                "public/images/catalog/novatech/2p-cambre-lambris-acier-produit-2-eb438b583115.png",
+                                                "public/images/catalog/novatech/2p-haut-uni-acier-produit-c32d45666993.png",
+                                                "public/images/catalog/novatech/3p-tete-gendarme-acier-produit-c4abcacedcdb.png",
+                                                "public/images/catalog/novatech/4p-acier-produit-903b2b81104a.png",
+                                                "public/images/catalog/novatech/6p-fibre-produit-1-2-5f199ee78d82.png",
+                                                "public/images/catalog/novatech/accents-gold-thumb-27bfc82f162c.jpg",
+                                                "public/images/catalog/novatech/arima-3-d4010ad1c13e.jpg",
+                                                "public/images/catalog/novatech/belmont-572f6abd19d8.jpg",
+                                                "public/images/catalog/novatech/line-a-7x64-verte-29054d470e68.png",
+                                                "public/images/catalog/novatech/london-bleu-8a8d886341ca.jpg",
+                                                "public/images/catalog/novatech/nobel-22x64-thumb-1-1-ab37e88e3462.jpg",
+                                                "public/images/catalog/novatech/novatech-distance-can-en-fecbc28f51ae.jpg",
+                                                "public/images/catalog/novatech/novatech-echo-can-en-86bcbac1a376.jpg",
+                                                "public/images/catalog/novatech/orleans-acier-1-f1de3a074e01.png",
+                                                "public/images/catalog/novatech/oso-produit-06c16ea61af5.jpg",
+                                                "public/images/catalog/novatech/rubik-thumb-2x-d78c7e73a38a.jpg",
+                                                "public/images/catalog/novatech/sydney-fibre-1a13a2f5f5c0.png",
+                                                "public/images/catalog/novatech/tao-bleue-2384be0ec8f2.jpg",
+                                                "public/images/catalog/novatech/vog-acier-produit-1-91cb6c5721c2.png",
+                                                "public/documents/catalog/novatech/accent-vertical-sheet-en-2a8d8fcf0824.pdf",
+                                                "public/documents/catalog/novatech/novatech-rapport-2025-en-3687461d0b88.pdf",
+                                                "public/images/catalog/trimlite/8402-white-shaker-1-e50d8e32223d.jpg",
+                                                "public/images/catalog/trimlite/8403-white-shaker-1-518e7400f987.jpg",
+                                                "public/images/catalog/trimlite/drs2g-cottage-42bccc2f4958.jpg",
+                                                "public/images/catalog/trimlite/fir-84021-1-f49d837d42a5.jpg"
+                                            ],
+                           "deletedCount":  54,
+                           "recoverability":  "Untracked orphans are recoverable only from supplier/staging sources; tracked obsolete files remain recoverable from Git history. Accepted manifests, relationship evidence, staging, and checkpoints were preserved."
+                       },
+    "trackedObsoleteCleanup":  {
+                                   "deletedAt":  "2026-08-20T03:10:32.6523425Z",
+                                   "deletedFiles":  [
+                                                        "public/images/catalog/novatech/2p-cambre-acier-produit-2-938d0c6a0770.png",
+                                                        "public/images/catalog/novatech/2p-cambre-lambris-acier-produit-2-eb438b583115.png",
+                                                        "public/images/catalog/novatech/2p-haut-uni-acier-produit-c32d45666993.png",
+                                                        "public/images/catalog/novatech/3p-tete-gendarme-acier-produit-c4abcacedcdb.png",
+                                                        "public/images/catalog/novatech/4p-acier-produit-903b2b81104a.png",
+                                                        "public/images/catalog/novatech/6p-fibre-produit-1-2-5f199ee78d82.png",
+                                                        "public/images/catalog/novatech/accents-gold-thumb-27bfc82f162c.jpg",
+                                                        "public/images/catalog/novatech/arima-3-d4010ad1c13e.jpg",
+                                                        "public/images/catalog/novatech/belmont-572f6abd19d8.jpg",
+                                                        "public/images/catalog/novatech/line-a-7x64-verte-29054d470e68.png",
+                                                        "public/images/catalog/novatech/london-bleu-8a8d886341ca.jpg",
+                                                        "public/images/catalog/novatech/nobel-22x64-thumb-1-1-ab37e88e3462.jpg",
+                                                        "public/images/catalog/novatech/novatech-distance-can-en-fecbc28f51ae.jpg",
+                                                        "public/images/catalog/novatech/novatech-echo-can-en-86bcbac1a376.jpg",
+                                                        "public/images/catalog/novatech/orleans-acier-1-f1de3a074e01.png",
+                                                        "public/images/catalog/novatech/oso-produit-06c16ea61af5.jpg",
+                                                        "public/images/catalog/novatech/rubik-thumb-2x-d78c7e73a38a.jpg",
+                                                        "public/images/catalog/novatech/sydney-fibre-1a13a2f5f5c0.png",
+                                                        "public/images/catalog/novatech/tao-bleue-2384be0ec8f2.jpg",
+                                                        "public/images/catalog/novatech/vog-acier-produit-1-91cb6c5721c2.png",
+                                                        "public/documents/catalog/novatech/accent-vertical-sheet-en-2a8d8fcf0824.pdf",
+                                                        "public/documents/catalog/novatech/novatech-rapport-2025-en-3687461d0b88.pdf",
+                                                        "public/images/catalog/trimlite/8402-white-shaker-1-e50d8e32223d.jpg",
+                                                        "public/images/catalog/trimlite/8403-white-shaker-1-518e7400f987.jpg",
+                                                        "public/images/catalog/trimlite/drs2g-cottage-42bccc2f4958.jpg",
+                                                        "public/images/catalog/trimlite/fir-84021-1-f49d837d42a5.jpg"
+                                                    ],
+                                   "deletedCount":  26,
+                                   "basis":  "Absent from approved manifests, catalogue relationships, supplier provenance indexes, PDF evidence, and rejected-association evidence."
+                               }
+}
