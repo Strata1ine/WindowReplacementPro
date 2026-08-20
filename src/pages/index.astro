@@ -9,9 +9,7 @@ import SectionHeader from '../components/SectionHeader.astro';
 import {
   homepageCategoryPaths,
   homepageFeaturedProducts,
-  homepageHeroFacts,
   homepageProcessSteps,
-  homepageProductOptions,
   homepageSpecificationTopics,
   homepageTaxonomyGroups,
   homepageWindowStyles
@@ -29,62 +27,61 @@ if (!heroWindow || !heroDoor || !heroPatio) throw new TypeError('Homepage hero r
   <section class="home-hero" aria-labelledby="home-hero-title">
     <div class="wrap home-hero__grid">
       <div class="home-hero__content">
-        <p class="eyebrow">Windows and doors, clearly compared</p>
-        <h1 id="home-hero-title">A better replacement starts with the right product.</h1>
-        <p class="home-hero__lead">Compare window and door configurations, understand the specifications that matter, and prepare for a more complete project conversation.</p>
+        <p class="eyebrow">Complete window and door projects</p>
+        <h1 id="home-hero-title">Choose the right window or door&mdash;and get the installation scope right with it.</h1>
+        <p class="home-hero__lead">Compare products, confirm site measurements and specify the details before receiving a written quotation for supply, installation and finishing.</p>
         <div class="actions">
           <a class="button" href="#quote">Plan your replacement</a>
           <a class="button button--secondary" href="#product-paths">Explore product paths</a>
         </div>
-        <dl class="home-hero__facts" aria-label="Product planning summary">
-          {homepageHeroFacts.map(fact => <div><dt>{fact.value}</dt><dd>{fact.label}</dd></div>)}
-        </dl>
       </div>
-      <div class="home-hero__visual" aria-label="Representative product configurations">
+      <div class="home-hero__visual" aria-label="Window, entry-door and patio-door examples">
         <MediaFrame media={heroWindow.media} alt={heroWindow.imageAlt} class="home-hero__window" sizes="(max-width: 760px) 92vw, (max-width: 1120px) 58vw, 42vw" loading="eager" fetchpriority="high" />
         <MediaFrame media={heroDoor.media} alt={heroDoor.imageAlt} class="home-hero__door" sizes="(max-width: 760px) 34vw, 18vw" loading="eager" fit="contain" />
         <MediaFrame media={heroPatio.media} alt={heroPatio.imageAlt} class="home-hero__patio" sizes="(max-width: 760px) 48vw, 22vw" loading="eager" />
-        <p class="home-hero__caption">Representative approved product configurations.</p>
+        <p class="home-hero__caption">Window, entry-door and patio-door options.</p>
       </div>
     </div>
   </section>
 
   <section id="product-paths" class="section section--cream" aria-labelledby="product-paths-title">
     <div class="wrap">
-      <SectionHeader eyebrow="Product paths" title="Start with what you are replacing." body="Explore the operating styles, materials and configurations that shape the finished project." headingId="product-paths-title" />
+      <SectionHeader eyebrow="Product paths" title="Start with what you are replacing." body="Explore windows, entry doors, door glass and patio systems, then narrow the choices around your opening and project scope." headingId="product-paths-title" />
       <div class="category-grid">{homepageCategoryPaths.map(category => <CategoryCard {...category} />)}</div>
     </div>
   </section>
 
-  <section class="section window-styles" aria-labelledby="window-styles-title">
-    <div class="wrap">
-      <div class="section-split-heading">
-        <SectionHeader eyebrow="Window styles" title="Choose how the window needs to work." body="Operating style affects ventilation, cleaning, hardware and the way a replacement fits the opening." headingId="window-styles-title" />
-        <a class="text-link text-link--top" href="/windows/">View all replacement windows <span aria-hidden="true">&rarr;</span></a>
-      </div>
-      <div class="window-style-grid">
-        {homepageWindowStyles.map((style, index) => (
-          <a class="window-style-card" href={style.href}>
-            <span class="window-style-card__index">{String(index + 1).padStart(2, '0')}</span>
-            <h3>{style.title}</h3>
-            <p>{style.description}</p>
-            <span>{style.count} reviewed {style.count === 1 ? 'configuration' : 'configurations'}</span>
-          </a>
-        ))}
+  <section id="options" class="selection-overview" aria-labelledby="window-styles-title">
+    <div class="section window-styles">
+      <div class="wrap">
+        <div class="section-split-heading">
+          <SectionHeader eyebrow="Styles, materials and options" title="Compare the choices that shape the project." body="Operating style, material, glass, hardware and configuration all affect how the finished replacement looks and works." headingId="window-styles-title" />
+          <a class="text-link text-link--top" href="/windows/">View all replacement windows <span aria-hidden="true">&rarr;</span></a>
+        </div>
+        <div class="window-style-grid">
+          {homepageWindowStyles.map((style, index) => (
+            <a class="window-style-card" href={style.href}>
+              <span class="window-style-card__index">{String(index + 1).padStart(2, '0')}</span>
+              <h3>{style.title}</h3>
+              <p>{style.description}</p>
+              <span>Explore style <span aria-hidden="true">&rarr;</span></span>
+            </a>
+          ))}
+        </div>
       </div>
     </div>
-  </section>
 
-  <section class="section section--forest taxonomy-section" aria-labelledby="taxonomy-title">
-    <div class="wrap">
-      <SectionHeader eyebrow="Doors and patio systems" title="Narrow the choices without losing the details." body="Compare supported materials, styles and configurations before selecting the final scope." headingId="taxonomy-title" />
-      <div class="taxonomy-grid">
-        {homepageTaxonomyGroups.map(group => (
-          <article class="taxonomy-panel">
-            <header><div><h3>{group.title}</h3><p>{group.description}</p></div><a href={group.href} aria-label={'Explore all ' + group.title.toLowerCase()}>&rarr;</a></header>
-            <ul>{group.options.map(item => <li><a href={item.href}><span>{item.title}</span><span>{item.count}</span></a></li>)}</ul>
-          </article>
-        ))}
+    <div class="section section--forest taxonomy-section" aria-labelledby="taxonomy-title">
+      <div class="wrap">
+        <SectionHeader eyebrow="Doors, glass and patio systems" title="Narrow the choices around the opening." body="Compare useful design directions and materials, then confirm the exact configuration during measurement and quotation." headingId="taxonomy-title" />
+        <div class="taxonomy-grid">
+          {homepageTaxonomyGroups.map(group => (
+            <article class="taxonomy-panel">
+              <header><div><h3>{group.title}</h3><p>{group.description}</p></div><a href={group.href} aria-label={'Explore all ' + group.title.toLowerCase()}>&rarr;</a></header>
+              <ul>{group.options.map(item => <li><a href={item.href}><span>{item.title}</span><span aria-hidden="true">&rarr;</span></a></li>)}</ul>
+            </article>
+          ))}
+        </div>
       </div>
     </div>
   </section>
@@ -92,9 +89,9 @@ if (!heroWindow || !heroDoor || !heroPatio) throw new TypeError('Homepage hero r
   <section class="section specification-section" aria-labelledby="specification-title">
     <div class="wrap specification-layout">
       <div class="specification-copy">
-        <p class="eyebrow">Compare the complete specification</p>
-        <h2 id="specification-title">The product name is only the beginning.</h2>
-        <p class="lead">A useful comparison connects the product, glass, frame, hardware, opening and installation scope. Those details shape performance and determine whether two quotes are actually comparable.</p>
+        <p class="eyebrow">Why specification matters</p>
+        <h2 id="specification-title">A complete project is more than the product.</h2>
+        <p class="lead">The frame, glass, hardware, opening, installation method and finish belong in one clear scope. That is what makes quotations comparable and helps avoid gaps between selection and installation.</p>
         <a class="button button--secondary" href="#featured-products">See product examples</a>
       </div>
       <ol class="specification-list">{homepageSpecificationTopics.map((topic, index) => <li><span>{String(index + 1).padStart(2, '0')}</span><strong>{topic}</strong></li>)}</ol>
@@ -104,8 +101,8 @@ if (!heroWindow || !heroDoor || !heroPatio) throw new TypeError('Homepage hero r
   <section id="featured-products" class="section section--mist" aria-labelledby="featured-products-title">
     <div class="wrap">
       <div class="section-split-heading">
-        <SectionHeader eyebrow="Product examples" title="Four configurations to start the comparison." body="Each example uses a reviewed customer-facing identity, approved specifications and clean product media." headingId="featured-products-title" />
-        <a class="text-link text-link--top" href="#options">Compare more options <span aria-hidden="true">&rarr;</span></a>
+        <SectionHeader eyebrow="Product examples" title="Common product configurations" body="Explore several common configurations and the specifications that distinguish them." headingId="featured-products-title" />
+        <a class="text-link text-link--top" href="#quote">Plan your replacement <span aria-hidden="true">&rarr;</span></a>
       </div>
       <div class="featured-product-grid">{homepageFeaturedProducts.map(product => <ProductCard {...product} />)}</div>
     </div>
@@ -113,30 +110,22 @@ if (!heroWindow || !heroDoor || !heroPatio) throw new TypeError('Homepage hero r
 
   <section id="process" class="section process-section" aria-labelledby="process-title">
     <div class="wrap">
-      <SectionHeader eyebrow="From research to installation" title="A clear path through the replacement process." body="Product research comes first; site conditions and final scope still need to be confirmed before ordering." headingId="process-title" />
+      <SectionHeader eyebrow="From selection to completion" title="A clear path through the replacement process." body="Compare the options, confirm the site measure, review a written scope, then complete supply, installation, finishing and handoff." headingId="process-title" />
       <ProcessSteps steps={homepageProcessSteps} />
     </div>
   </section>
 
-  <section id="options" class="section section--cream option-section" aria-labelledby="options-title">
-    <div class="wrap">
-      <SectionHeader eyebrow="Product options for Ontario homes" title="Build the right configuration around the opening." body="Selection breadth comes from combining operating style, material, glazing, hardware, finish and installation requirements." headingId="options-title" />
-      <div class="product-option-grid">
-        {homepageProductOptions.map((option, index) => <article><span>{String(index + 1).padStart(2, '0')}</span><h3>{option.title}</h3><p>{option.text}</p></article>)}
-      </div>
-      <p class="option-disclosure">Choose from a carefully selected range of window and door systems. We confirm the exact product, performance ratings, warranty and installation scope in your written quotation.</p>
-    </div>
-  </section>
-
-  <section class="section final-section" aria-labelledby="service-title">
+  <section class="section service-section" aria-labelledby="service-title">
     <div class="wrap">
       <div class="service-note">
         <p class="eyebrow">Service area</p>
         <h2 id="service-title">Planning replacement projects across the GTA and Southern Ontario.</h2>
-        <p>Product availability and project fit vary by location, opening and installation conditions. Service-area pages are published only when substantive local information is ready.</p>
+        <p>We serve homeowners across the GTA and Southern Ontario. Project availability depends on location, opening conditions and scope.</p>
         <a class="text-link" href="/locations/">Review service coverage <span aria-hidden="true">&rarr;</span></a>
       </div>
-      <QuoteCta />
     </div>
   </section>
+  <div class="quote-section">
+    <div class="wrap"><QuoteCta /></div>
+  </div>
 </BaseLayout>

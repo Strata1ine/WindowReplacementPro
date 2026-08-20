@@ -9,9 +9,10 @@ interface Props {
   detail: string;
   media: PublicMedia;
   imageAlt: string;
+  mediaFit?: 'cover' | 'contain';
 }
 
-const { title, description, href, detail, media, imageAlt } = Astro.props;
+const { title, description, href, detail, media, imageAlt, mediaFit = 'cover' } = Astro.props;
 ---
 <a class="category-card" href={href}>
   <MediaFrame
@@ -19,6 +20,7 @@ const { title, description, href, detail, media, imageAlt } = Astro.props;
     alt={imageAlt}
     class="category-card__media"
     sizes="(max-width: 760px) 100vw, (max-width: 1100px) 50vw, 36vw"
+    fit={mediaFit}
   />
   <div class="category-card__content">
     <p class="category-card__count">{detail}</p>

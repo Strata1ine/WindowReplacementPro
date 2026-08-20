@@ -155,9 +155,10 @@ const elementClip = selector => evaluate(`(() => {
 })()`);
 
 const viewports = [
-  { name: 'mobile-375', width: 375, height: 812, mobile: false, deviceScaleFactor: 1 },
+  { name: 'mobile-390', width: 390, height: 844, mobile: false, deviceScaleFactor: 1 },
   { name: 'tablet-768', width: 768, height: 1024, mobile: false, deviceScaleFactor: 1 },
   { name: 'desktop-1280', width: 1280, height: 900, mobile: false, deviceScaleFactor: 1 },
+  { name: 'desktop-1440', width: 1440, height: 960, mobile: false, deviceScaleFactor: 1 },
   { name: 'wide-1600', width: 1600, height: 1000, mobile: false, deviceScaleFactor: 1 }
 ];
 const viewportResults = [];
@@ -198,11 +199,53 @@ try {
       naturalWidth: image.naturalWidth,
       naturalHeight: image.naturalHeight
     }))`);
+    const categoryLayouts = await evaluate(`(() => {
+      const cards = Array.from(document.querySelectorAll('.category-card'));
+      const visible = element => {
+        if (!element) return false;
+        const rect = element.getBoundingClientRect();
+        const style = getComputedStyle(element);
+        return rect.width > 0 && rect.height > 0 && style.display !== 'none' && style.visibility !== 'hidden' && style.opacity !== '0';
+      };
+      const box = rect => ({
+        top: Math.round(rect.top * 100) / 100,
+        right: Math.round(rect.right * 100) / 100,
+        bottom: Math.round(rect.bottom * 100) / 100,
+        left: Math.round(rect.left * 100) / 100,
+        width: Math.round(rect.width * 100) / 100,
+        height: Math.round(rect.height * 100) / 100
+      });
+      return cards.map((card, index) => {
+        const content = card.querySelector('.category-card__content');
+        const media = card.querySelector('.category-card__media');
+        const heading = card.querySelector('h3');
+        const link = card.querySelector('.text-link');
+        const cardRect = card.getBoundingClientRect();
+        const contentRect = content.getBoundingClientRect();
+        const mediaRect = media.getBoundingClientRect();
+        const nextRect = cards[index + 1]?.getBoundingClientRect();
+        const mediaStyle = getComputedStyle(media);
+        return {
+          title: heading?.textContent?.trim() ?? '',
+          card: box(cardRect),
+          content: box(contentRect),
+          media: box(mediaRect),
+          mediaComputedMinHeight: mediaStyle.minHeight,
+          contentInsideCard: contentRect.top >= cardRect.top - 1 && contentRect.bottom <= cardRect.bottom + 1 && contentRect.left >= cardRect.left - 1 && contentRect.right <= cardRect.right + 1,
+          headingVisible: visible(heading),
+          linkVisible: visible(link),
+          overlapsNext: Boolean(nextRect && contentRect.right > nextRect.left + 1 && contentRect.left < nextRect.right - 1 && contentRect.bottom > nextRect.top + 1 && contentRect.top < nextRect.bottom - 1),
+          followingGap: nextRect ? Math.round((nextRect.top - cardRect.bottom) * 100) / 100 : null,
+          followingStartsBelow: nextRect ? nextRect.top >= cardRect.bottom - 1 : true
+        };
+      });
+    })()`);
     viewportResults.push({
       viewport,
       dimensions,
       brokenImages: images.filter(image => image.naturalWidth === 0),
-      incompleteImages: images.filter(image => !image.complete && image.naturalWidth > 0)
+      incompleteImages: images.filter(image => !image.complete && image.naturalWidth > 0),
+      categoryLayouts
     });
     await fullPageScreenshot(`homepage-${viewport.name}.png`);
   }
@@ -213,6 +256,11 @@ try {
   await screenshot('desktop-header-menu.png', { x: 0, y: 0, width: 1280, height: 430 });
   await evaluate("document.querySelector('[data-nav-dropdown]')?.removeAttribute('open')");
 
+  await loadHomepage(viewports[3]);
+  const desktopHeroClip = await elementClip('.home-hero');
+  if (!desktopHeroClip) throw new Error('Homepage hero not found.');
+  await screenshot('desktop-hero.png', desktopHeroClip);
+
   const featuredClip = await elementClip('#featured-products');
   if (!featuredClip) throw new Error('Featured-products section not found.');
   await screenshot('featured-product-cards.png', featuredClip);
@@ -220,7 +268,21 @@ try {
   if (!footerClip) throw new Error('Footer not found.');
   await screenshot('footer-desktop.png', footerClip);
 
+  const mhtmlSnapshot = await client.send('Page.captureSnapshot', { format: 'mhtml' });
+  const mhtmlSource = mhtmlSnapshot.data.toLowerCase();
+  const mhtmlAudit = {
+    byteLength: Buffer.byteLength(mhtmlSnapshot.data),
+    expectedProductAssetsEmbedded: ['wrp-w001', 'wrp-d001', 'wrp-p001'].filter(asset => mhtmlSource.includes(asset)),
+    supplierTermsEmbedded: ['vinyl-pro', 'window city', 'masonite', 'trimlite', 'novatech', 'verre select', 'mennie', 'richersons', 'oceanview', 'vista patio doors'].filter(term => mhtmlSource.includes(term))
+  };
+
   await loadHomepage(viewports[0]);
+  const mobileHeroClip = await elementClip('.home-hero');
+  if (!mobileHeroClip) throw new Error('Mobile homepage hero not found.');
+  await screenshot('mobile-hero.png', mobileHeroClip);
+  const mobileCategoriesClip = await elementClip('.category-grid');
+  if (!mobileCategoriesClip) throw new Error('Mobile category grid not found.');
+  await screenshot('mobile-category-cards.png', mobileCategoriesClip);
   const mobileBefore = await evaluate(`({
     hidden: document.querySelector('[data-mobile-nav]')?.hidden,
     expanded: document.querySelector('[data-menu-toggle]')?.getAttribute('aria-expanded')
@@ -252,7 +314,7 @@ try {
   })()`);
   const mobileMenuFullPath = path.join(outputDirectory, '_mobile-menu-full.png');
   await screenshot('_mobile-menu-full.png');
-  await sharp(mobileMenuFullPath).extract({ left: 0, top: 0, width: 375, height: 812 }).toFile(path.join(outputDirectory, 'mobile-menu.png'));
+  await sharp(mobileMenuFullPath).extract({ left: 0, top: 0, width: 390, height: 844 }).toFile(path.join(outputDirectory, 'mobile-menu.png'));
   await rm(mobileMenuFullPath);
   await client.send('Input.dispatchKeyEvent', { type: 'keyDown', key: 'Escape', code: 'Escape' });
   await client.send('Input.dispatchKeyEvent', { type: 'keyUp', key: 'Escape', code: 'Escape' });
@@ -267,7 +329,10 @@ try {
     const forbidden = [
       'vinyl-pro', 'vinyl pro', 'window city', 'masonite', 'trimlite', 'novatech',
       'verre select', 'mennie', 'richersons', 'oceanview', 'vista patio doors',
-      'source-only', 'facts-ready', 'uncertain/review', 'stale'
+      'source-only', 'facts-ready', 'uncertain/review', 'stale',
+      'reviewed customer-facing identity', 'approved specifications', 'clean product media',
+      'reviewed configurations', 'published records', 'reviewed technical evidence',
+      'service-area pages are published', 'representative approved product configurations'
     ];
     const text = document.body.innerText.toLowerCase();
     const hrefs = Array.from(document.querySelectorAll('a[href]'), link => link.href)
@@ -287,8 +352,20 @@ try {
     return {
       title: document.title,
       h1Count: document.querySelectorAll('h1').length,
+      heroFactsPresent: Boolean(document.querySelector('.home-hero__facts')),
       neutralReferencesVisible: ['wrp-w001', 'wrp-d001', 'wrp-g001', 'wrp-p001'].every(reference => text.includes(reference)),
       forbiddenTermsVisible: forbidden.filter(term => text.includes(term)),
+      inventoryCountTexts: Array.from(document.querySelectorAll('.window-style-card span:last-child, .taxonomy-panel li a span:last-child'))
+        .map(element => element.textContent?.trim() ?? '')
+        .filter(value => /^\d+$|^\d+\s+(?:reviewed\s+)?(?:configuration|configurations|record|records)$/i.test(value)),
+      containedMediaBackgrounds: Array.from(document.querySelectorAll('.home-hero__door, .product-card__media, .category-card__media.media-frame--contain')).map(element => {
+        const style = getComputedStyle(element);
+        return {
+          className: element.className,
+          backgroundImage: style.backgroundImage,
+          backgroundSize: style.backgroundSize
+        };
+      }),
       publicPathLeaks: uniqueLinks.filter(href => {
         const pathname = new URL(href).pathname.toLowerCase();
         const supplierSegments = ['vinyl-pro', 'window-city', 'masonite', 'trimlite', 'novatech', 'verre-select', 'mennie-canada', 'richersons', 'oceanview', 'vista'];
@@ -366,15 +443,28 @@ try {
     if (result.dimensions.horizontalOverflow) failures.push('horizontal overflow at ' + result.viewport.width + 'px');
     if (result.brokenImages.length) failures.push('broken images at ' + result.viewport.width + 'px');
     if (result.incompleteImages.length) failures.push('incomplete images at ' + result.viewport.width + 'px');
+    for (const card of result.categoryLayouts) {
+      if (!card.contentInsideCard) failures.push(card.title + ' category content escapes its card at ' + result.viewport.width + 'px');
+      if (!card.headingVisible) failures.push(card.title + ' category heading is not visible at ' + result.viewport.width + 'px');
+      if (!card.linkVisible) failures.push(card.title + ' category link is not visible at ' + result.viewport.width + 'px');
+      if (card.overlapsNext) failures.push(card.title + ' category card overlaps the next card at ' + result.viewport.width + 'px');
+      if (result.viewport.width === 390 && !card.followingStartsBelow) failures.push(card.title + ' following category card does not start below it at 390px');
+    }
   }
   if (mobileBefore.hidden !== true || mobileBefore.expanded !== 'false') failures.push('mobile menu initial state');
   if (mobileOpen.hidden !== false || mobileOpen.expanded !== 'true' || !mobileOpen.bodyLocked) failures.push('mobile menu open state');
   if (mobileAfterEscape.hidden !== true || mobileAfterEscape.expanded !== 'false' || !mobileAfterEscape.focused) failures.push('mobile menu Escape state');
   if (!pageAudit.neutralReferencesVisible) failures.push('neutral public references are missing');
+  if (pageAudit.heroFactsPresent) failures.push('homepage hero inventory facts remain visible');
+  if (pageAudit.inventoryCountTexts.length) failures.push('homepage inventory counts remain visible');
   if (pageAudit.forbiddenTermsVisible.length) failures.push('supplier or workflow disclosure visible');
   if (pageAudit.publicPathLeaks.length) failures.push('supplier-identifying link path visible');
   if (pageAudit.publicMediaPathLeaks.length) failures.push('non-neutral public media path visible');
   if (pageAudit.brokenLinks.length) failures.push('broken internal links');
+  if (mhtmlAudit.expectedProductAssetsEmbedded.length !== 3) failures.push('saved MHTML does not contain all three hero product assets');
+  if (pageAudit.containedMediaBackgrounds.some(media => media.backgroundImage === 'none')) failures.push('contained media is missing its background image');
+  if (pageAudit.containedMediaBackgrounds.some(media => media.backgroundSize === 'auto')) failures.push('contained media background sizing was reset');
+  if (mhtmlAudit.supplierTermsEmbedded.length) failures.push('saved MHTML exposes supplier terminology');
   for (const audit of representativePageAudits) {
     if (audit.h1Count !== 1) failures.push(audit.kind + ' page does not have exactly one H1');
     if (!audit.reference.includes('WRP-')) failures.push(audit.kind + ' page is missing its neutral reference');
@@ -394,6 +484,7 @@ try {
     viewportResults,
     interactions: { mobileBefore, mobileOpen, mobileAfterEscape },
     pageAudit,
+    mhtmlAudit,
     representativePageAudits,
     runtimeErrors,
     networkFailures,

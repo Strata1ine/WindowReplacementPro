@@ -6,7 +6,7 @@ Scope: global visual system, production header and footer, supplier-neutral home
 
 ## Outcome
 
-The production homepage foundation passes its visual, interaction, content-gating, route, and media checks.
+The focused homepage correction passes its visual, interaction, content-gating, route, and media checks. Broader category and product-page design propagation was not performed.
 
 - Internal editorially published product count remains **203**.
 - Public identity-approved product routes: **4**.
@@ -18,6 +18,24 @@ The production homepage foundation passes its visual, interaction, content-gatin
 - Browser runtime errors: **0**.
 - Browser network failures: **0**.
 - Horizontal overflow at the tested widths: **0**.
+- Public homepage inventory counts and internal workflow phrases: **0**.
+- Saved-MHTML supplier terms: **0**; all three hero media assets are embedded.
+
+## Mobile category-card defect: before and after
+
+At 390 px, the `max-width: 820px` rule set `.category-card__media { min-height: 100% }`, then the later `max-width: 620px` rule changed the card to block layout and assigned the media a fixed height without resetting that minimum. The percentage minimum was therefore resolved from the full card and won over the intended mobile height.
+
+Before correction, each 366 px-wide card measured about 498 px high while its media measured about 496 px. The copy began at the card's lower edge and extended roughly 235 px beyond the border into the following card's flow.
+
+The mobile card now uses:
+
+- a one-column grid with `grid-template-rows: clamp(220px, 68vw, 260px) auto`;
+- `min-height: 0` and normal-flow sizing on the media row;
+- `overflow: hidden` on the card;
+- cover media for window/patio lifestyle imagery;
+- contained media on a deliberate contrasting background for entry-door and door-glass renders.
+
+After correction, every 390 px card has a 260 px media row, all content rectangles are inside their card rectangles, headings and links are visible, and the measured gap to each following card is 22 px.
 
 ## Data and publication controls
 
@@ -48,18 +66,19 @@ Four approved editorial hero selections feed the neutral public media plan. The 
 
 The live site points only at `/media/products/wrp-*` paths. The internal source archive and complete provenance remain unchanged, but supplier identity, source URLs, hashes, and internal product IDs are not present in public HTML or client data.
 
-Visual review found no generic logo, watermark, navigation asset, supplier-shared, collection-shared, or uncertain asset presented as product media. A compositor-safe contain mode and decoded-pixel QA gate cover portrait product imagery.
+Visual review found no generic logo, watermark, navigation asset, supplier-shared, collection-shared, or uncertain asset presented as product media. A compositor-safe contain mode and decoded-pixel QA gate cover portrait product imagery. The review also caught and corrected later `background` shorthands that had reset contain sizing; a computed-style assertion now prevents contained media from falling back to `background-size: auto`.
 
 ## Responsive review
 
-| Width | Result | Document width | Horizontal overflow | Broken images |
-| --- | --- | ---: | --- | ---: |
-| 375 px | Pass | 375 px | No | 0 |
-| 768 px | Pass | 768 px | No | 0 |
-| 1280 px | Pass | 1280 px | No | 0 |
-| 1600 px | Pass | 1600 px | No | 0 |
+| Width | Result | Document width | Page height | Horizontal overflow | Broken images |
+| --- | --- | ---: | ---: | --- | ---: |
+| 390 px | Pass | 390 px | 15,160 px | No | 0 |
+| 768 px | Pass | 768 px | 11,322 px | No | 0 |
+| 1280 px | Pass | 1280 px | 7,717 px | No | 0 |
+| 1440 px | Pass | 1440 px | 8,098 px | No | 0 |
+| 1600 px | Pass | 1600 px | 8,126 px | No | 0 |
 
-The 375 px and 768 px passes use exact CSS viewport widths. The 1280 px and 1600 px passes exercise the desktop navigation and wider editorial layout.
+The 390 px and 768 px passes use exact CSS viewport widths. The 1280 px, 1440 px and 1600 px passes exercise the desktop navigation and wider editorial layout. The shorter page reflects removal of the hero statistics and consolidation of the overlapping specification/options content.
 
 ## Navigation and accessibility
 
@@ -67,7 +86,7 @@ The 375 px and 768 px passes use exact CSS viewport widths. The 1280 px and 1600
 - A keyboard skip link is available and only becomes visible with keyboard-visible focus.
 - The desktop Products menu opens and closes.
 - The mobile menu begins hidden with `aria-expanded="false"`.
-- Opening the mobile menu reveals a full-width 375 px navigation panel, sets `aria-expanded="true"`, and locks background scrolling.
+- Opening the mobile menu reveals a full-width 390 px navigation panel, sets `aria-expanded="true"`, and locks background scrolling.
 - Escape closes the mobile menu, restores `aria-expanded="false"`, and returns focus to the menu button.
 - The mobile menu and desktop product menu use real links; no inert navigation controls were added.
 - All homepage internal links returned successful responses in browser QA.
@@ -76,13 +95,17 @@ There is no configured customer phone number or contact endpoint in the reposito
 
 ## Screenshot evidence
 
+- [Desktop homepage, 1440 px](screenshots/homepage-desktop-1440.png)
 - [Desktop homepage, 1280 px](screenshots/homepage-desktop-1280.png)
 - [Wide homepage, 1600 px](screenshots/homepage-wide-1600.png)
 - [Tablet homepage, 768 px](screenshots/homepage-tablet-768.png)
-- [Mobile homepage, 375 px](screenshots/homepage-mobile-375.png)
+- [Mobile homepage, 390 px](screenshots/homepage-mobile-390.png)
+- [Desktop hero](screenshots/desktop-hero.png)
+- [Mobile hero](screenshots/mobile-hero.png)
+- [Mobile category cards](screenshots/mobile-category-cards.png)
 - [Desktop header and Products menu](screenshots/desktop-header-menu.png)
 - [Mobile menu](screenshots/mobile-menu.png)
-- [Featured product cards](screenshots/featured-product-cards.png)
+- [Product-example cards](screenshots/featured-product-cards.png)
 - [Window product page](screenshots/product-window.png)
 - [Entry-door product page](screenshots/product-entry-door.png)
 - [Door-glass product page](screenshots/product-door-glass.png)
@@ -91,7 +114,7 @@ There is no configured customer phone number or contact endpoint in the reposito
 
 ## QA method
 
-The repository includes `npm run qa:homepage`, which uses the installed local Chrome browser through the Chrome DevTools Protocol. It records viewport dimensions, overflow, image state, decoded visual-content ratios, neutral-path checks, supplier-term checks, link responses, runtime errors, network failures, menu state, four representative product-page checks, and screenshot evidence.
+The repository includes `npm run qa:homepage`, which uses the installed local Chrome browser through the Chrome DevTools Protocol. It records viewport dimensions, overflow, image state, decoded visual-content ratios, neutral-path checks, supplier-term checks, link responses, runtime errors, network failures, menu state, four representative product-page checks, saved-MHTML media presence, contained-media background sizing, category-card/content/media bounding rectangles, heading/link visibility, following-card flow, and screenshot evidence.
 
 The in-app browser runtime could not start on this Windows machine because its sandbox helper failed DPAPI decryption. Local Chrome was used as the controlled fallback. Mobile-menu interaction state is recorded before a screenshot-only positioning adjustment used because Chrome full-page capture otherwise omits fixed overlays.
 
@@ -119,5 +142,6 @@ Broader frontend propagation, guide redesign, and location redesign remain out o
 | `npm run check` | Pass - 0 errors, 0 warnings, 0 hints |
 | `npm run build` | Pass - 26 pages built; post-build leakage audit passed |
 | `npm run verify` | Pass - 4 identity-approved product routes and 23 sitemap URLs validated |
+| `npm run qa:homepage` | Pass - 5 viewport layouts, category bounding rectangles, interactions, links, media, saved MHTML, and screenshot artifacts |
 | `npm run audit:supplier-completeness` | Pass - 10 suppliers and 524 live products inventoried; no crawl was run |
 | `npm run audit:public-supplier-leakage` | Pass - 41 generated files scanned; 0 supplier names, domains, slugs, raw documents, provenance fields, or internal directories |
