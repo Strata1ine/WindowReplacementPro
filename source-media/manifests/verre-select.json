@@ -8,89 +8,20 @@
       "door-glass"
     ]
   },
-  "crawledAt": "2026-08-19T20:02:57Z",
+  "crawledAt": "2026-08-20T06:06:29Z",
   "pages": [
     {
-      "url": "https://verreselect.com/?UILanguage=EN",
-      "title": "Verre Select Inc.: Home",
-      "h1": "",
-      "description": "Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
-      "snapshot": "source-media\\verre-select\\html\\0001-verre-select-inc-home.html",
-      "is_product_candidate": false,
-      "category": "unclassified",
-      "assets": [],
-      "product_data": {},
-      "embedded_products": []
-    },
-    {
-      "url": "https://verreselect.com/page.php?PageID=25&UILanguage=EN",
-      "title": "Verre Select Inc.: Privacy Policy",
-      "h1": "Privacy Policy",
-      "description": "Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
-      "snapshot": "source-media\\verre-select\\html\\0002-privacy-policy.html",
-      "is_product_candidate": false,
-      "category": "unclassified",
-      "assets": [],
-      "product_data": {},
-      "embedded_products": []
-    },
-    {
-      "url": "https://verreselect.com/",
-      "title": "Verre Sélect Inc.: Home",
-      "h1": "",
-      "description": "Verre Sélect se distingue de ses concurrents par l’originalité de ses designs et la diversité de ses produits : vitraux décoratifs soudés et non soudés, sérigraphies, rainurés, verres thermoformés, panneaux Exécutifs et moulures Dynastie. Nous vous offrons aussi une gamme très intéressante de produits pour porte d’intérieur. ",
-      "snapshot": "source-media\\verre-select\\html\\0003-verre-s-lect-inc-home.html",
-      "is_product_candidate": false,
-      "category": "unclassified",
-      "assets": [],
-      "product_data": {},
-      "embedded_products": []
-    },
-    {
-      "url": "https://verreselect.com/page.php?PageID=3&UILanguage=en",
-      "title": "VERRE SELECT The company",
-      "h1": "The company",
-      "description": "Our company specializes in decorative windows of higher quality and we offer you exceptional fiberglass doors. Verre Select: partner for your ideas and your projects.\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
-      "snapshot": "source-media\\verre-select\\html\\0004-the-company.html",
-      "is_product_candidate": false,
-      "category": "unclassified",
-      "assets": [],
-      "product_data": {},
-      "embedded_products": []
-    },
-    {
-      "url": "https://verreselect.com/module.php?ModuleName=com.summercart.news&UILanguage=en&list=",
-      "title": "News",
-      "h1": "News",
-      "description": "Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
-      "snapshot": "source-media\\verre-select\\html\\0005-news.html",
-      "is_product_candidate": false,
-      "category": "unclassified",
-      "assets": [],
-      "product_data": {},
-      "embedded_products": []
-    },
-    {
-      "url": "https://verreselect.com/form.php?FormID=1&UILanguage=en",
-      "title": "Verre Select: Contact us",
-      "h1": "Contact us",
-      "description": "Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
-      "snapshot": "source-media\\verre-select\\html\\0006-contact-us.html",
-      "is_product_candidate": false,
-      "category": "unclassified",
-      "assets": [],
-      "product_data": {},
-      "embedded_products": []
-    },
-    {
-      "url": "https://verreselect.com/categories.php?CategoryID=1&UILanguage=en",
+      "url": "https://verreselect.com/categories.php?CategoryID=1&UILanguage=EN",
       "title": "Door Windows - VERRE SELECT Collection",
       "h1": "Door Windows",
       "description": "Verre Select's new collection of decorative glass will please you and certainly enhance your home. Sophisticated, various opaque patterns that ensures the desired privacy and comfort. Our new contemporay frame fits particularly well with these new models. Verre Select, creativity at your service. Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
-      "snapshot": "source-media\\verre-select\\html\\0007-door-windows.html",
+      "snapshot": "source-media\\verre-select\\html\\0001-door-windows.html",
       "is_product_candidate": false,
       "category": "door-glass",
-      "assets": [],
+      "assets": [
+        "/images/catalog/verre-select/cadre-executif-6680c506dc6c.jpg",
+        "/images/catalog/verre-select/cadreurbain-exterieur-90f4c0106e92.jpg"
+      ],
       "product_data": {},
       "embedded_products": []
     },
@@ -99,11 +30,17 @@
       "title": "Vitraux Whistler",
       "h1": "Whistler",
       "description": "The WHISTLER model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
-      "snapshot": "source-media\\verre-select\\html\\0008-whistler.html",
+      "snapshot": "source-media\\verre-select\\html\\0002-whistler.html",
       "is_product_candidate": true,
       "category": "door-glass",
       "assets": [
-        "/images/catalog/verre-select/variant-171-1009-a6453d2fafac.jpg"
+        "/images/catalog/verre-select/local-option-798-b058e9a593cf.jpg",
+        "/images/catalog/verre-select/local-option-802-35a5c703a24c.jpg",
+        "/images/catalog/verre-select/local-option-958-7af99a5f97d3.jpg",
+        "/images/catalog/verre-select/local-option-959-95d10d25516c.jpg",
+        "/images/catalog/verre-select/variant-171-1009-a6453d2fafac.jpg",
+        "/images/catalog/verre-select/verre-whistler-7f05bc4f13b1.jpg",
+        "/images/catalog/verre-select/vs-degree-intimite-3-78929711c5c2.jpg"
       ],
       "product_data": {},
       "embedded_products": []
@@ -113,11 +50,15 @@
       "title": "Vitraux Quattro",
       "h1": "Quattro",
       "description": "The QUATTRO model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
-      "snapshot": "source-media\\verre-select\\html\\0009-quattro.html",
+      "snapshot": "source-media\\verre-select\\html\\0003-quattro.html",
       "is_product_candidate": true,
       "category": "door-glass",
       "assets": [
-        "/images/catalog/verre-select/variant-174-1029-836e07ac6917.jpg"
+        "/images/catalog/verre-select/local-option-818-929a6816cc1d.jpg",
+        "/images/catalog/verre-select/local-option-819-0be95dfe7e7a.jpg",
+        "/images/catalog/verre-select/variant-174-1029-836e07ac6917.jpg",
+        "/images/catalog/verre-select/verre-quattro-ef672882dfef.jpg",
+        "/images/catalog/verre-select/vs-degree-intimite-2-f2cd920d08d3.jpg"
       ],
       "product_data": {},
       "embedded_products": []
@@ -127,11 +68,18 @@
       "title": "Fragrance",
       "h1": "Fragrance",
       "description": "The Fragrance model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service! Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
-      "snapshot": "source-media\\verre-select\\html\\0010-fragrance.html",
+      "snapshot": "source-media\\verre-select\\html\\0004-fragrance.html",
       "is_product_candidate": true,
       "category": "door-glass",
       "assets": [
-        "/images/catalog/verre-select/variant-230-1113-a7d4719b2fe8.jpg"
+        "/images/catalog/verre-select/local-option-910-474dbd1c9ad2.jpg",
+        "/images/catalog/verre-select/local-option-911-6756c94f1c58.jpg",
+        "/images/catalog/verre-select/local-option-912-fe80fed9097f.jpg",
+        "/images/catalog/verre-select/local-option-913-ed8b71dfc28a.jpg",
+        "/images/catalog/verre-select/local-option-914-7015e2b21c4b.jpg",
+        "/images/catalog/verre-select/local-option-957-ceef671fe398.jpg",
+        "/images/catalog/verre-select/variant-230-1113-a7d4719b2fe8.jpg",
+        "/images/catalog/verre-select/vs-degree-intimite-2-f2cd920d08d3.jpg"
       ],
       "product_data": {},
       "embedded_products": []
@@ -141,11 +89,16 @@
       "title": "Vitraux Gabriella",
       "h1": "Gabriella",
       "description": "The GABRIELLA model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
-      "snapshot": "source-media\\verre-select\\html\\0011-gabriella.html",
+      "snapshot": "source-media\\verre-select\\html\\0005-gabriella.html",
       "is_product_candidate": true,
       "category": "door-glass",
       "assets": [
-        "/images/catalog/verre-select/variant-232-1123-737fbaa6115f.jpg"
+        "/images/catalog/verre-select/local-option-924-4485c11c2a92.jpg",
+        "/images/catalog/verre-select/local-option-925-f018ad07c706.jpg",
+        "/images/catalog/verre-select/local-option-926-4fbe24bc71e7.jpg",
+        "/images/catalog/verre-select/local-option-927-a4dd55b39e2d.jpg",
+        "/images/catalog/verre-select/variant-232-1123-737fbaa6115f.jpg",
+        "/images/catalog/verre-select/vs-degree-intimite-3-78929711c5c2.jpg"
       ],
       "product_data": {},
       "embedded_products": []
@@ -155,11 +108,19 @@
       "title": "Vitraux CBG",
       "h1": "CBG",
       "description": "The CBG model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
-      "snapshot": "source-media\\verre-select\\html\\0012-cbg.html",
+      "snapshot": "source-media\\verre-select\\html\\0006-cbg.html",
       "is_product_candidate": true,
       "category": "door-glass",
       "assets": [
-        "/images/catalog/verre-select/variant-234-1132-0fd149a52264.jpg"
+        "/images/catalog/verre-select/local-option-933-0fcb83d66d2a.jpg",
+        "/images/catalog/verre-select/local-option-934-cf10dc8e7f92.jpg",
+        "/images/catalog/verre-select/local-option-935-57a9bf4e7f28.jpg",
+        "/images/catalog/verre-select/local-option-936-0042a9d284cb.jpg",
+        "/images/catalog/verre-select/local-option-937-7aab5216d216.jpg",
+        "/images/catalog/verre-select/local-option-953-dd3a39de8814.jpg",
+        "/images/catalog/verre-select/local-option-954-39ed9da4aef7.jpg",
+        "/images/catalog/verre-select/variant-234-1132-0fd149a52264.jpg",
+        "/images/catalog/verre-select/vs-degree-intimite-2-f2cd920d08d3.jpg"
       ],
       "product_data": {},
       "embedded_products": []
@@ -169,10 +130,14 @@
       "title": "Vitraux Cadence",
       "h1": "Cadence",
       "description": "The CADENCE model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
-      "snapshot": "source-media\\verre-select\\html\\0013-cadence.html",
+      "snapshot": "source-media\\verre-select\\html\\0007-cadence.html",
       "is_product_candidate": true,
       "category": "door-glass",
       "assets": [
+        "/images/catalog/verre-select/local-option-948-a63a8b95ed6e.jpg",
+        "/images/catalog/verre-select/local-option-949-cd760718af38.jpg",
+        "/images/catalog/verre-select/local-option-950-dbd2373766b7.jpg",
+        "/images/catalog/verre-select/local-option-951-65ac58118f64.jpg",
         "/images/catalog/verre-select/variant-235-1143-9cfcd897278c.jpg"
       ],
       "product_data": {},
@@ -183,11 +148,14 @@
       "title": "Vitraux Naomie",
       "h1": "Naomie",
       "description": "The Naomie model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
-      "snapshot": "source-media\\verre-select\\html\\0014-naomie.html",
+      "snapshot": "source-media\\verre-select\\html\\0008-naomie.html",
       "is_product_candidate": true,
       "category": "door-glass",
       "assets": [
-        "/images/catalog/verre-select/variant-240-1215-d7c06c9aafe6.jpg"
+        "/images/catalog/verre-select/local-option-1026-a720409a3560.jpg",
+        "/images/catalog/verre-select/local-option-1027-1b047c242b42.jpg",
+        "/images/catalog/verre-select/variant-240-1215-d7c06c9aafe6.jpg",
+        "/images/catalog/verre-select/vs-degree-intimite-2-f2cd920d08d3.jpg"
       ],
       "product_data": {},
       "embedded_products": []
@@ -197,11 +165,18 @@
       "title": "Vitraux Java",
       "h1": "Java",
       "description": "The Java model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
-      "snapshot": "source-media\\verre-select\\html\\0015-java.html",
+      "snapshot": "source-media\\verre-select\\html\\0009-java.html",
       "is_product_candidate": true,
       "category": "door-glass",
       "assets": [
-        "/images/catalog/verre-select/variant-241-1219-cad98d6f5444.jpg"
+        "/images/catalog/verre-select/local-option-1030-22dd8944b9b9.jpg",
+        "/images/catalog/verre-select/local-option-1031-bd1e7ae37b41.jpg",
+        "/images/catalog/verre-select/local-option-1032-70b8edaa1ccd.jpg",
+        "/images/catalog/verre-select/local-option-1033-eb3495b311af.jpg",
+        "/images/catalog/verre-select/local-option-1034-1294f79447b4.jpg",
+        "/images/catalog/verre-select/local-option-1035-1a0aea156459.jpg",
+        "/images/catalog/verre-select/variant-241-1219-cad98d6f5444.jpg",
+        "/images/catalog/verre-select/vs-degree-intimite-2-f2cd920d08d3.jpg"
       ],
       "product_data": {},
       "embedded_products": []
@@ -211,21 +186,349 @@
       "title": "Vitraux Cyndi",
       "h1": "Cyndi",
       "description": "The Cyndi model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
-      "snapshot": "source-media\\verre-select\\html\\0016-cyndi.html",
+      "snapshot": "source-media\\verre-select\\html\\0010-cyndi.html",
       "is_product_candidate": true,
       "category": "door-glass",
       "assets": [
-        "/images/catalog/verre-select/variant-243-1232-efbb5800c377.jpg"
+        "/images/catalog/verre-select/local-option-1043-85adebc8ef75.jpg",
+        "/images/catalog/verre-select/local-option-1044-6ecf0a516be3.jpg",
+        "/images/catalog/verre-select/local-option-1046-3ce31aee4c93.jpg",
+        "/images/catalog/verre-select/local-option-1047-2ba1772a84c3.jpg",
+        "/images/catalog/verre-select/variant-243-1232-efbb5800c377.jpg",
+        "/images/catalog/verre-select/vs-degree-intimite-2-f2cd920d08d3.jpg"
       ],
       "product_data": {},
       "embedded_products": []
     },
     {
-      "url": "https://verreselect.com/categories.php?CategoryID=3&UILanguage=en",
+      "url": "https://verreselect.com/categories.php?CategoryID=1&UILanguage=EN&page=2",
+      "title": "Door Windows - VERRE SELECT Collection (page 2 of 3)",
+      "h1": "Door Windows",
+      "description": "Verre Select's new collection of decorative glass will please you and certainly enhance your home. Sophisticated, various opaque patterns that ensures the desired privacy and comfort. Our new contemporay frame fits particularly well with these new models. Verre Select, creativity at your service. Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0011-door-windows.html",
+      "is_product_candidate": false,
+      "category": "door-glass",
+      "assets": [
+        "/images/catalog/verre-select/cadre-executif-6680c506dc6c.jpg",
+        "/images/catalog/verre-select/cadreurbain-exterieur-90f4c0106e92.jpg"
+      ],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/product.php?ProductID=254&UILanguage=EN",
+      "title": "Verre Select Inc.: Paris",
+      "h1": "Paris",
+      "description": "  Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0012-paris.html",
+      "is_product_candidate": true,
+      "category": "door-glass",
+      "assets": [
+        "/images/catalog/verre-select/product-867-35368d4d2e92.jpg"
+      ],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/product.php?ProductID=255&UILanguage=EN",
+      "title": "Verre Select Inc.: Rill",
+      "h1": "Rill",
+      "description": "  Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0013-rill.html",
+      "is_product_candidate": true,
+      "category": "door-glass",
+      "assets": [
+        "/images/catalog/verre-select/product-868-cc87c0aaad7b.jpg"
+      ],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/product.php?ProductID=256&UILanguage=EN",
+      "title": "Verre Select Inc.: Waterside",
+      "h1": "Waterside",
+      "description": "  Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0014-waterside.html",
+      "is_product_candidate": true,
+      "category": "door-glass",
+      "assets": [
+        "/images/catalog/verre-select/product-869-b9ba52c86921.jpg"
+      ],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/product.php?ProductID=257&UILanguage=EN",
+      "title": "Verre Select Inc.: Wide Reed",
+      "h1": "Wide Reed",
+      "description": "  Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0015-wide-reed.html",
+      "is_product_candidate": true,
+      "category": "door-glass",
+      "assets": [
+        "/images/catalog/verre-select/product-870-c59ef464f7e2.jpg"
+      ],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/product.php?ProductID=13&UILanguage=EN",
+      "title": "Vitraux Amadeus",
+      "h1": "Amadeus",
+      "description": "The AMADEUS model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0016-amadeus.html",
+      "is_product_candidate": true,
+      "category": "door-glass",
+      "assets": [
+        "/images/catalog/verre-select/local-option-64-cc14673b8d55.jpg",
+        "/images/catalog/verre-select/local-option-65-b720194b4bb7.jpg",
+        "/images/catalog/verre-select/local-option-66-426d8b57e18d.jpg",
+        "/images/catalog/verre-select/local-option-67-23cf0c12f528.jpg",
+        "/images/catalog/verre-select/variant-13-35-ba9a9f0f7745.jpg",
+        "/images/catalog/verre-select/vs-degree-intimite-2-f2cd920d08d3.jpg"
+      ],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/product.php?ProductID=41&UILanguage=EN",
+      "title": "Vitraux Pixel",
+      "h1": "Pixel",
+      "description": "The PIXEL model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0017-pixel.html",
+      "is_product_candidate": true,
+      "category": "door-glass",
+      "assets": [
+        "/images/catalog/verre-select/local-option-215-e7905c18e8ba.jpg",
+        "/images/catalog/verre-select/local-option-969-fca61dc6b226.jpg",
+        "/images/catalog/verre-select/variant-41-246-d6d6d9ddd110.jpg",
+        "/images/catalog/verre-select/vs-degree-intimite-2-f2cd920d08d3.jpg"
+      ],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/product.php?ProductID=42&UILanguage=EN",
+      "title": "Vitraux Renoir",
+      "h1": "Renoir",
+      "description": "The RENOIR model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0018-renoir.html",
+      "is_product_candidate": true,
+      "category": "door-glass",
+      "assets": [
+        "/images/catalog/verre-select/local-option-224-22e885cf14df.jpg",
+        "/images/catalog/verre-select/local-option-225-fd781f3bab08.jpg",
+        "/images/catalog/verre-select/local-option-226-adac3c3350a6.jpg",
+        "/images/catalog/verre-select/local-option-227-dfc2676d01a1.jpg",
+        "/images/catalog/verre-select/local-option-968-b3ba60192aed.jpg",
+        "/images/catalog/verre-select/variant-42-264-f890d73e28f8.jpg",
+        "/images/catalog/verre-select/vs-degree-intimite-2-f2cd920d08d3.jpg"
+      ],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/product.php?ProductID=44&UILanguage=EN",
+      "title": "Vitraux Venus",
+      "h1": "Venus",
+      "description": "The VENUS model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0019-venus.html",
+      "is_product_candidate": true,
+      "category": "door-glass",
+      "assets": [
+        "/images/catalog/verre-select/local-option-244-40ffd31f9661.jpg",
+        "/images/catalog/verre-select/local-option-246-f837b356b79e.jpg",
+        "/images/catalog/verre-select/local-option-247-868686c48f99.jpg",
+        "/images/catalog/verre-select/local-option-253-b693989db7e6.jpg",
+        "/images/catalog/verre-select/local-option-966-34302b3636e8.jpg",
+        "/images/catalog/verre-select/local-option-967-df4da06ba282.jpg",
+        "/images/catalog/verre-select/variant-44-303-621cae2d3039.jpg",
+        "/images/catalog/verre-select/vs-degree-intimite-2-f2cd920d08d3.jpg"
+      ],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/product.php?ProductID=60&UILanguage=EN",
+      "title": "Vitraux Rodin",
+      "h1": "Rodin",
+      "description": "The RODIN model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0020-rodin.html",
+      "is_product_candidate": true,
+      "category": "door-glass",
+      "assets": [
+        "/images/catalog/verre-select/local-option-390-d4ac08a938ae.jpg",
+        "/images/catalog/verre-select/local-option-391-a738281d5bbb.jpg",
+        "/images/catalog/verre-select/variant-60-590-7dce39571d4a.jpg",
+        "/images/catalog/verre-select/vs-degree-intimite-2-f2cd920d08d3.jpg"
+      ],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/categories.php?CategoryID=1&UILanguage=EN&page=3",
+      "title": "Door Windows - VERRE SELECT Collection (page 3 of 3)",
+      "h1": "Door Windows",
+      "description": "Verre Select's new collection of decorative glass will please you and certainly enhance your home. Sophisticated, various opaque patterns that ensures the desired privacy and comfort. Our new contemporay frame fits particularly well with these new models. Verre Select, creativity at your service. Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0021-door-windows.html",
+      "is_product_candidate": false,
+      "category": "door-glass",
+      "assets": [
+        "/images/catalog/verre-select/cadre-executif-6680c506dc6c.jpg",
+        "/images/catalog/verre-select/cadreurbain-exterieur-90f4c0106e92.jpg"
+      ],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/product.php?ProductID=250&UILanguage=EN",
+      "title": "Verre Select Inc.: Dorian",
+      "h1": "Dorian",
+      "description": "  Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0022-dorian.html",
+      "is_product_candidate": true,
+      "category": "door-glass",
+      "assets": [
+        "/images/catalog/verre-select/product-863-24ede466b35f.jpg"
+      ],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/product.php?ProductID=251&UILanguage=EN",
+      "title": "Verre Select Inc.: Crosswalk",
+      "h1": "Crosswalk",
+      "description": "  Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0023-crosswalk.html",
+      "is_product_candidate": true,
+      "category": "door-glass",
+      "assets": [
+        "/images/catalog/verre-select/product-864-1820cdd10723.jpg"
+      ],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/product.php?ProductID=252&UILanguage=EN",
+      "title": "Verre Select Inc.: Endrick",
+      "h1": "Endrick",
+      "description": "  Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0024-endrick.html",
+      "is_product_candidate": true,
+      "category": "door-glass",
+      "assets": [
+        "/images/catalog/verre-select/product-865-b959e146d4dd.jpg"
+      ],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/product.php?ProductID=253&UILanguage=EN",
+      "title": "Verre Select Inc.: Epic",
+      "h1": "Epic",
+      "description": "  Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0025-epic.html",
+      "is_product_candidate": true,
+      "category": "door-glass",
+      "assets": [
+        "/images/catalog/verre-select/product-866-97b4e83b49a2.jpg"
+      ],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/categories.php?CategoryID=10&UILanguage=EN",
+      "title": "Verre Select: Création Select",
+      "h1": "Création Sélect",
+      "description": "At Verre Select, we give you the ability to create your own personal front entrance design! Choose Création Sélect! Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0026-cr-ation-s-lect.html",
+      "is_product_candidate": false,
+      "category": "door-glass",
+      "assets": [
+        "/images/catalog/verre-select/cadre-executif-6680c506dc6c.jpg",
+        "/images/catalog/verre-select/cadreurbain-exterieur-90f4c0106e92.jpg"
+      ],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/product.php?ProductID=104&UILanguage=EN",
+      "title": "Création Sélect HS-CRE106E+-10",
+      "h1": "HS-CRE106E+-10",
+      "description": "At Verre Select, we give you the ability to create your own personal front entrance design! Choose Création Sélect! HS-CRE106E+-10 Non-Welded Silver + Chinchilla Glass + 106-10 = Custom Door Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0027-hs-cre106e-10.html",
+      "is_product_candidate": true,
+      "category": "door-glass",
+      "assets": [
+        "/images/catalog/verre-select/106-108-10-c87c3b025de6.jpg",
+        "/images/catalog/verre-select/local-option-746-0cc3302de7df.jpg",
+        "/images/catalog/verre-select/variant-104-961-567f11a6d909.jpg"
+      ],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/product.php?ProductID=105&UILanguage=EN",
+      "title": "Création Sélect HS-CRE104E+-4",
+      "h1": "HS-CRE104E+-4",
+      "description": "At Verre Select, we give you the ability to create your own personal front entrance design! Choose Création Sélect! HS-CRE104E+-4 Non-Welded Black + Kasumi Glass + 104-4 = Custom Door Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0028-hs-cre104e-4.html",
+      "is_product_candidate": true,
+      "category": "door-glass",
+      "assets": [
+        "/images/catalog/verre-select/104-4-e3584b559676.jpg",
+        "/images/catalog/verre-select/local-option-746-0cc3302de7df.jpg",
+        "/images/catalog/verre-select/variant-105-965-81b5c0fbe84a.jpg"
+      ],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/product.php?ProductID=107&UILanguage=EN",
+      "title": "Création Sélect HS-CRE106E+-5",
+      "h1": "HS-CRE106E+-5",
+      "description": "At Verre Select, we give you the ability to create your own personal front entrance design! Choose Création Sélect! HS-CRE106E+-5 Flat Non-Welded Brushed Chrome 1'' + Screen Glass + 106-5 = Custom Door Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0029-hs-cre106e-5.html",
+      "is_product_candidate": true,
+      "category": "door-glass",
+      "assets": [
+        "/images/catalog/verre-select/106-108-5-c2f257ce9fbe.jpg",
+        "/images/catalog/verre-select/local-option-746-0cc3302de7df.jpg",
+        "/images/catalog/verre-select/variant-107-973-cf20dd8b2cab.jpg"
+      ],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/categories.php?CategoryID=17&UILanguage=EN",
+      "title": "Verre Select Inc.: Frames",
+      "h1": "Frames",
+      "description": "Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0030-frames.html",
+      "is_product_candidate": false,
+      "category": "door-glass",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/categories.php?CategoryID=18&UILanguage=EN",
+      "title": "Verre Select Inc.: Moldings",
+      "h1": "Moldings",
+      "description": "Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0031-moldings.html",
+      "is_product_candidate": false,
+      "category": "door-glass",
+      "assets": [],
+      "product_data": {},
+      "embedded_products": []
+    },
+    {
+      "url": "https://verreselect.com/categories.php?CategoryID=3&UILanguage=EN",
       "title": "Fiberglass Doors by ODL · Verre Sélect",
       "h1": "Fiberglass Doors",
       "description": "Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
-      "snapshot": "source-media\\verre-select\\html\\0017-fiberglass-doors.html",
+      "snapshot": "source-media\\verre-select\\html\\0032-fiberglass-doors.html",
       "is_product_candidate": false,
       "category": "door-glass",
       "assets": [],
@@ -233,11 +536,11 @@
       "embedded_products": []
     },
     {
-      "url": "https://verreselect.com/categories.php?CategoryID=53&UILanguage=en",
+      "url": "https://verreselect.com/categories.php?CategoryID=53&UILanguage=EN",
       "title": "Verre Select Inc.: Steel Doors",
       "h1": "Steel Doors",
       "description": "Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
-      "snapshot": "source-media\\verre-select\\html\\0018-steel-doors.html",
+      "snapshot": "source-media\\verre-select\\html\\0033-steel-doors.html",
       "is_product_candidate": false,
       "category": "door-glass",
       "assets": [],
@@ -245,25 +548,13 @@
       "embedded_products": []
     },
     {
-      "url": "https://verreselect.com/categories.php?CategoryID=55&UILanguage=en",
-      "title": "Verre Select Inc.: Glass Staircases",
-      "h1": "Glass Staircases",
-      "description": "Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
-      "snapshot": "source-media\\verre-select\\html\\0019-glass-staircases.html",
+      "url": "https://verreselect.com/page.php?PageID=8&UILanguage=EN",
+      "title": "VERRE SELECT Brochures on-line",
+      "h1": "Brochures",
+      "description": "Our company specializes in decorative windows of higher quality and we offer you exceptional fiberglass doors. Verre Select: partner for your ideas and your projects. Now available our brochures on-line. Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "snapshot": "source-media\\verre-select\\html\\0034-brochures.html",
       "is_product_candidate": false,
-      "category": "door-glass",
-      "assets": [],
-      "product_data": {},
-      "embedded_products": []
-    },
-    {
-      "url": "https://verreselect.com/categories.php?CategoryID=56&UILanguage=en",
-      "title": "Verre Select Inc.: Showers",
-      "h1": "Showers",
-      "description": "Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
-      "snapshot": "source-media\\verre-select\\html\\0020-showers.html",
-      "is_product_candidate": false,
-      "category": "door-glass",
+      "category": "unclassified",
       "assets": [],
       "product_data": {},
       "embedded_products": []
@@ -273,30 +564,96 @@
     {
       "supplier": "verre-select",
       "source_page_urls": [
+        "https://verreselect.com/categories.php?CategoryID=1&UILanguage=EN",
+        "https://verreselect.com/categories.php?CategoryID=1&UILanguage=EN&page=2",
+        "https://verreselect.com/categories.php?CategoryID=1&UILanguage=EN&page=3",
+        "https://verreselect.com/categories.php?CategoryID=10&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/editor/image/CadreURBAIN_Exterieur.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/editor/image/CadreURBAIN_Exterieur.jpg",
+      "local_path": "/images/catalog/verre-select/cadreurbain-exterieur-90f4c0106e92.jpg",
+      "asset_type": "image",
+      "role": "profile-section",
+      "sha256": "fe45e723bc2539ac55a8254eef4e00783edcfabb7583017d2b71298d563c4820",
+      "bytes": 420876,
+      "discovered_at": "2026-08-20T06:05:11Z",
+      "source_asset_urls": [
+        "https://verreselect.com/userfiles/editor/image/CadreURBAIN_Exterieur.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "https://verreselect.com/userfiles/editor/image/CadreURBAIN_Exterieur.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/editor/image/CadreURBAIN_Exterieur.jpg",
+      "mime_type": "image/jpeg",
+      "width": 800,
+      "height": 847
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
         "https://verreselect.com/product.php?ProductID=171&UILanguage=EN"
       ],
-      "original_asset_url": "https://verreselect.com/userfiles/productimages/variant_171_1009.jpg",
-      "final_asset_url": "https://verreselect.com/userfiles/productimages/variant_171_1009.jpg",
-      "local_path": "/images/catalog/verre-select/variant-171-1009-a6453d2fafac.jpg",
+      "original_asset_url": "https://verreselect.com/userfiles/editor/image/VERRE_whistler.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/editor/image/VERRE_whistler.jpg",
+      "local_path": "/images/catalog/verre-select/verre-whistler-7f05bc4f13b1.jpg",
       "asset_type": "image",
-      "role": "hero",
-      "sha256": "1643268fd318b7a73442f38f475efdb32f3ab094ba73b12d53ca4d42a670a778",
-      "bytes": 12677,
-      "discovered_at": "2026-08-19T20:02:47Z"
+      "role": "glass-design",
+      "sha256": "d93b33e773f015ee55167a7bb07d0f04a060b46063389ad7cd5dbb27d2e45656",
+      "bytes": 149776,
+      "discovered_at": "2026-08-20T06:05:12Z",
+      "source_asset_urls": [
+        "https://verreselect.com/userfiles/editor/image/VERRE_whistler.jpg"
+      ],
+      "product_ids": [
+        "verre-select:whistler"
+      ],
+      "collections": [],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "filename-model-match",
+        "supplier-scoped-explicit-role"
+      ],
+      "master_asset_url": "https://verreselect.com/userfiles/editor/image/VERRE_whistler.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/editor/image/VERRE_whistler.jpg",
+      "mime_type": "image/jpeg",
+      "width": 667,
+      "height": 280
     },
     {
       "supplier": "verre-select",
       "source_page_urls": [
         "https://verreselect.com/product.php?ProductID=174&UILanguage=EN"
       ],
-      "original_asset_url": "https://verreselect.com/userfiles/productimages/variant_174_1029.jpg",
-      "final_asset_url": "https://verreselect.com/userfiles/productimages/variant_174_1029.jpg",
-      "local_path": "/images/catalog/verre-select/variant-174-1029-836e07ac6917.jpg",
+      "original_asset_url": "https://verreselect.com/userfiles/editor/image/VERRE_quattro.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/editor/image/VERRE_quattro.jpg",
+      "local_path": "/images/catalog/verre-select/verre-quattro-ef672882dfef.jpg",
       "asset_type": "image",
-      "role": "hero",
-      "sha256": "7d7be21e9914a62e3f1d3aad0243700714150ac46fcf28c66c6054015fc6b4b7",
-      "bytes": 88109,
-      "discovered_at": "2026-08-19T20:02:48Z"
+      "role": "glass-design",
+      "sha256": "197d58fc9f4e3728ac5ab533ac8a5901e2feb64941a57afc21f710773f8a3c3e",
+      "bytes": 134506,
+      "discovered_at": "2026-08-20T06:05:13Z",
+      "source_asset_urls": [
+        "https://verreselect.com/userfiles/editor/image/VERRE_quattro.jpg"
+      ],
+      "product_ids": [
+        "verre-select:quattro"
+      ],
+      "collections": [],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "filename-model-match",
+        "supplier-scoped-explicit-role"
+      ],
+      "master_asset_url": "https://verreselect.com/userfiles/editor/image/VERRE_quattro.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/editor/image/VERRE_quattro.jpg",
+      "mime_type": "image/jpeg",
+      "width": 680,
+      "height": 516
     },
     {
       "supplier": "verre-select",
@@ -307,10 +664,29 @@
       "final_asset_url": "https://verreselect.com/userfiles/productimages/variant_230_1113.jpg",
       "local_path": "/images/catalog/verre-select/variant-230-1113-a7d4719b2fe8.jpg",
       "asset_type": "image",
-      "role": "hero",
+      "role": "product-hero",
       "sha256": "cdd413c341c91d023fb50cb563bb14cd435680c68f3bb2b9138917021f6705ef",
       "bytes": 11723,
-      "discovered_at": "2026-08-19T20:02:49Z"
+      "discovered_at": "2026-08-20T06:05:13Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/productimages/variant_230_1113.jpg",
+        "https://verreselect.com/userfiles/productimages/variant_230_1113.jpg"
+      ],
+      "product_ids": [
+        "verre-select:fragrance"
+      ],
+      "collections": [],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "primary-product-hero",
+        "supplier-scoped-explicit-role"
+      ],
+      "master_asset_url": "https://verreselect.com/userfiles/productimages/variant_230_1113.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/productimages/variant_230_1113.jpg",
+      "mime_type": "image/jpeg",
+      "width": 219,
+      "height": 458
     },
     {
       "supplier": "verre-select",
@@ -321,10 +697,29 @@
       "final_asset_url": "https://verreselect.com/userfiles/productimages/variant_232_1123.jpg",
       "local_path": "/images/catalog/verre-select/variant-232-1123-737fbaa6115f.jpg",
       "asset_type": "image",
-      "role": "hero",
+      "role": "product-hero",
       "sha256": "f205f97d4c1cb85db14c3ee61359a0febf3ba6946d721814dbe7866c3e447660",
       "bytes": 11444,
-      "discovered_at": "2026-08-19T20:02:50Z"
+      "discovered_at": "2026-08-20T06:05:14Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/productimages/variant_232_1123.jpg",
+        "https://verreselect.com/userfiles/productimages/variant_232_1123.jpg"
+      ],
+      "product_ids": [
+        "verre-select:gabriella"
+      ],
+      "collections": [],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "primary-product-hero",
+        "supplier-scoped-explicit-role"
+      ],
+      "master_asset_url": "https://verreselect.com/userfiles/productimages/variant_232_1123.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/productimages/variant_232_1123.jpg",
+      "mime_type": "image/jpeg",
+      "width": 195,
+      "height": 458
     },
     {
       "supplier": "verre-select",
@@ -335,10 +730,29 @@
       "final_asset_url": "https://verreselect.com/userfiles/productimages/variant_234_1132.jpg",
       "local_path": "/images/catalog/verre-select/variant-234-1132-0fd149a52264.jpg",
       "asset_type": "image",
-      "role": "hero",
+      "role": "product-hero",
       "sha256": "cb2d8d4392e437dfa6f882d49fe264470dbece867612013a0240e7f684c30f5d",
       "bytes": 23652,
-      "discovered_at": "2026-08-19T20:02:51Z"
+      "discovered_at": "2026-08-20T06:05:14Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/productimages/variant_234_1132.jpg",
+        "https://verreselect.com/userfiles/productimages/variant_234_1132.jpg"
+      ],
+      "product_ids": [
+        "verre-select:cbg"
+      ],
+      "collections": [],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "primary-product-hero",
+        "supplier-scoped-explicit-role"
+      ],
+      "master_asset_url": "https://verreselect.com/userfiles/productimages/variant_234_1132.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/productimages/variant_234_1132.jpg",
+      "mime_type": "image/jpeg",
+      "width": 195,
+      "height": 458
     },
     {
       "supplier": "verre-select",
@@ -349,10 +763,29 @@
       "final_asset_url": "https://verreselect.com/userfiles/productimages/variant_235_1143.jpg",
       "local_path": "/images/catalog/verre-select/variant-235-1143-9cfcd897278c.jpg",
       "asset_type": "image",
-      "role": "hero",
+      "role": "product-hero",
       "sha256": "33a94e0fdf0be13c1f94c55a62e04875a191480bd9dfd0d96000506102f4b1f0",
       "bytes": 38349,
-      "discovered_at": "2026-08-19T20:02:51Z"
+      "discovered_at": "2026-08-20T06:05:15Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/productimages/variant_235_1143.jpg",
+        "https://verreselect.com/userfiles/productimages/variant_235_1143.jpg"
+      ],
+      "product_ids": [
+        "verre-select:cadence"
+      ],
+      "collections": [],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "primary-product-hero",
+        "supplier-scoped-explicit-role"
+      ],
+      "master_asset_url": "https://verreselect.com/userfiles/productimages/variant_235_1143.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/productimages/variant_235_1143.jpg",
+      "mime_type": "image/jpeg",
+      "width": 200,
+      "height": 458
     },
     {
       "supplier": "verre-select",
@@ -363,10 +796,29 @@
       "final_asset_url": "https://verreselect.com/userfiles/productimages/variant_240_1215.jpg",
       "local_path": "/images/catalog/verre-select/variant-240-1215-d7c06c9aafe6.jpg",
       "asset_type": "image",
-      "role": "hero",
+      "role": "product-hero",
       "sha256": "b782bdad0fb01a1039ec3d0b8a85e25b8b001e62d42fb1ef2d9b2dad8bbe9440",
       "bytes": 10447,
-      "discovered_at": "2026-08-19T20:02:52Z"
+      "discovered_at": "2026-08-20T06:05:15Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/productimages/variant_240_1215.jpg",
+        "https://verreselect.com/userfiles/productimages/variant_240_1215.jpg"
+      ],
+      "product_ids": [
+        "verre-select:naomie"
+      ],
+      "collections": [],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "primary-product-hero",
+        "supplier-scoped-explicit-role"
+      ],
+      "master_asset_url": "https://verreselect.com/userfiles/productimages/variant_240_1215.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/productimages/variant_240_1215.jpg",
+      "mime_type": "image/jpeg",
+      "width": 199,
+      "height": 458
     },
     {
       "supplier": "verre-select",
@@ -377,10 +829,29 @@
       "final_asset_url": "https://verreselect.com/userfiles/productimages/variant_241_1219.jpg",
       "local_path": "/images/catalog/verre-select/variant-241-1219-cad98d6f5444.jpg",
       "asset_type": "image",
-      "role": "hero",
+      "role": "product-hero",
       "sha256": "b5dda6a974ff6ff62def0e3a6e5d756907f87191424cbe07a3d211ca58ea81c5",
       "bytes": 9820,
-      "discovered_at": "2026-08-19T20:02:53Z"
+      "discovered_at": "2026-08-20T06:05:16Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/productimages/variant_241_1219.jpg",
+        "https://verreselect.com/userfiles/productimages/variant_241_1219.jpg"
+      ],
+      "product_ids": [
+        "verre-select:java"
+      ],
+      "collections": [],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "primary-product-hero",
+        "supplier-scoped-explicit-role"
+      ],
+      "master_asset_url": "https://verreselect.com/userfiles/productimages/variant_241_1219.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/productimages/variant_241_1219.jpg",
+      "mime_type": "image/jpeg",
+      "width": 199,
+      "height": 458
     },
     {
       "supplier": "verre-select",
@@ -391,10 +862,2417 @@
       "final_asset_url": "https://verreselect.com/userfiles/productimages/variant_243_1232.jpg",
       "local_path": "/images/catalog/verre-select/variant-243-1232-efbb5800c377.jpg",
       "asset_type": "image",
-      "role": "hero",
+      "role": "product-hero",
       "sha256": "f1697a6969fbfa140451afe376343b9461254edaa3772607d1df14b627558b98",
       "bytes": 12803,
-      "discovered_at": "2026-08-19T20:02:54Z"
+      "discovered_at": "2026-08-20T06:05:16Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/productimages/variant_243_1232.jpg",
+        "https://verreselect.com/userfiles/productimages/variant_243_1232.jpg"
+      ],
+      "product_ids": [
+        "verre-select:cyndi"
+      ],
+      "collections": [],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "primary-product-hero",
+        "supplier-scoped-explicit-role"
+      ],
+      "master_asset_url": "https://verreselect.com/userfiles/productimages/variant_243_1232.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/productimages/variant_243_1232.jpg",
+      "mime_type": "image/jpeg",
+      "width": 199,
+      "height": 458
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/categories.php?CategoryID=1&UILanguage=EN",
+        "https://verreselect.com/categories.php?CategoryID=1&UILanguage=EN&page=2",
+        "https://verreselect.com/categories.php?CategoryID=1&UILanguage=EN&page=3",
+        "https://verreselect.com/categories.php?CategoryID=10&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/editor/image/cadre_EXECUTIF.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/editor/image/cadre_EXECUTIF.jpg",
+      "local_path": "/images/catalog/verre-select/cadre-executif-6680c506dc6c.jpg",
+      "asset_type": "image",
+      "role": "profile-section",
+      "sha256": "626d03be502d75ade61bfce756a7f1b12746700490717bb46a9078854f1361fb",
+      "bytes": 21368,
+      "discovered_at": "2026-08-20T06:05:17Z",
+      "source_asset_urls": [
+        "https://verreselect.com/userfiles/editor/image/cadre_EXECUTIF.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "https://verreselect.com/userfiles/editor/image/cadre_EXECUTIF.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/editor/image/cadre_EXECUTIF.jpg",
+      "mime_type": "image/jpeg",
+      "width": 205,
+      "height": 205
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=254&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/productimages/product_867.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/productimages/product_867.jpg",
+      "local_path": "/images/catalog/verre-select/product-867-35368d4d2e92.jpg",
+      "asset_type": "image",
+      "role": "product-hero",
+      "sha256": "421b2c1448cc78003492047eaf3653d148c33bdb5d6ec859d0657ebee308de56",
+      "bytes": 122864,
+      "discovered_at": "2026-08-20T06:05:18Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/productimages/product_867.jpg",
+        "https://verreselect.com/userfiles/productimages/product_867.jpg"
+      ],
+      "product_ids": [
+        "verre-select:paris"
+      ],
+      "collections": [],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "primary-product-hero",
+        "supplier-scoped-explicit-role"
+      ],
+      "master_asset_url": "https://verreselect.com/userfiles/productimages/product_867.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/productimages/product_867.jpg",
+      "mime_type": "image/jpeg",
+      "width": 199,
+      "height": 458
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=255&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/productimages/product_868.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/productimages/product_868.jpg",
+      "local_path": "/images/catalog/verre-select/product-868-cc87c0aaad7b.jpg",
+      "asset_type": "image",
+      "role": "product-hero",
+      "sha256": "803d8c0af82ffac8e775bc96e59af065093a87babe12a08cafe973d5035364aa",
+      "bytes": 108512,
+      "discovered_at": "2026-08-20T06:05:18Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/productimages/product_868.jpg",
+        "https://verreselect.com/userfiles/productimages/product_868.jpg"
+      ],
+      "product_ids": [
+        "verre-select:rill"
+      ],
+      "collections": [],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "primary-product-hero",
+        "supplier-scoped-explicit-role"
+      ],
+      "master_asset_url": "https://verreselect.com/userfiles/productimages/product_868.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/productimages/product_868.jpg",
+      "mime_type": "image/jpeg",
+      "width": 199,
+      "height": 458
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=256&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/productimages/product_869.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/productimages/product_869.jpg",
+      "local_path": "/images/catalog/verre-select/product-869-b9ba52c86921.jpg",
+      "asset_type": "image",
+      "role": "product-hero",
+      "sha256": "86001468fc5c8457d3e8e7532d54f402ef0ee56941d05c4bb1813ee83c4e81d4",
+      "bytes": 143675,
+      "discovered_at": "2026-08-20T06:05:19Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/productimages/product_869.jpg",
+        "https://verreselect.com/userfiles/productimages/product_869.jpg"
+      ],
+      "product_ids": [
+        "verre-select:waterside"
+      ],
+      "collections": [],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "primary-product-hero",
+        "supplier-scoped-explicit-role"
+      ],
+      "master_asset_url": "https://verreselect.com/userfiles/productimages/product_869.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/productimages/product_869.jpg",
+      "mime_type": "image/jpeg",
+      "width": 199,
+      "height": 458
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=257&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/productimages/product_870.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/productimages/product_870.jpg",
+      "local_path": "/images/catalog/verre-select/product-870-c59ef464f7e2.jpg",
+      "asset_type": "image",
+      "role": "product-hero",
+      "sha256": "40bfdbfc2c52eae5697690dff73dc00dce187326b190c266d8805843948d0444",
+      "bytes": 89507,
+      "discovered_at": "2026-08-20T06:05:20Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/productimages/product_870.jpg",
+        "https://verreselect.com/userfiles/productimages/product_870.jpg"
+      ],
+      "product_ids": [
+        "verre-select:wide-reed"
+      ],
+      "collections": [],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "primary-product-hero",
+        "supplier-scoped-explicit-role"
+      ],
+      "master_asset_url": "https://verreselect.com/userfiles/productimages/product_870.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/productimages/product_870.jpg",
+      "mime_type": "image/jpeg",
+      "width": 199,
+      "height": 458
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=13&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/productimages/variant_13_35.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/productimages/variant_13_35.jpg",
+      "local_path": "/images/catalog/verre-select/variant-13-35-ba9a9f0f7745.jpg",
+      "asset_type": "image",
+      "role": "product-hero",
+      "sha256": "3b351dc758534c15e2560ef7fe3dde6d02a57341811f32de21f387ec5c523b17",
+      "bytes": 50505,
+      "discovered_at": "2026-08-20T06:05:21Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/productimages/variant_13_35.jpg",
+        "https://verreselect.com/userfiles/productimages/variant_13_35.jpg"
+      ],
+      "product_ids": [
+        "verre-select:amadeus"
+      ],
+      "collections": [],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "primary-product-hero",
+        "supplier-scoped-explicit-role"
+      ],
+      "master_asset_url": "https://verreselect.com/userfiles/productimages/variant_13_35.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/productimages/variant_13_35.jpg",
+      "mime_type": "image/jpeg",
+      "width": 200,
+      "height": 458
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=41&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/productimages/variant_41_246.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/productimages/variant_41_246.jpg",
+      "local_path": "/images/catalog/verre-select/variant-41-246-d6d6d9ddd110.jpg",
+      "asset_type": "image",
+      "role": "product-hero",
+      "sha256": "2c17d369ca72a87ce3a98dae69b97595970cac856c662bf3198da924fadad253",
+      "bytes": 85042,
+      "discovered_at": "2026-08-20T06:05:21Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/productimages/variant_41_246.jpg",
+        "https://verreselect.com/userfiles/productimages/variant_41_246.jpg"
+      ],
+      "product_ids": [
+        "verre-select:pixel"
+      ],
+      "collections": [],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "primary-product-hero",
+        "supplier-scoped-explicit-role"
+      ],
+      "master_asset_url": "https://verreselect.com/userfiles/productimages/variant_41_246.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/productimages/variant_41_246.jpg",
+      "mime_type": "image/jpeg",
+      "width": 195,
+      "height": 458
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=42&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/productimages/variant_42_264.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/productimages/variant_42_264.jpg",
+      "local_path": "/images/catalog/verre-select/variant-42-264-f890d73e28f8.jpg",
+      "asset_type": "image",
+      "role": "product-hero",
+      "sha256": "16a46c9f06fc2db7218bdfd50491c53513805b0b72fce7513844f7806fb381c5",
+      "bytes": 14388,
+      "discovered_at": "2026-08-20T06:05:22Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/productimages/variant_42_264.jpg",
+        "https://verreselect.com/userfiles/productimages/variant_42_264.jpg"
+      ],
+      "product_ids": [
+        "verre-select:renoir"
+      ],
+      "collections": [],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "primary-product-hero",
+        "supplier-scoped-explicit-role"
+      ],
+      "master_asset_url": "https://verreselect.com/userfiles/productimages/variant_42_264.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/productimages/variant_42_264.jpg",
+      "mime_type": "image/jpeg",
+      "width": 200,
+      "height": 458
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=44&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/productimages/variant_44_303.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/productimages/variant_44_303.jpg",
+      "local_path": "/images/catalog/verre-select/variant-44-303-621cae2d3039.jpg",
+      "asset_type": "image",
+      "role": "product-hero",
+      "sha256": "a2ff21a5362f72d7e095cd222d1ec2cf361d2cfd0e33573a5c6939bd5761dc01",
+      "bytes": 14560,
+      "discovered_at": "2026-08-20T06:05:22Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/productimages/variant_44_303.jpg",
+        "https://verreselect.com/userfiles/productimages/variant_44_303.jpg"
+      ],
+      "product_ids": [
+        "verre-select:venus"
+      ],
+      "collections": [],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "primary-product-hero",
+        "supplier-scoped-explicit-role"
+      ],
+      "master_asset_url": "https://verreselect.com/userfiles/productimages/variant_44_303.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/productimages/variant_44_303.jpg",
+      "mime_type": "image/jpeg",
+      "width": 196,
+      "height": 458
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=60&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/productimages/variant_60_590.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/productimages/variant_60_590.jpg",
+      "local_path": "/images/catalog/verre-select/variant-60-590-7dce39571d4a.jpg",
+      "asset_type": "image",
+      "role": "product-hero",
+      "sha256": "8e6d64131298749373ad3d103bc92edf5824d2681625ca8a069cb4a406419f52",
+      "bytes": 12289,
+      "discovered_at": "2026-08-20T06:05:23Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/productimages/variant_60_590.jpg",
+        "https://verreselect.com/userfiles/productimages/variant_60_590.jpg"
+      ],
+      "product_ids": [
+        "verre-select:rodin"
+      ],
+      "collections": [],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "primary-product-hero",
+        "supplier-scoped-explicit-role"
+      ],
+      "master_asset_url": "https://verreselect.com/userfiles/productimages/variant_60_590.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/productimages/variant_60_590.jpg",
+      "mime_type": "image/jpeg",
+      "width": 200,
+      "height": 458
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=250&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/productimages/product_863.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/productimages/product_863.jpg",
+      "local_path": "/images/catalog/verre-select/product-863-24ede466b35f.jpg",
+      "asset_type": "image",
+      "role": "product-hero",
+      "sha256": "6a2e0fc865a9d6724c88a75e0abbf796692c25e69925425fdd335d0bd639b653",
+      "bytes": 131147,
+      "discovered_at": "2026-08-20T06:05:23Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/productimages/product_863.jpg",
+        "https://verreselect.com/userfiles/productimages/product_863.jpg"
+      ],
+      "product_ids": [
+        "verre-select:dorian"
+      ],
+      "collections": [],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "primary-product-hero",
+        "supplier-scoped-explicit-role"
+      ],
+      "master_asset_url": "https://verreselect.com/userfiles/productimages/product_863.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/productimages/product_863.jpg",
+      "mime_type": "image/jpeg",
+      "width": 199,
+      "height": 458
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=251&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/productimages/product_864.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/productimages/product_864.jpg",
+      "local_path": "/images/catalog/verre-select/product-864-1820cdd10723.jpg",
+      "asset_type": "image",
+      "role": "product-hero",
+      "sha256": "31ae503ec0b407634dc5da2932406b36d65843e752e58fee8df1bebb7bf0b606",
+      "bytes": 123285,
+      "discovered_at": "2026-08-20T06:05:24Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/productimages/product_864.jpg",
+        "https://verreselect.com/userfiles/productimages/product_864.jpg"
+      ],
+      "product_ids": [
+        "verre-select:crosswalk"
+      ],
+      "collections": [],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "primary-product-hero",
+        "supplier-scoped-explicit-role"
+      ],
+      "master_asset_url": "https://verreselect.com/userfiles/productimages/product_864.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/productimages/product_864.jpg",
+      "mime_type": "image/jpeg",
+      "width": 199,
+      "height": 458
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=252&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/productimages/product_865.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/productimages/product_865.jpg",
+      "local_path": "/images/catalog/verre-select/product-865-b959e146d4dd.jpg",
+      "asset_type": "image",
+      "role": "product-hero",
+      "sha256": "c5f8190628c5107090802761a20b7e10b2884f2a6b7fe100b9415fd8394bc91f",
+      "bytes": 123716,
+      "discovered_at": "2026-08-20T06:05:25Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/productimages/product_865.jpg",
+        "https://verreselect.com/userfiles/productimages/product_865.jpg"
+      ],
+      "product_ids": [
+        "verre-select:endrick"
+      ],
+      "collections": [],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "primary-product-hero",
+        "supplier-scoped-explicit-role"
+      ],
+      "master_asset_url": "https://verreselect.com/userfiles/productimages/product_865.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/productimages/product_865.jpg",
+      "mime_type": "image/jpeg",
+      "width": 199,
+      "height": 458
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=253&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/productimages/product_866.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/productimages/product_866.jpg",
+      "local_path": "/images/catalog/verre-select/product-866-97b4e83b49a2.jpg",
+      "asset_type": "image",
+      "role": "product-hero",
+      "sha256": "8d038c631f4cd0894a880d7464eb429941ad8abff498b1eb771b771d20c539a5",
+      "bytes": 139328,
+      "discovered_at": "2026-08-20T06:05:25Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/productimages/product_866.jpg",
+        "https://verreselect.com/userfiles/productimages/product_866.jpg"
+      ],
+      "product_ids": [
+        "verre-select:epic"
+      ],
+      "collections": [],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "primary-product-hero",
+        "supplier-scoped-explicit-role"
+      ],
+      "master_asset_url": "https://verreselect.com/userfiles/productimages/product_866.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/productimages/product_866.jpg",
+      "mime_type": "image/jpeg",
+      "width": 199,
+      "height": 458
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=104&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/productimages/variant_104_961.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/productimages/variant_104_961.jpg",
+      "local_path": "/images/catalog/verre-select/variant-104-961-567f11a6d909.jpg",
+      "asset_type": "image",
+      "role": "product-hero",
+      "sha256": "466fcae40c3b9a5af4604c0fdd2f28368d83d72d34f5318f02543c2ea0757eea",
+      "bytes": 11056,
+      "discovered_at": "2026-08-20T06:05:26Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/productimages/variant_104_961.jpg",
+        "https://verreselect.com/userfiles/productimages/variant_104_961.jpg"
+      ],
+      "product_ids": [
+        "verre-select:hs-cre106e-10"
+      ],
+      "collections": [],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "primary-product-hero",
+        "supplier-scoped-explicit-role"
+      ],
+      "master_asset_url": "https://verreselect.com/userfiles/productimages/variant_104_961.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/productimages/variant_104_961.jpg",
+      "mime_type": "image/jpeg",
+      "width": 196,
+      "height": 458
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=105&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/productimages/variant_105_965.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/productimages/variant_105_965.jpg",
+      "local_path": "/images/catalog/verre-select/variant-105-965-81b5c0fbe84a.jpg",
+      "asset_type": "image",
+      "role": "product-hero",
+      "sha256": "7603fb851a43f915a21bec7828c1a68d87fc70a583bbe463f8de98da4fd4f665",
+      "bytes": 10771,
+      "discovered_at": "2026-08-20T06:05:26Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/productimages/variant_105_965.jpg",
+        "https://verreselect.com/userfiles/productimages/variant_105_965.jpg"
+      ],
+      "product_ids": [
+        "verre-select:hs-cre104e-4"
+      ],
+      "collections": [],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "primary-product-hero",
+        "supplier-scoped-explicit-role"
+      ],
+      "master_asset_url": "https://verreselect.com/userfiles/productimages/variant_105_965.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/productimages/variant_105_965.jpg",
+      "mime_type": "image/jpeg",
+      "width": 196,
+      "height": 458
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=107&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/productimages/variant_107_973.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/productimages/variant_107_973.jpg",
+      "local_path": "/images/catalog/verre-select/variant-107-973-cf20dd8b2cab.jpg",
+      "asset_type": "image",
+      "role": "product-hero",
+      "sha256": "8c59b3dd75c632df34d9d7d09de7bcf8dc29604c09a6284f37dd42a647f755b2",
+      "bytes": 10606,
+      "discovered_at": "2026-08-20T06:05:27Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/productimages/variant_107_973.jpg",
+        "https://verreselect.com/userfiles/productimages/variant_107_973.jpg"
+      ],
+      "product_ids": [
+        "verre-select:hs-cre106e-5"
+      ],
+      "collections": [],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "primary-product-hero",
+        "supplier-scoped-explicit-role"
+      ],
+      "master_asset_url": "https://verreselect.com/userfiles/productimages/variant_107_973.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/productimages/variant_107_973.jpg",
+      "mime_type": "image/jpeg",
+      "width": 196,
+      "height": 458
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=171&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/productimages/variant_171_1009.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/productimages/variant_171_1009.jpg",
+      "local_path": "/images/catalog/verre-select/variant-171-1009-a6453d2fafac.jpg",
+      "asset_type": "image",
+      "role": "product-hero",
+      "sha256": "1643268fd318b7a73442f38f475efdb32f3ab094ba73b12d53ca4d42a670a778",
+      "bytes": 12677,
+      "discovered_at": "2026-08-20T06:05:28Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/productimages/variant_171_1009.jpg",
+        "https://verreselect.com/userfiles/productimages/variant_171_1009.jpg"
+      ],
+      "product_ids": [
+        "verre-select:whistler"
+      ],
+      "collections": [],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "primary-product-hero",
+        "supplier-scoped-explicit-role"
+      ],
+      "master_asset_url": "https://verreselect.com/userfiles/productimages/variant_171_1009.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/productimages/variant_171_1009.jpg",
+      "mime_type": "image/jpeg",
+      "width": 202,
+      "height": 458
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=174&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/productimages/variant_174_1029.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/productimages/variant_174_1029.jpg",
+      "local_path": "/images/catalog/verre-select/variant-174-1029-836e07ac6917.jpg",
+      "asset_type": "image",
+      "role": "product-hero",
+      "sha256": "7d7be21e9914a62e3f1d3aad0243700714150ac46fcf28c66c6054015fc6b4b7",
+      "bytes": 88109,
+      "discovered_at": "2026-08-20T06:05:28Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/productimages/variant_174_1029.jpg",
+        "https://verreselect.com/userfiles/productimages/variant_174_1029.jpg"
+      ],
+      "product_ids": [
+        "verre-select:quattro"
+      ],
+      "collections": [],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "primary-product-hero",
+        "supplier-scoped-explicit-role"
+      ],
+      "master_asset_url": "https://verreselect.com/userfiles/productimages/variant_174_1029.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/productimages/variant_174_1029.jpg",
+      "mime_type": "image/jpeg",
+      "width": 203,
+      "height": 458
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=230&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_957.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_957.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-957-ceef671fe398.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "d632057befcc3dd4800159637c8037c887945f69b063ae89739673e48f17cacc",
+      "bytes": 6302,
+      "discovered_at": "2026-08-20T06:05:44Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_957.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_957.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_957.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=232&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_924.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_924.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-924-4485c11c2a92.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "d04f33d7e251ac2581342db45db0857b0f83d6ccd7ec201365a4c3416f9d5fa9",
+      "bytes": 20622,
+      "discovered_at": "2026-08-20T06:05:44Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_924.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_924.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_924.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductVariantID=1132&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_937.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_937.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-937-7aab5216d216.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "a37308b5db02442f4b28f977fc6c0abc6bc1ae7beff93da216308c86d5b748f9",
+      "bytes": 20606,
+      "discovered_at": "2026-08-20T06:05:45Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_937.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_937.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_937.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductVariantID=1143&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_948.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_948.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-948-a63a8b95ed6e.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "dc9e6863d9bc99328c35f634360026eb9171569c850a016e31b6ded5a9db38ed",
+      "bytes": 23680,
+      "discovered_at": "2026-08-20T06:05:45Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_948.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_948.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_948.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=240&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_1026.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_1026.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-1026-a720409a3560.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "2a47102525c380db1a7373a7e703e490b1424c6570a188b74713de7c2aed947a",
+      "bytes": 21644,
+      "discovered_at": "2026-08-20T06:05:46Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_1026.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_1026.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_1026.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=241&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_1032.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_1032.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-1032-70b8edaa1ccd.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "afec84315e6e98be68b8fea9fbf0973a3ece109bc0d2edf248252a5ca02036fb",
+      "bytes": 22147,
+      "discovered_at": "2026-08-20T06:05:47Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_1032.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_1032.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_1032.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=243&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_1043.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_1043.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-1043-85adebc8ef75.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "d2c7355ddabfb3cd9453037c9a2b27b2640294026eb409a1a01aa15080aedbf1",
+      "bytes": 23395,
+      "discovered_at": "2026-08-20T06:05:47Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_1043.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_1043.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_1043.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=13&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_64.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_64.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-64-cc14673b8d55.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "17fc034caf7b10fdf047c01e7039175322a96b3e1740a50e540195538f0b5ab6",
+      "bytes": 4251,
+      "discovered_at": "2026-08-20T06:05:48Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_64.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_64.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_64.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=41&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_215.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_215.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-215-e7905c18e8ba.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "e201184d2275277d89eb56d19c138d8ea659d66a3562a1e9b9df0de92b7bd8d5",
+      "bytes": 10680,
+      "discovered_at": "2026-08-20T06:05:48Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_215.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_215.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_215.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=42&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_224.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_224.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-224-22e885cf14df.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "4bae5ab82166bdf36e2a2500fed56d3cd376352540195dfdd1d2c2c99f5f6f97",
+      "bytes": 7662,
+      "discovered_at": "2026-08-20T06:05:49Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_224.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_224.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_224.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=44&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_244.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_244.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-244-40ffd31f9661.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "6ae7eb67285180ce99b927515004a79489e2b68c8870e39f110e716a8141e3fe",
+      "bytes": 9621,
+      "discovered_at": "2026-08-20T06:05:50Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_244.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_244.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_244.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=60&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_390.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_390.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-390-d4ac08a938ae.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "7da8e112253dbf6f0d5a7bcdf843bc9387b0df73b5dd18c8ccfc9995d2b1de5b",
+      "bytes": 5479,
+      "discovered_at": "2026-08-20T06:05:50Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_390.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_390.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_390.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=104&UILanguage=EN",
+        "https://verreselect.com/product.php?ProductID=105&UILanguage=EN",
+        "https://verreselect.com/product.php?ProductID=107&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_746.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_746.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-746-0cc3302de7df.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "28b17a1908d7e5ef3c9d86972ed99f86d46baf50f6280d6f2774d21a817b79f7",
+      "bytes": 1636,
+      "discovered_at": "2026-08-20T06:05:51Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_746.jpg",
+        "http://verreselect.com/userfiles/optionimages/local_option_747.jpg",
+        "http://verreselect.com/userfiles/optionimages/local_option_748.jpg",
+        "http://verreselect.com/userfiles/optionimages/local_option_749.jpg",
+        "http://verreselect.com/userfiles/optionimages/local_option_750.jpg",
+        "http://verreselect.com/userfiles/optionimages/local_option_751.jpg",
+        "http://verreselect.com/userfiles/optionimages/local_option_752.jpg",
+        "http://verreselect.com/userfiles/optionimages/local_option_753.jpg",
+        "http://verreselect.com/userfiles/optionimages/local_option_758.jpg",
+        "http://verreselect.com/userfiles/optionimages/local_option_759.jpg",
+        "http://verreselect.com/userfiles/optionimages/local_option_760.jpg",
+        "http://verreselect.com/userfiles/optionimages/local_option_761.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_746.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_746.jpg",
+      "mime_type": "image/jpeg",
+      "width": 50,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=171&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_798.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_798.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-798-b058e9a593cf.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "ed3d5b0caacdd27acd9b6c64616db9e8b7a4ab9662738233d4df61499be7ea43",
+      "bytes": 5739,
+      "discovered_at": "2026-08-20T06:05:53Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_798.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_798.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_798.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=174&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_818.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_818.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-818-929a6816cc1d.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "177bbc61eebca0a46eb9a8405d23b28a48d1841d7ec2de48d2793d388e3669c8",
+      "bytes": 5268,
+      "discovered_at": "2026-08-20T06:05:54Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_818.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_818.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_818.jpg",
+      "mime_type": "image/jpeg",
+      "width": 81,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=230&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_910.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_910.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-910-474dbd1c9ad2.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "4f2c9654cf2ff2017818f39ccb791362a24459560fa17fcde54d0344be787fa8",
+      "bytes": 5169,
+      "discovered_at": "2026-08-20T06:05:54Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_910.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_910.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_910.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=232&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_925.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_925.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-925-f018ad07c706.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "0c0ba10d2a10fea6e6c4456515f54e5adb7562a8b711a3c2ffc88af8c9660edc",
+      "bytes": 17220,
+      "discovered_at": "2026-08-20T06:05:55Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_925.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_925.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_925.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductVariantID=1132&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_953.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_953.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-953-dd3a39de8814.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "5e11f4fea406fee6f69f8703907f68adc5cedee966b939ae0a282a2e522d4887",
+      "bytes": 21488,
+      "discovered_at": "2026-08-20T06:05:56Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_953.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_953.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_953.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductVariantID=1143&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_949.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_949.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-949-cd760718af38.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "c4a7c8004a323ffa579319fbdf8c98a00917fccdd856c714e599d7802356eb0a",
+      "bytes": 20472,
+      "discovered_at": "2026-08-20T06:05:56Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_949.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_949.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_949.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=240&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_1027.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_1027.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-1027-1b047c242b42.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "402b7ce006028ee552ab38c3ea3da89ef27cd17d1f96f582bfd521f40264a2ab",
+      "bytes": 18948,
+      "discovered_at": "2026-08-20T06:05:57Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_1027.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_1027.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_1027.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=241&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_1030.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_1030.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-1030-22dd8944b9b9.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "8dfad1620e893d275eb6b5c8be38bfdff384aabf8fcf86f7bd8599796a354e1d",
+      "bytes": 22810,
+      "discovered_at": "2026-08-20T06:05:57Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_1030.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_1030.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_1030.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=243&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_1044.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_1044.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-1044-6ecf0a516be3.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "5442bb50dfa79e3f2d13a1c603ace674c60c0f78f73f09f3ef2f9531bd0aa712",
+      "bytes": 19909,
+      "discovered_at": "2026-08-20T06:05:58Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_1044.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_1044.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_1044.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=13&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_65.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_65.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-65-b720194b4bb7.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "209d29d1325c090d36ac4ce90bfd68e810c731a3536837dcdec45cf141298291",
+      "bytes": 4039,
+      "discovered_at": "2026-08-20T06:05:59Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_65.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_65.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_65.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=41&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_969.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_969.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-969-fca61dc6b226.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "ff4336657e882cfd5205fba3a8d524b449822978887f95ddc87b42ba01b7c616",
+      "bytes": 5368,
+      "discovered_at": "2026-08-20T06:05:59Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_969.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_969.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_969.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=42&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_225.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_225.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-225-fd781f3bab08.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "ce5b4dfab73513788bb91ca4a5fee2001c12b757f9c0d91e1b9790b8bdae933a",
+      "bytes": 6104,
+      "discovered_at": "2026-08-20T06:06:00Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_225.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_225.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_225.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=44&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_966.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_966.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-966-34302b3636e8.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "c8dad312550a395751a78540b59e46290821f24892b949252238358bcba70fe2",
+      "bytes": 4991,
+      "discovered_at": "2026-08-20T06:06:00Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_966.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_966.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_966.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=60&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_391.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_391.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-391-a738281d5bbb.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "32bebe372fe87d50910024a12c6c399ea7d9a0df9787c0589bc05e3fb460f80a",
+      "bytes": 4371,
+      "discovered_at": "2026-08-20T06:06:01Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_391.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_391.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_391.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=171&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_958.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_958.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-958-7af99a5f97d3.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "f2c10a0a2d2738840d2608bd2cb7bae07bbec8a2d4da8e344338ec86ad3f31a0",
+      "bytes": 5726,
+      "discovered_at": "2026-08-20T06:06:03Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_958.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_958.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_958.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=174&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_819.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_819.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-819-0be95dfe7e7a.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "4d98e6762f9d9cb851c9b0cbb65ffaa499f26cf094065f52c7ecd6960b696278",
+      "bytes": 4804,
+      "discovered_at": "2026-08-20T06:06:04Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_819.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_819.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_819.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=230&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_911.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_911.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-911-6756c94f1c58.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "b307af1402e607c4af04906f17f9f5164910bf989d6223354461f0082f411896",
+      "bytes": 4702,
+      "discovered_at": "2026-08-20T06:06:04Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_911.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_911.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_911.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=232&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_926.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_926.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-926-4fbe24bc71e7.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "6a39ee87bd6d0a272f85e32d7ad24ee06b4f41fb1332a1a533a98a4d7fe3efeb",
+      "bytes": 9262,
+      "discovered_at": "2026-08-20T06:06:05Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_926.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_926.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_926.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductVariantID=1132&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_933.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_933.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-933-0fcb83d66d2a.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "eeea544addad0c26604c99d5130e0884af0b4acdd8e6ff2cd0eb0aca0cabd4ff",
+      "bytes": 18943,
+      "discovered_at": "2026-08-20T06:06:06Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_933.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_933.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_933.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductVariantID=1143&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_950.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_950.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-950-dbd2373766b7.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "0464fbddbb88c87666476ec7b1f5140aed929b955d58ff4aaeb533223422ab21",
+      "bytes": 22743,
+      "discovered_at": "2026-08-20T06:06:06Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_950.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_950.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_950.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=13&UILanguage=EN",
+        "https://verreselect.com/product.php?ProductID=174&UILanguage=EN",
+        "https://verreselect.com/product.php?ProductID=230&UILanguage=EN",
+        "https://verreselect.com/product.php?ProductID=240&UILanguage=EN",
+        "https://verreselect.com/product.php?ProductID=241&UILanguage=EN",
+        "https://verreselect.com/product.php?ProductID=243&UILanguage=EN",
+        "https://verreselect.com/product.php?ProductID=41&UILanguage=EN",
+        "https://verreselect.com/product.php?ProductID=42&UILanguage=EN",
+        "https://verreselect.com/product.php?ProductID=44&UILanguage=EN",
+        "https://verreselect.com/product.php?ProductID=60&UILanguage=EN",
+        "https://verreselect.com/product.php?ProductVariantID=1132&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/editor/image/VS_Degree_Intimite_2.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/editor/image/VS_Degree_Intimite_2.jpg",
+      "local_path": "/images/catalog/verre-select/vs-degree-intimite-2-f2cd920d08d3.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "3f319e57498d804aeeabc4203f46180be4de6c7ae27d47057f06e61cccb212f9",
+      "bytes": 12914,
+      "discovered_at": "2026-08-20T06:06:07Z",
+      "source_asset_urls": [
+        "https://verreselect.com/userfiles/editor/image/VS_Degree_Intimite_2.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "https://verreselect.com/userfiles/editor/image/VS_Degree_Intimite_2.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/editor/image/VS_Degree_Intimite_2.jpg",
+      "mime_type": "image/jpeg",
+      "width": 113,
+      "height": 243
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=241&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_1031.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_1031.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-1031-bd1e7ae37b41.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "6d8225a837de1aabd65530f10c78857ba77f200eb7ed3f503a2aa00783a52503",
+      "bytes": 19306,
+      "discovered_at": "2026-08-20T06:06:08Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_1031.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_1031.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_1031.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=243&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_1046.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_1046.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-1046-3ce31aee4c93.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "464dbad62f5f801a14dd82212f56d984aea790a163c982c1d7422c84cd1a263c",
+      "bytes": 24226,
+      "discovered_at": "2026-08-20T06:06:08Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_1046.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_1046.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_1046.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=13&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_66.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_66.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-66-426d8b57e18d.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "4cace9ed61aaa46fc9bec5602092be6f8a1163e7c9a56c982253949c2765e5f9",
+      "bytes": 4972,
+      "discovered_at": "2026-08-20T06:06:09Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_66.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_66.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_66.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=42&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_226.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_226.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-226-adac3c3350a6.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "56895f44be7308b67aaf6383bf5db7331b83a8ce71921f0655e4cbb8d559a496",
+      "bytes": 7972,
+      "discovered_at": "2026-08-20T06:06:09Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_226.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_226.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_226.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=44&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_246.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_246.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-246-f837b356b79e.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "f4be17b7ab3f47a47a155424766b25c12db5482d08c490c51f8f6d32c247d3b0",
+      "bytes": 10142,
+      "discovered_at": "2026-08-20T06:06:10Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_246.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_246.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_246.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=171&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_959.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_959.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-959-95d10d25516c.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "711d70b53c53444d164d74d43085d1d507bf08d5e50e1f720d1982f2dccf74fc",
+      "bytes": 5421,
+      "discovered_at": "2026-08-20T06:06:12Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_959.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_959.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_959.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=230&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_912.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_912.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-912-fe80fed9097f.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "e970e59bcfee5a7ba206975d6ed6ebbbb4013af2a585aeb41302068a843fa997",
+      "bytes": 4196,
+      "discovered_at": "2026-08-20T06:06:13Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_912.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_912.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_912.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=232&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_927.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_927.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-927-a4dd55b39e2d.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "d2ce6409f46405ca10db410b93d3db9b5bb801ea95a19a32491466b07528d104",
+      "bytes": 21974,
+      "discovered_at": "2026-08-20T06:06:14Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_927.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_927.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_927.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductVariantID=1132&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_934.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_934.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-934-cf10dc8e7f92.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "e30ea569c70f73b6eaaa1a8fab67696aa067eb032027ed3bc07ee7a84597a6be",
+      "bytes": 16593,
+      "discovered_at": "2026-08-20T06:06:14Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_934.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_934.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_934.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductVariantID=1143&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_951.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_951.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-951-65ac58118f64.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "2d5f3a268af436ccbcc78b3d6816c4049994b608f62d2ddecf4c2cff100f7da6",
+      "bytes": 19357,
+      "discovered_at": "2026-08-20T06:06:15Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_951.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_951.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_951.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=241&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_1033.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_1033.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-1033-eb3495b311af.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "264584c55be4200fc213a87267395d120a7f6a28d3f8f082a2df31cdb6fa053a",
+      "bytes": 22800,
+      "discovered_at": "2026-08-20T06:06:15Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_1033.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_1033.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_1033.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=243&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_1047.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_1047.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-1047-2ba1772a84c3.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "abccb6fd031ece532f3dc0d483655c653eccfe4e4a9aa9df970a896a56ba2ccb",
+      "bytes": 20231,
+      "discovered_at": "2026-08-20T06:06:16Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_1047.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_1047.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_1047.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=13&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_67.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_67.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-67-23cf0c12f528.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "2a553d6e89c2dcaa840cd123446ad22a7a798aa795267c04acaba0d77fe789b2",
+      "bytes": 4567,
+      "discovered_at": "2026-08-20T06:06:17Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_67.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_67.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_67.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=42&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_227.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_227.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-227-dfc2676d01a1.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "2b380b708eafa9f3afa22d7af0f79da7999a062a1f77554b129cd0524e1034f2",
+      "bytes": 6232,
+      "discovered_at": "2026-08-20T06:06:17Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_227.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_227.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_227.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=44&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_247.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_247.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-247-868686c48f99.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "8cf172da5181bfb97a3ee2240d25be40b06b6f2e8227e2e4adfb31f57c107099",
+      "bytes": 5205,
+      "discovered_at": "2026-08-20T06:06:19Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_247.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_247.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_247.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=171&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_802.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_802.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-802-35a5c703a24c.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "61dda63593bb3e34a3904c343d564f190c3a46daeddfa2a5a51bd011f801b245",
+      "bytes": 5628,
+      "discovered_at": "2026-08-20T06:06:21Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_802.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_802.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_802.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=230&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_913.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_913.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-913-ed8b71dfc28a.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "7d98f476622e49e569f087f6cbd1c7b69bf74ba4b5ec2ecb057f36e2c01cfa19",
+      "bytes": 4125,
+      "discovered_at": "2026-08-20T06:06:21Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_913.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_913.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_913.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=171&UILanguage=EN",
+        "https://verreselect.com/product.php?ProductID=232&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/editor/image/VS_Degree_Intimite_3.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/editor/image/VS_Degree_Intimite_3.jpg",
+      "local_path": "/images/catalog/verre-select/vs-degree-intimite-3-78929711c5c2.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "bfc6a779c221a76b3d54ad48f942da695f710f1fd3ad8fea61422aa9914f1a99",
+      "bytes": 12958,
+      "discovered_at": "2026-08-20T06:06:22Z",
+      "source_asset_urls": [
+        "https://verreselect.com/userfiles/editor/image/VS_Degree_Intimite_3.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "https://verreselect.com/userfiles/editor/image/VS_Degree_Intimite_3.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/editor/image/VS_Degree_Intimite_3.jpg",
+      "mime_type": "image/jpeg",
+      "width": 113,
+      "height": 243
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductVariantID=1132&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_935.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_935.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-935-57a9bf4e7f28.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "2f4d800393ea065b60e67ea12028aa4dc8d6609cd9c5722978723555f6b0c213",
+      "bytes": 16853,
+      "discovered_at": "2026-08-20T06:06:23Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_935.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_935.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_935.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=241&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_1034.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_1034.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-1034-1294f79447b4.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "ec86296be05233bbd869d8280ba9678b22ef4c8f4bd14f1901a5528762fd54c4",
+      "bytes": 23279,
+      "discovered_at": "2026-08-20T06:06:23Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_1034.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_1034.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_1034.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=42&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_968.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_968.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-968-b3ba60192aed.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "cf62f6075d8e9ad5585ff655233b5aec9063748e21985ffbad3ae11b7f6fa8e6",
+      "bytes": 10746,
+      "discovered_at": "2026-08-20T06:06:24Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_968.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_968.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_968.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=44&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_967.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_967.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-967-df4da06ba282.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "9625680945cecdb9183d6d4827cf5408ea4bd0917773e5e3e4624e0bf33d26d4",
+      "bytes": 7952,
+      "discovered_at": "2026-08-20T06:06:24Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_967.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_967.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_967.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=104&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/editor/image/106-108-10.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/editor/image/106-108-10.jpg",
+      "local_path": "/images/catalog/verre-select/106-108-10-c87c3b025de6.jpg",
+      "asset_type": "image",
+      "role": "glass-design",
+      "sha256": "ddd7c631df48fa969bddb3f4c216906fe679c612cb218ced5d45b6c2b26dd206",
+      "bytes": 16701,
+      "discovered_at": "2026-08-20T06:06:25Z",
+      "source_asset_urls": [
+        "https://verreselect.com/userfiles/editor/image/106-108-10.jpg"
+      ],
+      "product_ids": [
+        "verre-select:hs-cre106e-10"
+      ],
+      "collections": [],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "supplier-scoped-explicit-role"
+      ],
+      "master_asset_url": "https://verreselect.com/userfiles/editor/image/106-108-10.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/editor/image/106-108-10.jpg",
+      "mime_type": "image/jpeg",
+      "width": 99,
+      "height": 316
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=105&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/editor/image/104-4.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/editor/image/104-4.jpg",
+      "local_path": "/images/catalog/verre-select/104-4-e3584b559676.jpg",
+      "asset_type": "image",
+      "role": "glass-design",
+      "sha256": "8cdfef255480b2fe32e5b270071693a74ad44e2cf802e26914edb75ca4be521b",
+      "bytes": 15711,
+      "discovered_at": "2026-08-20T06:06:26Z",
+      "source_asset_urls": [
+        "https://verreselect.com/userfiles/editor/image/104-4.jpg"
+      ],
+      "product_ids": [
+        "verre-select:hs-cre104e-4"
+      ],
+      "collections": [],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "supplier-scoped-explicit-role"
+      ],
+      "master_asset_url": "https://verreselect.com/userfiles/editor/image/104-4.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/editor/image/104-4.jpg",
+      "mime_type": "image/jpeg",
+      "width": 124,
+      "height": 274
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=107&UILanguage=EN"
+      ],
+      "original_asset_url": "https://verreselect.com/userfiles/editor/image/106-108-5.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/editor/image/106-108-5.jpg",
+      "local_path": "/images/catalog/verre-select/106-108-5-c2f257ce9fbe.jpg",
+      "asset_type": "image",
+      "role": "glass-design",
+      "sha256": "bcc4e9a7bb15966031f90854f2afb94d18e3c195ed4892304fa833d66839b494",
+      "bytes": 14204,
+      "discovered_at": "2026-08-20T06:06:26Z",
+      "source_asset_urls": [
+        "https://verreselect.com/userfiles/editor/image/106-108-5.jpg"
+      ],
+      "product_ids": [
+        "verre-select:hs-cre106e-5"
+      ],
+      "collections": [],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "supplier-scoped-explicit-role"
+      ],
+      "master_asset_url": "https://verreselect.com/userfiles/editor/image/106-108-5.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/editor/image/106-108-5.jpg",
+      "mime_type": "image/jpeg",
+      "width": 99,
+      "height": 316
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=230&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_914.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_914.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-914-7015e2b21c4b.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "bd18257b587b656104ee05dc692fa1ce215f435d8ff5534fbdaca4e08d821b92",
+      "bytes": 4639,
+      "discovered_at": "2026-08-20T06:06:27Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_914.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_914.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_914.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductVariantID=1132&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_936.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_936.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-936-0042a9d284cb.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "91815690e2c0db4d9f6541fa39bf28ee7daf6273f3ccb47c0abe1a492b487d07",
+      "bytes": 20299,
+      "discovered_at": "2026-08-20T06:06:27Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_936.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_936.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_936.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=241&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_1035.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_1035.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-1035-1a0aea156459.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "95582a6fc5a4114390dd1df6af5b0902f321389db3db7cc0adc2ec969213f0e3",
+      "bytes": 19434,
+      "discovered_at": "2026-08-20T06:06:28Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_1035.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_1035.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_1035.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductID=44&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_253.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_253.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-253-b693989db7e6.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "243e60e090d5cdf1b6210097eb49bb3869965677efe02fe465e3eee346813f4a",
+      "bytes": 7440,
+      "discovered_at": "2026-08-20T06:06:29Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_253.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_253.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_253.jpg",
+      "mime_type": "image/jpeg",
+      "width": 87,
+      "height": 225
+    },
+    {
+      "supplier": "verre-select",
+      "source_page_urls": [
+        "https://verreselect.com/product.php?ProductVariantID=1132&UILanguage=EN"
+      ],
+      "original_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_954.jpg",
+      "final_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_954.jpg",
+      "local_path": "/images/catalog/verre-select/local-option-954-39ed9da4aef7.jpg",
+      "asset_type": "image",
+      "role": "configuration-diagram",
+      "sha256": "70d9f1a61f8507dea49bca782bc5e0515a0d602318a8c3d08f3a21da2458b3b4",
+      "bytes": 17334,
+      "discovered_at": "2026-08-20T06:06:29Z",
+      "source_asset_urls": [
+        "http://verreselect.com/userfiles/optionimages/local_option_954.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "http://verreselect.com/userfiles/optionimages/local_option_954.jpg",
+      "selected_asset_url": "https://verreselect.com/userfiles/optionimages/local_option_954.jpg",
+      "mime_type": "image/jpeg",
+      "width": 90,
+      "height": 225
     }
   ],
   "products": [
@@ -412,11 +3290,12 @@
       "sourceUrl": "https://verreselect.com/product.php?ProductID=171&UILanguage=EN",
       "sourceType": "live-crawl",
       "media": [
-        "/images/catalog/verre-select/variant-171-1009-a6453d2fafac.jpg"
+        "/images/catalog/verre-select/variant-171-1009-a6453d2fafac.jpg",
+        "/images/catalog/verre-select/verre-whistler-7f05bc4f13b1.jpg"
       ],
       "documents": [],
       "specifications": {},
-      "lastVerified": "2026-08-19"
+      "lastVerified": "2026-08-20"
     },
     {
       "id": "verre-select:quattro",
@@ -432,11 +3311,12 @@
       "sourceUrl": "https://verreselect.com/product.php?ProductID=174&UILanguage=EN",
       "sourceType": "live-crawl",
       "media": [
-        "/images/catalog/verre-select/variant-174-1029-836e07ac6917.jpg"
+        "/images/catalog/verre-select/variant-174-1029-836e07ac6917.jpg",
+        "/images/catalog/verre-select/verre-quattro-ef672882dfef.jpg"
       ],
       "documents": [],
       "specifications": {},
-      "lastVerified": "2026-08-19"
+      "lastVerified": "2026-08-20"
     },
     {
       "id": "verre-select:fragrance",
@@ -456,7 +3336,7 @@
       ],
       "documents": [],
       "specifications": {},
-      "lastVerified": "2026-08-19"
+      "lastVerified": "2026-08-20"
     },
     {
       "id": "verre-select:gabriella",
@@ -476,7 +3356,7 @@
       ],
       "documents": [],
       "specifications": {},
-      "lastVerified": "2026-08-19"
+      "lastVerified": "2026-08-20"
     },
     {
       "id": "verre-select:cbg",
@@ -496,7 +3376,7 @@
       ],
       "documents": [],
       "specifications": {},
-      "lastVerified": "2026-08-19"
+      "lastVerified": "2026-08-20"
     },
     {
       "id": "verre-select:cadence",
@@ -516,7 +3396,7 @@
       ],
       "documents": [],
       "specifications": {},
-      "lastVerified": "2026-08-19"
+      "lastVerified": "2026-08-20"
     },
     {
       "id": "verre-select:naomie",
@@ -536,7 +3416,7 @@
       ],
       "documents": [],
       "specifications": {},
-      "lastVerified": "2026-08-19"
+      "lastVerified": "2026-08-20"
     },
     {
       "id": "verre-select:java",
@@ -556,7 +3436,7 @@
       ],
       "documents": [],
       "specifications": {},
-      "lastVerified": "2026-08-19"
+      "lastVerified": "2026-08-20"
     },
     {
       "id": "verre-select:cyndi",
@@ -576,8 +3456,366 @@
       ],
       "documents": [],
       "specifications": {},
-      "lastVerified": "2026-08-19"
+      "lastVerified": "2026-08-20"
+    },
+    {
+      "id": "verre-select:paris",
+      "manufacturer": "verre-select",
+      "slug": "paris",
+      "name": "Paris",
+      "category": "door-glass",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "  Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "sourceUrl": "https://verreselect.com/product.php?ProductID=254&UILanguage=EN",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/verre-select/product-867-35368d4d2e92.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-20"
+    },
+    {
+      "id": "verre-select:rill",
+      "manufacturer": "verre-select",
+      "slug": "rill",
+      "name": "Rill",
+      "category": "door-glass",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "  Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "sourceUrl": "https://verreselect.com/product.php?ProductID=255&UILanguage=EN",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/verre-select/product-868-cc87c0aaad7b.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-20"
+    },
+    {
+      "id": "verre-select:waterside",
+      "manufacturer": "verre-select",
+      "slug": "waterside",
+      "name": "Waterside",
+      "category": "door-glass",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "  Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "sourceUrl": "https://verreselect.com/product.php?ProductID=256&UILanguage=EN",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/verre-select/product-869-b9ba52c86921.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-20"
+    },
+    {
+      "id": "verre-select:wide-reed",
+      "manufacturer": "verre-select",
+      "slug": "wide-reed",
+      "name": "Wide Reed",
+      "category": "door-glass",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "  Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "sourceUrl": "https://verreselect.com/product.php?ProductID=257&UILanguage=EN",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/verre-select/product-870-c59ef464f7e2.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-20"
+    },
+    {
+      "id": "verre-select:amadeus",
+      "manufacturer": "verre-select",
+      "slug": "amadeus",
+      "name": "Amadeus",
+      "category": "door-glass",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "The AMADEUS model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "sourceUrl": "https://verreselect.com/product.php?ProductID=13&UILanguage=EN",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/verre-select/variant-13-35-ba9a9f0f7745.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-20"
+    },
+    {
+      "id": "verre-select:pixel",
+      "manufacturer": "verre-select",
+      "slug": "pixel",
+      "name": "Pixel",
+      "category": "door-glass",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "The PIXEL model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "sourceUrl": "https://verreselect.com/product.php?ProductID=41&UILanguage=EN",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/verre-select/variant-41-246-d6d6d9ddd110.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-20"
+    },
+    {
+      "id": "verre-select:renoir",
+      "manufacturer": "verre-select",
+      "slug": "renoir",
+      "name": "Renoir",
+      "category": "door-glass",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "The RENOIR model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "sourceUrl": "https://verreselect.com/product.php?ProductID=42&UILanguage=EN",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/verre-select/variant-42-264-f890d73e28f8.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-20"
+    },
+    {
+      "id": "verre-select:venus",
+      "manufacturer": "verre-select",
+      "slug": "venus",
+      "name": "Venus",
+      "category": "door-glass",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "The VENUS model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "sourceUrl": "https://verreselect.com/product.php?ProductID=44&UILanguage=EN",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/verre-select/variant-44-303-621cae2d3039.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-20"
+    },
+    {
+      "id": "verre-select:rodin",
+      "manufacturer": "verre-select",
+      "slug": "rodin",
+      "name": "Rodin",
+      "category": "door-glass",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "The RODIN model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "sourceUrl": "https://verreselect.com/product.php?ProductID=60&UILanguage=EN",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/verre-select/variant-60-590-7dce39571d4a.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-20"
+    },
+    {
+      "id": "verre-select:dorian",
+      "manufacturer": "verre-select",
+      "slug": "dorian",
+      "name": "Dorian",
+      "category": "door-glass",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "  Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "sourceUrl": "https://verreselect.com/product.php?ProductID=250&UILanguage=EN",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/verre-select/product-863-24ede466b35f.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-20"
+    },
+    {
+      "id": "verre-select:crosswalk",
+      "manufacturer": "verre-select",
+      "slug": "crosswalk",
+      "name": "Crosswalk",
+      "category": "door-glass",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "  Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "sourceUrl": "https://verreselect.com/product.php?ProductID=251&UILanguage=EN",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/verre-select/product-864-1820cdd10723.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-20"
+    },
+    {
+      "id": "verre-select:endrick",
+      "manufacturer": "verre-select",
+      "slug": "endrick",
+      "name": "Endrick",
+      "category": "door-glass",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "  Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "sourceUrl": "https://verreselect.com/product.php?ProductID=252&UILanguage=EN",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/verre-select/product-865-b959e146d4dd.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-20"
+    },
+    {
+      "id": "verre-select:epic",
+      "manufacturer": "verre-select",
+      "slug": "epic",
+      "name": "Epic",
+      "category": "door-glass",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "  Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "sourceUrl": "https://verreselect.com/product.php?ProductID=253&UILanguage=EN",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/verre-select/product-866-97b4e83b49a2.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-20"
+    },
+    {
+      "id": "verre-select:hs-cre106e-10",
+      "manufacturer": "verre-select",
+      "slug": "hs-cre106e-10",
+      "name": "HS-CRE106E+-10",
+      "category": "door-glass",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "At Verre Select, we give you the ability to create your own personal front entrance design! Choose Création Sélect! HS-CRE106E+-10 Non-Welded Silver + Chinchilla Glass + 106-10 = Custom Door Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "sourceUrl": "https://verreselect.com/product.php?ProductID=104&UILanguage=EN",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/verre-select/106-108-10-c87c3b025de6.jpg",
+        "/images/catalog/verre-select/variant-104-961-567f11a6d909.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-20"
+    },
+    {
+      "id": "verre-select:hs-cre104e-4",
+      "manufacturer": "verre-select",
+      "slug": "hs-cre104e-4",
+      "name": "HS-CRE104E+-4",
+      "category": "door-glass",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "At Verre Select, we give you the ability to create your own personal front entrance design! Choose Création Sélect! HS-CRE104E+-4 Non-Welded Black + Kasumi Glass + 104-4 = Custom Door Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "sourceUrl": "https://verreselect.com/product.php?ProductID=105&UILanguage=EN",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/verre-select/104-4-e3584b559676.jpg",
+        "/images/catalog/verre-select/variant-105-965-81b5c0fbe84a.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-20"
+    },
+    {
+      "id": "verre-select:hs-cre106e-5",
+      "manufacturer": "verre-select",
+      "slug": "hs-cre106e-5",
+      "name": "HS-CRE106E+-5",
+      "category": "door-glass",
+      "collection": null,
+      "modelNumber": null,
+      "type": null,
+      "summary": null,
+      "sourceDescription": "At Verre Select, we give you the ability to create your own personal front entrance design! Choose Création Sélect! HS-CRE106E+-5 Flat Non-Welded Brushed Chrome 1'' + Screen Glass + 106-5 = Custom Door Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "sourceUrl": "https://verreselect.com/product.php?ProductID=107&UILanguage=EN",
+      "sourceType": "live-crawl",
+      "media": [
+        "/images/catalog/verre-select/106-108-5-c2f257ce9fbe.jpg",
+        "/images/catalog/verre-select/variant-107-973-cf20dd8b2cab.jpg"
+      ],
+      "documents": [],
+      "specifications": {},
+      "lastVerified": "2026-08-20"
+    },
+    {
+      "id": "verre-select:satine",
+      "manufacturer": "verre-select",
+      "slug": "satine",
+      "name": "Satine",
+      "category": "door-glass",
+      "collection": "Stylized Doorglass",
+      "modelNumber": null,
+      "type": "Acid-Etched Doorglass",
+      "summary": null,
+      "sourceDescription": "Current 2026 Verre Select catalogue design with acid-etched privacy glass.",
+      "sourceUrl": "https://verreselect.com/page.php?PageID=8&UILanguage=EN",
+      "sourceType": "supplier-publication",
+      "media": [],
+      "documents": [],
+      "specifications": {
+        "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+        "publicationPage": "24",
+        "glassType": "Acid Etch",
+        "availableSizes": [
+          "22 x 12",
+          "22 x 17",
+          "22 x 36",
+          "8 x 36",
+          "22 x 48",
+          "8 x 48",
+          "20 x 64",
+          "22 x 64",
+          "7 x 64"
+        ]
+      },
+      "lastVerified": "2026-08-20"
     }
   ],
-  "errors": []
+  "errors": [],
+  "resolvedErrors": [],
+  "relationshipsRevalidatedAt": "2026-08-20T06:19:47Z"
 }

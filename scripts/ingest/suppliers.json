@@ -694,25 +694,65 @@
     "name": "Verre Select",
     "base_url": "https://verreselect.com/?UILanguage=EN",
     "allowed_domains": ["verreselect.com", "www.verreselect.com"],
-      "start_urls": ["https://verreselect.com/?UILanguage=EN"],
-      "product_hints": ["Product", "product", "door", "Door"],
-      "product_path_rules": ["^/product\\.php$"],
-      "prioritize_link_patterns": ["^/product\\.php$"],
-      "required_product_query": {"UILanguage": "EN"},
-      "skip_nonmatching_product_queries": true,
-      "product_link_parent_rules": ["/categories\\.php\\?CategoryID=1(?:&|$)"],
-      "fixed_product_category": "door-glass",
-      "assets_on_product_pages_only": true,
-      "asset_role_rules": [
-        {"patterns": ["product-thumb"], "role": "generic"},
-        {"patterns": ["\\bproduct-image product-image-[0-9]+\\b"], "role": "hero"}
-      ],
-      "attach_page_roles": ["hero"],
+    "start_urls": [
+      "https://verreselect.com/categories.php?CategoryID=1&UILanguage=EN",
+      "https://verreselect.com/categories.php?CategoryID=1&UILanguage=EN&page=2",
+      "https://verreselect.com/categories.php?CategoryID=1&UILanguage=EN&page=3",
+      "https://verreselect.com/categories.php?CategoryID=10&UILanguage=EN",
+      "https://verreselect.com/categories.php?CategoryID=17&UILanguage=EN",
+      "https://verreselect.com/categories.php?CategoryID=18&UILanguage=EN",
+      "https://verreselect.com/categories.php?CategoryID=3&UILanguage=EN",
+      "https://verreselect.com/categories.php?CategoryID=53&UILanguage=EN",
+      "https://verreselect.com/page.php?PageID=8&UILanguage=EN"
+    ],
+    "allowed_path_patterns": ["^/(?:categories|product|page)\\.php$"],
+    "reject_raw_link_patterns": [
+      ".*UILanguage=FR(?:&.*)?",
+      ".*UILanguage=(?-i:en)(?:&.*)?",
+      "(?:https?://(?:www\\.)?verreselect\\.com)?/?(?:page|form|module)\\.php(?:\\?.*)?",
+      "(?:https?://(?:www\\.)?verreselect\\.com)?/?categories\\.php\\?CategoryID=(?:2|4|11|12|13|14|15|16|55|56|57)(?:&.*)?",
+      "(?:https?://(?:www\\.)?verreselect\\.com)?/?product\\.php\\?ProductID=106(?:&.*)?"
+    ],
+    "product_hints": ["Product", "product", "door", "Door"],
+    "product_path_rules": ["^/product\\.php$"],
+    "prioritize_link_patterns": ["^/product\\.php$"],
+    "required_product_query": {"UILanguage": "EN"},
+    "skip_nonmatching_product_queries": true,
+    "product_link_parent_rules": ["/categories\\.php\\?CategoryID=(?:1|10)(?:&|$)"],
+    "fixed_product_category": "door-glass",
+    "assets_on_product_pages_only": true,
+    "asset_role_rules": [
+      {"patterns": ["productthumbs|product-thumb"], "role": "generic"},
+      {"patterns": ["productimages/(?:variant_[0-9]+_[0-9]+|product_[0-9]+)\\.(?:jpe?g|png|webp)"], "role": "product-hero"},
+      {"patterns": ["editor/image/(?:VERRE[_ -]?)?(?:amadeus|cadence|cbg|crosswalk|cyndi|dorian|endrick|epic|fragrance|gabriella|java|naomie|paris|pixel|quattro|renoir|rill|rodin|satine|venus|waterside|whistler|wide[_ -]?reed|106-108-10|104-4|106-108-5)\\.(?:jpe?g|png|webp)"], "role": "glass-design"},
+      {"patterns": ["optionimages/local_option_[0-9]+\\.(?:jpe?g|png|webp)", "VS_Degree_Intimite_[0-9]+\\.(?:jpe?g|png|webp)"], "role": "configuration-diagram"},
+      {"patterns": ["editor/image/[^?#]*(?:urban|executive|frame|cadre)[^?#]*\\.(?:jpe?g|png|webp)"], "role": "profile-section"}
+    ],
+    "attach_page_roles": ["product-hero", "glass-design"],
+    "archive_shared_roles": ["configuration-diagram", "profile-section"],
     "category_rules": [
       {"patterns": ["door[- ]?glass", "decorative[- ]?glass", "categories\\.php"], "category": "door-glass"},
       {"patterns": ["entry[- ]?door", "fiberglass", "steel"], "category": "entry-doors"}
     ],
-    "categories": ["entry-doors", "door-glass"]
+    "categories": ["entry-doors", "door-glass"],
+    "source_products": [
+      {
+        "slug": "satine",
+        "name": "Satine",
+        "category": "door-glass",
+        "collection": "Stylized Doorglass",
+        "type": "Acid-Etched Doorglass",
+        "sourceDescription": "Current 2026 Verre Select catalogue design with acid-etched privacy glass.",
+        "sourceUrl": "https://verreselect.com/page.php?PageID=8&UILanguage=EN",
+        "sourceType": "supplier-publication",
+        "specifications": {
+          "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+          "publicationPage": "24",
+          "glassType": "Acid Etch",
+          "availableSizes": ["22 x 12", "22 x 17", "22 x 36", "8 x 36", "22 x 48", "8 x 48", "20 x 64", "22 x 64", "7 x 64"]
+        }
+      }
+    ]
   },
   {
     "slug": "mennie-canada",

@@ -1,0 +1,156 @@
+{
+    "supplier":  "verre-select",
+    "supplierName":  "Verre Select",
+    "completedAt":  "2026-08-20",
+    "status":  "WEBSITE + MEDIA + FLIPHTML5 VERIFIED",
+    "catalogue":  {
+                      "canonicalProducts":  26,
+                      "livePageBackedProducts":  25,
+                      "publicationOnlyProducts":  1,
+                      "publicationOnlyProductIds":  [
+                                                        "verre-select:satine"
+                                                    ],
+                      "currentLiveDoorWindowDesigns":  22,
+                      "currentLiveCreationSelectModels":  3,
+                      "rejectedDuplicateLiveConfigurations":  [
+                                                                  {
+                                                                      "sourceUrl":  "https://verreselect.com/product.php?ProductID=106\u0026UILanguage=EN",
+                                                                      "reason":  "Duplicates canonical model identity HS-CRE104E+-4; retained only as configuration evidence."
+                                                                  }
+                                                              ],
+                      "staleCuratedRecords":  [
+                                                  {
+                                                      "id":  "verre-select:ryu",
+                                                      "reason":  "No current live product page or named 2026 publication evidence."
+                                                  },
+                                                  {
+                                                      "id":  "verre-select:karma-opaque",
+                                                      "reason":  "Karma appears only as a glass type in the 2026 chart, not as a current canonical design."
+                                                  },
+                                                  {
+                                                      "id":  "verre-select:canva",
+                                                      "reason":  "Canva appears only as a component glass name in current designs, not as a current canonical design."
+                                                  }
+                                              ]
+                  },
+    "liveCrawl":  {
+                      "pagesCrawled":  34,
+                      "acceptedRunId":  "20260820T060442Z-12388",
+                      "acceptedAssetTasks":  129,
+                      "acceptedUniqueBinaries":  93,
+                      "pendingAssetTasks":  0,
+                      "retryableAssetTasks":  0,
+                      "rejectedAssetTasks":  0,
+                      "errors":  0,
+                      "quarantinedAssets":  0,
+                      "lastKnownGoodUpdated":  true,
+                      "offDomainRedirectsAccepted":  0,
+                      "offDomainAssetsAccepted":  0
+                  },
+    "liveMedia":  {
+                      "productsWithCorrectHero":  25,
+                      "productsWithPublicProductMedia":  25,
+                      "productHeroAssets":  25,
+                      "glassDesignAssets":  5,
+                      "configurationDiagramAssets":  61,
+                      "profileSectionAssets":  2,
+                      "totalAcceptedAssets":  93,
+                      "relationshipStates":  {
+                                                 "product-specific":  30,
+                                                 "collection-shared":  0,
+                                                 "supplier-shared":  63,
+                                                 "uncertain/review":  0
+                                             },
+                      "duplicatedBinariesStored":  0,
+                      "genericLogoIconNavigationAssetsAttached":  0
+                  },
+    "currentDocuments":  {
+                             "pdfDocuments":  {
+                                                  "count":  0,
+                                                  "status":  "none/currently-unavailable"
+                                              },
+                             "historicalPdfLinks":  [
+                                                        {
+                                                            "title":  "Verre Select Catalogue 2017-2018",
+                                                            "status":  "historical/superseded",
+                                                            "note":  "Old product-page references are not treated as the current catalogue."
+                                                        }
+                                                    ],
+                             "flipHtml5Publications":  {
+                                                           "count":  1,
+                                                           "status":  "audited",
+                                                           "title":  "2026 Verre Select Entry Door Product Catalogue",
+                                                           "sourceUrl":  "https://online.fliphtml5.com/dmiiu/qzru/"
+                                                       }
+                         },
+    "flipHtml5":  {
+                      "publicationTitle":  "2026 Verre Select Entry Door Product Catalogue",
+                      "publicationYear":  2026,
+                      "viewerCreatedUtc":  "2026-01-14T15:17:30+00:00",
+                      "pagesProcessed":  36,
+                      "highResolutionPageAssetsCaptured":  36,
+                      "pageDimensions":  "2181x2800",
+                      "selectedSource":  "Viewer manifest hashed WebP large-page assets",
+                      "unavailableAlternative":  "Nominal files/large/{page}.jpg endpoints returned unavailable responses.",
+                      "browserScreenshotsUsed":  0,
+                      "individualProductImagesExtracted":  23,
+                      "technicalDiagramsChartsExtracted":  6,
+                      "doorglassDesignPagesCaptured":  23,
+                      "doorSlabReferencePagesCaptured":  4,
+                      "textLayerPagesExtracted":  36,
+                      "ocrPages":  0,
+                      "currentPdfAvailable":  false,
+                      "provenanceManifest":  "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/publication-manifest.json",
+                      "extractedAssetManifest":  "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/extracted/extracted-assets.json",
+                      "trackedAudit":  "audit/supplier-completeness/verre-select-fliphtml5-audit.json"
+                  },
+    "publicationRelationships":  {
+                                     "reviewedProductCrops":  23,
+                                     "productSpecific":  23,
+                                     "uncertainOrReview":  0,
+                                     "rule":  "Only pages devoted to one named design were cropped and associated. Technical, frame, steel, fiberglass, and chart pages remain collection-shared, supplier-shared, or reference evidence.",
+                                     "satine":  {
+                                                    "productId":  "verre-select:satine",
+                                                    "page":  24,
+                                                    "state":  "product-specific source evidence",
+                                                    "publicMediaState":  "not promoted",
+                                                    "reason":  "The viewer exposes only the full page master, not a standalone original component image; the reviewed crop remains provenance-backed source evidence and the product is explicitly held from publication."
+                                                }
+                                 },
+    "sourceFacts":  {
+                        "normalizedProductsFromPublication":  23,
+                        "evidenceMethod":  "accessible embedded text layer plus human visual review",
+                        "ocrDerivedTechnicalFacts":  0,
+                        "collectionEvidencePages":  [
+                                                        29,
+                                                        30,
+                                                        31,
+                                                        32,
+                                                        33,
+                                                        34,
+                                                        35
+                                                    ]
+                    },
+    "validation":  {
+                       "associationRevalidation":  "passed offline; no redownload",
+                       "visualReview":  "passed for all 23 product crops and representative page groups",
+                       "encodingIssues":  0,
+                       "parsingIssues":  0,
+                       "relationshipUncertain":  0
+                   },
+    "remainingWeaknesses":  [
+                                "The main HTML crawler does not natively traverse FlipHTML5; the current publication requires the separate repeatable offline extraction workflow after source acquisition.",
+                                "FlipHTML5 hashed page URLs may change when the supplier replaces the publication, so future audits must re-read the viewer manifest rather than reuse URL patterns.",
+                                "Reviewed crop coordinates are publication-layout-specific and must be revalidated when a new edition changes page design.",
+                                "Publication binaries live in the ignored provenance archive; repository reports preserve hashes and paths, but the source archive requires independent durable backup.",
+                                "The general live inventory counts only public catalogue media, so Satine\u0027s source-archive crop is reported separately and is not treated as public media.",
+                                "No downloadable current PDF is exposed by the viewer."
+                            ],
+    "nextSupplierAllowed":  true,
+    "missingProducts":  [
+                            {
+                                "id":  "verre-select:satine",
+                                "reason":  "Current 2026 FlipHTML5 page 24 exposes no standalone original component image. A reviewed product-specific crop is preserved in the provenance archive, but it is intentionally not promoted as public product media and the product is held from publication."
+                            }
+                        ]
+}

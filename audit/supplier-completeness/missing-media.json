@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T05:05:05.309434+00:00",
+  "generatedAt": "2026-08-20T06:24:58.504669+00:00",
   "products": [
     {
       "supplier": "trimlite",
@@ -782,6 +782,64 @@
         "state": "source-complete"
       },
       "reason": "supplier page points to a downloaded image whose exact filename/model belongs to another canonical product; cross-association rejected"
+    },
+    {
+      "supplier": "verre-select",
+      "liveProductName": "Satine",
+      "liveModelNumber": null,
+      "collection": "Stylized Doorglass",
+      "category": "door-glass",
+      "canonicalSupplierUrl": "https://verreselect.com/page.php?PageID=8&UILanguage=EN",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "verre-select:satine",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": false,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": false,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": []
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": false
+      },
+      "documentsLocal": {
+        "captured": false,
+        "paths": []
+      },
+      "pdfEvidence": [],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      },
+      "reason": "Current 2026 FlipHTML5 page 24 exposes no standalone original component image. A reviewed product-specific crop is preserved in the provenance archive, but it is intentionally not promoted as public product media and the product is held from publication."
     },
     {
       "supplier": "mennie-canada",

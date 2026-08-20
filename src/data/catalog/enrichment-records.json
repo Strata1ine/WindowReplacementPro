@@ -46137,6 +46137,155 @@
     }
   },
   {
+    "productId": "verre-select:amadeus",
+    "sourceFacts": {
+      "manufacturer": {
+        "value": "verre-select",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/product.php?ProductID=13&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceUrl": {
+        "value": "https://verreselect.com/product.php?ProductID=13&UILanguage=EN",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/product.php?ProductID=13&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceDescription": "The AMADEUS model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "modelNumber": null,
+      "collection": null,
+      "normalized": {
+        "designName": {
+          "value": "Amadeus",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://verreselect.com/product.php?ProductID=13&UILanguage=EN",
+              "extractedAt": "2026-08-20T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 3,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-003.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-003.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "availableSizes": {
+          "value": [
+            "22 x 48",
+            "8 x 48",
+            "22 x 64",
+            "7 x 64"
+          ],
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 6,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-006.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-006.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glassComposition": {
+          "value": "Linea, Kasumi, beveled Screen, and Screen glass",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 6,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-006.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-006.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "caming": {
+          "value": "Welded lead",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 6,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-006.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-006.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        }
+      },
+      "sourceDocuments": [],
+      "sourceMedia": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://verreselect.com/userfiles/productimages/variant_13_35.jpg",
+          "extractedAt": "2026-08-20T06:05:21Z",
+          "status": "active",
+          "localPath": "/images/catalog/verre-select/variant-13-35-ba9a9f0f7745.jpg"
+        }
+      ]
+    },
+    "editorial": {
+      "status": "draft",
+      "summary": "Amadeus is a door glass design from Verre Select. The saved supplier evidence documents Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier; Available sizes: 22 x 48, 8 x 48, 22 x 64, 7 x 64; glassComposition: Linea, Kasumi, beveled Screen, and Screen glass. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
+      "bestFor": "Entry-door projects considering the Amadeus decorative glass design.",
+      "keyFeatures": [
+        "Design name: Amadeus",
+        "Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+        "Available sizes: 22 x 48, 8 x 48, 22 x 64, 7 x 64",
+        "Glass Composition: Linea, Kasumi, beveled Screen, and Screen glass",
+        "Caming: Welded lead"
+      ],
+      "considerations": [
+        "Confirm current option combinations, availability and performance values before ordering."
+      ],
+      "configurationNotes": "Only configurations explicitly listed in the supported facts are represented in this draft.",
+      "seoTitle": "Amadeus Door Glass Design | Verre Select",
+      "metaDescription": "Review supported specifications and source material for the Amadeus door glass design from Verre Select. Confirm current options before ordering.",
+      "generatedAt": "2026-08-19T23:30:00Z"
+    }
+  },
+  {
     "productId": "verre-select:cadence",
     "sourceFacts": {
       "manufacturer": {
@@ -46145,7 +46294,7 @@
           {
             "supplier": "verre-select",
             "sourceUrl": "https://verreselect.com/product.php?ProductVariantID=1143&UILanguage=EN",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -46156,7 +46305,7 @@
           {
             "supplier": "verre-select",
             "sourceUrl": "https://verreselect.com/product.php?ProductVariantID=1143&UILanguage=EN",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -46169,7 +46318,7 @@
           {
             "supplier": "verre-select",
             "sourceUrl": "https://verreselect.com/product.php?ProductVariantID=1143&UILanguage=EN",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -46181,7 +46330,7 @@
             {
               "supplier": "verre-select",
               "sourceUrl": "https://verreselect.com/product.php?ProductVariantID=1143&UILanguage=EN",
-              "extractedAt": "2026-08-19T00:00:00Z",
+              "extractedAt": "2026-08-20T00:00:00Z",
               "status": "active"
             }
           ]
@@ -46192,8 +46341,65 @@
             {
               "supplier": "verre-select",
               "sourceUrl": "https://verreselect.com/product.php?ProductVariantID=1143&UILanguage=EN",
-              "extractedAt": "2026-08-19T00:00:00Z",
+              "extractedAt": "2026-08-20T00:00:00Z",
               "status": "active"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 3,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-003.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-003.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "availableSizes": {
+          "value": [
+            "22 x 64",
+            "7 x 64"
+          ],
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 7,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-007.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-007.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glassComposition": {
+          "value": "Clear or obscure glass with optional 2 in grille (1 in on sidelites) and sandblast",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 7,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-007.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-007.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
             }
           ]
         }
@@ -46203,27 +46409,30 @@
         {
           "supplier": "verre-select",
           "sourceUrl": "https://verreselect.com/userfiles/productimages/variant_235_1143.jpg",
-          "extractedAt": "2026-08-19T20:02:51Z",
+          "extractedAt": "2026-08-20T06:05:15Z",
           "status": "active",
           "localPath": "/images/catalog/verre-select/variant-235-1143-9cfcd897278c.jpg"
         }
       ]
     },
     "editorial": {
-      "status": "incomplete",
-      "summary": null,
-      "bestFor": null,
+      "status": "draft",
+      "summary": "Cadence is a door glass design from Verre Select. The saved supplier evidence documents Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier; Available sizes: 22 x 64, 7 x 64; glassComposition: Clear or obscure glass with optional 2 in grille (1 in on sidelites) and sandblast. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
+      "bestFor": "Entry-door projects considering the Cadence decorative glass design.",
       "keyFeatures": [
         "Collection: Door Windows",
         "Product type: Door Glass",
-        "Design name: Cadence"
+        "Design name: Cadence",
+        "Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+        "Available sizes: 22 x 64, 7 x 64",
+        "Glass Composition: Clear or obscure glass with optional 2 in grille (1 in on sidelites) and sandblast"
       ],
       "considerations": [
-        "Supplier evidence is not yet detailed enough for independent editorial copy."
+        "Confirm current option combinations, availability and performance values before ordering."
       ],
-      "configurationNotes": null,
-      "seoTitle": null,
-      "metaDescription": null,
+      "configurationNotes": "Only configurations explicitly listed in the supported facts are represented in this draft.",
+      "seoTitle": "Cadence Door Glass Design | Verre Select",
+      "metaDescription": "Review supported specifications and source material for the Cadence door glass design from Verre Select. Confirm current options before ordering.",
       "generatedAt": "2026-08-19T23:30:00Z"
     }
   },
@@ -46319,7 +46528,7 @@
           {
             "supplier": "verre-select",
             "sourceUrl": "https://verreselect.com/product.php?ProductVariantID=1132&UILanguage=EN",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -46330,7 +46539,7 @@
           {
             "supplier": "verre-select",
             "sourceUrl": "https://verreselect.com/product.php?ProductVariantID=1132&UILanguage=EN",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -46343,7 +46552,7 @@
           {
             "supplier": "verre-select",
             "sourceUrl": "https://verreselect.com/product.php?ProductVariantID=1132&UILanguage=EN",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -46355,7 +46564,7 @@
             {
               "supplier": "verre-select",
               "sourceUrl": "https://verreselect.com/product.php?ProductVariantID=1132&UILanguage=EN",
-              "extractedAt": "2026-08-19T00:00:00Z",
+              "extractedAt": "2026-08-20T00:00:00Z",
               "status": "active"
             }
           ]
@@ -46366,8 +46575,71 @@
             {
               "supplier": "verre-select",
               "sourceUrl": "https://verreselect.com/product.php?ProductVariantID=1132&UILanguage=EN",
-              "extractedAt": "2026-08-19T00:00:00Z",
+              "extractedAt": "2026-08-20T00:00:00Z",
               "status": "active"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 3,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-003.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-003.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "availableSizes": {
+          "value": [
+            "22 x 12",
+            "22 x 17",
+            "22 x 36",
+            "22 x 48",
+            "8 x 48",
+            "20 x 64",
+            "22 x 64",
+            "7 x 64"
+          ],
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 8,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-008.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-008.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glassComposition": {
+          "value": "Clear zone and sandblast",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 8,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-008.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-008.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
             }
           ]
         }
@@ -46377,27 +46649,181 @@
         {
           "supplier": "verre-select",
           "sourceUrl": "https://verreselect.com/userfiles/productimages/variant_234_1132.jpg",
-          "extractedAt": "2026-08-19T20:02:51Z",
+          "extractedAt": "2026-08-20T06:05:14Z",
           "status": "active",
           "localPath": "/images/catalog/verre-select/variant-234-1132-0fd149a52264.jpg"
         }
       ]
     },
     "editorial": {
-      "status": "incomplete",
-      "summary": null,
-      "bestFor": null,
+      "status": "draft",
+      "summary": "CBG is a door glass design from Verre Select. The saved supplier evidence documents Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier; Available sizes: 22 x 12, 22 x 17, 22 x 36, 22 x 48, 8 x 48, 20 x 64, 22 x 64, 7 x 64; glassComposition: Clear zone and sandblast. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
+      "bestFor": "Entry-door projects considering the CBG decorative glass design.",
       "keyFeatures": [
         "Collection: Door Windows",
         "Product type: Door Glass",
-        "Design name: CBG"
+        "Design name: CBG",
+        "Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+        "Available sizes: 22 x 12, 22 x 17, 22 x 36, 22 x 48, 8 x 48, 20 x 64, 22 x 64, 7 x 64",
+        "Glass Composition: Clear zone and sandblast"
       ],
       "considerations": [
-        "Supplier evidence is not yet detailed enough for independent editorial copy."
+        "Confirm current option combinations, availability and performance values before ordering."
       ],
-      "configurationNotes": null,
-      "seoTitle": null,
-      "metaDescription": null,
+      "configurationNotes": "Only configurations explicitly listed in the supported facts are represented in this draft.",
+      "seoTitle": "CBG Door Glass Design | Verre Select",
+      "metaDescription": "Review supported specifications and source material for the CBG door glass design from Verre Select. Confirm current options before ordering.",
+      "generatedAt": "2026-08-19T23:30:00Z"
+    }
+  },
+  {
+    "productId": "verre-select:crosswalk",
+    "sourceFacts": {
+      "manufacturer": {
+        "value": "verre-select",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/product.php?ProductID=251&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceUrl": {
+        "value": "https://verreselect.com/product.php?ProductID=251&UILanguage=EN",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/product.php?ProductID=251&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceDescription": "  Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "modelNumber": null,
+      "collection": null,
+      "normalized": {
+        "designName": {
+          "value": "Crosswalk",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://verreselect.com/product.php?ProductID=251&UILanguage=EN",
+              "extractedAt": "2026-08-20T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 3,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-003.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-003.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "availableSizes": {
+          "value": [
+            "22 x 36",
+            "8 x 36",
+            "22 x 48",
+            "8 x 48",
+            "22 x 64",
+            "7 x 64"
+          ],
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 9,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-009.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-009.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glassComposition": {
+          "value": "Morocco or micro-iced granite with clear or gray soft wave glass",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 9,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-009.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-009.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "caming": {
+          "value": "Platinum nickel caming",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 9,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-009.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-009.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        }
+      },
+      "sourceDocuments": [],
+      "sourceMedia": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://verreselect.com/userfiles/productimages/product_864.jpg",
+          "extractedAt": "2026-08-20T06:05:24Z",
+          "status": "active",
+          "localPath": "/images/catalog/verre-select/product-864-1820cdd10723.jpg"
+        }
+      ]
+    },
+    "editorial": {
+      "status": "draft",
+      "summary": "Crosswalk is a door glass design from Verre Select. The saved supplier evidence documents Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier; Available sizes: 22 x 36, 8 x 36, 22 x 48, 8 x 48, 22 x 64, 7 x 64; glassComposition: Morocco or micro-iced granite with clear or gray soft wave glass. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
+      "bestFor": "Entry-door projects considering the Crosswalk decorative glass design.",
+      "keyFeatures": [
+        "Design name: Crosswalk",
+        "Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+        "Available sizes: 22 x 36, 8 x 36, 22 x 48, 8 x 48, 22 x 64, 7 x 64",
+        "Glass Composition: Morocco or micro-iced granite with clear or gray soft wave glass",
+        "Caming: Platinum nickel caming"
+      ],
+      "considerations": [
+        "Confirm current option combinations, availability and performance values before ordering."
+      ],
+      "configurationNotes": "Only configurations explicitly listed in the supported facts are represented in this draft.",
+      "seoTitle": "Crosswalk Door Glass Design | Verre Select",
+      "metaDescription": "Review supported specifications and source material for the Crosswalk door glass design from Verre Select. Confirm current options before ordering.",
       "generatedAt": "2026-08-19T23:30:00Z"
     }
   },
@@ -46410,7 +46836,7 @@
           {
             "supplier": "verre-select",
             "sourceUrl": "https://verreselect.com/product.php?ProductID=243&UILanguage=EN",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -46421,7 +46847,7 @@
           {
             "supplier": "verre-select",
             "sourceUrl": "https://verreselect.com/product.php?ProductID=243&UILanguage=EN",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -46434,7 +46860,7 @@
           {
             "supplier": "verre-select",
             "sourceUrl": "https://verreselect.com/product.php?ProductID=243&UILanguage=EN",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -46446,7 +46872,7 @@
             {
               "supplier": "verre-select",
               "sourceUrl": "https://verreselect.com/product.php?ProductID=243&UILanguage=EN",
-              "extractedAt": "2026-08-19T00:00:00Z",
+              "extractedAt": "2026-08-20T00:00:00Z",
               "status": "active"
             }
           ]
@@ -46457,8 +46883,67 @@
             {
               "supplier": "verre-select",
               "sourceUrl": "https://verreselect.com/product.php?ProductID=243&UILanguage=EN",
-              "extractedAt": "2026-08-19T00:00:00Z",
+              "extractedAt": "2026-08-20T00:00:00Z",
               "status": "active"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 3,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-003.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-003.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "availableSizes": {
+          "value": [
+            "22 x 48",
+            "8 x 48",
+            "22 x 64",
+            "7 x 64"
+          ],
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 10,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-010.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-010.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glassComposition": {
+          "value": "Sandblast with clear zone",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 10,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-010.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-010.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
             }
           ]
         }
@@ -46468,27 +46953,480 @@
         {
           "supplier": "verre-select",
           "sourceUrl": "https://verreselect.com/userfiles/productimages/variant_243_1232.jpg",
-          "extractedAt": "2026-08-19T20:02:54Z",
+          "extractedAt": "2026-08-20T06:05:16Z",
           "status": "active",
           "localPath": "/images/catalog/verre-select/variant-243-1232-efbb5800c377.jpg"
         }
       ]
     },
     "editorial": {
-      "status": "incomplete",
-      "summary": null,
-      "bestFor": null,
+      "status": "draft",
+      "summary": "Cyndi is a door glass design from Verre Select. The saved supplier evidence documents Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier; Available sizes: 22 x 48, 8 x 48, 22 x 64, 7 x 64; glassComposition: Sandblast with clear zone. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
+      "bestFor": "Entry-door projects considering the Cyndi decorative glass design.",
       "keyFeatures": [
         "Collection: Door Windows",
         "Product type: Door Glass",
-        "Design name: Cyndi"
+        "Design name: Cyndi",
+        "Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+        "Available sizes: 22 x 48, 8 x 48, 22 x 64, 7 x 64",
+        "Glass Composition: Sandblast with clear zone"
       ],
       "considerations": [
-        "Supplier evidence is not yet detailed enough for independent editorial copy."
+        "Confirm current option combinations, availability and performance values before ordering."
       ],
-      "configurationNotes": null,
-      "seoTitle": null,
-      "metaDescription": null,
+      "configurationNotes": "Only configurations explicitly listed in the supported facts are represented in this draft.",
+      "seoTitle": "Cyndi Door Glass Design | Verre Select",
+      "metaDescription": "Review supported specifications and source material for the Cyndi door glass design from Verre Select. Confirm current options before ordering.",
+      "generatedAt": "2026-08-19T23:30:00Z"
+    }
+  },
+  {
+    "productId": "verre-select:dorian",
+    "sourceFacts": {
+      "manufacturer": {
+        "value": "verre-select",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/product.php?ProductID=250&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceUrl": {
+        "value": "https://verreselect.com/product.php?ProductID=250&UILanguage=EN",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/product.php?ProductID=250&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceDescription": "  Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "modelNumber": null,
+      "collection": null,
+      "normalized": {
+        "designName": {
+          "value": "Dorian",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://verreselect.com/product.php?ProductID=250&UILanguage=EN",
+              "extractedAt": "2026-08-20T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 3,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-003.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-003.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "availableSizes": {
+          "value": [
+            "22 x 17",
+            "22 x 36",
+            "8 x 36",
+            "22 x 48",
+            "8 x 48",
+            "22 x 64",
+            "7 x 64"
+          ],
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 11,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-011.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-011.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glassComposition": {
+          "value": "Scribble, Kasumi or micro-granite, and gray soft wave glass",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 11,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-011.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-011.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "caming": {
+          "value": "Black aluminum caming",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 11,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-011.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-011.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        }
+      },
+      "sourceDocuments": [],
+      "sourceMedia": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://verreselect.com/userfiles/productimages/product_863.jpg",
+          "extractedAt": "2026-08-20T06:05:23Z",
+          "status": "active",
+          "localPath": "/images/catalog/verre-select/product-863-24ede466b35f.jpg"
+        }
+      ]
+    },
+    "editorial": {
+      "status": "draft",
+      "summary": "Dorian is a door glass design from Verre Select. The saved supplier evidence documents Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier; Available sizes: 22 x 17, 22 x 36, 8 x 36, 22 x 48, 8 x 48, 22 x 64, 7 x 64; glassComposition: Scribble, Kasumi or micro-granite, and gray soft wave glass. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
+      "bestFor": "Entry-door projects considering the Dorian decorative glass design.",
+      "keyFeatures": [
+        "Design name: Dorian",
+        "Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+        "Available sizes: 22 x 17, 22 x 36, 8 x 36, 22 x 48, 8 x 48, 22 x 64, 7 x 64",
+        "Glass Composition: Scribble, Kasumi or micro-granite, and gray soft wave glass",
+        "Caming: Black aluminum caming"
+      ],
+      "considerations": [
+        "Confirm current option combinations, availability and performance values before ordering."
+      ],
+      "configurationNotes": "Only configurations explicitly listed in the supported facts are represented in this draft.",
+      "seoTitle": "Dorian Door Glass Design | Verre Select",
+      "metaDescription": "Review supported specifications and source material for the Dorian door glass design from Verre Select. Confirm current options before ordering.",
+      "generatedAt": "2026-08-19T23:30:00Z"
+    }
+  },
+  {
+    "productId": "verre-select:endrick",
+    "sourceFacts": {
+      "manufacturer": {
+        "value": "verre-select",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/product.php?ProductID=252&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceUrl": {
+        "value": "https://verreselect.com/product.php?ProductID=252&UILanguage=EN",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/product.php?ProductID=252&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceDescription": "  Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "modelNumber": null,
+      "collection": null,
+      "normalized": {
+        "designName": {
+          "value": "Endrick",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://verreselect.com/product.php?ProductID=252&UILanguage=EN",
+              "extractedAt": "2026-08-20T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 3,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-003.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-003.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "availableSizes": {
+          "value": [
+            "22 x 48",
+            "8 x 48",
+            "22 x 64",
+            "7 x 64"
+          ],
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 12,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-012.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-012.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glassComposition": {
+          "value": "Beveled Screen, Canva, Linea, and Screen glass",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 12,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-012.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-012.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "caming": {
+          "value": "Black aluminum caming",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 12,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-012.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-012.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        }
+      },
+      "sourceDocuments": [],
+      "sourceMedia": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://verreselect.com/userfiles/productimages/product_865.jpg",
+          "extractedAt": "2026-08-20T06:05:25Z",
+          "status": "active",
+          "localPath": "/images/catalog/verre-select/product-865-b959e146d4dd.jpg"
+        }
+      ]
+    },
+    "editorial": {
+      "status": "draft",
+      "summary": "Endrick is a door glass design from Verre Select. The saved supplier evidence documents Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier; Available sizes: 22 x 48, 8 x 48, 22 x 64, 7 x 64; glassComposition: Beveled Screen, Canva, Linea, and Screen glass. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
+      "bestFor": "Entry-door projects considering the Endrick decorative glass design.",
+      "keyFeatures": [
+        "Design name: Endrick",
+        "Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+        "Available sizes: 22 x 48, 8 x 48, 22 x 64, 7 x 64",
+        "Glass Composition: Beveled Screen, Canva, Linea, and Screen glass",
+        "Caming: Black aluminum caming"
+      ],
+      "considerations": [
+        "Confirm current option combinations, availability and performance values before ordering."
+      ],
+      "configurationNotes": "Only configurations explicitly listed in the supported facts are represented in this draft.",
+      "seoTitle": "Endrick Door Glass Design | Verre Select",
+      "metaDescription": "Review supported specifications and source material for the Endrick door glass design from Verre Select. Confirm current options before ordering.",
+      "generatedAt": "2026-08-19T23:30:00Z"
+    }
+  },
+  {
+    "productId": "verre-select:epic",
+    "sourceFacts": {
+      "manufacturer": {
+        "value": "verre-select",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/product.php?ProductID=253&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceUrl": {
+        "value": "https://verreselect.com/product.php?ProductID=253&UILanguage=EN",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/product.php?ProductID=253&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceDescription": "  Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "modelNumber": null,
+      "collection": null,
+      "normalized": {
+        "designName": {
+          "value": "Epic",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://verreselect.com/product.php?ProductID=253&UILanguage=EN",
+              "extractedAt": "2026-08-20T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 3,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-003.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-003.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "availableSizes": {
+          "value": [
+            "22 x 48",
+            "8 x 48",
+            "22 x 64",
+            "7 x 64"
+          ],
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 13,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-013.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-013.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glassComposition": {
+          "value": "Beveled clear, granite, beveled Screen, and grain glass",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 13,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-013.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-013.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "caming": {
+          "value": "Antique welded lead",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 13,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-013.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-013.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        }
+      },
+      "sourceDocuments": [],
+      "sourceMedia": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://verreselect.com/userfiles/productimages/product_866.jpg",
+          "extractedAt": "2026-08-20T06:05:25Z",
+          "status": "active",
+          "localPath": "/images/catalog/verre-select/product-866-97b4e83b49a2.jpg"
+        }
+      ]
+    },
+    "editorial": {
+      "status": "draft",
+      "summary": "Epic is a door glass design from Verre Select. The saved supplier evidence documents Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier; Available sizes: 22 x 48, 8 x 48, 22 x 64, 7 x 64; glassComposition: Beveled clear, granite, beveled Screen, and grain glass. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
+      "bestFor": "Entry-door projects considering the Epic decorative glass design.",
+      "keyFeatures": [
+        "Design name: Epic",
+        "Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+        "Available sizes: 22 x 48, 8 x 48, 22 x 64, 7 x 64",
+        "Glass Composition: Beveled clear, granite, beveled Screen, and grain glass",
+        "Caming: Antique welded lead"
+      ],
+      "considerations": [
+        "Confirm current option combinations, availability and performance values before ordering."
+      ],
+      "configurationNotes": "Only configurations explicitly listed in the supported facts are represented in this draft.",
+      "seoTitle": "Epic Door Glass Design | Verre Select",
+      "metaDescription": "Review supported specifications and source material for the Epic door glass design from Verre Select. Confirm current options before ordering.",
       "generatedAt": "2026-08-19T23:30:00Z"
     }
   },
@@ -46501,7 +47439,7 @@
           {
             "supplier": "verre-select",
             "sourceUrl": "https://verreselect.com/product.php?ProductID=230&UILanguage=EN",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -46512,7 +47450,7 @@
           {
             "supplier": "verre-select",
             "sourceUrl": "https://verreselect.com/product.php?ProductID=230&UILanguage=EN",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -46525,7 +47463,7 @@
           {
             "supplier": "verre-select",
             "sourceUrl": "https://verreselect.com/product.php?ProductID=230&UILanguage=EN",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -46537,7 +47475,7 @@
             {
               "supplier": "verre-select",
               "sourceUrl": "https://verreselect.com/product.php?ProductID=230&UILanguage=EN",
-              "extractedAt": "2026-08-19T00:00:00Z",
+              "extractedAt": "2026-08-20T00:00:00Z",
               "status": "active"
             }
           ]
@@ -46548,8 +47486,71 @@
             {
               "supplier": "verre-select",
               "sourceUrl": "https://verreselect.com/product.php?ProductID=230&UILanguage=EN",
-              "extractedAt": "2026-08-19T00:00:00Z",
+              "extractedAt": "2026-08-20T00:00:00Z",
               "status": "active"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 3,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-003.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-003.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "availableSizes": {
+          "value": [
+            "22 x 12",
+            "22 x 17",
+            "22 x 36",
+            "22 x 48",
+            "8 x 48",
+            "20 x 64",
+            "22 x 64",
+            "7 x 64"
+          ],
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 14,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-014.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-014.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glassComposition": {
+          "value": "Sandblast with clear zone",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 14,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-014.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-014.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
             }
           ]
         }
@@ -46559,27 +47560,30 @@
         {
           "supplier": "verre-select",
           "sourceUrl": "https://verreselect.com/userfiles/productimages/variant_230_1113.jpg",
-          "extractedAt": "2026-08-19T20:02:49Z",
+          "extractedAt": "2026-08-20T06:05:13Z",
           "status": "active",
           "localPath": "/images/catalog/verre-select/variant-230-1113-a7d4719b2fe8.jpg"
         }
       ]
     },
     "editorial": {
-      "status": "incomplete",
-      "summary": null,
-      "bestFor": null,
+      "status": "draft",
+      "summary": "Fragrance is a door glass design from Verre Select. The saved supplier evidence documents Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier; Available sizes: 22 x 12, 22 x 17, 22 x 36, 22 x 48, 8 x 48, 20 x 64, 22 x 64, 7 x 64; glassComposition: Sandblast with clear zone. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
+      "bestFor": "Entry-door projects considering the Fragrance decorative glass design.",
       "keyFeatures": [
         "Collection: Door Windows",
         "Product type: Door Glass",
-        "Design name: Fragrance"
+        "Design name: Fragrance",
+        "Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+        "Available sizes: 22 x 12, 22 x 17, 22 x 36, 22 x 48, 8 x 48, 20 x 64, 22 x 64, 7 x 64",
+        "Glass Composition: Sandblast with clear zone"
       ],
       "considerations": [
-        "Supplier evidence is not yet detailed enough for independent editorial copy."
+        "Confirm current option combinations, availability and performance values before ordering."
       ],
-      "configurationNotes": null,
-      "seoTitle": null,
-      "metaDescription": null,
+      "configurationNotes": "Only configurations explicitly listed in the supported facts are represented in this draft.",
+      "seoTitle": "Fragrance Door Glass Design | Verre Select",
+      "metaDescription": "Review supported specifications and source material for the Fragrance door glass design from Verre Select. Confirm current options before ordering.",
       "generatedAt": "2026-08-19T23:30:00Z"
     }
   },
@@ -46592,7 +47596,7 @@
           {
             "supplier": "verre-select",
             "sourceUrl": "https://verreselect.com/product.php?ProductID=232&UILanguage=EN",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -46603,7 +47607,7 @@
           {
             "supplier": "verre-select",
             "sourceUrl": "https://verreselect.com/product.php?ProductID=232&UILanguage=EN",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -46616,7 +47620,7 @@
           {
             "supplier": "verre-select",
             "sourceUrl": "https://verreselect.com/product.php?ProductID=232&UILanguage=EN",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -46628,7 +47632,7 @@
             {
               "supplier": "verre-select",
               "sourceUrl": "https://verreselect.com/product.php?ProductID=232&UILanguage=EN",
-              "extractedAt": "2026-08-19T00:00:00Z",
+              "extractedAt": "2026-08-20T00:00:00Z",
               "status": "active"
             }
           ]
@@ -46639,8 +47643,85 @@
             {
               "supplier": "verre-select",
               "sourceUrl": "https://verreselect.com/product.php?ProductID=232&UILanguage=EN",
-              "extractedAt": "2026-08-19T00:00:00Z",
+              "extractedAt": "2026-08-20T00:00:00Z",
               "status": "active"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 3,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-003.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-003.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "availableSizes": {
+          "value": [
+            "22 x 48",
+            "8 x 48",
+            "22 x 64",
+            "7 x 64"
+          ],
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 15,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-015.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-015.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glassComposition": {
+          "value": "Clear, Canva, and Screen glass",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 15,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-015.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-015.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "caming": {
+          "value": "Non-welded silver caming",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 15,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-015.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-015.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
             }
           ]
         }
@@ -46650,9 +47731,90 @@
         {
           "supplier": "verre-select",
           "sourceUrl": "https://verreselect.com/userfiles/productimages/variant_232_1123.jpg",
-          "extractedAt": "2026-08-19T20:02:50Z",
+          "extractedAt": "2026-08-20T06:05:14Z",
           "status": "active",
           "localPath": "/images/catalog/verre-select/variant-232-1123-737fbaa6115f.jpg"
+        }
+      ]
+    },
+    "editorial": {
+      "status": "draft",
+      "summary": "Gabriella is a door glass design from Verre Select. The saved supplier evidence documents Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier; Available sizes: 22 x 48, 8 x 48, 22 x 64, 7 x 64; glassComposition: Clear, Canva, and Screen glass. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
+      "bestFor": "Entry-door projects considering the Gabriella decorative glass design.",
+      "keyFeatures": [
+        "Collection: Door Windows",
+        "Product type: Door Glass",
+        "Design name: Gabriella",
+        "Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+        "Available sizes: 22 x 48, 8 x 48, 22 x 64, 7 x 64",
+        "Glass Composition: Clear, Canva, and Screen glass",
+        "Caming: Non-welded silver caming"
+      ],
+      "considerations": [
+        "Confirm current option combinations, availability and performance values before ordering."
+      ],
+      "configurationNotes": "Only configurations explicitly listed in the supported facts are represented in this draft.",
+      "seoTitle": "Gabriella Door Glass Design | Verre Select",
+      "metaDescription": "Review supported specifications and source material for the Gabriella door glass design from Verre Select. Confirm current options before ordering.",
+      "generatedAt": "2026-08-19T23:30:00Z"
+    }
+  },
+  {
+    "productId": "verre-select:hs-cre104e-4",
+    "sourceFacts": {
+      "manufacturer": {
+        "value": "verre-select",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/product.php?ProductID=105&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceUrl": {
+        "value": "https://verreselect.com/product.php?ProductID=105&UILanguage=EN",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/product.php?ProductID=105&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceDescription": "At Verre Select, we give you the ability to create your own personal front entrance design! Choose Création Sélect! HS-CRE104E+-4 Non-Welded Black + Kasumi Glass + 104-4 = Custom Door Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "modelNumber": null,
+      "collection": null,
+      "normalized": {
+        "designName": {
+          "value": "HS-CRE104E+-4",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://verreselect.com/product.php?ProductID=105&UILanguage=EN",
+              "extractedAt": "2026-08-20T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        }
+      },
+      "sourceDocuments": [],
+      "sourceMedia": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://verreselect.com/userfiles/editor/image/104-4.jpg",
+          "extractedAt": "2026-08-20T06:06:26Z",
+          "status": "active",
+          "localPath": "/images/catalog/verre-select/104-4-e3584b559676.jpg"
+        },
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://verreselect.com/userfiles/productimages/variant_105_965.jpg",
+          "extractedAt": "2026-08-20T06:05:26Z",
+          "status": "active",
+          "localPath": "/images/catalog/verre-select/variant-105-965-81b5c0fbe84a.jpg"
         }
       ]
     },
@@ -46661,9 +47823,157 @@
       "summary": null,
       "bestFor": null,
       "keyFeatures": [
-        "Collection: Door Windows",
-        "Product type: Door Glass",
-        "Design name: Gabriella"
+        "Design name: HS-CRE104E+-4"
+      ],
+      "considerations": [
+        "Supplier evidence is not yet detailed enough for independent editorial copy."
+      ],
+      "configurationNotes": null,
+      "seoTitle": null,
+      "metaDescription": null,
+      "generatedAt": "2026-08-19T23:30:00Z"
+    }
+  },
+  {
+    "productId": "verre-select:hs-cre106e-10",
+    "sourceFacts": {
+      "manufacturer": {
+        "value": "verre-select",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/product.php?ProductID=104&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceUrl": {
+        "value": "https://verreselect.com/product.php?ProductID=104&UILanguage=EN",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/product.php?ProductID=104&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceDescription": "At Verre Select, we give you the ability to create your own personal front entrance design! Choose Création Sélect! HS-CRE106E+-10 Non-Welded Silver + Chinchilla Glass + 106-10 = Custom Door Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "modelNumber": null,
+      "collection": null,
+      "normalized": {
+        "designName": {
+          "value": "HS-CRE106E+-10",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://verreselect.com/product.php?ProductID=104&UILanguage=EN",
+              "extractedAt": "2026-08-20T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        }
+      },
+      "sourceDocuments": [],
+      "sourceMedia": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://verreselect.com/userfiles/editor/image/106-108-10.jpg",
+          "extractedAt": "2026-08-20T06:06:25Z",
+          "status": "active",
+          "localPath": "/images/catalog/verre-select/106-108-10-c87c3b025de6.jpg"
+        },
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://verreselect.com/userfiles/productimages/variant_104_961.jpg",
+          "extractedAt": "2026-08-20T06:05:26Z",
+          "status": "active",
+          "localPath": "/images/catalog/verre-select/variant-104-961-567f11a6d909.jpg"
+        }
+      ]
+    },
+    "editorial": {
+      "status": "incomplete",
+      "summary": null,
+      "bestFor": null,
+      "keyFeatures": [
+        "Design name: HS-CRE106E+-10"
+      ],
+      "considerations": [
+        "Supplier evidence is not yet detailed enough for independent editorial copy."
+      ],
+      "configurationNotes": null,
+      "seoTitle": null,
+      "metaDescription": null,
+      "generatedAt": "2026-08-19T23:30:00Z"
+    }
+  },
+  {
+    "productId": "verre-select:hs-cre106e-5",
+    "sourceFacts": {
+      "manufacturer": {
+        "value": "verre-select",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/product.php?ProductID=107&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceUrl": {
+        "value": "https://verreselect.com/product.php?ProductID=107&UILanguage=EN",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/product.php?ProductID=107&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceDescription": "At Verre Select, we give you the ability to create your own personal front entrance design! Choose Création Sélect! HS-CRE106E+-5 Flat Non-Welded Brushed Chrome 1'' + Screen Glass + 106-5 = Custom Door Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "modelNumber": null,
+      "collection": null,
+      "normalized": {
+        "designName": {
+          "value": "HS-CRE106E+-5",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://verreselect.com/product.php?ProductID=107&UILanguage=EN",
+              "extractedAt": "2026-08-20T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        }
+      },
+      "sourceDocuments": [],
+      "sourceMedia": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://verreselect.com/userfiles/editor/image/106-108-5.jpg",
+          "extractedAt": "2026-08-20T06:06:26Z",
+          "status": "active",
+          "localPath": "/images/catalog/verre-select/106-108-5-c2f257ce9fbe.jpg"
+        },
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://verreselect.com/userfiles/productimages/variant_107_973.jpg",
+          "extractedAt": "2026-08-20T06:05:27Z",
+          "status": "active",
+          "localPath": "/images/catalog/verre-select/variant-107-973-cf20dd8b2cab.jpg"
+        }
+      ]
+    },
+    "editorial": {
+      "status": "incomplete",
+      "summary": null,
+      "bestFor": null,
+      "keyFeatures": [
+        "Design name: HS-CRE106E+-5"
       ],
       "considerations": [
         "Supplier evidence is not yet detailed enough for independent editorial copy."
@@ -46683,7 +47993,7 @@
           {
             "supplier": "verre-select",
             "sourceUrl": "https://verreselect.com/product.php?ProductID=241&UILanguage=EN",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -46694,7 +48004,7 @@
           {
             "supplier": "verre-select",
             "sourceUrl": "https://verreselect.com/product.php?ProductID=241&UILanguage=EN",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -46707,7 +48017,7 @@
           {
             "supplier": "verre-select",
             "sourceUrl": "https://verreselect.com/product.php?ProductID=241&UILanguage=EN",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -46719,7 +48029,7 @@
             {
               "supplier": "verre-select",
               "sourceUrl": "https://verreselect.com/product.php?ProductID=241&UILanguage=EN",
-              "extractedAt": "2026-08-19T00:00:00Z",
+              "extractedAt": "2026-08-20T00:00:00Z",
               "status": "active"
             }
           ]
@@ -46730,8 +48040,69 @@
             {
               "supplier": "verre-select",
               "sourceUrl": "https://verreselect.com/product.php?ProductID=241&UILanguage=EN",
-              "extractedAt": "2026-08-19T00:00:00Z",
+              "extractedAt": "2026-08-20T00:00:00Z",
               "status": "active"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 3,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-003.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-003.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "availableSizes": {
+          "value": [
+            "22 x 17",
+            "22 x 48",
+            "8 x 48",
+            "20 x 64",
+            "22 x 64",
+            "7 x 64"
+          ],
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 16,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-016.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-016.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glassComposition": {
+          "value": "Clear glass with optional 2 in grille (1 in on sidelites) and sandblast",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 16,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-016.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-016.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
             }
           ]
         }
@@ -46741,27 +48112,30 @@
         {
           "supplier": "verre-select",
           "sourceUrl": "https://verreselect.com/userfiles/productimages/variant_241_1219.jpg",
-          "extractedAt": "2026-08-19T20:02:53Z",
+          "extractedAt": "2026-08-20T06:05:16Z",
           "status": "active",
           "localPath": "/images/catalog/verre-select/variant-241-1219-cad98d6f5444.jpg"
         }
       ]
     },
     "editorial": {
-      "status": "incomplete",
-      "summary": null,
-      "bestFor": null,
+      "status": "draft",
+      "summary": "Java is a door glass design from Verre Select. The saved supplier evidence documents Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier; Available sizes: 22 x 17, 22 x 48, 8 x 48, 20 x 64, 22 x 64, 7 x 64; glassComposition: Clear glass with optional 2 in grille (1 in on sidelites) and sandblast. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
+      "bestFor": "Entry-door projects considering the Java decorative glass design.",
       "keyFeatures": [
         "Collection: Door Windows",
         "Product type: Door Glass",
-        "Design name: Java"
+        "Design name: Java",
+        "Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+        "Available sizes: 22 x 17, 22 x 48, 8 x 48, 20 x 64, 22 x 64, 7 x 64",
+        "Glass Composition: Clear glass with optional 2 in grille (1 in on sidelites) and sandblast"
       ],
       "considerations": [
-        "Supplier evidence is not yet detailed enough for independent editorial copy."
+        "Confirm current option combinations, availability and performance values before ordering."
       ],
-      "configurationNotes": null,
-      "seoTitle": null,
-      "metaDescription": null,
+      "configurationNotes": "Only configurations explicitly listed in the supported facts are represented in this draft.",
+      "seoTitle": "Java Door Glass Design | Verre Select",
+      "metaDescription": "Review supported specifications and source material for the Java door glass design from Verre Select. Confirm current options before ordering.",
       "generatedAt": "2026-08-19T23:30:00Z"
     }
   },
@@ -46857,7 +48231,7 @@
           {
             "supplier": "verre-select",
             "sourceUrl": "https://verreselect.com/product.php?ProductID=240&UILanguage=EN",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -46868,7 +48242,7 @@
           {
             "supplier": "verre-select",
             "sourceUrl": "https://verreselect.com/product.php?ProductID=240&UILanguage=EN",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -46881,7 +48255,7 @@
           {
             "supplier": "verre-select",
             "sourceUrl": "https://verreselect.com/product.php?ProductID=240&UILanguage=EN",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -46893,7 +48267,7 @@
             {
               "supplier": "verre-select",
               "sourceUrl": "https://verreselect.com/product.php?ProductID=240&UILanguage=EN",
-              "extractedAt": "2026-08-19T00:00:00Z",
+              "extractedAt": "2026-08-20T00:00:00Z",
               "status": "active"
             }
           ]
@@ -46904,8 +48278,83 @@
             {
               "supplier": "verre-select",
               "sourceUrl": "https://verreselect.com/product.php?ProductID=240&UILanguage=EN",
-              "extractedAt": "2026-08-19T00:00:00Z",
+              "extractedAt": "2026-08-20T00:00:00Z",
               "status": "active"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 3,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-003.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-003.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "availableSizes": {
+          "value": [
+            "22 x 48",
+            "8 x 48"
+          ],
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 17,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-017.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-017.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glassComposition": {
+          "value": "Clear and Screen glass",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 17,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-017.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-017.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "caming": {
+          "value": "Black aluminum caming",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 17,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-017.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-017.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
             }
           ]
         }
@@ -46915,27 +48364,325 @@
         {
           "supplier": "verre-select",
           "sourceUrl": "https://verreselect.com/userfiles/productimages/variant_240_1215.jpg",
-          "extractedAt": "2026-08-19T20:02:52Z",
+          "extractedAt": "2026-08-20T06:05:15Z",
           "status": "active",
           "localPath": "/images/catalog/verre-select/variant-240-1215-d7c06c9aafe6.jpg"
         }
       ]
     },
     "editorial": {
-      "status": "incomplete",
-      "summary": null,
-      "bestFor": null,
+      "status": "draft",
+      "summary": "Naomie is a door glass design from Verre Select. The saved supplier evidence documents Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier; Available sizes: 22 x 48, 8 x 48; glassComposition: Clear and Screen glass. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
+      "bestFor": "Entry-door projects considering the Naomie decorative glass design.",
       "keyFeatures": [
         "Collection: Door Windows",
         "Product type: Door Glass",
-        "Design name: Naomie"
+        "Design name: Naomie",
+        "Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+        "Available sizes: 22 x 48, 8 x 48",
+        "Glass Composition: Clear and Screen glass",
+        "Caming: Black aluminum caming"
       ],
       "considerations": [
-        "Supplier evidence is not yet detailed enough for independent editorial copy."
+        "Confirm current option combinations, availability and performance values before ordering."
       ],
-      "configurationNotes": null,
-      "seoTitle": null,
-      "metaDescription": null,
+      "configurationNotes": "Only configurations explicitly listed in the supported facts are represented in this draft.",
+      "seoTitle": "Naomie Door Glass Design | Verre Select",
+      "metaDescription": "Review supported specifications and source material for the Naomie door glass design from Verre Select. Confirm current options before ordering.",
+      "generatedAt": "2026-08-19T23:30:00Z"
+    }
+  },
+  {
+    "productId": "verre-select:paris",
+    "sourceFacts": {
+      "manufacturer": {
+        "value": "verre-select",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/product.php?ProductID=254&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceUrl": {
+        "value": "https://verreselect.com/product.php?ProductID=254&UILanguage=EN",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/product.php?ProductID=254&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceDescription": "  Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "modelNumber": null,
+      "collection": null,
+      "normalized": {
+        "designName": {
+          "value": "Paris",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://verreselect.com/product.php?ProductID=254&UILanguage=EN",
+              "extractedAt": "2026-08-20T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 3,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-003.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-003.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "availableSizes": {
+          "value": [
+            "22 x 64",
+            "7 x 64"
+          ],
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 18,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-018.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-018.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glassComposition": {
+          "value": "Arctic, clear Renaissance, and clear bevels",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 18,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-018.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-018.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "caming": {
+          "value": "Patina caming",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 18,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-018.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-018.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        }
+      },
+      "sourceDocuments": [],
+      "sourceMedia": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://verreselect.com/userfiles/productimages/product_867.jpg",
+          "extractedAt": "2026-08-20T06:05:18Z",
+          "status": "active",
+          "localPath": "/images/catalog/verre-select/product-867-35368d4d2e92.jpg"
+        }
+      ]
+    },
+    "editorial": {
+      "status": "draft",
+      "summary": "Paris is a door glass design from Verre Select. The saved supplier evidence documents Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier; Available sizes: 22 x 64, 7 x 64; glassComposition: Arctic, clear Renaissance, and clear bevels. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
+      "bestFor": "Entry-door projects considering the Paris decorative glass design.",
+      "keyFeatures": [
+        "Design name: Paris",
+        "Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+        "Available sizes: 22 x 64, 7 x 64",
+        "Glass Composition: Arctic, clear Renaissance, and clear bevels",
+        "Caming: Patina caming"
+      ],
+      "considerations": [
+        "Confirm current option combinations, availability and performance values before ordering."
+      ],
+      "configurationNotes": "Only configurations explicitly listed in the supported facts are represented in this draft.",
+      "seoTitle": "Paris Door Glass Design | Verre Select",
+      "metaDescription": "Review supported specifications and source material for the Paris door glass design from Verre Select. Confirm current options before ordering.",
+      "generatedAt": "2026-08-19T23:30:00Z"
+    }
+  },
+  {
+    "productId": "verre-select:pixel",
+    "sourceFacts": {
+      "manufacturer": {
+        "value": "verre-select",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/product.php?ProductID=41&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceUrl": {
+        "value": "https://verreselect.com/product.php?ProductID=41&UILanguage=EN",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/product.php?ProductID=41&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceDescription": "The PIXEL model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "modelNumber": null,
+      "collection": null,
+      "normalized": {
+        "designName": {
+          "value": "Pixel",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://verreselect.com/product.php?ProductID=41&UILanguage=EN",
+              "extractedAt": "2026-08-20T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 3,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-003.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-003.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "availableSizes": {
+          "value": [
+            "22 x 48",
+            "8 x 48"
+          ],
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 19,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-019.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-019.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glassComposition": {
+          "value": "Chinchilla, beveled clear, beveled Screen, and hammered glass",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 19,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-019.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-019.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "caming": {
+          "value": "Welded lead",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 19,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-019.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-019.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        }
+      },
+      "sourceDocuments": [],
+      "sourceMedia": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://verreselect.com/userfiles/productimages/variant_41_246.jpg",
+          "extractedAt": "2026-08-20T06:05:21Z",
+          "status": "active",
+          "localPath": "/images/catalog/verre-select/variant-41-246-d6d6d9ddd110.jpg"
+        }
+      ]
+    },
+    "editorial": {
+      "status": "draft",
+      "summary": "Pixel is a door glass design from Verre Select. The saved supplier evidence documents Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier; Available sizes: 22 x 48, 8 x 48; glassComposition: Chinchilla, beveled clear, beveled Screen, and hammered glass. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
+      "bestFor": "Entry-door projects considering the Pixel decorative glass design.",
+      "keyFeatures": [
+        "Design name: Pixel",
+        "Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+        "Available sizes: 22 x 48, 8 x 48",
+        "Glass Composition: Chinchilla, beveled clear, beveled Screen, and hammered glass",
+        "Caming: Welded lead"
+      ],
+      "considerations": [
+        "Confirm current option combinations, availability and performance values before ordering."
+      ],
+      "configurationNotes": "Only configurations explicitly listed in the supported facts are represented in this draft.",
+      "seoTitle": "Pixel Door Glass Design | Verre Select",
+      "metaDescription": "Review supported specifications and source material for the Pixel door glass design from Verre Select. Confirm current options before ordering.",
       "generatedAt": "2026-08-19T23:30:00Z"
     }
   },
@@ -46948,7 +48695,7 @@
           {
             "supplier": "verre-select",
             "sourceUrl": "https://verreselect.com/product.php?ProductID=174&UILanguage=EN",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -46959,7 +48706,7 @@
           {
             "supplier": "verre-select",
             "sourceUrl": "https://verreselect.com/product.php?ProductID=174&UILanguage=EN",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -46972,7 +48719,7 @@
           {
             "supplier": "verre-select",
             "sourceUrl": "https://verreselect.com/product.php?ProductID=174&UILanguage=EN",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -46984,7 +48731,7 @@
             {
               "supplier": "verre-select",
               "sourceUrl": "https://verreselect.com/product.php?ProductID=174&UILanguage=EN",
-              "extractedAt": "2026-08-19T00:00:00Z",
+              "extractedAt": "2026-08-20T00:00:00Z",
               "status": "active"
             }
           ]
@@ -46995,8 +48742,83 @@
             {
               "supplier": "verre-select",
               "sourceUrl": "https://verreselect.com/product.php?ProductID=174&UILanguage=EN",
-              "extractedAt": "2026-08-19T00:00:00Z",
+              "extractedAt": "2026-08-20T00:00:00Z",
               "status": "active"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 3,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-003.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-003.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "availableSizes": {
+          "value": [
+            "22 x 64",
+            "7 x 64"
+          ],
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 20,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-020.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-020.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glassComposition": {
+          "value": "Beveled Screen glass with 1 in caming",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 20,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-020.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-020.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "caming": {
+          "value": "Flat non-welded 1 in brushed chrome caming",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 20,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-020.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-020.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
             }
           ]
         }
@@ -47006,27 +48828,482 @@
         {
           "supplier": "verre-select",
           "sourceUrl": "https://verreselect.com/userfiles/productimages/variant_174_1029.jpg",
-          "extractedAt": "2026-08-19T20:02:48Z",
+          "extractedAt": "2026-08-20T06:05:28Z",
           "status": "active",
           "localPath": "/images/catalog/verre-select/variant-174-1029-836e07ac6917.jpg"
+        },
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://verreselect.com/userfiles/editor/image/VERRE_quattro.jpg",
+          "extractedAt": "2026-08-20T06:05:13Z",
+          "status": "active",
+          "localPath": "/images/catalog/verre-select/verre-quattro-ef672882dfef.jpg"
         }
       ]
     },
     "editorial": {
-      "status": "incomplete",
-      "summary": null,
-      "bestFor": null,
+      "status": "draft",
+      "summary": "Quattro is a door glass design from Verre Select. The saved supplier evidence documents Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier; Available sizes: 22 x 64, 7 x 64; glassComposition: Beveled Screen glass with 1 in caming. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
+      "bestFor": "Entry-door projects considering the Quattro decorative glass design.",
       "keyFeatures": [
         "Collection: Door Windows",
         "Product type: Door Glass",
-        "Design name: Quattro"
+        "Design name: Quattro",
+        "Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+        "Available sizes: 22 x 64, 7 x 64",
+        "Glass Composition: Beveled Screen glass with 1 in caming",
+        "Caming: Flat non-welded 1 in brushed chrome caming"
       ],
       "considerations": [
-        "Supplier evidence is not yet detailed enough for independent editorial copy."
+        "Confirm current option combinations, availability and performance values before ordering."
       ],
-      "configurationNotes": null,
-      "seoTitle": null,
-      "metaDescription": null,
+      "configurationNotes": "Only configurations explicitly listed in the supported facts are represented in this draft.",
+      "seoTitle": "Quattro Door Glass Design | Verre Select",
+      "metaDescription": "Review supported specifications and source material for the Quattro door glass design from Verre Select. Confirm current options before ordering.",
+      "generatedAt": "2026-08-19T23:30:00Z"
+    }
+  },
+  {
+    "productId": "verre-select:renoir",
+    "sourceFacts": {
+      "manufacturer": {
+        "value": "verre-select",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/product.php?ProductID=42&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceUrl": {
+        "value": "https://verreselect.com/product.php?ProductID=42&UILanguage=EN",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/product.php?ProductID=42&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceDescription": "The RENOIR model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "modelNumber": null,
+      "collection": null,
+      "normalized": {
+        "designName": {
+          "value": "Renoir",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://verreselect.com/product.php?ProductID=42&UILanguage=EN",
+              "extractedAt": "2026-08-20T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 3,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-003.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-003.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "availableSizes": {
+          "value": [
+            "22 x 48",
+            "8 x 48",
+            "22 x 64",
+            "7 x 64"
+          ],
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 21,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-021.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-021.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glassComposition": {
+          "value": "Beveled Screen, Kasumi, Niagara, and hammered glass",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 21,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-021.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-021.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "caming": {
+          "value": "Antique welded lead",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 21,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-021.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-021.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        }
+      },
+      "sourceDocuments": [],
+      "sourceMedia": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://verreselect.com/userfiles/productimages/variant_42_264.jpg",
+          "extractedAt": "2026-08-20T06:05:22Z",
+          "status": "active",
+          "localPath": "/images/catalog/verre-select/variant-42-264-f890d73e28f8.jpg"
+        }
+      ]
+    },
+    "editorial": {
+      "status": "draft",
+      "summary": "Renoir is a door glass design from Verre Select. The saved supplier evidence documents Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier; Available sizes: 22 x 48, 8 x 48, 22 x 64, 7 x 64; glassComposition: Beveled Screen, Kasumi, Niagara, and hammered glass. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
+      "bestFor": "Entry-door projects considering the Renoir decorative glass design.",
+      "keyFeatures": [
+        "Design name: Renoir",
+        "Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+        "Available sizes: 22 x 48, 8 x 48, 22 x 64, 7 x 64",
+        "Glass Composition: Beveled Screen, Kasumi, Niagara, and hammered glass",
+        "Caming: Antique welded lead"
+      ],
+      "considerations": [
+        "Confirm current option combinations, availability and performance values before ordering."
+      ],
+      "configurationNotes": "Only configurations explicitly listed in the supported facts are represented in this draft.",
+      "seoTitle": "Renoir Door Glass Design | Verre Select",
+      "metaDescription": "Review supported specifications and source material for the Renoir door glass design from Verre Select. Confirm current options before ordering.",
+      "generatedAt": "2026-08-19T23:30:00Z"
+    }
+  },
+  {
+    "productId": "verre-select:rill",
+    "sourceFacts": {
+      "manufacturer": {
+        "value": "verre-select",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/product.php?ProductID=255&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceUrl": {
+        "value": "https://verreselect.com/product.php?ProductID=255&UILanguage=EN",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/product.php?ProductID=255&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceDescription": "  Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "modelNumber": null,
+      "collection": null,
+      "normalized": {
+        "designName": {
+          "value": "Rill",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://verreselect.com/product.php?ProductID=255&UILanguage=EN",
+              "extractedAt": "2026-08-20T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 3,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-003.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-003.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "availableSizes": {
+          "value": [
+            "22 x 17",
+            "22 x 48",
+            "22 x 64"
+          ],
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 22,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-022.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-022.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glassComposition": {
+          "value": "Wide Reed glass",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 22,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-022.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-022.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "caming": {
+          "value": "Black aluminum caming",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 22,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-022.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-022.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        }
+      },
+      "sourceDocuments": [],
+      "sourceMedia": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://verreselect.com/userfiles/productimages/product_868.jpg",
+          "extractedAt": "2026-08-20T06:05:18Z",
+          "status": "active",
+          "localPath": "/images/catalog/verre-select/product-868-cc87c0aaad7b.jpg"
+        }
+      ]
+    },
+    "editorial": {
+      "status": "draft",
+      "summary": "Rill is a door glass design from Verre Select. The saved supplier evidence documents Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier; Available sizes: 22 x 17, 22 x 48, 22 x 64; glassComposition: Wide Reed glass. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
+      "bestFor": "Entry-door projects considering the Rill decorative glass design.",
+      "keyFeatures": [
+        "Design name: Rill",
+        "Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+        "Available sizes: 22 x 17, 22 x 48, 22 x 64",
+        "Glass Composition: Wide Reed glass",
+        "Caming: Black aluminum caming"
+      ],
+      "considerations": [
+        "Confirm current option combinations, availability and performance values before ordering."
+      ],
+      "configurationNotes": "Only configurations explicitly listed in the supported facts are represented in this draft.",
+      "seoTitle": "Rill Door Glass Design | Verre Select",
+      "metaDescription": "Review supported specifications and source material for the Rill door glass design from Verre Select. Confirm current options before ordering.",
+      "generatedAt": "2026-08-19T23:30:00Z"
+    }
+  },
+  {
+    "productId": "verre-select:rodin",
+    "sourceFacts": {
+      "manufacturer": {
+        "value": "verre-select",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/product.php?ProductID=60&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceUrl": {
+        "value": "https://verreselect.com/product.php?ProductID=60&UILanguage=EN",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/product.php?ProductID=60&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceDescription": "The RODIN model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "modelNumber": null,
+      "collection": null,
+      "normalized": {
+        "designName": {
+          "value": "Rodin",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://verreselect.com/product.php?ProductID=60&UILanguage=EN",
+              "extractedAt": "2026-08-20T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 3,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-003.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-003.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "availableSizes": {
+          "value": [
+            "22 x 48",
+            "8 x 48"
+          ],
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 23,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-023.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-023.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glassComposition": {
+          "value": "Beveled glue chip, Screen, and hammered glass",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 23,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-023.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-023.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "caming": {
+          "value": "Platinum nickel caming",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 23,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-023.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-023.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        }
+      },
+      "sourceDocuments": [],
+      "sourceMedia": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://verreselect.com/userfiles/productimages/variant_60_590.jpg",
+          "extractedAt": "2026-08-20T06:05:23Z",
+          "status": "active",
+          "localPath": "/images/catalog/verre-select/variant-60-590-7dce39571d4a.jpg"
+        }
+      ]
+    },
+    "editorial": {
+      "status": "draft",
+      "summary": "Rodin is a door glass design from Verre Select. The saved supplier evidence documents Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier; Available sizes: 22 x 48, 8 x 48; glassComposition: Beveled glue chip, Screen, and hammered glass. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
+      "bestFor": "Entry-door projects considering the Rodin decorative glass design.",
+      "keyFeatures": [
+        "Design name: Rodin",
+        "Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+        "Available sizes: 22 x 48, 8 x 48",
+        "Glass Composition: Beveled glue chip, Screen, and hammered glass",
+        "Caming: Platinum nickel caming"
+      ],
+      "considerations": [
+        "Confirm current option combinations, availability and performance values before ordering."
+      ],
+      "configurationNotes": "Only configurations explicitly listed in the supported facts are represented in this draft.",
+      "seoTitle": "Rodin Door Glass Design | Verre Select",
+      "metaDescription": "Review supported specifications and source material for the Rodin door glass design from Verre Select. Confirm current options before ordering.",
       "generatedAt": "2026-08-19T23:30:00Z"
     }
   },
@@ -47114,6 +49391,491 @@
     }
   },
   {
+    "productId": "verre-select:satine",
+    "sourceFacts": {
+      "manufacturer": {
+        "value": "verre-select",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/page.php?PageID=8&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceUrl": {
+        "value": "https://verreselect.com/page.php?PageID=8&UILanguage=EN",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/page.php?PageID=8&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceDescription": "Current 2026 Verre Select catalogue design with acid-etched privacy glass.",
+      "modelNumber": null,
+      "collection": {
+        "value": "Stylized Doorglass",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/page.php?PageID=8&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "normalized": {
+        "availableSizes": {
+          "value": [
+            "22 x 12",
+            "22 x 17",
+            "22 x 36",
+            "8 x 36",
+            "22 x 48",
+            "8 x 48",
+            "20 x 64",
+            "22 x 64",
+            "7 x 64"
+          ],
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 24,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-024.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-024.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glassType": {
+          "value": "Acid Etch",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://verreselect.com/page.php?PageID=8&UILanguage=EN",
+              "extractedAt": "2026-08-20T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "publicationPage": {
+          "value": "24",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://verreselect.com/page.php?PageID=8&UILanguage=EN",
+              "extractedAt": "2026-08-20T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "publicationTitle": {
+          "value": "2026 Verre Select Entry Door Product Catalogue",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://verreselect.com/page.php?PageID=8&UILanguage=EN",
+              "extractedAt": "2026-08-20T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "productType": {
+          "value": "Acid-Etched Doorglass",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://verreselect.com/page.php?PageID=8&UILanguage=EN",
+              "extractedAt": "2026-08-20T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "designName": {
+          "value": "Satine",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://verreselect.com/page.php?PageID=8&UILanguage=EN",
+              "extractedAt": "2026-08-20T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 3,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-003.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-003.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glassComposition": {
+          "value": "Acid-etched privacy glass",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 24,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-024.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-024.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        }
+      },
+      "sourceDocuments": [],
+      "sourceMedia": []
+    },
+    "editorial": {
+      "status": "incomplete",
+      "summary": null,
+      "bestFor": null,
+      "keyFeatures": [
+        "Collection: Stylized Doorglass",
+        "Available sizes: 22 x 12, 22 x 17, 22 x 36, 8 x 36, 22 x 48, 8 x 48, 20 x 64, 22 x 64, 7 x 64",
+        "Glass Type: Acid Etch",
+        "Publication Page: 24",
+        "Publication Title: 2026 Verre Select Entry Door Product Catalogue",
+        "Product type: Acid-Etched Doorglass",
+        "Design name: Satine"
+      ],
+      "considerations": [
+        "Current Verre Select publication identity and source facts are supplier-verified, but no working live detail page exists and editorial review is incomplete; do not publish."
+      ],
+      "configurationNotes": null,
+      "seoTitle": null,
+      "metaDescription": null,
+      "generatedAt": "2026-08-19T23:30:00Z"
+    }
+  },
+  {
+    "productId": "verre-select:venus",
+    "sourceFacts": {
+      "manufacturer": {
+        "value": "verre-select",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/product.php?ProductID=44&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceUrl": {
+        "value": "https://verreselect.com/product.php?ProductID=44&UILanguage=EN",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/product.php?ProductID=44&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceDescription": "The VENUS model from Verre Select's collection will sure please you and enhance the ambience of your home. Verre Select, creativity at your service!\r\n Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "modelNumber": null,
+      "collection": null,
+      "normalized": {
+        "designName": {
+          "value": "Venus",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://verreselect.com/product.php?ProductID=44&UILanguage=EN",
+              "extractedAt": "2026-08-20T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 3,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-003.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-003.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "availableSizes": {
+          "value": [
+            "22 x 48",
+            "8 x 48",
+            "22 x 64",
+            "7 x 64",
+            "15.5 x 39.625"
+          ],
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 25,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-025.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-025.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glassComposition": {
+          "value": "Niagara, beveled glue chip, Chinchilla, granite, and hand-engraved beveled clear diamond glass",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 25,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-025.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-025.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "caming": {
+          "value": "Antique welded lead",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 25,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-025.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-025.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        }
+      },
+      "sourceDocuments": [],
+      "sourceMedia": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://verreselect.com/userfiles/productimages/variant_44_303.jpg",
+          "extractedAt": "2026-08-20T06:05:22Z",
+          "status": "active",
+          "localPath": "/images/catalog/verre-select/variant-44-303-621cae2d3039.jpg"
+        }
+      ]
+    },
+    "editorial": {
+      "status": "draft",
+      "summary": "Venus is a door glass design from Verre Select. The saved supplier evidence documents Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier; Available sizes: 22 x 48, 8 x 48, 22 x 64, 7 x 64, 15.5 x 39.625; glassComposition: Niagara, beveled glue chip, Chinchilla, granite, and hand-engraved beveled clear diamond glass. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
+      "bestFor": "Entry-door projects considering the Venus decorative glass design.",
+      "keyFeatures": [
+        "Design name: Venus",
+        "Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+        "Available sizes: 22 x 48, 8 x 48, 22 x 64, 7 x 64, 15.5 x 39.625",
+        "Glass Composition: Niagara, beveled glue chip, Chinchilla, granite, and hand-engraved beveled clear diamond glass",
+        "Caming: Antique welded lead"
+      ],
+      "considerations": [
+        "Confirm current option combinations, availability and performance values before ordering."
+      ],
+      "configurationNotes": "Only configurations explicitly listed in the supported facts are represented in this draft.",
+      "seoTitle": "Venus Door Glass Design | Verre Select",
+      "metaDescription": "Review supported specifications and source material for the Venus door glass design from Verre Select. Confirm current options before ordering.",
+      "generatedAt": "2026-08-19T23:30:00Z"
+    }
+  },
+  {
+    "productId": "verre-select:waterside",
+    "sourceFacts": {
+      "manufacturer": {
+        "value": "verre-select",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/product.php?ProductID=256&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceUrl": {
+        "value": "https://verreselect.com/product.php?ProductID=256&UILanguage=EN",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/product.php?ProductID=256&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceDescription": "  Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "modelNumber": null,
+      "collection": null,
+      "normalized": {
+        "designName": {
+          "value": "Waterside",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://verreselect.com/product.php?ProductID=256&UILanguage=EN",
+              "extractedAt": "2026-08-20T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 3,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-003.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-003.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "availableSizes": {
+          "value": [
+            "22 x 36",
+            "8 x 36",
+            "22 x 48",
+            "8 x 48",
+            "22 x 64",
+            "7 x 64"
+          ],
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 26,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-026.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-026.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glassComposition": {
+          "value": "Clear soft wave and streamed glass",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 26,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-026.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-026.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "caming": {
+          "value": "Black chrome caming",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 26,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-026.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-026.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        }
+      },
+      "sourceDocuments": [],
+      "sourceMedia": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://verreselect.com/userfiles/productimages/product_869.jpg",
+          "extractedAt": "2026-08-20T06:05:19Z",
+          "status": "active",
+          "localPath": "/images/catalog/verre-select/product-869-b9ba52c86921.jpg"
+        }
+      ]
+    },
+    "editorial": {
+      "status": "draft",
+      "summary": "Waterside is a door glass design from Verre Select. The saved supplier evidence documents Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier; Available sizes: 22 x 36, 8 x 36, 22 x 48, 8 x 48, 22 x 64, 7 x 64; glassComposition: Clear soft wave and streamed glass. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
+      "bestFor": "Entry-door projects considering the Waterside decorative glass design.",
+      "keyFeatures": [
+        "Design name: Waterside",
+        "Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+        "Available sizes: 22 x 36, 8 x 36, 22 x 48, 8 x 48, 22 x 64, 7 x 64",
+        "Glass Composition: Clear soft wave and streamed glass",
+        "Caming: Black chrome caming"
+      ],
+      "considerations": [
+        "Confirm current option combinations, availability and performance values before ordering."
+      ],
+      "configurationNotes": "Only configurations explicitly listed in the supported facts are represented in this draft.",
+      "seoTitle": "Waterside Door Glass Design | Verre Select",
+      "metaDescription": "Review supported specifications and source material for the Waterside door glass design from Verre Select. Confirm current options before ordering.",
+      "generatedAt": "2026-08-19T23:30:00Z"
+    }
+  },
+  {
     "productId": "verre-select:whistler",
     "sourceFacts": {
       "manufacturer": {
@@ -47122,7 +49884,7 @@
           {
             "supplier": "verre-select",
             "sourceUrl": "https://verreselect.com/product.php?ProductID=171&UILanguage=EN",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -47133,7 +49895,7 @@
           {
             "supplier": "verre-select",
             "sourceUrl": "https://verreselect.com/product.php?ProductID=171&UILanguage=EN",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -47146,7 +49908,7 @@
           {
             "supplier": "verre-select",
             "sourceUrl": "https://verreselect.com/product.php?ProductID=171&UILanguage=EN",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -47158,7 +49920,7 @@
             {
               "supplier": "verre-select",
               "sourceUrl": "https://verreselect.com/product.php?ProductID=171&UILanguage=EN",
-              "extractedAt": "2026-08-19T00:00:00Z",
+              "extractedAt": "2026-08-20T00:00:00Z",
               "status": "active"
             }
           ]
@@ -47169,8 +49931,70 @@
             {
               "supplier": "verre-select",
               "sourceUrl": "https://verreselect.com/product.php?ProductID=171&UILanguage=EN",
-              "extractedAt": "2026-08-19T00:00:00Z",
+              "extractedAt": "2026-08-20T00:00:00Z",
               "status": "active"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 3,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-003.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-003.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "availableSizes": {
+          "value": [
+            "22 x 17",
+            "22 x 36",
+            "22 x 48",
+            "8 x 48",
+            "20 x 64",
+            "22 x 64",
+            "7 x 64"
+          ],
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 27,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-027.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-027.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glassComposition": {
+          "value": "Kasumi, beveled Screen, Corduroy, and clear Morocco glass",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 27,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-027.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-027.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
             }
           ]
         }
@@ -47180,27 +50004,170 @@
         {
           "supplier": "verre-select",
           "sourceUrl": "https://verreselect.com/userfiles/productimages/variant_171_1009.jpg",
-          "extractedAt": "2026-08-19T20:02:47Z",
+          "extractedAt": "2026-08-20T06:05:28Z",
           "status": "active",
           "localPath": "/images/catalog/verre-select/variant-171-1009-a6453d2fafac.jpg"
+        },
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://verreselect.com/userfiles/editor/image/VERRE_whistler.jpg",
+          "extractedAt": "2026-08-20T06:05:12Z",
+          "status": "active",
+          "localPath": "/images/catalog/verre-select/verre-whistler-7f05bc4f13b1.jpg"
         }
       ]
     },
     "editorial": {
-      "status": "incomplete",
-      "summary": null,
-      "bestFor": null,
+      "status": "draft",
+      "summary": "Whistler is a door glass design from Verre Select. The saved supplier evidence documents Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier; Available sizes: 22 x 17, 22 x 36, 22 x 48, 8 x 48, 20 x 64, 22 x 64, 7 x 64; glassComposition: Kasumi, beveled Screen, Corduroy, and clear Morocco glass. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
+      "bestFor": "Entry-door projects considering the Whistler decorative glass design.",
       "keyFeatures": [
         "Collection: Door Windows",
         "Product type: Door Glass",
-        "Design name: Whistler"
+        "Design name: Whistler",
+        "Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+        "Available sizes: 22 x 17, 22 x 36, 22 x 48, 8 x 48, 20 x 64, 22 x 64, 7 x 64",
+        "Glass Composition: Kasumi, beveled Screen, Corduroy, and clear Morocco glass"
       ],
       "considerations": [
-        "Supplier evidence is not yet detailed enough for independent editorial copy."
+        "Confirm current option combinations, availability and performance values before ordering."
       ],
-      "configurationNotes": null,
-      "seoTitle": null,
-      "metaDescription": null,
+      "configurationNotes": "Only configurations explicitly listed in the supported facts are represented in this draft.",
+      "seoTitle": "Whistler Door Glass Design | Verre Select",
+      "metaDescription": "Review supported specifications and source material for the Whistler door glass design from Verre Select. Confirm current options before ordering.",
+      "generatedAt": "2026-08-19T23:30:00Z"
+    }
+  },
+  {
+    "productId": "verre-select:wide-reed",
+    "sourceFacts": {
+      "manufacturer": {
+        "value": "verre-select",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/product.php?ProductID=257&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceUrl": {
+        "value": "https://verreselect.com/product.php?ProductID=257&UILanguage=EN",
+        "sources": [
+          {
+            "supplier": "verre-select",
+            "sourceUrl": "https://verreselect.com/product.php?ProductID=257&UILanguage=EN",
+            "extractedAt": "2026-08-20T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceDescription": "  Verre Select stands out from competition with the originality and diversity of its products: decorative glass, welded and non welded, V-Groove, silkscreen and cast glass. We also produce the very popular Executive panels and Dynastie moldings that can really add an elegant and stylish look to your front door. In addition, we manufacture a wide variety of decorative interior door glass models.",
+      "modelNumber": null,
+      "collection": null,
+      "normalized": {
+        "designName": {
+          "value": "Wide Reed",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://verreselect.com/product.php?ProductID=257&UILanguage=EN",
+              "extractedAt": "2026-08-20T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 3,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-003.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-003.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "availableSizes": {
+          "value": [
+            "22 x 17",
+            "22 x 36",
+            "8 x 36",
+            "22 x 48",
+            "8 x 48",
+            "22 x 64",
+            "7 x 64"
+          ],
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 28,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-028.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-028.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glassComposition": {
+          "value": "Wide Reed textured glass; texture faces the interior",
+          "sources": [
+            {
+              "supplier": "verre-select",
+              "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+              "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+              "page": 28,
+              "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-028.webp",
+              "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-028.js",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        }
+      },
+      "sourceDocuments": [],
+      "sourceMedia": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://verreselect.com/userfiles/productimages/product_870.jpg",
+          "extractedAt": "2026-08-20T06:05:20Z",
+          "status": "active",
+          "localPath": "/images/catalog/verre-select/product-870-c59ef464f7e2.jpg"
+        }
+      ]
+    },
+    "editorial": {
+      "status": "draft",
+      "summary": "Wide Reed is a door glass design from Verre Select. The saved supplier evidence documents Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier; Available sizes: 22 x 17, 22 x 36, 8 x 36, 22 x 48, 8 x 48, 22 x 64, 7 x 64; glassComposition: Wide Reed textured glass; texture faces the interior. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
+      "bestFor": "Entry-door projects considering the Wide Reed decorative glass design.",
+      "keyFeatures": [
+        "Design name: Wide Reed",
+        "Warranty: 10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+        "Available sizes: 22 x 17, 22 x 36, 8 x 36, 22 x 48, 8 x 48, 22 x 64, 7 x 64",
+        "Glass Composition: Wide Reed textured glass; texture faces the interior"
+      ],
+      "considerations": [
+        "Confirm current option combinations, availability and performance values before ordering."
+      ],
+      "configurationNotes": "Only configurations explicitly listed in the supported facts are represented in this draft.",
+      "seoTitle": "Wide Reed Door Glass Design | Verre Select",
+      "metaDescription": "Review supported specifications and source material for the Wide Reed door glass design from Verre Select. Confirm current options before ordering.",
       "generatedAt": "2026-08-19T23:30:00Z"
     }
   },

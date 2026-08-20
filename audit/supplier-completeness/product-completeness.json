@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T05:05:05.309434+00:00",
+  "generatedAt": "2026-08-20T06:24:58.504669+00:00",
   "products": [
     {
       "supplier": "vinyl-pro",
@@ -41096,11 +41096,11 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
-        "glass": false,
+        "glass": true,
         "hardware": false
       },
       "mediaLocal": {
@@ -41109,10 +41109,11 @@
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
-        "glass": false,
+        "glass": true,
         "hardware": false,
         "paths": [
-          "/images/catalog/verre-select/variant-171-1009-a6453d2fafac.jpg"
+          "/images/catalog/verre-select/variant-171-1009-a6453d2fafac.jpg",
+          "/images/catalog/verre-select/verre-whistler-7f05bc4f13b1.jpg"
         ]
       },
       "documentsAvailableLive": {
@@ -41136,7 +41137,7 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
@@ -41155,11 +41156,11 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
-        "glass": false,
+        "glass": true,
         "hardware": false
       },
       "mediaLocal": {
@@ -41168,10 +41169,11 @@
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
-        "glass": false,
+        "glass": true,
         "hardware": false,
         "paths": [
-          "/images/catalog/verre-select/variant-174-1029-836e07ac6917.jpg"
+          "/images/catalog/verre-select/variant-174-1029-836e07ac6917.jpg",
+          "/images/catalog/verre-select/verre-quattro-ef672882dfef.jpg"
         ]
       },
       "documentsAvailableLive": {
@@ -41195,7 +41197,7 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
@@ -41214,7 +41216,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -41254,7 +41256,7 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
@@ -41273,7 +41275,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -41313,7 +41315,7 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
@@ -41332,7 +41334,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -41372,7 +41374,7 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
@@ -41391,7 +41393,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -41431,7 +41433,7 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
@@ -41450,7 +41452,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -41490,7 +41492,7 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
@@ -41509,7 +41511,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -41549,7 +41551,7 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
@@ -41568,7 +41570,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -41608,7 +41610,1011 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "verre-select",
+      "liveProductName": "Paris",
+      "liveModelNumber": null,
+      "collection": null,
+      "category": "door-glass",
+      "canonicalSupplierUrl": "https://verreselect.com/product.php?ProductID=254&UILanguage=EN",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "verre-select:paris",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/verre-select/product-867-35368d4d2e92.jpg"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": false
+      },
+      "documentsLocal": {
+        "captured": false,
+        "paths": []
+      },
+      "pdfEvidence": [],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "verre-select",
+      "liveProductName": "Rill",
+      "liveModelNumber": null,
+      "collection": null,
+      "category": "door-glass",
+      "canonicalSupplierUrl": "https://verreselect.com/product.php?ProductID=255&UILanguage=EN",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "verre-select:rill",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/verre-select/product-868-cc87c0aaad7b.jpg"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": false
+      },
+      "documentsLocal": {
+        "captured": false,
+        "paths": []
+      },
+      "pdfEvidence": [],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "verre-select",
+      "liveProductName": "Waterside",
+      "liveModelNumber": null,
+      "collection": null,
+      "category": "door-glass",
+      "canonicalSupplierUrl": "https://verreselect.com/product.php?ProductID=256&UILanguage=EN",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "verre-select:waterside",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/verre-select/product-869-b9ba52c86921.jpg"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": false
+      },
+      "documentsLocal": {
+        "captured": false,
+        "paths": []
+      },
+      "pdfEvidence": [],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "verre-select",
+      "liveProductName": "Wide Reed",
+      "liveModelNumber": null,
+      "collection": null,
+      "category": "door-glass",
+      "canonicalSupplierUrl": "https://verreselect.com/product.php?ProductID=257&UILanguage=EN",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "verre-select:wide-reed",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/verre-select/product-870-c59ef464f7e2.jpg"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": false
+      },
+      "documentsLocal": {
+        "captured": false,
+        "paths": []
+      },
+      "pdfEvidence": [],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "verre-select",
+      "liveProductName": "Amadeus",
+      "liveModelNumber": null,
+      "collection": null,
+      "category": "door-glass",
+      "canonicalSupplierUrl": "https://verreselect.com/product.php?ProductID=13&UILanguage=EN",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "verre-select:amadeus",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/verre-select/variant-13-35-ba9a9f0f7745.jpg"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": false
+      },
+      "documentsLocal": {
+        "captured": false,
+        "paths": []
+      },
+      "pdfEvidence": [],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "verre-select",
+      "liveProductName": "Pixel",
+      "liveModelNumber": null,
+      "collection": null,
+      "category": "door-glass",
+      "canonicalSupplierUrl": "https://verreselect.com/product.php?ProductID=41&UILanguage=EN",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "verre-select:pixel",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/verre-select/variant-41-246-d6d6d9ddd110.jpg"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": false
+      },
+      "documentsLocal": {
+        "captured": false,
+        "paths": []
+      },
+      "pdfEvidence": [],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "verre-select",
+      "liveProductName": "Renoir",
+      "liveModelNumber": null,
+      "collection": null,
+      "category": "door-glass",
+      "canonicalSupplierUrl": "https://verreselect.com/product.php?ProductID=42&UILanguage=EN",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "verre-select:renoir",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/verre-select/variant-42-264-f890d73e28f8.jpg"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": false
+      },
+      "documentsLocal": {
+        "captured": false,
+        "paths": []
+      },
+      "pdfEvidence": [],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "verre-select",
+      "liveProductName": "Venus",
+      "liveModelNumber": null,
+      "collection": null,
+      "category": "door-glass",
+      "canonicalSupplierUrl": "https://verreselect.com/product.php?ProductID=44&UILanguage=EN",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "verre-select:venus",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/verre-select/variant-44-303-621cae2d3039.jpg"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": false
+      },
+      "documentsLocal": {
+        "captured": false,
+        "paths": []
+      },
+      "pdfEvidence": [],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "verre-select",
+      "liveProductName": "Rodin",
+      "liveModelNumber": null,
+      "collection": null,
+      "category": "door-glass",
+      "canonicalSupplierUrl": "https://verreselect.com/product.php?ProductID=60&UILanguage=EN",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "verre-select:rodin",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/verre-select/variant-60-590-7dce39571d4a.jpg"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": false
+      },
+      "documentsLocal": {
+        "captured": false,
+        "paths": []
+      },
+      "pdfEvidence": [],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "verre-select",
+      "liveProductName": "Dorian",
+      "liveModelNumber": null,
+      "collection": null,
+      "category": "door-glass",
+      "canonicalSupplierUrl": "https://verreselect.com/product.php?ProductID=250&UILanguage=EN",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "verre-select:dorian",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/verre-select/product-863-24ede466b35f.jpg"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": false
+      },
+      "documentsLocal": {
+        "captured": false,
+        "paths": []
+      },
+      "pdfEvidence": [],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "verre-select",
+      "liveProductName": "Crosswalk",
+      "liveModelNumber": null,
+      "collection": null,
+      "category": "door-glass",
+      "canonicalSupplierUrl": "https://verreselect.com/product.php?ProductID=251&UILanguage=EN",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "verre-select:crosswalk",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/verre-select/product-864-1820cdd10723.jpg"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": false
+      },
+      "documentsLocal": {
+        "captured": false,
+        "paths": []
+      },
+      "pdfEvidence": [],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "verre-select",
+      "liveProductName": "Endrick",
+      "liveModelNumber": null,
+      "collection": null,
+      "category": "door-glass",
+      "canonicalSupplierUrl": "https://verreselect.com/product.php?ProductID=252&UILanguage=EN",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "verre-select:endrick",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/verre-select/product-865-b959e146d4dd.jpg"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": false
+      },
+      "documentsLocal": {
+        "captured": false,
+        "paths": []
+      },
+      "pdfEvidence": [],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "verre-select",
+      "liveProductName": "Epic",
+      "liveModelNumber": null,
+      "collection": null,
+      "category": "door-glass",
+      "canonicalSupplierUrl": "https://verreselect.com/product.php?ProductID=253&UILanguage=EN",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "verre-select:epic",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/verre-select/product-866-97b4e83b49a2.jpg"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": false
+      },
+      "documentsLocal": {
+        "captured": false,
+        "paths": []
+      },
+      "pdfEvidence": [],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "verre-select",
+      "liveProductName": "HS-CRE106E+-10",
+      "liveModelNumber": null,
+      "collection": null,
+      "category": "door-glass",
+      "canonicalSupplierUrl": "https://verreselect.com/product.php?ProductID=104&UILanguage=EN",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "verre-select:hs-cre106e-10",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": true,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": true,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/verre-select/106-108-10-c87c3b025de6.jpg",
+          "/images/catalog/verre-select/variant-104-961-567f11a6d909.jpg"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": false
+      },
+      "documentsLocal": {
+        "captured": false,
+        "paths": []
+      },
+      "pdfEvidence": [],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "verre-select",
+      "liveProductName": "HS-CRE104E+-4",
+      "liveModelNumber": null,
+      "collection": null,
+      "category": "door-glass",
+      "canonicalSupplierUrl": "https://verreselect.com/product.php?ProductID=105&UILanguage=EN",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "verre-select:hs-cre104e-4",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": true,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": true,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/verre-select/104-4-e3584b559676.jpg",
+          "/images/catalog/verre-select/variant-105-965-81b5c0fbe84a.jpg"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": false
+      },
+      "documentsLocal": {
+        "captured": false,
+        "paths": []
+      },
+      "pdfEvidence": [],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "verre-select",
+      "liveProductName": "HS-CRE106E+-5",
+      "liveModelNumber": null,
+      "collection": null,
+      "category": "door-glass",
+      "canonicalSupplierUrl": "https://verreselect.com/product.php?ProductID=107&UILanguage=EN",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "verre-select:hs-cre106e-5",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": true,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": true,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/verre-select/106-108-5-c2f257ce9fbe.jpg",
+          "/images/catalog/verre-select/variant-107-973-cf20dd8b2cab.jpg"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": false
+      },
+      "documentsLocal": {
+        "captured": false,
+        "paths": []
+      },
+      "pdfEvidence": [],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "verre-select",
+      "liveProductName": "Satine",
+      "liveModelNumber": null,
+      "collection": "Stylized Doorglass",
+      "category": "door-glass",
+      "canonicalSupplierUrl": "https://verreselect.com/page.php?PageID=8&UILanguage=EN",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "verre-select:satine",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": false,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": false,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": []
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": false
+      },
+      "documentsLocal": {
+        "captured": false,
+        "paths": []
+      },
+      "pdfEvidence": [],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
       }
     },
     {

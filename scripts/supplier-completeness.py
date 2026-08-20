@@ -158,6 +158,10 @@ def build_reports() -> tuple[list[dict], list[dict]]:
         document_files = file_inventory(PUBLIC_ROOT / "documents" / "catalog" / slug, {".pdf"})
         snapshots = file_inventory(SOURCE_ROOT / slug / "html", {".html", ".htm"})
         staging_files = file_inventory(SOURCE_ROOT / "staging" / slug, set()) if (SOURCE_ROOT / "staging" / slug).is_dir() else []
+        staged_payloads = [
+            item for item in staging_files
+            if "/public/images/" in item["path"] or "/public/documents/" in item["path"]
+        ]
         supplier_public = image_files + document_files
         orphaned = [item for item in supplier_public if "/" + item["path"].removeprefix("public/") not in supplier_references]
         live = live_by_slug.get(slug, {})
@@ -266,8 +270,8 @@ def build_reports() -> tuple[list[dict], list[dict]]:
             "acceptedImageAssets": sum(item.get("asset_type") == "image" for item in manifest.get("assets", [])),
             "acceptedDocumentAssets": sum(item.get("asset_type") == "document" for item in manifest.get("assets", [])),
             "preservedReviewAssets": len(preserved_review_paths),
-            "stagingAssets": len(staging_files),
-            "quarantinedAssets": sum(1 for item in staging_files if "run-manifest" not in item["path"] and not item["path"].endswith("run.json")),
+            "stagingAssets": len(staged_payloads),
+            "quarantinedAssets": len(staged_payloads),
             "orphanedAssets": len(orphaned),
             "savedSourceSnapshots": len(snapshots),
             "jsonLdProductPages": sum(bool(page.get("product_data")) for page in manifest.get("pages", [])),

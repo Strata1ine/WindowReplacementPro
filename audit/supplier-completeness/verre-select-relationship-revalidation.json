@@ -1,0 +1,27 @@
+{
+  "supplier": "verre-select",
+  "products": 26,
+  "productsWithMediaBefore": 25,
+  "productsWithMediaAfter": 25,
+  "productsStillMissingMedia": [
+    {
+      "id": "verre-select:satine",
+      "sourceUrl": "https://verreselect.com/page.php?PageID=8&UILanguage=EN",
+      "reason": "saved supplier page exposes no image candidates",
+      "qualifyingCandidates": []
+    }
+  ],
+  "acceptedAssetsBefore": 93,
+  "downloadedCandidatesRecovered": 0,
+  "acceptedAssetsAfter": 93,
+  "rejectedAssociations": [],
+  "relationshipStates": {
+    "product-specific": 30,
+    "collection-shared": 0,
+    "supplier-shared": 63,
+    "uncertain/review": 0
+  },
+  "sharedProductBinaries": 0,
+  "changedProducts": [],
+  "resolvedErrors": []
+}

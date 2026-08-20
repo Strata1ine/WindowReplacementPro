@@ -1,0 +1,725 @@
+{
+  "supplier": "verre-select",
+  "reviewedAt": "2026-08-20",
+  "factSets": [
+    {
+      "productIds": [
+        "verre-select:amadeus",
+        "verre-select:cadence",
+        "verre-select:cbg",
+        "verre-select:crosswalk",
+        "verre-select:cyndi",
+        "verre-select:dorian",
+        "verre-select:endrick",
+        "verre-select:epic",
+        "verre-select:fragrance",
+        "verre-select:gabriella",
+        "verre-select:java",
+        "verre-select:naomie",
+        "verre-select:paris",
+        "verre-select:pixel",
+        "verre-select:quattro",
+        "verre-select:renoir",
+        "verre-select:rill",
+        "verre-select:rodin",
+        "verre-select:satine",
+        "verre-select:venus",
+        "verre-select:waterside",
+        "verre-select:whistler",
+        "verre-select:wide-reed"
+      ],
+      "sources": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+          "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+          "page": 3,
+          "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-003.webp",
+          "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-003.js",
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "warranty": "10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier"
+      }
+    },
+    {
+      "productIds": [
+        "verre-select:amadeus"
+      ],
+      "sources": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+          "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+          "page": 6,
+          "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-006.webp",
+          "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-006.js",
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "availableSizes": [
+          "22 x 48",
+          "8 x 48",
+          "22 x 64",
+          "7 x 64"
+        ],
+        "glassComposition": "Linea, Kasumi, beveled Screen, and Screen glass",
+        "caming": "Welded lead"
+      }
+    },
+    {
+      "productIds": [
+        "verre-select:cadence"
+      ],
+      "sources": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+          "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+          "page": 7,
+          "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-007.webp",
+          "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-007.js",
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "availableSizes": [
+          "22 x 64",
+          "7 x 64"
+        ],
+        "glassComposition": "Clear or obscure glass with optional 2 in grille (1 in on sidelites) and sandblast"
+      }
+    },
+    {
+      "productIds": [
+        "verre-select:cbg"
+      ],
+      "sources": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+          "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+          "page": 8,
+          "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-008.webp",
+          "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-008.js",
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "availableSizes": [
+          "22 x 12",
+          "22 x 17",
+          "22 x 36",
+          "22 x 48",
+          "8 x 48",
+          "20 x 64",
+          "22 x 64",
+          "7 x 64"
+        ],
+        "glassComposition": "Clear zone and sandblast"
+      }
+    },
+    {
+      "productIds": [
+        "verre-select:crosswalk"
+      ],
+      "sources": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+          "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+          "page": 9,
+          "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-009.webp",
+          "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-009.js",
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "availableSizes": [
+          "22 x 36",
+          "8 x 36",
+          "22 x 48",
+          "8 x 48",
+          "22 x 64",
+          "7 x 64"
+        ],
+        "glassComposition": "Morocco or micro-iced granite with clear or gray soft wave glass",
+        "caming": "Platinum nickel caming"
+      }
+    },
+    {
+      "productIds": [
+        "verre-select:cyndi"
+      ],
+      "sources": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+          "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+          "page": 10,
+          "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-010.webp",
+          "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-010.js",
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "availableSizes": [
+          "22 x 48",
+          "8 x 48",
+          "22 x 64",
+          "7 x 64"
+        ],
+        "glassComposition": "Sandblast with clear zone"
+      }
+    },
+    {
+      "productIds": [
+        "verre-select:dorian"
+      ],
+      "sources": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+          "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+          "page": 11,
+          "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-011.webp",
+          "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-011.js",
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "availableSizes": [
+          "22 x 17",
+          "22 x 36",
+          "8 x 36",
+          "22 x 48",
+          "8 x 48",
+          "22 x 64",
+          "7 x 64"
+        ],
+        "glassComposition": "Scribble, Kasumi or micro-granite, and gray soft wave glass",
+        "caming": "Black aluminum caming"
+      }
+    },
+    {
+      "productIds": [
+        "verre-select:endrick"
+      ],
+      "sources": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+          "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+          "page": 12,
+          "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-012.webp",
+          "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-012.js",
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "availableSizes": [
+          "22 x 48",
+          "8 x 48",
+          "22 x 64",
+          "7 x 64"
+        ],
+        "glassComposition": "Beveled Screen, Canva, Linea, and Screen glass",
+        "caming": "Black aluminum caming"
+      }
+    },
+    {
+      "productIds": [
+        "verre-select:epic"
+      ],
+      "sources": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+          "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+          "page": 13,
+          "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-013.webp",
+          "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-013.js",
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "availableSizes": [
+          "22 x 48",
+          "8 x 48",
+          "22 x 64",
+          "7 x 64"
+        ],
+        "glassComposition": "Beveled clear, granite, beveled Screen, and grain glass",
+        "caming": "Antique welded lead"
+      }
+    },
+    {
+      "productIds": [
+        "verre-select:fragrance"
+      ],
+      "sources": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+          "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+          "page": 14,
+          "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-014.webp",
+          "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-014.js",
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "availableSizes": [
+          "22 x 12",
+          "22 x 17",
+          "22 x 36",
+          "22 x 48",
+          "8 x 48",
+          "20 x 64",
+          "22 x 64",
+          "7 x 64"
+        ],
+        "glassComposition": "Sandblast with clear zone"
+      }
+    },
+    {
+      "productIds": [
+        "verre-select:gabriella"
+      ],
+      "sources": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+          "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+          "page": 15,
+          "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-015.webp",
+          "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-015.js",
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "availableSizes": [
+          "22 x 48",
+          "8 x 48",
+          "22 x 64",
+          "7 x 64"
+        ],
+        "glassComposition": "Clear, Canva, and Screen glass",
+        "caming": "Non-welded silver caming"
+      }
+    },
+    {
+      "productIds": [
+        "verre-select:java"
+      ],
+      "sources": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+          "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+          "page": 16,
+          "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-016.webp",
+          "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-016.js",
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "availableSizes": [
+          "22 x 17",
+          "22 x 48",
+          "8 x 48",
+          "20 x 64",
+          "22 x 64",
+          "7 x 64"
+        ],
+        "glassComposition": "Clear glass with optional 2 in grille (1 in on sidelites) and sandblast"
+      }
+    },
+    {
+      "productIds": [
+        "verre-select:naomie"
+      ],
+      "sources": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+          "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+          "page": 17,
+          "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-017.webp",
+          "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-017.js",
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "availableSizes": [
+          "22 x 48",
+          "8 x 48"
+        ],
+        "glassComposition": "Clear and Screen glass",
+        "caming": "Black aluminum caming"
+      }
+    },
+    {
+      "productIds": [
+        "verre-select:paris"
+      ],
+      "sources": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+          "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+          "page": 18,
+          "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-018.webp",
+          "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-018.js",
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "availableSizes": [
+          "22 x 64",
+          "7 x 64"
+        ],
+        "glassComposition": "Arctic, clear Renaissance, and clear bevels",
+        "caming": "Patina caming"
+      }
+    },
+    {
+      "productIds": [
+        "verre-select:pixel"
+      ],
+      "sources": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+          "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+          "page": 19,
+          "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-019.webp",
+          "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-019.js",
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "availableSizes": [
+          "22 x 48",
+          "8 x 48"
+        ],
+        "glassComposition": "Chinchilla, beveled clear, beveled Screen, and hammered glass",
+        "caming": "Welded lead"
+      }
+    },
+    {
+      "productIds": [
+        "verre-select:quattro"
+      ],
+      "sources": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+          "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+          "page": 20,
+          "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-020.webp",
+          "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-020.js",
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "availableSizes": [
+          "22 x 64",
+          "7 x 64"
+        ],
+        "glassComposition": "Beveled Screen glass with 1 in caming",
+        "caming": "Flat non-welded 1 in brushed chrome caming"
+      }
+    },
+    {
+      "productIds": [
+        "verre-select:renoir"
+      ],
+      "sources": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+          "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+          "page": 21,
+          "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-021.webp",
+          "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-021.js",
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "availableSizes": [
+          "22 x 48",
+          "8 x 48",
+          "22 x 64",
+          "7 x 64"
+        ],
+        "glassComposition": "Beveled Screen, Kasumi, Niagara, and hammered glass",
+        "caming": "Antique welded lead"
+      }
+    },
+    {
+      "productIds": [
+        "verre-select:rill"
+      ],
+      "sources": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+          "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+          "page": 22,
+          "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-022.webp",
+          "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-022.js",
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "availableSizes": [
+          "22 x 17",
+          "22 x 48",
+          "22 x 64"
+        ],
+        "glassComposition": "Wide Reed glass",
+        "caming": "Black aluminum caming"
+      }
+    },
+    {
+      "productIds": [
+        "verre-select:rodin"
+      ],
+      "sources": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+          "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+          "page": 23,
+          "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-023.webp",
+          "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-023.js",
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "availableSizes": [
+          "22 x 48",
+          "8 x 48"
+        ],
+        "glassComposition": "Beveled glue chip, Screen, and hammered glass",
+        "caming": "Platinum nickel caming"
+      }
+    },
+    {
+      "productIds": [
+        "verre-select:satine"
+      ],
+      "sources": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+          "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+          "page": 24,
+          "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-024.webp",
+          "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-024.js",
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "availableSizes": [
+          "22 x 12",
+          "22 x 17",
+          "22 x 36",
+          "8 x 36",
+          "22 x 48",
+          "8 x 48",
+          "20 x 64",
+          "22 x 64",
+          "7 x 64"
+        ],
+        "glassComposition": "Acid-etched privacy glass"
+      }
+    },
+    {
+      "productIds": [
+        "verre-select:venus"
+      ],
+      "sources": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+          "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+          "page": 25,
+          "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-025.webp",
+          "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-025.js",
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "availableSizes": [
+          "22 x 48",
+          "8 x 48",
+          "22 x 64",
+          "7 x 64",
+          "15.5 x 39.625"
+        ],
+        "glassComposition": "Niagara, beveled glue chip, Chinchilla, granite, and hand-engraved beveled clear diamond glass",
+        "caming": "Antique welded lead"
+      }
+    },
+    {
+      "productIds": [
+        "verre-select:waterside"
+      ],
+      "sources": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+          "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+          "page": 26,
+          "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-026.webp",
+          "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-026.js",
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "availableSizes": [
+          "22 x 36",
+          "8 x 36",
+          "22 x 48",
+          "8 x 48",
+          "22 x 64",
+          "7 x 64"
+        ],
+        "glassComposition": "Clear soft wave and streamed glass",
+        "caming": "Black chrome caming"
+      }
+    },
+    {
+      "productIds": [
+        "verre-select:whistler"
+      ],
+      "sources": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+          "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+          "page": 27,
+          "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-027.webp",
+          "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-027.js",
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "availableSizes": [
+          "22 x 17",
+          "22 x 36",
+          "22 x 48",
+          "8 x 48",
+          "20 x 64",
+          "22 x 64",
+          "7 x 64"
+        ],
+        "glassComposition": "Kasumi, beveled Screen, Corduroy, and clear Morocco glass"
+      }
+    },
+    {
+      "productIds": [
+        "verre-select:wide-reed"
+      ],
+      "sources": [
+        {
+          "supplier": "verre-select",
+          "sourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
+          "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
+          "page": 28,
+          "pageImageLocalPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/pages/page-028.webp",
+          "textPath": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/text/text-position-028.js",
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "availableSizes": [
+          "22 x 17",
+          "22 x 36",
+          "8 x 36",
+          "22 x 48",
+          "8 x 48",
+          "22 x 64",
+          "7 x 64"
+        ],
+        "glassComposition": "Wide Reed textured glass; texture faces the interior"
+      }
+    }
+  ]
+}

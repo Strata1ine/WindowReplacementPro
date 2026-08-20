@@ -605,6 +605,33 @@ def validate_product_records(records: list[dict], cfg: dict) -> None:
         ids.add(product['id']); routes.add(route)
 
 
+def configured_source_products(cfg: dict, verified_date: str | None = None) -> list[dict]:
+    """Normalize supplier-reviewed products sourced outside live detail pages."""
+    verified = verified_date or time.strftime('%Y-%m-%d')
+    products = []
+    for item in cfg.get('source_products', []):
+        slug = item['slug']
+        products.append({
+            'id': f"{cfg['slug']}:{slug}",
+            'manufacturer': cfg['slug'],
+            'slug': slug,
+            'name': item['name'],
+            'category': item['category'],
+            'collection': item.get('collection'),
+            'modelNumber': item.get('modelNumber'),
+            'type': item.get('type'),
+            'summary': None,
+            'sourceDescription': item.get('sourceDescription'),
+            'sourceUrl': item['sourceUrl'],
+            'sourceType': item.get('sourceType', 'supplier-publication'),
+            'media': list(item.get('media', [])),
+            'documents': list(item.get('documents', [])),
+            'specifications': dict(item.get('specifications', {})),
+            'lastVerified': verified,
+        })
+    return products
+
+
 def image_dimensions(body: bytes, content_type: str | None = None) -> tuple[int | None, int | None]:
     if body.startswith(b'\x89PNG\r\n\x1a\n') and len(body) >= 24:
         return int.from_bytes(body[16:20], 'big'), int.from_bytes(body[20:24], 'big')
@@ -1319,6 +1346,12 @@ def crawl_supplier(cfg: dict, args) -> tuple[dict, bool]:
         ids.add(product_id); routes.add(route)
         media, documents = product_asset_paths(page, assets, cfg.get('attach_page_roles'), [product_slug, model_number, name], cfg.get('trust_structured_product_images', True), cfg.get('trust_product_open_graph_images', False))
         products.append({'id': product_id, 'manufacturer': slug, 'slug': product_slug, 'name': name, 'category': identity.get('category') or page.category, 'collection': identity.get('collection'), 'modelNumber': model_number, 'type': identity.get('type'), 'summary': None, 'sourceDescription': page.product_data.get('description') or (None if cfg.get('ignore_page_description') else page.description) or None, 'sourceUrl': page.url, 'sourceType': 'live-crawl', 'media': media, 'documents': documents, 'specifications': page.product_data.get('specifications', {}), 'lastVerified': time.strftime('%Y-%m-%d')})
+    for source_product in configured_source_products(cfg):
+        route = (source_product['manufacturer'], source_product['slug'])
+        if source_product['id'] in ids or route in routes:
+            structural_errors.append({'url': source_product['sourceUrl'], 'error': f'duplicate product identity {source_product["id"]}'})
+            continue
+        ids.add(source_product['id']); routes.add(route); products.append(source_product)
     errors.extend(structural_errors)
     enforce_filename_owner_precedence(assets, products)
     enforce_wordpress_master_precedence(assets, products)

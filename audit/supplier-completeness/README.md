@@ -1,6 +1,6 @@
 # Supplier completeness audit
 
-Generated: 2026-08-20T05:05:05.336877+00:00
+Generated: 2026-08-20T06:24:58.533099+00:00
 
 ## Supplier summary
 
@@ -11,7 +11,7 @@ Generated: 2026-08-20T05:05:05.336877+00:00
 | masonite | 29 | 29 | 28 | 19 | 0 | 0 | VERIFIED | VERIFIED | VERIFIED |
 | trimlite | 175 | 163 | 211 | 3 | 37 | 0 | VERIFIED | VERIFIED | VERIFIED |
 | novatech | 91 | 91 | 865 | 30 | 0 | 0 | VERIFIED | VERIFIED | VERIFIED-WITH-16-PAGE-EVIDENCE-GAPS |
-| verre-select | 9 | 9 | 9 | 0 | 0 | 0 | VERIFICATION-PENDING | VERIFICATION-PENDING | VERIFICATION-PENDING |
+| verre-select | 26 | 25 | 93 | 0 | 0 | 0 | VERIFIED | VERIFIED | NONE-CURRENTLY-AVAILABLE-FLIPHTML5-VERIFIED |
 | mennie-canada | 85 | 7 | 30 | 0 | 0 | 0 | VERIFICATION-PENDING | VERIFICATION-PENDING | VERIFICATION-PENDING |
 | richersons | 33 | 12 | 20 | 0 | 0 | 0 | VERIFICATION-PENDING | VERIFICATION-PENDING | VERIFICATION-PENDING |
 | oceanview | 3 | 3 | 5 | 3 | 0 | 0 | VERIFICATION-PENDING | VERIFICATION-PENDING | VERIFICATION-PENDING |
@@ -51,9 +51,9 @@ Completeness states: requires-review=16, source-complete=75.
 
 ### Verre Select
 
-Website: **VERIFICATION-PENDING**. Media: **VERIFICATION-PENDING**. PDF: **VERIFICATION-PENDING**. Canonical supplier products: **9**. Merged catalogue records: **12**. Accepted assets: **9 images / 0 PDFs**. Review binaries preserved: **0**. Product associations: **9 image / 0 document**.
+Website: **VERIFIED**. Media: **VERIFIED**. PDF: **NONE-CURRENTLY-AVAILABLE-FLIPHTML5-VERIFIED**. Canonical supplier products: **26**. Merged catalogue records: **29**. Accepted assets: **93 images / 0 PDFs**. Review binaries preserved: **0**. Product associations: **25 image / 0 document**.
 
-Completeness states: verification-pending=9.
+Completeness states: source-complete=26.
 
 ### Mennie Canada
 

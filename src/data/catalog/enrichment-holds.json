@@ -779,6 +779,10 @@
     {
       "productId": "window-city:wc-500",
       "reason": "New Window City canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "verre-select:satine",
+      "reason": "Current Verre Select publication identity and source facts are supplier-verified, but no working live detail page exists and editorial review is incomplete; do not publish."
     }
   ]
 }

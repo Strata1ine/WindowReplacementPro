@@ -9,6 +9,7 @@ from unittest.mock import patch
 from scripts.ingest.cleanup import scan_staging_runs
 from scripts.ingest.pdf_evidence import configured_document_metadata, configured_page_products
 from scripts.ingest.pdf_ocr import ocr_pdf_pages
+from scripts.ingest.reassociate import recover_downloaded_candidates
 
 from scripts.ingest.crawl import (
     Asset,
@@ -22,6 +23,7 @@ from scripts.ingest.crawl import (
     associate_assets,
     attach_available_asset_occurrences,
     build_asset_tasks,
+    configured_source_products,
     decode_html,
     embedded_caption_products,
     embedded_json_products,
@@ -54,6 +56,42 @@ from scripts.ingest.crawl import (
 
 
 class CrawlerSafetyTests(unittest.TestCase):
+    def test_verre_fliphtml5_product_crops_have_unique_reviewed_page_relationships(self):
+        config_path = Path(__file__).resolve().parents[2] / 'scripts' / 'ingest' / 'publications' / 'verre-select-2026.json'
+        config = json.loads(config_path.read_text(encoding='utf-8'))
+        cropped = [page for page in config['pages'] if page.get('cropBox')]
+        self.assertEqual(len(cropped), 23)
+        self.assertEqual(len({page['pageNumber'] for page in cropped}), 23)
+        product_ids = [page['productIds'][0] for page in cropped]
+        self.assertEqual(len(set(product_ids)), 23)
+        self.assertIn('verre-select:satine', product_ids)
+        self.assertTrue(all(len(page['productIds']) == 1 for page in cropped))
+        self.assertTrue(all(page['relationshipState'] == 'product-specific' for page in cropped))
+        technical = [page for page in config['pages'] if page.get('assetRole') in {'configuration-diagram', 'colour-chart', 'profile-section', 'technical-drawing'}]
+        self.assertTrue(all(not page['productIds'] for page in technical))
+    def test_configured_publication_product_is_normalized_and_held_outside_page_discovery(self):
+        config = {
+            'slug': 'supplier',
+            'source_products': [{
+                'slug': 'satine',
+                'name': 'Satine',
+                'category': 'door-glass',
+                'sourceUrl': 'https://example.com/brochures',
+                'specifications': {'publicationPage': '24'},
+            }],
+        }
+        products = configured_source_products(config, '2026-08-20')
+        self.assertEqual(products[0]['id'], 'supplier:satine')
+        self.assertEqual(products[0]['sourceType'], 'supplier-publication')
+        self.assertEqual(products[0]['specifications']['publicationPage'], '24')
+        self.assertEqual(products[0]['media'], [])
+    def test_offline_reassociation_upgrades_inferred_gallery_to_configured_hero(self):
+        url = 'https://example.com/userfiles/productimages/product_867.jpg'
+        asset = Asset('supplier', [], url, url, '/images/product-867.jpg', 'image', 'product-gallery', 'hash', 1, 'now', source_asset_urls=[url])
+        page = Page('https://example.com/product.php?id=867', '', 'Paris', '', '', True, 'door-glass', [], {}, asset_candidates=[{'url': url, 'source_url': url, 'kind': 'image', 'role': 'product-hero', 'order': 0}])
+        recovered = recover_downloaded_candidates('supplier', [page], {url: asset}, None)
+        self.assertEqual(recovered, 0)
+        self.assertEqual(asset.role, 'product-hero')
     def test_reviewed_pdf_document_metadata_overrides_inferred_freshness(self):
         rules = [{
             'patterns': [r'consumerbook2022.*\.pdf$'],

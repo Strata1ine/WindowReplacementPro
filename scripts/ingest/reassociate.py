@@ -15,7 +15,7 @@ from scripts.ingest.crawl import (
     Asset, CATALOG_DIR, CONFIG, DOCUMENT_ROLES, IMAGE_ROLES, MANIFEST_ROOT, Page, ROOT, WP_SIZE_SUFFIX,
     apply_document_relationship_rules, associate_assets, atomic_write_json, attach_available_asset_occurrences, enforce_filename_owner_precedence, enforce_wordpress_master_precedence, explicit_role,
     identity_keys, image_dimensions, manifest_asset, manifest_page, normalize, product_asset_paths, promote_referenced_assets,
-    refresh_page_asset_candidates, urls_identity_match, validate_asset_binary, validate_product_records, write_supplier_archive,
+    configured_source_products, refresh_page_asset_candidates, urls_identity_match, validate_asset_binary, validate_product_records, write_supplier_archive,
 )
 
 
@@ -35,6 +35,8 @@ def recover_downloaded_candidates(slug: str, pages: list[Page], assets: dict[str
         if url in aliases or candidate.get('source_url') in aliases:
             asset = aliases.get(url) or aliases[candidate.get('source_url')]
             asset.source_page_urls = sorted(set(asset.source_page_urls) | candidate['pages'])
+            if explicit_role(candidate.get('role')) == 'product-hero' and explicit_role(asset.role) == 'product-gallery':
+                asset.role = 'product-hero'
             continue
         source_url = candidate.get('source_url') or url
         digests = {hashlib.sha256(value.encode('utf-8')).hexdigest()[:12] for value in {url, source_url}}
@@ -126,7 +128,10 @@ def reassociate_supplier(slug: str, staging_run: Path | None = None) -> dict:
     if invalid: raise ValueError(f'{len(invalid)} recovered/promoted assets failed local checksum validation')
     attach_available_asset_occurrences(pages, aliases)
     pages_by_url = {page.url: page for page in pages}
-    products = manifest.get('products', []); before_media = {product['id']: list(product.get('media', [])) for product in products}
+    products = manifest.get('products', [])
+    known_ids = {product['id'] for product in products}
+    products.extend(product for product in configured_source_products(cfg) if product['id'] not in known_ids)
+    before_media = {product['id']: list(product.get('media', [])) for product in products}
     for asset in assets.values():
         asset.product_ids = []; asset.collections = []; asset.relationship_evidence = []
         asset.scope = 'unassociated'; asset.relationship_state = 'uncertain/review'

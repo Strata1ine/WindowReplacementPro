@@ -1,0 +1,424 @@
+{
+  "supplier": "verre-select",
+  "publicationManifest": "source-media/suppliers/verre-select/publications/2026-entry-door-product-catalogue/publication-manifest.json",
+  "highDefinitionConversion": true,
+  "pages": [
+    {
+      "pageNumber": 6,
+      "productIds": [
+        "verre-select:amadeus"
+      ],
+      "collection": "Door Windows",
+      "assetRole": "product-layout-reference",
+      "relationshipState": "product-specific",
+      "cropSlug": "amadeus",
+      "cropBox": [
+        0,
+        220,
+        1260,
+        2580
+      ]
+    },
+    {
+      "pageNumber": 7,
+      "productIds": [
+        "verre-select:cadence"
+      ],
+      "collection": "Door Windows",
+      "assetRole": "product-layout-reference",
+      "relationshipState": "product-specific",
+      "cropSlug": "cadence",
+      "cropBox": [
+        921,
+        220,
+        2181,
+        2580
+      ]
+    },
+    {
+      "pageNumber": 8,
+      "productIds": [
+        "verre-select:cbg"
+      ],
+      "collection": "Door Windows",
+      "assetRole": "product-layout-reference",
+      "relationshipState": "product-specific",
+      "cropSlug": "cbg",
+      "cropBox": [
+        0,
+        220,
+        1260,
+        2580
+      ]
+    },
+    {
+      "pageNumber": 9,
+      "productIds": [
+        "verre-select:crosswalk"
+      ],
+      "collection": "Door Windows",
+      "assetRole": "product-layout-reference",
+      "relationshipState": "product-specific",
+      "cropSlug": "crosswalk",
+      "cropBox": [
+        921,
+        220,
+        2181,
+        2580
+      ]
+    },
+    {
+      "pageNumber": 10,
+      "productIds": [
+        "verre-select:cyndi"
+      ],
+      "collection": "Door Windows",
+      "assetRole": "product-layout-reference",
+      "relationshipState": "product-specific",
+      "cropSlug": "cyndi",
+      "cropBox": [
+        0,
+        220,
+        1260,
+        2580
+      ]
+    },
+    {
+      "pageNumber": 11,
+      "productIds": [
+        "verre-select:dorian"
+      ],
+      "collection": "Door Windows",
+      "assetRole": "product-layout-reference",
+      "relationshipState": "product-specific",
+      "cropSlug": "dorian",
+      "cropBox": [
+        921,
+        220,
+        2181,
+        2580
+      ]
+    },
+    {
+      "pageNumber": 12,
+      "productIds": [
+        "verre-select:endrick"
+      ],
+      "collection": "Door Windows",
+      "assetRole": "product-layout-reference",
+      "relationshipState": "product-specific",
+      "cropSlug": "endrick",
+      "cropBox": [
+        0,
+        220,
+        1260,
+        2580
+      ]
+    },
+    {
+      "pageNumber": 13,
+      "productIds": [
+        "verre-select:epic"
+      ],
+      "collection": "Door Windows",
+      "assetRole": "product-layout-reference",
+      "relationshipState": "product-specific",
+      "cropSlug": "epic",
+      "cropBox": [
+        921,
+        220,
+        2181,
+        2580
+      ]
+    },
+    {
+      "pageNumber": 14,
+      "productIds": [
+        "verre-select:fragrance"
+      ],
+      "collection": "Door Windows",
+      "assetRole": "product-layout-reference",
+      "relationshipState": "product-specific",
+      "cropSlug": "fragrance",
+      "cropBox": [
+        0,
+        220,
+        1260,
+        2580
+      ]
+    },
+    {
+      "pageNumber": 15,
+      "productIds": [
+        "verre-select:gabriella"
+      ],
+      "collection": "Door Windows",
+      "assetRole": "product-layout-reference",
+      "relationshipState": "product-specific",
+      "cropSlug": "gabriella",
+      "cropBox": [
+        921,
+        220,
+        2181,
+        2580
+      ]
+    },
+    {
+      "pageNumber": 16,
+      "productIds": [
+        "verre-select:java"
+      ],
+      "collection": "Door Windows",
+      "assetRole": "product-layout-reference",
+      "relationshipState": "product-specific",
+      "cropSlug": "java",
+      "cropBox": [
+        0,
+        220,
+        1260,
+        2580
+      ]
+    },
+    {
+      "pageNumber": 17,
+      "productIds": [
+        "verre-select:naomie"
+      ],
+      "collection": "Door Windows",
+      "assetRole": "product-layout-reference",
+      "relationshipState": "product-specific",
+      "cropSlug": "naomie",
+      "cropBox": [
+        921,
+        220,
+        2181,
+        2580
+      ]
+    },
+    {
+      "pageNumber": 18,
+      "productIds": [
+        "verre-select:paris"
+      ],
+      "collection": "Door Windows",
+      "assetRole": "product-layout-reference",
+      "relationshipState": "product-specific",
+      "cropSlug": "paris",
+      "cropBox": [
+        0,
+        220,
+        1260,
+        2580
+      ]
+    },
+    {
+      "pageNumber": 19,
+      "productIds": [
+        "verre-select:pixel"
+      ],
+      "collection": "Door Windows",
+      "assetRole": "product-layout-reference",
+      "relationshipState": "product-specific",
+      "cropSlug": "pixel",
+      "cropBox": [
+        921,
+        220,
+        2181,
+        2580
+      ]
+    },
+    {
+      "pageNumber": 20,
+      "productIds": [
+        "verre-select:quattro"
+      ],
+      "collection": "Door Windows",
+      "assetRole": "product-layout-reference",
+      "relationshipState": "product-specific",
+      "cropSlug": "quattro",
+      "cropBox": [
+        0,
+        220,
+        1260,
+        2580
+      ]
+    },
+    {
+      "pageNumber": 21,
+      "productIds": [
+        "verre-select:renoir"
+      ],
+      "collection": "Door Windows",
+      "assetRole": "product-layout-reference",
+      "relationshipState": "product-specific",
+      "cropSlug": "renoir",
+      "cropBox": [
+        921,
+        220,
+        2181,
+        2580
+      ]
+    },
+    {
+      "pageNumber": 22,
+      "productIds": [
+        "verre-select:rill"
+      ],
+      "collection": "Door Windows",
+      "assetRole": "product-layout-reference",
+      "relationshipState": "product-specific",
+      "cropSlug": "rill",
+      "cropBox": [
+        0,
+        220,
+        1260,
+        2580
+      ]
+    },
+    {
+      "pageNumber": 23,
+      "productIds": [
+        "verre-select:rodin"
+      ],
+      "collection": "Door Windows",
+      "assetRole": "product-layout-reference",
+      "relationshipState": "product-specific",
+      "cropSlug": "rodin",
+      "cropBox": [
+        921,
+        220,
+        2181,
+        2580
+      ]
+    },
+    {
+      "pageNumber": 24,
+      "productIds": [
+        "verre-select:satine"
+      ],
+      "collection": "Stylized Doorglass",
+      "assetRole": "product-layout-reference",
+      "relationshipState": "product-specific",
+      "cropSlug": "satine",
+      "cropBox": [
+        0,
+        220,
+        1260,
+        2580
+      ]
+    },
+    {
+      "pageNumber": 25,
+      "productIds": [
+        "verre-select:venus"
+      ],
+      "collection": "Door Windows",
+      "assetRole": "product-layout-reference",
+      "relationshipState": "product-specific",
+      "cropSlug": "venus",
+      "cropBox": [
+        921,
+        220,
+        2181,
+        2580
+      ]
+    },
+    {
+      "pageNumber": 26,
+      "productIds": [
+        "verre-select:waterside"
+      ],
+      "collection": "Door Windows",
+      "assetRole": "product-layout-reference",
+      "relationshipState": "product-specific",
+      "cropSlug": "waterside",
+      "cropBox": [
+        0,
+        220,
+        1260,
+        2580
+      ]
+    },
+    {
+      "pageNumber": 27,
+      "productIds": [
+        "verre-select:whistler"
+      ],
+      "collection": "Door Windows",
+      "assetRole": "product-layout-reference",
+      "relationshipState": "product-specific",
+      "cropSlug": "whistler",
+      "cropBox": [
+        921,
+        220,
+        2181,
+        2580
+      ]
+    },
+    {
+      "pageNumber": 28,
+      "productIds": [
+        "verre-select:wide-reed"
+      ],
+      "collection": "Door Windows",
+      "assetRole": "product-layout-reference",
+      "relationshipState": "product-specific",
+      "cropSlug": "wide-reed",
+      "cropBox": [
+        0,
+        220,
+        1260,
+        2580
+      ]
+    },
+    {
+      "pageNumber": 29,
+      "productIds": [],
+      "collection": "Integrated Blinds + Glass",
+      "assetRole": "configuration-diagram",
+      "relationshipState": "collection-shared"
+    },
+    {
+      "pageNumber": 30,
+      "productIds": [],
+      "collection": "Decorative Glass",
+      "assetRole": "colour-chart",
+      "relationshipState": "supplier-shared"
+    },
+    {
+      "pageNumber": 31,
+      "productIds": [],
+      "collection": "Door Frames",
+      "assetRole": "profile-section",
+      "relationshipState": "supplier-shared"
+    },
+    {
+      "pageNumber": 32,
+      "productIds": [],
+      "collection": "Steel Entry Doors",
+      "assetRole": "configuration-diagram",
+      "relationshipState": "collection-shared"
+    },
+    {
+      "pageNumber": 33,
+      "productIds": [],
+      "collection": "Steel Mark",
+      "assetRole": "technical-drawing",
+      "relationshipState": "collection-shared"
+    },
+    {
+      "pageNumber": 34,
+      "productIds": [],
+      "collection": "Fiberglass Entry Doors",
+      "assetRole": "reference-only",
+      "relationshipState": "collection-shared"
+    },
+    {
+      "pageNumber": 35,
+      "productIds": [],
+      "collection": "Fiberglass Entry Doors",
+      "assetRole": "technical-drawing",
+      "relationshipState": "collection-shared"
+    }
+  ]
+}
