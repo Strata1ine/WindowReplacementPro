@@ -39,11 +39,19 @@
     "name": "Masonite",
       "base_url": "https://www.masonite.com/",
       "allowed_domains": ["masonite.com", "www.masonite.com"],
-      "asset_domains": ["masonite.com", "www.masonite.com", "embed.widencdn.net"],
-    "start_urls": ["https://www.masonite.com/doors/exterior/", "https://www.masonite.com/catalogs/", "https://www.masonite.com/for-pros/resources/"],
+      "asset_domains": ["masonite.com", "www.masonite.com", "embed.widencdn.net", "cf-store.widencdn.net"],
+    "start_urls": ["https://www.masonite.com/api/plp/search/528?pageNumber=1", "https://www.masonite.com/api/plp/search/528?pageNumber=2", "https://www.masonite.com/api/plp/search/528?pageNumber=3", "https://www.masonite.com/catalogs/", "https://www.masonite.com/for-pros/resources/"],
       "product_hints": ["/doors/exterior", "/door/", "/product"],
-      "embedded_json_product_paths": ["/doors/exterior"],
-      "embedded_json_queryless_only": true,
+      "api_product_list_key": "products",
+      "api_model_key": "sku",
+      "api_name_key": "name",
+      "api_url_key": "url",
+      "api_image_key": "image",
+      "api_image_url_key": "defaultSrc",
+      "api_exclude_model_patterns": ["^DR-WSR-"],
+      "api_slug_suffix_rules": [{"model_pattern": "^DR-ST-", "suffix": "steel"}],
+      "asset_url_rewrite_rules": [{"pattern": "^https://embed\\.widencdn\\.net/pdf/plus/", "replacement": "https://embed.widencdn.net/download/"}],
+      "document_role_rules": [{"patterns": ["/pdf/plus/masonite/"], "role": "specification-sheet"}],
       "embedded_slug_aliases": {
         "4-panel-lite": "4-panel-1-4-lite",
         "2-panel-lite": "2-panel-1-2-lite"
@@ -57,19 +65,25 @@
     "name": "Trimlite",
     "base_url": "https://trimlite.com/",
     "allowed_domains": ["trimlite.com", "www.trimlite.com"],
-      "start_urls": ["https://trimlite.com/product-tag/exterior/", "https://trimlite.com/canadian-catalogs/"],
-      "product_hints": ["/product/", "/exterior", "/doorlite"],
+      "start_urls": ["https://trimlite.com/product-category/doorlites/", "https://trimlite.com/product-category/exterior-doors/", "https://trimlite.com/product-category/exterior_door_accessories/", "https://trimlite.com/canadian-catalogs/"],
+      "crawl_delay": 10,
+      "allowed_path_patterns": ["^/(?:product-category/(?:doorlites|exterior-doors|exterior_door_accessories)(?:/|$)|products/(?:doorlites|exterior-doors|exterior_door_accessories)(?:/|$)|canadian-catalogs/?$)"],
+      "product_hints": ["/products/exterior-doors/", "/products/doorlites/"],
+      "category_path_rules": [{"path_pattern": "^/products/doorlites/.+/?$", "category": "door-glass"}, {"path_pattern": "^/products/exterior-doors/.+/?$", "category": "entry-doors"}],
       "product_path_rules": [
-        "^/products/exterior-doors/exterior-wood/[^/]+/?$",
-        "^/products/exterior-doors/plastpro-fiberglass-doors/[^/]+/[^/]+/?$"
+        "^/products/exterior-doors/.+/?$",
+        "^/products/doorlites/.+/?$"
       ],
       "prioritize_link_patterns": [
-        "^/products/exterior-doors/exterior-wood/[^/]+/?$",
-        "^/products/exterior-doors/plastpro-fiberglass-doors/[^/]+/[^/]+/?$"
+        "^/products/(?:exterior-doors|doorlites|exterior_door_accessories)/"
       ],
       "model_number_from_name_pattern": "^([A-Z]{2,4}[0-9]+[A-Z]?)\\b",
-      "slug_from_inferred_model": true,
+      "slug_from_inferred_model": false,
+      "slug_from_path": true,
+      "name_from_path_patterns": ["^/products/doorlites/.+/?$"],
+      "reject_product_paths": ["^/products/exterior_door_accessories/.+/?$"],
       "assets_on_product_pages_only": true,
+    "trust_structured_product_images": true,
       "asset_role_rules": [
         {"patterns": ["wp-post-image"], "role": "hero"}
       ],
@@ -85,12 +99,17 @@
     "name": "Novatech Group",
     "base_url": "https://www.groupenovatech.com/en_canada_ontario/",
     "allowed_domains": ["groupenovatech.com", "www.groupenovatech.com"],
+    "allowed_path_prefixes": ["/en_canada_ontario/"],
     "start_urls": ["https://www.groupenovatech.com/en_canada_ontario/products/doorglass.html", "https://www.groupenovatech.com/en_canada_ontario/products/patio-doors.html", "https://www.groupenovatech.com/en_canada_ontario/brochures"],
     "product_hints": ["/products/doorglass/", "/products/patio-doors/", "/products/entry-doors/"],
-    "product_path_rules": ["^/en_canada_ontario/products/(?:doorglass|patio-doors|entry-doors)/[^/]+\\.html$", "^/en_canada_ontario/catalog/product/view/id/2175/s/satine-depoli/category/22/$"],
-    "prioritize_link_patterns": ["/products/entry-doors/[^/]+\\.html$"],
+    "product_path_rules": ["^/en_canada_ontario/products/(?:doorglass|patio-doors|entry-doors)/[^/]+\\.html$", "^/en_canada_ontario/catalog/product/view/id/(?:2069|2104|2175)/s/[^/]+/category/(?:21|22)/$"],
+    "prioritize_link_patterns": ["/products/entry-doors/[^/]+\\.html$", "/catalog/product/view/id/(?:2069|2104|2175)/"],
     "slug_from_path": true,
     "assets_on_product_pages_only": true,
+    "asset_role_rules": [
+      {"role": "generic", "patterns": ["product-image-photo", "loader-1\\.gif", "pdf-icon\\.png"]}
+    ],
+    "attach_page_roles": ["product-hero", "product-gallery", "technical-drawing", "profile-section", "configuration-diagram", "colour-chart", "finish-swatch", "glass-design", "hardware", "brochure", "specification-sheet", "installation-guide", "warranty", "performance-document", "catalogue"],
     "slug_aliases": {
       "infinite-1": "infinite-black",
       "celeste": "c-leste",
@@ -110,6 +129,8 @@
       "loft-aluminum": "loft"
     },
     "product_identity_rules": [
+      {"path_pattern": "^/en_canada_ontario/catalog/product/view/id/2069/s/2-panel-planked-camber-top-1/category/21/$", "slug": "2-panel-planked-camber-top", "name": "2 Panel Planked Camber Top", "category": "entry-doors"},
+      {"path_pattern": "^/en_canada_ontario/catalog/product/view/id/2104/s/linea/category/21/$", "slug": "linea", "name": "Linea", "category": "entry-doors"},
       {"path_pattern": "^/en_canada_ontario/catalog/product/view/id/2175/s/satine-depoli/category/22/$", "slug": "satin", "name": "Satin", "category": "door-glass"}
     ],
     "category_rules": [

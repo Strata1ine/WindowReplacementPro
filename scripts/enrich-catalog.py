@@ -115,12 +115,18 @@ def review_new(products,curated_ids,enrichment):
         review.append({"productId":item["id"],"decision":"retained-distinct","reason":"No curated record has the same normalized manufacturer model or product name.","manufacturer":item["manufacturer"],"category":item["category"],"modelNumber":item.get("modelNumber"),"sourceUrl":item["sourceUrl"],"possibleAliasesReviewed":possible,"enriched":bool(enrichment[item["id"]]["sourceFacts"]["normalized"]),"editorialStatus":editorial["status"]})
     return review
 
+def held_editorial(editorial, reason):
+    return {"status":"incomplete","summary":None,"bestFor":None,"keyFeatures":editorial.get("keyFeatures",[]),"considerations":[reason],"configurationNotes":None,"seoTitle":None,"metaDescription":None,"generatedAt":GENERATED_AT}
+
 def main():
     products,curated_ids=merge_catalog(); assets,supplier_names,links=load_evidence(); records=[]; by_id={}
+    hold_path=CATALOG/"enrichment-holds.json"; holds={item["productId"]:item["reason"] for item in read_json(hold_path).get("holds",[])} if hold_path.is_file() else {}
     for product in products:
         source=reference(product); normalized=find_explicit_facts(product)
         source_facts={"manufacturer":fact(product["manufacturer"],source),"sourceUrl":fact(product["sourceUrl"],source),"sourceDescription":product.get("sourceDescription"),"modelNumber":fact(product["modelNumber"],source) if product.get("modelNumber") else None,"collection":fact(product["collection"],source) if product.get("collection") else None,"normalized":normalized,"sourceDocuments":asset_references(product,product.get("documents",[]),assets),"sourceMedia":asset_references(product,product.get("media",[]),assets)}
-        record={"productId":product["id"],"sourceFacts":source_facts,"editorial":build_editorial(product,normalized,supplier_names.get(product["manufacturer"],product["manufacturer"]))}; records.append(record); by_id[product["id"]]=record
+        editorial=build_editorial(product,normalized,supplier_names.get(product["manufacturer"],product["manufacturer"]))
+        if product["id"] in holds: editorial=held_editorial(editorial,holds[product["id"]])
+        record={"productId":product["id"],"sourceFacts":source_facts,"editorial":editorial}; records.append(record); by_id[product["id"]]=record
     review=review_new(products,curated_ids,by_id); write_json(CATALOG/"enrichment-records.json",records); write_json(CATALOG/"new-record-review.json",review); write_json(CATALOG/"source-link-status.json",links)
     suppliers={}
     for supplier in sorted({x["manufacturer"] for x in products}):

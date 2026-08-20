@@ -18,6 +18,7 @@
     "test:crawler": "python -m unittest scripts.tests.test_crawler -v",
     "test": "npm run test:catalog && npm run test:crawler",
     "validate:build": "python scripts/verify-build.py",
+    "audit:supplier-completeness": "python scripts/ingest/live_inventory.py && python scripts/supplier-completeness.py",
     "verify": "npm run check && npm run validate:catalog && npm run test && npm run build && npm run validate:build"
   },
   "engines": {

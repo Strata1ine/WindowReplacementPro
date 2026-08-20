@@ -32,6 +32,7 @@ CONFIG = ROOT / 'scripts' / 'ingest' / 'suppliers.json'
 SOURCE_ROOT = ROOT / 'source-media'
 PUBLIC_IMG = ROOT / 'public' / 'images' / 'catalog'
 PUBLIC_DOC = ROOT / 'public' / 'documents' / 'catalog'
+SUPPLIER_ARCHIVE_ROOT = SOURCE_ROOT / 'suppliers'
 MANIFEST_ROOT = SOURCE_ROOT / 'manifests'
 STAGING_ROOT = SOURCE_ROOT / 'staging'
 CATALOG_DIR = ROOT / 'src' / 'data' / 'catalog' / 'discovered'
@@ -41,6 +42,16 @@ SKIP_EXTS = {'.zip', '.mp4', '.mov', '.mp3', '.woff', '.woff2', '.ttf', '.css', 
 TRACKING_PARAMS = {'fbclid', 'gclid', 'mc_cid', 'mc_eid'}
 GENERIC_SEGMENTS = {'', 'home', 'products', 'product', 'catalog', 'catalogs', 'collections', 'collection', 'category', 'categories', 'exterior', 'doors', 'windows', 'resources', 'brochures'}
 DETAIL_TERMS = {'specification', 'dimensions', 'model', 'glass options', 'hardware', 'warranty', 'energy rating', 'sizes available'}
+ROLE_ALIASES = {
+    'hero': 'product-hero', 'gallery': 'product-gallery', 'technical': 'technical-drawing',
+    'document': 'reference-only', 'embedded-product': 'product-hero', 'product-jsonld': 'product-hero',
+}
+IMAGE_ROLES = {'product-hero', 'product-gallery', 'lifestyle-product', 'technical-drawing', 'profile-section', 'configuration-diagram', 'colour-chart', 'finish-swatch', 'glass-design', 'hardware', 'open-graph-image'}
+DOCUMENT_ROLES = {'brochure', 'specification-sheet', 'installation-guide', 'warranty', 'performance-document', 'catalogue'}
+
+
+def explicit_role(role: str | None) -> str:
+    return ROLE_ALIASES.get(role or '', role or 'reference-only')
 
 
 def slugify(value: str) -> str:
@@ -54,6 +65,7 @@ def clean_text(value: str | None) -> str:
 
 
 def normalize(url: str, base: str) -> str | None:
+    if re.search(r'[\s{}"<>]', url): return None
     joined = urldefrag(urljoin(base, url))[0]
     parsed = urlparse(joined)
     if parsed.scheme.lower() not in {'http', 'https'} or not parsed.hostname:
@@ -68,6 +80,21 @@ def normalize(url: str, base: str) -> str | None:
 
 def same_allowed(url: str, domains: set[str]) -> bool:
     return (urlparse(url).hostname or '').lower() in domains
+
+
+def rewrite_asset_url(url: str, cfg: dict) -> str:
+    rewritten = url
+    for rule in cfg.get('asset_url_rewrite_rules', []):
+        rewritten = re.sub(rule['pattern'], rule['replacement'], rewritten, flags=re.I)
+    return rewritten
+
+def page_allowed(url: str, cfg: dict) -> bool:
+    if not same_allowed(url, {domain.lower() for domain in cfg['allowed_domains']}): return False
+    path = urlparse(url).path
+    prefixes = cfg.get('allowed_path_prefixes', [])
+    if prefixes and not any(path.startswith(prefix) for prefix in prefixes): return False
+    patterns = cfg.get('allowed_path_patterns', [])
+    return not patterns or any(re.search(pattern, path, re.I) for pattern in patterns)
 
 
 class SafeRedirectHandler(HTTPRedirectHandler):
@@ -89,7 +116,7 @@ class FetchResponse:
 
 
 def content_type_allowed(content_type: str, kind: str) -> bool:
-    if kind == 'page': return content_type in {'text/html', 'application/xhtml+xml', 'application/pdf', ''}
+    if kind == 'page': return content_type in {'text/html', 'application/xhtml+xml', 'application/json', 'application/pdf', ''}
     if kind == 'image': return content_type.startswith('image/')
     if kind == 'document': return content_type == 'application/pdf'
     return False
@@ -140,56 +167,121 @@ def decode_html(body: bytes, header_charset: str | None) -> str:
     return body.decode('utf-8', 'replace')
 
 
+WP_SIZE_SUFFIX = re.compile(r'-\d{2,5}x\d{2,5}(?=\.[a-z0-9]{2,5}$)', re.I)
+ASSET_PLANNER_VERSION = 4
+
+
+def wordpress_master_candidate(attributes: dict, linked_url: str | None = None) -> str | None:
+    explicit = next((attributes.get(key) for key in ('data-orig-file', 'data-original', 'data-full') if attributes.get(key)), None)
+    direct = next((attributes.get(key) for key in ('src', 'data-src', 'data-lazy-src') if attributes.get(key)), None)
+    srcset = next((attributes.get(key) for key in ('srcset', 'data-srcset') if attributes.get(key)), '')
+    parsed = []
+    for part in srcset.split(','):
+        fields = part.strip().split()
+        if not fields: continue
+        score = 0
+        if len(fields) > 1:
+            match = re.fullmatch(r'(\d+)(w|x)', fields[-1], re.I)
+            if match: score = int(match.group(1)) * (100000 if match.group(2).lower() == 'x' else 1)
+        parsed.append((score, fields[0]))
+    largest = max(parsed, key=lambda item: item[0])[1] if parsed else None
+    selected = explicit or largest or attributes.get('data-large-file') or direct
+    if linked_url and selected:
+        linked_path = urlparse(linked_url).path
+        selected_path = urlparse(selected).path
+        if Path(linked_path).suffix.lower() in MEDIA_EXTS and WP_SIZE_SUFFIX.sub('', linked_path) == WP_SIZE_SUFFIX.sub('', selected_path):
+            selected = linked_url
+    return selected
+
 class PageParser(HTMLParser):
     def __init__(self, asset_role_rules: list[dict] | None = None):
         super().__init__(convert_charrefs=True)
         self.asset_role_rules = asset_role_rules or []
         self.links: list[str] = []
+        self.link_titles: dict[str, str] = {}
         self.media: list[tuple[str, str, str]] = []
         self.title = ''
         self.description = ''
         self.h1 = ''
         self.canonical = ''
         self.jsonld: list[str] = []
+        self.magento_init: list[str] = []
         self.visible_text: list[str] = []
         self.embedded_descriptions: list[str] = []
         self.embedded_json_attributes: list[str] = []
         self._capture: str | None = None
         self._buffer: list[str] = []
         self._ignored_depth = 0
+        self._link_stack: list[str] = []
+        self._media_regions: list[tuple[str, bool, bool]] = []
 
     def handle_starttag(self, tag, attrs):
         attributes = dict(attrs)
+        region_descriptor = ' '.join(str(attributes.get(key, '')) for key in ('class', 'id', 'role', 'aria-label')).lower()
+        parent_excluded = self._media_regions[-1][1] if self._media_regions else False
+        parent_primary = self._media_regions[-1][2] if self._media_regions else False
+        excluded_region = parent_excluded or any(marker in region_descriptor for marker in (
+            'up-sells', 'upsells', 'cross-sell', 'crosssell', 'related products', 'related-products',
+            'recommendation', 'recommendations', 'recommended-products', 'you-may-also-like', 'you may also like',
+            'footer-slider', 'footer slider', 'category-thumbnail', 'collection-navigation',
+        ))
+        primary_region = not excluded_region and (parent_primary or any(marker in region_descriptor for marker in (
+            'woocommerce-product-gallery', 'avada-single-product-gallery', 'product-gallery__wrapper',
+        )))
+        if tag not in {'area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'link', 'meta', 'param', 'source', 'track', 'wbr'}:
+            self._media_regions.append((tag, excluded_region, primary_region))
         if attributes.get('data-description'): self.embedded_descriptions.append(attributes['data-description'])
         if attributes.get('data-json'): self.embedded_json_attributes.append(attributes['data-json'])
         if tag in {'script', 'style', 'noscript'}: self._ignored_depth += 1
-        if tag == 'a' and attributes.get('href'): self.links.append(attributes['href'])
-        if tag in {'img', 'source'}:
+        if tag == 'a':
+            self._link_stack.append(attributes.get('href', ''))
+            if attributes.get('href'):
+                self.links.append(attributes['href'])
+                self.link_titles[attributes['href']] = clean_text(attributes.get('title') or attributes.get('aria-label') or '')
+        if tag in {'img', 'source'} and not excluded_region:
             descriptor = ' '.join(str(attributes.get(key, '')) for key in ('class', 'id', 'alt')).lower()
-            direct = next((attributes[key] for key in ('src', 'data-src', 'data-lazy-src') if attributes.get(key)), None)
-            configured_role = next((rule.get('role') for rule in self.asset_role_rules if any(re.search(pattern, f'{descriptor} {direct or ""}', re.I) for pattern in rule.get('patterns', []))), None)
-            role = configured_role or ('technical' if any(word in descriptor for word in ('drawing', 'diagram', 'technical', 'dimension')) else 'hero' if any(word in descriptor for word in ('hero', 'main-image', 'featured', 'primary')) else 'gallery' if any(word in descriptor for word in ('gallery', 'product', 'slide')) else 'generic')
-            if direct:
-                self.media.append((direct, 'image', role))
-            else:
-                srcset = next((attributes[key] for key in ('srcset', 'data-srcset') if attributes.get(key)), '')
-                candidates = [part.strip().split(' ')[0] for part in srcset.split(',') if part.strip()]
-                if candidates: self.media.append((candidates[-1], 'image', role))
+            selected = wordpress_master_candidate(attributes, self._link_stack[-1] if self._link_stack else None)
+            configured_role = next((explicit_role(rule.get('role')) for rule in self.asset_role_rules if any(re.search(pattern, f'{descriptor} {selected or ""}', re.I) for pattern in rule.get('patterns', []))), None)
+            if configured_role: role = configured_role
+            elif any(word in descriptor for word in ('configuration', 'size chart', 'opening panel')): role = 'configuration-diagram'
+            elif any(word in descriptor for word in ('profile', 'cross-section', 'cross section', 'section drawing')): role = 'profile-section'
+            elif any(word in descriptor for word in ('drawing', 'diagram', 'technical', 'dimension')): role = 'technical-drawing'
+            elif any(word in descriptor for word in ('colour', 'color', 'finish', 'swatch')): role = 'finish-swatch'
+            elif any(word in descriptor for word in ('handle', 'hardware', 'lock', 'roller')): role = 'hardware'
+            elif any(word in descriptor for word in ('glass design', 'doorglass', 'door glass')): role = 'glass-design'
+            elif primary_region: role = 'product-gallery'
+            elif any(word in descriptor for word in ('hero', 'main-image', 'featured', 'primary')): role = 'product-hero'
+            elif any(word in descriptor for word in ('gallery', 'product', 'slide')): role = 'product-gallery'
+            else: role = 'generic'
+            if selected: self.media.append((selected, 'image', role))
+        style = attributes.get('style', '')
+        if not excluded_region:
+            for background in re.findall(r'url\(["\']?([^"\')]+)', style, re.I):
+                self.media.append((background, 'image', 'product-gallery' if primary_region or any(word in str(attributes.get('class', '')).lower() for word in ('product', 'gallery', 'hero')) else 'generic'))
         if tag == 'meta':
             key = (attributes.get('property') or attributes.get('name') or '').lower()
             if key in {'description', 'og:description'} and not self.description: self.description = attributes.get('content', '')
+            if key in {'og:image', 'og:image:url', 'twitter:image'} and attributes.get('content'):
+                self.media.append((attributes['content'], 'image', 'open-graph-image'))
         if tag == 'link' and attributes.get('href'):
             rel = str(attributes.get('rel', '')).lower()
             if 'canonical' in rel: self.canonical = attributes['href']
         if tag == 'title': self._capture, self._buffer = 'title', []
         elif tag == 'h1' and not self.h1: self._capture, self._buffer = 'h1', []
         elif tag == 'script' and str(attributes.get('type', '')).lower() == 'application/ld+json': self._capture, self._buffer = 'jsonld', []
+        elif tag == 'script' and str(attributes.get('type', '')).lower() == 'text/x-magento-init': self._capture, self._buffer = 'magento', []
 
     def handle_endtag(self, tag):
         if self._capture == 'title' and tag == 'title': self.title, self._capture = clean_text(''.join(self._buffer)), None
         elif self._capture == 'h1' and tag == 'h1': self.h1, self._capture = clean_text(''.join(self._buffer)), None
         elif self._capture == 'jsonld' and tag == 'script': self.jsonld.append(''.join(self._buffer)); self._capture = None
+        elif self._capture == 'magento' and tag == 'script': self.magento_init.append(''.join(self._buffer)); self._capture = None
+        if tag == 'a' and self._link_stack: self._link_stack.pop()
         if tag in {'script', 'style', 'noscript'} and self._ignored_depth: self._ignored_depth -= 1
+        for index in range(len(self._media_regions) - 1, -1, -1):
+            if self._media_regions[index][0] == tag:
+                del self._media_regions[index:]
+                break
 
     def handle_data(self, data):
         if self._capture: self._buffer.append(data)
@@ -234,6 +326,41 @@ def jsonld_product_data(node: dict | None) -> dict:
     }
 
 
+def magento_gallery_assets(blocks: Iterable[str]) -> list[tuple[str, str, str]]:
+    """Extract full-size product gallery assets from Magento init payloads."""
+    found: list[tuple[str, str, str]] = []
+    for block in blocks:
+        try: payload = json.loads(block)
+        except json.JSONDecodeError: continue
+        if not isinstance(payload, dict): continue
+        for component in payload.values():
+            if not isinstance(component, dict): continue
+            gallery = component.get('mage/gallery/gallery')
+            if not isinstance(gallery, dict): continue
+            for item in gallery.get('data', []):
+                if not isinstance(item, dict) or item.get('type', 'image') != 'image': continue
+                url = item.get('full') or item.get('img') or item.get('thumb')
+                if isinstance(url, str) and url:
+                    found.append((url, 'image', 'product-hero' if item.get('isMain') else 'product-gallery'))
+    return found
+
+
+def document_role(url: str, descriptor: str = '', cfg: dict | None = None) -> str:
+    value = clean_text(f'{url} {descriptor}').lower()
+    rules = (
+        ('warranty', ('warranty', 'garantie')),
+        ('installation-guide', ('install', 'assembly', 'instructions', 'guide de pose')),
+        ('specification-sheet', ('specification', 'data sheet', 'product sheet', 'sell sheet', 'fiche produit', 'fiche_produit')),
+        ('performance-document', ('performance', 'energy star', 'energy-star', 'rating', 'structural', 'thermal')),
+        ('colour-chart', ('colour', 'color', 'finish chart', 'glass chart')),
+        ('catalogue', ('catalogue', 'catalog')),
+        ('brochure', ('brochure', 'collection')),
+    )
+    role = next((role for role, terms in rules if any(term in value for term in terms)), 'reference-only')
+    if role != 'reference-only': return role
+    return next((rule['role'] for rule in (cfg or {}).get('document_role_rules', []) if any(re.search(pattern, value, re.I) for pattern in rule['patterns'])), 'reference-only')
+
+
 def is_generic_page(url: str) -> bool:
     path = urlparse(url).path.strip('/').lower()
     if not path: return True
@@ -262,6 +389,8 @@ def query_requirements_met(url: str, cfg: dict) -> bool:
 
 
 def infer_category(url: str, parser: PageParser, cfg: dict, product_data: dict) -> str:
+    path_category = next((rule['category'] for rule in cfg.get('category_path_rules', []) if re.fullmatch(rule['path_pattern'], urlparse(url).path, re.I)), None)
+    if path_category: return path_category
     haystack = clean_text(f'{url} {parser.title} {parser.h1} {product_data.get("category", "")}').lower()
     for rule in cfg.get('category_rules', []):
         if any(re.search(pattern, haystack, re.I) for pattern in rule.get('patterns', [])): return rule['category']
@@ -279,7 +408,7 @@ def infer_category(url: str, parser: PageParser, cfg: dict, product_data: dict) 
 def relevant_asset(url: str, role: str) -> bool:
     descriptor = urlparse(url).path.lower()
     if any(word in descriptor for word in ('favicon', 'logo', 'sprite', 'avatar', 'tracking', 'pixel')): return False
-    return role in {'hero', 'gallery', 'technical', 'document', 'embedded-product'}
+    return explicit_role(role) in IMAGE_ROLES | DOCUMENT_ROLES | {'colour-chart', 'reference-only'}
 
 
 def embedded_caption_products(parser: PageParser, page_path: str, cfg: dict) -> list[dict]:
@@ -316,6 +445,27 @@ def embedded_json_products(parser: PageParser, page_url: str, cfg: dict) -> list
     return products
 
 
+def api_json_products(payload, cfg: dict) -> list[dict]:
+    key = cfg.get('api_product_list_key')
+    if not key or not isinstance(payload, dict): return []
+    records = payload.get(key, [])
+    if not isinstance(records, list): return []
+    products = []
+    for record in records:
+        if not isinstance(record, dict): continue
+        sku = clean_text(record.get(cfg.get('api_model_key', 'sku')))
+        if any(re.search(pattern, sku, re.I) for pattern in cfg.get('api_exclude_model_patterns', [])): continue
+        name = clean_text(record.get(cfg.get('api_name_key', 'name')))
+        source_url = clean_text(record.get(cfg.get('api_url_key', 'url')))
+        image_record = record.get(cfg.get('api_image_key', 'image'), {})
+        image = image_record.get(cfg.get('api_image_url_key', 'defaultSrc')) if isinstance(image_record, dict) else None
+        if not name or not sku or not source_url: continue
+        base_slug = cfg.get('embedded_slug_aliases', {}).get(slugify(name), slugify(name))
+        suffix = next((rule['suffix'] for rule in cfg.get('api_slug_suffix_rules', []) if re.search(rule['model_pattern'], sku, re.I)), '')
+        product_slug = f'{base_slug}-{slugify(suffix)}' if suffix else base_slug
+        products.append({'slug': product_slug, 'name': name, 'modelNumber': sku, 'collection': None, 'image': image, 'sourceUrl': source_url, 'description': clean_text(image_record.get('altText')) if isinstance(image_record, dict) else None})
+    return products
+
 def safe_filename(url: str, fallback: str, extension: str) -> str:
     stem = slugify(Path(urlparse(url).path).stem or fallback)
     digest = hashlib.sha256(url.encode('utf-8')).hexdigest()[:12]
@@ -335,6 +485,40 @@ class Asset:
     bytes: int
     discovered_at: str
     staging_path: str = ''
+    source_asset_urls: list[str] = field(default_factory=list)
+    product_ids: list[str] = field(default_factory=list)
+    collections: list[str] = field(default_factory=list)
+    scope: str = 'unassociated'
+    relationship_state: str = 'uncertain/review'
+    relationship_evidence: list[str] = field(default_factory=list)
+    master_asset_url: str | None = None
+    selected_asset_url: str | None = None
+    mime_type: str | None = None
+    width: int | None = None
+    height: int | None = None
+
+
+ASSET_TASK_STATES = {'pending', 'downloaded', 'validated', 'rejected', 'retryable', 'promoted'}
+
+
+@dataclass
+class AssetTask:
+    url: str
+    source_url: str
+    page_url: str
+    kind: str
+    role: str
+    order: int
+    group: str
+    association_rank: int = 9
+    relationship_signals: list[str] = field(default_factory=list)
+    status: str = 'pending'
+    attempts: int = 0
+    error: str | None = None
+    asset_url: str | None = None
+    downloaded_at: str | None = None
+    validated_at: str | None = None
+    promoted_at: str | None = None
 
 
 @dataclass
@@ -351,6 +535,34 @@ class Page:
     embedded_products: list[dict] = field(default_factory=list)
     asset_candidates: list[dict] = field(default_factory=list)
 
+
+def refresh_page_asset_candidates(page: Page, cfg: dict, asset_domains: set[str]) -> None:
+    snapshot = ROOT / page.snapshot
+    if not snapshot.is_file() or snapshot.suffix.lower() == '.json':
+        return
+    parser = PageParser(cfg.get('asset_role_rules'))
+    parser.feed(snapshot.read_text(encoding='utf-8'))
+    discovered_assets = list(parser.media)
+    if cfg.get('trust_structured_product_images', True):
+        for image in page.product_data.get('images', []): discovered_assets.append((image, 'image', 'product-hero'))
+    parser.media.extend(magento_gallery_assets(parser.magento_init))
+    discovered_assets.extend(magento_gallery_assets(parser.magento_init))
+    for href in parser.links:
+        link_candidate = normalize(href, page.url)
+        if link_candidate and Path(urlparse(link_candidate).path).suffix.lower() == '.pdf':
+            discovered_assets.append((link_candidate, 'document', document_role(link_candidate, parser.link_titles.get(href, ''), cfg)))
+    refreshed: list[dict] = []
+    for order, (raw, kind, role) in enumerate(discovered_assets):
+        role = explicit_role(role)
+        if not page.is_product_candidate and cfg.get('assets_on_product_pages_only') and kind != 'document' and role not in set(cfg.get('archive_shared_roles', [])): continue
+        source_asset_url = normalize(raw, page.url)
+        if not source_asset_url or not relevant_asset(source_asset_url, role) or not same_allowed(source_asset_url, asset_domains): continue
+        asset_url = rewrite_asset_url(source_asset_url, cfg)
+        if not same_allowed(asset_url, asset_domains): continue
+        if Path(urlparse(asset_url).path).suffix.lower() in cfg.get('skip_asset_extensions', []): continue
+        if asset_url not in {item['url'] for item in refreshed}:
+            refreshed.append({'url': asset_url, 'source_url': source_asset_url, 'kind': kind, 'role': role, 'order': order})
+    page.asset_candidates = refreshed
 
 def atomic_write_json(path: Path, value) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -384,6 +596,37 @@ def validate_product_records(records: list[dict], cfg: dict) -> None:
         ids.add(product['id']); routes.add(route)
 
 
+def image_dimensions(body: bytes, content_type: str | None = None) -> tuple[int | None, int | None]:
+    if body.startswith(b'\x89PNG\r\n\x1a\n') and len(body) >= 24:
+        return int.from_bytes(body[16:20], 'big'), int.from_bytes(body[20:24], 'big')
+    if body[:6] in {b'GIF87a', b'GIF89a'} and len(body) >= 10:
+        return int.from_bytes(body[6:8], 'little'), int.from_bytes(body[8:10], 'little')
+    if body.startswith(b'\xff\xd8'):
+        index = 2
+        while index + 9 < len(body):
+            if body[index] != 0xFF: index += 1; continue
+            marker = body[index + 1]; index += 2
+            if marker in {0xD8, 0xD9}: continue
+            if index + 2 > len(body): break
+            length = int.from_bytes(body[index:index + 2], 'big')
+            if marker in {0xC0, 0xC1, 0xC2, 0xC3, 0xC5, 0xC6, 0xC7, 0xC9, 0xCA, 0xCB, 0xCD, 0xCE, 0xCF} and index + 7 < len(body):
+                return int.from_bytes(body[index + 5:index + 7], 'big'), int.from_bytes(body[index + 3:index + 5], 'big')
+            index += max(length, 2)
+    if body.startswith(b'RIFF') and body[8:12] == b'WEBP' and len(body) >= 30 and body[12:16] == b'VP8X':
+        return int.from_bytes(body[24:27], 'little') + 1, int.from_bytes(body[27:30], 'little') + 1
+    return None, None
+
+
+def hydrate_asset_metadata(asset: Asset) -> None:
+    path = asset_storage_path(asset)
+    if not path.is_file(): return
+    body = path.read_bytes()
+    asset.selected_asset_url = asset.selected_asset_url or asset.final_asset_url
+    asset.master_asset_url = asset.master_asset_url or (asset.original_asset_url if not WP_SIZE_SUFFIX.search(urlparse(asset.original_asset_url).path) else None)
+    asset.mime_type = asset.mime_type or mimetypes.guess_type(urlparse(asset.selected_asset_url or asset.original_asset_url).path)[0]
+    if asset.asset_type == 'image' and (asset.width is None or asset.height is None):
+        asset.width, asset.height = image_dimensions(body, asset.mime_type)
+
 def save_asset_body(supplier: str, url: str, page_url: str, kind: str, role: str, response: FetchResponse, staging_root: Path) -> Asset:
     extension = Path(urlparse(url).path).suffix.lower()
     if kind == 'image' and extension not in MEDIA_EXTS: extension = mimetypes.guess_extension(response.content_type) or '.img'
@@ -394,17 +637,97 @@ def save_asset_body(supplier: str, url: str, page_url: str, kind: str, role: str
     staged_path.parent.mkdir(parents=True, exist_ok=True)
     staged_path.write_bytes(response.body)
     final_url = normalize(response.final_url, url) or response.final_url
-    return Asset(supplier, [page_url], url, final_url, '/' + permanent_path.relative_to(ROOT / 'public').as_posix(), kind, role, hashlib.sha256(response.body).hexdigest(), len(response.body), time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()), str(staged_path.relative_to(ROOT)))
+    asset = Asset(supplier, [page_url], url, final_url, '/' + permanent_path.relative_to(ROOT / 'public').as_posix(), kind, explicit_role(role), hashlib.sha256(response.body).hexdigest(), len(response.body), time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()), str(staged_path.relative_to(ROOT)), [url])
+    asset.selected_asset_url = final_url
+    asset.master_asset_url = url if not WP_SIZE_SUFFIX.search(urlparse(url).path) else None
+    asset.mime_type = response.content_type
+    if kind == 'image': asset.width, asset.height = image_dimensions(response.body, response.content_type)
+    return asset
+
+
+def merge_duplicate_asset(canonical: Asset, duplicate: Asset) -> Asset:
+    canonical.source_page_urls = sorted(set(canonical.source_page_urls + duplicate.source_page_urls))
+    canonical.source_asset_urls = sorted(set((canonical.source_asset_urls or [canonical.original_asset_url]) + (duplicate.source_asset_urls or [duplicate.original_asset_url])))
+    duplicate_stage = ROOT / duplicate.staging_path if duplicate.staging_path else None
+    if duplicate_stage and duplicate_stage.exists(): duplicate_stage.unlink()
+    return canonical
+
+
+def asset_storage_path(asset: Asset) -> Path:
+    if asset.staging_path:
+        return ROOT / asset.staging_path
+    return public_path(asset.local_path)
+
+
+def validate_asset_binary(asset: Asset) -> bool:
+    path = asset_storage_path(asset)
+    if not path.is_file() or path.stat().st_size != asset.bytes:
+        return False
+    return hashlib.sha256(path.read_bytes()).hexdigest() == asset.sha256
+
+
+def build_asset_tasks(groups: dict[str, list[dict]], max_assets: int, saved: list[dict] | None = None) -> tuple[list[AssetTask], dict]:
+    if saved:
+        tasks = [AssetTask(**task) for task in saved]
+        invalid = [task.status for task in tasks if task.status not in ASSET_TASK_STATES]
+        if invalid:
+            raise ValueError(f'invalid asset task state(s): {sorted(set(invalid))}')
+        return tasks, {'plannerVersion': ASSET_PLANNER_VERSION, 'groups': len(groups), 'selected': len(tasks), 'available': len({item['url'] for items in groups.values() for item in items}), 'complete': len(tasks) >= len({item['url'] for items in groups.values() for item in items})}
+    required_groups = sum(1 for items in groups.values() if items)
+    if required_groups > max_assets:
+        raise ValueError(f'asset budget {max_assets} cannot attempt one asset for each of {required_groups} product/source groups; rerun with --max-assets at least {required_groups}')
+    selected = fair_asset_candidates(groups, max_assets)
+    tasks = [AssetTask(group=item['group'], association_rank=item.get('association_rank', 9), relationship_signals=item.get('relationship_signals', []), **{key: item[key] for key in ('url', 'source_url', 'page_url', 'kind', 'role', 'order')}) for item in selected]
+    available = len({item['url'] for items in groups.values() for item in items})
+    return tasks, {'plannerVersion': ASSET_PLANNER_VERSION, 'groups': required_groups, 'selected': len(tasks), 'available': available, 'complete': len(tasks) >= available}
+
+
+def restore_retryable_task_states(tasks: list[AssetTask], saved: list[dict]) -> None:
+    saved_by_url: dict[str, dict] = {}
+    for record in saved:
+        current = saved_by_url.get(record.get('url', ''))
+        if not current or record.get('status') == 'retryable': saved_by_url[record.get('url', '')] = record
+    for task in tasks:
+        prior = saved_by_url.get(task.url)
+        if task.status == 'pending' and prior and prior.get('status') == 'retryable':
+            task.status = 'retryable'
+            task.attempts = int(prior.get('attempts') or 0)
+            task.error = prior.get('error')
+
+def reconcile_asset_tasks(tasks: list[AssetTask], assets: dict[str, Asset]) -> tuple[dict[str, Asset], list[str]]:
+    aliases = {source_url: asset for asset in assets.values() for source_url in (asset.source_asset_urls or [asset.original_asset_url])}
+    invalid_urls: list[str] = []
+    now = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
+    for task in tasks:
+        asset = aliases.get(task.url) or (aliases.get(task.asset_url) if task.asset_url else None)
+        if not asset:
+            if task.status in {'downloaded', 'validated', 'promoted'}:
+                task.status = 'pending'; task.error = 'checkpoint referenced no saved asset'; task.asset_url = None
+            continue
+        if validate_asset_binary(asset):
+            hydrate_asset_metadata(asset)
+            task.status = 'validated'; task.error = None; task.asset_url = asset.original_asset_url; task.validated_at = now
+        else:
+            invalid_urls.extend(asset.source_asset_urls or [asset.original_asset_url])
+            task.status = 'pending'; task.error = 'saved asset failed checksum/size validation'; task.asset_url = None
+    return aliases, sorted(set(invalid_urls))
 
 
 def fair_asset_candidates(groups: dict[str, list[dict]], max_assets: int) -> list[dict]:
-    priority = {'embedded-product': 0, 'product-jsonld': 0, 'hero': 0, 'technical': 1, 'document': 2, 'gallery': 3}
-    queues = {key: sorted(items, key=lambda item: (priority.get(item['role'], 4), item['order'], item['url'])) for key, items in groups.items()}
-    selected: list[dict] = []
+    priority = {'product-hero': 0, 'open-graph-image': 1, 'technical-drawing': 1, 'profile-section': 1, 'configuration-diagram': 1, 'specification-sheet': 2, 'installation-guide': 2, 'warranty': 2, 'performance-document': 2, 'brochure': 3, 'catalogue': 3, 'product-gallery': 4, 'lifestyle-product': 5, 'finish-swatch': 5, 'colour-chart': 5, 'glass-design': 5, 'hardware': 5, 'reference-only': 6}
+    queues = {key: sorted(items, key=lambda item: (item.get('association_rank', 9), priority.get(item['role'], 4), item['order'], item['url'])) for key, items in groups.items()}
+    selected: list[dict] = []; selected_indexes: dict[str, int] = {}
     while len(selected) < max_assets and any(queues.values()):
         for key in groups:
             if len(selected) >= max_assets: break
-            if queues[key]: selected.append(queues[key].pop(0))
+            while queues[key]:
+                item = queues[key].pop(0)
+                prior_index = selected_indexes.get(item['url'])
+                if prior_index is not None:
+                    if item.get('association_rank', 9) < selected[prior_index].get('association_rank', 9): selected[prior_index] = item
+                    continue
+                selected_indexes[item['url']] = len(selected)
+                selected.append(item); break
     return selected
 
 
@@ -414,7 +737,9 @@ def public_path(local_path: str) -> Path:
 
 def promote_referenced_assets(assets: dict[str, Asset], products: list[dict], pages: list[Page]) -> dict[str, Asset]:
     referenced = {path for product in products for path in [*product.get('media', []), *product.get('documents', [])]}
-    accepted = {url: asset for url, asset in assets.items() if asset.local_path in referenced}
+    shared_roles = DOCUMENT_ROLES | {'colour-chart', 'technical-drawing', 'profile-section', 'configuration-diagram', 'finish-swatch', 'glass-design', 'hardware'}
+    accepted = {url: asset for url, asset in assets.items() if asset.local_path in referenced or (asset.scope in {'collection', 'supplier'} and asset.role in shared_roles)}
+    accepted_paths = {asset.local_path for asset in accepted.values()}
     replacements: dict[str, str] = {}
     for asset in accepted.values():
         old_local = asset.local_path
@@ -437,7 +762,7 @@ def promote_referenced_assets(assets: dict[str, Asset], products: list[dict], pa
         product['media'] = [replacements.get(path, path) for path in product.get('media', [])]
         product['documents'] = [replacements.get(path, path) for path in product.get('documents', [])]
     for page in pages:
-        page.assets = sorted({replacements.get(path, path) for path in page.assets if path in referenced})
+        page.assets = sorted({replacements.get(path, path) for path in page.assets if path in accepted_paths})
     return accepted
 
 
@@ -449,23 +774,196 @@ def manifest_page(page: Page) -> dict:
     return {key: value for key, value in asdict(page).items() if key != 'asset_candidates'}
 
 
-def product_asset_paths(page: Page, assets: dict[str, Asset], attach_page_roles: list[str] | None = None) -> tuple[list[str], list[str]]:
-    page_key = slugify(Path(urlparse(page.url).path.rstrip('/')).stem)
-    model_key = slugify(str(page.product_data.get('modelNumber') or ''))
+def enforce_wordpress_master_precedence(assets: dict[str, Asset], products: list[dict]) -> None:
+    """Remove responsive derivative relationships when a validated original URL is present; retain binaries."""
+    def source_key(url: str) -> tuple[str, str]:
+        parsed = urlparse(url)
+        return parsed.netloc.lower(), WP_SIZE_SUFFIX.sub('', parsed.path).lower()
+    originals = {
+        source_key(asset.selected_asset_url or asset.final_asset_url): asset
+        for asset in assets.values()
+        if not WP_SIZE_SUFFIX.search(urlparse(asset.selected_asset_url or asset.final_asset_url).path)
+    }
+    for asset in assets.values():
+        selected = asset.selected_asset_url or asset.final_asset_url
+        if not WP_SIZE_SUFFIX.search(urlparse(selected).path):
+            continue
+        master = originals.get(source_key(selected))
+        if not master or not validate_asset_binary(master):
+            continue
+        asset.relationship_evidence = sorted(set(asset.relationship_evidence + ['superseded-by-wordpress-original']))
+        for product in products:
+            if asset.local_path in product.get('media', []) and master.local_path in product.get('media', []):
+                product['media'] = [path for path in product['media'] if path != asset.local_path]
+
+
+def enforce_filename_owner_precedence(assets: dict[str, Asset], products: list[dict]) -> None:
+    """When a reused binary has exact filename/model owners, discard weaker cross-page relationships."""
+    by_local_path = {asset.local_path: asset for asset in assets.values()}
+    related_by_path: dict[str, list[dict]] = {}
+    for product in products:
+        for local_path in product.get('media', []) + product.get('documents', []):
+            if local_path in by_local_path:
+                related_by_path.setdefault(local_path, []).append(product)
+    for local_path, related in related_by_path.items():
+        asset = by_local_path[local_path]
+        owners = {
+            product['id'] for product in related
+            if asset_identity_match(asset, identity_keys([product.get('slug'), product.get('modelNumber'), product.get('name')]))
+        }
+        if not owners or len(owners) == len(related):
+            continue
+        for product in related:
+            if product['id'] not in owners:
+                product['media'] = [path for path in product.get('media', []) if path != local_path]
+                product['documents'] = [path for path in product.get('documents', []) if path != local_path]
+
+
+def associate_assets(assets: dict[str, Asset], products: list[dict]) -> None:
+    shared_roles = DOCUMENT_ROLES | {'colour-chart', 'technical-drawing', 'profile-section', 'configuration-diagram', 'finish-swatch', 'glass-design', 'hardware'}
+    for asset in assets.values():
+        related = [product for product in products if asset.local_path in product.get('media', []) + product.get('documents', [])]
+        asset.product_ids = sorted({product['id'] for product in related})
+        asset.collections = sorted({product['collection'] for product in related if product.get('collection')})
+        if asset.product_ids:
+            asset.scope = 'product'
+            if len(asset.product_ids) > 1:
+                asset.relationship_state = 'collection-shared' if len(asset.collections) == 1 else 'supplier-shared'
+            else:
+                asset.relationship_state = 'product-specific'
+        elif asset.role in shared_roles:
+            asset.scope = 'collection' if asset.collections else 'supplier'
+            asset.relationship_state = 'collection-shared' if asset.collections else 'supplier-shared'
+        else:
+            asset.scope = 'unassociated'
+            asset.relationship_state = 'uncertain/review'
+
+
+def write_supplier_archive(slug: str, assets: dict[str, Asset]) -> None:
+    archive_root = SUPPLIER_ARCHIVE_ROOT / slug
+    records = []
+    by_product: dict[str, list[dict]] = {}
+    documents: list[dict] = []
+    for asset in sorted(assets.values(), key=lambda item: (item.role, item.local_path)):
+        record = {
+            'supplier': slug,
+            'sourcePageUrls': asset.source_page_urls,
+            'productIds': asset.product_ids,
+            'collections': asset.collections,
+            'scope': asset.scope,
+            'role': asset.role,
+            'originalUrl': asset.original_asset_url,
+            'sourceUrls': asset.source_asset_urls or [asset.original_asset_url],
+            'finalUrl': asset.final_asset_url,
+            'localPath': asset.local_path,
+            'sha256': asset.sha256,
+            'bytes': asset.bytes,
+            'discoveredAt': asset.discovered_at,
+            'assetType': asset.asset_type,
+        }
+        records.append(record)
+        if asset.asset_type == 'document': documents.append(record)
+        for product_id in asset.product_ids: by_product.setdefault(product_id, []).append(record)
+    atomic_write_json(archive_root / 'asset-index.json', records)
+    atomic_write_json(archive_root / 'documents' / 'index.json', documents)
+    for product_id, product_assets in by_product.items():
+        atomic_write_json(archive_root / 'products' / product_id.split(':', 1)[-1] / 'assets.json', product_assets)
+
+
+def attach_available_asset_occurrences(pages: list[Page], asset_aliases: dict[str, Asset]) -> None:
+    for page in pages:
+        for item in page.asset_candidates:
+            asset = asset_aliases.get(item['url']) or asset_aliases.get(item.get('source_url', ''))
+            if asset and validate_asset_binary(asset) and asset.local_path not in page.assets:
+                page.assets.append(asset.local_path)
+        page.assets = sorted(set(page.assets))
+
+IDENTITY_STOPWORDS = {
+    'black', 'clear', 'decorative', 'design', 'door', 'doorlite', 'doors', 'exterior', 'fiberglass',
+    'finish', 'glass', 'grain', 'impact', 'insert', 'interior', 'lite', 'panel', 'panels', 'product',
+    'series', 'sidelite', 'skin', 'smooth', 'straight', 'traditional', 'trimlite', 'white', 'wood',
+}
+
+
+def identity_keys(values: Iterable[str | None]) -> set[str]:
+    keys: set[str] = set()
+    for value in values:
+        if not value: continue
+        raw = Path(urlparse(str(value)).path.rstrip('/')).stem if '/' in str(value) else str(value)
+        raw = re.sub(r'-[12]$', '', raw)
+        lower = raw.lower()
+        pieces = [raw, *re.findall(r'[a-z]+\d+[a-z]*', lower), *re.findall(r'[a-z]{4,}', lower), *re.findall(r'\d{3,}', lower)]
+        for piece in pieces:
+            key = re.sub(r'[^a-z0-9]', '', piece.lower())
+            if len(key) >= 4 and key not in IDENTITY_STOPWORDS: keys.add(key)
+    return keys
+
+
+def urls_identity_match(urls: Iterable[str], product_keys: set[str]) -> bool:
+    for url in urls:
+        stem = Path(WP_SIZE_SUFFIX.sub('', Path(urlparse(url).path).name)).stem
+        stem = re.sub(r'-e\d+$', '', stem, flags=re.I)
+        stem = re.sub(r'[-_]1$', '', stem)
+        stem = re.sub(r'(?<=[A-Za-z])(?:19|20)\d{2}$', '', stem)
+        asset_keys = identity_keys([stem])
+        if asset_keys & product_keys:
+            return True
+    return False
+
+
+def asset_identity_match(asset: Asset, product_keys: set[str]) -> bool:
+    return urls_identity_match(set([asset.original_asset_url, asset.final_asset_url, *(asset.source_asset_urls or [])]), product_keys)
+
+
+def product_asset_paths(page: Page, assets: dict[str, Asset], attach_page_roles: list[str] | None = None, product_identity: Iterable[str | None] | None = None, trust_structured_images: bool = True) -> tuple[list[str], list[str]]:
+    page_slug = Path(urlparse(page.url).path.rstrip('/')).stem
+    product_keys = identity_keys([page_slug, page.product_data.get('modelNumber'), *(product_identity or [])])
     images: list[str] = []; documents: list[str] = []
     by_local_path = {asset.local_path: asset for asset in assets.values()}
+    attach_roles = {explicit_role(role) for role in (attach_page_roles or [])}
+    hero_candidates = [item for item in page.asset_candidates if explicit_role(item.get('role')) == 'product-hero']
+    first_hero_order = min((item.get('order', 0) for item in hero_candidates), default=None)
+    primary_hero_urls = {item['url'] for item in hero_candidates if item.get('order', 0) == first_hero_order}
+    primary_gallery_urls = {item['url'] for item in page.asset_candidates if explicit_role(item.get('role')) == 'product-gallery'}
+    structured_urls = {normalize(url, page.url) for url in page.product_data.get('images', []) if normalize(url, page.url)} if trust_structured_images else set()
     for local_path in page.assets:
         asset = by_local_path.get(local_path)
         if not asset: continue
-        asset_key = slugify(Path(urlparse(asset.original_asset_url).path).stem)
-        specific = asset.role == 'product-jsonld' or asset.role in (attach_page_roles or []) or page_key in asset_key or (model_key != 'item' and model_key in asset_key)
-        if not specific: continue
+        asset_urls = set([asset.original_asset_url, asset.final_asset_url, *(asset.source_asset_urls or [])])
+        filename_match = asset_identity_match(asset, product_keys)
+        primary_hero = bool(asset_urls & primary_hero_urls)
+        primary_gallery = bool(asset_urls & primary_gallery_urls)
+        structured_match = bool(asset_urls & structured_urls)
+        shared_role = asset.role in DOCUMENT_ROLES | {'technical-drawing', 'profile-section', 'configuration-diagram', 'colour-chart', 'finish-swatch', 'glass-design', 'hardware'}
+        structured_conflict = bool(structured_urls and (primary_hero or primary_gallery) and not structured_match and not filename_match and not shared_role)
+        specific = filename_match or primary_hero or primary_gallery or structured_match or asset.role in attach_roles or (asset.asset_type == 'document' and shared_role)
+        if not specific or structured_conflict: continue
+        if filename_match: asset.relationship_evidence.append('filename-model-match')
+        if primary_hero: asset.relationship_evidence.append('primary-product-hero')
+        if primary_gallery: asset.relationship_evidence.append('primary-product-gallery')
+        if structured_match: asset.relationship_evidence.append('structured-product-image')
+        if asset.role in attach_roles: asset.relationship_evidence.append('supplier-scoped-explicit-role')
+        asset.relationship_evidence = sorted(set(asset.relationship_evidence))
         (documents if asset.asset_type == 'document' else images).append(local_path)
     return sorted(set(images)), sorted(set(documents))
 
 
-def checkpoint(path: Path, queue, queued, seen_requests, seen_canonical, pages, assets, errors, run_id: str) -> None:
-    atomic_write_json(path, {'runId': run_id, 'queue': list(queue), 'queued': sorted(queued), 'seenRequests': sorted(seen_requests), 'seenCanonical': sorted(seen_canonical), 'pages': [asdict(page) for page in pages], 'assets': [asdict(asset) for asset in assets.values()], 'errors': errors})
+def checkpoint(path: Path, queue, queued, seen_requests, seen_canonical, pages, assets, errors, run_id: str, *, phase: str = 'page-discovery', asset_tasks: list[AssetTask] | None = None, asset_plan: dict | None = None) -> None:
+    atomic_write_json(path, {
+        'version': 2,
+        'runId': run_id,
+        'phase': phase,
+        'pageDiscoveryComplete': phase != 'page-discovery',
+        'queue': list(queue),
+        'queued': sorted(queued),
+        'seenRequests': sorted(seen_requests),
+        'seenCanonical': sorted(seen_canonical),
+        'pages': [asdict(page) for page in pages],
+        'assetPlan': asset_plan or {},
+        'assetTasks': [asdict(task) for task in (asset_tasks or [])],
+        'assets': [asdict(asset) for asset in assets.values()],
+        'errors': errors,
+    })
 
 
 def crawl_supplier(cfg: dict, args) -> tuple[dict, bool]:
@@ -478,58 +976,91 @@ def crawl_supplier(cfg: dict, args) -> tuple[dict, bool]:
     pages: list[Page] = []
     assets: dict[str, Asset] = {}
     errors: list[dict] = []
+    failed_assets: set[str] = set()
+    saved_asset_tasks: list[dict] = []
+    saved_asset_plan: dict = {}
+    state: dict = {}
+    resume_phase = 'page-discovery'
     run_id = time.strftime('%Y%m%dT%H%M%SZ', time.gmtime()) + f'-{os.getpid()}'
     if args.resume and checkpoint_path.exists():
         state = json.loads(checkpoint_path.read_text(encoding='utf-8'))
         run_id = state.get('runId') or run_id
         queue = deque(state.get('queue', [])); queued = set(state.get('queued', [])); seen_requests = set(state.get('seenRequests', [])); seen_canonical = set(state.get('seenCanonical', []))
         pages = [Page(**({'embedded_products': [], 'asset_candidates': []} | page)) for page in state.get('pages', [])]
-        assets = {asset['original_asset_url']: Asset(**({'role': 'generic', 'final_asset_url': asset['original_asset_url'], 'staging_path': ''} | asset)) for asset in state.get('assets', [])}
+        assets = {asset['original_asset_url']: Asset(**({'role': 'generic', 'final_asset_url': asset['original_asset_url'], 'staging_path': '', 'source_asset_urls': [asset['original_asset_url']]} | asset)) for asset in state.get('assets', [])}
         errors = state.get('errors', [])
+        saved_asset_tasks = state.get('assetTasks', [])
+        saved_asset_plan = state.get('assetPlan', {})
+        resume_phase = state.get('phase') or ('asset-download' if assets else 'page-discovery')
+        if resume_phase != 'page-discovery':
+            queue.clear(); queued.clear()
     else:
         starts = [normalize(url, cfg['base_url']) for url in cfg['start_urls']]
         queue = deque(url for url in starts if url); queued = set(queue); seen_requests = set(); seen_canonical = set()
+    asset_aliases = {source_url: asset for asset in assets.values() for source_url in (asset.source_asset_urls or [asset.original_asset_url])}
+    assets_by_hash = {asset.sha256: asset for asset in assets.values()}
+    request_delay = max(args.delay, float(cfg.get('crawl_delay', 0)))
+    last_request_at = [0.0]
+    def supplier_fetch(*fetch_args):
+        wait = request_delay - (time.monotonic() - last_request_at[0])
+        if wait > 0: time.sleep(wait)
+        response = fetch(*fetch_args)
+        last_request_at[0] = time.monotonic()
+        return response
     staging_root = STAGING_ROOT / slug / run_id
     staging_root.mkdir(parents=True, exist_ok=True)
-    atomic_write_json(staging_root / 'run.json', {'supplier': slug, 'runId': run_id, 'status': 'running', 'startedAt': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())})
+    run_path = staging_root / 'run.json'
+    prior_run = json.loads(run_path.read_text(encoding='utf-8')) if args.resume and run_path.exists() else {}
+    atomic_write_json(run_path, {'supplier': slug, 'runId': run_id, 'status': 'running', 'phase': resume_phase, 'startedAt': prior_run.get('startedAt') or time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()), 'resumedAt': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()) if args.resume else None})
     print(f'\n== {cfg["name"]} ==')
     while queue and len(seen_requests) < args.max_pages:
         url = queue.popleft(); queued.discard(url)
-        if url in seen_requests or not same_allowed(url, page_domains): continue
+        if url in seen_requests or not page_allowed(url, cfg): continue
         extension = Path(urlparse(url).path).suffix.lower()
         if extension in SKIP_EXTS: continue
         seen_requests.add(url)
         try:
-            response = fetch(url, page_domains, args.timeout, args.max_response_mb * 1024 * 1024, 'page', args.retries)
+            response = supplier_fetch(url, page_domains, args.timeout, args.max_response_mb * 1024 * 1024, 'page', args.retries)
         except Exception as error:
             errors.append({'url': url, 'error': str(error)}); print(f'! {url}: {error}', file=sys.stderr)
             checkpoint(checkpoint_path, queue, queued, seen_requests, seen_canonical, pages, assets, errors, run_id)
             continue
         final_url = normalize(response.final_url, url) or url
+        if not page_allowed(final_url, cfg):
+            errors.append({'url': url, 'finalUrl': final_url, 'error': 'redirect/final URL outside allowed supplier path scope'})
+            continue
         if response.content_type == 'application/pdf' or extension == '.pdf':
             if not args.no_download and final_url not in assets and len(assets) < args.max_assets:
                 assets[final_url] = save_asset_body(slug, final_url, url, 'document', 'document', response, staging_root)
             checkpoint(checkpoint_path, queue, queued, seen_requests, seen_canonical, pages, assets, errors, run_id)
             continue
         text = decode_html(response.body, response.charset)
-        parser = PageParser(cfg.get('asset_role_rules')); parser.feed(text)
+        parser = PageParser(cfg.get('asset_role_rules'))
+        api_products = []
+        if response.content_type == 'application/json':
+            try: api_products = api_json_products(json.loads(text), cfg)
+            except json.JSONDecodeError as error: errors.append({'url': final_url, 'error': f'invalid JSON API response: {error}'})
+        else:
+            parser.feed(text)
         canonical = normalize(parser.canonical, final_url) if parser.canonical else final_url
-        if canonical and same_allowed(canonical, page_domains): final_url = canonical
+        if canonical and page_allowed(canonical, cfg): final_url = canonical
         if final_url in seen_canonical:
             checkpoint(checkpoint_path, queue, queued, seen_requests, seen_canonical, pages, assets, errors, run_id); continue
         seen_canonical.add(final_url)
         nodes = product_nodes(parser.jsonld)
         product_data = jsonld_product_data(nodes[0]) if len(nodes) == 1 else {}
-        embedded_products = embedded_caption_products(parser, urlparse(final_url).path, cfg) + embedded_json_products(parser, final_url, cfg)
+        embedded_products = api_products + embedded_caption_products(parser, urlparse(final_url).path, cfg) + embedded_json_products(parser, final_url, cfg)
         for embedded in embedded_products:
             if embedded.get('image'): parser.media.append((embedded['image'], 'image', 'embedded-product'))
-        for image in product_data.get('images', []): parser.media.append((image, 'image', 'product-jsonld'))
+        if cfg.get('trust_structured_product_images', True):
+            for image in product_data.get('images', []): parser.media.append((image, 'image', 'product-hero'))
+        parser.media.extend(magento_gallery_assets(parser.magento_init))
         category = infer_category(final_url, parser, cfg, product_data)
         candidate = (bool(embedded_products) or is_product_candidate(final_url, parser, cfg.get('product_hints', []), product_data, cfg.get('product_path_rules'))) and query_requirements_met(final_url, cfg)
         if candidate and cfg.get('fixed_product_category'): category = cfg['fixed_product_category']
         if candidate and any(re.fullmatch(rule, urlparse(final_url).path, re.I) for rule in cfg.get('reject_product_paths', [])):
             candidate = False
-        snapshot_name = f'{len(pages)+1:04d}-{slugify(parser.h1 or parser.title or final_url)}.html'
+        snapshot_name = f'{len(pages)+1:04d}-{slugify(parser.h1 or parser.title or final_url)}' + ('.json' if response.content_type == 'application/json' else '.html')
         snapshot = snapshot_root / snapshot_name; snapshot.write_text(text, encoding='utf-8', newline='\n')
         page_assets: list[str] = []
         discovered_assets = list(parser.media)
@@ -540,52 +1071,140 @@ def crawl_supplier(cfg: dict, args) -> tuple[dict, bool]:
             if is_configured_product_link and cfg.get('product_link_parent_rules') and not any(re.search(rule, final_url, re.I) for rule in cfg['product_link_parent_rules']): continue
             if cfg.get('skip_nonmatching_product_queries') and is_configured_product_link and not query_requirements_met(link_candidate, cfg): continue
             candidate_extension = Path(urlparse(link_candidate).path).suffix.lower()
-            if candidate_extension == '.pdf': discovered_assets.append((link_candidate, 'document', 'document'))
-            elif '/cdn-cgi/' not in urlparse(link_candidate).path and same_allowed(link_candidate, page_domains) and candidate_extension not in (SKIP_EXTS | MEDIA_EXTS) and link_candidate not in seen_requests and link_candidate not in queued:
+            if candidate_extension == '.pdf': discovered_assets.append((link_candidate, 'document', document_role(link_candidate, parser.link_titles.get(href, ''), cfg)))
+            elif '/cdn-cgi/' not in urlparse(link_candidate).path and page_allowed(link_candidate, cfg) and candidate_extension not in (SKIP_EXTS | MEDIA_EXTS) and link_candidate not in seen_requests and link_candidate not in queued:
                 if any(re.search(pattern, urlparse(link_candidate).path, re.I) for pattern in cfg.get('prioritize_link_patterns', [])):
                     queue.appendleft(link_candidate)
                 else:
                     queue.append(link_candidate)
                 queued.add(link_candidate)
         asset_candidates: list[dict] = []
-        if not args.no_download and (candidate or not cfg.get('assets_on_product_pages_only')):
+        if not args.no_download:
             for order, (raw, kind, role) in enumerate(discovered_assets):
-                asset_url = normalize(raw, final_url)
-                if not asset_url or not relevant_asset(asset_url, role) or not same_allowed(asset_url, asset_domains): continue
+                role = explicit_role(role)
+                if not candidate and cfg.get('assets_on_product_pages_only') and kind != 'document' and role not in set(cfg.get('archive_shared_roles', [])): continue
+                source_asset_url = normalize(raw, final_url)
+                if not source_asset_url or not relevant_asset(source_asset_url, role) or not same_allowed(source_asset_url, asset_domains): continue
+                asset_url = rewrite_asset_url(source_asset_url, cfg)
+                if not same_allowed(asset_url, asset_domains): continue
                 if Path(urlparse(asset_url).path).suffix.lower() in cfg.get('skip_asset_extensions', []): continue
-                if asset_url not in {item['url'] for item in asset_candidates}: asset_candidates.append({'url': asset_url, 'kind': kind, 'role': role, 'order': order})
+                if asset_url not in {item['url'] for item in asset_candidates}: asset_candidates.append({'url': asset_url, 'source_url': source_asset_url, 'kind': kind, 'role': role, 'order': order})
         pages.append(Page(final_url, parser.title, parser.h1, parser.description, str(snapshot.relative_to(ROOT)), candidate, category, sorted(set(page_assets)), product_data, embedded_products, asset_candidates))
         print(f'{len(pages):4d} {final_url}{" [product]" if candidate else ""}')
         checkpoint(checkpoint_path, queue, queued, seen_requests, seen_canonical, pages, assets, errors, run_id)
-        if args.delay: time.sleep(args.delay)
 
+    if args.resume and resume_phase != 'page-discovery' and saved_asset_plan.get('plannerVersion') != ASSET_PLANNER_VERSION:
+        for page in pages:
+            refresh_page_asset_candidates(page, cfg, asset_domains)
+            page.assets = []
+        for asset in assets.values():
+            asset.relationship_evidence = []
+            asset.product_ids = []
+            asset.collections = []
+            asset.scope = 'unassociated'
+            asset.relationship_state = 'uncertain/review'
+        saved_asset_tasks = []
+        saved_asset_plan = {}
     groups: dict[str, list[dict]] = {}
+    occurrences_by_url: dict[str, set[str]] = {}
     pages_by_url = {page.url: page for page in pages}
     for page in pages:
-        if not page.is_product_candidate: continue
         embedded_groups = {normalize(product.get('image'), page.url): f'{page.url}#{product["slug"]}' for product in page.embedded_products if product.get('image')}
+        hero_candidates = [item for item in page.asset_candidates if explicit_role(item.get('role')) == 'product-hero']
+        first_hero_order = min((item.get('order', 0) for item in hero_candidates), default=None)
+        primary_gallery_urls = {item['url'] for item in page.asset_candidates if explicit_role(item.get('role')) == 'product-gallery'}
+        page_keys = identity_keys([Path(urlparse(page.url).path.rstrip('/')).stem, page.h1, page.product_data.get('modelNumber')])
+        structured_urls = {normalize(url, page.url) for url in page.product_data.get('images', []) if normalize(url, page.url)} if cfg.get('trust_structured_product_images', True) else set()
         for item in page.asset_candidates:
+            occurrences_by_url.setdefault(item['url'], set()).add(page.url)
+            if not page.is_product_candidate and item['kind'] != 'document' and item['role'] not in set(cfg.get('archive_shared_roles', [])): continue
             candidate_item = dict(item); candidate_item['page_url'] = page.url
             group = embedded_groups.get(item['url'], page.url)
+            signals = []
+            if urls_identity_match([item['url'], item.get('source_url', item['url'])], page_keys): signals.append('filename-model-match')
+            if explicit_role(item.get('role')) == 'product-hero' and item.get('order', 0) == first_hero_order: signals.append('primary-product-hero')
+            if item['url'] in primary_gallery_urls: signals.append('primary-product-gallery')
+            if cfg.get('trust_structured_product_images', True) and item['url'] in structured_urls: signals.append('structured-product-image')
+            candidate_item['group'] = group
+            candidate_item['relationship_signals'] = signals
+            candidate_item['association_rank'] = 0 if any(signal in signals for signal in ('filename-model-match', 'structured-product-image')) else (1 if any(signal in signals for signal in ('primary-product-hero', 'primary-product-gallery')) else (3 if item['role'] in DOCUMENT_ROLES else 9))
             groups.setdefault(group, []).append(candidate_item)
-    for item in fair_asset_candidates(groups, max(0, args.max_assets - len(assets))):
-        page = pages_by_url[item['page_url']]
-        if item['url'] in assets:
-            asset = assets[item['url']]
+    asset_plan_error: str | None = None
+    try:
+        asset_tasks, asset_plan = build_asset_tasks(groups, args.max_assets, saved_asset_tasks if saved_asset_plan.get('plannerVersion') == ASSET_PLANNER_VERSION else None)
+    except ValueError as error:
+        asset_tasks = []
+        asset_plan = saved_asset_plan or {'groups': len(groups), 'selected': 0, 'available': sum(len(items) for items in groups.values()), 'complete': False}
+        asset_plan_error = str(error)
+        errors.append({'phase': 'asset-planning', 'error': asset_plan_error})
+    if saved_asset_plan:
+        asset_plan = asset_plan | saved_asset_plan
+    asset_aliases, invalid_asset_urls = reconcile_asset_tasks(asset_tasks, assets)
+    restore_retryable_task_states(asset_tasks, state.get('assetTasks', []))
+    for asset in assets.values():
+        observed = set(asset.source_page_urls)
+        for url in set([asset.original_asset_url, asset.final_asset_url, *(asset.source_asset_urls or [])]): observed.update(occurrences_by_url.get(url, set()))
+        asset.source_page_urls = sorted(observed)
+    if invalid_asset_urls:
+        invalid_objects = {id(asset_aliases[url]) for url in invalid_asset_urls if url in asset_aliases}
+        assets = {key: asset for key, asset in assets.items() if id(asset) not in invalid_objects}
+        asset_aliases = {source_url: asset for asset in assets.values() for source_url in (asset.source_asset_urls or [asset.original_asset_url])}
+        assets_by_hash = {asset.sha256: asset for asset in assets.values()}
+    checkpoint(checkpoint_path, queue, queued, seen_requests, seen_canonical, pages, assets, errors, run_id, phase='asset-download', asset_tasks=asset_tasks, asset_plan=asset_plan)
+    for task in asset_tasks:
+        page = pages_by_url[task.page_url]
+        if task.status in {'validated', 'promoted'} and task.url in asset_aliases:
+            asset = asset_aliases[task.url]
             if page.url not in asset.source_page_urls: asset.source_page_urls.append(page.url); asset.source_page_urls.sort()
-            page.assets.append(asset.local_path); continue
+            if asset.local_path not in page.assets: page.assets.append(asset.local_path)
+            continue
+        if task.status not in {'pending', 'retryable'}:
+            continue
+        if args.plan_only:
+            continue
+        if task.url in asset_aliases:
+            asset = asset_aliases[task.url]
+            if validate_asset_binary(asset):
+                task.status = 'validated'; task.error = None; task.asset_url = asset.original_asset_url; task.validated_at = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
+                asset.relationship_evidence = sorted(set(asset.relationship_evidence + task.relationship_signals))
+                if page.url not in asset.source_page_urls: asset.source_page_urls.append(page.url); asset.source_page_urls.sort()
+                if asset.local_path not in page.assets: page.assets.append(asset.local_path)
+                checkpoint(checkpoint_path, queue, queued, seen_requests, seen_canonical, pages, assets, errors, run_id, phase='asset-download', asset_tasks=asset_tasks, asset_plan=asset_plan)
+                continue
         try:
-            asset_response = fetch(item['url'], asset_domains, args.timeout, args.max_asset_mb * 1024 * 1024, item['kind'], args.retries)
-            asset = save_asset_body(slug, item['url'], page.url, item['kind'], item['role'], asset_response, staging_root)
-            assets[item['url']] = asset; page.assets.append(asset.local_path)
+            task.attempts += 1; task.error = None
+            asset_response = supplier_fetch(task.url, asset_domains, args.timeout, args.max_asset_mb * 1024 * 1024, task.kind, args.retries)
+            asset = save_asset_body(slug, task.source_url, page.url, task.kind, task.role, asset_response, staging_root)
+            if task.url not in asset.source_asset_urls: asset.source_asset_urls.append(task.url)
+            asset.relationship_evidence = sorted(set(asset.relationship_evidence + task.relationship_signals))
+            task.status = 'downloaded'; task.asset_url = asset.original_asset_url; task.downloaded_at = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
+            assets[task.url] = asset
+            checkpoint(checkpoint_path, queue, queued, seen_requests, seen_canonical, pages, assets, errors, run_id, phase='asset-download', asset_tasks=asset_tasks, asset_plan=asset_plan)
+            if not validate_asset_binary(asset):
+                raise ValueError('downloaded asset failed checksum/size validation')
+            duplicate = next((existing for digest, existing in assets_by_hash.items() if digest == asset.sha256 and existing is not asset), None)
+            if duplicate:
+                assets.pop(task.url, None)
+                asset = merge_duplicate_asset(duplicate, asset)
+            else:
+                assets_by_hash[asset.sha256] = asset
+            asset_aliases[task.url] = asset
+            for source_url in asset.source_asset_urls: asset_aliases[source_url] = asset
+            task.status = 'validated'; task.validated_at = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
+            if asset.local_path not in page.assets: page.assets.append(asset.local_path)
         except Exception as error:
-            errors.append({'url': item['url'], 'page': page.url, 'error': str(error)})
-        checkpoint(checkpoint_path, queue, queued, seen_requests, seen_canonical, pages, assets, errors, run_id)
+            task.status = 'retryable'; task.error = str(error)
+            errors.append({'url': task.url, 'page': page.url, 'phase': 'asset-download', 'retryable': True, 'error': str(error)})
+        checkpoint(checkpoint_path, queue, queued, seen_requests, seen_canonical, pages, assets, errors, run_id, phase='asset-download', asset_tasks=asset_tasks, asset_plan=asset_plan)
+    attach_available_asset_occurrences(pages, asset_aliases)
+    incomplete_asset_tasks = [task for task in asset_tasks if task.status in {'pending', 'downloaded', 'retryable'}]
 
     products = []
     ids: set[str] = set(); routes: set[tuple[str, str]] = set(); structural_errors = []
     for page in pages:
         if not page.is_product_candidate: continue
+        page_path = urlparse(page.url).path
+        if any(re.fullmatch(rule, page_path, re.I) for rule in cfg.get('reject_product_paths', [])): continue
         if page.embedded_products:
             for embedded in page.embedded_products:
                 product_slug = embedded['slug']; product_id = f'{slug}:{product_slug}'; route = (slug, product_slug)
@@ -593,12 +1212,11 @@ def crawl_supplier(cfg: dict, args) -> tuple[dict, bool]:
                     structural_errors.append({'url': page.url, 'error': f'duplicate product identity {product_id}'}); continue
                 ids.add(product_id); routes.add(route)
                 embedded_url = normalize(embedded.get('image'), page.url) if embedded.get('image') else None
-                embedded_assets = [asset.local_path for asset in assets.values() if embedded_url and asset.original_asset_url == embedded_url]
+                embedded_assets = [asset.local_path for asset in assets.values() if embedded_url and embedded_url in (asset.source_asset_urls or [asset.original_asset_url])]
                 synthetic = Page(page.url, page.title, page.h1, page.description, page.snapshot, True, page.category, embedded_assets, {'modelNumber': embedded['modelNumber']})
                 media, documents = product_asset_paths(synthetic, assets, cfg.get('attach_page_roles'))
-                products.append({'id': product_id, 'manufacturer': slug, 'slug': product_slug, 'name': embedded['name'], 'category': page.category, 'collection': embedded['collection'], 'modelNumber': embedded['modelNumber'], 'type': None, 'summary': None, 'sourceDescription': None, 'sourceUrl': page.url, 'sourceType': 'live-crawl', 'media': media, 'documents': documents, 'specifications': {}, 'lastVerified': time.strftime('%Y-%m-%d')})
+                products.append({'id': product_id, 'manufacturer': slug, 'slug': product_slug, 'name': embedded['name'], 'category': page.category, 'collection': embedded['collection'], 'modelNumber': embedded['modelNumber'], 'type': None, 'summary': None, 'sourceDescription': embedded.get('description'), 'sourceUrl': embedded.get('sourceUrl') or page.url, '_associationPageUrl': page.url, 'sourceType': 'live-crawl', 'media': media, 'documents': documents, 'specifications': {}, 'lastVerified': time.strftime('%Y-%m-%d')})
             continue
-        page_path = urlparse(page.url).path
         identity = next((rule for rule in cfg.get('product_identity_rules', []) if re.fullmatch(rule['path_pattern'], page_path, re.I)), {})
         if not identity and cfg.get('model_path_identity'):
             match = re.fullmatch(r'/windows/(?:(heritage-maximum|heritage|classic)-)?((?:hc|wc)-\d+)-([^/]+)/?', page_path, re.I)
@@ -614,7 +1232,8 @@ def crawl_supplier(cfg: dict, args) -> tuple[dict, bool]:
                 collection = cfg['collection_from_parent_path'].get(segments[-2])
                 if collection:
                     identity = {'slug': model_slug, 'modelNumber': model_slug.upper(), 'collection': collection}
-        path_name = Path(urlparse(page.url).path.rstrip('/')).name.replace('-', ' ').title() if cfg.get('name_from_path') else ''
+        use_path_name = cfg.get('name_from_path') or any(re.fullmatch(pattern, page_path, re.I) for pattern in cfg.get('name_from_path_patterns', []))
+        path_name = Path(page_path.rstrip('/')).name.replace('-', ' ').title() if use_path_name else ''
         name = clean_text(identity.get('name') or path_name or page.product_data.get('name') or page.h1 or page.title.split('|')[0])
         if not name: continue
         path_slug = Path(page_path.rstrip('/')).stem if cfg.get('slug_from_path') else ''
@@ -628,29 +1247,56 @@ def crawl_supplier(cfg: dict, args) -> tuple[dict, bool]:
         if product_id in ids or route in routes:
             structural_errors.append({'url': page.url, 'error': f'duplicate product identity {product_id}'}); continue
         ids.add(product_id); routes.add(route)
-        media, documents = product_asset_paths(page, assets, cfg.get('attach_page_roles'))
+        media, documents = product_asset_paths(page, assets, cfg.get('attach_page_roles'), [product_slug, model_number, name], cfg.get('trust_structured_product_images', True))
         products.append({'id': product_id, 'manufacturer': slug, 'slug': product_slug, 'name': name, 'category': identity.get('category') or page.category, 'collection': identity.get('collection'), 'modelNumber': model_number, 'type': identity.get('type'), 'summary': None, 'sourceDescription': page.product_data.get('description') or page.description or None, 'sourceUrl': page.url, 'sourceType': 'live-crawl', 'media': media, 'documents': documents, 'specifications': page.product_data.get('specifications', {}), 'lastVerified': time.strftime('%Y-%m-%d')})
     errors.extend(structural_errors)
-    viable = bool(pages) and bool(products) and not structural_errors
+    enforce_filename_owner_precedence(assets, products)
+    enforce_wordpress_master_precedence(assets, products)
+    associate_assets(assets, products)
+    for product in products: product.pop('_associationPageUrl', None)
+    if args.plan_only:
+        preview = {'supplier': slug, 'runId': run_id, 'phase': 'asset-planned', 'assetPlan': asset_plan, 'assetStates': {state: sum(task.status == state for task in asset_tasks) for state in sorted(ASSET_TASK_STATES)}, 'products': products, 'assets': [asdict(asset) for asset in assets.values()], 'errors': errors}
+        atomic_write_json(staging_root / 'relationship-preview.json', preview)
+        atomic_write_json(staging_root / 'run.json', {'supplier': slug, 'runId': run_id, 'status': 'planned', 'phase': 'asset-planned', 'assetPlan': asset_plan, 'assetStates': preview['assetStates']})
+        checkpoint(checkpoint_path, queue, queued, seen_requests, seen_canonical, pages, assets, errors, run_id, phase='asset-planned', asset_tasks=asset_tasks, asset_plan=asset_plan)
+        print(f'Planned {len(asset_tasks)} unique asset requests; {sum(task.status == "validated" for task in asset_tasks)} validated binaries reused; no network asset requests made.')
+        return preview, True
+    viable = bool(pages) and bool(products) and not structural_errors and not asset_plan_error and not incomplete_asset_tasks
     if viable:
         try: validate_product_records(products, cfg)
         except ValueError as error: errors.append({'error': str(error)}); viable = False
     accepted_assets: dict[str, Asset] = {}
     if viable:
-        try: accepted_assets = promote_referenced_assets(assets, products, pages)
+        try:
+            accepted_assets = promote_referenced_assets(assets, products, pages)
+            accepted_ids = {id(asset) for asset in accepted_assets.values()}
+            promoted_at = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
+            for task in asset_tasks:
+                asset = asset_aliases.get(task.url) or (asset_aliases.get(task.asset_url) if task.asset_url else None)
+                if asset and id(asset) in accepted_ids:
+                    task.status = 'promoted'; task.promoted_at = promoted_at
+                elif task.status == 'validated':
+                    task.status = 'rejected'; task.error = 'validated asset was not referenced by an accepted product/shared role'
+            checkpoint(checkpoint_path, queue, queued, seen_requests, seen_canonical, pages, assets, errors, run_id, phase='promotion-complete', asset_tasks=asset_tasks, asset_plan=asset_plan)
         except Exception as error:
             errors.append({'error': f'asset promotion failed: {error}'}); viable = False
     crawled_at = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
     result = {'supplier': {key: cfg[key] for key in ('slug', 'name', 'base_url', 'categories')}, 'crawledAt': crawled_at, 'pages': [manifest_page(page) for page in pages], 'assets': [manifest_asset(asset) for asset in accepted_assets.values()], 'products': products, 'errors': errors}
-    if viable:
+    if viable and args.no_download:
+        atomic_write_json(MANIFEST_ROOT / f'{slug}.discovery.json', result)
+        atomic_write_json(staging_root / 'run.json', {'supplier': slug, 'runId': run_id, 'status': 'discovery-only', 'finishedAt': crawled_at, 'discoveredProducts': len(products), 'downloadedAssets': 0, 'promotedAssets': 0, 'quarantinedAssets': 0})
+        checkpoint_path.unlink(missing_ok=True)
+    elif viable:
         atomic_write_json(MANIFEST_ROOT / f'{slug}.json', result)
         atomic_write_json(CATALOG_DIR / f'{slug}.json', products)
-        atomic_write_json(staging_root / 'run.json', {'supplier': slug, 'runId': run_id, 'status': 'accepted', 'finishedAt': crawled_at, 'downloadedAssets': len(assets), 'promotedAssets': len(accepted_assets), 'quarantinedAssets': len(assets) - len(accepted_assets)})
+        write_supplier_archive(slug, accepted_assets)
+        atomic_write_json(staging_root / 'run.json', {'supplier': slug, 'runId': run_id, 'status': 'accepted', 'phase': 'promotion-complete', 'finishedAt': crawled_at, 'downloadedAssets': len(assets), 'promotedAssets': len(accepted_assets), 'quarantinedAssets': len(assets) - len(accepted_assets), 'assetPlan': asset_plan, 'assetStates': {state: sum(task.status == state for task in asset_tasks) for state in sorted(ASSET_TASK_STATES)}})
+        atomic_write_json(staging_root / 'asset-task-index.json', {'supplier': slug, 'runId': run_id, 'plannerVersion': ASSET_PLANNER_VERSION, 'tasks': [asdict(task) for task in asset_tasks]})
         checkpoint_path.unlink(missing_ok=True)
     else:
         quarantined_result = result | {'assets': [asdict(asset) for asset in assets.values()]}
         atomic_write_json(staging_root / 'run-manifest.json', quarantined_result)
-        atomic_write_json(staging_root / 'run.json', {'supplier': slug, 'runId': run_id, 'status': 'failed', 'finishedAt': crawled_at, 'downloadedAssets': len(assets), 'promotedAssets': 0, 'quarantinedAssets': len(assets)})
+        atomic_write_json(staging_root / 'run.json', {'supplier': slug, 'runId': run_id, 'status': 'failed', 'phase': 'asset-download' if incomplete_asset_tasks else 'validation', 'finishedAt': crawled_at, 'downloadedAssets': len(assets), 'promotedAssets': 0, 'quarantinedAssets': len(assets), 'assetPlan': asset_plan, 'assetStates': {state: sum(task.status == state for task in asset_tasks) for state in sorted(ASSET_TASK_STATES)}})
         print(f'! Preserved last-known-good catalogue and manifest for {slug}: crawl produced no validated products', file=sys.stderr)
     return result, viable
 
@@ -666,6 +1312,7 @@ def main() -> int:
     parser.add_argument('--timeout', type=int, default=30)
     parser.add_argument('--retries', type=int, default=2)
     parser.add_argument('--resume', action='store_true')
+    parser.add_argument('--plan-only', action='store_true', help='Rebuild and persist an asset plan from saved pages without making asset requests or promoting output')
     parser.add_argument('--no-download', action='store_true', help='Save pages and product discoveries without downloading images/PDFs')
     args = parser.parse_args()
     configs = json.loads(CONFIG.read_text(encoding='utf-8'))
