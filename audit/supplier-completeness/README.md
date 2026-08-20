@@ -1,6 +1,6 @@
 # Supplier completeness audit
 
-Generated: 2026-08-20T07:18:35.119625+00:00
+Generated: 2026-08-20T08:06:56.953189+00:00
 
 ## Supplier summary
 
@@ -13,7 +13,7 @@ Generated: 2026-08-20T07:18:35.119625+00:00
 | novatech | 91 | 91 | 865 | 30 | 0 | 0 | VERIFIED | VERIFIED | VERIFIED-WITH-16-PAGE-EVIDENCE-GAPS |
 | verre-select | 26 | 25 | 93 | 0 | 0 | 0 | VERIFIED | VERIFIED | NONE-CURRENTLY-AVAILABLE-FLIPHTML5-VERIFIED |
 | mennie-canada | 99 | 79 | 184 | 6 | 168 | 1 | VERIFIED | VERIFIED-WITH-20-EXPLICIT-MISSING-MEDIA-RECORDS | VERIFIED |
-| richersons | 33 | 12 | 20 | 0 | 0 | 0 | VERIFICATION-PENDING | VERIFICATION-PENDING | VERIFICATION-PENDING |
+| richersons | 54 | 54 | 91 | 2 | 0 | 0 | VERIFIED | VERIFIED | VERIFIED |
 | oceanview | 3 | 3 | 5 | 3 | 0 | 0 | VERIFICATION-PENDING | VERIFICATION-PENDING | VERIFICATION-PENDING |
 | vista | 4 | 4 | 5 | 17 | 0 | 0 | VERIFICATION-PENDING | VERIFICATION-PENDING | VERIFICATION-PENDING |
 
@@ -63,9 +63,9 @@ Completeness states: source-complete=99.
 
 ### Richersons Doors
 
-Website: **VERIFICATION-PENDING**. Media: **VERIFICATION-PENDING**. PDF: **VERIFICATION-PENDING**. Canonical supplier products: **33**. Merged catalogue records: **35**. Accepted assets: **20 images / 0 PDFs**. Review binaries preserved: **0**. Product associations: **12 image / 0 document**.
+Website: **VERIFIED**. Media: **VERIFIED**. PDF: **VERIFIED**. Canonical supplier products: **54**. Merged catalogue records: **54**. Accepted assets: **91 images / 2 PDFs**. Review binaries preserved: **0**. Product associations: **54 image / 37 document**.
 
-Completeness states: requires-review=4, verification-pending=29.
+Completeness states: source-complete=54.
 
 ### Oceanview Patio Doors
 

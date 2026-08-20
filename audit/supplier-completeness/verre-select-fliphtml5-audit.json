@@ -1,10 +1,11 @@
 {
   "supplier": "verre-select",
+  "supplierName": "Verre Select",
   "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
   "publicationSourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
   "publicationYear": 2026,
   "viewerCreatedUtc": "2026-01-14T15:17:30+00:00",
-  "auditedAt": "2026-08-20T06:17:18+00:00",
+  "auditedAt": "2026-08-20T07:50:55+00:00",
   "status": "fliphtml5-website-and-media-verified",
   "pdfDocuments": {
     "count": 0,
@@ -350,7 +351,9 @@
       "associatedProducts": [],
       "collection": null,
       "assetRole": "reference-only",
-      "relationshipState": "supplier-shared"
+      "relationshipState": "supplier-shared",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -369,7 +372,9 @@
       "associatedProducts": [],
       "collection": null,
       "assetRole": "reference-only",
-      "relationshipState": "supplier-shared"
+      "relationshipState": "supplier-shared",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -388,7 +393,9 @@
       "associatedProducts": [],
       "collection": null,
       "assetRole": "reference-only",
-      "relationshipState": "supplier-shared"
+      "relationshipState": "supplier-shared",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -407,7 +414,9 @@
       "associatedProducts": [],
       "collection": null,
       "assetRole": "reference-only",
-      "relationshipState": "supplier-shared"
+      "relationshipState": "supplier-shared",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -426,7 +435,9 @@
       "associatedProducts": [],
       "collection": null,
       "assetRole": "reference-only",
-      "relationshipState": "supplier-shared"
+      "relationshipState": "supplier-shared",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -447,7 +458,9 @@
       ],
       "collection": "Door Windows",
       "assetRole": "product-layout-reference",
-      "relationshipState": "product-specific"
+      "relationshipState": "product-specific",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -468,7 +481,9 @@
       ],
       "collection": "Door Windows",
       "assetRole": "product-layout-reference",
-      "relationshipState": "product-specific"
+      "relationshipState": "product-specific",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -489,7 +504,9 @@
       ],
       "collection": "Door Windows",
       "assetRole": "product-layout-reference",
-      "relationshipState": "product-specific"
+      "relationshipState": "product-specific",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -510,7 +527,9 @@
       ],
       "collection": "Door Windows",
       "assetRole": "product-layout-reference",
-      "relationshipState": "product-specific"
+      "relationshipState": "product-specific",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -531,7 +550,9 @@
       ],
       "collection": "Door Windows",
       "assetRole": "product-layout-reference",
-      "relationshipState": "product-specific"
+      "relationshipState": "product-specific",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -552,7 +573,9 @@
       ],
       "collection": "Door Windows",
       "assetRole": "product-layout-reference",
-      "relationshipState": "product-specific"
+      "relationshipState": "product-specific",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -573,7 +596,9 @@
       ],
       "collection": "Door Windows",
       "assetRole": "product-layout-reference",
-      "relationshipState": "product-specific"
+      "relationshipState": "product-specific",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -594,7 +619,9 @@
       ],
       "collection": "Door Windows",
       "assetRole": "product-layout-reference",
-      "relationshipState": "product-specific"
+      "relationshipState": "product-specific",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -615,7 +642,9 @@
       ],
       "collection": "Door Windows",
       "assetRole": "product-layout-reference",
-      "relationshipState": "product-specific"
+      "relationshipState": "product-specific",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -636,7 +665,9 @@
       ],
       "collection": "Door Windows",
       "assetRole": "product-layout-reference",
-      "relationshipState": "product-specific"
+      "relationshipState": "product-specific",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -657,7 +688,9 @@
       ],
       "collection": "Door Windows",
       "assetRole": "product-layout-reference",
-      "relationshipState": "product-specific"
+      "relationshipState": "product-specific",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -678,7 +711,9 @@
       ],
       "collection": "Door Windows",
       "assetRole": "product-layout-reference",
-      "relationshipState": "product-specific"
+      "relationshipState": "product-specific",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -699,7 +734,9 @@
       ],
       "collection": "Door Windows",
       "assetRole": "product-layout-reference",
-      "relationshipState": "product-specific"
+      "relationshipState": "product-specific",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -720,7 +757,9 @@
       ],
       "collection": "Door Windows",
       "assetRole": "product-layout-reference",
-      "relationshipState": "product-specific"
+      "relationshipState": "product-specific",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -741,7 +780,9 @@
       ],
       "collection": "Door Windows",
       "assetRole": "product-layout-reference",
-      "relationshipState": "product-specific"
+      "relationshipState": "product-specific",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -762,7 +803,9 @@
       ],
       "collection": "Door Windows",
       "assetRole": "product-layout-reference",
-      "relationshipState": "product-specific"
+      "relationshipState": "product-specific",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -783,7 +826,9 @@
       ],
       "collection": "Door Windows",
       "assetRole": "product-layout-reference",
-      "relationshipState": "product-specific"
+      "relationshipState": "product-specific",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -804,7 +849,9 @@
       ],
       "collection": "Door Windows",
       "assetRole": "product-layout-reference",
-      "relationshipState": "product-specific"
+      "relationshipState": "product-specific",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -825,7 +872,9 @@
       ],
       "collection": "Stylized Doorglass",
       "assetRole": "product-layout-reference",
-      "relationshipState": "product-specific"
+      "relationshipState": "product-specific",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -846,7 +895,9 @@
       ],
       "collection": "Door Windows",
       "assetRole": "product-layout-reference",
-      "relationshipState": "product-specific"
+      "relationshipState": "product-specific",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -867,7 +918,9 @@
       ],
       "collection": "Door Windows",
       "assetRole": "product-layout-reference",
-      "relationshipState": "product-specific"
+      "relationshipState": "product-specific",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -888,7 +941,9 @@
       ],
       "collection": "Door Windows",
       "assetRole": "product-layout-reference",
-      "relationshipState": "product-specific"
+      "relationshipState": "product-specific",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -909,7 +964,9 @@
       ],
       "collection": "Door Windows",
       "assetRole": "product-layout-reference",
-      "relationshipState": "product-specific"
+      "relationshipState": "product-specific",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -928,7 +985,9 @@
       "associatedProducts": [],
       "collection": "Integrated Blinds + Glass",
       "assetRole": "configuration-diagram",
-      "relationshipState": "collection-shared"
+      "relationshipState": "collection-shared",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -947,7 +1006,9 @@
       "associatedProducts": [],
       "collection": "Decorative Glass",
       "assetRole": "colour-chart",
-      "relationshipState": "supplier-shared"
+      "relationshipState": "supplier-shared",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -966,7 +1027,9 @@
       "associatedProducts": [],
       "collection": "Door Frames",
       "assetRole": "profile-section",
-      "relationshipState": "supplier-shared"
+      "relationshipState": "supplier-shared",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -985,7 +1048,9 @@
       "associatedProducts": [],
       "collection": "Steel Entry Doors",
       "assetRole": "configuration-diagram",
-      "relationshipState": "collection-shared"
+      "relationshipState": "collection-shared",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -1004,7 +1069,9 @@
       "associatedProducts": [],
       "collection": "Steel Mark",
       "assetRole": "technical-drawing",
-      "relationshipState": "collection-shared"
+      "relationshipState": "collection-shared",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -1023,7 +1090,9 @@
       "associatedProducts": [],
       "collection": "Fiberglass Entry Doors",
       "assetRole": "reference-only",
-      "relationshipState": "collection-shared"
+      "relationshipState": "collection-shared",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -1042,7 +1111,9 @@
       "associatedProducts": [],
       "collection": "Fiberglass Entry Doors",
       "assetRole": "technical-drawing",
-      "relationshipState": "collection-shared"
+      "relationshipState": "collection-shared",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -1061,12 +1132,15 @@
       "associatedProducts": [],
       "collection": null,
       "assetRole": "reference-only",
-      "relationshipState": "supplier-shared"
+      "relationshipState": "supplier-shared",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     }
   ],
   "individualProductAssets": [
     {
       "supplier": "verre-select",
+      "supplierName": "Verre Select",
       "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
       "publicationSourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
       "pageNumber": 6,
@@ -1078,7 +1152,8 @@
       "width": 1260,
       "height": 2360,
       "mimeType": "image/webp",
-      "extractedAt": "2026-08-20T06:17:18+00:00",
+      "extractedAt": "2026-08-20T07:50:55+00:00",
+      "extractionTimestamp": "2026-08-20T07:50:55+00:00",
       "associatedProducts": [
         "verre-select:amadeus"
       ],
@@ -1097,6 +1172,7 @@
     },
     {
       "supplier": "verre-select",
+      "supplierName": "Verre Select",
       "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
       "publicationSourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
       "pageNumber": 7,
@@ -1108,7 +1184,8 @@
       "width": 1260,
       "height": 2360,
       "mimeType": "image/webp",
-      "extractedAt": "2026-08-20T06:17:18+00:00",
+      "extractedAt": "2026-08-20T07:50:55+00:00",
+      "extractionTimestamp": "2026-08-20T07:50:55+00:00",
       "associatedProducts": [
         "verre-select:cadence"
       ],
@@ -1127,6 +1204,7 @@
     },
     {
       "supplier": "verre-select",
+      "supplierName": "Verre Select",
       "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
       "publicationSourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
       "pageNumber": 8,
@@ -1138,7 +1216,8 @@
       "width": 1260,
       "height": 2360,
       "mimeType": "image/webp",
-      "extractedAt": "2026-08-20T06:17:18+00:00",
+      "extractedAt": "2026-08-20T07:50:55+00:00",
+      "extractionTimestamp": "2026-08-20T07:50:55+00:00",
       "associatedProducts": [
         "verre-select:cbg"
       ],
@@ -1157,6 +1236,7 @@
     },
     {
       "supplier": "verre-select",
+      "supplierName": "Verre Select",
       "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
       "publicationSourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
       "pageNumber": 9,
@@ -1168,7 +1248,8 @@
       "width": 1260,
       "height": 2360,
       "mimeType": "image/webp",
-      "extractedAt": "2026-08-20T06:17:18+00:00",
+      "extractedAt": "2026-08-20T07:50:55+00:00",
+      "extractionTimestamp": "2026-08-20T07:50:55+00:00",
       "associatedProducts": [
         "verre-select:crosswalk"
       ],
@@ -1187,6 +1268,7 @@
     },
     {
       "supplier": "verre-select",
+      "supplierName": "Verre Select",
       "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
       "publicationSourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
       "pageNumber": 10,
@@ -1198,7 +1280,8 @@
       "width": 1260,
       "height": 2360,
       "mimeType": "image/webp",
-      "extractedAt": "2026-08-20T06:17:18+00:00",
+      "extractedAt": "2026-08-20T07:50:55+00:00",
+      "extractionTimestamp": "2026-08-20T07:50:55+00:00",
       "associatedProducts": [
         "verre-select:cyndi"
       ],
@@ -1217,6 +1300,7 @@
     },
     {
       "supplier": "verre-select",
+      "supplierName": "Verre Select",
       "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
       "publicationSourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
       "pageNumber": 11,
@@ -1228,7 +1312,8 @@
       "width": 1260,
       "height": 2360,
       "mimeType": "image/webp",
-      "extractedAt": "2026-08-20T06:17:18+00:00",
+      "extractedAt": "2026-08-20T07:50:55+00:00",
+      "extractionTimestamp": "2026-08-20T07:50:55+00:00",
       "associatedProducts": [
         "verre-select:dorian"
       ],
@@ -1247,6 +1332,7 @@
     },
     {
       "supplier": "verre-select",
+      "supplierName": "Verre Select",
       "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
       "publicationSourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
       "pageNumber": 12,
@@ -1258,7 +1344,8 @@
       "width": 1260,
       "height": 2360,
       "mimeType": "image/webp",
-      "extractedAt": "2026-08-20T06:17:18+00:00",
+      "extractedAt": "2026-08-20T07:50:55+00:00",
+      "extractionTimestamp": "2026-08-20T07:50:55+00:00",
       "associatedProducts": [
         "verre-select:endrick"
       ],
@@ -1277,6 +1364,7 @@
     },
     {
       "supplier": "verre-select",
+      "supplierName": "Verre Select",
       "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
       "publicationSourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
       "pageNumber": 13,
@@ -1288,7 +1376,8 @@
       "width": 1260,
       "height": 2360,
       "mimeType": "image/webp",
-      "extractedAt": "2026-08-20T06:17:18+00:00",
+      "extractedAt": "2026-08-20T07:50:55+00:00",
+      "extractionTimestamp": "2026-08-20T07:50:55+00:00",
       "associatedProducts": [
         "verre-select:epic"
       ],
@@ -1307,6 +1396,7 @@
     },
     {
       "supplier": "verre-select",
+      "supplierName": "Verre Select",
       "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
       "publicationSourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
       "pageNumber": 14,
@@ -1318,7 +1408,8 @@
       "width": 1260,
       "height": 2360,
       "mimeType": "image/webp",
-      "extractedAt": "2026-08-20T06:17:18+00:00",
+      "extractedAt": "2026-08-20T07:50:55+00:00",
+      "extractionTimestamp": "2026-08-20T07:50:55+00:00",
       "associatedProducts": [
         "verre-select:fragrance"
       ],
@@ -1337,6 +1428,7 @@
     },
     {
       "supplier": "verre-select",
+      "supplierName": "Verre Select",
       "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
       "publicationSourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
       "pageNumber": 15,
@@ -1348,7 +1440,8 @@
       "width": 1260,
       "height": 2360,
       "mimeType": "image/webp",
-      "extractedAt": "2026-08-20T06:17:18+00:00",
+      "extractedAt": "2026-08-20T07:50:55+00:00",
+      "extractionTimestamp": "2026-08-20T07:50:55+00:00",
       "associatedProducts": [
         "verre-select:gabriella"
       ],
@@ -1367,6 +1460,7 @@
     },
     {
       "supplier": "verre-select",
+      "supplierName": "Verre Select",
       "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
       "publicationSourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
       "pageNumber": 16,
@@ -1378,7 +1472,8 @@
       "width": 1260,
       "height": 2360,
       "mimeType": "image/webp",
-      "extractedAt": "2026-08-20T06:17:18+00:00",
+      "extractedAt": "2026-08-20T07:50:55+00:00",
+      "extractionTimestamp": "2026-08-20T07:50:55+00:00",
       "associatedProducts": [
         "verre-select:java"
       ],
@@ -1397,6 +1492,7 @@
     },
     {
       "supplier": "verre-select",
+      "supplierName": "Verre Select",
       "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
       "publicationSourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
       "pageNumber": 17,
@@ -1408,7 +1504,8 @@
       "width": 1260,
       "height": 2360,
       "mimeType": "image/webp",
-      "extractedAt": "2026-08-20T06:17:18+00:00",
+      "extractedAt": "2026-08-20T07:50:55+00:00",
+      "extractionTimestamp": "2026-08-20T07:50:55+00:00",
       "associatedProducts": [
         "verre-select:naomie"
       ],
@@ -1427,6 +1524,7 @@
     },
     {
       "supplier": "verre-select",
+      "supplierName": "Verre Select",
       "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
       "publicationSourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
       "pageNumber": 18,
@@ -1438,7 +1536,8 @@
       "width": 1260,
       "height": 2360,
       "mimeType": "image/webp",
-      "extractedAt": "2026-08-20T06:17:18+00:00",
+      "extractedAt": "2026-08-20T07:50:55+00:00",
+      "extractionTimestamp": "2026-08-20T07:50:55+00:00",
       "associatedProducts": [
         "verre-select:paris"
       ],
@@ -1457,6 +1556,7 @@
     },
     {
       "supplier": "verre-select",
+      "supplierName": "Verre Select",
       "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
       "publicationSourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
       "pageNumber": 19,
@@ -1468,7 +1568,8 @@
       "width": 1260,
       "height": 2360,
       "mimeType": "image/webp",
-      "extractedAt": "2026-08-20T06:17:18+00:00",
+      "extractedAt": "2026-08-20T07:50:55+00:00",
+      "extractionTimestamp": "2026-08-20T07:50:55+00:00",
       "associatedProducts": [
         "verre-select:pixel"
       ],
@@ -1487,6 +1588,7 @@
     },
     {
       "supplier": "verre-select",
+      "supplierName": "Verre Select",
       "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
       "publicationSourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
       "pageNumber": 20,
@@ -1498,7 +1600,8 @@
       "width": 1260,
       "height": 2360,
       "mimeType": "image/webp",
-      "extractedAt": "2026-08-20T06:17:18+00:00",
+      "extractedAt": "2026-08-20T07:50:55+00:00",
+      "extractionTimestamp": "2026-08-20T07:50:55+00:00",
       "associatedProducts": [
         "verre-select:quattro"
       ],
@@ -1517,6 +1620,7 @@
     },
     {
       "supplier": "verre-select",
+      "supplierName": "Verre Select",
       "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
       "publicationSourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
       "pageNumber": 21,
@@ -1528,7 +1632,8 @@
       "width": 1260,
       "height": 2360,
       "mimeType": "image/webp",
-      "extractedAt": "2026-08-20T06:17:18+00:00",
+      "extractedAt": "2026-08-20T07:50:55+00:00",
+      "extractionTimestamp": "2026-08-20T07:50:55+00:00",
       "associatedProducts": [
         "verre-select:renoir"
       ],
@@ -1547,6 +1652,7 @@
     },
     {
       "supplier": "verre-select",
+      "supplierName": "Verre Select",
       "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
       "publicationSourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
       "pageNumber": 22,
@@ -1558,7 +1664,8 @@
       "width": 1260,
       "height": 2360,
       "mimeType": "image/webp",
-      "extractedAt": "2026-08-20T06:17:18+00:00",
+      "extractedAt": "2026-08-20T07:50:55+00:00",
+      "extractionTimestamp": "2026-08-20T07:50:55+00:00",
       "associatedProducts": [
         "verre-select:rill"
       ],
@@ -1577,6 +1684,7 @@
     },
     {
       "supplier": "verre-select",
+      "supplierName": "Verre Select",
       "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
       "publicationSourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
       "pageNumber": 23,
@@ -1588,7 +1696,8 @@
       "width": 1260,
       "height": 2360,
       "mimeType": "image/webp",
-      "extractedAt": "2026-08-20T06:17:18+00:00",
+      "extractedAt": "2026-08-20T07:50:55+00:00",
+      "extractionTimestamp": "2026-08-20T07:50:55+00:00",
       "associatedProducts": [
         "verre-select:rodin"
       ],
@@ -1607,6 +1716,7 @@
     },
     {
       "supplier": "verre-select",
+      "supplierName": "Verre Select",
       "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
       "publicationSourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
       "pageNumber": 24,
@@ -1618,7 +1728,8 @@
       "width": 1260,
       "height": 2360,
       "mimeType": "image/webp",
-      "extractedAt": "2026-08-20T06:17:18+00:00",
+      "extractedAt": "2026-08-20T07:50:55+00:00",
+      "extractionTimestamp": "2026-08-20T07:50:55+00:00",
       "associatedProducts": [
         "verre-select:satine"
       ],
@@ -1637,6 +1748,7 @@
     },
     {
       "supplier": "verre-select",
+      "supplierName": "Verre Select",
       "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
       "publicationSourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
       "pageNumber": 25,
@@ -1648,7 +1760,8 @@
       "width": 1260,
       "height": 2360,
       "mimeType": "image/webp",
-      "extractedAt": "2026-08-20T06:17:18+00:00",
+      "extractedAt": "2026-08-20T07:50:55+00:00",
+      "extractionTimestamp": "2026-08-20T07:50:55+00:00",
       "associatedProducts": [
         "verre-select:venus"
       ],
@@ -1667,6 +1780,7 @@
     },
     {
       "supplier": "verre-select",
+      "supplierName": "Verre Select",
       "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
       "publicationSourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
       "pageNumber": 26,
@@ -1678,7 +1792,8 @@
       "width": 1260,
       "height": 2360,
       "mimeType": "image/webp",
-      "extractedAt": "2026-08-20T06:17:18+00:00",
+      "extractedAt": "2026-08-20T07:50:55+00:00",
+      "extractionTimestamp": "2026-08-20T07:50:55+00:00",
       "associatedProducts": [
         "verre-select:waterside"
       ],
@@ -1697,6 +1812,7 @@
     },
     {
       "supplier": "verre-select",
+      "supplierName": "Verre Select",
       "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
       "publicationSourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
       "pageNumber": 27,
@@ -1708,7 +1824,8 @@
       "width": 1260,
       "height": 2360,
       "mimeType": "image/webp",
-      "extractedAt": "2026-08-20T06:17:18+00:00",
+      "extractedAt": "2026-08-20T07:50:55+00:00",
+      "extractionTimestamp": "2026-08-20T07:50:55+00:00",
       "associatedProducts": [
         "verre-select:whistler"
       ],
@@ -1727,6 +1844,7 @@
     },
     {
       "supplier": "verre-select",
+      "supplierName": "Verre Select",
       "publicationTitle": "2026 Verre Select Entry Door Product Catalogue",
       "publicationSourceUrl": "https://online.fliphtml5.com/dmiiu/qzru/",
       "pageNumber": 28,
@@ -1738,7 +1856,8 @@
       "width": 1260,
       "height": 2360,
       "mimeType": "image/webp",
-      "extractedAt": "2026-08-20T06:17:18+00:00",
+      "extractedAt": "2026-08-20T07:50:55+00:00",
+      "extractionTimestamp": "2026-08-20T07:50:55+00:00",
       "associatedProducts": [
         "verre-select:wide-reed"
       ],
@@ -1774,7 +1893,9 @@
       "associatedProducts": [],
       "collection": "Integrated Blinds + Glass",
       "assetRole": "configuration-diagram",
-      "relationshipState": "collection-shared"
+      "relationshipState": "collection-shared",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -1793,7 +1914,9 @@
       "associatedProducts": [],
       "collection": "Decorative Glass",
       "assetRole": "colour-chart",
-      "relationshipState": "supplier-shared"
+      "relationshipState": "supplier-shared",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -1812,7 +1935,9 @@
       "associatedProducts": [],
       "collection": "Door Frames",
       "assetRole": "profile-section",
-      "relationshipState": "supplier-shared"
+      "relationshipState": "supplier-shared",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -1831,7 +1956,9 @@
       "associatedProducts": [],
       "collection": "Steel Entry Doors",
       "assetRole": "configuration-diagram",
-      "relationshipState": "collection-shared"
+      "relationshipState": "collection-shared",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -1850,7 +1977,9 @@
       "associatedProducts": [],
       "collection": "Steel Mark",
       "assetRole": "technical-drawing",
-      "relationshipState": "collection-shared"
+      "relationshipState": "collection-shared",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     },
     {
       "supplier": "verre-select",
@@ -1869,7 +1998,9 @@
       "associatedProducts": [],
       "collection": "Fiberglass Entry Doors",
       "assetRole": "technical-drawing",
-      "relationshipState": "collection-shared"
+      "relationshipState": "collection-shared",
+      "supplierName": "Verre Select",
+      "extractionTimestamp": "2026-08-20T05:54:28+00:00"
     }
   ],
   "notes": [

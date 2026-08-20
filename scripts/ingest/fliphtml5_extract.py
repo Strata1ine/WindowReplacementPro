@@ -36,8 +36,10 @@ def extract(config_path: Path) -> dict:
     config = read_json(config_path)
     manifest_path = ROOT / config["publicationManifest"]
     manifest = read_json(manifest_path)
+    supplier_name = config.get("supplierName") or manifest.get("supplierName") or config["supplier"]
     page_config = {item["pageNumber"]: item for item in config.get("pages", [])}
     extracted_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    publication_extracted_at = manifest.get("extractionTimestamp") or extracted_at
     derived_assets = []
     verified_pages = []
     extraction_root = manifest_path.parent / "extracted"
@@ -55,8 +57,11 @@ def extract(config_path: Path) -> dict:
             if actual_sha != page["sha256"]:
                 raise ValueError(f"checksum mismatch for page {page['pageNumber']}")
             reviewed = page_config.get(page["pageNumber"], {})
+            page_extracted_at = page.get("extractionTimestamp") or page.get("extractedAt") or publication_extracted_at
             page.update({
                 "mimeType": "image/webp",
+                "supplierName": supplier_name,
+                "extractionTimestamp": page_extracted_at,
                 "associatedProducts": reviewed.get("productIds", []),
                 "collection": reviewed.get("collection"),
                 "assetRole": reviewed.get("assetRole", "reference-only"),
@@ -71,6 +76,7 @@ def extract(config_path: Path) -> dict:
                     crop_width, crop_height = cropped.size
                 derived_assets.append({
                     "supplier": config["supplier"],
+                    "supplierName": supplier_name,
                     "publicationTitle": manifest["publicationTitle"],
                     "publicationSourceUrl": manifest["publicationSourceUrl"],
                     "pageNumber": page["pageNumber"],
@@ -83,6 +89,7 @@ def extract(config_path: Path) -> dict:
                     "height": crop_height,
                     "mimeType": "image/webp",
                     "extractedAt": extracted_at,
+                    "extractionTimestamp": extracted_at,
                     "associatedProducts": reviewed["productIds"],
                     "collection": reviewed.get("collection"),
                     "assetRole": "lifestyle-product",
@@ -90,12 +97,14 @@ def extract(config_path: Path) -> dict:
                     "derivation": {"method": "reviewed-page-crop", "cropBox": crop_box},
                 })
 
+    manifest["supplierName"] = supplier_name
     manifest["highDefinitionConversion"] = bool(config.get("highDefinitionConversion"))
     manifest["pages"] = verified_pages
     manifest["reviewedAt"] = extracted_at
     write_json(manifest_path, manifest)
     write_json(extraction_root / "extracted-assets.json", {
         "supplier": config["supplier"],
+        "supplierName": supplier_name,
         "publicationTitle": manifest["publicationTitle"],
         "publicationSourceUrl": manifest["publicationSourceUrl"],
         "extractedAt": extracted_at,
@@ -106,6 +115,7 @@ def extract(config_path: Path) -> dict:
     technical_pages = [page for page in verified_pages if page["assetRole"] in technical_roles]
     report = {
         "supplier": config["supplier"],
+        "supplierName": supplier_name,
         "publicationTitle": manifest["publicationTitle"],
         "publicationSourceUrl": manifest["publicationSourceUrl"],
         "publicationYear": manifest.get("publicationYear"),

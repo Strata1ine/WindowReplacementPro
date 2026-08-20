@@ -13,6 +13,10 @@
       "reason": "Live identity and media are verified, but product-specific specifications and editorial review are incomplete; do not publish."
     },
     {
+      "productId": "masonite:4-lite-equal",
+      "reason": "New evidence is limited to an image alt description and conflicts with the DR-FG material prefix; retain as incomplete pending product-specific review."
+    },
+    {
       "productId": "masonite:4-panel-1-4-lite-steel",
       "reason": "Live identity and media are verified, but product-specific specifications and editorial review are incomplete; do not publish."
     },
@@ -21,8 +25,16 @@
       "reason": "Live identity and media are verified, but product-specific specifications and editorial review are incomplete; do not publish."
     },
     {
+      "productId": "masonite:cheyenne",
+      "reason": "New evidence is limited to a product image alt description; retain prior incomplete status pending product-specific specifications and editorial review."
+    },
+    {
       "productId": "masonite:cheyenne-steel",
       "reason": "Live identity and media are verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "masonite:flush-1-lite",
+      "reason": "New evidence is limited to an image alt description and conflicts with the DR-FG material prefix; retain as incomplete pending product-specific review."
     },
     {
       "productId": "masonite:flush-1-lite-steel",
@@ -41,8 +53,136 @@
       "reason": "Live identity and media are verified, but product-specific specifications and editorial review are incomplete; do not publish."
     },
     {
+      "productId": "masonite:sierra",
+      "reason": "New evidence is limited to a product image alt description; retain prior incomplete status pending product-specific specifications and editorial review."
+    },
+    {
       "productId": "masonite:square-2-panel-steel",
       "reason": "Live identity and media are verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:fg-6l",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:fir-grain-crf",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:fir-grain-crf-cg",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:fir-grain-crf-sg",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:fir-grain-crfs",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:fir-s1k",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:fir-s2k",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:mah-5l",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:mah-fsl",
+      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
+    },
+    {
+      "productId": "mennie-canada:mah-gp",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:mah-rpsl",
+      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
+    },
+    {
+      "productId": "mennie-canada:mah8-fsl",
+      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
+    },
+    {
+      "productId": "mennie-canada:mah8-nrpsl",
+      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
+    },
+    {
+      "productId": "mennie-canada:sm-2psl",
+      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
+    },
+    {
+      "productId": "mennie-canada:sm-8-fl-1p-2",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:sm-cr",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:sm-fl-1p",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:sm-fsl",
+      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
+    },
+    {
+      "productId": "mennie-canada:sm-ss1",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:sm-ss3",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:sm-ss5",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:sm-ss7",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:sm-ss9",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:sm8-fsl",
+      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
+    },
+    {
+      "productId": "mennie-canada:st-42",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:wg-2p-180-sl",
+      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
+    },
+    {
+      "productId": "mennie-canada:wg-2psl",
+      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
+    },
+    {
+      "productId": "mennie-canada:wg-fsl",
+      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
+    },
+    {
+      "productId": "mennie-canada:wg8-2psl",
+      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
+    },
+    {
+      "productId": "mennie-canada:wg8-f-3mm",
+      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "mennie-canada:wg8-fsl",
+      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
     },
     {
       "productId": "novatech:2-panel-planked-camber-top",
@@ -53,20 +193,96 @@
       "reason": "Live identity and media are verified, but product-specific specifications and editorial review are incomplete; do not publish."
     },
     {
-      "productId": "masonite:4-lite-equal",
-      "reason": "New evidence is limited to an image alt description and conflicts with the DR-FG material prefix; retain as incomplete pending product-specific review."
+      "productId": "richersons:bk10",
+      "reason": "Current Richersons supplier identity, facts, and media are verified, but this newly discovered record has not received independent editorial approval; do not publish."
     },
     {
-      "productId": "masonite:flush-1-lite",
-      "reason": "New evidence is limited to an image alt description and conflicts with the DR-FG material prefix; retain as incomplete pending product-specific review."
+      "productId": "richersons:bk11",
+      "reason": "Current Richersons supplier identity, facts, and media are verified, but this newly discovered record has not received independent editorial approval; do not publish."
     },
     {
-      "productId": "masonite:cheyenne",
-      "reason": "New evidence is limited to a product image alt description; retain prior incomplete status pending product-specific specifications and editorial review."
+      "productId": "richersons:bw10",
+      "reason": "Current Richersons supplier identity, facts, and media are verified, but this newly discovered record has not received independent editorial approval; do not publish."
     },
     {
-      "productId": "masonite:sierra",
-      "reason": "New evidence is limited to a product image alt description; retain prior incomplete status pending product-specific specifications and editorial review."
+      "productId": "richersons:bw11",
+      "reason": "Current Richersons supplier identity, facts, and media are verified, but this newly discovered record has not received independent editorial approval; do not publish."
+    },
+    {
+      "productId": "richersons:bw2j",
+      "reason": "Current Richersons supplier identity, facts, and media are verified, but this newly discovered record has not received independent editorial approval; do not publish."
+    },
+    {
+      "productId": "richersons:bw2js",
+      "reason": "Current Richersons supplier identity, facts, and media are verified, but this newly discovered record has not received independent editorial approval; do not publish."
+    },
+    {
+      "productId": "richersons:fg30",
+      "reason": "Current Richersons supplier identity, facts, and media are verified, but this newly discovered record has not received independent editorial approval; do not publish."
+    },
+    {
+      "productId": "richersons:fg4h",
+      "reason": "Current Richersons supplier identity, facts, and media are verified, but this newly discovered record has not received independent editorial approval; do not publish."
+    },
+    {
+      "productId": "richersons:ms35",
+      "reason": "Current Richersons supplier identity, facts, and media are verified, but this newly discovered record has not received independent editorial approval; do not publish."
+    },
+    {
+      "productId": "richersons:rg21",
+      "reason": "Current Richersons supplier identity, facts, and media are verified, but this newly discovered record has not received independent editorial approval; do not publish."
+    },
+    {
+      "productId": "richersons:rg22",
+      "reason": "Current Richersons supplier identity, facts, and media are verified, but this newly discovered record has not received independent editorial approval; do not publish."
+    },
+    {
+      "productId": "richersons:rg26",
+      "reason": "Current Richersons supplier identity, facts, and media are verified, but this newly discovered record has not received independent editorial approval; do not publish."
+    },
+    {
+      "productId": "richersons:sg10",
+      "reason": "Current Richersons supplier identity, facts, and media are verified, but this newly discovered record has not received independent editorial approval; do not publish."
+    },
+    {
+      "productId": "richersons:sg12",
+      "reason": "Current Richersons supplier identity, facts, and media are verified, but this newly discovered record has not received independent editorial approval; do not publish."
+    },
+    {
+      "productId": "richersons:sg30",
+      "reason": "Current Richersons supplier identity, facts, and media are verified, but this newly discovered record has not received independent editorial approval; do not publish."
+    },
+    {
+      "productId": "richersons:sg3j",
+      "reason": "Current Richersons supplier identity, facts, and media are verified, but this newly discovered record has not received independent editorial approval; do not publish."
+    },
+    {
+      "productId": "richersons:sg4h",
+      "reason": "Current Richersons supplier identity, facts, and media are verified, but this newly discovered record has not received independent editorial approval; do not publish."
+    },
+    {
+      "productId": "richersons:tg00",
+      "reason": "Current Richersons supplier identity, facts, and media are verified, but this newly discovered record has not received independent editorial approval; do not publish."
+    },
+    {
+      "productId": "richersons:tg07",
+      "reason": "Current Richersons supplier identity, facts, and media are verified, but this newly discovered record has not received independent editorial approval; do not publish."
+    },
+    {
+      "productId": "richersons:tg71",
+      "reason": "Current Richersons supplier identity, facts, and media are verified, but this newly discovered record has not received independent editorial approval; do not publish."
+    },
+    {
+      "productId": "richersons:ts71",
+      "reason": "Current Richersons supplier identity, facts, and media are verified, but this newly discovered record has not received independent editorial approval; do not publish."
+    },
+    {
+      "productId": "richersons:wg12",
+      "reason": "Current Richersons supplier identity, facts, and media are verified, but this newly discovered record has not received independent editorial approval; do not publish."
+    },
+    {
+      "productId": "richersons:wg3j",
+      "reason": "Current Richersons supplier identity, facts, and media are verified, but this newly discovered record has not received independent editorial approval; do not publish."
     },
     {
       "productId": "trimlite:2064-ez-lift-clear-internal-venting-doorlite",
@@ -749,7 +965,15 @@
       "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
     },
     {
+      "productId": "verre-select:satine",
+      "reason": "Current Verre Select publication identity and source facts are supplier-verified, but no working live detail page exists and editorial review is incomplete; do not publish."
+    },
+    {
       "productId": "vinyl-pro:4-9-16-awning",
+      "reason": "New Vinyl-Pro canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "vinyl-pro:4-9-16-end-vent-slider",
       "reason": "New Vinyl-Pro canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
     },
     {
@@ -769,144 +993,12 @@
       "reason": "New Vinyl-Pro canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
     },
     {
-      "productId": "vinyl-pro:4-9-16-end-vent-slider",
-      "reason": "New Vinyl-Pro canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
-    },
-    {
       "productId": "window-city:hc-650",
       "reason": "New Window City canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
     },
     {
       "productId": "window-city:wc-500",
       "reason": "New Window City canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
-    },
-    {
-      "productId": "verre-select:satine",
-      "reason": "Current Verre Select publication identity and source facts are supplier-verified, but no working live detail page exists and editorial review is incomplete; do not publish."
-    },
-    {
-      "productId": "mennie-canada:fg-6l",
-      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
-    },
-    {
-      "productId": "mennie-canada:fir-grain-crf",
-      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
-    },
-    {
-      "productId": "mennie-canada:fir-grain-crf-cg",
-      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
-    },
-    {
-      "productId": "mennie-canada:fir-grain-crf-sg",
-      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
-    },
-    {
-      "productId": "mennie-canada:fir-grain-crfs",
-      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
-    },
-    {
-      "productId": "mennie-canada:fir-s1k",
-      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
-    },
-    {
-      "productId": "mennie-canada:fir-s2k",
-      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
-    },
-    {
-      "productId": "mennie-canada:mah-5l",
-      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
-    },
-    {
-      "productId": "mennie-canada:mah-gp",
-      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
-    },
-    {
-      "productId": "mennie-canada:sm-8-fl-1p-2",
-      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
-    },
-    {
-      "productId": "mennie-canada:sm-cr",
-      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
-    },
-    {
-      "productId": "mennie-canada:sm-fl-1p",
-      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
-    },
-    {
-      "productId": "mennie-canada:sm-ss1",
-      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
-    },
-    {
-      "productId": "mennie-canada:sm-ss3",
-      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
-    },
-    {
-      "productId": "mennie-canada:sm-ss5",
-      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
-    },
-    {
-      "productId": "mennie-canada:sm-ss7",
-      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
-    },
-    {
-      "productId": "mennie-canada:sm-ss9",
-      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
-    },
-    {
-      "productId": "mennie-canada:st-42",
-      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
-    },
-    {
-      "productId": "mennie-canada:wg8-f-3mm",
-      "reason": "New Mennie Canada canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
-    },
-    {
-      "productId": "mennie-canada:mah-fsl",
-      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
-    },
-    {
-      "productId": "mennie-canada:mah-rpsl",
-      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
-    },
-    {
-      "productId": "mennie-canada:mah8-fsl",
-      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
-    },
-    {
-      "productId": "mennie-canada:mah8-nrpsl",
-      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
-    },
-    {
-      "productId": "mennie-canada:sm-2psl",
-      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
-    },
-    {
-      "productId": "mennie-canada:sm-fsl",
-      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
-    },
-    {
-      "productId": "mennie-canada:sm8-fsl",
-      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
-    },
-    {
-      "productId": "mennie-canada:wg-2p-180-sl",
-      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
-    },
-    {
-      "productId": "mennie-canada:wg-2psl",
-      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
-    },
-    {
-      "productId": "mennie-canada:wg-fsl",
-      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
-    },
-    {
-      "productId": "mennie-canada:wg8-2psl",
-      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
-    },
-    {
-      "productId": "mennie-canada:wg8-fsl",
-      "reason": "This curated Mennie configuration has no current canonical live product-detail record; retain for review but do not publish."
     }
   ]
 }

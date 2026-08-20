@@ -687,6 +687,150 @@
     "editorialStatus": "incomplete"
   },
   {
+    "productId": "richersons:bk10",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "richersons",
+    "category": "entry-doors",
+    "modelNumber": "BK10",
+    "sourceUrl": "https://www.richersonsdoors.com/flush-glazed",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "richersons:bk11",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "richersons",
+    "category": "entry-doors",
+    "modelNumber": "BK11",
+    "sourceUrl": "https://www.richersonsdoors.com/flush-glazed",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "richersons:bw10",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "richersons",
+    "category": "entry-doors",
+    "modelNumber": "BW10",
+    "sourceUrl": "https://www.richersonsdoors.com/flush-glazed",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "richersons:bw11",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "richersons",
+    "category": "entry-doors",
+    "modelNumber": "BW11",
+    "sourceUrl": "https://www.richersonsdoors.com/flush-glazed",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "richersons:bw2j",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "richersons",
+    "category": "entry-doors",
+    "modelNumber": "BW2J",
+    "sourceUrl": "https://www.richersonsdoors.com/whats-new",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "richersons:bw2js",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "richersons",
+    "category": "entry-doors",
+    "modelNumber": "BW2JS",
+    "sourceUrl": "https://www.richersonsdoors.com/whats-new",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "richersons:fg30",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "richersons",
+    "category": "entry-doors",
+    "modelNumber": "FG30",
+    "sourceUrl": "https://www.richersonsdoors.com/craftsman",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "richersons:fg4h",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "richersons",
+    "category": "entry-doors",
+    "modelNumber": "FG4H",
+    "sourceUrl": "https://www.richersonsdoors.com/craftsman",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "richersons:ms35",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "richersons",
+    "category": "entry-doors",
+    "modelNumber": "MS35",
+    "sourceUrl": "https://www.richersonsdoors.com/mahogany-woodgrain",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "richersons:rg21",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "richersons",
+    "category": "entry-doors",
+    "modelNumber": "RG21",
+    "sourceUrl": "https://www.richersonsdoors.com/mahogany-woodgrain",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "richersons:rg22",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "richersons",
+    "category": "entry-doors",
+    "modelNumber": "RG22",
+    "sourceUrl": "https://www.richersonsdoors.com/mahogany-woodgrain",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "richersons:rg26",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "richersons",
+    "category": "entry-doors",
+    "modelNumber": "RG26",
+    "sourceUrl": "https://www.richersonsdoors.com/mahogany-woodgrain",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
     "productId": "richersons:sg10",
     "decision": "retained-distinct",
     "reason": "No curated record has the same normalized manufacturer model or product name.",
@@ -695,7 +839,7 @@
     "modelNumber": "SG10",
     "sourceUrl": "https://www.richersonsdoors.com/flush-glazed",
     "possibleAliasesReviewed": [],
-    "enriched": false,
+    "enriched": true,
     "editorialStatus": "incomplete"
   },
   {
@@ -713,7 +857,31 @@
         "modelMatch": false
       }
     ],
-    "enriched": false,
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "richersons:sg30",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "richersons",
+    "category": "entry-doors",
+    "modelNumber": "SG30",
+    "sourceUrl": "https://www.richersonsdoors.com/craftsman",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "richersons:sg3j",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "richersons",
+    "category": "entry-doors",
+    "modelNumber": "SG3J",
+    "sourceUrl": "https://www.richersonsdoors.com/craftsman",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
     "editorialStatus": "incomplete"
   },
   {
@@ -725,7 +893,55 @@
     "modelNumber": "SG4H",
     "sourceUrl": "https://www.richersonsdoors.com/craftsman",
     "possibleAliasesReviewed": [],
-    "enriched": false,
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "richersons:tg00",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "richersons",
+    "category": "entry-doors",
+    "modelNumber": "TG00",
+    "sourceUrl": "https://www.richersonsdoors.com/modern-teak",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "richersons:tg07",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "richersons",
+    "category": "entry-doors",
+    "modelNumber": "TG07",
+    "sourceUrl": "https://www.richersonsdoors.com/modern-teak",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "richersons:tg71",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "richersons",
+    "category": "entry-doors",
+    "modelNumber": "TG71",
+    "sourceUrl": "https://www.richersonsdoors.com/modern-teak",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "richersons:ts71",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "richersons",
+    "category": "entry-doors",
+    "modelNumber": "TS71",
+    "sourceUrl": "https://www.richersonsdoors.com/modern-teak",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
     "editorialStatus": "incomplete"
   },
   {
@@ -748,7 +964,19 @@
         "modelMatch": false
       }
     ],
-    "enriched": false,
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "richersons:wg3j",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "richersons",
+    "category": "entry-doors",
+    "modelNumber": "WG3J",
+    "sourceUrl": "https://www.richersonsdoors.com/craftsman",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
     "editorialStatus": "incomplete"
   },
   {

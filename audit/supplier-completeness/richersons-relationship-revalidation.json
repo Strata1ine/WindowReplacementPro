@@ -1,0 +1,29 @@
+{
+  "supplier": "richersons",
+  "products": 54,
+  "productsWithMediaBefore": 54,
+  "productsWithMediaAfter": 54,
+  "productsStillMissingMedia": [],
+  "acceptedAssetsBefore": 93,
+  "downloadedCandidatesRecovered": 0,
+  "acceptedAssetsAfter": 93,
+  "rejectedAssociations": [],
+  "relationshipStates": {
+    "product-specific": 42,
+    "collection-shared": 7,
+    "supplier-shared": 44,
+    "uncertain/review": 0
+  },
+  "sharedProductBinaries": 8,
+  "changedProducts": [],
+  "unresolvedErrors": [
+    {
+      "url": "https://www.richersonsdoors.com/manufacturer",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "url": "https://www.richersonsdoors.com/where-to-buy",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ]
+}

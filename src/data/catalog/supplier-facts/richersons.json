@@ -1,0 +1,680 @@
+{
+  "supplier": "richersons",
+  "reviewedAt": "2026-08-20",
+  "factSets": [
+    {
+      "productIds": [
+        "richersons:fg30",
+        "richersons:fg4h",
+        "richersons:sg30",
+        "richersons:sg3j",
+        "richersons:sg4h",
+        "richersons:wg3j"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/craftsman",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "material": "Fiberglass",
+        "productType": "Fiberglass entry door slab",
+        "style": "Craftsman"
+      }
+    },
+    {
+      "productIds": [
+        "richersons:bk10",
+        "richersons:bk11",
+        "richersons:bk27",
+        "richersons:bk28",
+        "richersons:bw10",
+        "richersons:bw11",
+        "richersons:sg10",
+        "richersons:sg12",
+        "richersons:sg23",
+        "richersons:sg27",
+        "richersons:sg3l",
+        "richersons:sg4l",
+        "richersons:sgnl",
+        "richersons:wg12",
+        "richersons:wg23",
+        "richersons:wg27",
+        "richersons:wgnl"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/flush-glazed",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "material": "Fiberglass",
+        "productType": "Fiberglass entry door slab"
+      }
+    },
+    {
+      "productIds": [
+        "richersons:ms35",
+        "richersons:rg21",
+        "richersons:rg22",
+        "richersons:rg26"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/mahogany-woodgrain",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "material": "Fiberglass",
+        "productType": "Fiberglass entry door slab",
+        "surface": "Textured mahogany woodgrain"
+      }
+    },
+    {
+      "productIds": [
+        "richersons:tg00",
+        "richersons:tg07",
+        "richersons:tg71",
+        "richersons:ts71"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/modern-teak",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "material": "Fiberglass",
+        "productType": "Fiberglass entry door slab",
+        "surface": "Textured teak woodgrain"
+      }
+    },
+    {
+      "productIds": [
+        "richersons:bw2j",
+        "richersons:bw2js"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/whats-new",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "material": "Fiberglass",
+        "productType": "Fiberglass entry door slab",
+        "surface": "Brush White woodgrain",
+        "panelDesign": "2 panel"
+      }
+    },
+    {
+      "productIds": [
+        "richersons:wg00",
+        "richersons:wg20",
+        "richersons:wg25",
+        "richersons:wg34",
+        "richersons:wg3b",
+        "richersons:wg46",
+        "richersons:wg48",
+        "richersons:wg49",
+        "richersons:wg66",
+        "richersons:wg68",
+        "richersons:wg91",
+        "richersons:wgf0"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/oak-woodgrain",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "material": "Fiberglass",
+        "productType": "Fiberglass entry door slab",
+        "surface": "Textured oak woodgrain"
+      }
+    },
+    {
+      "productIds": [
+        "richersons:sg00",
+        "richersons:sg20",
+        "richersons:sg25",
+        "richersons:sg3b",
+        "richersons:sg46",
+        "richersons:sg48",
+        "richersons:sg49",
+        "richersons:sg66",
+        "richersons:sg68"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/smooth-white",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "material": "Fiberglass",
+        "productType": "Fiberglass entry door slab",
+        "surface": "Smooth white"
+      }
+    },
+    {
+      "productIds": [
+        "richersons:bw2j"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/whats-new",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "configuration": "2 panel door slab",
+        "nominalHeight": "95 in",
+        "availableWidths": [
+          "35 3/4 in",
+          "33 3/4 in",
+          "31 3/4 in"
+        ]
+      }
+    },
+    {
+      "productIds": [
+        "richersons:bw2js"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/whats-new",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "configuration": "2 panel sidelite",
+        "nominalHeight": "95 in",
+        "availableWidths": [
+          "13 3/4 in",
+          "11 3/4 in"
+        ]
+      }
+    },
+    {
+      "productIds": [
+        "richersons:ts71"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/modern-teak",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "configuration": "Sidelite",
+        "availability": "Special order for British Columbia only"
+      }
+    },
+    {
+      "productIds": [
+        "richersons:tg00"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/modern-teak",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "panelDesign": "Flush",
+        "availability": "West region model"
+      }
+    },
+    {
+      "productIds": [
+        "richersons:tg07"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/modern-teak",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "panelDesign": "Flush",
+        "availability": "East region model"
+      }
+    },
+    {
+      "productIds": [
+        "richersons:rg21"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/mahogany-woodgrain",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "panelDesign": "1 panel plank"
+      }
+    },
+    {
+      "productIds": [
+        "richersons:rg22"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/mahogany-woodgrain",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "panelDesign": "2 panel plank camber top"
+      }
+    },
+    {
+      "productIds": [
+        "richersons:rg26"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/mahogany-woodgrain",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "panelDesign": "2 panel plank camber top",
+        "nominalHeight": "95 in (8 ft model)"
+      }
+    },
+    {
+      "productIds": [
+        "richersons:ms35"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/mahogany-woodgrain",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "configuration": "1 panel sidelite"
+      }
+    },
+    {
+      "productIds": [
+        "richersons:bk10",
+        "richersons:bw10"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/flush-glazed",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "glassConfiguration": "1 lite",
+        "nominalHeight": "79 in"
+      }
+    },
+    {
+      "productIds": [
+        "richersons:bk11",
+        "richersons:bw11"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/flush-glazed",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "glassConfiguration": "1 lite",
+        "nominalHeight": "95 in"
+      }
+    },
+    {
+      "productIds": [
+        "richersons:bk27"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/flush-glazed",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "glassConfiguration": "3/4 lite",
+        "nominalHeight": "79 in"
+      }
+    },
+    {
+      "productIds": [
+        "richersons:bk28"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/flush-glazed",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "glassConfiguration": "3/4 lite",
+        "nominalHeight": "95 in"
+      }
+    },
+    {
+      "productIds": [
+        "richersons:sg12"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/flush-glazed",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "glassConfiguration": "Full lite",
+        "availability": "British Columbia only"
+      }
+    },
+    {
+      "productIds": [
+        "richersons:wg12"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/flush-glazed",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "glassConfiguration": "Full lite"
+      }
+    },
+    {
+      "productIds": [
+        "richersons:sg10"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/flush-glazed",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "glassConfiguration": "1 lite",
+        "style": "Neulite smooth"
+      }
+    },
+    {
+      "productIds": [
+        "richersons:sg27",
+        "richersons:wg27"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/flush-glazed",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "glassConfiguration": "3/4 lite"
+      }
+    },
+    {
+      "productIds": [
+        "richersons:sg23",
+        "richersons:wg23"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/flush-glazed",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "glassConfiguration": "1/2 lite"
+      }
+    },
+    {
+      "productIds": [
+        "richersons:sgnl",
+        "richersons:wgnl"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/flush-glazed",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "glassConfiguration": "Narrow lite"
+      }
+    },
+    {
+      "productIds": [
+        "richersons:sg3l"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/flush-glazed",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "glassConfiguration": "3 lite",
+        "availability": "British Columbia only"
+      }
+    },
+    {
+      "productIds": [
+        "richersons:sg4l"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/flush-glazed",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "glassConfiguration": "4 lite"
+      }
+    },
+    {
+      "productIds": [
+        "richersons:wg3b",
+        "richersons:wg48",
+        "richersons:wg20"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/oak-woodgrain",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "availability": "British Columbia only"
+      }
+    },
+    {
+      "productIds": [
+        "richersons:sg3b",
+        "richersons:sg48"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/smooth-white",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "availability": "British Columbia only"
+      }
+    },
+    {
+      "productIds": [
+        "richersons:wg3j"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/craftsman",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "glassConfiguration": "3 lite",
+        "availability": "East region model"
+      }
+    },
+    {
+      "productIds": [
+        "richersons:fg30"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/craftsman",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "glassConfiguration": "3 lite",
+        "availability": "West region model",
+        "surface": "Fir grain"
+      }
+    },
+    {
+      "productIds": [
+        "richersons:sg3j"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/craftsman",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "glassConfiguration": "3 lite",
+        "availability": "East region model"
+      }
+    },
+    {
+      "productIds": [
+        "richersons:sg30"
+      ],
+      "sources": [
+        {
+          "supplier": "richersons",
+          "sourceUrl": "https://www.richersonsdoors.com/craftsman",
+          "status": "active",
+          "evidenceType": "current-supplier-website",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "glassConfiguration": "3 lite",
+        "availability": "West region model"
+      }
+    }
+  ]
+}

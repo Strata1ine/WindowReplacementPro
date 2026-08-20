@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T07:18:34.833474+00:00",
+  "generatedAt": "2026-08-20T08:06:56.610491+00:00",
   "suppliers": [
     {
       "supplier": "vinyl-pro",
@@ -11647,13 +11647,13 @@
     },
     {
       "supplier": "richersons",
-      "status": "VERIFICATION-PENDING",
-      "websiteStatus": "VERIFICATION-PENDING",
-      "mediaStatus": "VERIFICATION-PENDING",
-      "pdfStatus": "VERIFICATION-PENDING",
-      "basis": "Live website, media, and PDF completeness audit is not yet approved.",
-      "expectedRelevantProducts": null,
-      "manifestCrawledAt": "2026-08-19T19:54:33Z",
+      "status": "VERIFIED",
+      "websiteStatus": "VERIFIED",
+      "mediaStatus": "VERIFIED",
+      "pdfStatus": "VERIFIED",
+      "basis": "Live website, 54 canonical current products, 93 accepted assets, exact product/media caption relationships, two current-linked supplier PDFs, reviewed page-level PDF evidence for 37 products, normalized source facts, and representative visual review directly verified 2026-08-20; all 54 products have media and zero uncertain public associations.",
+      "expectedRelevantProducts": 54,
+      "manifestCrawledAt": "2026-08-20T07:41:43Z",
       "pagesCrawled": 13,
       "errors": [
         {
@@ -11667,14 +11667,14 @@
       ],
       "products": [
         {
-          "productId": "richersons:sg12",
-          "name": "SG12 Smooth White  (British Columbia only)",
-          "modelNumber": "SG12",
-          "collection": "Flush Glazed",
+          "productId": "richersons:bw2j",
+          "name": "BW2J 2 Panel 35-3/4, 33-3/4, 31-3/4 x 95",
+          "modelNumber": "BW2J",
+          "collection": "New Products",
           "category": "entry-doors",
-          "canonicalUrl": "https://www.richersonsdoors.com/flush-glazed",
+          "canonicalUrl": "https://www.richersonsdoors.com/whats-new",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -11689,7 +11689,257 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
+        },
+        {
+          "productId": "richersons:bw2js",
+          "name": "BW2JS 2 Panel Sidelite 13-3/4, 11-3/4 x 95",
+          "modelNumber": "BW2JS",
+          "collection": "New Products",
+          "category": "entry-doors",
+          "canonicalUrl": "https://www.richersonsdoors.com/whats-new",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": false
+          },
+          "verifiedAt": "2026-08-20T07:41:43Z"
+        },
+        {
+          "productId": "richersons:tg71",
+          "name": "TG71 Modern Teak",
+          "modelNumber": "TG71",
+          "collection": "Modern Teak",
+          "category": "entry-doors",
+          "canonicalUrl": "https://www.richersonsdoors.com/modern-teak",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T07:41:43Z"
+        },
+        {
+          "productId": "richersons:ts71",
+          "name": "TS71 Sidelite (Special order for British Columbia only)",
+          "modelNumber": "TS71",
+          "collection": "Modern Teak",
+          "category": "entry-doors",
+          "canonicalUrl": "https://www.richersonsdoors.com/modern-teak",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": false
+          },
+          "verifiedAt": "2026-08-20T07:41:43Z"
+        },
+        {
+          "productId": "richersons:tg00",
+          "name": "TG00 Teak Flush (West) TG07 (East)",
+          "modelNumber": "TG00",
+          "collection": "Modern Teak",
+          "category": "entry-doors",
+          "canonicalUrl": "https://www.richersonsdoors.com/modern-teak",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T07:41:43Z"
+        },
+        {
+          "productId": "richersons:tg07",
+          "name": "TG07 Teak Flush TG00 (West) (East)",
+          "modelNumber": "TG07",
+          "collection": "Modern Teak",
+          "category": "entry-doors",
+          "canonicalUrl": "https://www.richersonsdoors.com/modern-teak",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T07:41:43Z"
+        },
+        {
+          "productId": "richersons:rg21",
+          "name": "RG21 1 Panel Plank",
+          "modelNumber": "RG21",
+          "collection": "Mahogany Woodgrain",
+          "category": "entry-doors",
+          "canonicalUrl": "https://www.richersonsdoors.com/mahogany-woodgrain",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T07:41:43Z"
+        },
+        {
+          "productId": "richersons:rg22",
+          "name": "RG22 2 Panel Plank Camber Top RG26 (8/0 Height)",
+          "modelNumber": "RG22",
+          "collection": "Mahogany Woodgrain",
+          "category": "entry-doors",
+          "canonicalUrl": "https://www.richersonsdoors.com/mahogany-woodgrain",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T07:41:43Z"
+        },
+        {
+          "productId": "richersons:rg26",
+          "name": "RG26 2 Panel Plank Camber Top RG22 (8/0 Height)",
+          "modelNumber": "RG26",
+          "collection": "Mahogany Woodgrain",
+          "category": "entry-doors",
+          "canonicalUrl": "https://www.richersonsdoors.com/mahogany-woodgrain",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T07:41:43Z"
+        },
+        {
+          "productId": "richersons:ms35",
+          "name": "MS35 1 Panel Sidelite",
+          "modelNumber": "MS35",
+          "collection": "Mahogany Woodgrain",
+          "category": "entry-doors",
+          "canonicalUrl": "https://www.richersonsdoors.com/mahogany-woodgrain",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T07:41:43Z"
+        },
+        {
+          "productId": "richersons:sg12",
+          "name": "SG12 Smooth White (British Columbia only)",
+          "modelNumber": "SG12",
+          "collection": "Flush Glazed",
+          "category": "entry-doors",
+          "canonicalUrl": "https://www.richersonsdoors.com/flush-glazed",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T07:41:43Z"
         },
         {
           "productId": "richersons:wg12",
@@ -11699,7 +11949,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://www.richersonsdoors.com/flush-glazed",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -11712,9 +11962,9 @@
             "installationGuide": false,
             "warranty": false,
             "performanceDocument": false,
-            "catalogue": false
+            "catalogue": true
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
         },
         {
           "productId": "richersons:sg10",
@@ -11724,7 +11974,32 @@
           "category": "entry-doors",
           "canonicalUrl": "https://www.richersonsdoors.com/flush-glazed",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
+            "gallery": true,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T07:41:43Z"
+        },
+        {
+          "productId": "richersons:bw10",
+          "name": "BW10 Brush White (79”) / BW11 (95”)",
+          "modelNumber": "BW10",
+          "collection": "Flush Glazed",
+          "category": "entry-doors",
+          "canonicalUrl": "https://www.richersonsdoors.com/flush-glazed",
+          "mediaAvailable": {
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -11739,7 +12014,82 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
+        },
+        {
+          "productId": "richersons:bw11",
+          "name": "BW11 Brush White BW10 (79”) / (95”)",
+          "modelNumber": "BW11",
+          "collection": "Flush Glazed",
+          "category": "entry-doors",
+          "canonicalUrl": "https://www.richersonsdoors.com/flush-glazed",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": false
+          },
+          "verifiedAt": "2026-08-20T07:41:43Z"
+        },
+        {
+          "productId": "richersons:bk10",
+          "name": "BK10 Brush Black (79”) / BK11 (95”)",
+          "modelNumber": "BK10",
+          "collection": "Flush Glazed",
+          "category": "entry-doors",
+          "canonicalUrl": "https://www.richersonsdoors.com/flush-glazed",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T07:41:43Z"
+        },
+        {
+          "productId": "richersons:bk11",
+          "name": "BK11 Brush Black BK10 (79”) / (95”)",
+          "modelNumber": "BK11",
+          "collection": "Flush Glazed",
+          "category": "entry-doors",
+          "canonicalUrl": "https://www.richersonsdoors.com/flush-glazed",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T07:41:43Z"
         },
         {
           "productId": "richersons:sg27",
@@ -11749,7 +12099,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://www.richersonsdoors.com/flush-glazed",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -11764,7 +12114,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
         },
         {
           "productId": "richersons:wg27",
@@ -11774,7 +12124,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://www.richersonsdoors.com/flush-glazed",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -11787,9 +12137,59 @@
             "installationGuide": false,
             "warranty": false,
             "performanceDocument": false,
-            "catalogue": false
+            "catalogue": true
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
+        },
+        {
+          "productId": "richersons:bk27",
+          "name": "BK27 Brush Black (79”) / BK28 (95”)",
+          "modelNumber": "BK27",
+          "collection": "Flush Glazed",
+          "category": "entry-doors",
+          "canonicalUrl": "https://www.richersonsdoors.com/flush-glazed",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T07:41:43Z"
+        },
+        {
+          "productId": "richersons:bk28",
+          "name": "BK28 Brush Black BK27 (79”) / (95”)",
+          "modelNumber": "BK28",
+          "collection": "Flush Glazed",
+          "category": "entry-doors",
+          "canonicalUrl": "https://www.richersonsdoors.com/flush-glazed",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T07:41:43Z"
         },
         {
           "productId": "richersons:sg23",
@@ -11799,7 +12199,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://www.richersonsdoors.com/flush-glazed",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -11814,7 +12214,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
         },
         {
           "productId": "richersons:wg23",
@@ -11824,7 +12224,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://www.richersonsdoors.com/flush-glazed",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -11839,7 +12239,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
         },
         {
           "productId": "richersons:sgnl",
@@ -11849,7 +12249,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://www.richersonsdoors.com/flush-glazed",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -11862,9 +12262,9 @@
             "installationGuide": false,
             "warranty": false,
             "performanceDocument": false,
-            "catalogue": false
+            "catalogue": true
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
         },
         {
           "productId": "richersons:wgnl",
@@ -11874,7 +12274,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://www.richersonsdoors.com/flush-glazed",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -11887,19 +12287,19 @@
             "installationGuide": false,
             "warranty": false,
             "performanceDocument": false,
-            "catalogue": false
+            "catalogue": true
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
         },
         {
           "productId": "richersons:sg3l",
-          "name": "SG3L Smooth White  (British Columbia only)",
+          "name": "SG3L Smooth White (British Columbia only)",
           "modelNumber": "SG3L",
           "collection": "Flush Glazed",
           "category": "entry-doors",
           "canonicalUrl": "https://www.richersonsdoors.com/flush-glazed",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -11914,7 +12314,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
         },
         {
           "productId": "richersons:sg4l",
@@ -11924,7 +12324,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://www.richersonsdoors.com/flush-glazed",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -11937,9 +12337,9 @@
             "installationGuide": false,
             "warranty": false,
             "performanceDocument": false,
-            "catalogue": false
+            "catalogue": true
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
         },
         {
           "productId": "richersons:wg25",
@@ -11949,7 +12349,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://www.richersonsdoors.com/oak-woodgrain",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -11962,9 +12362,9 @@
             "installationGuide": false,
             "warranty": false,
             "performanceDocument": false,
-            "catalogue": false
+            "catalogue": true
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
         },
         {
           "productId": "richersons:wg66",
@@ -11974,7 +12374,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://www.richersonsdoors.com/oak-woodgrain",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -11987,9 +12387,9 @@
             "installationGuide": false,
             "warranty": false,
             "performanceDocument": false,
-            "catalogue": false
+            "catalogue": true
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
         },
         {
           "productId": "richersons:wg91",
@@ -11999,7 +12399,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://www.richersonsdoors.com/oak-woodgrain",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -12014,7 +12414,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
         },
         {
           "productId": "richersons:wg49",
@@ -12024,7 +12424,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://www.richersonsdoors.com/oak-woodgrain",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -12037,9 +12437,9 @@
             "installationGuide": false,
             "warranty": false,
             "performanceDocument": false,
-            "catalogue": false
+            "catalogue": true
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
         },
         {
           "productId": "richersons:wg00",
@@ -12049,7 +12449,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://www.richersonsdoors.com/oak-woodgrain",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -12062,9 +12462,9 @@
             "installationGuide": false,
             "warranty": false,
             "performanceDocument": false,
-            "catalogue": false
+            "catalogue": true
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
         },
         {
           "productId": "richersons:wg34",
@@ -12074,7 +12474,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://www.richersonsdoors.com/oak-woodgrain",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -12087,9 +12487,9 @@
             "installationGuide": false,
             "warranty": false,
             "performanceDocument": false,
-            "catalogue": false
+            "catalogue": true
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
         },
         {
           "productId": "richersons:wg46",
@@ -12099,7 +12499,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://www.richersonsdoors.com/oak-woodgrain",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -12114,7 +12514,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
         },
         {
           "productId": "richersons:wg68",
@@ -12124,7 +12524,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://www.richersonsdoors.com/oak-woodgrain",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -12137,19 +12537,19 @@
             "installationGuide": false,
             "warranty": false,
             "performanceDocument": false,
-            "catalogue": false
+            "catalogue": true
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
         },
         {
           "productId": "richersons:wg3b",
-          "name": "WG3B 3 Panel Curve Top  (British Columbia only)",
+          "name": "WG3B 3 Panel Curve Top (British Columbia only)",
           "modelNumber": "WG3B",
           "collection": "Oak Woodgrain",
           "category": "entry-doors",
           "canonicalUrl": "https://www.richersonsdoors.com/oak-woodgrain",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -12164,17 +12564,17 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
         },
         {
           "productId": "richersons:wg48",
-          "name": "WG48 New England  (British Columbia only)",
+          "name": "WG48 New England (British Columbia only)",
           "modelNumber": "WG48",
           "collection": "Oak Woodgrain",
           "category": "entry-doors",
           "canonicalUrl": "https://www.richersonsdoors.com/oak-woodgrain",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -12189,17 +12589,17 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
         },
         {
           "productId": "richersons:wg20",
-          "name": "WG20 2 Panel  (British Columbia only)",
+          "name": "WG20 2 Panel (British Columbia only)",
           "modelNumber": "WG20",
           "collection": "Oak Woodgrain",
           "category": "entry-doors",
           "canonicalUrl": "https://www.richersonsdoors.com/oak-woodgrain",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -12214,7 +12614,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
         },
         {
           "productId": "richersons:wgf0",
@@ -12224,7 +12624,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://www.richersonsdoors.com/oak-woodgrain",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -12237,9 +12637,9 @@
             "installationGuide": false,
             "warranty": false,
             "performanceDocument": false,
-            "catalogue": false
+            "catalogue": true
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
         },
         {
           "productId": "richersons:sg68",
@@ -12249,7 +12649,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://www.richersonsdoors.com/smooth-white",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -12262,9 +12662,9 @@
             "installationGuide": false,
             "warranty": false,
             "performanceDocument": false,
-            "catalogue": false
+            "catalogue": true
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
         },
         {
           "productId": "richersons:sg00",
@@ -12274,7 +12674,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://www.richersonsdoors.com/smooth-white",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -12287,9 +12687,9 @@
             "installationGuide": false,
             "warranty": false,
             "performanceDocument": false,
-            "catalogue": false
+            "catalogue": true
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
         },
         {
           "productId": "richersons:sg46",
@@ -12299,7 +12699,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://www.richersonsdoors.com/smooth-white",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -12312,9 +12712,9 @@
             "installationGuide": false,
             "warranty": false,
             "performanceDocument": false,
-            "catalogue": false
+            "catalogue": true
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
         },
         {
           "productId": "richersons:sg49",
@@ -12324,7 +12724,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://www.richersonsdoors.com/smooth-white",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -12337,9 +12737,9 @@
             "installationGuide": false,
             "warranty": false,
             "performanceDocument": false,
-            "catalogue": false
+            "catalogue": true
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
         },
         {
           "productId": "richersons:sg25",
@@ -12349,7 +12749,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://www.richersonsdoors.com/smooth-white",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -12362,9 +12762,9 @@
             "installationGuide": false,
             "warranty": false,
             "performanceDocument": false,
-            "catalogue": false
+            "catalogue": true
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
         },
         {
           "productId": "richersons:sg66",
@@ -12374,7 +12774,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://www.richersonsdoors.com/smooth-white",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -12387,19 +12787,19 @@
             "installationGuide": false,
             "warranty": false,
             "performanceDocument": false,
-            "catalogue": false
+            "catalogue": true
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
         },
         {
           "productId": "richersons:sg3b",
-          "name": "SG3B 3 Panel Curve Top  (British Columbia only)",
+          "name": "SG3B 3 Panel Curve Top (British Columbia only)",
           "modelNumber": "SG3B",
           "collection": "Smooth White",
           "category": "entry-doors",
           "canonicalUrl": "https://www.richersonsdoors.com/smooth-white",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -12414,7 +12814,7 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
         },
         {
           "productId": "richersons:sg20",
@@ -12424,7 +12824,7 @@
           "category": "entry-doors",
           "canonicalUrl": "https://www.richersonsdoors.com/smooth-white",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -12437,19 +12837,19 @@
             "installationGuide": false,
             "warranty": false,
             "performanceDocument": false,
-            "catalogue": false
+            "catalogue": true
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
         },
         {
           "productId": "richersons:sg48",
-          "name": "SG48 New England  (British Columbia only)",
+          "name": "SG48 New England (British Columbia only)",
           "modelNumber": "SG48",
           "collection": "Smooth White",
           "category": "entry-doors",
           "canonicalUrl": "https://www.richersonsdoors.com/smooth-white",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -12464,7 +12864,32 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
+        },
+        {
+          "productId": "richersons:fg4h",
+          "name": "FG4H",
+          "modelNumber": "FG4H",
+          "collection": "Craftsman",
+          "category": "entry-doors",
+          "canonicalUrl": "https://www.richersonsdoors.com/craftsman",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T07:41:43Z"
         },
         {
           "productId": "richersons:sg4h",
@@ -12474,7 +12899,32 @@
           "category": "entry-doors",
           "canonicalUrl": "https://www.richersonsdoors.com/craftsman",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T07:41:43Z"
+        },
+        {
+          "productId": "richersons:wg3j",
+          "name": "WG3J (East) FG30 (West)",
+          "modelNumber": "WG3J",
+          "collection": "Craftsman",
+          "category": "entry-doors",
+          "canonicalUrl": "https://www.richersonsdoors.com/craftsman",
+          "mediaAvailable": {
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -12489,7 +12939,82 @@
             "performanceDocument": false,
             "catalogue": false
           },
-          "verifiedAt": "2026-08-19T19:54:33Z"
+          "verifiedAt": "2026-08-20T07:41:43Z"
+        },
+        {
+          "productId": "richersons:fg30",
+          "name": "FG30 WG3J (East) (West)",
+          "modelNumber": "FG30",
+          "collection": "Craftsman",
+          "category": "entry-doors",
+          "canonicalUrl": "https://www.richersonsdoors.com/craftsman",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T07:41:43Z"
+        },
+        {
+          "productId": "richersons:sg3j",
+          "name": "SG3J (East) SG30 (West)",
+          "modelNumber": "SG3J",
+          "collection": "Craftsman",
+          "category": "entry-doors",
+          "canonicalUrl": "https://www.richersonsdoors.com/craftsman",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T07:41:43Z"
+        },
+        {
+          "productId": "richersons:sg30",
+          "name": "SG30 SG3J (East) (West)",
+          "modelNumber": "SG30",
+          "collection": "Craftsman",
+          "category": "entry-doors",
+          "canonicalUrl": "https://www.richersonsdoors.com/craftsman",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T07:41:43Z"
         }
       ]
     },

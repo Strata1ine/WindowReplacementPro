@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T07:18:35.089927+00:00",
+  "generatedAt": "2026-08-20T08:06:56.920248+00:00",
   "products": [
     {
       "supplier": "vinyl-pro",
@@ -49641,7 +49641,805 @@
     },
     {
       "supplier": "richersons",
-      "liveProductName": "SG12 Smooth White  (British Columbia only)",
+      "liveProductName": "BW2J 2 Panel 35-3/4, 33-3/4, 31-3/4 x 95",
+      "liveModelNumber": "BW2J",
+      "collection": "New Products",
+      "category": "entry-doors",
+      "canonicalSupplierUrl": "https://www.richersonsdoors.com/whats-new",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "richersons:bw2j",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/richersons/bw2j-6fa3cbc48e09.png"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": false
+      },
+      "documentsLocal": {
+        "captured": false,
+        "paths": []
+      },
+      "pdfEvidence": [],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "richersons",
+      "liveProductName": "BW2JS 2 Panel Sidelite 13-3/4, 11-3/4 x 95",
+      "liveModelNumber": "BW2JS",
+      "collection": "New Products",
+      "category": "entry-doors",
+      "canonicalSupplierUrl": "https://www.richersonsdoors.com/whats-new",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "richersons:bw2js",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/richersons/bw2js-e7673465bf38.png"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": false
+      },
+      "documentsLocal": {
+        "captured": false,
+        "paths": []
+      },
+      "pdfEvidence": [],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "richersons",
+      "liveProductName": "TG71 Modern Teak",
+      "liveModelNumber": "TG71",
+      "collection": "Modern Teak",
+      "category": "entry-doors",
+      "canonicalSupplierUrl": "https://www.richersonsdoors.com/modern-teak",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "richersons:tg71",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/richersons/teak-5panel-tg99-218887a7d8e6.png"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": true
+      },
+      "documentsLocal": {
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
+      },
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 13,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0013.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": [
+            "Though the teak series is beautiful with any hardware",
+            "When ordered, these slabs arrive as a light almond colour to"
+          ]
+        },
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 48,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0048.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-04.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "With Factory Installed Glass Snap-In Doorlite Frame",
+            "* 7ft Products in BC are 83” height",
+            "2 Panel Plank 1 Panel 2 Panel Plank",
+            "1 Panel Plank Camber Top Sidelite Camber Top"
+          ]
+        }
+      ],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "richersons",
+      "liveProductName": "TS71 Sidelite (Special order for British Columbia only)",
+      "liveModelNumber": "TS71",
+      "collection": "Modern Teak",
+      "category": "entry-doors",
+      "canonicalSupplierUrl": "https://www.richersonsdoors.com/modern-teak",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "richersons:ts71",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/richersons/teak-sidelite-ts00-new-018bf033362f.png"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": false
+      },
+      "documentsLocal": {
+        "captured": false,
+        "paths": []
+      },
+      "pdfEvidence": [],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "richersons",
+      "liveProductName": "TG00 Teak Flush (West) TG07 (East)",
+      "liveModelNumber": "TG00",
+      "collection": "Modern Teak",
+      "category": "entry-doors",
+      "canonicalSupplierUrl": "https://www.richersonsdoors.com/modern-teak",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "richersons:tg00",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/richersons/tg07-f4d45b0528bf.jpg"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": true
+      },
+      "documentsLocal": {
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
+      },
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 15,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0015.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        },
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 48,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0048.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-04.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "With Factory Installed Glass Snap-In Doorlite Frame",
+            "* 7ft Products in BC are 83” height",
+            "2 Panel Plank 1 Panel 2 Panel Plank",
+            "1 Panel Plank Camber Top Sidelite Camber Top"
+          ]
+        }
+      ],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "richersons",
+      "liveProductName": "TG07 Teak Flush TG00 (West) (East)",
+      "liveModelNumber": "TG07",
+      "collection": "Modern Teak",
+      "category": "entry-doors",
+      "canonicalSupplierUrl": "https://www.richersonsdoors.com/modern-teak",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "richersons:tg07",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/richersons/tg07-f4d45b0528bf.jpg"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": true
+      },
+      "documentsLocal": {
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
+      },
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 15,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0015.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        },
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 48,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0048.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-04.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "With Factory Installed Glass Snap-In Doorlite Frame",
+            "* 7ft Products in BC are 83” height",
+            "2 Panel Plank 1 Panel 2 Panel Plank",
+            "1 Panel Plank Camber Top Sidelite Camber Top"
+          ]
+        }
+      ],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "richersons",
+      "liveProductName": "RG21 1 Panel Plank",
+      "liveModelNumber": "RG21",
+      "collection": "Mahogany Woodgrain",
+      "category": "entry-doors",
+      "canonicalSupplierUrl": "https://www.richersonsdoors.com/mahogany-woodgrain",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "richersons:rg21",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/richersons/woodgrain-fg-rustic-1-panel-rg12-646294084c55.png"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": true
+      },
+      "documentsLocal": {
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
+      },
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 48,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0048.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-04.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "With Factory Installed Glass Snap-In Doorlite Frame",
+            "* 7ft Products in BC are 83” height",
+            "2 Panel Plank 1 Panel 2 Panel Plank",
+            "1 Panel Plank Camber Top Sidelite Camber Top"
+          ]
+        }
+      ],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "richersons",
+      "liveProductName": "RG22 2 Panel Plank Camber Top RG26 (8/0 Height)",
+      "liveModelNumber": "RG22",
+      "collection": "Mahogany Woodgrain",
+      "category": "entry-doors",
+      "canonicalSupplierUrl": "https://www.richersonsdoors.com/mahogany-woodgrain",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "richersons:rg22",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/richersons/woodgrain-fg-rustic-2panel-rg22-eb9de6de9917.png"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": true
+      },
+      "documentsLocal": {
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
+      },
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 17,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0017.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": [
+            "RG22 RG26 8’0 HEIGHT",
+            "style, providing maximum privacy with no glass requirement. Stain"
+          ]
+        },
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 48,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0048.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-04.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "With Factory Installed Glass Snap-In Doorlite Frame",
+            "* 7ft Products in BC are 83” height",
+            "2 Panel Plank 1 Panel 2 Panel Plank",
+            "1 Panel Plank Camber Top Sidelite Camber Top"
+          ]
+        }
+      ],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "richersons",
+      "liveProductName": "RG26 2 Panel Plank Camber Top RG22 (8/0 Height)",
+      "liveModelNumber": "RG26",
+      "collection": "Mahogany Woodgrain",
+      "category": "entry-doors",
+      "canonicalSupplierUrl": "https://www.richersonsdoors.com/mahogany-woodgrain",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "richersons:rg26",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/richersons/woodgrain-fg-rustic-2panel-rg22-eb9de6de9917.png"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": true
+      },
+      "documentsLocal": {
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
+      },
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 17,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0017.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": [
+            "RG22 RG26 8’0 HEIGHT",
+            "style, providing maximum privacy with no glass requirement. Stain"
+          ]
+        },
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 48,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0048.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-04.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "With Factory Installed Glass Snap-In Doorlite Frame",
+            "* 7ft Products in BC are 83” height",
+            "2 Panel Plank 1 Panel 2 Panel Plank",
+            "1 Panel Plank Camber Top Sidelite Camber Top"
+          ]
+        }
+      ],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "richersons",
+      "liveProductName": "MS35 1 Panel Sidelite",
+      "liveModelNumber": "MS35",
+      "collection": "Mahogany Woodgrain",
+      "category": "entry-doors",
+      "canonicalSupplierUrl": "https://www.richersonsdoors.com/mahogany-woodgrain",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "richersons:ms35",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/richersons/ms35-v2-bb89673394bc.jpg"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": true
+      },
+      "documentsLocal": {
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
+      },
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 48,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0048.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-04.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "With Factory Installed Glass Snap-In Doorlite Frame",
+            "* 7ft Products in BC are 83” height",
+            "2 Panel Plank 1 Panel 2 Panel Plank",
+            "1 Panel Plank Camber Top Sidelite Camber Top"
+          ]
+        }
+      ],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "richersons",
+      "liveProductName": "SG12 Smooth White (British Columbia only)",
       "liveModelNumber": "SG12",
       "collection": "Flush Glazed",
       "category": "entry-doors",
@@ -49652,10 +50450,10 @@
         "correctIdentity": true,
         "correctCategory": true,
         "correctModel": true,
-        "specificationsCaptured": false
+        "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -49663,8 +50461,8 @@
         "hardware": false
       },
       "mediaLocal": {
-        "hero": false,
-        "gallery": true,
+        "hero": true,
+        "gallery": false,
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
@@ -49680,22 +50478,42 @@
         "installationGuide": false,
         "warranty": false,
         "performanceDocument": false,
-        "catalogue": false
+        "catalogue": true
       },
       "documentsLocal": {
-        "captured": false,
-        "paths": []
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 25,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0025.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": [
+            "woodgrain slabs are consistent from door edge to glass, incorporating the",
+            "glass directly into the door and creating a clean, uninterrupted look.",
+            "glass stops and an opening to accept a glass insert that can be",
+            "interchanged in an event of glass failure or a change of home owner’s",
+            "taste. The flush glazing keeps the unit water and weather resistant for",
+            "INTEGRATED FLUSH GLAZED TRADITIONAL PROFILE FRAME",
+            "GLASS FRAME"
+          ]
+        }
+      ],
       "completeness": {
         "identityComplete": true,
-        "factsComplete": false,
+        "factsComplete": true,
         "heroMediaAvailable": true,
         "galleryAvailable": true,
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "requires-review"
+        "state": "source-complete"
       }
     },
     {
@@ -49711,10 +50529,10 @@
         "correctIdentity": true,
         "correctCategory": true,
         "correctModel": true,
-        "specificationsCaptured": false
+        "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -49722,8 +50540,8 @@
         "hardware": false
       },
       "mediaLocal": {
-        "hero": false,
-        "gallery": true,
+        "hero": true,
+        "gallery": false,
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
@@ -49739,22 +50557,63 @@
         "installationGuide": false,
         "warranty": false,
         "performanceDocument": false,
-        "catalogue": false
+        "catalogue": true
       },
       "documentsLocal": {
-        "captured": false,
-        "paths": []
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 25,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0025.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": [
+            "woodgrain slabs are consistent from door edge to glass, incorporating the",
+            "glass directly into the door and creating a clean, uninterrupted look.",
+            "glass stops and an opening to accept a glass insert that can be",
+            "interchanged in an event of glass failure or a change of home owner’s",
+            "taste. The flush glazing keeps the unit water and weather resistant for",
+            "INTEGRATED FLUSH GLAZED TRADITIONAL PROFILE FRAME",
+            "GLASS FRAME"
+          ]
+        },
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 47,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0047.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-04.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-05.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-06.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-07.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "White only Standard 22.95\" x 4.8\" 22.95\" x 4.8\" 22.95\" x 4.8\" INSULATED GLASS",
+            "Insulated Glass Insulated Glass",
+            "Smooth Glass 3/4 Lite"
+          ]
+        }
+      ],
       "completeness": {
         "identityComplete": true,
-        "factsComplete": false,
+        "factsComplete": true,
         "heroMediaAvailable": true,
         "galleryAvailable": true,
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "requires-review"
+        "state": "source-complete"
       }
     },
     {
@@ -49770,18 +50629,18 @@
         "correctIdentity": true,
         "correctCategory": true,
         "correctModel": true,
-        "specificationsCaptured": false
+        "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
+        "hero": true,
+        "gallery": true,
         "technicalDrawings": false,
         "colourFinish": false,
         "glass": false,
         "hardware": false
       },
       "mediaLocal": {
-        "hero": false,
+        "hero": true,
         "gallery": true,
         "technicalDrawings": false,
         "configuration": false,
@@ -49789,10 +50648,121 @@
         "glass": false,
         "hardware": false,
         "paths": [
-          "/images/catalog/richersons/flushglaze-neulite-sg10-brushed-new-d8923295862e.jpg",
           "/images/catalog/richersons/flushglaze-neulite-sg10-new-01977ec9add9.jpg",
           "/images/catalog/richersons/sdl1-25-neulite-sg10-795118f99f8f.jpg",
           "/images/catalog/richersons/sdl3-5-neulite-sg10-253f3f364557.jpg"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": true
+      },
+      "documentsLocal": {
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
+      },
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 26,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0026.txt",
+          "tables": [],
+          "images": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0026-image-01.jpg"
+          ],
+          "factCandidates": [
+            "impact on how your rooms feel. Our glazing",
+            "Low-E glass option provides Argon gas filled",
+            "summer. Available glass options are designed to",
+            "combination of performance, durability, security"
+          ]
+        },
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 27,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0027.txt",
+          "tables": [],
+          "images": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0027-image-01.jpg"
+          ],
+          "factCandidates": [
+            "glass and can be ordered with or without grilles between the glass."
+          ]
+        },
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 47,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0047.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-04.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-05.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-06.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-07.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "White only Standard 22.95\" x 4.8\" 22.95\" x 4.8\" 22.95\" x 4.8\" INSULATED GLASS",
+            "Insulated Glass Insulated Glass",
+            "Smooth Glass 3/4 Lite"
+          ]
+        }
+      ],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "richersons",
+      "liveProductName": "BW10 Brush White (79”) / BW11 (95”)",
+      "liveModelNumber": "BW10",
+      "collection": "Flush Glazed",
+      "category": "entry-doors",
+      "canonicalSupplierUrl": "https://www.richersonsdoors.com/flush-glazed",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "richersons:bw10",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/richersons/flushglaze-neulite-sg10-brushed-new-d8923295862e.jpg"
         ]
       },
       "documentsAvailableLive": {
@@ -49810,13 +50780,264 @@
       "pdfEvidence": [],
       "completeness": {
         "identityComplete": true,
-        "factsComplete": false,
+        "factsComplete": true,
         "heroMediaAvailable": true,
         "galleryAvailable": true,
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "requires-review"
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "richersons",
+      "liveProductName": "BW11 Brush White BW10 (79”) / (95”)",
+      "liveModelNumber": "BW11",
+      "collection": "Flush Glazed",
+      "category": "entry-doors",
+      "canonicalSupplierUrl": "https://www.richersonsdoors.com/flush-glazed",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "richersons:bw11",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/richersons/flushglaze-neulite-sg10-brushed-new-d8923295862e.jpg"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": false
+      },
+      "documentsLocal": {
+        "captured": false,
+        "paths": []
+      },
+      "pdfEvidence": [],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "richersons",
+      "liveProductName": "BK10 Brush Black (79”) / BK11 (95”)",
+      "liveModelNumber": "BK10",
+      "collection": "Flush Glazed",
+      "category": "entry-doors",
+      "canonicalSupplierUrl": "https://www.richersonsdoors.com/flush-glazed",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "richersons:bk10",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/richersons/blackbrushfull-f1f92dc1db5d.png"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": true
+      },
+      "documentsLocal": {
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
+      },
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 7,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0007.txt",
+          "tables": [],
+          "images": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0007-image-01.jpg"
+          ],
+          "factCandidates": [
+            "Direct glazed with insulated 1” glass to streamline installation and",
+            "minimize the risk of seal failure. The shaker-style glass stops offer a",
+            "The pre-pigmented brush texture skin in trendy black colour reduces",
+            "* For glass options (Low-E, Translucent & Mini-Blinds), please consult the program offering."
+          ]
+        },
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 49,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0049.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0049-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0049-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0049-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0049-table-04.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0049-table-05.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "* For glass options (Low-E, Translucent & Mini-Blinds), please consult the program offering.",
+            "8ft 2 Panel 8ft Sidelite"
+          ]
+        }
+      ],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "richersons",
+      "liveProductName": "BK11 Brush Black BK10 (79”) / (95”)",
+      "liveModelNumber": "BK11",
+      "collection": "Flush Glazed",
+      "category": "entry-doors",
+      "canonicalSupplierUrl": "https://www.richersonsdoors.com/flush-glazed",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "richersons:bk11",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/richersons/blackbrushfull-f1f92dc1db5d.png"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": true
+      },
+      "documentsLocal": {
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
+      },
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 7,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0007.txt",
+          "tables": [],
+          "images": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0007-image-01.jpg"
+          ],
+          "factCandidates": [
+            "Direct glazed with insulated 1” glass to streamline installation and",
+            "minimize the risk of seal failure. The shaker-style glass stops offer a",
+            "The pre-pigmented brush texture skin in trendy black colour reduces",
+            "* For glass options (Low-E, Translucent & Mini-Blinds), please consult the program offering."
+          ]
+        },
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 49,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0049.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0049-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0049-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0049-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0049-table-04.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0049-table-05.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "* For glass options (Low-E, Translucent & Mini-Blinds), please consult the program offering.",
+            "8ft 2 Panel 8ft Sidelite"
+          ]
+        }
+      ],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
       }
     },
     {
@@ -49835,7 +51056,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -49843,14 +51064,16 @@
         "hardware": false
       },
       "mediaLocal": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
         "glass": false,
         "hardware": false,
-        "paths": []
+        "paths": [
+          "/images/catalog/richersons/flushglaze-smoothwhite-sg24-3-4lite-tm-121c910cd8a0.jpg"
+        ]
       },
       "documentsAvailableLive": {
         "brochure": false,
@@ -49873,7 +51096,7 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
@@ -49892,7 +51115,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -49900,14 +51123,16 @@
         "hardware": false
       },
       "mediaLocal": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
         "glass": false,
         "hardware": false,
-        "paths": []
+        "paths": [
+          "/images/catalog/richersons/flushglaze-woodgrain-wg24-3-4lite-5d78b0fad5c9.png"
+        ]
       },
       "documentsAvailableLive": {
         "brochure": false,
@@ -49915,13 +51140,37 @@
         "installationGuide": false,
         "warranty": false,
         "performanceDocument": false,
-        "catalogue": false
+        "catalogue": true
       },
       "documentsLocal": {
-        "captured": false,
-        "paths": []
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 47,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0047.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-04.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-05.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-06.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-07.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "White only Standard 22.95\" x 4.8\" 22.95\" x 4.8\" 22.95\" x 4.8\" INSULATED GLASS",
+            "Insulated Glass Insulated Glass",
+            "Smooth Glass 3/4 Lite"
+          ]
+        }
+      ],
       "completeness": {
         "identityComplete": true,
         "factsComplete": true,
@@ -49930,7 +51179,199 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "richersons",
+      "liveProductName": "BK27 Brush Black (79”) / BK28 (95”)",
+      "liveModelNumber": "BK27",
+      "collection": "Flush Glazed",
+      "category": "entry-doors",
+      "canonicalSupplierUrl": "https://www.richersonsdoors.com/flush-glazed",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "richersons:bk27",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/richersons/blackbrush34-ffde05a221cc.png"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": true
+      },
+      "documentsLocal": {
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
+      },
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 9,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0009.txt",
+          "tables": [],
+          "images": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0009-image-02.jpg"
+          ],
+          "factCandidates": [
+            "benefits as the direct glazed 1” glass and black pre-pigmented",
+            "bottom recessed panel exhibits a deep profile that creates",
+            "Optional SDL can be added to the panel to achieve a tailored",
+            "* For glass options (Low-E, Translucent & Mini-Blinds), please consult the program offering."
+          ]
+        },
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 49,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0049.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0049-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0049-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0049-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0049-table-04.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0049-table-05.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "* For glass options (Low-E, Translucent & Mini-Blinds), please consult the program offering.",
+            "8ft 2 Panel 8ft Sidelite"
+          ]
+        }
+      ],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "richersons",
+      "liveProductName": "BK28 Brush Black BK27 (79”) / (95”)",
+      "liveModelNumber": "BK28",
+      "collection": "Flush Glazed",
+      "category": "entry-doors",
+      "canonicalSupplierUrl": "https://www.richersonsdoors.com/flush-glazed",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "richersons:bk28",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/richersons/blackbrush34-ffde05a221cc.png"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": true
+      },
+      "documentsLocal": {
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
+      },
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 9,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0009.txt",
+          "tables": [],
+          "images": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0009-image-02.jpg"
+          ],
+          "factCandidates": [
+            "benefits as the direct glazed 1” glass and black pre-pigmented",
+            "bottom recessed panel exhibits a deep profile that creates",
+            "Optional SDL can be added to the panel to achieve a tailored",
+            "* For glass options (Low-E, Translucent & Mini-Blinds), please consult the program offering."
+          ]
+        },
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 49,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0049.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0049-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0049-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0049-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0049-table-04.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0049-table-05.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "* For glass options (Low-E, Translucent & Mini-Blinds), please consult the program offering.",
+            "8ft 2 Panel 8ft Sidelite"
+          ]
+        }
+      ],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
       }
     },
     {
@@ -49949,7 +51390,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -49957,8 +51398,8 @@
         "hardware": false
       },
       "mediaLocal": {
-        "hero": false,
-        "gallery": true,
+        "hero": true,
+        "gallery": false,
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
@@ -49989,7 +51430,7 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
@@ -50008,7 +51449,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -50016,8 +51457,8 @@
         "hardware": false
       },
       "mediaLocal": {
-        "hero": false,
-        "gallery": true,
+        "hero": true,
+        "gallery": false,
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
@@ -50048,7 +51489,7 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
@@ -50067,7 +51508,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -50075,14 +51516,16 @@
         "hardware": false
       },
       "mediaLocal": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
         "glass": false,
         "hardware": false,
-        "paths": []
+        "paths": [
+          "/images/catalog/richersons/flushglaze-smoothwhite-narrowlite-sg11-new-74629a45537d.jpg"
+        ]
       },
       "documentsAvailableLive": {
         "brochure": false,
@@ -50090,13 +51533,46 @@
         "installationGuide": false,
         "warranty": false,
         "performanceDocument": false,
-        "catalogue": false
+        "catalogue": true
       },
       "documentsLocal": {
-        "captured": false,
-        "paths": []
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 29,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0029.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        },
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 47,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0047.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-04.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-05.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-06.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-07.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "White only Standard 22.95\" x 4.8\" 22.95\" x 4.8\" 22.95\" x 4.8\" INSULATED GLASS",
+            "Insulated Glass Insulated Glass",
+            "Smooth Glass 3/4 Lite"
+          ]
+        }
+      ],
       "completeness": {
         "identityComplete": true,
         "factsComplete": true,
@@ -50105,7 +51581,7 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
@@ -50124,7 +51600,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -50132,14 +51608,16 @@
         "hardware": false
       },
       "mediaLocal": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
         "glass": false,
         "hardware": false,
-        "paths": []
+        "paths": [
+          "/images/catalog/richersons/woodgrain-fg-narrow-ba1958d1b4c7.jpg"
+        ]
       },
       "documentsAvailableLive": {
         "brochure": false,
@@ -50147,13 +51625,55 @@
         "installationGuide": false,
         "warranty": false,
         "performanceDocument": false,
-        "catalogue": false
+        "catalogue": true
       },
       "documentsLocal": {
-        "captured": false,
-        "paths": []
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 29,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0029.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        },
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 37,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0037.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        },
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 47,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0047.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-04.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-05.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-06.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-07.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "White only Standard 22.95\" x 4.8\" 22.95\" x 4.8\" 22.95\" x 4.8\" INSULATED GLASS",
+            "Insulated Glass Insulated Glass",
+            "Smooth Glass 3/4 Lite"
+          ]
+        }
+      ],
       "completeness": {
         "identityComplete": true,
         "factsComplete": true,
@@ -50162,12 +51682,12 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
       "supplier": "richersons",
-      "liveProductName": "SG3L Smooth White  (British Columbia only)",
+      "liveProductName": "SG3L Smooth White (British Columbia only)",
       "liveModelNumber": "SG3L",
       "collection": "Flush Glazed",
       "category": "entry-doors",
@@ -50181,7 +51701,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -50189,14 +51709,16 @@
         "hardware": false
       },
       "mediaLocal": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
         "glass": false,
         "hardware": false,
-        "paths": []
+        "paths": [
+          "/images/catalog/richersons/2013-nanya-3lite-sg-cmyk-466827475324.jpg"
+        ]
       },
       "documentsAvailableLive": {
         "brochure": false,
@@ -50219,7 +51741,7 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
@@ -50238,7 +51760,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -50246,14 +51768,16 @@
         "hardware": false
       },
       "mediaLocal": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
         "glass": false,
         "hardware": false,
-        "paths": []
+        "paths": [
+          "/images/catalog/richersons/fc-sg14-4lite-spotlite-408b0a9810fd.jpg"
+        ]
       },
       "documentsAvailableLive": {
         "brochure": false,
@@ -50261,13 +51785,46 @@
         "installationGuide": false,
         "warranty": false,
         "performanceDocument": false,
-        "catalogue": false
+        "catalogue": true
       },
       "documentsLocal": {
-        "captured": false,
-        "paths": []
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 31,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0031.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        },
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 47,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0047.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-04.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-05.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-06.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-07.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "White only Standard 22.95\" x 4.8\" 22.95\" x 4.8\" 22.95\" x 4.8\" INSULATED GLASS",
+            "Insulated Glass Insulated Glass",
+            "Smooth Glass 3/4 Lite"
+          ]
+        }
+      ],
       "completeness": {
         "identityComplete": true,
         "factsComplete": true,
@@ -50276,7 +51833,7 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
@@ -50295,7 +51852,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -50303,8 +51860,8 @@
         "hardware": false
       },
       "mediaLocal": {
-        "hero": false,
-        "gallery": true,
+        "hero": true,
+        "gallery": false,
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
@@ -50320,13 +51877,48 @@
         "installationGuide": false,
         "warranty": false,
         "performanceDocument": false,
-        "catalogue": false
+        "catalogue": true
       },
       "documentsLocal": {
-        "captured": false,
-        "paths": []
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 35,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0035.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": [
+            "The strength of fiberglass with the beauty and warmth of wood and the highest standard of performance."
+          ]
+        },
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 46,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0046.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-04.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "4 Panel 4 Panel 2 Panel 6 Panel 2 Panel",
+            "Flush Flush Top 6 Panel 3/4 Lite 3/4 Lite 1/4 Lite 1/2 Lite",
+            "4 Panel 2 Panel 6 Panel 1 Panel Full",
+            "Flush 3/4 Oval 6 Panel 3/4 Lite 3/4 Lite 1/4 Lite Planks Planks",
+            "4 Panel 4 Panel",
+            "Flush 6 Panel 3/4 Lite Flush 6 Panel 3/4 Lite"
+          ]
+        }
+      ],
       "completeness": {
         "identityComplete": true,
         "factsComplete": true,
@@ -50335,7 +51927,7 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
@@ -50354,7 +51946,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -50362,8 +51954,8 @@
         "hardware": false
       },
       "mediaLocal": {
-        "hero": false,
-        "gallery": true,
+        "hero": true,
+        "gallery": false,
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
@@ -50379,13 +51971,48 @@
         "installationGuide": false,
         "warranty": false,
         "performanceDocument": false,
-        "catalogue": false
+        "catalogue": true
       },
       "documentsLocal": {
-        "captured": false,
-        "paths": []
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 35,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0035.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": [
+            "The strength of fiberglass with the beauty and warmth of wood and the highest standard of performance."
+          ]
+        },
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 46,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0046.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-04.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "4 Panel 4 Panel 2 Panel 6 Panel 2 Panel",
+            "Flush Flush Top 6 Panel 3/4 Lite 3/4 Lite 1/4 Lite 1/2 Lite",
+            "4 Panel 2 Panel 6 Panel 1 Panel Full",
+            "Flush 3/4 Oval 6 Panel 3/4 Lite 3/4 Lite 1/4 Lite Planks Planks",
+            "4 Panel 4 Panel",
+            "Flush 6 Panel 3/4 Lite Flush 6 Panel 3/4 Lite"
+          ]
+        }
+      ],
       "completeness": {
         "identityComplete": true,
         "factsComplete": true,
@@ -50394,7 +52021,7 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
@@ -50413,7 +52040,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -50421,8 +52048,8 @@
         "hardware": false
       },
       "mediaLocal": {
-        "hero": false,
-        "gallery": true,
+        "hero": true,
+        "gallery": false,
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
@@ -50453,7 +52080,7 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
@@ -50472,7 +52099,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -50480,8 +52107,8 @@
         "hardware": false
       },
       "mediaLocal": {
-        "hero": false,
-        "gallery": true,
+        "hero": true,
+        "gallery": false,
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
@@ -50497,13 +52124,48 @@
         "installationGuide": false,
         "warranty": false,
         "performanceDocument": false,
-        "catalogue": false
+        "catalogue": true
       },
       "documentsLocal": {
-        "captured": false,
-        "paths": []
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 35,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0035.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": [
+            "The strength of fiberglass with the beauty and warmth of wood and the highest standard of performance."
+          ]
+        },
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 46,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0046.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-04.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "4 Panel 4 Panel 2 Panel 6 Panel 2 Panel",
+            "Flush Flush Top 6 Panel 3/4 Lite 3/4 Lite 1/4 Lite 1/2 Lite",
+            "4 Panel 2 Panel 6 Panel 1 Panel Full",
+            "Flush 3/4 Oval 6 Panel 3/4 Lite 3/4 Lite 1/4 Lite Planks Planks",
+            "4 Panel 4 Panel",
+            "Flush 6 Panel 3/4 Lite Flush 6 Panel 3/4 Lite"
+          ]
+        }
+      ],
       "completeness": {
         "identityComplete": true,
         "factsComplete": true,
@@ -50512,7 +52174,7 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
@@ -50531,7 +52193,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -50539,8 +52201,8 @@
         "hardware": false
       },
       "mediaLocal": {
-        "hero": false,
-        "gallery": true,
+        "hero": true,
+        "gallery": false,
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
@@ -50556,13 +52218,48 @@
         "installationGuide": false,
         "warranty": false,
         "performanceDocument": false,
-        "catalogue": false
+        "catalogue": true
       },
       "documentsLocal": {
-        "captured": false,
-        "paths": []
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 35,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0035.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": [
+            "The strength of fiberglass with the beauty and warmth of wood and the highest standard of performance."
+          ]
+        },
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 46,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0046.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-04.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "4 Panel 4 Panel 2 Panel 6 Panel 2 Panel",
+            "Flush Flush Top 6 Panel 3/4 Lite 3/4 Lite 1/4 Lite 1/2 Lite",
+            "4 Panel 2 Panel 6 Panel 1 Panel Full",
+            "Flush 3/4 Oval 6 Panel 3/4 Lite 3/4 Lite 1/4 Lite Planks Planks",
+            "4 Panel 4 Panel",
+            "Flush 6 Panel 3/4 Lite Flush 6 Panel 3/4 Lite"
+          ]
+        }
+      ],
       "completeness": {
         "identityComplete": true,
         "factsComplete": true,
@@ -50571,7 +52268,7 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
@@ -50590,7 +52287,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -50598,8 +52295,8 @@
         "hardware": false
       },
       "mediaLocal": {
-        "hero": false,
-        "gallery": true,
+        "hero": true,
+        "gallery": false,
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
@@ -50615,13 +52312,37 @@
         "installationGuide": false,
         "warranty": false,
         "performanceDocument": false,
-        "catalogue": false
+        "catalogue": true
       },
       "documentsLocal": {
-        "captured": false,
-        "paths": []
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 46,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0046.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-04.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "4 Panel 4 Panel 2 Panel 6 Panel 2 Panel",
+            "Flush Flush Top 6 Panel 3/4 Lite 3/4 Lite 1/4 Lite 1/2 Lite",
+            "4 Panel 2 Panel 6 Panel 1 Panel Full",
+            "Flush 3/4 Oval 6 Panel 3/4 Lite 3/4 Lite 1/4 Lite Planks Planks",
+            "4 Panel 4 Panel",
+            "Flush 6 Panel 3/4 Lite Flush 6 Panel 3/4 Lite"
+          ]
+        }
+      ],
       "completeness": {
         "identityComplete": true,
         "factsComplete": true,
@@ -50630,7 +52351,7 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
@@ -50649,7 +52370,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -50657,72 +52378,15 @@
         "hardware": false
       },
       "mediaLocal": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
-        "technicalDrawings": false,
-        "configuration": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false,
-        "paths": []
-      },
-      "documentsAvailableLive": {
-        "brochure": false,
-        "specificationSheet": false,
-        "installationGuide": false,
-        "warranty": false,
-        "performanceDocument": false,
-        "catalogue": false
-      },
-      "documentsLocal": {
-        "captured": false,
-        "paths": []
-      },
-      "pdfEvidence": [],
-      "completeness": {
-        "identityComplete": true,
-        "factsComplete": true,
-        "heroMediaAvailable": true,
-        "galleryAvailable": true,
-        "technicalMediaAvailable": true,
-        "documentsAvailable": true,
-        "sourceVerified": true,
-        "state": "verification-pending"
-      }
-    },
-    {
-      "supplier": "richersons",
-      "liveProductName": "WG68 6 Panel",
-      "liveModelNumber": "WG68",
-      "collection": "Oak Woodgrain",
-      "category": "entry-doors",
-      "canonicalSupplierUrl": "https://www.richersonsdoors.com/oak-woodgrain",
-      "catalogue": {
-        "recordExists": true,
-        "productId": "richersons:wg68",
-        "correctIdentity": true,
-        "correctCategory": true,
-        "correctModel": true,
-        "specificationsCaptured": true
-      },
-      "mediaAvailableLive": {
-        "hero": false,
-        "gallery": false,
-        "technicalDrawings": false,
-        "colourFinish": false,
-        "glass": false,
-        "hardware": false
-      },
-      "mediaLocal": {
-        "hero": false,
-        "gallery": true,
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
         "glass": false,
         "hardware": false,
         "paths": [
-          "/images/catalog/richersons/wg68-db4b46e77075.jpg"
+          "/images/catalog/richersons/wgf6-442ebdd47450.jpg"
         ]
       },
       "documentsAvailableLive": {
@@ -50746,12 +52410,106 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
       "supplier": "richersons",
-      "liveProductName": "WG3B 3 Panel Curve Top  (British Columbia only)",
+      "liveProductName": "WG68 6 Panel",
+      "liveModelNumber": "WG68",
+      "collection": "Oak Woodgrain",
+      "category": "entry-doors",
+      "canonicalSupplierUrl": "https://www.richersonsdoors.com/oak-woodgrain",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "richersons:wg68",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/richersons/wg68-db4b46e77075.jpg"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": true
+      },
+      "documentsLocal": {
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
+      },
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 35,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0035.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": [
+            "The strength of fiberglass with the beauty and warmth of wood and the highest standard of performance."
+          ]
+        },
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 46,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0046.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-04.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "4 Panel 4 Panel 2 Panel 6 Panel 2 Panel",
+            "Flush Flush Top 6 Panel 3/4 Lite 3/4 Lite 1/4 Lite 1/2 Lite",
+            "4 Panel 2 Panel 6 Panel 1 Panel Full",
+            "Flush 3/4 Oval 6 Panel 3/4 Lite 3/4 Lite 1/4 Lite Planks Planks",
+            "4 Panel 4 Panel",
+            "Flush 6 Panel 3/4 Lite Flush 6 Panel 3/4 Lite"
+          ]
+        }
+      ],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "richersons",
+      "liveProductName": "WG3B 3 Panel Curve Top (British Columbia only)",
       "liveModelNumber": "WG3B",
       "collection": "Oak Woodgrain",
       "category": "entry-doors",
@@ -50765,7 +52523,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -50773,14 +52531,16 @@
         "hardware": false
       },
       "mediaLocal": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
         "glass": false,
         "hardware": false,
-        "paths": []
+        "paths": [
+          "/images/catalog/richersons/wg3b-8137481d058a.jpg"
+        ]
       },
       "documentsAvailableLive": {
         "brochure": false,
@@ -50803,12 +52563,12 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
       "supplier": "richersons",
-      "liveProductName": "WG48 New England  (British Columbia only)",
+      "liveProductName": "WG48 New England (British Columbia only)",
       "liveModelNumber": "WG48",
       "collection": "Oak Woodgrain",
       "category": "entry-doors",
@@ -50822,7 +52582,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -50830,14 +52590,16 @@
         "hardware": false
       },
       "mediaLocal": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
         "glass": false,
         "hardware": false,
-        "paths": []
+        "paths": [
+          "/images/catalog/richersons/wg48-6fa2c6a38cc6.jpg"
+        ]
       },
       "documentsAvailableLive": {
         "brochure": false,
@@ -50860,12 +52622,12 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
       "supplier": "richersons",
-      "liveProductName": "WG20 2 Panel  (British Columbia only)",
+      "liveProductName": "WG20 2 Panel (British Columbia only)",
       "liveModelNumber": "WG20",
       "collection": "Oak Woodgrain",
       "category": "entry-doors",
@@ -50879,7 +52641,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -50887,14 +52649,16 @@
         "hardware": false
       },
       "mediaLocal": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
         "glass": false,
         "hardware": false,
-        "paths": []
+        "paths": [
+          "/images/catalog/richersons/wg20-26709ba89264.jpg"
+        ]
       },
       "documentsAvailableLive": {
         "brochure": false,
@@ -50917,7 +52681,7 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
@@ -50936,7 +52700,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -50944,14 +52708,16 @@
         "hardware": false
       },
       "mediaLocal": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
         "glass": false,
         "hardware": false,
-        "paths": []
+        "paths": [
+          "/images/catalog/richersons/wgf0-6f0c4bb1728e.jpg"
+        ]
       },
       "documentsAvailableLive": {
         "brochure": false,
@@ -50959,13 +52725,48 @@
         "installationGuide": false,
         "warranty": false,
         "performanceDocument": false,
-        "catalogue": false
+        "catalogue": true
       },
       "documentsLocal": {
-        "captured": false,
-        "paths": []
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 35,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0035.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": [
+            "The strength of fiberglass with the beauty and warmth of wood and the highest standard of performance."
+          ]
+        },
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 46,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0046.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-04.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "4 Panel 4 Panel 2 Panel 6 Panel 2 Panel",
+            "Flush Flush Top 6 Panel 3/4 Lite 3/4 Lite 1/4 Lite 1/2 Lite",
+            "4 Panel 2 Panel 6 Panel 1 Panel Full",
+            "Flush 3/4 Oval 6 Panel 3/4 Lite 3/4 Lite 1/4 Lite Planks Planks",
+            "4 Panel 4 Panel",
+            "Flush 6 Panel 3/4 Lite Flush 6 Panel 3/4 Lite"
+          ]
+        }
+      ],
       "completeness": {
         "identityComplete": true,
         "factsComplete": true,
@@ -50974,7 +52775,7 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
@@ -50993,7 +52794,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -51001,14 +52802,16 @@
         "hardware": false
       },
       "mediaLocal": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
         "glass": false,
         "hardware": false,
-        "paths": []
+        "paths": [
+          "/images/catalog/richersons/sg68-ec0ad4b374de.jpg"
+        ]
       },
       "documentsAvailableLive": {
         "brochure": false,
@@ -51016,13 +52819,48 @@
         "installationGuide": false,
         "warranty": false,
         "performanceDocument": false,
-        "catalogue": false
+        "catalogue": true
       },
       "documentsLocal": {
-        "captured": false,
-        "paths": []
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 39,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0039.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": [
+            "paint colours and carries a 25 year limited manufacturer’s warranty."
+          ]
+        },
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 46,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0046.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-04.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "4 Panel 4 Panel 2 Panel 6 Panel 2 Panel",
+            "Flush Flush Top 6 Panel 3/4 Lite 3/4 Lite 1/4 Lite 1/2 Lite",
+            "4 Panel 2 Panel 6 Panel 1 Panel Full",
+            "Flush 3/4 Oval 6 Panel 3/4 Lite 3/4 Lite 1/4 Lite Planks Planks",
+            "4 Panel 4 Panel",
+            "Flush 6 Panel 3/4 Lite Flush 6 Panel 3/4 Lite"
+          ]
+        }
+      ],
       "completeness": {
         "identityComplete": true,
         "factsComplete": true,
@@ -51031,7 +52869,7 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
@@ -51050,7 +52888,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -51058,14 +52896,16 @@
         "hardware": false
       },
       "mediaLocal": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
         "glass": false,
         "hardware": false,
-        "paths": []
+        "paths": [
+          "/images/catalog/richersons/sg00-537c56a52718.jpg"
+        ]
       },
       "documentsAvailableLive": {
         "brochure": false,
@@ -51073,13 +52913,48 @@
         "installationGuide": false,
         "warranty": false,
         "performanceDocument": false,
-        "catalogue": false
+        "catalogue": true
       },
       "documentsLocal": {
-        "captured": false,
-        "paths": []
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 39,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0039.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": [
+            "paint colours and carries a 25 year limited manufacturer’s warranty."
+          ]
+        },
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 46,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0046.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-04.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "4 Panel 4 Panel 2 Panel 6 Panel 2 Panel",
+            "Flush Flush Top 6 Panel 3/4 Lite 3/4 Lite 1/4 Lite 1/2 Lite",
+            "4 Panel 2 Panel 6 Panel 1 Panel Full",
+            "Flush 3/4 Oval 6 Panel 3/4 Lite 3/4 Lite 1/4 Lite Planks Planks",
+            "4 Panel 4 Panel",
+            "Flush 6 Panel 3/4 Lite Flush 6 Panel 3/4 Lite"
+          ]
+        }
+      ],
       "completeness": {
         "identityComplete": true,
         "factsComplete": true,
@@ -51088,7 +52963,7 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
@@ -51107,7 +52982,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -51115,14 +52990,16 @@
         "hardware": false
       },
       "mediaLocal": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
         "glass": false,
         "hardware": false,
-        "paths": []
+        "paths": [
+          "/images/catalog/richersons/image-asset-12b1322b2d40.jpeg"
+        ]
       },
       "documentsAvailableLive": {
         "brochure": false,
@@ -51130,13 +53007,48 @@
         "installationGuide": false,
         "warranty": false,
         "performanceDocument": false,
-        "catalogue": false
+        "catalogue": true
       },
       "documentsLocal": {
-        "captured": false,
-        "paths": []
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 39,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0039.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": [
+            "paint colours and carries a 25 year limited manufacturer’s warranty."
+          ]
+        },
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 46,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0046.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-04.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "4 Panel 4 Panel 2 Panel 6 Panel 2 Panel",
+            "Flush Flush Top 6 Panel 3/4 Lite 3/4 Lite 1/4 Lite 1/2 Lite",
+            "4 Panel 2 Panel 6 Panel 1 Panel Full",
+            "Flush 3/4 Oval 6 Panel 3/4 Lite 3/4 Lite 1/4 Lite Planks Planks",
+            "4 Panel 4 Panel",
+            "Flush 6 Panel 3/4 Lite Flush 6 Panel 3/4 Lite"
+          ]
+        }
+      ],
       "completeness": {
         "identityComplete": true,
         "factsComplete": true,
@@ -51145,7 +53057,7 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
@@ -51164,7 +53076,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -51172,14 +53084,16 @@
         "hardware": false
       },
       "mediaLocal": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
         "glass": false,
         "hardware": false,
-        "paths": []
+        "paths": [
+          "/images/catalog/richersons/sg49-aa7ba28a7315.jpg"
+        ]
       },
       "documentsAvailableLive": {
         "brochure": false,
@@ -51187,13 +53101,48 @@
         "installationGuide": false,
         "warranty": false,
         "performanceDocument": false,
-        "catalogue": false
+        "catalogue": true
       },
       "documentsLocal": {
-        "captured": false,
-        "paths": []
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 39,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0039.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": [
+            "paint colours and carries a 25 year limited manufacturer’s warranty."
+          ]
+        },
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 46,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0046.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-04.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "4 Panel 4 Panel 2 Panel 6 Panel 2 Panel",
+            "Flush Flush Top 6 Panel 3/4 Lite 3/4 Lite 1/4 Lite 1/2 Lite",
+            "4 Panel 2 Panel 6 Panel 1 Panel Full",
+            "Flush 3/4 Oval 6 Panel 3/4 Lite 3/4 Lite 1/4 Lite Planks Planks",
+            "4 Panel 4 Panel",
+            "Flush 6 Panel 3/4 Lite Flush 6 Panel 3/4 Lite"
+          ]
+        }
+      ],
       "completeness": {
         "identityComplete": true,
         "factsComplete": true,
@@ -51202,7 +53151,7 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
@@ -51221,7 +53170,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -51229,14 +53178,16 @@
         "hardware": false
       },
       "mediaLocal": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
         "glass": false,
         "hardware": false,
-        "paths": []
+        "paths": [
+          "/images/catalog/richersons/image-asset-4de7ce069f5b.jpeg"
+        ]
       },
       "documentsAvailableLive": {
         "brochure": false,
@@ -51244,13 +53195,48 @@
         "installationGuide": false,
         "warranty": false,
         "performanceDocument": false,
-        "catalogue": false
+        "catalogue": true
       },
       "documentsLocal": {
-        "captured": false,
-        "paths": []
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 39,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0039.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": [
+            "paint colours and carries a 25 year limited manufacturer’s warranty."
+          ]
+        },
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 46,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0046.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-04.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "4 Panel 4 Panel 2 Panel 6 Panel 2 Panel",
+            "Flush Flush Top 6 Panel 3/4 Lite 3/4 Lite 1/4 Lite 1/2 Lite",
+            "4 Panel 2 Panel 6 Panel 1 Panel Full",
+            "Flush 3/4 Oval 6 Panel 3/4 Lite 3/4 Lite 1/4 Lite Planks Planks",
+            "4 Panel 4 Panel",
+            "Flush 6 Panel 3/4 Lite Flush 6 Panel 3/4 Lite"
+          ]
+        }
+      ],
       "completeness": {
         "identityComplete": true,
         "factsComplete": true,
@@ -51259,7 +53245,7 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
@@ -51278,7 +53264,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -51286,14 +53272,16 @@
         "hardware": false
       },
       "mediaLocal": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
         "glass": false,
         "hardware": false,
-        "paths": []
+        "paths": [
+          "/images/catalog/richersons/image-asset-bb7b5174d926.jpeg"
+        ]
       },
       "documentsAvailableLive": {
         "brochure": false,
@@ -51301,13 +53289,37 @@
         "installationGuide": false,
         "warranty": false,
         "performanceDocument": false,
-        "catalogue": false
+        "catalogue": true
       },
       "documentsLocal": {
-        "captured": false,
-        "paths": []
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 46,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0046.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-04.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "4 Panel 4 Panel 2 Panel 6 Panel 2 Panel",
+            "Flush Flush Top 6 Panel 3/4 Lite 3/4 Lite 1/4 Lite 1/2 Lite",
+            "4 Panel 2 Panel 6 Panel 1 Panel Full",
+            "Flush 3/4 Oval 6 Panel 3/4 Lite 3/4 Lite 1/4 Lite Planks Planks",
+            "4 Panel 4 Panel",
+            "Flush 6 Panel 3/4 Lite Flush 6 Panel 3/4 Lite"
+          ]
+        }
+      ],
       "completeness": {
         "identityComplete": true,
         "factsComplete": true,
@@ -51316,12 +53328,12 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
       "supplier": "richersons",
-      "liveProductName": "SG3B 3 Panel Curve Top  (British Columbia only)",
+      "liveProductName": "SG3B 3 Panel Curve Top (British Columbia only)",
       "liveModelNumber": "SG3B",
       "collection": "Smooth White",
       "category": "entry-doors",
@@ -51335,7 +53347,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -51343,14 +53355,16 @@
         "hardware": false
       },
       "mediaLocal": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
         "glass": false,
         "hardware": false,
-        "paths": []
+        "paths": [
+          "/images/catalog/richersons/image-asset-2628008e588b.jpeg"
+        ]
       },
       "documentsAvailableLive": {
         "brochure": false,
@@ -51373,7 +53387,7 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
@@ -51392,7 +53406,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -51400,14 +53414,16 @@
         "hardware": false
       },
       "mediaLocal": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
         "glass": false,
         "hardware": false,
-        "paths": []
+        "paths": [
+          "/images/catalog/richersons/sg20-088a89f6f1e9.jpg"
+        ]
       },
       "documentsAvailableLive": {
         "brochure": false,
@@ -51415,13 +53431,37 @@
         "installationGuide": false,
         "warranty": false,
         "performanceDocument": false,
-        "catalogue": false
+        "catalogue": true
       },
       "documentsLocal": {
-        "captured": false,
-        "paths": []
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
       },
-      "pdfEvidence": [],
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 46,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0046.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-04.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "4 Panel 4 Panel 2 Panel 6 Panel 2 Panel",
+            "Flush Flush Top 6 Panel 3/4 Lite 3/4 Lite 1/4 Lite 1/2 Lite",
+            "4 Panel 2 Panel 6 Panel 1 Panel Full",
+            "Flush 3/4 Oval 6 Panel 3/4 Lite 3/4 Lite 1/4 Lite Planks Planks",
+            "4 Panel 4 Panel",
+            "Flush 6 Panel 3/4 Lite Flush 6 Panel 3/4 Lite"
+          ]
+        }
+      ],
       "completeness": {
         "identityComplete": true,
         "factsComplete": true,
@@ -51430,12 +53470,12 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
       }
     },
     {
       "supplier": "richersons",
-      "liveProductName": "SG48 New England  (British Columbia only)",
+      "liveProductName": "SG48 New England (British Columbia only)",
       "liveModelNumber": "SG48",
       "collection": "Smooth White",
       "category": "entry-doors",
@@ -51449,7 +53489,7 @@
         "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -51457,14 +53497,16 @@
         "hardware": false
       },
       "mediaLocal": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
         "glass": false,
         "hardware": false,
-        "paths": []
+        "paths": [
+          "/images/catalog/richersons/sg48-17634eeee38d.jpg"
+        ]
       },
       "documentsAvailableLive": {
         "brochure": false,
@@ -51487,7 +53529,99 @@
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "verification-pending"
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "richersons",
+      "liveProductName": "FG4H",
+      "liveModelNumber": "FG4H",
+      "collection": "Craftsman",
+      "category": "entry-doors",
+      "canonicalSupplierUrl": "https://www.richersonsdoors.com/craftsman",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "richersons:fg4h",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/richersons/fg4h-cfb9e2f5efc0.jpg"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": true
+      },
+      "documentsLocal": {
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
+      },
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 21,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0021.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": [
+            "* A snap-on one-piece frame is included with the product purchase."
+          ]
+        },
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 48,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0048.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-04.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "With Factory Installed Glass Snap-In Doorlite Frame",
+            "* 7ft Products in BC are 83” height",
+            "2 Panel Plank 1 Panel 2 Panel Plank",
+            "1 Panel Plank Camber Top Sidelite Camber Top"
+          ]
+        }
+      ],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
       }
     },
     {
@@ -51503,10 +53637,10 @@
         "correctIdentity": true,
         "correctCategory": true,
         "correctModel": true,
-        "specificationsCaptured": false
+        "specificationsCaptured": true
       },
       "mediaAvailableLive": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "colourFinish": false,
@@ -51514,14 +53648,108 @@
         "hardware": false
       },
       "mediaLocal": {
-        "hero": false,
+        "hero": true,
         "gallery": false,
         "technicalDrawings": false,
         "configuration": false,
         "colourFinish": false,
         "glass": false,
         "hardware": false,
-        "paths": []
+        "paths": [
+          "/images/catalog/richersons/craftsman-white-13a687d4bcd7.jpg"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": true
+      },
+      "documentsLocal": {
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
+      },
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 21,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0021.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": [
+            "* A snap-on one-piece frame is included with the product purchase."
+          ]
+        },
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 48,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0048.txt",
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-04.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "With Factory Installed Glass Snap-In Doorlite Frame",
+            "* 7ft Products in BC are 83” height",
+            "2 Panel Plank 1 Panel 2 Panel Plank",
+            "1 Panel Plank Camber Top Sidelite Camber Top"
+          ]
+        }
+      ],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "richersons",
+      "liveProductName": "WG3J (East) FG30 (West)",
+      "liveModelNumber": "WG3J",
+      "collection": "Craftsman",
+      "category": "entry-doors",
+      "canonicalSupplierUrl": "https://www.richersonsdoors.com/craftsman",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "richersons:wg3j",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/richersons/3-lite-923566feefe0.jpg"
+        ]
       },
       "documentsAvailableLive": {
         "brochure": false,
@@ -51538,13 +53766,226 @@
       "pdfEvidence": [],
       "completeness": {
         "identityComplete": true,
-        "factsComplete": false,
+        "factsComplete": true,
         "heroMediaAvailable": true,
         "galleryAvailable": true,
         "technicalMediaAvailable": true,
         "documentsAvailable": true,
         "sourceVerified": true,
-        "state": "requires-review"
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "richersons",
+      "liveProductName": "FG30 WG3J (East) (West)",
+      "liveModelNumber": "FG30",
+      "collection": "Craftsman",
+      "category": "entry-doors",
+      "canonicalSupplierUrl": "https://www.richersonsdoors.com/craftsman",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "richersons:fg30",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/richersons/3-lite-923566feefe0.jpg"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": true
+      },
+      "documentsLocal": {
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
+      },
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 23,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0023.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "richersons",
+      "liveProductName": "SG3J (East) SG30 (West)",
+      "liveModelNumber": "SG3J",
+      "collection": "Craftsman",
+      "category": "entry-doors",
+      "canonicalSupplierUrl": "https://www.richersonsdoors.com/craftsman",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "richersons:sg3j",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/richersons/3-lite-white-06f2090bad9e.jpg"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": true
+      },
+      "documentsLocal": {
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
+      },
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 23,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0023.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
+      }
+    },
+    {
+      "supplier": "richersons",
+      "liveProductName": "SG30 SG3J (East) (West)",
+      "liveModelNumber": "SG30",
+      "collection": "Craftsman",
+      "category": "entry-doors",
+      "canonicalSupplierUrl": "https://www.richersonsdoors.com/craftsman",
+      "catalogue": {
+        "recordExists": true,
+        "productId": "richersons:sg30",
+        "correctIdentity": true,
+        "correctCategory": true,
+        "correctModel": true,
+        "specificationsCaptured": true
+      },
+      "mediaAvailableLive": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false
+      },
+      "mediaLocal": {
+        "hero": true,
+        "gallery": false,
+        "technicalDrawings": false,
+        "configuration": false,
+        "colourFinish": false,
+        "glass": false,
+        "hardware": false,
+        "paths": [
+          "/images/catalog/richersons/3-lite-white-06f2090bad9e.jpg"
+        ]
+      },
+      "documentsAvailableLive": {
+        "brochure": false,
+        "specificationSheet": false,
+        "installationGuide": false,
+        "warranty": false,
+        "performanceDocument": false,
+        "catalogue": true
+      },
+      "documentsLocal": {
+        "captured": true,
+        "paths": [
+          "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf"
+        ]
+      },
+      "pdfEvidence": [
+        {
+          "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+          "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+          "page": 23,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0023.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        }
+      ],
+      "completeness": {
+        "identityComplete": true,
+        "factsComplete": true,
+        "heroMediaAvailable": true,
+        "galleryAvailable": true,
+        "technicalMediaAvailable": true,
+        "documentsAvailable": true,
+        "sourceVerified": true,
+        "state": "source-complete"
       }
     },
     {

@@ -1,16 +1,20 @@
 #!/usr/bin/env python3
 import json
+import hashlib
 import tempfile
 import unittest
 from pathlib import Path
 from dataclasses import asdict
 from unittest.mock import patch
 
+from PIL import Image
+import scripts.ingest.fliphtml5_extract as fliphtml5
+
 from scripts.ingest.cleanup import scan_staging_runs
 from scripts.ingest.pdf_evidence import configured_document_metadata, configured_page_products
 from scripts.ingest.pdf_ocr import ocr_pdf_pages
 from scripts.ingest.pdf_extract import repair_extracted_text
-from scripts.ingest.reassociate import recover_downloaded_candidates
+from scripts.ingest.reassociate import recover_downloaded_candidates, relationship_page_for_product
 
 from scripts.ingest.crawl import (
     Asset,
@@ -24,6 +28,7 @@ from scripts.ingest.crawl import (
     associate_assets,
     attach_available_asset_occurrences,
     build_asset_tasks,
+    clear_resolved_asset_errors,
     configured_unseen_start_urls,
     configured_source_products,
     decode_html,
@@ -115,6 +120,54 @@ class CrawlerSafetyTests(unittest.TestCase):
         self.assertTrue(all(page['relationshipState'] == 'product-specific' for page in cropped))
         technical = [page for page in config['pages'] if page.get('assetRole') in {'configuration-diagram', 'colour-chart', 'profile-section', 'technical-drawing'}]
         self.assertTrue(all(not page['productIds'] for page in technical))
+    def test_verre_fliphtml5_page_assets_preserve_required_provenance(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            image_path = root / 'page.webp'
+            Image.new('RGB', (4, 6), 'white').save(image_path, 'WEBP')
+            manifest = {
+                'supplier': 'verre-select',
+                'publicationTitle': 'Verre Test Publication',
+                'publicationSourceUrl': 'https://online.fliphtml5.com/example/book/',
+                'publicationYear': 2026,
+                'viewerCreatedUtc': '2026-01-01T00:00:00+00:00',
+                'extractionTimestamp': '2026-01-02T00:00:00+00:00',
+                'pageAssetSelection': {'selectedFormat': 'webp'},
+                'textLayer': {'available': False, 'pageCount': 0},
+                'pages': [{
+                    'supplier': 'verre-select',
+                    'publicationTitle': 'Verre Test Publication',
+                    'publicationSourceUrl': 'https://online.fliphtml5.com/example/book/',
+                    'pageNumber': 1,
+                    'underlyingAssetUrl': 'https://online.fliphtml5.com/example/book/files/large/page.webp',
+                    'localPath': 'page.webp',
+                    'sha256': hashlib.sha256(image_path.read_bytes()).hexdigest(),
+                    'width': 4,
+                    'height': 6,
+                    'extractedAt': '2026-01-02T00:00:00+00:00',
+                }],
+            }
+            config = {
+                'supplier': 'verre-select',
+                'supplierName': 'Verre Select',
+                'publicationManifest': 'manifest.json',
+                'pages': [],
+            }
+            manifest_path = root / 'manifest.json'
+            config_path = root / 'config.json'
+            manifest_path.write_text(json.dumps(manifest), encoding='utf-8')
+            config_path.write_text(json.dumps(config), encoding='utf-8')
+            with patch.object(fliphtml5, 'ROOT', root), patch.object(fliphtml5, 'AUDIT_ROOT', root / 'audit'):
+                fliphtml5.extract(config_path)
+            page = json.loads(manifest_path.read_text(encoding='utf-8'))['pages'][0]
+            required = {
+                'supplier', 'supplierName', 'publicationTitle', 'publicationSourceUrl',
+                'pageNumber', 'underlyingAssetUrl', 'localPath', 'sha256', 'width',
+                'height', 'extractionTimestamp', 'associatedProducts', 'assetRole',
+            }
+            self.assertTrue(required <= page.keys())
+            self.assertEqual(page['supplierName'], 'Verre Select')
+            self.assertEqual(page['extractionTimestamp'], '2026-01-02T00:00:00+00:00')
     def test_configured_publication_product_is_normalized_and_held_outside_page_discovery(self):
         config = {
             'slug': 'supplier',
@@ -131,6 +184,17 @@ class CrawlerSafetyTests(unittest.TestCase):
         self.assertEqual(products[0]['sourceType'], 'supplier-publication')
         self.assertEqual(products[0]['specifications']['publicationPage'], '24')
         self.assertEqual(products[0]['media'], [])
+    def test_offline_reassociation_replays_embedded_caption_image_mapping(self):
+        url = 'https://cdn.example/BlackBrushFull.png'
+        asset = Asset('richersons', [], url, url, '/images/black.png', 'image', 'product-gallery', 'hash', 1, 'now', source_asset_urls=[url])
+        page = Page('https://www.richersonsdoors.com/flush-glazed', '', '', '', '', True, 'entry-doors', [], {}, [{'modelNumber': 'BK10', 'images': [url], 'image': url}], [])
+        product = {'modelNumber': 'BK10'}
+        relationship_page = relationship_page_for_product(page, product, {'asset': asset})
+        self.assertEqual(relationship_page.assets, ['/images/black.png'])
+        self.assertEqual(relationship_page.product_data['images'], [url])
+        self.assertEqual(asset.role, 'product-hero')
+        self.assertIn('embedded-caption-model-association', asset.relationship_evidence)
+
     def test_offline_reassociation_upgrades_inferred_gallery_to_configured_hero(self):
         url = 'https://example.com/userfiles/productimages/product_867.jpg'
         asset = Asset('supplier', [], url, url, '/images/product-867.jpg', 'image', 'product-gallery', 'hash', 1, 'now', source_asset_urls=[url])
@@ -151,6 +215,19 @@ class CrawlerSafetyTests(unittest.TestCase):
         self.assertEqual(metadata['freshnessStatus'], 'historical-superseded')
         self.assertEqual(configured_document_metadata(Path('other.pdf'), rules), {})
 
+    def test_richersons_pdf_mapping_uses_reviewed_current_model_evidence(self):
+        suppliers = json.loads((Path(__file__).parents[1] / 'ingest' / 'suppliers.json').read_text(encoding='utf-8'))
+        config = next(item for item in suppliers if item['slug'] == 'richersons')
+        rules = config['pdf_evidence_rules']
+        full_line = Path('richersons-full-line-apr2025-c7c105cf37d9.pdf')
+        contemporary = Path('richersons2022-23-contemporary-7a90ef29b614.pdf')
+        self.assertEqual(
+            configured_page_products(full_line, 23, rules),
+            ['richersons:fg30', 'richersons:sg30', 'richersons:sg3j'],
+        )
+        self.assertNotIn('richersons:wg3j', configured_page_products(full_line, 23, rules))
+        self.assertEqual(configured_page_products(contemporary, 2, rules), [])
+        self.assertEqual(configured_document_metadata(full_line, rules)['freshnessStatus'], 'current-source-linked')
     def test_reviewed_pdf_page_mapping_overrides_generic_name_matching(self):
         rules = [{
             'patterns': [r'system-brochure\.pdf$'],
@@ -223,6 +300,11 @@ class CrawlerSafetyTests(unittest.TestCase):
         parser.feed('<div class="cards-row"><div class="card-img"><img src="other-product.png"></div></div><div><img class="hero" src="current-product.png"></div>')
         self.assertEqual(parser.media, [('current-product.png', 'image', 'product-hero')])
 
+    def test_global_squarespace_related_product_style_does_not_exclude_page_media(self):
+        parser = PageParser()
+        parser.feed('<html><body class="tweak-v1-related-products-image-aspect-ratio-11-square"><main><img class="hero" src="current-product.png"></main></body></html>')
+        self.assertEqual(parser.media, [('current-product.png', 'image', 'product-hero')])
+
     def test_generic_window_token_does_not_claim_shared_configuration_diagram(self):
         product_keys = identity_keys(['picture-window', 'Picture Window'])
         self.assertFalse(urls_identity_match(['https://example.com/sps-window-1.png'], product_keys))
@@ -233,13 +315,38 @@ class CrawlerSafetyTests(unittest.TestCase):
         parser.feed('<img class="hero" src="original.jpg" srcset="small.jpg 500w, large.jpg 1000w">')
         self.assertEqual([('large.jpg', 'image', 'product-hero')], parser.media)
 
-    def test_supplier_scoped_embedded_caption_products(self):
-        parser = PageParser([{'role': 'gallery', 'patterns': [r'/WG[A-Z0-9]{2,3}(?:[-_.]|$)']}])
-        parser.feed('<div data-description="&lt;strong&gt;2 Panel&lt;/strong&gt;&lt;br&gt;WG25"><img src="https://cdn.example/WG25-door.jpg"></div>')
-        config = {'embedded_product_collections': {'/oak': 'Oak'}, 'embedded_product_model_pattern': r'\bWG[A-Z0-9]{2,3}\b'}
-        self.assertEqual(embedded_caption_products(parser, '/other', config), [])
-        self.assertEqual(embedded_caption_products(parser, '/oak', config)[0]['modelNumber'], 'WG25')
+    def test_transform_free_supplier_image_beats_responsive_query_variants(self):
+        parser = PageParser()
+        parser.feed('<img data-src="https://images.squarespace-cdn.com/door.png" srcset="https://images.squarespace-cdn.com/door.png?format=1000w 1000w, https://images.squarespace-cdn.com/door.png?format=2500w 2500w">')
+        self.assertEqual(parser.media[0][0], 'https://images.squarespace-cdn.com/door.png')
+
+    def test_figure_caption_binds_model_to_stale_named_image(self):
+        parser = PageParser([{'role': 'product-gallery', 'patterns': [r'\bBK[A-Z0-9]{2,3}\b']}])
+        parser.feed('<figure><img src="https://cdn.example/BlackBrushFull.png"><figcaption>Brush Black BK10 / BK11</figcaption></figure>')
+        config = {'embedded_product_collections': {'/flush': 'Flush Glazed'}, 'embedded_product_model_pattern': r'\bBK[A-Z0-9]{2,3}\b'}
+        self.assertEqual([product['modelNumber'] for product in embedded_caption_products(parser, '/flush', config)], ['BK10', 'BK11'])
         self.assertEqual(parser.media[0][2], 'product-gallery')
+
+    def test_supplier_scoped_embedded_caption_products(self):
+        parser = PageParser([{'role': 'product-gallery', 'patterns': [r'\b(?:BK|WG)[A-Z0-9]{2,3}\b']}])
+        parser.feed('<button data-description="&lt;strong&gt;Brush Black&lt;/strong&gt;&lt;br&gt;BK10 (79) / BK11 (95)"><img src="https://cdn.example/BlackBrushFull.png"></button>')
+        config = {'embedded_product_collections': {'/flush': 'Flush Glazed'}, 'embedded_product_model_pattern': r'\b(?:BK|WG)[A-Z0-9]{2,3}\b'}
+        self.assertEqual(embedded_caption_products(parser, '/other', config), [])
+        products = embedded_caption_products(parser, '/flush', config)
+        self.assertEqual([product['modelNumber'] for product in products], ['BK10', 'BK11'])
+        self.assertEqual(products[0]['images'], ['https://cdn.example/BlackBrushFull.png'])
+        self.assertEqual(parser.media[0][2], 'product-gallery')
+
+        asset = Asset('richersons', [], 'https://cdn.example/BlackBrushFull.png', 'https://cdn.example/BlackBrushFull.png', '/images/black-brush.png', 'image', 'product-gallery', 'hash', 1, 'now', source_asset_urls=['https://cdn.example/BlackBrushFull.png'])
+        page = Page('https://www.richersonsdoors.com/flush-glazed', '', '', '', '', True, 'entry-doors', [asset.local_path], {'modelNumber': 'BK10', 'images': products[0]['images']})
+        media, _ = product_asset_paths(page, {'asset': asset}, product_identity=['BK10'], require_gallery_identity_match=True)
+        self.assertEqual(media, ['/images/black-brush.png'])
+
+    def test_supplier_scoped_embedded_caption_include_filter(self):
+        parser = PageParser()
+        parser.feed('<div data-description="BK10 and BW2J"><img src="https://cdn.example/new.jpg"></div>')
+        config = {'embedded_product_collections': {'/whats-new': 'New Products'}, 'embedded_product_model_pattern': r'\b(?:BK|BW)[A-Z0-9]{2,3}\b', 'embedded_product_include_patterns_by_path': {'/whats-new': [r'BW2JS?']}}
+        self.assertEqual([product['modelNumber'] for product in embedded_caption_products(parser, '/whats-new', config)], ['BW2J'])
 
     def test_configured_api_products_filter_material_and_keep_canonical_url(self):
         payload = {'products': [
@@ -361,6 +468,18 @@ class CrawlerSafetyTests(unittest.TestCase):
             with patch('scripts.ingest.crawl.ROOT', root):
                 refresh_page_asset_candidates(page, config, {'example.com'})
             self.assertEqual([item['url'] for item in page.asset_candidates], ['https://example.com/product-catalogue.pdf'])
+
+    def test_resume_refresh_rebuilds_embedded_caption_products(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            snapshot = root / 'snapshot.html'
+            snapshot.write_text('<figure><img src="https://example.com/BlackBrushFull.png"><figcaption>Brush Black BK10 / BK11</figcaption></figure>', encoding='utf-8')
+            page = Page('https://example.com/flush', '', '', '', 'snapshot.html', True, 'entry-doors', [], {}, [{'modelNumber': 'BK11'}])
+            config = {'embedded_product_collections': {'/flush': 'Flush'}, 'embedded_product_model_pattern': r'\bBK[A-Z0-9]{2,3}\b', 'asset_role_rules': [{'role': 'product-gallery', 'patterns': [r'\bBK[A-Z0-9]{2,3}\b']}]}
+            with patch('scripts.ingest.crawl.ROOT', root):
+                refresh_page_asset_candidates(page, config, {'example.com'})
+            self.assertEqual([product['modelNumber'] for product in page.embedded_products], ['BK10', 'BK11'])
+            self.assertEqual(page.asset_candidates[0]['url'], 'https://example.com/BlackBrushFull.png')
 
     def test_supplier_page_scope_rejects_other_regional_catalogues(self):
         config = {
@@ -717,6 +836,18 @@ class CrawlerSafetyTests(unittest.TestCase):
         config = {'base_url': 'https://example.com/', 'start_urls': ['https://example.com/known', '/new', '/canonical']}
         unseen = configured_unseen_start_urls(config, {'https://example.com/known'}, {'https://example.com/canonical'})
         self.assertEqual(unseen, ['https://example.com/new'])
+
+    def test_successful_asset_retry_clears_only_matching_checkpoint_error(self):
+        errors = [
+            {'url': 'https://example.com/retry.pdf', 'phase': 'asset-download', 'error': 'temporary'},
+            {'url': 'https://example.com/other.pdf', 'phase': 'asset-download', 'error': 'other'},
+            {'url': 'https://example.com/retry.pdf', 'phase': 'page-discovery', 'error': 'page'},
+        ]
+        clear_resolved_asset_errors(errors, 'https://example.com/retry.pdf')
+        self.assertEqual(errors, [
+            {'url': 'https://example.com/other.pdf', 'phase': 'asset-download', 'error': 'other'},
+            {'url': 'https://example.com/retry.pdf', 'phase': 'page-discovery', 'error': 'page'},
+        ])
 
     def test_replan_preserves_retryable_task_state(self):
         task = AssetTask('https://example.com/a.jpg', 'https://example.com/a.jpg', 'https://example.com/p', 'image', 'product-hero', 0, 'group')

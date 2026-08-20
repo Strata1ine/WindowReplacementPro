@@ -65,6 +65,23 @@ def recover_downloaded_candidates(slug: str, pages: list[Page], assets: dict[str
     return recovered
 
 
+def relationship_page_for_product(page: Page, product: dict, assets: dict[str, Asset]) -> Page:
+    embedded = next((item for item in page.embedded_products if item.get('modelNumber') == product.get('modelNumber')), None)
+    if not embedded:
+        return page
+    embedded_urls = [normalized for value in (embedded.get('images') or [embedded.get('image')]) if value for normalized in [normalize(value, page.url)] if normalized]
+    embedded_assets = []
+    for asset in assets.values():
+        asset_urls = set(asset.source_asset_urls or [asset.original_asset_url])
+        if not asset_urls.intersection(embedded_urls): continue
+        embedded_assets.append(asset.local_path)
+        asset.relationship_evidence = sorted(set(asset.relationship_evidence + ['embedded-caption-model-association']))
+        if embedded_urls and embedded_urls[0] in asset_urls and explicit_role(asset.role) == 'product-gallery':
+            asset.role = 'product-hero'
+            asset.relationship_evidence = sorted(set(asset.relationship_evidence + ['embedded-caption-primary-image']))
+    return Page(page.url, page.title, page.h1, page.description, page.snapshot, True, page.category, embedded_assets, {'modelNumber': product.get('modelNumber'), 'images': embedded_urls}, page.embedded_products, page.asset_candidates)
+
+
 def missing_media_diagnostic(product: dict, page: Page, assets: dict[str, Asset], cfg: dict) -> dict:
     product_keys = identity_keys([product.get('slug'), product.get('modelNumber'), product.get('name')])
     structured_urls = {normalize(url, page.url) for url in page.product_data.get('images', []) if normalize(url, page.url)} if cfg.get('trust_structured_product_images', True) else set()
@@ -138,7 +155,8 @@ def reassociate_supplier(slug: str, staging_run: Path | None = None) -> dict:
     for product in products:
         page = pages_by_url.get(product['sourceUrl'])
         if not page: product['media'] = []; product['documents'] = []; continue
-        media, documents = product_asset_paths(page, assets, cfg.get('attach_page_roles'), [product.get('slug'), product.get('modelNumber'), product.get('name')], cfg.get('trust_structured_product_images', True), cfg.get('trust_product_open_graph_images', False), cfg.get('require_gallery_identity_match', False))
+        relationship_page = relationship_page_for_product(page, product, assets)
+        media, documents = product_asset_paths(relationship_page, assets, cfg.get('attach_page_roles'), [product.get('slug'), product.get('modelNumber'), product.get('name')], cfg.get('trust_structured_product_images', True), cfg.get('trust_product_open_graph_images', False), cfg.get('require_gallery_identity_match', False))
         product['media'] = media; product['documents'] = documents
     promote_identity_matched_gallery_heroes(assets, products, cfg.get('promote_identity_matched_gallery_to_hero', False)); enforce_filename_owner_precedence(assets, products); enforce_wordpress_master_precedence(assets, products); apply_document_relationship_rules(assets, products, cfg.get('document_product_rules')); apply_asset_relationship_rules(assets, products, cfg.get('asset_product_rules')); associate_assets(assets, products); validate_product_records(products, cfg)
     accepted = promote_referenced_assets(assets, products, pages)

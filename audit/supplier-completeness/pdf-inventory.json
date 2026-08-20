@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T07:03:50.595181+00:00",
+  "generatedAt": "2026-08-20T08:06:20.055644+00:00",
   "documents": [
     {
       "documentId": "masonite:3-1hdsteel80-2235286a8473",
@@ -40505,6 +40505,2026 @@
       ],
       "extractionErrors": [],
       "extractedAt": "2026-08-20T07:03:50.575283+00:00"
+    },
+    {
+      "documentId": "richersons:richersons-full-line-apr2025-c7c105cf37d9",
+      "title": "Richersons Doors Full Line Catalogue",
+      "supplier": "richersons",
+      "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+      "sha256": "10045efbdecc22b43836cd581e0e25a56057be43f8aaf40e934494997e408ce1",
+      "bytes": 3509881,
+      "pageCount": 52,
+      "textCharacters": 25105,
+      "tableCount": 24,
+      "extractedImageCount": 29,
+      "ocrRequired": false,
+      "ocrApplied": false,
+      "ocrReused": false,
+      "ocrEngine": null,
+      "ocrPages": 0,
+      "metadata": {
+        "/CreationDate": "D:20250401153206+08'00'",
+        "/Creator": "Adobe InDesign 20.0 (Windows)",
+        "/ModDate": "D:20250410095848-06'00'",
+        "/Producer": "Adobe PDF Library 17.0",
+        "/Trapped": "/False"
+      },
+      "documentDate": "2025-04-01",
+      "freshness": {
+        "status": "current-source-linked",
+        "basis": "April 2025 full-line catalogue linked from the current supplier brochures page."
+      },
+      "provenance": {
+        "supplier": "richersons",
+        "sourcePageUrls": [
+          "https://www.richersonsdoors.com/brochures"
+        ],
+        "productIds": [
+          "richersons:bk10",
+          "richersons:bk11",
+          "richersons:bk27",
+          "richersons:bk28",
+          "richersons:fg30",
+          "richersons:fg4h",
+          "richersons:ms35",
+          "richersons:rg21",
+          "richersons:rg22",
+          "richersons:rg26",
+          "richersons:sg00",
+          "richersons:sg10",
+          "richersons:sg12",
+          "richersons:sg20",
+          "richersons:sg25",
+          "richersons:sg30",
+          "richersons:sg3j",
+          "richersons:sg46",
+          "richersons:sg49",
+          "richersons:sg4h",
+          "richersons:sg4l",
+          "richersons:sg66",
+          "richersons:sg68",
+          "richersons:sgnl",
+          "richersons:tg00",
+          "richersons:tg07",
+          "richersons:tg71",
+          "richersons:wg00",
+          "richersons:wg12",
+          "richersons:wg25",
+          "richersons:wg27",
+          "richersons:wg34",
+          "richersons:wg49",
+          "richersons:wg66",
+          "richersons:wg68",
+          "richersons:wgf0",
+          "richersons:wgnl"
+        ],
+        "collections": [
+          "Craftsman",
+          "Flush Glazed",
+          "Mahogany Woodgrain",
+          "Modern Teak",
+          "Oak Woodgrain",
+          "Smooth White"
+        ],
+        "scope": "product",
+        "role": "catalogue",
+        "originalUrl": "https://www.richersonsdoors.com/s/Richersons_Full-Line_APR2025.pdf",
+        "sourceUrls": [
+          "https://www.richersonsdoors.com/s/Richersons_Full-Line_APR2025.pdf"
+        ],
+        "finalUrl": "https://static1.squarespace.com/static/5b3ceff196e76fd052494def/t/67f7ec0d62989d20ac383484/1744301079703/Richersons_Full+Line_APR2025.pdf",
+        "localPath": "/documents/catalog/richersons/richersons-full-line-apr2025-c7c105cf37d9.pdf",
+        "sha256": "10045efbdecc22b43836cd581e0e25a56057be43f8aaf40e934494997e408ce1",
+        "bytes": 3509881,
+        "discoveredAt": "2026-08-20T07:41:41Z",
+        "assetType": "document",
+        "relationshipState": "supplier-shared",
+        "relationshipEvidence": [
+          "supplier-scoped-document-map"
+        ],
+        "masterUrl": "https://www.richersonsdoors.com/s/Richersons_Full-Line_APR2025.pdf",
+        "selectedUrl": "https://static1.squarespace.com/static/5b3ceff196e76fd052494def/t/67f7ec0d62989d20ac383484/1744301079703/Richersons_Full+Line_APR2025.pdf",
+        "mimeType": "application/pdf",
+        "width": null,
+        "height": null
+      },
+      "pages": [
+        {
+          "page": 1,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0001.txt",
+          "characters": 16,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0001-image-01.jpg",
+              "page": 1,
+              "width": 616,
+              "height": 608,
+              "sha256": "6fafa8aaf5c56affe9263635eae5baca5e7dd049317162887cd8f3a9fbe5c1ef",
+              "productIds": []
+            }
+          ],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 2,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0002.txt",
+          "characters": 1,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0002-image-01.png",
+              "page": 2,
+              "width": 614,
+              "height": 794,
+              "sha256": "fb074a300160ca84fc189b5bb74a07e9f95e96dad850daedc800f8910796602a",
+              "productIds": []
+            }
+          ],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 3,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0003.txt",
+          "characters": 4234,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0003-image-01.png",
+              "page": 3,
+              "width": 216,
+              "height": 794,
+              "sha256": "627459b2be8bf0dc9bb28374f5d1025675399fd0d7d70ad14fbcadc3cd122c1e",
+              "productIds": []
+            }
+          ],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 4,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0004.txt",
+          "characters": 1,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0004-image-01.jpg",
+              "page": 4,
+              "width": 615,
+              "height": 796,
+              "sha256": "fd030edcea16034f951ef19ca224b89304897fe14cd3b69e47e9a594d377468e",
+              "productIds": []
+            }
+          ],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 5,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0005.txt",
+          "characters": 1374,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0005-image-01.jpg",
+              "page": 5,
+              "width": 257,
+              "height": 796,
+              "sha256": "7096bdec1fd0e02ab37d157564bcaf4aa2aa9bd92497e6575bf3349ad537a3f1",
+              "productIds": []
+            }
+          ],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 6,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0006.txt",
+          "characters": 25,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0006-image-01.jpg",
+              "page": 6,
+              "width": 615,
+              "height": 795,
+              "sha256": "ef99c308c92e69c14edff4b2a3f73362a4b346626a8a219077d5cc483ad43388",
+              "productIds": []
+            }
+          ],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 7,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0007.txt",
+          "characters": 728,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0007-image-01.jpg",
+              "page": 7,
+              "width": 327,
+              "height": 795,
+              "sha256": "23a6c9691f741f6ec9bbeb9a80f6956b9c2c8b216bcb88a4ee7cbddd9afb311d",
+              "productIds": [
+                "richersons:bk10",
+                "richersons:bk11"
+              ]
+            }
+          ],
+          "evidenceProductIds": [
+            "richersons:bk10",
+            "richersons:bk11"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 8,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0008.txt",
+          "characters": 25,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0008-image-01.jpg",
+              "page": 8,
+              "width": 541,
+              "height": 795,
+              "sha256": "41535790872852de0fc3005541a157736c7f7f27609b4cea605b16aeee0d952f",
+              "productIds": []
+            }
+          ],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 9,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0009.txt",
+          "characters": 637,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0009-image-02.jpg",
+              "page": 9,
+              "width": 160,
+              "height": 795,
+              "sha256": "43bfef863b03c65b50ad3843d6fa820c954cdd7b23b6c145391b4a97c68aa50e",
+              "productIds": [
+                "richersons:bk27",
+                "richersons:bk28"
+              ]
+            }
+          ],
+          "evidenceProductIds": [
+            "richersons:bk27",
+            "richersons:bk28"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 10,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0010.txt",
+          "characters": 26,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0010-image-01.jpg",
+              "page": 10,
+              "width": 551,
+              "height": 795,
+              "sha256": "edaac8961cb43f61cd4442dcf6433913b5165014753a939c251f2b293ad4d887",
+              "productIds": []
+            }
+          ],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 11,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0011.txt",
+          "characters": 771,
+          "tables": [],
+          "images": [],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 12,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0012.txt",
+          "characters": 22,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0012-image-01.jpg",
+              "page": 12,
+              "width": 550,
+              "height": 794,
+              "sha256": "4487b82c38997a72eb08321dbbadf727c27add36e04406126c25fa297c91e8d8",
+              "productIds": []
+            }
+          ],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 13,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0013.txt",
+          "characters": 570,
+          "tables": [],
+          "images": [],
+          "evidenceProductIds": [
+            "richersons:tg71"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 14,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0014.txt",
+          "characters": 22,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0014-image-01.jpg",
+              "page": 14,
+              "width": 550,
+              "height": 794,
+              "sha256": "1eeb20a5d04933e426b3bd405f36ec1fdbcde6e3e50e6d146905c7ea5d39e654",
+              "productIds": []
+            }
+          ],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 15,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0015.txt",
+          "characters": 473,
+          "tables": [],
+          "images": [],
+          "evidenceProductIds": [
+            "richersons:tg00",
+            "richersons:tg07"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 16,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0016.txt",
+          "characters": 22,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0016-image-01.jpg",
+              "page": 16,
+              "width": 550,
+              "height": 795,
+              "sha256": "a4b671664b7c85c784527ef2d9abad7d74297c7aa5ec9899fcdaf382fcba2667",
+              "productIds": []
+            }
+          ],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 17,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0017.txt",
+          "characters": 389,
+          "tables": [],
+          "images": [],
+          "evidenceProductIds": [
+            "richersons:rg22",
+            "richersons:rg26"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 18,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0018.txt",
+          "characters": 22,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0018-image-01.jpg",
+              "page": 18,
+              "width": 552,
+              "height": 795,
+              "sha256": "0d92776a85ef6daded6f6ce2fe215e8812fb7cce8611eac07ac5317f614e87e1",
+              "productIds": []
+            }
+          ],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 19,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0019.txt",
+          "characters": 645,
+          "tables": [],
+          "images": [],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 20,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0020.txt",
+          "characters": 22,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0020-image-01.jpg",
+              "page": 20,
+              "width": 552,
+              "height": 795,
+              "sha256": "0ea22e7664917abd34d4becb17fcee7ff5c942021a8b7f24826098d1290b5b00",
+              "productIds": []
+            }
+          ],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 21,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0021.txt",
+          "characters": 238,
+          "tables": [],
+          "images": [],
+          "evidenceProductIds": [
+            "richersons:fg4h",
+            "richersons:sg4h"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 22,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0022.txt",
+          "characters": 22,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0022-image-01.jpg",
+              "page": 22,
+              "width": 550,
+              "height": 794,
+              "sha256": "0325f406f2673194a3158564dd2e388604967cb8e38ffc730eeefe8fa9147fe2",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0022-image-02.jpg",
+              "page": 22,
+              "width": 552,
+              "height": 795,
+              "sha256": "990ebd943e965bc789742b76e50d2c4dd299b293cbe85229536cdafc9fe48e99",
+              "productIds": []
+            }
+          ],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 23,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0023.txt",
+          "characters": 374,
+          "tables": [],
+          "images": [],
+          "evidenceProductIds": [
+            "richersons:fg30",
+            "richersons:sg30",
+            "richersons:sg3j"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 24,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0024.txt",
+          "characters": 27,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0024-image-01.jpg",
+              "page": 24,
+              "width": 551,
+              "height": 796,
+              "sha256": "cc6f904a494de4b6ca0c8fc8224ef96af08f843ae5967b16e71b249594dbea3a",
+              "productIds": []
+            }
+          ],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 25,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0025.txt",
+          "characters": 850,
+          "tables": [],
+          "images": [],
+          "evidenceProductIds": [
+            "richersons:sg12",
+            "richersons:wg12"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 26,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0026.txt",
+          "characters": 1257,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0026-image-01.jpg",
+              "page": 26,
+              "width": 309,
+              "height": 795,
+              "sha256": "139565e250b2ce1273dfb9d17f1f8e00add5e492569f2efb72228b6ee16d8d01",
+              "productIds": [
+                "richersons:sg10"
+              ]
+            }
+          ],
+          "evidenceProductIds": [
+            "richersons:sg10"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 27,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0027.txt",
+          "characters": 503,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0027-image-01.jpg",
+              "page": 27,
+              "width": 224,
+              "height": 795,
+              "sha256": "1e63623fa86e05bd662ad9f3bc786b1ecc81bbbe5dd0ef0f3a6ec816da5f4226",
+              "productIds": [
+                "richersons:sg10"
+              ]
+            }
+          ],
+          "evidenceProductIds": [
+            "richersons:sg10"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 28,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0028.txt",
+          "characters": 27,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0028-image-01.jpg",
+              "page": 28,
+              "width": 550,
+              "height": 794,
+              "sha256": "477d190312d6c99e43822992c18a159244465e0f4f5d2be60b85467b89d27e0f",
+              "productIds": []
+            }
+          ],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 29,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0029.txt",
+          "characters": 193,
+          "tables": [],
+          "images": [],
+          "evidenceProductIds": [
+            "richersons:sgnl",
+            "richersons:wgnl"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 30,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0030.txt",
+          "characters": 27,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0030-image-01.jpg",
+              "page": 30,
+              "width": 552,
+              "height": 797,
+              "sha256": "be113fe0f0a0d830f0efdc5f56398b7c2803f453586457c7505585c4904de603",
+              "productIds": []
+            }
+          ],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 31,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0031.txt",
+          "characters": 225,
+          "tables": [],
+          "images": [],
+          "evidenceProductIds": [
+            "richersons:sg4l"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 32,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0032.txt",
+          "characters": 485,
+          "tables": [],
+          "images": [],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 33,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0033.txt",
+          "characters": 60,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0033-image-01.jpg",
+              "page": 33,
+              "width": 615,
+              "height": 795,
+              "sha256": "92bb8829c66b75403940d437fc741374b7f9066347962eb4fa8b33677b07de58",
+              "productIds": []
+            }
+          ],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 34,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0034.txt",
+          "characters": 21,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0034-image-01.jpg",
+              "page": 34,
+              "width": 550,
+              "height": 795,
+              "sha256": "9e17f7c64f021725bbe28fe40148ee56c34223ae8a4d8e2a5299adf892c5721b",
+              "productIds": []
+            }
+          ],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 35,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0035.txt",
+          "characters": 446,
+          "tables": [],
+          "images": [],
+          "evidenceProductIds": [
+            "richersons:wg00",
+            "richersons:wg25",
+            "richersons:wg49",
+            "richersons:wg66",
+            "richersons:wg68",
+            "richersons:wgf0"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 36,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0036.txt",
+          "characters": 21,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0036-image-01.jpg",
+              "page": 36,
+              "width": 550,
+              "height": 795,
+              "sha256": "08ca6c93ac681f8eec7d15930c5c775ea8182218dc9bae7aa7ff51ab30c9c490",
+              "productIds": []
+            }
+          ],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 37,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0037.txt",
+          "characters": 228,
+          "tables": [],
+          "images": [],
+          "evidenceProductIds": [
+            "richersons:wgnl"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 38,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0038.txt",
+          "characters": 21,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0038-image-01.jpg",
+              "page": 38,
+              "width": 796,
+              "height": 1150,
+              "sha256": "c28cf7a252f197f4d4137a9fd2bc476841a19afffdd59dca2b5c6788fdb23598",
+              "productIds": []
+            }
+          ],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 39,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0039.txt",
+          "characters": 539,
+          "tables": [],
+          "images": [],
+          "evidenceProductIds": [
+            "richersons:sg00",
+            "richersons:sg25",
+            "richersons:sg46",
+            "richersons:sg49",
+            "richersons:sg68"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 40,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0040.txt",
+          "characters": 21,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0040-image-01.jpg",
+              "page": 40,
+              "width": 550,
+              "height": 793,
+              "sha256": "da0cbd1df2c51afdff7ac493dab0a4b702d7f75aeaf69a9ee2242f874f1f6397",
+              "productIds": []
+            }
+          ],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 41,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0041.txt",
+          "characters": 191,
+          "tables": [],
+          "images": [],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 42,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0042.txt",
+          "characters": 1360,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0042-image-01.jpg",
+              "page": 42,
+              "width": 534,
+              "height": 289,
+              "sha256": "92c50b321a57785b81109142d4b746cb73592dffc65fcb4e50c4936880a5cf5a",
+              "productIds": []
+            }
+          ],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 43,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0043.txt",
+          "characters": 443,
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0043-table-01.json"
+          ],
+          "images": [],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 44,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0044.txt",
+          "characters": 1095,
+          "tables": [],
+          "images": [],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 45,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0045.txt",
+          "characters": 1256,
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0045-table-01.json"
+          ],
+          "images": [],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 46,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0046.txt",
+          "characters": 1027,
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0046-table-04.json"
+          ],
+          "images": [],
+          "evidenceProductIds": [
+            "richersons:sg00",
+            "richersons:sg20",
+            "richersons:sg25",
+            "richersons:sg46",
+            "richersons:sg49",
+            "richersons:sg66",
+            "richersons:sg68",
+            "richersons:wg00",
+            "richersons:wg25",
+            "richersons:wg34",
+            "richersons:wg49",
+            "richersons:wg66",
+            "richersons:wg68",
+            "richersons:wgf0"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 47,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0047.txt",
+          "characters": 1427,
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-04.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-05.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-06.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0047-table-07.json"
+          ],
+          "images": [],
+          "evidenceProductIds": [
+            "richersons:sg10",
+            "richersons:sg4l",
+            "richersons:sgnl",
+            "richersons:wg12",
+            "richersons:wg27",
+            "richersons:wgnl"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 48,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0048.txt",
+          "characters": 797,
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0048-table-04.json"
+          ],
+          "images": [],
+          "evidenceProductIds": [
+            "richersons:fg4h",
+            "richersons:ms35",
+            "richersons:rg21",
+            "richersons:rg22",
+            "richersons:rg26",
+            "richersons:sg4h",
+            "richersons:tg00",
+            "richersons:tg07",
+            "richersons:tg71"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 49,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0049.txt",
+          "characters": 663,
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0049-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0049-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0049-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0049-table-04.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0049-table-05.json"
+          ],
+          "images": [],
+          "evidenceProductIds": [
+            "richersons:bk10",
+            "richersons:bk11",
+            "richersons:bk27",
+            "richersons:bk28"
+          ],
+          "textSource": "embedded"
+        },
+        {
+          "page": 50,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0050.txt",
+          "characters": 674,
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0050-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/tables/page-0050-table-02.json"
+          ],
+          "images": [],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 51,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0051.txt",
+          "characters": 60,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/images/page-0051-image-01.jpg",
+              "page": 51,
+              "width": 616,
+              "height": 796,
+              "sha256": "70af42411965167dc303a7cf5b9a31b6c4017f1dadcef720054eb38070723a12",
+              "productIds": []
+            }
+          ],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 52,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons-full-line-apr2025-c7c105cf37d9/pages/page-0052.txt",
+          "characters": 502,
+          "tables": [],
+          "images": [],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        }
+      ],
+      "factCandidates": [
+        {
+          "page": 3,
+          "line": 8,
+          "text": "frame components, and the development of the highest quality fiberglass",
+          "productIds": []
+        },
+        {
+          "page": 3,
+          "line": 36,
+          "text": "8ft 2 Panel ...............................................................................................................................32",
+          "productIds": []
+        },
+        {
+          "page": 5,
+          "line": 27,
+          "text": "limited manufacturer's warranty. Not only do they stand",
+          "productIds": []
+        },
+        {
+          "page": 5,
+          "line": 29,
+          "text": "against ‘thermal bow’.",
+          "productIds": []
+        },
+        {
+          "page": 7,
+          "line": 5,
+          "text": "Direct glazed with insulated 1” glass to streamline installation and",
+          "productIds": [
+            "richersons:bk10",
+            "richersons:bk11"
+          ]
+        },
+        {
+          "page": 7,
+          "line": 6,
+          "text": "minimize the risk of seal failure. The shaker-style glass stops offer a",
+          "productIds": [
+            "richersons:bk10",
+            "richersons:bk11"
+          ]
+        },
+        {
+          "page": 7,
+          "line": 8,
+          "text": "The pre-pigmented brush texture skin in trendy black colour reduces",
+          "productIds": [
+            "richersons:bk10",
+            "richersons:bk11"
+          ]
+        },
+        {
+          "page": 7,
+          "line": 16,
+          "text": "* For glass options (Low-E, Translucent & Mini-Blinds), please consult the program offering.",
+          "productIds": [
+            "richersons:bk10",
+            "richersons:bk11"
+          ]
+        },
+        {
+          "page": 9,
+          "line": 6,
+          "text": "benefits as the direct glazed 1” glass and black pre-pigmented",
+          "productIds": [
+            "richersons:bk27",
+            "richersons:bk28"
+          ]
+        },
+        {
+          "page": 9,
+          "line": 8,
+          "text": "bottom recessed panel exhibits a deep profile that creates",
+          "productIds": [
+            "richersons:bk27",
+            "richersons:bk28"
+          ]
+        },
+        {
+          "page": 9,
+          "line": 11,
+          "text": "Optional SDL can be added to the panel to achieve a tailored",
+          "productIds": [
+            "richersons:bk27",
+            "richersons:bk28"
+          ]
+        },
+        {
+          "page": 9,
+          "line": 15,
+          "text": "* For glass options (Low-E, Translucent & Mini-Blinds), please consult the program offering.",
+          "productIds": [
+            "richersons:bk27",
+            "richersons:bk28"
+          ]
+        },
+        {
+          "page": 11,
+          "line": 9,
+          "text": "glazed 1” glass allows the perfect amount of natural light to",
+          "productIds": []
+        },
+        {
+          "page": 11,
+          "line": 10,
+          "text": "enter the home. The option of translucent glass provides the",
+          "productIds": []
+        },
+        {
+          "page": 11,
+          "line": 12,
+          "text": "which can readily be finished in a stain or paint color that",
+          "productIds": []
+        },
+        {
+          "page": 11,
+          "line": 17,
+          "text": "* For glass options, please consult the program offering and the corresponding price list.",
+          "productIds": []
+        },
+        {
+          "page": 13,
+          "line": 8,
+          "text": "Though the teak series is beautiful with any hardware",
+          "productIds": [
+            "richersons:tg71"
+          ]
+        },
+        {
+          "page": 13,
+          "line": 11,
+          "text": "When ordered, these slabs arrive as a light almond colour to",
+          "productIds": [
+            "richersons:tg71"
+          ]
+        },
+        {
+          "page": 17,
+          "line": 5,
+          "text": "RG22 RG26 8’0 HEIGHT",
+          "productIds": [
+            "richersons:rg22",
+            "richersons:rg26"
+          ]
+        },
+        {
+          "page": 17,
+          "line": 10,
+          "text": "style, providing maximum privacy with no glass requirement. Stain",
+          "productIds": [
+            "richersons:rg22",
+            "richersons:rg26"
+          ]
+        },
+        {
+          "page": 19,
+          "line": 13,
+          "text": "FACTORY INSTALLED GLASS",
+          "productIds": []
+        },
+        {
+          "page": 19,
+          "line": 14,
+          "text": "These Craftsman doors include a custom factory glazed glass insert.",
+          "productIds": []
+        },
+        {
+          "page": 19,
+          "line": 15,
+          "text": "LOW E METROPOLIS SPRING GLASS",
+          "productIds": []
+        },
+        {
+          "page": 21,
+          "line": 8,
+          "text": "* A snap-on one-piece frame is included with the product purchase.",
+          "productIds": [
+            "richersons:fg4h",
+            "richersons:sg4h"
+          ]
+        },
+        {
+          "page": 25,
+          "line": 6,
+          "text": "woodgrain slabs are consistent from door edge to glass, incorporating the",
+          "productIds": [
+            "richersons:sg12",
+            "richersons:wg12"
+          ]
+        },
+        {
+          "page": 25,
+          "line": 7,
+          "text": "glass directly into the door and creating a clean, uninterrupted look.",
+          "productIds": [
+            "richersons:sg12",
+            "richersons:wg12"
+          ]
+        },
+        {
+          "page": 25,
+          "line": 9,
+          "text": "glass stops and an opening to accept a glass insert that can be",
+          "productIds": [
+            "richersons:sg12",
+            "richersons:wg12"
+          ]
+        },
+        {
+          "page": 25,
+          "line": 10,
+          "text": "interchanged in an event of glass failure or a change of home owner’s",
+          "productIds": [
+            "richersons:sg12",
+            "richersons:wg12"
+          ]
+        },
+        {
+          "page": 25,
+          "line": 11,
+          "text": "taste. The flush glazing keeps the unit water and weather resistant for",
+          "productIds": [
+            "richersons:sg12",
+            "richersons:wg12"
+          ]
+        },
+        {
+          "page": 25,
+          "line": 13,
+          "text": "INTEGRATED FLUSH GLAZED TRADITIONAL PROFILE FRAME",
+          "productIds": [
+            "richersons:sg12",
+            "richersons:wg12"
+          ]
+        },
+        {
+          "page": 25,
+          "line": 14,
+          "text": "GLASS FRAME",
+          "productIds": [
+            "richersons:sg12",
+            "richersons:wg12"
+          ]
+        },
+        {
+          "page": 26,
+          "line": 4,
+          "text": "impact on how your rooms feel. Our glazing",
+          "productIds": [
+            "richersons:sg10"
+          ]
+        },
+        {
+          "page": 26,
+          "line": 8,
+          "text": "Low-E glass option provides Argon gas filled",
+          "productIds": [
+            "richersons:sg10"
+          ]
+        },
+        {
+          "page": 26,
+          "line": 11,
+          "text": "summer. Available glass options are designed to",
+          "productIds": [
+            "richersons:sg10"
+          ]
+        },
+        {
+          "page": 26,
+          "line": 21,
+          "text": "combination of performance, durability, security",
+          "productIds": [
+            "richersons:sg10"
+          ]
+        },
+        {
+          "page": 27,
+          "line": 5,
+          "text": "glass and can be ordered with or without grilles between the glass.",
+          "productIds": [
+            "richersons:sg10"
+          ]
+        },
+        {
+          "page": 32,
+          "line": 4,
+          "text": "8 2 PANEL",
+          "productIds": []
+        },
+        {
+          "page": 32,
+          "line": 9,
+          "text": "can be easily painted or stained. Built using the same superior performance",
+          "productIds": []
+        },
+        {
+          "page": 32,
+          "line": 14,
+          "text": "* Product in BC comes in white colour.",
+          "productIds": []
+        },
+        {
+          "page": 35,
+          "line": 4,
+          "text": "The strength of fiberglass with the beauty and warmth of wood and the highest standard of performance.",
+          "productIds": [
+            "richersons:wg00",
+            "richersons:wg25",
+            "richersons:wg49",
+            "richersons:wg66",
+            "richersons:wg68",
+            "richersons:wgf0"
+          ]
+        },
+        {
+          "page": 39,
+          "line": 5,
+          "text": "paint colours and carries a 25 year limited manufacturer’s warranty.",
+          "productIds": [
+            "richersons:sg00",
+            "richersons:sg25",
+            "richersons:sg46",
+            "richersons:sg49",
+            "richersons:sg68"
+          ]
+        },
+        {
+          "page": 42,
+          "line": 11,
+          "text": "frame, not the door slab. Our composite frame will not splinter or crack, providing a virtually",
+          "productIds": []
+        },
+        {
+          "page": 42,
+          "line": 13,
+          "text": "Nan Ya’s premium composite frames — an innovative alternative to traditional wood frame",
+          "productIds": []
+        },
+        {
+          "page": 42,
+          "line": 19,
+          "text": "• Textured woodgrain or pre-pigmented smooth white frame components are a blend of PVC",
+          "productIds": []
+        },
+        {
+          "page": 43,
+          "line": 2,
+          "text": "Exterior Entry Door Frame System",
+          "productIds": []
+        },
+        {
+          "page": 44,
+          "line": 7,
+          "text": "exceptional security while allowing a range of hardware",
+          "productIds": []
+        },
+        {
+          "page": 44,
+          "line": 9,
+          "text": "Energy Efficiency",
+          "productIds": []
+        },
+        {
+          "page": 44,
+          "line": 13,
+          "text": "Performance",
+          "productIds": []
+        },
+        {
+          "page": 44,
+          "line": 28,
+          "text": "Deeper Embossing Panel",
+          "productIds": []
+        },
+        {
+          "page": 45,
+          "line": 4,
+          "text": "vs STANDARD PANEL DESIGN",
+          "productIds": []
+        },
+        {
+          "page": 45,
+          "line": 5,
+          "text": "YEAR Warranty",
+          "productIds": []
+        },
+        {
+          "page": 45,
+          "line": 8,
+          "text": "Open and beaded fiberglass doors are designed to incorporate glass",
+          "productIds": []
+        },
+        {
+          "page": 45,
+          "line": 11,
+          "text": "or oak woodgrain slab is consistent from door edge to glass. This",
+          "productIds": []
+        },
+        {
+          "page": 45,
+          "line": 12,
+          "text": "product line can also be manufactured with glass installed during",
+          "productIds": []
+        },
+        {
+          "page": 45,
+          "line": 17,
+          "text": "composite frame. The doors will",
+          "productIds": []
+        },
+        {
+          "page": 45,
+          "line": 23,
+          "text": "OPEN & BEADED DEISGN STANDARD PANEL DESIGN",
+          "productIds": []
+        },
+        {
+          "page": 45,
+          "line": 24,
+          "text": "INTEGRATED FLUSH GLAZED TRADITIONAL PROFILE FRAME",
+          "productIds": []
+        },
+        {
+          "page": 45,
+          "line": 26,
+          "text": "GLASS FRAME",
+          "productIds": []
+        },
+        {
+          "page": 45,
+          "line": 29,
+          "text": "20% Full View (Large Glass)",
+          "productIds": []
+        },
+        {
+          "page": 45,
+          "line": 33,
+          "text": "an additional 1 1/4\" in width",
+          "productIds": []
+        },
+        {
+          "page": 45,
+          "line": 34,
+          "text": "and 3\" in height — an",
+          "productIds": []
+        },
+        {
+          "page": 46,
+          "line": 3,
+          "text": "4 Panel 4 Panel 2 Panel 6 Panel 2 Panel",
+          "productIds": [
+            "richersons:sg00",
+            "richersons:sg20",
+            "richersons:sg25",
+            "richersons:sg46",
+            "richersons:sg49",
+            "richersons:sg66",
+            "richersons:sg68",
+            "richersons:wg00",
+            "richersons:wg25",
+            "richersons:wg34",
+            "richersons:wg49",
+            "richersons:wg66",
+            "richersons:wg68",
+            "richersons:wgf0"
+          ]
+        },
+        {
+          "page": 46,
+          "line": 4,
+          "text": "Flush Flush Top 6 Panel 3/4 Lite 3/4 Lite 1/4 Lite 1/2 Lite",
+          "productIds": [
+            "richersons:sg00",
+            "richersons:sg20",
+            "richersons:sg25",
+            "richersons:sg46",
+            "richersons:sg49",
+            "richersons:sg66",
+            "richersons:sg68",
+            "richersons:wg00",
+            "richersons:wg25",
+            "richersons:wg34",
+            "richersons:wg49",
+            "richersons:wg66",
+            "richersons:wg68",
+            "richersons:wgf0"
+          ]
+        },
+        {
+          "page": 46,
+          "line": 13,
+          "text": "4 Panel 2 Panel 6 Panel 1 Panel Full",
+          "productIds": [
+            "richersons:sg00",
+            "richersons:sg20",
+            "richersons:sg25",
+            "richersons:sg46",
+            "richersons:sg49",
+            "richersons:sg66",
+            "richersons:sg68",
+            "richersons:wg00",
+            "richersons:wg25",
+            "richersons:wg34",
+            "richersons:wg49",
+            "richersons:wg66",
+            "richersons:wg68",
+            "richersons:wgf0"
+          ]
+        },
+        {
+          "page": 46,
+          "line": 14,
+          "text": "Flush 3/4 Oval 6 Panel 3/4 Lite 3/4 Lite 1/4 Lite Planks Planks",
+          "productIds": [
+            "richersons:sg00",
+            "richersons:sg20",
+            "richersons:sg25",
+            "richersons:sg46",
+            "richersons:sg49",
+            "richersons:sg66",
+            "richersons:sg68",
+            "richersons:wg00",
+            "richersons:wg25",
+            "richersons:wg34",
+            "richersons:wg49",
+            "richersons:wg66",
+            "richersons:wg68",
+            "richersons:wgf0"
+          ]
+        },
+        {
+          "page": 46,
+          "line": 22,
+          "text": "4 Panel 4 Panel",
+          "productIds": [
+            "richersons:sg00",
+            "richersons:sg20",
+            "richersons:sg25",
+            "richersons:sg46",
+            "richersons:sg49",
+            "richersons:sg66",
+            "richersons:sg68",
+            "richersons:wg00",
+            "richersons:wg25",
+            "richersons:wg34",
+            "richersons:wg49",
+            "richersons:wg66",
+            "richersons:wg68",
+            "richersons:wgf0"
+          ]
+        },
+        {
+          "page": 46,
+          "line": 23,
+          "text": "Flush 6 Panel 3/4 Lite Flush 6 Panel 3/4 Lite",
+          "productIds": [
+            "richersons:sg00",
+            "richersons:sg20",
+            "richersons:sg25",
+            "richersons:sg46",
+            "richersons:sg49",
+            "richersons:sg66",
+            "richersons:sg68",
+            "richersons:wg00",
+            "richersons:wg25",
+            "richersons:wg34",
+            "richersons:wg49",
+            "richersons:wg66",
+            "richersons:wg68",
+            "richersons:wgf0"
+          ]
+        },
+        {
+          "page": 47,
+          "line": 24,
+          "text": "White only Standard 22.95\" x 4.8\" 22.95\" x 4.8\" 22.95\" x 4.8\" INSULATED GLASS",
+          "productIds": [
+            "richersons:sg10",
+            "richersons:sg4l",
+            "richersons:sgnl",
+            "richersons:wg12",
+            "richersons:wg27",
+            "richersons:wgnl"
+          ]
+        },
+        {
+          "page": 47,
+          "line": 40,
+          "text": "Insulated Glass Insulated Glass",
+          "productIds": [
+            "richersons:sg10",
+            "richersons:sg4l",
+            "richersons:sgnl",
+            "richersons:wg12",
+            "richersons:wg27",
+            "richersons:wgnl"
+          ]
+        },
+        {
+          "page": 47,
+          "line": 43,
+          "text": "Smooth Glass 3/4 Lite",
+          "productIds": [
+            "richersons:sg10",
+            "richersons:sg4l",
+            "richersons:sgnl",
+            "richersons:wg12",
+            "richersons:wg27",
+            "richersons:wgnl"
+          ]
+        },
+        {
+          "page": 48,
+          "line": 2,
+          "text": "With Factory Installed Glass Snap-In Doorlite Frame",
+          "productIds": [
+            "richersons:fg4h",
+            "richersons:ms35",
+            "richersons:rg21",
+            "richersons:rg22",
+            "richersons:rg26",
+            "richersons:sg4h",
+            "richersons:tg00",
+            "richersons:tg07",
+            "richersons:tg71"
+          ]
+        },
+        {
+          "page": 48,
+          "line": 19,
+          "text": "* 7ft Products in BC are 83” height",
+          "productIds": [
+            "richersons:fg4h",
+            "richersons:ms35",
+            "richersons:rg21",
+            "richersons:rg22",
+            "richersons:rg26",
+            "richersons:sg4h",
+            "richersons:tg00",
+            "richersons:tg07",
+            "richersons:tg71"
+          ]
+        },
+        {
+          "page": 48,
+          "line": 21,
+          "text": "2 Panel Plank 1 Panel 2 Panel Plank",
+          "productIds": [
+            "richersons:fg4h",
+            "richersons:ms35",
+            "richersons:rg21",
+            "richersons:rg22",
+            "richersons:rg26",
+            "richersons:sg4h",
+            "richersons:tg00",
+            "richersons:tg07",
+            "richersons:tg71"
+          ]
+        },
+        {
+          "page": 48,
+          "line": 22,
+          "text": "1 Panel Plank Camber Top Sidelite Camber Top",
+          "productIds": [
+            "richersons:fg4h",
+            "richersons:ms35",
+            "richersons:rg21",
+            "richersons:rg22",
+            "richersons:rg26",
+            "richersons:sg4h",
+            "richersons:tg00",
+            "richersons:tg07",
+            "richersons:tg71"
+          ]
+        },
+        {
+          "page": 49,
+          "line": 11,
+          "text": "* For glass options (Low-E, Translucent & Mini-Blinds), please consult the program offering.",
+          "productIds": [
+            "richersons:bk10",
+            "richersons:bk11",
+            "richersons:bk27",
+            "richersons:bk28"
+          ]
+        },
+        {
+          "page": 49,
+          "line": 13,
+          "text": "8ft 2 Panel 8ft Sidelite",
+          "productIds": [
+            "richersons:bk10",
+            "richersons:bk11",
+            "richersons:bk27",
+            "richersons:bk28"
+          ]
+        },
+        {
+          "page": 50,
+          "line": 14,
+          "text": "Flush One Lite 3 Panel Full Planks Flush Glass",
+          "productIds": []
+        }
+      ],
+      "extractionErrors": [],
+      "extractedAt": "2026-08-20T08:06:16.589844+00:00"
+    },
+    {
+      "documentId": "richersons:richersons2022-23-contemporary-7a90ef29b614",
+      "title": "Richersons Doors Contemporary Collection Brochure",
+      "supplier": "richersons",
+      "localPath": "/documents/catalog/richersons/richersons2022-23-contemporary-7a90ef29b614.pdf",
+      "sha256": "6104ed6e86fedf7bc54a6b4dc9c811282866bb977fbd30a3a3df2c58d2d7c584",
+      "bytes": 8570525,
+      "pageCount": 2,
+      "textCharacters": 1114,
+      "tableCount": 15,
+      "extractedImageCount": 32,
+      "ocrRequired": false,
+      "ocrApplied": false,
+      "ocrReused": false,
+      "ocrEngine": null,
+      "ocrPages": 0,
+      "metadata": {
+        "/CreationDate": "D:20220419100129+08'00'",
+        "/Creator": "Adobe InDesign 17.2 (Windows)",
+        "/ModDate": "D:20220419100146+08'00'",
+        "/Producer": "Adobe PDF Library 16.0.7",
+        "/Trapped": "/False"
+      },
+      "documentDate": "2022-01-01",
+      "freshness": {
+        "status": "current-source-linked",
+        "basis": "The 2022-2023 edition remains linked from the current supplier brochures page; its design options do not map directly to current canonical model IDs."
+      },
+      "provenance": {
+        "supplier": "richersons",
+        "sourcePageUrls": [
+          "https://www.richersonsdoors.com/brochures"
+        ],
+        "productIds": [],
+        "collections": [],
+        "scope": "supplier",
+        "role": "brochure",
+        "originalUrl": "https://www.richersonsdoors.com/s/Richersons2022-23_Contemporary.pdf",
+        "sourceUrls": [
+          "https://www.richersonsdoors.com/s/Richersons2022-23_Contemporary.pdf"
+        ],
+        "finalUrl": "https://static1.squarespace.com/static/5b3ceff196e76fd052494def/t/627ed0830bc08b77713c8c3c/1652478091098/Richersons2022-23_Contemporary.pdf",
+        "localPath": "/documents/catalog/richersons/richersons2022-23-contemporary-7a90ef29b614.pdf",
+        "sha256": "6104ed6e86fedf7bc54a6b4dc9c811282866bb977fbd30a3a3df2c58d2d7c584",
+        "bytes": 8570525,
+        "discoveredAt": "2026-08-20T07:41:42Z",
+        "assetType": "document",
+        "relationshipState": "supplier-shared",
+        "relationshipEvidence": [],
+        "masterUrl": "https://www.richersonsdoors.com/s/Richersons2022-23_Contemporary.pdf",
+        "selectedUrl": "https://static1.squarespace.com/static/5b3ceff196e76fd052494def/t/627ed0830bc08b77713c8c3c/1652478091098/Richersons2022-23_Contemporary.pdf",
+        "mimeType": "application/pdf",
+        "width": null,
+        "height": null
+      },
+      "pages": [
+        {
+          "page": 1,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/pages/page-0001.txt",
+          "characters": 160,
+          "tables": [],
+          "images": [
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/images/page-0001-image-01.jpg",
+              "page": 1,
+              "width": 2146,
+              "height": 2774,
+              "sha256": "bd4b8a8f48cf517538515db698117b85d2a642e3dd438f770c8b76fd2a850165",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/images/page-0001-image-03.jpg",
+              "page": 1,
+              "width": 1488,
+              "height": 1656,
+              "sha256": "34943e124b39c5091812f37d638e7aa0229d2e6de0b0879ee92493dd08f2ce84",
+              "productIds": []
+            }
+          ],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        },
+        {
+          "page": 2,
+          "textPath": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/pages/page-0002.txt",
+          "characters": 954,
+          "tables": [
+            "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/tables/page-0002-table-01.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/tables/page-0002-table-02.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/tables/page-0002-table-03.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/tables/page-0002-table-04.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/tables/page-0002-table-05.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/tables/page-0002-table-06.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/tables/page-0002-table-07.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/tables/page-0002-table-08.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/tables/page-0002-table-09.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/tables/page-0002-table-10.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/tables/page-0002-table-11.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/tables/page-0002-table-12.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/tables/page-0002-table-13.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/tables/page-0002-table-14.json",
+            "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/tables/page-0002-table-15.json"
+          ],
+          "images": [
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/images/page-0002-image-01.png",
+              "page": 2,
+              "width": 278,
+              "height": 737,
+              "sha256": "b358e0bbdfd0d1621065c38ad90bf7306480126115702353ab192b88cb261ae5",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/images/page-0002-image-02.png",
+              "page": 2,
+              "width": 278,
+              "height": 613,
+              "sha256": "e46c23b332a2149dfd273255aab44e56c27de14441bf6bbd8efc1d2fa2a512ee",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/images/page-0002-image-03.png",
+              "page": 2,
+              "width": 278,
+              "height": 737,
+              "sha256": "d3950c5fc326ec9a3fda43057c2837ab52b8de91a1a0140035bd18ab8328e6dc",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/images/page-0002-image-04.png",
+              "page": 2,
+              "width": 278,
+              "height": 613,
+              "sha256": "f45de24e628acba2f0f248b7f82f3192927a5725f44d9d269345909be893a882",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/images/page-0002-image-05.png",
+              "page": 2,
+              "width": 278,
+              "height": 737,
+              "sha256": "d6875ba87fa341e4f4db1830932ebea981bcdc99a26ec0970d9ab2057ea48410",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/images/page-0002-image-06.png",
+              "page": 2,
+              "width": 278,
+              "height": 613,
+              "sha256": "311a71d80f4c22dc470825aa674807694ddc0ea630dff985b0e65b3a8e66c006",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/images/page-0002-image-07.png",
+              "page": 2,
+              "width": 278,
+              "height": 737,
+              "sha256": "c9889794d585610318faf99e9257e5795461bd7542a3ab86c1f5a9efa8479d86",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/images/page-0002-image-08.png",
+              "page": 2,
+              "width": 278,
+              "height": 613,
+              "sha256": "17244892871caed89b8a2838f1f46374100b63c33ab1eecc9f9c1b76fe1e84e1",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/images/page-0002-image-09.png",
+              "page": 2,
+              "width": 278,
+              "height": 737,
+              "sha256": "2d72458bdc983efe48b385be7640b1d64434ad56f851358348051cb96c856c69",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/images/page-0002-image-10.png",
+              "page": 2,
+              "width": 278,
+              "height": 613,
+              "sha256": "fa7eadde252758c591aa7dfce4dee0df306f00a8f7cbea548b25df9368da3007",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/images/page-0002-image-11.png",
+              "page": 2,
+              "width": 278,
+              "height": 737,
+              "sha256": "79ba6e71c53b7e28f78a0c865628908b97243014f3baea052d31c1a6bfb3c7a8",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/images/page-0002-image-12.png",
+              "page": 2,
+              "width": 278,
+              "height": 613,
+              "sha256": "914c3c1ff43aad696719d0ca3363283c273ac5d376106262c1825563ebbde1b5",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/images/page-0002-image-13.png",
+              "page": 2,
+              "width": 278,
+              "height": 737,
+              "sha256": "3222cea7e9782330bb04eb55e3f371607a41730cb5f6cebfc52ec505ba439c37",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/images/page-0002-image-14.png",
+              "page": 2,
+              "width": 278,
+              "height": 737,
+              "sha256": "bf956ea72536e8a323e7606a28927b155687874b76e6b45d48112081dd221c60",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/images/page-0002-image-15.png",
+              "page": 2,
+              "width": 278,
+              "height": 613,
+              "sha256": "233115d4fe16acd1251c88d9e0ebb1f97e2547615d4c6c0b5477de84262cfa08",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/images/page-0002-image-16.png",
+              "page": 2,
+              "width": 278,
+              "height": 737,
+              "sha256": "636ccced1adf7e14138059e20b525574bccb14527c8dfb54196720a3397e25b6",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/images/page-0002-image-17.png",
+              "page": 2,
+              "width": 278,
+              "height": 613,
+              "sha256": "d1f256b8be0985c3769b17806c8e66461218ec4be40289f937f3d28691beec56",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/images/page-0002-image-18.png",
+              "page": 2,
+              "width": 278,
+              "height": 737,
+              "sha256": "5d67e1e01c844abcdc014f433fadd0c7b0fea1b67007ddc013b2a6fedd932da2",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/images/page-0002-image-19.png",
+              "page": 2,
+              "width": 278,
+              "height": 613,
+              "sha256": "cb28e31935684d71715b032c5767bdaf909412b2f7ee6c18beb9bb443422673f",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/images/page-0002-image-20.png",
+              "page": 2,
+              "width": 278,
+              "height": 737,
+              "sha256": "a12676eb0e216e0e42702a290e19e67d571225d44f7f79c74a5b243ed6a894d6",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/images/page-0002-image-21.png",
+              "page": 2,
+              "width": 278,
+              "height": 613,
+              "sha256": "03d559b8f5429f6455c09bb96db90fd1ebfe1719054a4527d5baedf101d73bb8",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/images/page-0002-image-22.png",
+              "page": 2,
+              "width": 278,
+              "height": 737,
+              "sha256": "adaf63a4ad64b23def51a2829d02ddfc99a8e51f0a7f2ad9321d029be6128dda",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/images/page-0002-image-23.png",
+              "page": 2,
+              "width": 278,
+              "height": 613,
+              "sha256": "abbd56cde7612ae28062534ee6d2632b538b3d0f57d55f93e9e0919d21ba2c09",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/images/page-0002-image-24.png",
+              "page": 2,
+              "width": 278,
+              "height": 613,
+              "sha256": "2d7d66f2a5bd2bb8bcba991fa6fc09749283ebac3a75afd15a776ab95b62ed0d",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/images/page-0002-image-25.png",
+              "page": 2,
+              "width": 278,
+              "height": 737,
+              "sha256": "e6fcf01c44fa50bcdad055f024e6599f572afef8d592272abaa75abcccda45ee",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/images/page-0002-image-26.png",
+              "page": 2,
+              "width": 278,
+              "height": 613,
+              "sha256": "4cc821bdcd1e7ab206ca3ab646d5dfca08846128cccfce71df9a9f437d694a48",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/images/page-0002-image-27.png",
+              "page": 2,
+              "width": 278,
+              "height": 737,
+              "sha256": "105aea10c11007a105ea683e0d431eec671a7ead6c8c84e6dd89b6a95a5c26b7",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/images/page-0002-image-28.png",
+              "page": 2,
+              "width": 278,
+              "height": 613,
+              "sha256": "645d73b413542a64d9f8fe6847555132d268d994e05b85ed54f09ac9ce7801cb",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/images/page-0002-image-29.png",
+              "page": 2,
+              "width": 278,
+              "height": 737,
+              "sha256": "a125fa20984eb99c289b72a86dffd496183091be80c78a753a311b88fdbb1333",
+              "productIds": []
+            },
+            {
+              "path": "source-media/suppliers/richersons/pdf-extracted/richersons2022-23-contemporary-7a90ef29b614/images/page-0002-image-30.png",
+              "page": 2,
+              "width": 278,
+              "height": 613,
+              "sha256": "80f7f92d85ac98f7d82fb9fce07d5237f86b4baec3d6145c432d00a9e3297cc5",
+              "productIds": []
+            }
+          ],
+          "evidenceProductIds": [],
+          "textSource": "embedded"
+        }
+      ],
+      "factCandidates": [],
+      "extractionErrors": [],
+      "extractedAt": "2026-08-20T08:06:20.044639+00:00"
     }
   ]
 }

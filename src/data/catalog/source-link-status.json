@@ -36,7 +36,7 @@
     "url": "https://www.richersonsdoors.com/manufacturer",
     "sourcePageUrl": null,
     "status": "blocked",
-    "checkedAt": "2026-08-19T19:54:33Z",
+    "checkedAt": "2026-08-20T07:41:43Z",
     "detail": "HTTP Error 401: Unauthorized"
   },
   {
@@ -44,7 +44,7 @@
     "url": "https://www.richersonsdoors.com/where-to-buy",
     "sourcePageUrl": null,
     "status": "stale",
-    "checkedAt": "2026-08-19T19:54:33Z",
+    "checkedAt": "2026-08-20T07:41:43Z",
     "detail": "HTTP Error 404: Not Found"
   }
 ]

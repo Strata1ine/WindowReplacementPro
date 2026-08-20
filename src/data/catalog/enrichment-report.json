@@ -1,11 +1,11 @@
 {
   "generatedAt": "2026-08-19T23:30:00Z",
-  "records": 521,
-  "normalizedRecords": 501,
+  "records": 540,
+  "normalizedRecords": 524,
   "editorialDrafts": 200,
-  "editorialIncomplete": 321,
-  "newRecords": 251,
-  "newRetainedDistinct": 251,
+  "editorialIncomplete": 340,
+  "newRecords": 270,
+  "newRetainedDistinct": 270,
   "newEditorialDrafts": 14,
   "staleOrBlockedLinks": {
     "stale": 5,
@@ -45,12 +45,12 @@
       "documents": 0
     },
     "richersons": {
-      "records": 35,
-      "normalized": 31,
+      "records": 54,
+      "normalized": 54,
       "editorialDrafts": 31,
-      "editorialIncomplete": 4,
-      "media": 12,
-      "documents": 0
+      "editorialIncomplete": 23,
+      "media": 54,
+      "documents": 37
     },
     "trimlite": {
       "records": 178,

@@ -904,10 +904,11 @@
     "name": "Richersons Doors",
     "base_url": "https://www.richersonsdoors.com/",
     "allowed_domains": ["richersonsdoors.com", "www.richersonsdoors.com"],
-    "asset_domains": ["richersonsdoors.com", "www.richersonsdoors.com", "images.squarespace-cdn.com"],
+    "asset_domains": ["richersonsdoors.com", "www.richersonsdoors.com", "images.squarespace-cdn.com", "static1.squarespace.com"],
     "start_urls": ["https://www.richersonsdoors.com/"],
     "product_hints": ["teak", "mahogany", "flush", "oak", "smooth", "craftsman"],
     "embedded_product_collections": {
+      "/whats-new": "New Products",
       "/modern-teak": "Modern Teak",
       "/mahogany-woodgrain": "Mahogany Woodgrain",
       "/flush-glazed": "Flush Glazed",
@@ -915,11 +916,74 @@
       "/smooth-white": "Smooth White",
       "/craftsman": "Craftsman"
     },
-    "embedded_product_model_pattern": "\\b(?:WG|SG|BK)[A-Z0-9]{2,3}\\b",
+    "embedded_product_model_pattern": "\\b(?:BK|BW|FG|MS|RG|SG|TG|TS|WG)[A-Z0-9]{2,3}\\b",
+    "embedded_product_include_patterns_by_path": {
+      "/whats-new": ["BW2JS?"]
+    },
+    "embedded_product_exclude_patterns": ["MASG4"],
+    "document_role_rules": [
+      {"patterns": ["Richersons_Full-Line_APR2025"], "role": "catalogue"},
+      {"patterns": ["Richersons2022-23_Contemporary"], "role": "brochure"}
+    ],
+    "document_product_rules": [
+      {
+        "patterns": ["Richersons_Full-Line_APR2025"],
+        "product_ids": ["richersons:bk10", "richersons:bk11", "richersons:bk27", "richersons:bk28", "richersons:fg30", "richersons:fg4h", "richersons:ms35", "richersons:rg21", "richersons:rg22", "richersons:rg26", "richersons:sg00", "richersons:sg10", "richersons:sg12", "richersons:sg20", "richersons:sg25", "richersons:sg30", "richersons:sg3j", "richersons:sg46", "richersons:sg49", "richersons:sg4h", "richersons:sg4l", "richersons:sg66", "richersons:sg68", "richersons:sgnl", "richersons:tg00", "richersons:tg07", "richersons:tg71", "richersons:wg00", "richersons:wg12", "richersons:wg25", "richersons:wg27", "richersons:wg34", "richersons:wg49", "richersons:wg66", "richersons:wg68", "richersons:wgf0", "richersons:wgnl"]
+      }
+    ],
+    "pdf_evidence_rules": [
+      {
+        "patterns": ["richersons-full-line-apr2025-.*\\.pdf$"],
+        "document_metadata": {
+          "title": "Richersons Doors Full Line Catalogue",
+          "documentDate": "2025-04-01",
+          "freshnessStatus": "current-source-linked",
+          "freshnessBasis": "April 2025 full-line catalogue linked from the current supplier brochures page."
+        },
+        "page_product_ids": {
+          "7": ["richersons:bk10", "richersons:bk11"],
+          "9": ["richersons:bk27", "richersons:bk28"],
+          "13": ["richersons:tg71"],
+          "15": ["richersons:tg00", "richersons:tg07"],
+          "17": ["richersons:rg22", "richersons:rg26"],
+          "21": ["richersons:fg4h", "richersons:sg4h"],
+          "23": ["richersons:fg30", "richersons:sg30", "richersons:sg3j"],
+          "25": ["richersons:sg12", "richersons:wg12"],
+          "26": ["richersons:sg10"],
+          "27": ["richersons:sg10"],
+          "29": ["richersons:sgnl", "richersons:wgnl"],
+          "31": ["richersons:sg4l"],
+          "35": ["richersons:wg00", "richersons:wg25", "richersons:wg49", "richersons:wg66", "richersons:wg68", "richersons:wgf0"],
+          "37": ["richersons:wgnl"],
+          "39": ["richersons:sg00", "richersons:sg25", "richersons:sg46", "richersons:sg49", "richersons:sg68"],
+          "46": ["richersons:sg00", "richersons:sg20", "richersons:sg25", "richersons:sg46", "richersons:sg49", "richersons:sg66", "richersons:sg68", "richersons:wg00", "richersons:wg25", "richersons:wg34", "richersons:wg49", "richersons:wg66", "richersons:wg68", "richersons:wgf0"],
+          "47": ["richersons:sg10", "richersons:sg4l", "richersons:sgnl", "richersons:wg12", "richersons:wg27", "richersons:wgnl"],
+          "48": ["richersons:fg4h", "richersons:ms35", "richersons:rg21", "richersons:rg22", "richersons:rg26", "richersons:sg4h", "richersons:tg00", "richersons:tg07", "richersons:tg71"],
+          "49": ["richersons:bk10", "richersons:bk11", "richersons:bk27", "richersons:bk28"]
+        }
+      },
+      {
+        "patterns": ["richersons2022-23-contemporary-.*\\.pdf$"],
+        "document_metadata": {
+          "title": "Richersons Doors Contemporary Collection Brochure",
+          "documentDate": "2022-01-01",
+          "freshnessStatus": "current-source-linked",
+          "freshnessBasis": "The 2022-2023 edition remains linked from the current supplier brochures page; its design options do not map directly to current canonical model IDs."
+        }
+      }
+    ],
     "asset_role_rules": [
-      {"patterns": ["(?:^|[^A-Z0-9])(?:WG|SG|BK)[A-Z0-9]{2,3}(?:[^A-Z0-9]|$)"], "role": "gallery"}
+      {"patterns": ["(?:Jamb|Brickmold|Astragal|SideliteBead|TransomBead|MullionCover|FlushGlazedFrameDetail|TraditionalProfileFrameDetail|OpenAndBeaded_(?:Standard|Full)View)"], "role": "profile-section"},
+      {"patterns": ["FiberglassFinishes_Swatch"], "role": "finish-swatch"},
+      {"patterns": ["/(?:Teak|Mahogany|Oak|SmoothWhite|Open%2BBeaded|BrushStroke)\\.jpg(?:\\?|\\s)", "748ccda7-d96f-4d27-b0b7-1870f29edae0/Craftsman\\.jpg"], "role": "configuration-diagram"},
+      {"patterns": ["(?:^|[^A-Z0-9])(?:BK|BW|FG|MS|RG|SG|TG|TS|WG)[A-Z0-9]{2,3}(?:[^A-Z0-9]|$)"], "role": "product-gallery"}
+    ],
+    "archive_shared_roles": ["profile-section", "finish-swatch", "configuration-diagram"],
+    "asset_product_rules": [
+      {"patterns": ["Woodgrain-FG-Rustic-2panel\\+RG22"], "product_ids": ["richersons:rg22", "richersons:rg26"]}
     ],
     "assets_on_product_pages_only": true,
+    "require_gallery_identity_match": true,
     "categories": ["entry-doors"]
   },
   {

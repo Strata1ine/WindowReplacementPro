@@ -1,0 +1,227 @@
+{
+  "supplier": "richersons",
+  "supplierName": "Richersons Doors",
+  "completedAt": "2026-08-20",
+  "status": "WEBSITE + MEDIA + PDF VERIFIED",
+  "catalogue": {
+    "canonicalProducts": 54,
+    "collections": [
+      "Craftsman",
+      "Flush Glazed",
+      "Mahogany Woodgrain",
+      "Modern Teak",
+      "New Products",
+      "Oak Woodgrain",
+      "Smooth White"
+    ],
+    "newCanonicalProducts": 23,
+    "newCanonicalProductIds": [
+      "richersons:bk10",
+      "richersons:bk11",
+      "richersons:bw10",
+      "richersons:bw11",
+      "richersons:bw2j",
+      "richersons:bw2js",
+      "richersons:fg30",
+      "richersons:fg4h",
+      "richersons:ms35",
+      "richersons:rg21",
+      "richersons:rg22",
+      "richersons:rg26",
+      "richersons:sg10",
+      "richersons:sg12",
+      "richersons:sg30",
+      "richersons:sg3j",
+      "richersons:sg4h",
+      "richersons:tg00",
+      "richersons:tg07",
+      "richersons:tg71",
+      "richersons:ts71",
+      "richersons:wg12",
+      "richersons:wg3j"
+    ],
+    "mergedRichersonsRecords": 54,
+    "explicitPublicationHolds": 23
+  },
+  "liveCrawl": {
+    "pagesCrawled": 13,
+    "acceptedRunId": "20260820T072926Z-42820",
+    "plannedAssetTasks": 103,
+    "downloadedUniqueCandidates": 96,
+    "acceptedAssets": 93,
+    "rejectedTasks": 3,
+    "rejectedTaskReason": "Three images on the generic What’s New page had no accepted current-product/shared-role relationship and remain quarantined.",
+    "taskStatesAtPromotion": {
+      "downloaded": 0,
+      "pending": 0,
+      "promoted": 100,
+      "rejected": 3,
+      "retryable": 0,
+      "validated": 0
+    },
+    "pendingAssetTasks": 0,
+    "retryableAssetTasks": 0,
+    "staleDiscoveryErrors": [
+      {
+        "url": "https://www.richersonsdoors.com/manufacturer",
+        "error": "HTTP Error 401: Unauthorized"
+      },
+      {
+        "url": "https://www.richersonsdoors.com/where-to-buy",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "offDomainRedirectsAccepted": 0,
+    "offDomainAssetsAccepted": 0,
+    "pageDiscoveryRepeatedAfterCheckpoint": false
+  },
+  "liveMedia": {
+    "productsWithCorrectHero": 54,
+    "productsWithAnyMedia": 54,
+    "productsWithDocuments": 37,
+    "missingProductSpecificMedia": 0,
+    "acceptedImageAssets": 91,
+    "acceptedPdfAssets": 2,
+    "assetRoles": {
+      "product-hero": 47,
+      "configuration-diagram": 7,
+      "product-gallery": 2,
+      "profile-section": 31,
+      "finish-swatch": 4,
+      "catalogue": 1,
+      "brochure": 1
+    },
+    "relationshipStates": {
+      "product-specific": 42,
+      "collection-shared": 7,
+      "supplier-shared": 44
+    },
+    "uncertainPublicAssociations": 0,
+    "sharedProductBinaries": 8,
+    "responsiveQueryDerivativesAccepted": 0,
+    "genericLogoIconNavigationAssetsAttached": 0,
+    "sourceUrlAliasAssets": 5,
+    "duplicateAcceptedSha256Groups": 0
+  },
+  "documents": {
+    "totalPdfDocuments": 2,
+    "currentFullLineCatalogue": {
+      "title": "Richersons Doors Full Line Catalogue",
+      "documentDate": "2025-04-01",
+      "freshness": {
+        "status": "current-source-linked",
+        "basis": "April 2025 full-line catalogue linked from the current supplier brochures page."
+      },
+      "sourceUrl": "https://www.richersonsdoors.com/s/Richersons_Full-Line_APR2025.pdf",
+      "finalUrl": "https://static1.squarespace.com/static/5b3ceff196e76fd052494def/t/67f7ec0d62989d20ac383484/1744301079703/Richersons_Full+Line_APR2025.pdf",
+      "pages": 52,
+      "textCharacters": 25105,
+      "tables": 24,
+      "embeddedImagesExtracted": 29,
+      "canonicalProductsWithReviewedPageEvidence": 37,
+      "reviewedEvidencePages": [
+        7,
+        9,
+        13,
+        15,
+        17,
+        21,
+        23,
+        25,
+        26,
+        27,
+        29,
+        31,
+        35,
+        37,
+        39,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    "contemporaryBrochure": {
+      "title": "Richersons Doors Contemporary Collection Brochure",
+      "edition": "2022-2023",
+      "documentDate": "2022-01-01",
+      "freshness": {
+        "status": "current-source-linked",
+        "basis": "The 2022-2023 edition remains linked from the current supplier brochures page; its design options do not map directly to current canonical model IDs."
+      },
+      "sourceUrl": "https://www.richersonsdoors.com/s/Richersons2022-23_Contemporary.pdf",
+      "finalUrl": "https://static1.squarespace.com/static/5b3ceff196e76fd052494def/t/627ed0830bc08b77713c8c3c/1652478091098/Richersons2022-23_Contemporary.pdf",
+      "pages": 2,
+      "textCharacters": 1114,
+      "tables": 15,
+      "embeddedImagesExtracted": 32,
+      "separableDesignOrSlabImagesOnPage2": 30,
+      "canonicalProductRelationships": 0,
+      "relationshipState": "supplier-shared / review-only"
+    },
+    "allPdfPagesProcessed": 54,
+    "allExtractedTextCharacters": 26219,
+    "allTablesExtracted": 39,
+    "allEmbeddedImagesExtracted": 61,
+    "extractionErrors": 0
+  },
+  "publicationRelationships": {
+    "fullLineCatalogueProducts": 37,
+    "websiteVerifiedWithoutExactFullLineModelEvidence": 17,
+    "websiteVerifiedWithoutExactFullLineModelEvidenceIds": [
+      "richersons:bw10",
+      "richersons:bw11",
+      "richersons:bw2j",
+      "richersons:bw2js",
+      "richersons:sg23",
+      "richersons:sg27",
+      "richersons:sg3b",
+      "richersons:sg3l",
+      "richersons:sg48",
+      "richersons:ts71",
+      "richersons:wg20",
+      "richersons:wg23",
+      "richersons:wg3b",
+      "richersons:wg3j",
+      "richersons:wg46",
+      "richersons:wg48",
+      "richersons:wg91"
+    ],
+    "contemporaryBrochureCanonicalProducts": 0
+  },
+  "sourceFacts": {
+    "canonicalProductsNormalizedFromReviewedSupplierFacts": 54,
+    "editorialDrafts": 31,
+    "newRecordsHeldForIndependentEditorialReview": 23,
+    "genericMarketingCopyCreated": false
+  },
+  "visualReview": {
+    "status": "passed",
+    "directory": "audit/supplier-completeness/visual-review/richersons",
+    "reviewed": [
+      "Full Line cover, representative product pages, product tables, size/configuration page 46, and back cover",
+      "Both pages of the 2022-2023 Contemporary Collection brochure",
+      "All 49 accepted product hero/gallery binaries in three contact sheets"
+    ],
+    "browserScreenshotsUsed": 0
+  },
+  "validation": {
+    "associationRevalidation": "passed offline; no network requests or valid-binary redownloads",
+    "catalogueValidation": "passed",
+    "crawlerTests": "81/81 passed; full npm run verify passed",
+    "pdfExtractionErrors": 0,
+    "relationshipUncertain": 0,
+    "remainingEncodingIssues": 0,
+    "unicodeNote": "Supplier curly-inch quotation marks are preserved as Unicode U+201D; console fallback glyphs are not stored replacement characters."
+  },
+  "missingProducts": [],
+  "remainingWeaknesses": [
+    "The legacy /manufacturer endpoint returns 401 and /where-to-buy returns 404; both remain disclosed and do not affect current product pages.",
+    "Seventeen live current models are not explicitly named in the April 2025 catalogue and remain website-verified rather than PDF-evidenced.",
+    "The still-linked 2022-2023 Contemporary Collection brochure uses design codes that do not map directly to current canonical model IDs, so its 30 separable page-two images remain supplier-level review evidence.",
+    "The full-line PDF emits CMYK soft-mask size-mismatch warnings during embedded-image extraction; page rendering, text, tables, checksums, and 61 extracted image files remain valid, and rendered pages were used for visual review.",
+    "Several current live captions intentionally supersede stale supplier filenames (including TG71/TG99, TS71/TS00, SG27/SG24, WG27/WG24, WG46/WGF6, and RG21/RG12); relationships rely on the saved caption/gallery evidence and are regression-protected.",
+    "Three generic What’s New images lacked a current canonical relationship and were quarantined instead of being attached."
+  ],
+  "nextSupplierAllowed": true
+}

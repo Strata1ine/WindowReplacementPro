@@ -181,7 +181,7 @@ def decode_html(body: bytes, header_charset: str | None) -> str:
 
 
 WP_SIZE_SUFFIX = re.compile(r'-\d{2,5}x\d{2,5}(?=\.[a-z0-9]{2,5}$)', re.I)
-ASSET_PLANNER_VERSION = 6
+ASSET_PLANNER_VERSION = 10
 
 
 def wordpress_master_candidate(attributes: dict, linked_url: str | None = None) -> str | None:
@@ -199,6 +199,10 @@ def wordpress_master_candidate(attributes: dict, linked_url: str | None = None) 
         parsed.append((score, fields[0]))
     largest = max(parsed, key=lambda item: item[0])[1] if parsed else None
     selected = explicit or largest or attributes.get('data-large-file') or direct
+    if direct and largest:
+        direct_parts, largest_parts = urlparse(direct), urlparse(largest)
+        if (direct_parts.scheme, direct_parts.netloc, direct_parts.path) == (largest_parts.scheme, largest_parts.netloc, largest_parts.path) and not direct_parts.query and largest_parts.query:
+            selected = direct
     if linked_url and selected:
         linked_path = urlparse(linked_url).path
         selected_path = urlparse(selected).path
@@ -222,28 +226,40 @@ class PageParser(HTMLParser):
         self.magento_init: list[str] = []
         self.visible_text: list[str] = []
         self.embedded_descriptions: list[str] = []
+        self.embedded_media: list[dict] = []
         self.embedded_json_attributes: list[str] = []
         self._capture: str | None = None
         self._buffer: list[str] = []
         self._ignored_depth = 0
         self._link_stack: list[str] = []
         self._media_regions: list[tuple[str, bool, bool]] = []
+        self._description_regions: list[tuple[str, str]] = []
+        self._figure_stack: list[dict] = []
 
     def handle_starttag(self, tag, attrs):
         attributes = dict(attrs)
+        void_tags = {'area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'link', 'meta', 'param', 'source', 'track', 'wbr'}
+        inherited_description = self._description_regions[-1][1] if self._description_regions else ''
+        active_description = attributes.get('data-description') or inherited_description
         region_descriptor = ' '.join(str(attributes.get(key, '')) for key in ('class', 'id', 'role', 'aria-label')).lower()
         parent_excluded = self._media_regions[-1][1] if self._media_regions else False
         parent_primary = self._media_regions[-1][2] if self._media_regions else False
-        excluded_region = parent_excluded or any(marker in region_descriptor for marker in (
-            'up-sells', 'upsells', 'cross-sell', 'crosssell', 'related products', 'related-products',
-            'recommendation', 'recommendations', 'recommended-products', 'you-may-also-like', 'you may also like',
-            'footer-slider', 'footer slider', 'category-thumbnail', 'collection-navigation',
-        )) or any(re.search(pattern, region_descriptor, re.I) for pattern in self.excluded_media_region_patterns)
+        component_region = tag not in {'html', 'body'}
+        excluded_region = parent_excluded or (component_region and (
+            any(marker in region_descriptor for marker in (
+                'up-sells', 'upsells', 'cross-sell', 'crosssell', 'related products', 'related-products',
+                'recommendation', 'recommendations', 'recommended-products', 'you-may-also-like', 'you may also like',
+                'footer-slider', 'footer slider', 'category-thumbnail', 'collection-navigation',
+            )) or any(re.search(pattern, region_descriptor, re.I) for pattern in self.excluded_media_region_patterns)
+        ))
         primary_region = not excluded_region and (parent_primary or any(marker in region_descriptor for marker in (
             'woocommerce-product-gallery', 'avada-single-product-gallery', 'product-gallery__wrapper',
         )))
-        if tag not in {'area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'link', 'meta', 'param', 'source', 'track', 'wbr'}:
+        if tag not in void_tags:
             self._media_regions.append((tag, excluded_region, primary_region))
+            self._description_regions.append((tag, active_description))
+        if tag == 'figure': self._figure_stack.append({'image': None, 'media_index': None, 'caption': [], 'caption_depth': 0})
+        elif tag == 'figcaption' and self._figure_stack: self._figure_stack[-1]['caption_depth'] += 1
         if attributes.get('data-description'): self.embedded_descriptions.append(attributes['data-description'])
         if attributes.get('data-json'): self.embedded_json_attributes.append(attributes['data-json'])
         if tag in {'script', 'style', 'noscript'}: self._ignored_depth += 1
@@ -260,7 +276,8 @@ class PageParser(HTMLParser):
         if tag in {'img', 'source'} and not excluded_region:
             descriptor = ' '.join(str(attributes.get(key, '')) for key in ('class', 'id', 'alt')).lower()
             selected = wordpress_master_candidate(attributes, self._link_stack[-1] if self._link_stack else None)
-            configured_role = next((explicit_role(rule.get('role')) for rule in self.asset_role_rules if any(re.search(pattern, f'{descriptor} {selected or ""}', re.I) for pattern in rule.get('patterns', []))), None)
+            caption_descriptor = clean_text(re.sub(r'<[^>]+>', ' ', html.unescape(active_description)))
+            configured_role = next((explicit_role(rule.get('role')) for rule in self.asset_role_rules if any(re.search(pattern, f'{descriptor} {selected or ""} {caption_descriptor}', re.I) for pattern in rule.get('patterns', []))), None)
             if configured_role: role = configured_role
             elif any(word in descriptor for word in ('configuration', 'size chart', 'opening panel')): role = 'configuration-diagram'
             elif any(word in descriptor for word in ('profile', 'cross-section', 'cross section', 'section drawing')): role = 'profile-section'
@@ -272,7 +289,13 @@ class PageParser(HTMLParser):
             elif any(word in descriptor for word in ('hero', 'main-image', 'featured', 'primary')): role = 'product-hero'
             elif any(word in descriptor for word in ('gallery', 'product', 'slide')): role = 'product-gallery'
             else: role = 'generic'
-            if selected: self.media.append((selected, 'image', role))
+            if selected:
+                media_index = len(self.media)
+                self.media.append((selected, 'image', role))
+                if self._figure_stack and not self._figure_stack[-1]['image']:
+                    self._figure_stack[-1]['image'] = selected
+                    self._figure_stack[-1]['media_index'] = media_index
+                if active_description: self.embedded_media.append({'description': active_description, 'image': selected})
         style = attributes.get('style', '')
         if not excluded_region:
             for background in re.findall(r'url\(["\']?([^"\')]+)', style, re.I):
@@ -291,6 +314,18 @@ class PageParser(HTMLParser):
         elif tag == 'script' and str(attributes.get('type', '')).lower() == 'text/x-magento-init': self._capture, self._buffer = 'magento', []
 
     def handle_endtag(self, tag):
+        if tag == 'figcaption' and self._figure_stack and self._figure_stack[-1]['caption_depth']:
+            self._figure_stack[-1]['caption_depth'] -= 1
+        elif tag == 'figure' and self._figure_stack:
+            figure = self._figure_stack.pop()
+            caption = clean_text(' '.join(figure['caption']))
+            if figure['image'] and caption:
+                self.embedded_descriptions.append(caption)
+                self.embedded_media.append({'description': caption, 'image': figure['image']})
+                configured_role = next((explicit_role(rule.get('role')) for rule in self.asset_role_rules if any(re.search(pattern, f"{figure['image']} {caption}", re.I) for pattern in rule.get('patterns', []))), None)
+                if configured_role is not None and figure['media_index'] is not None:
+                    url, kind, _ = self.media[figure['media_index']]
+                    self.media[figure['media_index']] = (url, kind, configured_role)
         if self._capture == 'title' and tag == 'title': self.title, self._capture = clean_text(''.join(self._buffer)), None
         elif self._capture == 'h1' and tag == 'h1': self.h1, self._capture = clean_text(''.join(self._buffer)), None
         elif self._capture == 'jsonld' and tag == 'script': self.jsonld.append(''.join(self._buffer)); self._capture = None
@@ -301,8 +336,13 @@ class PageParser(HTMLParser):
             if self._media_regions[index][0] == tag:
                 del self._media_regions[index:]
                 break
+        for index in range(len(self._description_regions) - 1, -1, -1):
+            if self._description_regions[index][0] == tag:
+                del self._description_regions[index:]
+                break
 
     def handle_data(self, data):
+        if self._figure_stack and self._figure_stack[-1]['caption_depth'] and data.strip(): self._figure_stack[-1]['caption'].append(data)
         if self._capture: self._buffer.append(data)
         elif not self._ignored_depth and data.strip(): self.visible_text.append(data)
 
@@ -433,21 +473,30 @@ def relevant_asset(url: str, role: str) -> bool:
 
 
 def embedded_caption_products(parser: PageParser, page_path: str, cfg: dict) -> list[dict]:
-    collection = cfg.get('embedded_product_collections', {}).get(page_path.rstrip('/'))
+    normalized_path = page_path.rstrip('/')
+    collection = cfg.get('embedded_product_collections', {}).get(normalized_path)
     pattern = cfg.get('embedded_product_model_pattern')
     if not collection or not pattern: return []
-    products: list[dict] = []
-    seen: set[str] = set()
-    for raw in parser.embedded_descriptions:
-        description = clean_text(re.sub(r'<[^>]+>', ' ', html.unescape(raw)))
-        matches = re.findall(pattern, description, re.I)
-        if not matches: continue
-        model = matches[-1] if isinstance(matches[-1], str) else matches[-1][0]
-        model = model.upper()
-        if model in seen: continue
-        seen.add(model)
-        products.append({'slug': slugify(model), 'name': f'{model} {description.replace(model, "").strip()}'.strip(), 'modelNumber': model, 'collection': collection})
-    return products
+    include_patterns = cfg.get('embedded_product_include_patterns_by_path', {}).get(normalized_path, [])
+    exclude_patterns = cfg.get('embedded_product_exclude_patterns', [])
+    observations = parser.embedded_media or [{'description': raw, 'image': None} for raw in parser.embedded_descriptions]
+    products: dict[str, dict] = {}
+    for observation in observations:
+        description = clean_text(re.sub(r'<[^>]+>', ' ', html.unescape(observation['description'])))
+        for match in re.findall(pattern, description, re.I):
+            model = (match if isinstance(match, str) else match[0]).upper()
+            if include_patterns and not any(re.fullmatch(item, model, re.I) for item in include_patterns): continue
+            if any(re.fullmatch(item, model, re.I) for item in exclude_patterns): continue
+            product = products.get(model)
+            if not product:
+                label = clean_text(re.sub(rf'\b{re.escape(model)}\b', '', description, count=1, flags=re.I))
+                product = {'slug': slugify(model), 'name': f'{model} {label}'.strip(), 'modelNumber': model, 'collection': collection, 'description': description, 'images': []}
+                products[model] = product
+            image_url = observation.get('image')
+            if image_url and image_url not in product['images']: product['images'].append(image_url)
+    for product in products.values():
+        product['image'] = product['images'][0] if product['images'] else None
+    return list(products.values())
 
 
 def embedded_json_products(parser: PageParser, page_url: str, cfg: dict) -> list[dict]:
@@ -563,6 +612,11 @@ def refresh_page_asset_candidates(page: Page, cfg: dict, asset_domains: set[str]
         return
     parser = PageParser(cfg.get('asset_role_rules'), cfg.get('excluded_media_region_patterns'))
     parser.feed(snapshot.read_text(encoding='utf-8'))
+    page_path = urlparse(page.url).path.rstrip('/')
+    if page_path in cfg.get('embedded_product_collections', {}):
+        page.embedded_products = embedded_caption_products(parser, page_path, cfg)
+    if page_path in cfg.get('embedded_json_product_paths', []):
+        page.embedded_products = embedded_json_products(parser, page.url, cfg)
     discovered_assets = list(parser.media)
     if cfg.get('trust_structured_product_images', True):
         for image in page.product_data.get('images', []): discovered_assets.append((image, 'image', 'product-hero'))
@@ -743,6 +797,10 @@ def build_asset_tasks(groups: dict[str, list[dict]], max_assets: int, saved: lis
     tasks = [AssetTask(group=item['group'], association_rank=item.get('association_rank', 9), relationship_signals=item.get('relationship_signals', []), **{key: item[key] for key in ('url', 'source_url', 'page_url', 'kind', 'role', 'order')}) for item in selected]
     available = len({item['url'] for items in groups.values() for item in items})
     return tasks, {'plannerVersion': ASSET_PLANNER_VERSION, 'groups': required_groups, 'selected': len(tasks), 'available': available, 'complete': len(tasks) >= available}
+
+
+def clear_resolved_asset_errors(errors: list[dict], url: str) -> None:
+    errors[:] = [item for item in errors if not (item.get('phase') == 'asset-download' and item.get('url') == url)]
 
 
 def restore_retryable_task_states(tasks: list[AssetTask], saved: list[dict]) -> None:
@@ -1309,6 +1367,7 @@ def crawl_supplier(cfg: dict, args) -> tuple[dict, bool]:
             asset = asset_aliases[task.url]
             if validate_asset_binary(asset):
                 task.status = 'validated'; task.error = None; task.asset_url = asset.original_asset_url; task.validated_at = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
+                clear_resolved_asset_errors(errors, task.url)
                 asset.relationship_evidence = sorted(set(asset.relationship_evidence + task.relationship_signals))
                 if page.url not in asset.source_page_urls: asset.source_page_urls.append(page.url); asset.source_page_urls.sort()
                 if asset.local_path not in page.assets: page.assets.append(asset.local_path)
@@ -1334,6 +1393,7 @@ def crawl_supplier(cfg: dict, args) -> tuple[dict, bool]:
             asset_aliases[task.url] = asset
             for source_url in asset.source_asset_urls: asset_aliases[source_url] = asset
             task.status = 'validated'; task.validated_at = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
+            clear_resolved_asset_errors(errors, task.url)
             if asset.local_path not in page.assets: page.assets.append(asset.local_path)
         except Exception as error:
             task.status = 'retryable'; task.error = str(error)
@@ -1354,9 +1414,17 @@ def crawl_supplier(cfg: dict, args) -> tuple[dict, bool]:
                 if product_id in ids or route in routes:
                     structural_errors.append({'url': page.url, 'error': f'duplicate product identity {product_id}'}); continue
                 ids.add(product_id); routes.add(route)
-                embedded_url = normalize(embedded.get('image'), page.url) if embedded.get('image') else None
-                embedded_assets = [asset.local_path for asset in assets.values() if embedded_url and embedded_url in (asset.source_asset_urls or [asset.original_asset_url])]
-                synthetic = Page(page.url, page.title, page.h1, page.description, page.snapshot, True, page.category, embedded_assets, {'modelNumber': embedded['modelNumber']})
+                embedded_urls = [normalized for value in (embedded.get('images') or [embedded.get('image')]) if value for normalized in [normalize(value, page.url)] if normalized]
+                embedded_assets = []
+                for asset in assets.values():
+                    asset_urls = set(asset.source_asset_urls or [asset.original_asset_url])
+                    if not asset_urls.intersection(embedded_urls): continue
+                    embedded_assets.append(asset.local_path)
+                    asset.relationship_evidence = sorted(set(asset.relationship_evidence + ['embedded-caption-model-association']))
+                    if embedded_urls and embedded_urls[0] in asset_urls and explicit_role(asset.role) == 'product-gallery':
+                        asset.role = 'product-hero'
+                        asset.relationship_evidence = sorted(set(asset.relationship_evidence + ['embedded-caption-primary-image']))
+                synthetic = Page(page.url, page.title, page.h1, page.description, page.snapshot, True, page.category, embedded_assets, {'modelNumber': embedded['modelNumber'], 'images': embedded_urls})
                 media, documents = product_asset_paths(synthetic, assets, cfg.get('attach_page_roles'), require_gallery_identity_match=cfg.get('require_gallery_identity_match', False))
                 products.append({'id': product_id, 'manufacturer': slug, 'slug': product_slug, 'name': embedded['name'], 'category': page.category, 'collection': embedded['collection'], 'modelNumber': embedded['modelNumber'], 'type': None, 'summary': None, 'sourceDescription': embedded.get('description'), 'sourceUrl': embedded.get('sourceUrl') or page.url, '_associationPageUrl': page.url, 'sourceType': 'live-crawl', 'media': media, 'documents': documents, 'specifications': {}, 'lastVerified': time.strftime('%Y-%m-%d')})
             continue
