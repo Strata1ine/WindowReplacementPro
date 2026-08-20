@@ -1,0 +1,138 @@
+{
+  "supplier": "vinyl-pro",
+  "reviewedAt": "2026-08-20",
+  "factSets": [
+    {
+      "productIds": ["vinyl-pro:casement", "vinyl-pro:awning", "vinyl-pro:fixed-casement", "vinyl-pro:picture-window", "vinyl-pro:single-hung", "vinyl-pro:single-slider", "vinyl-pro:end-vent-slider", "vinyl-pro:double-hung", "vinyl-pro:double-slider"],
+      "sources": [{
+        "supplier": "vinyl-pro",
+        "sourceUrlTemplate": "https://www.vinyl-pro.ca/windows/{slug}/",
+        "status": "active",
+        "evidenceType": "live-product-identity"
+      }],
+      "facts": {"frameDepth": "3 1/4 in window system"}
+    },
+    {
+      "productIds": ["vinyl-pro:4-9-16-casement", "vinyl-pro:4-9-16-awning", "vinyl-pro:4-9-16-fixed-casement", "vinyl-pro:4-9-16-picture-window", "vinyl-pro:4-9-16-single-hung", "vinyl-pro:4-9-16-single-slider", "vinyl-pro:4-9-16-end-vent-slider"],
+      "sources": [{
+        "supplier": "vinyl-pro",
+        "sourceUrlTemplate": "https://www.vinyl-pro.ca/windows/{slug}/",
+        "status": "active",
+        "evidenceType": "live-product-identity"
+      }],
+      "facts": {"frameDepth": "4 9/16 in window system"}
+    },
+    {
+      "productIds": ["vinyl-pro:casement", "vinyl-pro:awning", "vinyl-pro:fixed-casement", "vinyl-pro:picture-window", "vinyl-pro:single-hung", "vinyl-pro:single-slider", "vinyl-pro:end-vent-slider", "vinyl-pro:double-hung", "vinyl-pro:double-slider"],
+      "sources": [{
+        "supplier": "vinyl-pro",
+        "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+        "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+        "page": 3,
+        "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/new-brochure-2024-oct-24-single-op-282138fd6f12/pages/page-0003.txt",
+        "status": "active",
+        "extractionMethod": "embedded-text"
+      }],
+      "facts": {
+        "material": "100% lead-free uPVC",
+        "glazing": "Double- or triple-glazed insulated units with argon or krypton gas and Low-E coating"
+      }
+    },
+    {
+      "productIds": ["vinyl-pro:4-9-16-casement", "vinyl-pro:4-9-16-awning", "vinyl-pro:4-9-16-fixed-casement", "vinyl-pro:4-9-16-picture-window"],
+      "sources": [{
+        "supplier": "vinyl-pro",
+        "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/Vinyl-Pro-silver-brochure-2021-web.pdf",
+        "sourceDocument": "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf",
+        "page": 4,
+        "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/vinyl-pro-silver-brochure-2021-web-3d424b219424/pages/page-0004.txt",
+        "status": "active",
+        "extractionMethod": "ocr",
+        "reviewStatus": "human-reviewed"
+      }],
+      "facts": {
+        "material": "100% lead-free uPVC",
+        "glazing": "13/16 in sealed glass unit; single, double, triple, Low-E, or decorative glazing depending on model"
+      }
+    },
+    {
+      "productIds": ["vinyl-pro:casement", "vinyl-pro:awning", "vinyl-pro:fixed-casement", "vinyl-pro:picture-window", "vinyl-pro:single-hung", "vinyl-pro:single-slider", "vinyl-pro:end-vent-slider", "vinyl-pro:double-hung", "vinyl-pro:double-slider", "vinyl-pro:4-9-16-casement", "vinyl-pro:4-9-16-awning", "vinyl-pro:4-9-16-fixed-casement", "vinyl-pro:4-9-16-picture-window", "vinyl-pro:4-9-16-single-hung", "vinyl-pro:4-9-16-single-slider", "vinyl-pro:4-9-16-end-vent-slider"],
+      "sources": [{
+        "supplier": "vinyl-pro",
+        "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+        "sourceDocument": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+        "pages": [2, 3, 4],
+        "textPaths": ["source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0002.txt", "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0003.txt", "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0004.txt"],
+        "status": "active",
+        "extractionMethod": "ocr",
+        "reviewStatus": "human-reviewed"
+      }],
+      "facts": {"warranty": "Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application"}
+    },
+    {
+      "productIds": ["vinyl-pro:casement"],
+      "sources": [{"supplier": "vinyl-pro", "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf", "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf", "pages": [4, 6, 7], "status": "active", "extractionMethod": "embedded-text"}],
+      "facts": {"operation": "Opens to a full 90 degrees for maintenance and cleaning from inside", "hardware": "Multipoint locking with stainless-steel hinges and tracks; optional corner-drive system"}
+    },
+    {
+      "productIds": ["vinyl-pro:awning"],
+      "sources": [{"supplier": "vinyl-pro", "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf", "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf", "page": 8, "status": "active", "extractionMethod": "embedded-text"}],
+      "facts": {"configuration": "Can be installed stand-alone or combined with fixed windows"}
+    },
+    {
+      "productIds": ["vinyl-pro:picture-window"],
+      "sources": [{"supplier": "vinyl-pro", "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf", "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf", "page": 10, "status": "active", "extractionMethod": "embedded-text"}],
+      "facts": {"configuration": "Available as a stand-alone window or combined with fixed, casement, double-hung, or single-slider windows"}
+    },
+    {
+      "productIds": ["vinyl-pro:fixed-casement"],
+      "sources": [{"supplier": "vinyl-pro", "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf", "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf", "page": 11, "status": "active", "extractionMethod": "embedded-text"}],
+      "facts": {"operation": "Non-opening fixed window with a high-profile frame"}
+    },
+    {
+      "productIds": ["vinyl-pro:single-slider"],
+      "sources": [{"supplier": "vinyl-pro", "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf", "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf", "page": 12, "status": "active", "extractionMethod": "embedded-text"}],
+      "facts": {"operation": "Tilt-in or lift-out sash for maintenance and cleaning", "screen": "Half screen"}
+    },
+    {
+      "productIds": ["vinyl-pro:single-hung"],
+      "sources": [{"supplier": "vinyl-pro", "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf", "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf", "page": 13, "status": "active", "extractionMethod": "embedded-text"}],
+      "facts": {"screen": "Half-size screen"}
+    },
+    {
+      "productIds": ["vinyl-pro:end-vent-slider"],
+      "sources": [{"supplier": "vinyl-pro", "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf", "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf", "page": 14, "status": "active", "extractionMethod": "embedded-text"}],
+      "facts": {"operation": "Operating sashes at both ends tilt in for cleaning", "openingGuidance": "Supplier identifies it as an option for sliding-window openings wider than 72 in"}
+    },
+    {
+      "productIds": ["vinyl-pro:double-slider"],
+      "sources": [{"supplier": "vinyl-pro", "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf", "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf", "page": 15, "status": "active", "extractionMethod": "embedded-text"}],
+      "facts": {"operation": "Sash glides the full length of the window and can be cleaned from inside", "screen": "Full-length screen"}
+    },
+    {
+      "productIds": ["vinyl-pro:double-hung"],
+      "sources": [{"supplier": "vinyl-pro", "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf", "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf", "page": 16, "status": "active", "extractionMethod": "embedded-text"}],
+      "facts": {"operation": "Spiral sash balance holds the sash in position and permits exterior cleaning from inside", "screen": "Full-size screen"}
+    },
+    {
+      "productIds": ["vinyl-pro:4-9-16-casement"],
+      "sources": [{"supplier": "vinyl-pro", "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/Vinyl-Pro-silver-brochure-2021-web.pdf", "sourceDocument": "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf", "page": 5, "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/vinyl-pro-silver-brochure-2021-web-3d424b219424/pages/page-0005.txt", "status": "active", "extractionMethod": "ocr", "reviewStatus": "human-reviewed"}],
+      "facts": {"waterPenetrationResistance": "720 Pa (15.04 psf)", "airInfiltrationExfiltration": "Canadian A3 level"}
+    },
+    {
+      "productIds": ["vinyl-pro:4-9-16-awning"],
+      "sources": [{"supplier": "vinyl-pro", "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/Vinyl-Pro-silver-brochure-2021-web.pdf", "sourceDocument": "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf", "page": 7, "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/vinyl-pro-silver-brochure-2021-web-3d424b219424/pages/page-0007.txt", "status": "active", "extractionMethod": "ocr", "reviewStatus": "human-reviewed"}],
+      "facts": {"configuration": "Can be installed stand-alone or combined with fixed windows", "waterPenetrationResistance": "720 Pa (15.04 psf)", "airInfiltrationExfiltration": "Canadian A3 level"}
+    },
+    {
+      "productIds": ["vinyl-pro:4-9-16-picture-window"],
+      "sources": [{"supplier": "vinyl-pro", "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/Vinyl-Pro-silver-brochure-2021-web.pdf", "sourceDocument": "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf", "page": 8, "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/vinyl-pro-silver-brochure-2021-web-3d424b219424/pages/page-0008.txt", "status": "active", "extractionMethod": "ocr", "reviewStatus": "human-reviewed"}],
+      "facts": {"configuration": "Available as a stand-alone window or combined with fixed, casement, double-hung, or single-slider windows"}
+    },
+    {
+      "productIds": ["vinyl-pro:4-9-16-fixed-casement"],
+      "sources": [{"supplier": "vinyl-pro", "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/Vinyl-Pro-silver-brochure-2021-web.pdf", "sourceDocument": "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf", "page": 8, "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/vinyl-pro-silver-brochure-2021-web-3d424b219424/pages/page-0008.txt", "status": "active", "extractionMethod": "ocr", "reviewStatus": "human-reviewed"}],
+      "facts": {"operation": "Non-opening fixed window with a high-profile frame"}
+    }
+  ]
+}

@@ -16,11 +16,20 @@ import pdfplumber
 from PIL import Image, ImageStat
 from pypdf import PdfReader
 
+try:
+    from scripts.ingest.pdf_evidence import configured_page_products
+    from scripts.ingest.pdf_ocr import ocr_pdf_pages
+except ModuleNotFoundError:
+    from pdf_evidence import configured_page_products
+    from pdf_ocr import ocr_pdf_pages
+
+
 ROOT = Path(__file__).resolve().parents[2]
 PUBLIC_DOCS = ROOT / "public" / "documents" / "catalog"
 SOURCE_SUPPLIERS = ROOT / "source-media" / "suppliers"
 CATALOG = ROOT / "src" / "data" / "catalog"
 AUDIT = ROOT / "audit" / "supplier-completeness"
+SUPPLIER_CONFIG = ROOT / "scripts" / "ingest" / "suppliers.json"
 FACT_TERMS = re.compile(
     r"\b(?:u[- ]?factor|energy rating|energy star|visible transmittance|solar heat gain|"
     r"air infiltration|water penetration|design pressure|warranty|limited lifetime|"
@@ -105,11 +114,20 @@ def useful_image(image: Image.Image, byte_count: int) -> bool:
     return sum(stat.var) > 30
 
 
-def extract_pdf(pdf_path: Path, slug: str, provenance: dict, patterns: list[tuple[str, re.Pattern]], extract_images: bool) -> dict:
+def extract_pdf(pdf_path: Path, slug: str, provenance: dict, patterns: list[tuple[str, re.Pattern]], extract_images: bool, use_ocr: bool, evidence_rules: list[dict] | None = None) -> dict:
     local_path = "/" + pdf_path.relative_to(ROOT / "public").as_posix()
     doc_hash = sha256(pdf_path)
     doc_id = f"{slug}:{pdf_path.stem}"
     output = SOURCE_SUPPLIERS / slug / "pdf-extracted" / pdf_path.stem
+    cached_ocr_text = {}
+    prior_document_path = output / "document.json"
+    if use_ocr and prior_document_path.is_file():
+        prior_document = load_json(prior_document_path, {})
+        if prior_document.get("sha256") == doc_hash and prior_document.get("ocrApplied"):
+            for page in prior_document.get("pages", []):
+                prior_text_path = ROOT / page.get("textPath", "")
+                if prior_text_path.is_file():
+                    cached_ocr_text[page["page"]] = prior_text_path.read_text(encoding="utf-8")
     if output.exists():
         shutil.rmtree(output)
     output.mkdir(parents=True)
@@ -121,12 +139,27 @@ def extract_pdf(pdf_path: Path, slug: str, provenance: dict, patterns: list[tupl
     text_characters = 0
     table_count = 0
     extraction_errors = []
+    ocr_text_by_page = {}
+    ocr_used_pages = set()
+    ocr_applied = False
+    ocr_reused = False
 
     try:
         plumber = pdfplumber.open(str(pdf_path))
     except Exception as error:
         plumber = None
         extraction_errors.append({"stage": "open-pdfplumber", "error": str(error)})
+
+    if use_ocr:
+        reader_text = "".join((page.extract_text() or "") for page in reader.pages)
+        if len(reader_text) < max(500, len(reader.pages) * 100):
+            if cached_ocr_text:
+                ocr_text_by_page = cached_ocr_text
+                ocr_reused = True
+            else:
+                ocr_text_by_page, ocr_errors = ocr_pdf_pages(pdf_path)
+                extraction_errors.extend(ocr_errors)
+            ocr_applied = True
 
     for page_number in range(1, len(reader.pages) + 1):
         text = ""
@@ -141,10 +174,15 @@ def extract_pdf(pdf_path: Path, slug: str, provenance: dict, patterns: list[tupl
                 tables = page.extract_tables() or []
             except Exception as error:
                 extraction_errors.append({"page": page_number, "stage": "tables", "error": str(error)})
+        ocr_text = ocr_text_by_page.get(page_number, '')
+        if ocr_text and (not text.strip() or '(cid:' in text or len(ocr_text) > max(len(text) * 2, len(text) + 100)):
+            text = ocr_text
+            ocr_used_pages.add(page_number)
         text_path = output / "pages" / f"page-{page_number:04d}.txt"
         write_text(text_path, text)
         text_characters += len(text)
-        matched_products = sorted(product_id for product_id, pattern in patterns if pattern.search(text))
+        reviewed_products = configured_page_products(pdf_path, page_number, evidence_rules)
+        matched_products = reviewed_products if reviewed_products is not None else sorted(product_id for product_id, pattern in patterns if pattern.search(text))
         table_paths = []
         for table_number, table in enumerate(tables, 1):
             table_path = output / "tables" / f"page-{page_number:04d}-table-{table_number:02d}.json"
@@ -172,6 +210,7 @@ def extract_pdf(pdf_path: Path, slug: str, provenance: dict, patterns: list[tupl
             "tables": table_paths,
             "images": [],
             "evidenceProductIds": matched_products,
+            "textSource": "ocr" if page_number in ocr_used_pages else "embedded",
         })
     if plumber is not None:
         plumber.close()
@@ -208,7 +247,11 @@ def extract_pdf(pdf_path: Path, slug: str, provenance: dict, patterns: list[tupl
         "textCharacters": text_characters,
         "tableCount": table_count,
         "extractedImageCount": len(saved_hashes),
-        "ocrRequired": text_characters < max(100, len(reader.pages) * 20),
+        "ocrRequired": text_characters < max(500, len(reader.pages) * 100),
+        "ocrApplied": ocr_applied,
+        "ocrReused": ocr_reused,
+        "ocrEngine": "rapidocr_onnxruntime" if ocr_applied else None,
+        "ocrPages": len(ocr_used_pages),
         "metadata": metadata,
         "documentDate": doc_date,
         "freshness": {"status": current_status, "basis": "present in current supplier asset index" if provenance else "local PDF has no current relationship record"},
@@ -226,6 +269,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--supplier", action="append", help="Supplier slug; repeatable. Defaults to every PDF supplier.")
     parser.add_argument("--no-images", action="store_true", help="Skip embedded-image selection.")
+    parser.add_argument("--ocr", action="store_true", help="OCR image-only PDFs when the optional OCR runtime is available.")
     args = parser.parse_args()
     selected = set(args.supplier or [])
     existing_inventory = load_json(AUDIT / "pdf-inventory.json", {"documents": []})
@@ -234,15 +278,17 @@ def main() -> int:
     suppliers = defaultdict(lambda: {"documents": 0, "pages": 0, "characters": 0, "tables": 0, "images": 0, "ocrRequired": 0, "errors": 0})
     if not PUBLIC_DOCS.is_dir():
         raise SystemExit("No permanent supplier PDF directory exists")
+    configs = load_json(SUPPLIER_CONFIG, [])
     for supplier_dir in sorted(path for path in PUBLIC_DOCS.iterdir() if path.is_dir() and (not selected or path.name in selected)):
         slug = supplier_dir.name
+        cfg = next((item for item in configs if item.get("slug") == slug), {})
         provenance = provenance_by_path(slug)
         patterns = product_patterns(catalog_products(slug))
         for pdf_path in sorted(supplier_dir.glob("*.pdf")):
             local_path = "/" + pdf_path.relative_to(ROOT / "public").as_posix()
             print(f"[{slug}] {pdf_path.name}", flush=True)
             try:
-                document = extract_pdf(pdf_path, slug, provenance.get(local_path, {}), patterns, not args.no_images)
+                document = extract_pdf(pdf_path, slug, provenance.get(local_path, {}), patterns, not args.no_images, args.ocr, cfg.get("pdf_evidence_rules"))
             except Exception as error:
                 document = {"supplier": slug, "localPath": local_path, "fatalError": str(error)}
             documents.append(document)

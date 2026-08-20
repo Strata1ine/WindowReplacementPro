@@ -1,0 +1,371 @@
+{
+  "supplier": "vinyl-pro",
+  "verifiedAt": "2026-08-20",
+  "status": "VERIFIED",
+  "inventory": {
+    "liveRelevantProducts": 16,
+    "canonicalProductsBefore": 10,
+    "canonicalProductsAfter": 16,
+    "matchedBefore": 10,
+    "missingBefore": 6,
+    "extraOrStale": 0,
+    "uncertain": 0,
+    "systems": [
+      {
+        "name": "3 1/4 Window System",
+        "products": 9
+      },
+      {
+        "name": "4 9/16 Window System",
+        "products": 7
+      }
+    ]
+  },
+  "media": {
+    "productsWithHero": 16,
+    "productsWithAnyMedia": 16,
+    "acceptedImages": 94,
+    "originalMasterImages": 94,
+    "productSpecificImages": 24,
+    "sharedImages": 70,
+    "technicalDrawings": 15,
+    "profileSections": 16,
+    "configurationDiagrams": 14,
+    "interiorOptions": 9,
+    "glassDesigns": 7,
+    "finishSwatches": 12,
+    "responsiveDerivativesSelected": 0,
+    "publicOrphans": 0,
+    "uncertainAssociations": 0,
+    "quarantinedRelatedCardBinaries": 3,
+    "quarantineDisposition": "preserved outside public storage with URL/page/hash provenance"
+  },
+  "pdf": {
+    "documents": 3,
+    "pagesProcessed": 68,
+    "textCharacters": 76733,
+    "tables": 20,
+    "usefulImages": 137,
+    "ocrRequired": 0,
+    "extractionErrors": 0,
+    "productsWithPageEvidence": 16,
+    "documentsDetail": [
+      {
+        "documentId": "vinyl-pro:2025-lifetime-warranty-june-4-full-3-061f5f8bef31",
+        "localPath": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+        "sha256": "c0df592b193b3ad8e6c07ff5ad92fd767ae9a7188809a6ba94ba97c85ab42a4e",
+        "bytes": 646670,
+        "pageCount": 4,
+        "textCharacters": 6364,
+        "tableCount": 0,
+        "extractedImageCount": 2,
+        "ocrApplied": true,
+        "ocrPages": 3,
+        "documentDate": "2025-01-01",
+        "freshness": {
+          "status": "current-source-linked",
+          "basis": "present in current supplier asset index"
+        },
+        "originalUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+        "finalUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf"
+      },
+      {
+        "documentId": "vinyl-pro:new-brochure-2024-oct-24-single-op-282138fd6f12",
+        "localPath": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+        "sha256": "cb7b860c61526b6df837aaa9a6bcc14ee120b5ac1384f8660a582b40797d5248",
+        "bytes": 5081321,
+        "pageCount": 36,
+        "textCharacters": 36428,
+        "tableCount": 9,
+        "extractedImageCount": 96,
+        "ocrApplied": false,
+        "ocrPages": 0,
+        "documentDate": "2024-01-01",
+        "freshness": {
+          "status": "current-source-linked",
+          "basis": "present in current supplier asset index"
+        },
+        "originalUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+        "finalUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf"
+      },
+      {
+        "documentId": "vinyl-pro:vinyl-pro-silver-brochure-2021-web-3d424b219424",
+        "localPath": "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf",
+        "sha256": "350fbb919f349e38511a33c25251dfbc34e015f302e4c87df0a14bf946f8719c",
+        "bytes": 14791879,
+        "pageCount": 28,
+        "textCharacters": 33941,
+        "tableCount": 11,
+        "extractedImageCount": 39,
+        "ocrApplied": true,
+        "ocrPages": 28,
+        "documentDate": "2024-01-01",
+        "freshness": {
+          "status": "current-source-linked",
+          "basis": "present in current supplier asset index"
+        },
+        "originalUrl": "https://www.vinyl-pro.ca/storage/2024/08/Vinyl-Pro-silver-brochure-2021-web.pdf",
+        "finalUrl": "https://www.vinyl-pro.ca/storage/2024/08/Vinyl-Pro-silver-brochure-2021-web.pdf"
+      }
+    ]
+  },
+  "facts": {
+    "normalizedProducts": 16,
+    "normalizedFactValues": 114,
+    "distinctFields": 13,
+    "fields": [
+      "operatingStyle",
+      "frameDepth",
+      "material",
+      "glazing",
+      "hardware",
+      "screen",
+      "configuration",
+      "operation",
+      "openingGuidance",
+      "waterPenetrationResistance",
+      "airInfiltrationExfiltration",
+      "colours",
+      "warranty"
+    ],
+    "ocrTechnicalFactsPolicy": "Only human-reviewed OCR values were normalized; provenance retains extractionMethod=ocr and reviewStatus=human-reviewed."
+  },
+  "publication": {
+    "publishableProducts": 10,
+    "newProductsHeldUnpublished": 6,
+    "thresholdsChanged": false
+  },
+  "visualReview": {
+    "status": "PASSED",
+    "reviewed": [
+      "all 24 product-specific image relationships",
+      "representative hero/render for all operating styles and both systems",
+      "profile/cross-section imagery",
+      "technical and configuration diagrams",
+      "interior options",
+      "glass and finish assets",
+      "2024 brochure extracted imagery",
+      "2021 Silver brochure extracted imagery",
+      "OCR text for Silver brochure and 2025 warranty"
+    ],
+    "findings": [
+      "No logo, icon, navigation, or generic related-card asset is attached as product media.",
+      "Nine interior-option images were relabeled from finish-swatch after visual inspection.",
+      "Three related-card cross-association binaries were quarantined and not deleted.",
+      "All selected supplier images are original practical sources; no responsive derivative was selected."
+    ]
+  },
+  "conflicts": {
+    "websitePdfConflicts": [],
+    "staleHistoricalProducts": [],
+    "activeSourceFailures": []
+  },
+  "missing": {
+    "media": [],
+    "documents": [],
+    "productEvidence": []
+  },
+  "products": [
+    {
+      "productId": "vinyl-pro:casement",
+      "collection": "3 1/4 Window System",
+      "sourceUrl": "https://www.vinyl-pro.ca/windows/casement/",
+      "mediaCount": 4,
+      "documentCount": 2,
+      "heroCaptured": true,
+      "roles": [
+        "open-graph-image",
+        "product-hero",
+        "profile-section"
+      ]
+    },
+    {
+      "productId": "vinyl-pro:awning",
+      "collection": "3 1/4 Window System",
+      "sourceUrl": "https://www.vinyl-pro.ca/windows/awning/",
+      "mediaCount": 2,
+      "documentCount": 2,
+      "heroCaptured": true,
+      "roles": [
+        "open-graph-image",
+        "product-hero"
+      ]
+    },
+    {
+      "productId": "vinyl-pro:fixed-casement",
+      "collection": "3 1/4 Window System",
+      "sourceUrl": "https://www.vinyl-pro.ca/windows/fixed-casement/",
+      "mediaCount": 4,
+      "documentCount": 2,
+      "heroCaptured": true,
+      "roles": [
+        "open-graph-image",
+        "product-hero",
+        "profile-section"
+      ]
+    },
+    {
+      "productId": "vinyl-pro:picture-window",
+      "collection": "3 1/4 Window System",
+      "sourceUrl": "https://www.vinyl-pro.ca/windows/picture-window/",
+      "mediaCount": 4,
+      "documentCount": 2,
+      "heroCaptured": true,
+      "roles": [
+        "open-graph-image",
+        "product-hero",
+        "profile-section"
+      ]
+    },
+    {
+      "productId": "vinyl-pro:single-hung",
+      "collection": "3 1/4 Window System",
+      "sourceUrl": "https://www.vinyl-pro.ca/windows/single-hung/",
+      "mediaCount": 2,
+      "documentCount": 2,
+      "heroCaptured": true,
+      "roles": [
+        "open-graph-image",
+        "product-hero"
+      ]
+    },
+    {
+      "productId": "vinyl-pro:single-slider",
+      "collection": "3 1/4 Window System",
+      "sourceUrl": "https://www.vinyl-pro.ca/windows/single-slider/",
+      "mediaCount": 2,
+      "documentCount": 2,
+      "heroCaptured": true,
+      "roles": [
+        "product-gallery",
+        "product-hero"
+      ]
+    },
+    {
+      "productId": "vinyl-pro:end-vent-slider",
+      "collection": "3 1/4 Window System",
+      "sourceUrl": "https://www.vinyl-pro.ca/windows/end-vent-slider/",
+      "mediaCount": 2,
+      "documentCount": 2,
+      "heroCaptured": true,
+      "roles": [
+        "product-gallery",
+        "product-hero"
+      ]
+    },
+    {
+      "productId": "vinyl-pro:double-hung",
+      "collection": "3 1/4 Window System",
+      "sourceUrl": "https://www.vinyl-pro.ca/windows/double-hung/",
+      "mediaCount": 4,
+      "documentCount": 2,
+      "heroCaptured": true,
+      "roles": [
+        "open-graph-image",
+        "product-hero",
+        "profile-section"
+      ]
+    },
+    {
+      "productId": "vinyl-pro:double-slider",
+      "collection": "3 1/4 Window System",
+      "sourceUrl": "https://www.vinyl-pro.ca/windows/double-slider/",
+      "mediaCount": 4,
+      "documentCount": 2,
+      "heroCaptured": true,
+      "roles": [
+        "product-gallery",
+        "product-hero",
+        "profile-section"
+      ]
+    },
+    {
+      "productId": "vinyl-pro:4-9-16-casement",
+      "collection": "4 9/16 Window System",
+      "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-casement/",
+      "mediaCount": 4,
+      "documentCount": 2,
+      "heroCaptured": true,
+      "roles": [
+        "open-graph-image",
+        "product-hero",
+        "profile-section"
+      ]
+    },
+    {
+      "productId": "vinyl-pro:4-9-16-awning",
+      "collection": "4 9/16 Window System",
+      "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-awning/",
+      "mediaCount": 2,
+      "documentCount": 2,
+      "heroCaptured": true,
+      "roles": [
+        "open-graph-image",
+        "product-hero"
+      ]
+    },
+    {
+      "productId": "vinyl-pro:4-9-16-fixed-casement",
+      "collection": "4 9/16 Window System",
+      "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-fixed-casement/",
+      "mediaCount": 3,
+      "documentCount": 2,
+      "heroCaptured": true,
+      "roles": [
+        "open-graph-image",
+        "profile-section"
+      ]
+    },
+    {
+      "productId": "vinyl-pro:4-9-16-picture-window",
+      "collection": "4 9/16 Window System",
+      "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-picture-window/",
+      "mediaCount": 3,
+      "documentCount": 2,
+      "heroCaptured": true,
+      "roles": [
+        "open-graph-image",
+        "profile-section"
+      ]
+    },
+    {
+      "productId": "vinyl-pro:4-9-16-single-hung",
+      "collection": "4 9/16 Window System",
+      "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-single-hung/",
+      "mediaCount": 4,
+      "documentCount": 1,
+      "heroCaptured": true,
+      "roles": [
+        "open-graph-image",
+        "product-hero",
+        "profile-section"
+      ]
+    },
+    {
+      "productId": "vinyl-pro:4-9-16-single-slider",
+      "collection": "4 9/16 Window System",
+      "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-single-slider/",
+      "mediaCount": 4,
+      "documentCount": 1,
+      "heroCaptured": true,
+      "roles": [
+        "product-gallery",
+        "product-hero",
+        "profile-section"
+      ]
+    },
+    {
+      "productId": "vinyl-pro:4-9-16-end-vent-slider",
+      "collection": "4 9/16 Window System",
+      "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-end-vent-slider/",
+      "mediaCount": 4,
+      "documentCount": 1,
+      "heroCaptured": true,
+      "roles": [
+        "product-gallery",
+        "product-hero",
+        "profile-section"
+      ]
+    }
+  ]
+}

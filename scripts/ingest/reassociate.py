@@ -13,7 +13,7 @@ from urllib.parse import urlparse
 
 from scripts.ingest.crawl import (
     Asset, CATALOG_DIR, CONFIG, DOCUMENT_ROLES, IMAGE_ROLES, MANIFEST_ROOT, Page, ROOT, WP_SIZE_SUFFIX,
-    associate_assets, atomic_write_json, attach_available_asset_occurrences, enforce_filename_owner_precedence, enforce_wordpress_master_precedence, explicit_role,
+    apply_document_relationship_rules, associate_assets, atomic_write_json, attach_available_asset_occurrences, enforce_filename_owner_precedence, enforce_wordpress_master_precedence, explicit_role,
     identity_keys, image_dimensions, manifest_asset, manifest_page, normalize, product_asset_paths, promote_referenced_assets,
     refresh_page_asset_candidates, urls_identity_match, validate_asset_binary, validate_product_records, write_supplier_archive,
 )
@@ -133,9 +133,9 @@ def reassociate_supplier(slug: str, staging_run: Path | None = None) -> dict:
     for product in products:
         page = pages_by_url.get(product['sourceUrl'])
         if not page: product['media'] = []; product['documents'] = []; continue
-        media, documents = product_asset_paths(page, assets, cfg.get('attach_page_roles'), [product.get('slug'), product.get('modelNumber'), product.get('name')], cfg.get('trust_structured_product_images', True))
+        media, documents = product_asset_paths(page, assets, cfg.get('attach_page_roles'), [product.get('slug'), product.get('modelNumber'), product.get('name')], cfg.get('trust_structured_product_images', True), cfg.get('trust_product_open_graph_images', False))
         product['media'] = media; product['documents'] = documents
-    enforce_filename_owner_precedence(assets, products); enforce_wordpress_master_precedence(assets, products); associate_assets(assets, products); validate_product_records(products, cfg)
+    enforce_filename_owner_precedence(assets, products); enforce_wordpress_master_precedence(assets, products); apply_document_relationship_rules(assets, products, cfg.get('document_product_rules')); associate_assets(assets, products); validate_product_records(products, cfg)
     accepted = promote_referenced_assets(assets, products, pages)
     associate_assets(accepted, products)
     accepted_ids = {id(asset) for asset in accepted.values()}

@@ -47205,6 +47205,241 @@
     }
   },
   {
+    "productId": "vinyl-pro:4-9-16-awning",
+    "sourceFacts": {
+      "manufacturer": {
+        "value": "vinyl-pro",
+        "sources": [
+          {
+            "supplier": "vinyl-pro",
+            "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-awning/",
+            "extractedAt": "2026-08-19T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceUrl": {
+        "value": "https://www.vinyl-pro.ca/windows/4-9-16-awning/",
+        "sources": [
+          {
+            "supplier": "vinyl-pro",
+            "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-awning/",
+            "extractedAt": "2026-08-19T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceDescription": "Discover 4 9/16 Awning vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 4 9/16 Awning windows today!",
+      "modelNumber": null,
+      "collection": {
+        "value": "4 9/16 Window System",
+        "sources": [
+          {
+            "supplier": "vinyl-pro",
+            "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-awning/",
+            "extractedAt": "2026-08-19T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "normalized": {
+        "operatingStyle": {
+          "value": "Awning",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-awning/",
+              "extractedAt": "2026-08-19T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "material": {
+          "value": "100% lead-free uPVC",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/Vinyl-Pro-silver-brochure-2021-web.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf",
+              "page": 4,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/vinyl-pro-silver-brochure-2021-web-3d424b219424/pages/page-0004.txt",
+              "status": "active",
+              "extractionMethod": "ocr",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "colours": {
+          "value": "Over 100 custom colours",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-awning/",
+              "extractedAt": "2026-08-19T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "frameDepth": {
+          "value": "4 9/16 in window system",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "status": "active",
+              "evidenceType": "live-product-identity",
+              "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-awning/",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glazing": {
+          "value": "13/16 in sealed glass unit; single, double, triple, Low-E, or decorative glazing depending on model",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/Vinyl-Pro-silver-brochure-2021-web.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf",
+              "page": 4,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/vinyl-pro-silver-brochure-2021-web-3d424b219424/pages/page-0004.txt",
+              "status": "active",
+              "extractionMethod": "ocr",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+              "pages": [
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0002.txt",
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0003.txt",
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "extractionMethod": "ocr",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "configuration": {
+          "value": "Can be installed stand-alone or combined with fixed windows",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/Vinyl-Pro-silver-brochure-2021-web.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf",
+              "page": 7,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/vinyl-pro-silver-brochure-2021-web-3d424b219424/pages/page-0007.txt",
+              "status": "active",
+              "extractionMethod": "ocr",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "waterPenetrationResistance": {
+          "value": "720 Pa (15.04 psf)",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/Vinyl-Pro-silver-brochure-2021-web.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf",
+              "page": 7,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/vinyl-pro-silver-brochure-2021-web-3d424b219424/pages/page-0007.txt",
+              "status": "active",
+              "extractionMethod": "ocr",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "airInfiltrationExfiltration": {
+          "value": "Canadian A3 level",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/Vinyl-Pro-silver-brochure-2021-web.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf",
+              "page": 7,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/vinyl-pro-silver-brochure-2021-web-3d424b219424/pages/page-0007.txt",
+              "status": "active",
+              "extractionMethod": "ocr",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        }
+      },
+      "sourceDocuments": [
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+          "extractedAt": "2026-08-19T19:00:09Z",
+          "status": "active",
+          "sourceDocument": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+          "localPath": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/Vinyl-Pro-silver-brochure-2021-web.pdf",
+          "extractedAt": "2026-08-19T19:00:08Z",
+          "status": "active",
+          "sourceDocument": "https://www.vinyl-pro.ca/storage/2024/08/Vinyl-Pro-silver-brochure-2021-web.pdf",
+          "localPath": "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf"
+        }
+      ],
+      "sourceMedia": [
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/awning-1.png",
+          "extractedAt": "2026-08-20T03:38:26Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/awning-1-316e07cabffa.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/windows/awning/Awning.RGB_color_00000.png",
+          "extractedAt": "2026-08-20T03:38:16Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/awning-rgb-color-00000-a71ab0670508.png"
+        }
+      ]
+    },
+    "editorial": {
+      "status": "incomplete",
+      "summary": null,
+      "bestFor": null,
+      "keyFeatures": [
+        "Collection: 4 9/16 Window System",
+        "Operating style: Awning",
+        "Material: 100% lead-free uPVC",
+        "Colours/finishes: Over 100 custom colours",
+        "Frame depth: 4 9/16 in window system",
+        "Glazing: 13/16 in sealed glass unit; single, double, triple, Low-E, or decorative glazing depending on model",
+        "Warranty: Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application"
+      ],
+      "considerations": [
+        "New Vinyl-Pro canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+      ],
+      "configurationNotes": null,
+      "seoTitle": null,
+      "metaDescription": null,
+      "generatedAt": "2026-08-19T23:30:00Z"
+    }
+  },
+  {
     "productId": "vinyl-pro:4-9-16-casement",
     "sourceFacts": {
       "manufacturer": {
@@ -47231,7 +47466,17 @@
       },
       "sourceDescription": "Discover 4 9/16 Casement vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 4 9/16 Casement windows today!",
       "modelNumber": null,
-      "collection": null,
+      "collection": {
+        "value": "4 9/16 Window System",
+        "sources": [
+          {
+            "supplier": "vinyl-pro",
+            "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-casement/",
+            "extractedAt": "2026-08-19T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
       "normalized": {
         "operatingStyle": {
           "value": "Casement",
@@ -47245,13 +47490,18 @@
           ]
         },
         "material": {
-          "value": "Vinyl",
+          "value": "100% lead-free uPVC",
           "sources": [
             {
               "supplier": "vinyl-pro",
-              "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-casement/",
-              "extractedAt": "2026-08-19T00:00:00Z",
-              "status": "active"
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/Vinyl-Pro-silver-brochure-2021-web.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf",
+              "page": 4,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/vinyl-pro-silver-brochure-2021-web-3d424b219424/pages/page-0004.txt",
+              "status": "active",
+              "extractionMethod": "ocr",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
             }
           ]
         },
@@ -47265,19 +47515,153 @@
               "status": "active"
             }
           ]
+        },
+        "frameDepth": {
+          "value": "4 9/16 in window system",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "status": "active",
+              "evidenceType": "live-product-identity",
+              "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-casement/",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glazing": {
+          "value": "13/16 in sealed glass unit; single, double, triple, Low-E, or decorative glazing depending on model",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/Vinyl-Pro-silver-brochure-2021-web.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf",
+              "page": 4,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/vinyl-pro-silver-brochure-2021-web-3d424b219424/pages/page-0004.txt",
+              "status": "active",
+              "extractionMethod": "ocr",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+              "pages": [
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0002.txt",
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0003.txt",
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "extractionMethod": "ocr",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "waterPenetrationResistance": {
+          "value": "720 Pa (15.04 psf)",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/Vinyl-Pro-silver-brochure-2021-web.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf",
+              "page": 5,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/vinyl-pro-silver-brochure-2021-web-3d424b219424/pages/page-0005.txt",
+              "status": "active",
+              "extractionMethod": "ocr",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "airInfiltrationExfiltration": {
+          "value": "Canadian A3 level",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/Vinyl-Pro-silver-brochure-2021-web.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf",
+              "page": 5,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/vinyl-pro-silver-brochure-2021-web-3d424b219424/pages/page-0005.txt",
+              "status": "active",
+              "extractionMethod": "ocr",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
         }
       },
-      "sourceDocuments": [],
-      "sourceMedia": []
+      "sourceDocuments": [
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+          "extractedAt": "2026-08-19T19:00:09Z",
+          "status": "active",
+          "sourceDocument": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+          "localPath": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/Vinyl-Pro-silver-brochure-2021-web.pdf",
+          "extractedAt": "2026-08-19T19:00:08Z",
+          "status": "active",
+          "sourceDocument": "https://www.vinyl-pro.ca/storage/2024/08/Vinyl-Pro-silver-brochure-2021-web.pdf",
+          "localPath": "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf"
+        }
+      ],
+      "sourceMedia": [
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/front-content/detail/4-916-Casement-Vinyl-Packg-EXT.png",
+          "extractedAt": "2026-08-20T03:38:38Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/4-916-casement-vinyl-packg-ext-c4d18a6ebd86.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/front-content/detail/4-916-Casement-Wood-Extension-EXT.png",
+          "extractedAt": "2026-08-20T03:38:39Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/4-916-casement-wood-extension-ext-e341cf1b71e2.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/casement-1.png",
+          "extractedAt": "2026-08-20T03:38:31Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/casement-1-05b0bac631dc.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/windows/casement_4%209.16/Casement_4%209.16_00000.png",
+          "extractedAt": "2026-08-20T03:38:25Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/casement-4-209-16-00000-d5e2c7a72173.png"
+        }
+      ]
     },
     "editorial": {
       "status": "draft",
-      "summary": "4 9/16 Casement is a window from Vinyl-Pro. The saved supplier evidence documents Operating style: Casement; Material: Vinyl; Colours/finishes: Over 100 custom colours. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
+      "summary": "4 9/16 Casement is a window from Vinyl-Pro. The saved supplier evidence documents Operating style: Casement; Material: 100% lead-free uPVC; Colours/finishes: Over 100 custom colours. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
       "bestFor": "Replacement projects seeking the documented Casement configuration.",
       "keyFeatures": [
+        "Collection: 4 9/16 Window System",
         "Operating style: Casement",
-        "Material: Vinyl",
-        "Colours/finishes: Over 100 custom colours"
+        "Material: 100% lead-free uPVC",
+        "Colours/finishes: Over 100 custom colours",
+        "Frame depth: 4 9/16 in window system",
+        "Glazing: 13/16 in sealed glass unit; single, double, triple, Low-E, or decorative glazing depending on model",
+        "Warranty: Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application"
       ],
       "considerations": [
         "Confirm current option combinations, availability and performance values before ordering."
@@ -47285,6 +47669,939 @@
       "configurationNotes": "Only configurations explicitly listed in the supported facts are represented in this draft.",
       "seoTitle": "4 9/16 Casement Window | Vinyl-Pro",
       "metaDescription": "Review supported specifications and source material for the 4 9/16 Casement window from Vinyl-Pro. Confirm current options before ordering.",
+      "generatedAt": "2026-08-19T23:30:00Z"
+    }
+  },
+  {
+    "productId": "vinyl-pro:4-9-16-end-vent-slider",
+    "sourceFacts": {
+      "manufacturer": {
+        "value": "vinyl-pro",
+        "sources": [
+          {
+            "supplier": "vinyl-pro",
+            "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-end-vent-slider/",
+            "extractedAt": "2026-08-19T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceUrl": {
+        "value": "https://www.vinyl-pro.ca/windows/4-9-16-end-vent-slider/",
+        "sources": [
+          {
+            "supplier": "vinyl-pro",
+            "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-end-vent-slider/",
+            "extractedAt": "2026-08-19T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceDescription": "Discover 4 9/16 End vent slider vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 4 9/16 End vent slider windows today!",
+      "modelNumber": null,
+      "collection": {
+        "value": "4 9/16 Window System",
+        "sources": [
+          {
+            "supplier": "vinyl-pro",
+            "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-end-vent-slider/",
+            "extractedAt": "2026-08-19T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "normalized": {
+        "operatingStyle": {
+          "value": "End Vent Slider",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-end-vent-slider/",
+              "extractedAt": "2026-08-19T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "material": {
+          "value": "Vinyl",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-end-vent-slider/",
+              "extractedAt": "2026-08-19T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "colours": {
+          "value": "Over 100 custom colours",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-end-vent-slider/",
+              "extractedAt": "2026-08-19T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "frameDepth": {
+          "value": "4 9/16 in window system",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "status": "active",
+              "evidenceType": "live-product-identity",
+              "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-end-vent-slider/",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+              "pages": [
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0002.txt",
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0003.txt",
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "extractionMethod": "ocr",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        }
+      },
+      "sourceDocuments": [
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+          "extractedAt": "2026-08-19T19:00:09Z",
+          "status": "active",
+          "sourceDocument": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+          "localPath": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf"
+        }
+      ],
+      "sourceMedia": [
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/front-content/detail/4-916-S-Slider-S-Hung-Vinyl-Packg-EXT.png",
+          "extractedAt": "2026-08-20T03:38:30Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/4-916-s-slider-s-hung-vinyl-packg-ext-2f088d7cdda5.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/front-content/detail/4-916-S-Slider-S-Hung-WoodExtension-EXT.png",
+          "extractedAt": "2026-08-20T03:38:41Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/4-916-s-slider-s-hung-woodextension-ext-0c6cc64a4bab.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/windows/end_vent_slider/End_vent_slider_00000.png",
+          "extractedAt": "2026-08-20T03:38:22Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/end-vent-slider-00000-b424ab44b404.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/end_vent_slider-1.png",
+          "extractedAt": "2026-08-19T19:00:11Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/end-vent-slider-1-9e36f02c24fc.png"
+        }
+      ]
+    },
+    "editorial": {
+      "status": "incomplete",
+      "summary": null,
+      "bestFor": null,
+      "keyFeatures": [
+        "Collection: 4 9/16 Window System",
+        "Operating style: End Vent Slider",
+        "Material: Vinyl",
+        "Colours/finishes: Over 100 custom colours",
+        "Frame depth: 4 9/16 in window system",
+        "Warranty: Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application"
+      ],
+      "considerations": [
+        "New Vinyl-Pro canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+      ],
+      "configurationNotes": null,
+      "seoTitle": null,
+      "metaDescription": null,
+      "generatedAt": "2026-08-19T23:30:00Z"
+    }
+  },
+  {
+    "productId": "vinyl-pro:4-9-16-fixed-casement",
+    "sourceFacts": {
+      "manufacturer": {
+        "value": "vinyl-pro",
+        "sources": [
+          {
+            "supplier": "vinyl-pro",
+            "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-fixed-casement/",
+            "extractedAt": "2026-08-19T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceUrl": {
+        "value": "https://www.vinyl-pro.ca/windows/4-9-16-fixed-casement/",
+        "sources": [
+          {
+            "supplier": "vinyl-pro",
+            "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-fixed-casement/",
+            "extractedAt": "2026-08-19T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceDescription": "Discover 4 9/16 Fixed casement vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 4 9/16 Fixed casement windows today!",
+      "modelNumber": null,
+      "collection": {
+        "value": "4 9/16 Window System",
+        "sources": [
+          {
+            "supplier": "vinyl-pro",
+            "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-fixed-casement/",
+            "extractedAt": "2026-08-19T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "normalized": {
+        "operatingStyle": {
+          "value": "Casement",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-fixed-casement/",
+              "extractedAt": "2026-08-19T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "material": {
+          "value": "100% lead-free uPVC",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/Vinyl-Pro-silver-brochure-2021-web.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf",
+              "page": 4,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/vinyl-pro-silver-brochure-2021-web-3d424b219424/pages/page-0004.txt",
+              "status": "active",
+              "extractionMethod": "ocr",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "colours": {
+          "value": "Over 100 custom colours",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-fixed-casement/",
+              "extractedAt": "2026-08-19T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "frameDepth": {
+          "value": "4 9/16 in window system",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "status": "active",
+              "evidenceType": "live-product-identity",
+              "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-fixed-casement/",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glazing": {
+          "value": "13/16 in sealed glass unit; single, double, triple, Low-E, or decorative glazing depending on model",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/Vinyl-Pro-silver-brochure-2021-web.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf",
+              "page": 4,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/vinyl-pro-silver-brochure-2021-web-3d424b219424/pages/page-0004.txt",
+              "status": "active",
+              "extractionMethod": "ocr",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+              "pages": [
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0002.txt",
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0003.txt",
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "extractionMethod": "ocr",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "operation": {
+          "value": "Non-opening fixed window with a high-profile frame",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/Vinyl-Pro-silver-brochure-2021-web.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf",
+              "page": 8,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/vinyl-pro-silver-brochure-2021-web-3d424b219424/pages/page-0008.txt",
+              "status": "active",
+              "extractionMethod": "ocr",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        }
+      },
+      "sourceDocuments": [
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+          "extractedAt": "2026-08-19T19:00:09Z",
+          "status": "active",
+          "sourceDocument": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+          "localPath": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/Vinyl-Pro-silver-brochure-2021-web.pdf",
+          "extractedAt": "2026-08-19T19:00:08Z",
+          "status": "active",
+          "sourceDocument": "https://www.vinyl-pro.ca/storage/2024/08/Vinyl-Pro-silver-brochure-2021-web.pdf",
+          "localPath": "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf"
+        }
+      ],
+      "sourceMedia": [
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/front-content/detail/4-916-High-Fix-Vinyl-Packg-EXT.png",
+          "extractedAt": "2026-08-20T03:39:13Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/4-916-high-fix-vinyl-packg-ext-79592c30b790.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/4-916-High-Fix-Window_1.png",
+          "extractedAt": "2026-08-20T03:38:56Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/4-916-high-fix-window-1-cd7c0252efc2.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/front-content/detail/4-916-High-Fix-Wood-Extension-EXT.png",
+          "extractedAt": "2026-08-20T03:39:30Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/4-916-high-fix-wood-extension-ext-e3e51f6ff0a6.png"
+        }
+      ]
+    },
+    "editorial": {
+      "status": "incomplete",
+      "summary": null,
+      "bestFor": null,
+      "keyFeatures": [
+        "Collection: 4 9/16 Window System",
+        "Operating style: Casement",
+        "Material: 100% lead-free uPVC",
+        "Colours/finishes: Over 100 custom colours",
+        "Frame depth: 4 9/16 in window system",
+        "Glazing: 13/16 in sealed glass unit; single, double, triple, Low-E, or decorative glazing depending on model",
+        "Warranty: Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application"
+      ],
+      "considerations": [
+        "New Vinyl-Pro canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+      ],
+      "configurationNotes": null,
+      "seoTitle": null,
+      "metaDescription": null,
+      "generatedAt": "2026-08-19T23:30:00Z"
+    }
+  },
+  {
+    "productId": "vinyl-pro:4-9-16-picture-window",
+    "sourceFacts": {
+      "manufacturer": {
+        "value": "vinyl-pro",
+        "sources": [
+          {
+            "supplier": "vinyl-pro",
+            "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-picture-window/",
+            "extractedAt": "2026-08-19T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceUrl": {
+        "value": "https://www.vinyl-pro.ca/windows/4-9-16-picture-window/",
+        "sources": [
+          {
+            "supplier": "vinyl-pro",
+            "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-picture-window/",
+            "extractedAt": "2026-08-19T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceDescription": "Discover 4 9/16 Picture window vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 4 9/16 Picture window windows today!",
+      "modelNumber": null,
+      "collection": {
+        "value": "4 9/16 Window System",
+        "sources": [
+          {
+            "supplier": "vinyl-pro",
+            "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-picture-window/",
+            "extractedAt": "2026-08-19T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "normalized": {
+        "operatingStyle": {
+          "value": "Picture Window",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-picture-window/",
+              "extractedAt": "2026-08-19T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "material": {
+          "value": "100% lead-free uPVC",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/Vinyl-Pro-silver-brochure-2021-web.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf",
+              "page": 4,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/vinyl-pro-silver-brochure-2021-web-3d424b219424/pages/page-0004.txt",
+              "status": "active",
+              "extractionMethod": "ocr",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "colours": {
+          "value": "Over 100 custom colours",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-picture-window/",
+              "extractedAt": "2026-08-19T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "frameDepth": {
+          "value": "4 9/16 in window system",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "status": "active",
+              "evidenceType": "live-product-identity",
+              "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-picture-window/",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glazing": {
+          "value": "13/16 in sealed glass unit; single, double, triple, Low-E, or decorative glazing depending on model",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/Vinyl-Pro-silver-brochure-2021-web.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf",
+              "page": 4,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/vinyl-pro-silver-brochure-2021-web-3d424b219424/pages/page-0004.txt",
+              "status": "active",
+              "extractionMethod": "ocr",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+              "pages": [
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0002.txt",
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0003.txt",
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "extractionMethod": "ocr",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "configuration": {
+          "value": "Available as a stand-alone window or combined with fixed, casement, double-hung, or single-slider windows",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/Vinyl-Pro-silver-brochure-2021-web.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf",
+              "page": 8,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/vinyl-pro-silver-brochure-2021-web-3d424b219424/pages/page-0008.txt",
+              "status": "active",
+              "extractionMethod": "ocr",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        }
+      },
+      "sourceDocuments": [
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+          "extractedAt": "2026-08-19T19:00:09Z",
+          "status": "active",
+          "sourceDocument": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+          "localPath": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/Vinyl-Pro-silver-brochure-2021-web.pdf",
+          "extractedAt": "2026-08-19T19:00:08Z",
+          "status": "active",
+          "sourceDocument": "https://www.vinyl-pro.ca/storage/2024/08/Vinyl-Pro-silver-brochure-2021-web.pdf",
+          "localPath": "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf"
+        }
+      ],
+      "sourceMedia": [
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/front-content/detail/4-916-Small-Fix-Vinyl-Packg-EXT.png",
+          "extractedAt": "2026-08-20T03:39:14Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/4-916-small-fix-vinyl-packg-ext-4579bfb53984.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/4-916-Small-Fix-Window_1.png",
+          "extractedAt": "2026-08-20T03:38:28Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/4-916-small-fix-window-1-d981ce42df43.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/front-content/detail/4-916-Small-Fix-Wood-Extension-EXT.png",
+          "extractedAt": "2026-08-20T03:39:31Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/4-916-small-fix-wood-extension-ext-865a8c71cbaf.png"
+        }
+      ]
+    },
+    "editorial": {
+      "status": "incomplete",
+      "summary": null,
+      "bestFor": null,
+      "keyFeatures": [
+        "Collection: 4 9/16 Window System",
+        "Operating style: Picture Window",
+        "Material: 100% lead-free uPVC",
+        "Colours/finishes: Over 100 custom colours",
+        "Frame depth: 4 9/16 in window system",
+        "Glazing: 13/16 in sealed glass unit; single, double, triple, Low-E, or decorative glazing depending on model",
+        "Warranty: Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application"
+      ],
+      "considerations": [
+        "New Vinyl-Pro canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+      ],
+      "configurationNotes": null,
+      "seoTitle": null,
+      "metaDescription": null,
+      "generatedAt": "2026-08-19T23:30:00Z"
+    }
+  },
+  {
+    "productId": "vinyl-pro:4-9-16-single-hung",
+    "sourceFacts": {
+      "manufacturer": {
+        "value": "vinyl-pro",
+        "sources": [
+          {
+            "supplier": "vinyl-pro",
+            "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-single-hung/",
+            "extractedAt": "2026-08-19T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceUrl": {
+        "value": "https://www.vinyl-pro.ca/windows/4-9-16-single-hung/",
+        "sources": [
+          {
+            "supplier": "vinyl-pro",
+            "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-single-hung/",
+            "extractedAt": "2026-08-19T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceDescription": "Discover 4 9/16 Single hung vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 4 9/16 Single hung windows today!",
+      "modelNumber": null,
+      "collection": {
+        "value": "4 9/16 Window System",
+        "sources": [
+          {
+            "supplier": "vinyl-pro",
+            "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-single-hung/",
+            "extractedAt": "2026-08-19T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "normalized": {
+        "operatingStyle": {
+          "value": "Single Hung",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-single-hung/",
+              "extractedAt": "2026-08-19T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "material": {
+          "value": "Vinyl",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-single-hung/",
+              "extractedAt": "2026-08-19T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "colours": {
+          "value": "Over 100 custom colours",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-single-hung/",
+              "extractedAt": "2026-08-19T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "frameDepth": {
+          "value": "4 9/16 in window system",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "status": "active",
+              "evidenceType": "live-product-identity",
+              "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-single-hung/",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+              "pages": [
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0002.txt",
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0003.txt",
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "extractionMethod": "ocr",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        }
+      },
+      "sourceDocuments": [
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+          "extractedAt": "2026-08-19T19:00:09Z",
+          "status": "active",
+          "sourceDocument": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+          "localPath": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf"
+        }
+      ],
+      "sourceMedia": [
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/front-content/detail/4-916-S-Slider-S-Hung-Vinyl-Packg-EXT.png",
+          "extractedAt": "2026-08-20T03:38:30Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/4-916-s-slider-s-hung-vinyl-packg-ext-2f088d7cdda5.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/front-content/detail/4-916-S-Slider-S-Hung-WoodExtension-EXT.png",
+          "extractedAt": "2026-08-20T03:38:41Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/4-916-s-slider-s-hung-woodextension-ext-0c6cc64a4bab.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/windows/single_hung/Single_hung_00000.png",
+          "extractedAt": "2026-08-20T03:38:19Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/single-hung-00000-69168512f6f8.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/single_hung-1.png",
+          "extractedAt": "2026-08-20T03:38:29Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/single-hung-1-c632cc0bedbb.png"
+        }
+      ]
+    },
+    "editorial": {
+      "status": "incomplete",
+      "summary": null,
+      "bestFor": null,
+      "keyFeatures": [
+        "Collection: 4 9/16 Window System",
+        "Operating style: Single Hung",
+        "Material: Vinyl",
+        "Colours/finishes: Over 100 custom colours",
+        "Frame depth: 4 9/16 in window system",
+        "Warranty: Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application"
+      ],
+      "considerations": [
+        "New Vinyl-Pro canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+      ],
+      "configurationNotes": null,
+      "seoTitle": null,
+      "metaDescription": null,
+      "generatedAt": "2026-08-19T23:30:00Z"
+    }
+  },
+  {
+    "productId": "vinyl-pro:4-9-16-single-slider",
+    "sourceFacts": {
+      "manufacturer": {
+        "value": "vinyl-pro",
+        "sources": [
+          {
+            "supplier": "vinyl-pro",
+            "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-single-slider/",
+            "extractedAt": "2026-08-19T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceUrl": {
+        "value": "https://www.vinyl-pro.ca/windows/4-9-16-single-slider/",
+        "sources": [
+          {
+            "supplier": "vinyl-pro",
+            "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-single-slider/",
+            "extractedAt": "2026-08-19T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "sourceDescription": "Discover 4 9/16 Single slider vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 4 9/16 Single slider windows today!",
+      "modelNumber": null,
+      "collection": {
+        "value": "4 9/16 Window System",
+        "sources": [
+          {
+            "supplier": "vinyl-pro",
+            "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-single-slider/",
+            "extractedAt": "2026-08-19T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
+      "normalized": {
+        "operatingStyle": {
+          "value": "Single Slider",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-single-slider/",
+              "extractedAt": "2026-08-19T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "material": {
+          "value": "Vinyl",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-single-slider/",
+              "extractedAt": "2026-08-19T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "colours": {
+          "value": "Over 100 custom colours",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-single-slider/",
+              "extractedAt": "2026-08-19T00:00:00Z",
+              "status": "active"
+            }
+          ]
+        },
+        "frameDepth": {
+          "value": "4 9/16 in window system",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "status": "active",
+              "evidenceType": "live-product-identity",
+              "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-single-slider/",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+              "pages": [
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0002.txt",
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0003.txt",
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "extractionMethod": "ocr",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        }
+      },
+      "sourceDocuments": [
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+          "extractedAt": "2026-08-19T19:00:09Z",
+          "status": "active",
+          "sourceDocument": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+          "localPath": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf"
+        }
+      ],
+      "sourceMedia": [
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/front-content/detail/4-916-S-Slider-S-Hung-Vinyl-Packg-EXT.png",
+          "extractedAt": "2026-08-20T03:38:30Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/4-916-s-slider-s-hung-vinyl-packg-ext-2f088d7cdda5.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/front-content/detail/4-916-S-Slider-S-Hung-WoodExtension-EXT.png",
+          "extractedAt": "2026-08-20T03:38:41Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/4-916-s-slider-s-hung-woodextension-ext-0c6cc64a4bab.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/windows/single_slider/Single_slider_00000.png",
+          "extractedAt": "2026-08-20T03:38:21Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/single-slider-00000-2729d94b5eb2.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/single_slider-1.png",
+          "extractedAt": "2026-08-19T19:00:11Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/single-slider-1-69bc8a2b0458.png"
+        }
+      ]
+    },
+    "editorial": {
+      "status": "incomplete",
+      "summary": null,
+      "bestFor": null,
+      "keyFeatures": [
+        "Collection: 4 9/16 Window System",
+        "Operating style: Single Slider",
+        "Material: Vinyl",
+        "Colours/finishes: Over 100 custom colours",
+        "Frame depth: 4 9/16 in window system",
+        "Warranty: Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application"
+      ],
+      "considerations": [
+        "New Vinyl-Pro canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+      ],
+      "configurationNotes": null,
+      "seoTitle": null,
+      "metaDescription": null,
       "generatedAt": "2026-08-19T23:30:00Z"
     }
   },
@@ -47315,7 +48632,17 @@
       },
       "sourceDescription": "Discover 3 1/4 Awning vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 Awning windows today!",
       "modelNumber": null,
-      "collection": null,
+      "collection": {
+        "value": "3 1/4 Window System",
+        "sources": [
+          {
+            "supplier": "vinyl-pro",
+            "sourceUrl": "https://www.vinyl-pro.ca/windows/awning/",
+            "extractedAt": "2026-08-19T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
       "normalized": {
         "operatingStyle": {
           "value": "Awning",
@@ -47329,13 +48656,17 @@
           ]
         },
         "material": {
-          "value": "Vinyl",
+          "value": "100% lead-free uPVC",
           "sources": [
             {
               "supplier": "vinyl-pro",
-              "sourceUrl": "https://www.vinyl-pro.ca/windows/awning/",
-              "extractedAt": "2026-08-19T00:00:00Z",
-              "status": "active"
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+              "page": 3,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/new-brochure-2024-oct-24-single-op-282138fd6f12/pages/page-0003.txt",
+              "status": "active",
+              "extractionMethod": "embedded-text",
+              "extractedAt": "2026-08-20T00:00:00Z"
             }
           ]
         },
@@ -47349,26 +48680,127 @@
               "status": "active"
             }
           ]
+        },
+        "frameDepth": {
+          "value": "3 1/4 in window system",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "status": "active",
+              "evidenceType": "live-product-identity",
+              "sourceUrl": "https://www.vinyl-pro.ca/windows/awning/",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glazing": {
+          "value": "Double- or triple-glazed insulated units with argon or krypton gas and Low-E coating",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+              "page": 3,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/new-brochure-2024-oct-24-single-op-282138fd6f12/pages/page-0003.txt",
+              "status": "active",
+              "extractionMethod": "embedded-text",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+              "pages": [
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0002.txt",
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0003.txt",
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "extractionMethod": "ocr",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "configuration": {
+          "value": "Can be installed stand-alone or combined with fixed windows",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+              "page": 8,
+              "status": "active",
+              "extractionMethod": "embedded-text",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
         }
       },
-      "sourceDocuments": [],
-      "sourceMedia": []
+      "sourceDocuments": [
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+          "extractedAt": "2026-08-19T19:00:09Z",
+          "status": "active",
+          "sourceDocument": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+          "localPath": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+          "extractedAt": "2026-08-19T19:00:08Z",
+          "status": "active",
+          "sourceDocument": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+          "localPath": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf"
+        }
+      ],
+      "sourceMedia": [
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/awning-1.png",
+          "extractedAt": "2026-08-20T03:38:26Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/awning-1-316e07cabffa.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/windows/awning/Awning.RGB_color_00000.png",
+          "extractedAt": "2026-08-20T03:38:16Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/awning-rgb-color-00000-a71ab0670508.png"
+        }
+      ]
     },
     "editorial": {
       "status": "draft",
-      "summary": "Awning is a window from Vinyl-Pro. The saved supplier evidence documents Operating style: Awning; Material: Vinyl; Colours/finishes: Over 100 custom colours. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
+      "summary": "3 1/4 Awning is a window from Vinyl-Pro. The saved supplier evidence documents Operating style: Awning; Material: 100% lead-free uPVC; Colours/finishes: Over 100 custom colours. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
       "bestFor": "Replacement projects seeking the documented Awning configuration.",
       "keyFeatures": [
+        "Collection: 3 1/4 Window System",
         "Operating style: Awning",
-        "Material: Vinyl",
-        "Colours/finishes: Over 100 custom colours"
+        "Material: 100% lead-free uPVC",
+        "Colours/finishes: Over 100 custom colours",
+        "Frame depth: 3 1/4 in window system",
+        "Glazing: Double- or triple-glazed insulated units with argon or krypton gas and Low-E coating",
+        "Warranty: Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application"
       ],
       "considerations": [
         "Confirm current option combinations, availability and performance values before ordering."
       ],
       "configurationNotes": "Only configurations explicitly listed in the supported facts are represented in this draft.",
-      "seoTitle": "Awning Window | Vinyl-Pro",
-      "metaDescription": "Review supported specifications and source material for the Awning window from Vinyl-Pro. Confirm current options before ordering.",
+      "seoTitle": "3 1/4 Awning Window | Vinyl-Pro",
+      "metaDescription": "Review supported specifications and source material for the 3 1/4 Awning window from Vinyl-Pro. Confirm current options before ordering.",
       "generatedAt": "2026-08-19T23:30:00Z"
     }
   },
@@ -47399,7 +48831,17 @@
       },
       "sourceDescription": "Discover 3 1/4 Casement vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 Casement windows today!",
       "modelNumber": null,
-      "collection": null,
+      "collection": {
+        "value": "3 1/4 Window System",
+        "sources": [
+          {
+            "supplier": "vinyl-pro",
+            "sourceUrl": "https://www.vinyl-pro.ca/windows/casement/",
+            "extractedAt": "2026-08-19T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
       "normalized": {
         "operatingStyle": {
           "value": "Casement",
@@ -47413,13 +48855,17 @@
           ]
         },
         "material": {
-          "value": "Vinyl",
+          "value": "100% lead-free uPVC",
           "sources": [
             {
               "supplier": "vinyl-pro",
-              "sourceUrl": "https://www.vinyl-pro.ca/windows/casement/",
-              "extractedAt": "2026-08-19T00:00:00Z",
-              "status": "active"
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+              "page": 3,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/new-brochure-2024-oct-24-single-op-282138fd6f12/pages/page-0003.txt",
+              "status": "active",
+              "extractionMethod": "embedded-text",
+              "extractedAt": "2026-08-20T00:00:00Z"
             }
           ]
         },
@@ -47433,26 +48879,163 @@
               "status": "active"
             }
           ]
+        },
+        "frameDepth": {
+          "value": "3 1/4 in window system",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "status": "active",
+              "evidenceType": "live-product-identity",
+              "sourceUrl": "https://www.vinyl-pro.ca/windows/casement/",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glazing": {
+          "value": "Double- or triple-glazed insulated units with argon or krypton gas and Low-E coating",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+              "page": 3,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/new-brochure-2024-oct-24-single-op-282138fd6f12/pages/page-0003.txt",
+              "status": "active",
+              "extractionMethod": "embedded-text",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+              "pages": [
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0002.txt",
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0003.txt",
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "extractionMethod": "ocr",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "operation": {
+          "value": "Opens to a full 90 degrees for maintenance and cleaning from inside",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+              "pages": [
+                4,
+                6,
+                7
+              ],
+              "status": "active",
+              "extractionMethod": "embedded-text",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "hardware": {
+          "value": "Multipoint locking with stainless-steel hinges and tracks; optional corner-drive system",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+              "pages": [
+                4,
+                6,
+                7
+              ],
+              "status": "active",
+              "extractionMethod": "embedded-text",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
         }
       },
-      "sourceDocuments": [],
-      "sourceMedia": []
+      "sourceDocuments": [
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+          "extractedAt": "2026-08-19T19:00:09Z",
+          "status": "active",
+          "sourceDocument": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+          "localPath": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+          "extractedAt": "2026-08-19T19:00:08Z",
+          "status": "active",
+          "sourceDocument": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+          "localPath": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf"
+        }
+      ],
+      "sourceMedia": [
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/front-content/detail/3%C2%BC-Casement-Vinyl-Packg-EXT.png",
+          "extractedAt": "2026-08-20T03:38:44Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/3-c2-bc-casement-vinyl-packg-ext-f94105144c65.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/front-content/detail/3%C2%BC-Casement-Wood-Extension-INT.png",
+          "extractedAt": "2026-08-20T03:38:45Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/3-c2-bc-casement-wood-extension-int-3bd6e7df7937.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/casement-1.png",
+          "extractedAt": "2026-08-20T03:38:31Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/casement-1-05b0bac631dc.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/windows/casement/Casement.RGB_color_00000.png",
+          "extractedAt": "2026-08-20T03:38:15Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/casement-rgb-color-00000-cb8a0b5befd3.png"
+        }
+      ]
     },
     "editorial": {
       "status": "draft",
-      "summary": "Casement is a window from Vinyl-Pro. The saved supplier evidence documents Operating style: Casement; Material: Vinyl; Colours/finishes: Over 100 custom colours. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
+      "summary": "3 1/4 Casement is a window from Vinyl-Pro. The saved supplier evidence documents Operating style: Casement; Material: 100% lead-free uPVC; Colours/finishes: Over 100 custom colours. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
       "bestFor": "Replacement projects seeking the documented Casement configuration.",
       "keyFeatures": [
+        "Collection: 3 1/4 Window System",
         "Operating style: Casement",
-        "Material: Vinyl",
-        "Colours/finishes: Over 100 custom colours"
+        "Material: 100% lead-free uPVC",
+        "Colours/finishes: Over 100 custom colours",
+        "Frame depth: 3 1/4 in window system",
+        "Glazing: Double- or triple-glazed insulated units with argon or krypton gas and Low-E coating",
+        "Warranty: Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application"
       ],
       "considerations": [
         "Confirm current option combinations, availability and performance values before ordering."
       ],
       "configurationNotes": "Only configurations explicitly listed in the supported facts are represented in this draft.",
-      "seoTitle": "Casement Window | Vinyl-Pro",
-      "metaDescription": "Review supported specifications and source material for the Casement window from Vinyl-Pro. Confirm current options before ordering.",
+      "seoTitle": "3 1/4 Casement Window | Vinyl-Pro",
+      "metaDescription": "Review supported specifications and source material for the 3 1/4 Casement window from Vinyl-Pro. Confirm current options before ordering.",
       "generatedAt": "2026-08-19T23:30:00Z"
     }
   },
@@ -47483,7 +49066,17 @@
       },
       "sourceDescription": "Discover 3 1/4 Double hung vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 Double hung windows today!",
       "modelNumber": null,
-      "collection": null,
+      "collection": {
+        "value": "3 1/4 Window System",
+        "sources": [
+          {
+            "supplier": "vinyl-pro",
+            "sourceUrl": "https://www.vinyl-pro.ca/windows/double-hung/",
+            "extractedAt": "2026-08-19T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
       "normalized": {
         "operatingStyle": {
           "value": "Double Hung",
@@ -47497,13 +49090,17 @@
           ]
         },
         "material": {
-          "value": "Vinyl",
+          "value": "100% lead-free uPVC",
           "sources": [
             {
               "supplier": "vinyl-pro",
-              "sourceUrl": "https://www.vinyl-pro.ca/windows/double-hung/",
-              "extractedAt": "2026-08-19T00:00:00Z",
-              "status": "active"
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+              "page": 3,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/new-brochure-2024-oct-24-single-op-282138fd6f12/pages/page-0003.txt",
+              "status": "active",
+              "extractionMethod": "embedded-text",
+              "extractedAt": "2026-08-20T00:00:00Z"
             }
           ]
         },
@@ -47517,26 +49114,155 @@
               "status": "active"
             }
           ]
+        },
+        "frameDepth": {
+          "value": "3 1/4 in window system",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "status": "active",
+              "evidenceType": "live-product-identity",
+              "sourceUrl": "https://www.vinyl-pro.ca/windows/double-hung/",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glazing": {
+          "value": "Double- or triple-glazed insulated units with argon or krypton gas and Low-E coating",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+              "page": 3,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/new-brochure-2024-oct-24-single-op-282138fd6f12/pages/page-0003.txt",
+              "status": "active",
+              "extractionMethod": "embedded-text",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+              "pages": [
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0002.txt",
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0003.txt",
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "extractionMethod": "ocr",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "operation": {
+          "value": "Spiral sash balance holds the sash in position and permits exterior cleaning from inside",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+              "page": 16,
+              "status": "active",
+              "extractionMethod": "embedded-text",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "screen": {
+          "value": "Full-size screen",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+              "page": 16,
+              "status": "active",
+              "extractionMethod": "embedded-text",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
         }
       },
-      "sourceDocuments": [],
-      "sourceMedia": []
+      "sourceDocuments": [
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+          "extractedAt": "2026-08-19T19:00:09Z",
+          "status": "active",
+          "sourceDocument": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+          "localPath": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+          "extractedAt": "2026-08-19T19:00:08Z",
+          "status": "active",
+          "sourceDocument": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+          "localPath": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf"
+        }
+      ],
+      "sourceMedia": [
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/front-content/detail/3%C2%BC-D-Slider-D-Hung-Vinyl-Packge-INT.png",
+          "extractedAt": "2026-08-20T03:38:36Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/3-c2-bc-d-slider-d-hung-vinyl-packge-int-ca043fe5efcc.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/front-content/detail/3%C2%BC-D-Slider-D-Hung-Wood-Extension-INT.png",
+          "extractedAt": "2026-08-20T03:38:52Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/3-c2-bc-d-slider-d-hung-wood-extension-int-f1941e146ba0.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/double_hung-1.png",
+          "extractedAt": "2026-08-20T03:38:35Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/double-hung-1-90f43b614af3.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/windows/double_hung/Double_hung.RGB_color_00000.png",
+          "extractedAt": "2026-08-20T03:38:23Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/double-hung-rgb-color-00000-ebb0d4b6299d.png"
+        }
+      ]
     },
     "editorial": {
       "status": "draft",
-      "summary": "Double Hung is a window from Vinyl-Pro. The saved supplier evidence documents Operating style: Double Hung; Material: Vinyl; Colours/finishes: Over 100 custom colours. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
+      "summary": "3 1/4 Double Hung is a window from Vinyl-Pro. The saved supplier evidence documents Operating style: Double Hung; Material: 100% lead-free uPVC; Colours/finishes: Over 100 custom colours. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
       "bestFor": "Replacement projects seeking the documented Double Hung configuration.",
       "keyFeatures": [
+        "Collection: 3 1/4 Window System",
         "Operating style: Double Hung",
-        "Material: Vinyl",
-        "Colours/finishes: Over 100 custom colours"
+        "Material: 100% lead-free uPVC",
+        "Colours/finishes: Over 100 custom colours",
+        "Frame depth: 3 1/4 in window system",
+        "Glazing: Double- or triple-glazed insulated units with argon or krypton gas and Low-E coating",
+        "Warranty: Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application"
       ],
       "considerations": [
         "Confirm current option combinations, availability and performance values before ordering."
       ],
       "configurationNotes": "Only configurations explicitly listed in the supported facts are represented in this draft.",
-      "seoTitle": "Double Hung Window | Vinyl-Pro",
-      "metaDescription": "Review supported specifications and source material for the Double Hung window from Vinyl-Pro. Confirm current options before ordering.",
+      "seoTitle": "3 1/4 Double Hung Window | Vinyl-Pro",
+      "metaDescription": "Review supported specifications and source material for the 3 1/4 Double Hung window from Vinyl-Pro. Confirm current options before ordering.",
       "generatedAt": "2026-08-19T23:30:00Z"
     }
   },
@@ -47567,7 +49293,17 @@
       },
       "sourceDescription": "Discover 3 1/4 Double slider vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 Double slider windows today!",
       "modelNumber": null,
-      "collection": null,
+      "collection": {
+        "value": "3 1/4 Window System",
+        "sources": [
+          {
+            "supplier": "vinyl-pro",
+            "sourceUrl": "https://www.vinyl-pro.ca/windows/double-slider/",
+            "extractedAt": "2026-08-19T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
       "normalized": {
         "operatingStyle": {
           "value": "Double Slider",
@@ -47581,13 +49317,17 @@
           ]
         },
         "material": {
-          "value": "Vinyl",
+          "value": "100% lead-free uPVC",
           "sources": [
             {
               "supplier": "vinyl-pro",
-              "sourceUrl": "https://www.vinyl-pro.ca/windows/double-slider/",
-              "extractedAt": "2026-08-19T00:00:00Z",
-              "status": "active"
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+              "page": 3,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/new-brochure-2024-oct-24-single-op-282138fd6f12/pages/page-0003.txt",
+              "status": "active",
+              "extractionMethod": "embedded-text",
+              "extractedAt": "2026-08-20T00:00:00Z"
             }
           ]
         },
@@ -47601,26 +49341,155 @@
               "status": "active"
             }
           ]
+        },
+        "frameDepth": {
+          "value": "3 1/4 in window system",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "status": "active",
+              "evidenceType": "live-product-identity",
+              "sourceUrl": "https://www.vinyl-pro.ca/windows/double-slider/",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glazing": {
+          "value": "Double- or triple-glazed insulated units with argon or krypton gas and Low-E coating",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+              "page": 3,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/new-brochure-2024-oct-24-single-op-282138fd6f12/pages/page-0003.txt",
+              "status": "active",
+              "extractionMethod": "embedded-text",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+              "pages": [
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0002.txt",
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0003.txt",
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "extractionMethod": "ocr",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "operation": {
+          "value": "Sash glides the full length of the window and can be cleaned from inside",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+              "page": 15,
+              "status": "active",
+              "extractionMethod": "embedded-text",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "screen": {
+          "value": "Full-length screen",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+              "page": 15,
+              "status": "active",
+              "extractionMethod": "embedded-text",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
         }
       },
-      "sourceDocuments": [],
-      "sourceMedia": []
+      "sourceDocuments": [
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+          "extractedAt": "2026-08-19T19:00:09Z",
+          "status": "active",
+          "sourceDocument": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+          "localPath": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+          "extractedAt": "2026-08-19T19:00:08Z",
+          "status": "active",
+          "sourceDocument": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+          "localPath": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf"
+        }
+      ],
+      "sourceMedia": [
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/front-content/detail/3%C2%BC-D-Slider-D-Hung-Vinyl-Packge-INT.png",
+          "extractedAt": "2026-08-20T03:38:36Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/3-c2-bc-d-slider-d-hung-vinyl-packge-int-ca043fe5efcc.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/front-content/detail/3%C2%BC-D-Slider-D-Hung-Wood-Extension-INT.png",
+          "extractedAt": "2026-08-20T03:38:52Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/3-c2-bc-d-slider-d-hung-wood-extension-int-f1941e146ba0.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/windows/double_slider/Double_slider_00000.png",
+          "extractedAt": "2026-08-20T03:38:24Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/double-slider-00000-7bee6e105b03.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/double_slider-1.png",
+          "extractedAt": "2026-08-19T19:00:11Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/double-slider-1-3bddd99a8943.png"
+        }
+      ]
     },
     "editorial": {
       "status": "draft",
-      "summary": "Double Slider is a window from Vinyl-Pro. The saved supplier evidence documents Operating style: Double Slider; Material: Vinyl; Colours/finishes: Over 100 custom colours. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
+      "summary": "3 1/4 Double Slider is a window from Vinyl-Pro. The saved supplier evidence documents Operating style: Double Slider; Material: 100% lead-free uPVC; Colours/finishes: Over 100 custom colours. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
       "bestFor": "Replacement projects seeking the documented Double Slider configuration.",
       "keyFeatures": [
+        "Collection: 3 1/4 Window System",
         "Operating style: Double Slider",
-        "Material: Vinyl",
-        "Colours/finishes: Over 100 custom colours"
+        "Material: 100% lead-free uPVC",
+        "Colours/finishes: Over 100 custom colours",
+        "Frame depth: 3 1/4 in window system",
+        "Glazing: Double- or triple-glazed insulated units with argon or krypton gas and Low-E coating",
+        "Warranty: Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application"
       ],
       "considerations": [
         "Confirm current option combinations, availability and performance values before ordering."
       ],
       "configurationNotes": "Only configurations explicitly listed in the supported facts are represented in this draft.",
-      "seoTitle": "Double Slider Window | Vinyl-Pro",
-      "metaDescription": "Review supported specifications and source material for the Double Slider window from Vinyl-Pro. Confirm current options before ordering.",
+      "seoTitle": "3 1/4 Double Slider Window | Vinyl-Pro",
+      "metaDescription": "Review supported specifications and source material for the 3 1/4 Double Slider window from Vinyl-Pro. Confirm current options before ordering.",
       "generatedAt": "2026-08-19T23:30:00Z"
     }
   },
@@ -47651,7 +49520,17 @@
       },
       "sourceDescription": "Discover 3 1/4 End vent slider vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 End vent slider windows today!",
       "modelNumber": null,
-      "collection": null,
+      "collection": {
+        "value": "3 1/4 Window System",
+        "sources": [
+          {
+            "supplier": "vinyl-pro",
+            "sourceUrl": "https://www.vinyl-pro.ca/windows/end-vent-slider/",
+            "extractedAt": "2026-08-19T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
       "normalized": {
         "operatingStyle": {
           "value": "End Vent Slider",
@@ -47665,13 +49544,17 @@
           ]
         },
         "material": {
-          "value": "Vinyl",
+          "value": "100% lead-free uPVC",
           "sources": [
             {
               "supplier": "vinyl-pro",
-              "sourceUrl": "https://www.vinyl-pro.ca/windows/end-vent-slider/",
-              "extractedAt": "2026-08-19T00:00:00Z",
-              "status": "active"
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+              "page": 3,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/new-brochure-2024-oct-24-single-op-282138fd6f12/pages/page-0003.txt",
+              "status": "active",
+              "extractionMethod": "embedded-text",
+              "extractedAt": "2026-08-20T00:00:00Z"
             }
           ]
         },
@@ -47685,26 +49568,141 @@
               "status": "active"
             }
           ]
+        },
+        "frameDepth": {
+          "value": "3 1/4 in window system",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "status": "active",
+              "evidenceType": "live-product-identity",
+              "sourceUrl": "https://www.vinyl-pro.ca/windows/end-vent-slider/",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glazing": {
+          "value": "Double- or triple-glazed insulated units with argon or krypton gas and Low-E coating",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+              "page": 3,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/new-brochure-2024-oct-24-single-op-282138fd6f12/pages/page-0003.txt",
+              "status": "active",
+              "extractionMethod": "embedded-text",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+              "pages": [
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0002.txt",
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0003.txt",
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "extractionMethod": "ocr",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "operation": {
+          "value": "Operating sashes at both ends tilt in for cleaning",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+              "page": 14,
+              "status": "active",
+              "extractionMethod": "embedded-text",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "openingGuidance": {
+          "value": "Supplier identifies it as an option for sliding-window openings wider than 72 in",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+              "page": 14,
+              "status": "active",
+              "extractionMethod": "embedded-text",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
         }
       },
-      "sourceDocuments": [],
-      "sourceMedia": []
+      "sourceDocuments": [
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+          "extractedAt": "2026-08-19T19:00:09Z",
+          "status": "active",
+          "sourceDocument": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+          "localPath": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+          "extractedAt": "2026-08-19T19:00:08Z",
+          "status": "active",
+          "sourceDocument": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+          "localPath": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf"
+        }
+      ],
+      "sourceMedia": [
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/windows/end_vent_slider/End_vent_slider_00000.png",
+          "extractedAt": "2026-08-20T03:38:22Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/end-vent-slider-00000-b424ab44b404.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/end_vent_slider-1.png",
+          "extractedAt": "2026-08-19T19:00:11Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/end-vent-slider-1-9e36f02c24fc.png"
+        }
+      ]
     },
     "editorial": {
       "status": "draft",
-      "summary": "End Vent Slider is a window from Vinyl-Pro. The saved supplier evidence documents Operating style: End Vent Slider; Material: Vinyl; Colours/finishes: Over 100 custom colours. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
+      "summary": "3 1/4 End Vent Slider is a window from Vinyl-Pro. The saved supplier evidence documents Operating style: End Vent Slider; Material: 100% lead-free uPVC; Colours/finishes: Over 100 custom colours. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
       "bestFor": "Replacement projects seeking the documented End Vent Slider configuration.",
       "keyFeatures": [
+        "Collection: 3 1/4 Window System",
         "Operating style: End Vent Slider",
-        "Material: Vinyl",
-        "Colours/finishes: Over 100 custom colours"
+        "Material: 100% lead-free uPVC",
+        "Colours/finishes: Over 100 custom colours",
+        "Frame depth: 3 1/4 in window system",
+        "Glazing: Double- or triple-glazed insulated units with argon or krypton gas and Low-E coating",
+        "Warranty: Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application"
       ],
       "considerations": [
         "Confirm current option combinations, availability and performance values before ordering."
       ],
       "configurationNotes": "Only configurations explicitly listed in the supported facts are represented in this draft.",
-      "seoTitle": "End Vent Slider Window | Vinyl-Pro",
-      "metaDescription": "Review supported specifications and source material for the End Vent Slider window from Vinyl-Pro. Confirm current options before ordering.",
+      "seoTitle": "3 1/4 End Vent Slider Window | Vinyl-Pro",
+      "metaDescription": "Review supported specifications and source material for the 3 1/4 End Vent Slider window from Vinyl-Pro. Confirm current options before ordering.",
       "generatedAt": "2026-08-19T23:30:00Z"
     }
   },
@@ -47735,7 +49733,17 @@
       },
       "sourceDescription": "Discover 3 1/4 Fixed casement vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 Fixed casement windows today!",
       "modelNumber": null,
-      "collection": null,
+      "collection": {
+        "value": "3 1/4 Window System",
+        "sources": [
+          {
+            "supplier": "vinyl-pro",
+            "sourceUrl": "https://www.vinyl-pro.ca/windows/fixed-casement/",
+            "extractedAt": "2026-08-19T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
       "normalized": {
         "operatingStyle": {
           "value": "Casement",
@@ -47749,13 +49757,17 @@
           ]
         },
         "material": {
-          "value": "Vinyl",
+          "value": "100% lead-free uPVC",
           "sources": [
             {
               "supplier": "vinyl-pro",
-              "sourceUrl": "https://www.vinyl-pro.ca/windows/fixed-casement/",
-              "extractedAt": "2026-08-19T00:00:00Z",
-              "status": "active"
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+              "page": 3,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/new-brochure-2024-oct-24-single-op-282138fd6f12/pages/page-0003.txt",
+              "status": "active",
+              "extractionMethod": "embedded-text",
+              "extractedAt": "2026-08-20T00:00:00Z"
             }
           ]
         },
@@ -47769,26 +49781,141 @@
               "status": "active"
             }
           ]
+        },
+        "frameDepth": {
+          "value": "3 1/4 in window system",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "status": "active",
+              "evidenceType": "live-product-identity",
+              "sourceUrl": "https://www.vinyl-pro.ca/windows/fixed-casement/",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glazing": {
+          "value": "Double- or triple-glazed insulated units with argon or krypton gas and Low-E coating",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+              "page": 3,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/new-brochure-2024-oct-24-single-op-282138fd6f12/pages/page-0003.txt",
+              "status": "active",
+              "extractionMethod": "embedded-text",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+              "pages": [
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0002.txt",
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0003.txt",
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "extractionMethod": "ocr",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "operation": {
+          "value": "Non-opening fixed window with a high-profile frame",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+              "page": 11,
+              "status": "active",
+              "extractionMethod": "embedded-text",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
         }
       },
-      "sourceDocuments": [],
-      "sourceMedia": []
+      "sourceDocuments": [
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+          "extractedAt": "2026-08-19T19:00:09Z",
+          "status": "active",
+          "sourceDocument": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+          "localPath": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+          "extractedAt": "2026-08-19T19:00:08Z",
+          "status": "active",
+          "sourceDocument": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+          "localPath": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf"
+        }
+      ],
+      "sourceMedia": [
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/front-content/detail/3%C2%BC-High-Fix-Vinyl-Packge-EXT.png",
+          "extractedAt": "2026-08-20T03:38:46Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/3-c2-bc-high-fix-vinyl-packge-ext-4ac8380ac22f.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/front-content/detail/3%C2%BC-High-Fix-Wood-Extension-INT.png",
+          "extractedAt": "2026-08-20T03:39:04Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/3-c2-bc-high-fix-wood-extension-int-95fc6cde54f4.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/windows/fixed_casement/Fixed_Casement_00000.png",
+          "extractedAt": "2026-08-20T03:38:17Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/fixed-casement-00000-decab7b36200.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/fixed_casement.png",
+          "extractedAt": "2026-08-20T03:38:32Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/fixed-casement-d039cceaae1d.png"
+        }
+      ]
     },
     "editorial": {
       "status": "draft",
-      "summary": "Fixed Casement is a window from Vinyl-Pro. The saved supplier evidence documents Operating style: Casement; Material: Vinyl; Colours/finishes: Over 100 custom colours. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
+      "summary": "3 1/4 Fixed Casement is a window from Vinyl-Pro. The saved supplier evidence documents Operating style: Casement; Material: 100% lead-free uPVC; Colours/finishes: Over 100 custom colours. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
       "bestFor": "Replacement projects seeking the documented Casement configuration.",
       "keyFeatures": [
+        "Collection: 3 1/4 Window System",
         "Operating style: Casement",
-        "Material: Vinyl",
-        "Colours/finishes: Over 100 custom colours"
+        "Material: 100% lead-free uPVC",
+        "Colours/finishes: Over 100 custom colours",
+        "Frame depth: 3 1/4 in window system",
+        "Glazing: Double- or triple-glazed insulated units with argon or krypton gas and Low-E coating",
+        "Warranty: Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application"
       ],
       "considerations": [
         "Confirm current option combinations, availability and performance values before ordering."
       ],
       "configurationNotes": "Only configurations explicitly listed in the supported facts are represented in this draft.",
-      "seoTitle": "Fixed Casement Window | Vinyl-Pro",
-      "metaDescription": "Review supported specifications and source material for the Fixed Casement window from Vinyl-Pro. Confirm current options before ordering.",
+      "seoTitle": "3 1/4 Fixed Casement Window | Vinyl-Pro",
+      "metaDescription": "Review supported specifications and source material for the 3 1/4 Fixed Casement window from Vinyl-Pro. Confirm current options before ordering.",
       "generatedAt": "2026-08-19T23:30:00Z"
     }
   },
@@ -47819,7 +49946,17 @@
       },
       "sourceDescription": "Discover 3 1/4 Picture window vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 Picture window windows today!",
       "modelNumber": null,
-      "collection": null,
+      "collection": {
+        "value": "3 1/4 Window System",
+        "sources": [
+          {
+            "supplier": "vinyl-pro",
+            "sourceUrl": "https://www.vinyl-pro.ca/windows/picture-window/",
+            "extractedAt": "2026-08-19T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
       "normalized": {
         "operatingStyle": {
           "value": "Picture Window",
@@ -47833,13 +49970,17 @@
           ]
         },
         "material": {
-          "value": "Vinyl",
+          "value": "100% lead-free uPVC",
           "sources": [
             {
               "supplier": "vinyl-pro",
-              "sourceUrl": "https://www.vinyl-pro.ca/windows/picture-window/",
-              "extractedAt": "2026-08-19T00:00:00Z",
-              "status": "active"
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+              "page": 3,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/new-brochure-2024-oct-24-single-op-282138fd6f12/pages/page-0003.txt",
+              "status": "active",
+              "extractionMethod": "embedded-text",
+              "extractedAt": "2026-08-20T00:00:00Z"
             }
           ]
         },
@@ -47853,26 +49994,141 @@
               "status": "active"
             }
           ]
+        },
+        "frameDepth": {
+          "value": "3 1/4 in window system",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "status": "active",
+              "evidenceType": "live-product-identity",
+              "sourceUrl": "https://www.vinyl-pro.ca/windows/picture-window/",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glazing": {
+          "value": "Double- or triple-glazed insulated units with argon or krypton gas and Low-E coating",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+              "page": 3,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/new-brochure-2024-oct-24-single-op-282138fd6f12/pages/page-0003.txt",
+              "status": "active",
+              "extractionMethod": "embedded-text",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+              "pages": [
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0002.txt",
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0003.txt",
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "extractionMethod": "ocr",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "configuration": {
+          "value": "Available as a stand-alone window or combined with fixed, casement, double-hung, or single-slider windows",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+              "page": 10,
+              "status": "active",
+              "extractionMethod": "embedded-text",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
         }
       },
-      "sourceDocuments": [],
-      "sourceMedia": []
+      "sourceDocuments": [
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+          "extractedAt": "2026-08-19T19:00:09Z",
+          "status": "active",
+          "sourceDocument": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+          "localPath": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+          "extractedAt": "2026-08-19T19:00:08Z",
+          "status": "active",
+          "sourceDocument": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+          "localPath": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf"
+        }
+      ],
+      "sourceMedia": [
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/front-content/detail/3%C2%BC-Small-Fix-Vinyl-Package-Ext.png",
+          "extractedAt": "2026-08-20T03:39:22Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/3-c2-bc-small-fix-vinyl-package-ext-ec3f8e811d06.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/front-content/detail/3%C2%BC-Small-Fix-Wood-Extension-EXT.png",
+          "extractedAt": "2026-08-20T03:39:39Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/3-c2-bc-small-fix-wood-extension-ext-d92670882b28.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/windows/picture_window/Picture_window_00000.png",
+          "extractedAt": "2026-08-20T03:38:18Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/picture-window-00000-9ca42d27dcf0.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/picture_window.png",
+          "extractedAt": "2026-08-20T03:38:33Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/picture-window-9b36e009dc62.png"
+        }
+      ]
     },
     "editorial": {
       "status": "draft",
-      "summary": "Picture Window is a window from Vinyl-Pro. The saved supplier evidence documents Operating style: Picture Window; Material: Vinyl; Colours/finishes: Over 100 custom colours. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
+      "summary": "3 1/4 Picture Window is a window from Vinyl-Pro. The saved supplier evidence documents Operating style: Picture Window; Material: 100% lead-free uPVC; Colours/finishes: Over 100 custom colours. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
       "bestFor": "Replacement projects seeking the documented Picture Window configuration.",
       "keyFeatures": [
+        "Collection: 3 1/4 Window System",
         "Operating style: Picture Window",
-        "Material: Vinyl",
-        "Colours/finishes: Over 100 custom colours"
+        "Material: 100% lead-free uPVC",
+        "Colours/finishes: Over 100 custom colours",
+        "Frame depth: 3 1/4 in window system",
+        "Glazing: Double- or triple-glazed insulated units with argon or krypton gas and Low-E coating",
+        "Warranty: Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application"
       ],
       "considerations": [
         "Confirm current option combinations, availability and performance values before ordering."
       ],
       "configurationNotes": "Only configurations explicitly listed in the supported facts are represented in this draft.",
-      "seoTitle": "Picture Window Window | Vinyl-Pro",
-      "metaDescription": "Review supported specifications and source material for the Picture Window window from Vinyl-Pro. Confirm current options before ordering.",
+      "seoTitle": "3 1/4 Picture Window Window | Vinyl-Pro",
+      "metaDescription": "Review supported specifications and source material for the 3 1/4 Picture Window window from Vinyl-Pro. Confirm current options before ordering.",
       "generatedAt": "2026-08-19T23:30:00Z"
     }
   },
@@ -47903,7 +50159,17 @@
       },
       "sourceDescription": "Discover 3 1/4 Single hung vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 Single hung windows today!",
       "modelNumber": null,
-      "collection": null,
+      "collection": {
+        "value": "3 1/4 Window System",
+        "sources": [
+          {
+            "supplier": "vinyl-pro",
+            "sourceUrl": "https://www.vinyl-pro.ca/windows/single-hung/",
+            "extractedAt": "2026-08-19T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
       "normalized": {
         "operatingStyle": {
           "value": "Single Hung",
@@ -47917,13 +50183,17 @@
           ]
         },
         "material": {
-          "value": "Vinyl",
+          "value": "100% lead-free uPVC",
           "sources": [
             {
               "supplier": "vinyl-pro",
-              "sourceUrl": "https://www.vinyl-pro.ca/windows/single-hung/",
-              "extractedAt": "2026-08-19T00:00:00Z",
-              "status": "active"
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+              "page": 3,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/new-brochure-2024-oct-24-single-op-282138fd6f12/pages/page-0003.txt",
+              "status": "active",
+              "extractionMethod": "embedded-text",
+              "extractedAt": "2026-08-20T00:00:00Z"
             }
           ]
         },
@@ -47937,26 +50207,127 @@
               "status": "active"
             }
           ]
+        },
+        "frameDepth": {
+          "value": "3 1/4 in window system",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "status": "active",
+              "evidenceType": "live-product-identity",
+              "sourceUrl": "https://www.vinyl-pro.ca/windows/single-hung/",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glazing": {
+          "value": "Double- or triple-glazed insulated units with argon or krypton gas and Low-E coating",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+              "page": 3,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/new-brochure-2024-oct-24-single-op-282138fd6f12/pages/page-0003.txt",
+              "status": "active",
+              "extractionMethod": "embedded-text",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+              "pages": [
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0002.txt",
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0003.txt",
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "extractionMethod": "ocr",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "screen": {
+          "value": "Half-size screen",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+              "page": 13,
+              "status": "active",
+              "extractionMethod": "embedded-text",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
         }
       },
-      "sourceDocuments": [],
-      "sourceMedia": []
+      "sourceDocuments": [
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+          "extractedAt": "2026-08-19T19:00:09Z",
+          "status": "active",
+          "sourceDocument": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+          "localPath": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+          "extractedAt": "2026-08-19T19:00:08Z",
+          "status": "active",
+          "sourceDocument": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+          "localPath": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf"
+        }
+      ],
+      "sourceMedia": [
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/windows/single_hung/Single_hung_00000.png",
+          "extractedAt": "2026-08-20T03:38:19Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/single-hung-00000-69168512f6f8.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/single_hung-1.png",
+          "extractedAt": "2026-08-20T03:38:29Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/single-hung-1-c632cc0bedbb.png"
+        }
+      ]
     },
     "editorial": {
       "status": "draft",
-      "summary": "Single Hung is a window from Vinyl-Pro. The saved supplier evidence documents Operating style: Single Hung; Material: Vinyl; Colours/finishes: Over 100 custom colours. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
+      "summary": "3 1/4 Single Hung is a window from Vinyl-Pro. The saved supplier evidence documents Operating style: Single Hung; Material: 100% lead-free uPVC; Colours/finishes: Over 100 custom colours. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
       "bestFor": "Replacement projects seeking the documented Single Hung configuration.",
       "keyFeatures": [
+        "Collection: 3 1/4 Window System",
         "Operating style: Single Hung",
-        "Material: Vinyl",
-        "Colours/finishes: Over 100 custom colours"
+        "Material: 100% lead-free uPVC",
+        "Colours/finishes: Over 100 custom colours",
+        "Frame depth: 3 1/4 in window system",
+        "Glazing: Double- or triple-glazed insulated units with argon or krypton gas and Low-E coating",
+        "Warranty: Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application"
       ],
       "considerations": [
         "Confirm current option combinations, availability and performance values before ordering."
       ],
       "configurationNotes": "Only configurations explicitly listed in the supported facts are represented in this draft.",
-      "seoTitle": "Single Hung Window | Vinyl-Pro",
-      "metaDescription": "Review supported specifications and source material for the Single Hung window from Vinyl-Pro. Confirm current options before ordering.",
+      "seoTitle": "3 1/4 Single Hung Window | Vinyl-Pro",
+      "metaDescription": "Review supported specifications and source material for the 3 1/4 Single Hung window from Vinyl-Pro. Confirm current options before ordering.",
       "generatedAt": "2026-08-19T23:30:00Z"
     }
   },
@@ -47987,7 +50358,17 @@
       },
       "sourceDescription": "Discover 3 1/4 Single slider vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 Single slider windows today!",
       "modelNumber": null,
-      "collection": null,
+      "collection": {
+        "value": "3 1/4 Window System",
+        "sources": [
+          {
+            "supplier": "vinyl-pro",
+            "sourceUrl": "https://www.vinyl-pro.ca/windows/single-slider/",
+            "extractedAt": "2026-08-19T00:00:00Z",
+            "status": "active"
+          }
+        ]
+      },
       "normalized": {
         "operatingStyle": {
           "value": "Single Slider",
@@ -48001,13 +50382,17 @@
           ]
         },
         "material": {
-          "value": "Vinyl",
+          "value": "100% lead-free uPVC",
           "sources": [
             {
               "supplier": "vinyl-pro",
-              "sourceUrl": "https://www.vinyl-pro.ca/windows/single-slider/",
-              "extractedAt": "2026-08-19T00:00:00Z",
-              "status": "active"
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+              "page": 3,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/new-brochure-2024-oct-24-single-op-282138fd6f12/pages/page-0003.txt",
+              "status": "active",
+              "extractionMethod": "embedded-text",
+              "extractedAt": "2026-08-20T00:00:00Z"
             }
           ]
         },
@@ -48021,26 +50406,141 @@
               "status": "active"
             }
           ]
+        },
+        "frameDepth": {
+          "value": "3 1/4 in window system",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "status": "active",
+              "evidenceType": "live-product-identity",
+              "sourceUrl": "https://www.vinyl-pro.ca/windows/single-slider/",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glazing": {
+          "value": "Double- or triple-glazed insulated units with argon or krypton gas and Low-E coating",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+              "page": 3,
+              "textPath": "source-media/suppliers/vinyl-pro/pdf-extracted/new-brochure-2024-oct-24-single-op-282138fd6f12/pages/page-0003.txt",
+              "status": "active",
+              "extractionMethod": "embedded-text",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+              "pages": [
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0002.txt",
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0003.txt",
+                "source-media/suppliers/vinyl-pro/pdf-extracted/2025-lifetime-warranty-june-4-full-3-061f5f8bef31/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "extractionMethod": "ocr",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "operation": {
+          "value": "Tilt-in or lift-out sash for maintenance and cleaning",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+              "page": 12,
+              "status": "active",
+              "extractionMethod": "embedded-text",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "screen": {
+          "value": "Half screen",
+          "sources": [
+            {
+              "supplier": "vinyl-pro",
+              "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+              "sourceDocument": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf",
+              "page": 12,
+              "status": "active",
+              "extractionMethod": "embedded-text",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
         }
       },
-      "sourceDocuments": [],
-      "sourceMedia": []
+      "sourceDocuments": [
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+          "extractedAt": "2026-08-19T19:00:09Z",
+          "status": "active",
+          "sourceDocument": "https://www.vinyl-pro.ca/wp-content/uploads/2025/06/2025-Lifetime-Warranty-June-4-full-3.pdf",
+          "localPath": "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+          "extractedAt": "2026-08-19T19:00:08Z",
+          "status": "active",
+          "sourceDocument": "https://www.vinyl-pro.ca/storage/2024/10/new-brochure-2024-Oct-24-single-OP.pdf",
+          "localPath": "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf"
+        }
+      ],
+      "sourceMedia": [
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/core/views/c10519d743/img/windows/single_slider/Single_slider_00000.png",
+          "extractedAt": "2026-08-20T03:38:21Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/single-slider-00000-2729d94b5eb2.png"
+        },
+        {
+          "supplier": "vinyl-pro",
+          "sourceUrl": "https://www.vinyl-pro.ca/storage/2024/08/single_slider-1.png",
+          "extractedAt": "2026-08-19T19:00:11Z",
+          "status": "active",
+          "localPath": "/images/catalog/vinyl-pro/single-slider-1-69bc8a2b0458.png"
+        }
+      ]
     },
     "editorial": {
       "status": "draft",
-      "summary": "Single Slider is a window from Vinyl-Pro. The saved supplier evidence documents Operating style: Single Slider; Material: Vinyl; Colours/finishes: Over 100 custom colours. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
+      "summary": "3 1/4 Single Slider is a window from Vinyl-Pro. The saved supplier evidence documents Operating style: Single Slider; Material: 100% lead-free uPVC; Colours/finishes: Over 100 custom colours. Available sizes, finishes, glazing, hardware, performance ratings and installation requirements vary by product; any option not listed in the supported facts should be confirmed with the manufacturer or installer before ordering.",
       "bestFor": "Replacement projects seeking the documented Single Slider configuration.",
       "keyFeatures": [
+        "Collection: 3 1/4 Window System",
         "Operating style: Single Slider",
-        "Material: Vinyl",
-        "Colours/finishes: Over 100 custom colours"
+        "Material: 100% lead-free uPVC",
+        "Colours/finishes: Over 100 custom colours",
+        "Frame depth: 3 1/4 in window system",
+        "Glazing: Double- or triple-glazed insulated units with argon or krypton gas and Low-E coating",
+        "Warranty: Lifetime Limited Warranty; coverage varies by component, time period, exclusions, and application"
       ],
       "considerations": [
         "Confirm current option combinations, availability and performance values before ordering."
       ],
       "configurationNotes": "Only configurations explicitly listed in the supported facts are represented in this draft.",
-      "seoTitle": "Single Slider Window | Vinyl-Pro",
-      "metaDescription": "Review supported specifications and source material for the Single Slider window from Vinyl-Pro. Confirm current options before ordering.",
+      "seoTitle": "3 1/4 Single Slider Window | Vinyl-Pro",
+      "metaDescription": "Review supported specifications and source material for the 3 1/4 Single Slider window from Vinyl-Pro. Confirm current options before ordering.",
       "generatedAt": "2026-08-19T23:30:00Z"
     }
   },

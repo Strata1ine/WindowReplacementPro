@@ -1,0 +1,37 @@
+{
+  "supplier": "vinyl-pro",
+  "reviewedAt": "2026-08-20",
+  "disposition": "quarantined-not-deleted",
+  "assets": [
+    {
+      "originalUrl": "https://www.vinyl-pro.ca/storage/2024/08/double_slider-2.png",
+      "sourcePageUrl": "https://www.vinyl-pro.ca/windows/end-vent-slider/",
+      "priorPublicPath": "/images/catalog/vinyl-pro/double-slider-2-b134a9fe8f71.png",
+      "quarantinePath": "source-media/staging/vinyl-pro/20260820T033335Z-11228/quarantine/rejected-associations/double-slider-2-b134a9fe8f71.png",
+      "sha256": "e7e94fc66c97da452a6eb105a6f071d84c02e5c4c5eba7970554acc0f9959587",
+      "bytes": 65059,
+      "relationshipState": "rejected",
+      "reason": "Asset occurred in a related-product card on a different canonical product page; filename identity does not match the observed page and no primary current-product relationship exists."
+    },
+    {
+      "originalUrl": "https://www.vinyl-pro.ca/storage/2024/08/end_vent_slider-2.png",
+      "sourcePageUrl": "https://www.vinyl-pro.ca/windows/double-slider/",
+      "priorPublicPath": "/images/catalog/vinyl-pro/end-vent-slider-2-ecc3be90c77e.png",
+      "quarantinePath": "source-media/staging/vinyl-pro/20260820T033335Z-11228/quarantine/rejected-associations/end-vent-slider-2-ecc3be90c77e.png",
+      "sha256": "660f99fe6c9da26e4188f704b20d6edd5cd2f3341b9558da3f2050a8b6f1b931",
+      "bytes": 47345,
+      "relationshipState": "rejected",
+      "reason": "Asset occurred in a related-product card on a different canonical product page; filename identity does not match the observed page and no primary current-product relationship exists."
+    },
+    {
+      "originalUrl": "https://www.vinyl-pro.ca/storage/2024/08/single_slider-2.png",
+      "sourcePageUrl": "https://www.vinyl-pro.ca/windows/4-9-16-single-hung/",
+      "priorPublicPath": "/images/catalog/vinyl-pro/single-slider-2-e832fb7d3bea.png",
+      "quarantinePath": "source-media/staging/vinyl-pro/20260820T033335Z-11228/quarantine/rejected-associations/single-slider-2-e832fb7d3bea.png",
+      "sha256": "d6cd2bc4c6c5b5bbb73eb361a018f1db2b00d846edbae370ba400e9676a64b65",
+      "bytes": 48432,
+      "relationshipState": "rejected",
+      "reason": "Asset occurred in a related-product card on a different canonical product page; filename identity does not match the observed page and no primary current-product relationship exists."
+    }
+  ]
+}

@@ -2859,6 +2859,18 @@
     "editorialStatus": "incomplete"
   },
   {
+    "productId": "vinyl-pro:4-9-16-awning",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "vinyl-pro",
+    "category": "windows",
+    "modelNumber": null,
+    "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-awning/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
     "productId": "vinyl-pro:4-9-16-casement",
     "decision": "retained-distinct",
     "reason": "No curated record has the same normalized manufacturer model or product name.",
@@ -2869,5 +2881,65 @@
     "possibleAliasesReviewed": [],
     "enriched": true,
     "editorialStatus": "draft"
+  },
+  {
+    "productId": "vinyl-pro:4-9-16-end-vent-slider",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "vinyl-pro",
+    "category": "windows",
+    "modelNumber": null,
+    "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-end-vent-slider/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "vinyl-pro:4-9-16-fixed-casement",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "vinyl-pro",
+    "category": "windows",
+    "modelNumber": null,
+    "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-fixed-casement/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "vinyl-pro:4-9-16-picture-window",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "vinyl-pro",
+    "category": "windows",
+    "modelNumber": null,
+    "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-picture-window/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "vinyl-pro:4-9-16-single-hung",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "vinyl-pro",
+    "category": "windows",
+    "modelNumber": null,
+    "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-single-hung/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "vinyl-pro:4-9-16-single-slider",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "vinyl-pro",
+    "category": "windows",
+    "modelNumber": null,
+    "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-single-slider/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
   }
 ]

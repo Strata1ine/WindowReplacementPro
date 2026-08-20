@@ -7,6 +7,8 @@ from dataclasses import asdict
 from unittest.mock import patch
 
 from scripts.ingest.cleanup import scan_staging_runs
+from scripts.ingest.pdf_evidence import configured_page_products
+from scripts.ingest.pdf_ocr import ocr_pdf_pages
 
 from scripts.ingest.crawl import (
     Asset,
@@ -15,6 +17,7 @@ from scripts.ingest.crawl import (
     Page,
     PageParser,
     api_json_products,
+    apply_document_relationship_rules,
     associate_assets,
     attach_available_asset_occurrences,
     build_asset_tasks,
@@ -37,6 +40,7 @@ from scripts.ingest.crawl import (
     product_nodes,
     promote_referenced_assets,
     query_requirements_met,
+    raw_link_allowed,
     reconcile_asset_tasks,
     restore_retryable_task_states,
     rewrite_asset_url,
@@ -48,6 +52,59 @@ from scripts.ingest.crawl import (
 
 
 class CrawlerSafetyTests(unittest.TestCase):
+    def test_reviewed_pdf_page_mapping_overrides_generic_name_matching(self):
+        rules = [{
+            'patterns': [r'system-brochure\.pdf$'],
+            'default_product_ids': ['supplier:a', 'supplier:b'],
+            'exclude_pages': [1, 2],
+            'page_product_ids': {'5': ['supplier:a']},
+        }]
+        self.assertEqual(configured_page_products(Path('system-brochure.pdf'), 1, rules), [])
+        self.assertEqual(configured_page_products(Path('system-brochure.pdf'), 3, rules), ['supplier:a', 'supplier:b'])
+        self.assertEqual(configured_page_products(Path('system-brochure.pdf'), 5, rules), ['supplier:a'])
+        self.assertIsNone(configured_page_products(Path('other.pdf'), 5, rules))
+    def test_image_only_pdf_ocr_preserves_page_level_text(self):
+        closed = []
+
+        class FakeImage:
+            def convert(self, mode):
+                self.mode = mode
+                return self
+
+        class FakeBitmap:
+            def to_pil(self):
+                return FakeImage()
+
+        class FakePage:
+            def render(self, scale):
+                self.scale = scale
+                return FakeBitmap()
+
+        class FakeDocument:
+            def __init__(self, path):
+                self.pages = [FakePage(), FakePage()]
+
+            def __len__(self):
+                return len(self.pages)
+
+            def __getitem__(self, index):
+                return self.pages[index]
+
+            def close(self):
+                closed.append(True)
+
+        class FakePdfium:
+            PdfDocument = FakeDocument
+
+        class FakeEngine:
+            def __call__(self, image):
+                return ([[None, "First line"], [None, "Second line"]], 0.01)
+
+        with patch('scripts.ingest.pdf_ocr.pdfium', FakePdfium), patch('scripts.ingest.pdf_ocr.RapidOCR', return_value=FakeEngine()):
+            pages, errors = ocr_pdf_pages(Path('image-only.pdf'), scale=2.0)
+        self.assertEqual(pages, {1: "First line\nSecond line", 2: "First line\nSecond line"})
+        self.assertEqual(errors, [])
+        self.assertEqual(closed, [True])
     def test_generic_homepage_is_not_a_product(self):
         parser = PageParser(); parser.feed('<html><title>Windows and Doors</title><h1>Our Products</h1></html>')
         self.assertFalse(is_product_candidate('https://example.com/', parser, ['product', 'window'], {}))
@@ -61,6 +118,16 @@ class CrawlerSafetyTests(unittest.TestCase):
         parser = PageParser([{'role': 'hero', 'patterns': [r'\bcapri\b']}])
         parser.feed('<img class="capri" src="product.jpg"><img class="brand" src="logo.png">')
         self.assertEqual([('product.jpg', 'image', 'product-hero'), ('logo.png', 'image', 'generic')], parser.media)
+
+    def test_supplier_scoped_media_region_excludes_recommendation_cards(self):
+        parser = PageParser(excluded_media_region_patterns=[r'\bcards-row\b'])
+        parser.feed('<div class="cards-row"><div class="card-img"><img src="other-product.png"></div></div><div><img class="hero" src="current-product.png"></div>')
+        self.assertEqual(parser.media, [('current-product.png', 'image', 'product-hero')])
+
+    def test_generic_window_token_does_not_claim_shared_configuration_diagram(self):
+        product_keys = identity_keys(['picture-window', 'Picture Window'])
+        self.assertFalse(urls_identity_match(['https://example.com/sps-window-1.png'], product_keys))
+        self.assertTrue(urls_identity_match(['https://example.com/picture_window.png'], product_keys))
 
     def test_img_src_does_not_duplicate_responsive_renditions(self):
         parser = PageParser()
@@ -112,6 +179,23 @@ class CrawlerSafetyTests(unittest.TestCase):
             ('https://example.com/detail.jpg', 'image', 'product-gallery'),
         ])
 
+    def test_supplier_document_mapping_overrides_heuristic_cross_attachment(self):
+        path = '/documents/catalog/supplier/current-brochure.pdf'
+        asset = Asset('supplier', ['https://example.com/products'], 'https://example.com/current-brochure.pdf', 'https://example.com/current-brochure.pdf', path, 'document', 'brochure', 'hash', 10, 'now')
+        products = [
+            {'id': 'supplier:a', 'collection': 'System A', 'media': [], 'documents': [path]},
+            {'id': 'supplier:b', 'collection': 'System A', 'media': [], 'documents': [path]},
+            {'id': 'supplier:c', 'collection': 'System B', 'media': [], 'documents': [path]},
+        ]
+        rules = [{'patterns': [r'current-brochure\.pdf$'], 'product_ids': ['supplier:a', 'supplier:b']}]
+        apply_document_relationship_rules({asset.original_asset_url: asset}, products, rules)
+        associate_assets({asset.original_asset_url: asset}, products)
+        self.assertEqual(products[0]['documents'], [path])
+        self.assertEqual(products[1]['documents'], [path])
+        self.assertEqual(products[2]['documents'], [])
+        self.assertEqual(asset.product_ids, ['supplier:a', 'supplier:b'])
+        self.assertEqual(asset.relationship_state, 'collection-shared')
+        self.assertIn('supplier-scoped-document-map', asset.relationship_evidence)
     def test_document_roles_are_explicit(self):
         self.assertEqual(document_role('https://example.com/urbania-sheet.pdf', 'Product Data Sheet'), 'specification-sheet')
         self.assertEqual(document_role('https://example.com/install.pdf'), 'installation-guide')
@@ -136,6 +220,16 @@ class CrawlerSafetyTests(unittest.TestCase):
         self.assertEqual(normalize('/model?utm_source=x&b=2&a=1#details', 'https://EXAMPLE.com/'), 'https://example.com/model?a=1&b=2')
         self.assertIsNone(normalize('/products/{{media url=', 'https://example.com/'))
         self.assertIsNone(normalize('/"quoted"/', 'https://example.com/'))
+
+    def test_supplier_scoped_bare_video_id_is_not_crawled_as_relative_page(self):
+        config = {'reject_raw_link_patterns': [r'^[A-Za-z0-9_-]{11}$']}
+        self.assertFalse(raw_link_allowed('dvEVjtYGVLY', config))
+        self.assertTrue(raw_link_allowed('dvEVjtYGVLY', {}))
+        self.assertTrue(raw_link_allowed('https://www.youtube.com/watch?v=dvEVjtYGVLY', config))
+        self.assertEqual(
+            normalize('https://example.com/detail/3¼ Casement.png', 'https://example.com/'),
+            'https://example.com/detail/3%C2%BC%20Casement.png',
+        )
 
     def test_supplier_page_scope_rejects_other_regional_catalogues(self):
         config = {
@@ -286,6 +380,14 @@ class CrawlerSafetyTests(unittest.TestCase):
         parser.feed('<meta property="og:image" content="https://trimlite.com/related.jpg"><img class="wp-post-image" src="https://trimlite.com/DRF36.jpg">')
         self.assertEqual(parser.media, [('https://trimlite.com/related.jpg', 'image', 'open-graph-image'), ('https://trimlite.com/DRF36.jpg', 'image', 'product-hero')])
 
+    def test_product_page_open_graph_requires_explicit_supplier_trust(self):
+        url = 'https://www.vinyl-pro.ca/storage/4-916-Small-Fix-Window_1.png'
+        asset = Asset('vinyl-pro', [], url, url, '/images/small-fix.png', 'image', 'open-graph-image', 'hash', 1, 'now', source_asset_urls=[url])
+        page = Page('https://www.vinyl-pro.ca/windows/4-9-16-picture-window/', '', '4 9/16 Picture Window', '', '', True, 'windows', [asset.local_path], {}, asset_candidates=[{'url': url, 'source_url': url, 'role': 'open-graph-image', 'order': 0}])
+        self.assertEqual(product_asset_paths(page, {url: asset}, [], ['4-9-16-picture-window'])[0], [])
+        self.assertEqual(product_asset_paths(page, {url: asset}, [], ['4-9-16-picture-window'], True, True)[0], [asset.local_path])
+        self.assertIn('product-page-open-graph', asset.relationship_evidence)
+
     def test_exact_design_token_matches_descriptive_filename_without_prefix_collision(self):
         self.assertTrue(urls_identity_match(['https://trimlite.com/764_1LITE_WHITE_NARROWREED-e1509.jpg'], identity_keys(['narrow-reed'])))
         self.assertTrue(urls_identity_match(['https://trimlite.com/Manhattan2248Glass.jpg'], identity_keys(['manhattan-decorative-doorlite'])))
@@ -404,6 +506,20 @@ class CrawlerSafetyTests(unittest.TestCase):
         associate_assets({'drawing': asset}, products)
         self.assertEqual(asset.product_ids, ['supplier:a', 'supplier:b'])
         self.assertEqual(asset.relationship_state, 'collection-shared')
+
+    def test_resume_upgrades_legacy_document_role_from_persisted_task(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            body = b'%PDF-valid'
+            public = root / 'public/documents/catalog/supplier/warranty.pdf'
+            public.parent.mkdir(parents=True); public.write_bytes(body)
+            asset = Asset('supplier', ['https://example.com/product'], 'https://example.com/warranty.pdf', 'https://example.com/warranty.pdf', '/documents/catalog/supplier/warranty.pdf', 'document', 'document', __import__('hashlib').sha256(body).hexdigest(), len(body), 'now', '', ['https://example.com/warranty.pdf'])
+            task = AssetTask('https://example.com/warranty.pdf', 'https://example.com/warranty.pdf', 'https://example.com/product', 'document', 'warranty', 0, 'https://example.com/product')
+            with patch('scripts.ingest.crawl.ROOT', root):
+                aliases, invalid = reconcile_asset_tasks([task], {asset.original_asset_url: asset})
+            self.assertEqual(invalid, [])
+            self.assertEqual(task.status, 'validated')
+            self.assertEqual(aliases[task.url].role, 'warranty')
 
     def test_interrupted_asset_phase_resume_reuses_checksum_valid_staged_asset(self):
         with tempfile.TemporaryDirectory() as temp:

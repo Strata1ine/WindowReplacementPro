@@ -1,0 +1,20 @@
+{
+  "supplier": "vinyl-pro",
+  "products": 16,
+  "productsWithMediaBefore": 16,
+  "productsWithMediaAfter": 16,
+  "productsStillMissingMedia": [],
+  "acceptedAssetsBefore": 88,
+  "downloadedCandidatesRecovered": 9,
+  "acceptedAssetsAfter": 97,
+  "rejectedAssociations": [],
+  "relationshipStates": {
+    "product-specific": 24,
+    "collection-shared": 6,
+    "supplier-shared": 67,
+    "uncertain/review": 0
+  },
+  "sharedProductBinaries": 16,
+  "changedProducts": [],
+  "resolvedErrors": []
+}

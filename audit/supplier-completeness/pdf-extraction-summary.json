@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T03:12:51.965017+00:00",
+  "generatedAt": "2026-08-20T04:11:18.479809+00:00",
   "suppliers": [
     {
       "supplier": "masonite",
@@ -28,6 +28,16 @@
       "characters": 102548,
       "tables": 505,
       "images": 177,
+      "ocrRequired": 0,
+      "errors": 0
+    },
+    {
+      "supplier": "vinyl-pro",
+      "documents": 3,
+      "pages": 68,
+      "characters": 76733,
+      "tables": 20,
+      "images": 137,
       "ocrRequired": 0,
       "errors": 0
     }

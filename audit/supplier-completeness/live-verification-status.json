@@ -1,94 +1,94 @@
 {
-    "suppliers":  [
-                      {
-                          "supplier":  "vinyl-pro",
-                          "status":  "VERIFICATION-PENDING",
-                          "websiteStatus":  "VERIFICATION-PENDING",
-                          "mediaStatus":  "VERIFICATION-PENDING",
-                          "pdfStatus":  "VERIFICATION-PENDING",
-                          "basis":  "Live website, media, and PDF completeness audit is not yet approved.",
-                          "expectedRelevantProducts":  null
-                      },
-                      {
-                          "supplier":  "window-city",
-                          "status":  "VERIFICATION-PENDING",
-                          "websiteStatus":  "VERIFICATION-PENDING",
-                          "mediaStatus":  "VERIFICATION-PENDING",
-                          "pdfStatus":  "VERIFICATION-PENDING",
-                          "basis":  "Live website, media, and PDF completeness audit is not yet approved.",
-                          "expectedRelevantProducts":  null
-                      },
-                      {
-                          "supplier":  "masonite",
-                          "status":  "VERIFIED",
-                          "websiteStatus":  "VERIFIED",
-                          "mediaStatus":  "VERIFIED",
-                          "pdfStatus":  "VERIFIED",
-                          "basis":  "Exterior PLP scope and Widen media/document provenance directly verified 2026-08-19; 29 canonical products, 47 accepted assets, 19 technical PDFs.",
-                          "expectedRelevantProducts":  29
-                      },
-                      {
-                          "supplier":  "trimlite",
-                          "status":  "VERIFIED",
-                          "websiteStatus":  "VERIFIED",
-                          "mediaStatus":  "VERIFIED",
-                          "pdfStatus":  "VERIFIED",
-                          "basis":  "Website, master-image selection, and product/media association integrity directly verified 2026-08-19; 175 canonical products, 214 accepted assets, 3 brochures, 12 explicit unresolved media records.",
-                          "expectedRelevantProducts":  175
-                      },
-                      {
-                          "supplier":  "novatech",
-                          "status":  "VERIFIED",
-                          "websiteStatus":  "VERIFIED",
-                          "mediaStatus":  "VERIFIED",
-                          "pdfStatus":  "VERIFIED-WITH-16-PAGE-EVIDENCE-GAPS",
-                          "basis":  "Ontario catalogue and Magento product/media relationships directly verified 2026-08-19; 91 canonical products, 895 accepted assets, 30 accepted PDFs. All 30 PDFs are valid and extraction-clean; 16 source-page document relationships lack an independent exact product-name match in extracted PDF text and remain disclosed for review.",
-                          "expectedRelevantProducts":  91
-                      },
-                      {
-                          "supplier":  "verre-select",
-                          "status":  "VERIFICATION-PENDING",
-                          "websiteStatus":  "VERIFICATION-PENDING",
-                          "mediaStatus":  "VERIFICATION-PENDING",
-                          "pdfStatus":  "VERIFICATION-PENDING",
-                          "basis":  "Live website, media, and PDF completeness audit is not yet approved.",
-                          "expectedRelevantProducts":  null
-                      },
-                      {
-                          "supplier":  "mennie-canada",
-                          "status":  "VERIFICATION-PENDING",
-                          "websiteStatus":  "VERIFICATION-PENDING",
-                          "mediaStatus":  "VERIFICATION-PENDING",
-                          "pdfStatus":  "VERIFICATION-PENDING",
-                          "basis":  "Live website, media, and PDF completeness audit is not yet approved.",
-                          "expectedRelevantProducts":  null
-                      },
-                      {
-                          "supplier":  "richersons",
-                          "status":  "VERIFICATION-PENDING",
-                          "websiteStatus":  "VERIFICATION-PENDING",
-                          "mediaStatus":  "VERIFICATION-PENDING",
-                          "pdfStatus":  "VERIFICATION-PENDING",
-                          "basis":  "Live website, media, and PDF completeness audit is not yet approved.",
-                          "expectedRelevantProducts":  null
-                      },
-                      {
-                          "supplier":  "oceanview",
-                          "status":  "VERIFICATION-PENDING",
-                          "websiteStatus":  "VERIFICATION-PENDING",
-                          "mediaStatus":  "VERIFICATION-PENDING",
-                          "pdfStatus":  "VERIFICATION-PENDING",
-                          "basis":  "Live website, media, and PDF completeness audit is not yet approved.",
-                          "expectedRelevantProducts":  null
-                      },
-                      {
-                          "supplier":  "vista",
-                          "status":  "VERIFICATION-PENDING",
-                          "websiteStatus":  "VERIFICATION-PENDING",
-                          "mediaStatus":  "VERIFICATION-PENDING",
-                          "pdfStatus":  "VERIFICATION-PENDING",
-                          "basis":  "Live website, media, and PDF completeness audit is not yet approved.",
-                          "expectedRelevantProducts":  null
-                      }
-                  ]
+  "suppliers": [
+    {
+      "supplier": "vinyl-pro",
+      "status": "VERIFIED",
+      "websiteStatus": "VERIFIED",
+      "mediaStatus": "VERIFIED",
+      "pdfStatus": "VERIFIED",
+      "basis": "Live website, two distinct frame-system catalogues, media relationships, three current documents, page-level PDF extraction/OCR, normalized facts, and representative visuals directly verified 2026-08-20; 16 canonical products, 97 accepted assets, 3 PDFs, 68 PDF pages, and zero uncertain associations.",
+      "expectedRelevantProducts": 16
+    },
+    {
+      "supplier": "window-city",
+      "status": "VERIFICATION-PENDING",
+      "websiteStatus": "VERIFICATION-PENDING",
+      "mediaStatus": "VERIFICATION-PENDING",
+      "pdfStatus": "VERIFICATION-PENDING",
+      "basis": "Live website, media, and PDF completeness audit is not yet approved.",
+      "expectedRelevantProducts": null
+    },
+    {
+      "supplier": "masonite",
+      "status": "VERIFIED",
+      "websiteStatus": "VERIFIED",
+      "mediaStatus": "VERIFIED",
+      "pdfStatus": "VERIFIED",
+      "basis": "Exterior PLP scope and Widen media/document provenance directly verified 2026-08-19; 29 canonical products, 47 accepted assets, 19 technical PDFs.",
+      "expectedRelevantProducts": 29
+    },
+    {
+      "supplier": "trimlite",
+      "status": "VERIFIED",
+      "websiteStatus": "VERIFIED",
+      "mediaStatus": "VERIFIED",
+      "pdfStatus": "VERIFIED",
+      "basis": "Website, master-image selection, and product/media association integrity directly verified 2026-08-19; 175 canonical products, 214 accepted assets, 3 brochures, 12 explicit unresolved media records.",
+      "expectedRelevantProducts": 175
+    },
+    {
+      "supplier": "novatech",
+      "status": "VERIFIED",
+      "websiteStatus": "VERIFIED",
+      "mediaStatus": "VERIFIED",
+      "pdfStatus": "VERIFIED-WITH-16-PAGE-EVIDENCE-GAPS",
+      "basis": "Ontario catalogue and Magento product/media relationships directly verified 2026-08-19; 91 canonical products, 895 accepted assets, 30 accepted PDFs. All 30 PDFs are valid and extraction-clean; 16 source-page document relationships lack an independent exact product-name match in extracted PDF text and remain disclosed for review.",
+      "expectedRelevantProducts": 91
+    },
+    {
+      "supplier": "verre-select",
+      "status": "VERIFICATION-PENDING",
+      "websiteStatus": "VERIFICATION-PENDING",
+      "mediaStatus": "VERIFICATION-PENDING",
+      "pdfStatus": "VERIFICATION-PENDING",
+      "basis": "Live website, media, and PDF completeness audit is not yet approved.",
+      "expectedRelevantProducts": null
+    },
+    {
+      "supplier": "mennie-canada",
+      "status": "VERIFICATION-PENDING",
+      "websiteStatus": "VERIFICATION-PENDING",
+      "mediaStatus": "VERIFICATION-PENDING",
+      "pdfStatus": "VERIFICATION-PENDING",
+      "basis": "Live website, media, and PDF completeness audit is not yet approved.",
+      "expectedRelevantProducts": null
+    },
+    {
+      "supplier": "richersons",
+      "status": "VERIFICATION-PENDING",
+      "websiteStatus": "VERIFICATION-PENDING",
+      "mediaStatus": "VERIFICATION-PENDING",
+      "pdfStatus": "VERIFICATION-PENDING",
+      "basis": "Live website, media, and PDF completeness audit is not yet approved.",
+      "expectedRelevantProducts": null
+    },
+    {
+      "supplier": "oceanview",
+      "status": "VERIFICATION-PENDING",
+      "websiteStatus": "VERIFICATION-PENDING",
+      "mediaStatus": "VERIFICATION-PENDING",
+      "pdfStatus": "VERIFICATION-PENDING",
+      "basis": "Live website, media, and PDF completeness audit is not yet approved.",
+      "expectedRelevantProducts": null
+    },
+    {
+      "supplier": "vista",
+      "status": "VERIFICATION-PENDING",
+      "websiteStatus": "VERIFICATION-PENDING",
+      "mediaStatus": "VERIFICATION-PENDING",
+      "pdfStatus": "VERIFICATION-PENDING",
+      "basis": "Live website, media, and PDF completeness audit is not yet approved.",
+      "expectedRelevantProducts": null
+    }
+  ]
 }

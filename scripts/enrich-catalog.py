@@ -12,7 +12,7 @@ CATALOG = ROOT / "src" / "data" / "catalog"
 MANIFESTS = ROOT / "source-media" / "manifests"
 GENERATED_AT = "2026-08-19T23:30:00Z"
 CATEGORY_NAMES = {"windows":"window","entry-doors":"entry door","patio-doors":"patio door","door-glass":"door glass design"}
-FACT_LABELS = {"operatingStyle":"Operating style","productType":"Product type","material":"Material","frameDepth":"Frame depth","glazing":"Glazing","glassConfiguration":"Glass configuration","panelDesign":"Panel design","privacyLevel":"Privacy level","availableWidthsInches":"Available widths","availableSizes":"Available sizes","colours":"Colours/finishes","hardware":"Hardware","screen":"Screen","performance":"Performance","energyStar":"ENERGY STAR information","warranty":"Warranty","style":"Style","type":"Type","designName":"Design name"}
+FACT_LABELS = {"operatingStyle":"Operating style","productType":"Product type","material":"Material","frameDepth":"Frame depth","glazing":"Glazing","glassConfiguration":"Glass configuration","panelDesign":"Panel design","privacyLevel":"Privacy level","availableWidthsInches":"Available widths","availableSizes":"Available sizes","colours":"Colours/finishes","hardware":"Hardware","screen":"Screen","configuration":"Configuration","operation":"Operation","openingGuidance":"Opening guidance","waterPenetrationResistance":"Water penetration resistance","airInfiltrationExfiltration":"Air infiltration/exfiltration","performance":"Performance","energyStar":"ENERGY STAR information","warranty":"Warranty","style":"Style","type":"Type","designName":"Design name"}
 
 def read_json(path: Path) -> Any: return json.loads(path.read_text(encoding="utf-8"))
 def write_json(path: Path, value: Any) -> None: path.write_text(json.dumps(value,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
@@ -32,10 +32,44 @@ def merge_catalog():
             by_id[incoming["id"]]=merged
     return sorted(by_id.values(),key=lambda x:x["id"]),curated_ids
 
+def load_reviewed_facts():
+    by_product = {}
+    source_dir = CATALOG / "supplier-facts"
+    if not source_dir.is_dir():
+        return by_product
+    for path in sorted(source_dir.glob("*.json")):
+        payload = read_json(path)
+        reviewed_at = payload.get("reviewedAt", "1970-01-01") + "T00:00:00Z"
+        for fact_set in payload.get("factSets", []):
+            product_ids = fact_set.get("productIds", [])
+            sources = fact_set.get("sources", [])
+            facts = fact_set.get("facts", {})
+            if not product_ids or not sources or not facts:
+                raise ValueError(f"invalid supplier fact set in {path}")
+            for product_id in product_ids:
+                target = by_product.setdefault(product_id, {})
+                product_sources = []
+                for source in sources:
+                    normalized_source = dict(source)
+                    template = normalized_source.pop("sourceUrlTemplate", None)
+                    if template:
+                        normalized_source["sourceUrl"] = template.format(slug=product_id.split(":", 1)[-1])
+                    normalized_source.setdefault("extractedAt", reviewed_at)
+                    product_sources.append(normalized_source)
+                for key, value in facts.items():
+                    incoming = {"value": value, "sources": product_sources}
+                    existing = target.get(key)
+                    if existing and existing["value"] != value:
+                        raise ValueError(f"conflicting reviewed fact {product_id}.{key} in {path}")
+                    if existing:
+                        incoming["sources"] = existing["sources"] + [source for source in sources if source not in existing["sources"]]
+                    target[key] = incoming
+    return by_product
+
 def load_evidence():
     assets={}; supplier_names={}; links=[]
     for path in sorted(MANIFESTS.glob("*.json")):
-        if path.name=="verified-source-inventory.json": continue
+        if path.name=="verified-source-inventory.json" or path.name.endswith(".discovery.json"): continue
         manifest=read_json(path); supplier=manifest["supplier"]["slug"]; supplier_names[supplier]=manifest["supplier"]["name"]
         for asset in manifest.get("assets",[]): assets[asset["local_path"]]=asset
         for error in manifest.get("errors",[]):
@@ -119,10 +153,10 @@ def held_editorial(editorial, reason):
     return {"status":"incomplete","summary":None,"bestFor":None,"keyFeatures":editorial.get("keyFeatures",[]),"considerations":[reason],"configurationNotes":None,"seoTitle":None,"metaDescription":None,"generatedAt":GENERATED_AT}
 
 def main():
-    products,curated_ids=merge_catalog(); assets,supplier_names,links=load_evidence(); records=[]; by_id={}
+    products,curated_ids=merge_catalog(); assets,supplier_names,links=load_evidence(); reviewed_facts=load_reviewed_facts(); records=[]; by_id={}
     hold_path=CATALOG/"enrichment-holds.json"; holds={item["productId"]:item["reason"] for item in read_json(hold_path).get("holds",[])} if hold_path.is_file() else {}
     for product in products:
-        source=reference(product); normalized=find_explicit_facts(product)
+        source=reference(product); normalized={**find_explicit_facts(product), **reviewed_facts.get(product["id"], {})}
         source_facts={"manufacturer":fact(product["manufacturer"],source),"sourceUrl":fact(product["sourceUrl"],source),"sourceDescription":product.get("sourceDescription"),"modelNumber":fact(product["modelNumber"],source) if product.get("modelNumber") else None,"collection":fact(product["collection"],source) if product.get("collection") else None,"normalized":normalized,"sourceDocuments":asset_references(product,product.get("documents",[]),assets),"sourceMedia":asset_references(product,product.get("media",[]),assets)}
         editorial=build_editorial(product,normalized,supplier_names.get(product["manufacturer"],product["manufacturer"]))
         if product["id"] in holds: editorial=held_editorial(editorial,holds[product["id"]])

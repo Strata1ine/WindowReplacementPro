@@ -1,11 +1,11 @@
 {
   "generatedAt": "2026-08-19T23:30:00Z",
-  "records": 489,
-  "normalizedRecords": 468,
+  "records": 495,
+  "normalizedRecords": 474,
   "editorialDrafts": 201,
-  "editorialIncomplete": 288,
-  "newRecords": 219,
-  "newRetainedDistinct": 219,
+  "editorialIncomplete": 294,
+  "newRecords": 225,
+  "newRetainedDistinct": 225,
   "newEditorialDrafts": 12,
   "staleOrBlockedLinks": {
     "stale": 8,
@@ -69,12 +69,12 @@
       "documents": 0
     },
     "vinyl-pro": {
-      "records": 10,
-      "normalized": 10,
+      "records": 16,
+      "normalized": 16,
       "editorialDrafts": 10,
-      "editorialIncomplete": 0,
-      "media": 0,
-      "documents": 0
+      "editorialIncomplete": 6,
+      "media": 16,
+      "documents": 16
     },
     "vista": {
       "records": 4,

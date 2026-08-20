@@ -302,7 +302,7 @@ def markdown_report(summary: list[dict], matrix: list[dict]) -> str:
         products = by_supplier[item["supplier"]]
         states = Counter(product["completeness"]["state"] for product in products)
         lines += [f"### {item['name']}", "", f"Website: **{item['websiteStatus']}**. Media: **{item['mediaStatus']}**. PDF: **{item['pdfStatus']}**. Canonical supplier products: **{item['canonicalProducts']}**. Merged catalogue records: **{item['mergedUniqueProducts']}**. Accepted assets: **{item['acceptedImageAssets']} images / {item['acceptedDocumentAssets']} PDFs**. Review binaries preserved: **{item['preservedReviewAssets']}**. Product associations: **{item['productsWithProductImage']} image / {item['productsWithDocuments']} document**.", "", f"Completeness states: {', '.join(f'{key}={value}' for key, value in sorted(states.items())) or 'live inventory pending'}.", ""]
-    return "\n".join(lines) + "\n"
+    return "\n".join(lines).rstrip() + "\n"
 
 
 def main() -> int:

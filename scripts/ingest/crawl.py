@@ -24,7 +24,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 from typing import Iterable
 from urllib.error import HTTPError, URLError
-from urllib.parse import parse_qsl, urlencode, urldefrag, urljoin, urlparse, urlunparse
+from urllib.parse import parse_qsl, quote, urlencode, urldefrag, urljoin, urlparse, urlunparse
 from urllib.request import HTTPRedirectHandler, Request, build_opener
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -46,7 +46,7 @@ ROLE_ALIASES = {
     'hero': 'product-hero', 'gallery': 'product-gallery', 'technical': 'technical-drawing',
     'document': 'reference-only', 'embedded-product': 'product-hero', 'product-jsonld': 'product-hero',
 }
-IMAGE_ROLES = {'product-hero', 'product-gallery', 'lifestyle-product', 'technical-drawing', 'profile-section', 'configuration-diagram', 'colour-chart', 'finish-swatch', 'glass-design', 'hardware', 'open-graph-image'}
+IMAGE_ROLES = {'product-hero', 'product-gallery', 'lifestyle-product', 'technical-drawing', 'profile-section', 'configuration-diagram', 'colour-chart', 'interior-option', 'finish-swatch', 'glass-design', 'hardware', 'open-graph-image'}
 DOCUMENT_ROLES = {'brochure', 'specification-sheet', 'installation-guide', 'warranty', 'performance-document', 'catalogue'}
 
 
@@ -65,7 +65,7 @@ def clean_text(value: str | None) -> str:
 
 
 def normalize(url: str, base: str) -> str | None:
-    if re.search(r'[\s{}"<>]', url): return None
+    if re.search(r'[\r\n\t{}"<>]', url): return None
     joined = urldefrag(urljoin(base, url))[0]
     parsed = urlparse(joined)
     if parsed.scheme.lower() not in {'http', 'https'} or not parsed.hostname:
@@ -74,7 +74,7 @@ def normalize(url: str, base: str) -> str | None:
     port = parsed.port
     netloc = hostname if not port or (parsed.scheme == 'http' and port == 80) or (parsed.scheme == 'https' and port == 443) else f'{hostname}:{port}'
     query = urlencode(sorted((key, value) for key, value in parse_qsl(parsed.query, keep_blank_values=True) if not key.lower().startswith('utm_') and key.lower() not in TRACKING_PARAMS))
-    path = re.sub(r'/{2,}', '/', parsed.path or '/')
+    path = quote(re.sub(r'/{2,}', '/', parsed.path or '/'), safe="/%:@!$&'()*+,;=-._~")
     return urlunparse((parsed.scheme.lower(), netloc, path, '', query, ''))
 
 
@@ -95,6 +95,13 @@ def page_allowed(url: str, cfg: dict) -> bool:
     if prefixes and not any(path.startswith(prefix) for prefix in prefixes): return False
     patterns = cfg.get('allowed_path_patterns', [])
     return not patterns or any(re.search(pattern, path, re.I) for pattern in patterns)
+
+
+def raw_link_allowed(url: str, cfg: dict) -> bool:
+    value = html.unescape(url).strip()
+    if not value:
+        return False
+    return not any(re.fullmatch(pattern, value, re.I) for pattern in cfg.get('reject_raw_link_patterns', []))
 
 
 class SafeRedirectHandler(HTTPRedirectHandler):
@@ -194,9 +201,10 @@ def wordpress_master_candidate(attributes: dict, linked_url: str | None = None) 
     return selected
 
 class PageParser(HTMLParser):
-    def __init__(self, asset_role_rules: list[dict] | None = None):
+    def __init__(self, asset_role_rules: list[dict] | None = None, excluded_media_region_patterns: list[str] | None = None):
         super().__init__(convert_charrefs=True)
         self.asset_role_rules = asset_role_rules or []
+        self.excluded_media_region_patterns = excluded_media_region_patterns or []
         self.links: list[str] = []
         self.link_titles: dict[str, str] = {}
         self.media: list[tuple[str, str, str]] = []
@@ -224,7 +232,7 @@ class PageParser(HTMLParser):
             'up-sells', 'upsells', 'cross-sell', 'crosssell', 'related products', 'related-products',
             'recommendation', 'recommendations', 'recommended-products', 'you-may-also-like', 'you may also like',
             'footer-slider', 'footer slider', 'category-thumbnail', 'collection-navigation',
-        ))
+        )) or any(re.search(pattern, region_descriptor, re.I) for pattern in self.excluded_media_region_patterns)
         primary_region = not excluded_region and (parent_primary or any(marker in region_descriptor for marker in (
             'woocommerce-product-gallery', 'avada-single-product-gallery', 'product-gallery__wrapper',
         )))
@@ -540,7 +548,7 @@ def refresh_page_asset_candidates(page: Page, cfg: dict, asset_domains: set[str]
     snapshot = ROOT / page.snapshot
     if not snapshot.is_file() or snapshot.suffix.lower() == '.json':
         return
-    parser = PageParser(cfg.get('asset_role_rules'))
+    parser = PageParser(cfg.get('asset_role_rules'), cfg.get('excluded_media_region_patterns'))
     parser.feed(snapshot.read_text(encoding='utf-8'))
     discovered_assets = list(parser.media)
     if cfg.get('trust_structured_product_images', True):
@@ -706,6 +714,9 @@ def reconcile_asset_tasks(tasks: list[AssetTask], assets: dict[str, Asset]) -> t
             continue
         if validate_asset_binary(asset):
             hydrate_asset_metadata(asset)
+            current_role = explicit_role(asset.role)
+            planned_role = explicit_role(task.role)
+            asset.role = planned_role if current_role == 'reference-only' and planned_role != 'reference-only' else current_role
             task.status = 'validated'; task.error = None; task.asset_url = asset.original_asset_url; task.validated_at = now
         else:
             invalid_urls.extend(asset.source_asset_urls or [asset.original_asset_url])
@@ -714,7 +725,7 @@ def reconcile_asset_tasks(tasks: list[AssetTask], assets: dict[str, Asset]) -> t
 
 
 def fair_asset_candidates(groups: dict[str, list[dict]], max_assets: int) -> list[dict]:
-    priority = {'product-hero': 0, 'open-graph-image': 1, 'technical-drawing': 1, 'profile-section': 1, 'configuration-diagram': 1, 'specification-sheet': 2, 'installation-guide': 2, 'warranty': 2, 'performance-document': 2, 'brochure': 3, 'catalogue': 3, 'product-gallery': 4, 'lifestyle-product': 5, 'finish-swatch': 5, 'colour-chart': 5, 'glass-design': 5, 'hardware': 5, 'reference-only': 6}
+    priority = {'product-hero': 0, 'open-graph-image': 1, 'technical-drawing': 1, 'profile-section': 1, 'configuration-diagram': 1, 'interior-option': 5, 'specification-sheet': 2, 'installation-guide': 2, 'warranty': 2, 'performance-document': 2, 'brochure': 3, 'catalogue': 3, 'product-gallery': 4, 'lifestyle-product': 5, 'finish-swatch': 5, 'colour-chart': 5, 'glass-design': 5, 'hardware': 5, 'reference-only': 6}
     queues = {key: sorted(items, key=lambda item: (item.get('association_rank', 9), priority.get(item['role'], 4), item['order'], item['url'])) for key, items in groups.items()}
     selected: list[dict] = []; selected_indexes: dict[str, int] = {}
     while len(selected) < max_assets and any(queues.values()):
@@ -737,7 +748,7 @@ def public_path(local_path: str) -> Path:
 
 def promote_referenced_assets(assets: dict[str, Asset], products: list[dict], pages: list[Page]) -> dict[str, Asset]:
     referenced = {path for product in products for path in [*product.get('media', []), *product.get('documents', [])]}
-    shared_roles = DOCUMENT_ROLES | {'colour-chart', 'technical-drawing', 'profile-section', 'configuration-diagram', 'finish-swatch', 'glass-design', 'hardware'}
+    shared_roles = DOCUMENT_ROLES | {'colour-chart', 'technical-drawing', 'profile-section', 'configuration-diagram', 'interior-option', 'finish-swatch', 'glass-design', 'hardware'}
     accepted = {url: asset for url, asset in assets.items() if asset.local_path in referenced or (asset.scope in {'collection', 'supplier'} and asset.role in shared_roles)}
     accepted_paths = {asset.local_path for asset in accepted.values()}
     replacements: dict[str, str] = {}
@@ -819,8 +830,31 @@ def enforce_filename_owner_precedence(assets: dict[str, Asset], products: list[d
                 product['documents'] = [path for path in product.get('documents', []) if path != local_path]
 
 
+def apply_document_relationship_rules(assets: dict[str, Asset], products: list[dict], rules: list[dict] | None = None) -> None:
+    """Apply reviewed supplier document-to-product mappings after heuristic association."""
+    if not rules:
+        return
+    products_by_id = {product['id']: product for product in products}
+    for asset in assets.values():
+        if asset.asset_type != 'document':
+            continue
+        urls = {asset.original_asset_url, asset.final_asset_url, *(asset.source_asset_urls or [])}
+        matching = [rule for rule in rules if any(re.search(pattern, url, re.I) for pattern in rule.get('patterns', []) for url in urls)]
+        if not matching:
+            continue
+        configured_ids = {product_id for rule in matching for product_id in rule.get('product_ids', [])}
+        unknown = configured_ids - products_by_id.keys()
+        if unknown:
+            raise ValueError(f'document relationship rule references unknown products: {sorted(unknown)}')
+        for product in products:
+            product['documents'] = [path for path in product.get('documents', []) if path != asset.local_path]
+        for product_id in sorted(configured_ids):
+            product = products_by_id[product_id]
+            product['documents'] = sorted(set(product.get('documents', [])) | {asset.local_path})
+        asset.relationship_evidence = sorted(set(asset.relationship_evidence + ['supplier-scoped-document-map']))
+
 def associate_assets(assets: dict[str, Asset], products: list[dict]) -> None:
-    shared_roles = DOCUMENT_ROLES | {'colour-chart', 'technical-drawing', 'profile-section', 'configuration-diagram', 'finish-swatch', 'glass-design', 'hardware'}
+    shared_roles = DOCUMENT_ROLES | {'colour-chart', 'technical-drawing', 'profile-section', 'configuration-diagram', 'interior-option', 'finish-swatch', 'glass-design', 'hardware'}
     for asset in assets.values():
         related = [product for product in products if asset.local_path in product.get('media', []) + product.get('documents', [])]
         asset.product_ids = sorted({product['id'] for product in related})
@@ -860,6 +894,13 @@ def write_supplier_archive(slug: str, assets: dict[str, Asset]) -> None:
             'bytes': asset.bytes,
             'discoveredAt': asset.discovered_at,
             'assetType': asset.asset_type,
+            'relationshipState': asset.relationship_state,
+            'relationshipEvidence': asset.relationship_evidence,
+            'masterUrl': asset.master_asset_url,
+            'selectedUrl': asset.selected_asset_url,
+            'mimeType': asset.mime_type,
+            'width': asset.width,
+            'height': asset.height,
         }
         records.append(record)
         if asset.asset_type == 'document': documents.append(record)
@@ -881,7 +922,7 @@ def attach_available_asset_occurrences(pages: list[Page], asset_aliases: dict[st
 IDENTITY_STOPWORDS = {
     'black', 'clear', 'decorative', 'design', 'door', 'doorlite', 'doors', 'exterior', 'fiberglass',
     'finish', 'glass', 'grain', 'impact', 'insert', 'interior', 'lite', 'panel', 'panels', 'product',
-    'series', 'sidelite', 'skin', 'smooth', 'straight', 'traditional', 'trimlite', 'white', 'wood',
+    'series', 'sidelite', 'skin', 'smooth', 'straight', 'traditional', 'trimlite', 'white', 'window', 'windows', 'wood',
 }
 
 
@@ -915,7 +956,7 @@ def asset_identity_match(asset: Asset, product_keys: set[str]) -> bool:
     return urls_identity_match(set([asset.original_asset_url, asset.final_asset_url, *(asset.source_asset_urls or [])]), product_keys)
 
 
-def product_asset_paths(page: Page, assets: dict[str, Asset], attach_page_roles: list[str] | None = None, product_identity: Iterable[str | None] | None = None, trust_structured_images: bool = True) -> tuple[list[str], list[str]]:
+def product_asset_paths(page: Page, assets: dict[str, Asset], attach_page_roles: list[str] | None = None, product_identity: Iterable[str | None] | None = None, trust_structured_images: bool = True, trust_product_open_graph: bool = False) -> tuple[list[str], list[str]]:
     page_slug = Path(urlparse(page.url).path.rstrip('/')).stem
     product_keys = identity_keys([page_slug, page.product_data.get('modelNumber'), *(product_identity or [])])
     images: list[str] = []; documents: list[str] = []
@@ -925,6 +966,7 @@ def product_asset_paths(page: Page, assets: dict[str, Asset], attach_page_roles:
     first_hero_order = min((item.get('order', 0) for item in hero_candidates), default=None)
     primary_hero_urls = {item['url'] for item in hero_candidates if item.get('order', 0) == first_hero_order}
     primary_gallery_urls = {item['url'] for item in page.asset_candidates if explicit_role(item.get('role')) == 'product-gallery'}
+    product_open_graph_urls = {item['url'] for item in page.asset_candidates if explicit_role(item.get('role')) == 'open-graph-image'} if trust_product_open_graph else set()
     structured_urls = {normalize(url, page.url) for url in page.product_data.get('images', []) if normalize(url, page.url)} if trust_structured_images else set()
     for local_path in page.assets:
         asset = by_local_path.get(local_path)
@@ -933,14 +975,16 @@ def product_asset_paths(page: Page, assets: dict[str, Asset], attach_page_roles:
         filename_match = asset_identity_match(asset, product_keys)
         primary_hero = bool(asset_urls & primary_hero_urls)
         primary_gallery = bool(asset_urls & primary_gallery_urls)
+        product_open_graph = bool(asset_urls & product_open_graph_urls)
         structured_match = bool(asset_urls & structured_urls)
-        shared_role = asset.role in DOCUMENT_ROLES | {'technical-drawing', 'profile-section', 'configuration-diagram', 'colour-chart', 'finish-swatch', 'glass-design', 'hardware'}
+        shared_role = asset.role in DOCUMENT_ROLES | {'technical-drawing', 'profile-section', 'configuration-diagram', 'colour-chart', 'interior-option', 'finish-swatch', 'glass-design', 'hardware'}
         structured_conflict = bool(structured_urls and (primary_hero or primary_gallery) and not structured_match and not filename_match and not shared_role)
-        specific = filename_match or primary_hero or primary_gallery or structured_match or asset.role in attach_roles or (asset.asset_type == 'document' and shared_role)
+        specific = filename_match or primary_hero or primary_gallery or product_open_graph or structured_match or asset.role in attach_roles or (asset.asset_type == 'document' and shared_role)
         if not specific or structured_conflict: continue
         if filename_match: asset.relationship_evidence.append('filename-model-match')
         if primary_hero: asset.relationship_evidence.append('primary-product-hero')
         if primary_gallery: asset.relationship_evidence.append('primary-product-gallery')
+        if product_open_graph: asset.relationship_evidence.append('product-page-open-graph')
         if structured_match: asset.relationship_evidence.append('structured-product-image')
         if asset.role in attach_roles: asset.relationship_evidence.append('supplier-scoped-explicit-role')
         asset.relationship_evidence = sorted(set(asset.relationship_evidence))
@@ -1035,7 +1079,7 @@ def crawl_supplier(cfg: dict, args) -> tuple[dict, bool]:
             checkpoint(checkpoint_path, queue, queued, seen_requests, seen_canonical, pages, assets, errors, run_id)
             continue
         text = decode_html(response.body, response.charset)
-        parser = PageParser(cfg.get('asset_role_rules'))
+        parser = PageParser(cfg.get('asset_role_rules'), cfg.get('excluded_media_region_patterns'))
         api_products = []
         if response.content_type == 'application/json':
             try: api_products = api_json_products(json.loads(text), cfg)
@@ -1065,6 +1109,7 @@ def crawl_supplier(cfg: dict, args) -> tuple[dict, bool]:
         page_assets: list[str] = []
         discovered_assets = list(parser.media)
         for href in parser.links:
+            if not raw_link_allowed(href, cfg): continue
             link_candidate = normalize(href, final_url)
             if not link_candidate: continue
             is_configured_product_link = any(re.fullmatch(rule, urlparse(link_candidate).path, re.I) for rule in cfg.get('product_path_rules', []))
@@ -1247,11 +1292,12 @@ def crawl_supplier(cfg: dict, args) -> tuple[dict, bool]:
         if product_id in ids or route in routes:
             structural_errors.append({'url': page.url, 'error': f'duplicate product identity {product_id}'}); continue
         ids.add(product_id); routes.add(route)
-        media, documents = product_asset_paths(page, assets, cfg.get('attach_page_roles'), [product_slug, model_number, name], cfg.get('trust_structured_product_images', True))
+        media, documents = product_asset_paths(page, assets, cfg.get('attach_page_roles'), [product_slug, model_number, name], cfg.get('trust_structured_product_images', True), cfg.get('trust_product_open_graph_images', False))
         products.append({'id': product_id, 'manufacturer': slug, 'slug': product_slug, 'name': name, 'category': identity.get('category') or page.category, 'collection': identity.get('collection'), 'modelNumber': model_number, 'type': identity.get('type'), 'summary': None, 'sourceDescription': page.product_data.get('description') or page.description or None, 'sourceUrl': page.url, 'sourceType': 'live-crawl', 'media': media, 'documents': documents, 'specifications': page.product_data.get('specifications', {}), 'lastVerified': time.strftime('%Y-%m-%d')})
     errors.extend(structural_errors)
     enforce_filename_owner_precedence(assets, products)
     enforce_wordpress_master_precedence(assets, products)
+    apply_document_relationship_rules(assets, products, cfg.get('document_product_rules'))
     associate_assets(assets, products)
     for product in products: product.pop('_associationPageUrl', None)
     if args.plan_only:

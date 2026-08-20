@@ -6,11 +6,92 @@
     "allowed_domains": ["vinyl-pro.ca", "www.vinyl-pro.ca"],
     "start_urls": ["https://www.vinyl-pro.ca/"],
     "product_hints": ["/awning", "/casement", "/slider", "/hung", "/picture", "/fixed"],
-    "product_path_rules": ["^/windows/(?:awning|casement|fixed-casement|picture-window|single-hung|single-slider|end-vent-slider|double-hung|double-slider|4-9-16-casement)/?$"],
+    "product_path_rules": ["^/windows/(?:awning|casement|fixed-casement|picture-window|single-hung|single-slider|end-vent-slider|double-hung|double-slider|4-9-16-(?:awning|casement|fixed-casement|picture-window|single-hung|single-slider|end-vent-slider))/?$"],
     "name_from_path": true,
     "product_identity_rules": [
-      {"path_pattern": "^/windows/4-9-16-casement/?$", "slug": "4-9-16-casement", "name": "4 9/16 Casement", "type": "Casement"}
+      {"path_pattern": "^/windows/casement/?$", "slug": "casement", "name": "3 1/4 Casement", "collection": "3 1/4 Window System", "type": "Casement"},
+      {"path_pattern": "^/windows/awning/?$", "slug": "awning", "name": "3 1/4 Awning", "collection": "3 1/4 Window System", "type": "Awning"},
+      {"path_pattern": "^/windows/fixed-casement/?$", "slug": "fixed-casement", "name": "3 1/4 Fixed Casement", "collection": "3 1/4 Window System", "type": "Fixed Casement"},
+      {"path_pattern": "^/windows/picture-window/?$", "slug": "picture-window", "name": "3 1/4 Picture Window", "collection": "3 1/4 Window System", "type": "Picture Window"},
+      {"path_pattern": "^/windows/single-hung/?$", "slug": "single-hung", "name": "3 1/4 Single Hung", "collection": "3 1/4 Window System", "type": "Single Hung"},
+      {"path_pattern": "^/windows/single-slider/?$", "slug": "single-slider", "name": "3 1/4 Single Slider", "collection": "3 1/4 Window System", "type": "Single Slider"},
+      {"path_pattern": "^/windows/end-vent-slider/?$", "slug": "end-vent-slider", "name": "3 1/4 End Vent Slider", "collection": "3 1/4 Window System", "type": "End Vent Slider"},
+      {"path_pattern": "^/windows/double-hung/?$", "slug": "double-hung", "name": "3 1/4 Double Hung", "collection": "3 1/4 Window System", "type": "Double Hung"},
+      {"path_pattern": "^/windows/double-slider/?$", "slug": "double-slider", "name": "3 1/4 Double Slider", "collection": "3 1/4 Window System", "type": "Double Slider"},
+      {"path_pattern": "^/windows/4-9-16-casement/?$", "slug": "4-9-16-casement", "name": "4 9/16 Casement", "collection": "4 9/16 Window System", "type": "Casement"},
+      {"path_pattern": "^/windows/4-9-16-awning/?$", "slug": "4-9-16-awning", "name": "4 9/16 Awning", "collection": "4 9/16 Window System", "type": "Awning"},
+      {"path_pattern": "^/windows/4-9-16-fixed-casement/?$", "slug": "4-9-16-fixed-casement", "name": "4 9/16 Fixed Casement", "collection": "4 9/16 Window System", "type": "Fixed Casement"},
+      {"path_pattern": "^/windows/4-9-16-picture-window/?$", "slug": "4-9-16-picture-window", "name": "4 9/16 Picture Window", "collection": "4 9/16 Window System", "type": "Picture Window"},
+      {"path_pattern": "^/windows/4-9-16-single-hung/?$", "slug": "4-9-16-single-hung", "name": "4 9/16 Single Hung", "collection": "4 9/16 Window System", "type": "Single Hung"},
+      {"path_pattern": "^/windows/4-9-16-single-slider/?$", "slug": "4-9-16-single-slider", "name": "4 9/16 Single Slider", "collection": "4 9/16 Window System", "type": "Single Slider"},
+      {"path_pattern": "^/windows/4-9-16-end-vent-slider/?$", "slug": "4-9-16-end-vent-slider", "name": "4 9/16 End Vent Slider", "collection": "4 9/16 Window System", "type": "End Vent Slider"}
     ],
+    "reject_raw_link_patterns": ["^[A-Za-z0-9_-]{11}$"],
+    "excluded_media_region_patterns": ["\\bcards-row\\b"],
+    "trust_product_open_graph_images": true,
+    "asset_role_rules": [
+      {"role": "product-hero", "patterns": ["/core/views/[^/]+/img/windows/.+_00000\\.png(?:\\?|$)"]},
+      {"role": "profile-section", "patterns": ["/img/front-content/detail/.+\\.png(?:\\?|$)"]},
+      {"role": "glass-design", "patterns": ["/img/front-content/(?:gl-img-[1-3]|crd-img-\\d+)\\.webp(?:\\?|$)"]},
+      {"role": "technical-drawing", "patterns": ["/img/front-content/(?:crd-info-|sps-img-)\\d+\\.png(?:\\?|$)"]},
+      {"role": "configuration-diagram", "patterns": ["/img/front-content/sps-(?:window|grid)-\\d+\\.png(?:\\?|$)"]},
+      {"role": "interior-option", "patterns": ["/img/front-content/intr-img-[1-9]\\.webp(?:\\?|$)"]},
+      {"role": "finish-swatch", "patterns": ["/img/front-content/(?:finishes-img-[^/.]+\\.png|intr-img-(?:10|11)\\.webp)(?:\\?|$)"]}
+    ],
+    "document_product_rules": [
+      {
+        "patterns": ["new-brochure-2024-oct-24-single-op\\.pdf(?:\\?|$)"],
+        "product_ids": ["vinyl-pro:casement", "vinyl-pro:awning", "vinyl-pro:fixed-casement", "vinyl-pro:picture-window", "vinyl-pro:single-hung", "vinyl-pro:single-slider", "vinyl-pro:end-vent-slider", "vinyl-pro:double-hung", "vinyl-pro:double-slider"]
+      },
+      {
+        "patterns": ["vinyl-pro-silver-brochure-2021-web\\.pdf(?:\\?|$)"],
+        "product_ids": ["vinyl-pro:4-9-16-casement", "vinyl-pro:4-9-16-awning", "vinyl-pro:4-9-16-fixed-casement", "vinyl-pro:4-9-16-picture-window"]
+      },
+      {
+        "patterns": ["2025-lifetime-warranty-june-4-full-3\\.pdf(?:\\?|$)"],
+        "product_ids": ["vinyl-pro:casement", "vinyl-pro:awning", "vinyl-pro:fixed-casement", "vinyl-pro:picture-window", "vinyl-pro:single-hung", "vinyl-pro:single-slider", "vinyl-pro:end-vent-slider", "vinyl-pro:double-hung", "vinyl-pro:double-slider", "vinyl-pro:4-9-16-casement", "vinyl-pro:4-9-16-awning", "vinyl-pro:4-9-16-fixed-casement", "vinyl-pro:4-9-16-picture-window", "vinyl-pro:4-9-16-single-hung", "vinyl-pro:4-9-16-single-slider", "vinyl-pro:4-9-16-end-vent-slider"]
+      }
+    ],
+    "pdf_evidence_rules": [
+      {
+        "patterns": ["new-brochure-2024-oct-24-single-op-.*\\.pdf$"],
+        "default_product_ids": ["vinyl-pro:casement", "vinyl-pro:awning", "vinyl-pro:fixed-casement", "vinyl-pro:picture-window", "vinyl-pro:single-hung", "vinyl-pro:single-slider", "vinyl-pro:end-vent-slider", "vinyl-pro:double-hung", "vinyl-pro:double-slider"],
+        "exclude_pages": [1, 2, 32, 33, 34, 35, 36],
+        "page_product_ids": {
+          "4": ["vinyl-pro:casement"],
+          "5": ["vinyl-pro:casement"],
+          "6": ["vinyl-pro:casement"],
+          "7": ["vinyl-pro:casement"],
+          "8": ["vinyl-pro:awning"],
+          "9": ["vinyl-pro:awning"],
+          "10": ["vinyl-pro:picture-window"],
+          "11": ["vinyl-pro:fixed-casement"],
+          "12": ["vinyl-pro:single-slider"],
+          "13": ["vinyl-pro:single-hung"],
+          "14": ["vinyl-pro:end-vent-slider"],
+          "15": ["vinyl-pro:double-slider"],
+          "16": ["vinyl-pro:double-hung"],
+          "31": ["vinyl-pro:casement", "vinyl-pro:awning", "vinyl-pro:fixed-casement", "vinyl-pro:picture-window"]
+        }
+      },
+      {
+        "patterns": ["vinyl-pro-silver-brochure-2021-web-.*\\.pdf$"],
+        "default_product_ids": ["vinyl-pro:4-9-16-casement", "vinyl-pro:4-9-16-awning", "vinyl-pro:4-9-16-fixed-casement", "vinyl-pro:4-9-16-picture-window"],
+        "exclude_pages": [1, 2, 24, 25, 26, 27, 28],
+        "page_product_ids": {
+          "5": ["vinyl-pro:4-9-16-casement"],
+          "6": ["vinyl-pro:4-9-16-casement"],
+          "7": ["vinyl-pro:4-9-16-awning"],
+          "8": ["vinyl-pro:4-9-16-fixed-casement", "vinyl-pro:4-9-16-picture-window"]
+        }
+      },
+      {
+        "patterns": ["2025-lifetime-warranty-june-4-full-3-.*\\.pdf$"],
+        "default_product_ids": ["vinyl-pro:casement", "vinyl-pro:awning", "vinyl-pro:fixed-casement", "vinyl-pro:picture-window", "vinyl-pro:single-hung", "vinyl-pro:single-slider", "vinyl-pro:end-vent-slider", "vinyl-pro:double-hung", "vinyl-pro:double-slider", "vinyl-pro:4-9-16-casement", "vinyl-pro:4-9-16-awning", "vinyl-pro:4-9-16-fixed-casement", "vinyl-pro:4-9-16-picture-window", "vinyl-pro:4-9-16-single-hung", "vinyl-pro:4-9-16-single-slider", "vinyl-pro:4-9-16-end-vent-slider"]
+      }
+    ],
+    "attach_page_roles": ["profile-section"],
+    "archive_shared_roles": ["glass-design", "technical-drawing", "configuration-diagram", "interior-option", "finish-swatch"],
     "categories": ["windows"]
   },
   {

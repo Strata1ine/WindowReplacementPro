@@ -3,17 +3,25 @@
     "id": "vinyl-pro:casement",
     "manufacturer": "vinyl-pro",
     "slug": "casement",
-    "name": "Casement",
+    "name": "3 1/4 Casement",
     "category": "windows",
-    "collection": null,
+    "collection": "3 1/4 Window System",
     "modelNumber": null,
-    "type": null,
+    "type": "Casement",
     "summary": null,
     "sourceDescription": "Discover 3 1/4 Casement vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 Casement windows today!",
     "sourceUrl": "https://www.vinyl-pro.ca/windows/casement/",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/vinyl-pro/3-c2-bc-casement-vinyl-packg-ext-f94105144c65.png",
+      "/images/catalog/vinyl-pro/3-c2-bc-casement-wood-extension-int-3bd6e7df7937.png",
+      "/images/catalog/vinyl-pro/casement-1-05b0bac631dc.png",
+      "/images/catalog/vinyl-pro/casement-rgb-color-00000-cb8a0b5befd3.png"
+    ],
+    "documents": [
+      "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+      "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -21,17 +29,23 @@
     "id": "vinyl-pro:awning",
     "manufacturer": "vinyl-pro",
     "slug": "awning",
-    "name": "Awning",
+    "name": "3 1/4 Awning",
     "category": "windows",
-    "collection": null,
+    "collection": "3 1/4 Window System",
     "modelNumber": null,
-    "type": null,
+    "type": "Awning",
     "summary": null,
     "sourceDescription": "Discover 3 1/4 Awning vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 Awning windows today!",
     "sourceUrl": "https://www.vinyl-pro.ca/windows/awning/",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/vinyl-pro/awning-1-316e07cabffa.png",
+      "/images/catalog/vinyl-pro/awning-rgb-color-00000-a71ab0670508.png"
+    ],
+    "documents": [
+      "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+      "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -39,17 +53,25 @@
     "id": "vinyl-pro:fixed-casement",
     "manufacturer": "vinyl-pro",
     "slug": "fixed-casement",
-    "name": "Fixed Casement",
+    "name": "3 1/4 Fixed Casement",
     "category": "windows",
-    "collection": null,
+    "collection": "3 1/4 Window System",
     "modelNumber": null,
-    "type": null,
+    "type": "Fixed Casement",
     "summary": null,
     "sourceDescription": "Discover 3 1/4 Fixed casement vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 Fixed casement windows today!",
     "sourceUrl": "https://www.vinyl-pro.ca/windows/fixed-casement/",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/vinyl-pro/3-c2-bc-high-fix-vinyl-packge-ext-4ac8380ac22f.png",
+      "/images/catalog/vinyl-pro/3-c2-bc-high-fix-wood-extension-int-95fc6cde54f4.png",
+      "/images/catalog/vinyl-pro/fixed-casement-00000-decab7b36200.png",
+      "/images/catalog/vinyl-pro/fixed-casement-d039cceaae1d.png"
+    ],
+    "documents": [
+      "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+      "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -57,17 +79,25 @@
     "id": "vinyl-pro:picture-window",
     "manufacturer": "vinyl-pro",
     "slug": "picture-window",
-    "name": "Picture Window",
+    "name": "3 1/4 Picture Window",
     "category": "windows",
-    "collection": null,
+    "collection": "3 1/4 Window System",
     "modelNumber": null,
-    "type": null,
+    "type": "Picture Window",
     "summary": null,
     "sourceDescription": "Discover 3 1/4 Picture window vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 Picture window windows today!",
     "sourceUrl": "https://www.vinyl-pro.ca/windows/picture-window/",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/vinyl-pro/3-c2-bc-small-fix-vinyl-package-ext-ec3f8e811d06.png",
+      "/images/catalog/vinyl-pro/3-c2-bc-small-fix-wood-extension-ext-d92670882b28.png",
+      "/images/catalog/vinyl-pro/picture-window-00000-9ca42d27dcf0.png",
+      "/images/catalog/vinyl-pro/picture-window-9b36e009dc62.png"
+    ],
+    "documents": [
+      "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+      "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -75,17 +105,23 @@
     "id": "vinyl-pro:single-hung",
     "manufacturer": "vinyl-pro",
     "slug": "single-hung",
-    "name": "Single Hung",
+    "name": "3 1/4 Single Hung",
     "category": "windows",
-    "collection": null,
+    "collection": "3 1/4 Window System",
     "modelNumber": null,
-    "type": null,
+    "type": "Single Hung",
     "summary": null,
     "sourceDescription": "Discover 3 1/4 Single hung vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 Single hung windows today!",
     "sourceUrl": "https://www.vinyl-pro.ca/windows/single-hung/",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/vinyl-pro/single-hung-00000-69168512f6f8.png",
+      "/images/catalog/vinyl-pro/single-hung-1-c632cc0bedbb.png"
+    ],
+    "documents": [
+      "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+      "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -93,17 +129,23 @@
     "id": "vinyl-pro:single-slider",
     "manufacturer": "vinyl-pro",
     "slug": "single-slider",
-    "name": "Single Slider",
+    "name": "3 1/4 Single Slider",
     "category": "windows",
-    "collection": null,
+    "collection": "3 1/4 Window System",
     "modelNumber": null,
-    "type": null,
+    "type": "Single Slider",
     "summary": null,
     "sourceDescription": "Discover 3 1/4 Single slider vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 Single slider windows today!",
     "sourceUrl": "https://www.vinyl-pro.ca/windows/single-slider/",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/vinyl-pro/single-slider-00000-2729d94b5eb2.png",
+      "/images/catalog/vinyl-pro/single-slider-1-69bc8a2b0458.png"
+    ],
+    "documents": [
+      "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+      "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -111,17 +153,23 @@
     "id": "vinyl-pro:end-vent-slider",
     "manufacturer": "vinyl-pro",
     "slug": "end-vent-slider",
-    "name": "End Vent Slider",
+    "name": "3 1/4 End Vent Slider",
     "category": "windows",
-    "collection": null,
+    "collection": "3 1/4 Window System",
     "modelNumber": null,
-    "type": null,
+    "type": "End Vent Slider",
     "summary": null,
     "sourceDescription": "Discover 3 1/4 End vent slider vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 End vent slider windows today!",
     "sourceUrl": "https://www.vinyl-pro.ca/windows/end-vent-slider/",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/vinyl-pro/end-vent-slider-00000-b424ab44b404.png",
+      "/images/catalog/vinyl-pro/end-vent-slider-1-9e36f02c24fc.png"
+    ],
+    "documents": [
+      "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+      "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -129,17 +177,25 @@
     "id": "vinyl-pro:double-hung",
     "manufacturer": "vinyl-pro",
     "slug": "double-hung",
-    "name": "Double Hung",
+    "name": "3 1/4 Double Hung",
     "category": "windows",
-    "collection": null,
+    "collection": "3 1/4 Window System",
     "modelNumber": null,
-    "type": null,
+    "type": "Double Hung",
     "summary": null,
     "sourceDescription": "Discover 3 1/4 Double hung vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 Double hung windows today!",
     "sourceUrl": "https://www.vinyl-pro.ca/windows/double-hung/",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/vinyl-pro/3-c2-bc-d-slider-d-hung-vinyl-packge-int-ca043fe5efcc.png",
+      "/images/catalog/vinyl-pro/3-c2-bc-d-slider-d-hung-wood-extension-int-f1941e146ba0.png",
+      "/images/catalog/vinyl-pro/double-hung-1-90f43b614af3.png",
+      "/images/catalog/vinyl-pro/double-hung-rgb-color-00000-ebb0d4b6299d.png"
+    ],
+    "documents": [
+      "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+      "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -147,17 +203,25 @@
     "id": "vinyl-pro:double-slider",
     "manufacturer": "vinyl-pro",
     "slug": "double-slider",
-    "name": "Double Slider",
+    "name": "3 1/4 Double Slider",
     "category": "windows",
-    "collection": null,
+    "collection": "3 1/4 Window System",
     "modelNumber": null,
-    "type": null,
+    "type": "Double Slider",
     "summary": null,
     "sourceDescription": "Discover 3 1/4 Double slider vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 3 1/4 Double slider windows today!",
     "sourceUrl": "https://www.vinyl-pro.ca/windows/double-slider/",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/vinyl-pro/3-c2-bc-d-slider-d-hung-vinyl-packge-int-ca043fe5efcc.png",
+      "/images/catalog/vinyl-pro/3-c2-bc-d-slider-d-hung-wood-extension-int-f1941e146ba0.png",
+      "/images/catalog/vinyl-pro/double-slider-00000-7bee6e105b03.png",
+      "/images/catalog/vinyl-pro/double-slider-1-3bddd99a8943.png"
+    ],
+    "documents": [
+      "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+      "/documents/catalog/vinyl-pro/new-brochure-2024-oct-24-single-op-282138fd6f12.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   },
@@ -167,15 +231,172 @@
     "slug": "4-9-16-casement",
     "name": "4 9/16 Casement",
     "category": "windows",
-    "collection": null,
+    "collection": "4 9/16 Window System",
     "modelNumber": null,
     "type": "Casement",
     "summary": null,
     "sourceDescription": "Discover 4 9/16 Casement vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 4 9/16 Casement windows today!",
     "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-casement/",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/vinyl-pro/4-916-casement-vinyl-packg-ext-c4d18a6ebd86.png",
+      "/images/catalog/vinyl-pro/4-916-casement-wood-extension-ext-e341cf1b71e2.png",
+      "/images/catalog/vinyl-pro/casement-1-05b0bac631dc.png",
+      "/images/catalog/vinyl-pro/casement-4-209-16-00000-d5e2c7a72173.png"
+    ],
+    "documents": [
+      "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+      "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": "vinyl-pro:4-9-16-awning",
+    "manufacturer": "vinyl-pro",
+    "slug": "4-9-16-awning",
+    "name": "4 9/16 Awning",
+    "category": "windows",
+    "collection": "4 9/16 Window System",
+    "modelNumber": null,
+    "type": "Awning",
+    "summary": null,
+    "sourceDescription": "Discover 4 9/16 Awning vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 4 9/16 Awning windows today!",
+    "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-awning/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/vinyl-pro/awning-1-316e07cabffa.png",
+      "/images/catalog/vinyl-pro/awning-rgb-color-00000-a71ab0670508.png"
+    ],
+    "documents": [
+      "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+      "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": "vinyl-pro:4-9-16-fixed-casement",
+    "manufacturer": "vinyl-pro",
+    "slug": "4-9-16-fixed-casement",
+    "name": "4 9/16 Fixed Casement",
+    "category": "windows",
+    "collection": "4 9/16 Window System",
+    "modelNumber": null,
+    "type": "Fixed Casement",
+    "summary": null,
+    "sourceDescription": "Discover 4 9/16 Fixed casement vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 4 9/16 Fixed casement windows today!",
+    "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-fixed-casement/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/vinyl-pro/4-916-high-fix-vinyl-packg-ext-79592c30b790.png",
+      "/images/catalog/vinyl-pro/4-916-high-fix-window-1-cd7c0252efc2.png",
+      "/images/catalog/vinyl-pro/4-916-high-fix-wood-extension-ext-e3e51f6ff0a6.png"
+    ],
+    "documents": [
+      "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+      "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": "vinyl-pro:4-9-16-picture-window",
+    "manufacturer": "vinyl-pro",
+    "slug": "4-9-16-picture-window",
+    "name": "4 9/16 Picture Window",
+    "category": "windows",
+    "collection": "4 9/16 Window System",
+    "modelNumber": null,
+    "type": "Picture Window",
+    "summary": null,
+    "sourceDescription": "Discover 4 9/16 Picture window vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 4 9/16 Picture window windows today!",
+    "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-picture-window/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/vinyl-pro/4-916-small-fix-vinyl-packg-ext-4579bfb53984.png",
+      "/images/catalog/vinyl-pro/4-916-small-fix-window-1-d981ce42df43.png",
+      "/images/catalog/vinyl-pro/4-916-small-fix-wood-extension-ext-865a8c71cbaf.png"
+    ],
+    "documents": [
+      "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf",
+      "/documents/catalog/vinyl-pro/vinyl-pro-silver-brochure-2021-web-3d424b219424.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": "vinyl-pro:4-9-16-single-hung",
+    "manufacturer": "vinyl-pro",
+    "slug": "4-9-16-single-hung",
+    "name": "4 9/16 Single Hung",
+    "category": "windows",
+    "collection": "4 9/16 Window System",
+    "modelNumber": null,
+    "type": "Single Hung",
+    "summary": null,
+    "sourceDescription": "Discover 4 9/16 Single hung vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 4 9/16 Single hung windows today!",
+    "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-single-hung/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/vinyl-pro/4-916-s-slider-s-hung-vinyl-packg-ext-2f088d7cdda5.png",
+      "/images/catalog/vinyl-pro/4-916-s-slider-s-hung-woodextension-ext-0c6cc64a4bab.png",
+      "/images/catalog/vinyl-pro/single-hung-00000-69168512f6f8.png",
+      "/images/catalog/vinyl-pro/single-hung-1-c632cc0bedbb.png"
+    ],
+    "documents": [
+      "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": "vinyl-pro:4-9-16-single-slider",
+    "manufacturer": "vinyl-pro",
+    "slug": "4-9-16-single-slider",
+    "name": "4 9/16 Single Slider",
+    "category": "windows",
+    "collection": "4 9/16 Window System",
+    "modelNumber": null,
+    "type": "Single Slider",
+    "summary": null,
+    "sourceDescription": "Discover 4 9/16 Single slider vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 4 9/16 Single slider windows today!",
+    "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-single-slider/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/vinyl-pro/4-916-s-slider-s-hung-vinyl-packg-ext-2f088d7cdda5.png",
+      "/images/catalog/vinyl-pro/4-916-s-slider-s-hung-woodextension-ext-0c6cc64a4bab.png",
+      "/images/catalog/vinyl-pro/single-slider-00000-2729d94b5eb2.png",
+      "/images/catalog/vinyl-pro/single-slider-1-69bc8a2b0458.png"
+    ],
+    "documents": [
+      "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-19"
+  },
+  {
+    "id": "vinyl-pro:4-9-16-end-vent-slider",
+    "manufacturer": "vinyl-pro",
+    "slug": "4-9-16-end-vent-slider",
+    "name": "4 9/16 End Vent Slider",
+    "category": "windows",
+    "collection": "4 9/16 Window System",
+    "modelNumber": null,
+    "type": "End Vent Slider",
+    "summary": null,
+    "sourceDescription": "Discover 4 9/16 End vent slider vinyl windows by Vinyl Pro, designed for durability and energy efficiency. Choose from over 100 custom colors and various styles to suit any home. Explore the benefits and options of 4 9/16 End vent slider windows today!",
+    "sourceUrl": "https://www.vinyl-pro.ca/windows/4-9-16-end-vent-slider/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/vinyl-pro/4-916-s-slider-s-hung-vinyl-packg-ext-2f088d7cdda5.png",
+      "/images/catalog/vinyl-pro/4-916-s-slider-s-hung-woodextension-ext-0c6cc64a4bab.png",
+      "/images/catalog/vinyl-pro/end-vent-slider-00000-b424ab44b404.png",
+      "/images/catalog/vinyl-pro/end-vent-slider-1-9e36f02c24fc.png"
+    ],
+    "documents": [
+      "/documents/catalog/vinyl-pro/2025-lifetime-warranty-june-4-full-3-061f5f8bef31.pdf"
+    ],
     "specifications": {},
     "lastVerified": "2026-08-19"
   }

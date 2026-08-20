@@ -747,6 +747,30 @@
     {
       "productId": "trimlite:winslow-decorative-doorlite",
       "reason": "New Trimlite canonical identity and media are supplier-verified, but product-specific specifications and editorial review are incomplete; do not publish."
+    },
+    {
+      "productId": "vinyl-pro:4-9-16-awning",
+      "reason": "New Vinyl-Pro canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "vinyl-pro:4-9-16-fixed-casement",
+      "reason": "New Vinyl-Pro canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "vinyl-pro:4-9-16-picture-window",
+      "reason": "New Vinyl-Pro canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "vinyl-pro:4-9-16-single-hung",
+      "reason": "New Vinyl-Pro canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "vinyl-pro:4-9-16-single-slider",
+      "reason": "New Vinyl-Pro canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "vinyl-pro:4-9-16-end-vent-slider",
+      "reason": "New Vinyl-Pro canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
     }
   ]
 }
