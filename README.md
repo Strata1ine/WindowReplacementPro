@@ -21,7 +21,7 @@ Requires Node.js 22.12.0 or newer and Python 3.10 or newer.
 
 ## Supplier ingestion
 
-The project currently has **270 curated product/model records** verified against the current public supplier sites on 2026-08-19. Those records provide a useful catalog immediately; the live crawler then enriches them with discovered product pages, images and PDFs.
+The frozen ten-supplier source library currently contains **524 live canonical supplier identities** plus separately classified historical, configuration, and source-only records. Supplier crawling is not part of the editorial workflow; acquired evidence is preserved while customer-facing taxonomy and content are developed in independent layers.
 
 ```bash
 npm run ingest
@@ -58,6 +58,9 @@ See `scripts/ingest/README.md` for details.
 - `src/data/catalog/discovered/*.json` — independent last-known-good crawler output per supplier
 - `src/data/catalog-schema.ts` — runtime normalization, deterministic merge and publication rules
 - `src/data/catalog.ts` — automatic catalogue loading and query layer
+- `src/data/editorial/` — controlled customer taxonomy, product-family relationships, editorial workflow states, media/document selections and comparison readiness
+- `src/data/editorial.ts` — typed query entry point for the editorial overlays
+- `audit/editorial/` — taxonomy report and prioritized category content gaps
 - `src/data/locations.ts` — service-area records
 - `src/pages/products/[manufacturer]/[slug].astro` — generated supplier-model pages
 - `public/images/catalog/` — downloaded production media
@@ -67,10 +70,12 @@ See `scripts/ingest/README.md` for details.
 ## Production build
 
 ```bash
+npm run build:taxonomy
+npm run validate:taxonomy
 npm run verify
 ```
 
-`verify` runs Astro diagnostics, catalogue validation, merge/crawler tests and the production build. Deployment must not proceed unless it passes.
+`build:taxonomy` deterministically regenerates the editorial overlays from the frozen catalogue and source manifests. `verify` runs Astro diagnostics, catalogue and taxonomy validation, merge/crawler/taxonomy tests, and the production build. Deployment must not proceed unless it passes.
 
 Cloudflare Pages settings:
 

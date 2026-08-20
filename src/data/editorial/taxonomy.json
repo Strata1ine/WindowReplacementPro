@@ -1,0 +1,180 @@
+{
+  "version": "2026-08-20",
+  "roots": [
+    {
+      "id": "replacement-windows",
+      "label": "Replacement Windows",
+      "sourceCategory": "windows",
+      "children": [
+        "casement-windows",
+        "awning-windows",
+        "single-hung-windows",
+        "double-hung-windows",
+        "single-slider-windows",
+        "double-slider-windows",
+        "end-vent-windows",
+        "picture-windows",
+        "fixed-windows",
+        "bay-windows",
+        "bow-windows",
+        "architectural-custom-windows"
+      ]
+    },
+    {
+      "id": "entry-doors",
+      "label": "Entry Doors",
+      "sourceCategory": "entry-doors",
+      "children": [
+        "fiberglass-entry-doors",
+        "steel-entry-doors",
+        "modern-entry-doors",
+        "contemporary-entry-doors",
+        "traditional-entry-doors",
+        "craftsman-entry-doors",
+        "full-glass-entry-doors",
+        "decorative-glass-entry-doors",
+        "double-entry-doors",
+        "entry-doors-with-sidelites",
+        "entry-doors-with-transoms"
+      ]
+    },
+    {
+      "id": "door-glass",
+      "label": "Door Glass",
+      "sourceCategory": "door-glass",
+      "children": [
+        "modern-door-glass",
+        "decorative-door-glass",
+        "privacy-door-glass",
+        "clear-door-glass",
+        "internal-blinds-door-glass",
+        "venting-door-glass"
+      ]
+    },
+    {
+      "id": "patio-doors",
+      "label": "Patio Doors",
+      "sourceCategory": "patio-doors",
+      "children": [
+        "sliding-patio-doors",
+        "stacking-patio-doors",
+        "pvc-patio-doors",
+        "aluminum-patio-doors",
+        "hybrid-patio-doors",
+        "oversized-patio-doors",
+        "internal-blinds-patio-doors"
+      ]
+    }
+  ],
+  "attributes": [
+    "double-pane",
+    "triple-pane",
+    "energy-efficient",
+    "black-finish",
+    "basement-suitable",
+    "egress-documented",
+    "fiberglass",
+    "steel",
+    "wood",
+    "pvc",
+    "aluminum",
+    "hybrid",
+    "full-glass",
+    "decorative-glass",
+    "sidelite",
+    "transom",
+    "internal-blinds",
+    "venting",
+    "oversized",
+    "privacy-glass",
+    "clear-glass"
+  ],
+  "customerUseCases": [
+    "replacement-project",
+    "controlled-ventilation",
+    "maximum-daylight",
+    "space-saving-operation",
+    "wide-opening",
+    "privacy",
+    "traditional-design",
+    "contemporary-design",
+    "entry-sidelite",
+    "documented-egress",
+    "basement-opening"
+  ],
+  "recordClasses": [
+    "canonical-product",
+    "variant-configuration",
+    "source-only"
+  ],
+  "editorialStates": [
+    "source-only",
+    "facts-ready",
+    "editorial-draft",
+    "editorial-reviewed",
+    "publishable",
+    "published"
+  ],
+  "specificationVocabulary": {
+    "operationType": ["operatingStyle", "operation", "configuration", "productType", "type"],
+    "material": ["material", "frameSash", "surface"],
+    "glazingOptions": ["glazing", "glass", "glassType", "glassComposition", "glassConfiguration", "Glass Details"],
+    "energyPerformance": ["performance", "Energy Efficiency", "airInfiltrationExfiltration", "waterPenetrationResistance"],
+    "colourFinish": ["colours", "colourFinish", "surfaceTexture"],
+    "hardware": ["hardware"],
+    "screen": ["screen"],
+    "frameDepth": ["frameDepth", "frame", "Frame Details"],
+    "availableSizes": ["availableSizes", "availableWidths", "availableWidthsInches", "nominalHeight"],
+    "panelConfiguration": ["configuration", "panelDesign"],
+    "designName": ["designName", "style"],
+    "privacyLevel": ["privacyLevel", "Privacy Rating"],
+    "coreConstruction": ["core", "edgeConstruction", "insulationClaim"],
+    "weatherSealing": ["weatherSealing"],
+    "warranty": ["warranty"],
+    "accessories": ["accessories"],
+    "availability": ["availability"]
+  },
+  "comparisonSchemas": {
+    "replacement-windows": {
+      "fields": ["operationType", "material", "glazingOptions", "energyPerformance", "frameDepth", "availableSizes", "colourFinish", "hardware", "screen", "warranty"],
+      "minimumPopulatedFields": 3
+    },
+    "entry-doors": {
+      "fields": ["material", "panelConfiguration", "glazingOptions", "coreConstruction", "availableSizes", "colourFinish", "hardware", "energyPerformance", "warranty"],
+      "minimumPopulatedFields": 3
+    },
+    "door-glass": {
+      "fields": ["designName", "privacyLevel", "glazingOptions", "availableSizes", "colourFinish", "availability", "warranty"],
+      "minimumPopulatedFields": 3
+    },
+    "patio-doors": {
+      "fields": ["operationType", "material", "panelConfiguration", "glazingOptions", "energyPerformance", "frameDepth", "availableSizes", "colourFinish", "hardware", "screen", "weatherSealing", "warranty", "accessories"],
+      "minimumPopulatedFields": 3
+    }
+  },
+  "writingStandard": {
+    "principles": [
+      "Write from supported supplier facts while using original WindowReplacement.pro language.",
+      "Do not turn an option into a standard feature or infer compatibility across models.",
+      "State limitations, option dependencies, and configuration uncertainty explicitly.",
+      "Prefer practical homeowner distinctions over generic marketing claims.",
+      "Keep source evidence and customer-facing editorial copy in separate fields."
+    ],
+    "summary": {
+      "purpose": "Explain what the specific product is, how it differs, and the evidence-backed decision context.",
+      "wordRange": [60, 130],
+      "prohibited": ["unsupported superlatives", "invented performance claims", "copied supplier marketing", "unverified availability"]
+    },
+    "keyFeatures": {
+      "countRange": [3, 7],
+      "rule": "Each feature must trace to a normalized fact or an explicit canonical identity field."
+    },
+    "bestFor": {
+      "rule": "Describe a supported use case or comparison context, not a universal recommendation."
+    },
+    "considerations": {
+      "rule": "Name configuration limits, missing evidence, maintenance, installation, or ordering checks that materially affect the choice."
+    },
+    "reviewGate": "Only human-reviewed original editorial may advance from editorial-draft to editorial-reviewed, publishable, or published."
+  }
+}

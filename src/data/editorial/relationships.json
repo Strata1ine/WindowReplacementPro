@@ -1,0 +1,4146 @@
+{
+  "generatedAt": "2026-08-20T12:00:00-04:00",
+  "manufacturers": [
+    {
+      "manufacturer": "masonite",
+      "collectionIds": [
+        "masonite:uncollected"
+      ]
+    },
+    {
+      "manufacturer": "mennie-canada",
+      "collectionIds": [
+        "mennie-canada:cherry-grain",
+        "mennie-canada:fir-grain",
+        "mennie-canada:mahogany-grain",
+        "mennie-canada:oak-grain",
+        "mennie-canada:smooth"
+      ]
+    },
+    {
+      "manufacturer": "novatech",
+      "collectionIds": [
+        "novatech:doorglass",
+        "novatech:patio-doors",
+        "novatech:uncollected"
+      ]
+    },
+    {
+      "manufacturer": "oceanview",
+      "collectionIds": [
+        "oceanview:patio-doors"
+      ]
+    },
+    {
+      "manufacturer": "richersons",
+      "collectionIds": [
+        "richersons:craftsman",
+        "richersons:flush-glazed",
+        "richersons:mahogany-woodgrain",
+        "richersons:modern-teak",
+        "richersons:new-products",
+        "richersons:oak-woodgrain",
+        "richersons:smooth-white"
+      ]
+    },
+    {
+      "manufacturer": "trimlite",
+      "collectionIds": [
+        "trimlite:exterior-doors",
+        "trimlite:uncollected"
+      ]
+    },
+    {
+      "manufacturer": "verre-select",
+      "collectionIds": [
+        "verre-select:door-windows",
+        "verre-select:stylized-doorglass",
+        "verre-select:uncollected"
+      ]
+    },
+    {
+      "manufacturer": "vinyl-pro",
+      "collectionIds": [
+        "vinyl-pro:3-1-4-window-system",
+        "vinyl-pro:4-9-16-window-system"
+      ]
+    },
+    {
+      "manufacturer": "vista",
+      "collectionIds": [
+        "vista:patio-doors"
+      ]
+    },
+    {
+      "manufacturer": "window-city",
+      "collectionIds": [
+        "window-city:classic-collection",
+        "window-city:heritage-collection",
+        "window-city:heritage-maximum-collection",
+        "window-city:ultra-patio-door-collection"
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "familyId": "masonite:uncollected",
+      "manufacturer": "masonite",
+      "collection": "Uncollected",
+      "canonicalProductIds": [
+        "masonite:2-panel-1-2-lite",
+        "masonite:2-panel-1-2-lite-steel",
+        "masonite:2-panel-hollister",
+        "masonite:2-panel-hollister-steel",
+        "masonite:3-panel-equal-steel",
+        "masonite:4-lite-equal",
+        "masonite:4-panel-1-4-lite",
+        "masonite:4-panel-1-4-lite-steel",
+        "masonite:6-panel",
+        "masonite:6-panel-steel",
+        "masonite:cheyenne",
+        "masonite:cheyenne-steel",
+        "masonite:flush-1-lite",
+        "masonite:flush-1-lite-steel",
+        "masonite:flush-4-lite-equal-steel",
+        "masonite:flush-5-square-lite",
+        "masonite:flush-5-square-lite-steel",
+        "masonite:full-lite",
+        "masonite:full-lite-steel",
+        "masonite:lincoln-park-1-panel",
+        "masonite:logan-2-panel",
+        "masonite:sierra",
+        "masonite:square-2-panel",
+        "masonite:square-2-panel-steel",
+        "masonite:vistagrande-flush-glazed-1-2-lite",
+        "masonite:vistagrande-flush-glazed-3-4-lite",
+        "masonite:vistagrande-flush-glazed-full-lite",
+        "masonite:winslow-3-panel",
+        "masonite:winslow-flush-glazed-3-panel"
+      ],
+      "variantConfigurationIds": [],
+      "sourceOnlyIds": []
+    },
+    {
+      "familyId": "mennie-canada:cherry-grain",
+      "manufacturer": "mennie-canada",
+      "collection": "Cherry Grain",
+      "canonicalProductIds": [
+        "mennie-canada:st-42"
+      ],
+      "variantConfigurationIds": [],
+      "sourceOnlyIds": []
+    },
+    {
+      "familyId": "mennie-canada:fir-grain",
+      "manufacturer": "mennie-canada",
+      "collection": "Fir Grain",
+      "canonicalProductIds": [
+        "mennie-canada:fir-grain-crf",
+        "mennie-canada:fir-grain-crf-cg",
+        "mennie-canada:fir-grain-crf-sg",
+        "mennie-canada:fir-grain-crfs",
+        "mennie-canada:fir-s1k",
+        "mennie-canada:fir-s2k"
+      ],
+      "variantConfigurationIds": [],
+      "sourceOnlyIds": []
+    },
+    {
+      "familyId": "mennie-canada:mahogany-grain",
+      "manufacturer": "mennie-canada",
+      "collection": "Mahogany Grain",
+      "canonicalProductIds": [
+        "mennie-canada:fg-6l",
+        "mennie-canada:mah-2d",
+        "mennie-canada:mah-2em",
+        "mennie-canada:mah-3pa",
+        "mennie-canada:mah-5l",
+        "mennie-canada:mah-8-gp",
+        "mennie-canada:mah-c3p",
+        "mennie-canada:mah-crf",
+        "mennie-canada:mah-f",
+        "mennie-canada:mah-gp",
+        "mennie-canada:mah-gr1",
+        "mennie-canada:mah-gr10",
+        "mennie-canada:mah-gr11",
+        "mennie-canada:mah-gr12",
+        "mennie-canada:mah-gr13",
+        "mennie-canada:mah-gr14",
+        "mennie-canada:mah-gr15",
+        "mennie-canada:mah-gr2",
+        "mennie-canada:mah-gr3",
+        "mennie-canada:mah-gr4",
+        "mennie-canada:mah-gr5",
+        "mennie-canada:mah-gr6",
+        "mennie-canada:mah-gr7",
+        "mennie-canada:mah-gr8",
+        "mennie-canada:mah-gr9",
+        "mennie-canada:mah-rp",
+        "mennie-canada:mah-ss1",
+        "mennie-canada:mah-ss10",
+        "mennie-canada:mah-ss2",
+        "mennie-canada:mah-ss3",
+        "mennie-canada:mah-ss4",
+        "mennie-canada:mah-ss5",
+        "mennie-canada:mah-ss6",
+        "mennie-canada:mah-ss7",
+        "mennie-canada:mah-ss8",
+        "mennie-canada:mah-ss9",
+        "mennie-canada:mah8-3q",
+        "mennie-canada:mah8-5l",
+        "mennie-canada:mah8-f",
+        "mennie-canada:mah8-nrp",
+        "mennie-canada:mah8-nrpct",
+        "mennie-canada:mah8-rp",
+        "mennie-canada:mah8-rpct",
+        "mennie-canada:mah8-st-42"
+      ],
+      "variantConfigurationIds": [
+        "mennie-canada:mah-fsl",
+        "mennie-canada:mah-rpsl",
+        "mennie-canada:mah8-fsl",
+        "mennie-canada:mah8-nrpsl"
+      ],
+      "sourceOnlyIds": []
+    },
+    {
+      "familyId": "mennie-canada:oak-grain",
+      "manufacturer": "mennie-canada",
+      "collection": "Oak Grain",
+      "canonicalProductIds": [
+        "mennie-canada:wg-1p",
+        "mennie-canada:wg-2em",
+        "mennie-canada:wg-3pa",
+        "mennie-canada:wg-4pbt",
+        "mennie-canada:wg-6p",
+        "mennie-canada:wg-ctp",
+        "mennie-canada:wg-f",
+        "mennie-canada:wg-rgp",
+        "mennie-canada:wg-syd",
+        "mennie-canada:wg8-2h",
+        "mennie-canada:wg8-3q",
+        "mennie-canada:wg8-6p",
+        "mennie-canada:wg8-f",
+        "mennie-canada:wg8-f-3mm",
+        "mennie-canada:wg8-mxp"
+      ],
+      "variantConfigurationIds": [
+        "mennie-canada:wg-2p-180-sl",
+        "mennie-canada:wg-2psl",
+        "mennie-canada:wg-fsl",
+        "mennie-canada:wg8-2psl",
+        "mennie-canada:wg8-fsl"
+      ],
+      "sourceOnlyIds": []
+    },
+    {
+      "familyId": "mennie-canada:smooth",
+      "manufacturer": "mennie-canada",
+      "collection": "Smooth",
+      "canonicalProductIds": [
+        "mennie-canada:sm-2em",
+        "mennie-canada:sm-2p",
+        "mennie-canada:sm-3pa",
+        "mennie-canada:sm-4pbt",
+        "mennie-canada:sm-5l",
+        "mennie-canada:sm-6p",
+        "mennie-canada:sm-8-crf",
+        "mennie-canada:sm-8-fl-1p-2",
+        "mennie-canada:sm-8-s1k",
+        "mennie-canada:sm-8-s2k",
+        "mennie-canada:sm-bg-1843",
+        "mennie-canada:sm-bg-1864",
+        "mennie-canada:sm-bg-2236-1p",
+        "mennie-canada:sm-bg-2243",
+        "mennie-canada:sm-bg-2248-1p",
+        "mennie-canada:sm-bg-2264",
+        "mennie-canada:sm-cr",
+        "mennie-canada:sm-crf",
+        "mennie-canada:sm-f",
+        "mennie-canada:sm-fl-1p",
+        "mennie-canada:sm-rp",
+        "mennie-canada:sm-s1k",
+        "mennie-canada:sm-s2k",
+        "mennie-canada:sm-ss1",
+        "mennie-canada:sm-ss3",
+        "mennie-canada:sm-ss5",
+        "mennie-canada:sm-ss7",
+        "mennie-canada:sm-ss9",
+        "mennie-canada:sm8-2h",
+        "mennie-canada:sm8-5l",
+        "mennie-canada:sm8-6p",
+        "mennie-canada:sm8-f",
+        "mennie-canada:sm8-gp"
+      ],
+      "variantConfigurationIds": [
+        "mennie-canada:sm-2psl",
+        "mennie-canada:sm-fsl",
+        "mennie-canada:sm8-fsl"
+      ],
+      "sourceOnlyIds": []
+    },
+    {
+      "familyId": "novatech:doorglass",
+      "manufacturer": "novatech",
+      "collection": "Doorglass",
+      "canonicalProductIds": [
+        "novatech:allure",
+        "novatech:alys",
+        "novatech:arima",
+        "novatech:attraction",
+        "novatech:avenue",
+        "novatech:azur",
+        "novatech:balance",
+        "novatech:belmont",
+        "novatech:bistro",
+        "novatech:bolero",
+        "novatech:c-leste",
+        "novatech:cachet",
+        "novatech:cathedrale",
+        "novatech:chanelle",
+        "novatech:chinchilla-glass",
+        "novatech:clarit",
+        "novatech:classic-grille",
+        "novatech:crystal",
+        "novatech:discr-tion",
+        "novatech:distance",
+        "novatech:distinction-grille",
+        "novatech:echo",
+        "novatech:edge",
+        "novatech:elevation",
+        "novatech:emori",
+        "novatech:equation",
+        "novatech:evangeline-ii",
+        "novatech:fluid",
+        "novatech:infinite",
+        "novatech:infinite-black",
+        "novatech:kallima",
+        "novatech:kira",
+        "novatech:liano",
+        "novatech:louisbourg",
+        "novatech:luxe",
+        "novatech:masterline-glass",
+        "novatech:mist",
+        "novatech:mistral",
+        "novatech:mystique",
+        "novatech:nobel",
+        "novatech:nuando",
+        "novatech:opal",
+        "novatech:peak-470",
+        "novatech:pinhead-glass",
+        "novatech:portrait",
+        "novatech:prism",
+        "novatech:pure",
+        "novatech:q550",
+        "novatech:rhythm",
+        "novatech:rubik",
+        "novatech:sandblasted-glass",
+        "novatech:satin",
+        "novatech:screen-glass",
+        "novatech:soft",
+        "novatech:solstice",
+        "novatech:transit",
+        "novatech:verso",
+        "novatech:winchester",
+        "novatech:zen",
+        "novatech:zenith"
+      ],
+      "variantConfigurationIds": [],
+      "sourceOnlyIds": []
+    },
+    {
+      "familyId": "novatech:patio-doors",
+      "manufacturer": "novatech",
+      "collection": "Patio Doors",
+      "canonicalProductIds": [
+        "novatech:2900",
+        "novatech:540",
+        "novatech:550",
+        "novatech:630",
+        "novatech:650",
+        "novatech:buckingham",
+        "novatech:element",
+        "novatech:loft",
+        "novatech:studio",
+        "novatech:urbania",
+        "novatech:victorian"
+      ],
+      "variantConfigurationIds": [],
+      "sourceOnlyIds": []
+    },
+    {
+      "familyId": "novatech:uncollected",
+      "manufacturer": "novatech",
+      "collection": "Uncollected",
+      "canonicalProductIds": [
+        "novatech:2-panel-blank-top",
+        "novatech:2-panel-camber-top-2",
+        "novatech:2-panel-planked-camber-top",
+        "novatech:3-panel-scroll-top",
+        "novatech:4-panneaux-acier",
+        "novatech:6-panneaux-acier-white",
+        "novatech:era",
+        "novatech:inox",
+        "novatech:linea",
+        "novatech:london",
+        "novatech:orleans",
+        "novatech:oso-model",
+        "novatech:soho-entrydoor",
+        "novatech:sydney",
+        "novatech:tao",
+        "novatech:uno",
+        "novatech:vertical-accent",
+        "novatech:vertical-accent-1",
+        "novatech:victoria",
+        "novatech:vog"
+      ],
+      "variantConfigurationIds": [],
+      "sourceOnlyIds": []
+    },
+    {
+      "familyId": "oceanview:patio-doors",
+      "manufacturer": "oceanview",
+      "collection": "Patio Doors",
+      "canonicalProductIds": [
+        "oceanview:armour",
+        "oceanview:essential",
+        "oceanview:premium",
+        "oceanview:premium-plus",
+        "oceanview:ultra-glide"
+      ],
+      "variantConfigurationIds": [],
+      "sourceOnlyIds": []
+    },
+    {
+      "familyId": "richersons:craftsman",
+      "manufacturer": "richersons",
+      "collection": "Craftsman",
+      "canonicalProductIds": [
+        "richersons:fg30",
+        "richersons:fg4h",
+        "richersons:sg30",
+        "richersons:sg3j",
+        "richersons:sg4h",
+        "richersons:wg3j"
+      ],
+      "variantConfigurationIds": [],
+      "sourceOnlyIds": []
+    },
+    {
+      "familyId": "richersons:flush-glazed",
+      "manufacturer": "richersons",
+      "collection": "Flush Glazed",
+      "canonicalProductIds": [
+        "richersons:bk10",
+        "richersons:bk11",
+        "richersons:bk27",
+        "richersons:bk28",
+        "richersons:bw10",
+        "richersons:bw11",
+        "richersons:sg10",
+        "richersons:sg12",
+        "richersons:sg23",
+        "richersons:sg27",
+        "richersons:sg3l",
+        "richersons:sg4l",
+        "richersons:sgnl",
+        "richersons:wg12",
+        "richersons:wg23",
+        "richersons:wg27",
+        "richersons:wgnl"
+      ],
+      "variantConfigurationIds": [],
+      "sourceOnlyIds": []
+    },
+    {
+      "familyId": "richersons:mahogany-woodgrain",
+      "manufacturer": "richersons",
+      "collection": "Mahogany Woodgrain",
+      "canonicalProductIds": [
+        "richersons:ms35",
+        "richersons:rg21",
+        "richersons:rg22",
+        "richersons:rg26"
+      ],
+      "variantConfigurationIds": [],
+      "sourceOnlyIds": []
+    },
+    {
+      "familyId": "richersons:modern-teak",
+      "manufacturer": "richersons",
+      "collection": "Modern Teak",
+      "canonicalProductIds": [
+        "richersons:tg00",
+        "richersons:tg07",
+        "richersons:tg71",
+        "richersons:ts71"
+      ],
+      "variantConfigurationIds": [],
+      "sourceOnlyIds": []
+    },
+    {
+      "familyId": "richersons:new-products",
+      "manufacturer": "richersons",
+      "collection": "New Products",
+      "canonicalProductIds": [
+        "richersons:bw2j",
+        "richersons:bw2js"
+      ],
+      "variantConfigurationIds": [],
+      "sourceOnlyIds": []
+    },
+    {
+      "familyId": "richersons:oak-woodgrain",
+      "manufacturer": "richersons",
+      "collection": "Oak Woodgrain",
+      "canonicalProductIds": [
+        "richersons:wg00",
+        "richersons:wg20",
+        "richersons:wg25",
+        "richersons:wg34",
+        "richersons:wg3b",
+        "richersons:wg46",
+        "richersons:wg48",
+        "richersons:wg49",
+        "richersons:wg66",
+        "richersons:wg68",
+        "richersons:wg91",
+        "richersons:wgf0"
+      ],
+      "variantConfigurationIds": [],
+      "sourceOnlyIds": []
+    },
+    {
+      "familyId": "richersons:smooth-white",
+      "manufacturer": "richersons",
+      "collection": "Smooth White",
+      "canonicalProductIds": [
+        "richersons:sg00",
+        "richersons:sg20",
+        "richersons:sg25",
+        "richersons:sg3b",
+        "richersons:sg46",
+        "richersons:sg48",
+        "richersons:sg49",
+        "richersons:sg66",
+        "richersons:sg68"
+      ],
+      "variantConfigurationIds": [],
+      "sourceOnlyIds": []
+    },
+    {
+      "familyId": "trimlite:exterior-doors",
+      "manufacturer": "trimlite",
+      "collection": "Exterior Doors",
+      "canonicalProductIds": [
+        "trimlite:df22",
+        "trimlite:drb10",
+        "trimlite:drf1k",
+        "trimlite:drf2k",
+        "trimlite:drs1el",
+        "trimlite:drs1k",
+        "trimlite:drs2k"
+      ],
+      "variantConfigurationIds": [],
+      "sourceOnlyIds": []
+    },
+    {
+      "familyId": "trimlite:uncollected",
+      "manufacturer": "trimlite",
+      "collection": "Uncollected",
+      "canonicalProductIds": [
+        "trimlite:2064-ez-lift-clear-internal-venting-doorlite",
+        "trimlite:2080-clear-one-lite-doorlite",
+        "trimlite:2236-clear-2",
+        "trimlite:2236-internal-grid-12l",
+        "trimlite:2236-internal-grid-9-lite",
+        "trimlite:2236-rain-2",
+        "trimlite:2248-clear-2",
+        "trimlite:2248-ez-lift-clear-internal-venting-doorlite",
+        "trimlite:2248-internal-grid-12-lite",
+        "trimlite:2264-clear-2",
+        "trimlite:2264-ez-lift-clear-internal-venting-doorlite",
+        "trimlite:2264-internal-grid-15-lite",
+        "trimlite:2280-internal-grid-18-lite",
+        "trimlite:764-internal-grid-5-lite",
+        "trimlite:adelaide",
+        "trimlite:artisan-2",
+        "trimlite:canterbury",
+        "trimlite:chords",
+        "trimlite:chords-2",
+        "trimlite:clear-2208-2",
+        "trimlite:clear-2210sb-2",
+        "trimlite:clear-2215",
+        "trimlite:clear-2236-2",
+        "trimlite:clear-2264-2",
+        "trimlite:clear-2280-2",
+        "trimlite:clear-2515-one-lite-doorlite",
+        "trimlite:clear-718-one-lite-doorlite",
+        "trimlite:clear-764-2",
+        "trimlite:clear-764-one-lite-doorlite",
+        "trimlite:clear-836-2",
+        "trimlite:clear-848-2",
+        "trimlite:clear-880-2",
+        "trimlite:clear-880-one-lite-doorlite",
+        "trimlite:clear-glass",
+        "trimlite:clear-glass-2",
+        "trimlite:df22-1-lite-douglas-fir-full-lite-exterior-wood-door",
+        "trimlite:diffused-white-laminate-white-lami",
+        "trimlite:diffused-white-laminate-white-lami-2",
+        "trimlite:dra1a80-2",
+        "trimlite:dra1p-2",
+        "trimlite:dra2a-2",
+        "trimlite:dra2b-2",
+        "trimlite:dra2d-2",
+        "trimlite:dra2p80-2",
+        "trimlite:drb10-pre-pigmented-black-smooth-fiberglass-exterior-door",
+        "trimlite:drf1d",
+        "trimlite:drf33-2",
+        "trimlite:drf36-2",
+        "trimlite:drf3c-2",
+        "trimlite:drf3f-3-panel-shaker-2",
+        "trimlite:drf50-5-panel-shaker-2",
+        "trimlite:drg00-2",
+        "trimlite:drg10-2",
+        "trimlite:drg10b-2",
+        "trimlite:drg12-2",
+        "trimlite:drg12b-2",
+        "trimlite:drg20-2",
+        "trimlite:drg29-2",
+        "trimlite:drg40-2",
+        "trimlite:drg41-2",
+        "trimlite:drg49-2",
+        "trimlite:drg60-2",
+        "trimlite:drg63-2",
+        "trimlite:drg6c-2",
+        "trimlite:drm41-36-2",
+        "trimlite:drs00-flush-2",
+        "trimlite:drs10-2",
+        "trimlite:drs10b-mini-blinds-2",
+        "trimlite:drs12-2",
+        "trimlite:drs12b-mini-blinds-2",
+        "trimlite:drs1d",
+        "trimlite:drs1el-brushed-smooth-skin-exterior-fiberglass-door",
+        "trimlite:drs20-smooth-skin-exterior-fiberglass-door",
+        "trimlite:drs29-3-4-2-panels",
+        "trimlite:drs2b-2-panels",
+        "trimlite:drs2d-2-panel-arch-2",
+        "trimlite:drs3c-2",
+        "trimlite:drs3c-3-panel-shaker-door-with-3-lite-patina-decorative-glass",
+        "trimlite:drs3c-3-panel-shaker-door-with-6-lite-patina-decorative-glass",
+        "trimlite:drs3f-3-panel-shaker-2",
+        "trimlite:drs40-4-panel-blank-top-2",
+        "trimlite:drs41-4-panels-2",
+        "trimlite:drs49-3-4-4-panels",
+        "trimlite:drs50-5-panel-shaker-2",
+        "trimlite:drs60-6-panels-2",
+        "trimlite:drs63-6-panel",
+        "trimlite:drs6c-craftsman-2",
+        "trimlite:eastmont-decorative-doorlite",
+        "trimlite:everton",
+        "trimlite:flush-glazed-applied-mullion",
+        "trimlite:granville",
+        "trimlite:hamilton-decorative-doorlite",
+        "trimlite:harlow-2",
+        "trimlite:hollister",
+        "trimlite:internal-blinds-between-glass-2080",
+        "trimlite:internal-blinds-between-glass-2236",
+        "trimlite:internal-blinds-between-glass-2248",
+        "trimlite:internal-blinds-between-glass-2264",
+        "trimlite:internal-blinds-between-glass-2280",
+        "trimlite:internal-blinds-between-glass-764",
+        "trimlite:internal-blinds-between-glass-836",
+        "trimlite:internal-blinds-between-glass-848",
+        "trimlite:lexington",
+        "trimlite:manhattan-decorative-doorlite",
+        "trimlite:miniblind-2064",
+        "trimlite:miniblind-2236-internal-blinds-doorlite",
+        "trimlite:miniblind-764-internal-blinds-doorlite",
+        "trimlite:miniblind-880-internal-blinds-doorlite",
+        "trimlite:mistlite",
+        "trimlite:mistlite-2",
+        "trimlite:modena",
+        "trimlite:narrow-reed",
+        "trimlite:narrow-reed-2",
+        "trimlite:niagara",
+        "trimlite:pemberton-decorative-doorlite",
+        "trimlite:perimeter",
+        "trimlite:princeton-decorative-doorlite",
+        "trimlite:riverton",
+        "trimlite:rooftop",
+        "trimlite:rooftop-2",
+        "trimlite:royston",
+        "trimlite:sable",
+        "trimlite:sable-2",
+        "trimlite:sandblast",
+        "trimlite:sandblast-satin-etch",
+        "trimlite:screen-dot-solution-series-doorlite",
+        "trimlite:sla2b",
+        "trimlite:slf3c-2",
+        "trimlite:slg00-2",
+        "trimlite:slg10-2",
+        "trimlite:slg3e-wood-grain-exterior-fiberglass-door-side-panel",
+        "trimlite:slg49-2",
+        "trimlite:slg60-2",
+        "trimlite:slm3d-2",
+        "trimlite:sls00-flush-sidelite",
+        "trimlite:sls10-2",
+        "trimlite:sls10b-mini-blinds-smooth-skin-exterior-fiberglass-door-sidelite",
+        "trimlite:sls12b-2",
+        "trimlite:sls3c-2",
+        "trimlite:sls3c-2-panel-shaker-sidelite-with-2-lite-patina-decorative-glass",
+        "trimlite:sls49-2",
+        "trimlite:sls60-2",
+        "trimlite:storm-series-impact-880-internal-grid-6-lite",
+        "trimlite:storm-series-impact-artisan",
+        "trimlite:storm-series-impact-clear-2208",
+        "trimlite:storm-series-impact-clear-2215",
+        "trimlite:storm-series-impact-clear-2236",
+        "trimlite:storm-series-impact-clear-2248",
+        "trimlite:storm-series-impact-diffused-white-laminate-dwl",
+        "trimlite:storm-series-impact-double-water",
+        "trimlite:storm-series-impact-internal-blinds-between-glass-880",
+        "trimlite:storm-series-impact-modena",
+        "trimlite:storm-series-impact-perimeter",
+        "trimlite:storm-series-impact-rain",
+        "trimlite:storm-series-impact-royston",
+        "trimlite:storm-series-impact-satin-etch-sandblast",
+        "trimlite:sullivan",
+        "trimlite:traditional-2210sb-2",
+        "trimlite:traditional-2215-3l-2",
+        "trimlite:traditional-2215-6l-2",
+        "trimlite:traditional-2236-internal-grid-doorlite",
+        "trimlite:traditional-2248",
+        "trimlite:traditional-2515-3l-internal-grid-doorlite",
+        "trimlite:traditional-2515-6l-internal-grid-doorlite",
+        "trimlite:traditional-764-internal-grid-doorlite",
+        "trimlite:traditional-836-2",
+        "trimlite:traditional-848-2",
+        "trimlite:tradtional-2064-2",
+        "trimlite:verona",
+        "trimlite:waterton",
+        "trimlite:winslow-decorative-doorlite"
+      ],
+      "variantConfigurationIds": [],
+      "sourceOnlyIds": []
+    },
+    {
+      "familyId": "verre-select:door-windows",
+      "manufacturer": "verre-select",
+      "collection": "Door Windows",
+      "canonicalProductIds": [
+        "verre-select:cadence",
+        "verre-select:cbg",
+        "verre-select:cyndi",
+        "verre-select:fragrance",
+        "verre-select:gabriella",
+        "verre-select:java",
+        "verre-select:naomie",
+        "verre-select:quattro",
+        "verre-select:whistler"
+      ],
+      "variantConfigurationIds": [],
+      "sourceOnlyIds": [
+        "verre-select:canva",
+        "verre-select:karma-opaque",
+        "verre-select:ryu"
+      ]
+    },
+    {
+      "familyId": "verre-select:stylized-doorglass",
+      "manufacturer": "verre-select",
+      "collection": "Stylized Doorglass",
+      "canonicalProductIds": [
+        "verre-select:satine"
+      ],
+      "variantConfigurationIds": [],
+      "sourceOnlyIds": []
+    },
+    {
+      "familyId": "verre-select:uncollected",
+      "manufacturer": "verre-select",
+      "collection": "Uncollected",
+      "canonicalProductIds": [
+        "verre-select:amadeus",
+        "verre-select:crosswalk",
+        "verre-select:dorian",
+        "verre-select:endrick",
+        "verre-select:epic",
+        "verre-select:hs-cre104e-4",
+        "verre-select:hs-cre106e-10",
+        "verre-select:hs-cre106e-5",
+        "verre-select:paris",
+        "verre-select:pixel",
+        "verre-select:renoir",
+        "verre-select:rill",
+        "verre-select:rodin",
+        "verre-select:venus",
+        "verre-select:waterside",
+        "verre-select:wide-reed"
+      ],
+      "variantConfigurationIds": [],
+      "sourceOnlyIds": []
+    },
+    {
+      "familyId": "vinyl-pro:3-1-4-window-system",
+      "manufacturer": "vinyl-pro",
+      "collection": "3 1/4 Window System",
+      "canonicalProductIds": [
+        "vinyl-pro:awning",
+        "vinyl-pro:casement",
+        "vinyl-pro:double-hung",
+        "vinyl-pro:double-slider",
+        "vinyl-pro:end-vent-slider",
+        "vinyl-pro:fixed-casement",
+        "vinyl-pro:picture-window",
+        "vinyl-pro:single-hung",
+        "vinyl-pro:single-slider"
+      ],
+      "variantConfigurationIds": [],
+      "sourceOnlyIds": []
+    },
+    {
+      "familyId": "vinyl-pro:4-9-16-window-system",
+      "manufacturer": "vinyl-pro",
+      "collection": "4 9/16 Window System",
+      "canonicalProductIds": [
+        "vinyl-pro:4-9-16-awning",
+        "vinyl-pro:4-9-16-casement",
+        "vinyl-pro:4-9-16-end-vent-slider",
+        "vinyl-pro:4-9-16-fixed-casement",
+        "vinyl-pro:4-9-16-picture-window",
+        "vinyl-pro:4-9-16-single-hung",
+        "vinyl-pro:4-9-16-single-slider"
+      ],
+      "variantConfigurationIds": [],
+      "sourceOnlyIds": []
+    },
+    {
+      "familyId": "vista:patio-doors",
+      "manufacturer": "vista",
+      "collection": "Patio Doors",
+      "canonicalProductIds": [
+        "vista:amalfi-1-0",
+        "vista:aria-1-0",
+        "vista:capri-3-0",
+        "vista:rimini-2-0"
+      ],
+      "variantConfigurationIds": [],
+      "sourceOnlyIds": []
+    },
+    {
+      "familyId": "window-city:classic-collection",
+      "manufacturer": "window-city",
+      "collection": "Classic Collection",
+      "canonicalProductIds": [
+        "window-city:wc-100",
+        "window-city:wc-125",
+        "window-city:wc-150",
+        "window-city:wc-175",
+        "window-city:wc-200",
+        "window-city:wc-201",
+        "window-city:wc-250",
+        "window-city:wc-251",
+        "window-city:wc-300",
+        "window-city:wc-325",
+        "window-city:wc-350",
+        "window-city:wc-400",
+        "window-city:wc-425",
+        "window-city:wc-450",
+        "window-city:wc-475"
+      ],
+      "variantConfigurationIds": [],
+      "sourceOnlyIds": []
+    },
+    {
+      "familyId": "window-city:heritage-collection",
+      "manufacturer": "window-city",
+      "collection": "Heritage Collection",
+      "canonicalProductIds": [
+        "window-city:hc-101",
+        "window-city:hc-126",
+        "window-city:hc-151",
+        "window-city:hc-176"
+      ],
+      "variantConfigurationIds": [],
+      "sourceOnlyIds": []
+    },
+    {
+      "familyId": "window-city:heritage-maximum-collection",
+      "manufacturer": "window-city",
+      "collection": "Heritage Maximum Collection",
+      "canonicalProductIds": [
+        "window-city:hc-401",
+        "window-city:hc-426",
+        "window-city:hc-451",
+        "window-city:hc-476"
+      ],
+      "variantConfigurationIds": [],
+      "sourceOnlyIds": []
+    },
+    {
+      "familyId": "window-city:ultra-patio-door-collection",
+      "manufacturer": "window-city",
+      "collection": "Ultra Patio Door Collection",
+      "canonicalProductIds": [
+        "window-city:hc-650",
+        "window-city:wc-500"
+      ],
+      "variantConfigurationIds": [],
+      "sourceOnlyIds": []
+    }
+  ],
+  "variantParents": [
+    {
+      "variantId": "mennie-canada:mah-fsl",
+      "parentProductId": "mennie-canada:mah-f",
+      "parentCollectionId": "mennie-canada:mahogany-grain",
+      "relationship": "sidelite-configuration"
+    },
+    {
+      "variantId": "mennie-canada:mah-rpsl",
+      "parentProductId": "mennie-canada:mah-rp",
+      "parentCollectionId": "mennie-canada:mahogany-grain",
+      "relationship": "sidelite-configuration"
+    },
+    {
+      "variantId": "mennie-canada:mah8-fsl",
+      "parentProductId": "mennie-canada:mah8-f",
+      "parentCollectionId": "mennie-canada:mahogany-grain",
+      "relationship": "sidelite-configuration"
+    },
+    {
+      "variantId": "mennie-canada:mah8-nrpsl",
+      "parentProductId": "mennie-canada:mah8-nrp",
+      "parentCollectionId": "mennie-canada:mahogany-grain",
+      "relationship": "sidelite-configuration"
+    },
+    {
+      "variantId": "mennie-canada:sm-2psl",
+      "parentProductId": "mennie-canada:sm-2p",
+      "parentCollectionId": "mennie-canada:smooth",
+      "relationship": "sidelite-configuration"
+    },
+    {
+      "variantId": "mennie-canada:sm-fsl",
+      "parentProductId": "mennie-canada:sm-f",
+      "parentCollectionId": "mennie-canada:smooth",
+      "relationship": "sidelite-configuration"
+    },
+    {
+      "variantId": "mennie-canada:sm8-fsl",
+      "parentProductId": "mennie-canada:sm8-f",
+      "parentCollectionId": "mennie-canada:smooth",
+      "relationship": "sidelite-configuration"
+    },
+    {
+      "variantId": "mennie-canada:wg-2p-180-sl",
+      "parentProductId": null,
+      "parentCollectionId": "mennie-canada:oak-grain",
+      "relationship": "sidelite-configuration"
+    },
+    {
+      "variantId": "mennie-canada:wg-2psl",
+      "parentProductId": null,
+      "parentCollectionId": "mennie-canada:oak-grain",
+      "relationship": "sidelite-configuration"
+    },
+    {
+      "variantId": "mennie-canada:wg-fsl",
+      "parentProductId": "mennie-canada:wg-f",
+      "parentCollectionId": "mennie-canada:oak-grain",
+      "relationship": "sidelite-configuration"
+    },
+    {
+      "variantId": "mennie-canada:wg8-2psl",
+      "parentProductId": null,
+      "parentCollectionId": "mennie-canada:oak-grain",
+      "relationship": "sidelite-configuration"
+    },
+    {
+      "variantId": "mennie-canada:wg8-fsl",
+      "parentProductId": "mennie-canada:wg8-f",
+      "parentCollectionId": "mennie-canada:oak-grain",
+      "relationship": "sidelite-configuration"
+    }
+  ],
+  "relatedProducts": {
+    "masonite:2-panel-1-2-lite": [
+      "masonite:lincoln-park-1-panel",
+      "masonite:logan-2-panel",
+      "masonite:vistagrande-flush-glazed-full-lite",
+      "trimlite:df22"
+    ],
+    "masonite:2-panel-1-2-lite-steel": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:2-panel-hollister",
+      "masonite:4-panel-1-4-lite",
+      "masonite:6-panel"
+    ],
+    "masonite:2-panel-hollister": [
+      "masonite:4-panel-1-4-lite",
+      "masonite:6-panel",
+      "masonite:full-lite",
+      "masonite:square-2-panel"
+    ],
+    "masonite:2-panel-hollister-steel": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:2-panel-hollister",
+      "masonite:4-panel-1-4-lite",
+      "masonite:6-panel"
+    ],
+    "masonite:3-panel-equal-steel": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:2-panel-hollister",
+      "masonite:4-panel-1-4-lite",
+      "masonite:6-panel"
+    ],
+    "masonite:4-lite-equal": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:2-panel-hollister",
+      "masonite:4-panel-1-4-lite",
+      "masonite:6-panel"
+    ],
+    "masonite:4-panel-1-4-lite": [
+      "masonite:2-panel-hollister",
+      "masonite:6-panel",
+      "masonite:full-lite",
+      "masonite:square-2-panel"
+    ],
+    "masonite:4-panel-1-4-lite-steel": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:2-panel-hollister",
+      "masonite:4-panel-1-4-lite",
+      "masonite:6-panel"
+    ],
+    "masonite:6-panel": [
+      "masonite:2-panel-hollister",
+      "masonite:4-panel-1-4-lite",
+      "masonite:full-lite",
+      "masonite:square-2-panel"
+    ],
+    "masonite:6-panel-steel": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:2-panel-hollister",
+      "masonite:4-panel-1-4-lite",
+      "masonite:6-panel"
+    ],
+    "masonite:cheyenne": [
+      "masonite:2-panel-hollister",
+      "masonite:4-panel-1-4-lite",
+      "masonite:6-panel",
+      "masonite:full-lite"
+    ],
+    "masonite:cheyenne-steel": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:2-panel-hollister",
+      "masonite:4-panel-1-4-lite",
+      "masonite:6-panel"
+    ],
+    "masonite:flush-1-lite": [
+      "masonite:full-lite",
+      "masonite:vistagrande-flush-glazed-full-lite",
+      "masonite:2-panel-1-2-lite",
+      "masonite:2-panel-hollister"
+    ],
+    "masonite:flush-1-lite-steel": [
+      "masonite:full-lite",
+      "masonite:vistagrande-flush-glazed-full-lite",
+      "masonite:2-panel-1-2-lite",
+      "masonite:2-panel-hollister"
+    ],
+    "masonite:flush-4-lite-equal-steel": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:2-panel-hollister",
+      "masonite:4-panel-1-4-lite",
+      "masonite:6-panel"
+    ],
+    "masonite:flush-5-square-lite": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:lincoln-park-1-panel",
+      "masonite:logan-2-panel",
+      "masonite:vistagrande-flush-glazed-full-lite"
+    ],
+    "masonite:flush-5-square-lite-steel": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:2-panel-hollister",
+      "masonite:4-panel-1-4-lite",
+      "masonite:6-panel"
+    ],
+    "masonite:full-lite": [
+      "masonite:2-panel-hollister",
+      "masonite:4-panel-1-4-lite",
+      "masonite:6-panel",
+      "masonite:square-2-panel"
+    ],
+    "masonite:full-lite-steel": [
+      "masonite:full-lite",
+      "masonite:vistagrande-flush-glazed-full-lite",
+      "masonite:2-panel-1-2-lite",
+      "masonite:2-panel-hollister"
+    ],
+    "masonite:lincoln-park-1-panel": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:logan-2-panel",
+      "masonite:vistagrande-flush-glazed-full-lite",
+      "trimlite:df22"
+    ],
+    "masonite:logan-2-panel": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:lincoln-park-1-panel",
+      "masonite:vistagrande-flush-glazed-full-lite",
+      "trimlite:df22"
+    ],
+    "masonite:sierra": [
+      "masonite:2-panel-hollister",
+      "masonite:4-panel-1-4-lite",
+      "masonite:6-panel",
+      "masonite:full-lite"
+    ],
+    "masonite:square-2-panel": [
+      "masonite:2-panel-hollister",
+      "masonite:4-panel-1-4-lite",
+      "masonite:6-panel",
+      "masonite:full-lite"
+    ],
+    "masonite:square-2-panel-steel": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:2-panel-hollister",
+      "masonite:4-panel-1-4-lite",
+      "masonite:6-panel"
+    ],
+    "masonite:vistagrande-flush-glazed-1-2-lite": [
+      "masonite:2-panel-hollister",
+      "masonite:4-panel-1-4-lite",
+      "masonite:6-panel",
+      "masonite:full-lite"
+    ],
+    "masonite:vistagrande-flush-glazed-3-4-lite": [
+      "masonite:2-panel-hollister",
+      "masonite:4-panel-1-4-lite",
+      "masonite:6-panel",
+      "masonite:full-lite"
+    ],
+    "masonite:vistagrande-flush-glazed-full-lite": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:lincoln-park-1-panel",
+      "masonite:logan-2-panel",
+      "trimlite:df22"
+    ],
+    "masonite:winslow-3-panel": [
+      "masonite:2-panel-hollister",
+      "masonite:4-panel-1-4-lite",
+      "masonite:6-panel",
+      "masonite:full-lite"
+    ],
+    "masonite:winslow-flush-glazed-3-panel": [
+      "masonite:2-panel-hollister",
+      "masonite:4-panel-1-4-lite",
+      "masonite:6-panel",
+      "masonite:full-lite"
+    ],
+    "mennie-canada:fg-6l": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:fir-grain-crf": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:fir-grain-crf-cg": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:fir-grain-crf-sg": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:fir-grain-crfs": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:fir-s1k": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:fir-s2k": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah-2d": [
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp",
+      "mennie-canada:mah-c3p"
+    ],
+    "mennie-canada:mah-2em": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp",
+      "mennie-canada:mah-c3p"
+    ],
+    "mennie-canada:mah-3pa": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-8-gp",
+      "mennie-canada:mah-c3p"
+    ],
+    "mennie-canada:mah-5l": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah-8-gp": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-c3p"
+    ],
+    "mennie-canada:mah-c3p": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah-crf": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah-f": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah-fsl": [],
+    "mennie-canada:mah-gp": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah-gr1": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah-gr10": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah-gr11": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah-gr12": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah-gr13": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah-gr14": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah-gr15": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah-gr2": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah-gr3": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah-gr4": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah-gr5": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah-gr6": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah-gr7": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah-gr8": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah-gr9": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah-rp": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah-rpsl": [],
+    "mennie-canada:mah-ss1": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah-ss10": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah-ss2": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah-ss3": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah-ss4": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah-ss5": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah-ss6": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah-ss7": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah-ss8": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah-ss9": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah8-3q": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah8-5l": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah8-f": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah8-fsl": [],
+    "mennie-canada:mah8-nrp": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah8-nrpct": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah8-nrpsl": [],
+    "mennie-canada:mah8-rp": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah8-rpct": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:mah8-st-42": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:sm-2em": [
+      "mennie-canada:sm-2p",
+      "mennie-canada:sm-3pa",
+      "mennie-canada:sm-4pbt",
+      "mennie-canada:sm-5l"
+    ],
+    "mennie-canada:sm-2p": [
+      "mennie-canada:sm-2em",
+      "mennie-canada:sm-3pa",
+      "mennie-canada:sm-4pbt",
+      "mennie-canada:sm-5l"
+    ],
+    "mennie-canada:sm-2psl": [],
+    "mennie-canada:sm-3pa": [
+      "mennie-canada:sm-2em",
+      "mennie-canada:sm-2p",
+      "mennie-canada:sm-4pbt",
+      "mennie-canada:sm-5l"
+    ],
+    "mennie-canada:sm-4pbt": [
+      "mennie-canada:sm-2em",
+      "mennie-canada:sm-2p",
+      "mennie-canada:sm-3pa",
+      "mennie-canada:sm-5l"
+    ],
+    "mennie-canada:sm-5l": [
+      "mennie-canada:sm-2em",
+      "mennie-canada:sm-2p",
+      "mennie-canada:sm-3pa",
+      "mennie-canada:sm-4pbt"
+    ],
+    "mennie-canada:sm-6p": [
+      "mennie-canada:sm-2em",
+      "mennie-canada:sm-2p",
+      "mennie-canada:sm-3pa",
+      "mennie-canada:sm-4pbt"
+    ],
+    "mennie-canada:sm-8-crf": [
+      "mennie-canada:sm-2em",
+      "mennie-canada:sm-2p",
+      "mennie-canada:sm-3pa",
+      "mennie-canada:sm-4pbt"
+    ],
+    "mennie-canada:sm-8-fl-1p-2": [
+      "mennie-canada:sm-2em",
+      "mennie-canada:sm-2p",
+      "mennie-canada:sm-3pa",
+      "mennie-canada:sm-4pbt"
+    ],
+    "mennie-canada:sm-8-s1k": [
+      "mennie-canada:sm-2em",
+      "mennie-canada:sm-2p",
+      "mennie-canada:sm-3pa",
+      "mennie-canada:sm-4pbt"
+    ],
+    "mennie-canada:sm-8-s2k": [
+      "mennie-canada:sm-2em",
+      "mennie-canada:sm-2p",
+      "mennie-canada:sm-3pa",
+      "mennie-canada:sm-4pbt"
+    ],
+    "mennie-canada:sm-bg-1843": [
+      "mennie-canada:sm-2em",
+      "mennie-canada:sm-2p",
+      "mennie-canada:sm-3pa",
+      "mennie-canada:sm-4pbt"
+    ],
+    "mennie-canada:sm-bg-1864": [
+      "mennie-canada:sm-2em",
+      "mennie-canada:sm-2p",
+      "mennie-canada:sm-3pa",
+      "mennie-canada:sm-4pbt"
+    ],
+    "mennie-canada:sm-bg-2236-1p": [
+      "mennie-canada:sm-2em",
+      "mennie-canada:sm-2p",
+      "mennie-canada:sm-3pa",
+      "mennie-canada:sm-4pbt"
+    ],
+    "mennie-canada:sm-bg-2243": [
+      "mennie-canada:sm-2em",
+      "mennie-canada:sm-2p",
+      "mennie-canada:sm-3pa",
+      "mennie-canada:sm-4pbt"
+    ],
+    "mennie-canada:sm-bg-2248-1p": [
+      "mennie-canada:sm-2em",
+      "mennie-canada:sm-2p",
+      "mennie-canada:sm-3pa",
+      "mennie-canada:sm-4pbt"
+    ],
+    "mennie-canada:sm-bg-2264": [
+      "mennie-canada:sm-2em",
+      "mennie-canada:sm-2p",
+      "mennie-canada:sm-3pa",
+      "mennie-canada:sm-4pbt"
+    ],
+    "mennie-canada:sm-cr": [
+      "mennie-canada:sm-8-crf",
+      "mennie-canada:sm-2em",
+      "mennie-canada:sm-2p",
+      "mennie-canada:sm-3pa"
+    ],
+    "mennie-canada:sm-crf": [
+      "mennie-canada:sm-2em",
+      "mennie-canada:sm-2p",
+      "mennie-canada:sm-3pa",
+      "mennie-canada:sm-4pbt"
+    ],
+    "mennie-canada:sm-f": [
+      "mennie-canada:sm-2em",
+      "mennie-canada:sm-2p",
+      "mennie-canada:sm-3pa",
+      "mennie-canada:sm-4pbt"
+    ],
+    "mennie-canada:sm-fl-1p": [
+      "mennie-canada:sm-2em",
+      "mennie-canada:sm-2p",
+      "mennie-canada:sm-3pa",
+      "mennie-canada:sm-4pbt"
+    ],
+    "mennie-canada:sm-fsl": [],
+    "mennie-canada:sm-rp": [
+      "mennie-canada:sm-2em",
+      "mennie-canada:sm-2p",
+      "mennie-canada:sm-3pa",
+      "mennie-canada:sm-4pbt"
+    ],
+    "mennie-canada:sm-s1k": [
+      "mennie-canada:sm-2em",
+      "mennie-canada:sm-2p",
+      "mennie-canada:sm-3pa",
+      "mennie-canada:sm-4pbt"
+    ],
+    "mennie-canada:sm-s2k": [
+      "mennie-canada:sm-2em",
+      "mennie-canada:sm-2p",
+      "mennie-canada:sm-3pa",
+      "mennie-canada:sm-4pbt"
+    ],
+    "mennie-canada:sm-ss1": [
+      "mennie-canada:sm-2em",
+      "mennie-canada:sm-2p",
+      "mennie-canada:sm-3pa",
+      "mennie-canada:sm-4pbt"
+    ],
+    "mennie-canada:sm-ss3": [
+      "mennie-canada:sm-2em",
+      "mennie-canada:sm-2p",
+      "mennie-canada:sm-3pa",
+      "mennie-canada:sm-4pbt"
+    ],
+    "mennie-canada:sm-ss5": [
+      "mennie-canada:sm-2em",
+      "mennie-canada:sm-2p",
+      "mennie-canada:sm-3pa",
+      "mennie-canada:sm-4pbt"
+    ],
+    "mennie-canada:sm-ss7": [
+      "mennie-canada:sm-2em",
+      "mennie-canada:sm-2p",
+      "mennie-canada:sm-3pa",
+      "mennie-canada:sm-4pbt"
+    ],
+    "mennie-canada:sm-ss9": [
+      "mennie-canada:sm-2em",
+      "mennie-canada:sm-2p",
+      "mennie-canada:sm-3pa",
+      "mennie-canada:sm-4pbt"
+    ],
+    "mennie-canada:sm8-2h": [
+      "mennie-canada:sm-2em",
+      "mennie-canada:sm-2p",
+      "mennie-canada:sm-3pa",
+      "mennie-canada:sm-4pbt"
+    ],
+    "mennie-canada:sm8-5l": [
+      "mennie-canada:sm-2em",
+      "mennie-canada:sm-2p",
+      "mennie-canada:sm-3pa",
+      "mennie-canada:sm-4pbt"
+    ],
+    "mennie-canada:sm8-6p": [
+      "mennie-canada:sm-2em",
+      "mennie-canada:sm-2p",
+      "mennie-canada:sm-3pa",
+      "mennie-canada:sm-4pbt"
+    ],
+    "mennie-canada:sm8-f": [
+      "mennie-canada:sm-2em",
+      "mennie-canada:sm-2p",
+      "mennie-canada:sm-3pa",
+      "mennie-canada:sm-4pbt"
+    ],
+    "mennie-canada:sm8-fsl": [],
+    "mennie-canada:sm8-gp": [
+      "mennie-canada:sm-2em",
+      "mennie-canada:sm-2p",
+      "mennie-canada:sm-3pa",
+      "mennie-canada:sm-4pbt"
+    ],
+    "mennie-canada:st-42": [
+      "mennie-canada:mah-2d",
+      "mennie-canada:mah-2em",
+      "mennie-canada:mah-3pa",
+      "mennie-canada:mah-8-gp"
+    ],
+    "mennie-canada:wg-1p": [
+      "mennie-canada:wg-2em",
+      "mennie-canada:wg-3pa",
+      "mennie-canada:wg-4pbt",
+      "mennie-canada:wg-6p"
+    ],
+    "mennie-canada:wg-2em": [
+      "mennie-canada:wg-1p",
+      "mennie-canada:wg-3pa",
+      "mennie-canada:wg-4pbt",
+      "mennie-canada:wg-6p"
+    ],
+    "mennie-canada:wg-2p-180-sl": [],
+    "mennie-canada:wg-2psl": [],
+    "mennie-canada:wg-3pa": [
+      "mennie-canada:wg-1p",
+      "mennie-canada:wg-2em",
+      "mennie-canada:wg-4pbt",
+      "mennie-canada:wg-6p"
+    ],
+    "mennie-canada:wg-4pbt": [
+      "mennie-canada:wg-1p",
+      "mennie-canada:wg-2em",
+      "mennie-canada:wg-3pa",
+      "mennie-canada:wg-6p"
+    ],
+    "mennie-canada:wg-6p": [
+      "mennie-canada:wg-1p",
+      "mennie-canada:wg-2em",
+      "mennie-canada:wg-3pa",
+      "mennie-canada:wg-4pbt"
+    ],
+    "mennie-canada:wg-ctp": [
+      "mennie-canada:wg-1p",
+      "mennie-canada:wg-2em",
+      "mennie-canada:wg-3pa",
+      "mennie-canada:wg-4pbt"
+    ],
+    "mennie-canada:wg-f": [
+      "mennie-canada:wg-1p",
+      "mennie-canada:wg-2em",
+      "mennie-canada:wg-3pa",
+      "mennie-canada:wg-4pbt"
+    ],
+    "mennie-canada:wg-fsl": [],
+    "mennie-canada:wg-rgp": [
+      "mennie-canada:wg-1p",
+      "mennie-canada:wg-2em",
+      "mennie-canada:wg-3pa",
+      "mennie-canada:wg-4pbt"
+    ],
+    "mennie-canada:wg-syd": [
+      "mennie-canada:wg-1p",
+      "mennie-canada:wg-2em",
+      "mennie-canada:wg-3pa",
+      "mennie-canada:wg-4pbt"
+    ],
+    "mennie-canada:wg8-2h": [
+      "mennie-canada:wg-1p",
+      "mennie-canada:wg-2em",
+      "mennie-canada:wg-3pa",
+      "mennie-canada:wg-4pbt"
+    ],
+    "mennie-canada:wg8-2psl": [],
+    "mennie-canada:wg8-3q": [
+      "mennie-canada:wg-1p",
+      "mennie-canada:wg-2em",
+      "mennie-canada:wg-3pa",
+      "mennie-canada:wg-4pbt"
+    ],
+    "mennie-canada:wg8-6p": [
+      "mennie-canada:wg-1p",
+      "mennie-canada:wg-2em",
+      "mennie-canada:wg-3pa",
+      "mennie-canada:wg-4pbt"
+    ],
+    "mennie-canada:wg8-f": [
+      "mennie-canada:wg-1p",
+      "mennie-canada:wg-2em",
+      "mennie-canada:wg-3pa",
+      "mennie-canada:wg-4pbt"
+    ],
+    "mennie-canada:wg8-f-3mm": [
+      "mennie-canada:wg-1p",
+      "mennie-canada:wg-2em",
+      "mennie-canada:wg-3pa",
+      "mennie-canada:wg-4pbt"
+    ],
+    "mennie-canada:wg8-fsl": [],
+    "mennie-canada:wg8-mxp": [
+      "mennie-canada:wg-1p",
+      "mennie-canada:wg-2em",
+      "mennie-canada:wg-3pa",
+      "mennie-canada:wg-4pbt"
+    ],
+    "novatech:2-panel-blank-top": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:lincoln-park-1-panel",
+      "masonite:logan-2-panel",
+      "masonite:vistagrande-flush-glazed-full-lite"
+    ],
+    "novatech:2-panel-camber-top-2": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:lincoln-park-1-panel",
+      "masonite:logan-2-panel",
+      "masonite:vistagrande-flush-glazed-full-lite"
+    ],
+    "novatech:2-panel-planked-camber-top": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:lincoln-park-1-panel",
+      "masonite:logan-2-panel",
+      "masonite:vistagrande-flush-glazed-full-lite"
+    ],
+    "novatech:2900": [
+      "novatech:element",
+      "novatech:loft",
+      "novatech:studio",
+      "novatech:urbania"
+    ],
+    "novatech:3-panel-scroll-top": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:lincoln-park-1-panel",
+      "masonite:logan-2-panel",
+      "masonite:vistagrande-flush-glazed-full-lite"
+    ],
+    "novatech:4-panneaux-acier": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:lincoln-park-1-panel",
+      "masonite:logan-2-panel",
+      "masonite:vistagrande-flush-glazed-full-lite"
+    ],
+    "novatech:540": [
+      "novatech:550",
+      "novatech:630",
+      "novatech:650",
+      "novatech:buckingham"
+    ],
+    "novatech:550": [
+      "novatech:element",
+      "novatech:540",
+      "novatech:630",
+      "novatech:650"
+    ],
+    "novatech:6-panneaux-acier-white": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:lincoln-park-1-panel",
+      "masonite:logan-2-panel",
+      "masonite:vistagrande-flush-glazed-full-lite"
+    ],
+    "novatech:630": [
+      "novatech:540",
+      "novatech:550",
+      "novatech:650",
+      "novatech:buckingham"
+    ],
+    "novatech:650": [
+      "novatech:540",
+      "novatech:550",
+      "novatech:630",
+      "novatech:buckingham"
+    ],
+    "novatech:allure": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:alys": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:arima": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:attraction": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:avenue": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:azur": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:balance": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:belmont": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:bistro": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:bolero": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:buckingham": [
+      "novatech:540",
+      "novatech:550",
+      "novatech:630",
+      "novatech:650"
+    ],
+    "novatech:c-leste": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:cachet": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:cathedrale": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:chanelle": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:chinchilla-glass": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:clarit": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:classic-grille": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:crystal": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:discr-tion": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:distance": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:distinction-grille": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:echo": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:edge": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:element": [
+      "novatech:550",
+      "novatech:2900",
+      "novatech:540",
+      "novatech:630"
+    ],
+    "novatech:elevation": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:emori": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:equation": [
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:cadence",
+      "verre-select:cbg"
+    ],
+    "novatech:era": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:lincoln-park-1-panel",
+      "masonite:logan-2-panel",
+      "masonite:vistagrande-flush-glazed-full-lite"
+    ],
+    "novatech:evangeline-ii": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:fluid": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:infinite": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:infinite-black": [
+      "novatech:equation",
+      "novatech:rubik",
+      "verre-select:cadence",
+      "verre-select:cbg"
+    ],
+    "novatech:inox": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:lincoln-park-1-panel",
+      "masonite:logan-2-panel",
+      "masonite:vistagrande-flush-glazed-full-lite"
+    ],
+    "novatech:kallima": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:kira": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:liano": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:linea": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:lincoln-park-1-panel",
+      "masonite:logan-2-panel",
+      "masonite:vistagrande-flush-glazed-full-lite"
+    ],
+    "novatech:loft": [
+      "novatech:2900",
+      "novatech:element",
+      "novatech:studio",
+      "novatech:urbania"
+    ],
+    "novatech:london": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:lincoln-park-1-panel",
+      "masonite:logan-2-panel",
+      "masonite:vistagrande-flush-glazed-full-lite"
+    ],
+    "novatech:louisbourg": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:luxe": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:masterline-glass": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:mist": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:mistral": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:mystique": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:nobel": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:nuando": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:opal": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:orleans": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:lincoln-park-1-panel",
+      "masonite:logan-2-panel",
+      "masonite:vistagrande-flush-glazed-full-lite"
+    ],
+    "novatech:oso-model": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:lincoln-park-1-panel",
+      "masonite:logan-2-panel",
+      "masonite:vistagrande-flush-glazed-full-lite"
+    ],
+    "novatech:peak-470": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:pinhead-glass": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:portrait": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:prism": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:pure": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:q550": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:rhythm": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:rubik": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "verre-select:cadence",
+      "verre-select:cbg"
+    ],
+    "novatech:sandblasted-glass": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:satin": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:cadence"
+    ],
+    "novatech:screen-glass": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:soft": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:soho-entrydoor": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:lincoln-park-1-panel",
+      "masonite:logan-2-panel",
+      "masonite:vistagrande-flush-glazed-full-lite"
+    ],
+    "novatech:solstice": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:studio": [
+      "novatech:2900",
+      "novatech:element",
+      "novatech:loft",
+      "novatech:urbania"
+    ],
+    "novatech:sydney": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:lincoln-park-1-panel",
+      "masonite:logan-2-panel",
+      "masonite:vistagrande-flush-glazed-full-lite"
+    ],
+    "novatech:tao": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:lincoln-park-1-panel",
+      "masonite:logan-2-panel",
+      "masonite:vistagrande-flush-glazed-full-lite"
+    ],
+    "novatech:transit": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:uno": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:lincoln-park-1-panel",
+      "masonite:logan-2-panel",
+      "masonite:vistagrande-flush-glazed-full-lite"
+    ],
+    "novatech:urbania": [
+      "novatech:2900",
+      "novatech:element",
+      "novatech:loft",
+      "novatech:studio"
+    ],
+    "novatech:verso": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:vertical-accent": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:lincoln-park-1-panel",
+      "masonite:logan-2-panel",
+      "masonite:vistagrande-flush-glazed-full-lite"
+    ],
+    "novatech:vertical-accent-1": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:lincoln-park-1-panel",
+      "masonite:logan-2-panel",
+      "masonite:vistagrande-flush-glazed-full-lite"
+    ],
+    "novatech:victoria": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:lincoln-park-1-panel",
+      "masonite:logan-2-panel",
+      "masonite:vistagrande-flush-glazed-full-lite"
+    ],
+    "novatech:victorian": [
+      "novatech:540",
+      "novatech:550",
+      "novatech:630",
+      "novatech:650"
+    ],
+    "novatech:vog": [
+      "masonite:2-panel-1-2-lite",
+      "masonite:lincoln-park-1-panel",
+      "masonite:logan-2-panel",
+      "masonite:vistagrande-flush-glazed-full-lite"
+    ],
+    "novatech:winchester": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:zen": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "novatech:zenith": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "oceanview:armour": [
+      "oceanview:essential",
+      "oceanview:premium",
+      "oceanview:premium-plus",
+      "novatech:2900"
+    ],
+    "oceanview:essential": [
+      "oceanview:premium",
+      "oceanview:premium-plus",
+      "novatech:2900",
+      "novatech:540"
+    ],
+    "oceanview:premium": [
+      "oceanview:premium-plus",
+      "oceanview:essential",
+      "novatech:2900",
+      "novatech:element"
+    ],
+    "oceanview:premium-plus": [
+      "oceanview:premium",
+      "oceanview:essential",
+      "novatech:2900",
+      "novatech:element"
+    ],
+    "oceanview:ultra-glide": [
+      "oceanview:essential",
+      "oceanview:premium",
+      "oceanview:premium-plus",
+      "novatech:2900"
+    ],
+    "richersons:bk10": [
+      "richersons:bk27",
+      "richersons:bk28",
+      "richersons:sg23",
+      "richersons:sg27"
+    ],
+    "richersons:bk11": [
+      "richersons:bk27",
+      "richersons:bk28",
+      "richersons:sg23",
+      "richersons:sg27"
+    ],
+    "richersons:bk27": [
+      "richersons:bk28",
+      "richersons:sg23",
+      "richersons:sg27",
+      "richersons:sg3l"
+    ],
+    "richersons:bk28": [
+      "richersons:bk27",
+      "richersons:sg23",
+      "richersons:sg27",
+      "richersons:sg3l"
+    ],
+    "richersons:bw10": [
+      "richersons:bk27",
+      "richersons:bk28",
+      "richersons:sg23",
+      "richersons:sg27"
+    ],
+    "richersons:bw11": [
+      "richersons:bk27",
+      "richersons:bk28",
+      "richersons:sg23",
+      "richersons:sg27"
+    ],
+    "richersons:bw2j": [
+      "richersons:bk27",
+      "richersons:bk28",
+      "richersons:sg00",
+      "richersons:sg20"
+    ],
+    "richersons:bw2js": [
+      "richersons:bk27",
+      "richersons:bk28",
+      "richersons:sg00",
+      "richersons:sg20"
+    ],
+    "richersons:fg30": [
+      "richersons:bk27",
+      "richersons:bk28",
+      "richersons:sg00",
+      "richersons:sg20"
+    ],
+    "richersons:fg4h": [
+      "richersons:bk27",
+      "richersons:bk28",
+      "richersons:sg00",
+      "richersons:sg20"
+    ],
+    "richersons:ms35": [
+      "richersons:bk27",
+      "richersons:bk28",
+      "richersons:sg00",
+      "richersons:sg20"
+    ],
+    "richersons:rg21": [
+      "richersons:bk27",
+      "richersons:bk28",
+      "richersons:sg00",
+      "richersons:sg20"
+    ],
+    "richersons:rg22": [
+      "richersons:bk27",
+      "richersons:bk28",
+      "richersons:sg00",
+      "richersons:sg20"
+    ],
+    "richersons:rg26": [
+      "richersons:bk27",
+      "richersons:bk28",
+      "richersons:sg00",
+      "richersons:sg20"
+    ],
+    "richersons:sg00": [
+      "richersons:sg20",
+      "richersons:sg25",
+      "richersons:sg3b",
+      "richersons:sg46"
+    ],
+    "richersons:sg10": [
+      "richersons:bk27",
+      "richersons:bk28",
+      "richersons:sg23",
+      "richersons:sg27"
+    ],
+    "richersons:sg12": [
+      "richersons:bk27",
+      "richersons:bk28",
+      "richersons:sg23",
+      "richersons:sg27"
+    ],
+    "richersons:sg20": [
+      "richersons:sg00",
+      "richersons:sg25",
+      "richersons:sg3b",
+      "richersons:sg46"
+    ],
+    "richersons:sg23": [
+      "richersons:bk27",
+      "richersons:bk28",
+      "richersons:sg27",
+      "richersons:sg3l"
+    ],
+    "richersons:sg25": [
+      "richersons:sg00",
+      "richersons:sg20",
+      "richersons:sg3b",
+      "richersons:sg46"
+    ],
+    "richersons:sg27": [
+      "richersons:bk27",
+      "richersons:bk28",
+      "richersons:sg23",
+      "richersons:sg3l"
+    ],
+    "richersons:sg30": [
+      "richersons:bk27",
+      "richersons:bk28",
+      "richersons:sg00",
+      "richersons:sg20"
+    ],
+    "richersons:sg3b": [
+      "richersons:sg00",
+      "richersons:sg20",
+      "richersons:sg25",
+      "richersons:sg46"
+    ],
+    "richersons:sg3j": [
+      "richersons:bk27",
+      "richersons:bk28",
+      "richersons:sg00",
+      "richersons:sg20"
+    ],
+    "richersons:sg3l": [
+      "richersons:bk27",
+      "richersons:bk28",
+      "richersons:sg23",
+      "richersons:sg27"
+    ],
+    "richersons:sg46": [
+      "richersons:sg00",
+      "richersons:sg20",
+      "richersons:sg25",
+      "richersons:sg3b"
+    ],
+    "richersons:sg48": [
+      "richersons:sg00",
+      "richersons:sg20",
+      "richersons:sg25",
+      "richersons:sg3b"
+    ],
+    "richersons:sg49": [
+      "richersons:sg00",
+      "richersons:sg20",
+      "richersons:sg25",
+      "richersons:sg3b"
+    ],
+    "richersons:sg4h": [
+      "richersons:bk27",
+      "richersons:bk28",
+      "richersons:sg00",
+      "richersons:sg20"
+    ],
+    "richersons:sg4l": [
+      "richersons:bk27",
+      "richersons:bk28",
+      "richersons:sg23",
+      "richersons:sg27"
+    ],
+    "richersons:sg66": [
+      "richersons:sg00",
+      "richersons:sg20",
+      "richersons:sg25",
+      "richersons:sg3b"
+    ],
+    "richersons:sg68": [
+      "richersons:sg00",
+      "richersons:sg20",
+      "richersons:sg25",
+      "richersons:sg3b"
+    ],
+    "richersons:sgnl": [
+      "richersons:bk27",
+      "richersons:bk28",
+      "richersons:sg23",
+      "richersons:sg27"
+    ],
+    "richersons:tg00": [
+      "richersons:bk27",
+      "richersons:bk28",
+      "richersons:sg00",
+      "richersons:sg20"
+    ],
+    "richersons:tg07": [
+      "richersons:bk27",
+      "richersons:bk28",
+      "richersons:sg00",
+      "richersons:sg20"
+    ],
+    "richersons:tg71": [
+      "richersons:bk27",
+      "richersons:bk28",
+      "richersons:sg00",
+      "richersons:sg20"
+    ],
+    "richersons:ts71": [
+      "richersons:bk27",
+      "richersons:bk28",
+      "richersons:sg00",
+      "richersons:sg20"
+    ],
+    "richersons:wg00": [
+      "richersons:wg20",
+      "richersons:wg25",
+      "richersons:wg34",
+      "richersons:wg3b"
+    ],
+    "richersons:wg12": [
+      "richersons:bk27",
+      "richersons:bk28",
+      "richersons:sg23",
+      "richersons:sg27"
+    ],
+    "richersons:wg20": [
+      "richersons:wg00",
+      "richersons:wg25",
+      "richersons:wg34",
+      "richersons:wg3b"
+    ],
+    "richersons:wg23": [
+      "richersons:bk27",
+      "richersons:bk28",
+      "richersons:sg23",
+      "richersons:sg27"
+    ],
+    "richersons:wg25": [
+      "richersons:wg00",
+      "richersons:wg20",
+      "richersons:wg34",
+      "richersons:wg3b"
+    ],
+    "richersons:wg27": [
+      "richersons:bk27",
+      "richersons:bk28",
+      "richersons:sg23",
+      "richersons:sg27"
+    ],
+    "richersons:wg34": [
+      "richersons:wg00",
+      "richersons:wg20",
+      "richersons:wg25",
+      "richersons:wg3b"
+    ],
+    "richersons:wg3b": [
+      "richersons:wg00",
+      "richersons:wg20",
+      "richersons:wg25",
+      "richersons:wg34"
+    ],
+    "richersons:wg3j": [
+      "richersons:bk27",
+      "richersons:bk28",
+      "richersons:sg00",
+      "richersons:sg20"
+    ],
+    "richersons:wg46": [
+      "richersons:wg00",
+      "richersons:wg20",
+      "richersons:wg25",
+      "richersons:wg34"
+    ],
+    "richersons:wg48": [
+      "richersons:wg00",
+      "richersons:wg20",
+      "richersons:wg25",
+      "richersons:wg34"
+    ],
+    "richersons:wg49": [
+      "richersons:wg00",
+      "richersons:wg20",
+      "richersons:wg25",
+      "richersons:wg34"
+    ],
+    "richersons:wg66": [
+      "richersons:wg00",
+      "richersons:wg20",
+      "richersons:wg25",
+      "richersons:wg34"
+    ],
+    "richersons:wg68": [
+      "richersons:wg00",
+      "richersons:wg20",
+      "richersons:wg25",
+      "richersons:wg34"
+    ],
+    "richersons:wg91": [
+      "richersons:wg00",
+      "richersons:wg20",
+      "richersons:wg25",
+      "richersons:wg34"
+    ],
+    "richersons:wgf0": [
+      "richersons:wg00",
+      "richersons:wg20",
+      "richersons:wg25",
+      "richersons:wg34"
+    ],
+    "richersons:wgnl": [
+      "richersons:bk27",
+      "richersons:bk28",
+      "richersons:sg23",
+      "richersons:sg27"
+    ],
+    "trimlite:2064-ez-lift-clear-internal-venting-doorlite": [
+      "verre-select:cadence",
+      "verre-select:cbg",
+      "verre-select:cyndi",
+      "verre-select:fragrance"
+    ],
+    "trimlite:2080-clear-one-lite-doorlite": [
+      "verre-select:crosswalk",
+      "verre-select:epic",
+      "verre-select:gabriella",
+      "verre-select:naomie"
+    ],
+    "trimlite:2236-clear-2": [
+      "verre-select:crosswalk",
+      "verre-select:epic",
+      "verre-select:gabriella",
+      "verre-select:naomie"
+    ],
+    "trimlite:2236-internal-grid-12l": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:2236-internal-grid-9-lite": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:2236-rain-2": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:2248-clear-2": [
+      "verre-select:crosswalk",
+      "verre-select:epic",
+      "verre-select:gabriella",
+      "verre-select:naomie"
+    ],
+    "trimlite:2248-ez-lift-clear-internal-venting-doorlite": [
+      "verre-select:cadence",
+      "verre-select:cbg",
+      "verre-select:cyndi",
+      "verre-select:fragrance"
+    ],
+    "trimlite:2248-internal-grid-12-lite": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:2264-clear-2": [
+      "verre-select:crosswalk",
+      "verre-select:epic",
+      "verre-select:gabriella",
+      "verre-select:naomie"
+    ],
+    "trimlite:2264-ez-lift-clear-internal-venting-doorlite": [
+      "verre-select:cadence",
+      "verre-select:cbg",
+      "verre-select:cyndi",
+      "verre-select:fragrance"
+    ],
+    "trimlite:2264-internal-grid-15-lite": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:2280-internal-grid-18-lite": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:764-internal-grid-5-lite": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:adelaide": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:artisan-2": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:canterbury": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:chords": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:chords-2": [
+      "verre-select:cadence",
+      "verre-select:cbg",
+      "verre-select:cyndi",
+      "verre-select:fragrance"
+    ],
+    "trimlite:clear-2208-2": [
+      "verre-select:crosswalk",
+      "verre-select:epic",
+      "verre-select:gabriella",
+      "verre-select:naomie"
+    ],
+    "trimlite:clear-2210sb-2": [
+      "verre-select:crosswalk",
+      "verre-select:epic",
+      "verre-select:gabriella",
+      "verre-select:naomie"
+    ],
+    "trimlite:clear-2215": [
+      "verre-select:crosswalk",
+      "verre-select:epic",
+      "verre-select:gabriella",
+      "verre-select:naomie"
+    ],
+    "trimlite:clear-2236-2": [
+      "verre-select:crosswalk",
+      "verre-select:epic",
+      "verre-select:gabriella",
+      "verre-select:naomie"
+    ],
+    "trimlite:clear-2264-2": [
+      "verre-select:crosswalk",
+      "verre-select:epic",
+      "verre-select:gabriella",
+      "verre-select:naomie"
+    ],
+    "trimlite:clear-2280-2": [
+      "verre-select:crosswalk",
+      "verre-select:epic",
+      "verre-select:gabriella",
+      "verre-select:naomie"
+    ],
+    "trimlite:clear-2515-one-lite-doorlite": [
+      "verre-select:crosswalk",
+      "verre-select:epic",
+      "verre-select:gabriella",
+      "verre-select:naomie"
+    ],
+    "trimlite:clear-718-one-lite-doorlite": [
+      "verre-select:crosswalk",
+      "verre-select:epic",
+      "verre-select:gabriella",
+      "verre-select:naomie"
+    ],
+    "trimlite:clear-764-2": [
+      "verre-select:crosswalk",
+      "verre-select:epic",
+      "verre-select:gabriella",
+      "verre-select:naomie"
+    ],
+    "trimlite:clear-764-one-lite-doorlite": [
+      "verre-select:crosswalk",
+      "verre-select:epic",
+      "verre-select:gabriella",
+      "verre-select:naomie"
+    ],
+    "trimlite:clear-836-2": [
+      "verre-select:crosswalk",
+      "verre-select:epic",
+      "verre-select:gabriella",
+      "verre-select:naomie"
+    ],
+    "trimlite:clear-848-2": [
+      "verre-select:crosswalk",
+      "verre-select:epic",
+      "verre-select:gabriella",
+      "verre-select:naomie"
+    ],
+    "trimlite:clear-880-2": [
+      "verre-select:crosswalk",
+      "verre-select:epic",
+      "verre-select:gabriella",
+      "verre-select:naomie"
+    ],
+    "trimlite:clear-880-one-lite-doorlite": [
+      "verre-select:crosswalk",
+      "verre-select:epic",
+      "verre-select:gabriella",
+      "verre-select:naomie"
+    ],
+    "trimlite:clear-glass": [
+      "verre-select:crosswalk",
+      "verre-select:epic",
+      "verre-select:gabriella",
+      "verre-select:naomie"
+    ],
+    "trimlite:clear-glass-2": [
+      "verre-select:cadence",
+      "verre-select:cbg",
+      "verre-select:cyndi",
+      "verre-select:fragrance"
+    ],
+    "trimlite:df22": [
+      "masonite:vistagrande-flush-glazed-full-lite",
+      "masonite:2-panel-1-2-lite",
+      "masonite:lincoln-park-1-panel",
+      "masonite:logan-2-panel"
+    ],
+    "trimlite:df22-1-lite-douglas-fir-full-lite-exterior-wood-door": [
+      "trimlite:df22",
+      "masonite:vistagrande-flush-glazed-full-lite",
+      "masonite:2-panel-1-2-lite",
+      "masonite:lincoln-park-1-panel"
+    ],
+    "trimlite:diffused-white-laminate-white-lami": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:diffused-white-laminate-white-lami-2": [
+      "verre-select:cadence",
+      "verre-select:cbg",
+      "verre-select:cyndi",
+      "verre-select:fragrance"
+    ],
+    "trimlite:dra1a80-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:dra1p-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:dra2a-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:dra2b-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:dra2d-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:dra2p80-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drb10": [
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el",
+      "trimlite:drs1k"
+    ],
+    "trimlite:drb10-pre-pigmented-black-smooth-fiberglass-exterior-door": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drf1d": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drf1k": [
+      "trimlite:drb10",
+      "trimlite:drf2k",
+      "trimlite:drs1el",
+      "trimlite:drs1k"
+    ],
+    "trimlite:drf2k": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drs1el",
+      "trimlite:drs1k"
+    ],
+    "trimlite:drf33-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drf36-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drf3c-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drf3f-3-panel-shaker-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drf50-5-panel-shaker-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drg00-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drg10-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drg10b-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drg12-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drg12b-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drg20-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drg29-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drg40-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drg41-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drg49-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drg60-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drg63-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drg6c-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drm41-36-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drs00-flush-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drs10-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drs10b-mini-blinds-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drs12-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drs12b-mini-blinds-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drs1d": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drs1el": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1k"
+    ],
+    "trimlite:drs1el-brushed-smooth-skin-exterior-fiberglass-door": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drs1k": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drs20-smooth-skin-exterior-fiberglass-door": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drs29-3-4-2-panels": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drs2b-2-panels": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drs2d-2-panel-arch-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drs2k": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drs3c-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drs3c-3-panel-shaker-door-with-3-lite-patina-decorative-glass": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drs3c-3-panel-shaker-door-with-6-lite-patina-decorative-glass": [
+      "trimlite:df22",
+      "masonite:2-panel-1-2-lite",
+      "masonite:lincoln-park-1-panel",
+      "masonite:logan-2-panel"
+    ],
+    "trimlite:drs3f-3-panel-shaker-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drs40-4-panel-blank-top-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drs41-4-panels-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drs49-3-4-4-panels": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drs50-5-panel-shaker-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drs60-6-panels-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drs63-6-panel": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:drs6c-craftsman-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:eastmont-decorative-doorlite": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:everton": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:flush-glazed-applied-mullion": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:granville": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:hamilton-decorative-doorlite": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:harlow-2": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:hollister": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:internal-blinds-between-glass-2080": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:internal-blinds-between-glass-2236": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:internal-blinds-between-glass-2248": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:internal-blinds-between-glass-2264": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:internal-blinds-between-glass-2280": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:internal-blinds-between-glass-764": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:internal-blinds-between-glass-836": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:internal-blinds-between-glass-848": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:lexington": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:manhattan-decorative-doorlite": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:miniblind-2064": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:miniblind-2236-internal-blinds-doorlite": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:miniblind-764-internal-blinds-doorlite": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:miniblind-880-internal-blinds-doorlite": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:mistlite": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:mistlite-2": [
+      "verre-select:cadence",
+      "verre-select:cbg",
+      "verre-select:cyndi",
+      "verre-select:fragrance"
+    ],
+    "trimlite:modena": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:narrow-reed": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:narrow-reed-2": [
+      "verre-select:cadence",
+      "verre-select:cbg",
+      "verre-select:cyndi",
+      "verre-select:fragrance"
+    ],
+    "trimlite:niagara": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:pemberton-decorative-doorlite": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:perimeter": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:princeton-decorative-doorlite": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:riverton": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:rooftop": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:rooftop-2": [
+      "verre-select:cadence",
+      "verre-select:cbg",
+      "verre-select:cyndi",
+      "verre-select:fragrance"
+    ],
+    "trimlite:royston": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:sable": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:sable-2": [
+      "verre-select:cadence",
+      "verre-select:cbg",
+      "verre-select:cyndi",
+      "verre-select:fragrance"
+    ],
+    "trimlite:sandblast": [
+      "verre-select:cadence",
+      "verre-select:cbg",
+      "verre-select:cyndi",
+      "verre-select:fragrance"
+    ],
+    "trimlite:sandblast-satin-etch": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:cadence"
+    ],
+    "trimlite:screen-dot-solution-series-doorlite": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:sla2b": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:slf3c-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:slg00-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:slg10-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:slg3e-wood-grain-exterior-fiberglass-door-side-panel": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:slg49-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:slg60-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:slm3d-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:sls00-flush-sidelite": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:sls10-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:sls10b-mini-blinds-smooth-skin-exterior-fiberglass-door-sidelite": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:sls12b-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:sls3c-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:sls3c-2-panel-shaker-sidelite-with-2-lite-patina-decorative-glass": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:sls49-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:sls60-2": [
+      "trimlite:drb10",
+      "trimlite:drf1k",
+      "trimlite:drf2k",
+      "trimlite:drs1el"
+    ],
+    "trimlite:storm-series-impact-880-internal-grid-6-lite": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:storm-series-impact-artisan": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:storm-series-impact-clear-2208": [
+      "verre-select:crosswalk",
+      "verre-select:epic",
+      "verre-select:gabriella",
+      "verre-select:naomie"
+    ],
+    "trimlite:storm-series-impact-clear-2215": [
+      "verre-select:crosswalk",
+      "verre-select:epic",
+      "verre-select:gabriella",
+      "verre-select:naomie"
+    ],
+    "trimlite:storm-series-impact-clear-2236": [
+      "verre-select:crosswalk",
+      "verre-select:epic",
+      "verre-select:gabriella",
+      "verre-select:naomie"
+    ],
+    "trimlite:storm-series-impact-clear-2248": [
+      "verre-select:crosswalk",
+      "verre-select:epic",
+      "verre-select:gabriella",
+      "verre-select:naomie"
+    ],
+    "trimlite:storm-series-impact-diffused-white-laminate-dwl": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:storm-series-impact-double-water": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:storm-series-impact-internal-blinds-between-glass-880": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:storm-series-impact-modena": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:storm-series-impact-perimeter": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:storm-series-impact-rain": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:storm-series-impact-royston": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:storm-series-impact-satin-etch-sandblast": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:cadence"
+    ],
+    "trimlite:sullivan": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:traditional-2210sb-2": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:traditional-2215-3l-2": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:traditional-2215-6l-2": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:traditional-2236-internal-grid-doorlite": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:traditional-2248": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:traditional-2515-3l-internal-grid-doorlite": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:traditional-2515-6l-internal-grid-doorlite": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:traditional-764-internal-grid-doorlite": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:traditional-836-2": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:traditional-848-2": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:tradtional-2064-2": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:verona": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:waterton": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "trimlite:winslow-decorative-doorlite": [
+      "novatech:equation",
+      "novatech:infinite-black",
+      "novatech:rubik",
+      "verre-select:amadeus"
+    ],
+    "verre-select:amadeus": [
+      "verre-select:dorian",
+      "verre-select:endrick",
+      "verre-select:renoir",
+      "verre-select:rill"
+    ],
+    "verre-select:cadence": [
+      "verre-select:cbg",
+      "verre-select:cyndi",
+      "verre-select:fragrance",
+      "verre-select:java"
+    ],
+    "verre-select:canva": [],
+    "verre-select:cbg": [
+      "verre-select:cadence",
+      "verre-select:cyndi",
+      "verre-select:fragrance",
+      "verre-select:java"
+    ],
+    "verre-select:crosswalk": [
+      "verre-select:epic",
+      "verre-select:paris",
+      "verre-select:pixel",
+      "verre-select:venus"
+    ],
+    "verre-select:cyndi": [
+      "verre-select:cadence",
+      "verre-select:cbg",
+      "verre-select:fragrance",
+      "verre-select:java"
+    ],
+    "verre-select:dorian": [
+      "verre-select:amadeus",
+      "verre-select:endrick",
+      "verre-select:renoir",
+      "verre-select:rill"
+    ],
+    "verre-select:endrick": [
+      "verre-select:amadeus",
+      "verre-select:dorian",
+      "verre-select:renoir",
+      "verre-select:rill"
+    ],
+    "verre-select:epic": [
+      "verre-select:crosswalk",
+      "verre-select:paris",
+      "verre-select:pixel",
+      "verre-select:venus"
+    ],
+    "verre-select:fragrance": [
+      "verre-select:cadence",
+      "verre-select:cbg",
+      "verre-select:cyndi",
+      "verre-select:java"
+    ],
+    "verre-select:gabriella": [
+      "verre-select:naomie",
+      "verre-select:whistler",
+      "verre-select:crosswalk",
+      "verre-select:epic"
+    ],
+    "verre-select:hs-cre104e-4": [
+      "verre-select:amadeus",
+      "verre-select:crosswalk",
+      "verre-select:dorian",
+      "verre-select:endrick"
+    ],
+    "verre-select:hs-cre106e-10": [
+      "verre-select:amadeus",
+      "verre-select:crosswalk",
+      "verre-select:dorian",
+      "verre-select:endrick"
+    ],
+    "verre-select:hs-cre106e-5": [
+      "verre-select:amadeus",
+      "verre-select:crosswalk",
+      "verre-select:dorian",
+      "verre-select:endrick"
+    ],
+    "verre-select:java": [
+      "verre-select:cadence",
+      "verre-select:cbg",
+      "verre-select:cyndi",
+      "verre-select:fragrance"
+    ],
+    "verre-select:karma-opaque": [],
+    "verre-select:naomie": [
+      "verre-select:gabriella",
+      "verre-select:whistler",
+      "verre-select:crosswalk",
+      "verre-select:epic"
+    ],
+    "verre-select:paris": [
+      "verre-select:crosswalk",
+      "verre-select:epic",
+      "verre-select:pixel",
+      "verre-select:venus"
+    ],
+    "verre-select:pixel": [
+      "verre-select:crosswalk",
+      "verre-select:epic",
+      "verre-select:paris",
+      "verre-select:venus"
+    ],
+    "verre-select:quattro": [
+      "verre-select:amadeus",
+      "verre-select:dorian",
+      "verre-select:endrick",
+      "verre-select:renoir"
+    ],
+    "verre-select:renoir": [
+      "verre-select:amadeus",
+      "verre-select:dorian",
+      "verre-select:endrick",
+      "verre-select:rill"
+    ],
+    "verre-select:rill": [
+      "verre-select:amadeus",
+      "verre-select:dorian",
+      "verre-select:endrick",
+      "verre-select:renoir"
+    ],
+    "verre-select:rodin": [
+      "verre-select:amadeus",
+      "verre-select:dorian",
+      "verre-select:endrick",
+      "verre-select:renoir"
+    ],
+    "verre-select:ryu": [],
+    "verre-select:satine": [
+      "verre-select:cadence",
+      "verre-select:cbg",
+      "verre-select:cyndi",
+      "verre-select:fragrance"
+    ],
+    "verre-select:venus": [
+      "verre-select:crosswalk",
+      "verre-select:epic",
+      "verre-select:paris",
+      "verre-select:pixel"
+    ],
+    "verre-select:waterside": [
+      "verre-select:crosswalk",
+      "verre-select:epic",
+      "verre-select:paris",
+      "verre-select:pixel"
+    ],
+    "verre-select:whistler": [
+      "verre-select:gabriella",
+      "verre-select:naomie",
+      "verre-select:crosswalk",
+      "verre-select:epic"
+    ],
+    "verre-select:wide-reed": [
+      "verre-select:amadeus",
+      "verre-select:dorian",
+      "verre-select:endrick",
+      "verre-select:renoir"
+    ],
+    "vinyl-pro:4-9-16-awning": [
+      "vinyl-pro:awning",
+      "window-city:hc-126",
+      "window-city:hc-426",
+      "window-city:wc-125"
+    ],
+    "vinyl-pro:4-9-16-casement": [
+      "vinyl-pro:casement",
+      "window-city:hc-101",
+      "window-city:hc-401",
+      "window-city:wc-100"
+    ],
+    "vinyl-pro:4-9-16-end-vent-slider": [
+      "vinyl-pro:end-vent-slider",
+      "vinyl-pro:4-9-16-casement",
+      "vinyl-pro:awning",
+      "vinyl-pro:casement"
+    ],
+    "vinyl-pro:4-9-16-fixed-casement": [
+      "vinyl-pro:fixed-casement",
+      "window-city:hc-151",
+      "window-city:hc-176",
+      "window-city:hc-451"
+    ],
+    "vinyl-pro:4-9-16-picture-window": [
+      "vinyl-pro:picture-window",
+      "vinyl-pro:4-9-16-casement",
+      "vinyl-pro:awning",
+      "vinyl-pro:casement"
+    ],
+    "vinyl-pro:4-9-16-single-hung": [
+      "vinyl-pro:single-hung",
+      "vinyl-pro:4-9-16-casement",
+      "vinyl-pro:awning",
+      "vinyl-pro:casement"
+    ],
+    "vinyl-pro:4-9-16-single-slider": [
+      "vinyl-pro:single-slider",
+      "window-city:wc-200",
+      "window-city:wc-300",
+      "window-city:wc-325"
+    ],
+    "vinyl-pro:awning": [
+      "window-city:hc-126",
+      "window-city:hc-426",
+      "window-city:wc-125",
+      "window-city:wc-425"
+    ],
+    "vinyl-pro:casement": [
+      "vinyl-pro:4-9-16-casement",
+      "window-city:hc-101",
+      "window-city:hc-401",
+      "window-city:wc-100"
+    ],
+    "vinyl-pro:double-hung": [
+      "vinyl-pro:awning",
+      "vinyl-pro:casement",
+      "vinyl-pro:double-slider",
+      "vinyl-pro:end-vent-slider"
+    ],
+    "vinyl-pro:double-slider": [
+      "window-city:wc-250",
+      "window-city:wc-350",
+      "vinyl-pro:awning",
+      "vinyl-pro:casement"
+    ],
+    "vinyl-pro:end-vent-slider": [
+      "vinyl-pro:awning",
+      "vinyl-pro:casement",
+      "vinyl-pro:double-hung",
+      "vinyl-pro:double-slider"
+    ],
+    "vinyl-pro:fixed-casement": [
+      "window-city:hc-151",
+      "window-city:hc-176",
+      "window-city:hc-451",
+      "window-city:hc-476"
+    ],
+    "vinyl-pro:picture-window": [
+      "vinyl-pro:awning",
+      "vinyl-pro:casement",
+      "vinyl-pro:double-hung",
+      "vinyl-pro:double-slider"
+    ],
+    "vinyl-pro:single-hung": [
+      "vinyl-pro:awning",
+      "vinyl-pro:casement",
+      "vinyl-pro:double-hung",
+      "vinyl-pro:double-slider"
+    ],
+    "vinyl-pro:single-slider": [
+      "window-city:wc-200",
+      "window-city:wc-300",
+      "window-city:wc-325",
+      "vinyl-pro:awning"
+    ],
+    "vista:amalfi-1-0": [
+      "oceanview:essential",
+      "oceanview:premium",
+      "oceanview:premium-plus",
+      "novatech:540"
+    ],
+    "vista:aria-1-0": [
+      "novatech:540",
+      "novatech:550",
+      "novatech:630",
+      "novatech:650"
+    ],
+    "vista:capri-3-0": [
+      "oceanview:essential",
+      "oceanview:premium",
+      "oceanview:premium-plus",
+      "novatech:540"
+    ],
+    "vista:rimini-2-0": [
+      "novatech:540",
+      "novatech:550",
+      "novatech:630",
+      "novatech:650"
+    ],
+    "window-city:hc-101": [
+      "window-city:hc-401",
+      "window-city:wc-100",
+      "window-city:wc-400",
+      "vinyl-pro:4-9-16-casement"
+    ],
+    "window-city:hc-126": [
+      "window-city:hc-426",
+      "window-city:wc-125",
+      "window-city:wc-425",
+      "vinyl-pro:awning"
+    ],
+    "window-city:hc-151": [
+      "window-city:hc-176",
+      "window-city:hc-451",
+      "window-city:hc-476",
+      "window-city:wc-150"
+    ],
+    "window-city:hc-176": [
+      "window-city:hc-151",
+      "window-city:hc-451",
+      "window-city:hc-476",
+      "window-city:wc-150"
+    ],
+    "window-city:hc-401": [
+      "window-city:hc-101",
+      "window-city:wc-100",
+      "window-city:wc-400",
+      "vinyl-pro:4-9-16-casement"
+    ],
+    "window-city:hc-426": [
+      "window-city:hc-126",
+      "window-city:wc-125",
+      "window-city:wc-425",
+      "vinyl-pro:awning"
+    ],
+    "window-city:hc-451": [
+      "window-city:hc-476",
+      "window-city:hc-151",
+      "window-city:hc-176",
+      "window-city:wc-150"
+    ],
+    "window-city:hc-476": [
+      "window-city:hc-451",
+      "window-city:hc-151",
+      "window-city:hc-176",
+      "window-city:wc-150"
+    ],
+    "window-city:hc-650": [
+      "novatech:element",
+      "novatech:2900",
+      "novatech:540",
+      "novatech:550"
+    ],
+    "window-city:wc-100": [
+      "window-city:wc-400",
+      "window-city:hc-101",
+      "window-city:hc-401",
+      "vinyl-pro:4-9-16-casement"
+    ],
+    "window-city:wc-125": [
+      "window-city:wc-425",
+      "window-city:hc-126",
+      "window-city:hc-426",
+      "vinyl-pro:awning"
+    ],
+    "window-city:wc-150": [
+      "window-city:wc-175",
+      "window-city:wc-450",
+      "window-city:wc-475",
+      "window-city:hc-151"
+    ],
+    "window-city:wc-175": [
+      "window-city:wc-150",
+      "window-city:wc-450",
+      "window-city:wc-475",
+      "window-city:hc-151"
+    ],
+    "window-city:wc-200": [
+      "window-city:wc-300",
+      "window-city:wc-325",
+      "vinyl-pro:single-slider",
+      "window-city:wc-100"
+    ],
+    "window-city:wc-201": [
+      "window-city:wc-251",
+      "window-city:wc-100",
+      "window-city:wc-125",
+      "window-city:wc-150"
+    ],
+    "window-city:wc-250": [
+      "window-city:wc-350",
+      "vinyl-pro:double-slider",
+      "window-city:wc-100",
+      "window-city:wc-125"
+    ],
+    "window-city:wc-251": [
+      "window-city:wc-201",
+      "window-city:wc-100",
+      "window-city:wc-125",
+      "window-city:wc-150"
+    ],
+    "window-city:wc-300": [
+      "window-city:wc-200",
+      "window-city:wc-325",
+      "vinyl-pro:single-slider",
+      "window-city:wc-100"
+    ],
+    "window-city:wc-325": [
+      "window-city:wc-200",
+      "window-city:wc-300",
+      "vinyl-pro:single-slider",
+      "window-city:wc-100"
+    ],
+    "window-city:wc-350": [
+      "window-city:wc-250",
+      "vinyl-pro:double-slider",
+      "window-city:wc-100",
+      "window-city:wc-125"
+    ],
+    "window-city:wc-400": [
+      "window-city:wc-100",
+      "window-city:hc-101",
+      "window-city:hc-401",
+      "vinyl-pro:4-9-16-casement"
+    ],
+    "window-city:wc-425": [
+      "window-city:wc-125",
+      "window-city:hc-126",
+      "window-city:hc-426",
+      "vinyl-pro:awning"
+    ],
+    "window-city:wc-450": [
+      "window-city:wc-150",
+      "window-city:wc-175",
+      "window-city:wc-475",
+      "window-city:hc-151"
+    ],
+    "window-city:wc-475": [
+      "window-city:wc-150",
+      "window-city:wc-175",
+      "window-city:wc-450",
+      "window-city:hc-151"
+    ],
+    "window-city:wc-500": [
+      "oceanview:essential",
+      "oceanview:premium",
+      "oceanview:premium-plus",
+      "novatech:540"
+    ]
+  }
+}
