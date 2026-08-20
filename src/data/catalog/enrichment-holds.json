@@ -1001,6 +1001,22 @@
       "reason": "New Vinyl-Pro canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
     },
     {
+      "productId": "vista:amalfi-1-0",
+      "reason": "Current Vista supplier identity, source facts, media, and documents are verified, but independent editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "vista:aria-1-0",
+      "reason": "Current Vista supplier identity, source facts, media, and documents are verified, but independent editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "vista:capri-3-0",
+      "reason": "Current Vista supplier identity, source facts, media, and documents are verified, but independent editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "vista:rimini-2-0",
+      "reason": "Current Vista supplier identity, source facts, media, and documents are verified, but independent editorial review is incomplete; do not publish."
+    },
+    {
       "productId": "window-city:hc-650",
       "reason": "New Window City canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
     },

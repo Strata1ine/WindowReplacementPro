@@ -1,0 +1,132 @@
+{
+  "supplier": "vista",
+  "supplierName": "Vista Patio Doors",
+  "completedAt": "2026-08-20",
+  "status": "WEBSITE + MEDIA + PDF VERIFIED",
+  "catalogue": {
+    "canonicalProducts": 4,
+    "canonicalProductsBefore": 4,
+    "canonicalProductsAfter": 4,
+    "newCanonicalProducts": 0,
+    "productIds": ["vista:capri-3-0", "vista:amalfi-1-0", "vista:aria-1-0", "vista:rimini-2-0"],
+    "productsWithNormalizedFacts": 4,
+    "newlyPublishableProducts": 0,
+    "totalPublishableProducts": 0,
+    "productsHeldForIndependentEditorialReview": 4,
+    "publicationThresholdsChanged": false
+  },
+  "liveCrawl": {
+    "pagesCrawled": 10,
+    "productCandidatesFound": 4,
+    "productsAccepted": 4,
+    "productsUnclassified": 0,
+    "nonProductPagesReviewed": 6,
+    "acceptedRunId": "20260820T085335Z-25412",
+    "finalAssetPlanTasks": 24,
+    "validatedBinariesReused": 22,
+    "newNetworkAssetRequests": 2,
+    "pageDiscoveryRepeatedForCorrection": false,
+    "pendingAssetTasks": 0,
+    "retryableAssetTasks": 0,
+    "manifestErrors": 0,
+    "normalCrawlDelaySeconds": 1,
+    "offDomainRedirectsAccepted": 0,
+    "offDomainAssetsAccepted": 0,
+    "assetCdnDomains": ["cdn.prod.website-files.com"]
+  },
+  "liveMedia": {
+    "productsWithCorrectHero": 4,
+    "productsWithAnyMedia": 4,
+    "productsWithDocuments": 4,
+    "missingProductSpecificMedia": 0,
+    "acceptedImageAssets": 7,
+    "acceptedPdfAssets": 17,
+    "imageBytes": 5397430,
+    "documentBytes": 19630132,
+    "assetRoles": {"product-hero": 4, "product-gallery": 1, "lifestyle-product": 2, "brochure": 4, "installation-guide": 8, "performance-document": 2, "warranty": 3},
+    "relationshipStates": {"product-specific": 18, "collection-shared": 2, "supplier-shared": 4, "uncertain/review": 0},
+    "uncertainPublicAssociations": 0,
+    "sharedProductBinaries": 2,
+    "duplicateAcceptedSha256Groups": 0,
+    "genericLogoIconNavigationAssetsAttached": 0,
+    "originalHighestPracticalImages": 7,
+    "responsiveDerivativesSelected": 0
+  },
+  "documents": {
+    "totalPdfDocuments": 17,
+    "currentSourceLinkedDocuments": 17,
+    "brochures": 4,
+    "installationGuides": 8,
+    "warranties": 3,
+    "performanceDocuments": 2,
+    "pagesProcessed": 41,
+    "textCharacters": 60888,
+    "tables": 82,
+    "usefulImages": 45,
+    "ocrRequiredAfterProcessing": 0,
+    "ocrAppliedDocuments": 1,
+    "ocrPages": 1,
+    "ocrEngine": "rapidocr_onnxruntime",
+    "extractionErrors": 0,
+    "currentImageOnlyDocument": {
+      "title": "Genius Retractable Screen Systems Warranty",
+      "revision": "07/23",
+      "products": ["vista:aria-1-0", "vista:rimini-2-0"],
+      "ocrCharacters": 3555,
+      "reviewableTextPath": "source-media/suppliers/vista/pdf-extracted/6924c4c16b0485fa845307d7-genius-20warranty-20information-87aff38ccc97/pages/page-0001.txt"
+    }
+  },
+  "facts": {
+    "normalizedProducts": 4,
+    "factSets": 5,
+    "reviewPolicy": "Only current live-page and current-linked supplier-publication facts were normalized. The Capri-only 2020 thermal chart is not propagated to other Vista products."
+  },
+  "publication": {
+    "publishableProducts": 0,
+    "heldProductIds": ["vista:amalfi-1-0", "vista:aria-1-0", "vista:capri-3-0", "vista:rimini-2-0"],
+    "holdReason": "Independent editorial review remains incomplete; no marketing copy was created.",
+    "thresholdsChanged": false
+  },
+  "visualReview": {
+    "status": "PASSED",
+    "reviewed": ["All 41 pages across 17 current-linked supplier PDFs", "All seven accepted image assets", "All four product hero relationships", "All size/configuration charts for Capri, Amalfi, Aria, and Rimini", "Genius image-only warranty before and after page-level OCR"],
+    "findings": ["Four correct product heroes and one Capri product gallery image are product-specific.", "Two unlabeled gallery lifestyle originals are archived supplier-shared and are not attached to product records.", "No logos, icons, navigation graphics, category cards, or responsive Webflow renditions are attached as product media.", "The Energy Star chart contains Capri 3.0 ratings only and is attached only to Capri.", "All documents rendered successfully; repeated Invalid Font Weight messages were non-fatal Poppler warnings."],
+    "browserChromeScreenshotsUsed": 0
+  },
+  "conflicts": {
+    "websitePdfConflicts": [{"source": "Vista downloads page description", "conflict": "The Aria 1.0 brochure description says Aria 2.0, while the link heading, canonical product page, brochure title, and filename all identify Aria 1.0."}],
+    "activeSourceFailures": [],
+    "notes": ["The Capri four-panel installation filename contains the supplier typo VVista; a supplier-scoped rule and regression test preserve the correct Capri relationship.", "The current Genius warranty is an image-only revision 07/23; its one page was OCR-extracted with reviewable provenance."]
+  },
+  "missing": {
+    "products": [],
+    "media": [],
+    "documents": [],
+    "performance": [
+      {"productId": "vista:amalfi-1-0", "reason": "No current Amalfi-specific thermal performance table is published in the captured source set."},
+      {"productId": "vista:aria-1-0", "reason": "No current Aria-specific thermal performance table is published in the captured source set."},
+      {"productId": "vista:rimini-2-0", "reason": "No current Rimini-specific thermal performance table is published in the captured source set."}
+    ]
+  },
+  "products": [
+    {"productId": "vista:capri-3-0", "type": "Sliding Patio Door", "mediaCount": 2, "documentCount": 6, "heroCaptured": true, "publicationHeld": true},
+    {"productId": "vista:amalfi-1-0", "type": "Sliding Patio Door", "mediaCount": 1, "documentCount": 5, "heroCaptured": true, "publicationHeld": true},
+    {"productId": "vista:aria-1-0", "type": "Stacking Patio Door", "mediaCount": 1, "documentCount": 4, "heroCaptured": true, "publicationHeld": true},
+    {"productId": "vista:rimini-2-0", "type": "Stacking Patio Door", "mediaCount": 1, "documentCount": 4, "heroCaptured": true, "publicationHeld": true}
+  ],
+  "validation": {
+    "associationRevalidation": "passed offline; 24 accepted assets, four products with media, zero uncertain relationships",
+    "crawlerTests": "89/89 passed",
+    "catalogueValidation": "passed",
+    "ingestionAudit": "passed",
+    "pdfExtraction": "17 documents, 41 pages, 60,888 characters, 82 tables, 45 useful embedded images, one OCR page, zero errors"
+  },
+  "remainingWeaknesses": [
+    "Vista publishes model-specific thermal ratings only for Capri 3.0 in the current captured document set; equivalent Amalfi, Aria, and Rimini performance tables remain unavailable.",
+    "The current downloads-page prose incorrectly calls the Aria 1.0 brochure Aria 2.0; stronger canonical and document identity evidence resolves it to Aria 1.0, but the supplier typo remains live.",
+    "The Genius warranty is image-only. OCR recovered 3,555 characters and is provenance-tagged, but OCR-derived terms remain reviewable evidence rather than independently authored catalogue copy.",
+    "Two current documents are intentionally supplier-shared without product attachment: the ODL mini-blind warranty and security-film feature sheet lack a sufficiently explicit model relationship.",
+    "Vista links installation videos, including supplier-hosted MP4 and YouTube sources. The existing ingestion architecture deliberately excludes video binaries; those links remain uncaptured reference media.",
+    "Several installation PDFs contain noisy embedded text ordering and source misspellings. Visual page review passed and extraction recorded no fatal errors."
+  ]
+}

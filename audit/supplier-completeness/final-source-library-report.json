@@ -1,0 +1,78 @@
+{
+  "generatedAt": "2026-08-20",
+  "status": "ALL 10 SUPPLIERS SOURCE-VERIFIED",
+  "supplierTable": [
+    {"supplier":"vinyl-pro","liveRelevantProducts":16,"canonicalProducts":16,"mergedCatalogueRecords":16,"productsWithHero":14,"productsWithAnyMedia":16,"usefulImages":94,"technicalDrawingAssets":15,"documents":3,"pdfPagesProcessed":68,"pdfDerivedUsefulImages":137,"productsWithNormalizedFacts":16,"unresolvedProducts":0,"staleLinks":0,"historicalDocuments":0,"websiteStatus":"VERIFIED","mediaStatus":"VERIFIED","pdfStatus":"VERIFIED"},
+    {"supplier":"window-city","liveRelevantProducts":25,"canonicalProducts":25,"mergedCatalogueRecords":25,"productsWithHero":25,"productsWithAnyMedia":25,"usefulImages":86,"technicalDrawingAssets":0,"documents":2,"pdfPagesProcessed":24,"pdfDerivedUsefulImages":87,"productsWithNormalizedFacts":25,"unresolvedProducts":0,"staleLinks":0,"historicalDocuments":1,"websiteStatus":"VERIFIED","mediaStatus":"VERIFIED","pdfStatus":"VERIFIED"},
+    {"supplier":"masonite","liveRelevantProducts":29,"canonicalProducts":29,"mergedCatalogueRecords":29,"productsWithHero":29,"productsWithAnyMedia":29,"usefulImages":28,"technicalDrawingAssets":0,"documents":19,"pdfPagesProcessed":260,"pdfDerivedUsefulImages":269,"productsWithNormalizedFacts":29,"unresolvedProducts":0,"staleLinks":0,"historicalDocuments":0,"websiteStatus":"VERIFIED","mediaStatus":"VERIFIED","pdfStatus":"VERIFIED"},
+    {"supplier":"trimlite","liveRelevantProducts":175,"canonicalProducts":175,"mergedCatalogueRecords":178,"productsWithHero":146,"productsWithAnyMedia":163,"usefulImages":211,"technicalDrawingAssets":0,"documents":3,"pdfPagesProcessed":176,"pdfDerivedUsefulImages":177,"productsWithNormalizedFacts":178,"unresolvedProducts":0,"staleLinks":0,"historicalDocuments":0,"websiteStatus":"VERIFIED","mediaStatus":"VERIFIED","pdfStatus":"VERIFIED"},
+    {"supplier":"novatech","liveRelevantProducts":91,"canonicalProducts":91,"mergedCatalogueRecords":91,"productsWithHero":83,"productsWithAnyMedia":91,"usefulImages":865,"technicalDrawingAssets":1,"documents":30,"pdfPagesProcessed":102,"pdfDerivedUsefulImages":239,"productsWithNormalizedFacts":75,"unresolvedProducts":16,"staleLinks":4,"historicalDocuments":0,"websiteStatus":"VERIFIED","mediaStatus":"VERIFIED","pdfStatus":"VERIFIED-WITH-16-PAGE-EVIDENCE-GAPS"},
+    {"supplier":"verre-select","liveRelevantProducts":26,"canonicalProducts":26,"mergedCatalogueRecords":29,"productsWithHero":25,"productsWithAnyMedia":25,"usefulImages":93,"technicalDrawingAssets":0,"documents":0,"pdfPagesProcessed":0,"pdfDerivedUsefulImages":0,"productsWithNormalizedFacts":29,"unresolvedProducts":0,"staleLinks":0,"historicalDocuments":0,"websiteStatus":"VERIFIED","mediaStatus":"VERIFIED","pdfStatus":"NONE-CURRENTLY-AVAILABLE-FLIPHTML5-VERIFIED"},
+    {"supplier":"mennie-canada","liveRelevantProducts":99,"canonicalProducts":99,"mergedCatalogueRecords":111,"productsWithHero":66,"productsWithAnyMedia":79,"usefulImages":184,"technicalDrawingAssets":4,"documents":6,"pdfPagesProcessed":17,"pdfDerivedUsefulImages":18,"productsWithNormalizedFacts":111,"unresolvedProducts":0,"staleLinks":0,"historicalDocuments":0,"websiteStatus":"VERIFIED","mediaStatus":"VERIFIED-WITH-20-EXPLICIT-MISSING-MEDIA-RECORDS","pdfStatus":"VERIFIED"},
+    {"supplier":"richersons","liveRelevantProducts":54,"canonicalProducts":54,"mergedCatalogueRecords":54,"productsWithHero":54,"productsWithAnyMedia":54,"usefulImages":91,"technicalDrawingAssets":0,"documents":2,"pdfPagesProcessed":54,"pdfDerivedUsefulImages":61,"productsWithNormalizedFacts":54,"unresolvedProducts":0,"staleLinks":2,"historicalDocuments":0,"websiteStatus":"VERIFIED","mediaStatus":"VERIFIED","pdfStatus":"VERIFIED"},
+    {"supplier":"oceanview","liveRelevantProducts":5,"canonicalProducts":5,"mergedCatalogueRecords":5,"productsWithHero":5,"productsWithAnyMedia":5,"usefulImages":18,"technicalDrawingAssets":0,"documents":7,"pdfPagesProcessed":18,"pdfDerivedUsefulImages":28,"productsWithNormalizedFacts":5,"unresolvedProducts":0,"staleLinks":0,"historicalDocuments":0,"websiteStatus":"VERIFIED","mediaStatus":"VERIFIED","pdfStatus":"VERIFIED"},
+    {"supplier":"vista","liveRelevantProducts":4,"canonicalProducts":4,"mergedCatalogueRecords":4,"productsWithHero":4,"productsWithAnyMedia":4,"usefulImages":7,"technicalDrawingAssets":0,"documents":17,"pdfPagesProcessed":41,"pdfDerivedUsefulImages":45,"productsWithNormalizedFacts":4,"unresolvedProducts":0,"staleLinks":0,"historicalDocuments":0,"websiteStatus":"VERIFIED","mediaStatus":"VERIFIED","pdfStatus":"VERIFIED"}
+  ],
+  "globalTotals": {
+    "liveCanonicalSupplierIdentities": 524,
+    "mergedCatalogueRecords": 542,
+    "recordsWithNormalizedFacts": 526,
+    "productsWithMediaProvenance": 491,
+    "productsWithDocuments": 126,
+    "totalSupplierImages": 1677,
+    "totalDocuments": 89,
+    "pdfPagesProcessed": 760,
+    "pdfDerivedUsefulImages": 1061,
+    "staleLinks": 5,
+    "blockedLinks": 1,
+    "unresolvedMediaProducts": 33,
+    "uncertainReviewAssociationsNotPubliclyAttached": 205,
+    "sourceConflicts": 3,
+    "pdfReviewItems": 9,
+    "websitePdfCoverageGaps": 16,
+    "trackedSourcePdfConflictOrReviewItems": 28,
+    "publishableEditorialProducts": 203,
+    "buildRouteCount": 236,
+    "sitemapUrlCount": 233,
+    "regressionTestCount": 89,
+    "publicOrphanFiles": 3
+  },
+  "baselineComparison": {
+    "baselineDate": "2026-08-19",
+    "mergedCatalogueRecords": {"before":323,"after":542,"change":219},
+    "recordsWithNormalizedFacts": {"before":303,"after":526,"change":223},
+    "productsWithMediaProvenance": {"before":67,"after":491,"change":424},
+    "productsWithDocuments": {"before":10,"after":126,"change":116},
+    "supplierImageFiles": {"before":143,"afterAccepted":1677,"change":1534},
+    "supplierPdfFiles": {"before":35,"afterAccepted":89,"change":54},
+    "publishableEditorialProducts": {"before":204,"after":203,"change":-1,"reason":"Stricter source and editorial holds were applied; publication thresholds were not reduced."},
+    "staleOrBlockedLinks": {"before":14,"after":6,"change":-8},
+    "publicOrphanFiles": {"before":90,"after":3,"change":-87}
+  },
+  "verreSelectFliphtml5": {
+    "pdfDocuments": 0,
+    "pdfStatus": "none/currently unavailable",
+    "fliphtml5Publications": "audited",
+    "fliphtml5PagesProcessed": 36,
+    "highResolutionPageAssetsCaptured": 36,
+    "individualProductImagesExtracted": 23,
+    "technicalDiagramsOrChartPages": 6,
+    "textLayerPagesExtracted": 36,
+    "ocrPages": 0
+  },
+  "verifiedSupplierStability": {
+    "manifestFilesComparedToLastKnownGood": 9,
+    "unchangedManifestFiles": 9,
+    "nonVistaDiscoveryFilesModified": 0,
+    "status": "PASSED"
+  },
+  "validation": {
+    "validateCatalog": "PASSED",
+    "ingestAudit": "PASSED",
+    "tests": "PASSED - 89 crawler tests plus catalogue fixtures",
+    "astroCheck": "PASSED - 0 errors, 0 warnings, 0 hints",
+    "build": "PASSED - 236 pages",
+    "verify": "PASSED",
+    "supplierCompletenessAudit": "PASSED - 10 suppliers and 524 live products"
+  }
+}

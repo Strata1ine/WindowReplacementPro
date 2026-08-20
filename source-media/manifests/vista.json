@@ -7,7 +7,7 @@
       "patio-doors"
     ]
   },
-  "crawledAt": "2026-08-19T18:54:44Z",
+  "crawledAt": "2026-08-20T08:57:03Z",
   "pages": [
     {
       "url": "https://www.vistapatiodoors.com/",
@@ -17,8 +17,11 @@
       "snapshot": "source-media\\vista\\html\\0001-capri-3-0-durable-elegant-beautiful.html",
       "is_product_candidate": false,
       "category": "patio-doors",
-      "assets": [],
-      "product_data": {}
+      "assets": [
+        "/images/catalog/vista/647f95e63447aa97581002f7-doors-1db5e9e80f08.jpg"
+      ],
+      "product_data": {},
+      "embedded_products": []
     },
     {
       "url": "https://www.vistapatiodoors.com/about",
@@ -29,7 +32,8 @@
       "is_product_candidate": false,
       "category": "patio-doors",
       "assets": [],
-      "product_data": {}
+      "product_data": {},
+      "embedded_products": []
     },
     {
       "url": "https://www.vistapatiodoors.com/patio-doors",
@@ -44,7 +48,8 @@
         "/images/catalog/vista/648333cc7cc61c603f6eb502-capri-2-98b98360aad4.png",
         "/images/catalog/vista/648333ccfdc5dc4cf2a1ba8c-capri-1-c077ba41d23a.png"
       ],
-      "product_data": {}
+      "product_data": {},
+      "embedded_products": []
     },
     {
       "url": "https://www.vistapatiodoors.com/patio-doors-amalfi",
@@ -58,7 +63,8 @@
         "/documents/catalog/vista/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424.pdf",
         "/images/catalog/vista/6635386dcbde5a8d27893008-unknown-1-eb691f921743.jpeg"
       ],
-      "product_data": {}
+      "product_data": {},
+      "embedded_products": []
     },
     {
       "url": "https://www.vistapatiodoors.com/patio-doors-aria",
@@ -72,7 +78,8 @@
         "/documents/catalog/vista/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32.pdf",
         "/images/catalog/vista/6635384decfed09d0795fdec-unknown-613719a0af53.jpeg"
       ],
-      "product_data": {}
+      "product_data": {},
+      "embedded_products": []
     },
     {
       "url": "https://www.vistapatiodoors.com/patio-doors-rimini",
@@ -86,7 +93,8 @@
         "/documents/catalog/vista/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de.pdf",
         "/images/catalog/vista/64833486f8f86e07bd54565c-rimi-min-ba0bc800e546.png"
       ],
-      "product_data": {}
+      "product_data": {},
+      "embedded_products": []
     },
     {
       "url": "https://www.vistapatiodoors.com/gallery",
@@ -96,8 +104,12 @@
       "snapshot": "source-media\\vista\\html\\0007-gallery.html",
       "is_product_candidate": false,
       "category": "patio-doors",
-      "assets": [],
-      "product_data": {}
+      "assets": [
+        "/images/catalog/vista/647f95e63447aa97581002f7-doors-1db5e9e80f08.jpg",
+        "/images/catalog/vista/6635389f3fdf793049f6b274-unknown-1-5c5e4ddc5615.jpeg"
+      ],
+      "product_data": {},
+      "embedded_products": []
     },
     {
       "url": "https://www.vistapatiodoors.com/contact",
@@ -108,7 +120,8 @@
       "is_product_candidate": false,
       "category": "patio-doors",
       "assets": [],
-      "product_data": {}
+      "product_data": {},
+      "embedded_products": []
     },
     {
       "url": "https://www.vistapatiodoors.com/become-a-dealer",
@@ -119,7 +132,8 @@
       "is_product_candidate": false,
       "category": "patio-doors",
       "assets": [],
-      "product_data": {}
+      "product_data": {},
+      "embedded_products": []
     },
     {
       "url": "https://www.vistapatiodoors.com/downloads-info",
@@ -148,7 +162,8 @@
         "/documents/catalog/vista/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9.pdf",
         "/documents/catalog/vista/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de.pdf"
       ],
-      "product_data": {}
+      "product_data": {},
+      "embedded_products": []
     }
   ],
   "assets": [
@@ -158,12 +173,34 @@
         "https://www.vistapatiodoors.com/patio-doors"
       ],
       "original_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/648333ccfdc5dc4cf2a1ba8c_capri-1.png",
+      "final_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/648333ccfdc5dc4cf2a1ba8c_capri-1.png",
       "local_path": "/images/catalog/vista/648333ccfdc5dc4cf2a1ba8c-capri-1-c077ba41d23a.png",
       "asset_type": "image",
-      "role": "hero",
+      "role": "product-hero",
       "sha256": "2c2131d19d27d41ac542221288c5ac6e43ddff7c1a67d26d93c633f573906eeb",
       "bytes": 1506306,
-      "discovered_at": "2026-08-19T18:54:38Z"
+      "discovered_at": "2026-08-19T18:54:38Z",
+      "source_asset_urls": [
+        "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/648333ccfdc5dc4cf2a1ba8c_capri-1.png"
+      ],
+      "product_ids": [
+        "vista:capri-3-0"
+      ],
+      "collections": [
+        "Patio Doors"
+      ],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "filename-model-match",
+        "primary-product-hero",
+        "supplier-scoped-asset-role"
+      ],
+      "master_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/648333ccfdc5dc4cf2a1ba8c_capri-1.png",
+      "selected_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/648333ccfdc5dc4cf2a1ba8c_capri-1.png",
+      "mime_type": "image/png",
+      "width": 1104,
+      "height": 895
     },
     {
       "supplier": "vista",
@@ -171,12 +208,34 @@
         "https://www.vistapatiodoors.com/patio-doors"
       ],
       "original_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/648333cc7cc61c603f6eb502_capri-2.png",
+      "final_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/648333cc7cc61c603f6eb502_capri-2.png",
       "local_path": "/images/catalog/vista/648333cc7cc61c603f6eb502-capri-2-98b98360aad4.png",
       "asset_type": "image",
-      "role": "hero",
+      "role": "product-gallery",
       "sha256": "01d3dda50a09d0bf821ee4a8e2cc2eb2fdae64c01da0dae342efdb8172b05968",
       "bytes": 1141303,
-      "discovered_at": "2026-08-19T18:54:38Z"
+      "discovered_at": "2026-08-19T18:54:38Z",
+      "source_asset_urls": [
+        "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/648333cc7cc61c603f6eb502_capri-2.png"
+      ],
+      "product_ids": [
+        "vista:capri-3-0"
+      ],
+      "collections": [
+        "Patio Doors"
+      ],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "filename-model-match",
+        "primary-product-gallery",
+        "supplier-scoped-asset-role"
+      ],
+      "master_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/648333cc7cc61c603f6eb502_capri-2.png",
+      "selected_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/648333cc7cc61c603f6eb502_capri-2.png",
+      "mime_type": "image/png",
+      "width": 1104,
+      "height": 880
     },
     {
       "supplier": "vista",
@@ -185,12 +244,33 @@
         "https://www.vistapatiodoors.com/patio-doors"
       ],
       "original_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/69a9e33da994db6bf1bd35a2_1975_Vista_Capri_3.0_Brochure_P2_web-compressed.pdf",
+      "final_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/69a9e33da994db6bf1bd35a2_1975_Vista_Capri_3.0_Brochure_P2_web-compressed.pdf",
       "local_path": "/documents/catalog/vista/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9.pdf",
       "asset_type": "document",
-      "role": "document",
+      "role": "brochure",
       "sha256": "04950435480b1256a9f81e364f806b38f6da4d8c47b1d30ea3ea74e68f3ad772",
       "bytes": 1057888,
-      "discovered_at": "2026-08-19T18:54:38Z"
+      "discovered_at": "2026-08-19T18:54:38Z",
+      "source_asset_urls": [
+        "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/69a9e33da994db6bf1bd35a2_1975_Vista_Capri_3.0_Brochure_P2_web-compressed.pdf"
+      ],
+      "product_ids": [
+        "vista:capri-3-0"
+      ],
+      "collections": [
+        "Patio Doors"
+      ],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "filename-model-match",
+        "supplier-scoped-document-map"
+      ],
+      "master_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/69a9e33da994db6bf1bd35a2_1975_Vista_Capri_3.0_Brochure_P2_web-compressed.pdf",
+      "selected_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/69a9e33da994db6bf1bd35a2_1975_Vista_Capri_3.0_Brochure_P2_web-compressed.pdf",
+      "mime_type": "application/pdf",
+      "width": null,
+      "height": null
     },
     {
       "supplier": "vista",
@@ -198,12 +278,33 @@
         "https://www.vistapatiodoors.com/patio-doors-amalfi"
       ],
       "original_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6635386dcbde5a8d27893008_Unknown-1.jpeg",
+      "final_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6635386dcbde5a8d27893008_Unknown-1.jpeg",
       "local_path": "/images/catalog/vista/6635386dcbde5a8d27893008-unknown-1-eb691f921743.jpeg",
       "asset_type": "image",
-      "role": "hero",
+      "role": "product-hero",
       "sha256": "d4bc317eef48f232af5e6978f4d6a0bfd02ff7baf7ebc5fe315d58df9f377fcc",
       "bytes": 313526,
-      "discovered_at": "2026-08-19T18:54:39Z"
+      "discovered_at": "2026-08-19T18:54:39Z",
+      "source_asset_urls": [
+        "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6635386dcbde5a8d27893008_Unknown-1.jpeg"
+      ],
+      "product_ids": [
+        "vista:amalfi-1-0"
+      ],
+      "collections": [
+        "Patio Doors"
+      ],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "primary-product-hero",
+        "supplier-scoped-asset-role"
+      ],
+      "master_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6635386dcbde5a8d27893008_Unknown-1.jpeg",
+      "selected_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6635386dcbde5a8d27893008_Unknown-1.jpeg",
+      "mime_type": "image/jpeg",
+      "width": 1095,
+      "height": 1280
     },
     {
       "supplier": "vista",
@@ -212,12 +313,33 @@
         "https://www.vistapatiodoors.com/patio-doors-amalfi"
       ],
       "original_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6635373d853e8ae2104f5b49_15503_3282_Vista_Amalfi_1.0_Brochure_P1_R3.pdf",
+      "final_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6635373d853e8ae2104f5b49_15503_3282_Vista_Amalfi_1.0_Brochure_P1_R3.pdf",
       "local_path": "/documents/catalog/vista/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424.pdf",
       "asset_type": "document",
-      "role": "document",
+      "role": "brochure",
       "sha256": "797979f95e923d6f5f5d7e5fa438d4a115ba1c969f39d85c283d954b0aa5c246",
       "bytes": 1842097,
-      "discovered_at": "2026-08-19T18:54:39Z"
+      "discovered_at": "2026-08-19T18:54:39Z",
+      "source_asset_urls": [
+        "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6635373d853e8ae2104f5b49_15503_3282_Vista_Amalfi_1.0_Brochure_P1_R3.pdf"
+      ],
+      "product_ids": [
+        "vista:amalfi-1-0"
+      ],
+      "collections": [
+        "Patio Doors"
+      ],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "filename-model-match",
+        "supplier-scoped-document-map"
+      ],
+      "master_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6635373d853e8ae2104f5b49_15503_3282_Vista_Amalfi_1.0_Brochure_P1_R3.pdf",
+      "selected_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6635373d853e8ae2104f5b49_15503_3282_Vista_Amalfi_1.0_Brochure_P1_R3.pdf",
+      "mime_type": "application/pdf",
+      "width": null,
+      "height": null
     },
     {
       "supplier": "vista",
@@ -225,12 +347,33 @@
         "https://www.vistapatiodoors.com/patio-doors-aria"
       ],
       "original_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6635384decfed09d0795fdec_Unknown.jpeg",
+      "final_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6635384decfed09d0795fdec_Unknown.jpeg",
       "local_path": "/images/catalog/vista/6635384decfed09d0795fdec-unknown-613719a0af53.jpeg",
       "asset_type": "image",
-      "role": "hero",
+      "role": "product-hero",
       "sha256": "13b5f57c96e004a2d0d8c24d72b4f853fc18d2dfddb00297947e802df6bd7be9",
       "bytes": 763073,
-      "discovered_at": "2026-08-19T18:54:39Z"
+      "discovered_at": "2026-08-19T18:54:39Z",
+      "source_asset_urls": [
+        "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6635384decfed09d0795fdec_Unknown.jpeg"
+      ],
+      "product_ids": [
+        "vista:aria-1-0"
+      ],
+      "collections": [
+        "Patio Doors"
+      ],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "primary-product-hero",
+        "supplier-scoped-asset-role"
+      ],
+      "master_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6635384decfed09d0795fdec_Unknown.jpeg",
+      "selected_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6635384decfed09d0795fdec_Unknown.jpeg",
+      "mime_type": "image/jpeg",
+      "width": 1695,
+      "height": 1920
     },
     {
       "supplier": "vista",
@@ -239,12 +382,33 @@
         "https://www.vistapatiodoors.com/patio-doors-aria"
       ],
       "original_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/663537f700e278e514b13ac0_15503_3282_Vista_Aria_1.0_Brochure_P1_R3_T.pdf",
+      "final_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/663537f700e278e514b13ac0_15503_3282_Vista_Aria_1.0_Brochure_P1_R3_T.pdf",
       "local_path": "/documents/catalog/vista/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32.pdf",
       "asset_type": "document",
-      "role": "document",
+      "role": "brochure",
       "sha256": "9ec2febd56dd28026cad936d9bac24198dd5956e4c0b91c3450a9e43708fba40",
       "bytes": 4812547,
-      "discovered_at": "2026-08-19T18:54:40Z"
+      "discovered_at": "2026-08-19T18:54:40Z",
+      "source_asset_urls": [
+        "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/663537f700e278e514b13ac0_15503_3282_Vista_Aria_1.0_Brochure_P1_R3_T.pdf"
+      ],
+      "product_ids": [
+        "vista:aria-1-0"
+      ],
+      "collections": [
+        "Patio Doors"
+      ],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "filename-model-match",
+        "supplier-scoped-document-map"
+      ],
+      "master_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/663537f700e278e514b13ac0_15503_3282_Vista_Aria_1.0_Brochure_P1_R3_T.pdf",
+      "selected_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/663537f700e278e514b13ac0_15503_3282_Vista_Aria_1.0_Brochure_P1_R3_T.pdf",
+      "mime_type": "application/pdf",
+      "width": null,
+      "height": null
     },
     {
       "supplier": "vista",
@@ -252,12 +416,33 @@
         "https://www.vistapatiodoors.com/patio-doors-rimini"
       ],
       "original_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/64833486f8f86e07bd54565c_rimi-min.png",
+      "final_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/64833486f8f86e07bd54565c_rimi-min.png",
       "local_path": "/images/catalog/vista/64833486f8f86e07bd54565c-rimi-min-ba0bc800e546.png",
       "asset_type": "image",
-      "role": "hero",
+      "role": "product-hero",
       "sha256": "7a3150fb16d5284e153ba64874d629fc0e3c2e14f231d70720c3d5490e7a5455",
       "bytes": 848205,
-      "discovered_at": "2026-08-19T18:54:40Z"
+      "discovered_at": "2026-08-19T18:54:40Z",
+      "source_asset_urls": [
+        "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/64833486f8f86e07bd54565c_rimi-min.png"
+      ],
+      "product_ids": [
+        "vista:rimini-2-0"
+      ],
+      "collections": [
+        "Patio Doors"
+      ],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "primary-product-hero",
+        "supplier-scoped-asset-role"
+      ],
+      "master_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/64833486f8f86e07bd54565c_rimi-min.png",
+      "selected_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/64833486f8f86e07bd54565c_rimi-min.png",
+      "mime_type": "image/png",
+      "width": 1224,
+      "height": 1568
     },
     {
       "supplier": "vista",
@@ -266,12 +451,33 @@
         "https://www.vistapatiodoors.com/patio-doors-rimini"
       ],
       "original_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/69ceba88dcf867a67e8de253_3057_Vista_Rimini_2.0_Brochure_P2-compressed.pdf",
+      "final_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/69ceba88dcf867a67e8de253_3057_Vista_Rimini_2.0_Brochure_P2-compressed.pdf",
       "local_path": "/documents/catalog/vista/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de.pdf",
       "asset_type": "document",
-      "role": "document",
+      "role": "brochure",
       "sha256": "1af3f57486264698a04b4bd843f476a965793ffb8fa45eddcc8147b6c0842fe3",
       "bytes": 971159,
-      "discovered_at": "2026-08-19T18:54:40Z"
+      "discovered_at": "2026-08-19T18:54:40Z",
+      "source_asset_urls": [
+        "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/69ceba88dcf867a67e8de253_3057_Vista_Rimini_2.0_Brochure_P2-compressed.pdf"
+      ],
+      "product_ids": [
+        "vista:rimini-2-0"
+      ],
+      "collections": [
+        "Patio Doors"
+      ],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "filename-model-match",
+        "supplier-scoped-document-map"
+      ],
+      "master_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/69ceba88dcf867a67e8de253_3057_Vista_Rimini_2.0_Brochure_P2-compressed.pdf",
+      "selected_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/69ceba88dcf867a67e8de253_3057_Vista_Rimini_2.0_Brochure_P2-compressed.pdf",
+      "mime_type": "application/pdf",
+      "width": null,
+      "height": null
     },
     {
       "supplier": "vista",
@@ -279,12 +485,35 @@
         "https://www.vistapatiodoors.com/downloads-info"
       ],
       "original_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6984f8c4f9df20505bb5f352_2026%20WARRANTY.pdf",
+      "final_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6984f8c4f9df20505bb5f352_2026%20WARRANTY.pdf",
       "local_path": "/documents/catalog/vista/6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4.pdf",
       "asset_type": "document",
-      "role": "document",
+      "role": "warranty",
       "sha256": "059c3625c0edb445438c2f0c3b95a54b471d08fbfbde0078da77139f880e65d2",
       "bytes": 85100,
-      "discovered_at": "2026-08-19T18:54:43Z"
+      "discovered_at": "2026-08-19T18:54:43Z",
+      "source_asset_urls": [
+        "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6984f8c4f9df20505bb5f352_2026%20WARRANTY.pdf"
+      ],
+      "product_ids": [
+        "vista:amalfi-1-0",
+        "vista:aria-1-0",
+        "vista:capri-3-0",
+        "vista:rimini-2-0"
+      ],
+      "collections": [
+        "Patio Doors"
+      ],
+      "scope": "product",
+      "relationship_state": "collection-shared",
+      "relationship_evidence": [
+        "supplier-scoped-document-map"
+      ],
+      "master_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6984f8c4f9df20505bb5f352_2026%20WARRANTY.pdf",
+      "selected_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6984f8c4f9df20505bb5f352_2026%20WARRANTY.pdf",
+      "mime_type": "application/pdf",
+      "width": null,
+      "height": null
     },
     {
       "supplier": "vista",
@@ -292,12 +521,33 @@
         "https://www.vistapatiodoors.com/downloads-info"
       ],
       "original_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6924c4c16b0485fa845307d7_Genius%20Warranty%20Information.pdf",
+      "final_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6924c4c16b0485fa845307d7_Genius%20Warranty%20Information.pdf",
       "local_path": "/documents/catalog/vista/6924c4c16b0485fa845307d7-genius-20warranty-20information-87aff38ccc97.pdf",
       "asset_type": "document",
-      "role": "document",
+      "role": "warranty",
       "sha256": "77cefefdf579218e119aea3eb47d97790a06f4d4976e0d365998816b9fe37a41",
       "bytes": 701808,
-      "discovered_at": "2026-08-19T18:54:43Z"
+      "discovered_at": "2026-08-19T18:54:43Z",
+      "source_asset_urls": [
+        "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6924c4c16b0485fa845307d7_Genius%20Warranty%20Information.pdf"
+      ],
+      "product_ids": [
+        "vista:aria-1-0",
+        "vista:rimini-2-0"
+      ],
+      "collections": [
+        "Patio Doors"
+      ],
+      "scope": "product",
+      "relationship_state": "collection-shared",
+      "relationship_evidence": [
+        "supplier-scoped-document-map"
+      ],
+      "master_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6924c4c16b0485fa845307d7_Genius%20Warranty%20Information.pdf",
+      "selected_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6924c4c16b0485fa845307d7_Genius%20Warranty%20Information.pdf",
+      "mime_type": "application/pdf",
+      "width": null,
+      "height": null
     },
     {
       "supplier": "vista",
@@ -305,12 +555,32 @@
         "https://www.vistapatiodoors.com/downloads-info"
       ],
       "original_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6495979a7c779f4ff0258f83_2033%20Vista%20Installation%20Guide%20-%202%20Panel%20Patio%20Door_P1.pdf",
+      "final_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6495979a7c779f4ff0258f83_2033%20Vista%20Installation%20Guide%20-%202%20Panel%20Patio%20Door_P1.pdf",
       "local_path": "/documents/catalog/vista/6495979a7c779f4ff0258f83-2033-20vista-20installation-20guide-20-202-20panel-20patio-20door-p1-65c62ff4559a.pdf",
       "asset_type": "document",
-      "role": "document",
+      "role": "installation-guide",
       "sha256": "cb8cd6b4775ce42aca6a07b0d4492999bf4eaf1099fb0741080e32271de69049",
       "bytes": 977227,
-      "discovered_at": "2026-08-19T18:54:43Z"
+      "discovered_at": "2026-08-19T18:54:43Z",
+      "source_asset_urls": [
+        "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6495979a7c779f4ff0258f83_2033%20Vista%20Installation%20Guide%20-%202%20Panel%20Patio%20Door_P1.pdf"
+      ],
+      "product_ids": [
+        "vista:capri-3-0"
+      ],
+      "collections": [
+        "Patio Doors"
+      ],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "supplier-scoped-document-map"
+      ],
+      "master_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6495979a7c779f4ff0258f83_2033%20Vista%20Installation%20Guide%20-%202%20Panel%20Patio%20Door_P1.pdf",
+      "selected_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6495979a7c779f4ff0258f83_2033%20Vista%20Installation%20Guide%20-%202%20Panel%20Patio%20Door_P1.pdf",
+      "mime_type": "application/pdf",
+      "width": null,
+      "height": null
     },
     {
       "supplier": "vista",
@@ -318,12 +588,32 @@
         "https://www.vistapatiodoors.com/downloads-info"
       ],
       "original_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6495979a31cb704c1739a3e2_2033%20Vista%20Installation%20Guide%20-%203%20Panel%20Patio%20Door_P1.pdf",
+      "final_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6495979a31cb704c1739a3e2_2033%20Vista%20Installation%20Guide%20-%203%20Panel%20Patio%20Door_P1.pdf",
       "local_path": "/documents/catalog/vista/6495979a31cb704c1739a3e2-2033-20vista-20installation-20guide-20-203-20panel-20patio-20door-p1-dedae87e1085.pdf",
       "asset_type": "document",
-      "role": "document",
+      "role": "installation-guide",
       "sha256": "0081dae8caaa6665437100746663083bb1089da84fe37a1c941519c8fa467c63",
       "bytes": 1027137,
-      "discovered_at": "2026-08-19T18:54:43Z"
+      "discovered_at": "2026-08-19T18:54:43Z",
+      "source_asset_urls": [
+        "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6495979a31cb704c1739a3e2_2033%20Vista%20Installation%20Guide%20-%203%20Panel%20Patio%20Door_P1.pdf"
+      ],
+      "product_ids": [
+        "vista:capri-3-0"
+      ],
+      "collections": [
+        "Patio Doors"
+      ],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "supplier-scoped-document-map"
+      ],
+      "master_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6495979a31cb704c1739a3e2_2033%20Vista%20Installation%20Guide%20-%203%20Panel%20Patio%20Door_P1.pdf",
+      "selected_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6495979a31cb704c1739a3e2_2033%20Vista%20Installation%20Guide%20-%203%20Panel%20Patio%20Door_P1.pdf",
+      "mime_type": "application/pdf",
+      "width": null,
+      "height": null
     },
     {
       "supplier": "vista",
@@ -331,12 +621,32 @@
         "https://www.vistapatiodoors.com/downloads-info"
       ],
       "original_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6495979a399738dade882cdc_2033%20VVista%20Installation%20Guide%20-%204%20Panel%20Patio%20Door_P1.pdf",
+      "final_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6495979a399738dade882cdc_2033%20VVista%20Installation%20Guide%20-%204%20Panel%20Patio%20Door_P1.pdf",
       "local_path": "/documents/catalog/vista/6495979a399738dade882cdc-2033-20vvista-20installation-20guide-20-204-20panel-20patio-20door-p1-6b12c9f8c577.pdf",
       "asset_type": "document",
-      "role": "document",
+      "role": "installation-guide",
       "sha256": "85953f4344984247d019ca62a97a5d9b152a5f51202d21e7f232e8e1691c6a6c",
       "bytes": 960697,
-      "discovered_at": "2026-08-19T18:54:43Z"
+      "discovered_at": "2026-08-19T18:54:43Z",
+      "source_asset_urls": [
+        "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6495979a399738dade882cdc_2033%20VVista%20Installation%20Guide%20-%204%20Panel%20Patio%20Door_P1.pdf"
+      ],
+      "product_ids": [
+        "vista:capri-3-0"
+      ],
+      "collections": [
+        "Patio Doors"
+      ],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "supplier-scoped-document-map"
+      ],
+      "master_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6495979a399738dade882cdc_2033%20VVista%20Installation%20Guide%20-%204%20Panel%20Patio%20Door_P1.pdf",
+      "selected_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6495979a399738dade882cdc_2033%20VVista%20Installation%20Guide%20-%204%20Panel%20Patio%20Door_P1.pdf",
+      "mime_type": "application/pdf",
+      "width": null,
+      "height": null
     },
     {
       "supplier": "vista",
@@ -344,12 +654,26 @@
         "https://www.vistapatiodoors.com/downloads-info"
       ],
       "original_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6483431b5e32284bea25a88a_MINI-BLIND-WARRANTY-ODL-1.pdf",
+      "final_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6483431b5e32284bea25a88a_MINI-BLIND-WARRANTY-ODL-1.pdf",
       "local_path": "/documents/catalog/vista/6483431b5e32284bea25a88a-mini-blind-warranty-odl-1-cec6a37f71a4.pdf",
       "asset_type": "document",
-      "role": "document",
+      "role": "warranty",
       "sha256": "ccf9b030503b83d5d6d67d1fcb8588077271f0607bc2a27212954d37653cf54f",
       "bytes": 66680,
-      "discovered_at": "2026-08-19T18:54:43Z"
+      "discovered_at": "2026-08-19T18:54:43Z",
+      "source_asset_urls": [
+        "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6483431b5e32284bea25a88a_MINI-BLIND-WARRANTY-ODL-1.pdf"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6483431b5e32284bea25a88a_MINI-BLIND-WARRANTY-ODL-1.pdf",
+      "selected_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6483431b5e32284bea25a88a_MINI-BLIND-WARRANTY-ODL-1.pdf",
+      "mime_type": "application/pdf",
+      "width": null,
+      "height": null
     },
     {
       "supplier": "vista",
@@ -357,12 +681,32 @@
         "https://www.vistapatiodoors.com/downloads-info"
       ],
       "original_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/649597fed61fa22b4c87916e_6483432a22613c6de6af9ada_ENERGY-STAR-CHART-2020.pdf",
+      "final_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/649597fed61fa22b4c87916e_6483432a22613c6de6af9ada_ENERGY-STAR-CHART-2020.pdf",
       "local_path": "/documents/catalog/vista/649597fed61fa22b4c87916e-6483432a22613c6de6af9ada-energy-star-chart-2020-089e49a70e84.pdf",
       "asset_type": "document",
-      "role": "document",
+      "role": "performance-document",
       "sha256": "5b6dd02ce18c088bbd7f0af4a539b6b44e860ae6e3289e9353e527dd8509d429",
       "bytes": 202469,
-      "discovered_at": "2026-08-19T18:54:43Z"
+      "discovered_at": "2026-08-19T18:54:43Z",
+      "source_asset_urls": [
+        "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/649597fed61fa22b4c87916e_6483432a22613c6de6af9ada_ENERGY-STAR-CHART-2020.pdf"
+      ],
+      "product_ids": [
+        "vista:capri-3-0"
+      ],
+      "collections": [
+        "Patio Doors"
+      ],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "supplier-scoped-document-map"
+      ],
+      "master_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/649597fed61fa22b4c87916e_6483432a22613c6de6af9ada_ENERGY-STAR-CHART-2020.pdf",
+      "selected_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/649597fed61fa22b4c87916e_6483432a22613c6de6af9ada_ENERGY-STAR-CHART-2020.pdf",
+      "mime_type": "application/pdf",
+      "width": null,
+      "height": null
     },
     {
       "supplier": "vista",
@@ -370,12 +714,32 @@
         "https://www.vistapatiodoors.com/downloads-info"
       ],
       "original_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a0c882b18807c02bd36_0000%20Vista%20Installation%20Guide%20-%203%20Panel%20Patio%20Door_Rimini_P1.pdf",
+      "final_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a0c882b18807c02bd36_0000%20Vista%20Installation%20Guide%20-%203%20Panel%20Patio%20Door_Rimini_P1.pdf",
       "local_path": "/documents/catalog/vista/66353a0c882b18807c02bd36-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-rimini-p1-1f31ad50f24d.pdf",
       "asset_type": "document",
-      "role": "document",
+      "role": "installation-guide",
       "sha256": "19dbef766802368d04d55e44ed5060e68f886caf044317d76852b14903f737d1",
       "bytes": 862908,
-      "discovered_at": "2026-08-19T18:54:43Z"
+      "discovered_at": "2026-08-19T18:54:43Z",
+      "source_asset_urls": [
+        "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a0c882b18807c02bd36_0000%20Vista%20Installation%20Guide%20-%203%20Panel%20Patio%20Door_Rimini_P1.pdf"
+      ],
+      "product_ids": [
+        "vista:rimini-2-0"
+      ],
+      "collections": [
+        "Patio Doors"
+      ],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "supplier-scoped-document-map"
+      ],
+      "master_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a0c882b18807c02bd36_0000%20Vista%20Installation%20Guide%20-%203%20Panel%20Patio%20Door_Rimini_P1.pdf",
+      "selected_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a0c882b18807c02bd36_0000%20Vista%20Installation%20Guide%20-%203%20Panel%20Patio%20Door_Rimini_P1.pdf",
+      "mime_type": "application/pdf",
+      "width": null,
+      "height": null
     },
     {
       "supplier": "vista",
@@ -383,12 +747,32 @@
         "https://www.vistapatiodoors.com/downloads-info"
       ],
       "original_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a23376329e391ee050d_0000%20Vista%20Installation%20Guide%20-%203%20Panel%20Patio%20Door_Aria_P1.pdf",
+      "final_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a23376329e391ee050d_0000%20Vista%20Installation%20Guide%20-%203%20Panel%20Patio%20Door_Aria_P1.pdf",
       "local_path": "/documents/catalog/vista/66353a23376329e391ee050d-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-aria-p1-9747079a3820.pdf",
       "asset_type": "document",
-      "role": "document",
+      "role": "installation-guide",
       "sha256": "b92d4b5f28c95cbd3689cbb1e77af8922bcaa63e752b378cf9a1ca08b457df16",
       "bytes": 1176346,
-      "discovered_at": "2026-08-19T18:54:43Z"
+      "discovered_at": "2026-08-19T18:54:43Z",
+      "source_asset_urls": [
+        "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a23376329e391ee050d_0000%20Vista%20Installation%20Guide%20-%203%20Panel%20Patio%20Door_Aria_P1.pdf"
+      ],
+      "product_ids": [
+        "vista:aria-1-0"
+      ],
+      "collections": [
+        "Patio Doors"
+      ],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "supplier-scoped-document-map"
+      ],
+      "master_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a23376329e391ee050d_0000%20Vista%20Installation%20Guide%20-%203%20Panel%20Patio%20Door_Aria_P1.pdf",
+      "selected_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a23376329e391ee050d_0000%20Vista%20Installation%20Guide%20-%203%20Panel%20Patio%20Door_Aria_P1.pdf",
+      "mime_type": "application/pdf",
+      "width": null,
+      "height": null
     },
     {
       "supplier": "vista",
@@ -396,12 +780,32 @@
         "https://www.vistapatiodoors.com/downloads-info"
       ],
       "original_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a37781ef5f59ee43965_15223_VistaPatioInstallationGuide-2Panel_BROCHURE_v1.pdf",
+      "final_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a37781ef5f59ee43965_15223_VistaPatioInstallationGuide-2Panel_BROCHURE_v1.pdf",
       "local_path": "/documents/catalog/vista/66353a37781ef5f59ee43965-15223-vistapatioinstallationguide-2panel-brochure-v1-263ddc7ef14f.pdf",
       "asset_type": "document",
-      "role": "document",
+      "role": "installation-guide",
       "sha256": "c3aaff61b066aa7ebaa7e29b2b80180a6e7ba87bc89d5b106400409788669ac4",
       "bytes": 916420,
-      "discovered_at": "2026-08-19T18:54:43Z"
+      "discovered_at": "2026-08-19T18:54:43Z",
+      "source_asset_urls": [
+        "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a37781ef5f59ee43965_15223_VistaPatioInstallationGuide-2Panel_BROCHURE_v1.pdf"
+      ],
+      "product_ids": [
+        "vista:amalfi-1-0"
+      ],
+      "collections": [
+        "Patio Doors"
+      ],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "supplier-scoped-document-map"
+      ],
+      "master_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a37781ef5f59ee43965_15223_VistaPatioInstallationGuide-2Panel_BROCHURE_v1.pdf",
+      "selected_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a37781ef5f59ee43965_15223_VistaPatioInstallationGuide-2Panel_BROCHURE_v1.pdf",
+      "mime_type": "application/pdf",
+      "width": null,
+      "height": null
     },
     {
       "supplier": "vista",
@@ -409,12 +813,32 @@
         "https://www.vistapatiodoors.com/downloads-info"
       ],
       "original_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a4e5ece0bc5f46347a7_15223_VistaPatioInstallationGuide-3Panel_BROCHURE_v1.pdf",
+      "final_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a4e5ece0bc5f46347a7_15223_VistaPatioInstallationGuide-3Panel_BROCHURE_v1.pdf",
       "local_path": "/documents/catalog/vista/66353a4e5ece0bc5f46347a7-15223-vistapatioinstallationguide-3panel-brochure-v1-f16e3ac71e95.pdf",
       "asset_type": "document",
-      "role": "document",
+      "role": "installation-guide",
       "sha256": "a67b71bd2e4d49d1852547284a205081c657c12cb2c1cbeeca2bc12bb54b6c32",
       "bytes": 1252746,
-      "discovered_at": "2026-08-19T18:54:44Z"
+      "discovered_at": "2026-08-19T18:54:44Z",
+      "source_asset_urls": [
+        "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a4e5ece0bc5f46347a7_15223_VistaPatioInstallationGuide-3Panel_BROCHURE_v1.pdf"
+      ],
+      "product_ids": [
+        "vista:amalfi-1-0"
+      ],
+      "collections": [
+        "Patio Doors"
+      ],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "supplier-scoped-document-map"
+      ],
+      "master_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a4e5ece0bc5f46347a7_15223_VistaPatioInstallationGuide-3Panel_BROCHURE_v1.pdf",
+      "selected_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a4e5ece0bc5f46347a7_15223_VistaPatioInstallationGuide-3Panel_BROCHURE_v1.pdf",
+      "mime_type": "application/pdf",
+      "width": null,
+      "height": null
     },
     {
       "supplier": "vista",
@@ -422,12 +846,32 @@
         "https://www.vistapatiodoors.com/downloads-info"
       ],
       "original_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a6862a4e06d8206365d_15223_VistaPatioInstallationGuide-4Panel_BROCHURE_v1.pdf",
+      "final_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a6862a4e06d8206365d_15223_VistaPatioInstallationGuide-4Panel_BROCHURE_v1.pdf",
       "local_path": "/documents/catalog/vista/66353a6862a4e06d8206365d-15223-vistapatioinstallationguide-4panel-brochure-v1-00411e836895.pdf",
       "asset_type": "document",
-      "role": "document",
+      "role": "installation-guide",
       "sha256": "6caec3e25b810212222ee80e8a67503c471d1dd702c775b493d3bafaa4292d1d",
       "bytes": 984673,
-      "discovered_at": "2026-08-19T18:54:44Z"
+      "discovered_at": "2026-08-19T18:54:44Z",
+      "source_asset_urls": [
+        "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a6862a4e06d8206365d_15223_VistaPatioInstallationGuide-4Panel_BROCHURE_v1.pdf"
+      ],
+      "product_ids": [
+        "vista:amalfi-1-0"
+      ],
+      "collections": [
+        "Patio Doors"
+      ],
+      "scope": "product",
+      "relationship_state": "product-specific",
+      "relationship_evidence": [
+        "supplier-scoped-document-map"
+      ],
+      "master_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a6862a4e06d8206365d_15223_VistaPatioInstallationGuide-4Panel_BROCHURE_v1.pdf",
+      "selected_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a6862a4e06d8206365d_15223_VistaPatioInstallationGuide-4Panel_BROCHURE_v1.pdf",
+      "mime_type": "application/pdf",
+      "width": null,
+      "height": null
     },
     {
       "supplier": "vista",
@@ -435,12 +879,85 @@
         "https://www.vistapatiodoors.com/downloads-info"
       ],
       "original_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/699e04ffbb6e40e474618edb_3607_Vista_Safety_Glass_Sellsheet_P1.pdf",
+      "final_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/699e04ffbb6e40e474618edb_3607_Vista_Safety_Glass_Sellsheet_P1.pdf",
       "local_path": "/documents/catalog/vista/699e04ffbb6e40e474618edb-3607-vista-safety-glass-sellsheet-p1-89823beb9d0a.pdf",
       "asset_type": "document",
-      "role": "document",
+      "role": "performance-document",
       "sha256": "0765ac4e80797f8b58b127e1d0b8d45a53e70e7938949b15b592b3a5dbd653c6",
       "bytes": 1732230,
-      "discovered_at": "2026-08-19T18:54:44Z"
+      "discovered_at": "2026-08-19T18:54:44Z",
+      "source_asset_urls": [
+        "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/699e04ffbb6e40e474618edb_3607_Vista_Safety_Glass_Sellsheet_P1.pdf"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [],
+      "master_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/699e04ffbb6e40e474618edb_3607_Vista_Safety_Glass_Sellsheet_P1.pdf",
+      "selected_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/699e04ffbb6e40e474618edb_3607_Vista_Safety_Glass_Sellsheet_P1.pdf",
+      "mime_type": "application/pdf",
+      "width": null,
+      "height": null
+    },
+    {
+      "supplier": "vista",
+      "source_page_urls": [
+        "https://www.vistapatiodoors.com/",
+        "https://www.vistapatiodoors.com/gallery"
+      ],
+      "original_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/647f95e63447aa97581002f7_doors.jpg",
+      "final_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/647f95e63447aa97581002f7_doors.jpg",
+      "local_path": "/images/catalog/vista/647f95e63447aa97581002f7-doors-1db5e9e80f08.jpg",
+      "asset_type": "image",
+      "role": "lifestyle-product",
+      "sha256": "278d78fcfff67ee593391772e3fee78280fd8c908cd27ce9116c0d01e8250b97",
+      "bytes": 245923,
+      "discovered_at": "2026-08-20T08:57:02Z",
+      "source_asset_urls": [
+        "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/647f95e63447aa97581002f7_doors.jpg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [
+        "supplier-scoped-asset-role"
+      ],
+      "master_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/647f95e63447aa97581002f7_doors.jpg",
+      "selected_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/647f95e63447aa97581002f7_doors.jpg",
+      "mime_type": "image/jpeg",
+      "width": 1088,
+      "height": 726
+    },
+    {
+      "supplier": "vista",
+      "source_page_urls": [
+        "https://www.vistapatiodoors.com/gallery"
+      ],
+      "original_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6635389f3fdf793049f6b274_Unknown-1.jpeg",
+      "final_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6635389f3fdf793049f6b274_Unknown-1.jpeg",
+      "local_path": "/images/catalog/vista/6635389f3fdf793049f6b274-unknown-1-5c5e4ddc5615.jpeg",
+      "asset_type": "image",
+      "role": "lifestyle-product",
+      "sha256": "5ee446b435d115c27aed0277ff81b2376cad63c9de5e56f70601677876048b90",
+      "bytes": 579094,
+      "discovered_at": "2026-08-20T08:57:03Z",
+      "source_asset_urls": [
+        "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6635389f3fdf793049f6b274_Unknown-1.jpeg"
+      ],
+      "product_ids": [],
+      "collections": [],
+      "scope": "supplier",
+      "relationship_state": "supplier-shared",
+      "relationship_evidence": [
+        "supplier-scoped-asset-role"
+      ],
+      "master_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6635389f3fdf793049f6b274_Unknown-1.jpeg",
+      "selected_asset_url": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6635389f3fdf793049f6b274_Unknown-1.jpeg",
+      "mime_type": "image/jpeg",
+      "width": 1920,
+      "height": 1280
     }
   ],
   "products": [
@@ -462,10 +979,15 @@
         "/images/catalog/vista/648333ccfdc5dc4cf2a1ba8c-capri-1-c077ba41d23a.png"
       ],
       "documents": [
+        "/documents/catalog/vista/6495979a31cb704c1739a3e2-2033-20vista-20installation-20guide-20-203-20panel-20patio-20door-p1-dedae87e1085.pdf",
+        "/documents/catalog/vista/6495979a399738dade882cdc-2033-20vvista-20installation-20guide-20-204-20panel-20patio-20door-p1-6b12c9f8c577.pdf",
+        "/documents/catalog/vista/6495979a7c779f4ff0258f83-2033-20vista-20installation-20guide-20-202-20panel-20patio-20door-p1-65c62ff4559a.pdf",
+        "/documents/catalog/vista/649597fed61fa22b4c87916e-6483432a22613c6de6af9ada-energy-star-chart-2020-089e49a70e84.pdf",
+        "/documents/catalog/vista/6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4.pdf",
         "/documents/catalog/vista/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9.pdf"
       ],
       "specifications": {},
-      "lastVerified": "2026-08-19"
+      "lastVerified": "2026-08-20"
     },
     {
       "id": "vista:amalfi-1-0",
@@ -484,10 +1006,14 @@
         "/images/catalog/vista/6635386dcbde5a8d27893008-unknown-1-eb691f921743.jpeg"
       ],
       "documents": [
-        "/documents/catalog/vista/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424.pdf"
+        "/documents/catalog/vista/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424.pdf",
+        "/documents/catalog/vista/66353a37781ef5f59ee43965-15223-vistapatioinstallationguide-2panel-brochure-v1-263ddc7ef14f.pdf",
+        "/documents/catalog/vista/66353a4e5ece0bc5f46347a7-15223-vistapatioinstallationguide-3panel-brochure-v1-f16e3ac71e95.pdf",
+        "/documents/catalog/vista/66353a6862a4e06d8206365d-15223-vistapatioinstallationguide-4panel-brochure-v1-00411e836895.pdf",
+        "/documents/catalog/vista/6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4.pdf"
       ],
       "specifications": {},
-      "lastVerified": "2026-08-19"
+      "lastVerified": "2026-08-20"
     },
     {
       "id": "vista:aria-1-0",
@@ -506,10 +1032,13 @@
         "/images/catalog/vista/6635384decfed09d0795fdec-unknown-613719a0af53.jpeg"
       ],
       "documents": [
-        "/documents/catalog/vista/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32.pdf"
+        "/documents/catalog/vista/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32.pdf",
+        "/documents/catalog/vista/66353a23376329e391ee050d-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-aria-p1-9747079a3820.pdf",
+        "/documents/catalog/vista/6924c4c16b0485fa845307d7-genius-20warranty-20information-87aff38ccc97.pdf",
+        "/documents/catalog/vista/6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4.pdf"
       ],
       "specifications": {},
-      "lastVerified": "2026-08-19"
+      "lastVerified": "2026-08-20"
     },
     {
       "id": "vista:rimini-2-0",
@@ -528,11 +1057,15 @@
         "/images/catalog/vista/64833486f8f86e07bd54565c-rimi-min-ba0bc800e546.png"
       ],
       "documents": [
+        "/documents/catalog/vista/66353a0c882b18807c02bd36-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-rimini-p1-1f31ad50f24d.pdf",
+        "/documents/catalog/vista/6924c4c16b0485fa845307d7-genius-20warranty-20information-87aff38ccc97.pdf",
+        "/documents/catalog/vista/6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4.pdf",
         "/documents/catalog/vista/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de.pdf"
       ],
       "specifications": {},
-      "lastVerified": "2026-08-19"
+      "lastVerified": "2026-08-20"
     }
   ],
-  "errors": []
+  "errors": [],
+  "relationshipsRevalidatedAt": "2026-08-20T09:07:41Z"
 }

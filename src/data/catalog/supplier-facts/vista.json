@@ -1,0 +1,203 @@
+{
+  "supplier": "vista",
+  "reviewedAt": "2026-08-20",
+  "factSets": [
+    {
+      "productIds": ["vista:capri-3-0", "vista:amalfi-1-0", "vista:aria-1-0", "vista:rimini-2-0"],
+      "sources": [
+        {
+          "supplier": "vista",
+          "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6984f8c4f9df20505bb5f352_2026%20WARRANTY.pdf",
+          "sourceDocument": "/documents/catalog/vista/6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4.pdf",
+          "page": 1,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4/pages/page-0001.txt",
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "warranty": "Vista's current 2026 warranty states 25-year coverage for white PVC components, 10-year coverage for Vista-supplied painted PVC components, 20-year sealed-unit coverage under its lifetime-limited section, and two-year hardware coverage; full exclusions and claim terms remain controlling."
+      }
+    },
+    {
+      "productIds": ["vista:capri-3-0"],
+      "sources": [
+        {
+          "supplier": "vista",
+          "sourceUrl": "https://www.vistapatiodoors.com/patio-doors",
+          "snapshotPath": "source-media/vista/html/0003-patio-doors-capri-3-0.html",
+          "status": "active",
+          "evidenceType": "current-supplier-webpage",
+          "extractionMethod": "saved-html",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "supplier": "vista",
+          "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/69a9e33da994db6bf1bd35a2_1975_Vista_Capri_3.0_Brochure_P2_web-compressed.pdf",
+          "sourceDocument": "/documents/catalog/vista/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9.pdf",
+          "pages": [3, 4, 5, 6, 7, 8],
+          "textPaths": [
+            "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0003.txt",
+            "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0004.txt",
+            "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0005.txt",
+            "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0006.txt",
+            "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0007.txt",
+            "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0008.txt"
+          ],
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text-and-visual-chart-review",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "supplier": "vista",
+          "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/649597fed61fa22b4c87916e_6483432a22613c6de6af9ada_ENERGY-STAR-CHART-2020.pdf",
+          "sourceDocument": "/documents/catalog/vista/649597fed61fa22b4c87916e-6483432a22613c6de6af9ada-energy-star-chart-2020-089e49a70e84.pdf",
+          "page": 1,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/649597fed61fa22b4c87916e-6483432a22613c6de6af9ada-energy-star-chart-2020-089e49a70e84/pages/page-0001.txt",
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text-and-table",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "productType": "Sliding patio door",
+        "configuration": "Standard two-, three-, and four-panel arrangements with multiple operating/fixed-panel layouts; custom sizes are available in all configurations, subject to option restrictions.",
+        "availableSizes": ["79 1/4 in standard height", "81 1/4 in standard height", "95 1/4 in standard height", "Standard widths from 58 3/4 in through 191 1/8 in depending on configuration", "Custom sizes available"],
+        "weatherSealing": "Soft-touch fin weatherstrip supports gliding action, with multi-finned weatherstrip at the top and bottom to reduce air infiltration.",
+        "hardware": "Standard twin-point lock with inside and outside D-handles; Siena is the standard hardware series, with Verona, Sorrento, and San Remo options plus secondary kicklocks or topbolts.",
+        "screen": "Standard 2 in by 1/2 in screen; the Da Vinci package substitutes an upgraded 3 in Robusto screen.",
+        "glazing": "One-inch Low-E sealed units are standard; LoE-272, LoE-366, and i89 combinations are listed as efficiency options. The separately published 2020 thermal chart is Capri-specific.",
+        "colourFinish": "Hundreds of standard paint colours and a colour-match program are offered; exterior SDLs and interior grille options are also listed.",
+        "accessories": "Seven standard brickmould sizes, interior extensions and casings, integrated transoms and sidelites, and standard or custom blinds-between-glass programs are documented."
+      }
+    },
+    {
+      "productIds": ["vista:amalfi-1-0"],
+      "sources": [
+        {
+          "supplier": "vista",
+          "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-amalfi",
+          "snapshotPath": "source-media/vista/html/0004-patio-doors-amalfi.html",
+          "status": "active",
+          "evidenceType": "current-supplier-webpage",
+          "extractionMethod": "saved-html",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "supplier": "vista",
+          "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6635373d853e8ae2104f5b49_15503_3282_Vista_Amalfi_1.0_Brochure_P1_R3.pdf",
+          "sourceDocument": "/documents/catalog/vista/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424.pdf",
+          "pages": [1, 2, 3, 4],
+          "textPaths": [
+            "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0001.txt",
+            "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0002.txt",
+            "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0003.txt",
+            "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0004.txt"
+          ],
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text-and-visual-chart-review",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "productType": "Sliding patio door",
+        "material": "All-PVC mechanical frame with welded sash",
+        "configuration": "Two-, three-, and four-panel configurations.",
+        "availableSizes": ["79 1/4 in standard height", "95 1/4 in standard height", "Two-panel widths: 59 1/2, 71 1/2, and 95 1/2 in", "Three-panel widths: 89 7/8, 107 7/8, and 143 7/8 in", "Four-panel widths: 117, 141, and 189 in"],
+        "frameSash": "Four-inch welded sashes with heavy-duty reinforcement in vertical and bottom stiles support taller and wider doors.",
+        "operation": "1 7/8 in nylon tandem rollers, with quad sets specified for oversized doors; the supplier also describes a water-clearing drainage system.",
+        "hardware": "Standard three-point lock with powder-coated San Remo hardware and thumb-turn; white, black, and split black/white finishes are listed, with optional upgraded hardware and secondary locks.",
+        "screen": "Premium 3 in Robusto screen with recessed lock handle and heavy-duty zinc keeper.",
+        "glass": "Easy-clean glass coating and one-inch sealed units are documented, with optional high-efficiency glass packages.",
+        "colourFinish": "Hundreds of standard paint colours and a colour-match program are offered."
+      }
+    },
+    {
+      "productIds": ["vista:aria-1-0"],
+      "sources": [
+        {
+          "supplier": "vista",
+          "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-aria",
+          "snapshotPath": "source-media/vista/html/0005-stacking-patio-doors-aria.html",
+          "status": "active",
+          "evidenceType": "current-supplier-webpage",
+          "extractionMethod": "saved-html",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "supplier": "vista",
+          "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/663537f700e278e514b13ac0_15503_3282_Vista_Aria_1.0_Brochure_P1_R3_T.pdf",
+          "sourceDocument": "/documents/catalog/vista/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32.pdf",
+          "pages": [1, 2, 3, 4],
+          "textPaths": [
+            "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0001.txt",
+            "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0002.txt",
+            "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0003.txt",
+            "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0004.txt"
+          ],
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text-and-visual-chart-review",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "productType": "Stacking patio door",
+        "material": "All-PVC mechanical frame with welded sash",
+        "configuration": "Three- and six-panel stacking arrangements on a double roller track.",
+        "availableSizes": ["79 1/4 in standard height", "95 1/4 in standard height", "Three-panel widths: 85 1/2, 103 1/2, and 139 1/2 in", "Six-panel widths: 171, 207, and 279 in"],
+        "frameSash": "Four-inch welded sashes with heavy-duty reinforcement in vertical and bottom stiles support taller and wider doors.",
+        "operation": "1 7/8 in nylon tandem rollers, with quad sets specified for oversized doors; panels slide and stack within the frame.",
+        "hardware": "Standard three-point lock with powder-coated San Remo hardware and thumb-turn; white, black, and split black/white finishes are listed.",
+        "screen": "Optional retractable screen; documented screen colours are black, white, commercial brown, and sandalwood.",
+        "glass": "Easy-clean glass coating and one-inch sealed units are documented, with optional high-efficiency glass packages.",
+        "colourFinish": "Hundreds of standard paint colours and a colour-match program are offered."
+      }
+    },
+    {
+      "productIds": ["vista:rimini-2-0"],
+      "sources": [
+        {
+          "supplier": "vista",
+          "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-rimini",
+          "snapshotPath": "source-media/vista/html/0006-stacking-patio-doors-rimini-2-0.html",
+          "status": "active",
+          "evidenceType": "current-supplier-webpage",
+          "extractionMethod": "saved-html",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "supplier": "vista",
+          "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/69ceba88dcf867a67e8de253_3057_Vista_Rimini_2.0_Brochure_P2-compressed.pdf",
+          "sourceDocument": "/documents/catalog/vista/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de.pdf",
+          "pages": [1, 2, 3, 4],
+          "textPaths": [
+            "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0001.txt",
+            "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0002.txt",
+            "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0003.txt",
+            "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0004.txt"
+          ],
+          "status": "active",
+          "evidenceType": "current-supplier-publication",
+          "extractionMethod": "embedded-text-and-visual-chart-review",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "facts": {
+        "productType": "Stacking patio door",
+        "configuration": "Three- and six-panel stacking arrangements on a double roller track.",
+        "availableSizes": ["79 1/4 in standard height", "81 1/4 in standard height", "95 1/4 in standard height", "Three-panel widths: 86 7/16, 104 7/16, and 140 7/16 in", "Six-panel widths: 170 3/16, 206 3/16, and 278 3/16 in", "Custom sizes available subject to option restrictions"],
+        "frame": "7 7/8 in frame depth with jamb pocket covers.",
+        "operation": "Precision Vista Glide nylon tandem rollers, replaceable weatherstripping, and a water-clearing drainage system are documented.",
+        "hardware": "Standard paint-grade Sorrento handle with optional satin nickel; San Remo slim/pull upgrade is available but is not compatible with the retractable screen.",
+        "screen": "Optional pleated retractable screen in black or white; keyed hardware is not compatible with the retractable screen.",
+        "glass": "Energy-efficient glass types are offered; the supplier does not publish Rimini-specific thermal values in the current document set."
+      }
+    }
+  ]
+}

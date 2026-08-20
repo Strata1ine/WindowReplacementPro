@@ -1,0 +1,20 @@
+{
+  "supplier": "vista",
+  "products": 4,
+  "productsWithMediaBefore": 4,
+  "productsWithMediaAfter": 4,
+  "productsStillMissingMedia": [],
+  "acceptedAssetsBefore": 24,
+  "downloadedCandidatesRecovered": 0,
+  "acceptedAssetsAfter": 24,
+  "rejectedAssociations": [],
+  "relationshipStates": {
+    "product-specific": 18,
+    "collection-shared": 2,
+    "supplier-shared": 4,
+    "uncertain/review": 0
+  },
+  "sharedProductBinaries": 2,
+  "changedProducts": [],
+  "unresolvedErrors": []
+}

@@ -75362,7 +75362,7 @@
           {
             "supplier": "vista",
             "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-amalfi",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -75373,7 +75373,7 @@
           {
             "supplier": "vista",
             "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-amalfi",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -75386,20 +75386,402 @@
           {
             "supplier": "vista",
             "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-amalfi",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
       },
       "normalized": {
         "productType": {
-          "value": "Sliding Patio Door",
+          "value": "Sliding patio door",
           "sources": [
             {
               "supplier": "vista",
               "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-amalfi",
-              "extractedAt": "2026-08-19T00:00:00Z",
-              "status": "active"
+              "snapshotPath": "source-media/vista/html/0004-patio-doors-amalfi.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6635373d853e8ae2104f5b49_15503_3282_Vista_Amalfi_1.0_Brochure_P1_R3.pdf",
+              "sourceDocument": "/documents/catalog/vista/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424.pdf",
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0001.txt",
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0002.txt",
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "Vista's current 2026 warranty states 25-year coverage for white PVC components, 10-year coverage for Vista-supplied painted PVC components, 20-year sealed-unit coverage under its lifetime-limited section, and two-year hardware coverage; full exclusions and claim terms remain controlling.",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6984f8c4f9df20505bb5f352_2026%20WARRANTY.pdf",
+              "sourceDocument": "/documents/catalog/vista/6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4.pdf",
+              "page": 1,
+              "textPath": "source-media/suppliers/vista/pdf-extracted/6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4/pages/page-0001.txt",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "material": {
+          "value": "All-PVC mechanical frame with welded sash",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-amalfi",
+              "snapshotPath": "source-media/vista/html/0004-patio-doors-amalfi.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6635373d853e8ae2104f5b49_15503_3282_Vista_Amalfi_1.0_Brochure_P1_R3.pdf",
+              "sourceDocument": "/documents/catalog/vista/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424.pdf",
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0001.txt",
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0002.txt",
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "configuration": {
+          "value": "Two-, three-, and four-panel configurations.",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-amalfi",
+              "snapshotPath": "source-media/vista/html/0004-patio-doors-amalfi.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6635373d853e8ae2104f5b49_15503_3282_Vista_Amalfi_1.0_Brochure_P1_R3.pdf",
+              "sourceDocument": "/documents/catalog/vista/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424.pdf",
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0001.txt",
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0002.txt",
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "availableSizes": {
+          "value": [
+            "79 1/4 in standard height",
+            "95 1/4 in standard height",
+            "Two-panel widths: 59 1/2, 71 1/2, and 95 1/2 in",
+            "Three-panel widths: 89 7/8, 107 7/8, and 143 7/8 in",
+            "Four-panel widths: 117, 141, and 189 in"
+          ],
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-amalfi",
+              "snapshotPath": "source-media/vista/html/0004-patio-doors-amalfi.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6635373d853e8ae2104f5b49_15503_3282_Vista_Amalfi_1.0_Brochure_P1_R3.pdf",
+              "sourceDocument": "/documents/catalog/vista/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424.pdf",
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0001.txt",
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0002.txt",
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "frameSash": {
+          "value": "Four-inch welded sashes with heavy-duty reinforcement in vertical and bottom stiles support taller and wider doors.",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-amalfi",
+              "snapshotPath": "source-media/vista/html/0004-patio-doors-amalfi.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6635373d853e8ae2104f5b49_15503_3282_Vista_Amalfi_1.0_Brochure_P1_R3.pdf",
+              "sourceDocument": "/documents/catalog/vista/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424.pdf",
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0001.txt",
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0002.txt",
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "operation": {
+          "value": "1 7/8 in nylon tandem rollers, with quad sets specified for oversized doors; the supplier also describes a water-clearing drainage system.",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-amalfi",
+              "snapshotPath": "source-media/vista/html/0004-patio-doors-amalfi.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6635373d853e8ae2104f5b49_15503_3282_Vista_Amalfi_1.0_Brochure_P1_R3.pdf",
+              "sourceDocument": "/documents/catalog/vista/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424.pdf",
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0001.txt",
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0002.txt",
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "hardware": {
+          "value": "Standard three-point lock with powder-coated San Remo hardware and thumb-turn; white, black, and split black/white finishes are listed, with optional upgraded hardware and secondary locks.",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-amalfi",
+              "snapshotPath": "source-media/vista/html/0004-patio-doors-amalfi.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6635373d853e8ae2104f5b49_15503_3282_Vista_Amalfi_1.0_Brochure_P1_R3.pdf",
+              "sourceDocument": "/documents/catalog/vista/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424.pdf",
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0001.txt",
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0002.txt",
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "screen": {
+          "value": "Premium 3 in Robusto screen with recessed lock handle and heavy-duty zinc keeper.",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-amalfi",
+              "snapshotPath": "source-media/vista/html/0004-patio-doors-amalfi.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6635373d853e8ae2104f5b49_15503_3282_Vista_Amalfi_1.0_Brochure_P1_R3.pdf",
+              "sourceDocument": "/documents/catalog/vista/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424.pdf",
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0001.txt",
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0002.txt",
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glass": {
+          "value": "Easy-clean glass coating and one-inch sealed units are documented, with optional high-efficiency glass packages.",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-amalfi",
+              "snapshotPath": "source-media/vista/html/0004-patio-doors-amalfi.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6635373d853e8ae2104f5b49_15503_3282_Vista_Amalfi_1.0_Brochure_P1_R3.pdf",
+              "sourceDocument": "/documents/catalog/vista/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424.pdf",
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0001.txt",
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0002.txt",
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "colourFinish": {
+          "value": "Hundreds of standard paint colours and a colour-match program are offered.",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-amalfi",
+              "snapshotPath": "source-media/vista/html/0004-patio-doors-amalfi.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6635373d853e8ae2104f5b49_15503_3282_Vista_Amalfi_1.0_Brochure_P1_R3.pdf",
+              "sourceDocument": "/documents/catalog/vista/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424.pdf",
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0001.txt",
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0002.txt",
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
             }
           ]
         }
@@ -75412,6 +75794,38 @@
           "status": "active",
           "sourceDocument": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6635373d853e8ae2104f5b49_15503_3282_Vista_Amalfi_1.0_Brochure_P1_R3.pdf",
           "localPath": "/documents/catalog/vista/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424.pdf"
+        },
+        {
+          "supplier": "vista",
+          "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a37781ef5f59ee43965_15223_VistaPatioInstallationGuide-2Panel_BROCHURE_v1.pdf",
+          "extractedAt": "2026-08-19T18:54:43Z",
+          "status": "active",
+          "sourceDocument": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a37781ef5f59ee43965_15223_VistaPatioInstallationGuide-2Panel_BROCHURE_v1.pdf",
+          "localPath": "/documents/catalog/vista/66353a37781ef5f59ee43965-15223-vistapatioinstallationguide-2panel-brochure-v1-263ddc7ef14f.pdf"
+        },
+        {
+          "supplier": "vista",
+          "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a4e5ece0bc5f46347a7_15223_VistaPatioInstallationGuide-3Panel_BROCHURE_v1.pdf",
+          "extractedAt": "2026-08-19T18:54:44Z",
+          "status": "active",
+          "sourceDocument": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a4e5ece0bc5f46347a7_15223_VistaPatioInstallationGuide-3Panel_BROCHURE_v1.pdf",
+          "localPath": "/documents/catalog/vista/66353a4e5ece0bc5f46347a7-15223-vistapatioinstallationguide-3panel-brochure-v1-f16e3ac71e95.pdf"
+        },
+        {
+          "supplier": "vista",
+          "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a6862a4e06d8206365d_15223_VistaPatioInstallationGuide-4Panel_BROCHURE_v1.pdf",
+          "extractedAt": "2026-08-19T18:54:44Z",
+          "status": "active",
+          "sourceDocument": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a6862a4e06d8206365d_15223_VistaPatioInstallationGuide-4Panel_BROCHURE_v1.pdf",
+          "localPath": "/documents/catalog/vista/66353a6862a4e06d8206365d-15223-vistapatioinstallationguide-4panel-brochure-v1-00411e836895.pdf"
+        },
+        {
+          "supplier": "vista",
+          "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6984f8c4f9df20505bb5f352_2026%20WARRANTY.pdf",
+          "extractedAt": "2026-08-19T18:54:43Z",
+          "status": "active",
+          "sourceDocument": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6984f8c4f9df20505bb5f352_2026%20WARRANTY.pdf",
+          "localPath": "/documents/catalog/vista/6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4.pdf"
         }
       ],
       "sourceMedia": [
@@ -75430,10 +75844,15 @@
       "bestFor": null,
       "keyFeatures": [
         "Collection: Patio Doors",
-        "Product type: Sliding Patio Door"
+        "Product type: Sliding patio door",
+        "Warranty: Vista's current 2026 warranty states 25-year coverage for white PVC components, 10-year coverage for Vista-supplied painted PVC components, 20-year sealed-unit coverage under its lifetime-limited section, and two-year hardware coverage; full exclusions and claim terms remain controlling.",
+        "Material: All-PVC mechanical frame with welded sash",
+        "Configuration: Two-, three-, and four-panel configurations.",
+        "Available sizes: 79 1/4 in standard height, 95 1/4 in standard height, Two-panel widths: 59 1/2, 71 1/2, and 95 1/2 in, Three-panel widths: 89 7/8, 107 7/8, and 143 7/8 in, Four-panel widths: 117, 141, and 189 in",
+        "Frame Sash: Four-inch welded sashes with heavy-duty reinforcement in vertical and bottom stiles support taller and wider doors."
       ],
       "considerations": [
-        "Supplier evidence is not yet detailed enough for independent editorial copy."
+        "Current Vista supplier identity, source facts, media, and documents are verified, but independent editorial review is incomplete; do not publish."
       ],
       "configurationNotes": null,
       "seoTitle": null,
@@ -75450,7 +75869,7 @@
           {
             "supplier": "vista",
             "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-aria",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -75461,7 +75880,7 @@
           {
             "supplier": "vista",
             "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-aria",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -75474,20 +75893,401 @@
           {
             "supplier": "vista",
             "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-aria",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
       },
       "normalized": {
         "productType": {
-          "value": "Stacking Patio Door",
+          "value": "Stacking patio door",
           "sources": [
             {
               "supplier": "vista",
               "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-aria",
-              "extractedAt": "2026-08-19T00:00:00Z",
-              "status": "active"
+              "snapshotPath": "source-media/vista/html/0005-stacking-patio-doors-aria.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/663537f700e278e514b13ac0_15503_3282_Vista_Aria_1.0_Brochure_P1_R3_T.pdf",
+              "sourceDocument": "/documents/catalog/vista/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32.pdf",
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0001.txt",
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0002.txt",
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "Vista's current 2026 warranty states 25-year coverage for white PVC components, 10-year coverage for Vista-supplied painted PVC components, 20-year sealed-unit coverage under its lifetime-limited section, and two-year hardware coverage; full exclusions and claim terms remain controlling.",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6984f8c4f9df20505bb5f352_2026%20WARRANTY.pdf",
+              "sourceDocument": "/documents/catalog/vista/6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4.pdf",
+              "page": 1,
+              "textPath": "source-media/suppliers/vista/pdf-extracted/6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4/pages/page-0001.txt",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "material": {
+          "value": "All-PVC mechanical frame with welded sash",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-aria",
+              "snapshotPath": "source-media/vista/html/0005-stacking-patio-doors-aria.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/663537f700e278e514b13ac0_15503_3282_Vista_Aria_1.0_Brochure_P1_R3_T.pdf",
+              "sourceDocument": "/documents/catalog/vista/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32.pdf",
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0001.txt",
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0002.txt",
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "configuration": {
+          "value": "Three- and six-panel stacking arrangements on a double roller track.",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-aria",
+              "snapshotPath": "source-media/vista/html/0005-stacking-patio-doors-aria.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/663537f700e278e514b13ac0_15503_3282_Vista_Aria_1.0_Brochure_P1_R3_T.pdf",
+              "sourceDocument": "/documents/catalog/vista/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32.pdf",
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0001.txt",
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0002.txt",
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "availableSizes": {
+          "value": [
+            "79 1/4 in standard height",
+            "95 1/4 in standard height",
+            "Three-panel widths: 85 1/2, 103 1/2, and 139 1/2 in",
+            "Six-panel widths: 171, 207, and 279 in"
+          ],
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-aria",
+              "snapshotPath": "source-media/vista/html/0005-stacking-patio-doors-aria.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/663537f700e278e514b13ac0_15503_3282_Vista_Aria_1.0_Brochure_P1_R3_T.pdf",
+              "sourceDocument": "/documents/catalog/vista/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32.pdf",
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0001.txt",
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0002.txt",
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "frameSash": {
+          "value": "Four-inch welded sashes with heavy-duty reinforcement in vertical and bottom stiles support taller and wider doors.",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-aria",
+              "snapshotPath": "source-media/vista/html/0005-stacking-patio-doors-aria.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/663537f700e278e514b13ac0_15503_3282_Vista_Aria_1.0_Brochure_P1_R3_T.pdf",
+              "sourceDocument": "/documents/catalog/vista/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32.pdf",
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0001.txt",
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0002.txt",
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "operation": {
+          "value": "1 7/8 in nylon tandem rollers, with quad sets specified for oversized doors; panels slide and stack within the frame.",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-aria",
+              "snapshotPath": "source-media/vista/html/0005-stacking-patio-doors-aria.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/663537f700e278e514b13ac0_15503_3282_Vista_Aria_1.0_Brochure_P1_R3_T.pdf",
+              "sourceDocument": "/documents/catalog/vista/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32.pdf",
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0001.txt",
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0002.txt",
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "hardware": {
+          "value": "Standard three-point lock with powder-coated San Remo hardware and thumb-turn; white, black, and split black/white finishes are listed.",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-aria",
+              "snapshotPath": "source-media/vista/html/0005-stacking-patio-doors-aria.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/663537f700e278e514b13ac0_15503_3282_Vista_Aria_1.0_Brochure_P1_R3_T.pdf",
+              "sourceDocument": "/documents/catalog/vista/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32.pdf",
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0001.txt",
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0002.txt",
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "screen": {
+          "value": "Optional retractable screen; documented screen colours are black, white, commercial brown, and sandalwood.",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-aria",
+              "snapshotPath": "source-media/vista/html/0005-stacking-patio-doors-aria.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/663537f700e278e514b13ac0_15503_3282_Vista_Aria_1.0_Brochure_P1_R3_T.pdf",
+              "sourceDocument": "/documents/catalog/vista/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32.pdf",
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0001.txt",
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0002.txt",
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glass": {
+          "value": "Easy-clean glass coating and one-inch sealed units are documented, with optional high-efficiency glass packages.",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-aria",
+              "snapshotPath": "source-media/vista/html/0005-stacking-patio-doors-aria.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/663537f700e278e514b13ac0_15503_3282_Vista_Aria_1.0_Brochure_P1_R3_T.pdf",
+              "sourceDocument": "/documents/catalog/vista/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32.pdf",
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0001.txt",
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0002.txt",
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "colourFinish": {
+          "value": "Hundreds of standard paint colours and a colour-match program are offered.",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-aria",
+              "snapshotPath": "source-media/vista/html/0005-stacking-patio-doors-aria.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/663537f700e278e514b13ac0_15503_3282_Vista_Aria_1.0_Brochure_P1_R3_T.pdf",
+              "sourceDocument": "/documents/catalog/vista/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32.pdf",
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0001.txt",
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0002.txt",
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
             }
           ]
         }
@@ -75500,6 +76300,30 @@
           "status": "active",
           "sourceDocument": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/663537f700e278e514b13ac0_15503_3282_Vista_Aria_1.0_Brochure_P1_R3_T.pdf",
           "localPath": "/documents/catalog/vista/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32.pdf"
+        },
+        {
+          "supplier": "vista",
+          "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a23376329e391ee050d_0000%20Vista%20Installation%20Guide%20-%203%20Panel%20Patio%20Door_Aria_P1.pdf",
+          "extractedAt": "2026-08-19T18:54:43Z",
+          "status": "active",
+          "sourceDocument": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a23376329e391ee050d_0000%20Vista%20Installation%20Guide%20-%203%20Panel%20Patio%20Door_Aria_P1.pdf",
+          "localPath": "/documents/catalog/vista/66353a23376329e391ee050d-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-aria-p1-9747079a3820.pdf"
+        },
+        {
+          "supplier": "vista",
+          "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6924c4c16b0485fa845307d7_Genius%20Warranty%20Information.pdf",
+          "extractedAt": "2026-08-19T18:54:43Z",
+          "status": "active",
+          "sourceDocument": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6924c4c16b0485fa845307d7_Genius%20Warranty%20Information.pdf",
+          "localPath": "/documents/catalog/vista/6924c4c16b0485fa845307d7-genius-20warranty-20information-87aff38ccc97.pdf"
+        },
+        {
+          "supplier": "vista",
+          "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6984f8c4f9df20505bb5f352_2026%20WARRANTY.pdf",
+          "extractedAt": "2026-08-19T18:54:43Z",
+          "status": "active",
+          "sourceDocument": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6984f8c4f9df20505bb5f352_2026%20WARRANTY.pdf",
+          "localPath": "/documents/catalog/vista/6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4.pdf"
         }
       ],
       "sourceMedia": [
@@ -75518,10 +76342,15 @@
       "bestFor": null,
       "keyFeatures": [
         "Collection: Patio Doors",
-        "Product type: Stacking Patio Door"
+        "Product type: Stacking patio door",
+        "Warranty: Vista's current 2026 warranty states 25-year coverage for white PVC components, 10-year coverage for Vista-supplied painted PVC components, 20-year sealed-unit coverage under its lifetime-limited section, and two-year hardware coverage; full exclusions and claim terms remain controlling.",
+        "Material: All-PVC mechanical frame with welded sash",
+        "Configuration: Three- and six-panel stacking arrangements on a double roller track.",
+        "Available sizes: 79 1/4 in standard height, 95 1/4 in standard height, Three-panel widths: 85 1/2, 103 1/2, and 139 1/2 in, Six-panel widths: 171, 207, and 279 in",
+        "Frame Sash: Four-inch welded sashes with heavy-duty reinforcement in vertical and bottom stiles support taller and wider doors."
       ],
       "considerations": [
-        "Supplier evidence is not yet detailed enough for independent editorial copy."
+        "Current Vista supplier identity, source facts, media, and documents are verified, but independent editorial review is incomplete; do not publish."
       ],
       "configurationNotes": null,
       "seoTitle": null,
@@ -75538,7 +76367,7 @@
           {
             "supplier": "vista",
             "sourceUrl": "https://www.vistapatiodoors.com/patio-doors",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -75549,7 +76378,7 @@
           {
             "supplier": "vista",
             "sourceUrl": "https://www.vistapatiodoors.com/patio-doors",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -75562,25 +76391,554 @@
           {
             "supplier": "vista",
             "sourceUrl": "https://www.vistapatiodoors.com/patio-doors",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
       },
       "normalized": {
         "productType": {
-          "value": "Sliding Patio Door",
+          "value": "Sliding patio door",
           "sources": [
             {
               "supplier": "vista",
               "sourceUrl": "https://www.vistapatiodoors.com/patio-doors",
-              "extractedAt": "2026-08-19T00:00:00Z",
-              "status": "active"
+              "snapshotPath": "source-media/vista/html/0003-patio-doors-capri-3-0.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/69a9e33da994db6bf1bd35a2_1975_Vista_Capri_3.0_Brochure_P2_web-compressed.pdf",
+              "sourceDocument": "/documents/catalog/vista/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9.pdf",
+              "pages": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0004.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0005.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0006.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0007.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0008.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/649597fed61fa22b4c87916e_6483432a22613c6de6af9ada_ENERGY-STAR-CHART-2020.pdf",
+              "sourceDocument": "/documents/catalog/vista/649597fed61fa22b4c87916e-6483432a22613c6de6af9ada-energy-star-chart-2020-089e49a70e84.pdf",
+              "page": 1,
+              "textPath": "source-media/suppliers/vista/pdf-extracted/649597fed61fa22b4c87916e-6483432a22613c6de6af9ada-energy-star-chart-2020-089e49a70e84/pages/page-0001.txt",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-table",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "Vista's current 2026 warranty states 25-year coverage for white PVC components, 10-year coverage for Vista-supplied painted PVC components, 20-year sealed-unit coverage under its lifetime-limited section, and two-year hardware coverage; full exclusions and claim terms remain controlling.",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6984f8c4f9df20505bb5f352_2026%20WARRANTY.pdf",
+              "sourceDocument": "/documents/catalog/vista/6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4.pdf",
+              "page": 1,
+              "textPath": "source-media/suppliers/vista/pdf-extracted/6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4/pages/page-0001.txt",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "configuration": {
+          "value": "Standard two-, three-, and four-panel arrangements with multiple operating/fixed-panel layouts; custom sizes are available in all configurations, subject to option restrictions.",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors",
+              "snapshotPath": "source-media/vista/html/0003-patio-doors-capri-3-0.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/69a9e33da994db6bf1bd35a2_1975_Vista_Capri_3.0_Brochure_P2_web-compressed.pdf",
+              "sourceDocument": "/documents/catalog/vista/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9.pdf",
+              "pages": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0004.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0005.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0006.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0007.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0008.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/649597fed61fa22b4c87916e_6483432a22613c6de6af9ada_ENERGY-STAR-CHART-2020.pdf",
+              "sourceDocument": "/documents/catalog/vista/649597fed61fa22b4c87916e-6483432a22613c6de6af9ada-energy-star-chart-2020-089e49a70e84.pdf",
+              "page": 1,
+              "textPath": "source-media/suppliers/vista/pdf-extracted/649597fed61fa22b4c87916e-6483432a22613c6de6af9ada-energy-star-chart-2020-089e49a70e84/pages/page-0001.txt",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-table",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "availableSizes": {
+          "value": [
+            "79 1/4 in standard height",
+            "81 1/4 in standard height",
+            "95 1/4 in standard height",
+            "Standard widths from 58 3/4 in through 191 1/8 in depending on configuration",
+            "Custom sizes available"
+          ],
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors",
+              "snapshotPath": "source-media/vista/html/0003-patio-doors-capri-3-0.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/69a9e33da994db6bf1bd35a2_1975_Vista_Capri_3.0_Brochure_P2_web-compressed.pdf",
+              "sourceDocument": "/documents/catalog/vista/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9.pdf",
+              "pages": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0004.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0005.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0006.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0007.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0008.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/649597fed61fa22b4c87916e_6483432a22613c6de6af9ada_ENERGY-STAR-CHART-2020.pdf",
+              "sourceDocument": "/documents/catalog/vista/649597fed61fa22b4c87916e-6483432a22613c6de6af9ada-energy-star-chart-2020-089e49a70e84.pdf",
+              "page": 1,
+              "textPath": "source-media/suppliers/vista/pdf-extracted/649597fed61fa22b4c87916e-6483432a22613c6de6af9ada-energy-star-chart-2020-089e49a70e84/pages/page-0001.txt",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-table",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "weatherSealing": {
+          "value": "Soft-touch fin weatherstrip supports gliding action, with multi-finned weatherstrip at the top and bottom to reduce air infiltration.",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors",
+              "snapshotPath": "source-media/vista/html/0003-patio-doors-capri-3-0.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/69a9e33da994db6bf1bd35a2_1975_Vista_Capri_3.0_Brochure_P2_web-compressed.pdf",
+              "sourceDocument": "/documents/catalog/vista/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9.pdf",
+              "pages": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0004.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0005.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0006.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0007.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0008.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/649597fed61fa22b4c87916e_6483432a22613c6de6af9ada_ENERGY-STAR-CHART-2020.pdf",
+              "sourceDocument": "/documents/catalog/vista/649597fed61fa22b4c87916e-6483432a22613c6de6af9ada-energy-star-chart-2020-089e49a70e84.pdf",
+              "page": 1,
+              "textPath": "source-media/suppliers/vista/pdf-extracted/649597fed61fa22b4c87916e-6483432a22613c6de6af9ada-energy-star-chart-2020-089e49a70e84/pages/page-0001.txt",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-table",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "hardware": {
+          "value": "Standard twin-point lock with inside and outside D-handles; Siena is the standard hardware series, with Verona, Sorrento, and San Remo options plus secondary kicklocks or topbolts.",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors",
+              "snapshotPath": "source-media/vista/html/0003-patio-doors-capri-3-0.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/69a9e33da994db6bf1bd35a2_1975_Vista_Capri_3.0_Brochure_P2_web-compressed.pdf",
+              "sourceDocument": "/documents/catalog/vista/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9.pdf",
+              "pages": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0004.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0005.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0006.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0007.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0008.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/649597fed61fa22b4c87916e_6483432a22613c6de6af9ada_ENERGY-STAR-CHART-2020.pdf",
+              "sourceDocument": "/documents/catalog/vista/649597fed61fa22b4c87916e-6483432a22613c6de6af9ada-energy-star-chart-2020-089e49a70e84.pdf",
+              "page": 1,
+              "textPath": "source-media/suppliers/vista/pdf-extracted/649597fed61fa22b4c87916e-6483432a22613c6de6af9ada-energy-star-chart-2020-089e49a70e84/pages/page-0001.txt",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-table",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "screen": {
+          "value": "Standard 2 in by 1/2 in screen; the Da Vinci package substitutes an upgraded 3 in Robusto screen.",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors",
+              "snapshotPath": "source-media/vista/html/0003-patio-doors-capri-3-0.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/69a9e33da994db6bf1bd35a2_1975_Vista_Capri_3.0_Brochure_P2_web-compressed.pdf",
+              "sourceDocument": "/documents/catalog/vista/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9.pdf",
+              "pages": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0004.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0005.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0006.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0007.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0008.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/649597fed61fa22b4c87916e_6483432a22613c6de6af9ada_ENERGY-STAR-CHART-2020.pdf",
+              "sourceDocument": "/documents/catalog/vista/649597fed61fa22b4c87916e-6483432a22613c6de6af9ada-energy-star-chart-2020-089e49a70e84.pdf",
+              "page": 1,
+              "textPath": "source-media/suppliers/vista/pdf-extracted/649597fed61fa22b4c87916e-6483432a22613c6de6af9ada-energy-star-chart-2020-089e49a70e84/pages/page-0001.txt",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-table",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glazing": {
+          "value": "One-inch Low-E sealed units are standard; LoE-272, LoE-366, and i89 combinations are listed as efficiency options. The separately published 2020 thermal chart is Capri-specific.",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors",
+              "snapshotPath": "source-media/vista/html/0003-patio-doors-capri-3-0.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/69a9e33da994db6bf1bd35a2_1975_Vista_Capri_3.0_Brochure_P2_web-compressed.pdf",
+              "sourceDocument": "/documents/catalog/vista/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9.pdf",
+              "pages": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0004.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0005.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0006.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0007.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0008.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/649597fed61fa22b4c87916e_6483432a22613c6de6af9ada_ENERGY-STAR-CHART-2020.pdf",
+              "sourceDocument": "/documents/catalog/vista/649597fed61fa22b4c87916e-6483432a22613c6de6af9ada-energy-star-chart-2020-089e49a70e84.pdf",
+              "page": 1,
+              "textPath": "source-media/suppliers/vista/pdf-extracted/649597fed61fa22b4c87916e-6483432a22613c6de6af9ada-energy-star-chart-2020-089e49a70e84/pages/page-0001.txt",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-table",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "colourFinish": {
+          "value": "Hundreds of standard paint colours and a colour-match program are offered; exterior SDLs and interior grille options are also listed.",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors",
+              "snapshotPath": "source-media/vista/html/0003-patio-doors-capri-3-0.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/69a9e33da994db6bf1bd35a2_1975_Vista_Capri_3.0_Brochure_P2_web-compressed.pdf",
+              "sourceDocument": "/documents/catalog/vista/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9.pdf",
+              "pages": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0004.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0005.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0006.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0007.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0008.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/649597fed61fa22b4c87916e_6483432a22613c6de6af9ada_ENERGY-STAR-CHART-2020.pdf",
+              "sourceDocument": "/documents/catalog/vista/649597fed61fa22b4c87916e-6483432a22613c6de6af9ada-energy-star-chart-2020-089e49a70e84.pdf",
+              "page": 1,
+              "textPath": "source-media/suppliers/vista/pdf-extracted/649597fed61fa22b4c87916e-6483432a22613c6de6af9ada-energy-star-chart-2020-089e49a70e84/pages/page-0001.txt",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-table",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "accessories": {
+          "value": "Seven standard brickmould sizes, interior extensions and casings, integrated transoms and sidelites, and standard or custom blinds-between-glass programs are documented.",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors",
+              "snapshotPath": "source-media/vista/html/0003-patio-doors-capri-3-0.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/69a9e33da994db6bf1bd35a2_1975_Vista_Capri_3.0_Brochure_P2_web-compressed.pdf",
+              "sourceDocument": "/documents/catalog/vista/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9.pdf",
+              "pages": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0004.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0005.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0006.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0007.txt",
+                "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0008.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/649597fed61fa22b4c87916e_6483432a22613c6de6af9ada_ENERGY-STAR-CHART-2020.pdf",
+              "sourceDocument": "/documents/catalog/vista/649597fed61fa22b4c87916e-6483432a22613c6de6af9ada-energy-star-chart-2020-089e49a70e84.pdf",
+              "page": 1,
+              "textPath": "source-media/suppliers/vista/pdf-extracted/649597fed61fa22b4c87916e-6483432a22613c6de6af9ada-energy-star-chart-2020-089e49a70e84/pages/page-0001.txt",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-table",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
             }
           ]
         }
       },
       "sourceDocuments": [
+        {
+          "supplier": "vista",
+          "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6495979a31cb704c1739a3e2_2033%20Vista%20Installation%20Guide%20-%203%20Panel%20Patio%20Door_P1.pdf",
+          "extractedAt": "2026-08-19T18:54:43Z",
+          "status": "active",
+          "sourceDocument": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6495979a31cb704c1739a3e2_2033%20Vista%20Installation%20Guide%20-%203%20Panel%20Patio%20Door_P1.pdf",
+          "localPath": "/documents/catalog/vista/6495979a31cb704c1739a3e2-2033-20vista-20installation-20guide-20-203-20panel-20patio-20door-p1-dedae87e1085.pdf"
+        },
+        {
+          "supplier": "vista",
+          "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6495979a399738dade882cdc_2033%20VVista%20Installation%20Guide%20-%204%20Panel%20Patio%20Door_P1.pdf",
+          "extractedAt": "2026-08-19T18:54:43Z",
+          "status": "active",
+          "sourceDocument": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6495979a399738dade882cdc_2033%20VVista%20Installation%20Guide%20-%204%20Panel%20Patio%20Door_P1.pdf",
+          "localPath": "/documents/catalog/vista/6495979a399738dade882cdc-2033-20vvista-20installation-20guide-20-204-20panel-20patio-20door-p1-6b12c9f8c577.pdf"
+        },
+        {
+          "supplier": "vista",
+          "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6495979a7c779f4ff0258f83_2033%20Vista%20Installation%20Guide%20-%202%20Panel%20Patio%20Door_P1.pdf",
+          "extractedAt": "2026-08-19T18:54:43Z",
+          "status": "active",
+          "sourceDocument": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6495979a7c779f4ff0258f83_2033%20Vista%20Installation%20Guide%20-%202%20Panel%20Patio%20Door_P1.pdf",
+          "localPath": "/documents/catalog/vista/6495979a7c779f4ff0258f83-2033-20vista-20installation-20guide-20-202-20panel-20patio-20door-p1-65c62ff4559a.pdf"
+        },
+        {
+          "supplier": "vista",
+          "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/649597fed61fa22b4c87916e_6483432a22613c6de6af9ada_ENERGY-STAR-CHART-2020.pdf",
+          "extractedAt": "2026-08-19T18:54:43Z",
+          "status": "active",
+          "sourceDocument": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/649597fed61fa22b4c87916e_6483432a22613c6de6af9ada_ENERGY-STAR-CHART-2020.pdf",
+          "localPath": "/documents/catalog/vista/649597fed61fa22b4c87916e-6483432a22613c6de6af9ada-energy-star-chart-2020-089e49a70e84.pdf"
+        },
+        {
+          "supplier": "vista",
+          "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6984f8c4f9df20505bb5f352_2026%20WARRANTY.pdf",
+          "extractedAt": "2026-08-19T18:54:43Z",
+          "status": "active",
+          "sourceDocument": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6984f8c4f9df20505bb5f352_2026%20WARRANTY.pdf",
+          "localPath": "/documents/catalog/vista/6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4.pdf"
+        },
         {
           "supplier": "vista",
           "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/69a9e33da994db6bf1bd35a2_1975_Vista_Capri_3.0_Brochure_P2_web-compressed.pdf",
@@ -75613,10 +76971,15 @@
       "bestFor": null,
       "keyFeatures": [
         "Collection: Patio Doors",
-        "Product type: Sliding Patio Door"
+        "Product type: Sliding patio door",
+        "Warranty: Vista's current 2026 warranty states 25-year coverage for white PVC components, 10-year coverage for Vista-supplied painted PVC components, 20-year sealed-unit coverage under its lifetime-limited section, and two-year hardware coverage; full exclusions and claim terms remain controlling.",
+        "Configuration: Standard two-, three-, and four-panel arrangements with multiple operating/fixed-panel layouts; custom sizes are available in all configurations, subject to option restrictions.",
+        "Available sizes: 79 1/4 in standard height, 81 1/4 in standard height, 95 1/4 in standard height, Standard widths from 58 3/4 in through 191 1/8 in depending on configuration, Custom sizes available",
+        "Weather Sealing: Soft-touch fin weatherstrip supports gliding action, with multi-finned weatherstrip at the top and bottom to reduce air infiltration.",
+        "Hardware: Standard twin-point lock with inside and outside D-handles; Siena is the standard hardware series, with Verona, Sorrento, and San Remo options plus secondary kicklocks or topbolts."
       ],
       "considerations": [
-        "Supplier evidence is not yet detailed enough for independent editorial copy."
+        "Current Vista supplier identity, source facts, media, and documents are verified, but independent editorial review is incomplete; do not publish."
       ],
       "configurationNotes": null,
       "seoTitle": null,
@@ -75633,7 +76996,7 @@
           {
             "supplier": "vista",
             "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-rimini",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -75644,7 +77007,7 @@
           {
             "supplier": "vista",
             "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-rimini",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
@@ -75657,25 +77020,358 @@
           {
             "supplier": "vista",
             "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-rimini",
-            "extractedAt": "2026-08-19T00:00:00Z",
+            "extractedAt": "2026-08-20T00:00:00Z",
             "status": "active"
           }
         ]
       },
       "normalized": {
         "productType": {
-          "value": "Stacking Patio Door",
+          "value": "Stacking patio door",
           "sources": [
             {
               "supplier": "vista",
               "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-rimini",
-              "extractedAt": "2026-08-19T00:00:00Z",
-              "status": "active"
+              "snapshotPath": "source-media/vista/html/0006-stacking-patio-doors-rimini-2-0.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/69ceba88dcf867a67e8de253_3057_Vista_Rimini_2.0_Brochure_P2-compressed.pdf",
+              "sourceDocument": "/documents/catalog/vista/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de.pdf",
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0001.txt",
+                "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0002.txt",
+                "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "warranty": {
+          "value": "Vista's current 2026 warranty states 25-year coverage for white PVC components, 10-year coverage for Vista-supplied painted PVC components, 20-year sealed-unit coverage under its lifetime-limited section, and two-year hardware coverage; full exclusions and claim terms remain controlling.",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6984f8c4f9df20505bb5f352_2026%20WARRANTY.pdf",
+              "sourceDocument": "/documents/catalog/vista/6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4.pdf",
+              "page": 1,
+              "textPath": "source-media/suppliers/vista/pdf-extracted/6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4/pages/page-0001.txt",
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "configuration": {
+          "value": "Three- and six-panel stacking arrangements on a double roller track.",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-rimini",
+              "snapshotPath": "source-media/vista/html/0006-stacking-patio-doors-rimini-2-0.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/69ceba88dcf867a67e8de253_3057_Vista_Rimini_2.0_Brochure_P2-compressed.pdf",
+              "sourceDocument": "/documents/catalog/vista/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de.pdf",
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0001.txt",
+                "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0002.txt",
+                "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "availableSizes": {
+          "value": [
+            "79 1/4 in standard height",
+            "81 1/4 in standard height",
+            "95 1/4 in standard height",
+            "Three-panel widths: 86 7/16, 104 7/16, and 140 7/16 in",
+            "Six-panel widths: 170 3/16, 206 3/16, and 278 3/16 in",
+            "Custom sizes available subject to option restrictions"
+          ],
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-rimini",
+              "snapshotPath": "source-media/vista/html/0006-stacking-patio-doors-rimini-2-0.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/69ceba88dcf867a67e8de253_3057_Vista_Rimini_2.0_Brochure_P2-compressed.pdf",
+              "sourceDocument": "/documents/catalog/vista/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de.pdf",
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0001.txt",
+                "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0002.txt",
+                "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "frame": {
+          "value": "7 7/8 in frame depth with jamb pocket covers.",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-rimini",
+              "snapshotPath": "source-media/vista/html/0006-stacking-patio-doors-rimini-2-0.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/69ceba88dcf867a67e8de253_3057_Vista_Rimini_2.0_Brochure_P2-compressed.pdf",
+              "sourceDocument": "/documents/catalog/vista/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de.pdf",
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0001.txt",
+                "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0002.txt",
+                "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "operation": {
+          "value": "Precision Vista Glide nylon tandem rollers, replaceable weatherstripping, and a water-clearing drainage system are documented.",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-rimini",
+              "snapshotPath": "source-media/vista/html/0006-stacking-patio-doors-rimini-2-0.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/69ceba88dcf867a67e8de253_3057_Vista_Rimini_2.0_Brochure_P2-compressed.pdf",
+              "sourceDocument": "/documents/catalog/vista/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de.pdf",
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0001.txt",
+                "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0002.txt",
+                "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "hardware": {
+          "value": "Standard paint-grade Sorrento handle with optional satin nickel; San Remo slim/pull upgrade is available but is not compatible with the retractable screen.",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-rimini",
+              "snapshotPath": "source-media/vista/html/0006-stacking-patio-doors-rimini-2-0.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/69ceba88dcf867a67e8de253_3057_Vista_Rimini_2.0_Brochure_P2-compressed.pdf",
+              "sourceDocument": "/documents/catalog/vista/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de.pdf",
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0001.txt",
+                "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0002.txt",
+                "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "screen": {
+          "value": "Optional pleated retractable screen in black or white; keyed hardware is not compatible with the retractable screen.",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-rimini",
+              "snapshotPath": "source-media/vista/html/0006-stacking-patio-doors-rimini-2-0.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/69ceba88dcf867a67e8de253_3057_Vista_Rimini_2.0_Brochure_P2-compressed.pdf",
+              "sourceDocument": "/documents/catalog/vista/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de.pdf",
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0001.txt",
+                "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0002.txt",
+                "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            }
+          ]
+        },
+        "glass": {
+          "value": "Energy-efficient glass types are offered; the supplier does not publish Rimini-specific thermal values in the current document set.",
+          "sources": [
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://www.vistapatiodoors.com/patio-doors-rimini",
+              "snapshotPath": "source-media/vista/html/0006-stacking-patio-doors-rimini-2-0.html",
+              "status": "active",
+              "evidenceType": "current-supplier-webpage",
+              "extractionMethod": "saved-html",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
+            },
+            {
+              "supplier": "vista",
+              "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/69ceba88dcf867a67e8de253_3057_Vista_Rimini_2.0_Brochure_P2-compressed.pdf",
+              "sourceDocument": "/documents/catalog/vista/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de.pdf",
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "textPaths": [
+                "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0001.txt",
+                "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0002.txt",
+                "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0003.txt",
+                "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0004.txt"
+              ],
+              "status": "active",
+              "evidenceType": "current-supplier-publication",
+              "extractionMethod": "embedded-text-and-visual-chart-review",
+              "reviewStatus": "human-reviewed",
+              "extractedAt": "2026-08-20T00:00:00Z"
             }
           ]
         }
       },
       "sourceDocuments": [
+        {
+          "supplier": "vista",
+          "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a0c882b18807c02bd36_0000%20Vista%20Installation%20Guide%20-%203%20Panel%20Patio%20Door_Rimini_P1.pdf",
+          "extractedAt": "2026-08-19T18:54:43Z",
+          "status": "active",
+          "sourceDocument": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/66353a0c882b18807c02bd36_0000%20Vista%20Installation%20Guide%20-%203%20Panel%20Patio%20Door_Rimini_P1.pdf",
+          "localPath": "/documents/catalog/vista/66353a0c882b18807c02bd36-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-rimini-p1-1f31ad50f24d.pdf"
+        },
+        {
+          "supplier": "vista",
+          "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6924c4c16b0485fa845307d7_Genius%20Warranty%20Information.pdf",
+          "extractedAt": "2026-08-19T18:54:43Z",
+          "status": "active",
+          "sourceDocument": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6924c4c16b0485fa845307d7_Genius%20Warranty%20Information.pdf",
+          "localPath": "/documents/catalog/vista/6924c4c16b0485fa845307d7-genius-20warranty-20information-87aff38ccc97.pdf"
+        },
+        {
+          "supplier": "vista",
+          "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6984f8c4f9df20505bb5f352_2026%20WARRANTY.pdf",
+          "extractedAt": "2026-08-19T18:54:43Z",
+          "status": "active",
+          "sourceDocument": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/6984f8c4f9df20505bb5f352_2026%20WARRANTY.pdf",
+          "localPath": "/documents/catalog/vista/6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4.pdf"
+        },
         {
           "supplier": "vista",
           "sourceUrl": "https://cdn.prod.website-files.com/647f75b585787067f28ba37b/69ceba88dcf867a67e8de253_3057_Vista_Rimini_2.0_Brochure_P2-compressed.pdf",
@@ -75701,10 +77397,15 @@
       "bestFor": null,
       "keyFeatures": [
         "Collection: Patio Doors",
-        "Product type: Stacking Patio Door"
+        "Product type: Stacking patio door",
+        "Warranty: Vista's current 2026 warranty states 25-year coverage for white PVC components, 10-year coverage for Vista-supplied painted PVC components, 20-year sealed-unit coverage under its lifetime-limited section, and two-year hardware coverage; full exclusions and claim terms remain controlling.",
+        "Configuration: Three- and six-panel stacking arrangements on a double roller track.",
+        "Available sizes: 79 1/4 in standard height, 81 1/4 in standard height, 95 1/4 in standard height, Three-panel widths: 86 7/16, 104 7/16, and 140 7/16 in, Six-panel widths: 170 3/16, 206 3/16, and 278 3/16 in, Custom sizes available subject to option restrictions",
+        "Frame: 7 7/8 in frame depth with jamb pocket covers.",
+        "Operation: Precision Vista Glide nylon tandem rollers, replaceable weatherstripping, and a water-clearing drainage system are documented."
       ],
       "considerations": [
-        "Supplier evidence is not yet detailed enough for independent editorial copy."
+        "Current Vista supplier identity, source facts, media, and documents are verified, but independent editorial review is incomplete; do not publish."
       ],
       "configurationNotes": null,
       "seoTitle": null,

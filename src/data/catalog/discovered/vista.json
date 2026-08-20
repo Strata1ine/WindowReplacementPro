@@ -17,10 +17,15 @@
       "/images/catalog/vista/648333ccfdc5dc4cf2a1ba8c-capri-1-c077ba41d23a.png"
     ],
     "documents": [
+      "/documents/catalog/vista/6495979a31cb704c1739a3e2-2033-20vista-20installation-20guide-20-203-20panel-20patio-20door-p1-dedae87e1085.pdf",
+      "/documents/catalog/vista/6495979a399738dade882cdc-2033-20vvista-20installation-20guide-20-204-20panel-20patio-20door-p1-6b12c9f8c577.pdf",
+      "/documents/catalog/vista/6495979a7c779f4ff0258f83-2033-20vista-20installation-20guide-20-202-20panel-20patio-20door-p1-65c62ff4559a.pdf",
+      "/documents/catalog/vista/649597fed61fa22b4c87916e-6483432a22613c6de6af9ada-energy-star-chart-2020-089e49a70e84.pdf",
+      "/documents/catalog/vista/6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4.pdf",
       "/documents/catalog/vista/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9.pdf"
     ],
     "specifications": {},
-    "lastVerified": "2026-08-19"
+    "lastVerified": "2026-08-20"
   },
   {
     "id": "vista:amalfi-1-0",
@@ -39,10 +44,14 @@
       "/images/catalog/vista/6635386dcbde5a8d27893008-unknown-1-eb691f921743.jpeg"
     ],
     "documents": [
-      "/documents/catalog/vista/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424.pdf"
+      "/documents/catalog/vista/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424.pdf",
+      "/documents/catalog/vista/66353a37781ef5f59ee43965-15223-vistapatioinstallationguide-2panel-brochure-v1-263ddc7ef14f.pdf",
+      "/documents/catalog/vista/66353a4e5ece0bc5f46347a7-15223-vistapatioinstallationguide-3panel-brochure-v1-f16e3ac71e95.pdf",
+      "/documents/catalog/vista/66353a6862a4e06d8206365d-15223-vistapatioinstallationguide-4panel-brochure-v1-00411e836895.pdf",
+      "/documents/catalog/vista/6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4.pdf"
     ],
     "specifications": {},
-    "lastVerified": "2026-08-19"
+    "lastVerified": "2026-08-20"
   },
   {
     "id": "vista:aria-1-0",
@@ -61,10 +70,13 @@
       "/images/catalog/vista/6635384decfed09d0795fdec-unknown-613719a0af53.jpeg"
     ],
     "documents": [
-      "/documents/catalog/vista/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32.pdf"
+      "/documents/catalog/vista/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32.pdf",
+      "/documents/catalog/vista/66353a23376329e391ee050d-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-aria-p1-9747079a3820.pdf",
+      "/documents/catalog/vista/6924c4c16b0485fa845307d7-genius-20warranty-20information-87aff38ccc97.pdf",
+      "/documents/catalog/vista/6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4.pdf"
     ],
     "specifications": {},
-    "lastVerified": "2026-08-19"
+    "lastVerified": "2026-08-20"
   },
   {
     "id": "vista:rimini-2-0",
@@ -83,9 +95,12 @@
       "/images/catalog/vista/64833486f8f86e07bd54565c-rimi-min-ba0bc800e546.png"
     ],
     "documents": [
+      "/documents/catalog/vista/66353a0c882b18807c02bd36-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-rimini-p1-1f31ad50f24d.pdf",
+      "/documents/catalog/vista/6924c4c16b0485fa845307d7-genius-20warranty-20information-87aff38ccc97.pdf",
+      "/documents/catalog/vista/6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4.pdf",
       "/documents/catalog/vista/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de.pdf"
     ],
     "specifications": {},
-    "lastVerified": "2026-08-19"
+    "lastVerified": "2026-08-20"
   }
 ]

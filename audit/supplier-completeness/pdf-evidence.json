@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T08:50:02.686809+00:00",
+  "generatedAt": "2026-08-20T09:07:55.240911+00:00",
   "products": [
     {
       "productId": "masonite:cheyenne",
@@ -16818,6 +16818,1033 @@
             "source-media/suppliers/vinyl-pro/pdf-extracted/new-brochure-2024-oct-24-single-op-282138fd6f12/images/page-0030-image-07.png"
           ],
           "factCandidates": []
+        }
+      ]
+    },
+    {
+      "productId": "vista:amalfi-1-0",
+      "pdfEvidence": [
+        {
+          "documentId": "vista:6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424",
+          "localPath": "/documents/catalog/vista/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424.pdf",
+          "page": 1,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0001.txt",
+          "tables": [],
+          "images": [
+            "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/images/page-0001-image-01.jpg",
+            "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/images/page-0001-image-02.jpg",
+            "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/images/page-0001-image-03.jpg",
+            "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/images/page-0001-image-04.jpg",
+            "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/images/page-0001-image-05.jpg",
+            "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/images/page-0001-image-06.jpg",
+            "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/images/page-0001-image-07.jpg"
+          ],
+          "factCandidates": [
+            "ALL-PVC MECHANICAL FRAME WITH WELDED SASH"
+          ]
+        },
+        {
+          "documentId": "vista:6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424",
+          "localPath": "/documents/catalog/vista/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424.pdf",
+          "page": 2,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0002.txt",
+          "tables": [
+            "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/tables/page-0002-table-01.json"
+          ],
+          "images": [
+            "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/images/page-0002-image-01.jpg",
+            "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/images/page-0002-image-02.jpg",
+            "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/images/page-0002-image-03.jpg"
+          ],
+          "factCandidates": [
+            "Superior performance, maximum endurance and resilience"
+          ]
+        },
+        {
+          "documentId": "vista:6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424",
+          "localPath": "/documents/catalog/vista/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424.pdf",
+          "page": 3,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0003.txt",
+          "tables": [
+            "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/tables/page-0003-table-01.json"
+          ],
+          "images": [
+            "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/images/page-0003-image-07.jpg",
+            "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/images/page-0003-image-08.jpg",
+            "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/images/page-0003-image-10.jpg"
+          ],
+          "factCandidates": [
+            "FEATURES, HARDWARE",
+            "doors). colours. (Colour match",
+            "coated San Remo hardware with thumb-turn, choice of Three distinct upgraded",
+            "hardware lines.",
+            "Window fi lm preserves and protects door glass from dirt",
+            "glass packages.",
+            "Robusto Easy-clean glass coating helps make the window glass",
+            "Vista industry-leading lifetime warranty on vinyl",
+            "Comes in 2, 3 and 4 panel confi gurations and two standard heights"
+          ]
+        },
+        {
+          "documentId": "vista:6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424",
+          "localPath": "/documents/catalog/vista/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424.pdf",
+          "page": 4,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/pages/page-0004.txt",
+          "tables": [
+            "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/tables/page-0004-table-01.json",
+            "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/tables/page-0004-table-02.json",
+            "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/tables/page-0004-table-03.json",
+            "source-media/suppliers/vista/pdf-extracted/6635373d853e8ae2104f5b49-15503-3282-vista-amalfi-1-0-brochure-p1-r3-b5565c491424/tables/page-0004-table-04.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "glass types."
+          ]
+        },
+        {
+          "documentId": "vista:66353a37781ef5f59ee43965-15223-vistapatioinstallationguide-2panel-brochure-v1-263ddc7ef14f",
+          "localPath": "/documents/catalog/vista/66353a37781ef5f59ee43965-15223-vistapatioinstallationguide-2panel-brochure-v1-263ddc7ef14f.pdf",
+          "page": 1,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/66353a37781ef5f59ee43965-15223-vistapatioinstallationguide-2panel-brochure-v1-263ddc7ef14f/pages/page-0001.txt",
+          "tables": [
+            "source-media/suppliers/vista/pdf-extracted/66353a37781ef5f59ee43965-15223-vistapatioinstallationguide-2panel-brochure-v1-263ddc7ef14f/tables/page-0001-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "Frame Assembly",
+            "(If you purchased an assembled Patio door please go to Section “Frame Installation”)",
+            "(lay down drop sheets to protect frame from scratches during assembly)",
+            "• Install 5 #8 x 2 ½\" screws (found in hardware bag) into the pilot holes at each frame corner.",
+            "Frame Installation",
+            "• Apply a heavy bead of urethane caulking along the full width of the sill opening where sill of patio",
+            "• Fasten the door frame to the opening using 8 -#8 -x 3 1/2\"screws (found in hardware bag).",
+            "3 screws on each side jamb and 2 screws in the Header. Using shims helps squaring up the frame.",
+            "• Ensure the door frame is square before installing panels.",
+            "Amalfi 1.0 (2 PANEL DOORS)",
+            "Fixed Panel - Anti Lift",
+            "2 Rollers 20 x #8 Fix Panel Support 2 Jamb Clips 3 Screw Fixed Pane Anti Lift",
+            "Fix Panel Support 1We at1he/r S4trip\"p insgcrew Anti Lift"
+          ]
+        },
+        {
+          "documentId": "vista:66353a37781ef5f59ee43965-15223-vistapatioinstallationguide-2panel-brochure-v1-263ddc7ef14f",
+          "localPath": "/documents/catalog/vista/66353a37781ef5f59ee43965-15223-vistapatioinstallationguide-2panel-brochure-v1-263ddc7ef14f.pdf",
+          "page": 2,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/66353a37781ef5f59ee43965-15223-vistapatioinstallationguide-2panel-brochure-v1-263ddc7ef14f/pages/page-0002.txt",
+          "tables": [
+            "source-media/suppliers/vista/pdf-extracted/66353a37781ef5f59ee43965-15223-vistapatioinstallationguide-2panel-brochure-v1-263ddc7ef14f/tables/page-0002-table-01.json",
+            "source-media/suppliers/vista/pdf-extracted/66353a37781ef5f59ee43965-15223-vistapatioinstallationguide-2panel-brochure-v1-263ddc7ef14f/tables/page-0002-table-02.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "Fix Panel Support Assembly Moving Panel installation",
+            "the FIX PANEL SUPPORT. • Lift panel into header pocket and lower onto roller track",
+            "• Slide the FIX PANEL SUPPORT tight against • Adjust wheels if necessary to square up panel",
+            "• Install 2 - #8x1 1/2” screws (found in hardware bag)",
+            "FIX PANEL SUPPORT to SILL (do not over tighten)",
+            "Fixed Panel installation (SUCTION CUPS REQUIRED) Hardware Installation",
+            "• Insert Mortise into routed cavity and secure using screws supplied in Hardware kit.",
+            "using 2 #8 x 1 ¼\" screws per clip (found in hardware bag) FIG #2",
+            "FIX PANEL SUPPORT",
+            "• Fasten the keeper onto the Jamb using screws (found in hardware bag)",
+            "and in towards jamb pocket and lower panel onto the Jamb Clips just installed.",
+            "on interior side of panel FIG #3"
+          ]
+        },
+        {
+          "documentId": "vista:66353a4e5ece0bc5f46347a7-15223-vistapatioinstallationguide-3panel-brochure-v1-f16e3ac71e95",
+          "localPath": "/documents/catalog/vista/66353a4e5ece0bc5f46347a7-15223-vistapatioinstallationguide-3panel-brochure-v1-f16e3ac71e95.pdf",
+          "page": 1,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/66353a4e5ece0bc5f46347a7-15223-vistapatioinstallationguide-3panel-brochure-v1-f16e3ac71e95/pages/page-0001.txt",
+          "tables": [
+            "source-media/suppliers/vista/pdf-extracted/66353a4e5ece0bc5f46347a7-15223-vistapatioinstallationguide-3panel-brochure-v1-f16e3ac71e95/tables/page-0001-table-01.json",
+            "source-media/suppliers/vista/pdf-extracted/66353a4e5ece0bc5f46347a7-15223-vistapatioinstallationguide-3panel-brochure-v1-f16e3ac71e95/tables/page-0001-table-02.json",
+            "source-media/suppliers/vista/pdf-extracted/66353a4e5ece0bc5f46347a7-15223-vistapatioinstallationguide-3panel-brochure-v1-f16e3ac71e95/tables/page-0001-table-03.json",
+            "source-media/suppliers/vista/pdf-extracted/66353a4e5ece0bc5f46347a7-15223-vistapatioinstallationguide-3panel-brochure-v1-f16e3ac71e95/tables/page-0001-table-04.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "Frame Assembly",
+            "(If you purchased an assembled door please go to directly to section 3 Frame Installation)",
+            "• Install 4(four) #8 x 2 ½\" screws (found in your hardware bag) into the pilot holes at each frame corner.",
+            "Installing the 2 Fixed Panel Supports",
+            "Amalfi 1.0 (3 PANEL DOORS)",
+            "Fixed Panel - Anti Lift",
+            "2 Rollers 20 x #8 Fix Panel Support 4 Jamb Clips 3 Screw 2 Fixed Pane Anti Lift",
+            "Fix Panel Support 1We a1the/r 4Str\"ip psincgrew"
+          ]
+        },
+        {
+          "documentId": "vista:66353a4e5ece0bc5f46347a7-15223-vistapatioinstallationguide-3panel-brochure-v1-f16e3ac71e95",
+          "localPath": "/documents/catalog/vista/66353a4e5ece0bc5f46347a7-15223-vistapatioinstallationguide-3panel-brochure-v1-f16e3ac71e95.pdf",
+          "page": 2,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/66353a4e5ece0bc5f46347a7-15223-vistapatioinstallationguide-3panel-brochure-v1-f16e3ac71e95/pages/page-0002.txt",
+          "tables": [
+            "source-media/suppliers/vista/pdf-extracted/66353a4e5ece0bc5f46347a7-15223-vistapatioinstallationguide-3panel-brochure-v1-f16e3ac71e95/tables/page-0002-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "Frame Installation",
+            "• Fasten the door frame to the opening using 8 - #8 x 3 ½\" screws. 3 screws on each side Jamb",
+            "and 2 screws in the Header. (Using wood shims helps with squaring up the frame)",
+            "• Ensure the door frame is square before installing panels.",
+            "ROLLERS ON BOTH THE SCREEN AND THE SLIDING PANEL AFTER INSTALLATION IN ORDER TO INSURE",
+            "Fixed Panel & Mullion Installation (SUCTION CUPS REQUIRED) Moving Panel installation Fig #5",
+            "per clip (found in hardware bag). FIG #2 • Lift Moving panel into the Header pocket and lower onto roller track.",
+            "• If your door is a Right opening the Special Fixed Panel should be installed on the right side. • Rollers have an adjustable screw. Adjust rollers if necessary to",
+            "Viewing door from outside. If your Door is a Left slide the Special Fixed Panel should be installed square up panel.",
+            "• Position your Fixed panels with the panel clips facing the jamb on to the FPS while lifting into",
+            "• Slide either Fixed panel about 1 inch from the jamb. Using the Suction cup, raise the panel up",
+            "Hardware Installation",
+            "and then over to jamb and back down to engage panel clips onto Jamb clips. Your Fixed panel is now",
+            "• Insert Mortise into Routed cavity and secure using screws using screws supplied in Hardware kit.",
+            "• Fasten the keeper onto the Mullion using screws supplied in Hardware kit.",
+            "• Attach Fix panel support cap at Regular Fixed panel. FIG #4",
+            "• Using self drilling screws pre installed on Mullion, fasten screws into Special Fixed Panel from inside"
+          ]
+        },
+        {
+          "documentId": "vista:66353a6862a4e06d8206365d-15223-vistapatioinstallationguide-4panel-brochure-v1-00411e836895",
+          "localPath": "/documents/catalog/vista/66353a6862a4e06d8206365d-15223-vistapatioinstallationguide-4panel-brochure-v1-00411e836895.pdf",
+          "page": 1,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/66353a6862a4e06d8206365d-15223-vistapatioinstallationguide-4panel-brochure-v1-00411e836895/pages/page-0001.txt",
+          "tables": [
+            "source-media/suppliers/vista/pdf-extracted/66353a6862a4e06d8206365d-15223-vistapatioinstallationguide-4panel-brochure-v1-00411e836895/tables/page-0001-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "Amalfi 1.0 (4 PANEL ORLO)",
+            "Frame Assembly",
+            "(If you purchased an assembled Patio door please go to Section “Frame Installation”)",
+            "(lay down drop sheets to protect frame from scratches during assembly).",
+            "• Lift and tilt Screens into screen pocket and position onto screen roller track. Adjust rollers if necessary. • Install 5 #8 x 2 ½\" screws (found in hardware bag) into the pilot holes at each frame corner.",
+            "Frame Installation",
+            "• Apply a heavy bead of urethane caulking along the full width of the sill opening where sill of patio door",
+            "• Fasten the door frame to the opening using 8 -#8 -x 3 1/2\"screws (found in hardware bag).",
+            "3 screws on each side jamb and 2 screws in the Header. Using shims helps squaring up the frame.",
+            "• Ensure the door frame is square before installing panels.",
+            "Fixed Panel - Anti Lift",
+            "4 Rollers 20 x #8 2 Fix Panel Support 4 Jamb Clips 6 Screw 2 Fixed Pane 2 Anti Lift",
+            "Fix Panel Support 1We a1the/r 4Str\"ip psincgrew Anti Lift",
+            "(If you purchased an assembled Patio door please go to Section “Frame Installation”)"
+          ]
+        },
+        {
+          "documentId": "vista:66353a6862a4e06d8206365d-15223-vistapatioinstallationguide-4panel-brochure-v1-00411e836895",
+          "localPath": "/documents/catalog/vista/66353a6862a4e06d8206365d-15223-vistapatioinstallationguide-4panel-brochure-v1-00411e836895.pdf",
+          "page": 2,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/66353a6862a4e06d8206365d-15223-vistapatioinstallationguide-4panel-brochure-v1-00411e836895/pages/page-0002.txt",
+          "tables": [
+            "source-media/suppliers/vista/pdf-extracted/66353a6862a4e06d8206365d-15223-vistapatioinstallationguide-4panel-brochure-v1-00411e836895/tables/page-0002-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "Moving Panel installation",
+            "Fix Panel Support Assembly of each moving FIG #5",
+            "• Apply Silicone along the SILL groove to receive the • Lift regular moving panel into header pocket",
+            "2 FIX PANEL SUPPORTS. and lower onto roller track",
+            "• Slide each FIX PANEL SUPPORT tight against each side • Lift H-Bar moving panel into Header pocket and lower",
+            "• Install 2 - #8x1 1/2” screws (found in hardware bag) • Adjust wheels if necessary to square up panel.",
+            "FIX PANEL SUPPORTS to SILL (do not over tighten).",
+            "Fixed Panel (2) installation (SUCTION CUPS REQUIRED) Hardware Installation",
+            "• Insert Mortise into routed cavity of regular moving panel",
+            "using 2 #8 x 1 ¼\" screws per clip (found in hardware bag) FIG #2 and secure using screws supplied in Hardware kit.",
+            "FIX PANEL SUPPORT • Insert toggle lever and Fasten Handle",
+            "and in towards jamb pocket and lower panel onto the Jamb Clips just installed. • Fasten Dummy handle on H-Bar panel.",
+            "on interior side of panel FIG #3 (found in hardware bag) FIG # 5B"
+          ]
+        },
+        {
+          "documentId": "vista:6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4",
+          "localPath": "/documents/catalog/vista/6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4.pdf",
+          "page": 1,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4/pages/page-0001.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": [
+            "2026 LIMITED NON-PRORATED WARRANTY",
+            "25 YEAR LIMITED WARRANTY ON WHITE 10 YEAR LIMITED WARRANTY ON MINI GENERAL TERMS AND CONDITIONS",
+            "This warranty is given in lieu of all other",
+            "vinyl panel and frame components will be free turn mini blinds will continue to be in good dealer has any authority to modify this warranty.",
+            "10 YEAR LIMITED WARRANTY ON PAINTED CLAIM PROCEDURE",
+            "PVC VINYL COMPONENTS EXCLUSIONS FROM LIMITED WARRANTY",
+            "For a period of ten (10) years from the date of Vista shall not be liable for and this warranty by the original purchaser to Vista Customer",
+            "doors) if supplied and painted by Vista. handling, poor installation (including frame not and date of shipment, name and address of the",
+            "LIFETIME LIMITED WARRANTY ON square, twisted, warped toward interior or property owner(s).",
+            "inappropriate maintenance. This warranty does",
+            "between the two sheets of glass or",
+            "will not be covered under this warranty along be liable to the original purchaser. In the",
+            "with colour changes due to normal weathering extreme circumstance a product covered by this",
+            "2 YEAR LIMITED WARRANTY ON over time. Damage resulting from exposure to warranty be unavailable, Vista reserves the",
+            "HARDWARE For a period of two (2) year from corrosive fumes, chemicals or sea salt will not right to substitute a product of equal quality or",
+            "the date of purchase, Vista warrants against be covered by this warranty. Vista will not be price."
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "vista:aria-1-0",
+      "pdfEvidence": [
+        {
+          "documentId": "vista:663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32",
+          "localPath": "/documents/catalog/vista/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32.pdf",
+          "page": 1,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0001.txt",
+          "tables": [],
+          "images": [
+            "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/images/page-0001-image-01.jpg",
+            "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/images/page-0001-image-02.jpg",
+            "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/images/page-0001-image-03.jpg",
+            "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/images/page-0001-image-05.jpg",
+            "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/images/page-0001-image-06.jpg",
+            "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/images/page-0001-image-07.jpg",
+            "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/images/page-0001-image-08.jpg",
+            "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/images/page-0001-image-09.jpg",
+            "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/images/page-0001-image-10.jpg",
+            "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/images/page-0001-image-11.jpg"
+          ],
+          "factCandidates": [
+            "ALL-PVC MECHANICAL FRAME WITH WELDED SASH"
+          ]
+        },
+        {
+          "documentId": "vista:663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32",
+          "localPath": "/documents/catalog/vista/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32.pdf",
+          "page": 2,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0002.txt",
+          "tables": [],
+          "images": [
+            "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/images/page-0002-image-01.jpg",
+            "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/images/page-0002-image-02.jpg",
+            "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/images/page-0002-image-04.jpg",
+            "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/images/page-0002-image-05.jpg",
+            "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/images/page-0002-image-06.jpg",
+            "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/images/page-0002-image-08.jpg"
+          ],
+          "factCandidates": [
+            "Superior performance, maximum endurance and resilience"
+          ]
+        },
+        {
+          "documentId": "vista:663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32",
+          "localPath": "/documents/catalog/vista/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32.pdf",
+          "page": 3,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0003.txt",
+          "tables": [
+            "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/tables/page-0003-table-01.json"
+          ],
+          "images": [
+            "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/images/page-0003-image-02.jpg",
+            "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/images/page-0003-image-43.png"
+          ],
+          "factCandidates": [
+            "FEATURES, HARDWARE",
+            "colours. (Colour match",
+            "coated San Remo hardware with thumb-turn, choice of",
+            "Window fi lm preserves and protects door glass from dirt",
+            "Easy-clean glass coating helps make the window glass",
+            "Vista industry-leading lifetime warranty on vinyl",
+            "frame, take up minimal fl oor space"
+          ]
+        },
+        {
+          "documentId": "vista:663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32",
+          "localPath": "/documents/catalog/vista/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32.pdf",
+          "page": 4,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/pages/page-0004.txt",
+          "tables": [
+            "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/tables/page-0004-table-01.json",
+            "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/tables/page-0004-table-02.json",
+            "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/tables/page-0004-table-03.json",
+            "source-media/suppliers/vista/pdf-extracted/663537f700e278e514b13ac0-15503-3282-vista-aria-1-0-brochure-p1-r3-t-dcfafdd6cb32/tables/page-0004-table-04.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "glass types."
+          ]
+        },
+        {
+          "documentId": "vista:66353a23376329e391ee050d-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-aria-p1-9747079a3820",
+          "localPath": "/documents/catalog/vista/66353a23376329e391ee050d-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-aria-p1-9747079a3820.pdf",
+          "page": 1,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/66353a23376329e391ee050d-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-aria-p1-9747079a3820/pages/page-0001.txt",
+          "tables": [
+            "source-media/suppliers/vista/pdf-extracted/66353a23376329e391ee050d-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-aria-p1-9747079a3820/tables/page-0001-table-01.json",
+            "source-media/suppliers/vista/pdf-extracted/66353a23376329e391ee050d-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-aria-p1-9747079a3820/tables/page-0001-table-02.json",
+            "source-media/suppliers/vista/pdf-extracted/66353a23376329e391ee050d-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-aria-p1-9747079a3820/tables/page-0001-table-03.json",
+            "source-media/suppliers/vista/pdf-extracted/66353a23376329e391ee050d-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-aria-p1-9747079a3820/tables/page-0001-table-04.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "• Install screw covers (FIG #10B & #10C) that is installed on sash at top & bottom of sash. Install top &",
+            "bottom screw covers using removed screws to sash. FIG #10B(BOTTOM) & #10C(TOP)",
+            "• 1 on fixed panel at top (if purchased with screen), both top & bottom (if purchased with no screen).",
+            "• 4 on middle panel 2 top & 2 bottom screw covers.",
+            "• 2 on locking panel 1 each top & bottom screw covers.",
+            "Frame Assembly",
+            "(If you purchased an assembled Patio door please go to Section “Frame Installation”)",
+            "(lay down drop sheets to protect frame from scratches during assembly).",
+            "• Install 7 #8 x 2 ½” screws (found in hardware bag) into the pilot holes at each frame corner. Ensure that you",
+            "• Retractable screen frame verticals are installed against the fixed panel and outer jamb pocket. The",
+            "Frame Installation",
+            "• Apply a heavy bead of urethane caulking along the full width of the sill opening where sill of patio door will",
+            "• Fasten the door frame to the opening using 8 -#8 -x 3 1/2 “screws (found in hardware bag). 3 screws on",
+            "each side jamb and 2 screws in the Header. Using shims helps squaring up the frame.",
+            "• Ensure the door frame is square before installing panels.",
+            "Aria 1.0 (3 Panel Stacking)",
+            "Fixed Panel - Anti Lift",
+            "2 Rollers 20 x #8 Fix Panel Support 4 Jamb Clips 3 Screw 2 Middle 2 Fixed Panel 2 Anti Lift",
+            "with 2 x #8 x 5/8” screws 2 1/2” screws Weather Stripping with 8 x #8 Covers Panel Anti Lift with 4 x #8"
+          ]
+        },
+        {
+          "documentId": "vista:66353a23376329e391ee050d-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-aria-p1-9747079a3820",
+          "localPath": "/documents/catalog/vista/66353a23376329e391ee050d-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-aria-p1-9747079a3820.pdf",
+          "page": 2,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/66353a23376329e391ee050d-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-aria-p1-9747079a3820/pages/page-0002.txt",
+          "tables": [
+            "source-media/suppliers/vista/pdf-extracted/66353a23376329e391ee050d-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-aria-p1-9747079a3820/tables/page-0002-table-01.json",
+            "source-media/suppliers/vista/pdf-extracted/66353a23376329e391ee050d-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-aria-p1-9747079a3820/tables/page-0002-table-02.json",
+            "source-media/suppliers/vista/pdf-extracted/66353a23376329e391ee050d-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-aria-p1-9747079a3820/tables/page-0002-table-03.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "Fix Panel Support Assembly (not required if door is pre assembled)",
+            "• Apply Silicone along the SILL groove to receive the FIX PANEL SUPPORT.",
+            "• Slide the FIX PANEL SUPPORT tight against the Jamb. SEE FIG #1",
+            "• Install 2 - #8x1 1/2” screws (found in hardware bag) 4 to six inches from either",
+            "end to secure FIX PANEL SUPPORT to SILL (do not over tighten).",
+            "Fixed Panel installation (SUCTION CUPS REQUIRED)",
+            "• Install 2 Jamb Clips to the pre-drilled holes in the Jamb where fixed panel will be placed using 2 #8 x 1 ¼”",
+            "screws per clip (found in hardware bag). FIG #2",
+            "• Insert Fix panel first into the outer Header pocket and lift onto FIX PANEL SUPPORT.",
+            "• Slide Fixed panel about 1” from the jamb. Using the suction cup raise fixed panel up and in towards jamb",
+            "pocket and lower panel onto the Jamb Clips just installed.",
+            "• Install the rubber fixed panel anti lift into top of fixed panel where meets jamb on interior side of panel.",
+            "• Install Fixed Panel support w/weatherstripping onto fix panel support using # 8 1 ¼” screws .",
+            "Middle Panel installation",
+            "Fig 2 • Lift panel into middle header pocket and lower onto roller track. Fig 4",
+            "• Adjust wheels if necessary to square up panel.",
+            "Locking Panel installation",
+            "• Lift panel into outer header pocket and lower onto roller track.",
+            "• Adjust wheels if necessary to square up panel.",
+            "Hardware Installation",
+            "• Insert Mortise into routed cavity and secure using screws supplied in Hardware kit.",
+            "• Fasten the keeper onto the Jamb using screws (found in hardware bag).",
+            "• Install bumpers on middle panel at bottom and top of middle panel. See FIG # 7a & #7b"
+          ]
+        },
+        {
+          "documentId": "vista:6924c4c16b0485fa845307d7-genius-20warranty-20information-87aff38ccc97",
+          "localPath": "/documents/catalog/vista/6924c4c16b0485fa845307d7-genius-20warranty-20information-87aff38ccc97.pdf",
+          "page": 1,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/6924c4c16b0485fa845307d7-genius-20warranty-20information-87aff38ccc97/pages/page-0001.txt",
+          "tables": [],
+          "images": [
+            "source-media/suppliers/vista/pdf-extracted/6924c4c16b0485fa845307d7-genius-20warranty-20information-87aff38ccc97/images/page-0001-image-01.jpg"
+          ],
+          "factCandidates": [
+            "Warranty",
+            "The following five-year warranty applies to the original purchaser of owner occupied homes and covers mechanical components",
+            "a guide rail or damage can occur),depends on the width and height of the opening,the opennessfactor of the specific screen",
+            "Except as otherwise specifically set forth herein, Genius makes norepresentation or warranty,expressed orimplied, statutory",
+            "pursuant to any such laws. This warranty supersedes and excludes any other products warranties and may on occasion be",
+            "warranty:",
+            "·Product failure, shrinkage or color change caused fully or in part by rust, corrosion, abuse or misuse or",
+            "4 | Warranty"
+          ]
+        },
+        {
+          "documentId": "vista:6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4",
+          "localPath": "/documents/catalog/vista/6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4.pdf",
+          "page": 1,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4/pages/page-0001.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": [
+            "2026 LIMITED NON-PRORATED WARRANTY",
+            "25 YEAR LIMITED WARRANTY ON WHITE 10 YEAR LIMITED WARRANTY ON MINI GENERAL TERMS AND CONDITIONS",
+            "This warranty is given in lieu of all other",
+            "vinyl panel and frame components will be free turn mini blinds will continue to be in good dealer has any authority to modify this warranty.",
+            "10 YEAR LIMITED WARRANTY ON PAINTED CLAIM PROCEDURE",
+            "PVC VINYL COMPONENTS EXCLUSIONS FROM LIMITED WARRANTY",
+            "For a period of ten (10) years from the date of Vista shall not be liable for and this warranty by the original purchaser to Vista Customer",
+            "doors) if supplied and painted by Vista. handling, poor installation (including frame not and date of shipment, name and address of the",
+            "LIFETIME LIMITED WARRANTY ON square, twisted, warped toward interior or property owner(s).",
+            "inappropriate maintenance. This warranty does",
+            "between the two sheets of glass or",
+            "will not be covered under this warranty along be liable to the original purchaser. In the",
+            "with colour changes due to normal weathering extreme circumstance a product covered by this",
+            "2 YEAR LIMITED WARRANTY ON over time. Damage resulting from exposure to warranty be unavailable, Vista reserves the",
+            "HARDWARE For a period of two (2) year from corrosive fumes, chemicals or sea salt will not right to substitute a product of equal quality or",
+            "the date of purchase, Vista warrants against be covered by this warranty. Vista will not be price."
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "vista:capri-3-0",
+      "pdfEvidence": [
+        {
+          "documentId": "vista:6495979a31cb704c1739a3e2-2033-20vista-20installation-20guide-20-203-20panel-20patio-20door-p1-dedae87e1085",
+          "localPath": "/documents/catalog/vista/6495979a31cb704c1739a3e2-2033-20vista-20installation-20guide-20-203-20panel-20patio-20door-p1-dedae87e1085.pdf",
+          "page": 1,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/6495979a31cb704c1739a3e2-2033-20vista-20installation-20guide-20-203-20panel-20patio-20door-p1-dedae87e1085/pages/page-0001.txt",
+          "tables": [
+            "source-media/suppliers/vista/pdf-extracted/6495979a31cb704c1739a3e2-2033-20vista-20installation-20guide-20-203-20panel-20patio-20door-p1-dedae87e1085/tables/page-0001-table-01.json",
+            "source-media/suppliers/vista/pdf-extracted/6495979a31cb704c1739a3e2-2033-20vista-20installation-20guide-20-203-20panel-20patio-20door-p1-dedae87e1085/tables/page-0001-table-02.json",
+            "source-media/suppliers/vista/pdf-extracted/6495979a31cb704c1739a3e2-2033-20vista-20installation-20guide-20-203-20panel-20patio-20door-p1-dedae87e1085/tables/page-0001-table-03.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "SSntaepp re 8maining 2 screw covers at top of fixed panel meeting rails.",
+            "Frame Assembly",
+            "(If you purchased an assembled door please go to directly to section 3 Frame Installation)",
+            "• Install 4(four) #8 x 2 ½” screws (found in your hardware bag) into the pilot holes at each frame corner.",
+            "Installing the 2 Fixed Panel Supports",
+            "The 2 Fixed Panel Supports (FPS) are the pieces that the fixed panels",
+            "Capri 3.0 (3 PANEL DOORS)",
+            "Fixed Panel - Anti Lift",
+            "2 Rollers 20 x #8 Fix Panel Support 4 Jamb Clips 3 Screw 2 Fixed Pane Anti Lift",
+            "Fix Panel Support 1We a1the/r 4Str”ip psincgrew"
+          ]
+        },
+        {
+          "documentId": "vista:6495979a31cb704c1739a3e2-2033-20vista-20installation-20guide-20-203-20panel-20patio-20door-p1-dedae87e1085",
+          "localPath": "/documents/catalog/vista/6495979a31cb704c1739a3e2-2033-20vista-20installation-20guide-20-203-20panel-20patio-20door-p1-dedae87e1085.pdf",
+          "page": 2,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/6495979a31cb704c1739a3e2-2033-20vista-20installation-20guide-20-203-20panel-20patio-20door-p1-dedae87e1085/pages/page-0002.txt",
+          "tables": [
+            "source-media/suppliers/vista/pdf-extracted/6495979a31cb704c1739a3e2-2033-20vista-20installation-20guide-20-203-20panel-20patio-20door-p1-dedae87e1085/tables/page-0002-table-01.json",
+            "source-media/suppliers/vista/pdf-extracted/6495979a31cb704c1739a3e2-2033-20vista-20installation-20guide-20-203-20panel-20patio-20door-p1-dedae87e1085/tables/page-0002-table-02.json",
+            "source-media/suppliers/vista/pdf-extracted/6495979a31cb704c1739a3e2-2033-20vista-20installation-20guide-20-203-20panel-20patio-20door-p1-dedae87e1085/tables/page-0002-table-03.json",
+            "source-media/suppliers/vista/pdf-extracted/6495979a31cb704c1739a3e2-2033-20vista-20installation-20guide-20-203-20panel-20patio-20door-p1-dedae87e1085/tables/page-0002-table-04.json",
+            "source-media/suppliers/vista/pdf-extracted/6495979a31cb704c1739a3e2-2033-20vista-20installation-20guide-20-203-20panel-20patio-20door-p1-dedae87e1085/tables/page-0002-table-05.json",
+            "source-media/suppliers/vista/pdf-extracted/6495979a31cb704c1739a3e2-2033-20vista-20installation-20guide-20-203-20panel-20patio-20door-p1-dedae87e1085/tables/page-0002-table-06.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "Frame Installation",
+            "• Fasten the door frame to the opening using 8 - #8 x 3 ½” screws. 3 screws on each side Jamb",
+            "and 2 screws in the Header. (Using wood shims helps with squaring up the frame)",
+            "• Ensure the door frame is square before installing panels.",
+            "ROLLERS ON BOTH THE SCREEN AND THE SLIDING PANEL AFTER INSTALLATION IN ORDER TO INSURE",
+            "Fixed Panel & Mullion Installation (SUCTION CUPS REQUIRED) Moving Panel installation",
+            "• There are 2 Fixed panels 1 is a Regular Fixed panel with an interlock and a fixed rail. • Install 2 Rollers (FIG #5) into pre-drilled holes on bottom rail",
+            "The 2nd is a Special Fixed panel with NO interlock rail just fixed rails. Install 2 Jamb clips to the pre of moving panels.",
+            "drilled holes in the jamb where both the fixed & special fixed panel will be placed using 2 #8 x 1/14” screws",
+            "per clip (found in hardware bag). FIG #2 • Lift Moving panel into the Header pocket and lower onto roller track.",
+            "• If your door is a Right opening the Special Fixed Panel should be installed on the right side. • Rollers have an adjustable screw. Adjust rollers if necessary to",
+            "Viewing door from outside. If your Door is a Left slide the Special Fixed Panel should be installed square up panel.",
+            "• Position your Fixed panels with the panel clips facing the jamb on to the FPS while lifting into",
+            "• Slide either Fixed panel about 1 inch from the jamb. Using the Suction cup, raise the panel up",
+            "Hardware Installation",
+            "and then over to jamb and back down to engage panel clips onto Jamb clips. Your Fixed panel is now",
+            "• Insert Mortise into Routed cavity and secure using screws using screws supplied in Hardware kit.",
+            "installed (repeat on the other fixed panel). Should the fixed panel(s) not engage properly, lift and remove",
+            "the fixed panel and repeat step 4c.",
+            "• Fasten the keeper onto the Mullion using screws supplied in Hardware kit.",
+            "• Attach Fix panel support cap at Regular Fixed panel. FIG #4 • Fully attach Mullion to special fixed panel.",
+            "• Using self drilling screws pre installed on Mullion, fasten screws into Special Fixed Panel from inside"
+          ]
+        },
+        {
+          "documentId": "vista:6495979a399738dade882cdc-2033-20vvista-20installation-20guide-20-204-20panel-20patio-20door-p1-6b12c9f8c577",
+          "localPath": "/documents/catalog/vista/6495979a399738dade882cdc-2033-20vvista-20installation-20guide-20-204-20panel-20patio-20door-p1-6b12c9f8c577.pdf",
+          "page": 1,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/6495979a399738dade882cdc-2033-20vvista-20installation-20guide-20-204-20panel-20patio-20door-p1-6b12c9f8c577/pages/page-0001.txt",
+          "tables": [
+            "source-media/suppliers/vista/pdf-extracted/6495979a399738dade882cdc-2033-20vvista-20installation-20guide-20-204-20panel-20patio-20door-p1-6b12c9f8c577/tables/page-0001-table-01.json",
+            "source-media/suppliers/vista/pdf-extracted/6495979a399738dade882cdc-2033-20vvista-20installation-20guide-20-204-20panel-20patio-20door-p1-6b12c9f8c577/tables/page-0001-table-02.json",
+            "source-media/suppliers/vista/pdf-extracted/6495979a399738dade882cdc-2033-20vvista-20installation-20guide-20-204-20panel-20patio-20door-p1-6b12c9f8c577/tables/page-0001-table-03.json",
+            "source-media/suppliers/vista/pdf-extracted/6495979a399738dade882cdc-2033-20vvista-20installation-20guide-20-204-20panel-20patio-20door-p1-6b12c9f8c577/tables/page-0001-table-04.json",
+            "source-media/suppliers/vista/pdf-extracted/6495979a399738dade882cdc-2033-20vvista-20installation-20guide-20-204-20panel-20patio-20door-p1-6b12c9f8c577/tables/page-0001-table-05.json",
+            "source-media/suppliers/vista/pdf-extracted/6495979a399738dade882cdc-2033-20vvista-20installation-20guide-20-204-20panel-20patio-20door-p1-6b12c9f8c577/tables/page-0001-table-06.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "Frame Assembly",
+            "(If you purchased an assembled Patio door please go to Section “Frame Installation”)",
+            "(lay down drop sheets to protect frame from scratches during assembly).",
+            "• Lift and tilt Screens into screen pocket and position onto screen roller track. Adjust rollers if necessary. • Install 5 #8 x 2 ½” screws (found in hardware bag) into the pilot holes at each frame corner.",
+            "Frame Installation",
+            "• Apply a heavy bead of urethane caulking along the full width of the sill opening where sill of patio door",
+            "• Fasten the door frame to the opening using 8 -#8 -x 3 1/2 “screws (found in hardware bag).",
+            "3 screws on each side jamb and 2 screws in the Header. Using shims helps squaring up the frame.",
+            "• Ensure the door frame is square before installing panels.",
+            "Fixed Panel - Anti Lift",
+            "4 Rollers 20 x #8 2 Fix Panel Support 4 Jamb Clips 6 Screw 2 Fixed Pane 2 Anti Lift",
+            "Fix Panel Support Weather Stripping",
+            "(If you purchased an assembled Patio door please go to Section “Frame Installation”)"
+          ]
+        },
+        {
+          "documentId": "vista:6495979a399738dade882cdc-2033-20vvista-20installation-20guide-20-204-20panel-20patio-20door-p1-6b12c9f8c577",
+          "localPath": "/documents/catalog/vista/6495979a399738dade882cdc-2033-20vvista-20installation-20guide-20-204-20panel-20patio-20door-p1-6b12c9f8c577.pdf",
+          "page": 2,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/6495979a399738dade882cdc-2033-20vvista-20installation-20guide-20-204-20panel-20patio-20door-p1-6b12c9f8c577/pages/page-0002.txt",
+          "tables": [
+            "source-media/suppliers/vista/pdf-extracted/6495979a399738dade882cdc-2033-20vvista-20installation-20guide-20-204-20panel-20patio-20door-p1-6b12c9f8c577/tables/page-0002-table-01.json",
+            "source-media/suppliers/vista/pdf-extracted/6495979a399738dade882cdc-2033-20vvista-20installation-20guide-20-204-20panel-20patio-20door-p1-6b12c9f8c577/tables/page-0002-table-02.json",
+            "source-media/suppliers/vista/pdf-extracted/6495979a399738dade882cdc-2033-20vvista-20installation-20guide-20-204-20panel-20patio-20door-p1-6b12c9f8c577/tables/page-0002-table-03.json",
+            "source-media/suppliers/vista/pdf-extracted/6495979a399738dade882cdc-2033-20vvista-20installation-20guide-20-204-20panel-20patio-20door-p1-6b12c9f8c577/tables/page-0002-table-04.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "Moving Panel installation",
+            "Fix Panel Support Assembly",
+            "• Lift regular moving panel into header pocket",
+            "2 FIX PANEL SUPPORTS.",
+            "• Slide each FIX PANEL SUPPORT tight against each side",
+            "• Lift H-Bar moving panel into Header pocket and lower",
+            "• Install 2 - #8x1 1/2” screws (found in hardware bag)",
+            "• Adjust wheels if necessary to square up panel.",
+            "FIX PANEL SUPPORTS to SILL (do not over tighten).",
+            "Fixed Panel (2) installation (SUCTION CUPS REQUIRED) Hardware Installation",
+            "• Install 2 Jamb Clips to the pre-drilled holes in the Jamb where each fixed panel will be placed • Insert Mortise into routed cavity of regular moving panel",
+            "using 2 #8 x 1 ¼” screws per clip (found in hardware bag) FIG #2 and secure using screws supplied in Hardware kit.",
+            "• Insert Fix panel first into the Header pocket and lift onto FIX PANEL SUPPORT • Insert toggle lever and Fasten Handle",
+            "• Slide Fixed panel about 1” from the jamb. Using the suction cup raise fixed panel up",
+            "Step 4 and in towards jamb pocket and lower panel onto the Jamb Clips just installed. • Fasten Dummy handle on H-Bar panel.",
+            "• Install the rubber fixed panel anti lift into top of fixed panel where meets jamb • Fasten the keeper onto the H-bar using screws",
+            "on interior side of panel FIG #3 (found in hardware bag) FIG # 5B",
+            "• Install Fixed Panel support w/weatherstripping onto fix panel support using # 8 1 ¼” screws. Fig #5B",
+            "• Repeat above steps for other fixed panel. FIG #4",
+            "• Install bumpers. 1 in the Head pocket and 1 in the Sill Pocketon each side of fixed panel. See FIG #6"
+          ]
+        },
+        {
+          "documentId": "vista:6495979a7c779f4ff0258f83-2033-20vista-20installation-20guide-20-202-20panel-20patio-20door-p1-65c62ff4559a",
+          "localPath": "/documents/catalog/vista/6495979a7c779f4ff0258f83-2033-20vista-20installation-20guide-20-202-20panel-20patio-20door-p1-65c62ff4559a.pdf",
+          "page": 1,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/6495979a7c779f4ff0258f83-2033-20vista-20installation-20guide-20-202-20panel-20patio-20door-p1-65c62ff4559a/pages/page-0001.txt",
+          "tables": [
+            "source-media/suppliers/vista/pdf-extracted/6495979a7c779f4ff0258f83-2033-20vista-20installation-20guide-20-202-20panel-20patio-20door-p1-65c62ff4559a/tables/page-0001-table-01.json",
+            "source-media/suppliers/vista/pdf-extracted/6495979a7c779f4ff0258f83-2033-20vista-20installation-20guide-20-202-20panel-20patio-20door-p1-65c62ff4559a/tables/page-0001-table-02.json",
+            "source-media/suppliers/vista/pdf-extracted/6495979a7c779f4ff0258f83-2033-20vista-20installation-20guide-20-202-20panel-20patio-20door-p1-65c62ff4559a/tables/page-0001-table-03.json",
+            "source-media/suppliers/vista/pdf-extracted/6495979a7c779f4ff0258f83-2033-20vista-20installation-20guide-20-202-20panel-20patio-20door-p1-65c62ff4559a/tables/page-0001-table-04.json",
+            "source-media/suppliers/vista/pdf-extracted/6495979a7c779f4ff0258f83-2033-20vista-20installation-20guide-20-202-20panel-20patio-20door-p1-65c62ff4559a/tables/page-0001-table-05.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "Frame Assembly",
+            "(If you purchased an assembled Patio door please go to Section “Frame Installation”)",
+            "(lay down drop sheets to protect frame from scratches during assembly)",
+            "• Install 5 #8 x 2 ½” screws (found in hardware bag) into the pilot holes at each frame corner.",
+            "Frame Installation",
+            "• Apply a heavy bead of urethane caulking along the full width of the sill opening where sill of patio",
+            "• Fasten the door frame to the opening using 8 -#8 -x 3 1/2 “screws (found in hardware bag).",
+            "3 screws on each side jamb and 2 screws in the Header. Using shims helps squaring up the frame.",
+            "• Ensure the door frame is square before installing panels.",
+            "Capri 3.0 (2 PANEL DOORS)",
+            "Fixed Panel - Anti Lift",
+            "2 Rollers 20 x #8 Fix Panel Support 2 Jamb Clips 3 Screw Fixed Pane Anti Lift",
+            "Fix Panel Support 1We at1he/r S4trip”p insgcrew"
+          ]
+        },
+        {
+          "documentId": "vista:6495979a7c779f4ff0258f83-2033-20vista-20installation-20guide-20-202-20panel-20patio-20door-p1-65c62ff4559a",
+          "localPath": "/documents/catalog/vista/6495979a7c779f4ff0258f83-2033-20vista-20installation-20guide-20-202-20panel-20patio-20door-p1-65c62ff4559a.pdf",
+          "page": 2,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/6495979a7c779f4ff0258f83-2033-20vista-20installation-20guide-20-202-20panel-20patio-20door-p1-65c62ff4559a/pages/page-0002.txt",
+          "tables": [
+            "source-media/suppliers/vista/pdf-extracted/6495979a7c779f4ff0258f83-2033-20vista-20installation-20guide-20-202-20panel-20patio-20door-p1-65c62ff4559a/tables/page-0002-table-01.json",
+            "source-media/suppliers/vista/pdf-extracted/6495979a7c779f4ff0258f83-2033-20vista-20installation-20guide-20-202-20panel-20patio-20door-p1-65c62ff4559a/tables/page-0002-table-02.json",
+            "source-media/suppliers/vista/pdf-extracted/6495979a7c779f4ff0258f83-2033-20vista-20installation-20guide-20-202-20panel-20patio-20door-p1-65c62ff4559a/tables/page-0002-table-03.json",
+            "source-media/suppliers/vista/pdf-extracted/6495979a7c779f4ff0258f83-2033-20vista-20installation-20guide-20-202-20panel-20patio-20door-p1-65c62ff4559a/tables/page-0002-table-04.json",
+            "source-media/suppliers/vista/pdf-extracted/6495979a7c779f4ff0258f83-2033-20vista-20installation-20guide-20-202-20panel-20patio-20door-p1-65c62ff4559a/tables/page-0002-table-05.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "Moving Panel installation",
+            "Fix Panel Support Assembly",
+            "• Lift panel into header pocket and lower onto roller track",
+            "the FIX PANEL SUPPORT.",
+            "• Adjust wheels if necessary to square up panel",
+            "• Slide the FIX PANEL SUPPORT tight against",
+            "• Install 2 - #8x1 1/2” screws (found in hardware bag)",
+            "FIX PANEL SUPPORT to SILL (do not over tighten)",
+            "Fixed Panel installation (SUCTION CUPS REQUIRED) Hardware Installation",
+            "• Install 2 Jamb Clips to the pre-drilled holes in the Jamb where fixed panel will be placed • Insert Mortise into routed cavity and secure using screws supplied in Hardware kit.",
+            "using 2 #8 x 1 ¼” screws per clip (found in hardware bag) FIG #2",
+            "• Insert Fix panel first into the Header pocket and lift onto FIX PANEL SUPPORT",
+            "• Fasten the keeper onto the Jamb using screws (found in hardware bag)",
+            "• Slide Fixed panel about 1” from the jamb. Using the suction cup raise fixed panel up",
+            "and in towards jamb pocket and lower panel onto the Jamb Clips just installed.",
+            "• Install the rubber fixed panel anti lift into top of fixed panel where meets jamb",
+            "on interior side of panel FIG #3 Step 7",
+            "Step 4 • Install Fixed Panel support w/weatherstripping onto fix panel support using # 8 1 ¼” screws FIG #4"
+          ]
+        },
+        {
+          "documentId": "vista:649597fed61fa22b4c87916e-6483432a22613c6de6af9ada-energy-star-chart-2020-089e49a70e84",
+          "localPath": "/documents/catalog/vista/649597fed61fa22b4c87916e-6483432a22613c6de6af9ada-energy-star-chart-2020-089e49a70e84.pdf",
+          "page": 1,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/649597fed61fa22b4c87916e-6483432a22613c6de6af9ada-energy-star-chart-2020-089e49a70e84/pages/page-0001.txt",
+          "tables": [
+            "source-media/suppliers/vista/pdf-extracted/649597fed61fa22b4c87916e-6483432a22613c6de6af9ada-energy-star-chart-2020-089e49a70e84/tables/page-0001-table-01.json"
+          ],
+          "images": [
+            "source-media/suppliers/vista/pdf-extracted/649597fed61fa22b4c87916e-6483432a22613c6de6af9ada-energy-star-chart-2020-089e49a70e84/images/page-0001-image-01.jpg"
+          ],
+          "factCandidates": [
+            "What glass package is right for you?",
+            "Energy Star qualification sometimes only tells part of the story.",
+            "Low e 272 or 366 would be more appropriate.",
+            "CAPRI 3.0 THERMAL RATINGS",
+            "GLAZING PACKAGE UNIT METRIC IMPERIAL HEAT GAIN TRANSMISSION RATING ZONE ZONE",
+            "CLEAR -LOWE 180",
+            "LOW E 272-CLEAR DUAL 1.7 0.3 0.31 0.53 21* NORTH",
+            "LOWE 366-CLEAR DUAL 1.64 0.29 0.21 0.48 18* SOUTH",
+            "LOW E 180- I89 DUAL 1.48 0.26 0.47 0.57 35 CANADA",
+            "LOW E 272- I89 DUAL 1.48 0.26 0.3 0.52 25 NORTH",
+            "LOW E 366-I89 DUAL 1.42 0.25 0.2 0.47 20 SOUTH",
+            "CLEAR-CLEAR -LOW E 180 TRIPLE 1.48 0.26 0.46 0.54 34 CANADA",
+            "LOW E 180 - CLEAR-LOW E 180 TRIPLE 1.31 0.23 0.42 0.52 35 CANADA",
+            "LOW E 272- CLEAR- LOW E 272 TRIPLE 1.25 0.22 0.27 0.43 28 SOUTH",
+            "LOWE 366-CLEAR- LOW E 366 TRIPLE 1.25 0.22 0.18 0.35 23 SOUTH",
+            "NOT ALL GLAZING PACKAGES",
+            "QUALIFY FOR ENERGY STAR",
+            "NOT ALL GLAZING PACKAGES",
+            "QUALIFY FOR ENERGY STAR"
+          ]
+        },
+        {
+          "documentId": "vista:6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4",
+          "localPath": "/documents/catalog/vista/6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4.pdf",
+          "page": 1,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4/pages/page-0001.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": [
+            "2026 LIMITED NON-PRORATED WARRANTY",
+            "25 YEAR LIMITED WARRANTY ON WHITE 10 YEAR LIMITED WARRANTY ON MINI GENERAL TERMS AND CONDITIONS",
+            "This warranty is given in lieu of all other",
+            "vinyl panel and frame components will be free turn mini blinds will continue to be in good dealer has any authority to modify this warranty.",
+            "10 YEAR LIMITED WARRANTY ON PAINTED CLAIM PROCEDURE",
+            "PVC VINYL COMPONENTS EXCLUSIONS FROM LIMITED WARRANTY",
+            "For a period of ten (10) years from the date of Vista shall not be liable for and this warranty by the original purchaser to Vista Customer",
+            "doors) if supplied and painted by Vista. handling, poor installation (including frame not and date of shipment, name and address of the",
+            "LIFETIME LIMITED WARRANTY ON square, twisted, warped toward interior or property owner(s).",
+            "inappropriate maintenance. This warranty does",
+            "between the two sheets of glass or",
+            "will not be covered under this warranty along be liable to the original purchaser. In the",
+            "with colour changes due to normal weathering extreme circumstance a product covered by this",
+            "2 YEAR LIMITED WARRANTY ON over time. Damage resulting from exposure to warranty be unavailable, Vista reserves the",
+            "HARDWARE For a period of two (2) year from corrosive fumes, chemicals or sea salt will not right to substitute a product of equal quality or",
+            "the date of purchase, Vista warrants against be covered by this warranty. Vista will not be price."
+          ]
+        },
+        {
+          "documentId": "vista:69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9",
+          "localPath": "/documents/catalog/vista/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9.pdf",
+          "page": 1,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0001.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": []
+        },
+        {
+          "documentId": "vista:69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9",
+          "localPath": "/documents/catalog/vista/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9.pdf",
+          "page": 2,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0002.txt",
+          "tables": [],
+          "images": [
+            "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/images/page-0002-image-01.jpg",
+            "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/images/page-0002-image-02.jpg"
+          ],
+          "factCandidates": []
+        },
+        {
+          "documentId": "vista:69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9",
+          "localPath": "/documents/catalog/vista/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9.pdf",
+          "page": 3,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0003.txt",
+          "tables": [],
+          "images": [
+            "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/images/page-0003-image-01.jpg"
+          ],
+          "factCandidates": [
+            "Standard Oversized sash frames — a luxurious look.",
+            "colours. (Colour match",
+            "hardware lines.",
+            "Superior 2\" x ½\" screen, lock with pull glass packages.",
+            "Lifetime warranty on vinyl and 1”",
+            "low e- glass units."
+          ]
+        },
+        {
+          "documentId": "vista:69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9",
+          "localPath": "/documents/catalog/vista/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9.pdf",
+          "page": 4,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0004.txt",
+          "tables": [
+            "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/tables/page-0004-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "colour palettes or optional colour",
+            "individually divided glass panes. Shadow",
+            "bar between the glass and contoured",
+            "recreation. SDLs, in 1\" and 2\" width,",
+            "coated with colour.",
+            "your door colour. Endless options. Some exterior paint colours in addition to our twin"
+          ]
+        },
+        {
+          "documentId": "vista:69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9",
+          "localPath": "/documents/catalog/vista/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9.pdf",
+          "page": 5,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0005.txt",
+          "tables": [
+            "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/tables/page-0005-table-01.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "HARDWARE &",
+            "Standard hardware package in Black, White"
+          ]
+        },
+        {
+          "documentId": "vista:69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9",
+          "localPath": "/documents/catalog/vista/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9.pdf",
+          "page": 6,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0006.txt",
+          "tables": [
+            "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/tables/page-0006-table-01.json",
+            "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/tables/page-0006-table-02.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "GLASS PACKAGES &",
+            "Glass Packages",
+            "Higher effi ciency glass packages for more",
+            "the Glass",
+            "2-Panel in 58 3⁄4\" and 59 1⁄2\" widths by 79 1⁄4\"",
+            "3-Panel in 7668 and 9068 sizes",
+            "4-Panel available in 10068 and 12068 sizes",
+            "glass package. Shapes also available. Consult"
+          ]
+        },
+        {
+          "documentId": "vista:69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9",
+          "localPath": "/documents/catalog/vista/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9.pdf",
+          "page": 7,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0007.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": [
+            "Slim or San Remo D Hardware",
+            "Includes Black anodized Panel and"
+          ]
+        },
+        {
+          "documentId": "vista:69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9",
+          "localPath": "/documents/catalog/vista/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9.pdf",
+          "page": 8,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/pages/page-0008.txt",
+          "tables": [
+            "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/tables/page-0008-table-01.json",
+            "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/tables/page-0008-table-02.json",
+            "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/tables/page-0008-table-03.json",
+            "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/tables/page-0008-table-04.json",
+            "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/tables/page-0008-table-05.json",
+            "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/tables/page-0008-table-06.json",
+            "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/tables/page-0008-table-07.json",
+            "source-media/suppliers/vista/pdf-extracted/69a9e33da994db6bf1bd35a2-1975-vista-capri-3-0-brochure-p2-web-compressed-595edde8cee9/tables/page-0008-table-08.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "WIDTH SLIDE HEIGHTS",
+            "Standard Size R Panel Slides Left",
+            "Standard Mini Blinds available L Panel Slides Right",
+            "O Fixed Panel",
+            "glass types."
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "vista:rimini-2-0",
+      "pdfEvidence": [
+        {
+          "documentId": "vista:66353a0c882b18807c02bd36-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-rimini-p1-1f31ad50f24d",
+          "localPath": "/documents/catalog/vista/66353a0c882b18807c02bd36-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-rimini-p1-1f31ad50f24d.pdf",
+          "page": 1,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/66353a0c882b18807c02bd36-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-rimini-p1-1f31ad50f24d/pages/page-0001.txt",
+          "tables": [
+            "source-media/suppliers/vista/pdf-extracted/66353a0c882b18807c02bd36-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-rimini-p1-1f31ad50f24d/tables/page-0001-table-01.json",
+            "source-media/suppliers/vista/pdf-extracted/66353a0c882b18807c02bd36-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-rimini-p1-1f31ad50f24d/tables/page-0001-table-02.json",
+            "source-media/suppliers/vista/pdf-extracted/66353a0c882b18807c02bd36-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-rimini-p1-1f31ad50f24d/tables/page-0001-table-03.json",
+            "source-media/suppliers/vista/pdf-extracted/66353a0c882b18807c02bd36-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-rimini-p1-1f31ad50f24d/tables/page-0001-table-04.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "on sash at top & bottom of sash (FIG 10A) Install top & bottom screw covers using removed screws to sash.",
+            "• 1 on fi xed panel at top (if purchased with screen), both top & bottom (if purchased with no screen).",
+            "• 4 on middle panel 2 top & 2 bottom screw covers.",
+            "• 2 on locking panel 1 each top & bottom screw covers.",
+            "Frame Assembly",
+            "(If you purchased an assembled Patio door please go to Section “Frame Installation”)",
+            "down drop sheets to protect frame from scratches during assembly).",
+            "• Install 5 #8 x 2 ½” screws (found in hardware bag) into the pilot holes at each frame corner. Ensure that you",
+            "• Retractable screen frame verticals are installed against the fi xed panel and outer jamb pocket. The",
+            "Frame Installation",
+            "• Apply a heavy bead of urethane caulking along the full width of the sill opening where sill of patio door will",
+            "• Fasten the door frame to the opening using 8 -#8 -x 3 1/2 “screws (found in hardware bag). 3 screws on",
+            "each side jamb and 2 screws in the Header. Using shims helps squaring up the frame.",
+            "• Ensure the door frame is square before installing panels.",
+            "Rimini 2.0 (3 Panel Stacking)",
+            "Fixed Panel - Anti Lift",
+            "2 Rollers 20 x #8 Fix Panel Support 4 Jamb Clips 3 Screw 2 Middle Panel 2 Fixed Panel 2 Anti Lift"
+          ]
+        },
+        {
+          "documentId": "vista:66353a0c882b18807c02bd36-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-rimini-p1-1f31ad50f24d",
+          "localPath": "/documents/catalog/vista/66353a0c882b18807c02bd36-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-rimini-p1-1f31ad50f24d.pdf",
+          "page": 2,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/66353a0c882b18807c02bd36-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-rimini-p1-1f31ad50f24d/pages/page-0002.txt",
+          "tables": [
+            "source-media/suppliers/vista/pdf-extracted/66353a0c882b18807c02bd36-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-rimini-p1-1f31ad50f24d/tables/page-0002-table-01.json",
+            "source-media/suppliers/vista/pdf-extracted/66353a0c882b18807c02bd36-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-rimini-p1-1f31ad50f24d/tables/page-0002-table-02.json",
+            "source-media/suppliers/vista/pdf-extracted/66353a0c882b18807c02bd36-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-rimini-p1-1f31ad50f24d/tables/page-0002-table-03.json",
+            "source-media/suppliers/vista/pdf-extracted/66353a0c882b18807c02bd36-0000-20vista-20installation-20guide-20-203-20panel-20patio-20door-rimini-p1-1f31ad50f24d/tables/page-0002-table-04.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "Fix Panel Support Assembly (not required if door is pre assembled)",
+            "• Apply Silicone along the SILL groove to receive the FIX PANEL SUPPORT.",
+            "• Slide the FIX PANEL SUPPORT tight against the Jamb. SEE FIG #1",
+            "• Install 2 - #8x1 1/2” screws (found in hardware bag) 4 to six inches from either",
+            "end to secure FIX PANEL SUPPORT to SILL (do not over tighten).",
+            "Fixed Panel installation (SUCTION CUPS REQUIRED)",
+            "• Install 2 Jamb Clips to the pre-drilled holes in the Jamb where fixed panel will be placed using 2 #8 x 1 ¼”",
+            "screws per clip (found in hardware bag). FIG #2",
+            "• Insert Fix panel first into the outside Header pocket and lift onto FIX PANEL SUPPORT.",
+            "• Slide Fixed panel about 1” from the jamb. Using the suction cup raise fixed panel up and in towards jamb",
+            "pocket and lower panel onto the Jamb Clips just installed.",
+            "• Install the rubber fixed panel anti lift into top of fixed panel where meets jamb on interior side of panel.",
+            "• Install Fixed Panel support w/weatherstripping onto fix panel support using # 8 1 ¼” screws .",
+            "Middle Panel installation",
+            "Fig 2 • Lift panel into middle header pocket and lower onto roller track. Fig 4",
+            "• Adjust wheels if necessary to square up panel.",
+            "Locking Panel installation",
+            "• Lift panel into header pocket and lower onto roller track.",
+            "• Adjust wheels if necessary to square up panel.",
+            "Hardware Installation",
+            "• Insert Mortise into routed cavity and secure using screws supplied in Hardware kit.",
+            "• Fasten the keeper onto the Jamb using screws (found in hardware bag).",
+            "• Install bumpers on middle panel at bottom and top of middle panel. See FIG # 7a & #7b"
+          ]
+        },
+        {
+          "documentId": "vista:6924c4c16b0485fa845307d7-genius-20warranty-20information-87aff38ccc97",
+          "localPath": "/documents/catalog/vista/6924c4c16b0485fa845307d7-genius-20warranty-20information-87aff38ccc97.pdf",
+          "page": 1,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/6924c4c16b0485fa845307d7-genius-20warranty-20information-87aff38ccc97/pages/page-0001.txt",
+          "tables": [],
+          "images": [
+            "source-media/suppliers/vista/pdf-extracted/6924c4c16b0485fa845307d7-genius-20warranty-20information-87aff38ccc97/images/page-0001-image-01.jpg"
+          ],
+          "factCandidates": [
+            "Warranty",
+            "The following five-year warranty applies to the original purchaser of owner occupied homes and covers mechanical components",
+            "a guide rail or damage can occur),depends on the width and height of the opening,the opennessfactor of the specific screen",
+            "Except as otherwise specifically set forth herein, Genius makes norepresentation or warranty,expressed orimplied, statutory",
+            "pursuant to any such laws. This warranty supersedes and excludes any other products warranties and may on occasion be",
+            "warranty:",
+            "·Product failure, shrinkage or color change caused fully or in part by rust, corrosion, abuse or misuse or",
+            "4 | Warranty"
+          ]
+        },
+        {
+          "documentId": "vista:6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4",
+          "localPath": "/documents/catalog/vista/6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4.pdf",
+          "page": 1,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/6984f8c4f9df20505bb5f352-2026-20warranty-ea5dc9dd2df4/pages/page-0001.txt",
+          "tables": [],
+          "images": [],
+          "factCandidates": [
+            "2026 LIMITED NON-PRORATED WARRANTY",
+            "25 YEAR LIMITED WARRANTY ON WHITE 10 YEAR LIMITED WARRANTY ON MINI GENERAL TERMS AND CONDITIONS",
+            "This warranty is given in lieu of all other",
+            "vinyl panel and frame components will be free turn mini blinds will continue to be in good dealer has any authority to modify this warranty.",
+            "10 YEAR LIMITED WARRANTY ON PAINTED CLAIM PROCEDURE",
+            "PVC VINYL COMPONENTS EXCLUSIONS FROM LIMITED WARRANTY",
+            "For a period of ten (10) years from the date of Vista shall not be liable for and this warranty by the original purchaser to Vista Customer",
+            "doors) if supplied and painted by Vista. handling, poor installation (including frame not and date of shipment, name and address of the",
+            "LIFETIME LIMITED WARRANTY ON square, twisted, warped toward interior or property owner(s).",
+            "inappropriate maintenance. This warranty does",
+            "between the two sheets of glass or",
+            "will not be covered under this warranty along be liable to the original purchaser. In the",
+            "with colour changes due to normal weathering extreme circumstance a product covered by this",
+            "2 YEAR LIMITED WARRANTY ON over time. Damage resulting from exposure to warranty be unavailable, Vista reserves the",
+            "HARDWARE For a period of two (2) year from corrosive fumes, chemicals or sea salt will not right to substitute a product of equal quality or",
+            "the date of purchase, Vista warrants against be covered by this warranty. Vista will not be price."
+          ]
+        },
+        {
+          "documentId": "vista:69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de",
+          "localPath": "/documents/catalog/vista/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de.pdf",
+          "page": 1,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0001.txt",
+          "tables": [],
+          "images": [
+            "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/images/page-0001-image-01.jpg"
+          ],
+          "factCandidates": [
+            "Performance you"
+          ]
+        },
+        {
+          "documentId": "vista:69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de",
+          "localPath": "/documents/catalog/vista/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de.pdf",
+          "page": 2,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0002.txt",
+          "tables": [],
+          "images": [
+            "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/images/page-0002-image-01.jpg",
+            "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/images/page-0002-image-02.jpg"
+          ],
+          "factCandidates": [
+            "Superior thermal performance, maximum endurance and resilience"
+          ]
+        },
+        {
+          "documentId": "vista:69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de",
+          "localPath": "/documents/catalog/vista/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de.pdf",
+          "page": 3,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0003.txt",
+          "tables": [
+            "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/tables/page-0003-table-01.json"
+          ],
+          "images": [
+            "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/images/page-0003-image-01.jpg",
+            "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/images/page-0003-image-02.jpg",
+            "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/images/page-0003-image-30.jpg"
+          ],
+          "factCandidates": [
+            "FEATURES, HARDWARE",
+            "Widths up to 12 ft (3 panel) and 24 ft (6 panel)",
+            "7 7/8” Frame Depth",
+            "The utmost bright daylight enters Performance",
+            "frame, take up minimal fl oor space"
+          ]
+        },
+        {
+          "documentId": "vista:69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de",
+          "localPath": "/documents/catalog/vista/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de.pdf",
+          "page": 4,
+          "textPath": "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/pages/page-0004.txt",
+          "tables": [
+            "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/tables/page-0004-table-01.json",
+            "source-media/suppliers/vista/pdf-extracted/69ceba88dcf867a67e8de253-3057-vista-rimini-2-0-brochure-p2-compressed-a755826d02de/tables/page-0004-table-02.json"
+          ],
+          "images": [],
+          "factCandidates": [
+            "glass types."
+          ]
         }
       ]
     },

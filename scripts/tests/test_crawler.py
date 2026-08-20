@@ -421,6 +421,19 @@ class CrawlerSafetyTests(unittest.TestCase):
         self.assertEqual(asset.product_ids, ['supplier:a', 'supplier:b'])
         self.assertEqual(asset.relationship_state, 'collection-shared')
         self.assertIn('supplier-scoped-document-map', asset.relationship_evidence)
+
+    def test_vista_typoed_four_panel_guide_maps_to_capri(self):
+        config = next(item for item in json.loads(Path('scripts/ingest/suppliers.json').read_text(encoding='utf-8')) if item['slug'] == 'vista')
+        url = 'https://cdn.prod.website-files.com/site/2033%20VVista%20Installation%20Guide%20-%204%20Panel%20Patio%20Door_P1.pdf'
+        path = '/documents/catalog/vista/capri-four-panel.pdf'
+        asset = Asset('vista', ['https://www.vistapatiodoors.com/downloads-info'], url, url, path, 'document', 'installation-guide', 'hash', 10, 'now')
+        products = [{'id': 'vista:capri-3-0', 'collection': 'Patio Doors', 'media': [], 'documents': []}]
+        apply_document_relationship_rules({url: asset}, products, config['document_product_rules'])
+        associate_assets({url: asset}, products)
+        self.assertEqual(products[0]['documents'], [path])
+        self.assertEqual(asset.product_ids, ['vista:capri-3-0'])
+        self.assertEqual(asset.relationship_state, 'product-specific')
+
     def test_document_roles_are_explicit(self):
         self.assertEqual(document_role('https://example.com/urbania-sheet.pdf', 'Product Data Sheet'), 'specification-sheet')
         self.assertEqual(document_role('https://example.com/install.pdf'), 'installation-guide')
@@ -586,6 +599,19 @@ class CrawlerSafetyTests(unittest.TestCase):
                 promoted = promote_referenced_assets({'catalogue': asset}, [], [])
             self.assertEqual(list(promoted), ['catalogue'])
             self.assertTrue((root / 'public/documents/catalog/supplier/catalogue.pdf').exists())
+    def test_reviewed_supplier_lifestyle_image_is_archived_without_product_attachment(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            stage = root / 'source-media/staging/supplier/run/public/images/catalog/supplier/lifestyle.jpg'
+            stage.parent.mkdir(parents=True); stage.write_bytes(b'lifestyle')
+            asset = Asset('supplier', ['https://example.com/gallery'], 'https://example.com/lifestyle.jpg', 'https://example.com/lifestyle.jpg', '/images/catalog/supplier/lifestyle.jpg', 'image', 'lifestyle-product', hashlib.sha256(b'lifestyle').hexdigest(), 9, 'now', str(stage.relative_to(root)))
+            associate_assets({'lifestyle': asset}, [])
+            self.assertEqual((asset.scope, asset.relationship_state, asset.product_ids), ('supplier', 'supplier-shared', []))
+            with patch('scripts.ingest.crawl.ROOT', root):
+                promoted = promote_referenced_assets({'lifestyle': asset}, [], [])
+            self.assertEqual(list(promoted), ['lifestyle'])
+            self.assertTrue((root / 'public/images/catalog/supplier/lifestyle.jpg').exists())
+
     def test_failed_staging_run_is_preserved_until_explicit_cleanup(self):
         with tempfile.TemporaryDirectory() as temp:
             staging = Path(temp) / 'staging'; run = staging / 'supplier' / 'run-1'; run.mkdir(parents=True)

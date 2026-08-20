@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T08:50:02.686809+00:00",
+  "generatedAt": "2026-08-20T09:07:55.240911+00:00",
   "suppliers": [
     {
       "supplier": "masonite",
@@ -68,6 +68,16 @@
       "characters": 76733,
       "tables": 20,
       "images": 137,
+      "ocrRequired": 0,
+      "errors": 0
+    },
+    {
+      "supplier": "vista",
+      "documents": 17,
+      "pages": 41,
+      "characters": 60888,
+      "tables": 82,
+      "images": 45,
       "ocrRequired": 0,
       "errors": 0
     },

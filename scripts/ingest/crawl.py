@@ -928,7 +928,7 @@ def public_path(local_path: str) -> Path:
 
 def promote_referenced_assets(assets: dict[str, Asset], products: list[dict], pages: list[Page]) -> dict[str, Asset]:
     referenced = {path for product in products for path in [*product.get('media', []), *product.get('documents', [])]}
-    shared_roles = DOCUMENT_ROLES | {'colour-chart', 'technical-drawing', 'profile-section', 'configuration-diagram', 'interior-option', 'finish-swatch', 'glass-design', 'hardware'}
+    shared_roles = DOCUMENT_ROLES | {'lifestyle-product', 'colour-chart', 'technical-drawing', 'profile-section', 'configuration-diagram', 'interior-option', 'finish-swatch', 'glass-design', 'hardware'}
     accepted = {url: asset for url, asset in assets.items() if asset.local_path in referenced or (asset.scope in {'collection', 'supplier'} and asset.role in shared_roles)}
     accepted_paths = {asset.local_path for asset in accepted.values()}
     replacements: dict[str, str] = {}
@@ -1077,7 +1077,7 @@ def apply_document_relationship_rules(assets: dict[str, Asset], products: list[d
         asset.relationship_evidence = sorted(set(asset.relationship_evidence + ['supplier-scoped-document-map']))
 
 def associate_assets(assets: dict[str, Asset], products: list[dict]) -> None:
-    shared_roles = DOCUMENT_ROLES | {'colour-chart', 'technical-drawing', 'profile-section', 'configuration-diagram', 'interior-option', 'finish-swatch', 'glass-design', 'hardware'}
+    shared_roles = DOCUMENT_ROLES | {'lifestyle-product', 'colour-chart', 'technical-drawing', 'profile-section', 'configuration-diagram', 'interior-option', 'finish-swatch', 'glass-design', 'hardware'}
     for asset in assets.values():
         related = [product for product in products if asset.local_path in product.get('media', []) + product.get('documents', [])]
         asset.product_ids = sorted({product['id'] for product in related})

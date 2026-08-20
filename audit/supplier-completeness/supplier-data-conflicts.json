@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T08:51:13.634171+00:00",
+  "generatedAt": "2026-08-20T09:17:41.909709+00:00",
   "automaticFactConflicts": [
     {
       "supplier": "masonite",
@@ -30,6 +30,26 @@
         "source": "supplier API image alt text"
       },
       "status": "manual-review-required"
+    },
+    {
+      "supplier": "vista",
+      "productId": "vista:aria-1-0",
+      "field": "productIdentity",
+      "websiteEvidence": {
+        "value": "Aria 1.0",
+        "sources": [
+          "canonical product page heading",
+          "downloads link heading",
+          "brochure title",
+          "brochure filename"
+        ],
+        "sourceUrl": "https://www.vistapatiodoors.com/downloads-info"
+      },
+      "conflictingEvidence": {
+        "value": "Aria 2.0",
+        "source": "downloads-page brochure description"
+      },
+      "status": "resolved-by-stronger-canonical-evidence"
     }
   ],
   "automaticFactConflictNote": "No normalized website/PDF fact pair was safe to compare automatically; candidate facts retain page provenance for manual review.",

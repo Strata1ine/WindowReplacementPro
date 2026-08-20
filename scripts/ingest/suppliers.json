@@ -1085,19 +1085,69 @@
     "base_url": "https://www.vistapatiodoors.com/",
     "allowed_domains": ["vistapatiodoors.com", "www.vistapatiodoors.com"],
     "asset_domains": ["vistapatiodoors.com", "www.vistapatiodoors.com", "cdn.prod.website-files.com"],
-    "start_urls": ["https://www.vistapatiodoors.com/"],
+    "start_urls": [
+      "https://www.vistapatiodoors.com/patio-doors",
+      "https://www.vistapatiodoors.com/patio-doors-amalfi",
+      "https://www.vistapatiodoors.com/patio-doors-aria",
+      "https://www.vistapatiodoors.com/patio-doors-rimini",
+      "https://www.vistapatiodoors.com/gallery",
+      "https://www.vistapatiodoors.com/downloads-info"
+    ],
+    "crawl_delay": 1,
+    "allowed_path_patterns": ["^/(?:patio-doors(?:-amalfi|-aria|-rimini)?|gallery|downloads-info)/?$"],
     "product_hints": ["capri", "amalfi", "rimini", "aria", "product"],
     "product_path_rules": ["^/patio-doors(?:-amalfi|-aria|-rimini)?/?$"],
-    "asset_role_rules": [
-      {"role": "hero", "patterns": ["\\bcapri\\b"]}
+    "document_role_rules": [
+      {"role": "performance-document", "patterns": ["Safety_Glass_Sellsheet"]}
     ],
-    "attach_page_roles": ["hero", "document"],
+    "document_product_rules": [
+      {"patterns": ["Vista_Capri_3\\.0_Brochure"], "product_ids": ["vista:capri-3-0"]},
+      {"patterns": ["Vista_Amalfi_1\\.0_Brochure"], "product_ids": ["vista:amalfi-1-0"]},
+      {"patterns": ["Vista_Aria_1\\.0_Brochure"], "product_ids": ["vista:aria-1-0"]},
+      {"patterns": ["Vista_Rimini_2\\.0_Brochure"], "product_ids": ["vista:rimini-2-0"]},
+      {"patterns": ["2026%20WARRANTY", "2026-20warranty"], "product_ids": ["vista:capri-3-0", "vista:amalfi-1-0", "vista:aria-1-0", "vista:rimini-2-0"]},
+      {"patterns": ["Genius%20Warranty", "genius-20warranty"], "product_ids": ["vista:aria-1-0", "vista:rimini-2-0"]},
+      {"patterns": ["2033%20V(?:V)?ista%20Installation%20Guide", "2033-20v(?:v)?ista-20installation"], "product_ids": ["vista:capri-3-0"]},
+      {"patterns": ["VistaPatioInstallationGuide", "vistapatioinstallationguide"], "product_ids": ["vista:amalfi-1-0"]},
+      {"patterns": ["Patio%20Door_Rimini", "patio-20door-rimini"], "product_ids": ["vista:rimini-2-0"]},
+      {"patterns": ["Patio%20Door_Aria", "patio-20door-aria"], "product_ids": ["vista:aria-1-0"]},
+      {"patterns": ["ENERGY-STAR-CHART-2020", "energy-star-chart-2020"], "product_ids": ["vista:capri-3-0"]}
+    ],
+    "pdf_evidence_rules": [
+      {"patterns": ["mini-blind-warranty-odl"], "default_product_ids": [], "document_metadata": {"title": "ODL Limited Warranty for Shades and Blinds in Insulated Glass", "documentDate": "2011-04-07", "freshnessStatus": "current-source-linked", "freshnessBasis": "Currently linked from Vista's live downloads page; the supplier-hosted file dates to 2011."}},
+      {"patterns": ["2033-20vista-20installation-20guide-20-202-20panel"], "default_product_ids": ["vista:capri-3-0"], "document_metadata": {"title": "Vista Capri 3.0 Two-Panel Patio Door Installation Instructions", "documentDate": "2022-09-27", "freshnessStatus": "current-source-linked"}},
+      {"patterns": ["2033-20vista-20installation-20guide-20-203-20panel"], "default_product_ids": ["vista:capri-3-0"], "document_metadata": {"title": "Vista Capri 3.0 Three-Panel Patio Door Installation Instructions", "documentDate": "2022-09-27", "freshnessStatus": "current-source-linked"}},
+      {"patterns": ["2033-20vvista-20installation-20guide-20-204-20panel"], "default_product_ids": ["vista:capri-3-0"], "document_metadata": {"title": "Vista Capri 3.0 Four-Panel Patio Door Installation Instructions", "documentDate": "2022-09-27", "freshnessStatus": "current-source-linked", "freshnessBasis": "Currently linked from Vista's live downloads page; source filename contains the supplier typo 'VVista'."}},
+      {"patterns": ["energy-star-chart-2020"], "default_product_ids": ["vista:capri-3-0"], "document_metadata": {"title": "Vista Capri 3.0 Energy Star Glass Package Chart 2020", "documentDate": "2020-01-01", "freshnessStatus": "current-source-linked", "freshnessBasis": "The 2020 Capri 3.0 chart remains linked from Vista's current downloads page."}},
+      {"patterns": ["vista-amalfi-1-0-brochure"], "default_product_ids": ["vista:amalfi-1-0"], "document_metadata": {"title": "Vista Amalfi 1.0 Product Brochure", "documentDate": "2024-04-04", "freshnessStatus": "current-source-linked"}},
+      {"patterns": ["vista-aria-1-0-brochure"], "default_product_ids": ["vista:aria-1-0"], "document_metadata": {"title": "Vista Aria 1.0 Product Brochure", "documentDate": "2024-04-11", "freshnessStatus": "current-source-linked", "freshnessBasis": "Current Aria 1.0 brochure; the live downloads-page description incorrectly calls it Aria 2.0."}},
+      {"patterns": ["patio-20door-rimini"], "default_product_ids": ["vista:rimini-2-0"], "document_metadata": {"title": "Vista Rimini 2.0 Three-Panel Patio Door Installation Instructions", "documentDate": "2024-04-03", "freshnessStatus": "current-source-linked"}},
+      {"patterns": ["patio-20door-aria"], "default_product_ids": ["vista:aria-1-0"], "document_metadata": {"title": "Vista Aria 1.0 Three-Panel Patio Door Installation Instructions", "documentDate": "2024-04-03", "freshnessStatus": "current-source-linked"}},
+      {"patterns": ["vistapatioinstallationguide-2panel"], "default_product_ids": ["vista:amalfi-1-0"], "document_metadata": {"title": "Vista Amalfi 1.0 Two-Panel Patio Door Installation Instructions", "documentDate": "2024-01-23", "freshnessStatus": "current-source-linked"}},
+      {"patterns": ["vistapatioinstallationguide-3panel"], "default_product_ids": ["vista:amalfi-1-0"], "document_metadata": {"title": "Vista Amalfi 1.0 Three-Panel Patio Door Installation Instructions", "documentDate": "2024-01-23", "freshnessStatus": "current-source-linked"}},
+      {"patterns": ["vistapatioinstallationguide-4panel"], "default_product_ids": ["vista:amalfi-1-0"], "document_metadata": {"title": "Vista Amalfi 1.0 Four-Panel Patio Door Installation Instructions", "documentDate": "2024-01-24", "freshnessStatus": "current-source-linked"}},
+      {"patterns": ["genius-20warranty"], "default_product_ids": ["vista:aria-1-0", "vista:rimini-2-0"], "document_metadata": {"title": "Genius Retractable Screen Systems Warranty", "documentDate": "2023-07-01", "freshnessStatus": "current-source-linked", "freshnessBasis": "Current image-only warranty linked by Vista for Aria and Rimini; revision 07/23, OCR evidence retained."}},
+      {"patterns": ["2026-20warranty"], "default_product_ids": ["vista:capri-3-0", "vista:amalfi-1-0", "vista:aria-1-0", "vista:rimini-2-0"], "document_metadata": {"title": "Vista 2026 Limited Non-Prorated Warranty", "documentDate": "2026-01-23", "freshnessStatus": "current-source-linked"}},
+      {"patterns": ["vista-safety-glass-sellsheet"], "default_product_ids": [], "document_metadata": {"title": "Vista Patio Door Security Film Feature Sheet", "documentDate": "2026-02-20", "freshnessStatus": "current-source-linked"}},
+      {"patterns": ["vista-capri-3-0-brochure"], "default_product_ids": ["vista:capri-3-0"], "document_metadata": {"title": "Vista Capri 3.0 Product Brochure", "documentDate": "2026-03-05", "freshnessStatus": "current-source-linked"}},
+      {"patterns": ["vista-rimini-2-0-brochure"], "default_product_ids": ["vista:rimini-2-0"], "document_metadata": {"title": "Vista Rimini 2.0 Product Brochure", "documentDate": "2026-04-02", "freshnessStatus": "current-source-linked"}}
+    ],
+    "asset_role_rules": [
+      {"role": "product-hero", "patterns": ["648333ccfdc5dc4cf2a1ba8c_capri-1"]},
+      {"role": "product-gallery", "patterns": ["648333cc7cc61c603f6eb502_capri-2"]},
+      {"role": "product-hero", "patterns": ["6635386dcbde5a8d27893008_Unknown-1"]},
+      {"role": "product-hero", "patterns": ["6635384decfed09d0795fdec_Unknown"]},
+      {"role": "product-hero", "patterns": ["64833486f8f86e07bd54565c_rimi-min"]},
+      {"role": "lifestyle-product", "patterns": ["647f95e63447aa97581002f7_doors", "6635389f3fdf793049f6b274_Unknown-1"]}
+    ],
+    "attach_page_roles": [],
+    "archive_shared_roles": ["lifestyle-product"],
+    "assets_on_product_pages_only": true,
     "product_identity_rules": [
-      {"path_pattern": "^/patio-doors$", "slug": "capri-3-0", "name": "Capri 3.0", "collection": "Patio Doors", "type": "Sliding Patio Door"},
-      {"path_pattern": "^/patio-doors-amalfi$", "slug": "amalfi-1-0", "name": "Amalfi 1.0", "collection": "Patio Doors", "type": "Sliding Patio Door"},
-      {"path_pattern": "^/patio-doors-aria$", "slug": "aria-1-0", "name": "Aria 1.0", "collection": "Patio Doors", "type": "Stacking Patio Door"},
-      {"path_pattern": "^/patio-doors-rimini$", "slug": "rimini-2-0", "name": "Rimini 2.0", "collection": "Patio Doors", "type": "Stacking Patio Door"}
+      {"path_pattern": "^/patio-doors/?$", "slug": "capri-3-0", "name": "Capri 3.0", "collection": "Patio Doors", "type": "Sliding Patio Door"},
+      {"path_pattern": "^/patio-doors-amalfi/?$", "slug": "amalfi-1-0", "name": "Amalfi 1.0", "collection": "Patio Doors", "type": "Sliding Patio Door"},
+      {"path_pattern": "^/patio-doors-aria/?$", "slug": "aria-1-0", "name": "Aria 1.0", "collection": "Patio Doors", "type": "Stacking Patio Door"},
+      {"path_pattern": "^/patio-doors-rimini/?$", "slug": "rimini-2-0", "name": "Rimini 2.0", "collection": "Patio Doors", "type": "Stacking Patio Door"}
     ],
     "categories": ["patio-doors"]
-  }
-]
+  }]

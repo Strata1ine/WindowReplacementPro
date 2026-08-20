@@ -1,6 +1,6 @@
 # Supplier completeness audit
 
-Generated: 2026-08-20T08:51:13.666127+00:00
+Generated: 2026-08-20T09:17:41.942747+00:00
 
 ## Supplier summary
 
@@ -15,7 +15,7 @@ Generated: 2026-08-20T08:51:13.666127+00:00
 | mennie-canada | 99 | 79 | 184 | 6 | 168 | 1 | VERIFIED | VERIFIED-WITH-20-EXPLICIT-MISSING-MEDIA-RECORDS | VERIFIED |
 | richersons | 54 | 54 | 91 | 2 | 0 | 0 | VERIFIED | VERIFIED | VERIFIED |
 | oceanview | 5 | 5 | 18 | 7 | 0 | 2 | VERIFIED | VERIFIED | VERIFIED |
-| vista | 4 | 4 | 5 | 17 | 0 | 0 | VERIFICATION-PENDING | VERIFICATION-PENDING | VERIFICATION-PENDING |
+| vista | 4 | 4 | 7 | 17 | 0 | 0 | VERIFIED | VERIFIED | VERIFIED |
 
 ## Supplier findings
 
@@ -75,6 +75,6 @@ Completeness states: source-complete=5.
 
 ### Vista Patio Doors
 
-Website: **VERIFICATION-PENDING**. Media: **VERIFICATION-PENDING**. PDF: **VERIFICATION-PENDING**. Canonical supplier products: **4**. Merged catalogue records: **4**. Accepted assets: **5 images / 17 PDFs**. Review binaries preserved: **0**. Product associations: **4 image / 4 document**.
+Website: **VERIFIED**. Media: **VERIFIED**. PDF: **VERIFIED**. Canonical supplier products: **4**. Merged catalogue records: **4**. Accepted assets: **7 images / 17 PDFs**. Review binaries preserved: **0**. Product associations: **4 image / 4 document**.
 
-Completeness states: verification-pending=4.
+Completeness states: source-complete=4.

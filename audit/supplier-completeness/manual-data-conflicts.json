@@ -29,6 +29,26 @@
         "source": "supplier API image alt text"
       },
       "status": "manual-review-required"
+    },
+    {
+      "supplier": "vista",
+      "productId": "vista:aria-1-0",
+      "field": "productIdentity",
+      "websiteEvidence": {
+        "value": "Aria 1.0",
+        "sources": [
+          "canonical product page heading",
+          "downloads link heading",
+          "brochure title",
+          "brochure filename"
+        ],
+        "sourceUrl": "https://www.vistapatiodoors.com/downloads-info"
+      },
+      "conflictingEvidence": {
+        "value": "Aria 2.0",
+        "source": "downloads-page brochure description"
+      },
+      "status": "resolved-by-stronger-canonical-evidence"
     }
   ]
 }

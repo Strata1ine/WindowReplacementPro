@@ -83,12 +83,12 @@
     },
     {
       "supplier": "vista",
-      "status": "VERIFICATION-PENDING",
-      "websiteStatus": "VERIFICATION-PENDING",
-      "mediaStatus": "VERIFICATION-PENDING",
-      "pdfStatus": "VERIFICATION-PENDING",
-      "basis": "Live website, media, and PDF completeness audit is not yet approved.",
-      "expectedRelevantProducts": null
+      "status": "VERIFIED",
+      "websiteStatus": "VERIFIED",
+      "mediaStatus": "VERIFIED",
+      "pdfStatus": "VERIFIED",
+      "basis": "Live website, four current canonical product identities, seven original/highest-practical image assets, 17 current-linked PDFs, all 41 PDF pages, one provenance-tagged OCR page, normalized source facts, and representative visual review directly verified 2026-08-20; 24 accepted assets and zero uncertain associations.",
+      "expectedRelevantProducts": 4
     }
   ]
 }
