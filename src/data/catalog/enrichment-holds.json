@@ -771,6 +771,14 @@
     {
       "productId": "vinyl-pro:4-9-16-end-vent-slider",
       "reason": "New Vinyl-Pro canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "window-city:hc-650",
+      "reason": "New Window City canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
+    },
+    {
+      "productId": "window-city:wc-500",
+      "reason": "New Window City canonical identity and source facts are supplier-verified, but editorial review is incomplete; do not publish."
     }
   ]
 }

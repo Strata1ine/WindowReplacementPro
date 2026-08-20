@@ -1,11 +1,11 @@
 {
   "generatedAt": "2026-08-19T23:30:00Z",
-  "records": 495,
-  "normalizedRecords": 474,
+  "records": 497,
+  "normalizedRecords": 476,
   "editorialDrafts": 201,
-  "editorialIncomplete": 294,
-  "newRecords": 225,
-  "newRetainedDistinct": 225,
+  "editorialIncomplete": 296,
+  "newRecords": 227,
+  "newRetainedDistinct": 227,
   "newEditorialDrafts": 12,
   "staleOrBlockedLinks": {
     "stale": 8,
@@ -85,12 +85,12 @@
       "documents": 4
     },
     "window-city": {
-      "records": 23,
-      "normalized": 23,
+      "records": 25,
+      "normalized": 25,
       "editorialDrafts": 23,
-      "editorialIncomplete": 0,
-      "media": 10,
-      "documents": 0
+      "editorialIncomplete": 2,
+      "media": 25,
+      "documents": 25
     }
   }
 }

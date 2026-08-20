@@ -1,0 +1,301 @@
+{
+    "supplier":  "window-city",
+    "reviewedAt":  "2026-08-20T04:39:37Z",
+    "decision":  "Exclude supplier GIF animations from the public source library; retain already validated binaries in staging without deletion.",
+    "staticHeroCoverage":  "25/25 planned static product heroes validated",
+    "counts":  {
+                   "gifCandidates":  35,
+                   "validatedInStaging":  15,
+                   "overPracticalLimit":  20
+               },
+    "assets":  [
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/02/wc-251-white.gif",
+                       "sourcePage":  "https://windowcity.com/windows/classic-wc-251-hung/",
+                       "role":  "product-gallery",
+                       "priorState":  "retryable",
+                       "attempts":  1,
+                       "reason":  "Supplier animation exceeds the 50 MB practical asset limit; validated static high-resolution hero retained."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/02/wc-201-white.gif",
+                       "sourcePage":  "https://windowcity.com/windows/classic-wc-201-hung/",
+                       "role":  "product-gallery",
+                       "priorState":  "retryable",
+                       "attempts":  1,
+                       "reason":  "Supplier animation exceeds the 50 MB practical asset limit; validated static high-resolution hero retained."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/02/wc-350-white.gif",
+                       "sourcePage":  "https://windowcity.com/windows/classic-wc-350-double-slider/",
+                       "role":  "product-gallery",
+                       "priorState":  "retryable",
+                       "attempts":  1,
+                       "reason":  "Supplier animation exceeds the 50 MB practical asset limit; validated static high-resolution hero retained."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/03/wc-250-white.gif",
+                       "sourcePage":  "https://windowcity.com/windows/wc-250-double-slider/",
+                       "role":  "product-gallery",
+                       "priorState":  "retryable",
+                       "attempts":  1,
+                       "reason":  "Supplier animation exceeds the 50 MB practical asset limit; validated static high-resolution hero retained."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/02/wc-325-white.gif",
+                       "sourcePage":  "https://windowcity.com/windows/classic-wc-325-single-slider/",
+                       "role":  "product-gallery",
+                       "priorState":  "retryable",
+                       "attempts":  1,
+                       "reason":  "Supplier animation exceeds the 50 MB practical asset limit; validated static high-resolution hero retained."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/02/wc-300-white.gif",
+                       "sourcePage":  "https://windowcity.com/windows/classic-wc-300-single-slider/",
+                       "role":  "product-gallery",
+                       "priorState":  "retryable",
+                       "attempts":  1,
+                       "reason":  "Supplier animation exceeds the 50 MB practical asset limit; validated static high-resolution hero retained."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/02/wc-200-white.gif",
+                       "sourcePage":  "https://windowcity.com/windows/classic-wc-200-single-slider/",
+                       "role":  "product-gallery",
+                       "priorState":  "retryable",
+                       "attempts":  1,
+                       "reason":  "Supplier animation exceeds the 50 MB practical asset limit; validated static high-resolution hero retained."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/02/wc-425-white.gif",
+                       "sourcePage":  "https://windowcity.com/windows/classic-wc-425-awning/",
+                       "role":  "product-gallery",
+                       "priorState":  "retryable",
+                       "attempts":  1,
+                       "reason":  "Supplier animation exceeds the 50 MB practical asset limit; validated static high-resolution hero retained."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/05/wc-125-white.gif",
+                       "sourcePage":  "https://windowcity.com/windows/classic-wc-125-awning/",
+                       "role":  "product-gallery",
+                       "priorState":  "retryable",
+                       "attempts":  1,
+                       "reason":  "Supplier animation exceeds the 50 MB practical asset limit; validated static high-resolution hero retained."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/01/wc-100-c11.gif",
+                       "sourcePage":  "https://windowcity.com/windows/classic-wc-100-casement/",
+                       "role":  "product-gallery",
+                       "priorState":  "validated",
+                       "attempts":  1,
+                       "reason":  "Animated rendition is redundant with the validated static high-resolution hero/profile; binary retained in staging but excluded from promotion."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/05/hc-426-white.gif",
+                       "sourcePage":  "https://windowcity.com/windows/heritage-maximum-hc-426-awning/",
+                       "role":  "product-gallery",
+                       "priorState":  "retryable",
+                       "attempts":  1,
+                       "reason":  "Supplier animation exceeds the 50 MB practical asset limit; validated static high-resolution hero retained."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/05/hc-126-white.gif",
+                       "sourcePage":  "https://windowcity.com/windows/heritage-hc-126-awning/",
+                       "role":  "product-gallery",
+                       "priorState":  "retryable",
+                       "attempts":  1,
+                       "reason":  "Supplier animation exceeds the 50 MB practical asset limit; validated static high-resolution hero retained."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/05/wc-251-open.gif",
+                       "sourcePage":  "https://windowcity.com/windows/classic-wc-251-hung/",
+                       "role":  "product-gallery",
+                       "priorState":  "retryable",
+                       "attempts":  1,
+                       "reason":  "Supplier animation exceeds the 50 MB practical asset limit; validated static high-resolution hero retained."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/02/wc-201-open.gif",
+                       "sourcePage":  "https://windowcity.com/windows/classic-wc-201-hung/",
+                       "role":  "product-gallery",
+                       "priorState":  "retryable",
+                       "attempts":  1,
+                       "reason":  "Supplier animation exceeds the 50 MB practical asset limit; validated static high-resolution hero retained."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/05/wc-325-open.gif",
+                       "sourcePage":  "https://windowcity.com/windows/classic-wc-325-single-slider/",
+                       "role":  "product-gallery",
+                       "priorState":  "retryable",
+                       "attempts":  1,
+                       "reason":  "Supplier animation exceeds the 50 MB practical asset limit; validated static high-resolution hero retained."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/05/wc-300-open.gif",
+                       "sourcePage":  "https://windowcity.com/windows/classic-wc-300-single-slider/",
+                       "role":  "product-gallery",
+                       "priorState":  "retryable",
+                       "attempts":  1,
+                       "reason":  "Supplier animation exceeds the 50 MB practical asset limit; validated static high-resolution hero retained."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/02/wc-425-open_1.gif",
+                       "sourcePage":  "https://windowcity.com/windows/classic-wc-425-awning/",
+                       "role":  "product-gallery",
+                       "priorState":  "retryable",
+                       "attempts":  1,
+                       "reason":  "Supplier animation exceeds the 50 MB practical asset limit; validated static high-resolution hero retained."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/02/wc-125-open_1.gif",
+                       "sourcePage":  "https://windowcity.com/windows/classic-wc-125-awning/",
+                       "role":  "product-gallery",
+                       "priorState":  "validated",
+                       "attempts":  1,
+                       "reason":  "Animated rendition is redundant with the validated static high-resolution hero/profile; binary retained in staging but excluded from promotion."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/02/wc-400-white.gif",
+                       "sourcePage":  "https://windowcity.com/windows/classic-wc-400-casement/",
+                       "role":  "product-gallery",
+                       "priorState":  "validated",
+                       "attempts":  1,
+                       "reason":  "Animated rendition is redundant with the validated static high-resolution hero/profile; binary retained in staging but excluded from promotion."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/01/wc-100-opening.gif",
+                       "sourcePage":  "https://windowcity.com/windows/classic-wc-100-casement/",
+                       "role":  "product-gallery",
+                       "priorState":  "retryable",
+                       "attempts":  1,
+                       "reason":  "Supplier animation exceeds the 50 MB practical asset limit; validated static high-resolution hero retained."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/02/hc-426-open_1.gif",
+                       "sourcePage":  "https://windowcity.com/windows/heritage-maximum-hc-426-awning/",
+                       "role":  "product-gallery",
+                       "priorState":  "validated",
+                       "attempts":  1,
+                       "reason":  "Animated rendition is redundant with the validated static high-resolution hero/profile; binary retained in staging but excluded from promotion."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/02/hc-401-white.gif",
+                       "sourcePage":  "https://windowcity.com/windows/heritage-maximum-hc-401-casement/",
+                       "role":  "product-gallery",
+                       "priorState":  "validated",
+                       "attempts":  1,
+                       "reason":  "Animated rendition is redundant with the validated static high-resolution hero/profile; binary retained in staging but excluded from promotion."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/02/hc-126-open_1.gif",
+                       "sourcePage":  "https://windowcity.com/windows/heritage-hc-126-awning/",
+                       "role":  "product-gallery",
+                       "priorState":  "validated",
+                       "attempts":  1,
+                       "reason":  "Animated rendition is redundant with the validated static high-resolution hero/profile; binary retained in staging but excluded from promotion."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/02/hc-101-white.gif",
+                       "sourcePage":  "https://windowcity.com/windows/heritage-hc-101-casement/",
+                       "role":  "product-gallery",
+                       "priorState":  "validated",
+                       "attempts":  1,
+                       "reason":  "Animated rendition is redundant with the validated static high-resolution hero/profile; binary retained in staging but excluded from promotion."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/02/wc-450-white.gif",
+                       "sourcePage":  "https://windowcity.com/windows/classic-wc-450-slim-fixed/",
+                       "role":  "product-gallery",
+                       "priorState":  "validated",
+                       "attempts":  1,
+                       "reason":  "Animated rendition is redundant with the validated static high-resolution hero/profile; binary retained in staging but excluded from promotion."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/02/wc-150-white.gif",
+                       "sourcePage":  "https://windowcity.com/windows/classic-wc-150-slim-fixed/",
+                       "role":  "product-gallery",
+                       "priorState":  "validated",
+                       "attempts":  1,
+                       "reason":  "Animated rendition is redundant with the validated static high-resolution hero/profile; binary retained in staging but excluded from promotion."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/02/wc-475-white.gif",
+                       "sourcePage":  "https://windowcity.com/windows/classic-wc-475-casement-fixed/",
+                       "role":  "product-gallery",
+                       "priorState":  "validated",
+                       "attempts":  1,
+                       "reason":  "Animated rendition is redundant with the validated static high-resolution hero/profile; binary retained in staging but excluded from promotion."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/02/wc-175-white.gif",
+                       "sourcePage":  "https://windowcity.com/windows/classic-wc-175-casement-fixed/",
+                       "role":  "product-gallery",
+                       "priorState":  "validated",
+                       "attempts":  1,
+                       "reason":  "Animated rendition is redundant with the validated static high-resolution hero/profile; binary retained in staging but excluded from promotion."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/02/WC-400-resized.gif",
+                       "sourcePage":  "https://windowcity.com/windows/classic-wc-400-casement/",
+                       "role":  "product-gallery",
+                       "priorState":  "retryable",
+                       "attempts":  1,
+                       "reason":  "Supplier animation exceeds the 50 MB practical asset limit; validated static high-resolution hero retained."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/02/hc-451-white.gif",
+                       "sourcePage":  "https://windowcity.com/windows/heritage-maximum-hc-451-slim-fixed/",
+                       "role":  "product-gallery",
+                       "priorState":  "validated",
+                       "attempts":  1,
+                       "reason":  "Animated rendition is redundant with the validated static high-resolution hero/profile; binary retained in staging but excluded from promotion."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/02/hc-476-white.gif",
+                       "sourcePage":  "https://windowcity.com/windows/heritage-maximum-hc-476-casement-fixed/",
+                       "role":  "product-gallery",
+                       "priorState":  "validated",
+                       "attempts":  1,
+                       "reason":  "Animated rendition is redundant with the validated static high-resolution hero/profile; binary retained in staging but excluded from promotion."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/05/HC-401.gif",
+                       "sourcePage":  "https://windowcity.com/windows/heritage-maximum-hc-401-casement/",
+                       "role":  "product-gallery",
+                       "priorState":  "retryable",
+                       "attempts":  1,
+                       "reason":  "Supplier animation exceeds the 50 MB practical asset limit; validated static high-resolution hero retained."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/02/hc-151-white.gif",
+                       "sourcePage":  "https://windowcity.com/windows/heritage-hc-151-slim-fixed/",
+                       "role":  "product-gallery",
+                       "priorState":  "validated",
+                       "attempts":  1,
+                       "reason":  "Animated rendition is redundant with the validated static high-resolution hero/profile; binary retained in staging but excluded from promotion."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/02/hc-176-white.gif",
+                       "sourcePage":  "https://windowcity.com/windows/heritage-hc-176-casement-fixed/",
+                       "role":  "product-gallery",
+                       "priorState":  "validated",
+                       "attempts":  1,
+                       "reason":  "Animated rendition is redundant with the validated static high-resolution hero/profile; binary retained in staging but excluded from promotion."
+                   },
+                   {
+                       "url":  "https://windowcity.com/wp-content/uploads/2024/05/HC-101.gif",
+                       "sourcePage":  "https://windowcity.com/windows/heritage-hc-101-casement/",
+                       "role":  "product-gallery",
+                       "priorState":  "retryable",
+                       "attempts":  1,
+                       "reason":  "Supplier animation exceeds the 50 MB practical asset limit; validated static high-resolution hero retained."
+                   }
+               ],
+    "rejectedDocuments":  [
+                              {
+                                  "originalUrl":  "https://windowcity.com/wp-content/uploads/2024/05/Accessibility-Policy-Sample-on00090e-1.pdf",
+                                  "formerPublicPath":  "/documents/catalog/window-city/accessibility-policy-sample-on00090e-1-6d8abc0feac3.pdf",
+                                  "quarantinePath":  "source-media/staging/window-city/20260820T042746Z-52492/rejected/accessibility-policy",
+                                  "reason":  "Generic corporate accessibility policy; not supplier product/catalogue evidence."
+                              }
+                          ]
+}

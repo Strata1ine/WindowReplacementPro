@@ -16,3 +16,10 @@ def configured_page_products(pdf_path: Path, page_number: int, rules: list[dict]
         page_products = rule.get('page_product_ids', {}).get(str(page_number))
         return sorted(set(page_products if page_products is not None else rule.get('default_product_ids', [])))
     return None
+
+def configured_document_metadata(pdf_path: Path, rules: list[dict] | None) -> dict:
+    """Return reviewed document metadata for the first matching supplier rule."""
+    for rule in rules or []:
+        if any(re.search(pattern, pdf_path.name, re.I) for pattern in rule.get('patterns', [])):
+            return dict(rule.get('document_metadata', {}))
+    return {}

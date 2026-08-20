@@ -556,6 +556,7 @@ def refresh_page_asset_candidates(page: Page, cfg: dict, asset_domains: set[str]
     parser.media.extend(magento_gallery_assets(parser.magento_init))
     discovered_assets.extend(magento_gallery_assets(parser.magento_init))
     for href in parser.links:
+        if not raw_link_allowed(href, cfg): continue
         link_candidate = normalize(href, page.url)
         if link_candidate and Path(urlparse(link_candidate).path).suffix.lower() == '.pdf':
             discovered_assets.append((link_candidate, 'document', document_role(link_candidate, parser.link_titles.get(href, ''), cfg)))
@@ -828,6 +829,30 @@ def enforce_filename_owner_precedence(assets: dict[str, Asset], products: list[d
             if product['id'] not in owners:
                 product['media'] = [path for path in product.get('media', []) if path != local_path]
                 product['documents'] = [path for path in product.get('documents', []) if path != local_path]
+
+
+def apply_asset_relationship_rules(assets: dict[str, Asset], products: list[dict], rules: list[dict] | None = None) -> None:
+    """Apply reviewed supplier image-to-product mappings after heuristic association."""
+    if not rules:
+        return
+    products_by_id = {product['id']: product for product in products}
+    for asset in assets.values():
+        if asset.asset_type != 'image':
+            continue
+        urls = {asset.original_asset_url, asset.final_asset_url, *(asset.source_asset_urls or [])}
+        matching = [rule for rule in rules if any(re.search(pattern, url, re.I) for pattern in rule.get('patterns', []) for url in urls)]
+        if not matching:
+            continue
+        configured_ids = {product_id for rule in matching for product_id in rule.get('product_ids', [])}
+        unknown = configured_ids - products_by_id.keys()
+        if unknown:
+            raise ValueError(f'asset relationship rule references unknown products: {sorted(unknown)}')
+        for product in products:
+            product['media'] = [path for path in product.get('media', []) if path != asset.local_path]
+        for product_id in sorted(configured_ids):
+            product = products_by_id[product_id]
+            product['media'] = sorted(set(product.get('media', [])) | {asset.local_path})
+        asset.relationship_evidence = sorted(set(asset.relationship_evidence + ['supplier-scoped-asset-map']))
 
 
 def apply_document_relationship_rules(assets: dict[str, Asset], products: list[dict], rules: list[dict] | None = None) -> None:
@@ -1293,11 +1318,12 @@ def crawl_supplier(cfg: dict, args) -> tuple[dict, bool]:
             structural_errors.append({'url': page.url, 'error': f'duplicate product identity {product_id}'}); continue
         ids.add(product_id); routes.add(route)
         media, documents = product_asset_paths(page, assets, cfg.get('attach_page_roles'), [product_slug, model_number, name], cfg.get('trust_structured_product_images', True), cfg.get('trust_product_open_graph_images', False))
-        products.append({'id': product_id, 'manufacturer': slug, 'slug': product_slug, 'name': name, 'category': identity.get('category') or page.category, 'collection': identity.get('collection'), 'modelNumber': model_number, 'type': identity.get('type'), 'summary': None, 'sourceDescription': page.product_data.get('description') or page.description or None, 'sourceUrl': page.url, 'sourceType': 'live-crawl', 'media': media, 'documents': documents, 'specifications': page.product_data.get('specifications', {}), 'lastVerified': time.strftime('%Y-%m-%d')})
+        products.append({'id': product_id, 'manufacturer': slug, 'slug': product_slug, 'name': name, 'category': identity.get('category') or page.category, 'collection': identity.get('collection'), 'modelNumber': model_number, 'type': identity.get('type'), 'summary': None, 'sourceDescription': page.product_data.get('description') or (None if cfg.get('ignore_page_description') else page.description) or None, 'sourceUrl': page.url, 'sourceType': 'live-crawl', 'media': media, 'documents': documents, 'specifications': page.product_data.get('specifications', {}), 'lastVerified': time.strftime('%Y-%m-%d')})
     errors.extend(structural_errors)
     enforce_filename_owner_precedence(assets, products)
     enforce_wordpress_master_precedence(assets, products)
     apply_document_relationship_rules(assets, products, cfg.get('document_product_rules'))
+    apply_asset_relationship_rules(assets, products, cfg.get('asset_product_rules'))
     associate_assets(assets, products)
     for product in products: product.pop('_associationPageUrl', None)
     if args.plan_only:

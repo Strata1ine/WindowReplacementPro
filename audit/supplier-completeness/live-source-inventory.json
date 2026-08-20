@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T04:20:44.328683+00:00",
+  "generatedAt": "2026-08-20T05:02:39.612907+00:00",
   "suppliers": [
     {
       "supplier": "vinyl-pro",
@@ -417,27 +417,27 @@
     },
     {
       "supplier": "window-city",
-      "status": "VERIFICATION-PENDING",
-      "websiteStatus": "VERIFICATION-PENDING",
-      "mediaStatus": "VERIFICATION-PENDING",
-      "pdfStatus": "VERIFICATION-PENDING",
-      "basis": "Live website, media, and PDF completeness audit is not yet approved.",
-      "expectedRelevantProducts": null,
-      "manifestCrawledAt": "2026-08-19T19:19:19Z",
-      "pagesCrawled": 30,
+      "status": "VERIFIED",
+      "websiteStatus": "VERIFIED",
+      "mediaStatus": "VERIFIED",
+      "pdfStatus": "VERIFIED",
+      "basis": "Live website, canonical product inventory, scoped media relationships, current and historical consumer books, page-level PDF extraction, normalized facts, and representative visuals directly verified 2026-08-20; 25 canonical products, 88 accepted assets, 2 PDFs, 24 PDF pages, and zero uncertain associations.",
+      "expectedRelevantProducts": 25,
+      "manifestCrawledAt": "2026-08-20T04:40:21Z",
+      "pagesCrawled": 54,
       "errors": [],
       "products": [
         {
-          "productId": "window-city:hc-101",
-          "name": "HC-101 Casement",
-          "modelNumber": "HC-101",
-          "collection": "Heritage Collection",
-          "category": "windows",
-          "canonicalUrl": "https://windowcity.com/windows/heritage-hc-101-casement/",
+          "productId": "window-city:hc-650",
+          "name": "HC-650 Patio In-Swing Door",
+          "modelNumber": "HC-650",
+          "collection": "Ultra Patio Door Collection",
+          "category": "patio-doors",
+          "canonicalUrl": "https://windowcity.com/patio-doors/hc-650-in-swing/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
-            "technicalDrawings": false,
+            "technicalDrawings": true,
             "colourFinish": false,
             "glass": false,
             "hardware": false
@@ -448,21 +448,21 @@
             "installationGuide": false,
             "warranty": false,
             "performanceDocument": false,
-            "catalogue": false
+            "catalogue": true
           },
-          "verifiedAt": "2026-08-19T19:19:19Z"
+          "verifiedAt": "2026-08-20T04:40:21Z"
         },
         {
-          "productId": "window-city:hc-176",
-          "name": "HC-176 Casement Fixed",
-          "modelNumber": "HC-176",
-          "collection": "Heritage Collection",
-          "category": "windows",
-          "canonicalUrl": "https://windowcity.com/windows/heritage-hc-176-casement-fixed/",
+          "productId": "window-city:wc-500",
+          "name": "WC-500 Ultra Patio Door Sliding",
+          "modelNumber": "WC-500",
+          "collection": "Ultra Patio Door Collection",
+          "category": "patio-doors",
+          "canonicalUrl": "https://windowcity.com/patio-doors/wc-500-sliding/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
             "gallery": false,
-            "technicalDrawings": false,
+            "technicalDrawings": true,
             "colourFinish": false,
             "glass": false,
             "hardware": false
@@ -473,509 +473,9 @@
             "installationGuide": false,
             "warranty": false,
             "performanceDocument": false,
-            "catalogue": false
+            "catalogue": true
           },
-          "verifiedAt": "2026-08-19T19:19:19Z"
-        },
-        {
-          "productId": "window-city:hc-126",
-          "name": "HC-126 Awning",
-          "modelNumber": "HC-126",
-          "collection": "Heritage Collection",
-          "category": "windows",
-          "canonicalUrl": "https://windowcity.com/windows/heritage-hc-126-awning/",
-          "mediaAvailable": {
-            "hero": false,
-            "gallery": false,
-            "technicalDrawings": false,
-            "colourFinish": false,
-            "glass": false,
-            "hardware": false
-          },
-          "documentsAvailable": {
-            "brochure": false,
-            "specificationSheet": false,
-            "installationGuide": false,
-            "warranty": false,
-            "performanceDocument": false,
-            "catalogue": false
-          },
-          "verifiedAt": "2026-08-19T19:19:19Z"
-        },
-        {
-          "productId": "window-city:hc-151",
-          "name": "HC-151 Slim Fixed",
-          "modelNumber": "HC-151",
-          "collection": "Heritage Collection",
-          "category": "windows",
-          "canonicalUrl": "https://windowcity.com/windows/heritage-hc-151-slim-fixed/",
-          "mediaAvailable": {
-            "hero": false,
-            "gallery": false,
-            "technicalDrawings": false,
-            "colourFinish": false,
-            "glass": false,
-            "hardware": false
-          },
-          "documentsAvailable": {
-            "brochure": false,
-            "specificationSheet": false,
-            "installationGuide": false,
-            "warranty": false,
-            "performanceDocument": false,
-            "catalogue": false
-          },
-          "verifiedAt": "2026-08-19T19:19:19Z"
-        },
-        {
-          "productId": "window-city:hc-401",
-          "name": "HC-401 Casement",
-          "modelNumber": "HC-401",
-          "collection": "Heritage Maximum Collection",
-          "category": "windows",
-          "canonicalUrl": "https://windowcity.com/windows/heritage-maximum-hc-401-casement/",
-          "mediaAvailable": {
-            "hero": false,
-            "gallery": false,
-            "technicalDrawings": false,
-            "colourFinish": false,
-            "glass": false,
-            "hardware": false
-          },
-          "documentsAvailable": {
-            "brochure": false,
-            "specificationSheet": false,
-            "installationGuide": false,
-            "warranty": false,
-            "performanceDocument": false,
-            "catalogue": false
-          },
-          "verifiedAt": "2026-08-19T19:19:19Z"
-        },
-        {
-          "productId": "window-city:hc-476",
-          "name": "HC-476 Casement Fixed",
-          "modelNumber": "HC-476",
-          "collection": "Heritage Maximum Collection",
-          "category": "windows",
-          "canonicalUrl": "https://windowcity.com/windows/heritage-maximum-hc-476-casement-fixed/",
-          "mediaAvailable": {
-            "hero": false,
-            "gallery": false,
-            "technicalDrawings": false,
-            "colourFinish": false,
-            "glass": false,
-            "hardware": false
-          },
-          "documentsAvailable": {
-            "brochure": false,
-            "specificationSheet": false,
-            "installationGuide": false,
-            "warranty": false,
-            "performanceDocument": false,
-            "catalogue": false
-          },
-          "verifiedAt": "2026-08-19T19:19:19Z"
-        },
-        {
-          "productId": "window-city:hc-426",
-          "name": "HC-426 Awning",
-          "modelNumber": "HC-426",
-          "collection": "Heritage Maximum Collection",
-          "category": "windows",
-          "canonicalUrl": "https://windowcity.com/windows/heritage-maximum-hc-426-awning/",
-          "mediaAvailable": {
-            "hero": false,
-            "gallery": false,
-            "technicalDrawings": false,
-            "colourFinish": false,
-            "glass": false,
-            "hardware": false
-          },
-          "documentsAvailable": {
-            "brochure": false,
-            "specificationSheet": false,
-            "installationGuide": false,
-            "warranty": false,
-            "performanceDocument": false,
-            "catalogue": false
-          },
-          "verifiedAt": "2026-08-19T19:19:19Z"
-        },
-        {
-          "productId": "window-city:hc-451",
-          "name": "HC-451 Slim Fixed",
-          "modelNumber": "HC-451",
-          "collection": "Heritage Maximum Collection",
-          "category": "windows",
-          "canonicalUrl": "https://windowcity.com/windows/heritage-maximum-hc-451-slim-fixed/",
-          "mediaAvailable": {
-            "hero": false,
-            "gallery": false,
-            "technicalDrawings": false,
-            "colourFinish": false,
-            "glass": false,
-            "hardware": false
-          },
-          "documentsAvailable": {
-            "brochure": false,
-            "specificationSheet": false,
-            "installationGuide": false,
-            "warranty": false,
-            "performanceDocument": false,
-            "catalogue": false
-          },
-          "verifiedAt": "2026-08-19T19:19:19Z"
-        },
-        {
-          "productId": "window-city:wc-100",
-          "name": "WC-100 Casement",
-          "modelNumber": "WC-100",
-          "collection": "Classic Collection",
-          "category": "windows",
-          "canonicalUrl": "https://windowcity.com/windows/classic-wc-100-casement/",
-          "mediaAvailable": {
-            "hero": false,
-            "gallery": false,
-            "technicalDrawings": false,
-            "colourFinish": false,
-            "glass": false,
-            "hardware": false
-          },
-          "documentsAvailable": {
-            "brochure": false,
-            "specificationSheet": false,
-            "installationGuide": false,
-            "warranty": false,
-            "performanceDocument": false,
-            "catalogue": false
-          },
-          "verifiedAt": "2026-08-19T19:19:19Z"
-        },
-        {
-          "productId": "window-city:wc-400",
-          "name": "WC-400 Casement",
-          "modelNumber": "WC-400",
-          "collection": "Classic Collection",
-          "category": "windows",
-          "canonicalUrl": "https://windowcity.com/windows/classic-wc-400-casement/",
-          "mediaAvailable": {
-            "hero": false,
-            "gallery": false,
-            "technicalDrawings": false,
-            "colourFinish": false,
-            "glass": false,
-            "hardware": false
-          },
-          "documentsAvailable": {
-            "brochure": false,
-            "specificationSheet": false,
-            "installationGuide": false,
-            "warranty": false,
-            "performanceDocument": false,
-            "catalogue": false
-          },
-          "verifiedAt": "2026-08-19T19:19:19Z"
-        },
-        {
-          "productId": "window-city:wc-175",
-          "name": "WC-175 Casement Fixed",
-          "modelNumber": "WC-175",
-          "collection": "Classic Collection",
-          "category": "windows",
-          "canonicalUrl": "https://windowcity.com/windows/classic-wc-175-casement-fixed/",
-          "mediaAvailable": {
-            "hero": false,
-            "gallery": false,
-            "technicalDrawings": false,
-            "colourFinish": false,
-            "glass": false,
-            "hardware": false
-          },
-          "documentsAvailable": {
-            "brochure": false,
-            "specificationSheet": false,
-            "installationGuide": false,
-            "warranty": false,
-            "performanceDocument": false,
-            "catalogue": false
-          },
-          "verifiedAt": "2026-08-19T19:19:19Z"
-        },
-        {
-          "productId": "window-city:wc-475",
-          "name": "WC-475 Casement Fixed",
-          "modelNumber": "WC-475",
-          "collection": "Classic Collection",
-          "category": "windows",
-          "canonicalUrl": "https://windowcity.com/windows/classic-wc-475-casement-fixed/",
-          "mediaAvailable": {
-            "hero": false,
-            "gallery": false,
-            "technicalDrawings": false,
-            "colourFinish": false,
-            "glass": false,
-            "hardware": false
-          },
-          "documentsAvailable": {
-            "brochure": false,
-            "specificationSheet": false,
-            "installationGuide": false,
-            "warranty": false,
-            "performanceDocument": false,
-            "catalogue": false
-          },
-          "verifiedAt": "2026-08-19T19:19:19Z"
-        },
-        {
-          "productId": "window-city:wc-125",
-          "name": "WC-125 Awning",
-          "modelNumber": "WC-125",
-          "collection": "Classic Collection",
-          "category": "windows",
-          "canonicalUrl": "https://windowcity.com/windows/classic-wc-125-awning/",
-          "mediaAvailable": {
-            "hero": false,
-            "gallery": false,
-            "technicalDrawings": false,
-            "colourFinish": false,
-            "glass": false,
-            "hardware": false
-          },
-          "documentsAvailable": {
-            "brochure": false,
-            "specificationSheet": false,
-            "installationGuide": false,
-            "warranty": false,
-            "performanceDocument": false,
-            "catalogue": false
-          },
-          "verifiedAt": "2026-08-19T19:19:19Z"
-        },
-        {
-          "productId": "window-city:wc-425",
-          "name": "WC-425 Awning",
-          "modelNumber": "WC-425",
-          "collection": "Classic Collection",
-          "category": "windows",
-          "canonicalUrl": "https://windowcity.com/windows/classic-wc-425-awning/",
-          "mediaAvailable": {
-            "hero": false,
-            "gallery": false,
-            "technicalDrawings": false,
-            "colourFinish": false,
-            "glass": false,
-            "hardware": false
-          },
-          "documentsAvailable": {
-            "brochure": false,
-            "specificationSheet": false,
-            "installationGuide": false,
-            "warranty": false,
-            "performanceDocument": false,
-            "catalogue": false
-          },
-          "verifiedAt": "2026-08-19T19:19:19Z"
-        },
-        {
-          "productId": "window-city:wc-150",
-          "name": "WC-150 Slim Fixed",
-          "modelNumber": "WC-150",
-          "collection": "Classic Collection",
-          "category": "windows",
-          "canonicalUrl": "https://windowcity.com/windows/classic-wc-150-slim-fixed/",
-          "mediaAvailable": {
-            "hero": false,
-            "gallery": false,
-            "technicalDrawings": false,
-            "colourFinish": false,
-            "glass": false,
-            "hardware": false
-          },
-          "documentsAvailable": {
-            "brochure": false,
-            "specificationSheet": false,
-            "installationGuide": false,
-            "warranty": false,
-            "performanceDocument": false,
-            "catalogue": false
-          },
-          "verifiedAt": "2026-08-19T19:19:19Z"
-        },
-        {
-          "productId": "window-city:wc-450",
-          "name": "WC-450 Slim Fixed",
-          "modelNumber": "WC-450",
-          "collection": "Classic Collection",
-          "category": "windows",
-          "canonicalUrl": "https://windowcity.com/windows/classic-wc-450-slim-fixed/",
-          "mediaAvailable": {
-            "hero": false,
-            "gallery": false,
-            "technicalDrawings": false,
-            "colourFinish": false,
-            "glass": false,
-            "hardware": false
-          },
-          "documentsAvailable": {
-            "brochure": false,
-            "specificationSheet": false,
-            "installationGuide": false,
-            "warranty": false,
-            "performanceDocument": false,
-            "catalogue": false
-          },
-          "verifiedAt": "2026-08-19T19:19:19Z"
-        },
-        {
-          "productId": "window-city:wc-200",
-          "name": "WC-200 Single Slider",
-          "modelNumber": "WC-200",
-          "collection": "Classic Collection",
-          "category": "windows",
-          "canonicalUrl": "https://windowcity.com/windows/classic-wc-200-single-slider/",
-          "mediaAvailable": {
-            "hero": false,
-            "gallery": false,
-            "technicalDrawings": false,
-            "colourFinish": false,
-            "glass": false,
-            "hardware": false
-          },
-          "documentsAvailable": {
-            "brochure": false,
-            "specificationSheet": false,
-            "installationGuide": false,
-            "warranty": false,
-            "performanceDocument": false,
-            "catalogue": false
-          },
-          "verifiedAt": "2026-08-19T19:19:19Z"
-        },
-        {
-          "productId": "window-city:wc-300",
-          "name": "WC-300 Single Slider",
-          "modelNumber": "WC-300",
-          "collection": "Classic Collection",
-          "category": "windows",
-          "canonicalUrl": "https://windowcity.com/windows/classic-wc-300-single-slider/",
-          "mediaAvailable": {
-            "hero": false,
-            "gallery": false,
-            "technicalDrawings": false,
-            "colourFinish": false,
-            "glass": false,
-            "hardware": false
-          },
-          "documentsAvailable": {
-            "brochure": false,
-            "specificationSheet": false,
-            "installationGuide": false,
-            "warranty": false,
-            "performanceDocument": false,
-            "catalogue": false
-          },
-          "verifiedAt": "2026-08-19T19:19:19Z"
-        },
-        {
-          "productId": "window-city:wc-325",
-          "name": "WC-325 Single Slider",
-          "modelNumber": "WC-325",
-          "collection": "Classic Collection",
-          "category": "windows",
-          "canonicalUrl": "https://windowcity.com/windows/classic-wc-325-single-slider/",
-          "mediaAvailable": {
-            "hero": false,
-            "gallery": false,
-            "technicalDrawings": false,
-            "colourFinish": false,
-            "glass": false,
-            "hardware": false
-          },
-          "documentsAvailable": {
-            "brochure": false,
-            "specificationSheet": false,
-            "installationGuide": false,
-            "warranty": false,
-            "performanceDocument": false,
-            "catalogue": false
-          },
-          "verifiedAt": "2026-08-19T19:19:19Z"
-        },
-        {
-          "productId": "window-city:wc-250",
-          "name": "WC-250 Double Slider",
-          "modelNumber": "WC-250",
-          "collection": null,
-          "category": "windows",
-          "canonicalUrl": "https://windowcity.com/windows/wc-250-double-slider/",
-          "mediaAvailable": {
-            "hero": false,
-            "gallery": false,
-            "technicalDrawings": false,
-            "colourFinish": false,
-            "glass": false,
-            "hardware": false
-          },
-          "documentsAvailable": {
-            "brochure": false,
-            "specificationSheet": false,
-            "installationGuide": false,
-            "warranty": false,
-            "performanceDocument": false,
-            "catalogue": false
-          },
-          "verifiedAt": "2026-08-19T19:19:19Z"
-        },
-        {
-          "productId": "window-city:wc-350",
-          "name": "WC-350 Double Slider",
-          "modelNumber": "WC-350",
-          "collection": "Classic Collection",
-          "category": "windows",
-          "canonicalUrl": "https://windowcity.com/windows/classic-wc-350-double-slider/",
-          "mediaAvailable": {
-            "hero": false,
-            "gallery": false,
-            "technicalDrawings": false,
-            "colourFinish": false,
-            "glass": false,
-            "hardware": false
-          },
-          "documentsAvailable": {
-            "brochure": false,
-            "specificationSheet": false,
-            "installationGuide": false,
-            "warranty": false,
-            "performanceDocument": false,
-            "catalogue": false
-          },
-          "verifiedAt": "2026-08-19T19:19:19Z"
-        },
-        {
-          "productId": "window-city:wc-201",
-          "name": "WC-201 Hung",
-          "modelNumber": "WC-201",
-          "collection": "Classic Collection",
-          "category": "windows",
-          "canonicalUrl": "https://windowcity.com/windows/classic-wc-201-hung/",
-          "mediaAvailable": {
-            "hero": false,
-            "gallery": false,
-            "technicalDrawings": false,
-            "colourFinish": false,
-            "glass": false,
-            "hardware": false
-          },
-          "documentsAvailable": {
-            "brochure": false,
-            "specificationSheet": false,
-            "installationGuide": false,
-            "warranty": false,
-            "performanceDocument": false,
-            "catalogue": false
-          },
-          "verifiedAt": "2026-08-19T19:19:19Z"
+          "verifiedAt": "2026-08-20T04:40:21Z"
         },
         {
           "productId": "window-city:wc-251",
@@ -985,7 +485,132 @@
           "category": "windows",
           "canonicalUrl": "https://windowcity.com/windows/classic-wc-251-hung/",
           "mediaAvailable": {
-            "hero": false,
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": true,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T04:40:21Z"
+        },
+        {
+          "productId": "window-city:wc-201",
+          "name": "WC-201 Hung",
+          "modelNumber": "WC-201",
+          "collection": "Classic Collection",
+          "category": "windows",
+          "canonicalUrl": "https://windowcity.com/windows/classic-wc-201-hung/",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": true,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T04:40:21Z"
+        },
+        {
+          "productId": "window-city:wc-350",
+          "name": "WC-350 Double Slider",
+          "modelNumber": "WC-350",
+          "collection": "Classic Collection",
+          "category": "windows",
+          "canonicalUrl": "https://windowcity.com/windows/classic-wc-350-double-slider/",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": true,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T04:40:21Z"
+        },
+        {
+          "productId": "window-city:wc-250",
+          "name": "WC-250 Double Slider",
+          "modelNumber": "WC-250",
+          "collection": "Classic Collection",
+          "category": "windows",
+          "canonicalUrl": "https://windowcity.com/windows/wc-250-double-slider/",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": true,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T04:40:21Z"
+        },
+        {
+          "productId": "window-city:wc-325",
+          "name": "WC-325 Single Slider",
+          "modelNumber": "WC-325",
+          "collection": "Classic Collection",
+          "category": "windows",
+          "canonicalUrl": "https://windowcity.com/windows/classic-wc-325-single-slider/",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": true,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T04:40:21Z"
+        },
+        {
+          "productId": "window-city:wc-300",
+          "name": "WC-300 Single Slider",
+          "modelNumber": "WC-300",
+          "collection": "Classic Collection",
+          "category": "windows",
+          "canonicalUrl": "https://windowcity.com/windows/classic-wc-300-single-slider/",
+          "mediaAvailable": {
+            "hero": true,
             "gallery": false,
             "technicalDrawings": false,
             "colourFinish": false,
@@ -998,9 +623,434 @@
             "installationGuide": false,
             "warranty": false,
             "performanceDocument": false,
-            "catalogue": false
+            "catalogue": true
           },
-          "verifiedAt": "2026-08-19T19:19:19Z"
+          "verifiedAt": "2026-08-20T04:40:21Z"
+        },
+        {
+          "productId": "window-city:wc-200",
+          "name": "WC-200 Single Slider",
+          "modelNumber": "WC-200",
+          "collection": "Classic Collection",
+          "category": "windows",
+          "canonicalUrl": "https://windowcity.com/windows/classic-wc-200-single-slider/",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T04:40:21Z"
+        },
+        {
+          "productId": "window-city:wc-450",
+          "name": "WC-450 Slim Fixed",
+          "modelNumber": "WC-450",
+          "collection": "Classic Collection",
+          "category": "windows",
+          "canonicalUrl": "https://windowcity.com/windows/classic-wc-450-slim-fixed/",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": true,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T04:40:21Z"
+        },
+        {
+          "productId": "window-city:wc-150",
+          "name": "WC-150 Slim Fixed",
+          "modelNumber": "WC-150",
+          "collection": "Classic Collection",
+          "category": "windows",
+          "canonicalUrl": "https://windowcity.com/windows/classic-wc-150-slim-fixed/",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": true,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T04:40:21Z"
+        },
+        {
+          "productId": "window-city:wc-425",
+          "name": "WC-425 Awning",
+          "modelNumber": "WC-425",
+          "collection": "Classic Collection",
+          "category": "windows",
+          "canonicalUrl": "https://windowcity.com/windows/classic-wc-425-awning/",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": true,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T04:40:21Z"
+        },
+        {
+          "productId": "window-city:wc-125",
+          "name": "WC-125 Awning",
+          "modelNumber": "WC-125",
+          "collection": "Classic Collection",
+          "category": "windows",
+          "canonicalUrl": "https://windowcity.com/windows/classic-wc-125-awning/",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": true,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T04:40:21Z"
+        },
+        {
+          "productId": "window-city:wc-475",
+          "name": "WC-475 Casement Fixed",
+          "modelNumber": "WC-475",
+          "collection": "Classic Collection",
+          "category": "windows",
+          "canonicalUrl": "https://windowcity.com/windows/classic-wc-475-casement-fixed/",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": true,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T04:40:21Z"
+        },
+        {
+          "productId": "window-city:wc-175",
+          "name": "WC-175 Casement Fixed",
+          "modelNumber": "WC-175",
+          "collection": "Classic Collection",
+          "category": "windows",
+          "canonicalUrl": "https://windowcity.com/windows/classic-wc-175-casement-fixed/",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": true,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T04:40:21Z"
+        },
+        {
+          "productId": "window-city:wc-400",
+          "name": "WC-400 Casement",
+          "modelNumber": "WC-400",
+          "collection": "Classic Collection",
+          "category": "windows",
+          "canonicalUrl": "https://windowcity.com/windows/classic-wc-400-casement/",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": true,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T04:40:21Z"
+        },
+        {
+          "productId": "window-city:wc-100",
+          "name": "WC-100 Casement",
+          "modelNumber": "WC-100",
+          "collection": "Classic Collection",
+          "category": "windows",
+          "canonicalUrl": "https://windowcity.com/windows/classic-wc-100-casement/",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": false,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T04:40:21Z"
+        },
+        {
+          "productId": "window-city:hc-451",
+          "name": "HC-451 Slim Fixed",
+          "modelNumber": "HC-451",
+          "collection": "Heritage Maximum Collection",
+          "category": "windows",
+          "canonicalUrl": "https://windowcity.com/windows/heritage-maximum-hc-451-slim-fixed/",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": true,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T04:40:21Z"
+        },
+        {
+          "productId": "window-city:hc-426",
+          "name": "HC-426 Awning",
+          "modelNumber": "HC-426",
+          "collection": "Heritage Maximum Collection",
+          "category": "windows",
+          "canonicalUrl": "https://windowcity.com/windows/heritage-maximum-hc-426-awning/",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": true,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T04:40:21Z"
+        },
+        {
+          "productId": "window-city:hc-476",
+          "name": "HC-476 Casement Fixed",
+          "modelNumber": "HC-476",
+          "collection": "Heritage Maximum Collection",
+          "category": "windows",
+          "canonicalUrl": "https://windowcity.com/windows/heritage-maximum-hc-476-casement-fixed/",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": true,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T04:40:21Z"
+        },
+        {
+          "productId": "window-city:hc-401",
+          "name": "HC-401 Casement",
+          "modelNumber": "HC-401",
+          "collection": "Heritage Maximum Collection",
+          "category": "windows",
+          "canonicalUrl": "https://windowcity.com/windows/heritage-maximum-hc-401-casement/",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": true,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T04:40:21Z"
+        },
+        {
+          "productId": "window-city:hc-151",
+          "name": "HC-151 Slim Fixed",
+          "modelNumber": "HC-151",
+          "collection": "Heritage Collection",
+          "category": "windows",
+          "canonicalUrl": "https://windowcity.com/windows/heritage-hc-151-slim-fixed/",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": true,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T04:40:21Z"
+        },
+        {
+          "productId": "window-city:hc-126",
+          "name": "HC-126 Awning",
+          "modelNumber": "HC-126",
+          "collection": "Heritage Collection",
+          "category": "windows",
+          "canonicalUrl": "https://windowcity.com/windows/heritage-hc-126-awning/",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": true,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T04:40:21Z"
+        },
+        {
+          "productId": "window-city:hc-176",
+          "name": "HC-176 Casement Fixed",
+          "modelNumber": "HC-176",
+          "collection": "Heritage Collection",
+          "category": "windows",
+          "canonicalUrl": "https://windowcity.com/windows/heritage-hc-176-casement-fixed/",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": true,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T04:40:21Z"
+        },
+        {
+          "productId": "window-city:hc-101",
+          "name": "HC-101 Casement",
+          "modelNumber": "HC-101",
+          "collection": "Heritage Collection",
+          "category": "windows",
+          "canonicalUrl": "https://windowcity.com/windows/heritage-hc-101-casement/",
+          "mediaAvailable": {
+            "hero": true,
+            "gallery": false,
+            "technicalDrawings": true,
+            "colourFinish": false,
+            "glass": false,
+            "hardware": false
+          },
+          "documentsAvailable": {
+            "brochure": false,
+            "specificationSheet": false,
+            "installationGuide": false,
+            "warranty": false,
+            "performanceDocument": false,
+            "catalogue": true
+          },
+          "verifiedAt": "2026-08-20T04:40:21Z"
         }
       ]
     },

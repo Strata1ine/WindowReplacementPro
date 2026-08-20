@@ -1,0 +1,851 @@
+{
+    "supplier":  "window-city",
+    "reviewedAt":  "2026-08-20",
+    "factSets":  [
+                     {
+                         "productIds":  [
+                                            "window-city:hc-101",
+                                            "window-city:hc-126",
+                                            "window-city:hc-151",
+                                            "window-city:hc-176",
+                                            "window-city:hc-401",
+                                            "window-city:hc-426",
+                                            "window-city:hc-451",
+                                            "window-city:hc-476",
+                                            "window-city:hc-650",
+                                            "window-city:wc-100",
+                                            "window-city:wc-125",
+                                            "window-city:wc-150",
+                                            "window-city:wc-175",
+                                            "window-city:wc-200",
+                                            "window-city:wc-201",
+                                            "window-city:wc-250",
+                                            "window-city:wc-251",
+                                            "window-city:wc-300",
+                                            "window-city:wc-325",
+                                            "window-city:wc-350",
+                                            "window-city:wc-400",
+                                            "window-city:wc-425",
+                                            "window-city:wc-450",
+                                            "window-city:wc-475",
+                                            "window-city:wc-500"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "pages":  [
+                                                           3,
+                                                           4
+                                                       ],
+                                             "textPaths":  [
+                                                               "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0003.txt",
+                                                               "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0004.txt"
+                                                           ],
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "glazing":  "Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:hc-101",
+                                            "window-city:hc-126",
+                                            "window-city:hc-151",
+                                            "window-city:hc-176",
+                                            "window-city:hc-401",
+                                            "window-city:hc-426",
+                                            "window-city:hc-451",
+                                            "window-city:hc-476",
+                                            "window-city:wc-100",
+                                            "window-city:wc-125",
+                                            "window-city:wc-150",
+                                            "window-city:wc-175",
+                                            "window-city:wc-200",
+                                            "window-city:wc-201",
+                                            "window-city:wc-250",
+                                            "window-city:wc-251",
+                                            "window-city:wc-300",
+                                            "window-city:wc-325",
+                                            "window-city:wc-350",
+                                            "window-city:wc-400",
+                                            "window-city:wc-425",
+                                            "window-city:wc-450",
+                                            "window-city:wc-475"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  2,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0002.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "material":  "Window City-designed and extruded vinyl/uPVC window profiles."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:hc-101",
+                                            "window-city:hc-126",
+                                            "window-city:hc-151",
+                                            "window-city:hc-176",
+                                            "window-city:hc-401",
+                                            "window-city:hc-426",
+                                            "window-city:hc-451",
+                                            "window-city:hc-476",
+                                            "window-city:hc-650",
+                                            "window-city:wc-100",
+                                            "window-city:wc-125",
+                                            "window-city:wc-150",
+                                            "window-city:wc-175",
+                                            "window-city:wc-200",
+                                            "window-city:wc-201",
+                                            "window-city:wc-250",
+                                            "window-city:wc-251",
+                                            "window-city:wc-300",
+                                            "window-city:wc-325",
+                                            "window-city:wc-350",
+                                            "window-city:wc-400",
+                                            "window-city:wc-425",
+                                            "window-city:wc-450",
+                                            "window-city:wc-475",
+                                            "window-city:wc-500"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  13,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0013.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "warranty":  "Supplier advertises a non-prorated lifetime warranty and separate glass warranty; coverage is subject to the complete supplier terms."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:hc-101",
+                                            "window-city:hc-126",
+                                            "window-city:hc-151",
+                                            "window-city:hc-176"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  5,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0005.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "frameDepth":  "3 1/4 in",
+                                       "configuration":  "Heritage Collection casement, awning, casement-fixed, and slim-fixed vinyl window system."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:hc-401",
+                                            "window-city:hc-426",
+                                            "window-city:hc-451",
+                                            "window-city:hc-476"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  6,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0006.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "frameDepth":  "4 1/2 in",
+                                       "configuration":  "Heritage Maximum Collection slim-profile casement, awning, casement-fixed, and slim-fixed vinyl window system."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:wc-100",
+                                            "window-city:wc-125",
+                                            "window-city:wc-150",
+                                            "window-city:wc-175"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  7,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0007.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "frameDepth":  "3 1/4 in",
+                                       "configuration":  "Classic Collection casement, awning, casement-fixed, and slim-fixed vinyl window system."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:wc-400",
+                                            "window-city:wc-425",
+                                            "window-city:wc-450",
+                                            "window-city:wc-475"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  8,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0008.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "frameDepth":  "4 1/2 in",
+                                       "configuration":  "Classic Collection casement, awning, casement-fixed, and slim-fixed vinyl window system."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:wc-200",
+                                            "window-city:wc-201",
+                                            "window-city:wc-250",
+                                            "window-city:wc-251",
+                                            "window-city:wc-325",
+                                            "window-city:wc-350"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  9,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0009.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "frameDepth":  "3 1/4 in",
+                                       "configuration":  "Classic Collection hung and slider vinyl window system."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:wc-300"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  9,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0009.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "frameDepth":  "4 1/2 in",
+                                       "configuration":  "Classic Collection single-slider liftout vinyl window."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:hc-101",
+                                            "window-city:hc-126",
+                                            "window-city:hc-151",
+                                            "window-city:hc-176",
+                                            "window-city:hc-401",
+                                            "window-city:hc-426",
+                                            "window-city:hc-451",
+                                            "window-city:hc-476",
+                                            "window-city:wc-100",
+                                            "window-city:wc-125",
+                                            "window-city:wc-150",
+                                            "window-city:wc-175",
+                                            "window-city:wc-200",
+                                            "window-city:wc-201",
+                                            "window-city:wc-250",
+                                            "window-city:wc-251",
+                                            "window-city:wc-300",
+                                            "window-city:wc-325",
+                                            "window-city:wc-350",
+                                            "window-city:wc-400",
+                                            "window-city:wc-425",
+                                            "window-city:wc-450",
+                                            "window-city:wc-475"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  10,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0010.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "hardware":  "Slider/hung products show cam-lock and tilt-latch hardware; casement products show multipoint lever-lock and premium crank hardware, with supplier finish options."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:wc-500"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  11,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0011.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "material":  "Vinyl/uPVC Ultra Patio Door sliding system.",
+                                       "configuration":  "Sliding patio door available with custom sidelites, transoms, grille, glass, and interior/exterior trim options.",
+                                       "hardware":  "Hardware finish options listed as White, Black, two-tone White/Black, and Satin Nickel."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:hc-650"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  12,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0012.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "material":  "All-uPVC patio swing frame system with aluminum reinforcement.",
+                                       "configuration":  "In-swing patio door supports sidelites, transoms, grille and glass options, and multiple operating configurations.",
+                                       "hardware":  "Adjustable hinges and standard multipoint hardware; handle finish options include Black, Satin Nickel, Dark Bronze, and Pewter."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:hc-101"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  5,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0005.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "performance":  "Supplier 2026 catalogue ratings - Double Pane: air A3; water 620Pa; forced-entry Grade 10; structural R-PG65; U-factor 0.23 Btu/h-ft2-F (1.28 W/m2-K); ER 35; ENERGY STAR Yes; Most Efficient No. Triple Pane: air A3; water 620Pa; forced-entry Grade 10; structural R-PG65; U-factor 0.18 Btu/h-ft2-F (1.04 W/m2-K); ER 38; ENERGY STAR Yes; Most Efficient Yes."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:hc-126"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  5,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0005.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "performance":  "Supplier 2026 catalogue ratings - Double Pane: air A3; water 510Pa; forced-entry Grade 20; structural LC-PG70; U-factor 0.23 Btu/h-ft2-F (1.31 W/m2-K); ER 35; ENERGY STAR Yes; Most Efficient No. Triple Pane: air A3; water 510Pa; forced-entry Grade 20; structural LC-PG70; U-factor 0.18 Btu/h-ft2-F (1.04 W/m2-K); ER 38; ENERGY STAR Yes; Most Efficient Yes."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:hc-176"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  5,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0005.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "performance":  "Supplier 2026 catalogue ratings - Double Pane: air Fixed; water 720Pa; forced-entry Grade 20; structural R-PG70; U-factor 0.22 Btu/h-ft2-F (1.24 W/m2-K); ER 41; ENERGY STAR Yes; Most Efficient Yes. Triple Pane: air Fixed; water 720Pa; forced-entry Grade 20; structural R-PG70; U-factor 0.17 Btu/h-ft2-F (0.96 W/m2-K); ER 44; ENERGY STAR Yes; Most Efficient Yes."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:hc-151"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  5,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0005.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "performance":  "Supplier 2026 catalogue ratings - Double Pane: air Fixed; water 510Pa; forced-entry Grade 20; structural R-PG55; U-factor 0.22 Btu/h-ft2-F (1.25 W/m2-K); ER 45; ENERGY STAR Yes; Most Efficient Yes. Triple Pane: air Fixed; water 510Pa; forced-entry Grade 20; structural R-PG55; U-factor 0.20 Btu/h-ft2-F (1.11 W/m2-K); ER 45; ENERGY STAR Yes; Most Efficient Yes."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:hc-401"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  6,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0006.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "performance":  "Supplier 2026 catalogue ratings - Double Pane: air A3; water 720Pa; forced-entry Grade 20; structural CW-PG70; U-factor 0.23 Btu/h-ft2-F (1.29 W/m2-K); ER 39; ENERGY STAR Yes; Most Efficient No. Triple Pane: air A3; water 720Pa; forced-entry Grade 20; structural CW-PG70; U-factor 0.17 Btu/h-ft2-F (0.94 W/m2-K); ER 43; ENERGY STAR Yes; Most Efficient Yes."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:hc-426"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  6,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0006.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "performance":  "Supplier 2026 catalogue ratings - Double Pane: air A3; water 720Pa; forced-entry Grade 20; structural LC-PG55; U-factor 0.23 Btu/h-ft2-F (1.32 W/m2-K); ER 38; ENERGY STAR Yes; Most Efficient No. Triple Pane: air A3; water 720Pa; forced-entry Grade 20; structural LC-PG55; U-factor 0.16 Btu/h-ft2-F (0.93 W/m2-K); ER 43; ENERGY STAR Yes; Most Efficient Yes."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:hc-476"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  6,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0006.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "performance":  "Supplier 2026 catalogue ratings - Double Pane: air Fixed; water 720Pa; forced-entry Grade 40; structural CW-PG70; U-factor 0.21 Btu/h-ft2-F (1.21 W/m2-K); ER 44; ENERGY STAR Yes; Most Efficient Yes. Triple Pane: air Fixed; water 720Pa; forced-entry Grade 40; structural CW-PG70; U-factor 0.15 Btu/h-ft2-F (0.84 W/m2-K); ER 48; ENERGY STAR Yes; Most Efficient Yes."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:hc-451"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  6,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0006.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "performance":  "Supplier 2026 catalogue ratings - Double Pane: air Fixed; water 720Pa; forced-entry Grade 40; structural CW-PG70; U-factor 0.22 Btu/h-ft2-F (1.23 W/m2-K); ER 46; ENERGY STAR Yes; Most Efficient Yes. Triple Pane: air Fixed; water 720Pa; forced-entry Grade 40; structural CW-PG70; U-factor 0.19 Btu/h-ft2-F (1.08 W/m2-K); ER 46; ENERGY STAR Yes; Most Efficient Yes."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:wc-100"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  7,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0007.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "performance":  "Supplier 2026 catalogue ratings - Double Pane: air A3; water 720Pa; forced-entry Grade 20; structural R-PG65; U-factor 0.22 Btu/h-ft2-F (1.27 W/m2-K); ER 36; ENERGY STAR Yes; Most Efficient No. Triple Pane: air A3; water 720Pa; forced-entry Grade 20; structural R-PG65; U-factor 0.18 Btu/h-ft2-F (1.02 W/m2-K); ER 38; ENERGY STAR Yes; Most Efficient Yes."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:wc-125"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  7,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0007.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "performance":  "Supplier 2026 catalogue ratings - Double Pane: air A3; water 720Pa; forced-entry Grade 20; structural R-PG55; U-factor 0.23 Btu/h-ft2-F (1.29 W/m2-K); ER 35; ENERGY STAR Yes; Most Efficient No. Triple Pane: air A3; water 720Pa; forced-entry Grade 20; structural R-PG55; U-factor 0.18 Btu/h-ft2-F (1.02 W/m2-K); ER 38; ENERGY STAR Yes; Most Efficient Yes."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:wc-175"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  7,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0007.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "performance":  "Supplier 2026 catalogue ratings - Double Pane: air Fixed; water 720Pa; forced-entry Grade 40; structural CW-PG70; U-factor 0.22 Btu/h-ft2-F (1.26 W/m2-K); ER 41; ENERGY STAR Yes; Most Efficient Yes. Triple Pane: air Fixed; water 720Pa; forced-entry Grade 40; structural CW-PG70; U-factor 0.17 Btu/h-ft2-F (0.96 W/m2-K); ER 44; ENERGY STAR Yes; Most Efficient Yes."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:wc-150"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  7,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0007.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "performance":  "Supplier 2026 catalogue ratings - Double Pane: air Fixed; water 720Pa; forced-entry Grade 40; structural CW-PG70; U-factor 0.24 Btu/h-ft2-F (1.35 W/m2-K); ER 41; ENERGY STAR Yes; Most Efficient Yes. Triple Pane: air Fixed; water 720Pa; forced-entry Grade 40; structural CW-PG70; U-factor 0.21 Btu/h-ft2-F (1.18 W/m2-K); ER 42; ENERGY STAR Yes; Most Efficient Yes."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:wc-400"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  8,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0008.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "performance":  "Supplier 2026 catalogue ratings - Double Pane: air A3; water 510Pa; forced-entry Grade 20; structural R-PG55; U-factor 0.23 Btu/h-ft2-F (1.28 W/m2-K); ER 34; ENERGY STAR Yes; Most Efficient No. Triple Pane: air A3; water 510Pa; forced-entry Grade 20; structural R-PG55; U-factor 0.18 Btu/h-ft2-F (1.04 W/m2-K); ER 37; ENERGY STAR Yes; Most Efficient Yes."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:wc-425"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  8,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0008.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "performance":  "Supplier 2026 catalogue ratings - Double Pane: air A3; water 510Pa; forced-entry Grade 20; structural LC-PG60; U-factor 0.23 Btu/h-ft2-F (1.30 W/m2-K); ER 34; ENERGY STAR Yes; Most Efficient No. Triple Pane: air A3; water 510Pa; forced-entry Grade 20; structural LC-PG60; U-factor 0.18 Btu/h-ft2-F (1.04 W/m2-K); ER 37; ENERGY STAR Yes; Most Efficient Yes."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:wc-475"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  8,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0008.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "performance":  "Supplier 2026 catalogue ratings - Double Pane: air Fixed; water 510Pa; forced-entry Grade 20; structural R-PG55; U-factor 0.22 Btu/h-ft2-F (1.25 W/m2-K); ER 40; ENERGY STAR Yes; Most Efficient Yes. Triple Pane: air Fixed; water 510Pa; forced-entry Grade 20; structural R-PG55; U-factor 0.17 Btu/h-ft2-F (0.97 W/m2-K); ER 43; ENERGY STAR Yes; Most Efficient Yes."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:wc-450"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  8,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0008.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "performance":  "Supplier 2026 catalogue ratings - Double Pane: air Fixed; water 720Pa; forced-entry Grade 20; structural R-PG45; U-factor 0.22 Btu/h-ft2-F (1.25 W/m2-K); ER 43; ENERGY STAR Yes; Most Efficient Yes. Triple Pane: air Fixed; water 720Pa; forced-entry Grade 20; structural R-PG45; U-factor 0.19 Btu/h-ft2-F (1.11 W/m2-K); ER 43; ENERGY STAR Yes; Most Efficient Yes."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:wc-200"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  9,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0009.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "performance":  "Supplier 2026 catalogue ratings - Double Pane: air A2; water 150Pa; forced-entry Grade 20; structural R-PG20; U-factor 0.24 Btu/h-ft2-F (1.38 W/m2-K); ER 36; ENERGY STAR Yes; Most Efficient No. Triple Pane: air A2; water 150Pa; forced-entry Grade 20; structural R-PG20; U-factor 0.18 Btu/h-ft2-F (1.03 W/m2-K); ER 40; ENERGY STAR Yes; Most Efficient Yes."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:wc-201"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  9,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0009.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "performance":  "Supplier 2026 catalogue ratings - Double Pane: air A3; water 440Pa; forced-entry Grade 20; structural R-PG40; U-factor 0.24 Btu/h-ft2-F (1.37 W/m2-K); ER 38; ENERGY STAR Yes; Most Efficient No. Triple Pane: air A3; water 440Pa; forced-entry Grade 20; structural R-PG40; U-factor 0.18 Btu/h-ft2-F (1.03 W/m2-K); ER 41; ENERGY STAR Yes; Most Efficient Yes."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:wc-250"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  9,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0009.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "performance":  "Supplier 2026 catalogue ratings - Double Pane: air A2; water 180Pa; forced-entry Grade 10; structural R-PG25; U-factor 0.25 Btu/h-ft2-F (1.40 W/m2-K); ER 35; ENERGY STAR Yes; Most Efficient No. Triple Pane: air A2; water 180Pa; forced-entry Grade 10; structural R-PG25; U-factor 0.22 Btu/h-ft2-F (1.27 W/m2-K); ER 35; ENERGY STAR Yes; Most Efficient No."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:wc-251"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  9,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0009.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "performance":  "Supplier 2026 catalogue ratings - Double Pane: air A2; water 400Pa; forced-entry Grade 10; structural R-PG45; U-factor 0.24 Btu/h-ft2-F (1.39 W/m2-K); ER 35; ENERGY STAR Yes; Most Efficient No. Triple Pane: air A2; water 400Pa; forced-entry Grade 10; structural R-PG45; U-factor 0.22 Btu/h-ft2-F (1.27 W/m2-K); ER 35; ENERGY STAR Yes; Most Efficient No."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:wc-300"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  9,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0009.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "performance":  "Supplier 2026 catalogue ratings - Double Pane: air A2; water 220Pa; forced-entry Grade 20; structural R-PG30; U-factor 0.24 Btu/h-ft2-F (1.35 W/m2-K); ER 35; ENERGY STAR Yes; Most Efficient No. Triple Pane: air A2; water 220Pa; forced-entry Grade 20; structural R-PG30; U-factor 0.22 Btu/h-ft2-F (1.22 W/m2-K); ER 36; ENERGY STAR Yes; Most Efficient No."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:wc-325"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  9,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0009.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "performance":  "Supplier 2026 catalogue ratings - Double Pane: air A3; water 180Pa; forced-entry Grade 20; structural R-PG25; U-factor 0.24 Btu/h-ft2-F (1.36 W/m2-K); ER 40; ENERGY STAR Yes; Most Efficient Yes. Triple Pane: air A3; water 180Pa; forced-entry Grade 20; structural R-PG25; U-factor 0.21 Btu/h-ft2-F (1.22 W/m2-K); ER 40; ENERGY STAR Yes; Most Efficient Yes."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:wc-350"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  9,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0009.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "performance":  "Supplier 2026 catalogue ratings - Double Pane: air A2; water 150Pa; forced-entry Grade 20; structural R-PG20; U-factor 0.24 Btu/h-ft2-F (1.37 W/m2-K); ER 36; ENERGY STAR Yes; Most Efficient No. Triple Pane: air A2; water 150Pa; forced-entry Grade 20; structural R-PG20; U-factor 0.22 Btu/h-ft2-F (1.24 W/m2-K); ER 37; ENERGY STAR Yes; Most Efficient No."
+                                   }
+                     },
+                     {
+                         "productIds":  [
+                                            "window-city:wc-500"
+                                        ],
+                         "sources":  [
+                                         {
+                                             "supplier":  "window-city",
+                                             "sourceUrl":  "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+                                             "sourceDocument":  "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+                                             "page":  11,
+                                             "textPath":  "source-media/suppliers/window-city/pdf-extracted/windowcityconsumerbook2026-ea745679024d/pages/page-0011.txt",
+                                             "status":  "active",
+                                             "extractionMethod":  "embedded-text",
+                                             "reviewStatus":  "human-reviewed"
+                                         }
+                                     ],
+                         "facts":  {
+                                       "performance":  "Supplier 2026 catalogue ratings - Double Pane: air A2; water 330Pa; forced-entry Grade 20; structural R-PG45; U-factor 0.25 Btu/h-ft2-F (1.40 W/m2-K); ER 34; ENERGY STAR Yes; Most Efficient No. Triple Pane: air A2; water 330Pa; forced-entry Grade 20; structural R-PG45; U-factor 0.23 Btu/h-ft2-F (1.28 W/m2-K); ER 37; ENERGY STAR Yes; Most Efficient No."
+                                   }
+                     }
+                 ]
+}

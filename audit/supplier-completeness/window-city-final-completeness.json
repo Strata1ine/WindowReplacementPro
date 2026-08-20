@@ -1,0 +1,493 @@
+{
+  "supplier": "window-city",
+  "verifiedAt": "2026-08-20T05:00:15.9353128Z",
+  "status": "VERIFIED",
+  "inventory": {
+    "liveRelevantProducts": 25,
+    "canonicalProductsBefore": 23,
+    "canonicalProductsAfter": 25,
+    "matchedBefore": 23,
+    "missingBefore": 2,
+    "extraOrStale": 0,
+    "uncertain": 0,
+    "pagesReviewed": 54,
+    "collections": [
+      {
+        "name": "Classic Collection",
+        "products": 15
+      },
+      {
+        "name": "Heritage Collection",
+        "products": 4
+      },
+      {
+        "name": "Heritage Maximum Collection",
+        "products": 4
+      },
+      {
+        "name": "Ultra Patio Door Collection",
+        "products": 2
+      }
+    ],
+    "newCanonicalProducts": [
+      "window-city:hc-650",
+      "window-city:wc-500"
+    ],
+    "nonCanonicalLiveOfferings": [
+      {
+        "name": "Entry doors",
+        "reason": "supplier exposes collection landing pages but no individual canonical product/model pages"
+      },
+      {
+        "name": "Bay, bow, and architectural shapes",
+        "reason": "described as shared configurations in the catalogue and website, not individual model pages"
+      }
+    ]
+  },
+  "media": {
+    "productsWithHero": 25,
+    "productsWithAnyMedia": 25,
+    "acceptedImages": 86,
+    "imageBytes": 76566958,
+    "originalMasterImages": 86,
+    "productSpecificImages": 67,
+    "sharedImages": 19,
+    "collectionSharedImages": 6,
+    "supplierSharedImages": 13,
+    "technicalDrawings": 48,
+    "profileSections": 42,
+    "configurationDiagrams": 6,
+    "hardwareImages": 3,
+    "finishSwatches": 10,
+    "responsiveDerivativesSelected": 0,
+    "wordpressScaledPracticalMasters": 18,
+    "duplicateShaGroups": 0,
+    "publicOrphans": 0,
+    "uncertainAssociations": 0,
+    "rejectedGifAnimations": 35,
+    "validatedGifBinariesPreservedInStaging": 15,
+    "oversizedGifCandidatesRejected": 20,
+    "genericDocumentsQuarantined": 1,
+    "quarantineDisposition": "preserved outside public storage with URL/page/hash provenance; no destructive cleanup performed"
+  },
+  "pdf": {
+    "documents": 2,
+    "currentDocuments": 1,
+    "historicalDocuments": 1,
+    "pagesProcessed": 24.0,
+    "textCharacters": 36346.0,
+    "tables": 107.0,
+    "usefulImages": 87.0,
+    "ocrRequired": 0,
+    "extractionErrors": 0,
+    "nonFatalParserWarnings": 5,
+    "productsWithPageEvidence": 25,
+    "documentsDetail": [
+      {
+        "documentId": "window-city:consumerbook2022-42229eea6034",
+        "title": "Window City 2022/2023 Consumer Book",
+        "localPath": "/documents/catalog/window-city/consumerbook2022-42229eea6034.pdf",
+        "sha256": "20bb2b109a3b1fc4dda172d86ba4692e9a4a1d8e017c3326a284e6735bdeedff",
+        "bytes": 8006670,
+        "pageCount": 11,
+        "textCharacters": 12483,
+        "tableCount": 43,
+        "extractedImageCount": 51,
+        "ocrApplied": false,
+        "ocrPages": 0,
+        "documentDate": "2022-01-01",
+        "freshness": {
+          "status": "historical-superseded",
+          "basis": "Still linked on the builders/architects page but superseded by the current 2026 consumer book."
+        },
+        "originalUrl": "http://windowcity.com/wp-content/uploads/2024/03/consumerbook2022.pdf",
+        "finalUrl": "https://windowcity.com/wp-content/uploads/2024/03/consumerbook2022.pdf"
+      },
+      {
+        "documentId": "window-city:windowcityconsumerbook2026-ea745679024d",
+        "title": "Window City 2026 Consumer Book",
+        "localPath": "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf",
+        "sha256": "5bb7bcdb993256fba767e27d434847792c78cca917bd996fe163fd2e5ae5b6f8",
+        "bytes": 34798778,
+        "pageCount": 13,
+        "textCharacters": 23863,
+        "tableCount": 64,
+        "extractedImageCount": 36,
+        "ocrApplied": false,
+        "ocrPages": 0,
+        "documentDate": "2026-01-01",
+        "freshness": {
+          "status": "current-source-linked",
+          "basis": "Current 2026 supplier catalogue linked across the live website."
+        },
+        "originalUrl": "http://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf",
+        "finalUrl": "https://windowcity.com/wp-content/uploads/2026/06/WindowCityConsumerBook2026.pdf"
+      }
+    ]
+  },
+  "facts": {
+    "normalizedProducts": 25,
+    "normalizedFactValues": 191,
+    "distinctFields": 9,
+    "fields": [
+      "configuration",
+      "frameDepth",
+      "glazing",
+      "hardware",
+      "material",
+      "operatingStyle",
+      "performance",
+      "productType",
+      "warranty"
+    ],
+    "productsWithCurrentPerformanceRatings": 24,
+    "reviewPolicy": "Only current 2026 catalogue facts were normalized where product identity and table values were explicit; the superseded 2022/2023 book remains provenance only."
+  },
+  "publication": {
+    "publishableProducts": 23,
+    "newProductsHeldUnpublished": 2,
+    "heldProductIds": [
+      "window-city:hc-650",
+      "window-city:wc-500"
+    ],
+    "thresholdsChanged": false
+  },
+  "visualReview": {
+    "status": "PASSED",
+    "reviewed": [
+      "all 25 product hero relationships",
+      "all 42 model profile/cross-section images",
+      "all six patio configuration SVGs",
+      "all 10 finish swatches and three hardware images",
+      "current 2026 catalogue product pages 5-12",
+      "current and historical PDF-extracted image contact sheets"
+    ],
+    "findings": [
+      "No logo, icon, navigation, category-card, or generic accessibility asset is attached as public product media.",
+      "Ten model-named collection thumbnails were confirmed product-specific by filename/model identity.",
+      "Six patio configuration diagrams are collection-shared only between HC-650 and WC-500.",
+      "All 86 selected images are practical master URLs; no standard responsive rendition was selected.",
+      "The 2022/2023 catalogue is retained as historical evidence and not used to override the 2026 facts."
+    ]
+  },
+  "conflicts": {
+    "websitePdfConflicts": [],
+    "staleHistoricalProducts": [],
+    "activeSourceFailures": [],
+    "notes": [
+      "The historical consumer book remains linked from the builders/architects page but is explicitly marked superseded by the current 2026 consumer book."
+    ]
+  },
+  "missing": {
+    "media": [],
+    "documents": [],
+    "productEvidence": [],
+    "performance": [
+      {
+        "productId": "window-city:hc-650",
+        "reason": "The current 2026 catalogue describes materials, reinforcement, configurations, and hardware but publishes no product performance-ratings table for HC-650."
+      }
+    ]
+  },
+  "products": [
+    {
+      "productId": "window-city:hc-101",
+      "collection": "Heritage Collection",
+      "sourceUrl": "https://windowcity.com/windows/heritage-hc-101-casement/",
+      "mediaCount": 2,
+      "documentCount": 1,
+      "heroCaptured": true,
+      "roles": [
+        "product-hero",
+        "profile-section"
+      ]
+    },
+    {
+      "productId": "window-city:hc-126",
+      "collection": "Heritage Collection",
+      "sourceUrl": "https://windowcity.com/windows/heritage-hc-126-awning/",
+      "mediaCount": 2,
+      "documentCount": 1,
+      "heroCaptured": true,
+      "roles": [
+        "product-hero",
+        "profile-section"
+      ]
+    },
+    {
+      "productId": "window-city:hc-151",
+      "collection": "Heritage Collection",
+      "sourceUrl": "https://windowcity.com/windows/heritage-hc-151-slim-fixed/",
+      "mediaCount": 4,
+      "documentCount": 1,
+      "heroCaptured": true,
+      "roles": [
+        "product-hero",
+        "profile-section"
+      ]
+    },
+    {
+      "productId": "window-city:hc-176",
+      "collection": "Heritage Collection",
+      "sourceUrl": "https://windowcity.com/windows/heritage-hc-176-casement-fixed/",
+      "mediaCount": 4,
+      "documentCount": 1,
+      "heroCaptured": true,
+      "roles": [
+        "product-hero",
+        "profile-section"
+      ]
+    },
+    {
+      "productId": "window-city:hc-401",
+      "collection": "Heritage Maximum Collection",
+      "sourceUrl": "https://windowcity.com/windows/heritage-maximum-hc-401-casement/",
+      "mediaCount": 3,
+      "documentCount": 1,
+      "heroCaptured": true,
+      "roles": [
+        "product-hero",
+        "profile-section"
+      ]
+    },
+    {
+      "productId": "window-city:hc-426",
+      "collection": "Heritage Maximum Collection",
+      "sourceUrl": "https://windowcity.com/windows/heritage-maximum-hc-426-awning/",
+      "mediaCount": 2,
+      "documentCount": 1,
+      "heroCaptured": true,
+      "roles": [
+        "product-hero",
+        "profile-section"
+      ]
+    },
+    {
+      "productId": "window-city:hc-451",
+      "collection": "Heritage Maximum Collection",
+      "sourceUrl": "https://windowcity.com/windows/heritage-maximum-hc-451-slim-fixed/",
+      "mediaCount": 4,
+      "documentCount": 1,
+      "heroCaptured": true,
+      "roles": [
+        "product-hero",
+        "profile-section"
+      ]
+    },
+    {
+      "productId": "window-city:hc-476",
+      "collection": "Heritage Maximum Collection",
+      "sourceUrl": "https://windowcity.com/windows/heritage-maximum-hc-476-casement-fixed/",
+      "mediaCount": 4,
+      "documentCount": 1,
+      "heroCaptured": true,
+      "roles": [
+        "product-hero",
+        "profile-section"
+      ]
+    },
+    {
+      "productId": "window-city:hc-650",
+      "collection": "Ultra Patio Door Collection",
+      "sourceUrl": "https://windowcity.com/patio-doors/hc-650-in-swing/",
+      "mediaCount": 8,
+      "documentCount": 1,
+      "heroCaptured": true,
+      "roles": [
+        "configuration-diagram",
+        "product-hero",
+        "profile-section"
+      ]
+    },
+    {
+      "productId": "window-city:wc-100",
+      "collection": "Classic Collection",
+      "sourceUrl": "https://windowcity.com/windows/classic-wc-100-casement/",
+      "mediaCount": 1,
+      "documentCount": 1,
+      "heroCaptured": true,
+      "roles": [
+        "product-hero"
+      ]
+    },
+    {
+      "productId": "window-city:wc-125",
+      "collection": "Classic Collection",
+      "sourceUrl": "https://windowcity.com/windows/classic-wc-125-awning/",
+      "mediaCount": 2,
+      "documentCount": 1,
+      "heroCaptured": true,
+      "roles": [
+        "product-hero",
+        "profile-section"
+      ]
+    },
+    {
+      "productId": "window-city:wc-150",
+      "collection": "Classic Collection",
+      "sourceUrl": "https://windowcity.com/windows/classic-wc-150-slim-fixed/",
+      "mediaCount": 4,
+      "documentCount": 1,
+      "heroCaptured": true,
+      "roles": [
+        "product-hero",
+        "profile-section"
+      ]
+    },
+    {
+      "productId": "window-city:wc-175",
+      "collection": "Classic Collection",
+      "sourceUrl": "https://windowcity.com/windows/classic-wc-175-casement-fixed/",
+      "mediaCount": 4,
+      "documentCount": 1,
+      "heroCaptured": true,
+      "roles": [
+        "product-hero",
+        "profile-section"
+      ]
+    },
+    {
+      "productId": "window-city:wc-200",
+      "collection": "Classic Collection",
+      "sourceUrl": "https://windowcity.com/windows/classic-wc-200-single-slider/",
+      "mediaCount": 1,
+      "documentCount": 1,
+      "heroCaptured": true,
+      "roles": [
+        "product-hero"
+      ]
+    },
+    {
+      "productId": "window-city:wc-201",
+      "collection": "Classic Collection",
+      "sourceUrl": "https://windowcity.com/windows/classic-wc-201-hung/",
+      "mediaCount": 2,
+      "documentCount": 1,
+      "heroCaptured": true,
+      "roles": [
+        "product-hero",
+        "profile-section"
+      ]
+    },
+    {
+      "productId": "window-city:wc-250",
+      "collection": "Classic Collection",
+      "sourceUrl": "https://windowcity.com/windows/wc-250-double-slider/",
+      "mediaCount": 3,
+      "documentCount": 1,
+      "heroCaptured": true,
+      "roles": [
+        "product-hero",
+        "profile-section"
+      ]
+    },
+    {
+      "productId": "window-city:wc-251",
+      "collection": "Classic Collection",
+      "sourceUrl": "https://windowcity.com/windows/classic-wc-251-hung/",
+      "mediaCount": 2,
+      "documentCount": 1,
+      "heroCaptured": true,
+      "roles": [
+        "product-hero",
+        "profile-section"
+      ]
+    },
+    {
+      "productId": "window-city:wc-300",
+      "collection": "Classic Collection",
+      "sourceUrl": "https://windowcity.com/windows/classic-wc-300-single-slider/",
+      "mediaCount": 1,
+      "documentCount": 1,
+      "heroCaptured": true,
+      "roles": [
+        "product-hero"
+      ]
+    },
+    {
+      "productId": "window-city:wc-325",
+      "collection": "Classic Collection",
+      "sourceUrl": "https://windowcity.com/windows/classic-wc-325-single-slider/",
+      "mediaCount": 2,
+      "documentCount": 1,
+      "heroCaptured": true,
+      "roles": [
+        "product-hero",
+        "profile-section"
+      ]
+    },
+    {
+      "productId": "window-city:wc-350",
+      "collection": "Classic Collection",
+      "sourceUrl": "https://windowcity.com/windows/classic-wc-350-double-slider/",
+      "mediaCount": 3,
+      "documentCount": 1,
+      "heroCaptured": true,
+      "roles": [
+        "product-hero",
+        "profile-section"
+      ]
+    },
+    {
+      "productId": "window-city:wc-400",
+      "collection": "Classic Collection",
+      "sourceUrl": "https://windowcity.com/windows/classic-wc-400-casement/",
+      "mediaCount": 3,
+      "documentCount": 1,
+      "heroCaptured": true,
+      "roles": [
+        "product-hero",
+        "profile-section"
+      ]
+    },
+    {
+      "productId": "window-city:wc-425",
+      "collection": "Classic Collection",
+      "sourceUrl": "https://windowcity.com/windows/classic-wc-425-awning/",
+      "mediaCount": 2,
+      "documentCount": 1,
+      "heroCaptured": true,
+      "roles": [
+        "product-hero",
+        "profile-section"
+      ]
+    },
+    {
+      "productId": "window-city:wc-450",
+      "collection": "Classic Collection",
+      "sourceUrl": "https://windowcity.com/windows/classic-wc-450-slim-fixed/",
+      "mediaCount": 4,
+      "documentCount": 1,
+      "heroCaptured": true,
+      "roles": [
+        "product-hero",
+        "profile-section"
+      ]
+    },
+    {
+      "productId": "window-city:wc-475",
+      "collection": "Classic Collection",
+      "sourceUrl": "https://windowcity.com/windows/classic-wc-475-casement-fixed/",
+      "mediaCount": 4,
+      "documentCount": 1,
+      "heroCaptured": true,
+      "roles": [
+        "product-hero",
+        "profile-section"
+      ]
+    },
+    {
+      "productId": "window-city:wc-500",
+      "collection": "Ultra Patio Door Collection",
+      "sourceUrl": "https://windowcity.com/patio-doors/wc-500-sliding/",
+      "mediaCount": 8,
+      "documentCount": 1,
+      "heroCaptured": true,
+      "roles": [
+        "configuration-diagram",
+        "product-hero",
+        "profile-section"
+      ]
+    }
+  ]
+}

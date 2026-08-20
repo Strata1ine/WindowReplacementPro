@@ -17,10 +17,10 @@ from PIL import Image, ImageStat
 from pypdf import PdfReader
 
 try:
-    from scripts.ingest.pdf_evidence import configured_page_products
+    from scripts.ingest.pdf_evidence import configured_document_metadata, configured_page_products
     from scripts.ingest.pdf_ocr import ocr_pdf_pages
 except ModuleNotFoundError:
-    from pdf_evidence import configured_page_products
+    from pdf_evidence import configured_document_metadata, configured_page_products
     from pdf_ocr import ocr_pdf_pages
 
 
@@ -236,9 +236,13 @@ def extract_pdf(pdf_path: Path, slug: str, provenance: dict, patterns: list[tupl
         page_records[item["page"] - 1]["images"].append(record)
 
     doc_date = document_date(pdf_path, metadata, provenance)
-    current_status = "current-source-linked" if provenance else "unverified-local"
+    reviewed_metadata = configured_document_metadata(pdf_path, evidence_rules)
+    doc_date = reviewed_metadata.get("documentDate") or doc_date
+    current_status = reviewed_metadata.get("freshnessStatus") or ("current-source-linked" if provenance else "unverified-local")
+    freshness_basis = reviewed_metadata.get("freshnessBasis") or ("present in current supplier asset index" if provenance else "local PDF has no current relationship record")
     document = {
         "documentId": doc_id,
+        "title": reviewed_metadata.get("title") or metadata.get("/Title") or pdf_path.stem,
         "supplier": slug,
         "localPath": local_path,
         "sha256": doc_hash,
@@ -254,7 +258,7 @@ def extract_pdf(pdf_path: Path, slug: str, provenance: dict, patterns: list[tupl
         "ocrPages": len(ocr_used_pages),
         "metadata": metadata,
         "documentDate": doc_date,
-        "freshness": {"status": current_status, "basis": "present in current supplier asset index" if provenance else "local PDF has no current relationship record"},
+        "freshness": {"status": current_status, "basis": freshness_basis},
         "provenance": provenance or {"localPath": local_path},
         "pages": page_records,
         "factCandidates": fact_candidates,

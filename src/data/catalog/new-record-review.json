@@ -2941,5 +2941,29 @@
     "possibleAliasesReviewed": [],
     "enriched": true,
     "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "window-city:hc-650",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "window-city",
+    "category": "patio-doors",
+    "modelNumber": "HC-650",
+    "sourceUrl": "https://windowcity.com/patio-doors/hc-650-in-swing/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
+  },
+  {
+    "productId": "window-city:wc-500",
+    "decision": "retained-distinct",
+    "reason": "No curated record has the same normalized manufacturer model or product name.",
+    "manufacturer": "window-city",
+    "category": "patio-doors",
+    "modelNumber": "WC-500",
+    "sourceUrl": "https://windowcity.com/patio-doors/wc-500-sliding/",
+    "possibleAliasesReviewed": [],
+    "enriched": true,
+    "editorialStatus": "incomplete"
   }
 ]

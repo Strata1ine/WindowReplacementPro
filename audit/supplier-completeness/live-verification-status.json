@@ -11,12 +11,12 @@
     },
     {
       "supplier": "window-city",
-      "status": "VERIFICATION-PENDING",
-      "websiteStatus": "VERIFICATION-PENDING",
-      "mediaStatus": "VERIFICATION-PENDING",
-      "pdfStatus": "VERIFICATION-PENDING",
-      "basis": "Live website, media, and PDF completeness audit is not yet approved.",
-      "expectedRelevantProducts": null
+      "status": "VERIFIED",
+      "websiteStatus": "VERIFIED",
+      "mediaStatus": "VERIFIED",
+      "pdfStatus": "VERIFIED",
+      "basis": "Live website, canonical product inventory, scoped media relationships, current and historical consumer books, page-level PDF extraction, normalized facts, and representative visuals directly verified 2026-08-20; 25 canonical products, 88 accepted assets, 2 PDFs, 24 PDF pages, and zero uncertain associations.",
+      "expectedRelevantProducts": 25
     },
     {
       "supplier": "masonite",

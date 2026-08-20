@@ -7,7 +7,7 @@ from dataclasses import asdict
 from unittest.mock import patch
 
 from scripts.ingest.cleanup import scan_staging_runs
-from scripts.ingest.pdf_evidence import configured_page_products
+from scripts.ingest.pdf_evidence import configured_document_metadata, configured_page_products
 from scripts.ingest.pdf_ocr import ocr_pdf_pages
 
 from scripts.ingest.crawl import (
@@ -17,6 +17,7 @@ from scripts.ingest.crawl import (
     Page,
     PageParser,
     api_json_products,
+    apply_asset_relationship_rules,
     apply_document_relationship_rules,
     associate_assets,
     attach_available_asset_occurrences,
@@ -42,6 +43,7 @@ from scripts.ingest.crawl import (
     query_requirements_met,
     raw_link_allowed,
     reconcile_asset_tasks,
+    refresh_page_asset_candidates,
     restore_retryable_task_states,
     rewrite_asset_url,
     save_asset_body,
@@ -52,6 +54,19 @@ from scripts.ingest.crawl import (
 
 
 class CrawlerSafetyTests(unittest.TestCase):
+    def test_reviewed_pdf_document_metadata_overrides_inferred_freshness(self):
+        rules = [{
+            'patterns': [r'consumerbook2022.*\.pdf$'],
+            'document_metadata': {
+                'title': 'Window City 2022/2023 Consumer Book',
+                'documentDate': '2022-01-01',
+                'freshnessStatus': 'historical-superseded',
+            },
+        }]
+        metadata = configured_document_metadata(Path('consumerbook2022-hash.pdf'), rules)
+        self.assertEqual(metadata['freshnessStatus'], 'historical-superseded')
+        self.assertEqual(configured_document_metadata(Path('other.pdf'), rules), {})
+
     def test_reviewed_pdf_page_mapping_overrides_generic_name_matching(self):
         rules = [{
             'patterns': [r'system-brochure\.pdf$'],
@@ -179,6 +194,19 @@ class CrawlerSafetyTests(unittest.TestCase):
             ('https://example.com/detail.jpg', 'image', 'product-gallery'),
         ])
 
+    def test_supplier_asset_mapping_attaches_reviewed_shared_configuration(self):
+        url = 'https://example.com/2-panel.svg'
+        asset = Asset('supplier', ['https://example.com/patio/'], url, url, '/images/2-panel.svg', 'image', 'configuration-diagram', 'a' * 64, 100, '2026-08-20T00:00:00Z', source_asset_urls=[url])
+        products = [
+            {'id': 'supplier:a', 'collection': 'Ultra', 'media': [], 'documents': []},
+            {'id': 'supplier:b', 'collection': 'Ultra', 'media': [], 'documents': []},
+        ]
+        apply_asset_relationship_rules({url: asset}, products, [{'patterns': [r'2-panel\.svg$'], 'product_ids': ['supplier:a', 'supplier:b']}])
+        associate_assets({url: asset}, products)
+        self.assertEqual(asset.relationship_state, 'collection-shared')
+        self.assertEqual(asset.product_ids, ['supplier:a', 'supplier:b'])
+        self.assertIn('supplier-scoped-asset-map', asset.relationship_evidence)
+
     def test_supplier_document_mapping_overrides_heuristic_cross_attachment(self):
         path = '/documents/catalog/supplier/current-brochure.pdf'
         asset = Asset('supplier', ['https://example.com/products'], 'https://example.com/current-brochure.pdf', 'https://example.com/current-brochure.pdf', path, 'document', 'brochure', 'hash', 10, 'now')
@@ -230,6 +258,25 @@ class CrawlerSafetyTests(unittest.TestCase):
             normalize('https://example.com/detail/3¼ Casement.png', 'https://example.com/'),
             'https://example.com/detail/3%C2%BC%20Casement.png',
         )
+
+    def test_resume_refresh_preserves_supplier_rejected_document_links(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            snapshot = root / 'snapshot.html'
+            snapshot.write_text(
+                '<a href="https://example.com/accessibility-policy.pdf">Policy</a>'
+                '<a href="https://example.com/product-catalogue.pdf">Catalogue</a>',
+                encoding='utf-8',
+            )
+            page = Page('https://example.com/product/', '', '', '', 'snapshot.html', True, 'windows', [], {})
+            config = {
+                'allowed_domains': ['example.com'],
+                'reject_raw_link_patterns': [r'.*accessibility-policy\.pdf'],
+                'document_role_rules': [{'role': 'catalogue', 'patterns': [r'product-catalogue\.pdf']}],
+            }
+            with patch('scripts.ingest.crawl.ROOT', root):
+                refresh_page_asset_candidates(page, config, {'example.com'})
+            self.assertEqual([item['url'] for item in page.asset_candidates], ['https://example.com/product-catalogue.pdf'])
 
     def test_supplier_page_scope_rejects_other_regional_catalogues(self):
         config = {

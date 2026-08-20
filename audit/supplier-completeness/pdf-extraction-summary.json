@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T04:11:18.479809+00:00",
+  "generatedAt": "2026-08-20T04:47:52.095901+00:00",
   "suppliers": [
     {
       "supplier": "masonite",
@@ -38,6 +38,16 @@
       "characters": 76733,
       "tables": 20,
       "images": 137,
+      "ocrRequired": 0,
+      "errors": 0
+    },
+    {
+      "supplier": "window-city",
+      "documents": 2,
+      "pages": 24,
+      "characters": 36346,
+      "tables": 107,
+      "images": 87,
       "ocrRequired": 0,
       "errors": 0
     }

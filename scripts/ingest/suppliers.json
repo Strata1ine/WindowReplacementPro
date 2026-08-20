@@ -99,15 +99,483 @@
     "name": "Window City",
     "base_url": "https://windowcity.com/",
     "allowed_domains": ["windowcity.com", "www.windowcity.com"],
-    "start_urls": ["https://windowcity.com/"],
-    "product_hints": ["window", "door", "collection", "product"],
-    "product_path_rules": ["^/windows/(?:(?:heritage(?:-maximum)?|classic)-)?(?:hc|wc)-[0-9]+-[a-z0-9-]+/?$"],
-    "model_path_identity": true,
-    "asset_role_rules": [
-      {"role": "hero", "patterns": ["custom_rndrng_fxd_hght"]}
+    "start_urls": [
+      "https://windowcity.com/",
+      "https://windowcity.com/custom-windows-shapes/",
+      "https://windowcity.com/hardware/",
+      "https://windowcity.com/specifications-ratings/",
+      "https://windowcity.com/glass-options/",
+      "https://windowcity.com/grille-options/",
+      "https://windowcity.com/warranty/",
+      "https://windowcity.com/builders-architects/"
     ],
-    "attach_page_roles": ["hero"],
+    "product_hints": ["window", "door", "collection", "product"],
+    "product_path_rules": [
+      "^/windows/(?:(?:heritage(?:-maximum)?|classic)-)?(?:hc|wc)-[0-9]+-[a-z0-9-]+/?$",
+      "^/patio-doors/(?:wc-500-sliding|hc-650-in-swing)/?$"
+    ],
+    "product_identity_rules": [
+      {"path_pattern": "^/windows/wc-250-double-slider/?$", "slug": "wc-250", "name": "WC-250 Double Slider", "modelNumber": "WC-250", "collection": "Classic Collection", "type": "Double Slider"},
+      {"path_pattern": "^/patio-doors/wc-500-sliding/?$", "slug": "wc-500", "name": "WC-500 Ultra Patio Door Sliding", "modelNumber": "WC-500", "collection": "Ultra Patio Door Collection", "type": "Sliding"},
+      {"path_pattern": "^/patio-doors/hc-650-in-swing/?$", "slug": "hc-650", "name": "HC-650 Patio In-Swing Door", "modelNumber": "HC-650", "collection": "Ultra Patio Door Collection", "type": "In-Swing"}
+    ],
+    "model_path_identity": true,
+    "ignore_page_description": true,
+    "prioritize_link_patterns": ["^/windows/.+", "^/patio-doors/(?:wc-500-sliding|hc-650-in-swing)/?$"],
+    "reject_raw_link_patterns": [".*Accessibility-Policy-Sample-on00090e-1\\.pdf(?:\\?.*)?"],
+    "document_role_rules": [
+      {"role": "catalogue", "patterns": ["consumerbook(?:2022|2026)\\.pdf"]}
+    ],
+    "pdf_evidence_rules": [
+        {
+            "patterns":  [
+                             "windowcityconsumerbook2026-.*\\.pdf$"
+                         ],
+            "exclude_pages":  [
+                                  1
+                              ],
+            "document_metadata":  {
+                                      "title":  "Window City 2026 Consumer Book",
+                                      "documentDate":  "2026-01-01",
+                                      "freshnessStatus":  "current-source-linked",
+                                      "freshnessBasis":  "Current 2026 supplier catalogue linked across the live website."
+                                  },
+            "page_product_ids":  {
+                                     "2":  [
+                                               "window-city:hc-101",
+                                               "window-city:hc-126",
+                                               "window-city:hc-151",
+                                               "window-city:hc-176",
+                                               "window-city:hc-401",
+                                               "window-city:hc-426",
+                                               "window-city:hc-451",
+                                               "window-city:hc-476",
+                                               "window-city:hc-650",
+                                               "window-city:wc-100",
+                                               "window-city:wc-125",
+                                               "window-city:wc-150",
+                                               "window-city:wc-175",
+                                               "window-city:wc-200",
+                                               "window-city:wc-201",
+                                               "window-city:wc-250",
+                                               "window-city:wc-251",
+                                               "window-city:wc-300",
+                                               "window-city:wc-325",
+                                               "window-city:wc-350",
+                                               "window-city:wc-400",
+                                               "window-city:wc-425",
+                                               "window-city:wc-450",
+                                               "window-city:wc-475",
+                                               "window-city:wc-500"
+                                           ],
+                                     "3":  [
+                                               "window-city:hc-101",
+                                               "window-city:hc-126",
+                                               "window-city:hc-151",
+                                               "window-city:hc-176",
+                                               "window-city:hc-401",
+                                               "window-city:hc-426",
+                                               "window-city:hc-451",
+                                               "window-city:hc-476",
+                                               "window-city:hc-650",
+                                               "window-city:wc-100",
+                                               "window-city:wc-125",
+                                               "window-city:wc-150",
+                                               "window-city:wc-175",
+                                               "window-city:wc-200",
+                                               "window-city:wc-201",
+                                               "window-city:wc-250",
+                                               "window-city:wc-251",
+                                               "window-city:wc-300",
+                                               "window-city:wc-325",
+                                               "window-city:wc-350",
+                                               "window-city:wc-400",
+                                               "window-city:wc-425",
+                                               "window-city:wc-450",
+                                               "window-city:wc-475",
+                                               "window-city:wc-500"
+                                           ],
+                                     "4":  [
+                                               "window-city:hc-101",
+                                               "window-city:hc-126",
+                                               "window-city:hc-151",
+                                               "window-city:hc-176",
+                                               "window-city:hc-401",
+                                               "window-city:hc-426",
+                                               "window-city:hc-451",
+                                               "window-city:hc-476",
+                                               "window-city:hc-650",
+                                               "window-city:wc-100",
+                                               "window-city:wc-125",
+                                               "window-city:wc-150",
+                                               "window-city:wc-175",
+                                               "window-city:wc-200",
+                                               "window-city:wc-201",
+                                               "window-city:wc-250",
+                                               "window-city:wc-251",
+                                               "window-city:wc-300",
+                                               "window-city:wc-325",
+                                               "window-city:wc-350",
+                                               "window-city:wc-400",
+                                               "window-city:wc-425",
+                                               "window-city:wc-450",
+                                               "window-city:wc-475",
+                                               "window-city:wc-500"
+                                           ],
+                                     "5":  [
+                                               "window-city:hc-101",
+                                               "window-city:hc-126",
+                                               "window-city:hc-151",
+                                               "window-city:hc-176"
+                                           ],
+                                     "6":  [
+                                               "window-city:hc-401",
+                                               "window-city:hc-426",
+                                               "window-city:hc-451",
+                                               "window-city:hc-476"
+                                           ],
+                                     "7":  [
+                                               "window-city:wc-100",
+                                               "window-city:wc-125",
+                                               "window-city:wc-150",
+                                               "window-city:wc-175"
+                                           ],
+                                     "8":  [
+                                               "window-city:wc-400",
+                                               "window-city:wc-425",
+                                               "window-city:wc-450",
+                                               "window-city:wc-475"
+                                           ],
+                                     "9":  [
+                                               "window-city:wc-200",
+                                               "window-city:wc-201",
+                                               "window-city:wc-250",
+                                               "window-city:wc-251",
+                                               "window-city:wc-300",
+                                               "window-city:wc-325",
+                                               "window-city:wc-350"
+                                           ],
+                                     "10":  [
+                                                "window-city:hc-101",
+                                                "window-city:hc-126",
+                                                "window-city:hc-151",
+                                                "window-city:hc-176",
+                                                "window-city:hc-401",
+                                                "window-city:hc-426",
+                                                "window-city:hc-451",
+                                                "window-city:hc-476",
+                                                "window-city:wc-100",
+                                                "window-city:wc-125",
+                                                "window-city:wc-150",
+                                                "window-city:wc-175",
+                                                "window-city:wc-200",
+                                                "window-city:wc-201",
+                                                "window-city:wc-250",
+                                                "window-city:wc-251",
+                                                "window-city:wc-300",
+                                                "window-city:wc-325",
+                                                "window-city:wc-350",
+                                                "window-city:wc-400",
+                                                "window-city:wc-425",
+                                                "window-city:wc-450",
+                                                "window-city:wc-475"
+                                            ],
+                                     "11":  [
+                                                "window-city:wc-500"
+                                            ],
+                                     "12":  [
+                                                "window-city:hc-650"
+                                            ],
+                                     "13":  [
+                                                "window-city:hc-101",
+                                                "window-city:hc-126",
+                                                "window-city:hc-151",
+                                                "window-city:hc-176",
+                                                "window-city:hc-401",
+                                                "window-city:hc-426",
+                                                "window-city:hc-451",
+                                                "window-city:hc-476",
+                                                "window-city:hc-650",
+                                                "window-city:wc-100",
+                                                "window-city:wc-125",
+                                                "window-city:wc-150",
+                                                "window-city:wc-175",
+                                                "window-city:wc-200",
+                                                "window-city:wc-201",
+                                                "window-city:wc-250",
+                                                "window-city:wc-251",
+                                                "window-city:wc-300",
+                                                "window-city:wc-325",
+                                                "window-city:wc-350",
+                                                "window-city:wc-400",
+                                                "window-city:wc-425",
+                                                "window-city:wc-450",
+                                                "window-city:wc-475",
+                                                "window-city:wc-500"
+                                            ]
+                                 }
+        },
+        {
+            "patterns":  [
+                             "consumerbook2022-.*\\.pdf$"
+                         ],
+            "exclude_pages":  [
+                                  1
+                              ],
+            "document_metadata":  {
+                                      "title":  "Window City 2022/2023 Consumer Book",
+                                      "documentDate":  "2022-01-01",
+                                      "freshnessStatus":  "historical-superseded",
+                                      "freshnessBasis":  "Still linked on the builders/architects page but superseded by the current 2026 consumer book."
+                                  },
+            "page_product_ids":  {
+                                     "2":  [
+                                               "window-city:hc-101",
+                                               "window-city:hc-126",
+                                               "window-city:hc-151",
+                                               "window-city:hc-176",
+                                               "window-city:hc-401",
+                                               "window-city:hc-426",
+                                               "window-city:hc-451",
+                                               "window-city:hc-476",
+                                               "window-city:hc-650",
+                                               "window-city:wc-100",
+                                               "window-city:wc-125",
+                                               "window-city:wc-150",
+                                               "window-city:wc-175",
+                                               "window-city:wc-200",
+                                               "window-city:wc-201",
+                                               "window-city:wc-250",
+                                               "window-city:wc-251",
+                                               "window-city:wc-300",
+                                               "window-city:wc-325",
+                                               "window-city:wc-350",
+                                               "window-city:wc-400",
+                                               "window-city:wc-425",
+                                               "window-city:wc-450",
+                                               "window-city:wc-475",
+                                               "window-city:wc-500"
+                                           ],
+                                     "3":  [
+                                               "window-city:hc-101",
+                                               "window-city:hc-126",
+                                               "window-city:hc-151",
+                                               "window-city:hc-176",
+                                               "window-city:hc-401",
+                                               "window-city:hc-426",
+                                               "window-city:hc-451",
+                                               "window-city:hc-476",
+                                               "window-city:wc-100",
+                                               "window-city:wc-125",
+                                               "window-city:wc-150",
+                                               "window-city:wc-175",
+                                               "window-city:wc-200",
+                                               "window-city:wc-201",
+                                               "window-city:wc-250",
+                                               "window-city:wc-251",
+                                               "window-city:wc-300",
+                                               "window-city:wc-325",
+                                               "window-city:wc-350",
+                                               "window-city:wc-400",
+                                               "window-city:wc-425",
+                                               "window-city:wc-450",
+                                               "window-city:wc-475"
+                                           ],
+                                     "4":  [
+                                               "window-city:hc-101",
+                                               "window-city:hc-126",
+                                               "window-city:hc-151",
+                                               "window-city:hc-176"
+                                           ],
+                                     "5":  [
+                                               "window-city:hc-401",
+                                               "window-city:hc-426",
+                                               "window-city:hc-451",
+                                               "window-city:hc-476"
+                                           ],
+                                     "6":  [
+                                               "window-city:wc-100",
+                                               "window-city:wc-125",
+                                               "window-city:wc-150",
+                                               "window-city:wc-175"
+                                           ],
+                                     "7":  [
+                                               "window-city:wc-400",
+                                               "window-city:wc-425",
+                                               "window-city:wc-450",
+                                               "window-city:wc-475",
+                                               "window-city:wc-200",
+                                               "window-city:wc-201",
+                                               "window-city:wc-250",
+                                               "window-city:wc-251",
+                                               "window-city:wc-300",
+                                               "window-city:wc-325",
+                                               "window-city:wc-350"
+                                           ],
+                                     "8":  [
+                                               "window-city:hc-101",
+                                               "window-city:hc-126",
+                                               "window-city:hc-151",
+                                               "window-city:hc-176",
+                                               "window-city:hc-401",
+                                               "window-city:hc-426",
+                                               "window-city:hc-451",
+                                               "window-city:hc-476",
+                                               "window-city:wc-100",
+                                               "window-city:wc-125",
+                                               "window-city:wc-150",
+                                               "window-city:wc-175",
+                                               "window-city:wc-200",
+                                               "window-city:wc-201",
+                                               "window-city:wc-250",
+                                               "window-city:wc-251",
+                                               "window-city:wc-300",
+                                               "window-city:wc-325",
+                                               "window-city:wc-350",
+                                               "window-city:wc-400",
+                                               "window-city:wc-425",
+                                               "window-city:wc-450",
+                                               "window-city:wc-475"
+                                           ],
+                                     "9":  [
+                                               "window-city:wc-500"
+                                           ],
+                                     "10":  [
+                                                "window-city:hc-650"
+                                            ],
+                                     "11":  [
+                                                "window-city:hc-101",
+                                                "window-city:hc-126",
+                                                "window-city:hc-151",
+                                                "window-city:hc-176",
+                                                "window-city:hc-401",
+                                                "window-city:hc-426",
+                                                "window-city:hc-451",
+                                                "window-city:hc-476",
+                                                "window-city:hc-650",
+                                                "window-city:wc-100",
+                                                "window-city:wc-125",
+                                                "window-city:wc-150",
+                                                "window-city:wc-175",
+                                                "window-city:wc-200",
+                                                "window-city:wc-201",
+                                                "window-city:wc-250",
+                                                "window-city:wc-251",
+                                                "window-city:wc-300",
+                                                "window-city:wc-325",
+                                                "window-city:wc-350",
+                                                "window-city:wc-400",
+                                                "window-city:wc-425",
+                                                "window-city:wc-450",
+                                                "window-city:wc-475",
+                                                "window-city:wc-500"
+                                            ]
+                                 }
+        }
+    ],
+    "asset_product_rules": [
+        {
+            "patterns":  [
+                             "/hc-176\\.png(?:\\?|$)"
+                         ],
+            "product_ids":  [
+                                "window-city:hc-176"
+                            ]
+        },
+        {
+            "patterns":  [
+                             "/hc-401\\.png(?:\\?|$)"
+                         ],
+            "product_ids":  [
+                                "window-city:hc-401"
+                            ]
+        },
+        {
+            "patterns":  [
+                             "/wc-400\\.png(?:\\?|$)"
+                         ],
+            "product_ids":  [
+                                "window-city:wc-400"
+                            ]
+        },
+        {
+            "patterns":  [
+                             "/hc-151\\.png(?:\\?|$)"
+                         ],
+            "product_ids":  [
+                                "window-city:hc-151"
+                            ]
+        },
+        {
+            "patterns":  [
+                             "/hc-476\\.png(?:\\?|$)"
+                         ],
+            "product_ids":  [
+                                "window-city:hc-476"
+                            ]
+        },
+        {
+            "patterns":  [
+                             "/wc-175\\.png(?:\\?|$)"
+                         ],
+            "product_ids":  [
+                                "window-city:wc-175"
+                            ]
+        },
+        {
+            "patterns":  [
+                             "/hc-451\\.png(?:\\?|$)"
+                         ],
+            "product_ids":  [
+                                "window-city:hc-451"
+                            ]
+        },
+        {
+            "patterns":  [
+                             "/wc-475\\.png(?:\\?|$)"
+                         ],
+            "product_ids":  [
+                                "window-city:wc-475"
+                            ]
+        },
+        {
+            "patterns":  [
+                             "/wc-150\\.png(?:\\?|$)"
+                         ],
+            "product_ids":  [
+                                "window-city:wc-150"
+                            ]
+        },
+        {
+            "patterns":  [
+                             "/wc-450\\.png(?:\\?|$)"
+                         ],
+            "product_ids":  [
+                                "window-city:wc-450"
+                            ]
+        },
+        {
+            "patterns":  [
+                             "/(?:2-panel|4-panel|custom-sidelites|2-panel-transom|4-panel-transom|custom-sidelite-transom)\\.svg(?:\\?|$)"
+                         ],
+            "product_ids":  [
+                                "window-city:hc-650",
+                                "window-city:wc-500"
+                            ]
+        }
+    ],
+    "asset_role_rules": [
+      {"role": "product-hero", "patterns": ["\\bbackimg\\b"]},
+      {"role": "profile-section", "patterns": ["/V2_(?:Heritage|Classic).*SideView-(?:HC|WC)[-_]?\\d+.*\\.png(?:\\?|$)", "/(?:Heritage|Classic)(?:-Max)?-Collection-(?:HC|WC)[-_]?\\d+.*\\.png(?:\\?|$)", "/(?:HC|WC)[-_]?\\d+(?:[-_](?:C|S|C0000).*)?\\.png(?:\\?|$)"]},
+      {"role": "product-gallery", "patterns": ["\\bactive\\s+custom_rndrng_fxd_hght\\b"]},
+      {"role": "finish-swatch", "patterns": ["(?:DeepRoyalBlue|SandyWhite|BarrenPlain|tawny-rose|classic-burgandy|fiddlehead-green|peale-green|dark-beige|normandy|stone-harbour)"]},
+      {"role": "configuration-diagram", "patterns": ["/(?:2-panel|4-panel|custom-sidelites|2-panel-transom|4-panel-transom|custom-sidelite-transom)\\.svg(?:\\?|$)", "(?:custom|window)[-_ ]?(?:shape|configuration)"]},
+      {"role": "hardware", "patterns": ["(?:hardware|handle|lock|roller)"]},
+      {"role": "glass-design", "patterns": ["(?:glass-option|glass-design|doorglass|door-glass)"]}
+    ],
+    "attach_page_roles": ["product-hero", "product-gallery", "profile-section"],
     "skip_asset_extensions": [".gif"],
+    "archive_shared_roles": ["profile-section", "technical-drawing", "configuration-diagram", "finish-swatch", "glass-design", "hardware"],
     "category_rules": [
       {"patterns": ["patio[- /]?door", "sliding[- /]?door"], "category": "patio-doors"},
       {"patterns": ["entry[- /]?door", "front[- /]?door", "fiberglass", "steel[- /]?door"], "category": "entry-doors"},

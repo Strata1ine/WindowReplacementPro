@@ -1,13 +1,13 @@
 # Supplier completeness audit
 
-Generated: 2026-08-20T04:20:44.581897+00:00
+Generated: 2026-08-20T05:02:39.884401+00:00
 
 ## Supplier summary
 
 | Supplier | Canonical | Image-linked | Accepted images | Accepted PDFs | Review binaries | Orphans | Website | Media | PDF |
 |---|---:|---:|---:|---:|---:|---:|---|---|---|
 | vinyl-pro | 16 | 16 | 94 | 3 | 0 | 0 | VERIFIED | VERIFIED | VERIFIED |
-| window-city | 23 | 10 | 10 | 2 | 0 | 0 | VERIFICATION-PENDING | VERIFICATION-PENDING | VERIFICATION-PENDING |
+| window-city | 25 | 25 | 86 | 2 | 0 | 0 | VERIFIED | VERIFIED | VERIFIED |
 | masonite | 29 | 29 | 28 | 19 | 0 | 0 | VERIFIED | VERIFIED | VERIFIED |
 | trimlite | 175 | 163 | 211 | 3 | 37 | 0 | VERIFIED | VERIFIED | VERIFIED |
 | novatech | 91 | 91 | 865 | 30 | 0 | 0 | VERIFIED | VERIFIED | VERIFIED-WITH-16-PAGE-EVIDENCE-GAPS |
@@ -27,9 +27,9 @@ Completeness states: source-complete=16.
 
 ### Window City
 
-Website: **VERIFICATION-PENDING**. Media: **VERIFICATION-PENDING**. PDF: **VERIFICATION-PENDING**. Canonical supplier products: **23**. Merged catalogue records: **23**. Accepted assets: **10 images / 2 PDFs**. Review binaries preserved: **0**. Product associations: **10 image / 0 document**.
+Website: **VERIFIED**. Media: **VERIFIED**. PDF: **VERIFIED**. Canonical supplier products: **25**. Merged catalogue records: **25**. Accepted assets: **86 images / 2 PDFs**. Review binaries preserved: **0**. Product associations: **25 image / 25 document**.
 
-Completeness states: verification-pending=23.
+Completeness states: source-complete=25.
 
 ### Masonite
 

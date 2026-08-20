@@ -1,419 +1,61 @@
 [
   {
-    "id": "window-city:hc-101",
+    "id": "window-city:hc-650",
     "manufacturer": "window-city",
-    "slug": "hc-101",
-    "name": "HC-101 Casement",
-    "category": "windows",
-    "collection": "Heritage Collection",
-    "modelNumber": "HC-101",
-    "type": "Casement",
+    "slug": "hc-650",
+    "name": "HC-650 Patio In-Swing Door",
+    "category": "patio-doors",
+    "collection": "Ultra Patio Door Collection",
+    "modelNumber": "HC-650",
+    "type": "In-Swing",
     "summary": null,
-    "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
-    "sourceUrl": "https://windowcity.com/windows/heritage-hc-101-casement/",
-    "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
-    "specifications": {},
-    "lastVerified": "2026-08-19"
-  },
-  {
-    "id": "window-city:hc-176",
-    "manufacturer": "window-city",
-    "slug": "hc-176",
-    "name": "HC-176 Casement Fixed",
-    "category": "windows",
-    "collection": "Heritage Collection",
-    "modelNumber": "HC-176",
-    "type": "Casement Fixed",
-    "summary": null,
-    "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
-    "sourceUrl": "https://windowcity.com/windows/heritage-hc-176-casement-fixed/",
+    "sourceDescription": null,
+    "sourceUrl": "https://windowcity.com/patio-doors/hc-650-in-swing/",
     "sourceType": "live-crawl",
     "media": [
-      "/images/catalog/window-city/v2-heritage-collection-sideview-hc176-1-6b9d9fb55206.png"
+      "/images/catalog/window-city/2-panel-95cf058c0e2b.svg",
+      "/images/catalog/window-city/2-panel-transom-95c587d0bc8a.svg",
+      "/images/catalog/window-city/4-panel-8791b69bab7b.svg",
+      "/images/catalog/window-city/4-panel-transom-88331fefc39f.svg",
+      "/images/catalog/window-city/custom-sidelite-transom-b36b51785f0f.svg",
+      "/images/catalog/window-city/custom-sidelites-07dd0b2b5590.svg",
+      "/images/catalog/window-city/hc650-c-1-1-10944fe657c4.png",
+      "/images/catalog/window-city/swingpatiodoorbanner-scaled-b92d85164bbc.jpg"
     ],
-    "documents": [],
+    "documents": [
+      "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+    ],
     "specifications": {},
-    "lastVerified": "2026-08-19"
+    "lastVerified": "2026-08-20"
   },
   {
-    "id": "window-city:hc-126",
+    "id": "window-city:wc-500",
     "manufacturer": "window-city",
-    "slug": "hc-126",
-    "name": "HC-126 Awning",
-    "category": "windows",
-    "collection": "Heritage Collection",
-    "modelNumber": "HC-126",
-    "type": "Awning",
+    "slug": "wc-500",
+    "name": "WC-500 Ultra Patio Door Sliding",
+    "category": "patio-doors",
+    "collection": "Ultra Patio Door Collection",
+    "modelNumber": "WC-500",
+    "type": "Sliding",
     "summary": null,
-    "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
-    "sourceUrl": "https://windowcity.com/windows/heritage-hc-126-awning/",
-    "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
-    "specifications": {},
-    "lastVerified": "2026-08-19"
-  },
-  {
-    "id": "window-city:hc-151",
-    "manufacturer": "window-city",
-    "slug": "hc-151",
-    "name": "HC-151 Slim Fixed",
-    "category": "windows",
-    "collection": "Heritage Collection",
-    "modelNumber": "HC-151",
-    "type": "Slim Fixed",
-    "summary": null,
-    "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
-    "sourceUrl": "https://windowcity.com/windows/heritage-hc-151-slim-fixed/",
+    "sourceDescription": null,
+    "sourceUrl": "https://windowcity.com/patio-doors/wc-500-sliding/",
     "sourceType": "live-crawl",
     "media": [
-      "/images/catalog/window-city/v2-heritage-collection-sideview-hc151-1-a2bb4facc908.png"
+      "/images/catalog/window-city/2-panel-95cf058c0e2b.svg",
+      "/images/catalog/window-city/2-panel-transom-95c587d0bc8a.svg",
+      "/images/catalog/window-city/4-panel-8791b69bab7b.svg",
+      "/images/catalog/window-city/4-panel-transom-88331fefc39f.svg",
+      "/images/catalog/window-city/custom-sidelite-transom-b36b51785f0f.svg",
+      "/images/catalog/window-city/custom-sidelites-07dd0b2b5590.svg",
+      "/images/catalog/window-city/patiodoor-43905ab8f9cb.jpeg",
+      "/images/catalog/window-city/wc500-c-dacde5478d17.png"
     ],
-    "documents": [],
-    "specifications": {},
-    "lastVerified": "2026-08-19"
-  },
-  {
-    "id": "window-city:hc-401",
-    "manufacturer": "window-city",
-    "slug": "hc-401",
-    "name": "HC-401 Casement",
-    "category": "windows",
-    "collection": "Heritage Maximum Collection",
-    "modelNumber": "HC-401",
-    "type": "Casement",
-    "summary": null,
-    "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
-    "sourceUrl": "https://windowcity.com/windows/heritage-maximum-hc-401-casement/",
-    "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
-    "specifications": {},
-    "lastVerified": "2026-08-19"
-  },
-  {
-    "id": "window-city:hc-476",
-    "manufacturer": "window-city",
-    "slug": "hc-476",
-    "name": "HC-476 Casement Fixed",
-    "category": "windows",
-    "collection": "Heritage Maximum Collection",
-    "modelNumber": "HC-476",
-    "type": "Casement Fixed",
-    "summary": null,
-    "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
-    "sourceUrl": "https://windowcity.com/windows/heritage-maximum-hc-476-casement-fixed/",
-    "sourceType": "live-crawl",
-    "media": [
-      "/images/catalog/window-city/v2-heritage-max-collection-sideview-hc476-1-96760426200c.png"
+    "documents": [
+      "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
     ],
-    "documents": [],
     "specifications": {},
-    "lastVerified": "2026-08-19"
-  },
-  {
-    "id": "window-city:hc-426",
-    "manufacturer": "window-city",
-    "slug": "hc-426",
-    "name": "HC-426 Awning",
-    "category": "windows",
-    "collection": "Heritage Maximum Collection",
-    "modelNumber": "HC-426",
-    "type": "Awning",
-    "summary": null,
-    "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
-    "sourceUrl": "https://windowcity.com/windows/heritage-maximum-hc-426-awning/",
-    "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
-    "specifications": {},
-    "lastVerified": "2026-08-19"
-  },
-  {
-    "id": "window-city:hc-451",
-    "manufacturer": "window-city",
-    "slug": "hc-451",
-    "name": "HC-451 Slim Fixed",
-    "category": "windows",
-    "collection": "Heritage Maximum Collection",
-    "modelNumber": "HC-451",
-    "type": "Slim Fixed",
-    "summary": null,
-    "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
-    "sourceUrl": "https://windowcity.com/windows/heritage-maximum-hc-451-slim-fixed/",
-    "sourceType": "live-crawl",
-    "media": [
-      "/images/catalog/window-city/v2-heritage-max-collection-sideview-hc451-1-e4b5515b90d2.png"
-    ],
-    "documents": [],
-    "specifications": {},
-    "lastVerified": "2026-08-19"
-  },
-  {
-    "id": "window-city:wc-100",
-    "manufacturer": "window-city",
-    "slug": "wc-100",
-    "name": "WC-100 Casement",
-    "category": "windows",
-    "collection": "Classic Collection",
-    "modelNumber": "WC-100",
-    "type": "Casement",
-    "summary": null,
-    "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
-    "sourceUrl": "https://windowcity.com/windows/classic-wc-100-casement/",
-    "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
-    "specifications": {},
-    "lastVerified": "2026-08-19"
-  },
-  {
-    "id": "window-city:wc-400",
-    "manufacturer": "window-city",
-    "slug": "wc-400",
-    "name": "WC-400 Casement",
-    "category": "windows",
-    "collection": "Classic Collection",
-    "modelNumber": "WC-400",
-    "type": "Casement",
-    "summary": null,
-    "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
-    "sourceUrl": "https://windowcity.com/windows/classic-wc-400-casement/",
-    "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
-    "specifications": {},
-    "lastVerified": "2026-08-19"
-  },
-  {
-    "id": "window-city:wc-175",
-    "manufacturer": "window-city",
-    "slug": "wc-175",
-    "name": "WC-175 Casement Fixed",
-    "category": "windows",
-    "collection": "Classic Collection",
-    "modelNumber": "WC-175",
-    "type": "Casement Fixed",
-    "summary": null,
-    "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
-    "sourceUrl": "https://windowcity.com/windows/classic-wc-175-casement-fixed/",
-    "sourceType": "live-crawl",
-    "media": [
-      "/images/catalog/window-city/v2-classic-collection-sideview-wc175-2-f5335f821374.png"
-    ],
-    "documents": [],
-    "specifications": {},
-    "lastVerified": "2026-08-19"
-  },
-  {
-    "id": "window-city:wc-475",
-    "manufacturer": "window-city",
-    "slug": "wc-475",
-    "name": "WC-475 Casement Fixed",
-    "category": "windows",
-    "collection": "Classic Collection",
-    "modelNumber": "WC-475",
-    "type": "Casement Fixed",
-    "summary": null,
-    "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
-    "sourceUrl": "https://windowcity.com/windows/classic-wc-475-casement-fixed/",
-    "sourceType": "live-crawl",
-    "media": [
-      "/images/catalog/window-city/v2-classic-collection-sideview-wc475-e1bbd48723a4.png"
-    ],
-    "documents": [],
-    "specifications": {},
-    "lastVerified": "2026-08-19"
-  },
-  {
-    "id": "window-city:wc-125",
-    "manufacturer": "window-city",
-    "slug": "wc-125",
-    "name": "WC-125 Awning",
-    "category": "windows",
-    "collection": "Classic Collection",
-    "modelNumber": "WC-125",
-    "type": "Awning",
-    "summary": null,
-    "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
-    "sourceUrl": "https://windowcity.com/windows/classic-wc-125-awning/",
-    "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
-    "specifications": {},
-    "lastVerified": "2026-08-19"
-  },
-  {
-    "id": "window-city:wc-425",
-    "manufacturer": "window-city",
-    "slug": "wc-425",
-    "name": "WC-425 Awning",
-    "category": "windows",
-    "collection": "Classic Collection",
-    "modelNumber": "WC-425",
-    "type": "Awning",
-    "summary": null,
-    "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
-    "sourceUrl": "https://windowcity.com/windows/classic-wc-425-awning/",
-    "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
-    "specifications": {},
-    "lastVerified": "2026-08-19"
-  },
-  {
-    "id": "window-city:wc-150",
-    "manufacturer": "window-city",
-    "slug": "wc-150",
-    "name": "WC-150 Slim Fixed",
-    "category": "windows",
-    "collection": "Classic Collection",
-    "modelNumber": "WC-150",
-    "type": "Slim Fixed",
-    "summary": null,
-    "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
-    "sourceUrl": "https://windowcity.com/windows/classic-wc-150-slim-fixed/",
-    "sourceType": "live-crawl",
-    "media": [
-      "/images/catalog/window-city/v2-classic-collection-sideview-wc150-1-5c7e9acb7084.png"
-    ],
-    "documents": [],
-    "specifications": {},
-    "lastVerified": "2026-08-19"
-  },
-  {
-    "id": "window-city:wc-450",
-    "manufacturer": "window-city",
-    "slug": "wc-450",
-    "name": "WC-450 Slim Fixed",
-    "category": "windows",
-    "collection": "Classic Collection",
-    "modelNumber": "WC-450",
-    "type": "Slim Fixed",
-    "summary": null,
-    "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
-    "sourceUrl": "https://windowcity.com/windows/classic-wc-450-slim-fixed/",
-    "sourceType": "live-crawl",
-    "media": [
-      "/images/catalog/window-city/v2-classic-collection-sideview-wc450-1-6aa07f77cf9a.png"
-    ],
-    "documents": [],
-    "specifications": {},
-    "lastVerified": "2026-08-19"
-  },
-  {
-    "id": "window-city:wc-200",
-    "manufacturer": "window-city",
-    "slug": "wc-200",
-    "name": "WC-200 Single Slider",
-    "category": "windows",
-    "collection": "Classic Collection",
-    "modelNumber": "WC-200",
-    "type": "Single Slider",
-    "summary": null,
-    "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
-    "sourceUrl": "https://windowcity.com/windows/classic-wc-200-single-slider/",
-    "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
-    "specifications": {},
-    "lastVerified": "2026-08-19"
-  },
-  {
-    "id": "window-city:wc-300",
-    "manufacturer": "window-city",
-    "slug": "wc-300",
-    "name": "WC-300 Single Slider",
-    "category": "windows",
-    "collection": "Classic Collection",
-    "modelNumber": "WC-300",
-    "type": "Single Slider",
-    "summary": null,
-    "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
-    "sourceUrl": "https://windowcity.com/windows/classic-wc-300-single-slider/",
-    "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
-    "specifications": {},
-    "lastVerified": "2026-08-19"
-  },
-  {
-    "id": "window-city:wc-325",
-    "manufacturer": "window-city",
-    "slug": "wc-325",
-    "name": "WC-325 Single Slider",
-    "category": "windows",
-    "collection": "Classic Collection",
-    "modelNumber": "WC-325",
-    "type": "Single Slider",
-    "summary": null,
-    "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
-    "sourceUrl": "https://windowcity.com/windows/classic-wc-325-single-slider/",
-    "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
-    "specifications": {},
-    "lastVerified": "2026-08-19"
-  },
-  {
-    "id": "window-city:wc-250",
-    "manufacturer": "window-city",
-    "slug": "wc-250",
-    "name": "WC-250 Double Slider",
-    "category": "windows",
-    "collection": null,
-    "modelNumber": "WC-250",
-    "type": "Double Slider",
-    "summary": null,
-    "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
-    "sourceUrl": "https://windowcity.com/windows/wc-250-double-slider/",
-    "sourceType": "live-crawl",
-    "media": [
-      "/images/catalog/window-city/wc250-s-2-abe9758d0b14.png"
-    ],
-    "documents": [],
-    "specifications": {},
-    "lastVerified": "2026-08-19"
-  },
-  {
-    "id": "window-city:wc-350",
-    "manufacturer": "window-city",
-    "slug": "wc-350",
-    "name": "WC-350 Double Slider",
-    "category": "windows",
-    "collection": "Classic Collection",
-    "modelNumber": "WC-350",
-    "type": "Double Slider",
-    "summary": null,
-    "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
-    "sourceUrl": "https://windowcity.com/windows/classic-wc-350-double-slider/",
-    "sourceType": "live-crawl",
-    "media": [
-      "/images/catalog/window-city/wc350-s-1-14f76d650ef6.png"
-    ],
-    "documents": [],
-    "specifications": {},
-    "lastVerified": "2026-08-19"
-  },
-  {
-    "id": "window-city:wc-201",
-    "manufacturer": "window-city",
-    "slug": "wc-201",
-    "name": "WC-201 Hung",
-    "category": "windows",
-    "collection": "Classic Collection",
-    "modelNumber": "WC-201",
-    "type": "Hung",
-    "summary": null,
-    "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
-    "sourceUrl": "https://windowcity.com/windows/classic-wc-201-hung/",
-    "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
-    "specifications": {},
-    "lastVerified": "2026-08-19"
+    "lastVerified": "2026-08-20"
   },
   {
     "id": "window-city:wc-251",
@@ -425,12 +67,540 @@
     "modelNumber": "WC-251",
     "type": "Hung",
     "summary": null,
-    "sourceDescription": "Canada’s largest window and door manufacturer with a 400,000 sq. ft. facility. Our unbeatable warranties and custom-made vinyl windows ensure quality without compromise.",
+    "sourceDescription": null,
     "sourceUrl": "https://windowcity.com/windows/classic-wc-251-hung/",
     "sourceType": "live-crawl",
-    "media": [],
-    "documents": [],
+    "media": [
+      "/images/catalog/window-city/wc-251-double-hung-ca5ab5dbea5a.jpg",
+      "/images/catalog/window-city/wc251-c-7f7eeca37433.png"
+    ],
+    "documents": [
+      "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+    ],
     "specifications": {},
-    "lastVerified": "2026-08-19"
+    "lastVerified": "2026-08-20"
+  },
+  {
+    "id": "window-city:wc-201",
+    "manufacturer": "window-city",
+    "slug": "wc-201",
+    "name": "WC-201 Hung",
+    "category": "windows",
+    "collection": "Classic Collection",
+    "modelNumber": "WC-201",
+    "type": "Hung",
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://windowcity.com/windows/classic-wc-201-hung/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/window-city/wc-201-single-hung-54bc99d0a77a.jpg",
+      "/images/catalog/window-city/wc201-c-2-e25db2f76cdf.png"
+    ],
+    "documents": [
+      "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-20"
+  },
+  {
+    "id": "window-city:wc-350",
+    "manufacturer": "window-city",
+    "slug": "wc-350",
+    "name": "WC-350 Double Slider",
+    "category": "windows",
+    "collection": "Classic Collection",
+    "modelNumber": "WC-350",
+    "type": "Double Slider",
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://windowcity.com/windows/classic-wc-350-double-slider/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/window-city/wc-350-updated-apr23-scaled-1408f1669b63.jpg",
+      "/images/catalog/window-city/wc350-c-1-1-1b887271ab05.png",
+      "/images/catalog/window-city/wc350-s-1-14f76d650ef6.png"
+    ],
+    "documents": [
+      "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-20"
+  },
+  {
+    "id": "window-city:wc-250",
+    "manufacturer": "window-city",
+    "slug": "wc-250",
+    "name": "WC-250 Double Slider",
+    "category": "windows",
+    "collection": "Classic Collection",
+    "modelNumber": "WC-250",
+    "type": "Double Slider",
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://windowcity.com/windows/wc-250-double-slider/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/window-city/wc-250-double-slider-tilt-scaled-4cf03df0b6c9.jpg",
+      "/images/catalog/window-city/wc250-c-1-4fd5890d2028.png",
+      "/images/catalog/window-city/wc250-s-2-abe9758d0b14.png"
+    ],
+    "documents": [
+      "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-20"
+  },
+  {
+    "id": "window-city:wc-325",
+    "manufacturer": "window-city",
+    "slug": "wc-325",
+    "name": "WC-325 Single Slider",
+    "category": "windows",
+    "collection": "Classic Collection",
+    "modelNumber": "WC-325",
+    "type": "Single Slider",
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://windowcity.com/windows/classic-wc-325-single-slider/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/window-city/wc-325-single-slider-lift-updated-scaled-c1f8a95995ee.jpg",
+      "/images/catalog/window-city/wc325-c-1-1-c8bdb53bdcba.png"
+    ],
+    "documents": [
+      "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-20"
+  },
+  {
+    "id": "window-city:wc-300",
+    "manufacturer": "window-city",
+    "slug": "wc-300",
+    "name": "WC-300 Single Slider",
+    "category": "windows",
+    "collection": "Classic Collection",
+    "modelNumber": "WC-300",
+    "type": "Single Slider",
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://windowcity.com/windows/classic-wc-300-single-slider/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/window-city/wc-300-updatd-scaled-1-7edfb168f8c7.jpg"
+    ],
+    "documents": [
+      "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-20"
+  },
+  {
+    "id": "window-city:wc-200",
+    "manufacturer": "window-city",
+    "slug": "wc-200",
+    "name": "WC-200 Single Slider",
+    "category": "windows",
+    "collection": "Classic Collection",
+    "modelNumber": "WC-200",
+    "type": "Single Slider",
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://windowcity.com/windows/classic-wc-200-single-slider/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/window-city/wc-200-editupdated-0f4c21c42721.jpg"
+    ],
+    "documents": [
+      "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-20"
+  },
+  {
+    "id": "window-city:wc-450",
+    "manufacturer": "window-city",
+    "slug": "wc-450",
+    "name": "WC-450 Slim Fixed",
+    "category": "windows",
+    "collection": "Classic Collection",
+    "modelNumber": "WC-450",
+    "type": "Slim Fixed",
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://windowcity.com/windows/classic-wc-450-slim-fixed/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/window-city/classic-collection-wc450-80e4f34f649a.png",
+      "/images/catalog/window-city/v2-classic-collection-sideview-wc450-1-6aa07f77cf9a.png",
+      "/images/catalog/window-city/wc-450-dfa049dd4e97.png",
+      "/images/catalog/window-city/wc-450-slim-fixed-updated-apr23-scaled-459be8ccff19.jpg"
+    ],
+    "documents": [
+      "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-20"
+  },
+  {
+    "id": "window-city:wc-150",
+    "manufacturer": "window-city",
+    "slug": "wc-150",
+    "name": "WC-150 Slim Fixed",
+    "category": "windows",
+    "collection": "Classic Collection",
+    "modelNumber": "WC-150",
+    "type": "Slim Fixed",
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://windowcity.com/windows/classic-wc-150-slim-fixed/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/window-city/classic-collection-wc150-1-c7748775adea.png",
+      "/images/catalog/window-city/v2-classic-collection-sideview-wc150-1-5c7e9acb7084.png",
+      "/images/catalog/window-city/wc-150-73593f1a0fdb.png",
+      "/images/catalog/window-city/wc-150-slim-fixed-scaled-0c95e87f1c60.jpg"
+    ],
+    "documents": [
+      "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-20"
+  },
+  {
+    "id": "window-city:wc-425",
+    "manufacturer": "window-city",
+    "slug": "wc-425",
+    "name": "WC-425 Awning",
+    "category": "windows",
+    "collection": "Classic Collection",
+    "modelNumber": "WC-425",
+    "type": "Awning",
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://windowcity.com/windows/classic-wc-425-awning/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/window-city/wc-425-updated-apr23-b828623c254c.jpg",
+      "/images/catalog/window-city/wc425-c0000-2-35ea7220ed72.png"
+    ],
+    "documents": [
+      "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-20"
+  },
+  {
+    "id": "window-city:wc-125",
+    "manufacturer": "window-city",
+    "slug": "wc-125",
+    "name": "WC-125 Awning",
+    "category": "windows",
+    "collection": "Classic Collection",
+    "modelNumber": "WC-125",
+    "type": "Awning",
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://windowcity.com/windows/classic-wc-125-awning/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/window-city/wc-125-awning-scaled-1-2435b7e2625b.jpg",
+      "/images/catalog/window-city/wc125-c-1-59968c0bdfde.png"
+    ],
+    "documents": [
+      "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-20"
+  },
+  {
+    "id": "window-city:wc-475",
+    "manufacturer": "window-city",
+    "slug": "wc-475",
+    "name": "WC-475 Casement Fixed",
+    "category": "windows",
+    "collection": "Classic Collection",
+    "modelNumber": "WC-475",
+    "type": "Casement Fixed",
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://windowcity.com/windows/classic-wc-475-casement-fixed/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/window-city/475-casement-fixed-scaled-46d82d66d9dc.jpg",
+      "/images/catalog/window-city/classic-collection-wc475-a32789c77e4f.png",
+      "/images/catalog/window-city/v2-classic-collection-sideview-wc475-e1bbd48723a4.png",
+      "/images/catalog/window-city/wc-475-8c0d8663cb07.png"
+    ],
+    "documents": [
+      "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-20"
+  },
+  {
+    "id": "window-city:wc-175",
+    "manufacturer": "window-city",
+    "slug": "wc-175",
+    "name": "WC-175 Casement Fixed",
+    "category": "windows",
+    "collection": "Classic Collection",
+    "modelNumber": "WC-175",
+    "type": "Casement Fixed",
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://windowcity.com/windows/classic-wc-175-casement-fixed/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/window-city/classic-collection-wc175-1-6f1717f4c3f2.png",
+      "/images/catalog/window-city/v2-classic-collection-sideview-wc175-2-f5335f821374.png",
+      "/images/catalog/window-city/wc-175-da83d28ccf79.png",
+      "/images/catalog/window-city/wc-175-updated-scaled-1e47bbae39ea.jpg"
+    ],
+    "documents": [
+      "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-20"
+  },
+  {
+    "id": "window-city:wc-400",
+    "manufacturer": "window-city",
+    "slug": "wc-400",
+    "name": "WC-400 Casement",
+    "category": "windows",
+    "collection": "Classic Collection",
+    "modelNumber": "WC-400",
+    "type": "Casement",
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://windowcity.com/windows/classic-wc-400-casement/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/window-city/classic-collection-wc400-1-dad915fd1c55.png",
+      "/images/catalog/window-city/wc-400-casement-3370daadb284.jpg",
+      "/images/catalog/window-city/wc-400-db728fe700b5.png"
+    ],
+    "documents": [
+      "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-20"
+  },
+  {
+    "id": "window-city:wc-100",
+    "manufacturer": "window-city",
+    "slug": "wc-100",
+    "name": "WC-100 Casement",
+    "category": "windows",
+    "collection": "Classic Collection",
+    "modelNumber": "WC-100",
+    "type": "Casement",
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://windowcity.com/windows/classic-wc-100-casement/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/window-city/wc-100-casement-scaled-515202265b3c.jpg"
+    ],
+    "documents": [
+      "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-20"
+  },
+  {
+    "id": "window-city:hc-451",
+    "manufacturer": "window-city",
+    "slug": "hc-451",
+    "name": "HC-451 Slim Fixed",
+    "category": "windows",
+    "collection": "Heritage Maximum Collection",
+    "modelNumber": "HC-451",
+    "type": "Slim Fixed",
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://windowcity.com/windows/heritage-maximum-hc-451-slim-fixed/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/window-city/hc-451-8f3aecf74922.png",
+      "/images/catalog/window-city/hc-451-slim-fixed-updated-scaled-f1f07e6c835a.jpg",
+      "/images/catalog/window-city/heritage-collection-hc151-3c4a07a827bf.png",
+      "/images/catalog/window-city/v2-heritage-max-collection-sideview-hc451-1-e4b5515b90d2.png"
+    ],
+    "documents": [
+      "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-20"
+  },
+  {
+    "id": "window-city:hc-426",
+    "manufacturer": "window-city",
+    "slug": "hc-426",
+    "name": "HC-426 Awning",
+    "category": "windows",
+    "collection": "Heritage Maximum Collection",
+    "modelNumber": "HC-426",
+    "type": "Awning",
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://windowcity.com/windows/heritage-maximum-hc-426-awning/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/window-city/hc-426-awning-scaled-265e8c945a3a.jpg",
+      "/images/catalog/window-city/hc426-c0000-1-a5ba83eaf327.png"
+    ],
+    "documents": [
+      "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-20"
+  },
+  {
+    "id": "window-city:hc-476",
+    "manufacturer": "window-city",
+    "slug": "hc-476",
+    "name": "HC-476 Casement Fixed",
+    "category": "windows",
+    "collection": "Heritage Maximum Collection",
+    "modelNumber": "HC-476",
+    "type": "Casement Fixed",
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://windowcity.com/windows/heritage-maximum-hc-476-casement-fixed/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/window-city/hc-476-c238d71a0b04.png",
+      "/images/catalog/window-city/hc-476-casement-fixed-scaled-4c3de7d28918.jpg",
+      "/images/catalog/window-city/heritage-max-collection-hc476-1b6b2cf32b8f.png",
+      "/images/catalog/window-city/v2-heritage-max-collection-sideview-hc476-1-96760426200c.png"
+    ],
+    "documents": [
+      "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-20"
+  },
+  {
+    "id": "window-city:hc-401",
+    "manufacturer": "window-city",
+    "slug": "hc-401",
+    "name": "HC-401 Casement",
+    "category": "windows",
+    "collection": "Heritage Maximum Collection",
+    "modelNumber": "HC-401",
+    "type": "Casement",
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://windowcity.com/windows/heritage-maximum-hc-401-casement/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/window-city/hc-401-070bf22229eb.png",
+      "/images/catalog/window-city/hc-401-casement-scaled-e735908ddaf7.jpg",
+      "/images/catalog/window-city/heritage-max-collection-hc401-bd5647ad9939.png"
+    ],
+    "documents": [
+      "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-20"
+  },
+  {
+    "id": "window-city:hc-151",
+    "manufacturer": "window-city",
+    "slug": "hc-151",
+    "name": "HC-151 Slim Fixed",
+    "category": "windows",
+    "collection": "Heritage Collection",
+    "modelNumber": "HC-151",
+    "type": "Slim Fixed",
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://windowcity.com/windows/heritage-hc-151-slim-fixed/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/window-city/hc-151-12c6a47fb653.png",
+      "/images/catalog/window-city/hc-151-slim-fixed-16860de3d145.jpg",
+      "/images/catalog/window-city/heritage-max-collection-hc451-54121fd17cbe.png",
+      "/images/catalog/window-city/v2-heritage-collection-sideview-hc151-1-a2bb4facc908.png"
+    ],
+    "documents": [
+      "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-20"
+  },
+  {
+    "id": "window-city:hc-126",
+    "manufacturer": "window-city",
+    "slug": "hc-126",
+    "name": "HC-126 Awning",
+    "category": "windows",
+    "collection": "Heritage Collection",
+    "modelNumber": "HC-126",
+    "type": "Awning",
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://windowcity.com/windows/heritage-hc-126-awning/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/window-city/hc-126-awning-1-scaled-75eab9ae5b2d.jpg",
+      "/images/catalog/window-city/hc-126-c0000-1-d257ad2c0fd9.png"
+    ],
+    "documents": [
+      "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-20"
+  },
+  {
+    "id": "window-city:hc-176",
+    "manufacturer": "window-city",
+    "slug": "hc-176",
+    "name": "HC-176 Casement Fixed",
+    "category": "windows",
+    "collection": "Heritage Collection",
+    "modelNumber": "HC-176",
+    "type": "Casement Fixed",
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://windowcity.com/windows/heritage-hc-176-casement-fixed/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/window-city/hc-176-9813d2b2fe74.png",
+      "/images/catalog/window-city/hc-176-scaled-3354f2572491.jpg",
+      "/images/catalog/window-city/heritage-collection-hc176-6cca6a8606a8.png",
+      "/images/catalog/window-city/v2-heritage-collection-sideview-hc176-1-6b9d9fb55206.png"
+    ],
+    "documents": [
+      "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-20"
+  },
+  {
+    "id": "window-city:hc-101",
+    "manufacturer": "window-city",
+    "slug": "hc-101",
+    "name": "HC-101 Casement",
+    "category": "windows",
+    "collection": "Heritage Collection",
+    "modelNumber": "HC-101",
+    "type": "Casement",
+    "summary": null,
+    "sourceDescription": null,
+    "sourceUrl": "https://windowcity.com/windows/heritage-hc-101-casement/",
+    "sourceType": "live-crawl",
+    "media": [
+      "/images/catalog/window-city/hc-101-casement-updated-scaled-98ed566b866c.jpg",
+      "/images/catalog/window-city/heritage-collection-hc101-f1b604e4559f.png"
+    ],
+    "documents": [
+      "/documents/catalog/window-city/windowcityconsumerbook2026-ea745679024d.pdf"
+    ],
+    "specifications": {},
+    "lastVerified": "2026-08-20"
   }
 ]
