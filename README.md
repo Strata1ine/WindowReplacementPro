@@ -7,7 +7,7 @@ Static-first Astro website for Window Replacement Pro with a structured, auditab
 - Astro + TypeScript
 - @astrojs/sitemap
 - Git
-- Cloudflare Pages-ready static output
+- Static Astro output deployed to Hostinger over SSH
 - Python standard-library crawler for supplier ingestion
 
 ## Local development
@@ -17,7 +17,7 @@ npm ci
 npm run dev
 ```
 
-Requires Node.js 22.12.0 or newer and Python 3.10 or newer.
+Requires Node.js 22.19.0 or newer and Python 3.10 or newer.
 
 ## Supplier ingestion
 
@@ -77,12 +77,37 @@ npm run verify
 
 `build:taxonomy` deterministically regenerates the editorial overlays from the frozen catalogue and source manifests. `verify` runs Astro diagnostics, catalogue and taxonomy validation, merge/crawler/taxonomy tests, and the production build. Deployment must not proceed unless it passes.
 
-Cloudflare Pages settings:
+## Production deployment
 
-- Framework preset: Astro
-- Build command: `npm run verify`
-- Build output directory: `dist`
-- Production branch: `main`
+Production follows this path:
+
+```text
+Codex/local development
+-> commit
+-> push main
+-> GitHub Actions
+-> verification
+-> Astro build
+-> SSH/rsync
+-> Hostinger public_html
+-> windowreplacement.pro
+```
+
+The `Deploy to Hostinger` GitHub Actions workflow runs automatically for pushes to `main` and can also be started manually with `workflow_dispatch` from the repository's Actions tab. Feature branches never deploy. The workflow runs `npm ci`, the complete verification suite, the public supplier-leakage audit and a final Astro build before it opens an SSH connection. A failed gate stops the job before deployment.
+
+The repository requires these GitHub Actions secrets; never commit their values:
+
+- `HOSTINGER_SSH_HOST`
+- `HOSTINGER_SSH_PORT`
+- `HOSTINGER_SSH_USER`
+- `HOSTINGER_SSH_PRIVATE_KEY`
+- `HOSTINGER_DEPLOY_PATH`
+
+Only the contents of `dist/` are synchronized to the Hostinger document root. The workflow validates that both the configured and canonical remote paths end with `/domains/windowreplacement.pro/public_html` before running `rsync` with deletion enabled. This guard must not be weakened or removed.
+
+To inspect a deployment, open GitHub Actions, choose **Deploy to Hostinger**, and open the run for the relevant commit. The verification, SSH, synchronization and HTTPS smoke-test steps have separate logs. Secret values are masked and must not be added to diagnostic output.
+
+To disable automatic production deployment, disable the `Deploy to Hostinger` workflow in GitHub Actions or remove/comment only its `push` trigger in `.github/workflows/deploy-hostinger.yml`. Keep `workflow_dispatch` when manual deployments should remain available. The existing verification workflow is independent and should remain enabled.
 
 ## Media repository policy
 

@@ -1,0 +1,153 @@
+name: Deploy to Hostinger
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: hostinger-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.19.0'
+          cache: npm
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install reproducible dependencies
+        run: npm ci
+
+      - name: Run complete verification
+        run: npm run verify
+
+      - name: Recheck public supplier isolation
+        run: npm run audit:public-supplier-leakage
+
+      - name: Produce final deployment build
+        run: npm run build
+
+      - name: Validate deployment configuration
+        shell: bash
+        env:
+          HOSTINGER_SSH_HOST: ${{ secrets.HOSTINGER_SSH_HOST }}
+          HOSTINGER_SSH_PORT: ${{ secrets.HOSTINGER_SSH_PORT }}
+          HOSTINGER_SSH_USER: ${{ secrets.HOSTINGER_SSH_USER }}
+          HOSTINGER_SSH_PRIVATE_KEY: ${{ secrets.HOSTINGER_SSH_PRIVATE_KEY }}
+          HOSTINGER_DEPLOY_PATH: ${{ secrets.HOSTINGER_DEPLOY_PATH }}
+        run: |
+          set -euo pipefail
+          for value in HOSTINGER_SSH_HOST HOSTINGER_SSH_PORT HOSTINGER_SSH_USER HOSTINGER_SSH_PRIVATE_KEY HOSTINGER_DEPLOY_PATH; do
+            if [[ -z "${!value:-}" ]]; then
+              echo "Required deployment secret is missing: $value" >&2
+              exit 1
+            fi
+          done
+          if [[ ! "$HOSTINGER_SSH_PORT" =~ ^[0-9]+$ ]]; then
+            echo "HOSTINGER_SSH_PORT must be numeric" >&2
+            exit 1
+          fi
+          case "$HOSTINGER_DEPLOY_PATH" in
+            */domains/windowreplacement.pro/public_html) ;;
+            *)
+              echo "Refusing deployment: HOSTINGER_DEPLOY_PATH failed the production-path safety rule" >&2
+              exit 1
+              ;;
+          esac
+
+      - name: Configure verified SSH access
+        shell: bash
+        env:
+          HOSTINGER_SSH_HOST: ${{ secrets.HOSTINGER_SSH_HOST }}
+          HOSTINGER_SSH_PORT: ${{ secrets.HOSTINGER_SSH_PORT }}
+          HOSTINGER_SSH_PRIVATE_KEY: ${{ secrets.HOSTINGER_SSH_PRIVATE_KEY }}
+        run: |
+          set -euo pipefail
+          install -d -m 700 "$HOME/.ssh"
+          install -m 600 /dev/null "$RUNNER_TEMP/hostinger_deploy_key"
+          printf '%s\n' "$HOSTINGER_SSH_PRIVATE_KEY" | tr -d '\r' > "$RUNNER_TEMP/hostinger_deploy_key"
+          if ! ssh-keyscan -H -p "$HOSTINGER_SSH_PORT" "$HOSTINGER_SSH_HOST" 2>/dev/null >> "$HOME/.ssh/known_hosts"; then
+            echo 'Unable to retrieve the Hostinger SSH host key' >&2
+            exit 1
+          fi
+          chmod 600 "$HOME/.ssh/known_hosts"
+
+      - name: Validate remote target and deploy dist
+        shell: bash
+        env:
+          HOSTINGER_SSH_HOST: ${{ secrets.HOSTINGER_SSH_HOST }}
+          HOSTINGER_SSH_PORT: ${{ secrets.HOSTINGER_SSH_PORT }}
+          HOSTINGER_SSH_USER: ${{ secrets.HOSTINGER_SSH_USER }}
+          HOSTINGER_DEPLOY_PATH: ${{ secrets.HOSTINGER_DEPLOY_PATH }}
+        run: |
+          set -euo pipefail
+          SSH_OPTIONS=(-i "$RUNNER_TEMP/hostinger_deploy_key" -p "$HOSTINGER_SSH_PORT" -o BatchMode=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes)
+          REMOTE="$HOSTINGER_SSH_USER@$HOSTINGER_SSH_HOST"
+
+          CANONICAL_PATH="$(ssh "${SSH_OPTIONS[@]}" "$REMOTE" "test -d '$HOSTINGER_DEPLOY_PATH' && readlink -f -- '$HOSTINGER_DEPLOY_PATH'")"
+          case "$CANONICAL_PATH" in
+            */domains/windowreplacement.pro/public_html) ;;
+            *)
+              echo "Refusing deployment: the canonical remote path failed the production-path safety rule" >&2
+              exit 1
+              ;;
+          esac
+
+          if ! ssh "${SSH_OPTIONS[@]}" "$REMOTE" 'command -v rsync >/dev/null 2>&1'; then
+            echo "The Hostinger account does not provide rsync; deployment was not attempted" >&2
+            exit 1
+          fi
+
+          rsync -rlptz --delete-delay --exclude='.well-known/' \
+            -e "ssh -i $RUNNER_TEMP/hostinger_deploy_key -p $HOSTINGER_SSH_PORT -o BatchMode=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes" \
+            dist/ "$REMOTE:$CANONICAL_PATH/"
+
+      - name: Verify production over HTTPS
+        shell: bash
+        run: |
+          set -euo pipefail
+          BASE_URL='https://windowreplacement.pro'
+          HOMEPAGE="$RUNNER_TEMP/windowreplacement-homepage.html"
+          NOT_FOUND="$RUNNER_TEMP/windowreplacement-404.html"
+
+          curl --fail --silent --show-error --location --retry 5 --retry-delay 5 "$BASE_URL/" -o "$HOMEPAGE"
+          grep -Fq 'Choose the right window or door' "$HOMEPAGE"
+
+          for route in /robots.txt /sitemap-index.xml /windows/ /doors/ /patio-doors/; do
+            curl --fail --silent --show-error --location --retry 3 --retry-delay 3 "$BASE_URL$route" -o /dev/null
+          done
+
+          grep -Fq 'Sitemap: https://windowreplacement.pro/sitemap-index.xml' <(curl --fail --silent --show-error "$BASE_URL/robots.txt")
+
+          CSS_PATH="$(grep -m 1 -oE 'href="[^"]+\.css[^"]*"' "$HOMEPAGE" | cut -d '"' -f 2)"
+          MEDIA_PATH="$(grep -m 1 -oE 'src="[^"]+\.(avif|gif|jpe?g|png|webp)[^"]*"' "$HOMEPAGE" | cut -d '"' -f 2)"
+          [[ -n "$CSS_PATH" && -n "$MEDIA_PATH" ]]
+          curl --fail --silent --show-error --location "$BASE_URL$CSS_PATH" -o /dev/null
+          curl --fail --silent --show-error --location "$BASE_URL$MEDIA_PATH" -o /dev/null
+
+          STATUS="$(curl --silent --show-error --location -o "$NOT_FOUND" -w '%{http_code}' "$BASE_URL/deployment-404-check/")"
+          [[ "$STATUS" == '404' ]]
+          grep -Fq 'Page not found' "$NOT_FOUND"
+
+          for private_path in /default.php /source-media/README.md /scripts/ingest/crawl.py /src/pages/index.astro; do
+            STATUS="$(curl --silent --show-error --location -o /dev/null -w '%{http_code}' "$BASE_URL$private_path")"
+            [[ "$STATUS" == '404' ]]
+          done
+
+          if grep -Eiq 'masonite|mennie|novatech|oceanview|richersons|trimlite|verre select|vinyl-pro|vista|window city' "$HOMEPAGE"; then
+            echo 'Supplier identity leakage detected on the production homepage' >&2
+            exit 1
+          fi
