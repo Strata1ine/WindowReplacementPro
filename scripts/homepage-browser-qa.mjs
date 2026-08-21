@@ -169,11 +169,18 @@ const representativeRoutes = [
   { kind: 'patio-door', path: '/products/patio-doors/multi-panel-sliding-patio-door/' }
 ];
 const corePageRoutes = [
-  { name: 'windows', path: '/windows/', kind: 'category' },
-  { name: 'entry-doors', path: '/doors/', kind: 'category' },
-  { name: 'door-glass', path: '/doors/decorative-door-glass/', kind: 'category' },
-  { name: 'patio-doors', path: '/patio-doors/', kind: 'category' },
-  { name: 'product-window', path: '/products/windows/slim-frame-casement-window/', kind: 'product' }
+  { name: 'windows', path: '/windows/', kind: 'category', expectedProducts: 10 },
+  { name: 'entry-doors', path: '/doors/', kind: 'category', expectedProducts: 12 },
+  { name: 'door-glass', path: '/doors/decorative-door-glass/', kind: 'category', expectedProducts: 12 },
+  { name: 'patio-doors', path: '/patio-doors/', kind: 'category', expectedProducts: 6 },
+  { name: 'product-window-slim-casement', path: '/products/windows/slim-frame-casement-window/', kind: 'product', category: 'windows' },
+  { name: 'product-window-double-hung', path: '/products/windows/double-hung-window/', kind: 'product', category: 'windows' },
+  { name: 'product-entry-two-panel', path: '/products/entry-doors/two-panel-fiberglass-entry-door/', kind: 'product', category: 'entry-doors' },
+  { name: 'product-entry-craftsman', path: '/products/entry-doors/craftsman-fiberglass-entry-door/', kind: 'product', category: 'entry-doors' },
+  { name: 'product-glass-linear', path: '/products/door-glass/black-linear-privacy-door-glass/', kind: 'product', category: 'door-glass' },
+  { name: 'product-glass-sidelite', path: '/products/door-glass/narrow-sidelite-decorative-glass/', kind: 'product', category: 'door-glass' },
+  { name: 'product-patio-multi-panel', path: '/products/patio-doors/multi-panel-sliding-patio-door/', kind: 'product', category: 'patio-doors' },
+  { name: 'product-patio-slim-aluminum', path: '/products/patio-doors/slim-frame-aluminum-patio-door/', kind: 'product', category: 'patio-doors' }
 ];
 
 try {
@@ -427,7 +434,7 @@ try {
         h1: document.querySelector('h1')?.textContent?.trim() ?? '',
         h1Count: document.querySelectorAll('h1').length,
         reference: document.querySelector('.product-card__meta')?.textContent?.trim() ?? '',
-        disclaimerCount: Array.from(document.querySelectorAll('.source-note')).filter(note => note.textContent?.includes('identified in your written quotation')).length,
+        disclaimerCount: document.querySelectorAll('.product-disclosure').length,
         forbiddenTermsVisible: forbidden.filter(term => text.includes(term)),
         pathLeaks: paths.filter(pathname => pathname.startsWith('/brands/') || pathname.startsWith('/public/') || pathname.startsWith('/documents/') || pathname.includes('/suppliers/')),
         imageCount: images.length,
@@ -464,7 +471,7 @@ try {
         ];
         const images = Array.from(document.images);
         const clipped = Array.from(document.querySelectorAll(
-          '.choice-card,.guidance-card,.consideration-grid article,.installation-steps li,.product-specification-groups>section,.quote-cta'
+          '.choice-card,.guidance-card,.consideration-grid article,.installation-steps li,.product-specification-groups>section,.product-editorial-grid>section,.product-gallery-grid figure,.public-catalogue .product-card,.quote-cta'
         )).filter(element => {
           const rect = element.getBoundingClientRect();
           return rect.left < -1 || rect.right > innerWidth + 1 || rect.width > innerWidth + 1;
@@ -484,6 +491,12 @@ try {
           clipped,
           brokenImages: images.filter(image => !image.complete || image.naturalWidth === 0).map(image => image.currentSrc || image.src),
           choiceCards: document.querySelectorAll('.choice-card').length,
+          catalogueProductCards: document.querySelectorAll('.public-catalogue .product-card').length,
+          catalogueGroups: document.querySelectorAll('.public-catalogue__group').length,
+          keyFeatureCount: document.querySelectorAll('.product-key-features li').length,
+          editorialGuidanceGroups: document.querySelectorAll('.product-editorial-grid>section').length,
+          galleryCount: document.querySelectorAll('.product-gallery-grid figure').length,
+          relatedProductCount: document.querySelectorAll('.product-related .product-card').length,
           emptySpecificationRows: Array.from(document.querySelectorAll('.product-specification-groups dl div'))
             .filter(row => !row.querySelector('dt')?.textContent?.trim() || !row.querySelector('dd')?.textContent?.trim()).length,
           headerPresent: Boolean(document.querySelector('.site-header')),
@@ -552,7 +565,18 @@ try {
     if (audit.fabricatedSchemaFields.length) failures.push(label + ' includes prohibited schema fields');
     if (audit.emptySpecificationRows) failures.push(label + ' includes empty specification rows');
     if (audit.kind === 'category' && audit.choiceCards < 6) failures.push(label + ' is missing category choices');
-  }  if (runtimeErrors.length) failures.push('browser runtime errors');
+    if (audit.kind === 'category' && audit.catalogueProductCards !== audit.expectedProducts) failures.push(label + ' catalogue count does not match the approved category count');
+    if (audit.kind === 'category' && audit.catalogueGroups < 2) failures.push(label + ' is missing grouped catalogue browsing');
+    if (audit.kind === 'product' && audit.keyFeatureCount < 3) failures.push(label + ' is missing reviewed key features');
+    if (audit.kind === 'product' && audit.editorialGuidanceGroups !== 3) failures.push(label + ' is missing best-for, configuration, or consideration guidance');
+    if (audit.kind === 'product' && (audit.relatedProductCount < 1 || audit.relatedProductCount > 3)) failures.push(label + ' has an invalid related-product count');
+  }
+  for (const category of ['windows', 'entry-doors', 'door-glass', 'patio-doors']) {
+    const categoryProducts = corePageAudits.filter(audit => audit.kind === 'product' && audit.category === category);
+    if (new Set(categoryProducts.map(audit => audit.name)).size < 2) failures.push(category + ' has fewer than two responsive product-page audits');
+    if (!categoryProducts.some(audit => audit.galleryCount > 0)) failures.push(category + ' has no gallery-bearing product in responsive QA');
+  }
+  if (runtimeErrors.length) failures.push('browser runtime errors');
   if (networkFailures.length) failures.push('browser network failures');
 
   const results = {

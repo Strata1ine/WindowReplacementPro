@@ -6,31 +6,1423 @@
     "publicReference": "WRP-W001",
     "publicCategory": "windows",
     "publicCategoryLabel": "Replacement window",
-    "publicSummary": "A vinyl casement configuration with compression-seal operation, insulated glass choices and a compact residential frame.",
+    "publicMetaDescription": "A side-hinged vinyl window that opens outward with a crank and closes against a compression seal. The compact frame direction preserves useful glass area.",
+    "publicSummary": "A side-hinged vinyl window that opens outward with a crank and closes against a compression seal. The compact frame direction preserves useful glass area while supporting double- or triple-pane insulated glass choices. It is a practical starting point when ventilation, an unobstructed opening and a firm perimeter seal matter more than a sliding sash. The opening, exterior exposure, glazing package and installation method are reviewed before a final system is named in the written quotation. Room use and the required balance of ventilation and fixed glass are documented at the same time.",
     "publicImageAlt": "White slim-frame casement replacement window",
     "publicMediaKey": "wrp-w001",
     "publicSpecifications": [
-      { "label": "Operation", "value": "Casement" },
-      { "label": "Frame material", "value": "Vinyl / uPVC" },
-      { "label": "Frame depth", "value": "3 1/4 in" },
-      { "label": "Glazing", "value": "Double- or triple-pane insulated glass options" }
+      {
+        "label": "Operation",
+        "value": "Casement"
+      },
+      {
+        "label": "Frame material",
+        "value": "Vinyl / uPVC"
+      },
+      {
+        "label": "Frame depth",
+        "value": "Approximately 3 1/4 in, system dependent"
+      },
+      {
+        "label": "Glazing",
+        "value": "Double- or triple-pane insulated glass options"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Outward crank operation",
+      "Compression-seal closing action",
+      "Compact residential frame direction",
+      "Multiple insulated-glass packages"
+    ],
+    "publicBestFor": [
+      "Rooms needing directed ventilation",
+      "Openings where clear glass area is a priority"
+    ],
+    "publicConfigurationOptions": [
+      "Left- or right-hand operation",
+      "Double- or triple-pane glazing",
+      "Interior and exterior colour choices where available"
+    ],
+    "publicConsiderations": [
+      "Requires exterior clearance for the sash",
+      "Hardware accessibility should suit the room layout",
+      "Egress suitability depends on the measured opening"
+    ],
+    "publicQuoteNote": "The exact manufacturer, model, glass package, tested performance documentation and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Crank-operated windows",
+    "publicBrowseFacets": [
+      "casement",
+      "vinyl",
+      "operable",
+      "slim-frame"
+    ],
+    "publicComparisonTags": [
+      "casement",
+      "vinyl",
+      "operable",
+      "slim-frame"
     ],
     "publicPublicationStatus": "approved"
   },
   {
-    "internalCanonicalId": "masonite:2-panel-hollister",
+    "internalCanonicalId": "window-city:hc-401",
+    "publicDisplayName": "High-Performance Casement Window",
+    "publicSlug": "high-performance-casement-window",
+    "publicReference": "WRP-W002",
+    "publicCategory": "windows",
+    "publicCategoryLabel": "Replacement window",
+    "publicMetaDescription": "A deeper-frame casement direction for projects where tested air, water, structural and thermal performance require closer review. The sash opens outward for.",
+    "publicSummary": "A deeper-frame casement direction for projects where tested air, water, structural and thermal performance require closer review. The sash opens outward for ventilation and closes against a compression seal, while available insulated-glass packages can include double- and triple-pane construction. This family is distinct from the slimmer residential casement because frame depth and documented ratings may affect installation planning and product selection. The opening, exterior exposure, glazing package and installation method are reviewed before a final system is named in the written quotation. Room use and the required balance of ventilation and fixed glass are documented at the same time.",
+    "publicImageAlt": "Deep-frame white casement replacement window",
+    "publicMediaKey": "wrp-w002",
+    "publicSpecifications": [
+      {
+        "label": "Operation",
+        "value": "Casement"
+      },
+      {
+        "label": "Frame material",
+        "value": "Vinyl / uPVC"
+      },
+      {
+        "label": "Frame depth",
+        "value": "Approximately 4 1/2 to 4 9/16 in"
+      },
+      {
+        "label": "Glazing",
+        "value": "Double- or triple-pane insulated glass options"
+      },
+      {
+        "label": "Performance",
+        "value": "Tested ratings vary by selected system and glass package"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Deeper frame construction",
+      "Outward crank operation",
+      "Compression-seal closing action",
+      "Documented performance packages",
+      "Double- and triple-pane choices"
+    ],
+    "publicBestFor": [
+      "Exposed elevations",
+      "Projects requiring documented performance comparison"
+    ],
+    "publicConfigurationOptions": [
+      "Opening direction",
+      "Glass and spacer package",
+      "Frame, jamb and finish configuration"
+    ],
+    "publicConsiderations": [
+      "Deeper frames affect jamb and trim planning",
+      "Published ratings apply only to the quoted size and configuration",
+      "Exterior sash clearance is required"
+    ],
+    "publicQuoteNote": "The exact manufacturer, model, glass package, tested performance documentation and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Crank-operated windows",
+    "publicBrowseFacets": [
+      "casement",
+      "vinyl",
+      "operable",
+      "high-performance"
+    ],
+    "publicComparisonTags": [
+      "casement",
+      "vinyl",
+      "operable",
+      "high-performance"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "window-city:hc-126",
+    "publicDisplayName": "Awning Window",
+    "publicSlug": "awning-window",
+    "publicReference": "WRP-W003",
+    "publicCategory": "windows",
+    "publicCategoryLabel": "Replacement window",
+    "publicMetaDescription": "A top-hinged operating window that projects outward from the bottom, allowing useful ventilation while keeping the opening compact. Awning windows are often.",
+    "publicSummary": "A top-hinged operating window that projects outward from the bottom, allowing useful ventilation while keeping the opening compact. Awning windows are often considered for basements, bathrooms and combinations below or above fixed glass. Available systems use vinyl frames and insulated-glass packages, but frame depth and tested performance vary between compact and deeper-frame directions. The opening, exterior exposure, glazing package and installation method are reviewed before a final system is named in the written quotation. Room use and the required balance of ventilation and fixed glass are documented at the same time.",
+    "publicImageAlt": "White awning replacement window open from the bottom",
+    "publicMediaKey": "wrp-w003",
+    "publicSpecifications": [
+      {
+        "label": "Operation",
+        "value": "Top-hinged awning"
+      },
+      {
+        "label": "Frame material",
+        "value": "Vinyl / uPVC"
+      },
+      {
+        "label": "Frame depth",
+        "value": "Approximately 3 1/4 or 4 1/2 in"
+      },
+      {
+        "label": "Glazing",
+        "value": "Double- or triple-pane insulated glass options"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Top-hinged outward operation",
+      "Compact ventilation opening",
+      "Compression-seal closing action",
+      "Multiple frame-depth directions"
+    ],
+    "publicBestFor": [
+      "Basement and bathroom openings",
+      "Window combinations needing a small operable section"
+    ],
+    "publicConfigurationOptions": [
+      "Compact or deeper frame",
+      "Double- or triple-pane glazing",
+      "Standalone or combination-unit planning"
+    ],
+    "publicConsiderations": [
+      "Exterior clearance is required",
+      "Opening size affects ventilation and egress",
+      "Hardware access should be checked above counters or fixtures"
+    ],
+    "publicQuoteNote": "The exact manufacturer, model, glass package, tested performance documentation and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Crank-operated windows",
+    "publicBrowseFacets": [
+      "awning",
+      "vinyl",
+      "operable",
+      "basement"
+    ],
+    "publicComparisonTags": [
+      "awning",
+      "vinyl",
+      "operable",
+      "basement"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "vinyl-pro:double-hung",
+    "publicDisplayName": "Double-Hung Window",
+    "publicSlug": "double-hung-window",
+    "publicReference": "WRP-W004",
+    "publicCategory": "windows",
+    "publicCategoryLabel": "Replacement window",
+    "publicMetaDescription": "A vertically sliding window with two operating sashes for flexible upper and lower ventilation. The operation is useful where an outward-projecting sash.",
+    "publicSummary": "A vertically sliding window with two operating sashes for flexible upper and lower ventilation. The operation is useful where an outward-projecting sash would interfere with a walkway, deck or planting. Reviewed systems use vinyl construction and insulated glass, with screen, tilt and hardware details varying by the selected configuration. The opening, exterior exposure, glazing package and installation method are reviewed before a final system is named in the written quotation. Room use and the required balance of ventilation and fixed glass are documented at the same time.",
+    "publicImageAlt": "White double-hung replacement window with two sliding sashes",
+    "publicMediaKey": "wrp-w004",
+    "publicSpecifications": [
+      {
+        "label": "Operation",
+        "value": "Double hung"
+      },
+      {
+        "label": "Frame material",
+        "value": "Vinyl / uPVC"
+      },
+      {
+        "label": "Glazing",
+        "value": "Double- or triple-pane insulated glass options"
+      },
+      {
+        "label": "Screen",
+        "value": "Screen configuration varies by system"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Two vertically operating sashes",
+      "No exterior sash projection",
+      "Upper and lower ventilation choices",
+      "Insulated-glass configurations"
+    ],
+    "publicBestFor": [
+      "Traditional elevations",
+      "Openings beside decks, walks or landscaping"
+    ],
+    "publicConfigurationOptions": [
+      "Glass package",
+      "Screen arrangement",
+      "Hardware and tilt-cleaning details where available"
+    ],
+    "publicConsiderations": [
+      "Meeting rails reduce uninterrupted glass area",
+      "Air and water ratings vary by size and system",
+      "Sash operation should be checked for reach and furniture conflicts"
+    ],
+    "publicQuoteNote": "The exact manufacturer, model, glass package, tested performance documentation and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Hung and sliding windows",
+    "publicBrowseFacets": [
+      "hung",
+      "vinyl",
+      "operable",
+      "double-sash"
+    ],
+    "publicComparisonTags": [
+      "hung",
+      "vinyl",
+      "operable",
+      "double-sash"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "window-city:wc-201",
+    "publicDisplayName": "Single-Hung Window",
+    "publicSlug": "single-hung-window",
+    "publicReference": "WRP-W005",
+    "publicCategory": "windows",
+    "publicCategoryLabel": "Replacement window",
+    "publicMetaDescription": "A vertical-sliding window with one operating sash and one fixed section. It provides familiar proportions without projecting into exterior space, making it.",
+    "publicSummary": "A vertical-sliding window with one operating sash and one fixed section. It provides familiar proportions without projecting into exterior space, making it useful beside paths, porches and planting. The reviewed vinyl system supports insulated-glass choices, while the exact sash orientation, screen, balance hardware and performance ratings depend on the quoted configuration. The opening, exterior exposure, glazing package and installation method are reviewed before a final system is named in the written quotation. Room use and the required balance of ventilation and fixed glass are documented at the same time.",
+    "publicImageAlt": "White single-hung replacement window with one sliding sash",
+    "publicMediaKey": "wrp-w005",
+    "publicSpecifications": [
+      {
+        "label": "Operation",
+        "value": "Single hung"
+      },
+      {
+        "label": "Frame material",
+        "value": "Vinyl / uPVC"
+      },
+      {
+        "label": "Frame depth",
+        "value": "Approximately 3 1/4 in"
+      },
+      {
+        "label": "Glazing",
+        "value": "Double- or triple-pane insulated glass options"
+      }
+    ],
+    "publicKeyFeatures": [
+      "One operating vertical sash",
+      "Fixed companion sash",
+      "No exterior projection",
+      "Insulated-glass choices"
+    ],
+    "publicBestFor": [
+      "Traditional window proportions",
+      "Openings with limited exterior clearance"
+    ],
+    "publicConfigurationOptions": [
+      "Glass package",
+      "Screen and hardware details",
+      "Interior and exterior finish choices where available"
+    ],
+    "publicConsiderations": [
+      "Only one sash provides ventilation",
+      "Meeting rail affects the view",
+      "Opening size determines egress suitability"
+    ],
+    "publicQuoteNote": "The exact manufacturer, model, glass package, tested performance documentation and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Hung and sliding windows",
+    "publicBrowseFacets": [
+      "hung",
+      "vinyl",
+      "operable",
+      "single-sash"
+    ],
+    "publicComparisonTags": [
+      "hung",
+      "vinyl",
+      "operable",
+      "single-sash"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "vinyl-pro:double-slider",
+    "publicDisplayName": "Double Slider Window",
+    "publicSlug": "double-slider-window",
+    "publicReference": "WRP-W006",
+    "publicCategory": "windows",
+    "publicCategoryLabel": "Replacement window",
+    "publicMetaDescription": "A horizontal window with two sliding sashes, allowing ventilation from either side without projecting indoors or outdoors. Double sliders suit wider openings.",
+    "publicSummary": "A horizontal window with two sliding sashes, allowing ventilation from either side without projecting indoors or outdoors. Double sliders suit wider openings and rooms where a crank handle or outward sash would be inconvenient. Reviewed vinyl systems support insulated-glass options, but removable-sash, screen, lock and tested-performance details vary. The opening, exterior exposure, glazing package and installation method are reviewed before a final system is named in the written quotation. Room use and the required balance of ventilation and fixed glass are documented at the same time.",
+    "publicImageAlt": "White double slider replacement window with two operating sashes",
+    "publicMediaKey": "wrp-w006",
+    "publicSpecifications": [
+      {
+        "label": "Operation",
+        "value": "Double horizontal slider"
+      },
+      {
+        "label": "Frame material",
+        "value": "Vinyl / uPVC"
+      },
+      {
+        "label": "Glazing",
+        "value": "Double- or triple-pane insulated glass options"
+      },
+      {
+        "label": "Screen",
+        "value": "Full-width or system-specific screen"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Two horizontally operating sashes",
+      "No interior or exterior projection",
+      "Ventilation from either side",
+      "Vinyl frame construction"
+    ],
+    "publicBestFor": [
+      "Wider residential openings",
+      "Rooms beside walks, decks or planting"
+    ],
+    "publicConfigurationOptions": [
+      "Glass package",
+      "Lift-out or tilt-cleaning details",
+      "Screen and lock configuration"
+    ],
+    "publicConsiderations": [
+      "Centre meeting rails divide the view",
+      "Track maintenance affects smooth operation",
+      "Tested ratings vary by selected system"
+    ],
+    "publicQuoteNote": "The exact manufacturer, model, glass package, tested performance documentation and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Hung and sliding windows",
+    "publicBrowseFacets": [
+      "slider",
+      "vinyl",
+      "operable",
+      "double-sash"
+    ],
+    "publicComparisonTags": [
+      "slider",
+      "vinyl",
+      "operable",
+      "double-sash"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "window-city:wc-325",
+    "publicDisplayName": "Single Slider Window",
+    "publicSlug": "single-slider-window",
+    "publicReference": "WRP-W007",
+    "publicCategory": "windows",
+    "publicCategoryLabel": "Replacement window",
+    "publicMetaDescription": "A horizontal-sliding window with one operating sash and one fixed section. It provides ventilation without an outward-projecting sash and works well in.",
+    "publicSummary": "A horizontal-sliding window with one operating sash and one fixed section. It provides ventilation without an outward-projecting sash and works well in compact rooms or beside exterior circulation areas. Reviewed vinyl configurations support insulated glass, while sash-removal, screen, frame depth and performance details remain system-specific. The opening, exterior exposure, glazing package and installation method are reviewed before a final system is named in the written quotation. Room use and the required balance of ventilation and fixed glass are documented at the same time.",
+    "publicImageAlt": "White single slider replacement window with one operating sash",
+    "publicMediaKey": "wrp-w007",
+    "publicSpecifications": [
+      {
+        "label": "Operation",
+        "value": "Single horizontal slider"
+      },
+      {
+        "label": "Frame material",
+        "value": "Vinyl / uPVC"
+      },
+      {
+        "label": "Frame depth",
+        "value": "Approximately 3 1/4 in"
+      },
+      {
+        "label": "Glazing",
+        "value": "Double- or triple-pane insulated glass options"
+      }
+    ],
+    "publicKeyFeatures": [
+      "One sliding sash",
+      "One fixed glass section",
+      "No exterior projection",
+      "Compact operating hardware"
+    ],
+    "publicBestFor": [
+      "Bedrooms and compact rooms",
+      "Openings beside decks, paths or landscaping"
+    ],
+    "publicConfigurationOptions": [
+      "Glass package",
+      "Operating-sash direction",
+      "Screen, lock and cleaning details"
+    ],
+    "publicConsiderations": [
+      "Ventilation is limited to the operating side",
+      "Meeting rail divides the view",
+      "Track access is needed for cleaning"
+    ],
+    "publicQuoteNote": "The exact manufacturer, model, glass package, tested performance documentation and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Hung and sliding windows",
+    "publicBrowseFacets": [
+      "slider",
+      "vinyl",
+      "operable",
+      "single-sash"
+    ],
+    "publicComparisonTags": [
+      "slider",
+      "vinyl",
+      "operable",
+      "single-sash"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "vinyl-pro:picture-window",
+    "publicDisplayName": "Picture Window",
+    "publicSlug": "picture-window",
+    "publicReference": "WRP-W008",
+    "publicCategory": "windows",
+    "publicCategoryLabel": "Replacement window",
+    "publicMetaDescription": "A non-operating window intended to provide uninterrupted daylight and views without ventilation hardware. The fixed sash can stand alone or be coordinated.",
+    "publicSummary": "A non-operating window intended to provide uninterrupted daylight and views without ventilation hardware. The fixed sash can stand alone or be coordinated with casement, hung or slider units in a larger composition. Reviewed vinyl construction supports insulated-glass choices, with final glass thickness, safety glazing and combination details determined by size and location. The opening, exterior exposure, glazing package and installation method are reviewed before a final system is named in the written quotation. Room use and the required balance of ventilation and fixed glass are documented at the same time.",
+    "publicImageAlt": "Large white fixed picture replacement window",
+    "publicMediaKey": "wrp-w008",
+    "publicSpecifications": [
+      {
+        "label": "Operation",
+        "value": "Fixed / non-operating"
+      },
+      {
+        "label": "Frame material",
+        "value": "Vinyl / uPVC"
+      },
+      {
+        "label": "Glazing",
+        "value": "Double- or triple-pane insulated glass options"
+      },
+      {
+        "label": "Configuration",
+        "value": "Standalone or combined with operating windows"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Uninterrupted fixed glass",
+      "No operating hardware",
+      "Suitable for combination assemblies",
+      "Multiple insulated-glass packages"
+    ],
+    "publicBestFor": [
+      "Living areas prioritizing daylight and views",
+      "Combinations with smaller operating windows"
+    ],
+    "publicConfigurationOptions": [
+      "Glass package",
+      "Standalone or combination layout",
+      "Safety-glass requirements by location"
+    ],
+    "publicConsiderations": [
+      "Does not provide ventilation",
+      "Large glass sizes require handling and structural review",
+      "Combination sightlines should be coordinated"
+    ],
+    "publicQuoteNote": "The exact manufacturer, model, glass package, tested performance documentation and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Fixed windows",
+    "publicBrowseFacets": [
+      "fixed",
+      "picture",
+      "vinyl",
+      "daylight"
+    ],
+    "publicComparisonTags": [
+      "fixed",
+      "picture",
+      "vinyl",
+      "daylight"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "window-city:hc-176",
+    "publicDisplayName": "Casement-Profile Fixed Window",
+    "publicSlug": "casement-profile-fixed-window",
+    "publicReference": "WRP-W009",
+    "publicCategory": "windows",
+    "publicCategoryLabel": "Replacement window",
+    "publicMetaDescription": "A non-operating window built to coordinate visually with adjacent casement or awning units. Its frame and sash-like profile help align glass lines in mixed.",
+    "publicSummary": "A non-operating window built to coordinate visually with adjacent casement or awning units. Its frame and sash-like profile help align glass lines in mixed fixed-and-operable assemblies while retaining the simplicity of fixed glazing. Reviewed vinyl systems support insulated-glass choices, but frame depth, sightlines and tested structural values vary. The opening, exterior exposure, glazing package and installation method are reviewed before a final system is named in the written quotation. Room use and the required balance of ventilation and fixed glass are documented at the same time.",
+    "publicImageAlt": "White fixed window with a casement-style frame profile",
+    "publicMediaKey": "wrp-w009",
+    "publicSpecifications": [
+      {
+        "label": "Operation",
+        "value": "Fixed / non-operating"
+      },
+      {
+        "label": "Frame material",
+        "value": "Vinyl / uPVC"
+      },
+      {
+        "label": "Frame depth",
+        "value": "Approximately 3 1/4 in, system dependent"
+      },
+      {
+        "label": "Glazing",
+        "value": "Double- or triple-pane insulated glass options"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Fixed insulated glazing",
+      "Casement-compatible sightlines",
+      "No operating hardware",
+      "Suitable for mixed assemblies"
+    ],
+    "publicBestFor": [
+      "Window combinations with casement or awning units",
+      "Openings where ventilation is supplied elsewhere"
+    ],
+    "publicConfigurationOptions": [
+      "Frame-depth direction",
+      "Glass package",
+      "Mullion and combination layout"
+    ],
+    "publicConsiderations": [
+      "Does not provide ventilation",
+      "Sightline matching must use compatible systems",
+      "Large combinations need structural and handling review"
+    ],
+    "publicQuoteNote": "The exact manufacturer, model, glass package, tested performance documentation and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Fixed windows",
+    "publicBrowseFacets": [
+      "fixed",
+      "casement-profile",
+      "vinyl",
+      "combination"
+    ],
+    "publicComparisonTags": [
+      "fixed",
+      "casement-profile",
+      "vinyl",
+      "combination"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "window-city:hc-451",
+    "publicDisplayName": "Slim Fixed Window",
+    "publicSlug": "slim-fixed-window",
+    "publicReference": "WRP-W010",
+    "publicCategory": "windows",
+    "publicCategoryLabel": "Replacement window",
+    "publicMetaDescription": "A fixed vinyl window using a slimmer perimeter profile to increase visible glass area where ventilation is not required. It can serve as a standalone.",
+    "publicSummary": "A fixed vinyl window using a slimmer perimeter profile to increase visible glass area where ventilation is not required. It can serve as a standalone daylight opening or form part of a larger composition. Compact and deeper-frame systems are internally available, so the quoted frame, glass package and tested ratings must be selected together rather than assumed from appearance alone. The opening, exterior exposure, glazing package and installation method are reviewed before a final system is named in the written quotation. Room use and the required balance of ventilation and fixed glass are documented at the same time.",
+    "publicImageAlt": "White slim-profile fixed replacement window",
+    "publicMediaKey": "wrp-w010",
+    "publicSpecifications": [
+      {
+        "label": "Operation",
+        "value": "Fixed / non-operating"
+      },
+      {
+        "label": "Frame material",
+        "value": "Vinyl / uPVC"
+      },
+      {
+        "label": "Frame depth",
+        "value": "Approximately 3 1/4 or 4 1/2 in"
+      },
+      {
+        "label": "Glazing",
+        "value": "Double- or triple-pane insulated glass options"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Slim fixed-frame sightlines",
+      "No operating hardware",
+      "Compact and deeper-frame directions",
+      "Insulated-glass choices"
+    ],
+    "publicBestFor": [
+      "Openings prioritizing daylight",
+      "Fixed sections in contemporary window compositions"
+    ],
+    "publicConfigurationOptions": [
+      "Frame depth",
+      "Glass package",
+      "Standalone or combined installation"
+    ],
+    "publicConsiderations": [
+      "Does not provide ventilation",
+      "Maximum size and glass type require engineering review",
+      "Adjacent-unit sightlines must be coordinated"
+    ],
+    "publicQuoteNote": "The exact manufacturer, model, glass package, tested performance documentation and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Fixed windows",
+    "publicBrowseFacets": [
+      "fixed",
+      "slim-frame",
+      "vinyl",
+      "daylight"
+    ],
+    "publicComparisonTags": [
+      "fixed",
+      "slim-frame",
+      "vinyl",
+      "daylight"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "trimlite:drf2k",
     "publicDisplayName": "Two-Panel Fiberglass Entry Door",
     "publicSlug": "two-panel-fiberglass-entry-door",
     "publicReference": "WRP-D001",
     "publicCategory": "entry-doors",
     "publicCategoryLabel": "Entry door",
-    "publicSummary": "A clean two-panel fiberglass entry-door configuration suited to traditional and transitional exterior designs.",
+    "publicMetaDescription": "A fiberglass entry-door direction with two clearly defined recessed or embossed panel areas and no required glass opening. The balanced panel layout works.",
+    "publicSummary": "A fiberglass entry-door direction with two clearly defined recessed or embossed panel areas and no required glass opening. The balanced panel layout works with traditional and transitional entrances while leaving room to coordinate sidelites or a transom separately. Surface texture, panel geometry, available widths and core construction vary across the mapped systems. The final slab, frame, swing, glass, finish, hardware and installation details are coordinated after the entrance is measured and reviewed. The complete entrance is treated as one coordinated assembly rather than a slab-only purchase.",
     "publicImageAlt": "White two-panel fiberglass entry door",
     "publicMediaKey": "wrp-d001",
     "publicSpecifications": [
-      { "label": "Product type", "value": "Exterior entry door" },
-      { "label": "Material", "value": "Fiberglass" },
-      { "label": "Panel design", "value": "Two-panel" }
+      {
+        "label": "Product type",
+        "value": "Exterior entry door"
+      },
+      {
+        "label": "Material",
+        "value": "Fiberglass"
+      },
+      {
+        "label": "Panel design",
+        "value": "Two-panel"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Fiberglass door slab",
+      "Two-panel face design",
+      "Solid-door privacy",
+      "Compatible with complete framed entrance systems"
+    ],
+    "publicBestFor": [
+      "Traditional and transitional elevations",
+      "Entrances prioritizing privacy over door glass"
+    ],
+    "publicConfigurationOptions": [
+      "Smooth or textured surface where available",
+      "Paint or stain direction by selected skin",
+      "Single-door entrance with optional surrounding glass"
+    ],
+    "publicConsiderations": [
+      "Panel proportions vary by selected slab",
+      "Exact size and swing require measurement",
+      "Finish compatibility depends on the selected surface"
+    ],
+    "publicQuoteNote": "The exact manufacturer, slab model, frame system, glass, finish, hardware, performance documentation and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Surface and material",
+    "publicBrowseFacets": [
+      "fiberglass",
+      "two-panel",
+      "solid",
+      "traditional"
+    ],
+    "publicComparisonTags": [
+      "fiberglass",
+      "two-panel",
+      "solid",
+      "traditional"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "richersons:sg00",
+    "publicDisplayName": "Smooth Flush Fiberglass Entry Door",
+    "publicSlug": "smooth-flush-fiberglass-entry-door",
+    "publicReference": "WRP-D002",
+    "publicCategory": "entry-doors",
+    "publicCategoryLabel": "Entry door",
+    "publicMetaDescription": "A flat-faced fiberglass door direction with a smooth surface and no required panel embossing. The restrained face supports contemporary hardware, colour and.",
+    "publicSummary": "A flat-faced fiberglass door direction with a smooth surface and no required panel embossing. The restrained face supports contemporary hardware, colour and glass planning without a traditional panel pattern competing for attention. Reviewed slabs use insulated fiberglass construction, but available widths, edge construction, finish preparation and compatible glass machining depend on the quoted system. The final slab, frame, swing, glass, finish, hardware and installation details are coordinated after the entrance is measured and reviewed. The complete entrance is treated as one coordinated assembly rather than a slab-only purchase.",
+    "publicImageAlt": "Smooth flush fiberglass entry door slab",
+    "publicMediaKey": "wrp-d002",
+    "publicSpecifications": [
+      {
+        "label": "Product type",
+        "value": "Exterior entry door"
+      },
+      {
+        "label": "Material",
+        "value": "Fiberglass"
+      },
+      {
+        "label": "Surface",
+        "value": "Smooth flush face"
+      },
+      {
+        "label": "Available widths",
+        "value": "System dependent; reviewed options include common residential widths"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Flat contemporary face",
+      "Smooth fiberglass surface",
+      "Flexible hardware placement",
+      "Suitable for solid or planned glass configurations"
+    ],
+    "publicBestFor": [
+      "Modern and minimalist entrances",
+      "Projects using colour or hardware as the main visual feature"
+    ],
+    "publicConfigurationOptions": [
+      "Solid slab or compatible glass preparation",
+      "Painted finish direction",
+      "Single or paired entrance only where supported"
+    ],
+    "publicConsiderations": [
+      "A flush face can show installation alignment clearly",
+      "Dark colours require finish and exposure review",
+      "Glass cut-outs must be approved for the selected slab"
+    ],
+    "publicQuoteNote": "The exact manufacturer, slab model, frame system, glass, finish, hardware, performance documentation and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Surface and material",
+    "publicBrowseFacets": [
+      "fiberglass",
+      "smooth",
+      "flush",
+      "modern"
+    ],
+    "publicComparisonTags": [
+      "fiberglass",
+      "smooth",
+      "flush",
+      "modern"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "richersons:wg00",
+    "publicDisplayName": "Oak-Grain Fiberglass Entry Door",
+    "publicSlug": "oak-grain-fiberglass-entry-door",
+    "publicReference": "WRP-D003",
+    "publicCategory": "entry-doors",
+    "publicCategoryLabel": "Entry door",
+    "publicMetaDescription": "A fiberglass entry-door direction with an oak-like embossed texture intended for a stained or wood-toned appearance without using a solid wood slab.",
+    "publicSummary": "A fiberglass entry-door direction with an oak-like embossed texture intended for a stained or wood-toned appearance without using a solid wood slab. Available face patterns range from flush to restrained panel layouts. The visible grain, stain response, panel geometry, size range and compatible glass options depend on the selected slab. The final slab, frame, swing, glass, finish, hardware and installation details are coordinated after the entrance is measured and reviewed. The complete entrance is treated as one coordinated assembly rather than a slab-only purchase.",
+    "publicImageAlt": "Oak-grain textured fiberglass entry door",
+    "publicMediaKey": "wrp-d003",
+    "publicSpecifications": [
+      {
+        "label": "Product type",
+        "value": "Exterior entry door"
+      },
+      {
+        "label": "Material",
+        "value": "Fiberglass"
+      },
+      {
+        "label": "Surface",
+        "value": "Oak-style woodgrain texture"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Embossed oak-style grain",
+      "Fiberglass construction",
+      "Wood-toned finish direction",
+      "Solid and prepared configurations where supported"
+    ],
+    "publicBestFor": [
+      "Traditional and transitional entrances",
+      "Homeowners wanting a wood appearance with fiberglass construction"
+    ],
+    "publicConfigurationOptions": [
+      "Stain or compatible paint system",
+      "Flush or panelled face by selected slab",
+      "Door glass only where the slab permits"
+    ],
+    "publicConsiderations": [
+      "Grain and colour samples should be reviewed together",
+      "Stain results vary by finishing system",
+      "Exposure and dark finishes require approval"
+    ],
+    "publicQuoteNote": "The exact manufacturer, slab model, frame system, glass, finish, hardware, performance documentation and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Surface and material",
+    "publicBrowseFacets": [
+      "fiberglass",
+      "oak-grain",
+      "textured",
+      "traditional"
+    ],
+    "publicComparisonTags": [
+      "fiberglass",
+      "oak-grain",
+      "textured",
+      "traditional"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "mennie-canada:mah-2d",
+    "publicDisplayName": "Mahogany-Grain Fiberglass Entry Door",
+    "publicSlug": "mahogany-grain-fiberglass-entry-door",
+    "publicReference": "WRP-D004",
+    "publicCategory": "entry-doors",
+    "publicCategoryLabel": "Entry door",
+    "publicMetaDescription": "A fiberglass door direction with a deeper mahogany-like grain for stained, wood-toned entrances. Reviewed slabs include flush and panelled faces, allowing.",
+    "publicSummary": "A fiberglass door direction with a deeper mahogany-like grain for stained, wood-toned entrances. Reviewed slabs include flush and panelled faces, allowing the grain character to be coordinated with the architecture rather than tied to one proprietary model. Core, size, panel geometry, finish system and compatible glass preparation remain specific to the quoted slab. The final slab, frame, swing, glass, finish, hardware and installation details are coordinated after the entrance is measured and reviewed. The complete entrance is treated as one coordinated assembly rather than a slab-only purchase.",
+    "publicImageAlt": "Mahogany-grain textured fiberglass entry door",
+    "publicMediaKey": "wrp-d004",
+    "publicSpecifications": [
+      {
+        "label": "Product type",
+        "value": "Exterior entry door"
+      },
+      {
+        "label": "Material",
+        "value": "Fiberglass"
+      },
+      {
+        "label": "Surface",
+        "value": "Mahogany-style woodgrain texture"
+      },
+      {
+        "label": "Panel options",
+        "value": "Flush, one-panel or two-panel directions where supported"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Embossed mahogany-style grain",
+      "Fiberglass construction",
+      "Stain-oriented appearance",
+      "Multiple panel directions"
+    ],
+    "publicBestFor": [
+      "Warm traditional entrances",
+      "Projects seeking a deeper woodgrain appearance"
+    ],
+    "publicConfigurationOptions": [
+      "Flush or panelled face",
+      "Compatible stain system",
+      "Glass preparation only where supported"
+    ],
+    "publicConsiderations": [
+      "Review physical finish samples before ordering",
+      "Panel embossment varies across mapped slabs",
+      "Dark finishes and solar exposure require approval"
+    ],
+    "publicQuoteNote": "The exact manufacturer, slab model, frame system, glass, finish, hardware, performance documentation and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Surface and material",
+    "publicBrowseFacets": [
+      "fiberglass",
+      "mahogany-grain",
+      "textured",
+      "traditional"
+    ],
+    "publicComparisonTags": [
+      "fiberglass",
+      "mahogany-grain",
+      "textured",
+      "traditional"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "mennie-canada:mah-crf",
+    "publicDisplayName": "Craftsman Fiberglass Entry Door",
+    "publicSlug": "craftsman-fiberglass-entry-door",
+    "publicReference": "WRP-D005",
+    "publicCategory": "entry-doors",
+    "publicCategoryLabel": "Entry door",
+    "publicMetaDescription": "A fiberglass entry-door direction using a Craftsman-influenced panel arrangement with strong lower-panel proportions and space for a restrained upper glass.",
+    "publicSummary": "A fiberglass entry-door direction using a Craftsman-influenced panel arrangement with strong lower-panel proportions and space for a restrained upper glass configuration where supported. Smooth and woodgrain surfaces are internally available. The exact panel moulding, glass opening, slab size and finish direction are selected as a coordinated entrance. The final slab, frame, swing, glass, finish, hardware and installation details are coordinated after the entrance is measured and reviewed. The complete entrance is treated as one coordinated assembly rather than a slab-only purchase.",
+    "publicImageAlt": "Craftsman-style fiberglass entry door",
+    "publicMediaKey": "wrp-d005",
+    "publicSpecifications": [
+      {
+        "label": "Product type",
+        "value": "Exterior entry door"
+      },
+      {
+        "label": "Material",
+        "value": "Fiberglass"
+      },
+      {
+        "label": "Style",
+        "value": "Craftsman-influenced panel configuration"
+      },
+      {
+        "label": "Surface options",
+        "value": "Smooth or woodgrain directions"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Craftsman-oriented proportions",
+      "Fiberglass slab construction",
+      "Smooth and textured directions",
+      "Compatible upper glass options where supported"
+    ],
+    "publicBestFor": [
+      "Craftsman, bungalow and transitional elevations",
+      "Entrances needing a defined panel style"
+    ],
+    "publicConfigurationOptions": [
+      "Solid or compatible upper-lite preparation",
+      "Smooth or woodgrain surface",
+      "Coordinated sidelite only where supported"
+    ],
+    "publicConsiderations": [
+      "Craftsman proportions differ between slabs",
+      "Glass size must match the selected preparation",
+      "Hardware location should be reviewed with the panel layout"
+    ],
+    "publicQuoteNote": "The exact manufacturer, slab model, frame system, glass, finish, hardware, performance documentation and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Panel styles",
+    "publicBrowseFacets": [
+      "fiberglass",
+      "craftsman",
+      "panelled",
+      "traditional"
+    ],
+    "publicComparisonTags": [
+      "fiberglass",
+      "craftsman",
+      "panelled",
+      "traditional"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "masonite:6-panel",
+    "publicDisplayName": "Traditional Six-Panel Fiberglass Entry Door",
+    "publicSlug": "traditional-six-panel-fiberglass-entry-door",
+    "publicReference": "WRP-D006",
+    "publicCategory": "entry-doors",
+    "publicCategoryLabel": "Entry door",
+    "publicMetaDescription": "A solid fiberglass entry-door family with a familiar six-panel arrangement. The repeated panel proportions suit many traditional elevations and provide full.",
+    "publicSummary": "A solid fiberglass entry-door family with a familiar six-panel arrangement. The repeated panel proportions suit many traditional elevations and provide full privacy without door glass. Smooth and woodgrain directions are internally represented, but moulding shape, panel depth, surface, size and finish system remain tied to the selected slab. The final slab, frame, swing, glass, finish, hardware and installation details are coordinated after the entrance is measured and reviewed. The complete entrance is treated as one coordinated assembly rather than a slab-only purchase.",
+    "publicImageAlt": "Traditional six-panel fiberglass entry door",
+    "publicMediaKey": "wrp-d006",
+    "publicSpecifications": [
+      {
+        "label": "Product type",
+        "value": "Exterior entry door"
+      },
+      {
+        "label": "Material",
+        "value": "Fiberglass"
+      },
+      {
+        "label": "Panel design",
+        "value": "Six-panel"
+      },
+      {
+        "label": "Glass amount",
+        "value": "Solid door / no required glass"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Recognizable six-panel layout",
+      "Full-privacy solid slab",
+      "Smooth and woodgrain directions",
+      "Fiberglass construction"
+    ],
+    "publicBestFor": [
+      "Traditional residential elevations",
+      "Entrances where door glass is not required"
+    ],
+    "publicConfigurationOptions": [
+      "Surface texture",
+      "Paint or stain direction",
+      "Compatible frame and hardware package"
+    ],
+    "publicConsiderations": [
+      "Panel profiles vary by slab",
+      "Finish samples should be reviewed",
+      "Exact width, swing and frame require measurement"
+    ],
+    "publicQuoteNote": "The exact manufacturer, slab model, frame system, glass, finish, hardware, performance documentation and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Panel styles",
+    "publicBrowseFacets": [
+      "fiberglass",
+      "six-panel",
+      "solid",
+      "traditional"
+    ],
+    "publicComparisonTags": [
+      "fiberglass",
+      "six-panel",
+      "solid",
+      "traditional"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "masonite:full-lite",
+    "publicDisplayName": "Full-Glass Fiberglass Entry Door",
+    "publicSlug": "full-glass-fiberglass-entry-door",
+    "publicReference": "WRP-D007",
+    "publicCategory": "entry-doors",
+    "publicCategoryLabel": "Entry door",
+    "publicMetaDescription": "A fiberglass entry-door configuration in which glass occupies most of the slab face, bringing daylight and a broad view into the entrance. Full-lite.",
+    "publicSummary": "A fiberglass entry-door configuration in which glass occupies most of the slab face, bringing daylight and a broad view into the entrance. Full-lite proportions can look traditional or contemporary depending on glass, frame, finish and hardware. The exact visible glass size, privacy treatment, safety-glass construction and energy package must be confirmed with the complete door system. The final slab, frame, swing, glass, finish, hardware and installation details are coordinated after the entrance is measured and reviewed. The complete entrance is treated as one coordinated assembly rather than a slab-only purchase.",
+    "publicImageAlt": "Fiberglass entry door with a full-height glass insert",
+    "publicMediaKey": "wrp-d007",
+    "publicSpecifications": [
+      {
+        "label": "Product type",
+        "value": "Exterior entry door"
+      },
+      {
+        "label": "Material",
+        "value": "Fiberglass"
+      },
+      {
+        "label": "Glass amount",
+        "value": "Full lite"
+      },
+      {
+        "label": "Glazing",
+        "value": "Insulated safety-glass configuration, system dependent"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Large full-height glass area",
+      "Fiberglass door construction",
+      "Broad daylight opening",
+      "Clear, privacy or decorative directions where compatible"
+    ],
+    "publicBestFor": [
+      "Entrances prioritizing daylight",
+      "Rear or front doors where visibility is useful"
+    ],
+    "publicConfigurationOptions": [
+      "Clear, privacy or decorative glass",
+      "Frame and finish coordination",
+      "Single door with surrounding glass where supported"
+    ],
+    "publicConsiderations": [
+      "Privacy should be reviewed from both sides",
+      "Large glass areas affect thermal and solar performance",
+      "Safety and security details are system-specific"
+    ],
+    "publicQuoteNote": "The exact manufacturer, slab model, frame system, glass, finish, hardware, performance documentation and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Glass configurations",
+    "publicBrowseFacets": [
+      "fiberglass",
+      "full-lite",
+      "glass",
+      "daylight"
+    ],
+    "publicComparisonTags": [
+      "fiberglass",
+      "full-lite",
+      "glass",
+      "daylight"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "masonite:2-panel-1-2-lite",
+    "publicDisplayName": "Half-Glass Fiberglass Entry Door",
+    "publicSlug": "half-glass-fiberglass-entry-door",
+    "publicReference": "WRP-D008",
+    "publicCategory": "entry-doors",
+    "publicCategoryLabel": "Entry door",
+    "publicMetaDescription": "A fiberglass entry-door configuration with an upper glass area and a solid lower portion. The arrangement balances daylight and outward visibility with more.",
+    "publicSummary": "A fiberglass entry-door configuration with an upper glass area and a solid lower portion. The arrangement balances daylight and outward visibility with more privacy and impact protection near the bottom of the door. Panel design, surface texture, visible glass size and compatible decorative or privacy glass vary across the reviewed slabs. The final slab, frame, swing, glass, finish, hardware and installation details are coordinated after the entrance is measured and reviewed. The complete entrance is treated as one coordinated assembly rather than a slab-only purchase.",
+    "publicImageAlt": "Fiberglass entry door with upper half glass",
+    "publicMediaKey": "wrp-d008",
+    "publicSpecifications": [
+      {
+        "label": "Product type",
+        "value": "Exterior entry door"
+      },
+      {
+        "label": "Material",
+        "value": "Fiberglass"
+      },
+      {
+        "label": "Glass amount",
+        "value": "Approximately half lite"
+      },
+      {
+        "label": "Lower section",
+        "value": "Solid panelled or flush section"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Upper-half glass opening",
+      "Solid lower door area",
+      "Fiberglass slab construction",
+      "Multiple surface directions"
+    ],
+    "publicBestFor": [
+      "Front entrances balancing daylight and privacy",
+      "Doors where a full-height glass area is not desired"
+    ],
+    "publicConfigurationOptions": [
+      "Clear, privacy or decorative upper glass",
+      "Smooth or woodgrain surface",
+      "Lower-panel design by selected slab"
+    ],
+    "publicConsiderations": [
+      "Glass proportions vary by model",
+      "Privacy depends on the selected glass",
+      "Hardware must coordinate with panel and glass locations"
+    ],
+    "publicQuoteNote": "The exact manufacturer, slab model, frame system, glass, finish, hardware, performance documentation and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Glass configurations",
+    "publicBrowseFacets": [
+      "fiberglass",
+      "half-lite",
+      "glass",
+      "balanced"
+    ],
+    "publicComparisonTags": [
+      "fiberglass",
+      "half-lite",
+      "glass",
+      "balanced"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "masonite:vistagrande-flush-glazed-3-4-lite",
+    "publicDisplayName": "Three-Quarter-Glass Fiberglass Entry Door",
+    "publicSlug": "three-quarter-glass-fiberglass-entry-door",
+    "publicReference": "WRP-D009",
+    "publicCategory": "entry-doors",
+    "publicCategoryLabel": "Entry door",
+    "publicMetaDescription": "A fiberglass entry-door configuration with a tall glass area and a shorter solid section below. It provides more daylight than a half-lite door while.",
+    "publicSummary": "A fiberglass entry-door configuration with a tall glass area and a shorter solid section below. It provides more daylight than a half-lite door while retaining a visible lower slab area for panel detail and hardware coordination. Flush-glazed and framed directions are internally represented, so glass sightlines, surface and thermal construction must be confirmed for the selected system. The final slab, frame, swing, glass, finish, hardware and installation details are coordinated after the entrance is measured and reviewed. The complete entrance is treated as one coordinated assembly rather than a slab-only purchase.",
+    "publicImageAlt": "Fiberglass entry door with tall three-quarter glass",
+    "publicMediaKey": "wrp-d009",
+    "publicSpecifications": [
+      {
+        "label": "Product type",
+        "value": "Exterior entry door"
+      },
+      {
+        "label": "Material",
+        "value": "Fiberglass"
+      },
+      {
+        "label": "Glass amount",
+        "value": "Approximately three-quarter lite"
+      },
+      {
+        "label": "Glazing",
+        "value": "Insulated safety-glass configuration, system dependent"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Tall glass proportion",
+      "Solid lower slab area",
+      "Fiberglass construction",
+      "Flush-glazed or framed directions"
+    ],
+    "publicBestFor": [
+      "Entrances wanting substantial daylight",
+      "Contemporary or transitional glass-forward designs"
+    ],
+    "publicConfigurationOptions": [
+      "Clear, privacy or decorative glass",
+      "Smooth or woodgrain surface",
+      "Flush-glazed or framed system where available"
+    ],
+    "publicConsiderations": [
+      "Privacy and solar exposure require review",
+      "Visible glass dimensions vary",
+      "Glass framing changes the finished appearance"
+    ],
+    "publicQuoteNote": "The exact manufacturer, slab model, frame system, glass, finish, hardware, performance documentation and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Glass configurations",
+    "publicBrowseFacets": [
+      "fiberglass",
+      "three-quarter-lite",
+      "glass",
+      "daylight"
+    ],
+    "publicComparisonTags": [
+      "fiberglass",
+      "three-quarter-lite",
+      "glass",
+      "daylight"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "richersons:sgnl",
+    "publicDisplayName": "Narrow-Lite Fiberglass Entry Door",
+    "publicSlug": "narrow-lite-fiberglass-entry-door",
+    "publicReference": "WRP-D010",
+    "publicCategory": "entry-doors",
+    "publicCategoryLabel": "Entry door",
+    "publicMetaDescription": "A fiberglass entry door with a slim vertical glass opening that adds daylight while preserving more solid slab area than a wide lite. Smooth and woodgrain.",
+    "publicSummary": "A fiberglass entry door with a slim vertical glass opening that adds daylight while preserving more solid slab area than a wide lite. Smooth and woodgrain surfaces are internally available. The narrow proportion works well with contemporary hardware and tighter privacy goals, but exact glass width, placement, design and slab compatibility depend on the quoted configuration. The final slab, frame, swing, glass, finish, hardware and installation details are coordinated after the entrance is measured and reviewed. The complete entrance is treated as one coordinated assembly rather than a slab-only purchase.",
+    "publicImageAlt": "Fiberglass entry door with a narrow vertical glass insert",
+    "publicMediaKey": "wrp-d010",
+    "publicSpecifications": [
+      {
+        "label": "Product type",
+        "value": "Exterior entry door"
+      },
+      {
+        "label": "Material",
+        "value": "Fiberglass"
+      },
+      {
+        "label": "Glass amount",
+        "value": "Narrow vertical lite"
+      },
+      {
+        "label": "Surface options",
+        "value": "Smooth or woodgrain directions"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Slim vertical glass opening",
+      "More solid slab area than a full-width lite",
+      "Smooth and textured slab directions",
+      "Fiberglass construction"
+    ],
+    "publicBestFor": [
+      "Modern or transitional entrances",
+      "Projects seeking limited daylight with more privacy"
+    ],
+    "publicConfigurationOptions": [
+      "Clear or privacy glass where supported",
+      "Smooth or woodgrain surface",
+      "Glass placement and handing by selected slab"
+    ],
+    "publicConsiderations": [
+      "Narrow glass still affects privacy",
+      "Lock and pull placement need coordination",
+      "Available glass sizes are slab-specific"
+    ],
+    "publicQuoteNote": "The exact manufacturer, slab model, frame system, glass, finish, hardware, performance documentation and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Glass configurations",
+    "publicBrowseFacets": [
+      "fiberglass",
+      "narrow-lite",
+      "glass",
+      "modern"
+    ],
+    "publicComparisonTags": [
+      "fiberglass",
+      "narrow-lite",
+      "glass",
+      "modern"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "richersons:sg46",
+    "publicDisplayName": "Four-Panel Fiberglass Entry Door",
+    "publicSlug": "four-panel-fiberglass-entry-door",
+    "publicReference": "WRP-D011",
+    "publicCategory": "entry-doors",
+    "publicCategoryLabel": "Entry door",
+    "publicMetaDescription": "A fiberglass entry-door family with four defined panel areas and a solid, privacy-focused face. Smooth and woodgrain surfaces are internally represented.",
+    "publicSummary": "A fiberglass entry-door family with four defined panel areas and a solid, privacy-focused face. Smooth and woodgrain surfaces are internally represented, with panel arrangements ranging from evenly divided to layouts that reserve a blank upper area. Exact panel geometry, finishing method, width and glass compatibility remain tied to the selected slab. The final slab, frame, swing, glass, finish, hardware and installation details are coordinated after the entrance is measured and reviewed. The complete entrance is treated as one coordinated assembly rather than a slab-only purchase.",
+    "publicImageAlt": "Four-panel fiberglass entry door",
+    "publicMediaKey": "wrp-d011",
+    "publicSpecifications": [
+      {
+        "label": "Product type",
+        "value": "Exterior entry door"
+      },
+      {
+        "label": "Material",
+        "value": "Fiberglass"
+      },
+      {
+        "label": "Panel design",
+        "value": "Four-panel"
+      },
+      {
+        "label": "Glass amount",
+        "value": "Solid door / no required glass"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Four-panel face design",
+      "Full-privacy solid slab",
+      "Smooth and woodgrain directions",
+      "Fiberglass construction"
+    ],
+    "publicBestFor": [
+      "Traditional and transitional entrances",
+      "Projects wanting more panel detail without glass"
+    ],
+    "publicConfigurationOptions": [
+      "Surface texture",
+      "Panel proportion by selected slab",
+      "Paint or stain direction"
+    ],
+    "publicConsiderations": [
+      "Four-panel layouts are not identical",
+      "Finish requirements vary by surface",
+      "Exact dimensions require measured selection"
+    ],
+    "publicQuoteNote": "The exact manufacturer, slab model, frame system, glass, finish, hardware, performance documentation and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Panel styles",
+    "publicBrowseFacets": [
+      "fiberglass",
+      "four-panel",
+      "solid",
+      "traditional"
+    ],
+    "publicComparisonTags": [
+      "fiberglass",
+      "four-panel",
+      "solid",
+      "traditional"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "trimlite:drf1k",
+    "publicDisplayName": "One-Panel Woodgrain Fiberglass Entry Door",
+    "publicSlug": "one-panel-woodgrain-fiberglass-entry-door",
+    "publicReference": "WRP-D012",
+    "publicCategory": "entry-doors",
+    "publicCategoryLabel": "Entry door",
+    "publicMetaDescription": "A fiberglass entry door with one large recessed panel and a visible woodgrain surface. The simple panel geometry offers more definition than a flush slab.",
+    "publicSummary": "A fiberglass entry door with one large recessed panel and a visible woodgrain surface. The simple panel geometry offers more definition than a flush slab while remaining restrained enough for contemporary or transitional hardware. The reviewed slab uses a fir-like grain direction, and its exact size, finish preparation, core, frame and compatible glass machining must be confirmed as a complete entrance. The final slab, frame, swing, glass, finish, hardware and installation details are coordinated after the entrance is measured and reviewed. The complete entrance is treated as one coordinated assembly rather than a slab-only purchase.",
+    "publicImageAlt": "One-panel woodgrain fiberglass entry door",
+    "publicMediaKey": "wrp-d012",
+    "publicSpecifications": [
+      {
+        "label": "Product type",
+        "value": "Exterior entry door"
+      },
+      {
+        "label": "Material",
+        "value": "Fiberglass"
+      },
+      {
+        "label": "Panel design",
+        "value": "One large recessed panel"
+      },
+      {
+        "label": "Surface",
+        "value": "Woodgrain texture"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Single recessed-panel face",
+      "Visible woodgrain texture",
+      "Fiberglass construction",
+      "Restrained contemporary or transitional proportions"
+    ],
+    "publicBestFor": [
+      "Entrances needing one strong panel detail",
+      "Projects comparing flush and traditional multi-panel doors"
+    ],
+    "publicConfigurationOptions": [
+      "Compatible stain or paint system",
+      "Single-door frame and swing",
+      "Glass preparation only where explicitly supported"
+    ],
+    "publicConsiderations": [
+      "Woodgrain and finish samples should be reviewed together",
+      "Panel proportions are slab-specific",
+      "Exact size and machining require quoted confirmation"
+    ],
+    "publicQuoteNote": "The exact manufacturer, slab model, frame system, glass, finish, hardware, performance documentation and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Panel styles",
+    "publicBrowseFacets": [
+      "fiberglass",
+      "one-panel",
+      "woodgrain",
+      "transitional"
+    ],
+    "publicComparisonTags": [
+      "fiberglass",
+      "one-panel",
+      "woodgrain",
+      "transitional"
     ],
     "publicPublicationStatus": "approved"
   },
@@ -41,13 +1433,744 @@
     "publicReference": "WRP-G001",
     "publicCategory": "door-glass",
     "publicCategoryLabel": "Door glass",
-    "publicSummary": "A contemporary black-accent door-glass design with a linear composition, insulated glazing and partial privacy.",
+    "publicMetaDescription": "A contemporary door-glass direction using dark linear accents and partially obscured glazing. The vertical composition gives the entrance a strong graphic.",
+    "publicSummary": "A contemporary door-glass direction using dark linear accents and partially obscured glazing. The vertical composition gives the entrance a strong graphic element while retaining some transmitted light. Reviewed evidence identifies insulated multi-pane construction and a low-to-moderate privacy level, so interior silhouettes and nighttime views should be considered before selection. Glass size, privacy, compatible door construction and the complete entrance configuration are confirmed before the exact design is named in the written quotation. Current samples are reviewed from both sides under representative lighting before careful final approval.",
     "publicImageAlt": "Black linear privacy glass insert for an entry door",
     "publicMediaKey": "wrp-g001",
     "publicSpecifications": [
-      { "label": "Product type", "value": "Door glass" },
-      { "label": "Glazing", "value": "Triple glazing with a black-tinted V-groove centre pane" },
-      { "label": "Privacy", "value": "2 / 5" }
+      {
+        "label": "Product type",
+        "value": "Door glass"
+      },
+      {
+        "label": "Design direction",
+        "value": "Black linear composition"
+      },
+      {
+        "label": "Glazing",
+        "value": "Insulated multi-pane construction"
+      },
+      {
+        "label": "Privacy",
+        "value": "Partial privacy; reviewed rating 2 / 5"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Dark linear visual accents",
+      "Partial-privacy glazing",
+      "Insulated glass construction",
+      "Contemporary vertical composition"
+    ],
+    "publicBestFor": [
+      "Modern entry doors",
+      "Entrances where daylight is preferred over maximum privacy"
+    ],
+    "publicConfigurationOptions": [
+      "Compatible full-door and sidelite sizes where available",
+      "Door slab and frame finish coordination",
+      "Interior and exterior orientation"
+    ],
+    "publicConsiderations": [
+      "Partial privacy is not complete obscurity",
+      "Nighttime privacy should be reviewed",
+      "Black accents should coordinate with hardware and door colour"
+    ],
+    "publicQuoteNote": "The exact manufacturer, glass design, compatible sizes, privacy characteristics, construction and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Privacy glass",
+    "publicBrowseFacets": [
+      "privacy",
+      "linear",
+      "black",
+      "contemporary"
+    ],
+    "publicComparisonTags": [
+      "privacy",
+      "linear",
+      "black",
+      "contemporary"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "novatech:rubik",
+    "publicDisplayName": "Geometric High-Privacy Door Glass",
+    "publicSlug": "geometric-high-privacy-door-glass",
+    "publicReference": "WRP-G002",
+    "publicCategory": "door-glass",
+    "publicCategoryLabel": "Door glass",
+    "publicMetaDescription": "A decorative door-glass direction built around repeated geometric forms and strongly obscured glazing. The pattern reads as contemporary while providing.",
+    "publicSummary": "A decorative door-glass direction built around repeated geometric forms and strongly obscured glazing. The pattern reads as contemporary while providing substantially more privacy than clear or lightly textured glass. Reviewed evidence assigns a high privacy level, but shape visibility, nighttime conditions and the effect of different door-glass sizes should still be reviewed. Glass size, privacy, compatible door construction and the complete entrance configuration are confirmed before the exact design is named in the written quotation. Current samples are reviewed from both sides under representative lighting before careful final approval.",
+    "publicImageAlt": "Geometric high-privacy decorative door glass",
+    "publicMediaKey": "wrp-g002",
+    "publicSpecifications": [
+      {
+        "label": "Product type",
+        "value": "Door glass"
+      },
+      {
+        "label": "Design direction",
+        "value": "Geometric composition"
+      },
+      {
+        "label": "Privacy",
+        "value": "High privacy; reviewed rating 4 / 5"
+      },
+      {
+        "label": "Warranty",
+        "value": "Limited warranty available; exact terms confirmed in quotation"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Repeated geometric pattern",
+      "High-privacy glazing",
+      "Contemporary decorative direction",
+      "Multiple compatible sizes where available"
+    ],
+    "publicBestFor": [
+      "Front entrances needing privacy and pattern",
+      "Contemporary doors with simple panel geometry"
+    ],
+    "publicConfigurationOptions": [
+      "Door-glass size",
+      "Compatible sidelite format where available",
+      "Door and hardware colour coordination"
+    ],
+    "publicConsiderations": [
+      "High privacy still allows transmitted light",
+      "Pattern scale changes with glass size",
+      "Exact construction must match the selected door system"
+    ],
+    "publicQuoteNote": "The exact manufacturer, glass design, compatible sizes, privacy characteristics, construction and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Privacy glass",
+    "publicBrowseFacets": [
+      "privacy",
+      "geometric",
+      "high-privacy",
+      "contemporary"
+    ],
+    "publicComparisonTags": [
+      "privacy",
+      "geometric",
+      "high-privacy",
+      "contemporary"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "novatech:equation",
+    "publicDisplayName": "Frosted High-Privacy Door Glass",
+    "publicSlug": "frosted-high-privacy-door-glass",
+    "publicReference": "WRP-G003",
+    "publicCategory": "door-glass",
+    "publicCategoryLabel": "Door glass",
+    "publicMetaDescription": "A high-privacy door-glass direction using broad frosted or obscured areas rather than ornate decorative caming. It admits diffused daylight while limiting.",
+    "publicSummary": "A high-privacy door-glass direction using broad frosted or obscured areas rather than ornate decorative caming. It admits diffused daylight while limiting direct views through the entrance. Reviewed evidence identifies a high privacy rating, making this a useful comparison against clear-zone and partially obscured designs. Glass size, privacy, compatible door construction and the complete entrance configuration are confirmed before the exact design is named in the written quotation. Current samples are reviewed from both sides under representative lighting before careful final approval.",
+    "publicImageAlt": "Frosted high-privacy glass insert for an entry door",
+    "publicMediaKey": "wrp-g003",
+    "publicSpecifications": [
+      {
+        "label": "Product type",
+        "value": "Door glass"
+      },
+      {
+        "label": "Design direction",
+        "value": "Broad frosted or obscured composition"
+      },
+      {
+        "label": "Privacy",
+        "value": "High privacy; reviewed rating 4 / 5"
+      },
+      {
+        "label": "Warranty",
+        "value": "Limited warranty available; exact terms confirmed in quotation"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Diffused daylight",
+      "High-privacy glazing",
+      "Restrained contemporary appearance",
+      "Multiple size directions where compatible"
+    ],
+    "publicBestFor": [
+      "Entrances near public walkways",
+      "Homeowners preferring obscurity without ornate pattern"
+    ],
+    "publicConfigurationOptions": [
+      "Door-glass size",
+      "Clear-border or fully obscured direction where available",
+      "Compatible sidelite format"
+    ],
+    "publicConsiderations": [
+      "Nighttime silhouettes may still be visible",
+      "Privacy varies with lighting distance and angle",
+      "Exact glass construction is system-specific"
+    ],
+    "publicQuoteNote": "The exact manufacturer, glass design, compatible sizes, privacy characteristics, construction and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Privacy glass",
+    "publicBrowseFacets": [
+      "privacy",
+      "frosted",
+      "high-privacy",
+      "minimal"
+    ],
+    "publicComparisonTags": [
+      "privacy",
+      "frosted",
+      "high-privacy",
+      "minimal"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "verre-select:cbg",
+    "publicDisplayName": "Clear-Zone Sandblasted Door Glass",
+    "publicSlug": "clear-zone-sandblasted-door-glass",
+    "publicReference": "WRP-G004",
+    "publicCategory": "door-glass",
+    "publicCategoryLabel": "Door glass",
+    "publicMetaDescription": "A privacy-glass family that combines sandblasted or frosted areas with deliberately clear zones. The contrast creates a crisp contemporary composition and.",
+    "publicSummary": "A privacy-glass family that combines sandblasted or frosted areas with deliberately clear zones. The contrast creates a crisp contemporary composition and allows controlled views or brighter bands of daylight. Several reviewed designs support multiple full-door and sidelite dimensions, but the placement and width of clear areas differ and must be selected from current samples. Glass size, privacy, compatible door construction and the complete entrance configuration are confirmed before the exact design is named in the written quotation. Current samples are reviewed from both sides under representative lighting before careful final approval.",
+    "publicImageAlt": "Sandblasted privacy door glass with clear accent zones",
+    "publicMediaKey": "wrp-g004",
+    "publicSpecifications": [
+      {
+        "label": "Product type",
+        "value": "Door glass"
+      },
+      {
+        "label": "Glass treatment",
+        "value": "Sandblasted areas with clear zones"
+      },
+      {
+        "label": "Available sizes",
+        "value": "Multiple door-glass and sidelite formats, design dependent"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Sandblasted privacy field",
+      "Deliberate clear accent zones",
+      "Contemporary graphic effect",
+      "Door and sidelite sizes where supported"
+    ],
+    "publicBestFor": [
+      "Modern entrances needing balanced light and privacy",
+      "Projects coordinating door glass with narrow sidelites"
+    ],
+    "publicConfigurationOptions": [
+      "Clear-zone placement",
+      "Door-glass size",
+      "Matching sidelite composition where available"
+    ],
+    "publicConsiderations": [
+      "Clear zones permit direct views",
+      "Pattern placement changes by size",
+      "Current samples should be reviewed before ordering"
+    ],
+    "publicQuoteNote": "The exact manufacturer, glass design, compatible sizes, privacy characteristics, construction and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Privacy glass",
+    "publicBrowseFacets": [
+      "privacy",
+      "sandblasted",
+      "clear-zone",
+      "contemporary"
+    ],
+    "publicComparisonTags": [
+      "privacy",
+      "sandblasted",
+      "clear-zone",
+      "contemporary"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "verre-select:java",
+    "publicDisplayName": "Linear Privacy Door Glass",
+    "publicSlug": "linear-privacy-door-glass",
+    "publicReference": "WRP-G005",
+    "publicCategory": "door-glass",
+    "publicCategoryLabel": "Door glass",
+    "publicMetaDescription": "A privacy-glass direction using restrained vertical or grid-like lines with clear and obscured areas. The organized pattern works with modern and.",
+    "publicSummary": "A privacy-glass direction using restrained vertical or grid-like lines with clear and obscured areas. The organized pattern works with modern and transitional doors without relying on ornate bevels. Reviewed options include full-height door and sidelite proportions, with optional grille-like accents in some configurations. Glass size, privacy, compatible door construction and the complete entrance configuration are confirmed before the exact design is named in the written quotation. Current samples are reviewed from both sides under representative lighting before careful final approval.",
+    "publicImageAlt": "Linear privacy glass insert for an entry door",
+    "publicMediaKey": "wrp-g005",
+    "publicSpecifications": [
+      {
+        "label": "Product type",
+        "value": "Door glass"
+      },
+      {
+        "label": "Design direction",
+        "value": "Linear clear-and-obscured composition"
+      },
+      {
+        "label": "Available sizes",
+        "value": "Full-height door and sidelite formats, design dependent"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Organized linear pattern",
+      "Privacy and clear-area contrast",
+      "Full-height directions",
+      "Compatible sidelite sizes where supported"
+    ],
+    "publicBestFor": [
+      "Modern and transitional entrances",
+      "Doors needing a quieter pattern than decorative caming"
+    ],
+    "publicConfigurationOptions": [
+      "Pattern and grille direction",
+      "Door-glass size",
+      "Matching sidelite format"
+    ],
+    "publicConsiderations": [
+      "Privacy depends on clear-area placement",
+      "Line spacing varies by design and size",
+      "Exact grille and glass construction must be confirmed"
+    ],
+    "publicQuoteNote": "The exact manufacturer, glass design, compatible sizes, privacy characteristics, construction and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Privacy glass",
+    "publicBrowseFacets": [
+      "privacy",
+      "linear",
+      "full-lite",
+      "transitional"
+    ],
+    "publicComparisonTags": [
+      "privacy",
+      "linear",
+      "full-lite",
+      "transitional"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "verre-select:wide-reed",
+    "publicDisplayName": "Wide-Reed Textured Door Glass",
+    "publicSlug": "wide-reed-textured-door-glass",
+    "publicReference": "WRP-G006",
+    "publicCategory": "door-glass",
+    "publicCategoryLabel": "Door glass",
+    "publicMetaDescription": "A textured door-glass family with broad vertical reeds that distort views while transmitting daylight. The repeated texture provides a simple architectural.",
+    "publicSummary": "A textured door-glass family with broad vertical reeds that distort views while transmitting daylight. The repeated texture provides a simple architectural rhythm and avoids decorative metal caming. Reviewed options cover several door-glass and sidelite sizes, though reed width, orientation and privacy effect should be confirmed from current samples. Glass size, privacy, compatible door construction and the complete entrance configuration are confirmed before the exact design is named in the written quotation. Current samples are reviewed from both sides under representative lighting before careful final approval.",
+    "publicImageAlt": "Wide vertical reeded textured door glass",
+    "publicMediaKey": "wrp-g006",
+    "publicSpecifications": [
+      {
+        "label": "Product type",
+        "value": "Door glass"
+      },
+      {
+        "label": "Glass texture",
+        "value": "Wide vertical reed"
+      },
+      {
+        "label": "Available sizes",
+        "value": "Multiple door-glass and sidelite formats, design dependent"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Broad vertical texture",
+      "No required decorative caming",
+      "Diffused views",
+      "Multiple height and width directions"
+    ],
+    "publicBestFor": [
+      "Contemporary and transitional doors",
+      "Entrances wanting texture without an ornate pattern"
+    ],
+    "publicConfigurationOptions": [
+      "Door-glass size",
+      "Vertical orientation",
+      "Compatible sidelite proportions"
+    ],
+    "publicConsiderations": [
+      "Texture privacy changes with distance and lighting",
+      "The textured face orientation must be installed correctly",
+      "Pattern scale varies by glass size"
+    ],
+    "publicQuoteNote": "The exact manufacturer, glass design, compatible sizes, privacy characteristics, construction and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Texture and pattern",
+    "publicBrowseFacets": [
+      "textured",
+      "reeded",
+      "privacy",
+      "minimal"
+    ],
+    "publicComparisonTags": [
+      "textured",
+      "reeded",
+      "privacy",
+      "minimal"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "verre-select:waterside",
+    "publicDisplayName": "Clear Patterned Door Glass",
+    "publicSlug": "clear-patterned-door-glass",
+    "publicReference": "WRP-G007",
+    "publicCategory": "door-glass",
+    "publicCategoryLabel": "Door glass",
+    "publicMetaDescription": "A decorative door-glass family that retains a generally clear appearance while using softly patterned or lightly textured sections to add movement. It.",
+    "publicSummary": "A decorative door-glass family that retains a generally clear appearance while using softly patterned or lightly textured sections to add movement. It provides more outward visibility than privacy-focused glass. Reviewed designs support several door and sidelite dimensions, but the exact texture combination and view-through area should be checked before selection. Glass size, privacy, compatible door construction and the complete entrance configuration are confirmed before the exact design is named in the written quotation. Current samples are reviewed from both sides under representative lighting before careful final approval.",
+    "publicImageAlt": "Clear patterned decorative glass insert for an entry door",
+    "publicMediaKey": "wrp-g007",
+    "publicSpecifications": [
+      {
+        "label": "Product type",
+        "value": "Door glass"
+      },
+      {
+        "label": "Design direction",
+        "value": "Predominantly clear patterned glass"
+      },
+      {
+        "label": "Privacy",
+        "value": "Low privacy; exact effect varies by design"
+      },
+      {
+        "label": "Available sizes",
+        "value": "Door and sidelite formats, design dependent"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Predominantly clear appearance",
+      "Soft patterned texture",
+      "High daylight transmission",
+      "Door and sidelite directions"
+    ],
+    "publicBestFor": [
+      "Entrances where visibility is welcome",
+      "Homeowners wanting subtle glass detail"
+    ],
+    "publicConfigurationOptions": [
+      "Texture combination",
+      "Door-glass size",
+      "Matching sidelite format where available"
+    ],
+    "publicConsiderations": [
+      "Provides limited privacy",
+      "Exterior and interior views should be checked",
+      "Pattern appearance changes with background and lighting"
+    ],
+    "publicQuoteNote": "The exact manufacturer, glass design, compatible sizes, privacy characteristics, construction and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Texture and pattern",
+    "publicBrowseFacets": [
+      "clear",
+      "patterned",
+      "low-privacy",
+      "daylight"
+    ],
+    "publicComparisonTags": [
+      "clear",
+      "patterned",
+      "low-privacy",
+      "daylight"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "verre-select:paris",
+    "publicDisplayName": "Classic Beveled Decorative Door Glass",
+    "publicSlug": "classic-beveled-decorative-door-glass",
+    "publicReference": "WRP-G008",
+    "publicCategory": "door-glass",
+    "publicCategoryLabel": "Door glass",
+    "publicMetaDescription": "A traditional decorative-glass family using clear bevels and contrasting textured pieces to create sparkle and depth. The composition is intended as a.",
+    "publicSummary": "A traditional decorative-glass family using clear bevels and contrasting textured pieces to create sparkle and depth. The composition is intended as a visible entrance feature rather than a minimal privacy panel. Reviewed designs include full-height door and sidelite proportions, with privacy ranging according to the amount and placement of clear glass. Glass size, privacy, compatible door construction and the complete entrance configuration are confirmed before the exact design is named in the written quotation. Current samples are reviewed from both sides under representative lighting before careful final approval.",
+    "publicImageAlt": "Classic beveled decorative glass for an entry door",
+    "publicMediaKey": "wrp-g008",
+    "publicSpecifications": [
+      {
+        "label": "Product type",
+        "value": "Decorative door glass"
+      },
+      {
+        "label": "Design elements",
+        "value": "Clear bevels with textured glass"
+      },
+      {
+        "label": "Available sizes",
+        "value": "Full-height door and sidelite formats, design dependent"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Clear beveled accents",
+      "Contrasting textured glass",
+      "Traditional decorative composition",
+      "Door and sidelite sizes where supported"
+    ],
+    "publicBestFor": [
+      "Traditional front entrances",
+      "Projects treating door glass as a focal detail"
+    ],
+    "publicConfigurationOptions": [
+      "Bevel and texture combination",
+      "Door-glass size",
+      "Matching sidelite format"
+    ],
+    "publicConsiderations": [
+      "Clear bevels can reduce privacy",
+      "Decorative patterns vary substantially",
+      "Current glass samples should be reviewed in natural light"
+    ],
+    "publicQuoteNote": "The exact manufacturer, glass design, compatible sizes, privacy characteristics, construction and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Decorative glass",
+    "publicBrowseFacets": [
+      "decorative",
+      "beveled",
+      "traditional",
+      "clear"
+    ],
+    "publicComparisonTags": [
+      "decorative",
+      "beveled",
+      "traditional",
+      "clear"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "verre-select:renoir",
+    "publicDisplayName": "Hammered Decorative Door Glass",
+    "publicSlug": "hammered-decorative-door-glass",
+    "publicReference": "WRP-G009",
+    "publicCategory": "door-glass",
+    "publicCategoryLabel": "Door glass",
+    "publicMetaDescription": "A decorative-glass family using hammered or similarly textured pieces with bevels or patterned sections. The irregular surface catches light and obscures.",
+    "publicSummary": "A decorative-glass family using hammered or similarly textured pieces with bevels or patterned sections. The irregular surface catches light and obscures portions of the view while preserving a handcrafted visual character. Reviewed options suit traditional and transitional doors, but pattern density, clear areas and available sizes differ. Glass size, privacy, compatible door construction and the complete entrance configuration are confirmed before the exact design is named in the written quotation. Current samples are reviewed from both sides under representative lighting before careful final approval.",
+    "publicImageAlt": "Hammered textured decorative glass insert for an entry door",
+    "publicMediaKey": "wrp-g009",
+    "publicSpecifications": [
+      {
+        "label": "Product type",
+        "value": "Decorative door glass"
+      },
+      {
+        "label": "Design elements",
+        "value": "Hammered or irregular textured glass with decorative accents"
+      },
+      {
+        "label": "Available sizes",
+        "value": "Door and sidelite formats, design dependent"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Hammered textured sections",
+      "Decorative bevel or pattern accents",
+      "Light-catching surface",
+      "Multiple proportions where supported"
+    ],
+    "publicBestFor": [
+      "Traditional and transitional entrances",
+      "Projects wanting texture and visual detail"
+    ],
+    "publicConfigurationOptions": [
+      "Texture and bevel combination",
+      "Door-glass size",
+      "Compatible sidelite option"
+    ],
+    "publicConsiderations": [
+      "Privacy varies with clear accent areas",
+      "Texture should be viewed from both sides",
+      "Each mapped pattern remains a distinct quoted choice"
+    ],
+    "publicQuoteNote": "The exact manufacturer, glass design, compatible sizes, privacy characteristics, construction and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Decorative glass",
+    "publicBrowseFacets": [
+      "decorative",
+      "hammered",
+      "textured",
+      "traditional"
+    ],
+    "publicComparisonTags": [
+      "decorative",
+      "hammered",
+      "textured",
+      "traditional"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "verre-select:quattro",
+    "publicDisplayName": "Contemporary Camed Door Glass",
+    "publicSlug": "contemporary-camed-door-glass",
+    "publicReference": "WRP-G010",
+    "publicCategory": "door-glass",
+    "publicCategoryLabel": "Door glass",
+    "publicMetaDescription": "A decorative door-glass direction using crisp camed lines, bevels and textured pieces in an organized contemporary composition. The metal-defined geometry.",
+    "publicSummary": "A decorative door-glass direction using crisp camed lines, bevels and textured pieces in an organized contemporary composition. The metal-defined geometry creates more visual detail than simple privacy glass while remaining less ornate than many traditional patterns. Reviewed options include tall door and sidelite formats, subject to the selected design. Glass size, privacy, compatible door construction and the complete entrance configuration are confirmed before the exact design is named in the written quotation. Current samples are reviewed from both sides under representative lighting before careful final approval.",
+    "publicImageAlt": "Contemporary camed decorative door glass",
+    "publicMediaKey": "wrp-g010",
+    "publicSpecifications": [
+      {
+        "label": "Product type",
+        "value": "Decorative door glass"
+      },
+      {
+        "label": "Design elements",
+        "value": "Camed geometry with bevelled and textured glass"
+      },
+      {
+        "label": "Available sizes",
+        "value": "Tall door and sidelite formats, design dependent"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Crisp camed geometry",
+      "Bevelled and textured sections",
+      "Contemporary decorative direction",
+      "Coordinated sidelite sizes where supported"
+    ],
+    "publicBestFor": [
+      "Contemporary and transitional entrances",
+      "Homeowners wanting visible metal-defined pattern"
+    ],
+    "publicConfigurationOptions": [
+      "Caming finish",
+      "Door-glass size",
+      "Matching sidelite design"
+    ],
+    "publicConsiderations": [
+      "Caming colour should coordinate with hardware",
+      "Clear pieces affect privacy",
+      "Pattern proportions change by size"
+    ],
+    "publicQuoteNote": "The exact manufacturer, glass design, compatible sizes, privacy characteristics, construction and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Decorative glass",
+    "publicBrowseFacets": [
+      "decorative",
+      "camed",
+      "geometric",
+      "contemporary"
+    ],
+    "publicComparisonTags": [
+      "decorative",
+      "camed",
+      "geometric",
+      "contemporary"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "verre-select:whistler",
+    "publicDisplayName": "Narrow Sidelite Decorative Glass",
+    "publicSlug": "narrow-sidelite-decorative-glass",
+    "publicReference": "WRP-G011",
+    "publicCategory": "door-glass",
+    "publicCategoryLabel": "Door glass",
+    "publicMetaDescription": "A narrow decorative-glass direction intended for sidelites beside an entry door. Reviewed designs offer slim full-height sizes using combinations of bevels.",
+    "publicSummary": "A narrow decorative-glass direction intended for sidelites beside an entry door. Reviewed designs offer slim full-height sizes using combinations of bevels, textured glass and patterned sections. Because the glass is part of the complete entrance rather than a standalone product, height, frame, privacy and visual alignment with the door slab must be coordinated. Glass size, privacy, compatible door construction and the complete entrance configuration are confirmed before the exact design is named in the written quotation. Current samples are reviewed from both sides under representative lighting before careful final approval.",
+    "publicImageAlt": "Narrow decorative glass sidelite beside an entry door",
+    "publicMediaKey": "wrp-g011",
+    "publicSpecifications": [
+      {
+        "label": "Product type",
+        "value": "Sidelite door glass"
+      },
+      {
+        "label": "Configuration",
+        "value": "Narrow full-height glass"
+      },
+      {
+        "label": "Available sizes",
+        "value": "Reviewed slim widths include approximately 7 or 8 in by tall formats"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Narrow full-height proportion",
+      "Decorative textured-glass combinations",
+      "Designed for entrance sidelites",
+      "Coordinated door-glass directions where available"
+    ],
+    "publicBestFor": [
+      "Single- or double-sidelite entrances",
+      "Narrow side openings needing daylight"
+    ],
+    "publicConfigurationOptions": [
+      "Single or paired sidelites",
+      "Glass pattern and privacy",
+      "Alignment with door glass or solid slab"
+    ],
+    "publicConsiderations": [
+      "Sidelite dimensions must match the frame system",
+      "Narrow glass may alter pattern proportions",
+      "Privacy should be reviewed at eye level"
+    ],
+    "publicQuoteNote": "The exact manufacturer, glass design, compatible sizes, privacy characteristics, construction and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Decorative glass",
+    "publicBrowseFacets": [
+      "sidelite",
+      "decorative",
+      "narrow",
+      "full-height"
+    ],
+    "publicComparisonTags": [
+      "sidelite",
+      "decorative",
+      "narrow",
+      "full-height"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "verre-select:dorian",
+    "publicDisplayName": "Organic Decorative Door Glass",
+    "publicSlug": "organic-decorative-door-glass",
+    "publicReference": "WRP-G012",
+    "publicCategory": "door-glass",
+    "publicCategoryLabel": "Door glass",
+    "publicMetaDescription": "A decorative door-glass family using flowing, irregular or softly layered textured pieces rather than a rigid grid. The composition adds movement to the.",
+    "publicSummary": "A decorative door-glass family using flowing, irregular or softly layered textured pieces rather than a rigid grid. The composition adds movement to the entrance and can bridge traditional and contemporary door styles. Reviewed options use several textured-glass combinations and door or sidelite sizes, with privacy depending on the selected clear areas. Glass size, privacy, compatible door construction and the complete entrance configuration are confirmed before the exact design is named in the written quotation. Current samples are reviewed from both sides under representative lighting before careful final approval.",
+    "publicImageAlt": "Organic flowing decorative glass insert for an entry door",
+    "publicMediaKey": "wrp-g012",
+    "publicSpecifications": [
+      {
+        "label": "Product type",
+        "value": "Decorative door glass"
+      },
+      {
+        "label": "Design direction",
+        "value": "Flowing or softly layered composition"
+      },
+      {
+        "label": "Available sizes",
+        "value": "Door and sidelite formats, design dependent"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Flowing decorative composition",
+      "Multiple textured-glass pieces",
+      "Transitional visual direction",
+      "Door and sidelite sizes where supported"
+    ],
+    "publicBestFor": [
+      "Transitional entrances",
+      "Homeowners preferring softer pattern movement"
+    ],
+    "publicConfigurationOptions": [
+      "Texture combination",
+      "Door-glass size",
+      "Matching sidelite where available"
+    ],
+    "publicConsiderations": [
+      "Clear areas affect privacy",
+      "Pattern flow changes with proportions",
+      "Current samples should be reviewed before final selection"
+    ],
+    "publicQuoteNote": "The exact manufacturer, glass design, compatible sizes, privacy characteristics, construction and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Decorative glass",
+    "publicBrowseFacets": [
+      "decorative",
+      "organic",
+      "textured",
+      "transitional"
+    ],
+    "publicComparisonTags": [
+      "decorative",
+      "organic",
+      "textured",
+      "transitional"
     ],
     "publicPublicationStatus": "approved"
   },
@@ -58,14 +2181,386 @@
     "publicReference": "WRP-P001",
     "publicCategory": "patio-doors",
     "publicCategoryLabel": "Patio door",
-    "publicSummary": "A horizontal sliding patio-door configuration available with multiple panel layouts and insulated glazing choices.",
+    "publicMetaDescription": "A horizontal sliding patio-door family available in two-, three- and four-panel layouts. It is intended for replacement openings where panel arrangement.",
+    "publicSummary": "A horizontal sliding patio-door family available in two-, three- and four-panel layouts. It is intended for replacement openings where panel arrangement, clear passage, glazing and hardware must be coordinated as one system. Available configurations include double- and triple-pane low-emissivity glass directions, multiple standard heights and custom sizing, with component packages varying. Panel layout, frame construction, glazing, hardware, sill support and installation conditions are confirmed for the measured opening in the written quotation. Clear opening width and everyday panel operation are reviewed with the proposed layout.",
     "publicImageAlt": "White multi-panel sliding patio door",
     "publicMediaKey": "wrp-p001",
     "publicSpecifications": [
-      { "label": "Operation", "value": "Horizontal sliding" },
-      { "label": "Glazing", "value": "Double- or triple-pane Low-E options" },
-      { "label": "Configurations", "value": "Two-, three- and four-panel layouts" },
-      { "label": "Standard heights", "value": "79 1/2 in, 81 1/2 in and 95 1/2 in" }
+      {
+        "label": "Operation",
+        "value": "Horizontal sliding"
+      },
+      {
+        "label": "Glazing",
+        "value": "Double- or triple-pane low-emissivity options"
+      },
+      {
+        "label": "Configurations",
+        "value": "Two-, three- and four-panel layouts"
+      },
+      {
+        "label": "Standard heights",
+        "value": "Reviewed options include approximately 79 1/2, 81 1/2 and 95 1/2 in"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Two- to four-panel layouts",
+      "Horizontal sliding operation",
+      "Multiple insulated-glass packages",
+      "Standard and custom size directions"
+    ],
+    "publicBestFor": [
+      "Wider residential openings",
+      "Projects comparing several panel layouts"
+    ],
+    "publicConfigurationOptions": [
+      "Panel count and operating direction",
+      "Double- or triple-pane glazing",
+      "Screen, handle and locking package"
+    ],
+    "publicConsiderations": [
+      "Panel count does not equal clear opening width",
+      "Sill support and drainage require review",
+      "Hardware packages vary by selected system"
+    ],
+    "publicQuoteNote": "The exact manufacturer, model, panel layout, glass package, performance documentation, hardware and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Panel configurations",
+    "publicBrowseFacets": [
+      "sliding",
+      "multi-panel",
+      "vinyl",
+      "residential"
+    ],
+    "publicComparisonTags": [
+      "sliding",
+      "multi-panel",
+      "vinyl",
+      "residential"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "oceanview:essential",
+    "publicDisplayName": "Two-Panel Sliding Patio Door",
+    "publicSlug": "two-panel-sliding-patio-door",
+    "publicReference": "WRP-P002",
+    "publicCategory": "patio-doors",
+    "publicCategoryLabel": "Patio door",
+    "publicMetaDescription": "A two-panel horizontal sliding configuration with one primary operating direction and one companion panel arrangement, subject to the selected system. It is.",
+    "publicSummary": "A two-panel horizontal sliding configuration with one primary operating direction and one companion panel arrangement, subject to the selected system. It is the most direct patio-door layout for many residential replacement openings. Reviewed systems support insulated-glass choices, screens, several standard heights and custom sizing, while handle and lock packages vary. Panel layout, frame construction, glazing, hardware, sill support and installation conditions are confirmed for the measured opening in the written quotation. Clear opening width and everyday panel operation are reviewed with the proposed layout.",
+    "publicImageAlt": "Two-panel white sliding patio door",
+    "publicMediaKey": "wrp-p002",
+    "publicSpecifications": [
+      {
+        "label": "Operation",
+        "value": "Horizontal sliding"
+      },
+      {
+        "label": "Panel count",
+        "value": "Two-panel configuration"
+      },
+      {
+        "label": "Glazing",
+        "value": "Double- or triple-pane low-emissivity options"
+      },
+      {
+        "label": "Sizing",
+        "value": "Standard and custom directions available by system"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Straightforward two-panel layout",
+      "Space-efficient sliding operation",
+      "Insulated-glass choices",
+      "Screen and lock packages"
+    ],
+    "publicBestFor": [
+      "Common residential patio openings",
+      "Rooms needing a simple sliding exit"
+    ],
+    "publicConfigurationOptions": [
+      "Operating direction",
+      "Glass package",
+      "Screen, handle and locking system"
+    ],
+    "publicConsiderations": [
+      "Confirm actual clear passage width",
+      "Furniture and exterior access affect handing",
+      "Threshold and sill support require inspection"
+    ],
+    "publicQuoteNote": "The exact manufacturer, model, panel layout, glass package, performance documentation, hardware and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Panel configurations",
+    "publicBrowseFacets": [
+      "sliding",
+      "two-panel",
+      "vinyl",
+      "residential"
+    ],
+    "publicComparisonTags": [
+      "sliding",
+      "two-panel",
+      "vinyl",
+      "residential"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "novatech:630",
+    "publicDisplayName": "PVC Sliding Patio Door",
+    "publicSlug": "pvc-sliding-patio-door",
+    "publicReference": "WRP-P003",
+    "publicCategory": "patio-doors",
+    "publicCategoryLabel": "Patio door",
+    "publicMetaDescription": "A sliding patio-door family built around an insulated PVC frame direction. PVC systems are common in residential replacement work and can support different.",
+    "publicSummary": "A sliding patio-door family built around an insulated PVC frame direction. PVC systems are common in residential replacement work and can support different frame depths, glazing packages, panel arrangements and hardware. The mapped systems are not interchangeable: reinforcement, sightlines, dimensions, tested performance and warranty must remain tied to the selected model. Panel layout, frame construction, glazing, hardware, sill support and installation conditions are confirmed for the measured opening in the written quotation. Clear opening width and everyday panel operation are reviewed with the proposed layout.",
+    "publicImageAlt": "White PVC sliding patio door system",
+    "publicMediaKey": "wrp-p003",
+    "publicSpecifications": [
+      {
+        "label": "Operation",
+        "value": "Horizontal sliding patio door"
+      },
+      {
+        "label": "Frame material",
+        "value": "PVC / vinyl"
+      },
+      {
+        "label": "Frame depth",
+        "value": "System dependent; reviewed options include deeper replacement frames"
+      },
+      {
+        "label": "Glazing",
+        "value": "Insulated-glass package confirmed by system"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Insulated PVC frame direction",
+      "Horizontal sliding operation",
+      "Multiple system depths",
+      "Residential replacement configurations"
+    ],
+    "publicBestFor": [
+      "Residential replacement openings",
+      "Projects prioritizing an insulated vinyl-frame direction"
+    ],
+    "publicConfigurationOptions": [
+      "Panel layout",
+      "Frame depth and reinforcement",
+      "Glass, screen and hardware package"
+    ],
+    "publicConsiderations": [
+      "PVC profiles differ substantially by system",
+      "Large dark-colour units require review",
+      "Tested ratings apply only to the quoted configuration"
+    ],
+    "publicQuoteNote": "The exact manufacturer, model, panel layout, glass package, performance documentation, hardware and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Frame systems",
+    "publicBrowseFacets": [
+      "sliding",
+      "pvc",
+      "vinyl",
+      "residential"
+    ],
+    "publicComparisonTags": [
+      "sliding",
+      "pvc",
+      "vinyl",
+      "residential"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "novatech:2900",
+    "publicDisplayName": "Aluminum Sliding Patio Door",
+    "publicSlug": "aluminum-sliding-patio-door",
+    "publicReference": "WRP-P004",
+    "publicCategory": "patio-doors",
+    "publicCategoryLabel": "Patio door",
+    "publicMetaDescription": "A horizontal sliding patio-door family using aluminum frame construction for a crisp, durable profile. Aluminum systems can provide different sightlines and.",
+    "publicSummary": "A horizontal sliding patio-door family using aluminum frame construction for a crisp, durable profile. Aluminum systems can provide different sightlines and size directions than conventional PVC frames, but thermal design, glazing, sill, panel limits and tested performance must be evaluated as a complete system. The mapped products represent more than one construction direction and are compared privately before quoting. Panel layout, frame construction, glazing, hardware, sill support and installation conditions are confirmed for the measured opening in the written quotation. Clear opening width and everyday panel operation are reviewed with the proposed layout.",
+    "publicImageAlt": "Dark aluminum sliding patio door system",
+    "publicMediaKey": "wrp-p004",
+    "publicSpecifications": [
+      {
+        "label": "Operation",
+        "value": "Horizontal sliding patio door"
+      },
+      {
+        "label": "Frame material",
+        "value": "Aluminum"
+      },
+      {
+        "label": "Glazing",
+        "value": "Insulated-glass package confirmed by system"
+      },
+      {
+        "label": "Configuration",
+        "value": "Panel layouts and maximum sizes vary"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Aluminum frame construction",
+      "Horizontal sliding operation",
+      "Contemporary sightline direction",
+      "Multiple panel possibilities by system"
+    ],
+    "publicBestFor": [
+      "Contemporary elevations",
+      "Projects comparing slimmer or more rigid frame directions"
+    ],
+    "publicConfigurationOptions": [
+      "Panel count",
+      "Frame finish",
+      "Glass, screen and locking package"
+    ],
+    "publicConsiderations": [
+      "Thermal-break construction must be confirmed",
+      "Condensation resistance varies by system",
+      "Large panels require structural and handling review"
+    ],
+    "publicQuoteNote": "The exact manufacturer, model, panel layout, glass package, performance documentation, hardware and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Frame systems",
+    "publicBrowseFacets": [
+      "sliding",
+      "aluminum",
+      "contemporary",
+      "frame-system"
+    ],
+    "publicComparisonTags": [
+      "sliding",
+      "aluminum",
+      "contemporary",
+      "frame-system"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "novatech:element",
+    "publicDisplayName": "Hybrid Patio Door",
+    "publicSlug": "hybrid-patio-door",
+    "publicReference": "WRP-P005",
+    "publicCategory": "patio-doors",
+    "publicCategoryLabel": "Patio door",
+    "publicMetaDescription": "A patio-door family combining more than one frame material within the complete system. Hybrid construction can balance interior thermal direction, exterior.",
+    "publicSummary": "A patio-door family combining more than one frame material within the complete system. Hybrid construction can balance interior thermal direction, exterior durability, finish and profile goals, but the material stack is not identical across mapped products. Panel layout, cladding, reinforcement, glazing and component compatibility must be confirmed together. Panel layout, frame construction, glazing, hardware, sill support and installation conditions are confirmed for the measured opening in the written quotation. Clear opening width and everyday panel operation are reviewed with the proposed layout.",
+    "publicImageAlt": "Hybrid-material sliding patio door",
+    "publicMediaKey": "wrp-p005",
+    "publicSpecifications": [
+      {
+        "label": "Operation",
+        "value": "Sliding patio door"
+      },
+      {
+        "label": "Frame material",
+        "value": "Hybrid multi-material construction"
+      },
+      {
+        "label": "Glazing",
+        "value": "Insulated-glass package confirmed by system"
+      },
+      {
+        "label": "Configuration",
+        "value": "Panel layouts vary by selected system"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Mixed-material frame construction",
+      "Sliding operation",
+      "Interior and exterior finish directions",
+      "System-specific reinforcement and glazing"
+    ],
+    "publicBestFor": [
+      "Projects balancing different interior and exterior requirements",
+      "Homeowners comparing PVC and aluminum characteristics"
+    ],
+    "publicConfigurationOptions": [
+      "Material combination",
+      "Panel layout",
+      "Glass, finish, screen and hardware package"
+    ],
+    "publicConsiderations": [
+      "Hybrid does not describe one universal construction",
+      "Finish transitions should be reviewed",
+      "Performance documentation remains model-specific"
+    ],
+    "publicQuoteNote": "The exact manufacturer, model, panel layout, glass package, performance documentation, hardware and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Frame systems",
+    "publicBrowseFacets": [
+      "sliding",
+      "hybrid",
+      "multi-material",
+      "frame-system"
+    ],
+    "publicComparisonTags": [
+      "sliding",
+      "hybrid",
+      "multi-material",
+      "frame-system"
+    ],
+    "publicPublicationStatus": "approved"
+  },
+  {
+    "internalCanonicalId": "novatech:loft",
+    "publicDisplayName": "Slim-Frame Aluminum Patio Door",
+    "publicSlug": "slim-frame-aluminum-patio-door",
+    "publicReference": "WRP-P006",
+    "publicCategory": "patio-doors",
+    "publicCategoryLabel": "Patio door",
+    "publicMetaDescription": "A contemporary sliding patio-door direction using aluminum construction and reduced visible frame lines. The slimmer profile prioritizes glass area and a.",
+    "publicSummary": "A contemporary sliding patio-door direction using aluminum construction and reduced visible frame lines. The slimmer profile prioritizes glass area and a restrained appearance, particularly in larger openings. Exact thermal-break design, maximum panel size, sill, glazing and hardware vary significantly, so the selected model and performance documentation are confirmed only after the opening and exposure are reviewed. Panel layout, frame construction, glazing, hardware, sill support and installation conditions are confirmed for the measured opening in the written quotation. Clear opening width and everyday panel operation are reviewed with the proposed layout.",
+    "publicImageAlt": "Black slim-frame aluminum sliding patio door",
+    "publicMediaKey": "wrp-p006",
+    "publicSpecifications": [
+      {
+        "label": "Operation",
+        "value": "Horizontal sliding patio door"
+      },
+      {
+        "label": "Frame material",
+        "value": "Aluminum"
+      },
+      {
+        "label": "Profile",
+        "value": "Slim-frame contemporary direction"
+      },
+      {
+        "label": "Glazing",
+        "value": "Insulated-glass package confirmed by system"
+      }
+    ],
+    "publicKeyFeatures": [
+      "Reduced visible frame direction",
+      "Aluminum construction",
+      "Large-glass contemporary appearance",
+      "Sliding panel operation"
+    ],
+    "publicBestFor": [
+      "Modern renovations",
+      "Openings prioritizing broader glass area"
+    ],
+    "publicConfigurationOptions": [
+      "Panel count and size",
+      "Frame finish",
+      "Glass, sill, screen and locking package"
+    ],
+    "publicConsiderations": [
+      "Slim sightlines require system-specific structural review",
+      "Thermal and condensation performance must be documented",
+      "Installation tolerances matter on large panels"
+    ],
+    "publicQuoteNote": "The exact manufacturer, model, panel layout, glass package, performance documentation, hardware and warranty are confirmed in the written quotation.",
+    "publicBrowseGroup": "Frame systems",
+    "publicBrowseFacets": [
+      "sliding",
+      "aluminum",
+      "slim-frame",
+      "contemporary"
+    ],
+    "publicComparisonTags": [
+      "sliding",
+      "aluminum",
+      "slim-frame",
+      "contemporary"
     ],
     "publicPublicationStatus": "approved"
   }

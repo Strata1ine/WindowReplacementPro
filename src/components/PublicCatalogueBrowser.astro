@@ -1,0 +1,65 @@
+---
+import ProductCard from './ProductCard.astro';
+import SectionHeader from './SectionHeader.astro';
+import { getPublicProductsByCategory } from '../data/public-catalog';
+
+interface Props {
+  category: string;
+}
+
+const { category } = Astro.props;
+const products = getPublicProductsByCategory(category);
+const groups = Array.from(products.reduce((map, product) => {
+  const current = map.get(product.browseGroup) ?? [];
+  current.push(product);
+  map.set(product.browseGroup, current);
+  return map;
+}, new Map<string, typeof products>()).entries());
+
+const groupId = (name: string) => 'catalogue-' + name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+const categoryNames: Record<string, string> = {
+  windows: 'replacement windows',
+  'entry-doors': 'entry doors',
+  'door-glass': 'door-glass options',
+  'patio-doors': 'patio-door systems'
+};
+const categoryName = categoryNames[category] ?? 'products';
+---
+<section id="catalogue" class="section section--mist public-catalogue" aria-labelledby={`catalogue-${category}-title`}>
+  <div class="wrap">
+    <SectionHeader
+      eyebrow="Approved public catalogue"
+      title={`Compare ${categoryName} by the choice that matters first.`}
+      body="These public-neutral families organize reviewed systems around operation, material, appearance and configuration. The exact manufacturer and model are confirmed in the written quotation."
+      headingId={`catalogue-${category}-title`}
+    />
+    <nav class="catalogue-filter-nav" aria-label={`${categoryName} groups`}>
+      <span>Browse by</span>
+      {groups.map(([name]) => <a href={`#${groupId(name)}`}>{name}</a>)}
+    </nav>
+    <div class="public-catalogue__groups">
+      {groups.map(([name, items]) => (
+        <section id={groupId(name)} class="public-catalogue__group" aria-labelledby={`${groupId(name)}-title`}>
+          <header>
+            <p class="eyebrow">{items.length} reviewed {items.length === 1 ? 'option' : 'options'}</p>
+            <h3 id={`${groupId(name)}-title`}>{name}</h3>
+          </header>
+          <div class="featured-product-grid">
+            {items.map(item => (
+              <ProductCard
+                name={item.displayName}
+                reference={item.reference}
+                category={item.categoryLabel}
+                href={item.href}
+                summary={item.metaDescription}
+                highlights={item.specifications.slice(0, 2)}
+                media={item.media}
+                imageAlt={item.imageAlt}
+              />
+            ))}
+          </div>
+        </section>
+      ))}
+    </div>
+  </div>
+</section>

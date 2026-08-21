@@ -39,6 +39,9 @@ const blockedText = [
 const blockedTopLevel = new Set(['audit', 'brands', 'documents', 'scripts', 'source-media', 'staging', 'quarantine']);
 
 const suppliers = JSON.parse(await readFile(path.join(root, 'scripts/ingest/suppliers.json'), 'utf8'));
+const publicIdentities = JSON.parse(await readFile(path.join(root, 'src/data/public-identities.json'), 'utf8'));
+const approvedPublicIdentities = publicIdentities.filter(item => item.publicPublicationStatus === 'approved');
+const expectedProductFiles = new Set(approvedPublicIdentities.map(item => 'products/' + item.publicCategory + '/' + item.publicSlug + '/index.html'));
 const supplierDomains = Array.from(new Set(Object.values(suppliers).flatMap(config => [
   ...(config.allowed_domains ?? []),
   ...(config.asset_domains ?? [])
@@ -101,7 +104,14 @@ for (const file of productIndexFiles) {
   const category = relative.split('/')[1];
   if (!allowedProductCategories.has(category)) errors.push('invalid public product category route: ' + relative);
 }
-if (productIndexFiles.length !== 4) errors.push('expected 4 identity-approved product routes, found ' + productIndexFiles.length);
+if (productIndexFiles.length !== expectedProductFiles.size) errors.push('expected ' + expectedProductFiles.size + ' identity-approved product routes, found ' + productIndexFiles.length);
+for (const expected of expectedProductFiles) {
+  if (!productIndexFiles.some(file => path.relative(dist, file).replaceAll('\\', '/') === expected)) errors.push('approved public product route is missing: ' + expected);
+}
+for (const file of productIndexFiles) {
+  const relative = path.relative(dist, file).replaceAll('\\', '/');
+  if (!expectedProductFiles.has(relative)) errors.push('unapproved public product route generated: ' + relative);
+}
 
 const config = await readFile(path.join(root, 'astro.config.mjs'), 'utf8');
 if (!/publicDir:\s*['"]\.\/public-site['"]/.test(config)) errors.push('Astro publicDir is not isolated to public-site');

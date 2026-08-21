@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import MediaFrame from './MediaFrame.astro';
 import ProductCard from './ProductCard.astro';
+import PublicCatalogueBrowser from './PublicCatalogueBrowser.astro';
 import QuoteCta from './QuoteCta.astro';
 import SectionHeader from './SectionHeader.astro';
 import type { CommercialCategoryPage } from '../data/commercial-categories';
@@ -75,6 +76,7 @@ const breadcrumbSchema = {
     <div class="wrap category-jump__inner">
       <span>On this page</span>
       <a href="#choices">Choices</a>
+      <a href="#catalogue">Browse products</a>
       <a href="#selection">What matters</a>
       <a href="#configuration">Configuration</a>
       <a href="#installation">Installation</a>
@@ -102,6 +104,8 @@ const breadcrumbSchema = {
       </div>
     </div>
   </section>
+
+  <PublicCatalogueBrowser category={page.product.category} />
 
   <section id="selection" class="section section--forest commercial-selection" aria-labelledby={`${page.key}-selection-title`}>
     <div class="wrap commercial-selection__layout">
@@ -162,7 +166,7 @@ const breadcrumbSchema = {
         reference={page.product.reference}
         category={page.product.categoryLabel}
         href={page.product.href}
-        summary={page.product.summary}
+        summary={page.product.metaDescription}
         highlights={page.product.specifications.slice(0, 3)}
         media={page.product.media}
         imageAlt={page.product.imageAlt}

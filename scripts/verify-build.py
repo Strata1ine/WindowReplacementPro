@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import json
 import sys
 import xml.etree.ElementTree as ET
 from html.parser import HTMLParser
@@ -83,7 +84,14 @@ def main() -> int:
     brand_routes = [route for route in parsed_pages if route.startswith('/brands')]
     allowed_product_categories = {'windows', 'entry-doors', 'door-glass', 'patio-doors'}
     if brand_routes: errors.append(f'public brand routes remain: {len(brand_routes)}')
-    if len(product_routes) != 4: errors.append(f'expected 4 identity-approved product routes, found {len(product_routes)}')
+    identities = json.loads((ROOT / 'src' / 'data' / 'public-identities.json').read_text(encoding='utf-8'))
+    approved_identities = [item for item in identities if item.get('publicPublicationStatus') == 'approved']
+    expected_product_routes = {f"/products/{item['publicCategory']}/{item['publicSlug']}/" for item in approved_identities}
+    if set(product_routes) != expected_product_routes:
+        missing = sorted(expected_product_routes - set(product_routes))
+        unexpected = sorted(set(product_routes) - expected_product_routes)
+        if missing: errors.append(f'approved product routes missing: {missing}')
+        if unexpected: errors.append(f'unapproved product routes generated: {unexpected}')
     for route in product_routes:
         parts = route.strip('/').split('/')
         if len(parts) != 3 or parts[1] not in allowed_product_categories:

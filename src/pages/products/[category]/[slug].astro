@@ -3,7 +3,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import MediaFrame from '../../../components/MediaFrame.astro';
 import ProductCard from '../../../components/ProductCard.astro';
 import QuoteCta from '../../../components/QuoteCta.astro';
-import { publicProducts } from '../../../data/public-catalog';
+import { getRelatedPublicProducts, publicProducts } from '../../../data/public-catalog';
 
 export function getStaticPaths() {
   return publicProducts.map(product => ({ params: { category: product.category, slug: product.slug }, props: { product } }));
@@ -35,8 +35,8 @@ if (!landing) throw new TypeError('Missing category landing for ' + product.cate
 
 const specifications = product.specifications.filter(item => item.label.trim() && item.value.trim());
 const groupDefinitions = [
-  { title: 'Materials and construction', matches: ['material', 'panel design', 'product type'] },
-  { title: 'Operation and configurations', matches: ['operation', 'configuration', 'layout'] },
+  { title: 'Materials and construction', matches: ['material', 'panel design', 'product type', 'surface', 'profile'] },
+  { title: 'Operation and configurations', matches: ['operation', 'configuration', 'layout', 'panel count', 'glass amount'] },
   { title: 'Glazing and privacy', matches: ['glazing', 'glass', 'privacy'] },
   { title: 'Dimensions', matches: ['height', 'width', 'depth', 'dimension', 'size'] },
   { title: 'Performance', matches: ['performance', 'energy', 'u-factor', 'solar', 'air', 'water'] },
@@ -55,14 +55,14 @@ const specificationGroups = groupDefinitions.map(group => {
 }).filter(group => group.items.length > 0);
 const remainingSpecifications = specifications.filter((_item, index) => !assigned.has(index));
 if (remainingSpecifications.length) specificationGroups.push({ title: 'Additional reviewed details', items: remainingSpecifications });
-const relatedProducts = publicProducts.filter(item => item.category === product.category && item.href !== product.href);
+const relatedProducts = getRelatedPublicProducts(product, 3);
 
 const productSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: product.displayName,
   description: product.summary,
-  image: new URL(product.media.src, Astro.site).href,
+  image: [product.media, ...product.gallery].map(media => new URL(media.src, Astro.site).href),
   sku: product.reference,
   category: product.categoryLabel,
   url: new URL(product.href, Astro.site).href,
@@ -78,7 +78,7 @@ const breadcrumbSchema = {
   ]
 };
 ---
-<BaseLayout title={`${product.displayName} | Window Replacement Pro`} description={product.summary} structuredData={[productSchema, breadcrumbSchema]}>
+<BaseLayout title={`${product.displayName} | Window Replacement Pro`} description={product.metaDescription} structuredData={[productSchema, breadcrumbSchema]}>
   <div class="wrap breadcrumbs product-breadcrumbs"><a href={landing.href}>{landing.label}</a><span aria-hidden="true">/</span><span>{product.displayName}</span></div>
 
   <section class="section public-product public-product--refined">
@@ -93,12 +93,32 @@ const breadcrumbSchema = {
           <a class="button" href="#quote">Plan your replacement</a>
           <a class="button button--secondary" href={landing.href}>Compare {landing.label.toLowerCase()}</a>
         </div>
-        {specifications.length > 0 && (
-          <div class="product-key-features" aria-labelledby="product-key-features-title">
-            <h2 id="product-key-features-title">Key features</h2>
-            <ul>{specifications.slice(0, 4).map(item => <li><span>{item.label}</span><strong>{item.value}</strong></li>)}</ul>
-          </div>
-        )}
+        <div class="product-key-features" aria-labelledby="product-key-features-title">
+          <h2 id="product-key-features-title">Key features</h2>
+          <ul>{product.keyFeatures.map(item => <li><strong>{item}</strong></li>)}</ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {product.gallery.length > 0 && (
+    <section class="section product-gallery-section" aria-labelledby="product-gallery-title">
+      <div class="wrap">
+        <header class="section-header"><p class="eyebrow">Reviewed product media</p><h2 id="product-gallery-title">Configuration and detail views.</h2><p class="section-header__body">These neutral derivatives support product comparison. Final colours, proportions and components are confirmed for the quoted system.</p></header>
+        <div class="product-gallery-grid">
+          {product.gallery.map(media => <figure><MediaFrame media={media} alt={media.alt} sizes="(max-width: 760px) 100vw, 50vw" fit="contain" /><figcaption>{media.alt}</figcaption></figure>)}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="section section--mist product-editorial-section" aria-labelledby="product-selection-guidance-title">
+    <div class="wrap">
+      <header class="section-header"><p class="eyebrow">Selection guidance</p><h2 id="product-selection-guidance-title">Where this configuration fits.</h2><p class="section-header__body">The public family describes a homeowner-facing choice. The exact underlying system is selected only after the project requirements are known.</p></header>
+      <div class="product-editorial-grid">
+        <section><h3>Best for</h3><ul>{product.bestFor.map(item => <li>{item}</li>)}</ul></section>
+        <section><h3>Configuration options</h3><ul>{product.configurationOptions.map(item => <li>{item}</li>)}</ul></section>
+        <section><h3>Considerations</h3><ul>{product.considerations.map(item => <li>{item}</li>)}</ul></section>
       </div>
     </div>
   </section>
@@ -118,7 +138,7 @@ const breadcrumbSchema = {
 
   <section class="section section--forest product-considerations" aria-labelledby="product-considerations-title">
     <div class="wrap product-considerations__layout">
-      <div><p class="eyebrow">Project considerations</p><h2 id="product-considerations-title">{landing.considerationTitle}</h2><p class="lead">The product representation is one part of a complete installed project. Final suitability depends on the measured opening, selected configuration and written scope.</p></div>
+      <div><p class="eyebrow">Complete project scope</p><h2 id="product-considerations-title">{landing.considerationTitle}</h2><p class="lead">The product family is one part of a complete installed project. Final suitability depends on the measured opening, selected configuration and written scope.</p></div>
       <ol>{landing.considerations.map((item, index) => <li><span>{String(index + 1).padStart(2, '0')}</span><strong>{item}</strong></li>)}</ol>
     </div>
   </section>
@@ -126,13 +146,13 @@ const breadcrumbSchema = {
   {(relatedProducts.length > 0 || landing.related) && (
     <section class="section section--mist product-related" aria-labelledby="product-related-title">
       <div class="wrap">
-        <header class="section-header"><p class="eyebrow">Continue comparing</p><h2 id="product-related-title">Related products and options.</h2></header>
+        <header class="section-header"><p class="eyebrow">Continue comparing</p><h2 id="product-related-title">Related products and useful alternatives.</h2><p class="section-header__body">Related options are selected deterministically from approved public products with similar operation, material, style or configuration.</p></header>
         {relatedProducts.length > 0 && <div class="featured-product-grid">{relatedProducts.map(item => <ProductCard name={item.displayName} reference={item.reference} category={item.categoryLabel} href={item.href} summary={item.summary} highlights={item.specifications.slice(0, 3)} media={item.media} imageAlt={item.imageAlt} />)}</div>}
         {landing.related && <a class="related-option-link" href={landing.related.href}><strong>{landing.related.label}</strong><span>Review the connected category choices before the complete system is quoted.</span><b>Continue <span aria-hidden="true">&rarr;</span></b></a>}
       </div>
     </section>
   )}
 
-  <aside class="wrap source-note product-disclosure">Product systems are selected from established manufacturers. The exact manufacturer, model, performance documentation and warranty are identified in your written quotation.</aside>
+  <aside class="wrap source-note product-disclosure">{product.quoteNote}</aside>
   <div class="quote-section product-quote"><div class="wrap"><QuoteCta /></div></div>
 </BaseLayout>

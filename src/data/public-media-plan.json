@@ -1,35 +1,766 @@
 [
   {
+    "publicReference": "WRP-W001",
     "key": "wrp-w001",
     "productId": "window-city:hc-101",
     "selection": "heroMedia",
+    "role": "hero",
+    "alt": "White slim-frame casement replacement window",
     "intrinsicWidth": 2560,
     "intrinsicHeight": 1707,
-    "widths": [480, 768, 1200]
+    "widths": [
+      480,
+      768,
+      1200
+    ]
   },
   {
-    "key": "wrp-d001",
-    "productId": "masonite:2-panel-hollister",
+    "publicReference": "WRP-W002",
+    "key": "wrp-w002",
+    "productId": "window-city:hc-401",
     "selection": "heroMedia",
+    "role": "hero",
+    "alt": "Deep-frame white casement replacement window",
+    "intrinsicWidth": 2560,
+    "intrinsicHeight": 1707,
+    "widths": [
+      480,
+      768,
+      1200
+    ]
+  },
+  {
+    "publicReference": "WRP-W003",
+    "key": "wrp-w003",
+    "productId": "window-city:hc-126",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "White awning replacement window open from the bottom",
+    "intrinsicWidth": 2560,
+    "intrinsicHeight": 1709,
+    "widths": [
+      480,
+      768,
+      1200
+    ]
+  },
+  {
+    "publicReference": "WRP-W004",
+    "key": "wrp-w004",
+    "productId": "vinyl-pro:double-hung",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "White double-hung replacement window with two sliding sashes",
+    "intrinsicWidth": 1200,
+    "intrinsicHeight": 1200,
+    "widths": [
+      480,
+      768,
+      1200
+    ]
+  },
+  {
+    "publicReference": "WRP-W004",
+    "key": "wrp-w004-gallery-1",
+    "productId": "vinyl-pro:double-hung",
+    "selection": "galleryMedia",
+    "selectionIndex": 0,
+    "role": "gallery",
+    "alt": "Interior view of a double-hung window configuration",
+    "intrinsicWidth": 481,
+    "intrinsicHeight": 348,
+    "widths": [
+      480
+    ]
+  },
+  {
+    "publicReference": "WRP-W005",
+    "key": "wrp-w005",
+    "productId": "window-city:wc-201",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "White single-hung replacement window with one sliding sash",
+    "intrinsicWidth": 1900,
+    "intrinsicHeight": 1266,
+    "widths": [
+      480,
+      768,
+      1200
+    ]
+  },
+  {
+    "publicReference": "WRP-W006",
+    "key": "wrp-w006",
+    "productId": "vinyl-pro:double-slider",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "White double slider replacement window with two operating sashes",
+    "intrinsicWidth": 1200,
+    "intrinsicHeight": 1200,
+    "widths": [
+      480,
+      768,
+      1200
+    ]
+  },
+  {
+    "publicReference": "WRP-W006",
+    "key": "wrp-w006-gallery-1",
+    "productId": "vinyl-pro:double-slider",
+    "selection": "galleryMedia",
+    "selectionIndex": 0,
+    "role": "gallery",
+    "alt": "Interior view of a double slider window configuration",
+    "intrinsicWidth": 481,
+    "intrinsicHeight": 348,
+    "widths": [
+      480
+    ]
+  },
+  {
+    "publicReference": "WRP-W007",
+    "key": "wrp-w007",
+    "productId": "window-city:wc-325",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "White single slider replacement window with one operating sash",
+    "intrinsicWidth": 2560,
+    "intrinsicHeight": 984,
+    "widths": [
+      480,
+      768,
+      1200
+    ]
+  },
+  {
+    "publicReference": "WRP-W008",
+    "key": "wrp-w008",
+    "productId": "vinyl-pro:picture-window",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "Large white fixed picture replacement window",
+    "intrinsicWidth": 1200,
+    "intrinsicHeight": 1200,
+    "widths": [
+      480,
+      768,
+      1200
+    ]
+  },
+  {
+    "publicReference": "WRP-W008",
+    "key": "wrp-w008-gallery-1",
+    "productId": "vinyl-pro:picture-window",
+    "selection": "galleryMedia",
+    "selectionIndex": 0,
+    "role": "gallery",
+    "alt": "Interior view through a fixed picture window",
+    "intrinsicWidth": 481,
+    "intrinsicHeight": 348,
+    "widths": [
+      480
+    ]
+  },
+  {
+    "publicReference": "WRP-W009",
+    "key": "wrp-w009",
+    "productId": "window-city:hc-176",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "White fixed window with a casement-style frame profile",
+    "intrinsicWidth": 2560,
+    "intrinsicHeight": 1709,
+    "widths": [
+      480,
+      768,
+      1200
+    ]
+  },
+  {
+    "publicReference": "WRP-W009",
+    "key": "wrp-w009-gallery-1",
+    "productId": "vinyl-pro:fixed-casement",
+    "selection": "galleryMedia",
+    "selectionIndex": 0,
+    "role": "gallery",
+    "alt": "Interior view of a fixed casement-profile window",
+    "intrinsicWidth": 481,
+    "intrinsicHeight": 348,
+    "widths": [
+      480
+    ]
+  },
+  {
+    "publicReference": "WRP-W010",
+    "key": "wrp-w010",
+    "productId": "window-city:hc-451",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "White slim-profile fixed replacement window",
+    "intrinsicWidth": 2560,
+    "intrinsicHeight": 921,
+    "widths": [
+      480,
+      768,
+      1200
+    ]
+  },
+  {
+    "publicReference": "WRP-D001",
+    "key": "wrp-d001",
+    "productId": "trimlite:drf2k",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "White two-panel fiberglass entry door",
+    "intrinsicWidth": 309,
+    "intrinsicHeight": 700,
+    "widths": [
+      309
+    ],
+    "format": "jpg"
+  },
+  {
+    "publicReference": "WRP-D002",
+    "key": "wrp-d002",
+    "productId": "richersons:sg00",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "Smooth flush fiberglass entry door slab",
+    "intrinsicWidth": 539,
+    "intrinsicHeight": 1200,
+    "widths": [
+      360
+    ]
+  },
+  {
+    "publicReference": "WRP-D003",
+    "key": "wrp-d003",
+    "productId": "richersons:wg00",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "Oak-grain textured fiberglass entry door",
+    "intrinsicWidth": 500,
+    "intrinsicHeight": 1124,
+    "widths": [
+      360
+    ]
+  },
+  {
+    "publicReference": "WRP-D004",
+    "key": "wrp-d004",
+    "productId": "mennie-canada:mah-2d",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "Mahogany-grain textured fiberglass entry door",
+    "intrinsicWidth": 394,
+    "intrinsicHeight": 800,
+    "widths": [
+      360
+    ]
+  },
+  {
+    "publicReference": "WRP-D005",
+    "key": "wrp-d005",
+    "productId": "mennie-canada:mah-crf",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "Craftsman-style fiberglass entry door",
+    "intrinsicWidth": 371,
+    "intrinsicHeight": 800,
+    "widths": [
+      360
+    ]
+  },
+  {
+    "publicReference": "WRP-D005",
+    "key": "wrp-d005-gallery-1",
+    "productId": "mennie-canada:mah-crf",
+    "selection": "galleryMedia",
+    "selectionIndex": 1,
+    "role": "gallery",
+    "alt": "Craftsman fiberglass door panel detail",
+    "intrinsicWidth": 371,
+    "intrinsicHeight": 800,
+    "widths": [
+      360
+    ]
+  },
+  {
+    "publicReference": "WRP-D006",
+    "key": "wrp-d006",
+    "productId": "masonite:6-panel",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "Traditional six-panel fiberglass entry door",
     "intrinsicWidth": 2048,
     "intrinsicHeight": 2048,
-    "format": "jpg",
-    "widths": [360, 540, 720]
+    "widths": [
+      480,
+      768,
+      1200
+    ]
   },
   {
+    "publicReference": "WRP-D007",
+    "key": "wrp-d007",
+    "productId": "masonite:full-lite",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "Fiberglass entry door with a full-height glass insert",
+    "intrinsicWidth": 2048,
+    "intrinsicHeight": 2048,
+    "widths": [
+      480,
+      768,
+      1200
+    ]
+  },
+  {
+    "publicReference": "WRP-D008",
+    "key": "wrp-d008",
+    "productId": "masonite:2-panel-1-2-lite",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "Fiberglass entry door with upper half glass",
+    "intrinsicWidth": 2048,
+    "intrinsicHeight": 2048,
+    "widths": [
+      480,
+      768,
+      1200
+    ]
+  },
+  {
+    "publicReference": "WRP-D009",
+    "key": "wrp-d009",
+    "productId": "masonite:vistagrande-flush-glazed-3-4-lite",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "Fiberglass entry door with tall three-quarter glass",
+    "intrinsicWidth": 2048,
+    "intrinsicHeight": 2048,
+    "widths": [
+      480,
+      768,
+      1200
+    ]
+  },
+  {
+    "publicReference": "WRP-D010",
+    "key": "wrp-d010",
+    "productId": "richersons:sgnl",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "Fiberglass entry door with a narrow vertical glass insert",
+    "intrinsicWidth": 530,
+    "intrinsicHeight": 1200,
+    "widths": [
+      360
+    ]
+  },
+  {
+    "publicReference": "WRP-D011",
+    "key": "wrp-d011",
+    "productId": "richersons:sg46",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "Four-panel fiberglass entry door",
+    "intrinsicWidth": 536,
+    "intrinsicHeight": 1200,
+    "widths": [
+      360
+    ]
+  },
+  {
+    "publicReference": "WRP-D012",
+    "key": "wrp-d012",
+    "productId": "trimlite:drf1k",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "One-panel woodgrain fiberglass entry door",
+    "intrinsicWidth": 316,
+    "intrinsicHeight": 700,
+    "widths": [
+      316
+    ]
+  },
+  {
+    "publicReference": "WRP-G001",
     "key": "wrp-g001",
     "productId": "novatech:infinite-black",
     "selection": "heroMedia",
+    "role": "hero",
+    "alt": "Black linear privacy glass insert for an entry door",
     "intrinsicWidth": 1552,
     "intrinsicHeight": 1890,
-    "widths": [360, 540, 720]
+    "widths": [
+      360,
+      540,
+      720
+    ]
   },
   {
+    "publicReference": "WRP-G001",
+    "key": "wrp-g001-gallery-1",
+    "productId": "novatech:infinite-black",
+    "selection": "galleryMedia",
+    "selectionIndex": 0,
+    "role": "gallery",
+    "alt": "Close view of black linear privacy door glass",
+    "intrinsicWidth": 1552,
+    "intrinsicHeight": 1890,
+    "widths": [
+      360,
+      540,
+      720
+    ]
+  },
+  {
+    "publicReference": "WRP-G002",
+    "key": "wrp-g002",
+    "productId": "novatech:rubik",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "Geometric high-privacy decorative door glass",
+    "intrinsicWidth": 1552,
+    "intrinsicHeight": 1890,
+    "widths": [
+      360,
+      540,
+      720
+    ]
+  },
+  {
+    "publicReference": "WRP-G002",
+    "key": "wrp-g002-gallery-1",
+    "productId": "novatech:rubik",
+    "selection": "galleryMedia",
+    "selectionIndex": 0,
+    "role": "gallery",
+    "alt": "Detail of geometric high-privacy door glass",
+    "intrinsicWidth": 1552,
+    "intrinsicHeight": 1890,
+    "widths": [
+      360,
+      540,
+      720
+    ]
+  },
+  {
+    "publicReference": "WRP-G003",
+    "key": "wrp-g003",
+    "productId": "novatech:equation",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "Frosted high-privacy glass insert for an entry door",
+    "intrinsicWidth": 1552,
+    "intrinsicHeight": 1890,
+    "widths": [
+      360,
+      540,
+      720
+    ]
+  },
+  {
+    "publicReference": "WRP-G003",
+    "key": "wrp-g003-gallery-1",
+    "productId": "novatech:equation",
+    "selection": "galleryMedia",
+    "selectionIndex": 0,
+    "role": "gallery",
+    "alt": "Close view of frosted high-privacy door glass",
+    "intrinsicWidth": 1552,
+    "intrinsicHeight": 1890,
+    "widths": [
+      360,
+      540,
+      720
+    ]
+  },
+  {
+    "publicReference": "WRP-G004",
+    "key": "wrp-g004",
+    "productId": "verre-select:cbg",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "Sandblasted privacy door glass with clear accent zones",
+    "intrinsicWidth": 195,
+    "intrinsicHeight": 458,
+    "widths": [
+      195
+    ]
+  },
+  {
+    "publicReference": "WRP-G005",
+    "key": "wrp-g005",
+    "productId": "verre-select:java",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "Linear privacy glass insert for an entry door",
+    "intrinsicWidth": 199,
+    "intrinsicHeight": 458,
+    "widths": [
+      199
+    ]
+  },
+  {
+    "publicReference": "WRP-G006",
+    "key": "wrp-g006",
+    "productId": "verre-select:wide-reed",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "Wide vertical reeded textured door glass",
+    "intrinsicWidth": 199,
+    "intrinsicHeight": 458,
+    "widths": [
+      199
+    ]
+  },
+  {
+    "publicReference": "WRP-G007",
+    "key": "wrp-g007",
+    "productId": "verre-select:waterside",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "Clear patterned decorative glass insert for an entry door",
+    "intrinsicWidth": 199,
+    "intrinsicHeight": 458,
+    "widths": [
+      199
+    ]
+  },
+  {
+    "publicReference": "WRP-G008",
+    "key": "wrp-g008",
+    "productId": "verre-select:paris",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "Classic beveled decorative glass for an entry door",
+    "intrinsicWidth": 199,
+    "intrinsicHeight": 458,
+    "widths": [
+      199
+    ]
+  },
+  {
+    "publicReference": "WRP-G009",
+    "key": "wrp-g009",
+    "productId": "verre-select:renoir",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "Hammered textured decorative glass insert for an entry door",
+    "intrinsicWidth": 200,
+    "intrinsicHeight": 458,
+    "widths": [
+      200
+    ]
+  },
+  {
+    "publicReference": "WRP-G010",
+    "key": "wrp-g010",
+    "productId": "verre-select:quattro",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "Contemporary camed decorative door glass",
+    "intrinsicWidth": 203,
+    "intrinsicHeight": 458,
+    "widths": [
+      203
+    ]
+  },
+  {
+    "publicReference": "WRP-G011",
+    "key": "wrp-g011",
+    "productId": "verre-select:whistler",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "Narrow decorative glass sidelite beside an entry door",
+    "intrinsicWidth": 202,
+    "intrinsicHeight": 458,
+    "widths": [
+      202
+    ]
+  },
+  {
+    "publicReference": "WRP-G012",
+    "key": "wrp-g012",
+    "productId": "verre-select:dorian",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "Organic flowing decorative glass insert for an entry door",
+    "intrinsicWidth": 199,
+    "intrinsicHeight": 458,
+    "widths": [
+      199
+    ]
+  },
+  {
+    "publicReference": "WRP-P001",
     "key": "wrp-p001",
     "productId": "oceanview:premium-plus",
     "selection": "heroMedia",
+    "role": "hero",
+    "alt": "White multi-panel sliding patio door",
     "intrinsicWidth": 810,
     "intrinsicHeight": 660,
-    "widths": [480, 720, 810]
+    "widths": [
+      480,
+      768
+    ]
+  },
+  {
+    "publicReference": "WRP-P001",
+    "key": "wrp-p001-gallery-1",
+    "productId": "oceanview:premium-plus",
+    "selection": "galleryMedia",
+    "selectionIndex": 1,
+    "role": "gallery",
+    "alt": "Interior view of a multi-panel sliding patio door",
+    "intrinsicWidth": 1484,
+    "intrinsicHeight": 1480,
+    "widths": [
+      480,
+      768,
+      1200
+    ]
+  },
+  {
+    "publicReference": "WRP-P002",
+    "key": "wrp-p002",
+    "productId": "oceanview:essential",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "Two-panel white sliding patio door",
+    "intrinsicWidth": 1300,
+    "intrinsicHeight": 1278,
+    "widths": [
+      480,
+      768,
+      1200
+    ]
+  },
+  {
+    "publicReference": "WRP-P003",
+    "key": "wrp-p003",
+    "productId": "novatech:630",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "White PVC sliding patio door system",
+    "intrinsicWidth": 1552,
+    "intrinsicHeight": 1890,
+    "widths": [
+      360,
+      540,
+      720
+    ]
+  },
+  {
+    "publicReference": "WRP-P003",
+    "key": "wrp-p003-gallery-1",
+    "productId": "novatech:630",
+    "selection": "galleryMedia",
+    "selectionIndex": 0,
+    "role": "gallery",
+    "alt": "Detail view of a PVC sliding patio door system",
+    "intrinsicWidth": 1552,
+    "intrinsicHeight": 1890,
+    "widths": [
+      360,
+      540,
+      720
+    ]
+  },
+  {
+    "publicReference": "WRP-P004",
+    "key": "wrp-p004",
+    "productId": "novatech:2900",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "Dark aluminum sliding patio door system",
+    "intrinsicWidth": 1552,
+    "intrinsicHeight": 1890,
+    "widths": [
+      360,
+      540,
+      720
+    ]
+  },
+  {
+    "publicReference": "WRP-P004",
+    "key": "wrp-p004-gallery-1",
+    "productId": "novatech:2900",
+    "selection": "galleryMedia",
+    "selectionIndex": 0,
+    "role": "gallery",
+    "alt": "Aluminum patio door frame and panel detail",
+    "intrinsicWidth": 1552,
+    "intrinsicHeight": 1890,
+    "widths": [
+      360,
+      540,
+      720
+    ]
+  },
+  {
+    "publicReference": "WRP-P005",
+    "key": "wrp-p005",
+    "productId": "novatech:element",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "Hybrid-material sliding patio door",
+    "intrinsicWidth": 1552,
+    "intrinsicHeight": 1890,
+    "widths": [
+      360,
+      540,
+      720
+    ]
+  },
+  {
+    "publicReference": "WRP-P005",
+    "key": "wrp-p005-gallery-1",
+    "productId": "novatech:element",
+    "selection": "galleryMedia",
+    "selectionIndex": 0,
+    "role": "gallery",
+    "alt": "Hybrid patio door shown from the exterior",
+    "intrinsicWidth": 1552,
+    "intrinsicHeight": 1890,
+    "widths": [
+      360,
+      540,
+      720
+    ]
+  },
+  {
+    "publicReference": "WRP-P006",
+    "key": "wrp-p006",
+    "productId": "novatech:loft",
+    "selection": "heroMedia",
+    "role": "hero",
+    "alt": "Black slim-frame aluminum sliding patio door",
+    "intrinsicWidth": 1552,
+    "intrinsicHeight": 1890,
+    "widths": [
+      360,
+      540,
+      720
+    ]
+  },
+  {
+    "publicReference": "WRP-P006",
+    "key": "wrp-p006-gallery-1",
+    "productId": "novatech:loft",
+    "selection": "galleryMedia",
+    "selectionIndex": 0,
+    "role": "gallery",
+    "alt": "Slim aluminum patio door frame detail",
+    "intrinsicWidth": 1552,
+    "intrinsicHeight": 1890,
+    "widths": [
+      360,
+      540,
+      720
+    ]
   }
 ]

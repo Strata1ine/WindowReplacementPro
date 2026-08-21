@@ -1,4 +1,4 @@
-import { mkdir, readFile } from 'node:fs/promises';
+import { mkdir, readFile, readdir, unlink } from 'node:fs/promises';
 import path from 'node:path';
 import sharp from 'sharp';
 
@@ -9,11 +9,32 @@ const selectionByProductId = new Map(selections.products.map(product => [product
 const outputDirectory = path.join(root, 'public-site/media/products');
 await mkdir(outputDirectory, { recursive: true });
 
+const expectedOutputs = new Set(plan.flatMap(item => {
+  const format = item.format ?? 'webp';
+  return item.widths.map(width => item.key + '-' + width + '.' + format);
+}));
+let obsoleteRemoved = 0;
+for (const file of await readdir(outputDirectory)) {
+  if (/^wrp-[wdgp]\d{3}(?:-gallery-\d+)?-\d+\.(?:webp|jpg)$/i.test(file) && !expectedOutputs.has(file)) {
+    await unlink(path.join(outputDirectory, file));
+    obsoleteRemoved += 1;
+  }
+}
+
+const contentByReference = new Map();
 for (const item of plan) {
   const product = selectionByProductId.get(item.productId);
-  const asset = product?.[item.selection];
-  if (!asset || Array.isArray(asset) || !asset.localPath) throw new TypeError('Public media plan cannot resolve ' + item.productId + '.' + item.selection);
+  const selected = product?.[item.selection];
+  const asset = Array.isArray(selected) ? selected[item.selectionIndex ?? 0] : selected;
+  if (!asset?.localPath) throw new TypeError('Public media plan cannot resolve ' + item.productId + '.' + item.selection);
   if (asset.relationshipState !== 'product-specific') throw new TypeError('Public media must be product-specific: ' + item.productId);
+  if (!item.alt?.trim()) throw new TypeError('Public media alt text is missing: ' + item.key);
+
+  const knownContent = contentByReference.get(item.publicReference) ?? new Set();
+  if (knownContent.has(asset.sha256)) throw new TypeError('Duplicate public media content within ' + item.publicReference + ': ' + item.key);
+  knownContent.add(asset.sha256);
+  contentByReference.set(item.publicReference, knownContent);
+
   const sourcePath = path.join(root, 'public', asset.localPath.replace(/^\//, ''));
   const metadata = await sharp(sourcePath).metadata();
   if (metadata.width !== item.intrinsicWidth || metadata.height !== item.intrinsicHeight) {
@@ -27,9 +48,13 @@ for (const item of plan) {
     else encoder.webp({ quality: 82, smartSubsample: true });
     await encoder.toFile(outputPath);
     const outputMetadata = await sharp(outputPath).metadata();
+    if (outputMetadata.width !== width) throw new TypeError('Public media width descriptor mismatch: ' + outputPath);
     for (const field of ['exif', 'icc', 'iptc', 'xmp']) {
       if (outputMetadata[field]) throw new TypeError('Public derivative retained ' + field + ': ' + outputPath);
     }
   }
 }
-console.log('Built ' + plan.reduce((count, item) => count + item.widths.length, 0) + ' neutral public image derivatives.');
+
+const heroCount = plan.filter(item => item.role === 'hero').length;
+const galleryCount = plan.filter(item => item.role === 'gallery').length;
+console.log('Built ' + plan.reduce((count, item) => count + item.widths.length, 0) + ' neutral public image derivatives for ' + heroCount + ' heroes and ' + galleryCount + ' gallery assets; removed ' + obsoleteRemoved + ' obsolete neutral derivatives.');

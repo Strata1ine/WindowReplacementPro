@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-20T14:46:07.192Z",
+  "generatedAt": "2026-08-21T05:35:08.113Z",
   "policy": "Supplier-backed records require an explicitly reviewed neutral identity. No automatic public naming is permitted.",
   "summary": {
     "internallyPublishedProductsReviewed": 203,
-    "supplierNeutralAndSafe": 4,
-    "requiresPublicRename": 199,
-    "requiresPublicSlugChange": 199,
-    "requiresMediaSanitization": 180,
-    "requiresDocumentRemoval": 70,
-    "categoryOnlyUntilReviewed": 199
+    "supplierNeutralAndSafe": 40,
+    "requiresPublicRename": 163,
+    "requiresPublicSlugChange": 163,
+    "requiresMediaSanitization": 144,
+    "requiresDocumentRemoval": 51,
+    "categoryOnlyUntilReviewed": 163
   },
   "records": [
     {
@@ -16,17 +16,6 @@
       "internalManufacturer": "masonite",
       "internalTitle": "2 Panel Hollister",
       "baselinePublicRoute": "/products/masonite/2-panel-hollister/",
-      "classification": "supplier-neutral and safe",
-      "requirements": [],
-      "publicDisplayName": "Two-Panel Fiberglass Entry Door",
-      "publicReference": "WRP-D001",
-      "publicRoute": "/products/entry-doors/two-panel-fiberglass-entry-door/"
-    },
-    {
-      "internalCanonicalId": "masonite:2-panel-1-2-lite",
-      "internalManufacturer": "masonite",
-      "internalTitle": "2 Panel ½ Lite",
-      "baselinePublicRoute": "/products/masonite/2-panel-1-2-lite/",
       "classification": "category-only until reviewed",
       "requirements": [
         "requires public rename",
@@ -37,6 +26,17 @@
       "publicDisplayName": null,
       "publicReference": null,
       "publicRoute": null
+    },
+    {
+      "internalCanonicalId": "masonite:2-panel-1-2-lite",
+      "internalManufacturer": "masonite",
+      "internalTitle": "2 Panel ½ Lite",
+      "baselinePublicRoute": "/products/masonite/2-panel-1-2-lite/",
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Half-Glass Fiberglass Entry Door",
+      "publicReference": "WRP-D008",
+      "publicRoute": "/products/entry-doors/half-glass-fiberglass-entry-door/"
     },
     {
       "internalCanonicalId": "masonite:4-panel-1-4-lite",
@@ -59,32 +59,22 @@
       "internalManufacturer": "masonite",
       "internalTitle": "6 Panel",
       "baselinePublicRoute": "/products/masonite/6-panel/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Traditional Six-Panel Fiberglass Entry Door",
+      "publicReference": "WRP-D006",
+      "publicRoute": "/products/entry-doors/traditional-six-panel-fiberglass-entry-door/"
     },
     {
       "internalCanonicalId": "masonite:full-lite",
       "internalManufacturer": "masonite",
       "internalTitle": "Full Lite",
       "baselinePublicRoute": "/products/masonite/full-lite/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Full-Glass Fiberglass Entry Door",
+      "publicReference": "WRP-D007",
+      "publicRoute": "/products/entry-doors/full-glass-fiberglass-entry-door/"
     },
     {
       "internalCanonicalId": "masonite:lincoln-park-1-panel",
@@ -155,16 +145,11 @@
       "internalManufacturer": "masonite",
       "internalTitle": "VistaGrande Flush-Glazed 3/4 Lite",
       "baselinePublicRoute": "/products/masonite/vistagrande-flush-glazed-3-4-lite/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Three-Quarter-Glass Fiberglass Entry Door",
+      "publicReference": "WRP-D009",
+      "publicRoute": "/products/entry-doors/three-quarter-glass-fiberglass-entry-door/"
     },
     {
       "internalCanonicalId": "masonite:vistagrande-flush-glazed-full-lite",
@@ -458,16 +443,11 @@
       "internalManufacturer": "mennie-canada",
       "internalTitle": "6'8\" Mahogany Grain (MAH2-D) 2 Panel",
       "baselinePublicRoute": "/products/mennie-canada/mah-2d/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Mahogany-Grain Fiberglass Entry Door",
+      "publicReference": "WRP-D004",
+      "publicRoute": "/products/entry-doors/mahogany-grain-fiberglass-entry-door/"
     },
     {
       "internalCanonicalId": "mennie-canada:mah-ss1",
@@ -667,16 +647,11 @@
       "internalManufacturer": "mennie-canada",
       "internalTitle": "6'8\" Mahogany Grain Craftsman Panel (MAH-CRF)",
       "baselinePublicRoute": "/products/mennie-canada/mah-crf/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Craftsman Fiberglass Entry Door",
+      "publicReference": "WRP-D005",
+      "publicRoute": "/products/entry-doors/craftsman-fiberglass-entry-door/"
     },
     {
       "internalCanonicalId": "mennie-canada:mah-c3p",
@@ -1491,17 +1466,11 @@
       "internalManufacturer": "novatech",
       "internalTitle": "2900 (ALUMINIUM)",
       "baselinePublicRoute": "/products/novatech/2900/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "requires document removal",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Aluminum Sliding Patio Door",
+      "publicReference": "WRP-P004",
+      "publicRoute": "/products/patio-doors/aluminum-sliding-patio-door/"
     },
     {
       "internalCanonicalId": "novatech:540",
@@ -1604,51 +1573,33 @@
       "internalManufacturer": "novatech",
       "internalTitle": "Loft (Aluminum)",
       "baselinePublicRoute": "/products/novatech/loft/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "requires document removal",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Slim-Frame Aluminum Patio Door",
+      "publicReference": "WRP-P006",
+      "publicRoute": "/products/patio-doors/slim-frame-aluminum-patio-door/"
     },
     {
       "internalCanonicalId": "novatech:630",
       "internalManufacturer": "novatech",
       "internalTitle": "Porte patio 630 (PVC)",
       "baselinePublicRoute": "/products/novatech/630/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "requires document removal",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "PVC Sliding Patio Door",
+      "publicReference": "WRP-P003",
+      "publicRoute": "/products/patio-doors/pvc-sliding-patio-door/"
     },
     {
       "internalCanonicalId": "novatech:rubik",
       "internalManufacturer": "novatech",
       "internalTitle": "Rubik",
       "baselinePublicRoute": "/products/novatech/rubik/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "requires document removal",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Geometric High-Privacy Door Glass",
+      "publicReference": "WRP-G002",
+      "publicRoute": "/products/door-glass/geometric-high-privacy-door-glass/"
     },
     {
       "internalCanonicalId": "novatech:studio",
@@ -1689,50 +1640,33 @@
       "internalManufacturer": "novatech",
       "internalTitle": "Élément (Bois/PVC/Aluminium)",
       "baselinePublicRoute": "/products/novatech/element/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "requires document removal",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Hybrid Patio Door",
+      "publicReference": "WRP-P005",
+      "publicRoute": "/products/patio-doors/hybrid-patio-door/"
     },
     {
       "internalCanonicalId": "novatech:equation",
       "internalManufacturer": "novatech",
       "internalTitle": "Équation",
       "baselinePublicRoute": "/products/novatech/equation/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Frosted High-Privacy Door Glass",
+      "publicReference": "WRP-G003",
+      "publicRoute": "/products/door-glass/frosted-high-privacy-door-glass/"
     },
     {
       "internalCanonicalId": "oceanview:essential",
       "internalManufacturer": "oceanview",
       "internalTitle": "Essential",
       "baselinePublicRoute": "/products/oceanview/essential/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "requires document removal",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Two-Panel Sliding Patio Door",
+      "publicReference": "WRP-P002",
+      "publicRoute": "/products/patio-doors/two-panel-sliding-patio-door/"
     },
     {
       "internalCanonicalId": "oceanview:premium",
@@ -1801,17 +1735,11 @@
       "internalManufacturer": "richersons",
       "internalTitle": "SG00 Flush",
       "baselinePublicRoute": "/products/richersons/sg00/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "requires document removal",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Smooth Flush Fiberglass Entry Door",
+      "publicReference": "WRP-D002",
+      "publicRoute": "/products/entry-doors/smooth-flush-fiberglass-entry-door/"
     },
     {
       "internalCanonicalId": "richersons:sg20",
@@ -1916,17 +1844,11 @@
       "internalManufacturer": "richersons",
       "internalTitle": "SG46 4 Panel - Flush Top",
       "baselinePublicRoute": "/products/richersons/sg46/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "requires document removal",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Four-Panel Fiberglass Entry Door",
+      "publicReference": "WRP-D011",
+      "publicRoute": "/products/entry-doors/four-panel-fiberglass-entry-door/"
     },
     {
       "internalCanonicalId": "richersons:sg48",
@@ -2017,34 +1939,22 @@
       "internalManufacturer": "richersons",
       "internalTitle": "SGNL Smooth White",
       "baselinePublicRoute": "/products/richersons/sgnl/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "requires document removal",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Narrow-Lite Fiberglass Entry Door",
+      "publicReference": "WRP-D010",
+      "publicRoute": "/products/entry-doors/narrow-lite-fiberglass-entry-door/"
     },
     {
       "internalCanonicalId": "richersons:wg00",
       "internalManufacturer": "richersons",
       "internalTitle": "WG00 Flush",
       "baselinePublicRoute": "/products/richersons/wg00/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "requires document removal",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Oak-Grain Fiberglass Entry Door",
+      "publicReference": "WRP-D003",
+      "publicRoute": "/products/entry-doors/oak-grain-fiberglass-entry-door/"
     },
     {
       "internalCanonicalId": "richersons:wg20",
@@ -2313,32 +2223,22 @@
       "internalManufacturer": "trimlite",
       "internalTitle": "DRF1K Fir Grain Exterior Fiberglass Door",
       "baselinePublicRoute": "/products/trimlite/drf1k/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "One-Panel Woodgrain Fiberglass Entry Door",
+      "publicReference": "WRP-D012",
+      "publicRoute": "/products/entry-doors/one-panel-woodgrain-fiberglass-entry-door/"
     },
     {
       "internalCanonicalId": "trimlite:drf2k",
       "internalManufacturer": "trimlite",
       "internalTitle": "DRF2K Fir Grain Exterior Fiberglass Door",
       "baselinePublicRoute": "/products/trimlite/drf2k/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Two-Panel Fiberglass Entry Door",
+      "publicReference": "WRP-D001",
+      "publicRoute": "/products/entry-doors/two-panel-fiberglass-entry-door/"
     },
     {
       "internalCanonicalId": "trimlite:drs1el",
@@ -2408,16 +2308,11 @@
       "internalManufacturer": "verre-select",
       "internalTitle": "CBG",
       "baselinePublicRoute": "/products/verre-select/cbg/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Clear-Zone Sandblasted Door Glass",
+      "publicReference": "WRP-G004",
+      "publicRoute": "/products/door-glass/clear-zone-sandblasted-door-glass/"
     },
     {
       "internalCanonicalId": "verre-select:cadence",
@@ -2472,16 +2367,11 @@
       "internalManufacturer": "verre-select",
       "internalTitle": "Dorian",
       "baselinePublicRoute": "/products/verre-select/dorian/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Organic Decorative Door Glass",
+      "publicReference": "WRP-G012",
+      "publicRoute": "/products/door-glass/organic-decorative-door-glass/"
     },
     {
       "internalCanonicalId": "verre-select:endrick",
@@ -2552,16 +2442,11 @@
       "internalManufacturer": "verre-select",
       "internalTitle": "Java",
       "baselinePublicRoute": "/products/verre-select/java/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Linear Privacy Door Glass",
+      "publicReference": "WRP-G005",
+      "publicRoute": "/products/door-glass/linear-privacy-door-glass/"
     },
     {
       "internalCanonicalId": "verre-select:naomie",
@@ -2584,16 +2469,11 @@
       "internalManufacturer": "verre-select",
       "internalTitle": "Paris",
       "baselinePublicRoute": "/products/verre-select/paris/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Classic Beveled Decorative Door Glass",
+      "publicReference": "WRP-G008",
+      "publicRoute": "/products/door-glass/classic-beveled-decorative-door-glass/"
     },
     {
       "internalCanonicalId": "verre-select:pixel",
@@ -2616,32 +2496,22 @@
       "internalManufacturer": "verre-select",
       "internalTitle": "Quattro",
       "baselinePublicRoute": "/products/verre-select/quattro/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Contemporary Camed Door Glass",
+      "publicReference": "WRP-G010",
+      "publicRoute": "/products/door-glass/contemporary-camed-door-glass/"
     },
     {
       "internalCanonicalId": "verre-select:renoir",
       "internalManufacturer": "verre-select",
       "internalTitle": "Renoir",
       "baselinePublicRoute": "/products/verre-select/renoir/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Hammered Decorative Door Glass",
+      "publicReference": "WRP-G009",
+      "publicRoute": "/products/door-glass/hammered-decorative-door-glass/"
     },
     {
       "internalCanonicalId": "verre-select:rill",
@@ -2696,48 +2566,33 @@
       "internalManufacturer": "verre-select",
       "internalTitle": "Waterside",
       "baselinePublicRoute": "/products/verre-select/waterside/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Clear Patterned Door Glass",
+      "publicReference": "WRP-G007",
+      "publicRoute": "/products/door-glass/clear-patterned-door-glass/"
     },
     {
       "internalCanonicalId": "verre-select:whistler",
       "internalManufacturer": "verre-select",
       "internalTitle": "Whistler",
       "baselinePublicRoute": "/products/verre-select/whistler/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Narrow Sidelite Decorative Glass",
+      "publicReference": "WRP-G011",
+      "publicRoute": "/products/door-glass/narrow-sidelite-decorative-glass/"
     },
     {
       "internalCanonicalId": "verre-select:wide-reed",
       "internalManufacturer": "verre-select",
       "internalTitle": "Wide Reed",
       "baselinePublicRoute": "/products/verre-select/wide-reed/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Wide-Reed Textured Door Glass",
+      "publicReference": "WRP-G006",
+      "publicRoute": "/products/door-glass/wide-reed-textured-door-glass/"
     },
     {
       "internalCanonicalId": "vinyl-pro:awning",
@@ -2777,34 +2632,22 @@
       "internalManufacturer": "vinyl-pro",
       "internalTitle": "3 1/4 Double Hung",
       "baselinePublicRoute": "/products/vinyl-pro/double-hung/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "requires document removal",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Double-Hung Window",
+      "publicReference": "WRP-W004",
+      "publicRoute": "/products/windows/double-hung-window/"
     },
     {
       "internalCanonicalId": "vinyl-pro:double-slider",
       "internalManufacturer": "vinyl-pro",
       "internalTitle": "3 1/4 Double Slider",
       "baselinePublicRoute": "/products/vinyl-pro/double-slider/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "requires document removal",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Double Slider Window",
+      "publicReference": "WRP-W006",
+      "publicRoute": "/products/windows/double-slider-window/"
     },
     {
       "internalCanonicalId": "vinyl-pro:end-vent-slider",
@@ -2844,17 +2687,11 @@
       "internalManufacturer": "vinyl-pro",
       "internalTitle": "3 1/4 Picture Window",
       "baselinePublicRoute": "/products/vinyl-pro/picture-window/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "requires document removal",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Picture Window",
+      "publicReference": "WRP-W008",
+      "publicRoute": "/products/windows/picture-window/"
     },
     {
       "internalCanonicalId": "vinyl-pro:single-hung",
@@ -2921,17 +2758,11 @@
       "internalManufacturer": "window-city",
       "internalTitle": "HC-126 Awning",
       "baselinePublicRoute": "/products/window-city/hc-126/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "requires document removal",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Awning Window",
+      "publicReference": "WRP-W003",
+      "publicRoute": "/products/windows/awning-window/"
     },
     {
       "internalCanonicalId": "window-city:hc-151",
@@ -2955,34 +2786,22 @@
       "internalManufacturer": "window-city",
       "internalTitle": "HC-176 Casement Fixed",
       "baselinePublicRoute": "/products/window-city/hc-176/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "requires document removal",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Casement-Profile Fixed Window",
+      "publicReference": "WRP-W009",
+      "publicRoute": "/products/windows/casement-profile-fixed-window/"
     },
     {
       "internalCanonicalId": "window-city:hc-401",
       "internalManufacturer": "window-city",
       "internalTitle": "HC-401 Casement",
       "baselinePublicRoute": "/products/window-city/hc-401/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "requires document removal",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "High-Performance Casement Window",
+      "publicReference": "WRP-W002",
+      "publicRoute": "/products/windows/high-performance-casement-window/"
     },
     {
       "internalCanonicalId": "window-city:hc-426",
@@ -3006,17 +2825,11 @@
       "internalManufacturer": "window-city",
       "internalTitle": "HC-451 Slim Fixed",
       "baselinePublicRoute": "/products/window-city/hc-451/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "requires document removal",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Slim Fixed Window",
+      "publicReference": "WRP-W010",
+      "publicRoute": "/products/windows/slim-fixed-window/"
     },
     {
       "internalCanonicalId": "window-city:hc-476",
@@ -3125,17 +2938,11 @@
       "internalManufacturer": "window-city",
       "internalTitle": "WC-201 Hung",
       "baselinePublicRoute": "/products/window-city/wc-201/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "requires document removal",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Single-Hung Window",
+      "publicReference": "WRP-W005",
+      "publicRoute": "/products/windows/single-hung-window/"
     },
     {
       "internalCanonicalId": "window-city:wc-250",
@@ -3193,17 +3000,11 @@
       "internalManufacturer": "window-city",
       "internalTitle": "WC-325 Single Slider",
       "baselinePublicRoute": "/products/window-city/wc-325/",
-      "classification": "category-only until reviewed",
-      "requirements": [
-        "requires public rename",
-        "requires public slug change",
-        "requires media sanitization",
-        "requires document removal",
-        "category-only until reviewed"
-      ],
-      "publicDisplayName": null,
-      "publicReference": null,
-      "publicRoute": null
+      "classification": "supplier-neutral and safe",
+      "requirements": [],
+      "publicDisplayName": "Single Slider Window",
+      "publicReference": "WRP-W007",
+      "publicRoute": "/products/windows/single-slider-window/"
     },
     {
       "internalCanonicalId": "window-city:wc-350",

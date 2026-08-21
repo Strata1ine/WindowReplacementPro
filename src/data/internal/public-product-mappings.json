@@ -1,0 +1,2462 @@
+[
+  {
+    "publicProductId": "WRP-W001",
+    "primaryInternalProductId": "window-city:hc-101",
+    "internalProductIds": [
+      "window-city:hc-101",
+      "window-city:wc-100",
+      "vinyl-pro:casement"
+    ],
+    "evidence": [
+      {
+        "productId": "window-city:hc-101",
+        "classificationEvidence": [
+          "sourceCategory=windows",
+          "casement-windows: name=HC-101 Casement",
+          "double-pane: performance=Supplier 2026 catalogue ratings - Double Pane: air A3; water 620Pa; forced-entry Grade 10; structural R-PG65; U-factor 0.23 Btu/h-ft2-F (1.28 W/m2-K); ER 35; ENERGY STAR Yes; Most Efficient No. Triple Pane: air A3; water 620Pa; forced-entry Grade 10; structural R-PG65; U-factor 0.18 Btu/h-ft2-F (1.04 W/m2-K); ER 38; ENERGY STAR Yes; Most Efficient Yes.",
+          "triple-pane: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "energy-efficient: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "pvc: material=Window City-designed and extruded vinyl/uPVC window profiles."
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#window-city:hc-101/sourceFacts/normalized/operatingStyle",
+          "src/data/catalog/enrichment-records.json#window-city:hc-101/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#window-city:hc-101/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#window-city:hc-101/sourceFacts/normalized/performance",
+          "src/data/catalog/enrichment-records.json#window-city:hc-101/sourceFacts/normalized/hardware",
+          "src/data/catalog/enrichment-records.json#window-city:hc-101/sourceFacts/normalized/frameDepth",
+          "src/data/catalog/enrichment-records.json#window-city:hc-101/sourceFacts/normalized/configuration",
+          "src/data/catalog/enrichment-records.json#window-city:hc-101/sourceFacts/normalized/warranty"
+        ]
+      },
+      {
+        "productId": "window-city:wc-100",
+        "classificationEvidence": [
+          "sourceCategory=windows",
+          "casement-windows: name=WC-100 Casement",
+          "double-pane: performance=Supplier 2026 catalogue ratings - Double Pane: air A3; water 720Pa; forced-entry Grade 20; structural R-PG65; U-factor 0.22 Btu/h-ft2-F (1.27 W/m2-K); ER 36; ENERGY STAR Yes; Most Efficient No. Triple Pane: air A3; water 720Pa; forced-entry Grade 20; structural R-PG65; U-factor 0.18 Btu/h-ft2-F (1.02 W/m2-K); ER 38; ENERGY STAR Yes; Most Efficient Yes.",
+          "triple-pane: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "energy-efficient: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "pvc: material=Window City-designed and extruded vinyl/uPVC window profiles."
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#window-city:wc-100/sourceFacts/normalized/operatingStyle",
+          "src/data/catalog/enrichment-records.json#window-city:wc-100/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#window-city:wc-100/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#window-city:wc-100/sourceFacts/normalized/performance",
+          "src/data/catalog/enrichment-records.json#window-city:wc-100/sourceFacts/normalized/hardware",
+          "src/data/catalog/enrichment-records.json#window-city:wc-100/sourceFacts/normalized/frameDepth",
+          "src/data/catalog/enrichment-records.json#window-city:wc-100/sourceFacts/normalized/configuration",
+          "src/data/catalog/enrichment-records.json#window-city:wc-100/sourceFacts/normalized/warranty"
+        ]
+      },
+      {
+        "productId": "vinyl-pro:casement",
+        "classificationEvidence": [
+          "sourceCategory=windows",
+          "casement-windows: name=3 1/4 Casement",
+          "triple-pane: glazing=Double- or triple-glazed insulated units with argon or krypton gas and Low-E coating",
+          "energy-efficient: glazing=Double- or triple-glazed insulated units with argon or krypton gas and Low-E coating",
+          "pvc: material=100% lead-free uPVC"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#vinyl-pro:casement/sourceFacts/normalized/operatingStyle",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:casement/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:casement/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:casement/sourceFacts/normalized/colours",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:casement/sourceFacts/normalized/hardware",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:casement/sourceFacts/normalized/frameDepth",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:casement/sourceFacts/normalized/warranty"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped systems share casement operation and a compact residential vinyl-frame direction; exact profiles and ratings are not interchangeable."
+    ],
+    "selectionNotes": "Use as the compact casement family; select the quoted system after dimensions and performance needs are known.",
+    "heroSelection": {
+      "productId": "window-city:hc-101",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": []
+  },
+  {
+    "publicProductId": "WRP-W002",
+    "primaryInternalProductId": "window-city:hc-401",
+    "internalProductIds": [
+      "window-city:hc-401",
+      "window-city:wc-400",
+      "vinyl-pro:4-9-16-casement"
+    ],
+    "evidence": [
+      {
+        "productId": "window-city:hc-401",
+        "classificationEvidence": [
+          "sourceCategory=windows",
+          "casement-windows: name=HC-401 Casement",
+          "double-pane: performance=Supplier 2026 catalogue ratings - Double Pane: air A3; water 720Pa; forced-entry Grade 20; structural CW-PG70; U-factor 0.23 Btu/h-ft2-F (1.29 W/m2-K); ER 39; ENERGY STAR Yes; Most Efficient No. Triple Pane: air A3; water 720Pa; forced-entry Grade 20; structural CW-PG70; U-factor 0.17 Btu/h-ft2-F (0.94 W/m2-K); ER 43; ENERGY STAR Yes; Most Efficient Yes.",
+          "triple-pane: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "energy-efficient: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "pvc: material=Window City-designed and extruded vinyl/uPVC window profiles."
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#window-city:hc-401/sourceFacts/normalized/operatingStyle",
+          "src/data/catalog/enrichment-records.json#window-city:hc-401/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#window-city:hc-401/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#window-city:hc-401/sourceFacts/normalized/performance",
+          "src/data/catalog/enrichment-records.json#window-city:hc-401/sourceFacts/normalized/hardware",
+          "src/data/catalog/enrichment-records.json#window-city:hc-401/sourceFacts/normalized/frameDepth",
+          "src/data/catalog/enrichment-records.json#window-city:hc-401/sourceFacts/normalized/configuration",
+          "src/data/catalog/enrichment-records.json#window-city:hc-401/sourceFacts/normalized/warranty"
+        ]
+      },
+      {
+        "productId": "window-city:wc-400",
+        "classificationEvidence": [
+          "sourceCategory=windows",
+          "casement-windows: name=WC-400 Casement",
+          "double-pane: performance=Supplier 2026 catalogue ratings - Double Pane: air A3; water 510Pa; forced-entry Grade 20; structural R-PG55; U-factor 0.23 Btu/h-ft2-F (1.28 W/m2-K); ER 34; ENERGY STAR Yes; Most Efficient No. Triple Pane: air A3; water 510Pa; forced-entry Grade 20; structural R-PG55; U-factor 0.18 Btu/h-ft2-F (1.04 W/m2-K); ER 37; ENERGY STAR Yes; Most Efficient Yes.",
+          "triple-pane: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "energy-efficient: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "pvc: material=Window City-designed and extruded vinyl/uPVC window profiles."
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#window-city:wc-400/sourceFacts/normalized/operatingStyle",
+          "src/data/catalog/enrichment-records.json#window-city:wc-400/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#window-city:wc-400/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#window-city:wc-400/sourceFacts/normalized/performance",
+          "src/data/catalog/enrichment-records.json#window-city:wc-400/sourceFacts/normalized/hardware",
+          "src/data/catalog/enrichment-records.json#window-city:wc-400/sourceFacts/normalized/frameDepth",
+          "src/data/catalog/enrichment-records.json#window-city:wc-400/sourceFacts/normalized/configuration",
+          "src/data/catalog/enrichment-records.json#window-city:wc-400/sourceFacts/normalized/warranty"
+        ]
+      },
+      {
+        "productId": "vinyl-pro:4-9-16-casement",
+        "classificationEvidence": [
+          "sourceCategory=windows",
+          "casement-windows: name=4 9/16 Casement",
+          "energy-efficient: glazing=13/16 in sealed glass unit; single, double, triple, Low-E, or decorative glazing depending on model",
+          "pvc: material=100% lead-free uPVC"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#vinyl-pro:4-9-16-casement/sourceFacts/normalized/operatingStyle",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:4-9-16-casement/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:4-9-16-casement/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:4-9-16-casement/sourceFacts/normalized/airInfiltrationExfiltration",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:4-9-16-casement/sourceFacts/normalized/colours",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:4-9-16-casement/sourceFacts/normalized/frameDepth",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:4-9-16-casement/sourceFacts/normalized/warranty"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped systems share deeper-frame casement construction but have different tested ratings and glazing limits."
+    ],
+    "selectionNotes": "Keep separate from the compact casement family because frame depth and performance documentation materially affect the purchase.",
+    "heroSelection": {
+      "productId": "window-city:hc-401",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": []
+  },
+  {
+    "publicProductId": "WRP-W003",
+    "primaryInternalProductId": "window-city:hc-126",
+    "internalProductIds": [
+      "window-city:hc-126",
+      "window-city:wc-125",
+      "window-city:hc-426",
+      "window-city:wc-425"
+    ],
+    "evidence": [
+      {
+        "productId": "window-city:hc-126",
+        "classificationEvidence": [
+          "sourceCategory=windows",
+          "awning-windows: name=HC-126 Awning",
+          "double-pane: performance=Supplier 2026 catalogue ratings - Double Pane: air A3; water 510Pa; forced-entry Grade 20; structural LC-PG70; U-factor 0.23 Btu/h-ft2-F (1.31 W/m2-K); ER 35; ENERGY STAR Yes; Most Efficient No. Triple Pane: air A3; water 510Pa; forced-entry Grade 20; structural LC-PG70; U-factor 0.18 Btu/h-ft2-F (1.04 W/m2-K); ER 38; ENERGY STAR Yes; Most Efficient Yes.",
+          "triple-pane: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "energy-efficient: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "pvc: material=Window City-designed and extruded vinyl/uPVC window profiles."
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#window-city:hc-126/sourceFacts/normalized/operatingStyle",
+          "src/data/catalog/enrichment-records.json#window-city:hc-126/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#window-city:hc-126/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#window-city:hc-126/sourceFacts/normalized/performance",
+          "src/data/catalog/enrichment-records.json#window-city:hc-126/sourceFacts/normalized/hardware",
+          "src/data/catalog/enrichment-records.json#window-city:hc-126/sourceFacts/normalized/frameDepth",
+          "src/data/catalog/enrichment-records.json#window-city:hc-126/sourceFacts/normalized/configuration",
+          "src/data/catalog/enrichment-records.json#window-city:hc-126/sourceFacts/normalized/warranty"
+        ]
+      },
+      {
+        "productId": "window-city:wc-125",
+        "classificationEvidence": [
+          "sourceCategory=windows",
+          "awning-windows: name=WC-125 Awning",
+          "double-pane: performance=Supplier 2026 catalogue ratings - Double Pane: air A3; water 720Pa; forced-entry Grade 20; structural R-PG55; U-factor 0.23 Btu/h-ft2-F (1.29 W/m2-K); ER 35; ENERGY STAR Yes; Most Efficient No. Triple Pane: air A3; water 720Pa; forced-entry Grade 20; structural R-PG55; U-factor 0.18 Btu/h-ft2-F (1.02 W/m2-K); ER 38; ENERGY STAR Yes; Most Efficient Yes.",
+          "triple-pane: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "energy-efficient: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "pvc: material=Window City-designed and extruded vinyl/uPVC window profiles."
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#window-city:wc-125/sourceFacts/normalized/operatingStyle",
+          "src/data/catalog/enrichment-records.json#window-city:wc-125/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#window-city:wc-125/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#window-city:wc-125/sourceFacts/normalized/performance",
+          "src/data/catalog/enrichment-records.json#window-city:wc-125/sourceFacts/normalized/hardware",
+          "src/data/catalog/enrichment-records.json#window-city:wc-125/sourceFacts/normalized/frameDepth",
+          "src/data/catalog/enrichment-records.json#window-city:wc-125/sourceFacts/normalized/configuration",
+          "src/data/catalog/enrichment-records.json#window-city:wc-125/sourceFacts/normalized/warranty"
+        ]
+      },
+      {
+        "productId": "window-city:hc-426",
+        "classificationEvidence": [
+          "sourceCategory=windows",
+          "awning-windows: name=HC-426 Awning",
+          "double-pane: performance=Supplier 2026 catalogue ratings - Double Pane: air A3; water 720Pa; forced-entry Grade 20; structural LC-PG55; U-factor 0.23 Btu/h-ft2-F (1.32 W/m2-K); ER 38; ENERGY STAR Yes; Most Efficient No. Triple Pane: air A3; water 720Pa; forced-entry Grade 20; structural LC-PG55; U-factor 0.16 Btu/h-ft2-F (0.93 W/m2-K); ER 43; ENERGY STAR Yes; Most Efficient Yes.",
+          "triple-pane: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "energy-efficient: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "pvc: material=Window City-designed and extruded vinyl/uPVC window profiles."
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#window-city:hc-426/sourceFacts/normalized/operatingStyle",
+          "src/data/catalog/enrichment-records.json#window-city:hc-426/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#window-city:hc-426/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#window-city:hc-426/sourceFacts/normalized/performance",
+          "src/data/catalog/enrichment-records.json#window-city:hc-426/sourceFacts/normalized/hardware",
+          "src/data/catalog/enrichment-records.json#window-city:hc-426/sourceFacts/normalized/frameDepth",
+          "src/data/catalog/enrichment-records.json#window-city:hc-426/sourceFacts/normalized/configuration",
+          "src/data/catalog/enrichment-records.json#window-city:hc-426/sourceFacts/normalized/warranty"
+        ]
+      },
+      {
+        "productId": "window-city:wc-425",
+        "classificationEvidence": [
+          "sourceCategory=windows",
+          "awning-windows: name=WC-425 Awning",
+          "double-pane: performance=Supplier 2026 catalogue ratings - Double Pane: air A3; water 510Pa; forced-entry Grade 20; structural LC-PG60; U-factor 0.23 Btu/h-ft2-F (1.30 W/m2-K); ER 34; ENERGY STAR Yes; Most Efficient No. Triple Pane: air A3; water 510Pa; forced-entry Grade 20; structural LC-PG60; U-factor 0.18 Btu/h-ft2-F (1.04 W/m2-K); ER 37; ENERGY STAR Yes; Most Efficient Yes.",
+          "triple-pane: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "energy-efficient: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "pvc: material=Window City-designed and extruded vinyl/uPVC window profiles."
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#window-city:wc-425/sourceFacts/normalized/operatingStyle",
+          "src/data/catalog/enrichment-records.json#window-city:wc-425/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#window-city:wc-425/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#window-city:wc-425/sourceFacts/normalized/performance",
+          "src/data/catalog/enrichment-records.json#window-city:wc-425/sourceFacts/normalized/hardware",
+          "src/data/catalog/enrichment-records.json#window-city:wc-425/sourceFacts/normalized/frameDepth",
+          "src/data/catalog/enrichment-records.json#window-city:wc-425/sourceFacts/normalized/configuration",
+          "src/data/catalog/enrichment-records.json#window-city:wc-425/sourceFacts/normalized/warranty"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped systems share awning operation; frame depth and performance values must remain tied to the quoted model."
+    ],
+    "selectionNotes": "One public awning family is sufficient until a buyer-facing distinction beyond frame depth is supported.",
+    "heroSelection": {
+      "productId": "window-city:hc-126",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": []
+  },
+  {
+    "publicProductId": "WRP-W004",
+    "primaryInternalProductId": "vinyl-pro:double-hung",
+    "internalProductIds": [
+      "vinyl-pro:double-hung",
+      "window-city:wc-251"
+    ],
+    "evidence": [
+      {
+        "productId": "vinyl-pro:double-hung",
+        "classificationEvidence": [
+          "sourceCategory=windows",
+          "double-hung-windows: name=3 1/4 Double Hung",
+          "triple-pane: glazing=Double- or triple-glazed insulated units with argon or krypton gas and Low-E coating",
+          "energy-efficient: glazing=Double- or triple-glazed insulated units with argon or krypton gas and Low-E coating",
+          "pvc: material=100% lead-free uPVC"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#vinyl-pro:double-hung/sourceFacts/normalized/operatingStyle",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:double-hung/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:double-hung/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:double-hung/sourceFacts/normalized/colours",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:double-hung/sourceFacts/normalized/screen",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:double-hung/sourceFacts/normalized/frameDepth",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:double-hung/sourceFacts/normalized/warranty"
+        ]
+      },
+      {
+        "productId": "window-city:wc-251",
+        "classificationEvidence": [
+          "sourceCategory=windows",
+          "double-pane: performance=Supplier 2026 catalogue ratings - Double Pane: air A2; water 400Pa; forced-entry Grade 10; structural R-PG45; U-factor 0.24 Btu/h-ft2-F (1.39 W/m2-K); ER 35; ENERGY STAR Yes; Most Efficient No. Triple Pane: air A2; water 400Pa; forced-entry Grade 10; structural R-PG45; U-factor 0.22 Btu/h-ft2-F (1.27 W/m2-K); ER 35; ENERGY STAR Yes; Most Efficient No.",
+          "triple-pane: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "energy-efficient: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "pvc: material=Window City-designed and extruded vinyl/uPVC window profiles."
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#window-city:wc-251/sourceFacts/normalized/configuration",
+          "src/data/catalog/enrichment-records.json#window-city:wc-251/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#window-city:wc-251/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#window-city:wc-251/sourceFacts/normalized/performance",
+          "src/data/catalog/enrichment-records.json#window-city:wc-251/sourceFacts/normalized/hardware",
+          "src/data/catalog/enrichment-records.json#window-city:wc-251/sourceFacts/normalized/frameDepth",
+          "src/data/catalog/enrichment-records.json#window-city:wc-251/sourceFacts/normalized/configuration",
+          "src/data/catalog/enrichment-records.json#window-city:wc-251/sourceFacts/normalized/warranty"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped products share two-sash vertical operation; tilt, balance, screen and rating details are system-specific."
+    ],
+    "selectionNotes": "Keep distinct from single-hung operation because both sashes operate.",
+    "heroSelection": {
+      "productId": "vinyl-pro:double-hung",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": [
+      {
+        "productId": "vinyl-pro:double-hung",
+        "selection": "galleryMedia",
+        "index": 0,
+        "alt": "Interior view of a double-hung window configuration"
+      }
+    ]
+  },
+  {
+    "publicProductId": "WRP-W005",
+    "primaryInternalProductId": "window-city:wc-201",
+    "internalProductIds": [
+      "window-city:wc-201"
+    ],
+    "evidence": [
+      {
+        "productId": "window-city:wc-201",
+        "classificationEvidence": [
+          "sourceCategory=windows",
+          "double-pane: performance=Supplier 2026 catalogue ratings - Double Pane: air A3; water 440Pa; forced-entry Grade 20; structural R-PG40; U-factor 0.24 Btu/h-ft2-F (1.37 W/m2-K); ER 38; ENERGY STAR Yes; Most Efficient No. Triple Pane: air A3; water 440Pa; forced-entry Grade 20; structural R-PG40; U-factor 0.18 Btu/h-ft2-F (1.03 W/m2-K); ER 41; ENERGY STAR Yes; Most Efficient Yes.",
+          "triple-pane: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "energy-efficient: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "pvc: material=Window City-designed and extruded vinyl/uPVC window profiles."
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#window-city:wc-201/sourceFacts/normalized/configuration",
+          "src/data/catalog/enrichment-records.json#window-city:wc-201/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#window-city:wc-201/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#window-city:wc-201/sourceFacts/normalized/performance",
+          "src/data/catalog/enrichment-records.json#window-city:wc-201/sourceFacts/normalized/hardware",
+          "src/data/catalog/enrichment-records.json#window-city:wc-201/sourceFacts/normalized/frameDepth",
+          "src/data/catalog/enrichment-records.json#window-city:wc-201/sourceFacts/normalized/configuration",
+          "src/data/catalog/enrichment-records.json#window-city:wc-201/sourceFacts/normalized/warranty"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "This family maps to a reviewed single-hung configuration; exact hardware and ratings remain model-specific."
+    ],
+    "selectionNotes": "Keep separate from double-hung products because the fixed sash changes ventilation and cleaning.",
+    "heroSelection": {
+      "productId": "window-city:wc-201",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": []
+  },
+  {
+    "publicProductId": "WRP-W006",
+    "primaryInternalProductId": "vinyl-pro:double-slider",
+    "internalProductIds": [
+      "vinyl-pro:double-slider",
+      "window-city:wc-250",
+      "window-city:wc-350"
+    ],
+    "evidence": [
+      {
+        "productId": "vinyl-pro:double-slider",
+        "classificationEvidence": [
+          "sourceCategory=windows",
+          "double-slider-windows: name=3 1/4 Double Slider",
+          "triple-pane: glazing=Double- or triple-glazed insulated units with argon or krypton gas and Low-E coating",
+          "energy-efficient: glazing=Double- or triple-glazed insulated units with argon or krypton gas and Low-E coating",
+          "pvc: material=100% lead-free uPVC"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#vinyl-pro:double-slider/sourceFacts/normalized/operatingStyle",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:double-slider/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:double-slider/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:double-slider/sourceFacts/normalized/colours",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:double-slider/sourceFacts/normalized/screen",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:double-slider/sourceFacts/normalized/frameDepth",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:double-slider/sourceFacts/normalized/warranty"
+        ]
+      },
+      {
+        "productId": "window-city:wc-250",
+        "classificationEvidence": [
+          "sourceCategory=windows",
+          "double-slider-windows: name=WC-250 Double Slider",
+          "double-pane: performance=Supplier 2026 catalogue ratings - Double Pane: air A2; water 180Pa; forced-entry Grade 10; structural R-PG25; U-factor 0.25 Btu/h-ft2-F (1.40 W/m2-K); ER 35; ENERGY STAR Yes; Most Efficient No. Triple Pane: air A2; water 180Pa; forced-entry Grade 10; structural R-PG25; U-factor 0.22 Btu/h-ft2-F (1.27 W/m2-K); ER 35; ENERGY STAR Yes; Most Efficient No.",
+          "triple-pane: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "energy-efficient: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "pvc: material=Window City-designed and extruded vinyl/uPVC window profiles."
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#window-city:wc-250/sourceFacts/normalized/operatingStyle",
+          "src/data/catalog/enrichment-records.json#window-city:wc-250/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#window-city:wc-250/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#window-city:wc-250/sourceFacts/normalized/performance",
+          "src/data/catalog/enrichment-records.json#window-city:wc-250/sourceFacts/normalized/hardware",
+          "src/data/catalog/enrichment-records.json#window-city:wc-250/sourceFacts/normalized/frameDepth",
+          "src/data/catalog/enrichment-records.json#window-city:wc-250/sourceFacts/normalized/configuration",
+          "src/data/catalog/enrichment-records.json#window-city:wc-250/sourceFacts/normalized/warranty"
+        ]
+      },
+      {
+        "productId": "window-city:wc-350",
+        "classificationEvidence": [
+          "sourceCategory=windows",
+          "double-slider-windows: name=WC-350 Double Slider",
+          "double-pane: performance=Supplier 2026 catalogue ratings - Double Pane: air A2; water 150Pa; forced-entry Grade 20; structural R-PG20; U-factor 0.24 Btu/h-ft2-F (1.37 W/m2-K); ER 36; ENERGY STAR Yes; Most Efficient No. Triple Pane: air A2; water 150Pa; forced-entry Grade 20; structural R-PG20; U-factor 0.22 Btu/h-ft2-F (1.24 W/m2-K); ER 37; ENERGY STAR Yes; Most Efficient No.",
+          "triple-pane: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "energy-efficient: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "pvc: material=Window City-designed and extruded vinyl/uPVC window profiles."
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#window-city:wc-350/sourceFacts/normalized/operatingStyle",
+          "src/data/catalog/enrichment-records.json#window-city:wc-350/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#window-city:wc-350/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#window-city:wc-350/sourceFacts/normalized/performance",
+          "src/data/catalog/enrichment-records.json#window-city:wc-350/sourceFacts/normalized/hardware",
+          "src/data/catalog/enrichment-records.json#window-city:wc-350/sourceFacts/normalized/frameDepth",
+          "src/data/catalog/enrichment-records.json#window-city:wc-350/sourceFacts/normalized/configuration",
+          "src/data/catalog/enrichment-records.json#window-city:wc-350/sourceFacts/normalized/warranty"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped systems share double-slider operation; sash-removal method, frame depth and ratings vary."
+    ],
+    "selectionNotes": "Keep as the two-operating-sash slider family.",
+    "heroSelection": {
+      "productId": "vinyl-pro:double-slider",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": [
+      {
+        "productId": "vinyl-pro:double-slider",
+        "selection": "galleryMedia",
+        "index": 0,
+        "alt": "Interior view of a double slider window configuration"
+      }
+    ]
+  },
+  {
+    "publicProductId": "WRP-W007",
+    "primaryInternalProductId": "window-city:wc-325",
+    "internalProductIds": [
+      "window-city:wc-200",
+      "window-city:wc-325"
+    ],
+    "evidence": [
+      {
+        "productId": "window-city:wc-200",
+        "classificationEvidence": [
+          "sourceCategory=windows",
+          "single-slider-windows: name=WC-200 Single Slider",
+          "double-pane: performance=Supplier 2026 catalogue ratings - Double Pane: air A2; water 150Pa; forced-entry Grade 20; structural R-PG20; U-factor 0.24 Btu/h-ft2-F (1.38 W/m2-K); ER 36; ENERGY STAR Yes; Most Efficient No. Triple Pane: air A2; water 150Pa; forced-entry Grade 20; structural R-PG20; U-factor 0.18 Btu/h-ft2-F (1.03 W/m2-K); ER 40; ENERGY STAR Yes; Most Efficient Yes.",
+          "triple-pane: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "energy-efficient: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "pvc: material=Window City-designed and extruded vinyl/uPVC window profiles."
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#window-city:wc-200/sourceFacts/normalized/operatingStyle",
+          "src/data/catalog/enrichment-records.json#window-city:wc-200/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#window-city:wc-200/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#window-city:wc-200/sourceFacts/normalized/performance",
+          "src/data/catalog/enrichment-records.json#window-city:wc-200/sourceFacts/normalized/hardware",
+          "src/data/catalog/enrichment-records.json#window-city:wc-200/sourceFacts/normalized/frameDepth",
+          "src/data/catalog/enrichment-records.json#window-city:wc-200/sourceFacts/normalized/configuration",
+          "src/data/catalog/enrichment-records.json#window-city:wc-200/sourceFacts/normalized/warranty"
+        ]
+      },
+      {
+        "productId": "window-city:wc-325",
+        "classificationEvidence": [
+          "sourceCategory=windows",
+          "single-slider-windows: name=WC-325 Single Slider",
+          "double-pane: performance=Supplier 2026 catalogue ratings - Double Pane: air A3; water 180Pa; forced-entry Grade 20; structural R-PG25; U-factor 0.24 Btu/h-ft2-F (1.36 W/m2-K); ER 40; ENERGY STAR Yes; Most Efficient Yes. Triple Pane: air A3; water 180Pa; forced-entry Grade 20; structural R-PG25; U-factor 0.21 Btu/h-ft2-F (1.22 W/m2-K); ER 40; ENERGY STAR Yes; Most Efficient Yes.",
+          "triple-pane: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "energy-efficient: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "pvc: material=Window City-designed and extruded vinyl/uPVC window profiles."
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#window-city:wc-325/sourceFacts/normalized/operatingStyle",
+          "src/data/catalog/enrichment-records.json#window-city:wc-325/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#window-city:wc-325/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#window-city:wc-325/sourceFacts/normalized/performance",
+          "src/data/catalog/enrichment-records.json#window-city:wc-325/sourceFacts/normalized/hardware",
+          "src/data/catalog/enrichment-records.json#window-city:wc-325/sourceFacts/normalized/frameDepth",
+          "src/data/catalog/enrichment-records.json#window-city:wc-325/sourceFacts/normalized/configuration",
+          "src/data/catalog/enrichment-records.json#window-city:wc-325/sourceFacts/normalized/warranty"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped systems share single-slider operation but have different sash mechanics and ratings."
+    ],
+    "selectionNotes": "Keep distinct from the double slider because one sash remains fixed.",
+    "heroSelection": {
+      "productId": "window-city:wc-325",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": []
+  },
+  {
+    "publicProductId": "WRP-W008",
+    "primaryInternalProductId": "vinyl-pro:picture-window",
+    "internalProductIds": [
+      "vinyl-pro:picture-window"
+    ],
+    "evidence": [
+      {
+        "productId": "vinyl-pro:picture-window",
+        "classificationEvidence": [
+          "sourceCategory=windows",
+          "picture-windows: name=3 1/4 Picture Window",
+          "triple-pane: glazing=Double- or triple-glazed insulated units with argon or krypton gas and Low-E coating",
+          "energy-efficient: glazing=Double- or triple-glazed insulated units with argon or krypton gas and Low-E coating",
+          "pvc: material=100% lead-free uPVC"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#vinyl-pro:picture-window/sourceFacts/normalized/operatingStyle",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:picture-window/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:picture-window/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:picture-window/sourceFacts/normalized/colours",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:picture-window/sourceFacts/normalized/frameDepth",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:picture-window/sourceFacts/normalized/configuration",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:picture-window/sourceFacts/normalized/warranty"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "This family represents a fixed picture configuration; maximum size and glass requirements are quote-specific."
+    ],
+    "selectionNotes": "Keep separate from fixed units designed to align with casement-frame sightlines.",
+    "heroSelection": {
+      "productId": "vinyl-pro:picture-window",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": [
+      {
+        "productId": "vinyl-pro:picture-window",
+        "selection": "galleryMedia",
+        "index": 0,
+        "alt": "Interior view through a fixed picture window"
+      }
+    ]
+  },
+  {
+    "publicProductId": "WRP-W009",
+    "primaryInternalProductId": "window-city:hc-176",
+    "internalProductIds": [
+      "window-city:hc-176",
+      "window-city:wc-175",
+      "vinyl-pro:fixed-casement"
+    ],
+    "evidence": [
+      {
+        "productId": "window-city:hc-176",
+        "classificationEvidence": [
+          "sourceCategory=windows",
+          "fixed-windows: name=HC-176 Casement Fixed",
+          "double-pane: performance=Supplier 2026 catalogue ratings - Double Pane: air Fixed; water 720Pa; forced-entry Grade 20; structural R-PG70; U-factor 0.22 Btu/h-ft2-F (1.24 W/m2-K); ER 41; ENERGY STAR Yes; Most Efficient Yes. Triple Pane: air Fixed; water 720Pa; forced-entry Grade 20; structural R-PG70; U-factor 0.17 Btu/h-ft2-F (0.96 W/m2-K); ER 44; ENERGY STAR Yes; Most Efficient Yes.",
+          "triple-pane: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "energy-efficient: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "pvc: material=Window City-designed and extruded vinyl/uPVC window profiles."
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#window-city:hc-176/sourceFacts/normalized/operatingStyle",
+          "src/data/catalog/enrichment-records.json#window-city:hc-176/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#window-city:hc-176/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#window-city:hc-176/sourceFacts/normalized/performance",
+          "src/data/catalog/enrichment-records.json#window-city:hc-176/sourceFacts/normalized/hardware",
+          "src/data/catalog/enrichment-records.json#window-city:hc-176/sourceFacts/normalized/frameDepth",
+          "src/data/catalog/enrichment-records.json#window-city:hc-176/sourceFacts/normalized/configuration",
+          "src/data/catalog/enrichment-records.json#window-city:hc-176/sourceFacts/normalized/warranty"
+        ]
+      },
+      {
+        "productId": "window-city:wc-175",
+        "classificationEvidence": [
+          "sourceCategory=windows",
+          "fixed-windows: name=WC-175 Casement Fixed",
+          "double-pane: performance=Supplier 2026 catalogue ratings - Double Pane: air Fixed; water 720Pa; forced-entry Grade 40; structural CW-PG70; U-factor 0.22 Btu/h-ft2-F (1.26 W/m2-K); ER 41; ENERGY STAR Yes; Most Efficient Yes. Triple Pane: air Fixed; water 720Pa; forced-entry Grade 40; structural CW-PG70; U-factor 0.17 Btu/h-ft2-F (0.96 W/m2-K); ER 44; ENERGY STAR Yes; Most Efficient Yes.",
+          "triple-pane: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "energy-efficient: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "pvc: material=Window City-designed and extruded vinyl/uPVC window profiles."
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#window-city:wc-175/sourceFacts/normalized/operatingStyle",
+          "src/data/catalog/enrichment-records.json#window-city:wc-175/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#window-city:wc-175/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#window-city:wc-175/sourceFacts/normalized/performance",
+          "src/data/catalog/enrichment-records.json#window-city:wc-175/sourceFacts/normalized/hardware",
+          "src/data/catalog/enrichment-records.json#window-city:wc-175/sourceFacts/normalized/frameDepth",
+          "src/data/catalog/enrichment-records.json#window-city:wc-175/sourceFacts/normalized/configuration",
+          "src/data/catalog/enrichment-records.json#window-city:wc-175/sourceFacts/normalized/warranty"
+        ]
+      },
+      {
+        "productId": "vinyl-pro:fixed-casement",
+        "classificationEvidence": [
+          "sourceCategory=windows",
+          "fixed-windows: name=3 1/4 Fixed Casement",
+          "triple-pane: glazing=Double- or triple-glazed insulated units with argon or krypton gas and Low-E coating",
+          "energy-efficient: glazing=Double- or triple-glazed insulated units with argon or krypton gas and Low-E coating",
+          "pvc: material=100% lead-free uPVC"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#vinyl-pro:fixed-casement/sourceFacts/normalized/operatingStyle",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:fixed-casement/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:fixed-casement/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:fixed-casement/sourceFacts/normalized/colours",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:fixed-casement/sourceFacts/normalized/frameDepth",
+          "src/data/catalog/enrichment-records.json#vinyl-pro:fixed-casement/sourceFacts/normalized/warranty"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped products share fixed glazing with casement-compatible profiles; exact dimensions and ratings differ."
+    ],
+    "selectionNotes": "Keep distinct from slimmer fixed frames because alignment with adjacent operating units is a buyer-facing concern.",
+    "heroSelection": {
+      "productId": "window-city:hc-176",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": [
+      {
+        "productId": "vinyl-pro:fixed-casement",
+        "selection": "galleryMedia",
+        "index": 0,
+        "alt": "Interior view of a fixed casement-profile window"
+      }
+    ]
+  },
+  {
+    "publicProductId": "WRP-W010",
+    "primaryInternalProductId": "window-city:hc-451",
+    "internalProductIds": [
+      "window-city:hc-451",
+      "window-city:wc-450",
+      "window-city:hc-151",
+      "window-city:wc-150"
+    ],
+    "evidence": [
+      {
+        "productId": "window-city:hc-451",
+        "classificationEvidence": [
+          "sourceCategory=windows",
+          "fixed-windows: name=HC-451 Slim Fixed",
+          "double-pane: performance=Supplier 2026 catalogue ratings - Double Pane: air Fixed; water 720Pa; forced-entry Grade 40; structural CW-PG70; U-factor 0.22 Btu/h-ft2-F (1.23 W/m2-K); ER 46; ENERGY STAR Yes; Most Efficient Yes. Triple Pane: air Fixed; water 720Pa; forced-entry Grade 40; structural CW-PG70; U-factor 0.19 Btu/h-ft2-F (1.08 W/m2-K); ER 46; ENERGY STAR Yes; Most Efficient Yes.",
+          "triple-pane: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "energy-efficient: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "pvc: material=Window City-designed and extruded vinyl/uPVC window profiles."
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#window-city:hc-451/sourceFacts/normalized/configuration",
+          "src/data/catalog/enrichment-records.json#window-city:hc-451/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#window-city:hc-451/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#window-city:hc-451/sourceFacts/normalized/performance",
+          "src/data/catalog/enrichment-records.json#window-city:hc-451/sourceFacts/normalized/hardware",
+          "src/data/catalog/enrichment-records.json#window-city:hc-451/sourceFacts/normalized/frameDepth",
+          "src/data/catalog/enrichment-records.json#window-city:hc-451/sourceFacts/normalized/configuration",
+          "src/data/catalog/enrichment-records.json#window-city:hc-451/sourceFacts/normalized/warranty"
+        ]
+      },
+      {
+        "productId": "window-city:wc-450",
+        "classificationEvidence": [
+          "sourceCategory=windows",
+          "fixed-windows: name=WC-450 Slim Fixed",
+          "double-pane: performance=Supplier 2026 catalogue ratings - Double Pane: air Fixed; water 720Pa; forced-entry Grade 20; structural R-PG45; U-factor 0.22 Btu/h-ft2-F (1.25 W/m2-K); ER 43; ENERGY STAR Yes; Most Efficient Yes. Triple Pane: air Fixed; water 720Pa; forced-entry Grade 20; structural R-PG45; U-factor 0.19 Btu/h-ft2-F (1.11 W/m2-K); ER 43; ENERGY STAR Yes; Most Efficient Yes.",
+          "triple-pane: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "energy-efficient: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "pvc: material=Window City-designed and extruded vinyl/uPVC window profiles."
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#window-city:wc-450/sourceFacts/normalized/configuration",
+          "src/data/catalog/enrichment-records.json#window-city:wc-450/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#window-city:wc-450/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#window-city:wc-450/sourceFacts/normalized/performance",
+          "src/data/catalog/enrichment-records.json#window-city:wc-450/sourceFacts/normalized/hardware",
+          "src/data/catalog/enrichment-records.json#window-city:wc-450/sourceFacts/normalized/frameDepth",
+          "src/data/catalog/enrichment-records.json#window-city:wc-450/sourceFacts/normalized/configuration",
+          "src/data/catalog/enrichment-records.json#window-city:wc-450/sourceFacts/normalized/warranty"
+        ]
+      },
+      {
+        "productId": "window-city:hc-151",
+        "classificationEvidence": [
+          "sourceCategory=windows",
+          "fixed-windows: name=HC-151 Slim Fixed",
+          "double-pane: performance=Supplier 2026 catalogue ratings - Double Pane: air Fixed; water 510Pa; forced-entry Grade 20; structural R-PG55; U-factor 0.22 Btu/h-ft2-F (1.25 W/m2-K); ER 45; ENERGY STAR Yes; Most Efficient Yes. Triple Pane: air Fixed; water 510Pa; forced-entry Grade 20; structural R-PG55; U-factor 0.20 Btu/h-ft2-F (1.11 W/m2-K); ER 45; ENERGY STAR Yes; Most Efficient Yes.",
+          "triple-pane: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "energy-efficient: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "pvc: material=Window City-designed and extruded vinyl/uPVC window profiles."
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#window-city:hc-151/sourceFacts/normalized/configuration",
+          "src/data/catalog/enrichment-records.json#window-city:hc-151/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#window-city:hc-151/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#window-city:hc-151/sourceFacts/normalized/performance",
+          "src/data/catalog/enrichment-records.json#window-city:hc-151/sourceFacts/normalized/hardware",
+          "src/data/catalog/enrichment-records.json#window-city:hc-151/sourceFacts/normalized/frameDepth",
+          "src/data/catalog/enrichment-records.json#window-city:hc-151/sourceFacts/normalized/configuration",
+          "src/data/catalog/enrichment-records.json#window-city:hc-151/sourceFacts/normalized/warranty"
+        ]
+      },
+      {
+        "productId": "window-city:wc-150",
+        "classificationEvidence": [
+          "sourceCategory=windows",
+          "fixed-windows: name=WC-150 Slim Fixed",
+          "double-pane: performance=Supplier 2026 catalogue ratings - Double Pane: air Fixed; water 720Pa; forced-entry Grade 40; structural CW-PG70; U-factor 0.24 Btu/h-ft2-F (1.35 W/m2-K); ER 41; ENERGY STAR Yes; Most Efficient Yes. Triple Pane: air Fixed; water 720Pa; forced-entry Grade 40; structural CW-PG70; U-factor 0.21 Btu/h-ft2-F (1.18 W/m2-K); ER 42; ENERGY STAR Yes; Most Efficient Yes.",
+          "triple-pane: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "energy-efficient: glazing=Supplier glass options include double- and triple-pane insulated units, Low-E coating choices (LoE-272, LoE-180 ESC, and LoE-i89), gas-fill packages, and 4SG (TPS) warm-edge spacer configurations.",
+          "pvc: material=Window City-designed and extruded vinyl/uPVC window profiles."
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#window-city:wc-150/sourceFacts/normalized/configuration",
+          "src/data/catalog/enrichment-records.json#window-city:wc-150/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#window-city:wc-150/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#window-city:wc-150/sourceFacts/normalized/performance",
+          "src/data/catalog/enrichment-records.json#window-city:wc-150/sourceFacts/normalized/hardware",
+          "src/data/catalog/enrichment-records.json#window-city:wc-150/sourceFacts/normalized/frameDepth",
+          "src/data/catalog/enrichment-records.json#window-city:wc-150/sourceFacts/normalized/configuration",
+          "src/data/catalog/enrichment-records.json#window-city:wc-150/sourceFacts/normalized/warranty"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped systems share slim fixed sightlines; frame depth and performance ratings are not interchangeable."
+    ],
+    "selectionNotes": "Use for fixed glazing where a reduced frame profile is the principal customer distinction.",
+    "heroSelection": {
+      "productId": "window-city:hc-451",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": []
+  },
+  {
+    "publicProductId": "WRP-D001",
+    "primaryInternalProductId": "trimlite:drf2k",
+    "internalProductIds": [
+      "masonite:2-panel-hollister",
+      "masonite:square-2-panel",
+      "trimlite:drf2k",
+      "trimlite:drs2k"
+    ],
+    "evidence": [
+      {
+        "productId": "masonite:2-panel-hollister",
+        "classificationEvidence": [
+          "sourceCategory=entry-doors",
+          "fiberglass-entry-doors: material=Fiberglass",
+          "fiberglass: material=Fiberglass"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#masonite:2-panel-hollister/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#masonite:2-panel-hollister/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#masonite:2-panel-hollister/sourceFacts/normalized/panelDesign"
+        ]
+      },
+      {
+        "productId": "masonite:square-2-panel",
+        "classificationEvidence": [
+          "sourceCategory=entry-doors",
+          "fiberglass-entry-doors: material=Fiberglass",
+          "fiberglass: material=Fiberglass"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#masonite:square-2-panel/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#masonite:square-2-panel/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#masonite:square-2-panel/sourceFacts/normalized/panelDesign"
+        ]
+      },
+      {
+        "productId": "trimlite:drf2k",
+        "classificationEvidence": [
+          "sourceCategory=entry-doors",
+          "fiberglass-entry-doors: type=Fiberglass",
+          "fiberglass: name=DRF2K Fir Grain Exterior Fiberglass Door"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#trimlite:drf2k/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#trimlite:drf2k/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#trimlite:drf2k/sourceFacts/normalized/panelDesign"
+        ]
+      },
+      {
+        "productId": "trimlite:drs2k",
+        "classificationEvidence": [
+          "sourceCategory=entry-doors",
+          "fiberglass-entry-doors: type=Fiberglass",
+          "fiberglass: name=DRS2K Smooth Skin Exterior Fiberglass Door"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#trimlite:drs2k/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#trimlite:drs2k/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#trimlite:drs2k/sourceFacts/normalized/panelDesign"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped products share fiberglass construction and a two-panel face; texture, panel geometry and sizes vary."
+    ],
+    "selectionNotes": "Retain as the general two-panel fiberglass family rather than publishing each slab model.",
+    "heroSelection": {
+      "productId": "trimlite:drf2k",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": []
+  },
+  {
+    "publicProductId": "WRP-D002",
+    "primaryInternalProductId": "richersons:sg00",
+    "internalProductIds": [
+      "mennie-canada:sm-f",
+      "richersons:sg00",
+      "trimlite:drs1k"
+    ],
+    "evidence": [
+      {
+        "productId": "mennie-canada:sm-f",
+        "classificationEvidence": [
+          "sourceCategory=entry-doors",
+          "fiberglass-entry-doors: type=Fiberglass",
+          "traditional-entry-doors: insulationClaim=Supplier states six times the insulation of traditional wood doors",
+          "fiberglass: type=Fiberglass"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#mennie-canada:sm-f/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#mennie-canada:sm-f/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#mennie-canada:sm-f/sourceFacts/normalized/surfaceTexture",
+          "src/data/catalog/enrichment-records.json#mennie-canada:sm-f/sourceFacts/normalized/availableWidthsInches",
+          "src/data/catalog/enrichment-records.json#mennie-canada:sm-f/sourceFacts/normalized/core"
+        ]
+      },
+      {
+        "productId": "richersons:sg00",
+        "classificationEvidence": [
+          "sourceCategory=entry-doors",
+          "fiberglass-entry-doors: type=Fiberglass",
+          "fiberglass: type=Fiberglass"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#richersons:sg00/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#richersons:sg00/sourceFacts/normalized/material"
+        ]
+      },
+      {
+        "productId": "trimlite:drs1k",
+        "classificationEvidence": [
+          "sourceCategory=entry-doors",
+          "fiberglass-entry-doors: type=Fiberglass",
+          "fiberglass: name=DRS1K Smooth Skin Exterior Fiberglass Door"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#trimlite:drs1k/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#trimlite:drs1k/sourceFacts/normalized/material"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped products share smooth flush fiberglass faces; dimensions, cores and machining permissions vary."
+    ],
+    "selectionNotes": "Use the smooth flush family for homeowner selection; confirm the exact slab and preparation later.",
+    "heroSelection": {
+      "productId": "richersons:sg00",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": []
+  },
+  {
+    "publicProductId": "WRP-D003",
+    "primaryInternalProductId": "richersons:wg00",
+    "internalProductIds": [
+      "richersons:wg00",
+      "mennie-canada:wg-1p"
+    ],
+    "evidence": [
+      {
+        "productId": "richersons:wg00",
+        "classificationEvidence": [
+          "sourceCategory=entry-doors",
+          "fiberglass-entry-doors: type=Fiberglass",
+          "fiberglass: type=Fiberglass"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#richersons:wg00/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#richersons:wg00/sourceFacts/normalized/material"
+        ]
+      },
+      {
+        "productId": "mennie-canada:wg-1p",
+        "classificationEvidence": [
+          "sourceCategory=entry-doors",
+          "fiberglass-entry-doors: type=Fiberglass",
+          "traditional-entry-doors: insulationClaim=Supplier states six times the insulation of traditional wood doors",
+          "fiberglass: type=Fiberglass"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#mennie-canada:wg-1p/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#mennie-canada:wg-1p/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#mennie-canada:wg-1p/sourceFacts/normalized/surfaceTexture",
+          "src/data/catalog/enrichment-records.json#mennie-canada:wg-1p/sourceFacts/normalized/availableWidthsInches",
+          "src/data/catalog/enrichment-records.json#mennie-canada:wg-1p/sourceFacts/normalized/core"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped products share an oak-style fiberglass texture; panel layout, finish systems and sizes differ."
+    ],
+    "selectionNotes": "Keep distinct from mahogany-style grain because texture and finishing appearance are customer-visible.",
+    "heroSelection": {
+      "productId": "richersons:wg00",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": []
+  },
+  {
+    "publicProductId": "WRP-D004",
+    "primaryInternalProductId": "mennie-canada:mah-2d",
+    "internalProductIds": [
+      "mennie-canada:mah-f",
+      "mennie-canada:mah-2d",
+      "trimlite:drf1k"
+    ],
+    "evidence": [
+      {
+        "productId": "mennie-canada:mah-f",
+        "classificationEvidence": [
+          "sourceCategory=entry-doors",
+          "fiberglass-entry-doors: type=Fiberglass",
+          "traditional-entry-doors: insulationClaim=Supplier states six times the insulation of traditional wood doors",
+          "fiberglass: type=Fiberglass"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#mennie-canada:mah-f/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#mennie-canada:mah-f/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#mennie-canada:mah-f/sourceFacts/normalized/surfaceTexture",
+          "src/data/catalog/enrichment-records.json#mennie-canada:mah-f/sourceFacts/normalized/availableWidthsInches",
+          "src/data/catalog/enrichment-records.json#mennie-canada:mah-f/sourceFacts/normalized/core"
+        ]
+      },
+      {
+        "productId": "mennie-canada:mah-2d",
+        "classificationEvidence": [
+          "sourceCategory=entry-doors",
+          "fiberglass-entry-doors: type=Fiberglass",
+          "traditional-entry-doors: insulationClaim=Supplier states six times the insulation of traditional wood doors",
+          "fiberglass: type=Fiberglass"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#mennie-canada:mah-2d/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#mennie-canada:mah-2d/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#mennie-canada:mah-2d/sourceFacts/normalized/surfaceTexture",
+          "src/data/catalog/enrichment-records.json#mennie-canada:mah-2d/sourceFacts/normalized/availableWidthsInches",
+          "src/data/catalog/enrichment-records.json#mennie-canada:mah-2d/sourceFacts/normalized/panelDesign",
+          "src/data/catalog/enrichment-records.json#mennie-canada:mah-2d/sourceFacts/normalized/core"
+        ]
+      },
+      {
+        "productId": "trimlite:drf1k",
+        "classificationEvidence": [
+          "sourceCategory=entry-doors",
+          "fiberglass-entry-doors: type=Fiberglass",
+          "fiberglass: name=DRF1K Fir Grain Exterior Fiberglass Door"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#trimlite:drf1k/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#trimlite:drf1k/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#trimlite:drf1k/sourceFacts/normalized/panelDesign"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped products share mahogany-style fiberglass texture but differ in panel layout, dimensions and finishing instructions."
+    ],
+    "selectionNotes": "One public grain family covers technically comparable slab directions while the quotation names the exact option.",
+    "heroSelection": {
+      "productId": "mennie-canada:mah-2d",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": []
+  },
+  {
+    "publicProductId": "WRP-D005",
+    "primaryInternalProductId": "mennie-canada:mah-crf",
+    "internalProductIds": [
+      "mennie-canada:mah-crf",
+      "mennie-canada:sm-crf"
+    ],
+    "evidence": [
+      {
+        "productId": "mennie-canada:mah-crf",
+        "classificationEvidence": [
+          "sourceCategory=entry-doors",
+          "fiberglass-entry-doors: type=Fiberglass",
+          "traditional-entry-doors: insulationClaim=Supplier states six times the insulation of traditional wood doors",
+          "craftsman-entry-doors: name=6'8\" Mahogany Grain Craftsman Panel (MAH-CRF)",
+          "fiberglass: type=Fiberglass"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#mennie-canada:mah-crf/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#mennie-canada:mah-crf/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#mennie-canada:mah-crf/sourceFacts/normalized/surfaceTexture",
+          "src/data/catalog/enrichment-records.json#mennie-canada:mah-crf/sourceFacts/normalized/availableWidthsInches",
+          "src/data/catalog/enrichment-records.json#mennie-canada:mah-crf/sourceFacts/normalized/core"
+        ]
+      },
+      {
+        "productId": "mennie-canada:sm-crf",
+        "classificationEvidence": [
+          "sourceCategory=entry-doors",
+          "fiberglass-entry-doors: type=Fiberglass",
+          "traditional-entry-doors: insulationClaim=Supplier states six times the insulation of traditional wood doors",
+          "fiberglass: type=Fiberglass"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#mennie-canada:sm-crf/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#mennie-canada:sm-crf/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#mennie-canada:sm-crf/sourceFacts/normalized/surfaceTexture",
+          "src/data/catalog/enrichment-records.json#mennie-canada:sm-crf/sourceFacts/normalized/availableWidthsInches",
+          "src/data/catalog/enrichment-records.json#mennie-canada:sm-crf/sourceFacts/normalized/core"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped products share a Craftsman-oriented fiberglass face; glass machining, surface and dimensions differ."
+    ],
+    "selectionNotes": "Keep as a distinct style family because the panel proportions materially change the appearance.",
+    "heroSelection": {
+      "productId": "mennie-canada:mah-crf",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": [
+      {
+        "productId": "mennie-canada:mah-crf",
+        "selection": "galleryMedia",
+        "index": 1,
+        "alt": "Craftsman fiberglass door panel detail"
+      }
+    ]
+  },
+  {
+    "publicProductId": "WRP-D006",
+    "primaryInternalProductId": "masonite:6-panel",
+    "internalProductIds": [
+      "masonite:6-panel",
+      "richersons:sg68",
+      "richersons:wg68",
+      "mennie-canada:sm-6p"
+    ],
+    "evidence": [
+      {
+        "productId": "masonite:6-panel",
+        "classificationEvidence": [
+          "sourceCategory=entry-doors",
+          "fiberglass-entry-doors: material=Fiberglass",
+          "fiberglass: material=Fiberglass"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#masonite:6-panel/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#masonite:6-panel/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#masonite:6-panel/sourceFacts/normalized/panelDesign"
+        ]
+      },
+      {
+        "productId": "richersons:sg68",
+        "classificationEvidence": [
+          "sourceCategory=entry-doors",
+          "fiberglass-entry-doors: type=Fiberglass",
+          "fiberglass: type=Fiberglass"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#richersons:sg68/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#richersons:sg68/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#richersons:sg68/sourceFacts/normalized/panelDesign"
+        ]
+      },
+      {
+        "productId": "richersons:wg68",
+        "classificationEvidence": [
+          "sourceCategory=entry-doors",
+          "fiberglass-entry-doors: type=Fiberglass",
+          "fiberglass: type=Fiberglass"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#richersons:wg68/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#richersons:wg68/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#richersons:wg68/sourceFacts/normalized/panelDesign"
+        ]
+      },
+      {
+        "productId": "mennie-canada:sm-6p",
+        "classificationEvidence": [
+          "sourceCategory=entry-doors",
+          "fiberglass-entry-doors: type=Fiberglass",
+          "traditional-entry-doors: insulationClaim=Supplier states six times the insulation of traditional wood doors",
+          "fiberglass: type=Fiberglass"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#mennie-canada:sm-6p/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#mennie-canada:sm-6p/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#mennie-canada:sm-6p/sourceFacts/normalized/surfaceTexture",
+          "src/data/catalog/enrichment-records.json#mennie-canada:sm-6p/sourceFacts/normalized/availableWidthsInches",
+          "src/data/catalog/enrichment-records.json#mennie-canada:sm-6p/sourceFacts/normalized/panelDesign",
+          "src/data/catalog/enrichment-records.json#mennie-canada:sm-6p/sourceFacts/normalized/core"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped products share fiberglass construction and a six-panel face; surface and dimensions vary."
+    ],
+    "selectionNotes": "Combine comparable six-panel slabs rather than publish each supplier model.",
+    "heroSelection": {
+      "productId": "masonite:6-panel",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": []
+  },
+  {
+    "publicProductId": "WRP-D007",
+    "primaryInternalProductId": "masonite:full-lite",
+    "internalProductIds": [
+      "masonite:full-lite",
+      "masonite:vistagrande-flush-glazed-full-lite"
+    ],
+    "evidence": [
+      {
+        "productId": "masonite:full-lite",
+        "classificationEvidence": [
+          "sourceCategory=entry-doors",
+          "fiberglass-entry-doors: material=Fiberglass",
+          "full-glass-entry-doors: name=Full Lite",
+          "fiberglass: material=Fiberglass",
+          "full-glass: name=Full Lite"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#masonite:full-lite/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#masonite:full-lite/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#masonite:full-lite/sourceFacts/normalized/glassConfiguration"
+        ]
+      },
+      {
+        "productId": "masonite:vistagrande-flush-glazed-full-lite",
+        "classificationEvidence": [
+          "sourceCategory=entry-doors",
+          "full-glass-entry-doors: name=VistaGrande Flush-Glazed Full Lite",
+          "full-glass: name=VistaGrande Flush-Glazed Full Lite"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#masonite:vistagrande-flush-glazed-full-lite/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#masonite:vistagrande-flush-glazed-full-lite/sourceFacts/normalized/glassConfiguration"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped products share full-lite fiberglass construction; glass framing, dimensions and available designs vary."
+    ],
+    "selectionNotes": "Keep separate because the amount of glass materially affects privacy, daylight and appearance.",
+    "heroSelection": {
+      "productId": "masonite:full-lite",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": []
+  },
+  {
+    "publicProductId": "WRP-D008",
+    "primaryInternalProductId": "masonite:2-panel-1-2-lite",
+    "internalProductIds": [
+      "masonite:2-panel-1-2-lite",
+      "richersons:sg20",
+      "richersons:wg23"
+    ],
+    "evidence": [
+      {
+        "productId": "masonite:2-panel-1-2-lite",
+        "classificationEvidence": [
+          "sourceCategory=entry-doors"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#masonite:2-panel-1-2-lite/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#masonite:2-panel-1-2-lite/sourceFacts/normalized/glassConfiguration",
+          "src/data/catalog/enrichment-records.json#masonite:2-panel-1-2-lite/sourceFacts/normalized/panelDesign"
+        ]
+      },
+      {
+        "productId": "richersons:sg20",
+        "classificationEvidence": [
+          "sourceCategory=entry-doors",
+          "fiberglass-entry-doors: type=Fiberglass",
+          "fiberglass: type=Fiberglass"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#richersons:sg20/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#richersons:sg20/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#richersons:sg20/sourceFacts/normalized/glassConfiguration",
+          "src/data/catalog/enrichment-records.json#richersons:sg20/sourceFacts/normalized/panelDesign"
+        ]
+      },
+      {
+        "productId": "richersons:wg23",
+        "classificationEvidence": [
+          "sourceCategory=entry-doors",
+          "fiberglass-entry-doors: type=Fiberglass",
+          "fiberglass: type=Fiberglass"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#richersons:wg23/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#richersons:wg23/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#richersons:wg23/sourceFacts/normalized/glassConfiguration"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped products share an approximate half-lite configuration; exact cut-out, panels and surfaces vary."
+    ],
+    "selectionNotes": "Use as the homeowner-facing half-glass family rather than expose individual slab codes.",
+    "heroSelection": {
+      "productId": "masonite:2-panel-1-2-lite",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": []
+  },
+  {
+    "publicProductId": "WRP-D009",
+    "primaryInternalProductId": "masonite:vistagrande-flush-glazed-3-4-lite",
+    "internalProductIds": [
+      "masonite:vistagrande-flush-glazed-3-4-lite",
+      "richersons:sg25",
+      "richersons:wg25"
+    ],
+    "evidence": [
+      {
+        "productId": "masonite:vistagrande-flush-glazed-3-4-lite",
+        "classificationEvidence": [
+          "sourceCategory=entry-doors",
+          "fiberglass-entry-doors: material=Fiberglass",
+          "fiberglass: material=Fiberglass"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#masonite:vistagrande-flush-glazed-3-4-lite/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#masonite:vistagrande-flush-glazed-3-4-lite/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#masonite:vistagrande-flush-glazed-3-4-lite/sourceFacts/normalized/glassConfiguration"
+        ]
+      },
+      {
+        "productId": "richersons:sg25",
+        "classificationEvidence": [
+          "sourceCategory=entry-doors",
+          "fiberglass-entry-doors: type=Fiberglass",
+          "fiberglass: type=Fiberglass"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#richersons:sg25/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#richersons:sg25/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#richersons:sg25/sourceFacts/normalized/glassConfiguration",
+          "src/data/catalog/enrichment-records.json#richersons:sg25/sourceFacts/normalized/panelDesign"
+        ]
+      },
+      {
+        "productId": "richersons:wg25",
+        "classificationEvidence": [
+          "sourceCategory=entry-doors",
+          "fiberglass-entry-doors: type=Fiberglass",
+          "fiberglass: type=Fiberglass"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#richersons:wg25/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#richersons:wg25/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#richersons:wg25/sourceFacts/normalized/glassConfiguration",
+          "src/data/catalog/enrichment-records.json#richersons:wg25/sourceFacts/normalized/panelDesign"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped products share a three-quarter-lite proportion; glazing integration, surface and panel details vary."
+    ],
+    "selectionNotes": "Keep distinct from half-lite and full-lite configurations because the glass proportion is a clear buying choice.",
+    "heroSelection": {
+      "productId": "masonite:vistagrande-flush-glazed-3-4-lite",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": []
+  },
+  {
+    "publicProductId": "WRP-D010",
+    "primaryInternalProductId": "richersons:sgnl",
+    "internalProductIds": [
+      "richersons:sgnl",
+      "richersons:wgnl"
+    ],
+    "evidence": [
+      {
+        "productId": "richersons:sgnl",
+        "classificationEvidence": [
+          "sourceCategory=entry-doors",
+          "fiberglass-entry-doors: type=Fiberglass",
+          "fiberglass: type=Fiberglass"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#richersons:sgnl/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#richersons:sgnl/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#richersons:sgnl/sourceFacts/normalized/glassConfiguration"
+        ]
+      },
+      {
+        "productId": "richersons:wgnl",
+        "classificationEvidence": [
+          "sourceCategory=entry-doors",
+          "fiberglass-entry-doors: type=Fiberglass",
+          "fiberglass: type=Fiberglass"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#richersons:wgnl/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#richersons:wgnl/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#richersons:wgnl/sourceFacts/normalized/glassConfiguration"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped products share a narrow vertical lite; surface and compatible glass designs vary."
+    ],
+    "selectionNotes": "Keep as a separate glass-proportion family because it changes both appearance and privacy.",
+    "heroSelection": {
+      "productId": "richersons:sgnl",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": []
+  },
+  {
+    "publicProductId": "WRP-D011",
+    "primaryInternalProductId": "richersons:sg46",
+    "internalProductIds": [
+      "mennie-canada:sm-4pbt",
+      "richersons:sg46",
+      "richersons:wg46"
+    ],
+    "evidence": [
+      {
+        "productId": "mennie-canada:sm-4pbt",
+        "classificationEvidence": [
+          "sourceCategory=entry-doors",
+          "fiberglass-entry-doors: type=Fiberglass",
+          "traditional-entry-doors: insulationClaim=Supplier states six times the insulation of traditional wood doors",
+          "fiberglass: type=Fiberglass"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#mennie-canada:sm-4pbt/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#mennie-canada:sm-4pbt/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#mennie-canada:sm-4pbt/sourceFacts/normalized/surfaceTexture",
+          "src/data/catalog/enrichment-records.json#mennie-canada:sm-4pbt/sourceFacts/normalized/availableWidthsInches",
+          "src/data/catalog/enrichment-records.json#mennie-canada:sm-4pbt/sourceFacts/normalized/panelDesign",
+          "src/data/catalog/enrichment-records.json#mennie-canada:sm-4pbt/sourceFacts/normalized/core"
+        ]
+      },
+      {
+        "productId": "richersons:sg46",
+        "classificationEvidence": [
+          "sourceCategory=entry-doors",
+          "fiberglass-entry-doors: type=Fiberglass",
+          "fiberglass: type=Fiberglass"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#richersons:sg46/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#richersons:sg46/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#richersons:sg46/sourceFacts/normalized/panelDesign"
+        ]
+      },
+      {
+        "productId": "richersons:wg46",
+        "classificationEvidence": [
+          "sourceCategory=entry-doors",
+          "fiberglass-entry-doors: type=Fiberglass",
+          "fiberglass: type=Fiberglass"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#richersons:wg46/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#richersons:wg46/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#richersons:wg46/sourceFacts/normalized/panelDesign"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped products share four-panel fiberglass construction; panel proportions and surfaces vary."
+    ],
+    "selectionNotes": "Publish as one reviewed family while preserving slab-specific differences in the quotation.",
+    "heroSelection": {
+      "productId": "richersons:sg46",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": []
+  },
+  {
+    "publicProductId": "WRP-D012",
+    "primaryInternalProductId": "trimlite:drf1k",
+    "internalProductIds": [
+      "trimlite:drf1k"
+    ],
+    "evidence": [
+      {
+        "productId": "trimlite:drf1k",
+        "classificationEvidence": [
+          "sourceCategory=entry-doors",
+          "fiberglass-entry-doors: type=Fiberglass",
+          "fiberglass: name=DRF1K Fir Grain Exterior Fiberglass Door"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#trimlite:drf1k/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#trimlite:drf1k/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#trimlite:drf1k/sourceFacts/normalized/panelDesign"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "This family maps to one reviewed one-panel woodgrain slab; substitutions require a new evidence review."
+    ],
+    "selectionNotes": "Keep separate from flush and two-panel families because the visible panel geometry is materially different.",
+    "heroSelection": {
+      "productId": "trimlite:drf1k",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": []
+  },
+  {
+    "publicProductId": "WRP-G001",
+    "primaryInternalProductId": "novatech:infinite-black",
+    "internalProductIds": [
+      "novatech:infinite-black"
+    ],
+    "evidence": [
+      {
+        "productId": "novatech:infinite-black",
+        "classificationEvidence": [
+          "sourceCategory=door-glass",
+          "modern-door-glass: style=Contemporary",
+          "privacy-door-glass: normalized privacy rating=2/5",
+          "triple-pane: glazing=Triple glazing; black-tinted/V-groove central glass; Low-E; argon",
+          "energy-efficient: glazing=Triple glazing; black-tinted/V-groove central glass; Low-E; argon",
+          "black-finish: name=Infinite Black",
+          "privacy-glass: normalized privacy rating=2/5"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#novatech:infinite-black/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#novatech:infinite-black/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#novatech:infinite-black/sourceFacts/normalized/designName",
+          "src/data/catalog/enrichment-records.json#novatech:infinite-black/sourceFacts/normalized/privacyLevel",
+          "src/data/catalog/enrichment-records.json#novatech:infinite-black/sourceFacts/normalized/warranty"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "This family maps to one reviewed design direction; exact sizes and construction remain quote-specific."
+    ],
+    "selectionNotes": "Retain the approved neutral family and do not expose the proprietary design name.",
+    "heroSelection": {
+      "productId": "novatech:infinite-black",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": [
+      {
+        "productId": "novatech:infinite-black",
+        "selection": "galleryMedia",
+        "index": 0,
+        "alt": "Close view of black linear privacy door glass"
+      }
+    ]
+  },
+  {
+    "publicProductId": "WRP-G002",
+    "primaryInternalProductId": "novatech:rubik",
+    "internalProductIds": [
+      "novatech:rubik"
+    ],
+    "evidence": [
+      {
+        "productId": "novatech:rubik",
+        "classificationEvidence": [
+          "sourceCategory=door-glass",
+          "privacy-door-glass: normalized privacy rating=4/5",
+          "privacy-glass: normalized privacy rating=4/5"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#novatech:rubik/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#novatech:rubik/sourceFacts/normalized/designName",
+          "src/data/catalog/enrichment-records.json#novatech:rubik/sourceFacts/normalized/privacyLevel",
+          "src/data/catalog/enrichment-records.json#novatech:rubik/sourceFacts/normalized/warranty"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "This family maps to a reviewed high-privacy geometric design; sizes and construction are model-specific."
+    ],
+    "selectionNotes": "Keep separate from linear and frosted privacy families because the visible geometry is a distinct choice.",
+    "heroSelection": {
+      "productId": "novatech:rubik",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": [
+      {
+        "productId": "novatech:rubik",
+        "selection": "galleryMedia",
+        "index": 0,
+        "alt": "Detail of geometric high-privacy door glass"
+      }
+    ]
+  },
+  {
+    "publicProductId": "WRP-G003",
+    "primaryInternalProductId": "novatech:equation",
+    "internalProductIds": [
+      "novatech:equation"
+    ],
+    "evidence": [
+      {
+        "productId": "novatech:equation",
+        "classificationEvidence": [
+          "sourceCategory=door-glass",
+          "modern-door-glass: style=Contemporary",
+          "privacy-door-glass: normalized privacy rating=4/5",
+          "privacy-glass: normalized privacy rating=4/5"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#novatech:equation/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#novatech:equation/sourceFacts/normalized/designName",
+          "src/data/catalog/enrichment-records.json#novatech:equation/sourceFacts/normalized/privacyLevel",
+          "src/data/catalog/enrichment-records.json#novatech:equation/sourceFacts/normalized/warranty"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "This family maps to a reviewed high-privacy obscured design; compatible dimensions remain quote-specific."
+    ],
+    "selectionNotes": "Keep distinct from decorative geometric glass because the buyer sees a quieter frosted composition.",
+    "heroSelection": {
+      "productId": "novatech:equation",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": [
+      {
+        "productId": "novatech:equation",
+        "selection": "galleryMedia",
+        "index": 0,
+        "alt": "Close view of frosted high-privacy door glass"
+      }
+    ]
+  },
+  {
+    "publicProductId": "WRP-G004",
+    "primaryInternalProductId": "verre-select:cbg",
+    "internalProductIds": [
+      "verre-select:cbg",
+      "verre-select:cyndi",
+      "verre-select:fragrance"
+    ],
+    "evidence": [
+      {
+        "productId": "verre-select:cbg",
+        "classificationEvidence": [
+          "sourceCategory=door-glass",
+          "privacy-door-glass: glassComposition=Clear zone and sandblast",
+          "clear-door-glass: glassComposition=Clear zone and sandblast",
+          "decorative-door-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "decorative-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "privacy-glass: glassComposition=Clear zone and sandblast",
+          "clear-glass: glassComposition=Clear zone and sandblast"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#verre-select:cbg/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#verre-select:cbg/sourceFacts/normalized/glassComposition",
+          "src/data/catalog/enrichment-records.json#verre-select:cbg/sourceFacts/normalized/availableSizes",
+          "src/data/catalog/enrichment-records.json#verre-select:cbg/sourceFacts/normalized/designName",
+          "src/data/catalog/enrichment-records.json#verre-select:cbg/sourceFacts/normalized/warranty"
+        ]
+      },
+      {
+        "productId": "verre-select:cyndi",
+        "classificationEvidence": [
+          "sourceCategory=door-glass",
+          "privacy-door-glass: glassComposition=Sandblast with clear zone",
+          "clear-door-glass: glassComposition=Sandblast with clear zone",
+          "decorative-door-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "decorative-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "privacy-glass: glassComposition=Sandblast with clear zone",
+          "clear-glass: glassComposition=Sandblast with clear zone"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#verre-select:cyndi/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#verre-select:cyndi/sourceFacts/normalized/glassComposition",
+          "src/data/catalog/enrichment-records.json#verre-select:cyndi/sourceFacts/normalized/availableSizes",
+          "src/data/catalog/enrichment-records.json#verre-select:cyndi/sourceFacts/normalized/designName",
+          "src/data/catalog/enrichment-records.json#verre-select:cyndi/sourceFacts/normalized/warranty"
+        ]
+      },
+      {
+        "productId": "verre-select:fragrance",
+        "classificationEvidence": [
+          "sourceCategory=door-glass",
+          "privacy-door-glass: glassComposition=Sandblast with clear zone",
+          "clear-door-glass: glassComposition=Sandblast with clear zone",
+          "decorative-door-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "decorative-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "privacy-glass: glassComposition=Sandblast with clear zone",
+          "clear-glass: glassComposition=Sandblast with clear zone"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#verre-select:fragrance/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#verre-select:fragrance/sourceFacts/normalized/glassComposition",
+          "src/data/catalog/enrichment-records.json#verre-select:fragrance/sourceFacts/normalized/availableSizes",
+          "src/data/catalog/enrichment-records.json#verre-select:fragrance/sourceFacts/normalized/designName",
+          "src/data/catalog/enrichment-records.json#verre-select:fragrance/sourceFacts/normalized/warranty"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped designs share sandblasted fields with clear zones but are not visually identical."
+    ],
+    "selectionNotes": "Use as an appearance/function family; the quotation identifies the exact reviewed design.",
+    "heroSelection": {
+      "productId": "verre-select:cbg",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": []
+  },
+  {
+    "publicProductId": "WRP-G005",
+    "primaryInternalProductId": "verre-select:java",
+    "internalProductIds": [
+      "verre-select:java",
+      "verre-select:cadence"
+    ],
+    "evidence": [
+      {
+        "productId": "verre-select:java",
+        "classificationEvidence": [
+          "sourceCategory=door-glass",
+          "privacy-door-glass: glassComposition=Clear glass with optional 2 in grille (1 in on sidelites) and sandblast",
+          "clear-door-glass: glassComposition=Clear glass with optional 2 in grille (1 in on sidelites) and sandblast",
+          "decorative-door-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "decorative-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "privacy-glass: glassComposition=Clear glass with optional 2 in grille (1 in on sidelites) and sandblast",
+          "clear-glass: glassComposition=Clear glass with optional 2 in grille (1 in on sidelites) and sandblast"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#verre-select:java/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#verre-select:java/sourceFacts/normalized/glassComposition",
+          "src/data/catalog/enrichment-records.json#verre-select:java/sourceFacts/normalized/availableSizes",
+          "src/data/catalog/enrichment-records.json#verre-select:java/sourceFacts/normalized/designName",
+          "src/data/catalog/enrichment-records.json#verre-select:java/sourceFacts/normalized/warranty"
+        ]
+      },
+      {
+        "productId": "verre-select:cadence",
+        "classificationEvidence": [
+          "sourceCategory=door-glass",
+          "privacy-door-glass: glassComposition=Clear or obscure glass with optional 2 in grille (1 in on sidelites) and sandblast",
+          "clear-door-glass: glassComposition=Clear or obscure glass with optional 2 in grille (1 in on sidelites) and sandblast",
+          "decorative-door-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "decorative-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "privacy-glass: glassComposition=Clear or obscure glass with optional 2 in grille (1 in on sidelites) and sandblast",
+          "clear-glass: glassComposition=Clear or obscure glass with optional 2 in grille (1 in on sidelites) and sandblast"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#verre-select:cadence/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#verre-select:cadence/sourceFacts/normalized/glassComposition",
+          "src/data/catalog/enrichment-records.json#verre-select:cadence/sourceFacts/normalized/availableSizes",
+          "src/data/catalog/enrichment-records.json#verre-select:cadence/sourceFacts/normalized/designName",
+          "src/data/catalog/enrichment-records.json#verre-select:cadence/sourceFacts/normalized/warranty"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped designs share linear privacy compositions; grille, clear-zone and size details differ."
+    ],
+    "selectionNotes": "Keep separate from black linear glass because colour and privacy behavior differ.",
+    "heroSelection": {
+      "productId": "verre-select:java",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": []
+  },
+  {
+    "publicProductId": "WRP-G006",
+    "primaryInternalProductId": "verre-select:wide-reed",
+    "internalProductIds": [
+      "verre-select:wide-reed",
+      "verre-select:rill"
+    ],
+    "evidence": [
+      {
+        "productId": "verre-select:wide-reed",
+        "classificationEvidence": [
+          "sourceCategory=door-glass",
+          "decorative-door-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "decorative-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#verre-select:wide-reed/sourceFacts/normalized/glassComposition",
+          "src/data/catalog/enrichment-records.json#verre-select:wide-reed/sourceFacts/normalized/availableSizes",
+          "src/data/catalog/enrichment-records.json#verre-select:wide-reed/sourceFacts/normalized/designName",
+          "src/data/catalog/enrichment-records.json#verre-select:wide-reed/sourceFacts/normalized/warranty"
+        ]
+      },
+      {
+        "productId": "verre-select:rill",
+        "classificationEvidence": [
+          "sourceCategory=door-glass",
+          "decorative-door-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "decorative-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#verre-select:rill/sourceFacts/normalized/glassComposition",
+          "src/data/catalog/enrichment-records.json#verre-select:rill/sourceFacts/normalized/availableSizes",
+          "src/data/catalog/enrichment-records.json#verre-select:rill/sourceFacts/normalized/designName",
+          "src/data/catalog/enrichment-records.json#verre-select:rill/sourceFacts/normalized/warranty"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped designs share wide-reed texture but differ in compatible dimensions and presentation."
+    ],
+    "selectionNotes": "One neutral textured family is more useful than publishing each named design.",
+    "heroSelection": {
+      "productId": "verre-select:wide-reed",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": []
+  },
+  {
+    "publicProductId": "WRP-G007",
+    "primaryInternalProductId": "verre-select:waterside",
+    "internalProductIds": [
+      "verre-select:waterside",
+      "verre-select:crosswalk",
+      "verre-select:naomie"
+    ],
+    "evidence": [
+      {
+        "productId": "verre-select:waterside",
+        "classificationEvidence": [
+          "sourceCategory=door-glass",
+          "clear-door-glass: glassComposition=Clear soft wave and streamed glass",
+          "decorative-door-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "decorative-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "clear-glass: glassComposition=Clear soft wave and streamed glass"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#verre-select:waterside/sourceFacts/normalized/glassComposition",
+          "src/data/catalog/enrichment-records.json#verre-select:waterside/sourceFacts/normalized/availableSizes",
+          "src/data/catalog/enrichment-records.json#verre-select:waterside/sourceFacts/normalized/designName",
+          "src/data/catalog/enrichment-records.json#verre-select:waterside/sourceFacts/normalized/warranty"
+        ]
+      },
+      {
+        "productId": "verre-select:crosswalk",
+        "classificationEvidence": [
+          "sourceCategory=door-glass",
+          "clear-door-glass: glassComposition=Morocco or micro-iced granite with clear or gray soft wave glass",
+          "decorative-door-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "decorative-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "clear-glass: glassComposition=Morocco or micro-iced granite with clear or gray soft wave glass"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#verre-select:crosswalk/sourceFacts/normalized/glassComposition",
+          "src/data/catalog/enrichment-records.json#verre-select:crosswalk/sourceFacts/normalized/availableSizes",
+          "src/data/catalog/enrichment-records.json#verre-select:crosswalk/sourceFacts/normalized/designName",
+          "src/data/catalog/enrichment-records.json#verre-select:crosswalk/sourceFacts/normalized/warranty"
+        ]
+      },
+      {
+        "productId": "verre-select:naomie",
+        "classificationEvidence": [
+          "sourceCategory=door-glass",
+          "clear-door-glass: glassComposition=Clear and Screen glass",
+          "decorative-door-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "decorative-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "clear-glass: glassComposition=Clear and Screen glass"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#verre-select:naomie/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#verre-select:naomie/sourceFacts/normalized/glassComposition",
+          "src/data/catalog/enrichment-records.json#verre-select:naomie/sourceFacts/normalized/availableSizes",
+          "src/data/catalog/enrichment-records.json#verre-select:naomie/sourceFacts/normalized/designName",
+          "src/data/catalog/enrichment-records.json#verre-select:naomie/sourceFacts/normalized/warranty"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped designs share a clear, lightly patterned direction but use different textures."
+    ],
+    "selectionNotes": "Use as the low-privacy patterned family; exact appearance is selected during quoting.",
+    "heroSelection": {
+      "productId": "verre-select:waterside",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": []
+  },
+  {
+    "publicProductId": "WRP-G008",
+    "primaryInternalProductId": "verre-select:paris",
+    "internalProductIds": [
+      "verre-select:paris",
+      "verre-select:venus",
+      "verre-select:epic"
+    ],
+    "evidence": [
+      {
+        "productId": "verre-select:paris",
+        "classificationEvidence": [
+          "sourceCategory=door-glass",
+          "clear-door-glass: glassComposition=Arctic, clear Renaissance, and clear bevels",
+          "decorative-door-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "decorative-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "clear-glass: glassComposition=Arctic, clear Renaissance, and clear bevels"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#verre-select:paris/sourceFacts/normalized/glassComposition",
+          "src/data/catalog/enrichment-records.json#verre-select:paris/sourceFacts/normalized/availableSizes",
+          "src/data/catalog/enrichment-records.json#verre-select:paris/sourceFacts/normalized/designName",
+          "src/data/catalog/enrichment-records.json#verre-select:paris/sourceFacts/normalized/warranty"
+        ]
+      },
+      {
+        "productId": "verre-select:venus",
+        "classificationEvidence": [
+          "sourceCategory=door-glass",
+          "clear-door-glass: glassComposition=Niagara, beveled glue chip, Chinchilla, granite, and hand-engraved beveled clear diamond glass",
+          "decorative-door-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "decorative-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "clear-glass: glassComposition=Niagara, beveled glue chip, Chinchilla, granite, and hand-engraved beveled clear diamond glass"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#verre-select:venus/sourceFacts/normalized/glassComposition",
+          "src/data/catalog/enrichment-records.json#verre-select:venus/sourceFacts/normalized/availableSizes",
+          "src/data/catalog/enrichment-records.json#verre-select:venus/sourceFacts/normalized/designName",
+          "src/data/catalog/enrichment-records.json#verre-select:venus/sourceFacts/normalized/warranty"
+        ]
+      },
+      {
+        "productId": "verre-select:epic",
+        "classificationEvidence": [
+          "sourceCategory=door-glass",
+          "clear-door-glass: glassComposition=Beveled clear, granite, beveled Screen, and grain glass",
+          "decorative-door-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "decorative-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "clear-glass: glassComposition=Beveled clear, granite, beveled Screen, and grain glass"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#verre-select:epic/sourceFacts/normalized/glassComposition",
+          "src/data/catalog/enrichment-records.json#verre-select:epic/sourceFacts/normalized/availableSizes",
+          "src/data/catalog/enrichment-records.json#verre-select:epic/sourceFacts/normalized/designName",
+          "src/data/catalog/enrichment-records.json#verre-select:epic/sourceFacts/normalized/warranty"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped designs share clear bevels and traditional composition but remain visually distinct choices."
+    ],
+    "selectionNotes": "Group by construction and visual language while naming the exact design only in the private quotation.",
+    "heroSelection": {
+      "productId": "verre-select:paris",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": []
+  },
+  {
+    "publicProductId": "WRP-G009",
+    "primaryInternalProductId": "verre-select:renoir",
+    "internalProductIds": [
+      "verre-select:renoir",
+      "verre-select:rodin",
+      "verre-select:pixel"
+    ],
+    "evidence": [
+      {
+        "productId": "verre-select:renoir",
+        "classificationEvidence": [
+          "sourceCategory=door-glass",
+          "decorative-door-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "decorative-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#verre-select:renoir/sourceFacts/normalized/glassComposition",
+          "src/data/catalog/enrichment-records.json#verre-select:renoir/sourceFacts/normalized/availableSizes",
+          "src/data/catalog/enrichment-records.json#verre-select:renoir/sourceFacts/normalized/designName",
+          "src/data/catalog/enrichment-records.json#verre-select:renoir/sourceFacts/normalized/warranty"
+        ]
+      },
+      {
+        "productId": "verre-select:rodin",
+        "classificationEvidence": [
+          "sourceCategory=door-glass",
+          "decorative-door-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "decorative-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#verre-select:rodin/sourceFacts/normalized/glassComposition",
+          "src/data/catalog/enrichment-records.json#verre-select:rodin/sourceFacts/normalized/availableSizes",
+          "src/data/catalog/enrichment-records.json#verre-select:rodin/sourceFacts/normalized/designName",
+          "src/data/catalog/enrichment-records.json#verre-select:rodin/sourceFacts/normalized/warranty"
+        ]
+      },
+      {
+        "productId": "verre-select:pixel",
+        "classificationEvidence": [
+          "sourceCategory=door-glass",
+          "clear-door-glass: glassComposition=Chinchilla, beveled clear, beveled Screen, and hammered glass",
+          "decorative-door-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "decorative-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "clear-glass: glassComposition=Chinchilla, beveled clear, beveled Screen, and hammered glass"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#verre-select:pixel/sourceFacts/normalized/glassComposition",
+          "src/data/catalog/enrichment-records.json#verre-select:pixel/sourceFacts/normalized/availableSizes",
+          "src/data/catalog/enrichment-records.json#verre-select:pixel/sourceFacts/normalized/designName",
+          "src/data/catalog/enrichment-records.json#verre-select:pixel/sourceFacts/normalized/warranty"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped designs share hammered-texture construction but differ in composition and size."
+    ],
+    "selectionNotes": "Keep as a broader appearance family without claiming the designs are identical.",
+    "heroSelection": {
+      "productId": "verre-select:renoir",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": []
+  },
+  {
+    "publicProductId": "WRP-G010",
+    "primaryInternalProductId": "verre-select:quattro",
+    "internalProductIds": [
+      "verre-select:quattro",
+      "verre-select:endrick"
+    ],
+    "evidence": [
+      {
+        "productId": "verre-select:quattro",
+        "classificationEvidence": [
+          "sourceCategory=door-glass",
+          "decorative-door-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "decorative-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#verre-select:quattro/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#verre-select:quattro/sourceFacts/normalized/glassComposition",
+          "src/data/catalog/enrichment-records.json#verre-select:quattro/sourceFacts/normalized/availableSizes",
+          "src/data/catalog/enrichment-records.json#verre-select:quattro/sourceFacts/normalized/designName",
+          "src/data/catalog/enrichment-records.json#verre-select:quattro/sourceFacts/normalized/warranty"
+        ]
+      },
+      {
+        "productId": "verre-select:endrick",
+        "classificationEvidence": [
+          "sourceCategory=door-glass",
+          "decorative-door-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "decorative-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#verre-select:endrick/sourceFacts/normalized/glassComposition",
+          "src/data/catalog/enrichment-records.json#verre-select:endrick/sourceFacts/normalized/availableSizes",
+          "src/data/catalog/enrichment-records.json#verre-select:endrick/sourceFacts/normalized/designName",
+          "src/data/catalog/enrichment-records.json#verre-select:endrick/sourceFacts/normalized/warranty"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped designs share organized camed construction but use different glass pieces and geometry."
+    ],
+    "selectionNotes": "Maintain as a distinct construction and appearance family.",
+    "heroSelection": {
+      "productId": "verre-select:quattro",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": []
+  },
+  {
+    "publicProductId": "WRP-G011",
+    "primaryInternalProductId": "verre-select:whistler",
+    "internalProductIds": [
+      "verre-select:whistler",
+      "verre-select:amadeus"
+    ],
+    "evidence": [
+      {
+        "productId": "verre-select:whistler",
+        "classificationEvidence": [
+          "sourceCategory=door-glass",
+          "clear-door-glass: glassComposition=Kasumi, beveled Screen, Corduroy, and clear Morocco glass",
+          "decorative-door-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "decorative-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "clear-glass: glassComposition=Kasumi, beveled Screen, Corduroy, and clear Morocco glass"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#verre-select:whistler/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#verre-select:whistler/sourceFacts/normalized/glassComposition",
+          "src/data/catalog/enrichment-records.json#verre-select:whistler/sourceFacts/normalized/availableSizes",
+          "src/data/catalog/enrichment-records.json#verre-select:whistler/sourceFacts/normalized/designName",
+          "src/data/catalog/enrichment-records.json#verre-select:whistler/sourceFacts/normalized/warranty"
+        ]
+      },
+      {
+        "productId": "verre-select:amadeus",
+        "classificationEvidence": [
+          "sourceCategory=door-glass",
+          "decorative-door-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "decorative-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#verre-select:amadeus/sourceFacts/normalized/glassComposition",
+          "src/data/catalog/enrichment-records.json#verre-select:amadeus/sourceFacts/normalized/availableSizes",
+          "src/data/catalog/enrichment-records.json#verre-select:amadeus/sourceFacts/normalized/designName",
+          "src/data/catalog/enrichment-records.json#verre-select:amadeus/sourceFacts/normalized/warranty"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped designs provide reviewed narrow sidelite sizes but have different compositions."
+    ],
+    "selectionNotes": "Keep as a configuration family because sidelite dimensions and installation differ from door inserts.",
+    "heroSelection": {
+      "productId": "verre-select:whistler",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": []
+  },
+  {
+    "publicProductId": "WRP-G012",
+    "primaryInternalProductId": "verre-select:dorian",
+    "internalProductIds": [
+      "verre-select:dorian",
+      "verre-select:amadeus"
+    ],
+    "evidence": [
+      {
+        "productId": "verre-select:dorian",
+        "classificationEvidence": [
+          "sourceCategory=door-glass",
+          "decorative-door-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "decorative-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#verre-select:dorian/sourceFacts/normalized/glassComposition",
+          "src/data/catalog/enrichment-records.json#verre-select:dorian/sourceFacts/normalized/availableSizes",
+          "src/data/catalog/enrichment-records.json#verre-select:dorian/sourceFacts/normalized/designName",
+          "src/data/catalog/enrichment-records.json#verre-select:dorian/sourceFacts/normalized/warranty"
+        ]
+      },
+      {
+        "productId": "verre-select:amadeus",
+        "classificationEvidence": [
+          "sourceCategory=door-glass",
+          "decorative-door-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier",
+          "decorative-glass: warranty=10-year limited warranty on decorative glass; terms and exclusions must be confirmed with the supplier"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#verre-select:amadeus/sourceFacts/normalized/glassComposition",
+          "src/data/catalog/enrichment-records.json#verre-select:amadeus/sourceFacts/normalized/availableSizes",
+          "src/data/catalog/enrichment-records.json#verre-select:amadeus/sourceFacts/normalized/designName",
+          "src/data/catalog/enrichment-records.json#verre-select:amadeus/sourceFacts/normalized/warranty"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped designs share softer, non-grid compositions but remain separate quoted patterns."
+    ],
+    "selectionNotes": "Use one homeowner-facing visual family while preserving exact design selection internally.",
+    "heroSelection": {
+      "productId": "verre-select:dorian",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": []
+  },
+  {
+    "publicProductId": "WRP-P001",
+    "primaryInternalProductId": "oceanview:premium-plus",
+    "internalProductIds": [
+      "oceanview:premium-plus",
+      "oceanview:premium",
+      "oceanview:essential"
+    ],
+    "evidence": [
+      {
+        "productId": "oceanview:premium-plus",
+        "classificationEvidence": [
+          "sourceCategory=patio-doors",
+          "sliding-patio-doors: type=Sliding Patio Door",
+          "aluminum-patio-doors: sill=Aluminum sill plate",
+          "triple-pane: glazing=Double- or triple-pane LoE glazing options; the supplier pages specify a one-inch Cardinal Endur IG insulating-glass unit"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#oceanview:premium-plus/sourceFacts/normalized/operatingStyle",
+          "src/data/catalog/enrichment-records.json#oceanview:premium-plus/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#oceanview:premium-plus/sourceFacts/normalized/performance",
+          "src/data/catalog/enrichment-records.json#oceanview:premium-plus/sourceFacts/normalized/hardware",
+          "src/data/catalog/enrichment-records.json#oceanview:premium-plus/sourceFacts/normalized/screen",
+          "src/data/catalog/enrichment-records.json#oceanview:premium-plus/sourceFacts/normalized/availableSizes",
+          "src/data/catalog/enrichment-records.json#oceanview:premium-plus/sourceFacts/normalized/configuration"
+        ]
+      },
+      {
+        "productId": "oceanview:premium",
+        "classificationEvidence": [
+          "sourceCategory=patio-doors",
+          "sliding-patio-doors: type=Sliding Patio Door",
+          "aluminum-patio-doors: sill=Aluminum sill plate",
+          "triple-pane: glazing=Double- or triple-pane LoE glazing options; the supplier pages specify a one-inch Cardinal Endur IG insulating-glass unit"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#oceanview:premium/sourceFacts/normalized/operatingStyle",
+          "src/data/catalog/enrichment-records.json#oceanview:premium/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#oceanview:premium/sourceFacts/normalized/performance",
+          "src/data/catalog/enrichment-records.json#oceanview:premium/sourceFacts/normalized/hardware",
+          "src/data/catalog/enrichment-records.json#oceanview:premium/sourceFacts/normalized/availableSizes",
+          "src/data/catalog/enrichment-records.json#oceanview:premium/sourceFacts/normalized/configuration"
+        ]
+      },
+      {
+        "productId": "oceanview:essential",
+        "classificationEvidence": [
+          "sourceCategory=patio-doors",
+          "sliding-patio-doors: type=Sliding Patio Door",
+          "triple-pane: glazing=Double- or triple-pane LoE glazing options; the supplier pages specify a one-inch Cardinal Endur IG insulating-glass unit"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#oceanview:essential/sourceFacts/normalized/operatingStyle",
+          "src/data/catalog/enrichment-records.json#oceanview:essential/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#oceanview:essential/sourceFacts/normalized/performance",
+          "src/data/catalog/enrichment-records.json#oceanview:essential/sourceFacts/normalized/hardware",
+          "src/data/catalog/enrichment-records.json#oceanview:essential/sourceFacts/normalized/availableSizes",
+          "src/data/catalog/enrichment-records.json#oceanview:essential/sourceFacts/normalized/configuration"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped systems share layout and size directions but use different hardware, screen and component packages."
+    ],
+    "selectionNotes": "Retain as the broad multi-panel family for homeowners who have not yet chosen a panel count.",
+    "heroSelection": {
+      "productId": "oceanview:premium-plus",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": [
+      {
+        "productId": "oceanview:premium-plus",
+        "selection": "galleryMedia",
+        "index": 1,
+        "alt": "Interior view of a multi-panel sliding patio door"
+      }
+    ]
+  },
+  {
+    "publicProductId": "WRP-P002",
+    "primaryInternalProductId": "oceanview:essential",
+    "internalProductIds": [
+      "oceanview:essential",
+      "oceanview:premium",
+      "oceanview:premium-plus"
+    ],
+    "evidence": [
+      {
+        "productId": "oceanview:essential",
+        "classificationEvidence": [
+          "sourceCategory=patio-doors",
+          "sliding-patio-doors: type=Sliding Patio Door",
+          "triple-pane: glazing=Double- or triple-pane LoE glazing options; the supplier pages specify a one-inch Cardinal Endur IG insulating-glass unit"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#oceanview:essential/sourceFacts/normalized/operatingStyle",
+          "src/data/catalog/enrichment-records.json#oceanview:essential/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#oceanview:essential/sourceFacts/normalized/performance",
+          "src/data/catalog/enrichment-records.json#oceanview:essential/sourceFacts/normalized/hardware",
+          "src/data/catalog/enrichment-records.json#oceanview:essential/sourceFacts/normalized/availableSizes",
+          "src/data/catalog/enrichment-records.json#oceanview:essential/sourceFacts/normalized/configuration"
+        ]
+      },
+      {
+        "productId": "oceanview:premium",
+        "classificationEvidence": [
+          "sourceCategory=patio-doors",
+          "sliding-patio-doors: type=Sliding Patio Door",
+          "aluminum-patio-doors: sill=Aluminum sill plate",
+          "triple-pane: glazing=Double- or triple-pane LoE glazing options; the supplier pages specify a one-inch Cardinal Endur IG insulating-glass unit"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#oceanview:premium/sourceFacts/normalized/operatingStyle",
+          "src/data/catalog/enrichment-records.json#oceanview:premium/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#oceanview:premium/sourceFacts/normalized/performance",
+          "src/data/catalog/enrichment-records.json#oceanview:premium/sourceFacts/normalized/hardware",
+          "src/data/catalog/enrichment-records.json#oceanview:premium/sourceFacts/normalized/availableSizes",
+          "src/data/catalog/enrichment-records.json#oceanview:premium/sourceFacts/normalized/configuration"
+        ]
+      },
+      {
+        "productId": "oceanview:premium-plus",
+        "classificationEvidence": [
+          "sourceCategory=patio-doors",
+          "sliding-patio-doors: type=Sliding Patio Door",
+          "aluminum-patio-doors: sill=Aluminum sill plate",
+          "triple-pane: glazing=Double- or triple-pane LoE glazing options; the supplier pages specify a one-inch Cardinal Endur IG insulating-glass unit"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#oceanview:premium-plus/sourceFacts/normalized/operatingStyle",
+          "src/data/catalog/enrichment-records.json#oceanview:premium-plus/sourceFacts/normalized/glazing",
+          "src/data/catalog/enrichment-records.json#oceanview:premium-plus/sourceFacts/normalized/performance",
+          "src/data/catalog/enrichment-records.json#oceanview:premium-plus/sourceFacts/normalized/hardware",
+          "src/data/catalog/enrichment-records.json#oceanview:premium-plus/sourceFacts/normalized/screen",
+          "src/data/catalog/enrichment-records.json#oceanview:premium-plus/sourceFacts/normalized/availableSizes",
+          "src/data/catalog/enrichment-records.json#oceanview:premium-plus/sourceFacts/normalized/configuration"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped systems all support two-panel layouts; component packages and dimensions vary."
+    ],
+    "selectionNotes": "Keep distinct from the broad multi-panel overview because panel count is a meaningful configuration choice.",
+    "heroSelection": {
+      "productId": "oceanview:essential",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": []
+  },
+  {
+    "publicProductId": "WRP-P003",
+    "primaryInternalProductId": "novatech:630",
+    "internalProductIds": [
+      "novatech:540",
+      "novatech:630",
+      "novatech:650"
+    ],
+    "evidence": [
+      {
+        "productId": "novatech:540",
+        "classificationEvidence": [
+          "sourceCategory=patio-doors",
+          "pvc-patio-doors: material=PVC",
+          "pvc: material=PVC"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#novatech:540/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#novatech:540/sourceFacts/normalized/material"
+        ]
+      },
+      {
+        "productId": "novatech:630",
+        "classificationEvidence": [
+          "sourceCategory=patio-doors",
+          "pvc-patio-doors: name=Porte patio 630 (PVC)",
+          "pvc: name=Porte patio 630 (PVC)"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#novatech:630/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#novatech:630/sourceFacts/normalized/material",
+          "src/data/catalog/enrichment-records.json#novatech:630/sourceFacts/normalized/frameDepth",
+          "src/data/catalog/enrichment-records.json#novatech:630/sourceFacts/normalized/warranty"
+        ]
+      },
+      {
+        "productId": "novatech:650",
+        "classificationEvidence": [
+          "sourceCategory=patio-doors",
+          "pvc-patio-doors: material=PVC",
+          "pvc: material=PVC"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#novatech:650/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#novatech:650/sourceFacts/normalized/material"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped systems share PVC frame construction but differ in depth, components and performance."
+    ],
+    "selectionNotes": "Use as a frame-material family, with exact system selection remaining private.",
+    "heroSelection": {
+      "productId": "novatech:630",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": [
+      {
+        "productId": "novatech:630",
+        "selection": "galleryMedia",
+        "index": 0,
+        "alt": "Detail view of a PVC sliding patio door system"
+      }
+    ]
+  },
+  {
+    "publicProductId": "WRP-P004",
+    "primaryInternalProductId": "novatech:2900",
+    "internalProductIds": [
+      "novatech:2900",
+      "novatech:studio"
+    ],
+    "evidence": [
+      {
+        "productId": "novatech:2900",
+        "classificationEvidence": [
+          "sourceCategory=patio-doors",
+          "aluminum-patio-doors: name=2900 (ALUMINIUM)",
+          "aluminum: name=2900 (ALUMINIUM)"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#novatech:2900/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#novatech:2900/sourceFacts/normalized/material"
+        ]
+      },
+      {
+        "productId": "novatech:studio",
+        "classificationEvidence": [
+          "sourceCategory=patio-doors",
+          "aluminum-patio-doors: name=Studio (ALUMINUM)",
+          "aluminum: name=Studio (ALUMINUM)"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#novatech:studio/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#novatech:studio/sourceFacts/normalized/material"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped systems share aluminum construction but have different profiles, thermal details and limits."
+    ],
+    "selectionNotes": "Keep distinct from PVC and hybrid systems because frame material affects performance and appearance.",
+    "heroSelection": {
+      "productId": "novatech:2900",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": [
+      {
+        "productId": "novatech:2900",
+        "selection": "galleryMedia",
+        "index": 0,
+        "alt": "Aluminum patio door frame and panel detail"
+      }
+    ]
+  },
+  {
+    "publicProductId": "WRP-P005",
+    "primaryInternalProductId": "novatech:element",
+    "internalProductIds": [
+      "novatech:element",
+      "novatech:550"
+    ],
+    "evidence": [
+      {
+        "productId": "novatech:element",
+        "classificationEvidence": [
+          "sourceCategory=patio-doors",
+          "pvc-patio-doors: name=Élément (Bois/PVC/Aluminium)",
+          "aluminum-patio-doors: name=Élément (Bois/PVC/Aluminium)",
+          "hybrid-patio-doors: name=Élément (Bois/PVC/Aluminium)",
+          "pvc: name=Élément (Bois/PVC/Aluminium)",
+          "aluminum: name=Élément (Bois/PVC/Aluminium)",
+          "hybrid: name=Élément (Bois/PVC/Aluminium)"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#novatech:element/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#novatech:element/sourceFacts/normalized/material"
+        ]
+      },
+      {
+        "productId": "novatech:550",
+        "classificationEvidence": [
+          "sourceCategory=patio-doors",
+          "pvc-patio-doors: name=550 (Wood/PVC)",
+          "hybrid-patio-doors: name=550 (Wood/PVC)",
+          "pvc: name=550 (Wood/PVC)",
+          "hybrid: name=550 (Wood/PVC)"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#novatech:550/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#novatech:550/sourceFacts/normalized/material"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped products use different multi-material constructions and cannot be treated as identical."
+    ],
+    "selectionNotes": "Use as a comparison-ready hybrid family; the quotation defines the actual construction.",
+    "heroSelection": {
+      "productId": "novatech:element",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": [
+      {
+        "productId": "novatech:element",
+        "selection": "galleryMedia",
+        "index": 0,
+        "alt": "Hybrid patio door shown from the exterior"
+      }
+    ]
+  },
+  {
+    "publicProductId": "WRP-P006",
+    "primaryInternalProductId": "novatech:loft",
+    "internalProductIds": [
+      "novatech:loft",
+      "novatech:urbania"
+    ],
+    "evidence": [
+      {
+        "productId": "novatech:loft",
+        "classificationEvidence": [
+          "sourceCategory=patio-doors",
+          "aluminum-patio-doors: name=Loft (Aluminum)",
+          "aluminum: name=Loft (Aluminum)"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#novatech:loft/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#novatech:loft/sourceFacts/normalized/material"
+        ]
+      },
+      {
+        "productId": "novatech:urbania",
+        "classificationEvidence": [
+          "sourceCategory=patio-doors",
+          "aluminum-patio-doors: name=Urbania (Aluminum)",
+          "aluminum: name=Urbania (Aluminum)"
+        ],
+        "specificationEvidence": [
+          "src/data/catalog/enrichment-records.json#novatech:urbania/sourceFacts/normalized/productType",
+          "src/data/catalog/enrichment-records.json#novatech:urbania/sourceFacts/normalized/material"
+        ]
+      }
+    ],
+    "compatibilityConstraints": [
+      "Mapped systems share a slim aluminum direction but differ in thermal design, limits and components."
+    ],
+    "selectionNotes": "Keep separate from general aluminum patio doors because reduced sightlines are a meaningful purchase distinction.",
+    "heroSelection": {
+      "productId": "novatech:loft",
+      "selection": "heroMedia"
+    },
+    "gallerySelections": [
+      {
+        "productId": "novatech:loft",
+        "selection": "galleryMedia",
+        "index": 0,
+        "alt": "Slim aluminum patio door frame detail"
+      }
+    ]
+  }
+]

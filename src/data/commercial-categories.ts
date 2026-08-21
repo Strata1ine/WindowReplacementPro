@@ -44,16 +44,16 @@ export type CommercialCategoryPage = {
   relatedLinks: { title: string; description: string; href: string }[];
 };
 
-const requirePublicProduct = (category: string): PublicProduct => {
-  const matches = publicProducts.filter(product => product.category === category);
-  if (matches.length !== 1) throw new TypeError('Expected one approved public product for ' + category);
-  return matches[0];
+const requirePublicProduct = (reference: string): PublicProduct => {
+  const product = publicProducts.find(candidate => candidate.reference === reference);
+  if (!product) throw new TypeError('Expected approved public product ' + reference);
+  return product;
 };
 
-const windowsProduct = requirePublicProduct('windows');
-const entryDoorProduct = requirePublicProduct('entry-doors');
-const doorGlassProduct = requirePublicProduct('door-glass');
-const patioDoorProduct = requirePublicProduct('patio-doors');
+const windowsProduct = requirePublicProduct('WRP-W001');
+const entryDoorProduct = requirePublicProduct('WRP-D001');
+const doorGlassProduct = requirePublicProduct('WRP-G001');
+const patioDoorProduct = requirePublicProduct('WRP-P001');
 
 export const commercialCategoryPages: Record<CommercialCategoryPage['key'], CommercialCategoryPage> = {  windows: {
     key: 'windows',

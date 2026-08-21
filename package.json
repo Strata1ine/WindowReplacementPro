@@ -29,7 +29,8 @@
     "audit:supplier-completeness": "python scripts/ingest/live_inventory.py && python scripts/supplier-completeness.py",
     "audit:public-identities": "node scripts/audit-public-identities.mjs",
     "audit:public-supplier-leakage": "node scripts/audit-public-supplier-leakage.mjs",
-    "verify": "npm run check && npm run validate:catalog && npm run validate:taxonomy && npm run test && npm run build && npm run validate:build"
+    "verify": "npm run check && npm run validate:catalog && npm run validate:taxonomy && npm run test && npm run build && npm run validate:build",
+    "generate:public-catalogue": "node scripts/generate-public-catalogue.mjs"
   },
   "engines": {
     "node": ">=22.19.0",

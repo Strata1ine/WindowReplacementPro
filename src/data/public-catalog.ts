@@ -5,6 +5,7 @@ import {
 } from './editorial';
 import identitiesRaw from './public-identities.json';
 import mediaPlanRaw from './public-media-plan.json';
+import mappingsRaw from './internal/public-product-mappings.json';
 import {
   isPublicIdentityApproved as policyApproves,
   validatePublicIdentity,
@@ -27,16 +28,36 @@ type EditorialMediaAsset = {
 type ProductMediaSelection = {
   productId: string;
   heroMedia: EditorialMediaAsset | null;
+  galleryMedia?: EditorialMediaAsset[];
 };
 
 type PublicMediaPlan = {
+  publicReference: string;
   key: string;
   productId: string;
-  selection: 'heroMedia';
+  selection: 'heroMedia' | 'galleryMedia' | 'technicalMedia';
+  selectionIndex?: number;
+  role: 'hero' | 'gallery' | 'technical';
+  alt: string;
   intrinsicWidth: number;
   intrinsicHeight: number;
   widths: number[];
   format?: 'webp' | 'jpg';
+};
+
+type PublicProductMapping = {
+  publicProductId: string;
+  primaryInternalProductId: string;
+  internalProductIds: string[];
+  evidence: {
+    productId: string;
+    classificationEvidence: string[];
+    specificationEvidence: string[];
+  }[];
+  compatibilityConstraints: string[];
+  selectionNotes: string;
+  heroSelection: { productId: string; selection: 'heroMedia' };
+  gallerySelections: { productId: string; selection: 'galleryMedia'; index: number; alt: string }[];
 };
 
 export type PublicMedia = {
@@ -44,6 +65,7 @@ export type PublicMedia = {
   srcset: string;
   width: number;
   height: number;
+  alt: string;
 };
 
 export type PublicProduct = {
@@ -52,20 +74,39 @@ export type PublicProduct = {
   reference: string;
   category: string;
   categoryLabel: string;
+  metaDescription: string;
   summary: string;
   imageAlt: string;
   specifications: { label: string; value: string }[];
+  keyFeatures: string[];
+  bestFor: string[];
+  configurationOptions: string[];
+  considerations: string[];
+  quoteNote: string;
+  browseGroup: string;
+  browseFacets: string[];
+  comparisonTags: string[];
   href: string;
   media: PublicMedia;
+  gallery: PublicMedia[];
 };
 
 const identities = identitiesRaw as PublicIdentityRecord[];
 const plans = mediaPlanRaw as PublicMediaPlan[];
+const mappings = mappingsRaw as PublicProductMapping[];
 const taxonomyById = new Map(customerTaxonomyProducts.map(product => [product.productId, product]));
 const catalogById = new Map(publishableCatalogProducts.map(product => [product.id, product]));
 const mediaSelections = editorialMediaSelections as unknown as { products: ProductMediaSelection[] };
 const mediaById = new Map(mediaSelections.products.map(product => [product.productId, product]));
-const planById = new Map(plans.map(plan => [plan.productId, plan]));
+const mappingByReference = new Map(mappings.map(mapping => [mapping.publicProductId, mapping]));
+const plansByReference = new Map<string, PublicMediaPlan[]>();
+for (const plan of plans) {
+  const current = plansByReference.get(plan.publicReference) ?? [];
+  current.push(plan);
+  plansByReference.set(plan.publicReference, current);
+}
+
+if (mappingByReference.size !== mappings.length) throw new TypeError('public product mappings contain duplicate references');
 
 const contextFor = (record: PublicIdentityRecord): PublicIdentityContext => {
   const taxonomy = taxonomyById.get(record.internalCanonicalId);
@@ -81,61 +122,132 @@ const contextFor = (record: PublicIdentityRecord): PublicIdentityContext => {
   };
 };
 
+const expectedRootCategory: Record<string, string> = {
+  windows: 'replacement-windows',
+  'entry-doors': 'entry-doors',
+  'door-glass': 'door-glass',
+  'patio-doors': 'patio-doors'
+};
+
 export const publicIdentityReview = identities.map(record => {
   const errors = validatePublicIdentity(record, contextFor(record));
-  if (!planById.has(record.internalCanonicalId)) errors.push('public media plan is missing');
-  return { internalCanonicalId: record.internalCanonicalId, approved: errors.length === 0, errors };
+  const recordPlans = plansByReference.get(record.publicReference) ?? [];
+  const heroPlan = recordPlans.find(plan => plan.role === 'hero');
+  if (!heroPlan) errors.push('public hero media plan is missing');
+  if (heroPlan && heroPlan.key !== record.publicMediaKey) errors.push('public hero media plan key mismatch');
+  if (recordPlans.some(plan => !plan.alt?.trim())) errors.push('public media alt text is missing');
+
+  const mapping = mappingByReference.get(record.publicReference);
+  if (!mapping) errors.push('confidential public product mapping is missing');
+  if (mapping && mapping.primaryInternalProductId !== record.internalCanonicalId) errors.push('confidential mapping primary does not match public identity');
+  if (mapping && (!mapping.internalProductIds.length || !mapping.compatibilityConstraints.length || !mapping.selectionNotes.trim())) {
+    errors.push('confidential mapping evidence or constraints are incomplete');
+  }
+  if (mapping) {
+    const evidenceIds = new Set(mapping.evidence.map(item => item.productId));
+    for (const productId of mapping.internalProductIds) {
+      const taxonomy = taxonomyById.get(productId);
+      if (!taxonomy || taxonomy.recordClass !== 'canonical-product' || taxonomy.editorialState !== 'published') {
+        errors.push('mapped internal product is not a published canonical product');
+      }
+      if (taxonomy && taxonomy.rootCategory !== expectedRootCategory[record.publicCategory]) {
+        errors.push('mapped internal product category is incompatible');
+      }
+      if (!evidenceIds.has(productId)) errors.push('mapped internal product evidence is missing');
+    }
+  }
+  return { internalCanonicalId: record.internalCanonicalId, publicReference: record.publicReference, approved: errors.length === 0, errors: Array.from(new Set(errors)) };
 });
 
 export const isPublicIdentityApproved = (record: PublicIdentityRecord): boolean => {
-  const review = publicIdentityReview.find(item => item.internalCanonicalId === record.internalCanonicalId);
+  const review = publicIdentityReview.find(item => item.publicReference === record.publicReference);
   return Boolean(review?.approved && policyApproves(record, contextFor(record)));
 };
 
 for (const review of publicIdentityReview) {
   if (!review.approved) {
-    throw new TypeError('Invalid approved public identity ' + review.internalCanonicalId + ': ' + review.errors.join('; '));
+    throw new TypeError('Invalid approved public identity ' + review.publicReference + ': ' + review.errors.join('; '));
   }
 }
 
-const buildPublicMedia = (record: PublicIdentityRecord): PublicMedia => {
-  const plan = planById.get(record.internalCanonicalId);
-  if (!plan || plan.key !== record.publicMediaKey) {
-    throw new TypeError('Public media plan mismatch for ' + record.internalCanonicalId);
-  }
+const buildPublicMedia = (plan: PublicMediaPlan): PublicMedia => {
   const largestWidth = Math.max(...plan.widths);
   const extension = plan.format ?? 'webp';
   return {
     src: '/media/products/' + plan.key + '-' + largestWidth + '.' + extension,
     srcset: plan.widths.map(width => '/media/products/' + plan.key + '-' + width + '.' + extension + ' ' + width + 'w').join(', '),
     width: largestWidth,
-    height: Math.round(largestWidth * plan.intrinsicHeight / plan.intrinsicWidth)
+    height: Math.round(largestWidth * plan.intrinsicHeight / plan.intrinsicWidth),
+    alt: plan.alt
   };
 };
 
-const toPublicProduct = (record: PublicIdentityRecord): PublicProduct => ({
-  displayName: record.publicDisplayName,
-  slug: record.publicSlug,
-  reference: record.publicReference,
-  category: record.publicCategory,
-  categoryLabel: record.publicCategoryLabel,
-  summary: record.publicSummary,
-  imageAlt: record.publicImageAlt,
-  specifications: record.publicSpecifications,
-  href: '/products/' + record.publicCategory + '/' + record.publicSlug + '/',
-  media: buildPublicMedia(record)
-});
+const toPublicProduct = (record: PublicIdentityRecord): PublicProduct => {
+  const recordPlans = plansByReference.get(record.publicReference) ?? [];
+  const heroPlan = recordPlans.find(plan => plan.role === 'hero');
+  if (!heroPlan) throw new TypeError('Public hero plan missing for ' + record.publicReference);
+  return {
+    displayName: record.publicDisplayName,
+    slug: record.publicSlug,
+    reference: record.publicReference,
+    category: record.publicCategory,
+    categoryLabel: record.publicCategoryLabel,
+    metaDescription: record.publicMetaDescription,
+    summary: record.publicSummary,
+    imageAlt: record.publicImageAlt,
+    specifications: record.publicSpecifications,
+    keyFeatures: record.publicKeyFeatures,
+    bestFor: record.publicBestFor,
+    configurationOptions: record.publicConfigurationOptions,
+    considerations: record.publicConsiderations,
+    quoteNote: record.publicQuoteNote,
+    browseGroup: record.publicBrowseGroup,
+    browseFacets: record.publicBrowseFacets,
+    comparisonTags: record.publicComparisonTags,
+    href: '/products/' + record.publicCategory + '/' + record.publicSlug + '/',
+    media: buildPublicMedia(heroPlan),
+    gallery: recordPlans.filter(plan => plan.role === 'gallery').map(buildPublicMedia)
+  };
+};
 
 export const publicProducts = identities
   .filter(isPublicIdentityApproved)
   .map(toPublicProduct)
   .sort((left, right) => left.reference.localeCompare(right.reference));
 
+const publicProductByReference = new Map(publicProducts.map(product => [product.reference, product]));
 const publicProductByInternalId = new Map(
   identities
     .filter(isPublicIdentityApproved)
     .map(record => [record.internalCanonicalId, toPublicProduct(record)])
 );
+for (const mapping of mappings) {
+  const product = publicProductByReference.get(mapping.publicProductId);
+  if (!product) continue;
+  for (const internalProductId of mapping.internalProductIds) {
+    if (!publicProductByInternalId.has(internalProductId)) publicProductByInternalId.set(internalProductId, product);
+  }
+}
 
 export const getPublicProductByInternalId = (internalCanonicalId: string): PublicProduct | undefined =>
   publicProductByInternalId.get(internalCanonicalId);
+
+export const getPublicProductsByCategory = (category: string): PublicProduct[] =>
+  publicProducts.filter(product => product.category === category);
+
+export const getRelatedPublicProducts = (product: PublicProduct, limit = 3): PublicProduct[] => {
+  const tags = new Set(product.comparisonTags);
+  const facets = new Set(product.browseFacets);
+  return publicProducts
+    .filter(candidate => candidate.category === product.category && candidate.reference !== product.reference)
+    .map(candidate => ({
+      candidate,
+      score:
+        (candidate.browseGroup === product.browseGroup ? 8 : 0) +
+        candidate.comparisonTags.filter(tag => tags.has(tag)).length * 2 +
+        candidate.browseFacets.filter(facet => facets.has(facet)).length
+    }))
+    .sort((left, right) => right.score - left.score || left.candidate.reference.localeCompare(right.candidate.reference))
+    .slice(0, limit)
+    .map(item => item.candidate);
+};
