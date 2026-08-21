@@ -28,9 +28,9 @@ const categoryName = categoryNames[category] ?? 'products';
 <section id="catalogue" class="section section--mist public-catalogue" aria-labelledby={`catalogue-${category}-title`}>
   <div class="wrap">
     <SectionHeader
-      eyebrow="Approved public catalogue"
+      eyebrow="Product options"
       title={`Compare ${categoryName} by the choice that matters first.`}
-      body="These public-neutral families organize reviewed systems around operation, material, appearance and configuration. The exact manufacturer and model are confirmed in the written quotation."
+      body="Compare configurations by operation, material, appearance and practical use. The exact product and options are confirmed in your written quotation."
       headingId={`catalogue-${category}-title`}
     />
     <nav class="catalogue-filter-nav" aria-label={`${categoryName} groups`}>
@@ -41,7 +41,7 @@ const categoryName = categoryNames[category] ?? 'products';
       {groups.map(([name, items]) => (
         <section id={groupId(name)} class="public-catalogue__group" aria-labelledby={`${groupId(name)}-title`}>
           <header>
-            <p class="eyebrow">{items.length} reviewed {items.length === 1 ? 'option' : 'options'}</p>
+            <p class="eyebrow">{items.length} {items.length === 1 ? 'option' : 'options'}</p>
             <h3 id={`${groupId(name)}-title`}>{name}</h3>
           </header>
           <div class="featured-product-grid">
@@ -51,7 +51,7 @@ const categoryName = categoryNames[category] ?? 'products';
                 reference={item.reference}
                 category={item.categoryLabel}
                 href={item.href}
-                summary={item.metaDescription}
+                summary={item.summary}
                 highlights={item.specifications.slice(0, 2)}
                 media={item.media}
                 imageAlt={item.imageAlt}

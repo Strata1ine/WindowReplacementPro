@@ -51,10 +51,10 @@ export const doorPatioGuidePages: CoreContentPage[] = [
         id: 'project-fit', eyebrow: 'Selection checklist', title: 'Opening, glass and finish narrow the decision.',
         paragraphs: [
           'Confirm slab size, swing, jamb depth, sill, glass amount, privacy, sidelites, transom and hardware before choosing from surface appearance. Existing floor height, exterior cladding and interior trim affect installation regardless of material.',
-          'The public catalogue currently contains approved fiberglass families. Steel remains available as an educational category and quotation direction, but no steel product-detail family is published until its evidence and public hero gate are complete.'
+          'Fiberglass examples cover smooth, woodgrain, panelled and glass configurations. Steel is presented as a material category so homeowners can compare construction, finish and care without implying that every steel system is identical.'
         ],
         cards: [
-          { title: 'Compare fiberglass directions', text: 'Review smooth, oak-grain, mahogany-grain, Craftsman and glass configurations in the approved catalogue.' },
+          { title: 'Compare fiberglass directions', text: 'Compare smooth, oak-grain, mahogany-grain, Craftsman and glass configurations.' },
           { title: 'Review steel as a category', text: 'Use the steel entry-door page for material planning without implying a specific unpublished product.' },
           { title: 'Confirm in writing', text: 'The quotation identifies exact slab, model, finish, glass, hardware, frame and installation scope.' }
         ]
@@ -62,7 +62,7 @@ export const doorPatioGuidePages: CoreContentPage[] = [
     ],
     productReferences: ['WRP-D002', 'WRP-D003', 'WRP-D004', 'WRP-D005'],
     relatedLinks: [
-      { title: 'Fiberglass entry doors', description: 'Review the approved material category and public configurations.', href: '/doors/fiberglass-entry-doors/' },
+      { title: 'Fiberglass entry doors', description: 'Compare fiberglass construction, finishes and available configurations.', href: '/doors/fiberglass-entry-doors/' },
       { title: 'Steel entry doors', description: 'Review the steel material direction without a fabricated product family.', href: '/doors/steel-entry-doors/' },
       { title: 'Entry-door replacement cost', description: 'See how material, glass and finish enter a quotation.', href: '/entry-door-replacement-cost/' },
       { title: 'Door glass', description: 'Compare privacy and decorative glass directions.', href: '/doors/decorative-door-glass/' }
@@ -113,7 +113,7 @@ export const doorPatioGuidePages: CoreContentPage[] = [
         id: 'stacking', eyebrow: 'Larger openings', title: 'Stacking and oversized systems require more than a category label.',
         paragraphs: [
           'Stacking panels move and collect toward one or both sides, potentially creating a larger opening than a conventional slider. Panel parking area, track count, sill, screen strategy, structural support and weather exposure all become part of the design.',
-          'Oversized systems involve heavy glass, handling, deflection, structural opening conditions and site access. Current reviewed evidence does not support a standalone public stacking or oversized product family, so these remain project-specific educational directions rather than thin pages.'
+          'Oversized systems involve heavy glass, handling, deflection, structural opening conditions and site access. Stacking and oversized systems remain project-specific because panel limits, structure, sill details, handling and site access must be assessed together.'
         ],
         cards: [
           { title: 'Panel parking', text: 'Identify where moving panels collect and how much clear passage remains.' },
@@ -128,12 +128,12 @@ export const doorPatioGuidePages: CoreContentPage[] = [
           'Start with overall opening, desired passage, fixed view area and traffic flow. Then choose a system direction and frame material. Glazing, internal blinds where available, screen, handle, lock, colour and sill details follow from that compatible base.',
           'The written quotation should include the exact panel plan, size, material, glazing, screen, hardware, sill, installation and finish scope. Do not assume a lifestyle image establishes the quoted layout.'
         ],
-        callout: { title: 'Visuals are representative, not promises', text: 'Every image on this guide uses a neutral reviewed derivative. Final panel layout, frame, colour and options are identified for the measured system in writing.' }
+        callout: { title: 'Use the visuals as configuration examples', text: 'Final panel layout, frame, colour and options are identified for the measured system in writing.' }
       }
     ],
     productReferences: ['WRP-P002', 'WRP-P001', 'WRP-P003', 'WRP-P004', 'WRP-P005', 'WRP-P006'],
     relatedLinks: [
-      { title: 'Patio doors', description: 'Browse all approved public patio configurations.', href: '/patio-doors/' },
+      { title: 'Patio doors', description: 'Compare available patio-door configurations.', href: '/patio-doors/' },
       { title: 'Patio-door replacement cost', description: 'See how panel count and material affect quotation scope.', href: '/patio-door-replacement-cost/' },
       { title: 'Sliding patio doors', description: 'Review the broader sliding category.', href: '/patio-doors/sliding-patio-doors/' },
       { title: 'Stacking patio doors', description: 'Review project-specific stacking considerations.', href: '/patio-doors/stacking-patio-doors/' }

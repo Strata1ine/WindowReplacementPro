@@ -54,7 +54,7 @@ const specificationGroups = groupDefinitions.map(group => {
   return { title: group.title, items };
 }).filter(group => group.items.length > 0);
 const remainingSpecifications = specifications.filter((_item, index) => !assigned.has(index));
-if (remainingSpecifications.length) specificationGroups.push({ title: 'Additional reviewed details', items: remainingSpecifications });
+if (remainingSpecifications.length) specificationGroups.push({ title: 'Additional details', items: remainingSpecifications });
 const relatedProducts = getRelatedPublicProducts(product, 3);
 
 const productSchema = {
@@ -104,7 +104,7 @@ const breadcrumbSchema = {
   {product.gallery.length > 0 && (
     <section class="section product-gallery-section" aria-labelledby="product-gallery-title">
       <div class="wrap">
-        <header class="section-header"><p class="eyebrow">Reviewed product media</p><h2 id="product-gallery-title">Configuration and detail views.</h2><p class="section-header__body">These neutral derivatives support product comparison. Final colours, proportions and components are confirmed for the quoted system.</p></header>
+        <header class="section-header"><p class="eyebrow">Product media</p><h2 id="product-gallery-title">Configuration and detail views.</h2><p class="section-header__body">These views support product comparison. Final colours, proportions and components are confirmed for the quoted system.</p></header>
         <div class="product-gallery-grid">
           {product.gallery.map(media => <figure><MediaFrame media={media} alt={media.alt} sizes="(max-width: 760px) 100vw, 50vw" fit="contain" /><figcaption>{media.alt}</figcaption></figure>)}
         </div>
@@ -126,7 +126,7 @@ const breadcrumbSchema = {
   {specificationGroups.length > 0 && (
     <section class="section section--cream product-specification-section" aria-labelledby="product-specifications-title">
       <div class="wrap">
-        <header class="section-header"><p class="eyebrow">Reviewed public details</p><h2 id="product-specifications-title">Specifications available for comparison.</h2><p class="section-header__body">Only reviewed public-safe information is shown. Exact system details and documentation are confirmed in the written quotation.</p></header>
+        <header class="section-header"><p class="eyebrow">Product details</p><h2 id="product-specifications-title">Specifications available for comparison.</h2><p class="section-header__body">The details shown here support an initial comparison. Exact system specifications and documentation are confirmed in the written quotation.</p></header>
         <div class="product-specification-groups">
           {specificationGroups.map(group => (
             <section><h3>{group.title}</h3><dl>{group.items.map(item => <div><dt>{item.label}</dt><dd>{item.value}</dd></div>)}</dl></section>
@@ -146,7 +146,7 @@ const breadcrumbSchema = {
   {(relatedProducts.length > 0 || landing.related) && (
     <section class="section section--mist product-related" aria-labelledby="product-related-title">
       <div class="wrap">
-        <header class="section-header"><p class="eyebrow">Continue comparing</p><h2 id="product-related-title">Related products and useful alternatives.</h2><p class="section-header__body">Related options are selected deterministically from approved public products with similar operation, material, style or configuration.</p></header>
+        <header class="section-header"><p class="eyebrow">Continue comparing</p><h2 id="product-related-title">Related products and useful alternatives.</h2><p class="section-header__body">These products share a similar operation, material, style or configuration and may be useful alternatives.</p></header>
         {relatedProducts.length > 0 && <div class="featured-product-grid">{relatedProducts.map(item => <ProductCard name={item.displayName} reference={item.reference} category={item.categoryLabel} href={item.href} summary={item.summary} highlights={item.specifications.slice(0, 3)} media={item.media} imageAlt={item.imageAlt} />)}</div>}
         {landing.related && <a class="related-option-link" href={landing.related.href}><strong>{landing.related.label}</strong><span>Review the connected category choices before the complete system is quoted.</span><b>Continue <span aria-hidden="true">&rarr;</span></b></a>}
       </div>

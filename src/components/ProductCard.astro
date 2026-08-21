@@ -1,6 +1,7 @@
 ---
 import MediaFrame from './MediaFrame.astro';
 import type { PublicMedia } from '../data/public-catalog';
+import { createPublicExcerpt } from '../utils/public-excerpt';
 
 interface Props {
   name: string;
@@ -15,6 +16,7 @@ interface Props {
 }
 
 const { name, reference, category, href, summary, highlights, media, imageAlt, responsiveMedia = false } = Astro.props;
+const excerpt = createPublicExcerpt(summary);
 ---
 <article class="product-card">
   <a href={href} aria-label={'Explore ' + name}>
@@ -23,7 +25,7 @@ const { name, reference, category, href, summary, highlights, media, imageAlt, r
   <div class="product-card__content">
     <p class="product-card__meta"><span>{category}</span><span class="product-card__reference">Reference {reference}</span></p>
     <h3><a href={href}>{name}</a></h3>
-    <p class="product-card__summary">{summary}</p>
+    <p class="product-card__summary">{excerpt}</p>
     {highlights.length > 0 && <dl class="product-card__specs">{highlights.map(item => <div><dt>{item.label}</dt><dd>{item.value}</dd></div>)}</dl>}
     <a class="text-link" href={href}>Explore option <span aria-hidden="true">&rarr;</span></a>
   </div>

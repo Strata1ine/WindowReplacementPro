@@ -156,7 +156,7 @@ const breadcrumbSchema = {
   <section id="examples" class="section section--mist commercial-examples" aria-labelledby={`${page.key}-examples-title`}>
     <div class="wrap commercial-examples__layout">
       <div>
-        <SectionHeader eyebrow="Approved public product example" title="A reviewed configuration to support comparison." body="Public examples are limited to products with approved public-neutral identities and media. The exact supplied system is identified in the written quotation." headingId={`${page.key}-examples-title`} />
+        <SectionHeader eyebrow="Product example" title="A representative configuration for comparison." body="Explore common configurations, then confirm the exact product, options and warranty in your written quotation." headingId={`${page.key}-examples-title`} />
         <div class="related-link-grid">
           {page.relatedLinks.map(link => <a href={link.href}><strong>{link.title}</strong><span>{link.description}</span><b>Continue comparing <span aria-hidden="true">&rarr;</span></b></a>)}
         </div>
@@ -166,7 +166,7 @@ const breadcrumbSchema = {
         reference={page.product.reference}
         category={page.product.categoryLabel}
         href={page.product.href}
-        summary={page.product.metaDescription}
+        summary={page.product.summary}
         highlights={page.product.specifications.slice(0, 3)}
         media={page.product.media}
         imageAlt={page.product.imageAlt}

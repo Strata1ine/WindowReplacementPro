@@ -1,14 +1,9 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import AuthorityPage from '../../components/AuthorityPage.astro';
+import { categoryDetailByPath } from '../../data/category-detail-pages';
 import { products } from '../../data/products';
-export function getStaticPaths(){return products.filter(p=>p.category==='patio-doors').map(product=>({params:{slug:product.slug},props:{product}}));}
-const { product }=Astro.props;
+export function getStaticPaths(){return products.filter(product=>product.category==='patio-doors').map(product=>({params:{slug:product.slug},props:{page:categoryDetailByPath['/patio-doors/'+product.slug+'/']}}));}
+const { page }=Astro.props;
+if (!page) throw new TypeError('Missing patio-door category page');
 ---
-<BaseLayout title={product.seoTitle} description={product.seoDescription}>
-  <div class="wrap breadcrumbs"><a href="/patio-doors/">Patio Doors</a> / {product.name}</div>
-  <section class="page-hero"><div class="wrap prose"><div class="eyebrow">{product.type}</div><h1>{product.name}</h1><p class="lead">{product.summary}</p></div></section>
-  <section class="section alt"><div class="wrap split">
-    <div><h2>Configuration choices</h2><p>Compare panel count, opening direction, frame material, glass package, screen and hardware around the available wall opening.</p></div>
-    <div><h2>Installation details</h2><p>Opening preparation, sill support, water management, interior finishing and exterior sealing belong in the final written scope.</p></div>
-  </div></section>
-</BaseLayout>
+<AuthorityPage page={page} />

@@ -1,14 +1,9 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import AuthorityPage from '../../components/AuthorityPage.astro';
+import { categoryDetailByPath } from '../../data/category-detail-pages';
 import { products } from '../../data/products';
-export function getStaticPaths(){return products.filter(p=>p.category==='windows').map(product=>({params:{slug:product.slug},props:{product}}));}
-const { product } = Astro.props;
+export function getStaticPaths(){return products.filter(product=>product.category==='windows').map(product=>({params:{slug:product.slug},props:{page:categoryDetailByPath['/windows/'+product.slug+'/']}}));}
+const { page } = Astro.props;
+if (!page) throw new TypeError('Missing replacement-window category page');
 ---
-<BaseLayout title={product.seoTitle} description={product.seoDescription}>
-  <div class="wrap breadcrumbs"><a href="/windows/">Windows</a> / {product.name}</div>
-  <section class="page-hero"><div class="wrap prose"><div class="eyebrow">{product.type}</div><h1>{product.name}</h1><p class="lead">{product.summary}</p></div></section>
-  <section class="section alt"><div class="wrap split">
-    <div><h2>What to compare</h2><p>Performance, glass package, frame construction, hardware, colour, egress requirements, installation method and final opening dimensions all matter.</p></div>
-    <div><h2>Configuration choices</h2><p>Review frame finish, insulated-glass package, grille pattern, hardware finish and opening details together before the written quotation is prepared.</p></div>
-  </div></section>
-</BaseLayout>
+<AuthorityPage page={page} />

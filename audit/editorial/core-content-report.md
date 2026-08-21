@@ -1,6 +1,6 @@
 # Core content editorial report
 
-Generated: 2026-08-21T07:00:16.436Z
+Generated: 2026-08-21T16:19:07.354Z
 
 ## Scope and status
 
@@ -15,21 +15,21 @@ Generated: 2026-08-21T07:00:16.436Z
 
 | URL | Primary intent | Words | Links in | Links out | Public products | Metadata | Schema | Sitemap | Confidentiality |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| /window-replacement/ | Replacement-project scope and homeowner planning | 1243 | 76 | 23 | 3 | OK | Service + breadcrumbs | Yes | OK |
-| /window-replacement/full-frame/ | Full-frame replacement method and scope | 1077 | 4 | 22 | 2 | OK | Service + breadcrumbs | Yes | OK |
-| /window-replacement/retrofit/ | Retrofit or insert replacement method and suitability | 1059 | 4 | 22 | 2 | OK | Service + breadcrumbs | Yes | OK |
-| /window-installation/ | Measured window-installation process and quality controls | 1125 | 76 | 22 | 2 | OK | Service + breadcrumbs | Yes | OK |
-| /window-replacement-cost/ | Window replacement cost factors without fabricated prices | 1190 | 76 | 22 | 4 | OK | Service + breadcrumbs | Yes | OK |
-| /entry-door-replacement-cost/ | Entry-door replacement cost factors without fabricated prices | 1033 | 76 | 21 | 3 | OK | Service + breadcrumbs | Yes | OK |
-| /patio-door-replacement-cost/ | Patio-door replacement cost factors without fabricated prices | 1098 | 76 | 22 | 4 | OK | Service + breadcrumbs | Yes | OK |
-| /guides/full-frame-vs-retrofit-windows/ | Full-frame versus retrofit decision support | 1143 | 76 | 22 | 2 | OK | Article + breadcrumbs | Yes | OK |
-| /guides/double-vs-triple-pane-windows/ | Double- versus triple-pane glazing decision support | 1181 | 76 | 20 | 2 | OK | Article + breadcrumbs | Yes | OK |
-| /guides/window-styles/ | Visual comparison of operating and fixed window styles | 1170 | 76 | 24 | 5 | OK | Article + breadcrumbs | Yes | OK |
-| /energy-efficient-windows/ | Whole-window energy-performance education | 1212 | 76 | 21 | 3 | OK | Article + breadcrumbs | Yes | OK |
-| /guides/casement-vs-slider-windows/ | Casement versus slider operating-style comparison | 947 | 2 | 22 | 3 | OK | Article + breadcrumbs | Yes | OK |
-| /guides/window-problems/ | Window symptom triage and replacement planning | 1102 | 76 | 21 | 3 | OK | Article + breadcrumbs | Yes | OK |
-| /guides/fiberglass-vs-steel-entry-doors/ | Fiberglass versus steel entry-door comparison | 1137 | 76 | 23 | 3 | OK | Article + breadcrumbs | Yes | OK |
-| /guides/patio-door-types/ | Patio-door panel, frame, and configuration comparison | 1229 | 76 | 25 | 5 | OK | Article + breadcrumbs | Yes | OK |
+| /window-replacement/ | Replacement-project scope and homeowner planning | 1268 | 76 | 23 | 3 | OK | Service + breadcrumbs | Yes | OK |
+| /window-replacement/full-frame/ | Full-frame replacement method and scope | 1090 | 5 | 22 | 2 | OK | Service + breadcrumbs | Yes | OK |
+| /window-replacement/retrofit/ | Retrofit or insert replacement method and suitability | 1066 | 4 | 22 | 2 | OK | Service + breadcrumbs | Yes | OK |
+| /window-installation/ | Measured window-installation process and quality controls | 1150 | 76 | 22 | 2 | OK | Service + breadcrumbs | Yes | OK |
+| /window-replacement-cost/ | Window replacement cost factors without fabricated prices | 1216 | 76 | 22 | 4 | OK | Service + breadcrumbs | Yes | OK |
+| /entry-door-replacement-cost/ | Entry-door replacement cost factors without fabricated prices | 1027 | 76 | 21 | 3 | OK | Service + breadcrumbs | Yes | OK |
+| /patio-door-replacement-cost/ | Patio-door replacement cost factors without fabricated prices | 1099 | 76 | 22 | 4 | OK | Service + breadcrumbs | Yes | OK |
+| /guides/full-frame-vs-retrofit-windows/ | Full-frame versus retrofit decision support | 1158 | 76 | 22 | 2 | OK | Article + breadcrumbs | Yes | OK |
+| /guides/double-vs-triple-pane-windows/ | Double- versus triple-pane glazing decision support | 1194 | 76 | 20 | 2 | OK | Article + breadcrumbs | Yes | OK |
+| /guides/window-styles/ | Visual comparison of operating and fixed window styles | 1159 | 76 | 24 | 5 | OK | Article + breadcrumbs | Yes | OK |
+| /energy-efficient-windows/ | Whole-window energy-performance education | 1210 | 76 | 21 | 3 | OK | Article + breadcrumbs | Yes | OK |
+| /guides/casement-vs-slider-windows/ | Casement versus slider operating-style comparison | 938 | 3 | 22 | 3 | OK | Article + breadcrumbs | Yes | OK |
+| /guides/window-problems/ | Window symptom triage and replacement planning | 1126 | 76 | 21 | 3 | OK | Article + breadcrumbs | Yes | OK |
+| /guides/fiberglass-vs-steel-entry-doors/ | Fiberglass versus steel entry-door comparison | 1110 | 76 | 23 | 3 | OK | Article + breadcrumbs | Yes | OK |
+| /guides/patio-door-types/ | Patio-door panel, frame, and configuration comparison | 1210 | 76 | 25 | 5 | OK | Article + breadcrumbs | Yes | OK |
 
 Word counts are approximate rendered-main-content counts and include reusable disclosure/CTA copy. Incoming links count distinct generated pages linking to the URL; outgoing counts distinct valid generated routes.
 

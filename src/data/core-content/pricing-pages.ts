@@ -6,12 +6,12 @@ export const pricingPages: CoreContentPage[] = [
     title: 'What determines window replacement cost.',
     metaTitle: 'Window Replacement Cost Factors | Window Replacement Pro',
     metaDescription: 'Understand how window size, style, glazing, installation method, access, finishing and opening conditions shape a complete window replacement quotation.',
-    lead: 'A reliable window replacement price is assembled from the specified product and the work required at each measured opening. The repository does not contain an approved public price schedule, so this page explains the cost structure without publishing invented ranges.',
+    lead: 'A reliable window replacement price is assembled from the specified product and the work required at each measured opening. Generic dollar ranges can hide important differences, so this page explains the cost structure without publishing figures that may not match the measured project.',
     intro: [
       'Two windows with similar visible dimensions can have different installed costs because one opens, one is fixed, one uses a different glazing package, or one requires more extensive frame and finish work. A meaningful estimate therefore needs more than a unit count.',
       'The practical way to compare quotations is to separate product configuration, installation method, finishing and project conditions. When those elements are written clearly, a lower number can be evaluated for missing scope rather than assumed to represent the same work.'
     ],
-    highlights: ['No fabricated public price ranges', 'Product and installation priced together', 'Opening-by-opening scope matters', 'Written inclusions make quotations comparable'],
+    highlights: ['No misleading generic price ranges', 'Product and installation priced together', 'Opening-by-opening scope matters', 'Written inclusions make quotations comparable'],
     breadcrumbs: [],
     sections: [
       {
@@ -63,7 +63,7 @@ export const pricingPages: CoreContentPage[] = [
           'Check that the same openings, installation methods, glazing packages and finishes are included. A quotation that omits jamb work, capping, disposal or concealed-condition handling is not necessarily equivalent to one that lists them.',
           'Ask for revisions when a line is unclear. A complete written quotation protects against assumptions about what “standard installation” includes and provides the reference for final measurement, ordering and handoff.'
         ],
-        callout: { title: 'No public price range has been approved', text: 'This page intentionally contains no dollar figures. Installed pricing will be added only when a current, public-use business model has been identified and reviewed.' }
+        callout: { title: 'Why there is no generic price range', text: 'Installed pricing is prepared for the measured product, opening conditions and written scope. A broad range would not show whether glazing, finishing or opening repairs are included.' }
       }
     ],
     productReferences: ['WRP-W001', 'WRP-W004', 'WRP-W006', 'WRP-W008'],
@@ -80,7 +80,7 @@ export const pricingPages: CoreContentPage[] = [
     title: 'What determines entry door replacement cost.',
     metaTitle: 'Entry Door Replacement Cost Factors | Window Replacement Pro',
     metaDescription: 'Understand how door material, glass, sidelites, transoms, hardware, frame, threshold, finish, opening condition and installation shape an entry-door quote.',
-    lead: 'An entry door quotation covers a complete entrance system, not only a slab. Material, panel design, glass, frame, sill, hardware and finishing must all be coordinated with the measured opening. No unapproved dollar ranges are published here.',
+    lead: 'An entry door quotation covers a complete entrance system, not only a slab. Material, panel design, glass, frame, sill, hardware and finishing must all be coordinated with the measured opening. Generic dollar ranges are not used because they can omit important product and installation differences.',
     intro: [
       'A straightforward single door with limited glass has a different product and labour scope from a wide entrance with sidelites, a transom or two operating slabs. Even when the opening size stays the same, decorative glass, finish, hardware and jamb choices can change the supplied system.',
       'Installation pricing also depends on what surrounds the door. Interior casing, exterior trim, cladding, sill support, floor height, swing and opening condition should be assessed before final order.'
@@ -133,17 +133,17 @@ export const pricingPages: CoreContentPage[] = [
         id: 'quote', eyebrow: 'Compare complete systems', title: 'A lower slab price does not describe the installed entrance.',
         paragraphs: [
           'Compare quotations with the same door size, material, glass, configuration, hardware and finish. Confirm whether casing, exterior trim, disposal and touch-up work are included. Ask how the exact model and warranty will be documented.',
-          'If a desired steel, double-door or transom configuration is not represented in the public catalogue, it can still be discussed during quotation where internal evidence and measured compatibility support it. A public page is not created solely to imply availability.'
+          'Steel, double-door and transom configurations can be discussed during quotation. Their compatibility depends on the measured opening, selected slab, frame, glass and installation requirements.'
         ],
-        callout: { title: 'No wholesale or margin data is exposed', text: 'This page explains homeowner-facing cost factors only. Trade pricing, discounts, margins and unapproved public dollar ranges are not used or exposed.' }
+        callout: { title: 'Compare the complete entrance', text: 'This guide focuses on the product and project factors that shape a homeowner’s quotation. Compare the complete entrance configuration and installation scope, not a slab-only figure.' }
       }
     ],
     productReferences: ['WRP-D002', 'WRP-D003', 'WRP-D005', 'WRP-D007'],
     relatedLinks: [
-      { title: 'Entry doors', description: 'Browse approved public door configurations.', href: '/doors/' },
+      { title: 'Entry doors', description: 'Compare available entry-door configurations.', href: '/doors/' },
       { title: 'Fiberglass vs steel', description: 'Compare material directions before configuring the entrance.', href: '/guides/fiberglass-vs-steel-entry-doors/' },
       { title: 'Door glass', description: 'Compare privacy, daylight and decorative directions.', href: '/doors/decorative-door-glass/' },
-      { title: 'Door-glass products', description: 'Browse approved public glass families.', href: '/doors/decorative-door-glass/#catalogue' }
+      { title: 'Door-glass products', description: 'Compare available door-glass styles.', href: '/doors/decorative-door-glass/#catalogue' }
     ],
     heroReference: 'WRP-D005', visualReferences: ['WRP-D002', 'WRP-D003', 'WRP-D007'], technicalMediaKeys: [],
     visualGap: 'A public-safe entrance-system cost diagram is not available; verified product renders are used without implying an exact quoted system.'
@@ -153,7 +153,7 @@ export const pricingPages: CoreContentPage[] = [
     title: 'What determines patio door replacement cost.',
     metaTitle: 'Patio Door Replacement Cost Factors | Window Replacement Pro',
     metaDescription: 'Understand how panel count, frame material, glazing, hardware, screens, opening width, structural alterations, removal and finishing shape a patio-door quote.',
-    lead: 'Patio door pricing follows panel layout, frame material, glazing, hardware and the measured work at the opening. This guide explains the quotation structure without inventing dollar ranges or exposing confidential trade pricing.',
+    lead: 'Patio door pricing follows panel layout, frame material, glazing, hardware and the measured work at the opening. This guide explains the quotation structure without using a generic range that may omit important product or installation details.',
     intro: [
       'A two-panel sliding replacement and a wider multi-panel system do not have the same glass area, frame, hardware or handling needs. Slim aluminum, PVC and hybrid directions can also differ in profile, finish and performance options.',
       'The opening sets the installation scope. Width, sill support, floor level, exterior access, existing water management and any structural change must be considered before the complete project can be priced.'
@@ -208,15 +208,15 @@ export const pricingPages: CoreContentPage[] = [
           'Confirm the same system width, panel operation, frame material, glazing, screen and hardware are included. Verify whether interior trim, exterior finish, disposal and sill work are part of the price.',
           'For stacking, oversized or altered openings, expect project-specific assessment. Those configurations should not be represented by a generic price or a thin public page merely because a source image exists.'
         ],
-        callout: { title: 'No approved public price schedule is available', text: 'Dollar ranges are intentionally withheld. Current installed pricing is prepared from the measured system and written scope.' }
+        callout: { title: 'Why there is no generic price range', text: 'Current installed pricing is prepared from the measured patio-door system, opening conditions and written scope.' }
       }
     ],
     productReferences: ['WRP-P002', 'WRP-P001', 'WRP-P003', 'WRP-P004'],
     relatedLinks: [
-      { title: 'Patio doors', description: 'Browse approved public patio systems.', href: '/patio-doors/' },
+      { title: 'Patio doors', description: 'Compare available patio-door systems.', href: '/patio-doors/' },
       { title: 'Patio door types', description: 'Compare panel layouts and frame-material directions.', href: '/guides/patio-door-types/' },
-      { title: 'Multi-panel sliding patio door', description: 'Review a public multi-panel configuration.', href: '/products/patio-doors/multi-panel-sliding-patio-door/' },
-      { title: 'Slim-frame aluminum patio door', description: 'Review a public aluminum configuration.', href: '/products/patio-doors/slim-frame-aluminum-patio-door/' }
+      { title: 'Multi-panel sliding patio door', description: 'See a representative multi-panel configuration.', href: '/products/patio-doors/multi-panel-sliding-patio-door/' },
+      { title: 'Slim-frame aluminum patio door', description: 'See a representative aluminum configuration.', href: '/products/patio-doors/slim-frame-aluminum-patio-door/' }
     ],
     heroReference: 'WRP-P004', visualReferences: ['WRP-P001', 'WRP-P002', 'WRP-P003'], technicalMediaKeys: ['patio-panel-configuration', 'patio-lock-detail'],
     visualGap: 'No approved public-safe stacking-system cutaway is available; stacking remains educational text rather than an implied product offer.'

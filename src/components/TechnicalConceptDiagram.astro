@@ -1,6 +1,6 @@
 ---
 interface Props {
-  type: 'replacement-methods' | 'double-triple' | 'whole-window';
+  type: 'replacement-methods' | 'double-triple' | 'whole-window' | 'bay' | 'bow' | 'end-vent' | 'stacking';
 }
 const { type } = Astro.props;
 ---
@@ -28,4 +28,16 @@ const { type } = Astro.props;
     <div class="performance-factors"><span>Whole-window rating</span><span>Air leakage</span><span>Solar exposure</span><span>Installation joint</span></div>
     <figcaption id="performance-diagram-caption">Whole-window performance connects product construction, rated configuration, exposure and installation.</figcaption>
   </figure>
+)}
+{type === 'bay' && (
+  <figure class="concept-diagram projection-diagram" aria-labelledby="bay-diagram-caption"><div class="projection-plan projection-plan--bay" aria-hidden="true"><span></span><span></span><span></span></div><figcaption id="bay-diagram-caption">Illustrative plan view of a typical three-part bay: a wider centre section with angled flanks. Angles, projection and operation vary.</figcaption></figure>
+)}
+{type === 'bow' && (
+  <figure class="concept-diagram projection-diagram" aria-labelledby="bow-diagram-caption"><div class="projection-plan projection-plan--bow" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><figcaption id="bow-diagram-caption">Illustrative plan view of a five-lite bow. Lite count, curve, fixed sections and operating sections vary.</figcaption></figure>
+)}
+{type === 'end-vent' && (
+  <figure class="concept-diagram projection-diagram" aria-labelledby="end-vent-diagram-caption"><div class="end-vent-plan" aria-hidden="true"><span>Vent</span><span>Fixed centre</span><span>Vent</span></div><figcaption id="end-vent-diagram-caption">Illustrative three-section end-vent layout. Panel proportions, travel and reinforcement depend on the selected system.</figcaption></figure>
+)}
+{type === 'stacking' && (
+  <figure class="concept-diagram projection-diagram" aria-labelledby="stacking-diagram-caption"><div class="stacking-plan" aria-hidden="true"><span>1</span><span>2</span><span>3</span><i>Stacking side</i></div><figcaption id="stacking-diagram-caption">Illustrative panel-movement concept. Track count, parking zone, sill and clear passage are system-specific.</figcaption></figure>
 )}

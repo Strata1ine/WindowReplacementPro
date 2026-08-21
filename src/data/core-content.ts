@@ -43,7 +43,11 @@ export type CoreContentPage = {
   sections: CoreContentSection[];
   productReferences: string[];
   relatedLinks: { title: string; description: string; href: string }[];
-  heroReference: string;
+  heroReference?: string;
+  heroMediaKey?: string;
+  heroDiagram?: 'bay' | 'bow' | 'end-vent' | 'stacking';
+  heroCaption?: string;
+  introTitle?: string;
   visualReferences: string[];
   technicalMediaKeys: string[];
   visualGap?: string;

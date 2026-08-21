@@ -169,8 +169,14 @@ const representativeRoutes = [
   { kind: 'patio-door', path: '/products/patio-doors/multi-panel-sliding-patio-door/' }
 ];
 const corePageRoutes = [
-  { name: 'windows', path: '/windows/', kind: 'category', expectedProducts: 10 },
-  { name: 'entry-doors', path: '/doors/', kind: 'category', expectedProducts: 12 },
+  { name: 'windows', path: '/windows/', kind: 'category', expectedProducts: 10, visualQa: true },
+  { name: 'entry-doors', path: '/doors/', kind: 'category', expectedProducts: 12, visualQa: true },
+  { name: 'category-casement', path: '/windows/casement-windows/', kind: 'authority', expectedSchema: 'Service', requireTechnical: true, visualQa: true },
+  { name: 'category-awning', path: '/windows/awning-windows/', kind: 'authority', expectedSchema: 'Service', requireTechnical: true, visualQa: true },
+  { name: 'category-picture', path: '/windows/picture-windows/', kind: 'authority', expectedSchema: 'Service', requireTechnical: true, visualQa: true },
+  { name: 'category-bay', path: '/windows/bay-windows/', kind: 'authority', expectedSchema: 'Service', requireConcept: true, visualQa: true },
+  { name: 'category-fiberglass', path: '/doors/fiberglass-entry-doors/', kind: 'authority', expectedSchema: 'Service', visualQa: true },
+  { name: 'category-steel', path: '/doors/steel-entry-doors/', kind: 'authority', expectedSchema: 'Service', visualQa: true },
   { name: 'door-glass', path: '/doors/decorative-door-glass/', kind: 'category', expectedProducts: 12 },
   { name: 'patio-doors', path: '/patio-doors/', kind: 'category', expectedProducts: 6 },
   { name: 'product-window-slim-casement', path: '/products/windows/slim-frame-casement-window/', kind: 'product', category: 'windows' },
@@ -524,7 +530,7 @@ try {
         };
       })()`);
       corePageAudits.push({ ...route, viewport, url: routeUrl, ...audit });
-      if (viewport.width === 390 || viewport.width === 1440) {
+      if (route.visualQa) {
         await fullPageScreenshot('core-' + route.name + '-' + viewport.name + '.png');
       }
     }

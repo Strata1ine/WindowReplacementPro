@@ -126,7 +126,7 @@ export const windowEducationPages: CoreContentPage[] = [
       { title: 'Window styles', description: 'Compare the rest of the operating and fixed choices.', href: '/guides/window-styles/' },
       { title: 'Energy-efficient windows', description: 'Understand whole-window values and air leakage.', href: '/energy-efficient-windows/' },
       { title: 'Window replacement', description: 'Connect style selection to the full project.', href: '/window-replacement/' },
-      { title: 'Browse windows', description: 'Review approved public casement and slider families.', href: '/windows/#catalogue' }
+      { title: 'Browse windows', description: 'Compare available casement and slider configurations.', href: '/windows/#catalogue' }
     ],
     heroReference: 'WRP-W001', visualReferences: ['WRP-W002', 'WRP-W006', 'WRP-W007'], technicalMediaKeys: ['window-casement-profile', 'window-slider-profile']
   },

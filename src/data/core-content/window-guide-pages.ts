@@ -154,9 +154,9 @@ export const windowGuidePages: CoreContentPage[] = [
     lead: 'Window style determines how the sash moves, where ventilation enters, how the screen is positioned and what clear opening remains. The useful choice comes from the room, reach, exterior access and desired view—not a style name alone.',
     intro: [
       'Operating windows provide ventilation and may need to meet egress or safety requirements. Fixed windows prioritize glass area and can be combined with operating units. Projecting bay and bow assemblies add structure and finishing considerations beyond a flat window.',
-      'The visual examples below are approved public product families. They demonstrate operation and proportion without promising the exact product, grille, colour or configuration for a future quotation.'
+      'The visual examples below show representative window configurations. They demonstrate operation and proportion without promising the exact product, grille, colour or configuration for a future quotation.'
     ],
-    highlights: ['Strong visual comparison across major styles', 'Ventilation and cleaning explained', 'Opening geometry and screen placement considered', 'Links to approved public configurations'],
+    highlights: ['Strong visual comparison across major styles', 'Ventilation and cleaning explained', 'Opening geometry and screen placement considered', 'Links to representative product configurations'],
     breadcrumbs: [{ label: 'Guides', href: '/guides/' }],
     sections: [
       {
@@ -174,7 +174,7 @@ export const windowGuidePages: CoreContentPage[] = [
         id: 'sliding-sashes', eyebrow: 'Sashes within the frame', title: 'Hung and slider windows ventilate without projecting outward.',
         paragraphs: [
           'Single- and double-hung windows move vertically. A double-hung configuration allows both sashes to move where supported, which can aid ventilation and cleaning. Balance systems, meeting rails and sill conditions affect operation.',
-          'Single and double sliders move horizontally and can suit wider openings where exterior projection is undesirable. End-vent sliders place operating sashes around a fixed centre section, but a standalone public family is withheld until sufficient reviewed media and evidence support it.'
+          'Single and double sliders move horizontally and can suit wider openings where exterior projection is undesirable. End-vent sliders place operating sashes around a fixed centre section, creating balanced ventilation across a wider opening.'
         ],
         cards: [
           { title: 'Single hung', text: 'One moving sash with a fixed companion; familiar vertical proportions and no exterior projection.' },
@@ -200,7 +200,7 @@ export const windowGuidePages: CoreContentPage[] = [
         id: 'projecting-custom', eyebrow: 'Larger assemblies', title: 'Bay, bow and architectural windows need project-specific review.',
         paragraphs: [
           'Bay windows project in angular sections, while bow windows use several units to create a gentler curve. Both affect structure, roofing or head conditions, exterior finishing and interior seat or jamb work. They should not be treated as a standard flat-window swap.',
-          'Architectural shapes and custom combinations can solve distinctive openings, but operation, mullions, support, glass size and finish interfaces must be designed together. Public bay and bow product pages remain withheld because reviewed product-specific media and evidence are not yet strong enough.'
+          'Architectural shapes, bay and bow assemblies, and custom combinations can solve distinctive openings, but operation, mullions, support, glass size and finish interfaces must be designed together.'
         ],
         callout: { title: 'Style selection happens at the opening', text: 'Confirm ventilation, cleaning, reach, exterior clearance, egress, glass area and finish scope before choosing a style from appearance alone.' }
       }
@@ -210,7 +210,7 @@ export const windowGuidePages: CoreContentPage[] = [
       { title: 'Casement vs slider', description: 'Compare two common operating directions.', href: '/guides/casement-vs-slider-windows/' },
       { title: 'Window replacement', description: 'Connect style selection to measurement and installation.', href: '/window-replacement/' },
       { title: 'Energy-efficient windows', description: 'Understand how operation and frame affect performance.', href: '/energy-efficient-windows/' },
-      { title: 'Browse replacement windows', description: 'Review all approved public window families.', href: '/windows/#catalogue' }
+      { title: 'Browse replacement windows', description: 'Compare available window styles and configurations.', href: '/windows/#catalogue' }
     ],
     heroReference: 'WRP-W003', visualReferences: ['WRP-W001', 'WRP-W004', 'WRP-W006', 'WRP-W008', 'WRP-W009'], technicalMediaKeys: ['window-casement-profile', 'window-slider-profile', 'window-picture-profile'],
     visualGap: 'Bay and bow imagery is withheld because no current product-specific public-safe family passes the full evidence and media gate.'
