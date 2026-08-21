@@ -14,6 +14,7 @@ Static-first Astro website for Window Replacement Pro with a structured, auditab
 
 ```bash
 npm ci
+python -m pip install -r requirements-ci.txt
 npm run dev
 ```
 
