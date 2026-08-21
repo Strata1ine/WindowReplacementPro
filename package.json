@@ -37,6 +37,7 @@
     "audit:category-content": "node scripts/category-content-audit.mjs",
     "audit:category-baseline": "node scripts/category-content-audit.mjs --baseline",
     "audit:public-copy": "node scripts/audit-public-copy.mjs",
+    "audit:bundle": "node scripts/audit-bundle.mjs",
     "audit:structured-data": "node scripts/audit-structured-data.mjs",
     "verify": "npm run check && npm run validate:catalog && npm run validate:taxonomy && npm run test && npm run build && npm run audit:core-content && npm run audit:category-content && npm run audit:public-copy && npm run audit:structured-data && npm run validate:build",
     "generate:public-catalogue": "node scripts/generate-public-catalogue.mjs"
