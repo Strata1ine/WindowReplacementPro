@@ -1,13 +1,13 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import { guides } from '../../data/guides';
+import AuthorityPage from '../../components/AuthorityPage.astro';
+import { coreGuidePages } from '../../data/core-content';
+
 export function getStaticPaths() {
-  return guides.filter(guide => guide.publishable).map(guide => ({ params: { slug: guide.slug }, props: { guide } }));
+  return coreGuidePages.map(page => ({
+    params: { slug: page.path.split('/').filter(Boolean).at(-1) },
+    props: { page }
+  }));
 }
-const { guide } = Astro.props;
+const { page } = Astro.props;
 ---
-<BaseLayout title={guide.title + ' | Window Replacement Pro'} description={guide.description}>
-  <div class="wrap breadcrumbs"><a href="/guides/">Guides</a> / {guide.title}</div>
-  <section class="page-hero"><div class="wrap prose"><div class="eyebrow">Guide</div><h1>{guide.title}</h1><p class="lead">{guide.description}</p></div></section>
-  <section class="section alt"><div class="wrap prose"><h2>Editorial placeholder</h2><p>This route and SEO structure are ready. The production article should be written from verified technical evidence, installation practice and Ontario-specific requirements rather than generic generated copy.</p></div></section>
-</BaseLayout>
+<AuthorityPage page={page} />

@@ -9,6 +9,7 @@ interface Props {
   loading?: 'eager' | 'lazy';
   fetchpriority?: 'high' | 'low' | 'auto';
   fit?: 'cover' | 'contain';
+  responsiveContain?: boolean;
   caption?: string;
 }
 
@@ -20,13 +21,14 @@ const {
   loading = 'lazy',
   fetchpriority = 'auto',
   fit = 'cover',
+  responsiveContain = false,
   caption
 } = Astro.props;
 ---
-<figure class:list={['media-frame', 'media-frame--' + fit, className]} style={fit === 'contain' ? `background-image:url("${media.src}")` : undefined}>
+<figure class:list={['media-frame', 'media-frame--' + fit, responsiveContain && 'media-frame--responsive-contain', className]} style={fit === 'contain' && !responsiveContain ? `background-image:url("${media.src}")` : undefined}>
   <img
     src={media.src}
-    srcset={fit === 'cover' ? media.srcset : undefined}
+    srcset={fit === 'cover' || responsiveContain ? media.srcset : undefined}
     sizes={sizes}
     width={media.width}
     height={media.height}

@@ -1,0 +1,7 @@
+---
+import AuthorityPage from '../../components/AuthorityPage.astro';
+import { coreContentByPath } from '../../data/core-content';
+const page = coreContentByPath['/window-replacement/'];
+if (!page) throw new TypeError('Missing /window-replacement/ content');
+---
+<AuthorityPage page={page} />

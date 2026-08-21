@@ -1,0 +1,31 @@
+---
+interface Props {
+  type: 'replacement-methods' | 'double-triple' | 'whole-window';
+}
+const { type } = Astro.props;
+---
+{type === 'replacement-methods' && (
+  <figure class="concept-diagram concept-diagram--methods" aria-labelledby="method-diagram-caption">
+    <div class="concept-diagram__pair">
+      <div><span class="concept-window concept-window--removed"><i></i></span><strong>Full-frame</strong><small>Existing main frame removed; more of the perimeter becomes visible.</small></div>
+      <div><span class="concept-window concept-window--retained"><i></i></span><strong>Retrofit / insert</strong><small>New unit fits within a suitable retained main frame.</small></div>
+    </div>
+    <figcaption id="method-diagram-caption">Conceptual removal boundaries only. Actual wall, frame and finish conditions vary by opening.</figcaption>
+  </figure>
+)}
+{type === 'double-triple' && (
+  <figure class="concept-diagram concept-diagram--glazing" aria-labelledby="glazing-diagram-caption">
+    <div class="concept-diagram__pair">
+      <div><span class="pane-stack pane-stack--double"><i></i><i></i></span><strong>Double pane</strong><small>Two glass layers and one sealed cavity in a typical configuration.</small></div>
+      <div><span class="pane-stack pane-stack--triple"><i></i><i></i><i></i></span><strong>Triple pane</strong><small>Three glass layers and two sealed cavities in a typical configuration.</small></div>
+    </div>
+    <figcaption id="glazing-diagram-caption">Conceptual pane count. Coatings, gas fills, spacers, thicknesses and frame integration vary.</figcaption>
+  </figure>
+)}
+{type === 'whole-window' && (
+  <figure class="concept-diagram concept-diagram--performance" aria-labelledby="performance-diagram-caption">
+    <div class="performance-window" aria-hidden="true"><span>Glass</span><span>Spacer</span><span>Sash</span><span>Frame</span></div>
+    <div class="performance-factors"><span>Whole-window rating</span><span>Air leakage</span><span>Solar exposure</span><span>Installation joint</span></div>
+    <figcaption id="performance-diagram-caption">Whole-window performance connects product construction, rated configuration, exposure and installation.</figcaption>
+  </figure>
+)}

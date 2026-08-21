@@ -1,0 +1,7 @@
+---
+import AuthorityPage from '../components/AuthorityPage.astro';
+import { coreContentByPath } from '../data/core-content';
+const page = coreContentByPath['/energy-efficient-windows/'];
+if (!page) throw new TypeError('Missing energy-efficient windows content');
+---
+<AuthorityPage page={page} />

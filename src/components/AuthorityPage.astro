@@ -1,0 +1,114 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import MediaFrame from './MediaFrame.astro';
+import ProductCard from './ProductCard.astro';
+import QuoteCta from './QuoteCta.astro';
+import TechnicalConceptDiagram from './TechnicalConceptDiagram.astro';
+import { publicProducts } from '../data/public-catalog';
+import contentMediaRaw from '../data/core-content-media.json';
+import type { CoreContentPage } from '../data/core-content';
+import type { PublicMedia } from '../data/public-catalog';
+
+interface Props { page: CoreContentPage }
+type ContentMedia = { key: string; role: string; alt: string; caption: string; fit: 'cover' | 'contain'; media: PublicMedia };
+
+const { page } = Astro.props;
+const contentMedia = contentMediaRaw as ContentMedia[];
+const mediaByKey = new Map(contentMedia.map(item => [item.key, item]));
+const productByReference = new Map(publicProducts.map(product => [product.reference, product]));
+const hero = productByReference.get(page.heroReference);
+if (!hero) throw new TypeError('Missing authority-page hero ' + page.heroReference + ' for ' + page.path);
+const supportingReferences = [...new Set([...page.visualReferences, ...page.productReferences])].filter(reference => reference !== page.heroReference);
+const supportingProducts = supportingReferences.map(reference => {
+  const product = productByReference.get(reference);
+  if (!product) throw new TypeError('Missing authority-page product ' + reference + ' for ' + page.path);
+  return product;
+});
+const technicalMedia = page.technicalMediaKeys.map(key => {
+  const media = mediaByKey.get(key);
+  if (!media) throw new TypeError('Missing authority-page technical media ' + key + ' for ' + page.path);
+  return media;
+});
+const diagramType = page.path === '/guides/full-frame-vs-retrofit-windows/'
+  ? 'replacement-methods'
+  : page.path === '/guides/double-vs-triple-pane-windows/'
+    ? 'double-triple'
+    : page.path === '/energy-efficient-windows/'
+      ? 'whole-window'
+      : undefined;
+const breadcrumbItems = [
+  { label: 'Home', href: '/' },
+  ...page.breadcrumbs,
+  { label: page.title, href: page.path }
+];
+const breadcrumbSchema = {
+  '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+  itemListElement: breadcrumbItems.map((item, index) => ({ '@type': 'ListItem', position: index + 1, name: item.label, item: new URL(item.href, Astro.site).href }))
+};
+const pageSchema = page.kind === 'service' ? {
+  '@context': 'https://schema.org', '@type': 'Service', name: page.title, description: page.metaDescription,
+  provider: { '@id': 'https://windowreplacement.pro/#organization' },
+  areaServed: { '@type': 'AdministrativeArea', name: 'Greater Toronto Area and Southern Ontario' },
+  url: new URL(page.path, Astro.site).href
+} : {
+  '@context': 'https://schema.org', '@type': 'Article', headline: page.title, description: page.metaDescription,
+  mainEntityOfPage: new URL(page.path, Astro.site).href,
+  author: { '@id': 'https://windowreplacement.pro/#organization' },
+  publisher: { '@id': 'https://windowreplacement.pro/#organization' }
+};
+---
+<BaseLayout title={page.metaTitle} description={page.metaDescription} structuredData={[pageSchema, breadcrumbSchema]}>
+  <nav class="wrap breadcrumbs authority-breadcrumbs" aria-label="Breadcrumb">
+    {breadcrumbItems.map((item, index) => <><a href={item.href} aria-current={index === breadcrumbItems.length - 1 ? 'page' : undefined}>{item.label}</a>{index < breadcrumbItems.length - 1 && <span aria-hidden="true">/</span>}</>)}
+  </nav>
+
+  <section class="authority-hero" aria-labelledby="authority-page-title">
+    <div class="wrap authority-hero__grid">
+      <div class="authority-hero__content">
+        <p class="eyebrow">{page.eyebrow}</p>
+        <h1 id="authority-page-title">{page.title}</h1>
+        <p class="authority-hero__lead">{page.lead}</p>
+        <div class="actions"><a class="button" href="#quote">Plan your replacement</a><a class="button button--secondary" href="#page-guide">Read the guide</a></div>
+      </div>
+      <div class="authority-hero__media">
+        <MediaFrame media={hero.media} alt={hero.imageAlt} sizes="(max-width: 820px) 100vw, 46vw" loading="eager" fetchpriority="high" fit={hero.category === 'windows' || hero.category === 'patio-doors' ? 'cover' : 'contain'} responsiveContain />
+        <p>Representative {hero.categoryLabel.toLowerCase()} configuration. The exact supplied system is confirmed in the written quotation.</p>
+      </div>
+    </div>
+    <div class="wrap authority-highlights">{page.highlights.map((item, index) => <span><b>{String(index + 1).padStart(2, '0')}</b>{item}</span>)}</div>
+  </section>
+
+  <nav id="page-guide" class="category-jump authority-jump" aria-label="Page sections"><div class="wrap category-jump__inner"><span>On this page</span>{page.sections.map(section => <a href={'#' + section.id}>{section.title}</a>)}<a href="#product-examples">Product examples</a></div></nav>
+
+  <section class="section authority-intro" aria-labelledby="authority-intro-title">
+    <div class="wrap authority-intro__layout">
+      <div><p class="eyebrow">Project context</p><h2 id="authority-intro-title">Start with a clear scope, not a product label.</h2></div>
+      <div class="authority-prose">{page.intro.map(paragraph => <p>{paragraph}</p>)}</div>
+    </div>
+  </section>
+
+  {diagramType && <section class="section section--mist authority-concept" aria-label="Technical concept diagram"><div class="wrap"><TechnicalConceptDiagram type={diagramType} /></div></section>}
+
+  {page.sections.map((section, sectionIndex) => (
+    <section id={section.id} class:list={['section', 'authority-section', sectionIndex % 2 === 1 && 'section--cream']} aria-labelledby={section.id + '-title'}>
+      <div class="wrap authority-section__layout">
+        <header><p class="eyebrow">{section.eyebrow}</p><h2 id={section.id + '-title'}>{section.title}</h2></header>
+        <div class="authority-section__content">
+          <div class="authority-prose">{section.paragraphs.map(paragraph => <p>{paragraph}</p>)}</div>
+          {section.cards && <div class="authority-card-grid">{section.cards.map((card, index) => <article><span>{String(index + 1).padStart(2, '0')}</span><h3>{card.title}</h3><p>{card.text}</p>{card.points && <ul>{card.points.map(point => <li>{point}</li>)}</ul>}</article>)}</div>}
+          {section.steps && <ol class="authority-steps">{section.steps.map((step, index) => <li><span>{String(index + 1).padStart(2, '0')}</span><div><h3>{step.title}</h3><p>{step.text}</p></div></li>)}</ol>}
+          {section.table && <div class="comparison-table-wrap" tabindex="0" role="region" aria-label={section.table.caption}><table class="comparison-table"><caption>{section.table.caption}</caption><thead><tr>{section.table.columns.map(column => <th scope="col">{column}</th>)}</tr></thead><tbody>{section.table.rows.map(row => <tr>{row.map((cell, index) => index === 0 ? <th scope="row">{cell}</th> : <td data-label={section.table?.columns[index]}>{cell}</td>)}</tr>)}</tbody></table></div>}
+          {section.callout && <aside class="authority-callout"><p class="eyebrow">Important distinction</p><h3>{section.callout.title}</h3><p>{section.callout.text}</p></aside>}
+        </div>
+      </div>
+    </section>
+  ))}
+
+  {technicalMedia.length > 0 && <section class="section section--mist authority-technical" aria-labelledby="authority-technical-title"><div class="wrap"><header class="section-header"><p class="eyebrow">Verified technical and configuration media</p><h2 id="authority-technical-title">Visual evidence used where it improves the decision.</h2><p class="section-header__body">These are optimized neutral derivatives from reviewed internal evidence. Captions define what each visual can and cannot represent.</p></header><div class="authority-technical__grid">{technicalMedia.map(item => <figure><MediaFrame media={item.media} alt={item.alt} fit={item.fit} sizes="(max-width: 760px) 100vw, 40vw" responsiveContain /><figcaption>{item.caption}</figcaption></figure>)}</div></div></section>}
+
+  <section id="product-examples" class="section authority-products" aria-labelledby="authority-products-title"><div class="wrap"><header class="section-header"><p class="eyebrow">Approved public product examples</p><h2 id="authority-products-title">Useful configurations connected to this topic.</h2><p class="section-header__body">Every example has an approved neutral identity and public media. It supports comparison without presenting a source brand or model as the public identity.</p></header><div class="featured-product-grid authority-product-grid">{supportingProducts.map(product => <ProductCard name={product.displayName} reference={product.reference} category={product.categoryLabel} href={product.href} summary={product.metaDescription} highlights={product.specifications.slice(0, 3)} media={product.media} imageAlt={product.imageAlt} responsiveMedia />)}</div></div></section>
+
+  <section class="section section--forest authority-related" aria-labelledby="authority-related-title"><div class="wrap authority-related__layout"><div><p class="eyebrow">Continue planning</p><h2 id="authority-related-title">Related services and buying guides.</h2></div><div class="authority-related__links">{page.relatedLinks.map(link => <a href={link.href}><strong>{link.title}</strong><span>{link.description}</span><b>Continue <span aria-hidden="true">→</span></b></a>)}</div></div></section>
+
+  <div class="quote-section authority-quote"><div class="wrap"><QuoteCta /></div></div>
+</BaseLayout>

@@ -1,0 +1,7 @@
+---
+import AuthorityPage from '../components/AuthorityPage.astro';
+import { coreContentByPath } from '../data/core-content';
+const page = coreContentByPath['/window-installation/'];
+if (!page) throw new TypeError('Missing window installation content');
+---
+<AuthorityPage page={page} />

@@ -20,8 +20,27 @@ const currentFor = (prefix: string) => currentPath === prefix || (prefix !== '/'
       <a class:list={[currentFor('/windows/') && 'is-current']} aria-current={currentFor('/windows/') ? 'page' : undefined} href="/windows/">Windows</a>
       <a class:list={[currentFor('/doors/') && 'is-current']} aria-current={currentFor('/doors/') ? 'page' : undefined} href="/doors/">Entry doors</a>
       <a class:list={[currentFor('/patio-doors/') && 'is-current']} aria-current={currentFor('/patio-doors/') ? 'page' : undefined} href="/patio-doors/">Patio doors</a>
-      <a href="/#options">Product options</a>
-      <a href="/#process">How it works</a>
+      <details class="nav-dropdown" data-nav-dropdown>
+        <summary class:list={[(currentFor('/window-replacement/') || currentFor('/window-installation/') || currentPath.endsWith('-replacement-cost/')) && 'is-current']}>Plan</summary>
+        <div class="nav-dropdown__panel nav-dropdown__panel--wide">
+          <a href="/window-replacement/">Window replacement</a>
+          <a href="/window-installation/">Window installation</a>
+          <a href="/window-replacement-cost/">Window replacement cost</a>
+          <a href="/entry-door-replacement-cost/">Entry-door replacement cost</a>
+          <a href="/patio-door-replacement-cost/">Patio-door replacement cost</a>
+        </div>
+      </details>
+      <details class="nav-dropdown" data-nav-dropdown>
+        <summary class:list={[(currentFor('/guides/') || currentFor('/energy-efficient-windows/')) && 'is-current']}>Guides</summary>
+        <div class="nav-dropdown__panel nav-dropdown__panel--wide">
+          <a href="/guides/">All buying guides</a>
+          <a href="/guides/window-styles/">Window styles</a>
+          <a href="/energy-efficient-windows/">Energy-efficient windows</a>
+          <a href="/guides/full-frame-vs-retrofit-windows/">Full frame vs retrofit</a>
+          <a href="/guides/double-vs-triple-pane-windows/">Double vs triple pane</a>
+          <a href="/guides/window-problems/">Common window problems</a>
+        </div>
+      </details>
       <a class:list={[currentFor('/locations/') && 'is-current']} aria-current={currentFor('/locations/') ? 'page' : undefined} href="/locations/">Service areas</a>
     </nav>
     <a class="button button--header" href="/#quote">Plan your replacement</a>
@@ -37,8 +56,20 @@ const currentFor = (prefix: string) => currentPath === prefix || (prefix !== '/'
       <a href="/doors/decorative-door-glass/">Door glass</a>
       <a href="/patio-doors/">Patio doors</a>
       <div class="mobile-nav__divider"></div>
-      <a href="/#options">Product options</a>
-      <a href="/#process">How it works</a>
+      <p class="mobile-nav__label">Plan</p>
+      <a href="/window-replacement/">Window replacement</a>
+      <a href="/window-installation/">Window installation</a>
+      <a href="/window-replacement-cost/">Window replacement cost</a>
+      <a href="/entry-door-replacement-cost/">Entry-door replacement cost</a>
+      <a href="/patio-door-replacement-cost/">Patio-door replacement cost</a>
+      <div class="mobile-nav__divider"></div>
+      <p class="mobile-nav__label">Guides</p>
+      <a href="/guides/">All buying guides</a>
+      <a href="/guides/window-styles/">Window styles</a>
+      <a href="/energy-efficient-windows/">Energy-efficient windows</a>
+      <a href="/guides/full-frame-vs-retrofit-windows/">Full frame vs retrofit</a>
+      <a href="/guides/window-problems/">Common window problems</a>
+      <div class="mobile-nav__divider"></div>
       <a href="/locations/">Service areas</a>
       <a class="button" href="/#quote">Plan your replacement</a>
     </div>

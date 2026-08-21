@@ -1,0 +1,66 @@
+[
+  {
+    "key": "window-casement-profile",
+    "role": "technical",
+    "alt": "Cutaway view of a casement window frame and insulated glass profile",
+    "caption": "Representative casement frame and insulated-glass profile. Final frame and glazing construction are confirmed for the quoted window.",
+    "fit": "contain",
+    "media": { "src": "/media/content/wrp-content-window-casement-profile-900.webp", "srcset": "/media/content/wrp-content-window-casement-profile-360.webp 360w, /media/content/wrp-content-window-casement-profile-640.webp 640w, /media/content/wrp-content-window-casement-profile-900.webp 900w", "width": 931, "height": 1563 }
+  },
+  {
+    "key": "window-deep-frame-profile",
+    "role": "technical",
+    "alt": "Cutaway view of a deeper window frame and insulated glass profile",
+    "caption": "Representative deeper frame and glass profile. This explains product construction, not the wall-installation detail.",
+    "fit": "contain",
+    "media": { "src": "/media/content/wrp-content-window-deep-frame-profile-960.webp", "srcset": "/media/content/wrp-content-window-deep-frame-profile-360.webp 360w, /media/content/wrp-content-window-deep-frame-profile-640.webp 640w, /media/content/wrp-content-window-deep-frame-profile-960.webp 960w", "width": 1004, "height": 1618 }
+  },
+  {
+    "key": "window-double-hung-profile",
+    "role": "technical",
+    "alt": "Cutaway view of a hung and slider window frame profile",
+    "caption": "Representative shared frame-profile evidence for hung and sliding sash construction.",
+    "fit": "contain",
+    "media": { "src": "/media/content/wrp-content-window-hung-slider-profile-454.webp", "srcset": "/media/content/wrp-content-window-hung-slider-profile-360.webp 360w, /media/content/wrp-content-window-hung-slider-profile-454.webp 454w", "width": 454, "height": 444 }
+  },
+  {
+    "key": "window-slider-profile",
+    "role": "technical",
+    "alt": "Cutaway view of a sliding window frame and insulated glass profile",
+    "caption": "Representative frame profile shared across reviewed sliding and hung configurations. It is not a retrofit wall cutaway.",
+    "fit": "contain",
+    "media": { "src": "/media/content/wrp-content-window-hung-slider-profile-454.webp", "srcset": "/media/content/wrp-content-window-hung-slider-profile-360.webp 360w, /media/content/wrp-content-window-hung-slider-profile-454.webp 454w", "width": 454, "height": 444 }
+  },
+  {
+    "key": "window-picture-profile",
+    "role": "technical",
+    "alt": "Cutaway view of a fixed picture window frame and insulated glass profile",
+    "caption": "Representative fixed-window frame and insulated-glass profile for comparing non-operating construction.",
+    "fit": "contain",
+    "media": { "src": "/media/content/wrp-content-window-picture-profile-454.webp", "srcset": "/media/content/wrp-content-window-picture-profile-360.webp 360w, /media/content/wrp-content-window-picture-profile-454.webp 454w", "width": 454, "height": 444 }
+  },
+  {
+    "key": "patio-panel-configuration",
+    "role": "configuration",
+    "alt": "Three neutral patio-door panel layouts showing different sliding directions",
+    "caption": "Representative sliding panel arrangements. Arrows explain movement only; the measured quotation confirms the exact panel plan.",
+    "fit": "contain",
+    "media": { "src": "/media/content/wrp-content-patio-panel-configuration-1440.webp", "srcset": "/media/content/wrp-content-patio-panel-configuration-640.webp 640w, /media/content/wrp-content-patio-panel-configuration-960.webp 960w, /media/content/wrp-content-patio-panel-configuration-1440.webp 1440w", "width": 2339, "height": 407 }
+  },
+  {
+    "key": "patio-lock-detail",
+    "role": "hardware",
+    "alt": "Close view of patio-door locking hardware at the frame",
+    "caption": "Representative locking hardware detail. Hardware type and finish vary by the selected patio-door system.",
+    "fit": "contain",
+    "media": { "src": "/media/content/wrp-content-patio-lock-detail-640.webp", "srcset": "/media/content/wrp-content-patio-lock-detail-360.webp 360w, /media/content/wrp-content-patio-lock-detail-640.webp 640w", "width": 674, "height": 572 }
+  },
+  {
+    "key": "steel-entry-door-example",
+    "role": "comparison",
+    "alt": "Representative dark steel entry door with upper glass and lower panels",
+    "caption": "Representative steel entry-door direction for material comparison. It is not a published product offer; the exact system is confirmed in a written quotation.",
+    "fit": "contain",
+    "media": { "src": "/media/content/wrp-content-steel-entry-door-example-1200.webp", "srcset": "/media/content/wrp-content-steel-entry-door-example-480.webp 480w, /media/content/wrp-content-steel-entry-door-example-768.webp 768w, /media/content/wrp-content-steel-entry-door-example-1200.webp 1200w", "width": 2048, "height": 2048 }
+  }
+]

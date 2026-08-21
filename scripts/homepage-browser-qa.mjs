@@ -180,7 +180,13 @@ const corePageRoutes = [
   { name: 'product-glass-linear', path: '/products/door-glass/black-linear-privacy-door-glass/', kind: 'product', category: 'door-glass' },
   { name: 'product-glass-sidelite', path: '/products/door-glass/narrow-sidelite-decorative-glass/', kind: 'product', category: 'door-glass' },
   { name: 'product-patio-multi-panel', path: '/products/patio-doors/multi-panel-sliding-patio-door/', kind: 'product', category: 'patio-doors' },
-  { name: 'product-patio-slim-aluminum', path: '/products/patio-doors/slim-frame-aluminum-patio-door/', kind: 'product', category: 'patio-doors' }
+  { name: 'product-patio-slim-aluminum', path: '/products/patio-doors/slim-frame-aluminum-patio-door/', kind: 'product', category: 'patio-doors' },
+  { name: 'authority-window-replacement', path: '/window-replacement/', kind: 'authority', expectedSchema: 'Service' },
+  { name: 'authority-window-cost', path: '/window-replacement-cost/', kind: 'authority', expectedSchema: 'Service', requireTable: true, requireTechnical: true },
+  { name: 'authority-method-comparison', path: '/guides/full-frame-vs-retrofit-windows/', kind: 'authority', expectedSchema: 'Article', requireTable: true, requireConcept: true },
+  { name: 'authority-window-styles', path: '/guides/window-styles/', kind: 'authority', expectedSchema: 'Article', requireTechnical: true },
+  { name: 'authority-door-materials', path: '/guides/fiberglass-vs-steel-entry-doors/', kind: 'authority', expectedSchema: 'Article', requireTable: true, requireTechnical: true },
+  { name: 'authority-patio-types', path: '/guides/patio-door-types/', kind: 'authority', expectedSchema: 'Article', requireTable: true, requireTechnical: true }
 ];
 
 try {
@@ -471,7 +477,7 @@ try {
         ];
         const images = Array.from(document.images);
         const clipped = Array.from(document.querySelectorAll(
-          '.choice-card,.guidance-card,.consideration-grid article,.installation-steps li,.product-specification-groups>section,.product-editorial-grid>section,.product-gallery-grid figure,.public-catalogue .product-card,.quote-cta'
+          '.choice-card,.guidance-card,.consideration-grid article,.installation-steps li,.product-specification-groups>section,.product-editorial-grid>section,.product-gallery-grid figure,.public-catalogue .product-card,.authority-card-grid article,.authority-steps li,.authority-related__links a,.authority-technical__grid figure,.comparison-table tr,.quote-cta'
         )).filter(element => {
           const rect = element.getBoundingClientRect();
           return rect.left < -1 || rect.right > innerWidth + 1 || rect.width > innerWidth + 1;
@@ -496,6 +502,12 @@ try {
           keyFeatureCount: document.querySelectorAll('.product-key-features li').length,
           editorialGuidanceGroups: document.querySelectorAll('.product-editorial-grid>section').length,
           galleryCount: document.querySelectorAll('.product-gallery-grid figure').length,
+          authoritySections: document.querySelectorAll('.authority-section').length,
+          authorityProductCards: document.querySelectorAll('.authority-products .product-card').length,
+          authorityTechnicalMedia: document.querySelectorAll('.authority-technical__grid figure').length,
+          authorityComparisonTables: document.querySelectorAll('.comparison-table').length,
+          authorityConceptDiagrams: document.querySelectorAll('.concept-diagram').length,
+          authorityImagesWithoutSrcset: Array.from(document.querySelectorAll('.authority-hero img,.authority-technical img,.authority-products img')).filter(image => !image.getAttribute('srcset')).map(image => image.src),
           relatedProductCount: document.querySelectorAll('.product-related .product-card').length,
           emptySpecificationRows: Array.from(document.querySelectorAll('.product-specification-groups dl div'))
             .filter(row => !row.querySelector('dt')?.textContent?.trim() || !row.querySelector('dd')?.textContent?.trim()).length,
@@ -570,6 +582,14 @@ try {
     if (audit.kind === 'product' && audit.keyFeatureCount < 3) failures.push(label + ' is missing reviewed key features');
     if (audit.kind === 'product' && audit.editorialGuidanceGroups !== 3) failures.push(label + ' is missing best-for, configuration, or consideration guidance');
     if (audit.kind === 'product' && (audit.relatedProductCount < 1 || audit.relatedProductCount > 3)) failures.push(label + ' has an invalid related-product count');
+    if (audit.kind === 'authority' && audit.authoritySections < 3) failures.push(label + ' is missing substantive authority sections');
+    if (audit.kind === 'authority' && audit.authorityProductCards < 2) failures.push(label + ' is missing approved product examples');
+    if (audit.kind === 'authority' && audit.authorityImagesWithoutSrcset.length) failures.push(label + ' has authority images without responsive srcset');
+    if (audit.kind === 'authority' && !audit.schemaTypes.includes(audit.expectedSchema)) failures.push(label + ' is missing expected ' + audit.expectedSchema + ' schema');
+    if (audit.kind === 'authority' && !audit.schemaTypes.includes('BreadcrumbList')) failures.push(label + ' is missing breadcrumb schema');
+    if (audit.kind === 'authority' && audit.requireTable && audit.authorityComparisonTables < 1) failures.push(label + ' is missing its comparison table');
+    if (audit.kind === 'authority' && audit.requireTechnical && audit.authorityTechnicalMedia < 1) failures.push(label + ' is missing verified technical media');
+    if (audit.kind === 'authority' && audit.requireConcept && audit.authorityConceptDiagrams < 1) failures.push(label + ' is missing its concept diagram');
   }
   for (const category of ['windows', 'entry-doors', 'door-glass', 'patio-doors']) {
     const categoryProducts = corePageAudits.filter(audit => audit.kind === 'product' && audit.category === category);

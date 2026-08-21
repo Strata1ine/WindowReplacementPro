@@ -1,0 +1,7 @@
+---
+import AuthorityPage from '../../components/AuthorityPage.astro';
+import { coreContentByPath } from '../../data/core-content';
+const page = coreContentByPath['/window-replacement/full-frame/'];
+if (!page) throw new TypeError('Missing full-frame content');
+---
+<AuthorityPage page={page} />

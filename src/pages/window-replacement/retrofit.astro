@@ -1,0 +1,7 @@
+---
+import AuthorityPage from '../../components/AuthorityPage.astro';
+import { coreContentByPath } from '../../data/core-content';
+const page = coreContentByPath['/window-replacement/retrofit/'];
+if (!page) throw new TypeError('Missing retrofit content');
+---
+<AuthorityPage page={page} />

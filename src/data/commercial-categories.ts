@@ -105,7 +105,10 @@ export const commercialCategoryPages: Record<CommercialCategoryPage['key'], Comm
     ],
     relatedLinks: [
       { title: 'Casement windows', description: 'Review compression-seal operation and configuration choices.', href: '/windows/casement-windows/' },
-      { title: 'Picture windows', description: 'Compare fixed glazing for daylight and window combinations.', href: '/windows/picture-windows/' }
+      { title: 'Picture windows', description: 'Compare fixed glazing for daylight and window combinations.', href: '/windows/picture-windows/' },
+      { title: 'Window replacement planning', description: 'Understand scope, assessment and project decisions.', href: '/window-replacement/' },
+      { title: 'Window styles guide', description: 'Visually compare the main operating and fixed styles.', href: '/guides/window-styles/' },
+      { title: 'Window replacement cost', description: 'Learn what changes a measured installed quotation.', href: '/window-replacement-cost/' }
     ]
   },  'entry-doors': {
     key: 'entry-doors',
@@ -157,7 +160,9 @@ export const commercialCategoryPages: Record<CommercialCategoryPage['key'], Comm
     ],
     relatedLinks: [
       { title: 'Door glass', description: 'Compare decorative, privacy, clear and modern glass directions.', href: '/doors/decorative-door-glass/' },
-      { title: 'Fiberglass entry doors', description: 'Review fiberglass material and finish considerations.', href: '/doors/fiberglass-entry-doors/' }
+      { title: 'Fiberglass entry doors', description: 'Review fiberglass material and finish considerations.', href: '/doors/fiberglass-entry-doors/' },
+      { title: 'Fiberglass vs steel', description: 'Compare slab materials without reducing the decision to one feature.', href: '/guides/fiberglass-vs-steel-entry-doors/' },
+      { title: 'Entry-door replacement cost', description: 'See the variables that shape a complete entrance quotation.', href: '/entry-door-replacement-cost/' }
     ]
   },  'door-glass': {
     key: 'door-glass',
@@ -208,7 +213,8 @@ export const commercialCategoryPages: Record<CommercialCategoryPage['key'], Comm
     ],
     relatedLinks: [
       { title: 'Entry doors', description: 'Coordinate glass with slab material, panel design, finish and hardware.', href: '/doors/' },
-      { title: 'Fiberglass entry doors', description: 'Review a versatile slab material for panel and glass configurations.', href: '/doors/fiberglass-entry-doors/' }
+      { title: 'Fiberglass entry doors', description: 'Review a versatile slab material for panel and glass configurations.', href: '/doors/fiberglass-entry-doors/' },
+      { title: 'Entry-door replacement cost', description: 'Understand how glass, slab and opening configuration affect scope.', href: '/entry-door-replacement-cost/' }
     ]
   },  'patio-doors': {
     key: 'patio-doors',
@@ -259,7 +265,9 @@ export const commercialCategoryPages: Record<CommercialCategoryPage['key'], Comm
     ],
     relatedLinks: [
       { title: 'Sliding patio doors', description: 'Review mainstream horizontal sliding configurations.', href: '/patio-doors/sliding-patio-doors/' },
-      { title: 'Stacking patio doors', description: 'Understand the planning needs for wider multi-panel openings.', href: '/patio-doors/stacking-patio-doors/' }
+      { title: 'Stacking patio doors', description: 'Understand the planning needs for wider multi-panel openings.', href: '/patio-doors/stacking-patio-doors/' },
+      { title: 'Patio-door types', description: 'Compare panel layouts, frame directions and opening behaviour.', href: '/guides/patio-door-types/' },
+      { title: 'Patio-door replacement cost', description: 'See what changes a measured patio-system quotation.', href: '/patio-door-replacement-cost/' }
     ]
   }
 };

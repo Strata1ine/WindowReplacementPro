@@ -1,0 +1,7 @@
+---
+import AuthorityPage from '../components/AuthorityPage.astro';
+import { coreContentByPath } from '../data/core-content';
+const page = coreContentByPath['/entry-door-replacement-cost/'];
+if (!page) throw new TypeError('Missing entry-door replacement cost content');
+---
+<AuthorityPage page={page} />

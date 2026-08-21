@@ -11,7 +11,23 @@ from urllib.parse import urldefrag, urlparse
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / 'dist'
 SITE_HOST = 'windowreplacement.pro'
-
+CORE_AUTHORITY_ROUTES = {
+    '/window-replacement/',
+    '/window-replacement/full-frame/',
+    '/window-replacement/retrofit/',
+    '/window-installation/',
+    '/window-replacement-cost/',
+    '/entry-door-replacement-cost/',
+    '/patio-door-replacement-cost/',
+    '/guides/full-frame-vs-retrofit-windows/',
+    '/guides/double-vs-triple-pane-windows/',
+    '/guides/window-styles/',
+    '/energy-efficient-windows/',
+    '/guides/casement-vs-slider-windows/',
+    '/guides/window-problems/',
+    '/guides/fiberglass-vs-steel-entry-doors/',
+    '/guides/patio-door-types/',
+}
 
 class LinkParser(HTMLParser):
     def __init__(self):
@@ -80,6 +96,11 @@ def main() -> int:
 
     for path in sitemap_paths:
         if not file_for_route(path).is_file(): errors.append(f'sitemap URL has no generated file: {path}')
+    missing_core_routes = sorted(CORE_AUTHORITY_ROUTES - set(parsed_pages))
+    if missing_core_routes: errors.append(f'core authority routes missing: {missing_core_routes}')
+    missing_core_sitemap = sorted(CORE_AUTHORITY_ROUTES - sitemap_paths)
+    if missing_core_sitemap: errors.append(f'core authority routes missing from sitemap: {missing_core_sitemap}')
+    if '/guides/' not in sitemap_paths: errors.append('substantive guide hub is missing from sitemap')
     product_routes = [route for route in parsed_pages if route.startswith('/products/')]
     brand_routes = [route for route in parsed_pages if route.startswith('/brands')]
     allowed_product_categories = {'windows', 'entry-doors', 'door-glass', 'patio-doors'}

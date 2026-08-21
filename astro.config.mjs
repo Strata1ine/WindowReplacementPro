@@ -6,7 +6,7 @@ export default defineConfig({
   output: 'static',
   publicDir: './public-site',
   integrations: [sitemap({
-    filter: (page) => !['/guides/', '/locations/'].includes(new URL(page).pathname)
+    filter: (page) => new URL(page).pathname !== '/locations/'
   })],
   trailingSlash: 'always',
   build: {
