@@ -20,7 +20,7 @@ const outputDirectory = path.resolve('audit/frontend/screenshots');
 const resultPath = path.resolve('audit/frontend/browser-qa-results.json');
 await mkdir(outputDirectory, { recursive: true });
 const profileDirectory = await mkdtemp(path.join(os.tmpdir(), 'windowreplacement-homepage-qa-'));
-const port = 9333;
+const port = 9300 + Math.floor(Math.random() * 400);
 const browserProcess = spawn(chromePath, [
   '--headless=new',
   `--remote-debugging-port=${port}`,
@@ -167,6 +167,13 @@ const representativeRoutes = [
   { kind: 'entry-door', path: '/products/entry-doors/two-panel-fiberglass-entry-door/' },
   { kind: 'door-glass', path: '/products/door-glass/black-linear-privacy-door-glass/' },
   { kind: 'patio-door', path: '/products/patio-doors/multi-panel-sliding-patio-door/' }
+];
+const corePageRoutes = [
+  { name: 'windows', path: '/windows/', kind: 'category' },
+  { name: 'entry-doors', path: '/doors/', kind: 'category' },
+  { name: 'door-glass', path: '/doors/decorative-door-glass/', kind: 'category' },
+  { name: 'patio-doors', path: '/patio-doors/', kind: 'category' },
+  { name: 'product-window', path: '/products/windows/slim-frame-casement-window/', kind: 'product' }
 ];
 
 try {
@@ -442,6 +449,61 @@ try {
     await fullPageScreenshot(`product-${route.kind}.png`);
   }
 
+
+  const corePageAudits = [];
+  for (const route of corePageRoutes) {
+    for (const viewport of viewports) {
+      const routeUrl = new URL(route.path, baseUrl).href;
+      await loadPage(viewport, routeUrl);
+      const audit = await evaluate(`(() => {
+        const text = document.body.innerText.toLowerCase();
+        const forbidden = [
+          'vinyl-pro', 'vinyl pro', 'window city', 'masonite', 'trimlite', 'novatech',
+          'verre select', 'mennie', 'richersons', 'oceanview', 'vista patio doors',
+          'source url', 'provenance', 'supplier:', 'manufacturer:'
+        ];
+        const images = Array.from(document.images);
+        const clipped = Array.from(document.querySelectorAll(
+          '.choice-card,.guidance-card,.consideration-grid article,.installation-steps li,.product-specification-groups>section,.quote-cta'
+        )).filter(element => {
+          const rect = element.getBoundingClientRect();
+          return rect.left < -1 || rect.right > innerWidth + 1 || rect.width > innerWidth + 1;
+        }).map(element => element.className);
+        const schemas = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+          .map(script => { try { return JSON.parse(script.textContent); } catch { return null; } })
+          .filter(Boolean);
+        const schemaText = JSON.stringify(schemas).toLowerCase();
+        return {
+          title: document.title,
+          h1Count: document.querySelectorAll('h1').length,
+          h1: document.querySelector('h1')?.textContent?.trim() ?? '',
+          documentWidth: document.documentElement.scrollWidth,
+          documentHeight: document.documentElement.scrollHeight,
+          viewportWidth: innerWidth,
+          horizontalOverflow: document.documentElement.scrollWidth > innerWidth,
+          clipped,
+          brokenImages: images.filter(image => !image.complete || image.naturalWidth === 0).map(image => image.currentSrc || image.src),
+          choiceCards: document.querySelectorAll('.choice-card').length,
+          emptySpecificationRows: Array.from(document.querySelectorAll('.product-specification-groups dl div'))
+            .filter(row => !row.querySelector('dt')?.textContent?.trim() || !row.querySelector('dd')?.textContent?.trim()).length,
+          headerPresent: Boolean(document.querySelector('.site-header')),
+          footerPresent: Boolean(document.querySelector('.site-footer')),
+          quotePresent: Boolean(document.querySelector('.quote-cta')),
+          forbiddenTerms: forbidden.filter(term => text.includes(term)),
+          privatePathLeaks: Array.from(document.querySelectorAll('[href],[src]'))
+            .map(element => element.href || element.currentSrc || element.src || '')
+            .filter(value => /brands|source-media|documents|suppliers|vinyl-pro|window-city|masonite|trimlite|novatech|oceanview|vista/i.test(value)),
+          schemaTypes: schemas.map(schema => schema['@type']),
+          fabricatedSchemaFields: ['brand','manufacturer','offers','price','rating','review']
+            .filter(field => schemaText.includes('"' + field + '"'))
+        };
+      })()`);
+      corePageAudits.push({ ...route, viewport, url: routeUrl, ...audit });
+      if (viewport.width === 390 || viewport.width === 1440) {
+        await fullPageScreenshot('core-' + route.name + '-' + viewport.name + '.png');
+      }
+    }
+  }
   const failures = [];
   for (const result of viewportResults) {
     if (result.dimensions.horizontalOverflow) failures.push('horizontal overflow at ' + result.viewport.width + 'px');
@@ -479,7 +541,18 @@ try {
     if ((audit.imageMetrics?.decodedDarkPixelRatio ?? 0) < 0.01) failures.push(audit.kind + ' page media has no usable decoded visual content');
     if (audit.mediaPaths.some(pathname => !pathname.startsWith('/media/products/wrp-'))) failures.push(audit.kind + ' page uses a non-neutral media path');
   }
-  if (runtimeErrors.length) failures.push('browser runtime errors');
+  for (const audit of corePageAudits) {
+    const label = audit.name + ' at ' + audit.viewport.width + 'px';
+    if (audit.h1Count !== 1) failures.push(label + ' does not have exactly one H1');
+    if (audit.horizontalOverflow) failures.push(label + ' has horizontal overflow');
+    if (audit.clipped.length) failures.push(label + ' has clipped key content');
+    if (audit.brokenImages.length) failures.push(label + ' has broken images');
+    if (!audit.headerPresent || !audit.footerPresent || !audit.quotePresent) failures.push(label + ' is missing the shared layout or CTA');
+    if (audit.forbiddenTerms.length || audit.privatePathLeaks.length) failures.push(label + ' exposes private identity data');
+    if (audit.fabricatedSchemaFields.length) failures.push(label + ' includes prohibited schema fields');
+    if (audit.emptySpecificationRows) failures.push(label + ' includes empty specification rows');
+    if (audit.kind === 'category' && audit.choiceCards < 6) failures.push(label + ' is missing category choices');
+  }  if (runtimeErrors.length) failures.push('browser runtime errors');
   if (networkFailures.length) failures.push('browser network failures');
 
   const results = {
@@ -490,6 +563,7 @@ try {
     pageAudit,
     mhtmlAudit,
     representativePageAudits,
+    corePageAudits,
     runtimeErrors,
     networkFailures,
     failures,

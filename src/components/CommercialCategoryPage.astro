@@ -1,0 +1,176 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import MediaFrame from './MediaFrame.astro';
+import ProductCard from './ProductCard.astro';
+import QuoteCta from './QuoteCta.astro';
+import SectionHeader from './SectionHeader.astro';
+import type { CommercialCategoryPage } from '../data/commercial-categories';
+
+interface Props {
+  page: CommercialCategoryPage;
+}
+
+const { page } = Astro.props;
+const serviceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  name: page.serviceType,
+  serviceType: page.serviceType,
+  provider: {
+    '@type': 'Organization',
+    name: 'Window Replacement Pro',
+    url: 'https://windowreplacement.pro/'
+  },
+  areaServed: {
+    '@type': 'AdministrativeArea',
+    name: 'Greater Toronto Area and Southern Ontario'
+  },
+  url: new URL(page.path, Astro.site).href
+};
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: new URL('/', Astro.site).href },
+    { '@type': 'ListItem', position: 2, name: page.breadcrumb, item: new URL(page.path, Astro.site).href }
+  ]
+};
+---
+<BaseLayout
+  title={`${page.breadcrumb} Ontario | Window Replacement Pro`}
+  description={page.summary}
+  structuredData={[serviceSchema, breadcrumbSchema]}
+>
+  <section class:list={['commercial-hero', `commercial-hero--${page.key}`]} aria-labelledby={`${page.key}-title`}>
+    <div class="wrap commercial-hero__grid">
+      <div class="commercial-hero__content">
+        <p class="eyebrow">{page.eyebrow}</p>
+        <h1 id={`${page.key}-title`}>{page.title}</h1>
+        <p class="commercial-hero__lead">{page.summary}</p>
+        <div class="actions">
+          <a class="button" href="#quote">Plan your replacement</a>
+          <a class="button button--secondary" href="#choices">Compare the choices</a>
+        </div>
+      </div>
+      <div class="commercial-hero__media">
+        <MediaFrame
+          media={page.product.media}
+          alt={page.product.imageAlt}
+          sizes="(max-width: 820px) 100vw, 46vw"
+          loading="eager"
+          fetchpriority="high"
+          fit={page.heroFit}
+        />
+        <p>{page.heroCaption}</p>
+      </div>
+    </div>
+    <div class="wrap commercial-scope" aria-label="Complete replacement project scope">
+      {['Assess the opening', 'Help select', 'Measure', 'Written quotation', 'Supply', 'Install and finish'].map((item, index) => (
+        <span><b>{String(index + 1).padStart(2, '0')}</b>{item}</span>
+      ))}
+    </div>
+  </section>
+
+  <nav class="category-jump" aria-label={`${page.breadcrumb} page sections`}>
+    <div class="wrap category-jump__inner">
+      <span>On this page</span>
+      <a href="#choices">Choices</a>
+      <a href="#selection">What matters</a>
+      <a href="#configuration">Configuration</a>
+      <a href="#installation">Installation</a>
+      <a href="#examples">Product example</a>
+    </div>
+  </nav>
+
+  <section id="choices" class="section commercial-choices" aria-labelledby={`${page.key}-choices-title`}>
+    <div class="wrap">
+      <SectionHeader eyebrow={page.choiceEyebrow} title={page.choiceTitle} body={page.choiceBody} headingId={`${page.key}-choices-title`} />
+      <div class="choice-grid">
+        {page.choices.map(choice => (
+          choice.href ? (
+            <a id={choice.id} class="choice-card" href={choice.href}>
+              <span class="choice-card__visual" data-visual={choice.visual} aria-hidden="true"><i></i></span>
+              <span class="choice-card__copy"><span class="choice-card__detail">{choice.detail}</span><strong>{choice.title}</strong><span>{choice.description}</span><b>Explore option <span aria-hidden="true">&rarr;</span></b></span>
+            </a>
+          ) : (
+            <article id={choice.id} class="choice-card">
+              <span class="choice-card__visual" data-visual={choice.visual} aria-hidden="true"><i></i></span>
+              <span class="choice-card__copy"><span class="choice-card__detail">{choice.detail}</span><strong>{choice.title}</strong><span>{choice.description}</span><b>Confirmed during selection</b></span>
+            </article>
+          )
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section id="selection" class="section section--forest commercial-selection" aria-labelledby={`${page.key}-selection-title`}>
+    <div class="wrap commercial-selection__layout">
+      <div>
+        <p class="eyebrow">{page.selectionEyebrow}</p>
+        <h2 id={`${page.key}-selection-title`}>{page.selectionTitle}</h2>
+        <p class="lead">{page.selectionBody}</p>
+      </div>
+      <div class="consideration-grid">
+        {page.considerations.map((item, index) => (
+          <article><span>{String(index + 1).padStart(2, '0')}</span><h3>{item.title}</h3><p>{item.description}</p></article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section id="configuration" class="section section--cream commercial-guidance" aria-labelledby={`${page.key}-guidance-title`}>
+    <div class="wrap">
+      <SectionHeader eyebrow={page.guidanceEyebrow} title={page.guidanceTitle} body={page.guidanceBody} headingId={`${page.key}-guidance-title`} />
+      <div class="guidance-grid">
+        {page.guidance.map((item, index) => (
+          <article class="guidance-card">
+            <span>{String(index + 1).padStart(2, '0')}</span>
+            <h3>{item.title}</h3>
+            <p>{item.description}</p>
+            <ul>{item.points.map(point => <li>{point}</li>)}</ul>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section id="installation" class="section commercial-installation" aria-labelledby={`${page.key}-installation-title`}>
+    <div class="wrap installation-layout">
+      <div class="installation-intro">
+        <p class="eyebrow">Measurement and installation</p>
+        <h2 id={`${page.key}-installation-title`}>{page.installationTitle}</h2>
+        <p class="lead">{page.installationBody}</p>
+      </div>
+      <ol class="installation-steps">
+        {page.installationSteps.map((step, index) => (
+          <li><span>{String(index + 1).padStart(2, '0')}</span><div><h3>{step.title}</h3><p>{step.description}</p></div></li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <section id="examples" class="section section--mist commercial-examples" aria-labelledby={`${page.key}-examples-title`}>
+    <div class="wrap commercial-examples__layout">
+      <div>
+        <SectionHeader eyebrow="Approved public product example" title="A reviewed configuration to support comparison." body="Public examples are limited to products with approved public-neutral identities and media. The exact supplied system is identified in the written quotation." headingId={`${page.key}-examples-title`} />
+        <div class="related-link-grid">
+          {page.relatedLinks.map(link => <a href={link.href}><strong>{link.title}</strong><span>{link.description}</span><b>Continue comparing <span aria-hidden="true">&rarr;</span></b></a>)}
+        </div>
+      </div>
+      <ProductCard
+        name={page.product.displayName}
+        reference={page.product.reference}
+        category={page.product.categoryLabel}
+        href={page.product.href}
+        summary={page.product.summary}
+        highlights={page.product.specifications.slice(0, 3)}
+        media={page.product.media}
+        imageAlt={page.product.imageAlt}
+      />
+    </div>
+  </section>
+
+  <div class="quote-section commercial-quote">
+    <div class="wrap"><QuoteCta /></div>
+  </div>
+</BaseLayout>

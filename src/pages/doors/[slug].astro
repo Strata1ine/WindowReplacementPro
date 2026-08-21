@@ -1,14 +1,17 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import CommercialCategoryPage from '../../components/CommercialCategoryPage.astro';
+import { commercialCategoryPages } from '../../data/commercial-categories';
 import { products } from '../../data/products';
 export function getStaticPaths(){return products.filter(p=>p.category==='entry-doors').map(product=>({params:{slug:product.slug},props:{product}}));}
 const { product }=Astro.props;
+const isDoorGlassLanding = product.slug === 'decorative-door-glass';
 ---
-<BaseLayout title={product.seoTitle} description={product.seoDescription}>
+{isDoorGlassLanding ? <CommercialCategoryPage page={commercialCategoryPages['door-glass']} /> : <BaseLayout title={product.seoTitle} description={product.seoDescription}>
   <div class="wrap breadcrumbs"><a href="/doors/">Entry Doors</a> / {product.name}</div>
   <section class="page-hero"><div class="wrap prose"><div class="eyebrow">{product.type}</div><h1>{product.name}</h1><p class="lead">{product.summary}</p></div></section>
   <section class="section alt"><div class="wrap split">
     <div><h2>Design choices</h2><p>Compare slab material, panel profile, decorative glass, sidelites, transoms, colour and hardware as one complete entrance.</p></div>
     <div><h2>Project details</h2><p>Final sizing, swing, jamb depth, sill, security, finishing and installation scope are confirmed after the opening is measured.</p></div>
   </div></section>
-</BaseLayout>
+</BaseLayout>}

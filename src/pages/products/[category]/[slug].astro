@@ -1,37 +1,138 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import MediaFrame from '../../../components/MediaFrame.astro';
+import ProductCard from '../../../components/ProductCard.astro';
 import QuoteCta from '../../../components/QuoteCta.astro';
 import { publicProducts } from '../../../data/public-catalog';
+
 export function getStaticPaths() {
   return publicProducts.map(product => ({ params: { category: product.category, slug: product.slug }, props: { product } }));
 }
+
 const { product } = Astro.props;
-const categoryLanding: Record<string, { href: string; label: string }> = {
-  windows: { href: '/windows/', label: 'Windows' },
-  'entry-doors': { href: '/doors/', label: 'Entry doors' },
-  'door-glass': { href: '/doors/decorative-door-glass/', label: 'Door glass' },
-  'patio-doors': { href: '/patio-doors/', label: 'Patio doors' }
+const categoryLanding: Record<string, { href: string; label: string; considerationTitle: string; considerations: string[]; related?: { href: string; label: string } }> = {
+  windows: {
+    href: '/windows/', label: 'Replacement windows', considerationTitle: 'Confirm the opening and installation method',
+    considerations: ['Operating style and room use', 'Glass package and exposure', 'Frame condition and replacement method', 'Interior and exterior finishing']
+  },
+  'entry-doors': {
+    href: '/doors/', label: 'Entry doors', considerationTitle: 'Coordinate the complete entrance',
+    considerations: ['Slab, frame and swing', 'Glass, privacy and daylight', 'Finish and visible hardware', 'Sill, sealing and surrounding trim'],
+    related: { href: '/doors/decorative-door-glass/', label: 'Compare door-glass options' }
+  },
+  'door-glass': {
+    href: '/doors/decorative-door-glass/', label: 'Door glass', considerationTitle: 'Confirm glass in the complete door system',
+    considerations: ['Privacy from inside and outside', 'Daylight and glass size', 'Compatible slab and configuration', 'Sidelite or transom coordination'],
+    related: { href: '/doors/', label: 'Compare entry-door configurations' }
+  },
+  'patio-doors': {
+    href: '/patio-doors/', label: 'Patio doors', considerationTitle: 'Confirm the panel system and opening',
+    considerations: ['Panel layout and clear opening', 'Frame and glazing package', 'Screen, rollers and locking hardware', 'Sill support, sealing and finishing']
+  }
 };
 const landing = categoryLanding[product.category];
+if (!landing) throw new TypeError('Missing category landing for ' + product.category);
+
+const specifications = product.specifications.filter(item => item.label.trim() && item.value.trim());
+const groupDefinitions = [
+  { title: 'Materials and construction', matches: ['material', 'panel design', 'product type'] },
+  { title: 'Operation and configurations', matches: ['operation', 'configuration', 'layout'] },
+  { title: 'Glazing and privacy', matches: ['glazing', 'glass', 'privacy'] },
+  { title: 'Dimensions', matches: ['height', 'width', 'depth', 'dimension', 'size'] },
+  { title: 'Performance', matches: ['performance', 'energy', 'u-factor', 'solar', 'air', 'water'] },
+  { title: 'Finishes and hardware', matches: ['colour', 'color', 'finish', 'hardware', 'lock', 'screen'] }
+];
+const assigned = new Set<number>();
+const specificationGroups = groupDefinitions.map(group => {
+  const items = specifications.filter((item, index) => {
+    if (assigned.has(index)) return false;
+    const label = item.label.toLowerCase();
+    const matched = group.matches.some(term => label.includes(term));
+    if (matched) assigned.add(index);
+    return matched;
+  });
+  return { title: group.title, items };
+}).filter(group => group.items.length > 0);
+const remainingSpecifications = specifications.filter((_item, index) => !assigned.has(index));
+if (remainingSpecifications.length) specificationGroups.push({ title: 'Additional reviewed details', items: remainingSpecifications });
+const relatedProducts = publicProducts.filter(item => item.category === product.category && item.href !== product.href);
+
+const productSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: product.displayName,
+  description: product.summary,
+  image: new URL(product.media.src, Astro.site).href,
+  sku: product.reference,
+  category: product.categoryLabel,
+  url: new URL(product.href, Astro.site).href,
+  additionalProperty: specifications.map(item => ({ '@type': 'PropertyValue', name: item.label, value: item.value }))
+};
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: new URL('/', Astro.site).href },
+    { '@type': 'ListItem', position: 2, name: landing.label, item: new URL(landing.href, Astro.site).href },
+    { '@type': 'ListItem', position: 3, name: product.displayName, item: new URL(product.href, Astro.site).href }
+  ]
+};
 ---
-<BaseLayout title={product.displayName + ' | Window Replacement Pro'} description={product.summary}>
-  <div class="wrap breadcrumbs"><a href={landing.href}>{landing.label}</a> / {product.displayName}</div>
-  <section class="section public-product">
+<BaseLayout title={`${product.displayName} | Window Replacement Pro`} description={product.summary} structuredData={[productSchema, breadcrumbSchema]}>
+  <div class="wrap breadcrumbs product-breadcrumbs"><a href={landing.href}>{landing.label}</a><span aria-hidden="true">/</span><span>{product.displayName}</span></div>
+
+  <section class="section public-product public-product--refined">
     <div class="wrap public-product__layout">
-      <div class="public-product__media"><MediaFrame media={product.media} alt={product.imageAlt} sizes="(max-width: 800px) 100vw, 48vw" loading="eager" fetchpriority="high" fit="contain" /></div>
+      <div class="public-product__media"><MediaFrame media={product.media} alt={product.imageAlt} sizes="(max-width: 820px) 100vw, 48vw" loading="eager" fetchpriority="high" fit="contain" /></div>
       <div class="public-product__content">
-        <p class="product-card__meta">{product.categoryLabel} <span aria-hidden="true">/</span> {product.reference}</p>
+        <p class="product-card__meta"><span>{product.categoryLabel}</span><span class="product-card__reference">Reference {product.reference}</span></p>
         <h1>{product.displayName}</h1>
         <p class="lead">{product.summary}</p>
-        <p class="availability-note">Available through Window Replacement Pro.</p>
-        <section class="card detail-card" aria-labelledby="product-specifications">
-          <h2 id="product-specifications">Reviewed specifications</h2>
-          <dl class="spec-list">{product.specifications.map(item => <><dt>{item.label}</dt><dd>{item.value}</dd></>)}</dl>
-        </section>
-        <aside class="source-note">Product systems are selected from established manufacturers. The exact manufacturer, model, performance documentation and warranty are identified in your written quotation.</aside>
+        <p class="availability-note">Selected, measured, supplied and installed through Window Replacement Pro.</p>
+        <div class="actions">
+          <a class="button" href="#quote">Plan your replacement</a>
+          <a class="button button--secondary" href={landing.href}>Compare {landing.label.toLowerCase()}</a>
+        </div>
+        {specifications.length > 0 && (
+          <div class="product-key-features" aria-labelledby="product-key-features-title">
+            <h2 id="product-key-features-title">Key features</h2>
+            <ul>{specifications.slice(0, 4).map(item => <li><span>{item.label}</span><strong>{item.value}</strong></li>)}</ul>
+          </div>
+        )}
       </div>
     </div>
   </section>
-  <section class="section section--cream"><div class="wrap"><QuoteCta /></div></section>
+
+  {specificationGroups.length > 0 && (
+    <section class="section section--cream product-specification-section" aria-labelledby="product-specifications-title">
+      <div class="wrap">
+        <header class="section-header"><p class="eyebrow">Reviewed public details</p><h2 id="product-specifications-title">Specifications available for comparison.</h2><p class="section-header__body">Only reviewed public-safe information is shown. Exact system details and documentation are confirmed in the written quotation.</p></header>
+        <div class="product-specification-groups">
+          {specificationGroups.map(group => (
+            <section><h3>{group.title}</h3><dl>{group.items.map(item => <div><dt>{item.label}</dt><dd>{item.value}</dd></div>)}</dl></section>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="section section--forest product-considerations" aria-labelledby="product-considerations-title">
+    <div class="wrap product-considerations__layout">
+      <div><p class="eyebrow">Project considerations</p><h2 id="product-considerations-title">{landing.considerationTitle}</h2><p class="lead">The product representation is one part of a complete installed project. Final suitability depends on the measured opening, selected configuration and written scope.</p></div>
+      <ol>{landing.considerations.map((item, index) => <li><span>{String(index + 1).padStart(2, '0')}</span><strong>{item}</strong></li>)}</ol>
+    </div>
+  </section>
+
+  {(relatedProducts.length > 0 || landing.related) && (
+    <section class="section section--mist product-related" aria-labelledby="product-related-title">
+      <div class="wrap">
+        <header class="section-header"><p class="eyebrow">Continue comparing</p><h2 id="product-related-title">Related products and options.</h2></header>
+        {relatedProducts.length > 0 && <div class="featured-product-grid">{relatedProducts.map(item => <ProductCard name={item.displayName} reference={item.reference} category={item.categoryLabel} href={item.href} summary={item.summary} highlights={item.specifications.slice(0, 3)} media={item.media} imageAlt={item.imageAlt} />)}</div>}
+        {landing.related && <a class="related-option-link" href={landing.related.href}><strong>{landing.related.label}</strong><span>Review the connected category choices before the complete system is quoted.</span><b>Continue <span aria-hidden="true">&rarr;</span></b></a>}
+      </div>
+    </section>
+  )}
+
+  <aside class="wrap source-note product-disclosure">Product systems are selected from established manufacturers. The exact manufacturer, model, performance documentation and warranty are identified in your written quotation.</aside>
+  <div class="quote-section product-quote"><div class="wrap"><QuoteCta /></div></div>
 </BaseLayout>

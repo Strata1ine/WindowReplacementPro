@@ -9,12 +9,15 @@ interface Props {
   description: string;
   noindex?: boolean;
   deploymentTest?: boolean;
+  structuredData?: Record<string, unknown> | Record<string, unknown>[];
 }
 
-const { title, description, noindex = false, deploymentTest = false } = Astro.props;
+const { title, description, noindex = false, deploymentTest = false, structuredData = [] } = Astro.props;
+const pageSchemas = Array.isArray(structuredData) ? structuredData : [structuredData];
 const organization = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
+  '@id': 'https://windowreplacement.pro/#organization',
   name: 'Window Replacement Pro',
   url: 'https://windowreplacement.pro/'
 };
@@ -27,6 +30,7 @@ const organization = {
     <meta name="theme-color" content="#133a32" />
     <Seo title={title} description={description} noindex={noindex} />
     <script is:inline type="application/ld+json" set:html={JSON.stringify(organization)} />
+    {pageSchemas.map(schema => <script is:inline type="application/ld+json" set:html={JSON.stringify(schema)} />)}
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to main content</a>
