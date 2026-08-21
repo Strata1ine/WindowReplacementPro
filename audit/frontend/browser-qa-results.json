@@ -1,6 +1,6 @@
 {
   "baseUrl": "http://127.0.0.1:4321/",
-  "generatedAt": "2026-08-20T16:28:48.181Z",
+  "generatedAt": "2026-08-21T03:07:39.033Z",
   "viewportResults": [
     {
       "viewport": {
@@ -13,7 +13,7 @@
       "dimensions": {
         "viewportWidth": 390,
         "documentWidth": 390,
-        "documentHeight": 15160,
+        "documentHeight": 15290,
         "horizontalOverflow": false
       },
       "brokenImages": [],
@@ -22,25 +22,25 @@
         {
           "title": "Replacement windows",
           "card": {
-            "top": 1543.88,
+            "top": 1451.92,
             "right": 378,
-            "bottom": 2042.27,
+            "bottom": 1956.77,
             "left": 12,
             "width": 366,
-            "height": 498.39
+            "height": 504.84
           },
           "content": {
-            "top": 1804.88,
+            "top": 1712.92,
             "right": 377,
-            "bottom": 2041.27,
+            "bottom": 1955.77,
             "left": 13,
             "width": 364,
-            "height": 236.39
+            "height": 242.84
           },
           "media": {
-            "top": 1544.88,
+            "top": 1452.92,
             "right": 377,
-            "bottom": 1804.88,
+            "bottom": 1712.92,
             "left": 13,
             "width": 364,
             "height": 260
@@ -56,25 +56,25 @@
         {
           "title": "Entry doors",
           "card": {
-            "top": 2064.27,
+            "top": 1978.77,
             "right": 378,
-            "bottom": 2562.66,
+            "bottom": 2483.61,
             "left": 12,
             "width": 366,
-            "height": 498.39
+            "height": 504.84
           },
           "content": {
-            "top": 2325.27,
+            "top": 2239.77,
             "right": 377,
-            "bottom": 2561.66,
+            "bottom": 2482.61,
             "left": 13,
             "width": 364,
-            "height": 236.39
+            "height": 242.84
           },
           "media": {
-            "top": 2065.27,
+            "top": 1979.77,
             "right": 377,
-            "bottom": 2325.27,
+            "bottom": 2239.77,
             "left": 13,
             "width": 364,
             "height": 260
@@ -90,25 +90,25 @@
         {
           "title": "Door glass",
           "card": {
-            "top": 2584.66,
+            "top": 2505.61,
             "right": 378,
-            "bottom": 3083.05,
+            "bottom": 3010.45,
             "left": 12,
             "width": 366,
-            "height": 498.39
+            "height": 504.84
           },
           "content": {
-            "top": 2845.66,
+            "top": 2766.61,
             "right": 377,
-            "bottom": 3082.05,
+            "bottom": 3009.45,
             "left": 13,
             "width": 364,
-            "height": 236.39
+            "height": 242.84
           },
           "media": {
-            "top": 2585.66,
+            "top": 2506.61,
             "right": 377,
-            "bottom": 2845.66,
+            "bottom": 2766.61,
             "left": 13,
             "width": 364,
             "height": 260
@@ -124,25 +124,25 @@
         {
           "title": "Patio doors",
           "card": {
-            "top": 3105.05,
+            "top": 3032.45,
             "right": 378,
-            "bottom": 3603.44,
+            "bottom": 3563.2,
             "left": 12,
             "width": 366,
-            "height": 498.39
+            "height": 530.75
           },
           "content": {
-            "top": 3366.05,
+            "top": 3293.45,
             "right": 377,
-            "bottom": 3602.44,
+            "bottom": 3562.2,
             "left": 13,
             "width": 364,
-            "height": 236.39
+            "height": 268.75
           },
           "media": {
-            "top": 3106.05,
+            "top": 3033.45,
             "right": 377,
-            "bottom": 3366.05,
+            "bottom": 3293.45,
             "left": 13,
             "width": 364,
             "height": 260
@@ -168,7 +168,7 @@
       "dimensions": {
         "viewportWidth": 768,
         "documentWidth": 768,
-        "documentHeight": 11322,
+        "documentHeight": 11415,
         "horizontalOverflow": false
       },
       "brokenImages": [],
@@ -177,25 +177,25 @@
         {
           "title": "Replacement windows",
           "card": {
-            "top": 1333.06,
+            "top": 1337.13,
             "right": 752,
-            "bottom": 1693.06,
+            "bottom": 1697.13,
             "left": 16,
             "width": 736,
             "height": 360
           },
           "content": {
-            "top": 1334.06,
+            "top": 1338.13,
             "right": 751,
-            "bottom": 1692.06,
+            "bottom": 1696.13,
             "left": 347.3,
             "width": 403.7,
             "height": 358
           },
           "media": {
-            "top": 1334.06,
+            "top": 1338.13,
             "right": 347.3,
-            "bottom": 1692.06,
+            "bottom": 1696.13,
             "left": 17,
             "width": 330.3,
             "height": 358
@@ -211,25 +211,25 @@
         {
           "title": "Entry doors",
           "card": {
-            "top": 1715.06,
+            "top": 1719.13,
             "right": 752,
-            "bottom": 2075.06,
+            "bottom": 2079.13,
             "left": 16,
             "width": 736,
             "height": 360
           },
           "content": {
-            "top": 1716.06,
+            "top": 1720.13,
             "right": 751,
-            "bottom": 2074.06,
+            "bottom": 2078.13,
             "left": 347.3,
             "width": 403.7,
             "height": 358
           },
           "media": {
-            "top": 1716.06,
+            "top": 1720.13,
             "right": 347.3,
-            "bottom": 2074.06,
+            "bottom": 2078.13,
             "left": 17,
             "width": 330.3,
             "height": 358
@@ -245,25 +245,25 @@
         {
           "title": "Door glass",
           "card": {
-            "top": 2097.06,
+            "top": 2101.13,
             "right": 752,
-            "bottom": 2500.16,
+            "bottom": 2504.22,
             "left": 16,
             "width": 736,
             "height": 403.09
           },
           "content": {
-            "top": 2098.06,
+            "top": 2102.13,
             "right": 751,
-            "bottom": 2499.16,
+            "bottom": 2503.22,
             "left": 347.3,
             "width": 403.7,
             "height": 401.09
           },
           "media": {
-            "top": 2098.06,
+            "top": 2102.13,
             "right": 347.3,
-            "bottom": 2499.16,
+            "bottom": 2503.22,
             "left": 17,
             "width": 330.3,
             "height": 401.09
@@ -279,25 +279,25 @@
         {
           "title": "Patio doors",
           "card": {
-            "top": 2522.16,
+            "top": 2526.22,
             "right": 752,
-            "bottom": 2882.16,
+            "bottom": 2886.22,
             "left": 16,
             "width": 736,
             "height": 360
           },
           "content": {
-            "top": 2523.16,
+            "top": 2527.22,
             "right": 751,
-            "bottom": 2881.16,
+            "bottom": 2885.22,
             "left": 347.3,
             "width": 403.7,
             "height": 358
           },
           "media": {
-            "top": 2523.16,
+            "top": 2527.22,
             "right": 347.3,
-            "bottom": 2881.16,
+            "bottom": 2885.22,
             "left": 17,
             "width": 330.3,
             "height": 358
@@ -323,7 +323,7 @@
       "dimensions": {
         "viewportWidth": 1280,
         "documentWidth": 1280,
-        "documentHeight": 7717,
+        "documentHeight": 7806,
         "horizontalOverflow": false
       },
       "brokenImages": [],
@@ -332,62 +332,62 @@
         {
           "title": "Replacement windows",
           "card": {
-            "top": 1102.83,
+            "top": 1082.83,
             "right": 629,
-            "bottom": 1462.83,
+            "bottom": 1474.48,
             "left": 24,
             "width": 605,
-            "height": 360
+            "height": 391.66
           },
           "content": {
-            "top": 1103.83,
+            "top": 1083.83,
             "right": 628,
-            "bottom": 1461.83,
+            "bottom": 1473.48,
             "left": 308.41,
             "width": 319.59,
-            "height": 358
+            "height": 389.66
           },
           "media": {
-            "top": 1103.83,
+            "top": 1083.83,
             "right": 308.41,
-            "bottom": 1461.83,
+            "bottom": 1473.48,
             "left": 25,
             "width": 283.41,
-            "height": 358
+            "height": 389.66
           },
           "mediaComputedMinHeight": "100%",
           "contentInsideCard": true,
           "headingVisible": true,
           "linkVisible": true,
           "overlapsNext": false,
-          "followingGap": -360,
+          "followingGap": -391.66,
           "followingStartsBelow": false
         },
         {
           "title": "Entry doors",
           "card": {
-            "top": 1102.83,
+            "top": 1082.83,
             "right": 1256,
-            "bottom": 1462.83,
+            "bottom": 1474.48,
             "left": 651,
             "width": 605,
-            "height": 360
+            "height": 391.66
           },
           "content": {
-            "top": 1103.83,
+            "top": 1083.83,
             "right": 1255,
-            "bottom": 1461.83,
+            "bottom": 1473.48,
             "left": 935.41,
             "width": 319.59,
-            "height": 358
+            "height": 389.66
           },
           "media": {
-            "top": 1103.83,
+            "top": 1083.83,
             "right": 935.41,
-            "bottom": 1461.83,
+            "bottom": 1473.48,
             "left": 652,
             "width": 283.41,
-            "height": 358
+            "height": 389.66
           },
           "mediaComputedMinHeight": "100%",
           "contentInsideCard": true,
@@ -400,25 +400,25 @@
         {
           "title": "Door glass",
           "card": {
-            "top": 1484.83,
+            "top": 1496.48,
             "right": 629,
-            "bottom": 1844.83,
+            "bottom": 1856.48,
             "left": 24,
             "width": 605,
             "height": 360
           },
           "content": {
-            "top": 1485.83,
+            "top": 1497.48,
             "right": 628,
-            "bottom": 1843.83,
+            "bottom": 1855.48,
             "left": 308.41,
             "width": 319.59,
             "height": 358
           },
           "media": {
-            "top": 1485.83,
+            "top": 1497.48,
             "right": 308.41,
-            "bottom": 1843.83,
+            "bottom": 1855.48,
             "left": 25,
             "width": 283.41,
             "height": 358
@@ -434,25 +434,25 @@
         {
           "title": "Patio doors",
           "card": {
-            "top": 1484.83,
+            "top": 1496.48,
             "right": 1256,
-            "bottom": 1844.83,
+            "bottom": 1856.48,
             "left": 651,
             "width": 605,
             "height": 360
           },
           "content": {
-            "top": 1485.83,
+            "top": 1497.48,
             "right": 1255,
-            "bottom": 1843.83,
+            "bottom": 1855.48,
             "left": 935.41,
             "width": 319.59,
             "height": 358
           },
           "media": {
-            "top": 1485.83,
+            "top": 1497.48,
             "right": 935.41,
-            "bottom": 1843.83,
+            "bottom": 1855.48,
             "left": 652,
             "width": 283.41,
             "height": 358
@@ -478,7 +478,7 @@
       "dimensions": {
         "viewportWidth": 1440,
         "documentWidth": 1440,
-        "documentHeight": 8098,
+        "documentHeight": 8123,
         "horizontalOverflow": false
       },
       "brokenImages": [],
@@ -487,62 +487,62 @@
         {
           "title": "Replacement windows",
           "card": {
-            "top": 1217.08,
+            "top": 1158.97,
             "right": 709,
-            "bottom": 1577.08,
-            "left": 60,
-            "width": 649,
-            "height": 360
+            "bottom": 1540.09,
+            "left": 30,
+            "width": 679,
+            "height": 381.13
           },
           "content": {
-            "top": 1218.08,
+            "top": 1159.97,
             "right": 707.98,
-            "bottom": 1576.08,
-            "left": 365.08,
-            "width": 342.91,
-            "height": 358
+            "bottom": 1539.09,
+            "left": 349.19,
+            "width": 358.8,
+            "height": 379.13
           },
           "media": {
-            "top": 1218.08,
-            "right": 365.08,
-            "bottom": 1576.08,
-            "left": 61,
-            "width": 304.08,
-            "height": 358
+            "top": 1159.97,
+            "right": 349.19,
+            "bottom": 1539.09,
+            "left": 31,
+            "width": 318.19,
+            "height": 379.13
           },
           "mediaComputedMinHeight": "100%",
           "contentInsideCard": true,
           "headingVisible": true,
           "linkVisible": true,
           "overlapsNext": false,
-          "followingGap": -360,
+          "followingGap": -381.12,
           "followingStartsBelow": false
         },
         {
           "title": "Entry doors",
           "card": {
-            "top": 1217.08,
-            "right": 1380,
-            "bottom": 1577.08,
+            "top": 1158.97,
+            "right": 1410,
+            "bottom": 1540.09,
             "left": 731,
-            "width": 649,
-            "height": 360
+            "width": 679,
+            "height": 381.13
           },
           "content": {
-            "top": 1218.08,
-            "right": 1378.98,
-            "bottom": 1576.08,
-            "left": 1036.08,
-            "width": 342.91,
-            "height": 358
+            "top": 1159.97,
+            "right": 1408.98,
+            "bottom": 1539.09,
+            "left": 1050.19,
+            "width": 358.8,
+            "height": 379.13
           },
           "media": {
-            "top": 1218.08,
-            "right": 1036.08,
-            "bottom": 1576.08,
+            "top": 1159.97,
+            "right": 1050.19,
+            "bottom": 1539.09,
             "left": 732,
-            "width": 304.08,
-            "height": 358
+            "width": 318.19,
+            "height": 379.13
           },
           "mediaComputedMinHeight": "100%",
           "contentInsideCard": true,
@@ -555,62 +555,62 @@
         {
           "title": "Door glass",
           "card": {
-            "top": 1599.08,
+            "top": 1562.09,
             "right": 709,
-            "bottom": 1970.23,
-            "left": 60,
-            "width": 649,
-            "height": 371.16
+            "bottom": 1950.44,
+            "left": 30,
+            "width": 679,
+            "height": 388.34
           },
           "content": {
-            "top": 1600.08,
+            "top": 1563.09,
             "right": 707.98,
-            "bottom": 1969.23,
-            "left": 365.08,
-            "width": 342.91,
-            "height": 369.16
+            "bottom": 1949.44,
+            "left": 349.19,
+            "width": 358.8,
+            "height": 386.34
           },
           "media": {
-            "top": 1600.08,
-            "right": 365.08,
-            "bottom": 1969.23,
-            "left": 61,
-            "width": 304.08,
-            "height": 369.16
+            "top": 1563.09,
+            "right": 349.19,
+            "bottom": 1949.44,
+            "left": 31,
+            "width": 318.19,
+            "height": 386.34
           },
           "mediaComputedMinHeight": "100%",
           "contentInsideCard": true,
           "headingVisible": true,
           "linkVisible": true,
           "overlapsNext": false,
-          "followingGap": -371.16,
+          "followingGap": -388.34,
           "followingStartsBelow": false
         },
         {
           "title": "Patio doors",
           "card": {
-            "top": 1599.08,
-            "right": 1380,
-            "bottom": 1970.23,
+            "top": 1562.09,
+            "right": 1410,
+            "bottom": 1950.44,
             "left": 731,
-            "width": 649,
-            "height": 371.16
+            "width": 679,
+            "height": 388.34
           },
           "content": {
-            "top": 1600.08,
-            "right": 1378.98,
-            "bottom": 1969.23,
-            "left": 1036.08,
-            "width": 342.91,
-            "height": 369.16
+            "top": 1563.09,
+            "right": 1408.98,
+            "bottom": 1949.44,
+            "left": 1050.19,
+            "width": 358.8,
+            "height": 386.34
           },
           "media": {
-            "top": 1600.08,
-            "right": 1036.08,
-            "bottom": 1969.23,
+            "top": 1563.09,
+            "right": 1050.19,
+            "bottom": 1949.44,
             "left": 732,
-            "width": 304.08,
-            "height": 369.16
+            "width": 318.19,
+            "height": 386.34
           },
           "mediaComputedMinHeight": "100%",
           "contentInsideCard": true,
@@ -624,16 +624,16 @@
     },
     {
       "viewport": {
-        "name": "wide-1600",
-        "width": 1600,
-        "height": 1000,
+        "name": "wide-1680",
+        "width": 1680,
+        "height": 1050,
         "mobile": false,
         "deviceScaleFactor": 1
       },
       "dimensions": {
-        "viewportWidth": 1600,
-        "documentWidth": 1600,
-        "documentHeight": 8126,
+        "viewportWidth": 1680,
+        "documentWidth": 1680,
+        "documentHeight": 8144,
         "horizontalOverflow": false
       },
       "brokenImages": [],
@@ -642,62 +642,62 @@
         {
           "title": "Replacement windows",
           "card": {
-            "top": 1229.63,
-            "right": 789,
-            "bottom": 1589.63,
-            "left": 140,
-            "width": 649,
-            "height": 360
+            "top": 1160.66,
+            "right": 829,
+            "bottom": 1546.97,
+            "left": 150,
+            "width": 679,
+            "height": 386.31
           },
           "content": {
-            "top": 1230.63,
-            "right": 787.98,
-            "bottom": 1588.63,
-            "left": 445.08,
-            "width": 342.91,
-            "height": 358
+            "top": 1161.66,
+            "right": 827.98,
+            "bottom": 1545.97,
+            "left": 469.19,
+            "width": 358.8,
+            "height": 384.31
           },
           "media": {
-            "top": 1230.63,
-            "right": 445.08,
-            "bottom": 1588.63,
-            "left": 141,
-            "width": 304.08,
-            "height": 358
+            "top": 1161.66,
+            "right": 469.19,
+            "bottom": 1545.97,
+            "left": 151,
+            "width": 318.19,
+            "height": 384.31
           },
           "mediaComputedMinHeight": "100%",
           "contentInsideCard": true,
           "headingVisible": true,
           "linkVisible": true,
           "overlapsNext": false,
-          "followingGap": -360,
+          "followingGap": -386.31,
           "followingStartsBelow": false
         },
         {
           "title": "Entry doors",
           "card": {
-            "top": 1229.63,
-            "right": 1460,
-            "bottom": 1589.63,
-            "left": 811,
-            "width": 649,
-            "height": 360
+            "top": 1160.66,
+            "right": 1530,
+            "bottom": 1546.97,
+            "left": 851,
+            "width": 679,
+            "height": 386.31
           },
           "content": {
-            "top": 1230.63,
-            "right": 1458.98,
-            "bottom": 1588.63,
-            "left": 1116.08,
-            "width": 342.91,
-            "height": 358
+            "top": 1161.66,
+            "right": 1528.98,
+            "bottom": 1545.97,
+            "left": 1170.19,
+            "width": 358.8,
+            "height": 384.31
           },
           "media": {
-            "top": 1230.63,
-            "right": 1116.08,
-            "bottom": 1588.63,
-            "left": 812,
-            "width": 304.08,
-            "height": 358
+            "top": 1161.66,
+            "right": 1170.19,
+            "bottom": 1545.97,
+            "left": 852,
+            "width": 318.19,
+            "height": 384.31
           },
           "mediaComputedMinHeight": "100%",
           "contentInsideCard": true,
@@ -710,62 +710,62 @@
         {
           "title": "Door glass",
           "card": {
-            "top": 1611.63,
-            "right": 789,
-            "bottom": 1982.78,
-            "left": 140,
-            "width": 649,
-            "height": 371.16
+            "top": 1568.97,
+            "right": 829,
+            "bottom": 1957.31,
+            "left": 150,
+            "width": 679,
+            "height": 388.34
           },
           "content": {
-            "top": 1612.63,
-            "right": 787.98,
-            "bottom": 1981.78,
-            "left": 445.08,
-            "width": 342.91,
-            "height": 369.16
+            "top": 1569.97,
+            "right": 827.98,
+            "bottom": 1956.31,
+            "left": 469.19,
+            "width": 358.8,
+            "height": 386.34
           },
           "media": {
-            "top": 1612.63,
-            "right": 445.08,
-            "bottom": 1981.78,
-            "left": 141,
-            "width": 304.08,
-            "height": 369.16
+            "top": 1569.97,
+            "right": 469.19,
+            "bottom": 1956.31,
+            "left": 151,
+            "width": 318.19,
+            "height": 386.34
           },
           "mediaComputedMinHeight": "100%",
           "contentInsideCard": true,
           "headingVisible": true,
           "linkVisible": true,
           "overlapsNext": false,
-          "followingGap": -371.16,
+          "followingGap": -388.34,
           "followingStartsBelow": false
         },
         {
           "title": "Patio doors",
           "card": {
-            "top": 1611.63,
-            "right": 1460,
-            "bottom": 1982.78,
-            "left": 811,
-            "width": 649,
-            "height": 371.16
+            "top": 1568.97,
+            "right": 1530,
+            "bottom": 1957.31,
+            "left": 851,
+            "width": 679,
+            "height": 388.34
           },
           "content": {
-            "top": 1612.63,
-            "right": 1458.98,
-            "bottom": 1981.78,
-            "left": 1116.08,
-            "width": 342.91,
-            "height": 369.16
+            "top": 1569.97,
+            "right": 1528.98,
+            "bottom": 1956.31,
+            "left": 1170.19,
+            "width": 358.8,
+            "height": 386.34
           },
           "media": {
-            "top": 1612.63,
-            "right": 1116.08,
-            "bottom": 1981.78,
-            "left": 812,
-            "width": 304.08,
-            "height": 369.16
+            "top": 1569.97,
+            "right": 1170.19,
+            "bottom": 1956.31,
+            "left": 852,
+            "width": 318.19,
+            "height": 386.34
           },
           "mediaComputedMinHeight": "100%",
           "contentInsideCard": true,
@@ -806,17 +806,17 @@
       {
         "className": "media-frame media-frame--contain home-hero__door",
         "backgroundImage": "url(\"http://127.0.0.1:4321/media/products/wrp-d001-720.jpg\")",
-        "backgroundSize": "auto 150%"
+        "backgroundSize": "auto 146%"
       },
       {
         "className": "media-frame media-frame--contain category-card__media",
         "backgroundImage": "url(\"http://127.0.0.1:4321/media/products/wrp-d001-720.jpg\")",
-        "backgroundSize": "auto 84%"
+        "backgroundSize": "auto 72%"
       },
       {
         "className": "media-frame media-frame--contain category-card__media",
         "backgroundImage": "url(\"http://127.0.0.1:4321/media/products/wrp-g001-720.webp\")",
-        "backgroundSize": "auto 84%"
+        "backgroundSize": "auto 72%"
       },
       {
         "className": "media-frame media-frame--contain product-card__media",
@@ -848,7 +848,7 @@
     "categoryCardCount": 4
   },
   "mhtmlAudit": {
-    "byteLength": 400971,
+    "byteLength": 401533,
     "expectedProductAssetsEmbedded": [
       "wrp-w001",
       "wrp-d001",

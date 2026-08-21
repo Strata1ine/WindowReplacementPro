@@ -159,7 +159,7 @@ const viewports = [
   { name: 'tablet-768', width: 768, height: 1024, mobile: false, deviceScaleFactor: 1 },
   { name: 'desktop-1280', width: 1280, height: 900, mobile: false, deviceScaleFactor: 1 },
   { name: 'desktop-1440', width: 1440, height: 960, mobile: false, deviceScaleFactor: 1 },
-  { name: 'wide-1600', width: 1600, height: 1000, mobile: false, deviceScaleFactor: 1 }
+  { name: 'wide-1680', width: 1680, height: 1050, mobile: false, deviceScaleFactor: 1 }
 ];
 const viewportResults = [];
 const representativeRoutes = [
@@ -260,6 +260,10 @@ try {
   const desktopHeroClip = await elementClip('.home-hero');
   if (!desktopHeroClip) throw new Error('Homepage hero not found.');
   await screenshot('desktop-hero.png', desktopHeroClip);
+
+  const productPathsClip = await elementClip('#product-paths');
+  if (!productPathsClip) throw new Error('Product-path section not found.');
+  await screenshot('product-path-cards.png', productPathsClip);
 
   const featuredClip = await elementClip('#featured-products');
   if (!featuredClip) throw new Error('Featured-products section not found.');
