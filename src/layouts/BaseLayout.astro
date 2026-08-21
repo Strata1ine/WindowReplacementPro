@@ -8,9 +8,10 @@ interface Props {
   title: string;
   description: string;
   noindex?: boolean;
+  deploymentTest?: boolean;
 }
 
-const { title, description, noindex = false } = Astro.props;
+const { title, description, noindex = false, deploymentTest = false } = Astro.props;
 const organization = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
@@ -31,6 +32,6 @@ const organization = {
     <a class="skip-link" href="#main-content">Skip to main content</a>
     <Header />
     <main id="main-content"><slot /></main>
-    <Footer />
+    <Footer deploymentTest={deploymentTest} />
   </body>
 </html>

@@ -1,3 +1,10 @@
+---
+interface Props {
+  deploymentTest?: boolean;
+}
+
+const { deploymentTest = false } = Astro.props;
+---
 <footer class="site-footer">
   <div class="wrap footer-main">
     <div class="footer-intro">
@@ -27,6 +34,7 @@
   </div>
   <div class="wrap footer-legal">
     <span>&copy; {new Date().getFullYear()} Window Replacement Pro</span>
+    {deploymentTest && <span>Deployment test &mdash; August 20, 2026</span>}
     <span>Ontario, Canada</span>
   </div>
 </footer>
