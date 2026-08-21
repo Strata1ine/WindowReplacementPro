@@ -134,8 +134,8 @@ jobs:
 
           grep -Fq 'Sitemap: https://windowreplacement.pro/sitemap-index.xml' <(curl --fail --silent --show-error "$BASE_URL/robots.txt")
 
-          CSS_PATH="$(grep -m 1 -oE 'href="[^"]+\.css[^"]*"' "$HOMEPAGE" | cut -d '"' -f 2)"
-          MEDIA_PATH="$(grep -m 1 -oE 'src="[^"]+\.(avif|gif|jpe?g|png|webp)[^"]*"' "$HOMEPAGE" | cut -d '"' -f 2)"
+          CSS_PATH="$(grep -m 1 -oE 'href="[^"]+\.css[^"]*"' "$HOMEPAGE" | cut -d '"' -f 2 | sed -n '1p')"
+          MEDIA_PATH="$(grep -m 1 -oE 'src="[^"]+\.(avif|gif|jpe?g|png|webp)[^"]*"' "$HOMEPAGE" | cut -d '"' -f 2 | sed -n '1p')"
           [[ -n "$CSS_PATH" && -n "$MEDIA_PATH" ]]
           curl --fail --silent --show-error --location "$BASE_URL$CSS_PATH" -o /dev/null
           curl --fail --silent --show-error --location "$BASE_URL$MEDIA_PATH" -o /dev/null
