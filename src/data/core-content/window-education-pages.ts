@@ -118,7 +118,7 @@ export const windowEducationPages: CoreContentPage[] = [
           'Casement compression seals can support strong air performance, but frame construction, hardware adjustment and installation still matter. A well-designed slider can also meet demanding requirements. Compare tested whole-window ratings for the exact configuration.',
           'Tracks, drainage paths, seals, operators, locks and screens need periodic cleaning and adjustment appropriate to the system. Selection should account for who will operate and maintain the window.'
         ],
-        callout: { title: 'Compare exact configurations', text: 'The public family describes the operating direction. The written quotation should identify size, glazing, tested performance, screen, hardware and installation scope.' }
+        callout: { title: 'Compare exact configurations', text: 'The operating style sets the basic movement and ventilation direction. The written quotation should identify size, glazing, tested performance, screen, hardware and installation scope.' }
       }
     ],
     productReferences: ['WRP-W001', 'WRP-W002', 'WRP-W006', 'WRP-W007'],

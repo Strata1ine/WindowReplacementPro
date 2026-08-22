@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import { analyzeProductPages } from '../lib/product-content-analysis.mjs';
+const page=(reference: string,text: string,hero=reference)=>({reference,name:reference,category:'windows',fragments:[{kind:'summary',text},{kind:'guidance',text:'Distinct decision guidance for '+reference+' with enough practical words to explain the measured opening and operation clearly.'},{kind:'guidance',text:'A second comparison statement unique to '+reference+' explains limitations and alternatives for the homeowner.'},{kind:'guidance',text:'A third project statement unique to '+reference+' covers glazing exposure installation and configuration choices.'},{kind:'fact',text:'Unique fact '+reference}],heroSrc:hero,heroAlt:'Hero '+reference,specificationValues:['Spec '+reference]});
+const shared='This deliberately repeated product paragraph contains enough identical language to drive similarity above the review threshold when two pages fail to provide independent value. '.repeat(12);
+const failed=analyzeProductPages([page('WRP-W001',shared),page('WRP-W002',shared)]);
+assert.equal(failed.unreviewedAbove70.length,1);
+const excepted=analyzeProductPages([page('WRP-W001',shared),page('WRP-W002',shared)],[{left:'WRP-W001',right:'WRP-W002',reason:'reviewed'}]);
+assert.equal(excepted.unreviewedAbove65.length,0);
+const distinct=analyzeProductPages([page('WRP-W001','Casement sashes swing outward and close against compression seals. Exterior clearance and crank access shape the decision.'),page('WRP-W002','A fixed window has no operating hardware and prioritizes broad daylight. Structural support and safety glass shape large openings.')]);
+assert.equal(distinct.pairsAbove60.length,0);
+assert.equal(distinct.duplicateHeroes.length,0);
+console.log('Product content analysis tests: OK');

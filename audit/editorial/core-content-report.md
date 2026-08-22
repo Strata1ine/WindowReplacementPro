@@ -1,6 +1,6 @@
 # Core content editorial report
 
-Generated: 2026-08-21T16:19:07.354Z
+Generated: 2026-08-22T00:56:14.559Z
 
 ## Scope and status
 
@@ -26,7 +26,7 @@ Generated: 2026-08-21T16:19:07.354Z
 | /guides/double-vs-triple-pane-windows/ | Double- versus triple-pane glazing decision support | 1194 | 76 | 20 | 2 | OK | Article + breadcrumbs | Yes | OK |
 | /guides/window-styles/ | Visual comparison of operating and fixed window styles | 1159 | 76 | 24 | 5 | OK | Article + breadcrumbs | Yes | OK |
 | /energy-efficient-windows/ | Whole-window energy-performance education | 1210 | 76 | 21 | 3 | OK | Article + breadcrumbs | Yes | OK |
-| /guides/casement-vs-slider-windows/ | Casement versus slider operating-style comparison | 938 | 3 | 22 | 3 | OK | Article + breadcrumbs | Yes | OK |
+| /guides/casement-vs-slider-windows/ | Casement versus slider operating-style comparison | 941 | 3 | 22 | 3 | OK | Article + breadcrumbs | Yes | OK |
 | /guides/window-problems/ | Window symptom triage and replacement planning | 1126 | 76 | 21 | 3 | OK | Article + breadcrumbs | Yes | OK |
 | /guides/fiberglass-vs-steel-entry-doors/ | Fiberglass versus steel entry-door comparison | 1110 | 76 | 23 | 3 | OK | Article + breadcrumbs | Yes | OK |
 | /guides/patio-door-types/ | Patio-door panel, frame, and configuration comparison | 1210 | 76 | 25 | 5 | OK | Article + breadcrumbs | Yes | OK |

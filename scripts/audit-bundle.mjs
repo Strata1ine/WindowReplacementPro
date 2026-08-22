@@ -133,7 +133,9 @@ const parsePage = (url, html, sitemapSet) => {
       const target = href.startsWith('#') ? null : internalRoute(href);
       return target ? { href, target, text: text(match[4]) } : null;
     }).filter(Boolean);
-  const mainText = text(main);
+  const fullMainText = text(main);
+  const productEditorialText = matches(main, /<(?:p|li|dd|figcaption)\b[^>]*data-product-editorial=["'](?:summary|guidance|fact)["'][^>]*>([\s\S]*?)<\/(?:p|li|dd|figcaption)>/gi).map(match => text(match[1])).join(' ');
+  const mainText = route.startsWith('/products/') ? productEditorialText : fullMainText;
   const robots = attr(robotsTag ?? '', 'content') || 'index,follow (default)';
   return {
     url, route,
@@ -143,7 +145,7 @@ const parsePage = (url, html, sitemapSet) => {
     canonical: attr(canonical ?? '', 'href'), robots,
     indexable: !/\bnoindex\b/i.test(robots),
     sitemapStatus: sitemapSet.has(route) ? 'included' : 'missing',
-    wordCount: mainText.match(/[\p{L}\p{N}]+(?:['’.-][\p{L}\p{N}]+)*/gu)?.length ?? 0,
+    wordCount: fullMainText.match(/[\p{L}\p{N}]+(?:['’.-][\p{L}\p{N}]+)*/gu)?.length ?? 0,
     imageCount: images.length,
     internalLinks: unique(internalLinks.map(link => link.target)).sort(),
     structuredDataTypes: schemaTypes(html), pageType: pageType(route),
@@ -277,18 +279,40 @@ try {
   const auditCommands = [
     ['category-content.txt', 'node', ['scripts/category-content-audit.mjs'], { AUDIT_OUTPUT_DIR: audits }],
     ['public-copy.txt', 'node', ['scripts/audit-public-copy.mjs']],
+    ['product-content.txt', 'node', ['scripts/product-content-audit.mjs'], { AUDIT_OUTPUT_DIR: audits }],
     ['supplier-leakage.txt', 'node', ['scripts/audit-public-supplier-leakage.mjs']],
     ['taxonomy-validation.txt', python, ['scripts/validate-taxonomy.py']],
     ['route-sitemap-verification.txt', python, ['scripts/verify-build.py']],
     ['structured-data-validation.txt', 'node', ['scripts/audit-structured-data.mjs']]
   ];
   for (const [filename, command, args, env] of auditCommands) { console.log(`Running ${filename}...`); const output = await run(command, args, { capture: true, env }); await writeFile(path.join(audits, filename), output.stdout + output.stderr, 'utf8'); }
+  const productAudit = JSON.parse(await readFile(path.join(audits, 'product-content.json'), 'utf8'));
   const { server, localOrigin } = await staticServer(); let screenshotResults;
   try { screenshotResults = await screenshots(review, localOrigin); } finally { await new Promise(resolve => server.close(resolve)); }
   await writeFile(path.join(audits, 'screenshot-qa.json'), JSON.stringify({ generatedAt, screenshots: screenshotResults }, null, 2) + '\n');
   const byType = Object.entries(pages.reduce((counts, page) => { counts[page.pageType] = (counts[page.pageType] ?? 0) + 1; return counts; }, {})).sort(), noImages = pages.filter(page => page.imageCount === 0), thin = pages.filter(page => page.wordCount < 500), noSchema = pages.filter(page => !page.structuredDataTypes.length), suspicious = pages.filter(page => /\b(?:eas|gov|informatio|replacemen|installatio|windo|doo|choos|becaus|whethe|thes|thi|wit|an)\s*$/i.test(page.extract.mainText) || /(?:\.{3}|…)$/.test(page.extract.mainText));
   const leakageOutput = await readFile(path.join(audits, 'supplier-leakage.txt'), 'utf8'), leakage = leakageOutput.includes('Public supplier leakage audit: OK') ? 'PASS — 0 disclosures' : 'FAIL';
-  const summary = `# WindowReplacement.pro site review bundle\n\nGenerated: ${generatedAt}\nBuild source: current repository production build\nPublic origin: ${origin}\n\n## Headline counts\n\n- Route count: ${pages.length}\n- Sitemap count: ${sitemap.urls.length}\n- Indexable page count: ${pages.filter(page => page.indexable).length}\n- Public product count: ${pages.filter(page => page.route.startsWith('/products/')).length}\n- Supplier leakage result: ${leakage}\n\n## Pages by type\n\n${list(byType, ([type, count]) => `- ${type}: ${count}`)}\n\n## Pages with no images (${noImages.length})\n\n${list(noImages, page => `- ${page.url}`)}\n\n## Pages with fewer than 500 substantive words (${thin.length})\n\n${list(thin, page => `- ${page.url} — ${page.wordCount} words`)}\n\n## Highest textual-similarity pairs\n\nMethod: Jaccard similarity over normalized main-content word trigrams.\n\n${list(similarities.slice(0, 15), pair => `- ${(pair.score * 100).toFixed(2)}% — ${pair.left} ↔ ${pair.right}`)}\n\n## Pages missing structured data (${noSchema.length})\n\n${list(noSchema, page => `- ${page.url}`)}\n\n## Duplicate titles (${duplicates.titles.length} groups)\n\n${list(duplicates.titles, group => `- ${group.value}: ${group.urls.join(', ')}`)}\n\n## Duplicate descriptions (${duplicates.descriptions.length} groups)\n\n${list(duplicates.descriptions, group => `- ${group.value}: ${group.urls.join(', ')}`)}\n\n## Duplicate H1s (${duplicates.h1s.length} groups)\n\n${list(duplicates.h1s, group => `- ${group.value}: ${group.urls.join(', ')}`)}\n\n## Broken internal links (${broken.length})\n\n${list(broken, item => `- ${item.source} → ${item.href} (${item.reason})`)}\n\n## Pages with suspiciously truncated copy (${suspicious.length})\n\n${list(suspicious, page => `- ${page.url}`)}\n\n## Bundle contents\n\n- routes.json: route inventory\n- html/: built HTML for every indexable sitemap route\n- text/: public-content extracts for every route\n- screenshots/: full-page 390 px and 1440 px captures\n- audits/: content, copy, confidentiality, taxonomy, route/sitemap, link, metadata, schema, similarity, screenshot, and integrity reports\n`;
+  const productSchemaCount = pages.filter(page => page.structuredDataTypes.includes('Product')).length, productGroupSchemaCount = pages.filter(page => page.structuredDataTypes.includes('ProductGroup')).length;
+  const summary = `# WindowReplacement.pro site review bundle\n\nGenerated: ${generatedAt}\nBuild source: current repository production build\nPublic origin: ${origin}\n\n## Headline counts\n\n- Route count: ${pages.length}\n- Sitemap count: ${sitemap.urls.length}\n- Indexable page count: ${pages.filter(page => page.indexable).length}\n- Public product count: ${pages.filter(page => page.route.startsWith('/products/')).length}\n- Supplier leakage result: ${leakage}\n\n## Pages by type\n\n${list(byType, ([type, count]) => `- ${type}: ${count}`)}\n\n## Pages with no images (${noImages.length})\n\n${list(noImages, page => `- ${page.url}`)}\n\n## Pages with fewer than 500 substantive words (${thin.length})\n\n${list(thin, page => `- ${page.url} — ${page.wordCount} words`)}\n\n## Highest textual-similarity pairs\n\nMethod: Jaccard similarity over normalized main-content word trigrams.\n\n${list(similarities.slice(0, 15), pair => `- ${(pair.score * 100).toFixed(2)}% — ${pair.left} ↔ ${pair.right}`)}\n\n## Product catalogue differentiation
+
+- Public product pages audited: ${productAudit.pageCount}
+- Highest product-only substantive similarity: ${(productAudit.pairs[0]?.score * 100 ?? 0).toFixed(1)}%
+- Product pairs above 60%: ${productAudit.pairsAbove60.length}
+- Product pairs above 65%: ${productAudit.pairsAbove65.length}
+- Product pages with prohibited internal-workflow language: ${productAudit.prohibitedInternalLanguagePages.length}
+- Product pages with insufficient unique editorial: ${productAudit.insufficientPages.length}
+- Product schema count: ${productSchemaCount}
+- ProductGroup schema count: ${productGroupSchemaCount}
+
+### Highest product-only similarity pairs
+
+${list(productAudit.pairs.slice(0, 15), pair => `- ${(pair.score * 100).toFixed(1)}% — ${pair.left} ${pair.leftName} ↔ ${pair.right} ${pair.rightName}`)}
+
+### Repeated editorial sentences across product pages
+
+${list(productAudit.repeatedSentences, item => `- ${item.count} pages (${item.references.join(', ')}): ${item.text}`)}
+
+## Pages missing structured data (${noSchema.length})\n\n${list(noSchema, page => `- ${page.url}`)}\n\n## Duplicate titles (${duplicates.titles.length} groups)\n\n${list(duplicates.titles, group => `- ${group.value}: ${group.urls.join(', ')}`)}\n\n## Duplicate descriptions (${duplicates.descriptions.length} groups)\n\n${list(duplicates.descriptions, group => `- ${group.value}: ${group.urls.join(', ')}`)}\n\n## Duplicate H1s (${duplicates.h1s.length} groups)\n\n${list(duplicates.h1s, group => `- ${group.value}: ${group.urls.join(', ')}`)}\n\n## Broken internal links (${broken.length})\n\n${list(broken, item => `- ${item.source} → ${item.href} (${item.reason})`)}\n\n## Pages with suspiciously truncated copy (${suspicious.length})\n\n${list(suspicious, page => `- ${page.url}`)}\n\n## Bundle contents\n\n- routes.json: route inventory\n- html/: built HTML for every indexable sitemap route\n- text/: public-content extracts for every route\n- screenshots/: full-page 390 px and 1440 px captures\n- audits/: content, copy, confidentiality, taxonomy, route/sitemap, link, metadata, schema, similarity, screenshot, and integrity reports\n`;
   await writeFile(path.join(review, 'summary.md'), summary, 'utf8');
   const staged = await walk(review), leaked = [];
   for (const file of staged) {

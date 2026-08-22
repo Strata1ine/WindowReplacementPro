@@ -4,6 +4,7 @@ import MediaFrame from '../../../components/MediaFrame.astro';
 import ProductCard from '../../../components/ProductCard.astro';
 import QuoteCta from '../../../components/QuoteCta.astro';
 import { getRelatedPublicProducts, publicProducts } from '../../../data/public-catalog';
+import { buildPublicProductSchema } from '../../../data/product-schema';
 
 export function getStaticPaths() {
   return publicProducts.map(product => ({ params: { category: product.category, slug: product.slug }, props: { product } }));
@@ -57,24 +58,16 @@ const remainingSpecifications = specifications.filter((_item, index) => !assigne
 if (remainingSpecifications.length) specificationGroups.push({ title: 'Additional details', items: remainingSpecifications });
 const relatedProducts = getRelatedPublicProducts(product, 3);
 
-const productSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'Product',
-  name: product.displayName,
-  description: product.summary,
-  image: [product.media, ...product.gallery].map(media => new URL(media.src, Astro.site).href),
-  sku: product.reference,
-  category: product.categoryLabel,
-  url: new URL(product.href, Astro.site).href,
-  additionalProperty: specifications.map(item => ({ '@type': 'PropertyValue', name: item.label, value: item.value }))
-};
+const site = Astro.site;
+if (!site) throw new TypeError('Astro site URL is required for public product schema');
+const productSchema = buildPublicProductSchema(product, site);
 const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: new URL('/', Astro.site).href },
-    { '@type': 'ListItem', position: 2, name: landing.label, item: new URL(landing.href, Astro.site).href },
-    { '@type': 'ListItem', position: 3, name: product.displayName, item: new URL(product.href, Astro.site).href }
+    { '@type': 'ListItem', position: 1, name: 'Home', item: new URL('/', site).href },
+    { '@type': 'ListItem', position: 2, name: landing.label, item: new URL(landing.href, site).href },
+    { '@type': 'ListItem', position: 3, name: product.displayName, item: new URL(product.href, site).href }
   ]
 };
 ---
@@ -87,15 +80,14 @@ const breadcrumbSchema = {
       <div class="public-product__content">
         <p class="product-card__meta"><span>{product.categoryLabel}</span><span class="product-card__reference">Reference {product.reference}</span></p>
         <h1>{product.displayName}</h1>
-        <p class="lead">{product.summary}</p>
-        <p class="availability-note">Selected, measured, supplied and installed through Window Replacement Pro.</p>
+        <p class="lead" data-product-editorial="summary">{product.summary}</p>
         <div class="actions">
           <a class="button" href="#quote">Plan your replacement</a>
           <a class="button button--secondary" href={landing.href}>Compare {landing.label.toLowerCase()}</a>
         </div>
         <div class="product-key-features" aria-labelledby="product-key-features-title">
           <h2 id="product-key-features-title">Key features</h2>
-          <ul>{product.keyFeatures.map(item => <li><strong>{item}</strong></li>)}</ul>
+          <ul>{product.keyFeatures.map(item => <li data-product-editorial="fact"><strong>{item}</strong></li>)}</ul>
         </div>
       </div>
     </div>
@@ -104,9 +96,9 @@ const breadcrumbSchema = {
   {product.gallery.length > 0 && (
     <section class="section product-gallery-section" aria-labelledby="product-gallery-title">
       <div class="wrap">
-        <header class="section-header"><p class="eyebrow">Product media</p><h2 id="product-gallery-title">Configuration and detail views.</h2><p class="section-header__body">These views support product comparison. Final colours, proportions and components are confirmed for the quoted system.</p></header>
+        <header class="section-header" data-product-shared-ui><p class="eyebrow">Product media</p><h2 id="product-gallery-title">Configuration and detail views.</h2><p class="section-header__body">Use these views to compare proportions and visible details. Final colours and components are confirmed for the measured configuration.</p></header>
         <div class="product-gallery-grid">
-          {product.gallery.map(media => <figure><MediaFrame media={media} alt={media.alt} sizes="(max-width: 760px) 100vw, 50vw" fit="contain" /><figcaption>{media.alt}</figcaption></figure>)}
+          {product.gallery.map(media => <figure><MediaFrame media={media} alt={media.alt} sizes="(max-width: 760px) 100vw, 50vw" fit="contain" /><figcaption data-product-editorial="fact">{media.alt}</figcaption></figure>)}
         </div>
       </div>
     </section>
@@ -114,11 +106,11 @@ const breadcrumbSchema = {
 
   <section class="section section--mist product-editorial-section" aria-labelledby="product-selection-guidance-title">
     <div class="wrap">
-      <header class="section-header"><p class="eyebrow">Selection guidance</p><h2 id="product-selection-guidance-title">Where this configuration fits.</h2><p class="section-header__body">The public family describes a homeowner-facing choice. The exact underlying system is selected only after the project requirements are known.</p></header>
+      <header class="section-header"><p class="eyebrow">Selection guidance</p><h2 id="product-selection-guidance-title">Where this configuration fits.</h2><p class="section-header__body" data-product-editorial="guidance">{product.selectionGuidance}</p></header>
       <div class="product-editorial-grid">
-        <section><h3>Best for</h3><ul>{product.bestFor.map(item => <li>{item}</li>)}</ul></section>
-        <section><h3>Configuration options</h3><ul>{product.configurationOptions.map(item => <li>{item}</li>)}</ul></section>
-        <section><h3>Considerations</h3><ul>{product.considerations.map(item => <li>{item}</li>)}</ul></section>
+        <section><h3>Best for</h3><ul>{product.bestFor.map(item => <li data-product-editorial="guidance">{item}</li>)}</ul></section>
+        <section><h3>Configuration options</h3><ul>{product.configurationOptions.map(item => <li data-product-editorial="fact">{item}</li>)}</ul></section>
+        <section><h3>Considerations</h3><ul>{product.considerations.map(item => <li data-product-editorial="guidance">{item}</li>)}</ul></section>
       </div>
     </div>
   </section>
@@ -126,10 +118,10 @@ const breadcrumbSchema = {
   {specificationGroups.length > 0 && (
     <section class="section section--cream product-specification-section" aria-labelledby="product-specifications-title">
       <div class="wrap">
-        <header class="section-header"><p class="eyebrow">Product details</p><h2 id="product-specifications-title">Specifications available for comparison.</h2><p class="section-header__body">The details shown here support an initial comparison. Exact system specifications and documentation are confirmed in the written quotation.</p></header>
+        <header class="section-header" data-product-shared-ui><p class="eyebrow">Product details</p><h2 id="product-specifications-title">Specifications available for comparison.</h2><p class="section-header__body">These documented characteristics provide a starting point; the measured configuration determines the final specification.</p></header>
         <div class="product-specification-groups">
           {specificationGroups.map(group => (
-            <section><h3>{group.title}</h3><dl>{group.items.map(item => <div><dt>{item.label}</dt><dd>{item.value}</dd></div>)}</dl></section>
+            <section><h3>{group.title}</h3><dl>{group.items.map(item => <div><dt>{item.label}</dt><dd data-product-editorial="fact">{item.value}</dd></div>)}</dl></section>
           ))}
         </div>
       </div>
@@ -138,21 +130,21 @@ const breadcrumbSchema = {
 
   <section class="section section--forest product-considerations" aria-labelledby="product-considerations-title">
     <div class="wrap product-considerations__layout">
-      <div><p class="eyebrow">Complete project scope</p><h2 id="product-considerations-title">{landing.considerationTitle}</h2><p class="lead">The product family is one part of a complete installed project. Final suitability depends on the measured opening, selected configuration and written scope.</p></div>
-      <ol>{landing.considerations.map((item, index) => <li><span>{String(index + 1).padStart(2, '0')}</span><strong>{item}</strong></li>)}</ol>
+      <div><p class="eyebrow">Complete project scope</p><h2 id="product-considerations-title">{landing.considerationTitle}</h2><p class="lead" data-product-editorial="guidance">{product.projectGuidance}</p></div>
+      <ol data-product-shared-ui>{landing.considerations.map((item, index) => <li><span>{String(index + 1).padStart(2, '0')}</span><strong>{item}</strong></li>)}</ol>
     </div>
   </section>
 
   {(relatedProducts.length > 0 || landing.related) && (
     <section class="section section--mist product-related" aria-labelledby="product-related-title">
       <div class="wrap">
-        <header class="section-header"><p class="eyebrow">Continue comparing</p><h2 id="product-related-title">Related products and useful alternatives.</h2><p class="section-header__body">These products share a similar operation, material, style or configuration and may be useful alternatives.</p></header>
-        {relatedProducts.length > 0 && <div class="featured-product-grid">{relatedProducts.map(item => <ProductCard name={item.displayName} reference={item.reference} category={item.categoryLabel} href={item.href} summary={item.summary} highlights={item.specifications.slice(0, 3)} media={item.media} imageAlt={item.imageAlt} />)}</div>}
-        {landing.related && <a class="related-option-link" href={landing.related.href}><strong>{landing.related.label}</strong><span>Review the connected category choices before the complete system is quoted.</span><b>Continue <span aria-hidden="true">&rarr;</span></b></a>}
+        <header class="section-header"><p class="eyebrow">Continue comparing</p><h2 id="product-related-title">Related products and useful alternatives.</h2><p class="section-header__body" data-product-editorial="guidance">{product.comparisonGuidance}</p></header>
+        {relatedProducts.length > 0 && <div class="featured-product-grid" data-product-shared-ui>{relatedProducts.map(item => <ProductCard name={item.displayName} reference={item.reference} category={item.categoryLabel} href={item.href} summary={item.summary} highlights={item.specifications.slice(0, 3)} media={item.media} imageAlt={item.imageAlt} />)}</div>}
+        {landing.related && <a class="related-option-link" data-product-shared-ui href={landing.related.href}><strong>{landing.related.label}</strong><span>Review the connected category choices before the complete entrance is specified.</span><b>Continue <span aria-hidden="true">&rarr;</span></b></a>}
       </div>
     </section>
   )}
 
-  <aside class="wrap source-note product-disclosure">{product.quoteNote}</aside>
-  <div class="quote-section product-quote"><div class="wrap"><QuoteCta /></div></div>
+  <aside class="wrap source-note product-disclosure" data-product-shared-ui>{product.quoteNote}</aside>
+  <div class="quote-section product-quote" data-product-shared-ui><div class="wrap"><QuoteCta /></div></div>
 </BaseLayout>

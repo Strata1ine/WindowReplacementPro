@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import { createPublicExcerpt } from '../../src/utils/public-excerpt.ts';
+import { findProhibitedInternalLanguage } from '../lib/public-copy-policy.mjs';
 const cases = [
   ['The sash opens outward for.', 'The sash opens outward for ventilation and closes against a compression seal. The complete frame and glass package are selected for the measured opening.'],
   ['Awning windows are often.', 'Awning windows are often considered for compact openings and combinations with fixed glass. Exterior clearance and access still need review.'],
@@ -17,4 +18,21 @@ for (const [broken, source] of cases) {
 }
 assert.equal(createPublicExcerpt('A complete reviewed card summary.', { cardSummary: 'A dedicated homeowner-facing card summary.' }), 'A dedicated homeowner-facing card summary.');
 assert.equal(createPublicExcerpt('This deliberately long sentence has no terminal punctuation and therefore needs a safe word boundary fallback instead of receiving a false period that changes the source text', { maxLength: 80 }), 'This deliberately long sentence has no terminal punctuation and therefore\u2026');
-console.log('Public excerpt tests: OK (' + cases.length + ' broken examples covered).');
+
+const missedInternalFixtures = [
+  'The public family describes a homeowner-facing choice.',
+  'This public product family maps several possible configurations.',
+  'The exact underlying system is selected only after the project requirements are known.',
+  'This customer-facing identity represents a mapped product.',
+  'The public identity is tied to a canonical product.',
+  'This supplier-neutral, identity-approved record has publication status published.',
+  'The editorial state comes from a source-backed record.',
+  'This reviewed public record is ready.'
+];
+for (const fixture of missedInternalFixtures) assert.ok(findProhibitedInternalLanguage(fixture).length, fixture);
+for (const natural of [
+  'The window system must suit the measured opening and exposure.',
+  'Review decorative glass under changing natural light when a sample is available.',
+  'The frame and glazing system are confirmed after measurement.'
+]) assert.deepEqual(findProhibitedInternalLanguage(natural), [], natural);
+console.log('Public excerpt and internal-language tests: OK (' + cases.length + ' broken examples, ' + missedInternalFixtures.length + ' audit regressions).');

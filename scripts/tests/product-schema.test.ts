@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import { buildPublicProductSchema } from '../../src/data/product-schema.ts';
+const fixture:any={displayName:'Casement Window',summary:'A public-safe homeowner description.',media:{src:'/media/products/wrp-w001-1200.webp'},gallery:[],reference:'WRP-W001',category:'windows',categoryLabel:'Replacement window',href:'/products/windows/casement-window/',specifications:[{label:'Operation',value:'Casement'}]};
+const schema:any=buildPublicProductSchema(fixture,new URL('https://windowreplacement.pro/'));
+assert.equal(schema['@type'],'ProductGroup');
+assert.equal(schema.productGroupID,'WRP-W001');
+assert.equal(schema.url,'https://windowreplacement.pro/products/windows/casement-window/');
+assert.ok(Array.isArray(schema.variesBy)&&schema.variesBy.length>=3);
+assert.equal(schema.additionalProperty[0]['@type'],'PropertyValue');
+const serialized=JSON.stringify(schema);
+for(const field of ['sku','mpn','gtin','brand','manufacturer','offers','price','availability','review','aggregateRating'])assert.equal(Object.hasOwn(schema,field),false,field);
+assert.doesNotMatch(serialized,/supplier|sourceUrl|internalCanonical|manufacturer/i);
+for(const category of ['entry-doors','door-glass','patio-doors'])assert.doesNotThrow(()=>buildPublicProductSchema({...fixture,category},new URL('https://windowreplacement.pro/')));
+console.log('Public ProductGroup schema semantics tests: OK');

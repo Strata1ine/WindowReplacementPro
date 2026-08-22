@@ -6,6 +6,7 @@ import {
 import identitiesRaw from './public-identities.json';
 import mediaPlanRaw from './public-media-plan.json';
 import mappingsRaw from './internal/public-product-mappings.json';
+import { publicProductEditorial } from './public-product-editorial';
 import {
   isPublicIdentityApproved as policyApproves,
   validatePublicIdentity,
@@ -86,6 +87,9 @@ export type PublicProduct = {
   browseGroup: string;
   browseFacets: string[];
   comparisonTags: string[];
+  selectionGuidance: string;
+  projectGuidance: string;
+  comparisonGuidance: string;
   href: string;
   media: PublicMedia;
   gallery: PublicMedia[];
@@ -182,10 +186,41 @@ const buildPublicMedia = (plan: PublicMediaPlan): PublicMedia => {
   };
 };
 
+const repeatedSummarySentences = [
+  'The opening, exterior exposure, glazing package and installation method are reviewed before a final system is named in the written quotation.',
+  'Room use and the required balance of ventilation and fixed glass are documented at the same time.',
+  'The final slab, frame, swing, glass, finish, hardware and installation details are coordinated after the entrance is measured and reviewed.',
+  'The complete entrance is treated as one coordinated assembly rather than a slab-only purchase.',
+  'Glass size, privacy, compatible door construction and the complete entrance configuration are confirmed before the exact design is named in the written quotation.',
+  'Current samples are reviewed from both sides under representative lighting before careful final approval.',
+  'Panel layout, frame construction, glazing, hardware, sill support and installation conditions are confirmed for the measured opening in the written quotation.',
+  'Clear opening width and everyday panel operation are reviewed with the proposed layout.'
+];
+
+const customerSummary = (record: PublicIdentityRecord): string => {
+  let summary = record.publicSummary;
+  for (const sentence of repeatedSummarySentences) summary = summary.replace(sentence, '');
+  summary = summary
+    .replace(/\b(?:product |door-glass |decorative-glass |privacy-glass |patio-door |sliding patio-door |horizontal sliding patio-door )?family\b/gi, match => match.replace(/family/i, 'option'))
+    .replace('across the mapped systems', 'among available slab constructions')
+    .replace('The mapped systems are not interchangeable: reinforcement, sightlines, dimensions, tested performance and warranty must remain tied to the selected model.', 'Reinforcement, sightlines, dimensions and documented performance must be checked for the selected frame and panel size.')
+    .replace('The mapped products represent more than one construction direction and are compared privately before quoting.', 'Thermal design, visible profile width and panel limits must be checked for the measured opening.')
+    .replace('the material stack is not identical across mapped products', 'the material stack varies by construction');
+  if (record.publicReference === 'WRP-D010') summary = summary.replace('Smooth and woodgrain surfaces are available.', 'Available surface choices include smooth and woodgrain finishes.');
+  return summary.replace(/\s+/g, ' ').trim();
+};
+
+const editorialReferences = Object.keys(publicProductEditorial);
+if (editorialReferences.length !== identities.length || identities.some(record => !publicProductEditorial[record.publicReference])) {
+  throw new TypeError('Public product editorial must cover all 40 approved references exactly');
+}
+
 const toPublicProduct = (record: PublicIdentityRecord): PublicProduct => {
   const recordPlans = plansByReference.get(record.publicReference) ?? [];
   const heroPlan = recordPlans.find(plan => plan.role === 'hero');
   if (!heroPlan) throw new TypeError('Public hero plan missing for ' + record.publicReference);
+  const editorial = publicProductEditorial[record.publicReference];
+  const replaceConsideration = (value: string) => editorial.considerationReplacements?.[value] ?? value;
   return {
     displayName: record.publicDisplayName,
     slug: record.publicSlug,
@@ -193,17 +228,20 @@ const toPublicProduct = (record: PublicIdentityRecord): PublicProduct => {
     category: record.publicCategory,
     categoryLabel: record.publicCategoryLabel,
     metaDescription: record.publicMetaDescription,
-    summary: record.publicSummary,
+    summary: customerSummary(record),
     imageAlt: record.publicImageAlt,
     specifications: record.publicSpecifications,
     keyFeatures: record.publicKeyFeatures,
     bestFor: record.publicBestFor,
     configurationOptions: record.publicConfigurationOptions,
-    considerations: record.publicConsiderations,
+    considerations: record.publicConsiderations.map(replaceConsideration),
     quoteNote: record.publicQuoteNote,
     browseGroup: record.publicBrowseGroup,
     browseFacets: record.publicBrowseFacets,
     comparisonTags: record.publicComparisonTags,
+    selectionGuidance: editorial.selectionGuidance,
+    projectGuidance: editorial.projectGuidance,
+    comparisonGuidance: editorial.comparisonGuidance,
     href: '/products/' + record.publicCategory + '/' + record.publicSlug + '/',
     media: buildPublicMedia(heroPlan),
     gallery: recordPlans.filter(plan => plan.role === 'gallery').map(buildPublicMedia)

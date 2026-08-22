@@ -1,17 +1,40 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import MediaFrame from '../../components/MediaFrame.astro';
 import { coreGuidePages } from '../../data/core-content';
+import { publicProducts } from '../../data/public-catalog';
+
 const groups = [
-  { key: 'windows', title: 'Window planning', description: 'Compare installation methods, glazing, operating styles, performance and common symptoms.' },
-  { key: 'doors', title: 'Entry-door planning', description: 'Compare material and complete entrance-system considerations.' },
-  { key: 'patio', title: 'Patio-door planning', description: 'Compare panel layouts, frame materials and wider system directions.' }
-];
+  {
+    key: 'windows', title: 'Window planning', description: 'Compare installation methods, glazing, operating styles, performance and common symptoms.', reference: 'WRP-W004',
+    nextSteps: [{ href: '/window-replacement/', label: 'Window replacement process' }, { href: '/window-replacement-cost/', label: 'Window replacement cost' }]
+  },
+  {
+    key: 'doors', title: 'Entry-door planning', description: 'Compare material, glass, appearance and complete entrance considerations.', reference: 'WRP-D005',
+    nextSteps: [{ href: '/doors/', label: 'Browse entry doors' }, { href: '/entry-door-replacement-cost/', label: 'Entry-door replacement cost' }]
+  },
+  {
+    key: 'patio', title: 'Patio-door planning', description: 'Compare panel layouts, frame materials, clear openings and wider installation requirements.', reference: 'WRP-P001',
+    nextSteps: [{ href: '/patio-doors/', label: 'Browse patio doors' }, { href: '/patio-door-replacement-cost/', label: 'Patio-door replacement cost' }]
+  }
+].map(group => {
+  const product = publicProducts.find(item => item.reference === group.reference);
+  if (!product) throw new TypeError('Guide-hub media reference is not public: ' + group.reference);
+  return { ...group, media: product.media, imageAlt: product.imageAlt };
+});
 ---
 <BaseLayout title="Window and Door Buying Guides | Window Replacement Pro" description="Substantive guides to window installation methods, glazing, window styles, entry-door materials, patio systems and common replacement problems.">
-  <section class="page-hero guide-hub-hero"><div class="wrap"><p class="eyebrow">Knowledge centre</p><h1>Window and door buying guides.</h1><p class="lead">Use these durable planning resources to understand installation methods, product tradeoffs, performance language and common replacement problems before the measured quotation.</p></div></section>
+  <section class="page-hero guide-hub-hero"><div class="wrap"><p class="eyebrow">Knowledge centre</p><h1>Window and door buying guides.</h1><p class="lead">Start with the decision in front of you: installation method, operating style, glazing, entrance material or patio-door layout. Each guide explains the tradeoffs, then points to relevant products, services and cost planning.</p></div></section>
   <section class="section section--mist guide-hub" aria-labelledby="guide-hub-title"><div class="wrap">
-    <header class="section-header"><p class="eyebrow">Topic clusters</p><h2 id="guide-hub-title">Start with the decision you need to make.</h2><p class="section-header__body">Every guide links to relevant product examples and the service pages that explain the complete project scope.</p></header>
-    <div class="guide-hub__groups">{groups.map(group => <section><h3>{group.title}</h3><p>{group.description}</p><div>{coreGuidePages.filter(page => page.cluster === group.key).map(page => <a href={page.path}><strong>{page.title}</strong><span>{page.metaDescription}</span><b>Read guide <span aria-hidden="true">→</span></b></a>)}</div></section>)}</div>
+    <header class="section-header"><p class="eyebrow">Topic clusters</p><h2 id="guide-hub-title">Choose a topic, then narrow the project.</h2><p class="section-header__body">Use the guide groups for early research. Move to the linked service and cost pages when you are ready to understand measurement, installation scope and quotation details.</p></header>
+    <div class="guide-hub__groups">{groups.map(group => <section>
+      <div class="guide-hub__intro">
+        <figure><MediaFrame media={group.media} alt={group.imageAlt} sizes="(max-width: 760px) 100vw, 32vw" fit="contain" /></figure>
+        <h3>{group.title}</h3><p>{group.description}</p>
+        <nav aria-label={`${group.title} next steps`}>{group.nextSteps.map(link => <a href={link.href}>{link.label}<span aria-hidden="true">&rarr;</span></a>)}</nav>
+      </div>
+      <div class="guide-hub__links">{coreGuidePages.filter(page => page.cluster === group.key).map(page => <a href={page.path}><strong>{page.title}</strong><span>{page.metaDescription}</span><b>Read guide <span aria-hidden="true">&rarr;</span></b></a>)}</div>
+    </section>)}</div>
   </div></section>
-  <section class="section"><div class="wrap authority-callout"><p class="eyebrow">Complete project planning</p><h2>Guides support the decision; measurement confirms the scope.</h2><p>Product compatibility, final performance documentation, installation method, finish work and exact supplied system are confirmed after the opening is assessed and a written quotation is prepared.</p><a class="button" href="/#quote">Plan your replacement</a></div></section>
+  <section class="section"><div class="wrap authority-callout"><p class="eyebrow">Complete project planning</p><h2>Guides support the decision; measurement confirms the scope.</h2><p>Product compatibility, performance documentation, installation method and finish work depend on the measured opening. Use the guides to prepare questions, then request a written scope for the proposed work.</p><a class="button" href="/#quote">Plan your replacement</a></div></section>
 </BaseLayout>
