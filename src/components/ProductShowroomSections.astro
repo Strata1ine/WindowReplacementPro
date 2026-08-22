@@ -1,5 +1,7 @@
 ---
 import MediaFrame from './MediaFrame.astro';
+import IllustrativeConfiguration from './IllustrativeConfiguration.astro';
+import VisualOptionGroup from './VisualOptionGroup.astro';
 import type { PublicProductShowroom } from '../data/public-catalog';
 
 interface Props {
@@ -9,31 +11,9 @@ interface Props {
 const { showroom } = Astro.props;
 ---
 <div class="product-showroom" data-product-showroom>
-  {showroom.groups.map((group, groupIndex) => (
-    <section class:list={['section', groupIndex % 2 === 1 && 'section--mist', 'showroom-choice-section']} id={`showroom-${group.id}`} aria-labelledby={`showroom-${group.id}-title`}>
-      <div class="wrap">
-        <header class="section-header showroom-choice-section__header">
-          <p class="eyebrow">{group.eyebrow}</p>
-          <h2 id={`showroom-${group.id}-title`}>{group.title}</h2>
-          <p class="section-header__body">{group.description}</p>
-        </header>
-        <div class:list={['showroom-option-grid', `showroom-option-grid--${group.id}`]} role="list">
-          {group.options.map(option => (
-            <article class="showroom-option" role="listitem" data-showroom-option={option.id}>
-              <MediaFrame media={option.media} alt={option.media.alt} sizes="(max-width: 620px) 78vw, (max-width: 1000px) 42vw, 25vw" fit={group.id === 'finish' ? 'cover' : 'contain'} responsiveContain={group.id !== 'finish'} />
-              <div class="showroom-option__copy">
-                <h3>{option.label}</h3>
-                <p>{option.description}</p>
-                <small>{option.availabilityNote}</small>
-              </div>
-            </article>
-          ))}
-        </div>
-      </div>
-    </section>
-  ))}
+  {showroom.groups.map((group, groupIndex) => <VisualOptionGroup group={group} sectionIndex={groupIndex} />)}
 
-  {(showroom.verifiedDetails.length > 0 || showroom.technicalMedia.length > 0) && (
+  {(showroom.verifiedDetails.length > 0 || showroom.technicalMedia.length > 0 || showroom.privacyIndicator) && (
     <section class="section section--cream showroom-evidence" aria-labelledby="showroom-evidence-title">
       <div class="wrap showroom-evidence__layout">
         <div>
@@ -42,12 +22,23 @@ const { showroom } = Astro.props;
           <dl class="showroom-detail-list">
             {showroom.verifiedDetails.map(detail => <div><dt>{detail.label}</dt><dd>{detail.value}</dd></div>)}
           </dl>
+          {showroom.privacyIndicator && (
+            <div class="showroom-privacy">
+              <p>Privacy reference</p>
+              <div class="showroom-privacy__meter" role="img" aria-label={showroom.privacyIndicator.label + ' privacy, ' + showroom.privacyIndicator.value + ' out of ' + showroom.privacyIndicator.max}>
+                {Array.from({ length: showroom.privacyIndicator.max }).map((_, index) => <span class:list={{ 'is-filled': index < showroom.privacyIndicator!.value }}>{index + 1}</span>)}
+              </div>
+              <strong>{showroom.privacyIndicator.label} privacy — {showroom.privacyIndicator.value}/{showroom.privacyIndicator.max}</strong>
+              <small>{showroom.privacyIndicator.note}</small>
+            </div>
+          )}
         </div>
         {showroom.technicalMedia.length > 0 && (
           <div class="showroom-technical-grid">
             {showroom.technicalMedia.map(item => (
-              <figure>
-                <MediaFrame media={item.media} alt={item.media.alt} sizes="(max-width: 820px) 100vw, 42vw" fit="contain" responsiveContain />
+              <figure class="showroom-technical-item">
+                {item.media && <MediaFrame media={item.media} alt={item.media.alt} sizes="(max-width: 820px) 100vw, 42vw" fit="contain" responsiveContain />}
+                {item.diagram && <IllustrativeConfiguration diagram={item.diagram} />}
                 <figcaption><strong>{item.label}</strong><span>{item.description}</span><small>{item.availabilityNote}</small></figcaption>
               </figure>
             ))}

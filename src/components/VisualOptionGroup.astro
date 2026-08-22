@@ -1,0 +1,61 @@
+---
+import MediaFrame from './MediaFrame.astro';
+import IllustrativeConfiguration from './IllustrativeConfiguration.astro';
+import type { PublicShowroomGroup } from '../data/public-catalog';
+
+interface Props {
+  group: PublicShowroomGroup;
+  sectionIndex: number;
+}
+
+const { group, sectionIndex } = Astro.props;
+const sectionId = 'showroom-' + group.id + '-' + sectionIndex;
+---
+<section class:list={['section', sectionIndex % 2 === 1 && 'section--mist', 'showroom-choice-section']} id={sectionId} aria-labelledby={sectionId + '-title'} data-visual-option-group>
+  <div class="wrap">
+    <header class="section-header showroom-choice-section__header">
+      <p class="eyebrow">{group.eyebrow}</p>
+      <h2 id={sectionId + '-title'}>{group.title}</h2>
+      <p class="section-header__body">{group.description}</p>
+    </header>
+    <ul class:list={['showroom-option-grid', 'showroom-option-grid--' + group.id]} aria-label={group.title}>
+      {group.options.map((option, optionIndex) => (
+        <li class="showroom-option-shell">
+          <button
+            type="button"
+            class:list={['showroom-option', optionIndex === 0 && 'is-selected']}
+            aria-pressed={optionIndex === 0 ? 'true' : 'false'}
+            data-showroom-option={option.id}
+            data-option-note={option.availabilityNote}
+          >
+            {option.media && <MediaFrame media={option.media} alt={option.media.alt} sizes="(max-width: 620px) 78vw, (max-width: 1000px) 42vw, 25vw" fit={group.id === 'finish' ? 'cover' : 'contain'} responsiveContain={group.id !== 'finish'} />}
+            {option.diagram && <IllustrativeConfiguration diagram={option.diagram} />}
+            <span class="showroom-option__copy">
+              <strong>{option.label}</strong>
+              <span>{option.description}</span>
+              <small>{option.availabilityNote}</small>
+            </span>
+          </button>
+        </li>
+      ))}
+    </ul>
+    <p class="showroom-option-status" aria-live="polite" data-option-status>{group.options[0]?.availabilityNote}</p>
+  </div>
+</section>
+
+<script>
+  for (const group of document.querySelectorAll<HTMLElement>('[data-visual-option-group]')) {
+    const status = group.querySelector<HTMLElement>('[data-option-status]');
+    const options = group.querySelectorAll<HTMLButtonElement>('[data-showroom-option]');
+    for (const option of options) {
+      option.addEventListener('click', () => {
+        for (const candidate of options) {
+          const selected = candidate === option;
+          candidate.classList.toggle('is-selected', selected);
+          candidate.setAttribute('aria-pressed', String(selected));
+        }
+        if (status) status.textContent = option.dataset.optionNote ?? '';
+      });
+    }
+  }
+</script>

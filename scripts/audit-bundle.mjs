@@ -27,7 +27,16 @@ const screenshotRoutes = [
   ['entry-door-product', '/products/entry-doors/two-panel-fiberglass-entry-door/'],
   ['oak-grain-showroom', '/products/entry-doors/oak-grain-fiberglass-entry-door/'],
   ['door-glass-product', '/products/door-glass/black-linear-privacy-door-glass/'],
-  ['patio-door-product', '/products/patio-doors/multi-panel-sliding-patio-door/']
+  ['patio-door-product', '/products/patio-doors/multi-panel-sliding-patio-door/'],
+  ['smooth-entry-door', '/products/entry-doors/smooth-flush-fiberglass-entry-door/'],
+  ['craftsman-entry-door', '/products/entry-doors/craftsman-fiberglass-entry-door/'],
+  ['full-glass-entry-door', '/products/entry-doors/full-glass-fiberglass-entry-door/'],
+  ['geometric-door-glass', '/products/door-glass/geometric-high-privacy-door-glass/'],
+  ['classic-door-glass', '/products/door-glass/classic-beveled-decorative-door-glass/'],
+  ['slider-window-product', '/products/windows/single-slider-window/'],
+  ['fixed-window-product', '/products/windows/picture-window/'],
+  ['two-panel-patio-product', '/products/patio-doors/two-panel-sliding-patio-door/'],
+  ['slim-frame-patio-product', '/products/patio-doors/slim-frame-aluminum-patio-door/']
 ];
 const confidential = [
   /vinyl[- ]?pro/i, /window[- ]?city/i, /masonite/i, /trimlite/i, /nova\s?tech/i,
@@ -296,6 +305,7 @@ try {
   const byType = Object.entries(pages.reduce((counts, page) => { counts[page.pageType] = (counts[page.pageType] ?? 0) + 1; return counts; }, {})).sort(), noImages = pages.filter(page => page.imageCount === 0), thin = pages.filter(page => page.wordCount < 500), noSchema = pages.filter(page => !page.structuredDataTypes.length), suspicious = pages.filter(page => /\b(?:eas|gov|informatio|replacemen|installatio|windo|doo|choos|becaus|whethe|thes|thi|wit|an)\s*$/i.test(page.extract.mainText) || /(?:\.{3}|…)$/.test(page.extract.mainText));
   const leakageOutput = await readFile(path.join(audits, 'supplier-leakage.txt'), 'utf8'), leakage = leakageOutput.includes('Public supplier leakage audit: OK') ? 'PASS — 0 disclosures' : 'FAIL';
   const productSchemaCount = pages.filter(page => page.structuredDataTypes.includes('Product')).length, productGroupSchemaCount = pages.filter(page => page.structuredDataTypes.includes('ProductGroup')).length;
+  const showroomMediaRows = showroomAudit.products.map(item => '- ' + item.publicReference + ' — ' + item.name + ': ' + item.totalUsefulMediaCount + ' useful visuals; ' + item.visualOptionCount + ' options; ' + item.technicalMedia + ' technical/context items').join('\n');
   const summary = `# WindowReplacement.pro site review bundle\n\nGenerated: ${generatedAt}\nBuild source: current repository production build\nPublic origin: ${origin}\n\n## Headline counts\n\n- Route count: ${pages.length}\n- Sitemap count: ${sitemap.urls.length}\n- Indexable page count: ${pages.filter(page => page.indexable).length}\n- Public product count: ${pages.filter(page => page.route.startsWith('/products/')).length}\n- Supplier leakage result: ${leakage}\n\n## Pages by type\n\n${list(byType, ([type, count]) => `- ${type}: ${count}`)}\n\n## Pages with no images (${noImages.length})\n\n${list(noImages, page => `- ${page.url}`)}\n\n## Pages with fewer than 500 substantive words (${thin.length})\n\n${list(thin, page => `- ${page.url} — ${page.wordCount} words`)}\n\n## Highest textual-similarity pairs\n\nMethod: Jaccard similarity over normalized main-content word trigrams.\n\n${list(similarities.slice(0, 15), pair => `- ${(pair.score * 100).toFixed(2)}% — ${pair.left} ↔ ${pair.right}`)}\n\n## Product catalogue differentiation
 
 - Public product pages audited: ${productAudit.pageCount}
@@ -326,6 +336,20 @@ ${list(productAudit.repeatedSentences, item => `- ${item.count} pages (${item.re
 - Customer-facing configurations/options: ${showroomAudit.totals.customerFacingConfigurations}
 - Products with only one useful image: ${showroomAudit.totals.productsWithOnlyOneImage}
 - Products without technical/layout media: ${showroomAudit.totals.productsWithoutTechnicalOrLayoutMedia}
+- Products with finishes: ${showroomAudit.totals.productsWithFinishes}
+- Entry-door products with finishes: ${showroomAudit.totals.entryDoorProductsWithFinishes}
+- Products with glass options: ${showroomAudit.totals.productsWithGlassOptions}
+- Entry-door products with glass options: ${showroomAudit.totals.entryDoorProductsWithGlassOptions}
+- Products with layout options: ${showroomAudit.totals.productsWithLayoutOptions}
+- Products with technical media/context: ${showroomAudit.totals.productsWithTechnicalMedia}
+- Products with installed/context media: ${showroomAudit.totals.productsWithInstalledContextMedia}
+- Products with documented privacy indicators: ${showroomAudit.totals.productsWithPrivacyIndicators}
+- Illustrative configuration diagrams: ${showroomAudit.totals.illustrativeDiagrams}
+- Total public visual options: ${showroomAudit.totals.totalPublicVisualOptions}
+
+### Media count by product
+
+${showroomMediaRows}
 
 ## Pages missing structured data (${noSchema.length})\n\n${list(noSchema, page => `- ${page.url}`)}\n\n## Duplicate titles (${duplicates.titles.length} groups)\n\n${list(duplicates.titles, group => `- ${group.value}: ${group.urls.join(', ')}`)}\n\n## Duplicate descriptions (${duplicates.descriptions.length} groups)\n\n${list(duplicates.descriptions, group => `- ${group.value}: ${group.urls.join(', ')}`)}\n\n## Duplicate H1s (${duplicates.h1s.length} groups)\n\n${list(duplicates.h1s, group => `- ${group.value}: ${group.urls.join(', ')}`)}\n\n## Broken internal links (${broken.length})\n\n${list(broken, item => `- ${item.source} → ${item.href} (${item.reason})`)}\n\n## Pages with suspiciously truncated copy (${suspicious.length})\n\n${list(suspicious, page => `- ${page.url}`)}\n\n## Bundle contents\n\n- routes.json: route inventory\n- html/: built HTML for every indexable sitemap route\n- text/: public-content extracts for every route\n- screenshots/: full-page 390 px and 1440 px captures\n- audits/: content, product-showroom, copy, confidentiality, taxonomy, route/sitemap, link, metadata, schema, similarity, screenshot, and integrity reports\n`;
   await writeFile(path.join(review, 'summary.md'), summary, 'utf8');
@@ -342,7 +366,7 @@ ${list(productAudit.repeatedSentences, item => `- ${item.count} pages (${item.re
   await rm(bundle, { force: true });
   const zip = `import os,sys,zipfile\nsource,out=sys.argv[1:3]\ntmp=out+'.tmp'\nwith zipfile.ZipFile(tmp,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:\n for base,dirs,files in os.walk(source):\n  dirs.sort();files.sort()\n  for name in files:\n   full=os.path.join(base,name);z.write(full,os.path.relpath(full,os.path.dirname(source)).replace(os.sep,'/'))\nos.replace(tmp,out)`;
   await run(python, ['-c', zip, review, bundle]);
-  const validate = `import sys,zipfile\nz=zipfile.ZipFile(sys.argv[1]);n=z.namelist();count=int(sys.argv[2])\nassert 'site-review/summary.md' in n and 'site-review/routes.json' in n\nassert len([x for x in n if x.startswith('site-review/html/') and x.endswith('.html')])==count\nassert len([x for x in n if x.startswith('site-review/text/') and x.endswith('.txt')])==count\nassert len([x for x in n if x.startswith('site-review/screenshots/mobile/') and x.endswith('.png')])==19\nassert len([x for x in n if x.startswith('site-review/screenshots/desktop/') and x.endswith('.png')])==19\nassert not [x for x in n if any(p in x.lower().split('/') for p in ('source-media','node_modules','.git'))]\nprint('ZIP validation: OK (%d entries)'%len(n))`;
+  const validate = `import sys,zipfile\nz=zipfile.ZipFile(sys.argv[1]);n=z.namelist();count=int(sys.argv[2])\nassert 'site-review/summary.md' in n and 'site-review/routes.json' in n\nassert len([x for x in n if x.startswith('site-review/html/') and x.endswith('.html')])==count\nassert len([x for x in n if x.startswith('site-review/text/') and x.endswith('.txt')])==count\nassert len([x for x in n if x.startswith('site-review/screenshots/mobile/') and x.endswith('.png')])==28\nassert len([x for x in n if x.startswith('site-review/screenshots/desktop/') and x.endswith('.png')])==28\nassert not [x for x in n if any(p in x.lower().split('/') for p in ('source-media','node_modules','.git'))]\nprint('ZIP validation: OK (%d entries)'%len(n))`;
   await run(python, ['-c', validate, bundle, String(pages.length)]);
   const size = (await stat(bundle)).size;
   console.log(`Audit bundle: ${bundle}`); console.log(`Audit bundle size: ${size} bytes (${(size / 1024 / 1024).toFixed(2)} MiB)`);

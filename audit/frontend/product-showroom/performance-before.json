@@ -1,0 +1,42 @@
+[
+  {
+    "route": "/products/entry-doors/oak-grain-fiberglass-entry-door/",
+    "htmlSizeBytes": 35151,
+    "inlineJsBytes": 1598,
+    "initialEagerImageBytes": 4854,
+    "eagerImages": 2,
+    "lazyImages": 18
+  },
+  {
+    "route": "/products/entry-doors/smooth-flush-fiberglass-entry-door/",
+    "htmlSizeBytes": 27226,
+    "inlineJsBytes": 1598,
+    "initialEagerImageBytes": 1140,
+    "eagerImages": 2,
+    "lazyImages": 10
+  },
+  {
+    "route": "/products/door-glass/geometric-high-privacy-door-glass/",
+    "htmlSizeBytes": 28540,
+    "inlineJsBytes": 1598,
+    "initialEagerImageBytes": 41610,
+    "eagerImages": 2,
+    "lazyImages": 10
+  },
+  {
+    "route": "/products/windows/slim-frame-casement-window/",
+    "htmlSizeBytes": 28675,
+    "inlineJsBytes": 1598,
+    "initialEagerImageBytes": 138996,
+    "eagerImages": 2,
+    "lazyImages": 11
+  },
+  {
+    "route": "/products/patio-doors/multi-panel-sliding-patio-door/",
+    "htmlSizeBytes": 29474,
+    "inlineJsBytes": 1598,
+    "initialEagerImageBytes": 84306,
+    "eagerImages": 2,
+    "lazyImages": 12
+  }
+]

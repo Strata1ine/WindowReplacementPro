@@ -1,0 +1,52 @@
+[
+  {
+    "name": "slim-casement",
+    "route": "/products/windows/slim-frame-casement-window/",
+    "htmlSizeBytes": 31113,
+    "jsSizeBytes": 3708,
+    "initialImageTransferEstimate": 456820,
+    "eagerImages": 2,
+    "lazyImages": 11,
+    "cumulativeLayoutShift": 0
+  },
+  {
+    "name": "oak-grain-door",
+    "route": "/products/entry-doors/oak-grain-fiberglass-entry-door/",
+    "htmlSizeBytes": 37807,
+    "jsSizeBytes": 3587,
+    "initialImageTransferEstimate": 95842,
+    "eagerImages": 2,
+    "lazyImages": 18,
+    "cumulativeLayoutShift": 0
+  },
+  {
+    "name": "smooth-door",
+    "route": "/products/entry-doors/smooth-flush-fiberglass-entry-door/",
+    "htmlSizeBytes": 29675,
+    "jsSizeBytes": 3790,
+    "initialImageTransferEstimate": 46596,
+    "eagerImages": 2,
+    "lazyImages": 10,
+    "cumulativeLayoutShift": 0
+  },
+  {
+    "name": "geometric-glass",
+    "route": "/products/door-glass/geometric-high-privacy-door-glass/",
+    "htmlSizeBytes": 30747,
+    "jsSizeBytes": 3871,
+    "initialImageTransferEstimate": 72390,
+    "eagerImages": 2,
+    "lazyImages": 10,
+    "cumulativeLayoutShift": 0
+  },
+  {
+    "name": "multi-panel-patio",
+    "route": "/products/patio-doors/multi-panel-sliding-patio-door/",
+    "htmlSizeBytes": 36628,
+    "jsSizeBytes": 3902,
+    "initialImageTransferEstimate": 322284,
+    "eagerImages": 2,
+    "lazyImages": 16,
+    "cumulativeLayoutShift": 0
+  }
+]

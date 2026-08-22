@@ -1,0 +1,83 @@
+---
+import type { PublicShowroomDiagram } from '../data/public-product-showroom';
+
+interface Props {
+  diagram: PublicShowroomDiagram;
+}
+
+const { diagram } = Astro.props;
+const variant = diagram.variant;
+const panelCount = variant.includes('six-panel') ? 6 : variant.includes('four-panel') ? 4 : variant.includes('two-panel') ? 2 : 1;
+const patioPanels = variant.includes('four-panel') ? 4 : variant.includes('three-panel') || variant.includes('multi-panel') ? 3 : 2;
+---
+<figure class="configuration-diagram" data-diagram-kind={diagram.kind} data-diagram-variant={variant}>
+  <svg viewBox="0 0 320 220" role="img" aria-label={diagram.ariaLabel}>
+    {diagram.kind === 'entry-door' && (
+      <>
+        <rect class="diagram-frame" x="96" y="14" width="128" height="192" rx="2" />
+        <rect class="diagram-surface" x="106" y="24" width="108" height="172" rx="1" />
+        {variant.includes('full-lite') && <rect class="diagram-glass" x="119" y="34" width="82" height="150" rx="2" />}
+        {variant.includes('three-quarter-lite') && <rect class="diagram-glass" x="119" y="34" width="82" height="112" rx="2" />}
+        {variant.includes('half-lite') && <rect class="diagram-glass" x="119" y="34" width="82" height="76" rx="2" />}
+        {variant.includes('narrow-lite') && <rect class="diagram-glass" x="143" y="34" width="34" height="132" rx="2" />}
+        {!variant.includes('lite') && Array.from({ length: panelCount }).map((_, index) => {
+          const columns = panelCount > 2 ? 2 : 1;
+          const rows = Math.ceil(panelCount / columns);
+          const width = columns === 2 ? 42 : 78;
+          const height = Math.min(58, 138 / rows);
+          const x = columns === 2 ? 116 + (index % 2) * 48 : 121;
+          const y = 38 + Math.floor(index / columns) * (height + 8);
+          return <rect class="diagram-panel" x={x} y={y} width={width} height={height} rx="2" />;
+        })}
+        <circle class="diagram-hardware" cx="200" cy="117" r="4" />
+      </>
+    )}
+    {diagram.kind === 'door-glass' && (
+      <>
+        <rect class="diagram-frame" x="102" y="14" width="116" height="192" rx="2" />
+        <rect class="diagram-surface" x="111" y="23" width="98" height="174" />
+        <rect class="diagram-glass" x={variant.includes('sidelite') ? 143 : 124} y="34" width={variant.includes('sidelite') ? 32 : 72} height="138" rx="2" />
+        <path class="diagram-pattern" d={variant.includes('linear') ? 'M132 45 L188 160 M132 65 L188 180' : 'M132 52 L188 52 L145 108 L188 160 L132 160'} />
+        <circle class="diagram-hardware" cx="198" cy="117" r="4" />
+      </>
+    )}
+    {diagram.kind === 'patio-door' && (
+      <>
+        <rect class="diagram-frame" x="22" y="42" width="276" height="138" rx="2" />
+        {Array.from({ length: patioPanels }).map((_, index) => {
+          const width = 276 / patioPanels;
+          return <>
+            <rect class:list={['diagram-glass', index === 0 && 'diagram-glass--active']} x={22 + index * width + 5} y="49" width={width - 10} height="124" />
+            {index > 0 && <line class="diagram-divider" x1={22 + index * width} y1="42" x2={22 + index * width} y2="180" />}
+          </>;
+        })}
+        <path class="diagram-motion" d={patioPanels === 2 ? 'M72 194 H148 M138 186 L148 194 L138 202' : 'M48 194 H136 M126 186 L136 194 L126 202'} />
+      </>
+    )}
+    {diagram.kind === 'window' && (
+      <>
+        <rect class="diagram-frame" x="74" y="22" width="172" height="176" rx="2" />
+        <rect class="diagram-glass" x="87" y="35" width="146" height="150" />
+        {variant.includes('slider') && <>
+          <line class="diagram-divider" x1="160" y1="35" x2="160" y2="185" />
+          <path class="diagram-motion" d="M103 171 H148 M138 163 L148 171 L138 179" />
+        </>}
+        {variant.includes('hung') && <>
+          <line class="diagram-divider" x1="87" y1="110" x2="233" y2="110" />
+          <path class="diagram-motion" d="M218 162 V122 M210 132 L218 122 L226 132" />
+        </>}
+        {variant.includes('casement') && <>
+          <line class="diagram-divider" x1="87" y1="35" x2="210" y2="110" />
+          <path class="diagram-motion" d="M218 66 Q248 110 218 154" />
+        </>}
+        {variant.includes('awning') && <>
+          <line class="diagram-divider" x1="87" y1="35" x2="160" y2="168" />
+          <line class="diagram-divider" x1="233" y1="35" x2="160" y2="168" />
+          <path class="diagram-motion" d="M118 177 Q160 202 202 177" />
+        </>}
+        {variant.includes('fixed') && <circle class="diagram-fixed" cx="160" cy="110" r="16" />}
+      </>
+    )}
+  </svg>
+  <figcaption>Illustrative configuration — not to scale.</figcaption>
+</figure>

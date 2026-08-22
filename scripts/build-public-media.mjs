@@ -20,7 +20,7 @@ for (const showroom of publicProductShowroomData) {
     ...showroom.gallery,
     ...showroom.groups.flatMap(group => group.options.map(option => option.media)),
     ...showroom.technicalMedia.map(option => option.media)
-  ];
+  ].filter(Boolean);
   for (const asset of assets) {
     const compoundKey = showroom.publicReference + ':' + asset.key;
     const previous = showroomPublicAssets.get(compoundKey);

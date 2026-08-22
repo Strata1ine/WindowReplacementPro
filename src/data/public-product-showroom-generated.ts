@@ -135,9 +135,29 @@ export const generatedPublicProductShowrooms = [
             320
           ]
         }
+      },
+      {
+        "id": "illustrative-casement",
+        "label": "Operation at a glance",
+        "description": "A dimensionless diagram clarifies the documented operating direction or fixed-sash role.",
+        "availabilityNote": "Illustrative only; frame proportions, handing and hardware vary by the selected opening.",
+        "diagram": {
+          "kind": "window",
+          "variant": "casement",
+          "ariaLabel": "Slim-Frame Casement Window dimensionless illustrative configuration"
+        }
       }
     ],
-    "verifiedDetails": []
+    "verifiedDetails": [
+      {
+        "label": "Documented configuration",
+        "value": "Heritage Collection casement, awning, casement-fixed, and slim-fixed vinyl window system."
+      },
+      {
+        "label": "Documented configuration",
+        "value": "Classic Collection casement, awning, casement-fixed, and slim-fixed vinyl window system."
+      }
+    ]
   },
   {
     "publicReference": "WRP-W002",
@@ -273,9 +293,29 @@ export const generatedPublicProductShowrooms = [
             640
           ]
         }
+      },
+      {
+        "id": "illustrative-casement",
+        "label": "Operation at a glance",
+        "description": "A dimensionless diagram clarifies the documented operating direction or fixed-sash role.",
+        "availabilityNote": "Illustrative only; frame proportions, handing and hardware vary by the selected opening.",
+        "diagram": {
+          "kind": "window",
+          "variant": "casement",
+          "ariaLabel": "High-Performance Casement Window dimensionless illustrative configuration"
+        }
       }
     ],
-    "verifiedDetails": []
+    "verifiedDetails": [
+      {
+        "label": "Documented configuration",
+        "value": "Heritage Maximum Collection slim-profile casement, awning, casement-fixed, and slim-fixed vinyl window system."
+      },
+      {
+        "label": "Documented configuration",
+        "value": "Classic Collection casement, awning, casement-fixed, and slim-fixed vinyl window system."
+      }
+    ]
   },
   {
     "publicReference": "WRP-W003",
@@ -443,9 +483,33 @@ export const generatedPublicProductShowrooms = [
             1200
           ]
         }
+      },
+      {
+        "id": "illustrative-awning",
+        "label": "Operation at a glance",
+        "description": "A dimensionless diagram clarifies the documented operating direction or fixed-sash role.",
+        "availabilityNote": "Illustrative only; frame proportions, handing and hardware vary by the selected opening.",
+        "diagram": {
+          "kind": "window",
+          "variant": "awning",
+          "ariaLabel": "Awning Window dimensionless illustrative configuration"
+        }
       }
     ],
-    "verifiedDetails": []
+    "verifiedDetails": [
+      {
+        "label": "Documented operation",
+        "value": "Awning"
+      },
+      {
+        "label": "Documented configuration",
+        "value": "Heritage Collection casement, awning, casement-fixed, and slim-fixed vinyl window system."
+      },
+      {
+        "label": "Documented configuration",
+        "value": "Classic Collection casement, awning, casement-fixed, and slim-fixed vinyl window system."
+      }
+    ]
   },
   {
     "publicReference": "WRP-W004",
@@ -523,8 +587,40 @@ export const generatedPublicProductShowrooms = [
         "description": "Profile detail documented for this product family.",
         "availabilityNote": "Availability and compatibility are confirmed for the measured opening.",
         "media": {
-          "key": "technical-3",
+          "key": "technical-1",
           "alt": "Double-Hung Window: profile detail",
+          "intrinsicWidth": 454,
+          "intrinsicHeight": 444,
+          "widths": [
+            240,
+            320
+          ]
+        }
+      },
+      {
+        "id": "construction-detail",
+        "label": "Construction detail",
+        "description": "Construction detail documented for this product family.",
+        "availabilityNote": "Availability and compatibility are confirmed for the measured opening.",
+        "media": {
+          "key": "technical-2",
+          "alt": "Double-Hung Window: construction detail",
+          "intrinsicWidth": 454,
+          "intrinsicHeight": 444,
+          "widths": [
+            240,
+            320
+          ]
+        }
+      },
+      {
+        "id": "operating-detail",
+        "label": "Operating detail",
+        "description": "Operating detail documented for this product family.",
+        "availabilityNote": "Availability and compatibility are confirmed for the measured opening.",
+        "media": {
+          "key": "technical-3",
+          "alt": "Double-Hung Window: operating detail",
           "intrinsicWidth": 1116,
           "intrinsicHeight": 2160,
           "widths": [
@@ -532,9 +628,25 @@ export const generatedPublicProductShowrooms = [
             640
           ]
         }
+      },
+      {
+        "id": "illustrative-double-hung",
+        "label": "Operation at a glance",
+        "description": "A dimensionless diagram clarifies the documented operating direction or fixed-sash role.",
+        "availabilityNote": "Illustrative only; frame proportions, handing and hardware vary by the selected opening.",
+        "diagram": {
+          "kind": "window",
+          "variant": "double-hung",
+          "ariaLabel": "Double-Hung Window dimensionless illustrative configuration"
+        }
       }
     ],
-    "verifiedDetails": []
+    "verifiedDetails": [
+      {
+        "label": "Documented configuration",
+        "value": "Classic Collection hung and slider vinyl window system."
+      }
+    ]
   },
   {
     "publicReference": "WRP-W005",
@@ -582,9 +694,25 @@ export const generatedPublicProductShowrooms = [
             640
           ]
         }
+      },
+      {
+        "id": "illustrative-single-hung",
+        "label": "Operation at a glance",
+        "description": "A dimensionless diagram clarifies the documented operating direction or fixed-sash role.",
+        "availabilityNote": "Illustrative only; frame proportions, handing and hardware vary by the selected opening.",
+        "diagram": {
+          "kind": "window",
+          "variant": "single-hung",
+          "ariaLabel": "Single-Hung Window dimensionless illustrative configuration"
+        }
       }
     ],
-    "verifiedDetails": []
+    "verifiedDetails": [
+      {
+        "label": "Documented configuration",
+        "value": "Classic Collection hung and slider vinyl window system."
+      }
+    ]
   },
   {
     "publicReference": "WRP-W006",
@@ -690,8 +818,40 @@ export const generatedPublicProductShowrooms = [
         "description": "Profile detail documented for this product family.",
         "availabilityNote": "Availability and compatibility are confirmed for the measured opening.",
         "media": {
-          "key": "technical-3",
+          "key": "technical-1",
           "alt": "Double Slider Window: profile detail",
+          "intrinsicWidth": 454,
+          "intrinsicHeight": 444,
+          "widths": [
+            240,
+            320
+          ]
+        }
+      },
+      {
+        "id": "construction-detail",
+        "label": "Construction detail",
+        "description": "Construction detail documented for this product family.",
+        "availabilityNote": "Availability and compatibility are confirmed for the measured opening.",
+        "media": {
+          "key": "technical-2",
+          "alt": "Double Slider Window: construction detail",
+          "intrinsicWidth": 454,
+          "intrinsicHeight": 444,
+          "widths": [
+            240,
+            320
+          ]
+        }
+      },
+      {
+        "id": "operating-detail",
+        "label": "Operating detail",
+        "description": "Operating detail documented for this product family.",
+        "availabilityNote": "Availability and compatibility are confirmed for the measured opening.",
+        "media": {
+          "key": "technical-3",
+          "alt": "Double Slider Window: operating detail",
           "intrinsicWidth": 1792,
           "intrinsicHeight": 827,
           "widths": [
@@ -702,41 +862,27 @@ export const generatedPublicProductShowrooms = [
         }
       },
       {
-        "id": "construction-detail",
-        "label": "Construction detail",
-        "description": "Construction detail documented for this product family.",
-        "availabilityNote": "Availability and compatibility are confirmed for the measured opening.",
-        "media": {
-          "key": "technical-4",
-          "alt": "Double Slider Window: construction detail",
-          "intrinsicWidth": 1563,
-          "intrinsicHeight": 1683,
-          "widths": [
-            360,
-            720,
-            1200
-          ]
-        }
-      },
-      {
-        "id": "operating-detail",
-        "label": "Operating detail",
-        "description": "Operating detail documented for this product family.",
-        "availabilityNote": "Availability and compatibility are confirmed for the measured opening.",
-        "media": {
-          "key": "technical-5",
-          "alt": "Double Slider Window: operating detail",
-          "intrinsicWidth": 1766,
-          "intrinsicHeight": 798,
-          "widths": [
-            360,
-            720,
-            1200
-          ]
+        "id": "illustrative-double-slider",
+        "label": "Operation at a glance",
+        "description": "A dimensionless diagram clarifies the documented operating direction or fixed-sash role.",
+        "availabilityNote": "Illustrative only; frame proportions, handing and hardware vary by the selected opening.",
+        "diagram": {
+          "kind": "window",
+          "variant": "double-slider",
+          "ariaLabel": "Double Slider Window dimensionless illustrative configuration"
         }
       }
     ],
-    "verifiedDetails": []
+    "verifiedDetails": [
+      {
+        "label": "Documented operation",
+        "value": "Double Slider"
+      },
+      {
+        "label": "Documented configuration",
+        "value": "Classic Collection hung and slider vinyl window system."
+      }
+    ]
   },
   {
     "publicReference": "WRP-W007",
@@ -814,9 +960,29 @@ export const generatedPublicProductShowrooms = [
             1200
           ]
         }
+      },
+      {
+        "id": "illustrative-single-slider",
+        "label": "Operation at a glance",
+        "description": "A dimensionless diagram clarifies the documented operating direction or fixed-sash role.",
+        "availabilityNote": "Illustrative only; frame proportions, handing and hardware vary by the selected opening.",
+        "diagram": {
+          "kind": "window",
+          "variant": "single-slider",
+          "ariaLabel": "Single Slider Window dimensionless illustrative configuration"
+        }
       }
     ],
-    "verifiedDetails": []
+    "verifiedDetails": [
+      {
+        "label": "Documented operation",
+        "value": "Single Slider"
+      },
+      {
+        "label": "Documented configuration",
+        "value": "Classic Collection hung and slider vinyl window system."
+      }
+    ]
   },
   {
     "publicReference": "WRP-W008",
@@ -891,9 +1057,29 @@ export const generatedPublicProductShowrooms = [
             320
           ]
         }
+      },
+      {
+        "id": "illustrative-fixed",
+        "label": "Operation at a glance",
+        "description": "A dimensionless diagram clarifies the documented operating direction or fixed-sash role.",
+        "availabilityNote": "Illustrative only; frame proportions, handing and hardware vary by the selected opening.",
+        "diagram": {
+          "kind": "window",
+          "variant": "fixed",
+          "ariaLabel": "Picture Window dimensionless illustrative configuration"
+        }
       }
     ],
-    "verifiedDetails": []
+    "verifiedDetails": [
+      {
+        "label": "Documented operation",
+        "value": "Picture Window"
+      },
+      {
+        "label": "Documented configuration",
+        "value": "Available as a stand-alone window or combined with fixed, casement, double-hung, or single-slider windows"
+      }
+    ]
   },
   {
     "publicReference": "WRP-W009",
@@ -1040,9 +1226,33 @@ export const generatedPublicProductShowrooms = [
             1200
           ]
         }
+      },
+      {
+        "id": "illustrative-fixed",
+        "label": "Operation at a glance",
+        "description": "A dimensionless diagram clarifies the documented operating direction or fixed-sash role.",
+        "availabilityNote": "Illustrative only; frame proportions, handing and hardware vary by the selected opening.",
+        "diagram": {
+          "kind": "window",
+          "variant": "fixed",
+          "ariaLabel": "Casement-Profile Fixed Window dimensionless illustrative configuration"
+        }
       }
     ],
-    "verifiedDetails": []
+    "verifiedDetails": [
+      {
+        "label": "Documented operation",
+        "value": "Casement"
+      },
+      {
+        "label": "Documented configuration",
+        "value": "Heritage Collection casement, awning, casement-fixed, and slim-fixed vinyl window system."
+      },
+      {
+        "label": "Documented configuration",
+        "value": "Classic Collection casement, awning, casement-fixed, and slim-fixed vinyl window system."
+      }
+    ]
   },
   {
     "publicReference": "WRP-W010",
@@ -1207,9 +1417,33 @@ export const generatedPublicProductShowrooms = [
             1200
           ]
         }
+      },
+      {
+        "id": "illustrative-fixed",
+        "label": "Operation at a glance",
+        "description": "A dimensionless diagram clarifies the documented operating direction or fixed-sash role.",
+        "availabilityNote": "Illustrative only; frame proportions, handing and hardware vary by the selected opening.",
+        "diagram": {
+          "kind": "window",
+          "variant": "fixed",
+          "ariaLabel": "Slim Fixed Window dimensionless illustrative configuration"
+        }
       }
     ],
-    "verifiedDetails": []
+    "verifiedDetails": [
+      {
+        "label": "Documented configuration",
+        "value": "Heritage Maximum Collection slim-profile casement, awning, casement-fixed, and slim-fixed vinyl window system."
+      },
+      {
+        "label": "Documented configuration",
+        "value": "Classic Collection casement, awning, casement-fixed, and slim-fixed vinyl window system."
+      },
+      {
+        "label": "Documented configuration",
+        "value": "Heritage Collection casement, awning, casement-fixed, and slim-fixed vinyl window system."
+      }
+    ]
   },
   {
     "publicReference": "WRP-D001",
@@ -1284,7 +1518,15 @@ export const generatedPublicProductShowrooms = [
                 1200
               ]
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "finish",
+        "eyebrow": "Surface and grain",
+        "title": "Compare documented surface directions.",
+        "description": "These views distinguish smooth and woodgrain surface directions represented within this product choice. Colour and sheen are confirmed separately.",
+        "options": [
           {
             "id": "woodgrain-two-panel",
             "label": "Woodgrain two-panel",
@@ -1318,8 +1560,25 @@ export const generatedPublicProductShowrooms = [
         ]
       }
     ],
-    "technicalMedia": [],
-    "verifiedDetails": []
+    "technicalMedia": [
+      {
+        "id": "illustrative-two-panel",
+        "label": "Slab layout at a glance",
+        "description": "A dimensionless diagram highlights the documented panel or glass proportion.",
+        "availabilityNote": "Illustrative only; panel proportions, glass preparation and slab dimensions vary by compatible configuration.",
+        "diagram": {
+          "kind": "entry-door",
+          "variant": "two-panel",
+          "ariaLabel": "Two-Panel Fiberglass Entry Door dimensionless illustrative configuration"
+        }
+      }
+    ],
+    "verifiedDetails": [
+      {
+        "label": "Documented panel form",
+        "value": "2 panel"
+      }
+    ]
   },
   {
     "publicReference": "WRP-D002",
@@ -1421,7 +1680,19 @@ export const generatedPublicProductShowrooms = [
         ]
       }
     ],
-    "technicalMedia": [],
+    "technicalMedia": [
+      {
+        "id": "illustrative-one-panel",
+        "label": "Slab layout at a glance",
+        "description": "A dimensionless diagram highlights the documented panel or glass proportion.",
+        "availabilityNote": "Illustrative only; panel proportions, glass preparation and slab dimensions vary by compatible configuration.",
+        "diagram": {
+          "kind": "entry-door",
+          "variant": "one-panel",
+          "ariaLabel": "Smooth Flush Fiberglass Entry Door dimensionless illustrative configuration"
+        }
+      }
+    ],
     "verifiedDetails": []
   },
   {
@@ -1533,8 +1804,29 @@ export const generatedPublicProductShowrooms = [
         ]
       }
     ],
-    "technicalMedia": [],
-    "verifiedDetails": []
+    "technicalMedia": [
+      {
+        "id": "illustrative-one-panel",
+        "label": "Slab layout at a glance",
+        "description": "A dimensionless diagram highlights the documented panel or glass proportion.",
+        "availabilityNote": "Illustrative only; panel proportions, glass preparation and slab dimensions vary by compatible configuration.",
+        "diagram": {
+          "kind": "entry-door",
+          "variant": "one-panel",
+          "ariaLabel": "Mahogany-Grain Fiberglass Entry Door dimensionless illustrative configuration"
+        }
+      }
+    ],
+    "verifiedDetails": [
+      {
+        "label": "Documented panel form",
+        "value": "2 panel"
+      },
+      {
+        "label": "Documented panel form",
+        "value": "1 panel"
+      }
+    ]
   },
   {
     "publicReference": "WRP-D005",
@@ -1570,10 +1862,10 @@ export const generatedPublicProductShowrooms = [
     ],
     "groups": [
       {
-        "id": "style",
-        "eyebrow": "Door styles",
-        "title": "Compare supported slab and panel directions.",
-        "description": "Each verified view belongs to this door style direction. Panel embossment, glass preparation, slab size and finish are confirmed together.",
+        "id": "finish",
+        "eyebrow": "Surface and grain",
+        "title": "Compare documented surface directions.",
+        "description": "These views distinguish smooth and woodgrain surface directions represented within this product choice. Colour and sheen are confirmed separately.",
         "options": [
           {
             "id": "woodgrain-craftsman",
@@ -1609,7 +1901,19 @@ export const generatedPublicProductShowrooms = [
         ]
       }
     ],
-    "technicalMedia": [],
+    "technicalMedia": [
+      {
+        "id": "illustrative-one-panel",
+        "label": "Slab layout at a glance",
+        "description": "A dimensionless diagram highlights the documented panel or glass proportion.",
+        "availabilityNote": "Illustrative only; panel proportions, glass preparation and slab dimensions vary by compatible configuration.",
+        "diagram": {
+          "kind": "entry-door",
+          "variant": "one-panel",
+          "ariaLabel": "Craftsman Fiberglass Entry Door dimensionless illustrative configuration"
+        }
+      }
+    ],
     "verifiedDetails": []
   },
   {
@@ -1691,6 +1995,30 @@ export const generatedPublicProductShowrooms = [
             }
           },
           {
+            "id": "classic-six-panel",
+            "label": "Classic six-panel",
+            "description": "Classic six-panel changes the slab's panel, surface or glass proportions.",
+            "availabilityNote": "Availability and compatibility are confirmed for the measured opening.",
+            "media": {
+              "key": "primary-4",
+              "alt": "Traditional Six-Panel Fiberglass Entry Door: classic six-panel",
+              "intrinsicWidth": 789,
+              "intrinsicHeight": 1786,
+              "widths": [
+                320,
+                640
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "finish",
+        "eyebrow": "Surface and grain",
+        "title": "Compare documented surface directions.",
+        "description": "These views distinguish smooth and woodgrain surface directions represented within this product choice. Colour and sheen are confirmed separately.",
+        "options": [
+          {
             "id": "smooth-six-panel",
             "label": "Smooth six-panel",
             "description": "Smooth six-panel changes the slab's panel, surface or glass proportions.",
@@ -1721,28 +2049,29 @@ export const generatedPublicProductShowrooms = [
                 480
               ]
             }
-          },
-          {
-            "id": "classic-six-panel",
-            "label": "Classic six-panel",
-            "description": "Classic six-panel changes the slab's panel, surface or glass proportions.",
-            "availabilityNote": "Availability and compatibility are confirmed for the measured opening.",
-            "media": {
-              "key": "primary-4",
-              "alt": "Traditional Six-Panel Fiberglass Entry Door: classic six-panel",
-              "intrinsicWidth": 789,
-              "intrinsicHeight": 1786,
-              "widths": [
-                320,
-                640
-              ]
-            }
           }
         ]
       }
     ],
-    "technicalMedia": [],
-    "verifiedDetails": []
+    "technicalMedia": [
+      {
+        "id": "illustrative-six-panel",
+        "label": "Slab layout at a glance",
+        "description": "A dimensionless diagram highlights the documented panel or glass proportion.",
+        "availabilityNote": "Illustrative only; panel proportions, glass preparation and slab dimensions vary by compatible configuration.",
+        "diagram": {
+          "kind": "entry-door",
+          "variant": "six-panel",
+          "ariaLabel": "Traditional Six-Panel Fiberglass Entry Door dimensionless illustrative configuration"
+        }
+      }
+    ],
+    "verifiedDetails": [
+      {
+        "label": "Documented panel form",
+        "value": "6 panel"
+      }
+    ]
   },
   {
     "publicReference": "WRP-D007",
@@ -1761,10 +2090,10 @@ export const generatedPublicProductShowrooms = [
     ],
     "groups": [
       {
-        "id": "style",
-        "eyebrow": "Door styles",
-        "title": "Compare supported slab and panel directions.",
-        "description": "Each verified view belongs to this door style direction. Panel embossment, glass preparation, slab size and finish are confirmed together.",
+        "id": "glass",
+        "eyebrow": "Glass amount and context",
+        "title": "Compare supported glass configurations.",
+        "description": "These documented views show how glass proportion changes daylight and the amount of visible slab surface. Compatibility is confirmed with the complete entrance.",
         "options": [
           {
             "id": "full-glass",
@@ -1803,7 +2132,19 @@ export const generatedPublicProductShowrooms = [
         ]
       }
     ],
-    "technicalMedia": [],
+    "technicalMedia": [
+      {
+        "id": "illustrative-full-lite",
+        "label": "Slab layout at a glance",
+        "description": "A dimensionless diagram highlights the documented panel or glass proportion.",
+        "availabilityNote": "Illustrative only; panel proportions, glass preparation and slab dimensions vary by compatible configuration.",
+        "diagram": {
+          "kind": "entry-door",
+          "variant": "full-lite",
+          "ariaLabel": "Full-Glass Fiberglass Entry Door dimensionless illustrative configuration"
+        }
+      }
+    ],
     "verifiedDetails": []
   },
   {
@@ -1832,10 +2173,10 @@ export const generatedPublicProductShowrooms = [
     ],
     "groups": [
       {
-        "id": "style",
-        "eyebrow": "Door styles",
-        "title": "Compare supported slab and panel directions.",
-        "description": "Each verified view belongs to this door style direction. Panel embossment, glass preparation, slab size and finish are confirmed together.",
+        "id": "glass",
+        "eyebrow": "Glass amount and context",
+        "title": "Compare supported glass configurations.",
+        "description": "These documented views show how glass proportion changes daylight and the amount of visible slab surface. Compatibility is confirmed with the complete entrance.",
         "options": [
           {
             "id": "two-panel-half-glass",
@@ -1889,8 +2230,29 @@ export const generatedPublicProductShowrooms = [
         ]
       }
     ],
-    "technicalMedia": [],
-    "verifiedDetails": []
+    "technicalMedia": [
+      {
+        "id": "illustrative-half-lite",
+        "label": "Slab layout at a glance",
+        "description": "A dimensionless diagram highlights the documented panel or glass proportion.",
+        "availabilityNote": "Illustrative only; panel proportions, glass preparation and slab dimensions vary by compatible configuration.",
+        "diagram": {
+          "kind": "entry-door",
+          "variant": "half-lite",
+          "ariaLabel": "Half-Glass Fiberglass Entry Door dimensionless illustrative configuration"
+        }
+      }
+    ],
+    "verifiedDetails": [
+      {
+        "label": "Documented panel form",
+        "value": "2 panel"
+      },
+      {
+        "label": "Documented glass amount",
+        "value": "1/2 lite"
+      }
+    ]
   },
   {
     "publicReference": "WRP-D009",
@@ -1918,10 +2280,10 @@ export const generatedPublicProductShowrooms = [
     ],
     "groups": [
       {
-        "id": "style",
-        "eyebrow": "Door styles",
-        "title": "Compare supported slab and panel directions.",
-        "description": "Each verified view belongs to this door style direction. Panel embossment, glass preparation, slab size and finish are confirmed together.",
+        "id": "glass",
+        "eyebrow": "Glass amount and context",
+        "title": "Compare supported glass configurations.",
+        "description": "These documented views show how glass proportion changes daylight and the amount of visible slab surface. Compatibility is confirmed with the complete entrance.",
         "options": [
           {
             "id": "flush-glazed-three-quarter-glass",
@@ -1975,8 +2337,29 @@ export const generatedPublicProductShowrooms = [
         ]
       }
     ],
-    "technicalMedia": [],
-    "verifiedDetails": []
+    "technicalMedia": [
+      {
+        "id": "illustrative-three-quarter-lite",
+        "label": "Slab layout at a glance",
+        "description": "A dimensionless diagram highlights the documented panel or glass proportion.",
+        "availabilityNote": "Illustrative only; panel proportions, glass preparation and slab dimensions vary by compatible configuration.",
+        "diagram": {
+          "kind": "entry-door",
+          "variant": "three-quarter-lite",
+          "ariaLabel": "Three-Quarter-Glass Fiberglass Entry Door dimensionless illustrative configuration"
+        }
+      }
+    ],
+    "verifiedDetails": [
+      {
+        "label": "Documented glass amount",
+        "value": "3/4 lite"
+      },
+      {
+        "label": "Documented panel form",
+        "value": "2 panel"
+      }
+    ]
   },
   {
     "publicReference": "WRP-D010",
@@ -1994,10 +2377,10 @@ export const generatedPublicProductShowrooms = [
     ],
     "groups": [
       {
-        "id": "style",
-        "eyebrow": "Door styles",
-        "title": "Compare supported slab and panel directions.",
-        "description": "Each verified view belongs to this door style direction. Panel embossment, glass preparation, slab size and finish are confirmed together.",
+        "id": "glass",
+        "eyebrow": "Glass amount and context",
+        "title": "Compare supported glass configurations.",
+        "description": "These documented views show how glass proportion changes daylight and the amount of visible slab surface. Compatibility is confirmed with the complete entrance.",
         "options": [
           {
             "id": "smooth-narrow-glass",
@@ -2034,8 +2417,25 @@ export const generatedPublicProductShowrooms = [
         ]
       }
     ],
-    "technicalMedia": [],
-    "verifiedDetails": []
+    "technicalMedia": [
+      {
+        "id": "illustrative-narrow-lite",
+        "label": "Slab layout at a glance",
+        "description": "A dimensionless diagram highlights the documented panel or glass proportion.",
+        "availabilityNote": "Illustrative only; panel proportions, glass preparation and slab dimensions vary by compatible configuration.",
+        "diagram": {
+          "kind": "entry-door",
+          "variant": "narrow-lite",
+          "ariaLabel": "Narrow-Lite Fiberglass Entry Door dimensionless illustrative configuration"
+        }
+      }
+    ],
+    "verifiedDetails": [
+      {
+        "label": "Documented glass amount",
+        "value": "Narrow lite"
+      }
+    ]
   },
   {
     "publicReference": "WRP-D011",
@@ -2083,10 +2483,10 @@ export const generatedPublicProductShowrooms = [
     ],
     "groups": [
       {
-        "id": "style",
-        "eyebrow": "Door styles",
-        "title": "Compare supported slab and panel directions.",
-        "description": "Each verified view belongs to this door style direction. Panel embossment, glass preparation, slab size and finish are confirmed together.",
+        "id": "finish",
+        "eyebrow": "Surface and grain",
+        "title": "Compare documented surface directions.",
+        "description": "These views distinguish smooth and woodgrain surface directions represented within this product choice. Colour and sheen are confirmed separately.",
         "options": [
           {
             "id": "smooth-four-panel",
@@ -2101,22 +2501,6 @@ export const generatedPublicProductShowrooms = [
               "widths": [
                 320,
                 640
-              ]
-            }
-          },
-          {
-            "id": "clean-four-panel",
-            "label": "Clean four-panel",
-            "description": "Clean four-panel changes the slab's panel, surface or glass proportions.",
-            "availabilityNote": "Availability and compatibility are confirmed for the measured opening.",
-            "media": {
-              "key": "primary-2",
-              "alt": "Four-Panel Fiberglass Entry Door: clean four-panel",
-              "intrinsicWidth": 536,
-              "intrinsicHeight": 1200,
-              "widths": [
-                240,
-                480
               ]
             }
           },
@@ -2137,10 +2521,51 @@ export const generatedPublicProductShowrooms = [
             }
           }
         ]
+      },
+      {
+        "id": "style",
+        "eyebrow": "Door styles",
+        "title": "Compare supported slab and panel directions.",
+        "description": "Each verified view belongs to this door style direction. Panel embossment, glass preparation, slab size and finish are confirmed together.",
+        "options": [
+          {
+            "id": "clean-four-panel",
+            "label": "Clean four-panel",
+            "description": "Clean four-panel changes the slab's panel, surface or glass proportions.",
+            "availabilityNote": "Availability and compatibility are confirmed for the measured opening.",
+            "media": {
+              "key": "primary-2",
+              "alt": "Four-Panel Fiberglass Entry Door: clean four-panel",
+              "intrinsicWidth": 536,
+              "intrinsicHeight": 1200,
+              "widths": [
+                240,
+                480
+              ]
+            }
+          }
+        ]
       }
     ],
-    "technicalMedia": [],
-    "verifiedDetails": []
+    "technicalMedia": [
+      {
+        "id": "illustrative-four-panel",
+        "label": "Slab layout at a glance",
+        "description": "A dimensionless diagram highlights the documented panel or glass proportion.",
+        "availabilityNote": "Illustrative only; panel proportions, glass preparation and slab dimensions vary by compatible configuration.",
+        "diagram": {
+          "kind": "entry-door",
+          "variant": "four-panel",
+          "ariaLabel": "Four-Panel Fiberglass Entry Door dimensionless illustrative configuration"
+        }
+      }
+    ],
+    "verifiedDetails": [
+      {
+        "label": "Documented panel form",
+        "value": "4 panel"
+      }
+    ]
   },
   {
     "publicReference": "WRP-D012",
@@ -2170,8 +2595,25 @@ export const generatedPublicProductShowrooms = [
         ]
       }
     ],
-    "technicalMedia": [],
-    "verifiedDetails": []
+    "technicalMedia": [
+      {
+        "id": "illustrative-one-panel",
+        "label": "Slab layout at a glance",
+        "description": "A dimensionless diagram highlights the documented panel or glass proportion.",
+        "availabilityNote": "Illustrative only; panel proportions, glass preparation and slab dimensions vary by compatible configuration.",
+        "diagram": {
+          "kind": "entry-door",
+          "variant": "one-panel",
+          "ariaLabel": "One-Panel Woodgrain Fiberglass Entry Door dimensionless illustrative configuration"
+        }
+      }
+    ],
+    "verifiedDetails": [
+      {
+        "label": "Documented panel form",
+        "value": "1 panel"
+      }
+    ]
   },
   {
     "publicReference": "WRP-G001",
@@ -2270,8 +2712,26 @@ export const generatedPublicProductShowrooms = [
         ]
       }
     ],
-    "technicalMedia": [],
-    "verifiedDetails": []
+    "technicalMedia": [
+      {
+        "id": "illustrative-full-lite-linear",
+        "label": "Door-context reference",
+        "description": "A dimensionless door view shows the documented full-door or sidelite design context.",
+        "availabilityNote": "Illustrative only; confirm the exact glass size, slab preparation and privacy character.",
+        "diagram": {
+          "kind": "door-glass",
+          "variant": "full-lite-linear",
+          "ariaLabel": "Black Linear Privacy Door Glass dimensionless illustrative configuration"
+        }
+      }
+    ],
+    "verifiedDetails": [],
+    "privacyIndicator": {
+      "value": 2,
+      "max": 5,
+      "label": "Low",
+      "note": "Documented privacy reference. Appearance can change with interior and exterior lighting."
+    }
   },
   {
     "publicReference": "WRP-G002",
@@ -2370,8 +2830,26 @@ export const generatedPublicProductShowrooms = [
         ]
       }
     ],
-    "technicalMedia": [],
-    "verifiedDetails": []
+    "technicalMedia": [
+      {
+        "id": "illustrative-full-lite-geometric",
+        "label": "Door-context reference",
+        "description": "A dimensionless door view shows the documented full-door or sidelite design context.",
+        "availabilityNote": "Illustrative only; confirm the exact glass size, slab preparation and privacy character.",
+        "diagram": {
+          "kind": "door-glass",
+          "variant": "full-lite-geometric",
+          "ariaLabel": "Geometric High-Privacy Door Glass dimensionless illustrative configuration"
+        }
+      }
+    ],
+    "verifiedDetails": [],
+    "privacyIndicator": {
+      "value": 4,
+      "max": 5,
+      "label": "High",
+      "note": "Documented privacy reference. Appearance can change with interior and exterior lighting."
+    }
   },
   {
     "publicReference": "WRP-G003",
@@ -2470,8 +2948,26 @@ export const generatedPublicProductShowrooms = [
         ]
       }
     ],
-    "technicalMedia": [],
-    "verifiedDetails": []
+    "technicalMedia": [
+      {
+        "id": "illustrative-full-lite-geometric",
+        "label": "Door-context reference",
+        "description": "A dimensionless door view shows the documented full-door or sidelite design context.",
+        "availabilityNote": "Illustrative only; confirm the exact glass size, slab preparation and privacy character.",
+        "diagram": {
+          "kind": "door-glass",
+          "variant": "full-lite-geometric",
+          "ariaLabel": "Frosted High-Privacy Door Glass dimensionless illustrative configuration"
+        }
+      }
+    ],
+    "verifiedDetails": [],
+    "privacyIndicator": {
+      "value": 4,
+      "max": 5,
+      "label": "High",
+      "note": "Documented privacy reference. Appearance can change with interior and exterior lighting."
+    }
   },
   {
     "publicReference": "WRP-G004",
@@ -2550,8 +3046,33 @@ export const generatedPublicProductShowrooms = [
         ]
       }
     ],
-    "technicalMedia": [],
-    "verifiedDetails": []
+    "technicalMedia": [
+      {
+        "id": "illustrative-full-lite-geometric",
+        "label": "Door-context reference",
+        "description": "A dimensionless door view shows the documented full-door or sidelite design context.",
+        "availabilityNote": "Illustrative only; confirm the exact glass size, slab preparation and privacy character.",
+        "diagram": {
+          "kind": "door-glass",
+          "variant": "full-lite-geometric",
+          "ariaLabel": "Clear-Zone Sandblasted Door Glass dimensionless illustrative configuration"
+        }
+      }
+    ],
+    "verifiedDetails": [
+      {
+        "label": "Documented size context",
+        "value": "22 x 12, 22 x 17, 22 x 36, 22 x 48, 8 x 48, 20 x 64, 22 x 64, 7 x 64"
+      },
+      {
+        "label": "Documented glass composition",
+        "value": "Clear zone and sandblast"
+      },
+      {
+        "label": "Documented size context",
+        "value": "22 x 48, 8 x 48, 22 x 64, 7 x 64"
+      }
+    ]
   },
   {
     "publicReference": "WRP-G005",
@@ -2606,8 +3127,33 @@ export const generatedPublicProductShowrooms = [
         ]
       }
     ],
-    "technicalMedia": [],
-    "verifiedDetails": []
+    "technicalMedia": [
+      {
+        "id": "illustrative-full-lite-linear",
+        "label": "Door-context reference",
+        "description": "A dimensionless door view shows the documented full-door or sidelite design context.",
+        "availabilityNote": "Illustrative only; confirm the exact glass size, slab preparation and privacy character.",
+        "diagram": {
+          "kind": "door-glass",
+          "variant": "full-lite-linear",
+          "ariaLabel": "Linear Privacy Door Glass dimensionless illustrative configuration"
+        }
+      }
+    ],
+    "verifiedDetails": [
+      {
+        "label": "Documented size context",
+        "value": "22 x 17, 22 x 48, 8 x 48, 20 x 64, 22 x 64, 7 x 64"
+      },
+      {
+        "label": "Documented glass composition",
+        "value": "Clear glass with optional 2 in grille (1 in on sidelites) and sandblast"
+      },
+      {
+        "label": "Documented size context",
+        "value": "22 x 64, 7 x 64"
+      }
+    ]
   },
   {
     "publicReference": "WRP-G006",
@@ -2662,8 +3208,33 @@ export const generatedPublicProductShowrooms = [
         ]
       }
     ],
-    "technicalMedia": [],
-    "verifiedDetails": []
+    "technicalMedia": [
+      {
+        "id": "illustrative-full-lite-linear",
+        "label": "Door-context reference",
+        "description": "A dimensionless door view shows the documented full-door or sidelite design context.",
+        "availabilityNote": "Illustrative only; confirm the exact glass size, slab preparation and privacy character.",
+        "diagram": {
+          "kind": "door-glass",
+          "variant": "full-lite-linear",
+          "ariaLabel": "Wide-Reed Textured Door Glass dimensionless illustrative configuration"
+        }
+      }
+    ],
+    "verifiedDetails": [
+      {
+        "label": "Documented size context",
+        "value": "22 x 17, 22 x 36, 8 x 36, 22 x 48, 8 x 48, 22 x 64, 7 x 64"
+      },
+      {
+        "label": "Documented glass composition",
+        "value": "Wide Reed textured glass; texture faces the interior"
+      },
+      {
+        "label": "Documented size context",
+        "value": "22 x 17, 22 x 48, 22 x 64"
+      }
+    ]
   },
   {
     "publicReference": "WRP-G007",
@@ -2742,8 +3313,33 @@ export const generatedPublicProductShowrooms = [
         ]
       }
     ],
-    "technicalMedia": [],
-    "verifiedDetails": []
+    "technicalMedia": [
+      {
+        "id": "illustrative-full-lite-geometric",
+        "label": "Door-context reference",
+        "description": "A dimensionless door view shows the documented full-door or sidelite design context.",
+        "availabilityNote": "Illustrative only; confirm the exact glass size, slab preparation and privacy character.",
+        "diagram": {
+          "kind": "door-glass",
+          "variant": "full-lite-geometric",
+          "ariaLabel": "Clear Patterned Door Glass dimensionless illustrative configuration"
+        }
+      }
+    ],
+    "verifiedDetails": [
+      {
+        "label": "Documented size context",
+        "value": "22 x 36, 8 x 36, 22 x 48, 8 x 48, 22 x 64, 7 x 64"
+      },
+      {
+        "label": "Documented glass composition",
+        "value": "Clear soft wave and streamed glass"
+      },
+      {
+        "label": "Documented glass composition",
+        "value": "Morocco or micro-iced granite with clear or gray soft wave glass"
+      }
+    ]
   },
   {
     "publicReference": "WRP-G008",
@@ -2822,8 +3418,33 @@ export const generatedPublicProductShowrooms = [
         ]
       }
     ],
-    "technicalMedia": [],
-    "verifiedDetails": []
+    "technicalMedia": [
+      {
+        "id": "illustrative-full-lite-geometric",
+        "label": "Door-context reference",
+        "description": "A dimensionless door view shows the documented full-door or sidelite design context.",
+        "availabilityNote": "Illustrative only; confirm the exact glass size, slab preparation and privacy character.",
+        "diagram": {
+          "kind": "door-glass",
+          "variant": "full-lite-geometric",
+          "ariaLabel": "Classic Beveled Decorative Door Glass dimensionless illustrative configuration"
+        }
+      }
+    ],
+    "verifiedDetails": [
+      {
+        "label": "Documented size context",
+        "value": "22 x 64, 7 x 64"
+      },
+      {
+        "label": "Documented glass composition",
+        "value": "Arctic, clear Renaissance, and clear bevels"
+      },
+      {
+        "label": "Documented size context",
+        "value": "22 x 48, 8 x 48, 22 x 64, 7 x 64, 15.5 x 39.625"
+      }
+    ]
   },
   {
     "publicReference": "WRP-G009",
@@ -2902,8 +3523,33 @@ export const generatedPublicProductShowrooms = [
         ]
       }
     ],
-    "technicalMedia": [],
-    "verifiedDetails": []
+    "technicalMedia": [
+      {
+        "id": "illustrative-full-lite-geometric",
+        "label": "Door-context reference",
+        "description": "A dimensionless door view shows the documented full-door or sidelite design context.",
+        "availabilityNote": "Illustrative only; confirm the exact glass size, slab preparation and privacy character.",
+        "diagram": {
+          "kind": "door-glass",
+          "variant": "full-lite-geometric",
+          "ariaLabel": "Hammered Decorative Door Glass dimensionless illustrative configuration"
+        }
+      }
+    ],
+    "verifiedDetails": [
+      {
+        "label": "Documented size context",
+        "value": "22 x 48, 8 x 48, 22 x 64, 7 x 64"
+      },
+      {
+        "label": "Documented glass composition",
+        "value": "Beveled Screen, Kasumi, Niagara, and hammered glass"
+      },
+      {
+        "label": "Documented size context",
+        "value": "22 x 48, 8 x 48"
+      }
+    ]
   },
   {
     "publicReference": "WRP-G010",
@@ -2958,8 +3604,33 @@ export const generatedPublicProductShowrooms = [
         ]
       }
     ],
-    "technicalMedia": [],
-    "verifiedDetails": []
+    "technicalMedia": [
+      {
+        "id": "illustrative-full-lite-geometric",
+        "label": "Door-context reference",
+        "description": "A dimensionless door view shows the documented full-door or sidelite design context.",
+        "availabilityNote": "Illustrative only; confirm the exact glass size, slab preparation and privacy character.",
+        "diagram": {
+          "kind": "door-glass",
+          "variant": "full-lite-geometric",
+          "ariaLabel": "Contemporary Camed Door Glass dimensionless illustrative configuration"
+        }
+      }
+    ],
+    "verifiedDetails": [
+      {
+        "label": "Documented size context",
+        "value": "22 x 64, 7 x 64"
+      },
+      {
+        "label": "Documented glass composition",
+        "value": "Beveled Screen glass with 1 in caming"
+      },
+      {
+        "label": "Documented size context",
+        "value": "22 x 48, 8 x 48, 22 x 64, 7 x 64"
+      }
+    ]
   },
   {
     "publicReference": "WRP-G011",
@@ -3014,8 +3685,33 @@ export const generatedPublicProductShowrooms = [
         ]
       }
     ],
-    "technicalMedia": [],
-    "verifiedDetails": []
+    "technicalMedia": [
+      {
+        "id": "illustrative-sidelite-geometric",
+        "label": "Door-context reference",
+        "description": "A dimensionless door view shows the documented full-door or sidelite design context.",
+        "availabilityNote": "Illustrative only; confirm the exact glass size, slab preparation and privacy character.",
+        "diagram": {
+          "kind": "door-glass",
+          "variant": "sidelite-geometric",
+          "ariaLabel": "Narrow Sidelite Decorative Glass dimensionless illustrative configuration"
+        }
+      }
+    ],
+    "verifiedDetails": [
+      {
+        "label": "Documented size context",
+        "value": "22 x 17, 22 x 36, 22 x 48, 8 x 48, 20 x 64, 22 x 64, 7 x 64"
+      },
+      {
+        "label": "Documented glass composition",
+        "value": "Kasumi, beveled Screen, Corduroy, and clear Morocco glass"
+      },
+      {
+        "label": "Documented size context",
+        "value": "22 x 48, 8 x 48, 22 x 64, 7 x 64"
+      }
+    ]
   },
   {
     "publicReference": "WRP-G012",
@@ -3070,8 +3766,33 @@ export const generatedPublicProductShowrooms = [
         ]
       }
     ],
-    "technicalMedia": [],
-    "verifiedDetails": []
+    "technicalMedia": [
+      {
+        "id": "illustrative-full-lite-geometric",
+        "label": "Door-context reference",
+        "description": "A dimensionless door view shows the documented full-door or sidelite design context.",
+        "availabilityNote": "Illustrative only; confirm the exact glass size, slab preparation and privacy character.",
+        "diagram": {
+          "kind": "door-glass",
+          "variant": "full-lite-geometric",
+          "ariaLabel": "Organic Decorative Door Glass dimensionless illustrative configuration"
+        }
+      }
+    ],
+    "verifiedDetails": [
+      {
+        "label": "Documented size context",
+        "value": "22 x 17, 22 x 36, 8 x 36, 22 x 48, 8 x 48, 22 x 64, 7 x 64"
+      },
+      {
+        "label": "Documented glass composition",
+        "value": "Scribble, Kasumi or micro-granite, and gray soft wave glass"
+      },
+      {
+        "label": "Documented size context",
+        "value": "22 x 48, 8 x 48, 22 x 64, 7 x 64"
+      }
+    ]
   },
   {
     "publicReference": "WRP-P001",
@@ -3201,10 +3922,105 @@ export const generatedPublicProductShowrooms = [
             }
           }
         ]
+      },
+      {
+        "id": "layout",
+        "eyebrow": "Configurations",
+        "title": "See documented layout choices.",
+        "description": "These diagrams or renders show supported layout directions. Exact compatibility depends on opening size and the selected product.",
+        "options": [
+          {
+            "id": "configuration-view",
+            "label": "Configuration view",
+            "description": "Configuration view documented for this product family.",
+            "availabilityNote": "Availability and compatibility are confirmed for the measured opening.",
+            "media": {
+              "key": "configuration-1",
+              "alt": "Multi-Panel Sliding Patio Door: configuration view",
+              "intrinsicWidth": 2339,
+              "intrinsicHeight": 407,
+              "widths": [
+                360,
+                720,
+                1200
+              ]
+            }
+          },
+          {
+            "id": "panel-layout-view",
+            "label": "Panel-layout view",
+            "description": "Panel-layout view documented for this product family.",
+            "availabilityNote": "Availability and compatibility are confirmed for the measured opening.",
+            "media": {
+              "key": "configuration-2",
+              "alt": "Multi-Panel Sliding Patio Door: panel-layout view",
+              "intrinsicWidth": 674,
+              "intrinsicHeight": 572,
+              "widths": [
+                240,
+                480
+              ]
+            }
+          }
+        ]
       }
     ],
-    "technicalMedia": [],
-    "verifiedDetails": []
+    "technicalMedia": [
+      {
+        "id": "profile-detail",
+        "label": "Profile detail",
+        "description": "Profile detail documented for this product family.",
+        "availabilityNote": "Availability and compatibility are confirmed for the measured opening.",
+        "media": {
+          "key": "technical-1",
+          "alt": "Multi-Panel Sliding Patio Door: profile detail",
+          "intrinsicWidth": 1000,
+          "intrinsicHeight": 895,
+          "widths": [
+            320,
+            640
+          ]
+        }
+      },
+      {
+        "id": "construction-detail",
+        "label": "Construction detail",
+        "description": "Construction detail documented for this product family.",
+        "availabilityNote": "Availability and compatibility are confirmed for the measured opening.",
+        "media": {
+          "key": "technical-2",
+          "alt": "Multi-Panel Sliding Patio Door: construction detail",
+          "intrinsicWidth": 1536,
+          "intrinsicHeight": 1024,
+          "widths": [
+            360,
+            720,
+            1200
+          ]
+        }
+      },
+      {
+        "id": "illustrative-multi-panel",
+        "label": "Panel movement at a glance",
+        "description": "A dimensionless diagram distinguishes the documented two-panel or multi-panel direction.",
+        "availabilityNote": "Illustrative only; active panels, handing, sill and clear opening depend on the measured configuration.",
+        "diagram": {
+          "kind": "patio-door",
+          "variant": "multi-panel",
+          "ariaLabel": "Multi-Panel Sliding Patio Door dimensionless illustrative configuration"
+        }
+      }
+    ],
+    "verifiedDetails": [
+      {
+        "label": "Documented size context",
+        "value": "79 1/2 in standard height, 81 1/2 in standard height, 95 1/2 in standard height, Custom sizing available"
+      },
+      {
+        "label": "Documented configuration",
+        "value": "Standard two-, three-, and four-panel configurations"
+      }
+    ]
   },
   {
     "publicReference": "WRP-P002",
@@ -3333,10 +4149,105 @@ export const generatedPublicProductShowrooms = [
             }
           }
         ]
+      },
+      {
+        "id": "layout",
+        "eyebrow": "Configurations",
+        "title": "See documented layout choices.",
+        "description": "These diagrams or renders show supported layout directions. Exact compatibility depends on opening size and the selected product.",
+        "options": [
+          {
+            "id": "configuration-view",
+            "label": "Configuration view",
+            "description": "Configuration view documented for this product family.",
+            "availabilityNote": "Availability and compatibility are confirmed for the measured opening.",
+            "media": {
+              "key": "configuration-1",
+              "alt": "Two-Panel Sliding Patio Door: configuration view",
+              "intrinsicWidth": 2339,
+              "intrinsicHeight": 407,
+              "widths": [
+                360,
+                720,
+                1200
+              ]
+            }
+          },
+          {
+            "id": "panel-layout-view",
+            "label": "Panel-layout view",
+            "description": "Panel-layout view documented for this product family.",
+            "availabilityNote": "Availability and compatibility are confirmed for the measured opening.",
+            "media": {
+              "key": "configuration-2",
+              "alt": "Two-Panel Sliding Patio Door: panel-layout view",
+              "intrinsicWidth": 674,
+              "intrinsicHeight": 572,
+              "widths": [
+                240,
+                480
+              ]
+            }
+          }
+        ]
       }
     ],
-    "technicalMedia": [],
-    "verifiedDetails": []
+    "technicalMedia": [
+      {
+        "id": "profile-detail",
+        "label": "Profile detail",
+        "description": "Profile detail documented for this product family.",
+        "availabilityNote": "Availability and compatibility are confirmed for the measured opening.",
+        "media": {
+          "key": "technical-1",
+          "alt": "Two-Panel Sliding Patio Door: profile detail",
+          "intrinsicWidth": 1000,
+          "intrinsicHeight": 895,
+          "widths": [
+            320,
+            640
+          ]
+        }
+      },
+      {
+        "id": "construction-detail",
+        "label": "Construction detail",
+        "description": "Construction detail documented for this product family.",
+        "availabilityNote": "Availability and compatibility are confirmed for the measured opening.",
+        "media": {
+          "key": "technical-2",
+          "alt": "Two-Panel Sliding Patio Door: construction detail",
+          "intrinsicWidth": 1536,
+          "intrinsicHeight": 1024,
+          "widths": [
+            360,
+            720,
+            1200
+          ]
+        }
+      },
+      {
+        "id": "illustrative-two-panel",
+        "label": "Panel movement at a glance",
+        "description": "A dimensionless diagram distinguishes the documented two-panel or multi-panel direction.",
+        "availabilityNote": "Illustrative only; active panels, handing, sill and clear opening depend on the measured configuration.",
+        "diagram": {
+          "kind": "patio-door",
+          "variant": "two-panel",
+          "ariaLabel": "Two-Panel Sliding Patio Door dimensionless illustrative configuration"
+        }
+      }
+    ],
+    "verifiedDetails": [
+      {
+        "label": "Documented size context",
+        "value": "79 1/2 in standard height, 81 1/2 in standard height, 95 1/2 in standard height, Custom sizing available"
+      },
+      {
+        "label": "Documented configuration",
+        "value": "Standard two-, three-, and four-panel configurations"
+      }
+    ]
   },
   {
     "publicReference": "WRP-P003",
@@ -3472,7 +4383,7 @@ export const generatedPublicProductShowrooms = [
         "id": "finish",
         "eyebrow": "Finish and colour",
         "title": "Review documented finish directions.",
-        "description": "These verified finish or colour references apply to selected configurations. A current physical sample remains the best final colour check.",
+        "description": "These documented finish or colour references apply to selected configurations. A current physical sample remains the best final colour check.",
         "options": [
           {
             "id": "finish-option",
@@ -3495,7 +4406,7 @@ export const generatedPublicProductShowrooms = [
         "id": "layout",
         "eyebrow": "Configurations",
         "title": "See documented layout choices.",
-        "description": "These diagrams or renders show supported layout directions. Exact compatibility depends on opening size and the selected system.",
+        "description": "These diagrams or renders show supported layout directions. Exact compatibility depends on opening size and the selected product.",
         "options": [
           {
             "id": "configuration-view",
@@ -3516,7 +4427,19 @@ export const generatedPublicProductShowrooms = [
         ]
       }
     ],
-    "technicalMedia": [],
+    "technicalMedia": [
+      {
+        "id": "illustrative-two-panel",
+        "label": "Panel movement at a glance",
+        "description": "A dimensionless diagram distinguishes the documented two-panel or multi-panel direction.",
+        "availabilityNote": "Illustrative only; active panels, handing, sill and clear opening depend on the measured configuration.",
+        "diagram": {
+          "kind": "patio-door",
+          "variant": "two-panel",
+          "ariaLabel": "PVC Sliding Patio Door dimensionless illustrative configuration"
+        }
+      }
+    ],
     "verifiedDetails": []
   },
   {
@@ -3625,7 +4548,7 @@ export const generatedPublicProductShowrooms = [
         "id": "finish",
         "eyebrow": "Finish and colour",
         "title": "Review documented finish directions.",
-        "description": "These verified finish or colour references apply to selected configurations. A current physical sample remains the best final colour check.",
+        "description": "These documented finish or colour references apply to selected configurations. A current physical sample remains the best final colour check.",
         "options": [
           {
             "id": "finish-option",
@@ -3649,7 +4572,7 @@ export const generatedPublicProductShowrooms = [
         "id": "layout",
         "eyebrow": "Configurations",
         "title": "See documented layout choices.",
-        "description": "These diagrams or renders show supported layout directions. Exact compatibility depends on opening size and the selected system.",
+        "description": "These diagrams or renders show supported layout directions. Exact compatibility depends on opening size and the selected product.",
         "options": [
           {
             "id": "configuration-view",
@@ -3701,7 +4624,19 @@ export const generatedPublicProductShowrooms = [
         ]
       }
     ],
-    "technicalMedia": [],
+    "technicalMedia": [
+      {
+        "id": "illustrative-two-panel",
+        "label": "Panel movement at a glance",
+        "description": "A dimensionless diagram distinguishes the documented two-panel or multi-panel direction.",
+        "availabilityNote": "Illustrative only; active panels, handing, sill and clear opening depend on the measured configuration.",
+        "diagram": {
+          "kind": "patio-door",
+          "variant": "two-panel",
+          "ariaLabel": "Aluminum Sliding Patio Door dimensionless illustrative configuration"
+        }
+      }
+    ],
     "verifiedDetails": []
   },
   {
@@ -3810,7 +4745,7 @@ export const generatedPublicProductShowrooms = [
         "id": "finish",
         "eyebrow": "Finish and colour",
         "title": "Review documented finish directions.",
-        "description": "These verified finish or colour references apply to selected configurations. A current physical sample remains the best final colour check.",
+        "description": "These documented finish or colour references apply to selected configurations. A current physical sample remains the best final colour check.",
         "options": [
           {
             "id": "finish-option",
@@ -3890,7 +4825,19 @@ export const generatedPublicProductShowrooms = [
         ]
       }
     ],
-    "technicalMedia": [],
+    "technicalMedia": [
+      {
+        "id": "illustrative-two-panel",
+        "label": "Panel movement at a glance",
+        "description": "A dimensionless diagram distinguishes the documented two-panel or multi-panel direction.",
+        "availabilityNote": "Illustrative only; active panels, handing, sill and clear opening depend on the measured configuration.",
+        "diagram": {
+          "kind": "patio-door",
+          "variant": "two-panel",
+          "ariaLabel": "Hybrid Patio Door dimensionless illustrative configuration"
+        }
+      }
+    ],
     "verifiedDetails": []
   },
   {
@@ -3999,7 +4946,7 @@ export const generatedPublicProductShowrooms = [
         "id": "layout",
         "eyebrow": "Configurations",
         "title": "See documented layout choices.",
-        "description": "These diagrams or renders show supported layout directions. Exact compatibility depends on opening size and the selected system.",
+        "description": "These diagrams or renders show supported layout directions. Exact compatibility depends on opening size and the selected product.",
         "options": [
           {
             "id": "configuration-view",
@@ -4036,7 +4983,19 @@ export const generatedPublicProductShowrooms = [
         ]
       }
     ],
-    "technicalMedia": [],
+    "technicalMedia": [
+      {
+        "id": "illustrative-multi-panel",
+        "label": "Panel movement at a glance",
+        "description": "A dimensionless diagram distinguishes the documented two-panel or multi-panel direction.",
+        "availabilityNote": "Illustrative only; active panels, handing, sill and clear opening depend on the measured configuration.",
+        "diagram": {
+          "kind": "patio-door",
+          "variant": "multi-panel",
+          "ariaLabel": "Slim-Frame Aluminum Patio Door dimensionless illustrative configuration"
+        }
+      }
+    ],
     "verifiedDetails": []
   }
 ];

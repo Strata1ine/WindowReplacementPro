@@ -78,14 +78,33 @@ export type PublicShowroomOption = {
   label: string;
   description: string;
   availabilityNote: string;
-  media: PublicMedia;
+  media?: PublicMedia;
+  diagram?: {
+    kind: 'entry-door' | 'door-glass' | 'patio-door' | 'window';
+    variant: string;
+    ariaLabel: string;
+  };
+};
+
+export type PublicShowroomGroup = {
+  id: 'style' | 'glass' | 'finish' | 'layout' | 'hardware';
+  eyebrow: string;
+  title: string;
+  description: string;
+  options: PublicShowroomOption[];
 };
 
 export type PublicProductShowroom = {
   gallery: PublicMedia[];
-  groups: { id: string; eyebrow: string; title: string; description: string; options: PublicShowroomOption[] }[];
+  groups: PublicShowroomGroup[];
   technicalMedia: PublicShowroomOption[];
   verifiedDetails: { label: string; value: string }[];
+  privacyIndicator?: {
+    value: number;
+    max: 5;
+    label: 'Low' | 'Medium' | 'High';
+    note: string;
+  };
 };
 
 export type PublicProduct = {
@@ -246,10 +265,17 @@ const toPublicProduct = (record: PublicIdentityRecord): PublicProduct => {
     gallery: rawShowroom.gallery.map(media => buildShowroomMedia(record.publicReference, media)),
     groups: rawShowroom.groups.map(group => ({
       ...group,
-      options: group.options.map(item => ({ ...item, media: buildShowroomMedia(record.publicReference, item.media) }))
+      options: group.options.map(item => {
+        const { media, ...option } = item;
+        return { ...option, ...(media ? { media: buildShowroomMedia(record.publicReference, media) } : {}) };
+      })
     })),
-    technicalMedia: rawShowroom.technicalMedia.map(item => ({ ...item, media: buildShowroomMedia(record.publicReference, item.media) })),
-    verifiedDetails: rawShowroom.verifiedDetails
+    technicalMedia: rawShowroom.technicalMedia.map(item => {
+      const { media, ...option } = item;
+      return { ...option, ...(media ? { media: buildShowroomMedia(record.publicReference, media) } : {}) };
+    }),
+    verifiedDetails: rawShowroom.verifiedDetails,
+    ...(rawShowroom.privacyIndicator ? { privacyIndicator: rawShowroom.privacyIndicator } : {})
   } : null;
   return {
     displayName: record.publicDisplayName,

@@ -9,12 +9,19 @@ export type PublicShowroomMedia = {
   format?: 'webp' | 'jpg';
 };
 
+export type PublicShowroomDiagram = {
+  kind: 'entry-door' | 'door-glass' | 'patio-door' | 'window';
+  variant: string;
+  ariaLabel: string;
+};
+
 export type PublicShowroomOption = {
   id: string;
   label: string;
   description: string;
   availabilityNote: string;
-  media: PublicShowroomMedia;
+  media?: PublicShowroomMedia;
+  diagram?: PublicShowroomDiagram;
 };
 
 export type PublicShowroomGroup = {
@@ -31,6 +38,12 @@ export type PublicProductShowroom = {
   groups: PublicShowroomGroup[];
   technicalMedia: PublicShowroomOption[];
   verifiedDetails: { label: string; value: string }[];
+  privacyIndicator?: {
+    value: number;
+    max: 5;
+    label: 'Low' | 'Medium' | 'High';
+    note: string;
+  };
 };
 
 export const buildShowroomMedia = (reference: string, media: PublicShowroomMedia) => {
