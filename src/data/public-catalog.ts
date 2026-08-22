@@ -8,6 +8,11 @@ import mediaPlanRaw from './public-media-plan.json';
 import mappingsRaw from './internal/public-product-mappings.json';
 import { publicProductEditorial } from './public-product-editorial';
 import {
+  buildShowroomMedia,
+  publicProductShowroomByReference,
+  type PublicProductShowroom as RawPublicProductShowroom
+} from './public-product-showroom';
+import {
   isPublicIdentityApproved as policyApproves,
   validatePublicIdentity,
   type PublicIdentityContext,
@@ -68,6 +73,20 @@ export type PublicMedia = {
   height: number;
   alt: string;
 };
+export type PublicShowroomOption = {
+  id: string;
+  label: string;
+  description: string;
+  availabilityNote: string;
+  media: PublicMedia;
+};
+
+export type PublicProductShowroom = {
+  gallery: PublicMedia[];
+  groups: { id: string; eyebrow: string; title: string; description: string; options: PublicShowroomOption[] }[];
+  technicalMedia: PublicShowroomOption[];
+  verifiedDetails: { label: string; value: string }[];
+};
 
 export type PublicProduct = {
   displayName: string;
@@ -93,6 +112,7 @@ export type PublicProduct = {
   href: string;
   media: PublicMedia;
   gallery: PublicMedia[];
+  showroom: PublicProductShowroom | null;
 };
 
 const identities = identitiesRaw as PublicIdentityRecord[];
@@ -221,6 +241,16 @@ const toPublicProduct = (record: PublicIdentityRecord): PublicProduct => {
   if (!heroPlan) throw new TypeError('Public hero plan missing for ' + record.publicReference);
   const editorial = publicProductEditorial[record.publicReference];
   const replaceConsideration = (value: string) => editorial.considerationReplacements?.[value] ?? value;
+  const rawShowroom = publicProductShowroomByReference.get(record.publicReference) as RawPublicProductShowroom | undefined;
+  const showroom: PublicProductShowroom | null = rawShowroom ? {
+    gallery: rawShowroom.gallery.map(media => buildShowroomMedia(record.publicReference, media)),
+    groups: rawShowroom.groups.map(group => ({
+      ...group,
+      options: group.options.map(item => ({ ...item, media: buildShowroomMedia(record.publicReference, item.media) }))
+    })),
+    technicalMedia: rawShowroom.technicalMedia.map(item => ({ ...item, media: buildShowroomMedia(record.publicReference, item.media) })),
+    verifiedDetails: rawShowroom.verifiedDetails
+  } : null;
   return {
     displayName: record.publicDisplayName,
     slug: record.publicSlug,
@@ -244,7 +274,8 @@ const toPublicProduct = (record: PublicIdentityRecord): PublicProduct => {
     comparisonGuidance: editorial.comparisonGuidance,
     href: '/products/' + record.publicCategory + '/' + record.publicSlug + '/',
     media: buildPublicMedia(heroPlan),
-    gallery: recordPlans.filter(plan => plan.role === 'gallery').map(buildPublicMedia)
+    gallery: recordPlans.filter(plan => plan.role === 'gallery').map(buildPublicMedia),
+    showroom
   };
 };
 

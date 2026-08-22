@@ -1,16 +1,44 @@
 import { mkdir, readFile, readdir, unlink } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
 import path from 'node:path';
 import sharp from 'sharp';
+import { publicProductShowroomData } from '../src/data/public-product-showroom.ts';
 
 const root = process.cwd();
 const plan = JSON.parse(await readFile(path.join(root, 'src/data/public-media-plan.json'), 'utf8'));
 const contentPlan = JSON.parse(await readFile(path.join(root, 'src/data/internal/core-content-media-mappings.json'), 'utf8'));
 const selections = JSON.parse(await readFile(path.join(root, 'src/data/editorial/media-selections.json'), 'utf8'));
+const showroomMappings = JSON.parse(await readFile(path.join(root, 'src/data/internal/public-product-showroom-mappings.json'), 'utf8'));
 const selectionByProductId = new Map(selections.products.map(product => [product.productId, product]));
 const outputDirectory = path.join(root, 'public-site/media/products');
 const contentOutputDirectory = path.join(root, 'public-site/media/content');
 await mkdir(outputDirectory, { recursive: true });
 await mkdir(contentOutputDirectory, { recursive: true });
+const showroomPublicAssets = new Map();
+for (const showroom of publicProductShowroomData) {
+  const assets = [
+    ...showroom.gallery,
+    ...showroom.groups.flatMap(group => group.options.map(option => option.media)),
+    ...showroom.technicalMedia.map(option => option.media)
+  ];
+  for (const asset of assets) {
+    const compoundKey = showroom.publicReference + ':' + asset.key;
+    const previous = showroomPublicAssets.get(compoundKey);
+    if (previous && JSON.stringify(previous) !== JSON.stringify({ ...asset, publicReference: showroom.publicReference })) throw new TypeError('Conflicting public showroom asset definition: ' + compoundKey);
+    showroomPublicAssets.set(compoundKey, { ...asset, publicReference: showroom.publicReference });
+  }
+}
+
+const showroomInternalAssets = new Map();
+for (const mapping of showroomMappings) {
+  for (const asset of mapping.assets) {
+    const compoundKey = mapping.publicReference + ':' + asset.key;
+    if (showroomInternalAssets.has(compoundKey)) throw new TypeError('Duplicate internal showroom mapping: ' + compoundKey);
+    showroomInternalAssets.set(compoundKey, { ...asset, publicReference: mapping.publicReference });
+  }
+}
+for (const key of showroomPublicAssets.keys()) if (!showroomInternalAssets.has(key)) throw new TypeError('Public showroom asset lacks confidential provenance: ' + key);
+for (const key of showroomInternalAssets.keys()) if (!showroomPublicAssets.has(key)) throw new TypeError('Confidential showroom mapping lacks a public-safe asset: ' + key);
 
 const expectedOutputs = new Set(plan.flatMap(item => {
   const format = item.format ?? 'webp';
@@ -105,7 +133,79 @@ for (const item of contentPlan) {
   }
 }
 
+const showroomExpectedByReference = new Map();
+for (const asset of showroomPublicAssets.values()) {
+  const extension = asset.format ?? 'webp';
+  const expected = showroomExpectedByReference.get(asset.publicReference) ?? new Set();
+  for (const width of asset.widths) expected.add(asset.key + '-' + width + '.' + extension);
+  showroomExpectedByReference.set(asset.publicReference, expected);
+}
+
+let obsoleteShowroomRemoved = 0;
+for (const [publicReference, expected] of showroomExpectedByReference) {
+  const directory = path.join(outputDirectory, publicReference.toLowerCase());
+  await mkdir(directory, { recursive: true });
+  for (const file of await readdir(directory)) {
+    if (/^[a-z0-9-]+-\d+\.(?:webp|jpg)$/i.test(file) && !expected.has(file)) {
+      await unlink(path.join(directory, file));
+      obsoleteShowroomRemoved += 1;
+    }
+  }
+}
+
+const showroomHashesByReference = new Map();
+let showroomDerivativeCount = 0;
+for (const [compoundKey, publicAsset] of showroomPublicAssets) {
+  const internalAsset = showroomInternalAssets.get(compoundKey);
+  if (internalAsset.reviewStatus !== 'approved' || internalAsset.brandingReview !== 'clear') {
+    throw new TypeError('Showroom media requires approved editorial and branding review: ' + compoundKey);
+  }
+
+  let asset;
+  if (internalAsset.source.kind === 'editorial-selection') {
+    const product = selectionByProductId.get(internalAsset.source.productId);
+    const selected = product?.[internalAsset.source.selection];
+    asset = Array.isArray(selected) ? selected[internalAsset.source.selectionIndex ?? 0] : selected;
+    if (!asset?.localPath) throw new TypeError('Showroom selection cannot resolve ' + compoundKey);
+    if (asset.relationshipState !== internalAsset.relationshipState) throw new TypeError('Showroom relationship changed for ' + compoundKey);
+    for (const field of ['supplier', 'sourceUrl', 'sha256']) if (!asset[field]) throw new TypeError('Showroom selection lacks provenance ' + field + ': ' + compoundKey);
+  } else if (internalAsset.source.kind === 'direct-provenance') {
+    asset = { ...internalAsset.source, relationshipState: internalAsset.relationshipState };
+    if (!internalAsset.reviewRationale?.trim()) throw new TypeError('Shared direct showroom asset lacks review rationale: ' + compoundKey);
+    for (const field of ['supplier', 'sourceUrl', 'sha256', 'localPath']) if (!asset[field]) throw new TypeError('Direct showroom asset lacks provenance ' + field + ': ' + compoundKey);
+  } else {
+    throw new TypeError('Unknown showroom source kind: ' + compoundKey);
+  }
+
+  const sourcePath = path.join(root, 'public', asset.localPath.replace(/^\//, ''));
+  const sourceBytes = await readFile(sourcePath);
+  const sourceHash = createHash('sha256').update(sourceBytes).digest('hex');
+  if (sourceHash !== asset.sha256) throw new TypeError('Showroom source checksum changed: ' + compoundKey);
+  const knownHashes = showroomHashesByReference.get(publicAsset.publicReference) ?? new Set();
+  if (knownHashes.has(sourceHash)) throw new TypeError('Duplicate showroom binary within ' + publicAsset.publicReference + ': ' + publicAsset.key);
+  knownHashes.add(sourceHash);
+  showroomHashesByReference.set(publicAsset.publicReference, knownHashes);
+
+  const metadata = await sharp(sourceBytes).metadata();
+  if (metadata.width !== publicAsset.intrinsicWidth || metadata.height !== publicAsset.intrinsicHeight) {
+    throw new TypeError('Showroom media dimensions changed for ' + compoundKey + ': ' + metadata.width + 'x' + metadata.height);
+  }
+  const directory = path.join(outputDirectory, publicAsset.publicReference.toLowerCase());
+  for (const width of publicAsset.widths) {
+    const format = publicAsset.format ?? 'webp';
+    const outputPath = path.join(directory, publicAsset.key + '-' + width + '.' + format);
+    const encoder = sharp(sourceBytes).rotate().resize({ width, withoutEnlargement: true });
+    if (format === 'jpg') encoder.jpeg({ quality: 86, mozjpeg: true });
+    else encoder.webp({ quality: 82, smartSubsample: true });
+    await encoder.toFile(outputPath);
+    const outputMetadata = await sharp(outputPath).metadata();
+    if (outputMetadata.width !== width) throw new TypeError('Showroom width descriptor mismatch: ' + outputPath);
+    for (const field of ['exif', 'icc', 'iptc', 'xmp']) if (outputMetadata[field]) throw new TypeError('Showroom derivative retained ' + field + ': ' + outputPath);
+    showroomDerivativeCount += 1;
+  }
+}
 const heroCount = plan.filter(item => item.role === 'hero').length;
 const galleryCount = plan.filter(item => item.role === 'gallery').length;
 console.log('Built ' + plan.reduce((count, item) => count + item.widths.length, 0) + ' neutral public image derivatives for ' + heroCount + ' heroes and ' + galleryCount + ' gallery assets; removed ' + obsoleteRemoved + ' obsolete neutral derivatives.');
 console.log('Built ' + contentDerivativeCount + ' neutral authority-content derivatives from ' + contentOutputHashes.size + ' verified binaries; removed ' + obsoleteContentRemoved + ' obsolete content derivatives.');
+console.log('Built ' + showroomDerivativeCount + ' neutral showroom derivatives from ' + showroomPublicAssets.size + ' verified assets; removed ' + obsoleteShowroomRemoved + ' obsolete showroom derivatives.');

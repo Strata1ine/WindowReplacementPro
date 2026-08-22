@@ -1,0 +1,2901 @@
+[
+  {
+    "publicReference": "WRP-D003",
+    "assets": [
+      {
+        "key": "style-two-panel",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "richersons:wg20",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "style-option",
+        "associatedOption": "two-panel",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "style-three-panel",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "richersons:wg3b",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "style-option",
+        "associatedOption": "three-panel",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "style-four-panel",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "richersons:wg46",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "style-option",
+        "associatedOption": "four-panel",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "style-six-panel",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "richersons:wg68",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "style-option",
+        "associatedOption": "six-panel",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "style-vertical-plank",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "richersons:wgf0",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "style-option",
+        "associatedOption": "vertical-plank",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "glass-half-lite",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "richersons:wg23",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "glass-option",
+        "associatedOption": "half-lite",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "glass-three-quarter-lite",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "richersons:wg25",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "glass-option",
+        "associatedOption": "three-quarter-lite",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "glass-narrow-lite",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "richersons:wgnl",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "glass-option",
+        "associatedOption": "narrow-lite",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "glass-reeded-lite",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "mennie-canada:wg-rgp",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "glass-option",
+        "associatedOption": "reeded-lite",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "grain-closeup",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "mennie-canada:wg-1p",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "surface-detail",
+        "associatedOption": "grain-detail",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "finish-oak-texture",
+        "source": {
+          "kind": "direct-provenance",
+          "supplier": "richersons",
+          "localPath": "/images/catalog/richersons/fiberglassfinishes-swatch-texturedwoodgrain-oak-14c4bb83b6eb.png",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/5b3ceff196e76fd052494def/1567703842496-I76O8FG1YARY0QQL6M1G/FiberglassFinishes_Swatch_TexturedWoodgrain_OAK.png",
+          "sourcePageUrls": [
+            "https://www.richersonsdoors.com/why-fiberglass"
+          ],
+          "sha256": "170b078dca62b1871ec3170b366ec565304bed533c0b66ec53bb84dbf1397917"
+        },
+        "relationshipState": "supplier-shared",
+        "publicRole": "finish-reference",
+        "associatedOption": "oak-texture",
+        "reviewStatus": "approved",
+        "brandingReview": "clear",
+        "reviewRationale": "Unbranded verified oak-texture swatch used only as a texture reference; final colour is not implied."
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-W001",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:hc-101",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "compact-casement-profile",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:wc-100",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "classic-casement-profile",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "vinyl-pro:casement",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "alternate-casement-profile",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "technical-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:hc-101",
+          "selection": "technicalMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "technical-option",
+        "associatedOption": "profile-detail",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "technical-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "vinyl-pro:casement",
+          "selection": "technicalMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "technical-option",
+        "associatedOption": "construction-detail",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "technical-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "vinyl-pro:casement",
+          "selection": "technicalMedia",
+          "selectionIndex": 1
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "technical-option",
+        "associatedOption": "operating-detail",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-W002",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:hc-401",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "deep-frame-casement",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:wc-400",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "reinforced-casement-profile",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "vinyl-pro:4-9-16-casement",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "replacement-depth-casement",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "technical-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:hc-401",
+          "selection": "technicalMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "technical-option",
+        "associatedOption": "profile-detail",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "technical-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:hc-401",
+          "selection": "technicalMedia",
+          "selectionIndex": 1
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "technical-option",
+        "associatedOption": "construction-detail",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "technical-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:wc-400",
+          "selection": "technicalMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "technical-option",
+        "associatedOption": "operating-detail",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-W003",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:hc-126",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "compact-awning-profile",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:wc-125",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "classic-awning-profile",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:hc-426",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "deep-frame-awning",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-4",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:wc-425",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "alternate-awning-profile",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "technical-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:hc-126",
+          "selection": "technicalMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "technical-option",
+        "associatedOption": "profile-detail",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "technical-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:wc-125",
+          "selection": "technicalMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "technical-option",
+        "associatedOption": "construction-detail",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "technical-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:hc-426",
+          "selection": "technicalMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "technical-option",
+        "associatedOption": "operating-detail",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-W004",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "vinyl-pro:double-hung",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "double-sash-configuration",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:wc-251",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "alternate-double-hung-profile",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "vinyl-pro:double-hung",
+          "selection": "galleryMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "additional-product-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "technical-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:wc-251",
+          "selection": "technicalMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "technical-option",
+        "associatedOption": "profile-detail",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-W005",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:wc-201",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "single-sash-configuration",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "technical-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:wc-201",
+          "selection": "technicalMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "technical-option",
+        "associatedOption": "profile-detail",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-W006",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "vinyl-pro:double-slider",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "classic-double-slider",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:wc-250",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "compact-double-slider",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:wc-350",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "deep-frame-double-slider",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "vinyl-pro:double-slider",
+          "selection": "galleryMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "additional-product-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "technical-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:wc-250",
+          "selection": "technicalMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "technical-option",
+        "associatedOption": "profile-detail",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "technical-4",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:wc-250",
+          "selection": "technicalMedia",
+          "selectionIndex": 1
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "technical-option",
+        "associatedOption": "construction-detail",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "technical-5",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:wc-350",
+          "selection": "technicalMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "technical-option",
+        "associatedOption": "operating-detail",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-W007",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:wc-200",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "single-slider",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:wc-325",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "deep-frame-single-slider",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "technical-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:wc-325",
+          "selection": "technicalMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "technical-option",
+        "associatedOption": "profile-detail",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-W008",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "vinyl-pro:picture-window",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "picture-window-profile",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "vinyl-pro:picture-window",
+          "selection": "galleryMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "additional-product-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "technical-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "vinyl-pro:picture-window",
+          "selection": "technicalMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "technical-option",
+        "associatedOption": "profile-detail",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "technical-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "vinyl-pro:picture-window",
+          "selection": "technicalMedia",
+          "selectionIndex": 1
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "technical-option",
+        "associatedOption": "construction-detail",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-W009",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:hc-176",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "compact-fixed-casement",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:wc-175",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "classic-fixed-casement",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "vinyl-pro:fixed-casement",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "alternate-fixed-casement",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "vinyl-pro:fixed-casement",
+          "selection": "galleryMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "additional-product-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "technical-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:hc-176",
+          "selection": "technicalMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "technical-option",
+        "associatedOption": "profile-detail",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "technical-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:hc-176",
+          "selection": "technicalMedia",
+          "selectionIndex": 1
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "technical-option",
+        "associatedOption": "construction-detail",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "technical-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:hc-176",
+          "selection": "technicalMedia",
+          "selectionIndex": 2
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "technical-option",
+        "associatedOption": "operating-detail",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-W010",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:hc-451",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "slim-fixed-profile",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:wc-450",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "classic-fixed-profile",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:hc-151",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "compact-fixed-profile",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-4",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:wc-150",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "alternate-fixed-profile",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "technical-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:hc-451",
+          "selection": "technicalMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "technical-option",
+        "associatedOption": "profile-detail",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "technical-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:hc-451",
+          "selection": "technicalMedia",
+          "selectionIndex": 1
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "technical-option",
+        "associatedOption": "construction-detail",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "technical-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "window-city:hc-451",
+          "selection": "technicalMedia",
+          "selectionIndex": 2
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "technical-option",
+        "associatedOption": "operating-detail",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-D001",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "masonite:2-panel-hollister",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "two-panel",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "masonite:square-2-panel",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "square-two-panel",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "trimlite:drf2k",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "woodgrain-two-panel",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-4",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "trimlite:drs2k",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "smooth-two-panel",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-D002",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "mennie-canada:sm-f",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "smooth-flush",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "richersons:sg00",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "clean-flush",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "trimlite:drs1k",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "single-panel-smooth",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "mennie-canada:sm-f",
+          "selection": "galleryMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "additional-product-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "mennie-canada:sm-f",
+          "selection": "galleryMedia",
+          "selectionIndex": 1
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "alternate-product-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-D004",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "mennie-canada:mah-f",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "mahogany-flush",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "mennie-canada:mah-2d",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "mahogany-two-panel",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "trimlite:drf1k",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "woodgrain-one-panel",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "mennie-canada:mah-f",
+          "selection": "galleryMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "additional-product-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "mennie-canada:mah-2d",
+          "selection": "galleryMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "alternate-product-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "mennie-canada:mah-2d",
+          "selection": "galleryMedia",
+          "selectionIndex": 1
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "detail-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-D005",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "mennie-canada:mah-crf",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "woodgrain-craftsman",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "mennie-canada:sm-crf",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "smooth-craftsman",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "mennie-canada:mah-crf",
+          "selection": "galleryMedia",
+          "selectionIndex": 1
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "additional-product-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "mennie-canada:sm-crf",
+          "selection": "galleryMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "alternate-product-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-D006",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "masonite:6-panel",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "moulded-six-panel",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "richersons:sg68",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "smooth-six-panel",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "richersons:wg68",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "oak-grain-six-panel",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-4",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "mennie-canada:sm-6p",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "classic-six-panel",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "mennie-canada:sm-6p",
+          "selection": "galleryMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "additional-product-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "mennie-canada:sm-6p",
+          "selection": "galleryMedia",
+          "selectionIndex": 1
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "alternate-product-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-D007",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "masonite:full-lite",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "full-glass",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "masonite:vistagrande-flush-glazed-full-lite",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "flush-glazed-full-glass",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-D008",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "masonite:2-panel-1-2-lite",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "two-panel-half-glass",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "richersons:sg20",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "smooth-half-glass",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "richersons:wg23",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "oak-grain-half-glass",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-D009",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "masonite:vistagrande-flush-glazed-3-4-lite",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "flush-glazed-three-quarter-glass",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "richersons:sg25",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "smooth-three-quarter-glass",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "richersons:wg25",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "oak-grain-three-quarter-glass",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-D010",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "richersons:sgnl",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "smooth-narrow-glass",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "richersons:wgnl",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "oak-grain-narrow-glass",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-D011",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "mennie-canada:sm-4pbt",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "smooth-four-panel",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "richersons:sg46",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "clean-four-panel",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "richersons:wg46",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "oak-grain-four-panel",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "mennie-canada:sm-4pbt",
+          "selection": "galleryMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "additional-product-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "mennie-canada:sm-4pbt",
+          "selection": "galleryMedia",
+          "selectionIndex": 1
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "alternate-product-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-D012",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "trimlite:drf1k",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "woodgrain-one-panel",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-G001",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:infinite-black",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "black-linear-pattern",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:infinite-black",
+          "selection": "galleryMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "additional-product-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:infinite-black",
+          "selection": "galleryMedia",
+          "selectionIndex": 1
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "alternate-product-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:infinite-black",
+          "selection": "galleryMedia",
+          "selectionIndex": 2
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "detail-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-4",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:infinite-black",
+          "selection": "galleryMedia",
+          "selectionIndex": 3
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "installed-context-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-5",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:infinite-black",
+          "selection": "galleryMedia",
+          "selectionIndex": 4
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "interior-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-6",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:infinite-black",
+          "selection": "galleryMedia",
+          "selectionIndex": 5
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "exterior-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-G002",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:rubik",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "geometric-privacy-pattern",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:rubik",
+          "selection": "galleryMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "additional-product-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:rubik",
+          "selection": "galleryMedia",
+          "selectionIndex": 1
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "alternate-product-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:rubik",
+          "selection": "galleryMedia",
+          "selectionIndex": 2
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "detail-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-4",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:rubik",
+          "selection": "galleryMedia",
+          "selectionIndex": 3
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "installed-context-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-5",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:rubik",
+          "selection": "galleryMedia",
+          "selectionIndex": 4
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "interior-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-6",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:rubik",
+          "selection": "galleryMedia",
+          "selectionIndex": 5
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "exterior-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-G003",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:equation",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "frosted-privacy-pattern",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:equation",
+          "selection": "galleryMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "additional-product-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:equation",
+          "selection": "galleryMedia",
+          "selectionIndex": 1
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "alternate-product-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:equation",
+          "selection": "galleryMedia",
+          "selectionIndex": 2
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "detail-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-4",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:equation",
+          "selection": "galleryMedia",
+          "selectionIndex": 3
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "installed-context-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-5",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:equation",
+          "selection": "galleryMedia",
+          "selectionIndex": 4
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "interior-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-6",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:equation",
+          "selection": "galleryMedia",
+          "selectionIndex": 5
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "exterior-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-G004",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "verre-select:cbg",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "clear-zone-geometry",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "verre-select:cyndi",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "soft-clear-zone-pattern",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "verre-select:fragrance",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "curved-clear-zone-pattern",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-G005",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "verre-select:java",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "linear-privacy-pattern",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "verre-select:cadence",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "fine-linear-pattern",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-G006",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "verre-select:wide-reed",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "wide-reed-texture",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "verre-select:rill",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "fine-reed-texture",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-G007",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "verre-select:waterside",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "flowing-clear-pattern",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "verre-select:crosswalk",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "crossed-clear-pattern",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "verre-select:naomie",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "soft-geometric-pattern",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-G008",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "verre-select:paris",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "traditional-beveled-pattern",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "verre-select:venus",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "curved-beveled-pattern",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "verre-select:epic",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "geometric-beveled-pattern",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-G009",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "verre-select:renoir",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "hammered-texture",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "verre-select:rodin",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "sculpted-texture",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "verre-select:pixel",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "pixel-texture",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-G010",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "verre-select:quattro",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "contemporary-camed-pattern",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "verre-select:endrick",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "angular-camed-pattern",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-G011",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "verre-select:whistler",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "narrow-sidelite-pattern",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "verre-select:amadeus",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "narrow-decorative-pattern",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-G012",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "verre-select:dorian",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "organic-decorative-pattern",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "verre-select:amadeus",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "flowing-organic-pattern",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-P001",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "oceanview:premium-plus",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "performance-multi-panel",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "oceanview:premium",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "standard-multi-panel",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "oceanview:essential",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "compact-multi-panel",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "oceanview:premium-plus",
+          "selection": "galleryMedia",
+          "selectionIndex": 1
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "additional-product-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "oceanview:premium-plus",
+          "selection": "galleryMedia",
+          "selectionIndex": 2
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "alternate-product-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-5",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "oceanview:premium",
+          "selection": "galleryMedia",
+          "selectionIndex": 1
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "detail-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-6",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "oceanview:premium",
+          "selection": "galleryMedia",
+          "selectionIndex": 2
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "installed-context-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-P002",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "oceanview:essential",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "compact-two-panel",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "oceanview:premium",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "standard-two-panel",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "oceanview:premium-plus",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "performance-two-panel",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "oceanview:essential",
+          "selection": "galleryMedia",
+          "selectionIndex": 1
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "additional-product-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "oceanview:essential",
+          "selection": "galleryMedia",
+          "selectionIndex": 2
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "alternate-product-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-5",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "oceanview:premium",
+          "selection": "galleryMedia",
+          "selectionIndex": 1
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "detail-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-6",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "oceanview:premium",
+          "selection": "galleryMedia",
+          "selectionIndex": 2
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "installed-context-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-P003",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:540",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "standard-pvc-system",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:630",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "deep-frame-pvc-system",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:650",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "enhanced-pvc-system",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:540",
+          "selection": "galleryMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "additional-product-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:540",
+          "selection": "galleryMedia",
+          "selectionIndex": 1
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "alternate-product-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:630",
+          "selection": "galleryMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "detail-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-4",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:630",
+          "selection": "galleryMedia",
+          "selectionIndex": 1
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "installed-context-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "finish-6",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:650",
+          "selection": "finishMedia",
+          "selectionIndex": 4
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "finish-option",
+        "associatedOption": "finish-option",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "configuration-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:540",
+          "selection": "configurationMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "configuration-option",
+        "associatedOption": "configuration-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-P004",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:2900",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "narrow-aluminum-frame",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:studio",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "large-opening-aluminum-frame",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:2900",
+          "selection": "galleryMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "additional-product-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:2900",
+          "selection": "galleryMedia",
+          "selectionIndex": 1
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "alternate-product-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:2900",
+          "selection": "galleryMedia",
+          "selectionIndex": 2
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "detail-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-4",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:studio",
+          "selection": "galleryMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "installed-context-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "finish-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:2900",
+          "selection": "finishMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "finish-option",
+        "associatedOption": "finish-option",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "configuration-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:studio",
+          "selection": "configurationMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "configuration-option",
+        "associatedOption": "configuration-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "configuration-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:studio",
+          "selection": "configurationMedia",
+          "selectionIndex": 1
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "configuration-option",
+        "associatedOption": "panel-layout-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "configuration-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:studio",
+          "selection": "configurationMedia",
+          "selectionIndex": 2
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "configuration-option",
+        "associatedOption": "opening-layout-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-P005",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:element",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "aluminum-clad-hybrid",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:550",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "wood-composite-hybrid",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:element",
+          "selection": "galleryMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "additional-product-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:element",
+          "selection": "galleryMedia",
+          "selectionIndex": 1
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "alternate-product-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:element",
+          "selection": "galleryMedia",
+          "selectionIndex": 2
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "detail-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-4",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:element",
+          "selection": "galleryMedia",
+          "selectionIndex": 3
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "installed-context-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "finish-5",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:element",
+          "selection": "finishMedia",
+          "selectionIndex": 4
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "finish-option",
+        "associatedOption": "finish-option",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "finish-6",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:element",
+          "selection": "finishMedia",
+          "selectionIndex": 5
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "finish-option",
+        "associatedOption": "colour-option",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "finish-7",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:element",
+          "selection": "finishMedia",
+          "selectionIndex": 6
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "finish-option",
+        "associatedOption": "hardware-finish",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "finish-8",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:element",
+          "selection": "finishMedia",
+          "selectionIndex": 7
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "finish-option",
+        "associatedOption": "surface-option",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "finish-9",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:element",
+          "selection": "finishMedia",
+          "selectionIndex": 8
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "finish-option",
+        "associatedOption": "alternate-finish",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  },
+  {
+    "publicReference": "WRP-P006",
+    "assets": [
+      {
+        "key": "primary-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:loft",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "lift-and-slide-slim-frame",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "primary-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:urbania",
+          "selection": "heroMedia"
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "primary-option",
+        "associatedOption": "contemporary-slim-frame",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:loft",
+          "selection": "galleryMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "additional-product-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:loft",
+          "selection": "galleryMedia",
+          "selectionIndex": 1
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "alternate-product-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-3",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:loft",
+          "selection": "galleryMedia",
+          "selectionIndex": 2
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "detail-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "gallery-4",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:loft",
+          "selection": "galleryMedia",
+          "selectionIndex": 3
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "gallery-option",
+        "associatedOption": "installed-context-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "configuration-1",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:loft",
+          "selection": "configurationMedia",
+          "selectionIndex": 0
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "configuration-option",
+        "associatedOption": "configuration-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      },
+      {
+        "key": "configuration-2",
+        "source": {
+          "kind": "editorial-selection",
+          "productId": "novatech:loft",
+          "selection": "configurationMedia",
+          "selectionIndex": 1
+        },
+        "relationshipState": "product-specific",
+        "publicRole": "configuration-option",
+        "associatedOption": "panel-layout-view",
+        "reviewStatus": "approved",
+        "brandingReview": "clear"
+      }
+    ]
+  }
+]

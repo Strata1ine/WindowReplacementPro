@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-22T00:56:51.061Z",
-  "screenshotDirectory": "temporary runtime directory",
+  "generatedAt": "2026-08-22T05:54:54.001Z",
+  "screenshotDirectory": "configured output directory",
   "routesReviewed": 22,
   "viewports": [
     390,
@@ -12,18 +12,45 @@
       "route": "/products/windows/single-hung-window/",
       "viewport": 390,
       "contentWidth": 390,
-      "contentHeight": 9648,
+      "contentHeight": 11369,
       "screenshot": "mobile/single-hung.jpg",
       "title": "Single-Hung Window | Window Replacement Pro",
       "h1": "Single-Hung Window",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-w005-1200.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-w005-480.webp",
       "heroAlt": "White single-hung replacement window with one sliding sash",
-      "heroNaturalWidth": 1200,
-      "heroNaturalHeight": 800,
+      "heroNaturalWidth": 389,
+      "heroNaturalHeight": 259,
       "editorialFragments": 20,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 1,
+      "galleryCount": 1,
+      "galleryThumbs": 0,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 118.65625,
+          "width": 390,
+          "height": 1478.90625
+        },
+        "style": {
+          "x": 0,
+          "y": 1597.5625,
+          "width": 390,
+          "height": 939.375
+        },
+        "finish": null,
+        "glass": null,
+        "entrance-configuration": {
+          "x": 0,
+          "y": 3303.3125,
+          "width": 390,
+          "height": 1160.90625
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -33,18 +60,45 @@
       "route": "/products/windows/single-slider-window/",
       "viewport": 390,
       "contentWidth": 390,
-      "contentHeight": 9570,
+      "contentHeight": 11410,
       "screenshot": "mobile/single-slider.jpg",
       "title": "Single Slider Window | Window Replacement Pro",
       "h1": "Single Slider Window",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-w007-1200.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-w007-480.webp",
       "heroAlt": "White single slider replacement window with one operating sash",
-      "heroNaturalWidth": 1200,
-      "heroNaturalHeight": 461,
+      "heroNaturalWidth": 389,
+      "heroNaturalHeight": 150,
       "editorialFragments": 20,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 2,
+      "galleryCount": 1,
+      "galleryThumbs": 2,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 118.65625,
+          "width": 390,
+          "height": 1546.625
+        },
+        "style": {
+          "x": 0,
+          "y": 1665.28125,
+          "width": 390,
+          "height": 963.125
+        },
+        "finish": null,
+        "glass": null,
+        "entrance-configuration": {
+          "x": 0,
+          "y": 3394.78125,
+          "width": 390,
+          "height": 1110.796875
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -54,18 +108,45 @@
       "route": "/products/windows/double-hung-window/",
       "viewport": 390,
       "contentWidth": 390,
-      "contentHeight": 10332,
+      "contentHeight": 11486,
       "screenshot": "mobile/double-hung.jpg",
       "title": "Double-Hung Window | Window Replacement Pro",
       "h1": "Double-Hung Window",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-w004-1200.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-w004-480.webp",
       "heroAlt": "White double-hung replacement window with two sliding sashes",
-      "heroNaturalWidth": 1200,
-      "heroNaturalHeight": 1200,
-      "editorialFragments": 21,
+      "heroNaturalWidth": 389,
+      "heroNaturalHeight": 389,
+      "editorialFragments": 20,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 2,
+      "galleryCount": 1,
+      "galleryThumbs": 3,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 118.65625,
+          "width": 390,
+          "height": 1546.625
+        },
+        "style": {
+          "x": 0,
+          "y": 1665.28125,
+          "width": 390,
+          "height": 984.859375
+        },
+        "finish": null,
+        "glass": null,
+        "entrance-configuration": {
+          "x": 0,
+          "y": 3416.515625,
+          "width": 390,
+          "height": 1182.515625
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -75,18 +156,45 @@
       "route": "/products/windows/double-slider-window/",
       "viewport": 390,
       "contentWidth": 390,
-      "contentHeight": 10330,
+      "contentHeight": 12402,
       "screenshot": "mobile/double-slider.jpg",
       "title": "Double Slider Window | Window Replacement Pro",
       "h1": "Double Slider Window",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-w006-1200.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-w006-480.webp",
       "heroAlt": "White double slider replacement window with two operating sashes",
-      "heroNaturalWidth": 1200,
-      "heroNaturalHeight": 1200,
-      "editorialFragments": 21,
+      "heroNaturalWidth": 389,
+      "heroNaturalHeight": 389,
+      "editorialFragments": 20,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 3,
+      "galleryCount": 1,
+      "galleryThumbs": 4,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 118.65625,
+          "width": 390,
+          "height": 1546.625
+        },
+        "style": {
+          "x": 0,
+          "y": 1665.28125,
+          "width": 390,
+          "height": 984.859375
+        },
+        "finish": null,
+        "glass": null,
+        "entrance-configuration": {
+          "x": 0,
+          "y": 4334.703125,
+          "width": 390,
+          "height": 1139.296875
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -96,18 +204,45 @@
       "route": "/products/windows/slim-frame-casement-window/",
       "viewport": 390,
       "contentWidth": 390,
-      "contentHeight": 9605,
+      "contentHeight": 12385,
       "screenshot": "mobile/slim-casement.jpg",
       "title": "Slim-Frame Casement Window | Window Replacement Pro",
       "h1": "Slim-Frame Casement Window",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-w001-1200.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-w001-480.webp",
       "heroAlt": "White slim-frame casement replacement window",
-      "heroNaturalWidth": 1200,
-      "heroNaturalHeight": 800,
+      "heroNaturalWidth": 389,
+      "heroNaturalHeight": 259,
       "editorialFragments": 20,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 3,
+      "galleryCount": 1,
+      "galleryThumbs": 3,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 118.65625,
+          "width": 390,
+          "height": 1546.625
+        },
+        "style": {
+          "x": 0,
+          "y": 1665.28125,
+          "width": 390,
+          "height": 984.859375
+        },
+        "finish": null,
+        "glass": null,
+        "entrance-configuration": {
+          "x": 0,
+          "y": 4334.703125,
+          "width": 390,
+          "height": 1175.625
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -117,18 +252,45 @@
       "route": "/products/windows/high-performance-casement-window/",
       "viewport": 390,
       "contentWidth": 390,
-      "contentHeight": 10006,
+      "contentHeight": 12786,
       "screenshot": "mobile/performance-casement.jpg",
       "title": "High-Performance Casement Window | Window Replacement Pro",
       "h1": "High-Performance Casement Window",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-w002-1200.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-w002-480.webp",
       "heroAlt": "Deep-frame white casement replacement window",
-      "heroNaturalWidth": 1200,
-      "heroNaturalHeight": 800,
+      "heroNaturalWidth": 389,
+      "heroNaturalHeight": 259,
       "editorialFragments": 22,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 3,
+      "galleryCount": 1,
+      "galleryThumbs": 3,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 140.3125,
+          "width": 390,
+          "height": 1679.1875
+        },
+        "style": {
+          "x": 0,
+          "y": 1819.5,
+          "width": 390,
+          "height": 984.859375
+        },
+        "finish": null,
+        "glass": null,
+        "entrance-configuration": {
+          "x": 0,
+          "y": 4488.921875,
+          "width": 390,
+          "height": 1182.515625
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -138,18 +300,45 @@
       "route": "/products/entry-doors/two-panel-fiberglass-entry-door/",
       "viewport": 390,
       "contentWidth": 390,
-      "contentHeight": 9366,
+      "contentHeight": 10388,
       "screenshot": "mobile/two-panel-door.jpg",
       "title": "Two-Panel Fiberglass Entry Door | Window Replacement Pro",
       "h1": "Two-Panel Fiberglass Entry Door",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-d001-309.jpg",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-d001-309.jpg",
       "heroAlt": "White two-panel fiberglass entry door",
-      "heroNaturalWidth": 309,
-      "heroNaturalHeight": 700,
+      "heroNaturalWidth": 390,
+      "heroNaturalHeight": 883,
       "editorialFragments": 19,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 4,
+      "galleryCount": 1,
+      "galleryThumbs": 4,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 118.65625,
+          "width": 390,
+          "height": 1619
+        },
+        "style": {
+          "x": 0,
+          "y": 1737.65625,
+          "width": 390,
+          "height": 910.875
+        },
+        "finish": null,
+        "glass": null,
+        "entrance-configuration": {
+          "x": 0,
+          "y": 2648.53125,
+          "width": 390,
+          "height": 1182.515625
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -159,18 +348,45 @@
       "route": "/products/entry-doors/four-panel-fiberglass-entry-door/",
       "viewport": 390,
       "contentWidth": 390,
-      "contentHeight": 9507,
+      "contentHeight": 10529,
       "screenshot": "mobile/four-panel-door.jpg",
       "title": "Four-Panel Fiberglass Entry Door | Window Replacement Pro",
       "h1": "Four-Panel Fiberglass Entry Door",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-d011-360.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-d011-360.webp",
       "heroAlt": "Four-panel fiberglass entry door",
-      "heroNaturalWidth": 360,
-      "heroNaturalHeight": 806,
+      "heroNaturalWidth": 390,
+      "heroNaturalHeight": 873,
       "editorialFragments": 20,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 3,
+      "galleryCount": 1,
+      "galleryThumbs": 5,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 118.65625,
+          "width": 390,
+          "height": 1590.71875
+        },
+        "style": {
+          "x": 0,
+          "y": 1709.375,
+          "width": 390,
+          "height": 910.875
+        },
+        "finish": null,
+        "glass": null,
+        "entrance-configuration": {
+          "x": 0,
+          "y": 2620.25,
+          "width": 390,
+          "height": 1132.40625
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -180,18 +396,45 @@
       "route": "/products/entry-doors/traditional-six-panel-fiberglass-entry-door/",
       "viewport": 390,
       "contentWidth": 390,
-      "contentHeight": 9467,
+      "contentHeight": 10489,
       "screenshot": "mobile/six-panel-door.jpg",
       "title": "Traditional Six-Panel Fiberglass Entry Door | Window Replacement Pro",
       "h1": "Traditional Six-Panel Fiberglass Entry Door",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-d006-1200.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-d006-480.webp",
       "heroAlt": "Traditional six-panel fiberglass entry door",
-      "heroNaturalWidth": 1200,
-      "heroNaturalHeight": 1200,
+      "heroNaturalWidth": 389,
+      "heroNaturalHeight": 389,
       "editorialFragments": 20,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 4,
+      "galleryCount": 1,
+      "galleryThumbs": 6,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 118.65625,
+          "width": 390,
+          "height": 1562.4375
+        },
+        "style": {
+          "x": 0,
+          "y": 1681.09375,
+          "width": 390,
+          "height": 910.875
+        },
+        "finish": null,
+        "glass": null,
+        "entrance-configuration": {
+          "x": 0,
+          "y": 2591.96875,
+          "width": 390,
+          "height": 1132.40625
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -201,18 +444,55 @@
       "route": "/products/entry-doors/oak-grain-fiberglass-entry-door/",
       "viewport": 390,
       "contentWidth": 390,
-      "contentHeight": 9326,
+      "contentHeight": 12694,
       "screenshot": "mobile/oak-grain-door.jpg",
       "title": "Oak-Grain Fiberglass Entry Door | Window Replacement Pro",
       "h1": "Oak-Grain Fiberglass Entry Door",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-d003-360.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-d003-360.webp",
       "heroAlt": "Oak-grain textured fiberglass entry door",
-      "heroNaturalWidth": 360,
-      "heroNaturalHeight": 809,
+      "heroNaturalWidth": 390,
+      "heroNaturalHeight": 876,
       "editorialFragments": 19,
+      "showroomCount": 1,
+      "showroomGroups": 3,
+      "showroomOptions": 11,
+      "galleryCount": 1,
+      "galleryThumbs": 5,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 118.65625,
+          "width": 390,
+          "height": 1590.71875
+        },
+        "style": {
+          "x": 0,
+          "y": 1709.375,
+          "width": 390,
+          "height": 927.328125
+        },
+        "finish": {
+          "x": 0,
+          "y": 3576.078125,
+          "width": 390,
+          "height": 808.28125
+        },
+        "glass": {
+          "x": 0,
+          "y": 2636.703125,
+          "width": 390,
+          "height": 939.375
+        },
+        "entrance-configuration": {
+          "x": 0,
+          "y": 4966.203125,
+          "width": 390,
+          "height": 1182.515625
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -222,18 +502,45 @@
       "route": "/products/entry-doors/mahogany-grain-fiberglass-entry-door/",
       "viewport": 390,
       "contentWidth": 390,
-      "contentHeight": 9560,
+      "contentHeight": 10582,
       "screenshot": "mobile/mahogany-grain-door.jpg",
       "title": "Mahogany-Grain Fiberglass Entry Door | Window Replacement Pro",
       "h1": "Mahogany-Grain Fiberglass Entry Door",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-d004-360.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-d004-360.webp",
       "heroAlt": "Mahogany-grain textured fiberglass entry door",
-      "heroNaturalWidth": 360,
-      "heroNaturalHeight": 731,
+      "heroNaturalWidth": 390,
+      "heroNaturalHeight": 791,
       "editorialFragments": 20,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 3,
+      "galleryCount": 1,
+      "galleryThumbs": 6,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 118.65625,
+          "width": 390,
+          "height": 1590.71875
+        },
+        "style": {
+          "x": 0,
+          "y": 1709.375,
+          "width": 390,
+          "height": 910.875
+        },
+        "finish": null,
+        "glass": null,
+        "entrance-configuration": {
+          "x": 0,
+          "y": 2620.25,
+          "width": 390,
+          "height": 1175.625
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -243,18 +550,45 @@
       "route": "/products/entry-doors/full-glass-fiberglass-entry-door/",
       "viewport": 390,
       "contentWidth": 390,
-      "contentHeight": 9699,
+      "contentHeight": 10721,
       "screenshot": "mobile/full-glass-door.jpg",
       "title": "Full-Glass Fiberglass Entry Door | Window Replacement Pro",
       "h1": "Full-Glass Fiberglass Entry Door",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-d007-1200.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-d007-480.webp",
       "heroAlt": "Fiberglass entry door with a full-height glass insert",
-      "heroNaturalWidth": 1200,
-      "heroNaturalHeight": 1200,
+      "heroNaturalWidth": 389,
+      "heroNaturalHeight": 389,
       "editorialFragments": 20,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 2,
+      "galleryCount": 1,
+      "galleryThumbs": 2,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 118.65625,
+          "width": 390,
+          "height": 1574.90625
+        },
+        "style": {
+          "x": 0,
+          "y": 1693.5625,
+          "width": 390,
+          "height": 910.875
+        },
+        "finish": null,
+        "glass": null,
+        "entrance-configuration": {
+          "x": 0,
+          "y": 2604.4375,
+          "width": 390,
+          "height": 1154.015625
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -264,18 +598,45 @@
       "route": "/products/entry-doors/half-glass-fiberglass-entry-door/",
       "viewport": 390,
       "contentWidth": 390,
-      "contentHeight": 9598,
+      "contentHeight": 10620,
       "screenshot": "mobile/half-glass-door.jpg",
       "title": "Half-Glass Fiberglass Entry Door | Window Replacement Pro",
       "h1": "Half-Glass Fiberglass Entry Door",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-d008-1200.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-d008-480.webp",
       "heroAlt": "Fiberglass entry door with upper half glass",
-      "heroNaturalWidth": 1200,
-      "heroNaturalHeight": 1200,
+      "heroNaturalWidth": 389,
+      "heroNaturalHeight": 389,
       "editorialFragments": 20,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 3,
+      "galleryCount": 1,
+      "galleryThumbs": 3,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 118.65625,
+          "width": 390,
+          "height": 1590.71875
+        },
+        "style": {
+          "x": 0,
+          "y": 1709.375,
+          "width": 390,
+          "height": 910.875
+        },
+        "finish": null,
+        "glass": null,
+        "entrance-configuration": {
+          "x": 0,
+          "y": 2620.25,
+          "width": 390,
+          "height": 1154.015625
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -285,18 +646,45 @@
       "route": "/products/door-glass/geometric-high-privacy-door-glass/",
       "viewport": 390,
       "contentWidth": 390,
-      "contentHeight": 10498,
+      "contentHeight": 10800,
       "screenshot": "mobile/geometric-glass.jpg",
       "title": "Geometric High-Privacy Door Glass | Window Replacement Pro",
       "h1": "Geometric High-Privacy Door Glass",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-g002-720.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-g002-540.webp",
       "heroAlt": "Geometric high-privacy decorative door glass",
-      "heroNaturalWidth": 720,
-      "heroNaturalHeight": 877,
-      "editorialFragments": 21,
+      "heroNaturalWidth": 390,
+      "heroNaturalHeight": 475,
+      "editorialFragments": 20,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 1,
+      "galleryCount": 1,
+      "galleryThumbs": 7,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 118.65625,
+          "width": 390,
+          "height": 1546.625
+        },
+        "style": null,
+        "finish": null,
+        "glass": {
+          "x": 0,
+          "y": 1665.28125,
+          "width": 390,
+          "height": 898.828125
+        },
+        "entrance-configuration": {
+          "x": 0,
+          "y": 2564.109375,
+          "width": 390,
+          "height": 1154.015625
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -306,18 +694,45 @@
       "route": "/products/door-glass/frosted-high-privacy-door-glass/",
       "viewport": 390,
       "contentWidth": 390,
-      "contentHeight": 10466,
+      "contentHeight": 10767,
       "screenshot": "mobile/frosted-glass.jpg",
       "title": "Frosted High-Privacy Door Glass | Window Replacement Pro",
       "h1": "Frosted High-Privacy Door Glass",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-g003-720.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-g003-540.webp",
       "heroAlt": "Frosted high-privacy glass insert for an entry door",
-      "heroNaturalWidth": 720,
-      "heroNaturalHeight": 877,
-      "editorialFragments": 21,
+      "heroNaturalWidth": 390,
+      "heroNaturalHeight": 475,
+      "editorialFragments": 20,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 1,
+      "galleryCount": 1,
+      "galleryThumbs": 7,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 118.65625,
+          "width": 390,
+          "height": 1518.34375
+        },
+        "style": null,
+        "finish": null,
+        "glass": {
+          "x": 0,
+          "y": 1637,
+          "width": 390,
+          "height": 898.828125
+        },
+        "entrance-configuration": {
+          "x": 0,
+          "y": 2535.828125,
+          "width": 390,
+          "height": 1154.015625
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -327,18 +742,45 @@
       "route": "/products/door-glass/classic-beveled-decorative-door-glass/",
       "viewport": 390,
       "contentWidth": 390,
-      "contentHeight": 9679,
+      "contentHeight": 10712,
       "screenshot": "mobile/classic-beveled-glass.jpg",
       "title": "Classic Beveled Decorative Door Glass | Window Replacement Pro",
       "h1": "Classic Beveled Decorative Door Glass",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-g008-199.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-g008-199.webp",
       "heroAlt": "Classic beveled decorative glass for an entry door",
-      "heroNaturalWidth": 199,
-      "heroNaturalHeight": 458,
+      "heroNaturalWidth": 390,
+      "heroNaturalHeight": 897,
       "editorialFragments": 19,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 3,
+      "galleryCount": 1,
+      "galleryThumbs": 3,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 118.65625,
+          "width": 390,
+          "height": 1590.71875
+        },
+        "style": null,
+        "finish": null,
+        "glass": {
+          "x": 0,
+          "y": 1709.375,
+          "width": 390,
+          "height": 922.578125
+        },
+        "entrance-configuration": {
+          "x": 0,
+          "y": 2631.953125,
+          "width": 390,
+          "height": 1132.40625
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -348,18 +790,45 @@
       "route": "/products/door-glass/contemporary-camed-door-glass/",
       "viewport": 390,
       "contentWidth": 390,
-      "contentHeight": 9703,
+      "contentHeight": 10737,
       "screenshot": "mobile/contemporary-camed-glass.jpg",
       "title": "Contemporary Camed Door Glass | Window Replacement Pro",
       "h1": "Contemporary Camed Door Glass",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-g010-203.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-g010-203.webp",
       "heroAlt": "Contemporary camed decorative door glass",
-      "heroNaturalWidth": 203,
-      "heroNaturalHeight": 458,
+      "heroNaturalWidth": 390,
+      "heroNaturalHeight": 879,
       "editorialFragments": 19,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 2,
+      "galleryCount": 1,
+      "galleryThumbs": 2,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 118.65625,
+          "width": 390,
+          "height": 1546.625
+        },
+        "style": null,
+        "finish": null,
+        "glass": {
+          "x": 0,
+          "y": 1665.28125,
+          "width": 390,
+          "height": 922.578125
+        },
+        "entrance-configuration": {
+          "x": 0,
+          "y": 2587.859375,
+          "width": 390,
+          "height": 1182.515625
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -369,18 +838,50 @@
       "route": "/products/patio-doors/pvc-sliding-patio-door/",
       "viewport": 390,
       "contentWidth": 390,
-      "contentHeight": 10317,
+      "contentHeight": 12290,
       "screenshot": "mobile/pvc-patio.jpg",
       "title": "PVC Sliding Patio Door | Window Replacement Pro",
       "h1": "PVC Sliding Patio Door",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-p003-720.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-p003-540.webp",
       "heroAlt": "White PVC sliding patio door system",
-      "heroNaturalWidth": 720,
-      "heroNaturalHeight": 877,
-      "editorialFragments": 21,
+      "heroNaturalWidth": 390,
+      "heroNaturalHeight": 475,
+      "editorialFragments": 20,
+      "showroomCount": 1,
+      "showroomGroups": 3,
+      "showroomOptions": 5,
+      "galleryCount": 1,
+      "galleryThumbs": 7,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 118.65625,
+          "width": 390,
+          "height": 1546.625
+        },
+        "style": {
+          "x": 0,
+          "y": 1665.28125,
+          "width": 390,
+          "height": 922.578125
+        },
+        "finish": {
+          "x": 0,
+          "y": 2587.859375,
+          "width": 390,
+          "height": 798.59375
+        },
+        "glass": null,
+        "entrance-configuration": {
+          "x": 0,
+          "y": 4235.046875,
+          "width": 390,
+          "height": 1182.515625
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -390,18 +891,45 @@
       "route": "/products/patio-doors/slim-frame-aluminum-patio-door/",
       "viewport": 390,
       "contentWidth": 390,
-      "contentHeight": 10221,
+      "contentHeight": 11395,
       "screenshot": "mobile/slim-aluminum-patio.jpg",
       "title": "Slim-Frame Aluminum Patio Door | Window Replacement Pro",
       "h1": "Slim-Frame Aluminum Patio Door",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-p006-720.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-p006-540.webp",
       "heroAlt": "Black slim-frame aluminum sliding patio door",
-      "heroNaturalWidth": 720,
-      "heroNaturalHeight": 877,
-      "editorialFragments": 21,
+      "heroNaturalWidth": 390,
+      "heroNaturalHeight": 475,
+      "editorialFragments": 20,
+      "showroomCount": 1,
+      "showroomGroups": 2,
+      "showroomOptions": 4,
+      "galleryCount": 1,
+      "galleryThumbs": 6,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 118.65625,
+          "width": 390,
+          "height": 1619
+        },
+        "style": {
+          "x": 0,
+          "y": 1737.65625,
+          "width": 390,
+          "height": 922.578125
+        },
+        "finish": null,
+        "glass": null,
+        "entrance-configuration": {
+          "x": 0,
+          "y": 3508.828125,
+          "width": 390,
+          "height": 1154.015625
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -411,18 +939,45 @@
       "route": "/products/patio-doors/two-panel-sliding-patio-door/",
       "viewport": 390,
       "contentWidth": 390,
-      "contentHeight": 9458,
+      "contentHeight": 10492,
       "screenshot": "mobile/two-panel-patio.jpg",
       "title": "Two-Panel Sliding Patio Door | Window Replacement Pro",
       "h1": "Two-Panel Sliding Patio Door",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-p002-1200.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-p002-480.webp",
       "heroAlt": "Two-panel white sliding patio door",
-      "heroNaturalWidth": 1200,
-      "heroNaturalHeight": 1180,
+      "heroNaturalWidth": 389,
+      "heroNaturalHeight": 383,
       "editorialFragments": 20,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 3,
+      "galleryCount": 1,
+      "galleryThumbs": 7,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 118.65625,
+          "width": 390,
+          "height": 1574.90625
+        },
+        "style": {
+          "x": 0,
+          "y": 1693.5625,
+          "width": 390,
+          "height": 922.578125
+        },
+        "finish": null,
+        "glass": null,
+        "entrance-configuration": {
+          "x": 0,
+          "y": 2616.140625,
+          "width": 390,
+          "height": 1139.296875
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -432,18 +987,45 @@
       "route": "/products/patio-doors/multi-panel-sliding-patio-door/",
       "viewport": 390,
       "contentWidth": 390,
-      "contentHeight": 10147,
+      "contentHeight": 10472,
       "screenshot": "mobile/multi-panel-patio.jpg",
       "title": "Multi-Panel Sliding Patio Door | Window Replacement Pro",
       "h1": "Multi-Panel Sliding Patio Door",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-p001-768.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-p001-480.webp",
       "heroAlt": "White multi-panel sliding patio door",
-      "heroNaturalWidth": 768,
-      "heroNaturalHeight": 626,
-      "editorialFragments": 21,
+      "heroNaturalWidth": 389,
+      "heroNaturalHeight": 317,
+      "editorialFragments": 20,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 3,
+      "galleryCount": 1,
+      "galleryThumbs": 7,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 118.65625,
+          "width": 390,
+          "height": 1574.90625
+        },
+        "style": {
+          "x": 0,
+          "y": 1693.5625,
+          "width": 390,
+          "height": 922.578125
+        },
+        "finish": null,
+        "glass": null,
+        "entrance-configuration": {
+          "x": 0,
+          "y": 2616.140625,
+          "width": 390,
+          "height": 1132.40625
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -460,11 +1042,23 @@
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-w004-1200.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-w004-1200.webp",
       "heroAlt": "White double-hung replacement window with two sliding sashes",
       "heroNaturalWidth": 1200,
       "heroNaturalHeight": 1200,
       "editorialFragments": 0,
+      "showroomCount": 0,
+      "showroomGroups": 0,
+      "showroomOptions": 0,
+      "galleryCount": 0,
+      "galleryThumbs": 0,
+      "oakSections": {
+        "hero": null,
+        "style": null,
+        "finish": null,
+        "glass": null,
+        "entrance-configuration": null
+      },
       "productGroupSchemas": 0,
       "productSchemas": 0,
       "internalPhrases": []
@@ -474,18 +1068,45 @@
       "route": "/products/windows/single-hung-window/",
       "viewport": 1440,
       "contentWidth": 1440,
-      "contentHeight": 5528,
+      "contentHeight": 7196,
       "screenshot": "desktop/single-hung.jpg",
       "title": "Single-Hung Window | Window Replacement Pro",
       "h1": "Single-Hung Window",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-w005-1200.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-w005-768.webp",
       "heroAlt": "White single-hung replacement window with one sliding sash",
-      "heroNaturalWidth": 1200,
-      "heroNaturalHeight": 800,
+      "heroNaturalWidth": 691,
+      "heroNaturalHeight": 460,
       "editorialFragments": 20,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 1,
+      "galleryCount": 1,
+      "galleryThumbs": 0,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 130.65625,
+          "width": 1440,
+          "height": 858.34375
+        },
+        "style": {
+          "x": 0,
+          "y": 989,
+          "width": 1440,
+          "height": 970.78125
+        },
+        "finish": null,
+        "glass": null,
+        "entrance-configuration": {
+          "x": 0,
+          "y": 2656.875,
+          "width": 1440,
+          "height": 697.453125
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -495,18 +1116,45 @@
       "route": "/products/windows/single-slider-window/",
       "viewport": 1440,
       "contentWidth": 1440,
-      "contentHeight": 5516,
+      "contentHeight": 7238,
       "screenshot": "desktop/single-slider.jpg",
       "title": "Single Slider Window | Window Replacement Pro",
       "h1": "Single Slider Window",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-w007-1200.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-w007-768.webp",
       "heroAlt": "White single slider replacement window with one operating sash",
-      "heroNaturalWidth": 1200,
-      "heroNaturalHeight": 461,
+      "heroNaturalWidth": 691,
+      "heroNaturalHeight": 265,
       "editorialFragments": 20,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 2,
+      "galleryCount": 1,
+      "galleryThumbs": 2,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 130.65625,
+          "width": 1440,
+          "height": 900
+        },
+        "style": {
+          "x": 0,
+          "y": 1030.65625,
+          "width": 1440,
+          "height": 970.78125
+        },
+        "finish": null,
+        "glass": null,
+        "entrance-configuration": {
+          "x": 0,
+          "y": 2698.53125,
+          "width": 1440,
+          "height": 697.453125
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -516,18 +1164,45 @@
       "route": "/products/windows/double-hung-window/",
       "viewport": 1440,
       "contentWidth": 1440,
-      "contentHeight": 6422,
+      "contentHeight": 7265,
       "screenshot": "desktop/double-hung.jpg",
       "title": "Double-Hung Window | Window Replacement Pro",
       "h1": "Double-Hung Window",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-w004-1200.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-w004-768.webp",
       "heroAlt": "White double-hung replacement window with two sliding sashes",
-      "heroNaturalWidth": 1200,
-      "heroNaturalHeight": 1200,
-      "editorialFragments": 21,
+      "heroNaturalWidth": 691,
+      "heroNaturalHeight": 691,
+      "editorialFragments": 20,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 2,
+      "galleryCount": 1,
+      "galleryThumbs": 3,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 130.65625,
+          "width": 1440,
+          "height": 900
+        },
+        "style": {
+          "x": 0,
+          "y": 1030.65625,
+          "width": 1440,
+          "height": 992.515625
+        },
+        "finish": null,
+        "glass": null,
+        "entrance-configuration": {
+          "x": 0,
+          "y": 2720.265625,
+          "width": 1440,
+          "height": 719.0625
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -537,18 +1212,45 @@
       "route": "/products/windows/double-slider-window/",
       "viewport": 1440,
       "contentWidth": 1440,
-      "contentHeight": 6417,
+      "contentHeight": 7727,
       "screenshot": "desktop/double-slider.jpg",
       "title": "Double Slider Window | Window Replacement Pro",
       "h1": "Double Slider Window",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-w006-1200.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-w006-768.webp",
       "heroAlt": "White double slider replacement window with two operating sashes",
-      "heroNaturalWidth": 1200,
-      "heroNaturalHeight": 1200,
-      "editorialFragments": 21,
+      "heroNaturalWidth": 691,
+      "heroNaturalHeight": 691,
+      "editorialFragments": 20,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 3,
+      "galleryCount": 1,
+      "galleryThumbs": 4,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 130.65625,
+          "width": 1440,
+          "height": 900
+        },
+        "style": {
+          "x": 0,
+          "y": 1030.65625,
+          "width": 1440,
+          "height": 970.78125
+        },
+        "finish": null,
+        "glass": null,
+        "entrance-configuration": {
+          "x": 0,
+          "y": 3187.625,
+          "width": 1440,
+          "height": 697.453125
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -558,18 +1260,45 @@
       "route": "/products/windows/slim-frame-casement-window/",
       "viewport": 1440,
       "contentWidth": 1440,
-      "contentHeight": 5528,
+      "contentHeight": 7727,
       "screenshot": "desktop/slim-casement.jpg",
       "title": "Slim-Frame Casement Window | Window Replacement Pro",
       "h1": "Slim-Frame Casement Window",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-w001-1200.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-w001-768.webp",
       "heroAlt": "White slim-frame casement replacement window",
-      "heroNaturalWidth": 1200,
-      "heroNaturalHeight": 800,
+      "heroNaturalWidth": 691,
+      "heroNaturalHeight": 460,
       "editorialFragments": 20,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 3,
+      "galleryCount": 1,
+      "galleryThumbs": 3,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 130.65625,
+          "width": 1440,
+          "height": 900
+        },
+        "style": {
+          "x": 0,
+          "y": 1030.65625,
+          "width": 1440,
+          "height": 970.78125
+        },
+        "finish": null,
+        "glass": null,
+        "entrance-configuration": {
+          "x": 0,
+          "y": 3187.625,
+          "width": 1440,
+          "height": 697.453125
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -579,18 +1308,45 @@
       "route": "/products/windows/high-performance-casement-window/",
       "viewport": 1440,
       "contentWidth": 1440,
-      "contentHeight": 5934,
+      "contentHeight": 8113,
       "screenshot": "desktop/performance-casement.jpg",
       "title": "High-Performance Casement Window | Window Replacement Pro",
       "h1": "High-Performance Casement Window",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-w002-1200.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-w002-768.webp",
       "heroAlt": "Deep-frame white casement replacement window",
-      "heroNaturalWidth": 1200,
-      "heroNaturalHeight": 800,
+      "heroNaturalWidth": 691,
+      "heroNaturalHeight": 460,
       "editorialFragments": 22,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 3,
+      "galleryCount": 1,
+      "galleryThumbs": 3,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 130.65625,
+          "width": 1440,
+          "height": 962.625
+        },
+        "style": {
+          "x": 0,
+          "y": 1093.28125,
+          "width": 1440,
+          "height": 992.515625
+        },
+        "finish": null,
+        "glass": null,
+        "entrance-configuration": {
+          "x": 0,
+          "y": 3271.984375,
+          "width": 1440,
+          "height": 747.5625
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -600,18 +1356,45 @@
       "route": "/products/entry-doors/two-panel-fiberglass-entry-door/",
       "viewport": 1440,
       "contentWidth": 1440,
-      "contentHeight": 5552,
+      "contentHeight": 6564,
       "screenshot": "desktop/two-panel-door.jpg",
       "title": "Two-Panel Fiberglass Entry Door | Window Replacement Pro",
       "h1": "Two-Panel Fiberglass Entry Door",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-d001-309.jpg",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-d001-309.jpg",
       "heroAlt": "White two-panel fiberglass entry door",
-      "heroNaturalWidth": 309,
-      "heroNaturalHeight": 700,
+      "heroNaturalWidth": 691,
+      "heroNaturalHeight": 1565,
       "editorialFragments": 19,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 4,
+      "galleryCount": 1,
+      "galleryThumbs": 4,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 130.65625,
+          "width": 1440,
+          "height": 900
+        },
+        "style": {
+          "x": 0,
+          "y": 1030.65625,
+          "width": 1440,
+          "height": 970.78125
+        },
+        "finish": null,
+        "glass": null,
+        "entrance-configuration": {
+          "x": 0,
+          "y": 2001.4375,
+          "width": 1440,
+          "height": 697.453125
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -621,18 +1404,45 @@
       "route": "/products/entry-doors/four-panel-fiberglass-entry-door/",
       "viewport": 1440,
       "contentWidth": 1440,
-      "contentHeight": 5544,
+      "contentHeight": 6556,
       "screenshot": "desktop/four-panel-door.jpg",
       "title": "Four-Panel Fiberglass Entry Door | Window Replacement Pro",
       "h1": "Four-Panel Fiberglass Entry Door",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-d011-360.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-d011-360.webp",
       "heroAlt": "Four-panel fiberglass entry door",
-      "heroNaturalWidth": 360,
-      "heroNaturalHeight": 806,
+      "heroNaturalWidth": 691,
+      "heroNaturalHeight": 1547,
       "editorialFragments": 20,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 3,
+      "galleryCount": 1,
+      "galleryThumbs": 5,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 130.65625,
+          "width": 1440,
+          "height": 900
+        },
+        "style": {
+          "x": 0,
+          "y": 1030.65625,
+          "width": 1440,
+          "height": 970.78125
+        },
+        "finish": null,
+        "glass": null,
+        "entrance-configuration": {
+          "x": 0,
+          "y": 2001.4375,
+          "width": 1440,
+          "height": 697.453125
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -642,18 +1452,45 @@
       "route": "/products/entry-doors/traditional-six-panel-fiberglass-entry-door/",
       "viewport": 1440,
       "contentWidth": 1440,
-      "contentHeight": 5544,
+      "contentHeight": 6653,
       "screenshot": "desktop/six-panel-door.jpg",
       "title": "Traditional Six-Panel Fiberglass Entry Door | Window Replacement Pro",
       "h1": "Traditional Six-Panel Fiberglass Entry Door",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-d006-1200.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-d006-768.webp",
       "heroAlt": "Traditional six-panel fiberglass entry door",
-      "heroNaturalWidth": 1200,
-      "heroNaturalHeight": 1200,
+      "heroNaturalWidth": 691,
+      "heroNaturalHeight": 691,
       "editorialFragments": 20,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 4,
+      "galleryCount": 1,
+      "galleryThumbs": 6,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 130.65625,
+          "width": 1440,
+          "height": 997
+        },
+        "style": {
+          "x": 0,
+          "y": 1127.65625,
+          "width": 1440,
+          "height": 970.78125
+        },
+        "finish": null,
+        "glass": null,
+        "entrance-configuration": {
+          "x": 0,
+          "y": 2098.4375,
+          "width": 1440,
+          "height": 697.453125
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -663,18 +1500,55 @@
       "route": "/products/entry-doors/oak-grain-fiberglass-entry-door/",
       "viewport": 1440,
       "contentWidth": 1440,
-      "contentHeight": 5503,
+      "contentHeight": 9529,
       "screenshot": "desktop/oak-grain-door.jpg",
       "title": "Oak-Grain Fiberglass Entry Door | Window Replacement Pro",
       "h1": "Oak-Grain Fiberglass Entry Door",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-d003-360.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-d003-360.webp",
       "heroAlt": "Oak-grain textured fiberglass entry door",
-      "heroNaturalWidth": 360,
-      "heroNaturalHeight": 809,
+      "heroNaturalWidth": 691,
+      "heroNaturalHeight": 1553,
       "editorialFragments": 19,
+      "showroomCount": 1,
+      "showroomGroups": 3,
+      "showroomOptions": 11,
+      "galleryCount": 1,
+      "galleryThumbs": 5,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 130.65625,
+          "width": 1440,
+          "height": 900
+        },
+        "style": {
+          "x": 0,
+          "y": 1030.65625,
+          "width": 1440,
+          "height": 1468.5
+        },
+        "finish": {
+          "x": 0,
+          "y": 3469.9375,
+          "width": 1440,
+          "height": 844.09375
+        },
+        "glass": {
+          "x": 0,
+          "y": 2499.15625,
+          "width": 1440,
+          "height": 970.78125
+        },
+        "entrance-configuration": {
+          "x": 0,
+          "y": 5014.5625,
+          "width": 1440,
+          "height": 697.453125
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -684,18 +1558,45 @@
       "route": "/products/entry-doors/mahogany-grain-fiberglass-entry-door/",
       "viewport": 1440,
       "contentWidth": 1440,
-      "contentHeight": 5552,
+      "contentHeight": 6661,
       "screenshot": "desktop/mahogany-grain-door.jpg",
       "title": "Mahogany-Grain Fiberglass Entry Door | Window Replacement Pro",
       "h1": "Mahogany-Grain Fiberglass Entry Door",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-d004-360.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-d004-360.webp",
       "heroAlt": "Mahogany-grain textured fiberglass entry door",
-      "heroNaturalWidth": 360,
-      "heroNaturalHeight": 731,
+      "heroNaturalWidth": 691,
+      "heroNaturalHeight": 1403,
       "editorialFragments": 20,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 3,
+      "galleryCount": 1,
+      "galleryThumbs": 6,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 130.65625,
+          "width": 1440,
+          "height": 997
+        },
+        "style": {
+          "x": 0,
+          "y": 1127.65625,
+          "width": 1440,
+          "height": 970.78125
+        },
+        "finish": null,
+        "glass": null,
+        "entrance-configuration": {
+          "x": 0,
+          "y": 2098.4375,
+          "width": 1440,
+          "height": 697.453125
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -705,18 +1606,45 @@
       "route": "/products/entry-doors/full-glass-fiberglass-entry-door/",
       "viewport": 1440,
       "contentWidth": 1440,
-      "contentHeight": 5673,
+      "contentHeight": 6685,
       "screenshot": "desktop/full-glass-door.jpg",
       "title": "Full-Glass Fiberglass Entry Door | Window Replacement Pro",
       "h1": "Full-Glass Fiberglass Entry Door",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-d007-1200.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-d007-768.webp",
       "heroAlt": "Fiberglass entry door with a full-height glass insert",
-      "heroNaturalWidth": 1200,
-      "heroNaturalHeight": 1200,
+      "heroNaturalWidth": 691,
+      "heroNaturalHeight": 691,
       "editorialFragments": 20,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 2,
+      "galleryCount": 1,
+      "galleryThumbs": 2,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 130.65625,
+          "width": 1440,
+          "height": 900
+        },
+        "style": {
+          "x": 0,
+          "y": 1030.65625,
+          "width": 1440,
+          "height": 970.78125
+        },
+        "finish": null,
+        "glass": null,
+        "entrance-configuration": {
+          "x": 0,
+          "y": 2001.4375,
+          "width": 1440,
+          "height": 697.453125
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -726,18 +1654,45 @@
       "route": "/products/entry-doors/half-glass-fiberglass-entry-door/",
       "viewport": 1440,
       "contentWidth": 1440,
-      "contentHeight": 5648,
+      "contentHeight": 6661,
       "screenshot": "desktop/half-glass-door.jpg",
       "title": "Half-Glass Fiberglass Entry Door | Window Replacement Pro",
       "h1": "Half-Glass Fiberglass Entry Door",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-d008-1200.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-d008-768.webp",
       "heroAlt": "Fiberglass entry door with upper half glass",
-      "heroNaturalWidth": 1200,
-      "heroNaturalHeight": 1200,
+      "heroNaturalWidth": 691,
+      "heroNaturalHeight": 691,
       "editorialFragments": 20,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 3,
+      "galleryCount": 1,
+      "galleryThumbs": 3,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 130.65625,
+          "width": 1440,
+          "height": 900
+        },
+        "style": {
+          "x": 0,
+          "y": 1030.65625,
+          "width": 1440,
+          "height": 970.78125
+        },
+        "finish": null,
+        "glass": null,
+        "entrance-configuration": {
+          "x": 0,
+          "y": 2001.4375,
+          "width": 1440,
+          "height": 697.453125
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -747,18 +1702,45 @@
       "route": "/products/door-glass/geometric-high-privacy-door-glass/",
       "viewport": 1440,
       "contentWidth": 1440,
-      "contentHeight": 6616,
+      "contentHeight": 6837,
       "screenshot": "desktop/geometric-glass.jpg",
       "title": "Geometric High-Privacy Door Glass | Window Replacement Pro",
       "h1": "Geometric High-Privacy Door Glass",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-g002-720.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-g002-720.webp",
       "heroAlt": "Geometric high-privacy decorative door glass",
-      "heroNaturalWidth": 720,
-      "heroNaturalHeight": 877,
-      "editorialFragments": 21,
+      "heroNaturalWidth": 691,
+      "heroNaturalHeight": 841,
+      "editorialFragments": 20,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 1,
+      "galleryCount": 1,
+      "galleryThumbs": 7,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 130.65625,
+          "width": 1440,
+          "height": 997
+        },
+        "style": null,
+        "finish": null,
+        "glass": {
+          "x": 0,
+          "y": 1127.65625,
+          "width": 1440,
+          "height": 970.78125
+        },
+        "entrance-configuration": {
+          "x": 0,
+          "y": 2098.4375,
+          "width": 1440,
+          "height": 697.453125
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -768,18 +1750,45 @@
       "route": "/products/door-glass/frosted-high-privacy-door-glass/",
       "viewport": 1440,
       "contentWidth": 1440,
-      "contentHeight": 6616,
+      "contentHeight": 6837,
       "screenshot": "desktop/frosted-glass.jpg",
       "title": "Frosted High-Privacy Door Glass | Window Replacement Pro",
       "h1": "Frosted High-Privacy Door Glass",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-g003-720.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-g003-720.webp",
       "heroAlt": "Frosted high-privacy glass insert for an entry door",
-      "heroNaturalWidth": 720,
-      "heroNaturalHeight": 877,
-      "editorialFragments": 21,
+      "heroNaturalWidth": 691,
+      "heroNaturalHeight": 841,
+      "editorialFragments": 20,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 1,
+      "galleryCount": 1,
+      "galleryThumbs": 7,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 130.65625,
+          "width": 1440,
+          "height": 997
+        },
+        "style": null,
+        "finish": null,
+        "glass": {
+          "x": 0,
+          "y": 1127.65625,
+          "width": 1440,
+          "height": 970.78125
+        },
+        "entrance-configuration": {
+          "x": 0,
+          "y": 2098.4375,
+          "width": 1440,
+          "height": 697.453125
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -789,18 +1798,45 @@
       "route": "/products/door-glass/classic-beveled-decorative-door-glass/",
       "viewport": 1440,
       "contentWidth": 1440,
-      "contentHeight": 5703,
+      "contentHeight": 6695,
       "screenshot": "desktop/classic-beveled-glass.jpg",
       "title": "Classic Beveled Decorative Door Glass | Window Replacement Pro",
       "h1": "Classic Beveled Decorative Door Glass",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-g008-199.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-g008-199.webp",
       "heroAlt": "Classic beveled decorative glass for an entry door",
-      "heroNaturalWidth": 199,
-      "heroNaturalHeight": 458,
+      "heroNaturalWidth": 691,
+      "heroNaturalHeight": 1590,
       "editorialFragments": 19,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 3,
+      "galleryCount": 1,
+      "galleryThumbs": 3,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 130.65625,
+          "width": 1440,
+          "height": 925.71875
+        },
+        "style": null,
+        "finish": null,
+        "glass": {
+          "x": 0,
+          "y": 1056.375,
+          "width": 1440,
+          "height": 992.515625
+        },
+        "entrance-configuration": {
+          "x": 0,
+          "y": 2048.890625,
+          "width": 1440,
+          "height": 697.453125
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -810,18 +1846,45 @@
       "route": "/products/door-glass/contemporary-camed-door-glass/",
       "viewport": 1440,
       "contentWidth": 1440,
-      "contentHeight": 5660,
+      "contentHeight": 6694,
       "screenshot": "desktop/contemporary-camed-glass.jpg",
       "title": "Contemporary Camed Door Glass | Window Replacement Pro",
       "h1": "Contemporary Camed Door Glass",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-g010-203.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-g010-203.webp",
       "heroAlt": "Contemporary camed decorative door glass",
-      "heroNaturalWidth": 203,
-      "heroNaturalHeight": 458,
+      "heroNaturalWidth": 691,
+      "heroNaturalHeight": 1559,
       "editorialFragments": 19,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 2,
+      "galleryCount": 1,
+      "galleryThumbs": 2,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 130.65625,
+          "width": 1440,
+          "height": 900
+        },
+        "style": null,
+        "finish": null,
+        "glass": {
+          "x": 0,
+          "y": 1030.65625,
+          "width": 1440,
+          "height": 992.515625
+        },
+        "entrance-configuration": {
+          "x": 0,
+          "y": 2023.171875,
+          "width": 1440,
+          "height": 697.453125
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -831,18 +1894,50 @@
       "route": "/products/patio-doors/pvc-sliding-patio-door/",
       "viewport": 1440,
       "contentWidth": 1440,
-      "contentHeight": 6413,
+      "contentHeight": 8427,
       "screenshot": "desktop/pvc-patio.jpg",
       "title": "PVC Sliding Patio Door | Window Replacement Pro",
       "h1": "PVC Sliding Patio Door",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-p003-720.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-p003-720.webp",
       "heroAlt": "White PVC sliding patio door system",
-      "heroNaturalWidth": 720,
-      "heroNaturalHeight": 877,
-      "editorialFragments": 21,
+      "heroNaturalWidth": 691,
+      "heroNaturalHeight": 841,
+      "editorialFragments": 20,
+      "showroomCount": 1,
+      "showroomGroups": 3,
+      "showroomOptions": 5,
+      "galleryCount": 1,
+      "galleryThumbs": 7,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 130.65625,
+          "width": 1440,
+          "height": 997
+        },
+        "style": {
+          "x": 0,
+          "y": 1127.65625,
+          "width": 1440,
+          "height": 970.78125
+        },
+        "finish": {
+          "x": 0,
+          "y": 2098.4375,
+          "width": 1440,
+          "height": 882.25
+        },
+        "glass": null,
+        "entrance-configuration": {
+          "x": 0,
+          "y": 3891.578125,
+          "width": 1440,
+          "height": 697.453125
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -852,18 +1947,45 @@
       "route": "/products/patio-doors/slim-frame-aluminum-patio-door/",
       "viewport": 1440,
       "contentWidth": 1440,
-      "contentHeight": 6545,
+      "contentHeight": 7581,
       "screenshot": "desktop/slim-aluminum-patio.jpg",
       "title": "Slim-Frame Aluminum Patio Door | Window Replacement Pro",
       "h1": "Slim-Frame Aluminum Patio Door",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-p006-720.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-p006-720.webp",
       "heroAlt": "Black slim-frame aluminum sliding patio door",
-      "heroNaturalWidth": 720,
-      "heroNaturalHeight": 877,
-      "editorialFragments": 21,
+      "heroNaturalWidth": 691,
+      "heroNaturalHeight": 841,
+      "editorialFragments": 20,
+      "showroomCount": 1,
+      "showroomGroups": 2,
+      "showroomOptions": 4,
+      "galleryCount": 1,
+      "galleryThumbs": 6,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 130.65625,
+          "width": 1440,
+          "height": 997
+        },
+        "style": {
+          "x": 0,
+          "y": 1127.65625,
+          "width": 1440,
+          "height": 970.78125
+        },
+        "finish": null,
+        "glass": null,
+        "entrance-configuration": {
+          "x": 0,
+          "y": 3009.328125,
+          "width": 1440,
+          "height": 719.0625
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -873,18 +1995,45 @@
       "route": "/products/patio-doors/two-panel-sliding-patio-door/",
       "viewport": 1440,
       "contentWidth": 1440,
-      "contentHeight": 5539,
+      "contentHeight": 6648,
       "screenshot": "desktop/two-panel-patio.jpg",
       "title": "Two-Panel Sliding Patio Door | Window Replacement Pro",
       "h1": "Two-Panel Sliding Patio Door",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-p002-1200.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-p002-768.webp",
       "heroAlt": "Two-panel white sliding patio door",
-      "heroNaturalWidth": 1200,
-      "heroNaturalHeight": 1180,
+      "heroNaturalWidth": 691,
+      "heroNaturalHeight": 679,
       "editorialFragments": 20,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 3,
+      "galleryCount": 1,
+      "galleryThumbs": 7,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 130.65625,
+          "width": 1440,
+          "height": 997
+        },
+        "style": {
+          "x": 0,
+          "y": 1127.65625,
+          "width": 1440,
+          "height": 970.78125
+        },
+        "finish": null,
+        "glass": null,
+        "entrance-configuration": {
+          "x": 0,
+          "y": 2098.4375,
+          "width": 1440,
+          "height": 697.453125
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -894,18 +2043,45 @@
       "route": "/products/patio-doors/multi-panel-sliding-patio-door/",
       "viewport": 1440,
       "contentWidth": 1440,
-      "contentHeight": 6449,
+      "contentHeight": 6670,
       "screenshot": "desktop/multi-panel-patio.jpg",
       "title": "Multi-Panel Sliding Patio Door | Window Replacement Pro",
       "h1": "Multi-Panel Sliding Patio Door",
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-p001-768.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-p001-768.webp",
       "heroAlt": "White multi-panel sliding patio door",
-      "heroNaturalWidth": 768,
-      "heroNaturalHeight": 626,
-      "editorialFragments": 21,
+      "heroNaturalWidth": 691,
+      "heroNaturalHeight": 563,
+      "editorialFragments": 20,
+      "showroomCount": 1,
+      "showroomGroups": 1,
+      "showroomOptions": 3,
+      "galleryCount": 1,
+      "galleryThumbs": 7,
+      "oakSections": {
+        "hero": {
+          "x": 0,
+          "y": 130.65625,
+          "width": 1440,
+          "height": 997
+        },
+        "style": {
+          "x": 0,
+          "y": 1127.65625,
+          "width": 1440,
+          "height": 970.78125
+        },
+        "finish": null,
+        "glass": null,
+        "entrance-configuration": {
+          "x": 0,
+          "y": 2098.4375,
+          "width": 1440,
+          "height": 697.453125
+        }
+      },
       "productGroupSchemas": 1,
       "productSchemas": 0,
       "internalPhrases": []
@@ -922,11 +2098,23 @@
       "h1Count": 1,
       "horizontalOverflow": false,
       "brokenImages": [],
-      "heroSrc": "http://127.0.0.1:51583/media/products/wrp-w004-1200.webp",
+      "heroSrc": "http://127.0.0.1:65394/media/products/wrp-w004-1200.webp",
       "heroAlt": "White double-hung replacement window with two sliding sashes",
       "heroNaturalWidth": 1200,
       "heroNaturalHeight": 1200,
       "editorialFragments": 0,
+      "showroomCount": 0,
+      "showroomGroups": 0,
+      "showroomOptions": 0,
+      "galleryCount": 0,
+      "galleryThumbs": 0,
+      "oakSections": {
+        "hero": null,
+        "style": null,
+        "finish": null,
+        "glass": null,
+        "entrance-configuration": null
+      },
       "productGroupSchemas": 0,
       "productSchemas": 0,
       "internalPhrases": []

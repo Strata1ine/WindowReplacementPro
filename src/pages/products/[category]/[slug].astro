@@ -3,6 +3,8 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import MediaFrame from '../../../components/MediaFrame.astro';
 import ProductCard from '../../../components/ProductCard.astro';
 import QuoteCta from '../../../components/QuoteCta.astro';
+import ProductShowroomGallery from '../../../components/ProductShowroomGallery.astro';
+import ProductShowroomSections from '../../../components/ProductShowroomSections.astro';
 import { getRelatedPublicProducts, publicProducts } from '../../../data/public-catalog';
 import { buildPublicProductSchema } from '../../../data/product-schema';
 
@@ -76,7 +78,11 @@ const breadcrumbSchema = {
 
   <section class="section public-product public-product--refined">
     <div class="wrap public-product__layout">
-      <div class="public-product__media"><MediaFrame media={product.media} alt={product.imageAlt} sizes="(max-width: 820px) 100vw, 48vw" loading="eager" fetchpriority="high" fit="contain" /></div>
+      <div class="public-product__media">
+        {product.showroom
+          ? <ProductShowroomGallery reference={product.reference} primary={product.media} gallery={product.showroom.gallery} />
+          : <MediaFrame media={product.media} alt={product.imageAlt} sizes="(max-width: 820px) 100vw, 48vw" loading="eager" fetchpriority="high" fit="contain" />}
+      </div>
       <div class="public-product__content">
         <p class="product-card__meta"><span>{product.categoryLabel}</span><span class="product-card__reference">Reference {product.reference}</span></p>
         <h1>{product.displayName}</h1>
@@ -93,7 +99,9 @@ const breadcrumbSchema = {
     </div>
   </section>
 
-  {product.gallery.length > 0 && (
+  {product.showroom && <ProductShowroomSections showroom={product.showroom} />}
+
+  {!product.showroom && product.gallery.length > 0 && (
     <section class="section product-gallery-section" aria-labelledby="product-gallery-title">
       <div class="wrap">
         <header class="section-header" data-product-shared-ui><p class="eyebrow">Product media</p><h2 id="product-gallery-title">Configuration and detail views.</h2><p class="section-header__body">Use these views to compare proportions and visible details. Final colours and components are confirmed for the measured configuration.</p></header>

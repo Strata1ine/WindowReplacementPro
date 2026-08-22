@@ -1,6 +1,6 @@
 # Public product-content audit
 
-Generated: 2026-08-22T00:56:33.388Z
+Generated: 2026-08-22T06:01:40.875Z
 
 - Product pages: 40
 - Highest substantive similarity: 7.6%
@@ -17,9 +17,9 @@ Generated: 2026-08-22T00:56:33.388Z
 | Product | Compared with | Similarity | Review |
 | --- | --- | ---: | --- |
 | WRP-D006 Traditional Six-Panel Fiberglass Entry Door | WRP-D011 Four-Panel Fiberglass Entry Door | 7.6% | — |
-| WRP-G002 Geometric High-Privacy Door Glass | WRP-G003 Frosted High-Privacy Door Glass | 7.3% | — |
-| WRP-W009 Casement-Profile Fixed Window | WRP-W010 Slim Fixed Window | 6.7% | — |
-| WRP-W008 Picture Window | WRP-W010 Slim Fixed Window | 6.7% | — |
+| WRP-W009 Casement-Profile Fixed Window | WRP-W010 Slim Fixed Window | 6.8% | — |
+| WRP-W008 Picture Window | WRP-W010 Slim Fixed Window | 6.8% | — |
+| WRP-G002 Geometric High-Privacy Door Glass | WRP-G003 Frosted High-Privacy Door Glass | 6.5% | — |
 | WRP-G008 Classic Beveled Decorative Door Glass | WRP-G012 Organic Decorative Door Glass | 6.5% | — |
 | WRP-W005 Single-Hung Window | WRP-W007 Single Slider Window | 6.3% | — |
 | WRP-D007 Full-Glass Fiberglass Entry Door | WRP-D009 Three-Quarter-Glass Fiberglass Entry Door | 6.2% | — |
@@ -27,20 +27,20 @@ Generated: 2026-08-22T00:56:33.388Z
 | WRP-G005 Linear Privacy Door Glass | WRP-G008 Classic Beveled Decorative Door Glass | 5.5% | — |
 | WRP-W003 Awning Window | WRP-W010 Slim Fixed Window | 5.0% | — |
 | WRP-D001 Two-Panel Fiberglass Entry Door | WRP-D011 Four-Panel Fiberglass Entry Door | 4.9% | — |
-| WRP-W008 Picture Window | WRP-W009 Casement-Profile Fixed Window | 4.7% | — |
-| WRP-W004 Double-Hung Window | WRP-W006 Double Slider Window | 4.5% | — |
+| WRP-W008 Picture Window | WRP-W009 Casement-Profile Fixed Window | 4.8% | — |
 | WRP-G007 Clear Patterned Door Glass | WRP-G010 Contemporary Camed Door Glass | 4.5% | — |
 | WRP-D003 Oak-Grain Fiberglass Entry Door | WRP-D004 Mahogany-Grain Fiberglass Entry Door | 4.5% | — |
-| WRP-W004 Double-Hung Window | WRP-W007 Single Slider Window | 4.4% | — |
+| WRP-W004 Double-Hung Window | WRP-W007 Single Slider Window | 4.5% | — |
 | WRP-G004 Clear-Zone Sandblasted Door Glass | WRP-G012 Organic Decorative Door Glass | 4.3% | — |
 | WRP-G004 Clear-Zone Sandblasted Door Glass | WRP-G006 Wide-Reed Textured Door Glass | 4.2% | — |
 | WRP-G010 Contemporary Camed Door Glass | WRP-G012 Organic Decorative Door Glass | 4.2% | — |
 | WRP-D008 Half-Glass Fiberglass Entry Door | WRP-D009 Three-Quarter-Glass Fiberglass Entry Door | 4.1% | — |
-| WRP-D005 Craftsman Fiberglass Entry Door | WRP-D010 Narrow-Lite Fiberglass Entry Door | 4.0% | — |
+| WRP-D005 Craftsman Fiberglass Entry Door | WRP-D010 Narrow-Lite Fiberglass Entry Door | 4.1% | — |
 | WRP-G007 Clear Patterned Door Glass | WRP-G012 Organic Decorative Door Glass | 4.0% | — |
-| WRP-P003 PVC Sliding Patio Door | WRP-P004 Aluminum Sliding Patio Door | 4.0% | — |
-| WRP-P004 Aluminum Sliding Patio Door | WRP-P006 Slim-Frame Aluminum Patio Door | 4.0% | — |
+| WRP-P003 PVC Sliding Patio Door | WRP-P004 Aluminum Sliding Patio Door | 3.9% | — |
 | WRP-D007 Full-Glass Fiberglass Entry Door | WRP-D008 Half-Glass Fiberglass Entry Door | 3.9% | — |
+| WRP-W001 Slim-Frame Casement Window | WRP-W003 Awning Window | 3.8% | — |
+| WRP-G009 Hammered Decorative Door Glass | WRP-G010 Contemporary Camed Door Glass | 3.7% | — |
 
 ## Repeated editorial sentences
 
@@ -112,17 +112,17 @@ None.
 | WRP-D002 | 236 | 134 | 9 | 8 | 9/11 | 198 | Sufficient |
 | WRP-D003 | 215 | 119 | 8 | 7 | 7/10 | 174 | Sufficient |
 | WRP-D004 | 209 | 113 | 9 | 8 | 8/11 | 170 | Sufficient |
-| WRP-D005 | 222 | 125 | 9 | 8 | 7/12 | 173 | Sufficient |
+| WRP-D005 | 217 | 125 | 9 | 8 | 6/11 | 167 | Sufficient |
 | WRP-D006 | 193 | 108 | 9 | 8 | 3/11 | 139 | Sufficient |
 | WRP-D007 | 225 | 120 | 9 | 8 | 7/11 | 170 | Sufficient |
-| WRP-D008 | 218 | 124 | 9 | 8 | 7/11 | 173 | Sufficient |
+| WRP-D008 | 218 | 124 | 9 | 8 | 7/11 | 174 | Sufficient |
 | WRP-D009 | 222 | 118 | 9 | 8 | 5/11 | 166 | Sufficient |
 | WRP-D010 | 215 | 110 | 9 | 8 | 6/11 | 159 | Sufficient |
 | WRP-D011 | 199 | 110 | 8 | 7 | 3/11 | 150 | Sufficient |
-| WRP-D012 | 218 | 116 | 9 | 8 | 8/11 | 164 | Sufficient |
-| WRP-G001 | 225 | 118 | 9 | 8 | 11/12 | 190 | Sufficient |
-| WRP-G002 | 225 | 119 | 9 | 8 | 6/12 | 162 | Sufficient |
-| WRP-G003 | 218 | 115 | 9 | 8 | 7/12 | 161 | Sufficient |
+| WRP-D012 | 218 | 116 | 9 | 8 | 8/11 | 167 | Sufficient |
+| WRP-G001 | 217 | 118 | 9 | 8 | 10/11 | 184 | Sufficient |
+| WRP-G002 | 218 | 119 | 9 | 8 | 5/11 | 159 | Sufficient |
+| WRP-G003 | 210 | 115 | 9 | 8 | 6/11 | 160 | Sufficient |
 | WRP-G004 | 210 | 112 | 9 | 8 | 6/10 | 170 | Sufficient |
 | WRP-G005 | 204 | 116 | 9 | 8 | 6/10 | 159 | Sufficient |
 | WRP-G006 | 197 | 112 | 9 | 8 | 7/10 | 162 | Sufficient |
@@ -132,21 +132,21 @@ None.
 | WRP-G010 | 205 | 114 | 9 | 8 | 7/10 | 150 | Sufficient |
 | WRP-G011 | 230 | 123 | 9 | 8 | 10/10 | 203 | Sufficient |
 | WRP-G012 | 197 | 105 | 9 | 8 | 5/10 | 141 | Sufficient |
-| WRP-P001 | 240 | 114 | 8 | 7 | 7/12 | 178 | Sufficient |
+| WRP-P001 | 231 | 114 | 8 | 7 | 6/11 | 174 | Sufficient |
 | WRP-P002 | 210 | 114 | 9 | 8 | 7/11 | 169 | Sufficient |
-| WRP-P003 | 217 | 116 | 9 | 8 | 8/12 | 165 | Sufficient |
-| WRP-P004 | 216 | 109 | 9 | 8 | 7/12 | 169 | Sufficient |
-| WRP-P005 | 208 | 110 | 9 | 8 | 10/12 | 178 | Sufficient |
-| WRP-P006 | 219 | 115 | 9 | 8 | 8/12 | 175 | Sufficient |
+| WRP-P003 | 208 | 116 | 9 | 8 | 7/11 | 159 | Sufficient |
+| WRP-P004 | 209 | 109 | 9 | 8 | 6/11 | 167 | Sufficient |
+| WRP-P005 | 201 | 110 | 9 | 8 | 9/11 | 171 | Sufficient |
+| WRP-P006 | 213 | 115 | 9 | 8 | 7/11 | 171 | Sufficient |
 | WRP-W001 | 224 | 119 | 9 | 8 | 3/11 | 169 | Sufficient |
 | WRP-W002 | 241 | 120 | 9 | 8 | 8/13 | 190 | Sufficient |
 | WRP-W003 | 227 | 121 | 9 | 8 | 6/11 | 180 | Sufficient |
-| WRP-W004 | 229 | 128 | 9 | 8 | 9/12 | 174 | Sufficient |
-| WRP-W005 | 210 | 115 | 9 | 8 | 5/11 | 160 | Sufficient |
-| WRP-W006 | 222 | 117 | 8 | 7 | 9/12 | 175 | Sufficient |
+| WRP-W004 | 221 | 128 | 9 | 8 | 8/11 | 172 | Sufficient |
+| WRP-W005 | 210 | 115 | 9 | 8 | 5/11 | 162 | Sufficient |
+| WRP-W006 | 214 | 117 | 8 | 7 | 8/11 | 171 | Sufficient |
 | WRP-W007 | 205 | 116 | 9 | 8 | 6/11 | 155 | Sufficient |
-| WRP-W008 | 219 | 115 | 8 | 7 | 6/12 | 174 | Sufficient |
-| WRP-W009 | 222 | 120 | 8 | 7 | 6/12 | 162 | Sufficient |
+| WRP-W008 | 212 | 115 | 8 | 7 | 5/11 | 167 | Sufficient |
+| WRP-W009 | 214 | 120 | 8 | 7 | 5/11 | 156 | Sufficient |
 | WRP-W010 | 221 | 116 | 8 | 7 | 4/11 | 159 | Sufficient |
 
 ## Image differentiation

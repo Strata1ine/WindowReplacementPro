@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T00:56:33.388Z",
+  "generatedAt": "2026-08-22T06:01:40.875Z",
   "pageCount": 40,
   "pairs": [
     {
@@ -11,19 +11,11 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-G002",
-      "right": "WRP-G003",
-      "leftName": "Geometric High-Privacy Door Glass",
-      "rightName": "Frosted High-Privacy Door Glass",
-      "score": 0.0732,
-      "reviewedException": false
-    },
-    {
       "left": "WRP-W009",
       "right": "WRP-W010",
       "leftName": "Casement-Profile Fixed Window",
       "rightName": "Slim Fixed Window",
-      "score": 0.067,
+      "score": 0.0684,
       "reviewedException": false
     },
     {
@@ -31,7 +23,15 @@
       "right": "WRP-W010",
       "leftName": "Picture Window",
       "rightName": "Slim Fixed Window",
-      "score": 0.0668,
+      "score": 0.068,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G002",
+      "right": "WRP-G003",
+      "leftName": "Geometric High-Privacy Door Glass",
+      "rightName": "Frosted High-Privacy Door Glass",
+      "score": 0.0646,
       "reviewedException": false
     },
     {
@@ -95,15 +95,7 @@
       "right": "WRP-W009",
       "leftName": "Picture Window",
       "rightName": "Casement-Profile Fixed Window",
-      "score": 0.0466,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-W004",
-      "right": "WRP-W006",
-      "leftName": "Double-Hung Window",
-      "rightName": "Double Slider Window",
-      "score": 0.0455,
+      "score": 0.0483,
       "reviewedException": false
     },
     {
@@ -127,7 +119,7 @@
       "right": "WRP-W007",
       "leftName": "Double-Hung Window",
       "rightName": "Single Slider Window",
-      "score": 0.0442,
+      "score": 0.045,
       "reviewedException": false
     },
     {
@@ -167,7 +159,7 @@
       "right": "WRP-D010",
       "leftName": "Craftsman Fiberglass Entry Door",
       "rightName": "Narrow-Lite Fiberglass Entry Door",
-      "score": 0.0403,
+      "score": 0.0409,
       "reviewedException": false
     },
     {
@@ -183,15 +175,7 @@
       "right": "WRP-P004",
       "leftName": "PVC Sliding Patio Door",
       "rightName": "Aluminum Sliding Patio Door",
-      "score": 0.0399,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P004",
-      "right": "WRP-P006",
-      "leftName": "Aluminum Sliding Patio Door",
-      "rightName": "Slim-Frame Aluminum Patio Door",
-      "score": 0.0395,
+      "score": 0.0388,
       "reviewedException": false
     },
     {
@@ -211,14 +195,6 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-W006",
-      "right": "WRP-W007",
-      "leftName": "Double Slider Window",
-      "rightName": "Single Slider Window",
-      "score": 0.0376,
-      "reviewedException": false
-    },
-    {
       "left": "WRP-G009",
       "right": "WRP-G010",
       "leftName": "Hammered Decorative Door Glass",
@@ -235,6 +211,46 @@
       "reviewedException": false
     },
     {
+      "left": "WRP-W004",
+      "right": "WRP-W006",
+      "leftName": "Double-Hung Window",
+      "rightName": "Double Slider Window",
+      "score": 0.0369,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-P003",
+      "right": "WRP-P006",
+      "leftName": "PVC Sliding Patio Door",
+      "rightName": "Slim-Frame Aluminum Patio Door",
+      "score": 0.0359,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-W006",
+      "right": "WRP-W007",
+      "leftName": "Double Slider Window",
+      "rightName": "Single Slider Window",
+      "score": 0.0357,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-W007",
+      "right": "WRP-W009",
+      "leftName": "Single Slider Window",
+      "rightName": "Casement-Profile Fixed Window",
+      "score": 0.0357,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-P004",
+      "right": "WRP-P006",
+      "leftName": "Aluminum Sliding Patio Door",
+      "rightName": "Slim-Frame Aluminum Patio Door",
+      "score": 0.0355,
+      "reviewedException": false
+    },
+    {
       "left": "WRP-G005",
       "right": "WRP-G010",
       "leftName": "Linear Privacy Door Glass",
@@ -243,27 +259,11 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-W007",
-      "right": "WRP-W009",
-      "leftName": "Single Slider Window",
-      "rightName": "Casement-Profile Fixed Window",
-      "score": 0.035,
-      "reviewedException": false
-    },
-    {
       "left": "WRP-G009",
       "right": "WRP-G012",
       "leftName": "Hammered Decorative Door Glass",
       "rightName": "Organic Decorative Door Glass",
       "score": 0.0349,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P003",
-      "right": "WRP-P006",
-      "leftName": "PVC Sliding Patio Door",
-      "rightName": "Slim-Frame Aluminum Patio Door",
-      "score": 0.0347,
       "reviewedException": false
     },
     {
@@ -279,7 +279,7 @@
       "right": "WRP-W009",
       "leftName": "Slim-Frame Casement Window",
       "rightName": "Casement-Profile Fixed Window",
-      "score": 0.0341,
+      "score": 0.0347,
       "reviewedException": false
     },
     {
@@ -295,14 +295,6 @@
       "right": "WRP-W010",
       "leftName": "Slim-Frame Casement Window",
       "rightName": "Slim Fixed Window",
-      "score": 0.0337,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-W004",
-      "right": "WRP-W005",
-      "leftName": "Double-Hung Window",
-      "rightName": "Single-Hung Window",
       "score": 0.0337,
       "reviewedException": false
     },
@@ -363,9 +355,9 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-W006",
+      "left": "WRP-W003",
       "right": "WRP-W009",
-      "leftName": "Double Slider Window",
+      "leftName": "Awning Window",
       "rightName": "Casement-Profile Fixed Window",
       "score": 0.0315,
       "reviewedException": false
@@ -395,11 +387,11 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-W003",
+      "left": "WRP-W005",
       "right": "WRP-W009",
-      "leftName": "Awning Window",
+      "leftName": "Single-Hung Window",
       "rightName": "Casement-Profile Fixed Window",
-      "score": 0.0309,
+      "score": 0.0302,
       "reviewedException": false
     },
     {
@@ -411,14 +403,6 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-W005",
-      "right": "WRP-W009",
-      "leftName": "Single-Hung Window",
-      "rightName": "Casement-Profile Fixed Window",
-      "score": 0.0296,
-      "reviewedException": false
-    },
-    {
       "left": "WRP-W007",
       "right": "WRP-W010",
       "leftName": "Single Slider Window",
@@ -427,10 +411,26 @@
       "reviewedException": false
     },
     {
+      "left": "WRP-D005",
+      "right": "WRP-D009",
+      "leftName": "Craftsman Fiberglass Entry Door",
+      "rightName": "Three-Quarter-Glass Fiberglass Entry Door",
+      "score": 0.0295,
+      "reviewedException": false
+    },
+    {
       "left": "WRP-G008",
       "right": "WRP-G010",
       "leftName": "Classic Beveled Decorative Door Glass",
       "rightName": "Contemporary Camed Door Glass",
+      "score": 0.0295,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-P001",
+      "right": "WRP-P002",
+      "leftName": "Multi-Panel Sliding Patio Door",
+      "rightName": "Two-Panel Sliding Patio Door",
       "score": 0.0295,
       "reviewedException": false
     },
@@ -451,19 +451,11 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-D005",
-      "right": "WRP-D009",
-      "leftName": "Craftsman Fiberglass Entry Door",
-      "rightName": "Three-Quarter-Glass Fiberglass Entry Door",
-      "score": 0.0291,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P001",
-      "right": "WRP-P002",
-      "leftName": "Multi-Panel Sliding Patio Door",
-      "rightName": "Two-Panel Sliding Patio Door",
-      "score": 0.0289,
+      "left": "WRP-W004",
+      "right": "WRP-W005",
+      "leftName": "Double-Hung Window",
+      "rightName": "Single-Hung Window",
+      "score": 0.0293,
       "reviewedException": false
     },
     {
@@ -495,7 +487,15 @@
       "right": "WRP-G010",
       "leftName": "Black Linear Privacy Door Glass",
       "rightName": "Contemporary Camed Door Glass",
-      "score": 0.0275,
+      "score": 0.0281,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-W006",
+      "right": "WRP-W009",
+      "leftName": "Double Slider Window",
+      "rightName": "Casement-Profile Fixed Window",
+      "score": 0.0276,
       "reviewedException": false
     },
     {
@@ -539,19 +539,35 @@
       "reviewedException": false
     },
     {
+      "left": "WRP-G002",
+      "right": "WRP-G012",
+      "leftName": "Geometric High-Privacy Door Glass",
+      "rightName": "Organic Decorative Door Glass",
+      "score": 0.0259,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-W003",
+      "right": "WRP-W004",
+      "leftName": "Awning Window",
+      "rightName": "Double-Hung Window",
+      "score": 0.0258,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-P005",
+      "right": "WRP-P006",
+      "leftName": "Hybrid Patio Door",
+      "rightName": "Slim-Frame Aluminum Patio Door",
+      "score": 0.0256,
+      "reviewedException": false
+    },
+    {
       "left": "WRP-D002",
       "right": "WRP-D012",
       "leftName": "Smooth Flush Fiberglass Entry Door",
       "rightName": "One-Panel Woodgrain Fiberglass Entry Door",
       "score": 0.0255,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G002",
-      "right": "WRP-G012",
-      "leftName": "Geometric High-Privacy Door Glass",
-      "rightName": "Organic Decorative Door Glass",
-      "score": 0.0254,
       "reviewedException": false
     },
     {
@@ -563,27 +579,11 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-W003",
-      "right": "WRP-W004",
-      "leftName": "Awning Window",
-      "rightName": "Double-Hung Window",
-      "score": 0.0253,
-      "reviewedException": false
-    },
-    {
       "left": "WRP-D009",
       "right": "WRP-D010",
       "leftName": "Three-Quarter-Glass Fiberglass Entry Door",
       "rightName": "Narrow-Lite Fiberglass Entry Door",
       "score": 0.0249,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P005",
-      "right": "WRP-P006",
-      "leftName": "Hybrid Patio Door",
-      "rightName": "Slim-Frame Aluminum Patio Door",
-      "score": 0.0248,
       "reviewedException": false
     },
     {
@@ -599,7 +599,31 @@
       "right": "WRP-D008",
       "leftName": "Craftsman Fiberglass Entry Door",
       "rightName": "Half-Glass Fiberglass Entry Door",
-      "score": 0.0239,
+      "score": 0.0242,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D005",
+      "right": "WRP-D006",
+      "leftName": "Craftsman Fiberglass Entry Door",
+      "rightName": "Traditional Six-Panel Fiberglass Entry Door",
+      "score": 0.0234,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-P003",
+      "right": "WRP-P005",
+      "leftName": "PVC Sliding Patio Door",
+      "rightName": "Hybrid Patio Door",
+      "score": 0.0234,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-W002",
+      "right": "WRP-W006",
+      "leftName": "High-Performance Casement Window",
+      "rightName": "Double Slider Window",
+      "score": 0.0234,
       "reviewedException": false
     },
     {
@@ -611,27 +635,11 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-G001",
-      "right": "WRP-G002",
-      "leftName": "Black Linear Privacy Door Glass",
-      "rightName": "Geometric High-Privacy Door Glass",
-      "score": 0.0233,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D005",
-      "right": "WRP-D006",
-      "leftName": "Craftsman Fiberglass Entry Door",
-      "rightName": "Traditional Six-Panel Fiberglass Entry Door",
+      "left": "WRP-P004",
+      "right": "WRP-P005",
+      "leftName": "Aluminum Sliding Patio Door",
+      "rightName": "Hybrid Patio Door",
       "score": 0.0231,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-W002",
-      "right": "WRP-W006",
-      "leftName": "High-Performance Casement Window",
-      "rightName": "Double Slider Window",
-      "score": 0.0229,
       "reviewedException": false
     },
     {
@@ -651,19 +659,35 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-P003",
-      "right": "WRP-P005",
-      "leftName": "PVC Sliding Patio Door",
-      "rightName": "Hybrid Patio Door",
-      "score": 0.0225,
+      "left": "WRP-G002",
+      "right": "WRP-G007",
+      "leftName": "Geometric High-Privacy Door Glass",
+      "rightName": "Clear Patterned Door Glass",
+      "score": 0.0222,
       "reviewedException": false
     },
     {
-      "left": "WRP-P004",
-      "right": "WRP-P005",
-      "leftName": "Aluminum Sliding Patio Door",
-      "rightName": "Hybrid Patio Door",
-      "score": 0.0223,
+      "left": "WRP-D001",
+      "right": "WRP-D005",
+      "leftName": "Two-Panel Fiberglass Entry Door",
+      "rightName": "Craftsman Fiberglass Entry Door",
+      "score": 0.022,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G001",
+      "right": "WRP-G004",
+      "leftName": "Black Linear Privacy Door Glass",
+      "rightName": "Clear-Zone Sandblasted Door Glass",
+      "score": 0.022,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-W001",
+      "right": "WRP-W008",
+      "leftName": "Slim-Frame Casement Window",
+      "rightName": "Picture Window",
+      "score": 0.022,
       "reviewedException": false
     },
     {
@@ -675,11 +699,11 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-G002",
-      "right": "WRP-G007",
-      "leftName": "Geometric High-Privacy Door Glass",
-      "rightName": "Clear Patterned Door Glass",
-      "score": 0.0218,
+      "left": "WRP-G001",
+      "right": "WRP-G002",
+      "leftName": "Black Linear Privacy Door Glass",
+      "rightName": "Geometric High-Privacy Door Glass",
+      "score": 0.0217,
       "reviewedException": false
     },
     {
@@ -691,26 +715,10 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-D001",
-      "right": "WRP-D005",
-      "leftName": "Two-Panel Fiberglass Entry Door",
-      "rightName": "Craftsman Fiberglass Entry Door",
-      "score": 0.0216,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-W001",
+      "left": "WRP-W003",
       "right": "WRP-W008",
-      "leftName": "Slim-Frame Casement Window",
+      "leftName": "Awning Window",
       "rightName": "Picture Window",
-      "score": 0.0216,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G001",
-      "right": "WRP-G004",
-      "leftName": "Black Linear Privacy Door Glass",
-      "rightName": "Clear-Zone Sandblasted Door Glass",
       "score": 0.0215,
       "reviewedException": false
     },
@@ -731,27 +739,27 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-W003",
-      "right": "WRP-W008",
-      "leftName": "Awning Window",
-      "rightName": "Picture Window",
-      "score": 0.0211,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-W004",
-      "right": "WRP-W009",
-      "leftName": "Double-Hung Window",
-      "rightName": "Casement-Profile Fixed Window",
-      "score": 0.021,
-      "reviewedException": false
-    },
-    {
       "left": "WRP-G005",
       "right": "WRP-G009",
       "leftName": "Linear Privacy Door Glass",
       "rightName": "Hammered Decorative Door Glass",
       "score": 0.0208,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-P001",
+      "right": "WRP-W002",
+      "leftName": "Multi-Panel Sliding Patio Door",
+      "rightName": "High-Performance Casement Window",
+      "score": 0.0205,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G002",
+      "right": "WRP-G010",
+      "leftName": "Geometric High-Privacy Door Glass",
+      "rightName": "Contemporary Camed Door Glass",
+      "score": 0.0204,
       "reviewedException": false
     },
     {
@@ -763,6 +771,14 @@
       "reviewedException": false
     },
     {
+      "left": "WRP-D005",
+      "right": "WRP-D011",
+      "leftName": "Craftsman Fiberglass Entry Door",
+      "rightName": "Four-Panel Fiberglass Entry Door",
+      "score": 0.0203,
+      "reviewedException": false
+    },
+    {
       "left": "WRP-G004",
       "right": "WRP-G009",
       "leftName": "Clear-Zone Sandblasted Door Glass",
@@ -771,35 +787,11 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-P001",
-      "right": "WRP-W002",
-      "leftName": "Multi-Panel Sliding Patio Door",
-      "rightName": "High-Performance Casement Window",
-      "score": 0.0201,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D005",
-      "right": "WRP-D011",
-      "leftName": "Craftsman Fiberglass Entry Door",
-      "rightName": "Four-Panel Fiberglass Entry Door",
-      "score": 0.02,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G002",
-      "right": "WRP-G010",
-      "leftName": "Geometric High-Privacy Door Glass",
-      "rightName": "Contemporary Camed Door Glass",
-      "score": 0.02,
-      "reviewedException": false
-    },
-    {
       "left": "WRP-P002",
       "right": "WRP-W009",
       "leftName": "Two-Panel Sliding Patio Door",
       "rightName": "Casement-Profile Fixed Window",
-      "score": 0.0196,
+      "score": 0.02,
       "reviewedException": false
     },
     {
@@ -807,7 +799,7 @@
       "right": "WRP-W008",
       "leftName": "Single-Hung Window",
       "rightName": "Picture Window",
-      "score": 0.0195,
+      "score": 0.0198,
       "reviewedException": false
     },
     {
@@ -815,15 +807,7 @@
       "right": "WRP-D007",
       "leftName": "Craftsman Fiberglass Entry Door",
       "rightName": "Full-Glass Fiberglass Entry Door",
-      "score": 0.019,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G001",
-      "right": "WRP-G003",
-      "leftName": "Black Linear Privacy Door Glass",
-      "rightName": "Frosted High-Privacy Door Glass",
-      "score": 0.019,
+      "score": 0.0193,
       "reviewedException": false
     },
     {
@@ -831,15 +815,7 @@
       "right": "WRP-W006",
       "leftName": "Awning Window",
       "rightName": "Double Slider Window",
-      "score": 0.0188,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P001",
-      "right": "WRP-W006",
-      "leftName": "Multi-Panel Sliding Patio Door",
-      "rightName": "Double Slider Window",
-      "score": 0.0187,
+      "score": 0.0191,
       "reviewedException": false
     },
     {
@@ -847,7 +823,7 @@
       "right": "WRP-W002",
       "leftName": "PVC Sliding Patio Door",
       "rightName": "High-Performance Casement Window",
-      "score": 0.0185,
+      "score": 0.0189,
       "reviewedException": false
     },
     {
@@ -855,7 +831,7 @@
       "right": "WRP-W010",
       "leftName": "Double-Hung Window",
       "rightName": "Slim Fixed Window",
-      "score": 0.0185,
+      "score": 0.0188,
       "reviewedException": false
     },
     {
@@ -891,6 +867,14 @@
       "reviewedException": false
     },
     {
+      "left": "WRP-P002",
+      "right": "WRP-W006",
+      "leftName": "Two-Panel Sliding Patio Door",
+      "rightName": "Double Slider Window",
+      "score": 0.0174,
+      "reviewedException": false
+    },
+    {
       "left": "WRP-D001",
       "right": "WRP-D010",
       "leftName": "Two-Panel Fiberglass Entry Door",
@@ -915,10 +899,10 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-P002",
-      "right": "WRP-W006",
-      "leftName": "Two-Panel Sliding Patio Door",
-      "rightName": "Double Slider Window",
+      "left": "WRP-D005",
+      "right": "WRP-D012",
+      "leftName": "Craftsman Fiberglass Entry Door",
+      "rightName": "One-Panel Woodgrain Fiberglass Entry Door",
       "score": 0.0171,
       "reviewedException": false
     },
@@ -935,14 +919,38 @@
       "right": "WRP-D005",
       "leftName": "Oak-Grain Fiberglass Entry Door",
       "rightName": "Craftsman Fiberglass Entry Door",
-      "score": 0.0168,
+      "score": 0.017,
       "reviewedException": false
     },
     {
-      "left": "WRP-D005",
-      "right": "WRP-D012",
-      "leftName": "Craftsman Fiberglass Entry Door",
-      "rightName": "One-Panel Woodgrain Fiberglass Entry Door",
+      "left": "WRP-P001",
+      "right": "WRP-P004",
+      "leftName": "Multi-Panel Sliding Patio Door",
+      "rightName": "Aluminum Sliding Patio Door",
+      "score": 0.017,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-W004",
+      "right": "WRP-W009",
+      "leftName": "Double-Hung Window",
+      "rightName": "Casement-Profile Fixed Window",
+      "score": 0.0169,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-W006",
+      "right": "WRP-W010",
+      "leftName": "Double Slider Window",
+      "rightName": "Slim Fixed Window",
+      "score": 0.0169,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-W004",
+      "right": "WRP-W008",
+      "leftName": "Double-Hung Window",
+      "rightName": "Picture Window",
       "score": 0.0168,
       "reviewedException": false
     },
@@ -971,43 +979,19 @@
       "reviewedException": false
     },
     {
+      "left": "WRP-W001",
+      "right": "WRP-W004",
+      "leftName": "Slim-Frame Casement Window",
+      "rightName": "Double-Hung Window",
+      "score": 0.0166,
+      "reviewedException": false
+    },
+    {
       "left": "WRP-D002",
       "right": "WRP-D010",
       "leftName": "Smooth Flush Fiberglass Entry Door",
       "rightName": "Narrow-Lite Fiberglass Entry Door",
       "score": 0.0165,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P001",
-      "right": "WRP-P003",
-      "leftName": "Multi-Panel Sliding Patio Door",
-      "rightName": "PVC Sliding Patio Door",
-      "score": 0.0165,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-W006",
-      "right": "WRP-W010",
-      "leftName": "Double Slider Window",
-      "rightName": "Slim Fixed Window",
-      "score": 0.0165,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P001",
-      "right": "WRP-P004",
-      "leftName": "Multi-Panel Sliding Patio Door",
-      "rightName": "Aluminum Sliding Patio Door",
-      "score": 0.0164,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-W001",
-      "right": "WRP-W004",
-      "leftName": "Slim-Frame Casement Window",
-      "rightName": "Double-Hung Window",
-      "score": 0.0163,
       "reviewedException": false
     },
     {
@@ -1019,10 +1003,18 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-W004",
+      "left": "WRP-W002",
       "right": "WRP-W008",
-      "leftName": "Double-Hung Window",
+      "leftName": "High-Performance Casement Window",
       "rightName": "Picture Window",
+      "score": 0.0162,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-W002",
+      "right": "WRP-W009",
+      "leftName": "High-Performance Casement Window",
+      "rightName": "Casement-Profile Fixed Window",
       "score": 0.0162,
       "reviewedException": false
     },
@@ -1043,22 +1035,6 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-W002",
-      "right": "WRP-W008",
-      "leftName": "High-Performance Casement Window",
-      "rightName": "Picture Window",
-      "score": 0.0159,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-W002",
-      "right": "WRP-W009",
-      "leftName": "High-Performance Casement Window",
-      "rightName": "Casement-Profile Fixed Window",
-      "score": 0.0159,
-      "reviewedException": false
-    },
-    {
       "left": "WRP-G006",
       "right": "WRP-G008",
       "leftName": "Wide-Reed Textured Door Glass",
@@ -1071,15 +1047,7 @@
       "right": "WRP-W004",
       "leftName": "High-Performance Casement Window",
       "rightName": "Double-Hung Window",
-      "score": 0.0156,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D006",
-      "right": "WRP-D009",
-      "leftName": "Traditional Six-Panel Fiberglass Entry Door",
-      "rightName": "Three-Quarter-Glass Fiberglass Entry Door",
-      "score": 0.0153,
+      "score": 0.0158,
       "reviewedException": false
     },
     {
@@ -1087,6 +1055,14 @@
       "right": "WRP-G005",
       "leftName": "Frosted High-Privacy Door Glass",
       "rightName": "Linear Privacy Door Glass",
+      "score": 0.0155,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D006",
+      "right": "WRP-D009",
+      "leftName": "Traditional Six-Panel Fiberglass Entry Door",
+      "rightName": "Three-Quarter-Glass Fiberglass Entry Door",
       "score": 0.0153,
       "reviewedException": false
     },
@@ -1115,10 +1091,50 @@
       "reviewedException": false
     },
     {
+      "left": "WRP-W005",
+      "right": "WRP-W006",
+      "leftName": "Single-Hung Window",
+      "rightName": "Double Slider Window",
+      "score": 0.0149,
+      "reviewedException": false
+    },
+    {
       "left": "WRP-W007",
       "right": "WRP-W008",
       "leftName": "Single Slider Window",
       "rightName": "Picture Window",
+      "score": 0.0149,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G002",
+      "right": "WRP-G009",
+      "leftName": "Geometric High-Privacy Door Glass",
+      "rightName": "Hammered Decorative Door Glass",
+      "score": 0.0148,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-W006",
+      "right": "WRP-W008",
+      "leftName": "Double Slider Window",
+      "rightName": "Picture Window",
+      "score": 0.0148,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G001",
+      "right": "WRP-G003",
+      "leftName": "Black Linear Privacy Door Glass",
+      "rightName": "Frosted High-Privacy Door Glass",
+      "score": 0.0147,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-P001",
+      "right": "WRP-P003",
+      "leftName": "Multi-Panel Sliding Patio Door",
+      "rightName": "PVC Sliding Patio Door",
       "score": 0.0147,
       "reviewedException": false
     },
@@ -1139,18 +1155,18 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-W005",
+      "left": "WRP-W001",
       "right": "WRP-W006",
-      "leftName": "Single-Hung Window",
+      "leftName": "Slim-Frame Casement Window",
       "rightName": "Double Slider Window",
       "score": 0.0146,
       "reviewedException": false
     },
     {
-      "left": "WRP-G002",
-      "right": "WRP-G009",
-      "leftName": "Geometric High-Privacy Door Glass",
-      "rightName": "Hammered Decorative Door Glass",
+      "left": "WRP-P001",
+      "right": "WRP-W006",
+      "leftName": "Multi-Panel Sliding Patio Door",
+      "rightName": "Double Slider Window",
       "score": 0.0145,
       "reviewedException": false
     },
@@ -1195,27 +1211,11 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-W001",
-      "right": "WRP-W006",
-      "leftName": "Slim-Frame Casement Window",
-      "rightName": "Double Slider Window",
-      "score": 0.0143,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-W006",
-      "right": "WRP-W008",
-      "leftName": "Double Slider Window",
-      "rightName": "Picture Window",
-      "score": 0.0143,
-      "reviewedException": false
-    },
-    {
       "left": "WRP-D002",
       "right": "WRP-P003",
       "leftName": "Smooth Flush Fiberglass Entry Door",
       "rightName": "PVC Sliding Patio Door",
-      "score": 0.0139,
+      "score": 0.0141,
       "reviewedException": false
     },
     {
@@ -1223,7 +1223,7 @@
       "right": "WRP-W010",
       "leftName": "Multi-Panel Sliding Patio Door",
       "rightName": "Slim Fixed Window",
-      "score": 0.0138,
+      "score": 0.0141,
       "reviewedException": false
     },
     {
@@ -1231,7 +1231,15 @@
       "right": "WRP-D005",
       "leftName": "Smooth Flush Fiberglass Entry Door",
       "rightName": "Craftsman Fiberglass Entry Door",
-      "score": 0.0137,
+      "score": 0.0139,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G003",
+      "right": "WRP-G006",
+      "leftName": "Frosted High-Privacy Door Glass",
+      "rightName": "Wide-Reed Textured Door Glass",
+      "score": 0.0129,
       "reviewedException": false
     },
     {
@@ -1251,19 +1259,51 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-G003",
-      "right": "WRP-G006",
-      "leftName": "Frosted High-Privacy Door Glass",
-      "rightName": "Wide-Reed Textured Door Glass",
+      "left": "WRP-G001",
+      "right": "WRP-G012",
+      "leftName": "Black Linear Privacy Door Glass",
+      "rightName": "Organic Decorative Door Glass",
       "score": 0.0127,
       "reviewedException": false
     },
     {
       "left": "WRP-G001",
-      "right": "WRP-G012",
+      "right": "WRP-G006",
       "leftName": "Black Linear Privacy Door Glass",
-      "rightName": "Organic Decorative Door Glass",
+      "rightName": "Wide-Reed Textured Door Glass",
       "score": 0.0125,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G002",
+      "right": "WRP-G008",
+      "leftName": "Geometric High-Privacy Door Glass",
+      "rightName": "Classic Beveled Decorative Door Glass",
+      "score": 0.0125,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G003",
+      "right": "WRP-G007",
+      "leftName": "Frosted High-Privacy Door Glass",
+      "rightName": "Clear Patterned Door Glass",
+      "score": 0.0125,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G001",
+      "right": "WRP-G008",
+      "leftName": "Black Linear Privacy Door Glass",
+      "rightName": "Classic Beveled Decorative Door Glass",
+      "score": 0.0124,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-P002",
+      "right": "WRP-P006",
+      "leftName": "Two-Panel Sliding Patio Door",
+      "rightName": "Slim-Frame Aluminum Patio Door",
+      "score": 0.0124,
       "reviewedException": false
     },
     {
@@ -1276,49 +1316,17 @@
     },
     {
       "left": "WRP-G001",
-      "right": "WRP-G006",
-      "leftName": "Black Linear Privacy Door Glass",
-      "rightName": "Wide-Reed Textured Door Glass",
-      "score": 0.0123,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G002",
-      "right": "WRP-G008",
-      "leftName": "Geometric High-Privacy Door Glass",
-      "rightName": "Classic Beveled Decorative Door Glass",
-      "score": 0.0123,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G003",
-      "right": "WRP-G007",
-      "leftName": "Frosted High-Privacy Door Glass",
-      "rightName": "Clear Patterned Door Glass",
-      "score": 0.0123,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G001",
-      "right": "WRP-G008",
-      "leftName": "Black Linear Privacy Door Glass",
-      "rightName": "Classic Beveled Decorative Door Glass",
-      "score": 0.0122,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P002",
-      "right": "WRP-P006",
-      "leftName": "Two-Panel Sliding Patio Door",
-      "rightName": "Slim-Frame Aluminum Patio Door",
-      "score": 0.0122,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G001",
       "right": "WRP-G009",
       "leftName": "Black Linear Privacy Door Glass",
       "rightName": "Hammered Decorative Door Glass",
+      "score": 0.0122,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-P001",
+      "right": "WRP-P006",
+      "leftName": "Multi-Panel Sliding Patio Door",
+      "rightName": "Slim-Frame Aluminum Patio Door",
       "score": 0.012,
       "reviewedException": false
     },
@@ -1332,18 +1340,10 @@
     },
     {
       "left": "WRP-P001",
-      "right": "WRP-P006",
-      "leftName": "Multi-Panel Sliding Patio Door",
-      "rightName": "Slim-Frame Aluminum Patio Door",
-      "score": 0.0117,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P001",
       "right": "WRP-W001",
       "leftName": "Multi-Panel Sliding Patio Door",
       "rightName": "Slim-Frame Casement Window",
-      "score": 0.0116,
+      "score": 0.0118,
       "reviewedException": false
     },
     {
@@ -1351,7 +1351,7 @@
       "right": "WRP-W003",
       "leftName": "Multi-Panel Sliding Patio Door",
       "rightName": "Awning Window",
-      "score": 0.0114,
+      "score": 0.0116,
       "reviewedException": false
     },
     {
@@ -1375,7 +1375,15 @@
       "right": "WRP-P005",
       "leftName": "Traditional Six-Panel Fiberglass Entry Door",
       "rightName": "Hybrid Patio Door",
-      "score": 0.0104,
+      "score": 0.0106,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G003",
+      "right": "WRP-G010",
+      "leftName": "Frosted High-Privacy Door Glass",
+      "rightName": "Contemporary Camed Door Glass",
+      "score": 0.0103,
       "reviewedException": false
     },
     {
@@ -1396,9 +1404,9 @@
     },
     {
       "left": "WRP-G003",
-      "right": "WRP-G010",
+      "right": "WRP-G008",
       "leftName": "Frosted High-Privacy Door Glass",
-      "rightName": "Contemporary Camed Door Glass",
+      "rightName": "Classic Beveled Decorative Door Glass",
       "score": 0.0102,
       "reviewedException": false
     },
@@ -1436,9 +1444,9 @@
     },
     {
       "left": "WRP-G003",
-      "right": "WRP-G008",
+      "right": "WRP-G009",
       "leftName": "Frosted High-Privacy Door Glass",
-      "rightName": "Classic Beveled Decorative Door Glass",
+      "rightName": "Hammered Decorative Door Glass",
       "score": 0.0101,
       "reviewedException": false
     },
@@ -1459,6 +1467,22 @@
       "reviewedException": false
     },
     {
+      "left": "WRP-G001",
+      "right": "WRP-G005",
+      "leftName": "Black Linear Privacy Door Glass",
+      "rightName": "Linear Privacy Door Glass",
+      "score": 0.01,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G002",
+      "right": "WRP-G006",
+      "leftName": "Geometric High-Privacy Door Glass",
+      "rightName": "Wide-Reed Textured Door Glass",
+      "score": 0.01,
+      "reviewedException": false
+    },
+    {
       "left": "WRP-P002",
       "right": "WRP-W007",
       "leftName": "Two-Panel Sliding Patio Door",
@@ -1475,27 +1499,11 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-G002",
-      "right": "WRP-G006",
-      "leftName": "Geometric High-Privacy Door Glass",
-      "rightName": "Wide-Reed Textured Door Glass",
+      "left": "WRP-P001",
+      "right": "WRP-P005",
+      "leftName": "Multi-Panel Sliding Patio Door",
+      "rightName": "Hybrid Patio Door",
       "score": 0.0099,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G003",
-      "right": "WRP-G009",
-      "leftName": "Frosted High-Privacy Door Glass",
-      "rightName": "Hammered Decorative Door Glass",
-      "score": 0.0099,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G001",
-      "right": "WRP-G005",
-      "leftName": "Black Linear Privacy Door Glass",
-      "rightName": "Linear Privacy Door Glass",
-      "score": 0.0098,
       "reviewedException": false
     },
     {
@@ -1503,6 +1511,14 @@
       "right": "WRP-W001",
       "leftName": "Hybrid Patio Door",
       "rightName": "Slim-Frame Casement Window",
+      "score": 0.0099,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-P002",
+      "right": "WRP-W008",
+      "leftName": "Two-Panel Sliding Patio Door",
+      "rightName": "Picture Window",
       "score": 0.0098,
       "reviewedException": false
     },
@@ -1515,10 +1531,42 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-P002",
-      "right": "WRP-W008",
-      "leftName": "Two-Panel Sliding Patio Door",
-      "rightName": "Picture Window",
+      "left": "WRP-D005",
+      "right": "WRP-G002",
+      "leftName": "Craftsman Fiberglass Entry Door",
+      "rightName": "Geometric High-Privacy Door Glass",
+      "score": 0.0097,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D009",
+      "right": "WRP-W009",
+      "leftName": "Three-Quarter-Glass Fiberglass Entry Door",
+      "rightName": "Casement-Profile Fixed Window",
+      "score": 0.0097,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G001",
+      "right": "WRP-G007",
+      "leftName": "Black Linear Privacy Door Glass",
+      "rightName": "Clear Patterned Door Glass",
+      "score": 0.0097,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G002",
+      "right": "WRP-G004",
+      "leftName": "Geometric High-Privacy Door Glass",
+      "rightName": "Clear-Zone Sandblasted Door Glass",
+      "score": 0.0097,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-P006",
+      "right": "WRP-W001",
+      "leftName": "Slim-Frame Aluminum Patio Door",
+      "rightName": "Slim-Frame Casement Window",
       "score": 0.0097,
       "reviewedException": false
     },
@@ -1531,51 +1579,27 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-D012",
-      "right": "WRP-P004",
-      "leftName": "One-Panel Woodgrain Fiberglass Entry Door",
-      "rightName": "Aluminum Sliding Patio Door",
+      "left": "WRP-P001",
+      "right": "WRP-W008",
+      "leftName": "Multi-Panel Sliding Patio Door",
+      "rightName": "Picture Window",
       "score": 0.0096,
       "reviewedException": false
     },
     {
-      "left": "WRP-D009",
-      "right": "WRP-W009",
-      "leftName": "Three-Quarter-Glass Fiberglass Entry Door",
-      "rightName": "Casement-Profile Fixed Window",
-      "score": 0.0095,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G001",
-      "right": "WRP-G007",
-      "leftName": "Black Linear Privacy Door Glass",
-      "rightName": "Clear Patterned Door Glass",
-      "score": 0.0095,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G002",
-      "right": "WRP-G004",
-      "leftName": "Geometric High-Privacy Door Glass",
-      "rightName": "Clear-Zone Sandblasted Door Glass",
-      "score": 0.0095,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P001",
-      "right": "WRP-P005",
-      "leftName": "Multi-Panel Sliding Patio Door",
-      "rightName": "Hybrid Patio Door",
-      "score": 0.0095,
+      "left": "WRP-P002",
+      "right": "WRP-W004",
+      "leftName": "Two-Panel Sliding Patio Door",
+      "rightName": "Double-Hung Window",
+      "score": 0.0096,
       "reviewedException": false
     },
     {
       "left": "WRP-P006",
-      "right": "WRP-W001",
+      "right": "WRP-W004",
       "leftName": "Slim-Frame Aluminum Patio Door",
-      "rightName": "Slim-Frame Casement Window",
-      "score": 0.0095,
+      "rightName": "Double-Hung Window",
+      "score": 0.0096,
       "reviewedException": false
     },
     {
@@ -1587,10 +1611,10 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-D005",
-      "right": "WRP-G002",
-      "leftName": "Craftsman Fiberglass Entry Door",
-      "rightName": "Geometric High-Privacy Door Glass",
+      "left": "WRP-D007",
+      "right": "WRP-G001",
+      "leftName": "Full-Glass Fiberglass Entry Door",
+      "rightName": "Black Linear Privacy Door Glass",
       "score": 0.0094,
       "reviewedException": false
     },
@@ -1603,14 +1627,6 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-P002",
-      "right": "WRP-W004",
-      "leftName": "Two-Panel Sliding Patio Door",
-      "rightName": "Double-Hung Window",
-      "score": 0.0094,
-      "reviewedException": false
-    },
-    {
       "left": "WRP-D007",
       "right": "WRP-G011",
       "leftName": "Full-Glass Fiberglass Entry Door",
@@ -1619,51 +1635,11 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-P001",
-      "right": "WRP-W009",
-      "leftName": "Multi-Panel Sliding Patio Door",
-      "rightName": "Casement-Profile Fixed Window",
-      "score": 0.0093,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P006",
-      "right": "WRP-W004",
-      "leftName": "Slim-Frame Aluminum Patio Door",
-      "rightName": "Double-Hung Window",
-      "score": 0.0093,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D007",
-      "right": "WRP-G001",
-      "leftName": "Full-Glass Fiberglass Entry Door",
-      "rightName": "Black Linear Privacy Door Glass",
-      "score": 0.0092,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P001",
-      "right": "WRP-W008",
-      "leftName": "Multi-Panel Sliding Patio Door",
-      "rightName": "Picture Window",
-      "score": 0.0092,
-      "reviewedException": false
-    },
-    {
       "left": "WRP-D002",
       "right": "WRP-D009",
       "leftName": "Smooth Flush Fiberglass Entry Door",
       "rightName": "Three-Quarter-Glass Fiberglass Entry Door",
       "score": 0.0091,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P001",
-      "right": "WRP-W004",
-      "leftName": "Multi-Panel Sliding Patio Door",
-      "rightName": "Double-Hung Window",
-      "score": 0.009,
       "reviewedException": false
     },
     {
@@ -1699,6 +1675,14 @@
       "reviewedException": false
     },
     {
+      "left": "WRP-G003",
+      "right": "WRP-G012",
+      "leftName": "Frosted High-Privacy Door Glass",
+      "rightName": "Organic Decorative Door Glass",
+      "score": 0.0078,
+      "reviewedException": false
+    },
+    {
       "left": "WRP-D004",
       "right": "WRP-D006",
       "leftName": "Mahogany-Grain Fiberglass Entry Door",
@@ -1711,6 +1695,14 @@
       "right": "WRP-G004",
       "leftName": "Traditional Six-Panel Fiberglass Entry Door",
       "rightName": "Clear-Zone Sandblasted Door Glass",
+      "score": 0.0077,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D006",
+      "right": "WRP-P006",
+      "leftName": "Traditional Six-Panel Fiberglass Entry Door",
+      "rightName": "Slim-Frame Aluminum Patio Door",
       "score": 0.0077,
       "reviewedException": false
     },
@@ -1731,10 +1723,10 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-G003",
-      "right": "WRP-G012",
-      "leftName": "Frosted High-Privacy Door Glass",
-      "rightName": "Organic Decorative Door Glass",
+      "left": "WRP-G005",
+      "right": "WRP-P004",
+      "leftName": "Linear Privacy Door Glass",
+      "rightName": "Aluminum Sliding Patio Door",
       "score": 0.0077,
       "reviewedException": false
     },
@@ -1747,18 +1739,18 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-D006",
-      "right": "WRP-P006",
-      "leftName": "Traditional Six-Panel Fiberglass Entry Door",
-      "rightName": "Slim-Frame Aluminum Patio Door",
-      "score": 0.0076,
-      "reviewedException": false
-    },
-    {
       "left": "WRP-D012",
       "right": "WRP-G010",
       "leftName": "One-Panel Woodgrain Fiberglass Entry Door",
       "rightName": "Contemporary Camed Door Glass",
+      "score": 0.0076,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-P005",
+      "right": "WRP-W005",
+      "leftName": "Hybrid Patio Door",
+      "rightName": "Single-Hung Window",
       "score": 0.0076,
       "reviewedException": false
     },
@@ -1803,14 +1795,6 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-G005",
-      "right": "WRP-P004",
-      "leftName": "Linear Privacy Door Glass",
-      "rightName": "Aluminum Sliding Patio Door",
-      "score": 0.0075,
-      "reviewedException": false
-    },
-    {
       "left": "WRP-G011",
       "right": "WRP-G012",
       "leftName": "Narrow Sidelite Decorative Glass",
@@ -1823,14 +1807,62 @@
       "right": "WRP-P003",
       "leftName": "Two-Panel Sliding Patio Door",
       "rightName": "PVC Sliding Patio Door",
+      "score": 0.0075,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-P003",
+      "right": "WRP-W005",
+      "leftName": "PVC Sliding Patio Door",
+      "rightName": "Single-Hung Window",
+      "score": 0.0075,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D004",
+      "right": "WRP-P003",
+      "leftName": "Mahogany-Grain Fiberglass Entry Door",
+      "rightName": "PVC Sliding Patio Door",
       "score": 0.0074,
       "reviewedException": false
     },
     {
-      "left": "WRP-P005",
-      "right": "WRP-W005",
-      "leftName": "Hybrid Patio Door",
-      "rightName": "Single-Hung Window",
+      "left": "WRP-D009",
+      "right": "WRP-P003",
+      "leftName": "Three-Quarter-Glass Fiberglass Entry Door",
+      "rightName": "PVC Sliding Patio Door",
+      "score": 0.0074,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G003",
+      "right": "WRP-G004",
+      "leftName": "Frosted High-Privacy Door Glass",
+      "rightName": "Clear-Zone Sandblasted Door Glass",
+      "score": 0.0074,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-P003",
+      "right": "WRP-W001",
+      "leftName": "PVC Sliding Patio Door",
+      "rightName": "Slim-Frame Casement Window",
+      "score": 0.0074,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-P004",
+      "right": "WRP-W006",
+      "leftName": "Aluminum Sliding Patio Door",
+      "rightName": "Double Slider Window",
+      "score": 0.0074,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-P004",
+      "right": "WRP-W009",
+      "leftName": "Aluminum Sliding Patio Door",
+      "rightName": "Casement-Profile Fixed Window",
       "score": 0.0074,
       "reviewedException": false
     },
@@ -1852,9 +1884,25 @@
     },
     {
       "left": "WRP-D004",
-      "right": "WRP-P003",
+      "right": "WRP-D005",
       "leftName": "Mahogany-Grain Fiberglass Entry Door",
-      "rightName": "PVC Sliding Patio Door",
+      "rightName": "Craftsman Fiberglass Entry Door",
+      "score": 0.0073,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D005",
+      "right": "WRP-W009",
+      "leftName": "Craftsman Fiberglass Entry Door",
+      "rightName": "Casement-Profile Fixed Window",
+      "score": 0.0073,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D009",
+      "right": "WRP-P004",
+      "leftName": "Three-Quarter-Glass Fiberglass Entry Door",
+      "rightName": "Aluminum Sliding Patio Door",
       "score": 0.0073,
       "reviewedException": false
     },
@@ -1867,19 +1915,35 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-G003",
-      "right": "WRP-G004",
-      "leftName": "Frosted High-Privacy Door Glass",
-      "rightName": "Clear-Zone Sandblasted Door Glass",
+      "left": "WRP-D012",
+      "right": "WRP-P004",
+      "leftName": "One-Panel Woodgrain Fiberglass Entry Door",
+      "rightName": "Aluminum Sliding Patio Door",
       "score": 0.0073,
       "reviewedException": false
     },
     {
-      "left": "WRP-P003",
-      "right": "WRP-W005",
-      "leftName": "PVC Sliding Patio Door",
-      "rightName": "Single-Hung Window",
+      "left": "WRP-P001",
+      "right": "WRP-W007",
+      "leftName": "Multi-Panel Sliding Patio Door",
+      "rightName": "Single Slider Window",
       "score": 0.0073,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-P005",
+      "right": "WRP-W004",
+      "leftName": "Hybrid Patio Door",
+      "rightName": "Double-Hung Window",
+      "score": 0.0073,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D001",
+      "right": "WRP-W008",
+      "leftName": "Two-Panel Fiberglass Entry Door",
+      "rightName": "Picture Window",
+      "score": 0.0072,
       "reviewedException": false
     },
     {
@@ -1887,14 +1951,6 @@
       "right": "WRP-G004",
       "leftName": "Oak-Grain Fiberglass Entry Door",
       "rightName": "Clear-Zone Sandblasted Door Glass",
-      "score": 0.0072,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D004",
-      "right": "WRP-D005",
-      "leftName": "Mahogany-Grain Fiberglass Entry Door",
-      "rightName": "Craftsman Fiberglass Entry Door",
       "score": 0.0072,
       "reviewedException": false
     },
@@ -1907,6 +1963,14 @@
       "reviewedException": false
     },
     {
+      "left": "WRP-D007",
+      "right": "WRP-W009",
+      "leftName": "Full-Glass Fiberglass Entry Door",
+      "rightName": "Casement-Profile Fixed Window",
+      "score": 0.0072,
+      "reviewedException": false
+    },
+    {
       "left": "WRP-D008",
       "right": "WRP-G007",
       "leftName": "Half-Glass Fiberglass Entry Door",
@@ -1915,35 +1979,35 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-D009",
-      "right": "WRP-P003",
-      "leftName": "Three-Quarter-Glass Fiberglass Entry Door",
-      "rightName": "PVC Sliding Patio Door",
+      "left": "WRP-D008",
+      "right": "WRP-P006",
+      "leftName": "Half-Glass Fiberglass Entry Door",
+      "rightName": "Slim-Frame Aluminum Patio Door",
       "score": 0.0072,
       "reviewedException": false
     },
     {
       "left": "WRP-D009",
-      "right": "WRP-P004",
+      "right": "WRP-P006",
       "leftName": "Three-Quarter-Glass Fiberglass Entry Door",
-      "rightName": "Aluminum Sliding Patio Door",
+      "rightName": "Slim-Frame Aluminum Patio Door",
       "score": 0.0072,
       "reviewedException": false
     },
     {
-      "left": "WRP-P003",
-      "right": "WRP-W001",
-      "leftName": "PVC Sliding Patio Door",
-      "rightName": "Slim-Frame Casement Window",
+      "left": "WRP-P004",
+      "right": "WRP-W004",
+      "leftName": "Aluminum Sliding Patio Door",
+      "rightName": "Double-Hung Window",
       "score": 0.0072,
       "reviewedException": false
     },
     {
-      "left": "WRP-D001",
-      "right": "WRP-W008",
-      "leftName": "Two-Panel Fiberglass Entry Door",
-      "rightName": "Picture Window",
-      "score": 0.0071,
+      "left": "WRP-P006",
+      "right": "WRP-W010",
+      "leftName": "Slim-Frame Aluminum Patio Door",
+      "rightName": "Slim Fixed Window",
+      "score": 0.0072,
       "reviewedException": false
     },
     {
@@ -1956,25 +2020,25 @@
     },
     {
       "left": "WRP-D005",
-      "right": "WRP-W009",
+      "right": "WRP-G011",
       "leftName": "Craftsman Fiberglass Entry Door",
-      "rightName": "Casement-Profile Fixed Window",
+      "rightName": "Narrow Sidelite Decorative Glass",
       "score": 0.0071,
       "reviewedException": false
     },
     {
-      "left": "WRP-D008",
-      "right": "WRP-P006",
-      "leftName": "Half-Glass Fiberglass Entry Door",
-      "rightName": "Slim-Frame Aluminum Patio Door",
+      "left": "WRP-D005",
+      "right": "WRP-W004",
+      "leftName": "Craftsman Fiberglass Entry Door",
+      "rightName": "Double-Hung Window",
       "score": 0.0071,
       "reviewedException": false
     },
     {
-      "left": "WRP-D009",
-      "right": "WRP-P006",
-      "leftName": "Three-Quarter-Glass Fiberglass Entry Door",
-      "rightName": "Slim-Frame Aluminum Patio Door",
+      "left": "WRP-D007",
+      "right": "WRP-W008",
+      "leftName": "Full-Glass Fiberglass Entry Door",
+      "rightName": "Picture Window",
       "score": 0.0071,
       "reviewedException": false
     },
@@ -1987,67 +2051,19 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-P001",
-      "right": "WRP-W007",
-      "leftName": "Multi-Panel Sliding Patio Door",
-      "rightName": "Single Slider Window",
-      "score": 0.0071,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P004",
-      "right": "WRP-W006",
-      "leftName": "Aluminum Sliding Patio Door",
-      "rightName": "Double Slider Window",
-      "score": 0.0071,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P004",
-      "right": "WRP-W009",
-      "leftName": "Aluminum Sliding Patio Door",
-      "rightName": "Casement-Profile Fixed Window",
-      "score": 0.0071,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P005",
-      "right": "WRP-W004",
-      "leftName": "Hybrid Patio Door",
-      "rightName": "Double-Hung Window",
+      "left": "WRP-G001",
+      "right": "WRP-W001",
+      "leftName": "Black Linear Privacy Door Glass",
+      "rightName": "Slim-Frame Casement Window",
       "score": 0.0071,
       "reviewedException": false
     },
     {
       "left": "WRP-P006",
-      "right": "WRP-W010",
+      "right": "WRP-W003",
       "leftName": "Slim-Frame Aluminum Patio Door",
-      "rightName": "Slim Fixed Window",
+      "rightName": "Awning Window",
       "score": 0.0071,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D005",
-      "right": "WRP-G011",
-      "leftName": "Craftsman Fiberglass Entry Door",
-      "rightName": "Narrow Sidelite Decorative Glass",
-      "score": 0.007,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D007",
-      "right": "WRP-W008",
-      "leftName": "Full-Glass Fiberglass Entry Door",
-      "rightName": "Picture Window",
-      "score": 0.007,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D007",
-      "right": "WRP-W009",
-      "leftName": "Full-Glass Fiberglass Entry Door",
-      "rightName": "Casement-Profile Fixed Window",
-      "score": 0.007,
       "reviewedException": false
     },
     {
@@ -2059,34 +2075,10 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-G001",
-      "right": "WRP-W001",
-      "leftName": "Black Linear Privacy Door Glass",
-      "rightName": "Slim-Frame Casement Window",
-      "score": 0.007,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P003",
-      "right": "WRP-W004",
-      "leftName": "PVC Sliding Patio Door",
-      "rightName": "Double-Hung Window",
-      "score": 0.007,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P004",
-      "right": "WRP-W004",
-      "leftName": "Aluminum Sliding Patio Door",
-      "rightName": "Double-Hung Window",
-      "score": 0.007,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P006",
-      "right": "WRP-W003",
-      "leftName": "Slim-Frame Aluminum Patio Door",
-      "rightName": "Awning Window",
+      "left": "WRP-G002",
+      "right": "WRP-G011",
+      "leftName": "Geometric High-Privacy Door Glass",
+      "rightName": "Narrow Sidelite Decorative Glass",
       "score": 0.007,
       "reviewedException": false
     },
@@ -2099,25 +2091,17 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-D005",
-      "right": "WRP-W004",
-      "leftName": "Craftsman Fiberglass Entry Door",
-      "rightName": "Double-Hung Window",
-      "score": 0.0069,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G002",
-      "right": "WRP-G011",
-      "leftName": "Geometric High-Privacy Door Glass",
-      "rightName": "Narrow Sidelite Decorative Glass",
-      "score": 0.0069,
-      "reviewedException": false
-    },
-    {
       "left": "WRP-P002",
       "right": "WRP-W002",
       "leftName": "Two-Panel Sliding Patio Door",
+      "rightName": "High-Performance Casement Window",
+      "score": 0.0069,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-P006",
+      "right": "WRP-W002",
+      "leftName": "Slim-Frame Aluminum Patio Door",
       "rightName": "High-Performance Casement Window",
       "score": 0.0069,
       "reviewedException": false
@@ -2134,14 +2118,6 @@
       "left": "WRP-D009",
       "right": "WRP-W002",
       "leftName": "Three-Quarter-Glass Fiberglass Entry Door",
-      "rightName": "High-Performance Casement Window",
-      "score": 0.0068,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P006",
-      "right": "WRP-W002",
-      "leftName": "Slim-Frame Aluminum Patio Door",
       "rightName": "High-Performance Casement Window",
       "score": 0.0068,
       "reviewedException": false
@@ -2179,6 +2155,14 @@
       "reviewedException": false
     },
     {
+      "left": "WRP-D006",
+      "right": "WRP-P003",
+      "leftName": "Traditional Six-Panel Fiberglass Entry Door",
+      "rightName": "PVC Sliding Patio Door",
+      "score": 0.0052,
+      "reviewedException": false
+    },
+    {
       "left": "WRP-D010",
       "right": "WRP-G012",
       "leftName": "Narrow-Lite Fiberglass Entry Door",
@@ -2195,18 +2179,26 @@
       "reviewedException": false
     },
     {
+      "left": "WRP-G005",
+      "right": "WRP-P003",
+      "leftName": "Linear Privacy Door Glass",
+      "rightName": "PVC Sliding Patio Door",
+      "score": 0.0052,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G010",
+      "right": "WRP-P003",
+      "leftName": "Contemporary Camed Door Glass",
+      "rightName": "PVC Sliding Patio Door",
+      "score": 0.0052,
+      "reviewedException": false
+    },
+    {
       "left": "WRP-D005",
       "right": "WRP-G012",
       "leftName": "Craftsman Fiberglass Entry Door",
       "rightName": "Organic Decorative Door Glass",
-      "score": 0.0051,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D006",
-      "right": "WRP-P003",
-      "leftName": "Traditional Six-Panel Fiberglass Entry Door",
-      "rightName": "PVC Sliding Patio Door",
       "score": 0.0051,
       "reviewedException": false
     },
@@ -2219,18 +2211,26 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-G005",
-      "right": "WRP-P003",
-      "leftName": "Linear Privacy Door Glass",
-      "rightName": "PVC Sliding Patio Door",
+      "left": "WRP-G006",
+      "right": "WRP-P006",
+      "leftName": "Wide-Reed Textured Door Glass",
+      "rightName": "Slim-Frame Aluminum Patio Door",
       "score": 0.0051,
       "reviewedException": false
     },
     {
       "left": "WRP-G010",
-      "right": "WRP-P003",
+      "right": "WRP-P006",
       "leftName": "Contemporary Camed Door Glass",
-      "rightName": "PVC Sliding Patio Door",
+      "rightName": "Slim-Frame Aluminum Patio Door",
+      "score": 0.0051,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G010",
+      "right": "WRP-W009",
+      "leftName": "Contemporary Camed Door Glass",
+      "rightName": "Casement-Profile Fixed Window",
       "score": 0.0051,
       "reviewedException": false
     },
@@ -2267,10 +2267,34 @@
       "reviewedException": false
     },
     {
+      "left": "WRP-D005",
+      "right": "WRP-G008",
+      "leftName": "Craftsman Fiberglass Entry Door",
+      "rightName": "Classic Beveled Decorative Door Glass",
+      "score": 0.005,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D006",
+      "right": "WRP-G001",
+      "leftName": "Traditional Six-Panel Fiberglass Entry Door",
+      "rightName": "Black Linear Privacy Door Glass",
+      "score": 0.005,
+      "reviewedException": false
+    },
+    {
       "left": "WRP-D006",
       "right": "WRP-G011",
       "leftName": "Traditional Six-Panel Fiberglass Entry Door",
       "rightName": "Narrow Sidelite Decorative Glass",
+      "score": 0.005,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D006",
+      "right": "WRP-W004",
+      "leftName": "Traditional Six-Panel Fiberglass Entry Door",
+      "rightName": "Double-Hung Window",
       "score": 0.005,
       "reviewedException": false
     },
@@ -2315,6 +2339,22 @@
       "reviewedException": false
     },
     {
+      "left": "WRP-D010",
+      "right": "WRP-P003",
+      "leftName": "Narrow-Lite Fiberglass Entry Door",
+      "rightName": "PVC Sliding Patio Door",
+      "score": 0.005,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D010",
+      "right": "WRP-W009",
+      "leftName": "Narrow-Lite Fiberglass Entry Door",
+      "rightName": "Casement-Profile Fixed Window",
+      "score": 0.005,
+      "reviewedException": false
+    },
+    {
       "left": "WRP-D011",
       "right": "WRP-P002",
       "leftName": "Four-Panel Fiberglass Entry Door",
@@ -2331,27 +2371,59 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-G006",
-      "right": "WRP-P006",
-      "leftName": "Wide-Reed Textured Door Glass",
-      "rightName": "Slim-Frame Aluminum Patio Door",
+      "left": "WRP-D012",
+      "right": "WRP-P005",
+      "leftName": "One-Panel Woodgrain Fiberglass Entry Door",
+      "rightName": "Hybrid Patio Door",
       "score": 0.005,
       "reviewedException": false
     },
     {
-      "left": "WRP-G010",
-      "right": "WRP-P006",
-      "leftName": "Contemporary Camed Door Glass",
-      "rightName": "Slim-Frame Aluminum Patio Door",
+      "left": "WRP-G002",
+      "right": "WRP-G005",
+      "leftName": "Geometric High-Privacy Door Glass",
+      "rightName": "Linear Privacy Door Glass",
       "score": 0.005,
       "reviewedException": false
     },
     {
-      "left": "WRP-G010",
-      "right": "WRP-W009",
-      "leftName": "Contemporary Camed Door Glass",
-      "rightName": "Casement-Profile Fixed Window",
+      "left": "WRP-G012",
+      "right": "WRP-W004",
+      "leftName": "Organic Decorative Door Glass",
+      "rightName": "Double-Hung Window",
       "score": 0.005,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-P003",
+      "right": "WRP-W007",
+      "leftName": "PVC Sliding Patio Door",
+      "rightName": "Single Slider Window",
+      "score": 0.005,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-P004",
+      "right": "WRP-W007",
+      "leftName": "Aluminum Sliding Patio Door",
+      "rightName": "Single Slider Window",
+      "score": 0.005,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-P005",
+      "right": "WRP-W006",
+      "leftName": "Hybrid Patio Door",
+      "rightName": "Double Slider Window",
+      "score": 0.005,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D001",
+      "right": "WRP-P003",
+      "leftName": "Two-Panel Fiberglass Entry Door",
+      "rightName": "PVC Sliding Patio Door",
+      "score": 0.0049,
       "reviewedException": false
     },
     {
@@ -2363,10 +2435,42 @@
       "reviewedException": false
     },
     {
+      "left": "WRP-D003",
+      "right": "WRP-P003",
+      "leftName": "Oak-Grain Fiberglass Entry Door",
+      "rightName": "PVC Sliding Patio Door",
+      "score": 0.0049,
+      "reviewedException": false
+    },
+    {
       "left": "WRP-D005",
-      "right": "WRP-G008",
+      "right": "WRP-G004",
       "leftName": "Craftsman Fiberglass Entry Door",
-      "rightName": "Classic Beveled Decorative Door Glass",
+      "rightName": "Clear-Zone Sandblasted Door Glass",
+      "score": 0.0049,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D005",
+      "right": "WRP-P002",
+      "leftName": "Craftsman Fiberglass Entry Door",
+      "rightName": "Two-Panel Sliding Patio Door",
+      "score": 0.0049,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D005",
+      "right": "WRP-P006",
+      "leftName": "Craftsman Fiberglass Entry Door",
+      "rightName": "Slim-Frame Aluminum Patio Door",
+      "score": 0.0049,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D005",
+      "right": "WRP-W006",
+      "leftName": "Craftsman Fiberglass Entry Door",
+      "rightName": "Double Slider Window",
       "score": 0.0049,
       "reviewedException": false
     },
@@ -2380,25 +2484,9 @@
     },
     {
       "left": "WRP-D006",
-      "right": "WRP-G001",
-      "leftName": "Traditional Six-Panel Fiberglass Entry Door",
-      "rightName": "Black Linear Privacy Door Glass",
-      "score": 0.0049,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D006",
       "right": "WRP-W003",
       "leftName": "Traditional Six-Panel Fiberglass Entry Door",
       "rightName": "Awning Window",
-      "score": 0.0049,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D006",
-      "right": "WRP-W004",
-      "leftName": "Traditional Six-Panel Fiberglass Entry Door",
-      "rightName": "Double-Hung Window",
       "score": 0.0049,
       "reviewedException": false
     },
@@ -2423,6 +2511,14 @@
       "right": "WRP-G008",
       "leftName": "Full-Glass Fiberglass Entry Door",
       "rightName": "Classic Beveled Decorative Door Glass",
+      "score": 0.0049,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D007",
+      "right": "WRP-P005",
+      "leftName": "Full-Glass Fiberglass Entry Door",
+      "rightName": "Hybrid Patio Door",
       "score": 0.0049,
       "reviewedException": false
     },
@@ -2444,17 +2540,17 @@
     },
     {
       "left": "WRP-D010",
-      "right": "WRP-P003",
+      "right": "WRP-G001",
       "leftName": "Narrow-Lite Fiberglass Entry Door",
-      "rightName": "PVC Sliding Patio Door",
+      "rightName": "Black Linear Privacy Door Glass",
       "score": 0.0049,
       "reviewedException": false
     },
     {
       "left": "WRP-D010",
-      "right": "WRP-W009",
+      "right": "WRP-G002",
       "leftName": "Narrow-Lite Fiberglass Entry Door",
-      "rightName": "Casement-Profile Fixed Window",
+      "rightName": "Geometric High-Privacy Door Glass",
       "score": 0.0049,
       "reviewedException": false
     },
@@ -2468,17 +2564,17 @@
     },
     {
       "left": "WRP-D012",
-      "right": "WRP-P005",
+      "right": "WRP-P003",
       "leftName": "One-Panel Woodgrain Fiberglass Entry Door",
-      "rightName": "Hybrid Patio Door",
+      "rightName": "PVC Sliding Patio Door",
       "score": 0.0049,
       "reviewedException": false
     },
     {
-      "left": "WRP-G002",
-      "right": "WRP-G005",
-      "leftName": "Geometric High-Privacy Door Glass",
-      "rightName": "Linear Privacy Door Glass",
+      "left": "WRP-G001",
+      "right": "WRP-P005",
+      "leftName": "Black Linear Privacy Door Glass",
+      "rightName": "Hybrid Patio Door",
       "score": 0.0049,
       "reviewedException": false
     },
@@ -2491,10 +2587,26 @@
       "reviewedException": false
     },
     {
+      "left": "WRP-G005",
+      "right": "WRP-W004",
+      "leftName": "Linear Privacy Door Glass",
+      "rightName": "Double-Hung Window",
+      "score": 0.0049,
+      "reviewedException": false
+    },
+    {
       "left": "WRP-G008",
       "right": "WRP-G011",
       "leftName": "Classic Beveled Decorative Door Glass",
       "rightName": "Narrow Sidelite Decorative Glass",
+      "score": 0.0049,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G008",
+      "right": "WRP-W004",
+      "leftName": "Classic Beveled Decorative Door Glass",
+      "rightName": "Double-Hung Window",
       "score": 0.0049,
       "reviewedException": false
     },
@@ -2515,10 +2627,10 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-G012",
-      "right": "WRP-W004",
-      "leftName": "Organic Decorative Door Glass",
-      "rightName": "Double-Hung Window",
+      "left": "WRP-G011",
+      "right": "WRP-P005",
+      "leftName": "Narrow Sidelite Decorative Glass",
+      "rightName": "Hybrid Patio Door",
       "score": 0.0049,
       "reviewedException": false
     },
@@ -2531,27 +2643,27 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-P003",
-      "right": "WRP-W007",
-      "leftName": "PVC Sliding Patio Door",
-      "rightName": "Single Slider Window",
+      "left": "WRP-P005",
+      "right": "WRP-W010",
+      "leftName": "Hybrid Patio Door",
+      "rightName": "Slim Fixed Window",
       "score": 0.0049,
       "reviewedException": false
     },
     {
-      "left": "WRP-P004",
-      "right": "WRP-W007",
-      "leftName": "Aluminum Sliding Patio Door",
-      "rightName": "Single Slider Window",
+      "left": "WRP-P006",
+      "right": "WRP-W006",
+      "leftName": "Slim-Frame Aluminum Patio Door",
+      "rightName": "Double Slider Window",
       "score": 0.0049,
       "reviewedException": false
     },
     {
-      "left": "WRP-D001",
-      "right": "WRP-P003",
-      "leftName": "Two-Panel Fiberglass Entry Door",
-      "rightName": "PVC Sliding Patio Door",
-      "score": 0.0048,
+      "left": "WRP-P006",
+      "right": "WRP-W009",
+      "leftName": "Slim-Frame Aluminum Patio Door",
+      "rightName": "Casement-Profile Fixed Window",
+      "score": 0.0049,
       "reviewedException": false
     },
     {
@@ -2559,6 +2671,14 @@
       "right": "WRP-W005",
       "leftName": "Two-Panel Fiberglass Entry Door",
       "rightName": "Single-Hung Window",
+      "score": 0.0048,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D001",
+      "right": "WRP-W006",
+      "leftName": "Two-Panel Fiberglass Entry Door",
+      "rightName": "Double Slider Window",
       "score": 0.0048,
       "reviewedException": false
     },
@@ -2575,14 +2695,6 @@
       "right": "WRP-G010",
       "leftName": "Smooth Flush Fiberglass Entry Door",
       "rightName": "Contemporary Camed Door Glass",
-      "score": 0.0048,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D003",
-      "right": "WRP-P003",
-      "leftName": "Oak-Grain Fiberglass Entry Door",
-      "rightName": "PVC Sliding Patio Door",
       "score": 0.0048,
       "reviewedException": false
     },
@@ -2604,17 +2716,9 @@
     },
     {
       "left": "WRP-D005",
-      "right": "WRP-G004",
+      "right": "WRP-G001",
       "leftName": "Craftsman Fiberglass Entry Door",
-      "rightName": "Clear-Zone Sandblasted Door Glass",
-      "score": 0.0048,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D005",
-      "right": "WRP-P002",
-      "leftName": "Craftsman Fiberglass Entry Door",
-      "rightName": "Two-Panel Sliding Patio Door",
+      "rightName": "Black Linear Privacy Door Glass",
       "score": 0.0048,
       "reviewedException": false
     },
@@ -2652,9 +2756,9 @@
     },
     {
       "left": "WRP-D007",
-      "right": "WRP-P005",
+      "right": "WRP-P004",
       "leftName": "Full-Glass Fiberglass Entry Door",
-      "rightName": "Hybrid Patio Door",
+      "rightName": "Aluminum Sliding Patio Door",
       "score": 0.0048,
       "reviewedException": false
     },
@@ -2699,18 +2803,10 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-D010",
-      "right": "WRP-G001",
-      "leftName": "Narrow-Lite Fiberglass Entry Door",
-      "rightName": "Black Linear Privacy Door Glass",
-      "score": 0.0048,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D010",
-      "right": "WRP-G002",
-      "leftName": "Narrow-Lite Fiberglass Entry Door",
-      "rightName": "Geometric High-Privacy Door Glass",
+      "left": "WRP-D009",
+      "right": "WRP-W008",
+      "leftName": "Three-Quarter-Glass Fiberglass Entry Door",
+      "rightName": "Picture Window",
       "score": 0.0048,
       "reviewedException": false
     },
@@ -2724,6 +2820,14 @@
     },
     {
       "left": "WRP-D010",
+      "right": "WRP-W004",
+      "leftName": "Narrow-Lite Fiberglass Entry Door",
+      "rightName": "Double-Hung Window",
+      "score": 0.0048,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D010",
       "right": "WRP-W010",
       "leftName": "Narrow-Lite Fiberglass Entry Door",
       "rightName": "Slim Fixed Window",
@@ -2732,17 +2836,49 @@
     },
     {
       "left": "WRP-D012",
-      "right": "WRP-P003",
+      "right": "WRP-G001",
       "leftName": "One-Panel Woodgrain Fiberglass Entry Door",
-      "rightName": "PVC Sliding Patio Door",
+      "rightName": "Black Linear Privacy Door Glass",
+      "score": 0.0048,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D012",
+      "right": "WRP-G002",
+      "leftName": "One-Panel Woodgrain Fiberglass Entry Door",
+      "rightName": "Geometric High-Privacy Door Glass",
       "score": 0.0048,
       "reviewedException": false
     },
     {
       "left": "WRP-G001",
-      "right": "WRP-P005",
+      "right": "WRP-P002",
       "leftName": "Black Linear Privacy Door Glass",
-      "rightName": "Hybrid Patio Door",
+      "rightName": "Two-Panel Sliding Patio Door",
+      "score": 0.0048,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G001",
+      "right": "WRP-P006",
+      "leftName": "Black Linear Privacy Door Glass",
+      "rightName": "Slim-Frame Aluminum Patio Door",
+      "score": 0.0048,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G001",
+      "right": "WRP-W005",
+      "leftName": "Black Linear Privacy Door Glass",
+      "rightName": "Single-Hung Window",
+      "score": 0.0048,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G001",
+      "right": "WRP-W009",
+      "leftName": "Black Linear Privacy Door Glass",
+      "rightName": "Casement-Profile Fixed Window",
       "score": 0.0048,
       "reviewedException": false
     },
@@ -2755,42 +2891,50 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-G005",
+      "left": "WRP-G007",
       "right": "WRP-W004",
-      "leftName": "Linear Privacy Door Glass",
+      "leftName": "Clear Patterned Door Glass",
       "rightName": "Double-Hung Window",
       "score": 0.0048,
       "reviewedException": false
     },
     {
-      "left": "WRP-G008",
-      "right": "WRP-W004",
-      "leftName": "Classic Beveled Decorative Door Glass",
-      "rightName": "Double-Hung Window",
+      "left": "WRP-P001",
+      "right": "WRP-W005",
+      "leftName": "Multi-Panel Sliding Patio Door",
+      "rightName": "Single-Hung Window",
       "score": 0.0048,
       "reviewedException": false
     },
     {
-      "left": "WRP-G011",
-      "right": "WRP-P005",
-      "leftName": "Narrow Sidelite Decorative Glass",
-      "rightName": "Hybrid Patio Door",
-      "score": 0.0048,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P003",
-      "right": "WRP-W006",
-      "leftName": "PVC Sliding Patio Door",
-      "rightName": "Double Slider Window",
-      "score": 0.0048,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P003",
+      "left": "WRP-P001",
       "right": "WRP-W009",
-      "leftName": "PVC Sliding Patio Door",
+      "leftName": "Multi-Panel Sliding Patio Door",
       "rightName": "Casement-Profile Fixed Window",
+      "score": 0.0048,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-P003",
+      "right": "WRP-W003",
+      "leftName": "PVC Sliding Patio Door",
+      "rightName": "Awning Window",
+      "score": 0.0048,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-P003",
+      "right": "WRP-W004",
+      "leftName": "PVC Sliding Patio Door",
+      "rightName": "Double-Hung Window",
+      "score": 0.0048,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-P003",
+      "right": "WRP-W010",
+      "leftName": "PVC Sliding Patio Door",
+      "rightName": "Slim Fixed Window",
       "score": 0.0048,
       "reviewedException": false
     },
@@ -2803,19 +2947,19 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-P005",
-      "right": "WRP-W006",
-      "leftName": "Hybrid Patio Door",
-      "rightName": "Double Slider Window",
+      "left": "WRP-P004",
+      "right": "WRP-W010",
+      "leftName": "Aluminum Sliding Patio Door",
+      "rightName": "Slim Fixed Window",
       "score": 0.0048,
       "reviewedException": false
     },
     {
-      "left": "WRP-P005",
-      "right": "WRP-W010",
-      "leftName": "Hybrid Patio Door",
-      "rightName": "Slim Fixed Window",
-      "score": 0.0048,
+      "left": "WRP-D001",
+      "right": "WRP-G001",
+      "leftName": "Two-Panel Fiberglass Entry Door",
+      "rightName": "Black Linear Privacy Door Glass",
+      "score": 0.0047,
       "reviewedException": false
     },
     {
@@ -2828,9 +2972,9 @@
     },
     {
       "left": "WRP-D001",
-      "right": "WRP-W006",
+      "right": "WRP-W004",
       "leftName": "Two-Panel Fiberglass Entry Door",
-      "rightName": "Double Slider Window",
+      "rightName": "Double-Hung Window",
       "score": 0.0047,
       "reviewedException": false
     },
@@ -2860,17 +3004,9 @@
     },
     {
       "left": "WRP-D005",
-      "right": "WRP-P006",
+      "right": "WRP-W003",
       "leftName": "Craftsman Fiberglass Entry Door",
-      "rightName": "Slim-Frame Aluminum Patio Door",
-      "score": 0.0047,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D005",
-      "right": "WRP-W006",
-      "leftName": "Craftsman Fiberglass Entry Door",
-      "rightName": "Double Slider Window",
+      "rightName": "Awning Window",
       "score": 0.0047,
       "reviewedException": false
     },
@@ -2883,18 +3019,10 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-D007",
-      "right": "WRP-P004",
-      "leftName": "Full-Glass Fiberglass Entry Door",
-      "rightName": "Aluminum Sliding Patio Door",
-      "score": 0.0047,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D008",
-      "right": "WRP-P004",
-      "leftName": "Half-Glass Fiberglass Entry Door",
-      "rightName": "Aluminum Sliding Patio Door",
+      "left": "WRP-D009",
+      "right": "WRP-G001",
+      "leftName": "Three-Quarter-Glass Fiberglass Entry Door",
+      "rightName": "Black Linear Privacy Door Glass",
       "score": 0.0047,
       "reviewedException": false
     },
@@ -2907,219 +3035,11 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-D009",
-      "right": "WRP-W008",
-      "leftName": "Three-Quarter-Glass Fiberglass Entry Door",
-      "rightName": "Picture Window",
-      "score": 0.0047,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D010",
-      "right": "WRP-W004",
-      "leftName": "Narrow-Lite Fiberglass Entry Door",
-      "rightName": "Double-Hung Window",
-      "score": 0.0047,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D012",
-      "right": "WRP-G001",
-      "leftName": "One-Panel Woodgrain Fiberglass Entry Door",
-      "rightName": "Black Linear Privacy Door Glass",
-      "score": 0.0047,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D012",
-      "right": "WRP-G002",
-      "leftName": "One-Panel Woodgrain Fiberglass Entry Door",
-      "rightName": "Geometric High-Privacy Door Glass",
-      "score": 0.0047,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G001",
-      "right": "WRP-P002",
-      "leftName": "Black Linear Privacy Door Glass",
-      "rightName": "Two-Panel Sliding Patio Door",
-      "score": 0.0047,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G001",
-      "right": "WRP-P006",
-      "leftName": "Black Linear Privacy Door Glass",
-      "rightName": "Slim-Frame Aluminum Patio Door",
-      "score": 0.0047,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G001",
-      "right": "WRP-W005",
-      "leftName": "Black Linear Privacy Door Glass",
-      "rightName": "Single-Hung Window",
-      "score": 0.0047,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G007",
-      "right": "WRP-W003",
-      "leftName": "Clear Patterned Door Glass",
-      "rightName": "Awning Window",
-      "score": 0.0047,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G007",
-      "right": "WRP-W004",
-      "leftName": "Clear Patterned Door Glass",
-      "rightName": "Double-Hung Window",
-      "score": 0.0047,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P001",
-      "right": "WRP-W005",
-      "leftName": "Multi-Panel Sliding Patio Door",
-      "rightName": "Single-Hung Window",
-      "score": 0.0047,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P003",
-      "right": "WRP-W003",
-      "leftName": "PVC Sliding Patio Door",
-      "rightName": "Awning Window",
-      "score": 0.0047,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P003",
-      "right": "WRP-W010",
-      "leftName": "PVC Sliding Patio Door",
-      "rightName": "Slim Fixed Window",
-      "score": 0.0047,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P004",
-      "right": "WRP-W003",
-      "leftName": "Aluminum Sliding Patio Door",
-      "rightName": "Awning Window",
-      "score": 0.0047,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P004",
-      "right": "WRP-W010",
-      "leftName": "Aluminum Sliding Patio Door",
-      "rightName": "Slim Fixed Window",
-      "score": 0.0047,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P006",
-      "right": "WRP-W006",
-      "leftName": "Slim-Frame Aluminum Patio Door",
-      "rightName": "Double Slider Window",
-      "score": 0.0047,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P006",
-      "right": "WRP-W009",
-      "leftName": "Slim-Frame Aluminum Patio Door",
-      "rightName": "Casement-Profile Fixed Window",
-      "score": 0.0047,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D001",
-      "right": "WRP-G001",
-      "leftName": "Two-Panel Fiberglass Entry Door",
-      "rightName": "Black Linear Privacy Door Glass",
-      "score": 0.0046,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D001",
-      "right": "WRP-W004",
-      "leftName": "Two-Panel Fiberglass Entry Door",
-      "rightName": "Double-Hung Window",
-      "score": 0.0046,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D005",
-      "right": "WRP-G001",
-      "leftName": "Craftsman Fiberglass Entry Door",
-      "rightName": "Black Linear Privacy Door Glass",
-      "score": 0.0046,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D005",
-      "right": "WRP-W003",
-      "leftName": "Craftsman Fiberglass Entry Door",
-      "rightName": "Awning Window",
-      "score": 0.0046,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D008",
-      "right": "WRP-W003",
-      "leftName": "Half-Glass Fiberglass Entry Door",
-      "rightName": "Awning Window",
-      "score": 0.0046,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D008",
-      "right": "WRP-W004",
-      "leftName": "Half-Glass Fiberglass Entry Door",
-      "rightName": "Double-Hung Window",
-      "score": 0.0046,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D009",
-      "right": "WRP-G001",
-      "leftName": "Three-Quarter-Glass Fiberglass Entry Door",
-      "rightName": "Black Linear Privacy Door Glass",
-      "score": 0.0046,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D012",
-      "right": "WRP-P001",
-      "leftName": "One-Panel Woodgrain Fiberglass Entry Door",
-      "rightName": "Multi-Panel Sliding Patio Door",
-      "score": 0.0046,
-      "reviewedException": false
-    },
-    {
       "left": "WRP-G001",
       "right": "WRP-G011",
       "leftName": "Black Linear Privacy Door Glass",
       "rightName": "Narrow Sidelite Decorative Glass",
-      "score": 0.0046,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G001",
-      "right": "WRP-W009",
-      "leftName": "Black Linear Privacy Door Glass",
-      "rightName": "Casement-Profile Fixed Window",
-      "score": 0.0046,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P005",
-      "right": "WRP-W002",
-      "leftName": "Hybrid Patio Door",
-      "rightName": "High-Performance Casement Window",
-      "score": 0.0046,
+      "score": 0.0047,
       "reviewedException": false
     },
     {
@@ -3127,7 +3047,55 @@
       "right": "WRP-W004",
       "leftName": "Geometric High-Privacy Door Glass",
       "rightName": "Double-Hung Window",
-      "score": 0.0045,
+      "score": 0.0047,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G007",
+      "right": "WRP-W003",
+      "leftName": "Clear Patterned Door Glass",
+      "rightName": "Awning Window",
+      "score": 0.0047,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-P001",
+      "right": "WRP-W004",
+      "leftName": "Multi-Panel Sliding Patio Door",
+      "rightName": "Double-Hung Window",
+      "score": 0.0047,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-P004",
+      "right": "WRP-W003",
+      "leftName": "Aluminum Sliding Patio Door",
+      "rightName": "Awning Window",
+      "score": 0.0047,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-P005",
+      "right": "WRP-W002",
+      "leftName": "Hybrid Patio Door",
+      "rightName": "High-Performance Casement Window",
+      "score": 0.0047,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D008",
+      "right": "WRP-W003",
+      "leftName": "Half-Glass Fiberglass Entry Door",
+      "rightName": "Awning Window",
+      "score": 0.0046,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D008",
+      "right": "WRP-W004",
+      "leftName": "Half-Glass Fiberglass Entry Door",
+      "rightName": "Double-Hung Window",
+      "score": 0.0046,
       "reviewedException": false
     },
     {
@@ -3135,7 +3103,7 @@
       "right": "WRP-W004",
       "leftName": "Narrow Sidelite Decorative Glass",
       "rightName": "Double-Hung Window",
-      "score": 0.0045,
+      "score": 0.0046,
       "reviewedException": false
     },
     {
@@ -3143,7 +3111,7 @@
       "right": "WRP-P001",
       "leftName": "Smooth Flush Fiberglass Entry Door",
       "rightName": "Multi-Panel Sliding Patio Door",
-      "score": 0.0044,
+      "score": 0.0045,
       "reviewedException": false
     },
     {
@@ -3151,7 +3119,7 @@
       "right": "WRP-W004",
       "leftName": "Smooth Flush Fiberglass Entry Door",
       "rightName": "Double-Hung Window",
-      "score": 0.0044,
+      "score": 0.0045,
       "reviewedException": false
     },
     {
@@ -3188,6 +3156,14 @@
     },
     {
       "left": "WRP-D006",
+      "right": "WRP-P004",
+      "leftName": "Traditional Six-Panel Fiberglass Entry Door",
+      "rightName": "Aluminum Sliding Patio Door",
+      "score": 0.0026,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D006",
       "right": "WRP-W005",
       "leftName": "Traditional Six-Panel Fiberglass Entry Door",
       "rightName": "Single-Hung Window",
@@ -3196,9 +3172,33 @@
     },
     {
       "left": "WRP-D006",
+      "right": "WRP-W006",
+      "leftName": "Traditional Six-Panel Fiberglass Entry Door",
+      "rightName": "Double Slider Window",
+      "score": 0.0026,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D006",
       "right": "WRP-W007",
       "leftName": "Traditional Six-Panel Fiberglass Entry Door",
       "rightName": "Single Slider Window",
+      "score": 0.0026,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D006",
+      "right": "WRP-W008",
+      "leftName": "Traditional Six-Panel Fiberglass Entry Door",
+      "rightName": "Picture Window",
+      "score": 0.0026,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D006",
+      "right": "WRP-W009",
+      "leftName": "Traditional Six-Panel Fiberglass Entry Door",
+      "rightName": "Casement-Profile Fixed Window",
       "score": 0.0026,
       "reviewedException": false
     },
@@ -3252,9 +3252,41 @@
     },
     {
       "left": "WRP-G006",
+      "right": "WRP-P003",
+      "leftName": "Wide-Reed Textured Door Glass",
+      "rightName": "PVC Sliding Patio Door",
+      "score": 0.0026,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G006",
       "right": "WRP-W007",
       "leftName": "Wide-Reed Textured Door Glass",
       "rightName": "Single Slider Window",
+      "score": 0.0026,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G008",
+      "right": "WRP-P003",
+      "leftName": "Classic Beveled Decorative Door Glass",
+      "rightName": "PVC Sliding Patio Door",
+      "score": 0.0026,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G008",
+      "right": "WRP-P005",
+      "leftName": "Classic Beveled Decorative Door Glass",
+      "rightName": "Hybrid Patio Door",
+      "score": 0.0026,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G010",
+      "right": "WRP-P004",
+      "leftName": "Contemporary Camed Door Glass",
+      "rightName": "Aluminum Sliding Patio Door",
       "score": 0.0026,
       "reviewedException": false
     },
@@ -3284,9 +3316,25 @@
     },
     {
       "left": "WRP-G012",
+      "right": "WRP-P004",
+      "leftName": "Organic Decorative Door Glass",
+      "rightName": "Aluminum Sliding Patio Door",
+      "score": 0.0026,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G012",
       "right": "WRP-P005",
       "leftName": "Organic Decorative Door Glass",
       "rightName": "Hybrid Patio Door",
+      "score": 0.0026,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G012",
+      "right": "WRP-P006",
+      "leftName": "Organic Decorative Door Glass",
+      "rightName": "Slim-Frame Aluminum Patio Door",
       "score": 0.0026,
       "reviewedException": false
     },
@@ -3300,9 +3348,33 @@
     },
     {
       "left": "WRP-G012",
+      "right": "WRP-W006",
+      "leftName": "Organic Decorative Door Glass",
+      "rightName": "Double Slider Window",
+      "score": 0.0026,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G012",
       "right": "WRP-W007",
       "leftName": "Organic Decorative Door Glass",
       "rightName": "Single Slider Window",
+      "score": 0.0026,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G012",
+      "right": "WRP-W008",
+      "leftName": "Organic Decorative Door Glass",
+      "rightName": "Picture Window",
+      "score": 0.0026,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G012",
+      "right": "WRP-W009",
+      "leftName": "Organic Decorative Door Glass",
+      "rightName": "Casement-Profile Fixed Window",
       "score": 0.0026,
       "reviewedException": false
     },
@@ -3331,6 +3403,22 @@
       "reviewedException": false
     },
     {
+      "left": "WRP-D003",
+      "right": "WRP-P005",
+      "leftName": "Oak-Grain Fiberglass Entry Door",
+      "rightName": "Hybrid Patio Door",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D005",
+      "right": "WRP-G003",
+      "leftName": "Craftsman Fiberglass Entry Door",
+      "rightName": "Frosted High-Privacy Door Glass",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
       "left": "WRP-D005",
       "right": "WRP-G005",
       "leftName": "Craftsman Fiberglass Entry Door",
@@ -3348,9 +3436,33 @@
     },
     {
       "left": "WRP-D005",
+      "right": "WRP-G009",
+      "leftName": "Craftsman Fiberglass Entry Door",
+      "rightName": "Hammered Decorative Door Glass",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D005",
       "right": "WRP-G010",
       "leftName": "Craftsman Fiberglass Entry Door",
       "rightName": "Contemporary Camed Door Glass",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D005",
+      "right": "WRP-P003",
+      "leftName": "Craftsman Fiberglass Entry Door",
+      "rightName": "PVC Sliding Patio Door",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D005",
+      "right": "WRP-P005",
+      "leftName": "Craftsman Fiberglass Entry Door",
+      "rightName": "Hybrid Patio Door",
       "score": 0.0025,
       "reviewedException": false
     },
@@ -3359,38 +3471,6 @@
       "right": "WRP-G002",
       "leftName": "Traditional Six-Panel Fiberglass Entry Door",
       "rightName": "Geometric High-Privacy Door Glass",
-      "score": 0.0025,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D006",
-      "right": "WRP-P004",
-      "leftName": "Traditional Six-Panel Fiberglass Entry Door",
-      "rightName": "Aluminum Sliding Patio Door",
-      "score": 0.0025,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D006",
-      "right": "WRP-W006",
-      "leftName": "Traditional Six-Panel Fiberglass Entry Door",
-      "rightName": "Double Slider Window",
-      "score": 0.0025,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D006",
-      "right": "WRP-W008",
-      "leftName": "Traditional Six-Panel Fiberglass Entry Door",
-      "rightName": "Picture Window",
-      "score": 0.0025,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D006",
-      "right": "WRP-W009",
-      "leftName": "Traditional Six-Panel Fiberglass Entry Door",
-      "rightName": "Casement-Profile Fixed Window",
       "score": 0.0025,
       "reviewedException": false
     },
@@ -3452,9 +3532,57 @@
     },
     {
       "left": "WRP-D010",
+      "right": "WRP-P004",
+      "leftName": "Narrow-Lite Fiberglass Entry Door",
+      "rightName": "Aluminum Sliding Patio Door",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D010",
+      "right": "WRP-P006",
+      "leftName": "Narrow-Lite Fiberglass Entry Door",
+      "rightName": "Slim-Frame Aluminum Patio Door",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D010",
+      "right": "WRP-W006",
+      "leftName": "Narrow-Lite Fiberglass Entry Door",
+      "rightName": "Double Slider Window",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D010",
       "right": "WRP-W007",
       "leftName": "Narrow-Lite Fiberglass Entry Door",
       "rightName": "Single Slider Window",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D010",
+      "right": "WRP-W008",
+      "leftName": "Narrow-Lite Fiberglass Entry Door",
+      "rightName": "Picture Window",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D011",
+      "right": "WRP-G001",
+      "leftName": "Four-Panel Fiberglass Entry Door",
+      "rightName": "Black Linear Privacy Door Glass",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D011",
+      "right": "WRP-G002",
+      "leftName": "Four-Panel Fiberglass Entry Door",
+      "rightName": "Geometric High-Privacy Door Glass",
       "score": 0.0025,
       "reviewedException": false
     },
@@ -3540,9 +3668,65 @@
     },
     {
       "left": "WRP-D011",
+      "right": "WRP-W008",
+      "leftName": "Four-Panel Fiberglass Entry Door",
+      "rightName": "Picture Window",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D011",
       "right": "WRP-W009",
       "leftName": "Four-Panel Fiberglass Entry Door",
       "rightName": "Casement-Profile Fixed Window",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G003",
+      "right": "WRP-P002",
+      "leftName": "Frosted High-Privacy Door Glass",
+      "rightName": "Two-Panel Sliding Patio Door",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G003",
+      "right": "WRP-P003",
+      "leftName": "Frosted High-Privacy Door Glass",
+      "rightName": "PVC Sliding Patio Door",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G003",
+      "right": "WRP-P004",
+      "leftName": "Frosted High-Privacy Door Glass",
+      "rightName": "Aluminum Sliding Patio Door",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G003",
+      "right": "WRP-P006",
+      "leftName": "Frosted High-Privacy Door Glass",
+      "rightName": "Slim-Frame Aluminum Patio Door",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G003",
+      "right": "WRP-W005",
+      "leftName": "Frosted High-Privacy Door Glass",
+      "rightName": "Single-Hung Window",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G003",
+      "right": "WRP-W006",
+      "leftName": "Frosted High-Privacy Door Glass",
+      "rightName": "Double Slider Window",
       "score": 0.0025,
       "reviewedException": false
     },
@@ -3555,6 +3739,38 @@
       "reviewedException": false
     },
     {
+      "left": "WRP-G003",
+      "right": "WRP-W008",
+      "leftName": "Frosted High-Privacy Door Glass",
+      "rightName": "Picture Window",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G003",
+      "right": "WRP-W009",
+      "leftName": "Frosted High-Privacy Door Glass",
+      "rightName": "Casement-Profile Fixed Window",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G004",
+      "right": "WRP-P003",
+      "leftName": "Clear-Zone Sandblasted Door Glass",
+      "rightName": "PVC Sliding Patio Door",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G004",
+      "right": "WRP-P004",
+      "leftName": "Clear-Zone Sandblasted Door Glass",
+      "rightName": "Aluminum Sliding Patio Door",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
       "left": "WRP-G004",
       "right": "WRP-P005",
       "leftName": "Clear-Zone Sandblasted Door Glass",
@@ -3567,6 +3783,14 @@
       "right": "WRP-W007",
       "leftName": "Clear-Zone Sandblasted Door Glass",
       "rightName": "Single Slider Window",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G005",
+      "right": "WRP-P001",
+      "leftName": "Linear Privacy Door Glass",
+      "rightName": "Multi-Panel Sliding Patio Door",
       "score": 0.0025,
       "reviewedException": false
     },
@@ -3644,14 +3868,6 @@
     },
     {
       "left": "WRP-G006",
-      "right": "WRP-P003",
-      "leftName": "Wide-Reed Textured Door Glass",
-      "rightName": "PVC Sliding Patio Door",
-      "score": 0.0025,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G006",
       "right": "WRP-P004",
       "leftName": "Wide-Reed Textured Door Glass",
       "rightName": "Aluminum Sliding Patio Door",
@@ -3663,6 +3879,14 @@
       "right": "WRP-W001",
       "leftName": "Wide-Reed Textured Door Glass",
       "rightName": "Slim-Frame Casement Window",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G006",
+      "right": "WRP-W004",
+      "leftName": "Wide-Reed Textured Door Glass",
+      "rightName": "Double-Hung Window",
       "score": 0.0025,
       "reviewedException": false
     },
@@ -3716,6 +3940,30 @@
     },
     {
       "left": "WRP-G007",
+      "right": "WRP-P003",
+      "leftName": "Clear Patterned Door Glass",
+      "rightName": "PVC Sliding Patio Door",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G007",
+      "right": "WRP-P004",
+      "leftName": "Clear Patterned Door Glass",
+      "rightName": "Aluminum Sliding Patio Door",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G007",
+      "right": "WRP-P006",
+      "leftName": "Clear Patterned Door Glass",
+      "rightName": "Slim-Frame Aluminum Patio Door",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G007",
       "right": "WRP-W005",
       "leftName": "Clear Patterned Door Glass",
       "rightName": "Single-Hung Window",
@@ -3724,9 +3972,25 @@
     },
     {
       "left": "WRP-G007",
+      "right": "WRP-W006",
+      "leftName": "Clear Patterned Door Glass",
+      "rightName": "Double Slider Window",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G007",
       "right": "WRP-W007",
       "leftName": "Clear Patterned Door Glass",
       "rightName": "Single Slider Window",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G007",
+      "right": "WRP-W009",
+      "leftName": "Clear Patterned Door Glass",
+      "rightName": "Casement-Profile Fixed Window",
       "score": 0.0025,
       "reviewedException": false
     },
@@ -3740,25 +4004,9 @@
     },
     {
       "left": "WRP-G008",
-      "right": "WRP-P003",
-      "leftName": "Classic Beveled Decorative Door Glass",
-      "rightName": "PVC Sliding Patio Door",
-      "score": 0.0025,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G008",
       "right": "WRP-P004",
       "leftName": "Classic Beveled Decorative Door Glass",
       "rightName": "Aluminum Sliding Patio Door",
-      "score": 0.0025,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G008",
-      "right": "WRP-P005",
-      "leftName": "Classic Beveled Decorative Door Glass",
-      "rightName": "Hybrid Patio Door",
       "score": 0.0025,
       "reviewedException": false
     },
@@ -3836,6 +4084,22 @@
     },
     {
       "left": "WRP-G009",
+      "right": "WRP-P004",
+      "leftName": "Hammered Decorative Door Glass",
+      "rightName": "Aluminum Sliding Patio Door",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G009",
+      "right": "WRP-P006",
+      "leftName": "Hammered Decorative Door Glass",
+      "rightName": "Slim-Frame Aluminum Patio Door",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G009",
       "right": "WRP-W005",
       "leftName": "Hammered Decorative Door Glass",
       "rightName": "Single-Hung Window",
@@ -3844,9 +4108,33 @@
     },
     {
       "left": "WRP-G009",
+      "right": "WRP-W006",
+      "leftName": "Hammered Decorative Door Glass",
+      "rightName": "Double Slider Window",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G009",
       "right": "WRP-W007",
       "leftName": "Hammered Decorative Door Glass",
       "rightName": "Single Slider Window",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G009",
+      "right": "WRP-W008",
+      "leftName": "Hammered Decorative Door Glass",
+      "rightName": "Picture Window",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G009",
+      "right": "WRP-W009",
+      "leftName": "Hammered Decorative Door Glass",
+      "rightName": "Casement-Profile Fixed Window",
       "score": 0.0025,
       "reviewedException": false
     },
@@ -3860,9 +4148,9 @@
     },
     {
       "left": "WRP-G010",
-      "right": "WRP-P004",
+      "right": "WRP-P001",
       "leftName": "Contemporary Camed Door Glass",
-      "rightName": "Aluminum Sliding Patio Door",
+      "rightName": "Multi-Panel Sliding Patio Door",
       "score": 0.0025,
       "reviewedException": false
     },
@@ -3908,49 +4196,9 @@
     },
     {
       "left": "WRP-G012",
-      "right": "WRP-P004",
-      "leftName": "Organic Decorative Door Glass",
-      "rightName": "Aluminum Sliding Patio Door",
-      "score": 0.0025,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G012",
-      "right": "WRP-P006",
-      "leftName": "Organic Decorative Door Glass",
-      "rightName": "Slim-Frame Aluminum Patio Door",
-      "score": 0.0025,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G012",
       "right": "WRP-W003",
       "leftName": "Organic Decorative Door Glass",
       "rightName": "Awning Window",
-      "score": 0.0025,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G012",
-      "right": "WRP-W006",
-      "leftName": "Organic Decorative Door Glass",
-      "rightName": "Double Slider Window",
-      "score": 0.0025,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G012",
-      "right": "WRP-W008",
-      "leftName": "Organic Decorative Door Glass",
-      "rightName": "Picture Window",
-      "score": 0.0025,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G012",
-      "right": "WRP-W009",
-      "leftName": "Organic Decorative Door Glass",
-      "rightName": "Casement-Profile Fixed Window",
       "score": 0.0025,
       "reviewedException": false
     },
@@ -3971,6 +4219,54 @@
       "reviewedException": false
     },
     {
+      "left": "WRP-P003",
+      "right": "WRP-W006",
+      "leftName": "PVC Sliding Patio Door",
+      "rightName": "Double Slider Window",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-P003",
+      "right": "WRP-W008",
+      "leftName": "PVC Sliding Patio Door",
+      "rightName": "Picture Window",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-P003",
+      "right": "WRP-W009",
+      "leftName": "PVC Sliding Patio Door",
+      "rightName": "Casement-Profile Fixed Window",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-P004",
+      "right": "WRP-W005",
+      "leftName": "Aluminum Sliding Patio Door",
+      "rightName": "Single-Hung Window",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-P006",
+      "right": "WRP-W007",
+      "leftName": "Slim-Frame Aluminum Patio Door",
+      "rightName": "Single Slider Window",
+      "score": 0.0025,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D001",
+      "right": "WRP-G002",
+      "leftName": "Two-Panel Fiberglass Entry Door",
+      "rightName": "Geometric High-Privacy Door Glass",
+      "score": 0.0024,
+      "reviewedException": false
+    },
+    {
       "left": "WRP-D001",
       "right": "WRP-G003",
       "leftName": "Two-Panel Fiberglass Entry Door",
@@ -4060,6 +4356,14 @@
     },
     {
       "left": "WRP-D003",
+      "right": "WRP-G002",
+      "leftName": "Oak-Grain Fiberglass Entry Door",
+      "rightName": "Geometric High-Privacy Door Glass",
+      "score": 0.0024,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D003",
       "right": "WRP-G003",
       "leftName": "Oak-Grain Fiberglass Entry Door",
       "rightName": "Frosted High-Privacy Door Glass",
@@ -4087,14 +4391,6 @@
       "right": "WRP-P004",
       "leftName": "Oak-Grain Fiberglass Entry Door",
       "rightName": "Aluminum Sliding Patio Door",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D003",
-      "right": "WRP-P005",
-      "leftName": "Oak-Grain Fiberglass Entry Door",
-      "rightName": "Hybrid Patio Door",
       "score": 0.0024,
       "reviewedException": false
     },
@@ -4156,14 +4452,6 @@
     },
     {
       "left": "WRP-D005",
-      "right": "WRP-G003",
-      "leftName": "Craftsman Fiberglass Entry Door",
-      "rightName": "Frosted High-Privacy Door Glass",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D005",
       "right": "WRP-G007",
       "leftName": "Craftsman Fiberglass Entry Door",
       "rightName": "Clear Patterned Door Glass",
@@ -4172,17 +4460,9 @@
     },
     {
       "left": "WRP-D005",
-      "right": "WRP-G009",
+      "right": "WRP-P001",
       "leftName": "Craftsman Fiberglass Entry Door",
-      "rightName": "Hammered Decorative Door Glass",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D005",
-      "right": "WRP-P003",
-      "leftName": "Craftsman Fiberglass Entry Door",
-      "rightName": "PVC Sliding Patio Door",
+      "rightName": "Multi-Panel Sliding Patio Door",
       "score": 0.0024,
       "reviewedException": false
     },
@@ -4191,14 +4471,6 @@
       "right": "WRP-P004",
       "leftName": "Craftsman Fiberglass Entry Door",
       "rightName": "Aluminum Sliding Patio Door",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D005",
-      "right": "WRP-P005",
-      "leftName": "Craftsman Fiberglass Entry Door",
-      "rightName": "Hybrid Patio Door",
       "score": 0.0024,
       "reviewedException": false
     },
@@ -4215,6 +4487,14 @@
       "right": "WRP-W005",
       "leftName": "Craftsman Fiberglass Entry Door",
       "rightName": "Single-Hung Window",
+      "score": 0.0024,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D005",
+      "right": "WRP-W008",
+      "leftName": "Craftsman Fiberglass Entry Door",
+      "rightName": "Picture Window",
       "score": 0.0024,
       "reviewedException": false
     },
@@ -4236,9 +4516,25 @@
     },
     {
       "left": "WRP-D007",
+      "right": "WRP-P006",
+      "leftName": "Full-Glass Fiberglass Entry Door",
+      "rightName": "Slim-Frame Aluminum Patio Door",
+      "score": 0.0024,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D007",
       "right": "WRP-W005",
       "leftName": "Full-Glass Fiberglass Entry Door",
       "rightName": "Single-Hung Window",
+      "score": 0.0024,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D007",
+      "right": "WRP-W006",
+      "leftName": "Full-Glass Fiberglass Entry Door",
+      "rightName": "Double Slider Window",
       "score": 0.0024,
       "reviewedException": false
     },
@@ -4284,6 +4580,14 @@
     },
     {
       "left": "WRP-D008",
+      "right": "WRP-P004",
+      "leftName": "Half-Glass Fiberglass Entry Door",
+      "rightName": "Aluminum Sliding Patio Door",
+      "score": 0.0024,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D008",
       "right": "WRP-P005",
       "leftName": "Half-Glass Fiberglass Entry Door",
       "rightName": "Hybrid Patio Door",
@@ -4300,9 +4604,41 @@
     },
     {
       "left": "WRP-D008",
+      "right": "WRP-W006",
+      "leftName": "Half-Glass Fiberglass Entry Door",
+      "rightName": "Double Slider Window",
+      "score": 0.0024,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D008",
       "right": "WRP-W007",
       "leftName": "Half-Glass Fiberglass Entry Door",
       "rightName": "Single Slider Window",
+      "score": 0.0024,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D008",
+      "right": "WRP-W008",
+      "leftName": "Half-Glass Fiberglass Entry Door",
+      "rightName": "Picture Window",
+      "score": 0.0024,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D008",
+      "right": "WRP-W009",
+      "leftName": "Half-Glass Fiberglass Entry Door",
+      "rightName": "Casement-Profile Fixed Window",
+      "score": 0.0024,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D009",
+      "right": "WRP-G002",
+      "leftName": "Three-Quarter-Glass Fiberglass Entry Door",
+      "rightName": "Geometric High-Privacy Door Glass",
       "score": 0.0024,
       "reviewedException": false
     },
@@ -4348,22 +4684,6 @@
     },
     {
       "left": "WRP-D010",
-      "right": "WRP-P004",
-      "leftName": "Narrow-Lite Fiberglass Entry Door",
-      "rightName": "Aluminum Sliding Patio Door",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D010",
-      "right": "WRP-P006",
-      "leftName": "Narrow-Lite Fiberglass Entry Door",
-      "rightName": "Slim-Frame Aluminum Patio Door",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D010",
       "right": "WRP-W001",
       "leftName": "Narrow-Lite Fiberglass Entry Door",
       "rightName": "Slim-Frame Casement Window",
@@ -4375,38 +4695,6 @@
       "right": "WRP-W003",
       "leftName": "Narrow-Lite Fiberglass Entry Door",
       "rightName": "Awning Window",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D010",
-      "right": "WRP-W006",
-      "leftName": "Narrow-Lite Fiberglass Entry Door",
-      "rightName": "Double Slider Window",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D010",
-      "right": "WRP-W008",
-      "leftName": "Narrow-Lite Fiberglass Entry Door",
-      "rightName": "Picture Window",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D011",
-      "right": "WRP-G001",
-      "leftName": "Four-Panel Fiberglass Entry Door",
-      "rightName": "Black Linear Privacy Door Glass",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D011",
-      "right": "WRP-G002",
-      "leftName": "Four-Panel Fiberglass Entry Door",
-      "rightName": "Geometric High-Privacy Door Glass",
       "score": 0.0024,
       "reviewedException": false
     },
@@ -4431,14 +4719,6 @@
       "right": "WRP-W004",
       "leftName": "Four-Panel Fiberglass Entry Door",
       "rightName": "Double-Hung Window",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D011",
-      "right": "WRP-W008",
-      "leftName": "Four-Panel Fiberglass Entry Door",
-      "rightName": "Picture Window",
       "score": 0.0024,
       "reviewedException": false
     },
@@ -4532,6 +4812,30 @@
     },
     {
       "left": "WRP-G001",
+      "right": "WRP-P003",
+      "leftName": "Black Linear Privacy Door Glass",
+      "rightName": "PVC Sliding Patio Door",
+      "score": 0.0024,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G001",
+      "right": "WRP-P004",
+      "leftName": "Black Linear Privacy Door Glass",
+      "rightName": "Aluminum Sliding Patio Door",
+      "score": 0.0024,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G001",
+      "right": "WRP-W006",
+      "leftName": "Black Linear Privacy Door Glass",
+      "rightName": "Double Slider Window",
+      "score": 0.0024,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G001",
       "right": "WRP-W007",
       "leftName": "Black Linear Privacy Door Glass",
       "rightName": "Single Slider Window",
@@ -4539,6 +4843,14 @@
       "reviewedException": false
     },
     {
+      "left": "WRP-G001",
+      "right": "WRP-W008",
+      "leftName": "Black Linear Privacy Door Glass",
+      "rightName": "Picture Window",
+      "score": 0.0024,
+      "reviewedException": false
+    },
+    {
       "left": "WRP-G002",
       "right": "WRP-P002",
       "leftName": "Geometric High-Privacy Door Glass",
@@ -4556,9 +4868,41 @@
     },
     {
       "left": "WRP-G002",
+      "right": "WRP-P004",
+      "leftName": "Geometric High-Privacy Door Glass",
+      "rightName": "Aluminum Sliding Patio Door",
+      "score": 0.0024,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G002",
+      "right": "WRP-P006",
+      "leftName": "Geometric High-Privacy Door Glass",
+      "rightName": "Slim-Frame Aluminum Patio Door",
+      "score": 0.0024,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G002",
+      "right": "WRP-W001",
+      "leftName": "Geometric High-Privacy Door Glass",
+      "rightName": "Slim-Frame Casement Window",
+      "score": 0.0024,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G002",
       "right": "WRP-W005",
       "leftName": "Geometric High-Privacy Door Glass",
       "rightName": "Single-Hung Window",
+      "score": 0.0024,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G002",
+      "right": "WRP-W006",
+      "leftName": "Geometric High-Privacy Door Glass",
+      "rightName": "Double Slider Window",
       "score": 0.0024,
       "reviewedException": false
     },
@@ -4571,34 +4915,18 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-G003",
-      "right": "WRP-P002",
-      "leftName": "Frosted High-Privacy Door Glass",
-      "rightName": "Two-Panel Sliding Patio Door",
+      "left": "WRP-G002",
+      "right": "WRP-W008",
+      "leftName": "Geometric High-Privacy Door Glass",
+      "rightName": "Picture Window",
       "score": 0.0024,
       "reviewedException": false
     },
     {
-      "left": "WRP-G003",
-      "right": "WRP-P003",
-      "leftName": "Frosted High-Privacy Door Glass",
-      "rightName": "PVC Sliding Patio Door",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G003",
-      "right": "WRP-P004",
-      "leftName": "Frosted High-Privacy Door Glass",
-      "rightName": "Aluminum Sliding Patio Door",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G003",
-      "right": "WRP-P006",
-      "leftName": "Frosted High-Privacy Door Glass",
-      "rightName": "Slim-Frame Aluminum Patio Door",
+      "left": "WRP-G002",
+      "right": "WRP-W009",
+      "leftName": "Geometric High-Privacy Door Glass",
+      "rightName": "Casement-Profile Fixed Window",
       "score": 0.0024,
       "reviewedException": false
     },
@@ -4612,33 +4940,17 @@
     },
     {
       "left": "WRP-G003",
-      "right": "WRP-W005",
+      "right": "WRP-W003",
       "leftName": "Frosted High-Privacy Door Glass",
-      "rightName": "Single-Hung Window",
+      "rightName": "Awning Window",
       "score": 0.0024,
       "reviewedException": false
     },
     {
       "left": "WRP-G003",
-      "right": "WRP-W006",
+      "right": "WRP-W004",
       "leftName": "Frosted High-Privacy Door Glass",
-      "rightName": "Double Slider Window",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G003",
-      "right": "WRP-W008",
-      "leftName": "Frosted High-Privacy Door Glass",
-      "rightName": "Picture Window",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G003",
-      "right": "WRP-W009",
-      "leftName": "Frosted High-Privacy Door Glass",
-      "rightName": "Casement-Profile Fixed Window",
+      "rightName": "Double-Hung Window",
       "score": 0.0024,
       "reviewedException": false
     },
@@ -4660,22 +4972,6 @@
     },
     {
       "left": "WRP-G004",
-      "right": "WRP-P003",
-      "leftName": "Clear-Zone Sandblasted Door Glass",
-      "rightName": "PVC Sliding Patio Door",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G004",
-      "right": "WRP-P004",
-      "leftName": "Clear-Zone Sandblasted Door Glass",
-      "rightName": "Aluminum Sliding Patio Door",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G004",
       "right": "WRP-P006",
       "leftName": "Clear-Zone Sandblasted Door Glass",
       "rightName": "Slim-Frame Aluminum Patio Door",
@@ -4687,6 +4983,14 @@
       "right": "WRP-W001",
       "leftName": "Clear-Zone Sandblasted Door Glass",
       "rightName": "Slim-Frame Casement Window",
+      "score": 0.0024,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-G004",
+      "right": "WRP-W004",
+      "leftName": "Clear-Zone Sandblasted Door Glass",
+      "rightName": "Double-Hung Window",
       "score": 0.0024,
       "reviewedException": false
     },
@@ -4732,14 +5036,6 @@
     },
     {
       "left": "WRP-G005",
-      "right": "WRP-P001",
-      "leftName": "Linear Privacy Door Glass",
-      "rightName": "Multi-Panel Sliding Patio Door",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G005",
       "right": "WRP-W002",
       "leftName": "Linear Privacy Door Glass",
       "rightName": "High-Performance Casement Window",
@@ -4779,38 +5075,6 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-G006",
-      "right": "WRP-W004",
-      "leftName": "Wide-Reed Textured Door Glass",
-      "rightName": "Double-Hung Window",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G007",
-      "right": "WRP-P003",
-      "leftName": "Clear Patterned Door Glass",
-      "rightName": "PVC Sliding Patio Door",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G007",
-      "right": "WRP-P004",
-      "leftName": "Clear Patterned Door Glass",
-      "rightName": "Aluminum Sliding Patio Door",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G007",
-      "right": "WRP-P006",
-      "leftName": "Clear Patterned Door Glass",
-      "rightName": "Slim-Frame Aluminum Patio Door",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
       "left": "WRP-G007",
       "right": "WRP-W001",
       "leftName": "Clear Patterned Door Glass",
@@ -4820,25 +5084,9 @@
     },
     {
       "left": "WRP-G007",
-      "right": "WRP-W006",
-      "leftName": "Clear Patterned Door Glass",
-      "rightName": "Double Slider Window",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G007",
       "right": "WRP-W008",
       "leftName": "Clear Patterned Door Glass",
       "rightName": "Picture Window",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G007",
-      "right": "WRP-W009",
-      "leftName": "Clear Patterned Door Glass",
-      "rightName": "Casement-Profile Fixed Window",
       "score": 0.0024,
       "reviewedException": false
     },
@@ -4868,22 +5116,6 @@
     },
     {
       "left": "WRP-G009",
-      "right": "WRP-P004",
-      "leftName": "Hammered Decorative Door Glass",
-      "rightName": "Aluminum Sliding Patio Door",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G009",
-      "right": "WRP-P006",
-      "leftName": "Hammered Decorative Door Glass",
-      "rightName": "Slim-Frame Aluminum Patio Door",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G009",
       "right": "WRP-W001",
       "leftName": "Hammered Decorative Door Glass",
       "rightName": "Slim-Frame Casement Window",
@@ -4908,41 +5140,9 @@
     },
     {
       "left": "WRP-G009",
-      "right": "WRP-W006",
-      "leftName": "Hammered Decorative Door Glass",
-      "rightName": "Double Slider Window",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G009",
-      "right": "WRP-W008",
-      "leftName": "Hammered Decorative Door Glass",
-      "rightName": "Picture Window",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G009",
-      "right": "WRP-W009",
-      "leftName": "Hammered Decorative Door Glass",
-      "rightName": "Casement-Profile Fixed Window",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G009",
       "right": "WRP-W010",
       "leftName": "Hammered Decorative Door Glass",
       "rightName": "Slim Fixed Window",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G010",
-      "right": "WRP-P001",
-      "leftName": "Contemporary Camed Door Glass",
-      "rightName": "Multi-Panel Sliding Patio Door",
       "score": 0.0024,
       "reviewedException": false
     },
@@ -4959,22 +5159,6 @@
       "right": "WRP-W002",
       "leftName": "Organic Decorative Door Glass",
       "rightName": "High-Performance Casement Window",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P003",
-      "right": "WRP-W008",
-      "leftName": "PVC Sliding Patio Door",
-      "rightName": "Picture Window",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P004",
-      "right": "WRP-W005",
-      "leftName": "Aluminum Sliding Patio Door",
-      "rightName": "Single-Hung Window",
       "score": 0.0024,
       "reviewedException": false
     },
@@ -5004,26 +5188,10 @@
     },
     {
       "left": "WRP-P006",
-      "right": "WRP-W007",
-      "leftName": "Slim-Frame Aluminum Patio Door",
-      "rightName": "Single Slider Window",
-      "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-P006",
       "right": "WRP-W008",
       "leftName": "Slim-Frame Aluminum Patio Door",
       "rightName": "Picture Window",
       "score": 0.0024,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D001",
-      "right": "WRP-G002",
-      "leftName": "Two-Panel Fiberglass Entry Door",
-      "rightName": "Geometric High-Privacy Door Glass",
-      "score": 0.0023,
       "reviewedException": false
     },
     {
@@ -5055,6 +5223,22 @@
       "right": "WRP-W010",
       "leftName": "Two-Panel Fiberglass Entry Door",
       "rightName": "Slim Fixed Window",
+      "score": 0.0023,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D002",
+      "right": "WRP-G001",
+      "leftName": "Smooth Flush Fiberglass Entry Door",
+      "rightName": "Black Linear Privacy Door Glass",
+      "score": 0.0023,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D002",
+      "right": "WRP-G002",
+      "leftName": "Smooth Flush Fiberglass Entry Door",
+      "rightName": "Geometric High-Privacy Door Glass",
       "score": 0.0023,
       "reviewedException": false
     },
@@ -5140,17 +5324,17 @@
     },
     {
       "left": "WRP-D002",
-      "right": "WRP-W009",
+      "right": "WRP-W008",
       "leftName": "Smooth Flush Fiberglass Entry Door",
-      "rightName": "Casement-Profile Fixed Window",
+      "rightName": "Picture Window",
       "score": 0.0023,
       "reviewedException": false
     },
     {
-      "left": "WRP-D003",
-      "right": "WRP-G002",
-      "leftName": "Oak-Grain Fiberglass Entry Door",
-      "rightName": "Geometric High-Privacy Door Glass",
+      "left": "WRP-D002",
+      "right": "WRP-W009",
+      "leftName": "Smooth Flush Fiberglass Entry Door",
+      "rightName": "Casement-Profile Fixed Window",
       "score": 0.0023,
       "reviewedException": false
     },
@@ -5196,17 +5380,9 @@
     },
     {
       "left": "WRP-D005",
-      "right": "WRP-P001",
+      "right": "WRP-W002",
       "leftName": "Craftsman Fiberglass Entry Door",
-      "rightName": "Multi-Panel Sliding Patio Door",
-      "score": 0.0023,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D005",
-      "right": "WRP-W008",
-      "leftName": "Craftsman Fiberglass Entry Door",
-      "rightName": "Picture Window",
+      "rightName": "High-Performance Casement Window",
       "score": 0.0023,
       "reviewedException": false
     },
@@ -5215,14 +5391,6 @@
       "right": "WRP-G002",
       "leftName": "Full-Glass Fiberglass Entry Door",
       "rightName": "Geometric High-Privacy Door Glass",
-      "score": 0.0023,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D007",
-      "right": "WRP-P006",
-      "leftName": "Full-Glass Fiberglass Entry Door",
-      "rightName": "Slim-Frame Aluminum Patio Door",
       "score": 0.0023,
       "reviewedException": false
     },
@@ -5247,14 +5415,6 @@
       "right": "WRP-W004",
       "leftName": "Full-Glass Fiberglass Entry Door",
       "rightName": "Double-Hung Window",
-      "score": 0.0023,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D007",
-      "right": "WRP-W006",
-      "leftName": "Full-Glass Fiberglass Entry Door",
-      "rightName": "Double Slider Window",
       "score": 0.0023,
       "reviewedException": false
     },
@@ -5292,41 +5452,9 @@
     },
     {
       "left": "WRP-D008",
-      "right": "WRP-W006",
-      "leftName": "Half-Glass Fiberglass Entry Door",
-      "rightName": "Double Slider Window",
-      "score": 0.0023,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D008",
-      "right": "WRP-W008",
-      "leftName": "Half-Glass Fiberglass Entry Door",
-      "rightName": "Picture Window",
-      "score": 0.0023,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D008",
-      "right": "WRP-W009",
-      "leftName": "Half-Glass Fiberglass Entry Door",
-      "rightName": "Casement-Profile Fixed Window",
-      "score": 0.0023,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D008",
       "right": "WRP-W010",
       "leftName": "Half-Glass Fiberglass Entry Door",
       "rightName": "Slim Fixed Window",
-      "score": 0.0023,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D009",
-      "right": "WRP-G002",
-      "leftName": "Three-Quarter-Glass Fiberglass Entry Door",
-      "rightName": "Geometric High-Privacy Door Glass",
       "score": 0.0023,
       "reviewedException": false
     },
@@ -5404,22 +5532,6 @@
     },
     {
       "left": "WRP-G001",
-      "right": "WRP-P003",
-      "leftName": "Black Linear Privacy Door Glass",
-      "rightName": "PVC Sliding Patio Door",
-      "score": 0.0023,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G001",
-      "right": "WRP-P004",
-      "leftName": "Black Linear Privacy Door Glass",
-      "rightName": "Aluminum Sliding Patio Door",
-      "score": 0.0023,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G001",
       "right": "WRP-W003",
       "leftName": "Black Linear Privacy Door Glass",
       "rightName": "Awning Window",
@@ -5436,22 +5548,6 @@
     },
     {
       "left": "WRP-G001",
-      "right": "WRP-W006",
-      "leftName": "Black Linear Privacy Door Glass",
-      "rightName": "Double Slider Window",
-      "score": 0.0023,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G001",
-      "right": "WRP-W008",
-      "leftName": "Black Linear Privacy Door Glass",
-      "rightName": "Picture Window",
-      "score": 0.0023,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G001",
       "right": "WRP-W010",
       "leftName": "Black Linear Privacy Door Glass",
       "rightName": "Slim Fixed Window",
@@ -5460,25 +5556,9 @@
     },
     {
       "left": "WRP-G002",
-      "right": "WRP-P004",
+      "right": "WRP-W002",
       "leftName": "Geometric High-Privacy Door Glass",
-      "rightName": "Aluminum Sliding Patio Door",
-      "score": 0.0023,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G002",
-      "right": "WRP-P006",
-      "leftName": "Geometric High-Privacy Door Glass",
-      "rightName": "Slim-Frame Aluminum Patio Door",
-      "score": 0.0023,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G002",
-      "right": "WRP-W001",
-      "leftName": "Geometric High-Privacy Door Glass",
-      "rightName": "Slim-Frame Casement Window",
+      "rightName": "High-Performance Casement Window",
       "score": 0.0023,
       "reviewedException": false
     },
@@ -5487,30 +5567,6 @@
       "right": "WRP-W003",
       "leftName": "Geometric High-Privacy Door Glass",
       "rightName": "Awning Window",
-      "score": 0.0023,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G002",
-      "right": "WRP-W006",
-      "leftName": "Geometric High-Privacy Door Glass",
-      "rightName": "Double Slider Window",
-      "score": 0.0023,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G002",
-      "right": "WRP-W008",
-      "leftName": "Geometric High-Privacy Door Glass",
-      "rightName": "Picture Window",
-      "score": 0.0023,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G002",
-      "right": "WRP-W009",
-      "leftName": "Geometric High-Privacy Door Glass",
-      "rightName": "Casement-Profile Fixed Window",
       "score": 0.0023,
       "reviewedException": false
     },
@@ -5531,22 +5587,6 @@
       "reviewedException": false
     },
     {
-      "left": "WRP-G003",
-      "right": "WRP-W003",
-      "leftName": "Frosted High-Privacy Door Glass",
-      "rightName": "Awning Window",
-      "score": 0.0023,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G003",
-      "right": "WRP-W004",
-      "leftName": "Frosted High-Privacy Door Glass",
-      "rightName": "Double-Hung Window",
-      "score": 0.0023,
-      "reviewedException": false
-    },
-    {
       "left": "WRP-G004",
       "right": "WRP-W002",
       "leftName": "Clear-Zone Sandblasted Door Glass",
@@ -5559,14 +5599,6 @@
       "right": "WRP-W003",
       "leftName": "Clear-Zone Sandblasted Door Glass",
       "rightName": "Awning Window",
-      "score": 0.0023,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G004",
-      "right": "WRP-W004",
-      "leftName": "Clear-Zone Sandblasted Door Glass",
-      "rightName": "Double-Hung Window",
       "score": 0.0023,
       "reviewedException": false
     },
@@ -5620,22 +5652,6 @@
     },
     {
       "left": "WRP-D002",
-      "right": "WRP-G001",
-      "leftName": "Smooth Flush Fiberglass Entry Door",
-      "rightName": "Black Linear Privacy Door Glass",
-      "score": 0.0022,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D002",
-      "right": "WRP-G002",
-      "leftName": "Smooth Flush Fiberglass Entry Door",
-      "rightName": "Geometric High-Privacy Door Glass",
-      "score": 0.0022,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D002",
       "right": "WRP-G011",
       "leftName": "Smooth Flush Fiberglass Entry Door",
       "rightName": "Narrow Sidelite Decorative Glass",
@@ -5660,25 +5676,9 @@
     },
     {
       "left": "WRP-D002",
-      "right": "WRP-W008",
-      "leftName": "Smooth Flush Fiberglass Entry Door",
-      "rightName": "Picture Window",
-      "score": 0.0022,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D002",
       "right": "WRP-W010",
       "leftName": "Smooth Flush Fiberglass Entry Door",
       "rightName": "Slim Fixed Window",
-      "score": 0.0022,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-D005",
-      "right": "WRP-W002",
-      "leftName": "Craftsman Fiberglass Entry Door",
-      "rightName": "High-Performance Casement Window",
       "score": 0.0022,
       "reviewedException": false
     },
@@ -5694,14 +5694,6 @@
       "left": "WRP-G001",
       "right": "WRP-W002",
       "leftName": "Black Linear Privacy Door Glass",
-      "rightName": "High-Performance Casement Window",
-      "score": 0.0022,
-      "reviewedException": false
-    },
-    {
-      "left": "WRP-G002",
-      "right": "WRP-W002",
-      "leftName": "Geometric High-Privacy Door Glass",
       "rightName": "High-Performance Casement Window",
       "score": 0.0022,
       "reviewedException": false
@@ -5975,6 +5967,14 @@
       "right": "WRP-P005",
       "leftName": "Four-Panel Fiberglass Entry Door",
       "rightName": "Hybrid Patio Door",
+      "score": 0,
+      "reviewedException": false
+    },
+    {
+      "left": "WRP-D012",
+      "right": "WRP-P001",
+      "leftName": "One-Panel Woodgrain Fiberglass Entry Door",
+      "rightName": "Multi-Panel Sliding Patio Door",
       "score": 0,
       "reviewedException": false
     },
@@ -6815,13 +6815,13 @@
       "reference": "WRP-D005",
       "name": "Craftsman Fiberglass Entry Door",
       "category": "entry-doors",
-      "editorialWordCount": 222,
+      "editorialWordCount": 217,
       "guidanceWordCount": 125,
-      "factCount": 12,
-      "uniqueFacts": 7,
+      "factCount": 11,
+      "uniqueFacts": 6,
       "uniqueEditorial": 9,
       "uniqueGuidance": 8,
-      "uniqueTrigrams": 173,
+      "uniqueTrigrams": 167,
       "heroSrc": "/media/products/wrp-d005-360.webp",
       "heroAlt": "Craftsman-style fiberglass entry door",
       "specificationSignature": "exterior entry door|fiberglass|smooth or woodgrain directions|craftsman influenced panel configuration",
@@ -6869,7 +6869,7 @@
       "uniqueFacts": 7,
       "uniqueEditorial": 9,
       "uniqueGuidance": 8,
-      "uniqueTrigrams": 173,
+      "uniqueTrigrams": 174,
       "heroSrc": "/media/products/wrp-d008-1200.webp",
       "heroAlt": "Fiberglass entry door with upper half glass",
       "specificationSignature": "exterior entry door|fiberglass|approximately half lite|solid panelled or flush section",
@@ -6933,7 +6933,7 @@
       "uniqueFacts": 8,
       "uniqueEditorial": 9,
       "uniqueGuidance": 8,
-      "uniqueTrigrams": 164,
+      "uniqueTrigrams": 167,
       "heroSrc": "/media/products/wrp-d012-316.webp",
       "heroAlt": "One-panel woodgrain fiberglass entry door",
       "specificationSignature": "exterior entry door|fiberglass|one large recessed panel|woodgrain texture",
@@ -6943,13 +6943,13 @@
       "reference": "WRP-G001",
       "name": "Black Linear Privacy Door Glass",
       "category": "door-glass",
-      "editorialWordCount": 225,
+      "editorialWordCount": 217,
       "guidanceWordCount": 118,
-      "factCount": 12,
-      "uniqueFacts": 11,
+      "factCount": 11,
+      "uniqueFacts": 10,
       "uniqueEditorial": 9,
       "uniqueGuidance": 8,
-      "uniqueTrigrams": 190,
+      "uniqueTrigrams": 184,
       "heroSrc": "/media/products/wrp-g001-720.webp",
       "heroAlt": "Black linear privacy glass insert for an entry door",
       "specificationSignature": "door glass|insulated multi pane construction|partial privacy reviewed rating 2 5|black linear composition",
@@ -6959,13 +6959,13 @@
       "reference": "WRP-G002",
       "name": "Geometric High-Privacy Door Glass",
       "category": "door-glass",
-      "editorialWordCount": 225,
+      "editorialWordCount": 218,
       "guidanceWordCount": 119,
-      "factCount": 12,
-      "uniqueFacts": 6,
+      "factCount": 11,
+      "uniqueFacts": 5,
       "uniqueEditorial": 9,
       "uniqueGuidance": 8,
-      "uniqueTrigrams": 162,
+      "uniqueTrigrams": 159,
       "heroSrc": "/media/products/wrp-g002-720.webp",
       "heroAlt": "Geometric high-privacy decorative door glass",
       "specificationSignature": "door glass|high privacy reviewed rating 4 5|geometric composition|limited warranty available exact terms confirmed in quotation",
@@ -6975,13 +6975,13 @@
       "reference": "WRP-G003",
       "name": "Frosted High-Privacy Door Glass",
       "category": "door-glass",
-      "editorialWordCount": 218,
+      "editorialWordCount": 210,
       "guidanceWordCount": 115,
-      "factCount": 12,
-      "uniqueFacts": 7,
+      "factCount": 11,
+      "uniqueFacts": 6,
       "uniqueEditorial": 9,
       "uniqueGuidance": 8,
-      "uniqueTrigrams": 161,
+      "uniqueTrigrams": 160,
       "heroSrc": "/media/products/wrp-g003-720.webp",
       "heroAlt": "Frosted high-privacy glass insert for an entry door",
       "specificationSignature": "door glass|high privacy reviewed rating 4 5|broad frosted or obscured composition|limited warranty available exact terms confirmed in quotation",
@@ -7135,13 +7135,13 @@
       "reference": "WRP-P001",
       "name": "Multi-Panel Sliding Patio Door",
       "category": "patio-doors",
-      "editorialWordCount": 240,
+      "editorialWordCount": 231,
       "guidanceWordCount": 114,
-      "factCount": 12,
-      "uniqueFacts": 7,
+      "factCount": 11,
+      "uniqueFacts": 6,
       "uniqueEditorial": 8,
       "uniqueGuidance": 7,
-      "uniqueTrigrams": 178,
+      "uniqueTrigrams": 174,
       "heroSrc": "/media/products/wrp-p001-768.webp",
       "heroAlt": "White multi-panel sliding patio door",
       "specificationSignature": "horizontal sliding|two three and four panel layouts|double or triple pane low emissivity options|available options include approximately 79 1 2 81 1 2 and 95 1 2 in",
@@ -7167,13 +7167,13 @@
       "reference": "WRP-P003",
       "name": "PVC Sliding Patio Door",
       "category": "patio-doors",
-      "editorialWordCount": 217,
+      "editorialWordCount": 208,
       "guidanceWordCount": 116,
-      "factCount": 12,
-      "uniqueFacts": 8,
+      "factCount": 11,
+      "uniqueFacts": 7,
       "uniqueEditorial": 9,
       "uniqueGuidance": 8,
-      "uniqueTrigrams": 165,
+      "uniqueTrigrams": 159,
       "heroSrc": "/media/products/wrp-p003-720.webp",
       "heroAlt": "White PVC sliding patio door system",
       "specificationSignature": "pvc vinyl|horizontal sliding patio door|insulated glass package confirmed by system|system dependent available options include deeper replacement frames",
@@ -7183,13 +7183,13 @@
       "reference": "WRP-P004",
       "name": "Aluminum Sliding Patio Door",
       "category": "patio-doors",
-      "editorialWordCount": 216,
+      "editorialWordCount": 209,
       "guidanceWordCount": 109,
-      "factCount": 12,
-      "uniqueFacts": 7,
+      "factCount": 11,
+      "uniqueFacts": 6,
       "uniqueEditorial": 9,
       "uniqueGuidance": 8,
-      "uniqueTrigrams": 169,
+      "uniqueTrigrams": 167,
       "heroSrc": "/media/products/wrp-p004-720.webp",
       "heroAlt": "Dark aluminum sliding patio door system",
       "specificationSignature": "aluminum|horizontal sliding patio door|panel layouts and maximum sizes vary|insulated glass package confirmed by system",
@@ -7199,13 +7199,13 @@
       "reference": "WRP-P005",
       "name": "Hybrid Patio Door",
       "category": "patio-doors",
-      "editorialWordCount": 208,
+      "editorialWordCount": 201,
       "guidanceWordCount": 110,
-      "factCount": 12,
-      "uniqueFacts": 10,
+      "factCount": 11,
+      "uniqueFacts": 9,
       "uniqueEditorial": 9,
       "uniqueGuidance": 8,
-      "uniqueTrigrams": 178,
+      "uniqueTrigrams": 171,
       "heroSrc": "/media/products/wrp-p005-720.webp",
       "heroAlt": "Hybrid-material sliding patio door",
       "specificationSignature": "hybrid multi material construction|sliding patio door|panel layouts vary by selected system|insulated glass package confirmed by system",
@@ -7215,13 +7215,13 @@
       "reference": "WRP-P006",
       "name": "Slim-Frame Aluminum Patio Door",
       "category": "patio-doors",
-      "editorialWordCount": 219,
+      "editorialWordCount": 213,
       "guidanceWordCount": 115,
-      "factCount": 12,
-      "uniqueFacts": 8,
+      "factCount": 11,
+      "uniqueFacts": 7,
       "uniqueEditorial": 9,
       "uniqueGuidance": 8,
-      "uniqueTrigrams": 175,
+      "uniqueTrigrams": 171,
       "heroSrc": "/media/products/wrp-p006-720.webp",
       "heroAlt": "Black slim-frame aluminum sliding patio door",
       "specificationSignature": "aluminum|slim frame contemporary direction|horizontal sliding patio door|insulated glass package confirmed by system",
@@ -7279,13 +7279,13 @@
       "reference": "WRP-W004",
       "name": "Double-Hung Window",
       "category": "windows",
-      "editorialWordCount": 229,
+      "editorialWordCount": 221,
       "guidanceWordCount": 128,
-      "factCount": 12,
-      "uniqueFacts": 9,
+      "factCount": 11,
+      "uniqueFacts": 8,
       "uniqueEditorial": 9,
       "uniqueGuidance": 8,
-      "uniqueTrigrams": 174,
+      "uniqueTrigrams": 172,
       "heroSrc": "/media/products/wrp-w004-1200.webp",
       "heroAlt": "White double-hung replacement window with two sliding sashes",
       "specificationSignature": "vinyl upvc|double hung|double or triple pane insulated glass options|screen configuration varies by system",
@@ -7301,7 +7301,7 @@
       "uniqueFacts": 5,
       "uniqueEditorial": 9,
       "uniqueGuidance": 8,
-      "uniqueTrigrams": 160,
+      "uniqueTrigrams": 162,
       "heroSrc": "/media/products/wrp-w005-1200.webp",
       "heroAlt": "White single-hung replacement window with one sliding sash",
       "specificationSignature": "vinyl upvc|single hung|double or triple pane insulated glass options|approximately 3 1 4 in",
@@ -7311,13 +7311,13 @@
       "reference": "WRP-W006",
       "name": "Double Slider Window",
       "category": "windows",
-      "editorialWordCount": 222,
+      "editorialWordCount": 214,
       "guidanceWordCount": 117,
-      "factCount": 12,
-      "uniqueFacts": 9,
+      "factCount": 11,
+      "uniqueFacts": 8,
       "uniqueEditorial": 8,
       "uniqueGuidance": 7,
-      "uniqueTrigrams": 175,
+      "uniqueTrigrams": 171,
       "heroSrc": "/media/products/wrp-w006-1200.webp",
       "heroAlt": "White double slider replacement window with two operating sashes",
       "specificationSignature": "vinyl upvc|double horizontal slider|double or triple pane insulated glass options|full width or system specific screen",
@@ -7343,13 +7343,13 @@
       "reference": "WRP-W008",
       "name": "Picture Window",
       "category": "windows",
-      "editorialWordCount": 219,
+      "editorialWordCount": 212,
       "guidanceWordCount": 115,
-      "factCount": 12,
-      "uniqueFacts": 6,
+      "factCount": 11,
+      "uniqueFacts": 5,
       "uniqueEditorial": 8,
       "uniqueGuidance": 7,
-      "uniqueTrigrams": 174,
+      "uniqueTrigrams": 167,
       "heroSrc": "/media/products/wrp-w008-1200.webp",
       "heroAlt": "Large white fixed picture replacement window",
       "specificationSignature": "vinyl upvc|fixed non operating|standalone or combined with operating windows|double or triple pane insulated glass options",
@@ -7359,13 +7359,13 @@
       "reference": "WRP-W009",
       "name": "Casement-Profile Fixed Window",
       "category": "windows",
-      "editorialWordCount": 222,
+      "editorialWordCount": 214,
       "guidanceWordCount": 120,
-      "factCount": 12,
-      "uniqueFacts": 6,
+      "factCount": 11,
+      "uniqueFacts": 5,
       "uniqueEditorial": 8,
       "uniqueGuidance": 7,
-      "uniqueTrigrams": 162,
+      "uniqueTrigrams": 156,
       "heroSrc": "/media/products/wrp-w009-1200.webp",
       "heroAlt": "White fixed window with a casement-style frame profile",
       "specificationSignature": "vinyl upvc|fixed non operating|double or triple pane insulated glass options|approximately 3 1 4 in system dependent",

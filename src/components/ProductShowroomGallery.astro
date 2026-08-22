@@ -1,0 +1,71 @@
+---
+import type { PublicMedia } from '../data/public-catalog';
+
+interface Props {
+  reference: string;
+  primary: PublicMedia;
+  gallery: PublicMedia[];
+}
+
+const { reference, primary, gallery } = Astro.props;
+const media = [primary, ...gallery].filter((item, index, items) => items.findIndex(candidate => candidate.src === item.src) === index);
+---
+<div class="showroom-gallery" data-showroom-gallery>
+  <figure class="showroom-gallery__stage">
+    <img
+      src={media[0].src}
+      srcset={media[0].srcset}
+      sizes="(max-width: 820px) 100vw, 48vw"
+      width={media[0].width}
+      height={media[0].height}
+      alt={media[0].alt}
+      loading="eager"
+      fetchpriority="high"
+      decoding="async"
+      data-showroom-main
+    />
+    <figcaption data-showroom-caption>{media[0].alt}</figcaption>
+  </figure>
+  {media.length > 1 && (
+    <div class="showroom-gallery__thumbs" role="list" aria-label={`${reference} product views`}>
+      {media.map((item, index) => (
+        <button
+          type="button"
+          class:list={['showroom-gallery__thumb', index === 0 && 'is-selected']}
+          aria-label={`Show ${item.alt}`}
+          aria-pressed={index === 0 ? 'true' : 'false'}
+          data-src={item.src}
+          data-srcset={item.srcset}
+          data-width={item.width}
+          data-height={item.height}
+          data-alt={item.alt}
+        >
+          <img src={item.src} srcset={item.srcset} sizes="88px" width={item.width} height={item.height} alt="" loading={index === 0 ? 'eager' : 'lazy'} decoding="async" />
+        </button>
+      ))}
+    </div>
+  )}
+</div>
+
+<script>
+  for (const gallery of document.querySelectorAll<HTMLElement>('[data-showroom-gallery]')) {
+    const main = gallery.querySelector<HTMLImageElement>('[data-showroom-main]');
+    const caption = gallery.querySelector<HTMLElement>('[data-showroom-caption]');
+    if (!main) continue;
+    for (const button of gallery.querySelectorAll<HTMLButtonElement>('[data-src]')) {
+      button.addEventListener('click', () => {
+        main.src = button.dataset.src ?? main.src;
+        main.srcset = button.dataset.srcset ?? '';
+        main.alt = button.dataset.alt ?? '';
+        main.width = Number(button.dataset.width ?? main.width);
+        main.height = Number(button.dataset.height ?? main.height);
+        if (caption) caption.textContent = main.alt;
+        for (const candidate of gallery.querySelectorAll<HTMLButtonElement>('[data-src]')) {
+          const selected = candidate === button;
+          candidate.classList.toggle('is-selected', selected);
+          candidate.setAttribute('aria-pressed', String(selected));
+        }
+      });
+    }
+  }
+</script>

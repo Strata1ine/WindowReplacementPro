@@ -25,6 +25,7 @@ const screenshotRoutes = [
   ['steel-entry-doors', '/doors/steel-entry-doors/'],
   ['window-product', '/products/windows/slim-frame-casement-window/'],
   ['entry-door-product', '/products/entry-doors/two-panel-fiberglass-entry-door/'],
+  ['oak-grain-showroom', '/products/entry-doors/oak-grain-fiberglass-entry-door/'],
   ['door-glass-product', '/products/door-glass/black-linear-privacy-door-glass/'],
   ['patio-door-product', '/products/patio-doors/multi-panel-sliding-patio-door/']
 ];
@@ -280,6 +281,7 @@ try {
     ['category-content.txt', 'node', ['scripts/category-content-audit.mjs'], { AUDIT_OUTPUT_DIR: audits }],
     ['public-copy.txt', 'node', ['scripts/audit-public-copy.mjs']],
     ['product-content.txt', 'node', ['scripts/product-content-audit.mjs'], { AUDIT_OUTPUT_DIR: audits }],
+    ['product-showroom.txt', 'node', ['--experimental-strip-types', 'scripts/product-showroom-audit.mjs'], { AUDIT_OUTPUT_DIR: audits }],
     ['supplier-leakage.txt', 'node', ['scripts/audit-public-supplier-leakage.mjs']],
     ['taxonomy-validation.txt', python, ['scripts/validate-taxonomy.py']],
     ['route-sitemap-verification.txt', python, ['scripts/verify-build.py']],
@@ -287,6 +289,7 @@ try {
   ];
   for (const [filename, command, args, env] of auditCommands) { console.log(`Running ${filename}...`); const output = await run(command, args, { capture: true, env }); await writeFile(path.join(audits, filename), output.stdout + output.stderr, 'utf8'); }
   const productAudit = JSON.parse(await readFile(path.join(audits, 'product-content.json'), 'utf8'));
+  const showroomAudit = JSON.parse(await readFile(path.join(audits, 'product-showroom-report.json'), 'utf8'));
   const { server, localOrigin } = await staticServer(); let screenshotResults;
   try { screenshotResults = await screenshots(review, localOrigin); } finally { await new Promise(resolve => server.close(resolve)); }
   await writeFile(path.join(audits, 'screenshot-qa.json'), JSON.stringify({ generatedAt, screenshots: screenshotResults }, null, 2) + '\n');
@@ -312,7 +315,19 @@ ${list(productAudit.pairs.slice(0, 15), pair => `- ${(pair.score * 100).toFixed(
 
 ${list(productAudit.repeatedSentences, item => `- ${item.count} pages (${item.references.join(', ')}): ${item.text}`)}
 
-## Pages missing structured data (${noSchema.length})\n\n${list(noSchema, page => `- ${page.url}`)}\n\n## Duplicate titles (${duplicates.titles.length} groups)\n\n${list(duplicates.titles, group => `- ${group.value}: ${group.urls.join(', ')}`)}\n\n## Duplicate descriptions (${duplicates.descriptions.length} groups)\n\n${list(duplicates.descriptions, group => `- ${group.value}: ${group.urls.join(', ')}`)}\n\n## Duplicate H1s (${duplicates.h1s.length} groups)\n\n${list(duplicates.h1s, group => `- ${group.value}: ${group.urls.join(', ')}`)}\n\n## Broken internal links (${broken.length})\n\n${list(broken, item => `- ${item.source} → ${item.href} (${item.reason})`)}\n\n## Pages with suspiciously truncated copy (${suspicious.length})\n\n${list(suspicious, page => `- ${page.url}`)}\n\n## Bundle contents\n\n- routes.json: route inventory\n- html/: built HTML for every indexable sitemap route\n- text/: public-content extracts for every route\n- screenshots/: full-page 390 px and 1440 px captures\n- audits/: content, copy, confidentiality, taxonomy, route/sitemap, link, metadata, schema, similarity, screenshot, and integrity reports\n`;
+## Product showroom richness
+
+- Showroom-ready products: ${showroomAudit.counts['showroom-ready']}
+- Adequate products: ${showroomAudit.counts.adequate}
+- Media-limited products: ${showroomAudit.counts['media-limited']}
+- Evidence-limited products: ${showroomAudit.counts['evidence-limited']}
+- Requires-review products: ${showroomAudit.counts['requires-review']}
+- Unique verified showroom media: ${showroomAudit.totals.uniqueShowroomMedia}
+- Customer-facing configurations/options: ${showroomAudit.totals.customerFacingConfigurations}
+- Products with only one useful image: ${showroomAudit.totals.productsWithOnlyOneImage}
+- Products without technical/layout media: ${showroomAudit.totals.productsWithoutTechnicalOrLayoutMedia}
+
+## Pages missing structured data (${noSchema.length})\n\n${list(noSchema, page => `- ${page.url}`)}\n\n## Duplicate titles (${duplicates.titles.length} groups)\n\n${list(duplicates.titles, group => `- ${group.value}: ${group.urls.join(', ')}`)}\n\n## Duplicate descriptions (${duplicates.descriptions.length} groups)\n\n${list(duplicates.descriptions, group => `- ${group.value}: ${group.urls.join(', ')}`)}\n\n## Duplicate H1s (${duplicates.h1s.length} groups)\n\n${list(duplicates.h1s, group => `- ${group.value}: ${group.urls.join(', ')}`)}\n\n## Broken internal links (${broken.length})\n\n${list(broken, item => `- ${item.source} → ${item.href} (${item.reason})`)}\n\n## Pages with suspiciously truncated copy (${suspicious.length})\n\n${list(suspicious, page => `- ${page.url}`)}\n\n## Bundle contents\n\n- routes.json: route inventory\n- html/: built HTML for every indexable sitemap route\n- text/: public-content extracts for every route\n- screenshots/: full-page 390 px and 1440 px captures\n- audits/: content, product-showroom, copy, confidentiality, taxonomy, route/sitemap, link, metadata, schema, similarity, screenshot, and integrity reports\n`;
   await writeFile(path.join(review, 'summary.md'), summary, 'utf8');
   const staged = await walk(review), leaked = [];
   for (const file of staged) {
@@ -327,7 +342,7 @@ ${list(productAudit.repeatedSentences, item => `- ${item.count} pages (${item.re
   await rm(bundle, { force: true });
   const zip = `import os,sys,zipfile\nsource,out=sys.argv[1:3]\ntmp=out+'.tmp'\nwith zipfile.ZipFile(tmp,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:\n for base,dirs,files in os.walk(source):\n  dirs.sort();files.sort()\n  for name in files:\n   full=os.path.join(base,name);z.write(full,os.path.relpath(full,os.path.dirname(source)).replace(os.sep,'/'))\nos.replace(tmp,out)`;
   await run(python, ['-c', zip, review, bundle]);
-  const validate = `import sys,zipfile\nz=zipfile.ZipFile(sys.argv[1]);n=z.namelist();count=int(sys.argv[2])\nassert 'site-review/summary.md' in n and 'site-review/routes.json' in n\nassert len([x for x in n if x.startswith('site-review/html/') and x.endswith('.html')])==count\nassert len([x for x in n if x.startswith('site-review/text/') and x.endswith('.txt')])==count\nassert len([x for x in n if x.startswith('site-review/screenshots/mobile/') and x.endswith('.png')])==18\nassert len([x for x in n if x.startswith('site-review/screenshots/desktop/') and x.endswith('.png')])==18\nassert not [x for x in n if any(p in x.lower().split('/') for p in ('source-media','node_modules','.git'))]\nprint('ZIP validation: OK (%d entries)'%len(n))`;
+  const validate = `import sys,zipfile\nz=zipfile.ZipFile(sys.argv[1]);n=z.namelist();count=int(sys.argv[2])\nassert 'site-review/summary.md' in n and 'site-review/routes.json' in n\nassert len([x for x in n if x.startswith('site-review/html/') and x.endswith('.html')])==count\nassert len([x for x in n if x.startswith('site-review/text/') and x.endswith('.txt')])==count\nassert len([x for x in n if x.startswith('site-review/screenshots/mobile/') and x.endswith('.png')])==19\nassert len([x for x in n if x.startswith('site-review/screenshots/desktop/') and x.endswith('.png')])==19\nassert not [x for x in n if any(p in x.lower().split('/') for p in ('source-media','node_modules','.git'))]\nprint('ZIP validation: OK (%d entries)'%len(n))`;
   await run(python, ['-c', validate, bundle, String(pages.length)]);
   const size = (await stat(bundle)).size;
   console.log(`Audit bundle: ${bundle}`); console.log(`Audit bundle size: ${size} bytes (${(size / 1024 / 1024).toFixed(2)} MiB)`);
