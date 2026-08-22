@@ -20,6 +20,7 @@
     "qa:homepage": "node scripts/homepage-browser-qa.mjs",
     "qa:category": "npm run qa:homepage && node scripts/category-visual-qa-report.mjs",
     "qa:products": "node scripts/product-browser-qa.mjs",
+    "qa:mobile-nav": "node scripts/mobile-navigation-browser-qa.mjs",
     "ingest:audit": "npm run validate:catalog",
     "validate:catalog": "python scripts/ingest/audit.py && python scripts/enrichment-audit.py",
     "test:catalog": "node --experimental-strip-types scripts/tests/catalog-merge.test.ts",
@@ -46,7 +47,7 @@
     "audit:product-showroom": "node --experimental-strip-types scripts/product-showroom-audit.mjs",
     "audit:bundle": "node scripts/audit-bundle.mjs",
     "audit:structured-data": "node scripts/audit-structured-data.mjs",
-    "verify": "npm run check && npm run validate:catalog && npm run validate:taxonomy && npm run test && npm run build && npm run audit:core-content && npm run audit:category-content && npm run audit:public-copy && npm run audit:product-content && npm run audit:product-showroom && npm run audit:structured-data && npm run validate:build",
+    "verify": "npm run check && npm run validate:catalog && npm run validate:taxonomy && npm run test && npm run build && npm run qa:mobile-nav && npm run audit:core-content && npm run audit:category-content && npm run audit:public-copy && npm run audit:product-content && npm run audit:product-showroom && npm run audit:structured-data && npm run validate:build",
     "generate:public-catalogue": "node scripts/generate-public-catalogue.mjs"
   },
   "engines": {
